@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kb2468871 on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/kb2468871/</link>
+    <description>Recent content in kb2468871 on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 Aug 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/kb2468871/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Taming Portable Class Libraries and .NET Framework 4</title>
+      <link>https://nicolaiarocci.com/taming-portable-class-libraries-and-net-framework-4/</link>
+      <pubDate>Thu, 28 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/taming-portable-class-libraries-and-net-framework-4/</guid>
+      <description>&lt;p&gt;If your project is a Portable Class Library and you want it to run with the .NET Framework 4 well, you are in for a few surprises. Especially so if you are using InstallShield for building your deployment package. We’ve been going through this a few days ago and it’s been kind of a wild ride. I thought I could pin the whole thing down so that others might enjoy a painless journey through all this mess.&lt;/p&gt;
+&lt;h2 id=&#34;portable-class-libraries-and-net-framework-4&#34;&gt;Portable Class Libraries and .NET Framework 4&lt;/h2&gt;
+&lt;p&gt;The first thing you should know is that while the .NET Framework 4 does support PCLs, in fact it won’t run them without a patch. For whatever reason, Microsoft decided that PCL compatibility wasn’t a worth a 4.0.4 update. That leaves us with the need to not only make sure that target machines are running the up-to-date .NET4 release (v4.0.3) but also that they’ve been updated with &lt;!-- raw HTML omitted --&gt;KB2468871&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
+&lt;p&gt;You might be wondering why this is an issue in the first place. We could simply install the .NET Framework 4.5 which is backward compatible with the .NET4 and includes the afore mentioned KB2468871. Even better, we could just target the .NET 4.5 on our PCL. Problem is that besides iOS, Android, WinPhone and Silverlight we also want our libraries to run seamlessly on as many Windows editions as possible, Windows XP included. Here is the catch: &lt;!-- raw HTML omitted --&gt;.NET4 is the last framework version to run on Windows XP&lt;!-- raw HTML omitted --&gt;. And yes, we got the memo, Microsoft officially abandoned Windows XP a while ago so why bother? Well it turns out that millions of users are still running XP, especially so in the enterprise and SMB. These PCL are targeting exactly that, precisely the accounting software segment, and believe me there’s a huge number of users happily invoicing and accounting on their &lt;em&gt;old-fart-but-still-splendidly-doing-its-job-for-cheap&lt;/em&gt; boxes. Oh and the .NET Framework 3.5 is not an option as it doesn’t support Portable Classes at all.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>open source on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/open-source/</link>
+    <description>Recent content in open source on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 27 Oct 2023 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FatturaElettronica for .NET v3.4.11</title>
+      <link>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.11/</link>
+      <pubDate>Fri, 27 Oct 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.11/</guid>
+      <description>Fattura Elettronica for .NET v3.4.11 was released on NuGet today. The Fattura Elettronica project allows for the fixes a missing validation point. See the changelog for details (Italian). validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. This release
+Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+    </item>
+    <item>
+      <title>The Legacy of Bram Moolenaar</title>
+      <link>https://nicolaiarocci.com/the-legacy-of-bram-moolenaar/</link>
+      <pubDate>Fri, 11 Aug 2023 08:55:35 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/the-legacy-of-bram-moolenaar/</guid>
+      <description>Quoting Jan van den Berg:
+This weekend we learned that Bram Moolenaar had passed away at the age of 62. And this news affected me more than I expected. Like so many: I did not know Bram personally. But I’ve been using a tool made by Bram for more than half my life — at least weekly, sometimes daily. That tool is a text editor. The best one there is: Vim.</description>
+    </item>
+    <item>
+      <title>Cerberus v1.3.5 released</title>
+      <link>https://nicolaiarocci.com/cerberus-v1.3.5-released/</link>
+      <pubDate>Thu, 10 Aug 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/cerberus-v1.3.5-released/</guid>
+      <description>Thanks to funkyfuture&amp;rsquo;s tireless work, yesterday we released version 1.3.5 of Cerberus, the data validation package for Python. This release officially supports Python 3.10 and 3.11, fixes a few issues, and proudly displays a new documentation theme which I dig, and I hope you&amp;rsquo;ll do the same. As usual, see the changelog for details.
+Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+    </item>
+    <item>
+      <title>FatturaElettronica for .NET v3.4.10</title>
+      <link>https://nicolaiarocci.com/fattura-elettronica-for-dotnet-v3.4.10/</link>
+      <pubDate>Thu, 03 Aug 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/fattura-elettronica-for-dotnet-v3.4.10/</guid>
+      <description>Fattura Elettronica for .NET v3.4.10 was released on NuGet today. The Fattura Elettronica project allows for the validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. This release adds a missing validation point. See the changelog for details (Italian).
+Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+    </item>
+    <item>
+      <title>Events 0.5 released</title>
+      <link>https://nicolaiarocci.com/events-0.5-released/</link>
+      <pubDate>Mon, 31 Jul 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/events-0.5-released/</guid>
+      <description>Today I released Events 0.5. Thanks to Cailean Parker&amp;rsquo;s contribution, we added support for the __getitem__ dunder (aka Python magic method.) This allows the calling of events from strings, thus enabling dynamic events. For instance:
+events = Events(tuple(f&amp;#34;on_{i}&amp;#34; for i in range(5))) for i in range(5): events[f&amp;#34;on_{i}&amp;#34;](i) The C# language provides a handy way to declare, subscribe to and fire events. In C#, an event is a &amp;ldquo;slot&amp;rdquo; to which callback functions (event handlers) can be attached - a process referred to as subscribing to an event.</description>
+    </item>
+    <item>
+      <title>FatturaElettronica for .NET v3.4.8</title>
+      <link>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.8/</link>
+      <pubDate>Tue, 02 May 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.8/</guid>
+      <description>Fattura Elettronica for .NET v3.4.8 was released on NuGet today. The Fattura Elettronica project allows for the validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. As with the previous one, this release also addresses a small undocumented behavior in validating the invoice. See the relevant ticket for the details.
+Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+    </item>
+    <item>
+      <title>FatturaElettronica for .NET v3.4.7</title>
+      <link>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.7/</link>
+      <pubDate>Wed, 05 Apr 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.7/</guid>
+      <description>Fattura Elettronica for .NET v3.4.7 was released on NuGet today. The Fattura Elettronica project allows for the validation and de/serialization of electronic invoices adhering to the canon defined by the Italian Revenue Agency.
+This release refines how the one-cent tolerance is accounted for in validation checks of types 00421 and 00423. As is often the case, there are subtle differences between the theoretical implementation defined in the official specs and the actual validation implemented by the same Agency that released said specs.</description>
+    </item>
+    <item>
+      <title>Eve 2.1.0 has just been released</title>
+      <link>https://nicolaiarocci.com/eve-2.1.0-has-just-been-released/</link>
+      <pubDate>Tue, 14 Mar 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/eve-2.1.0-has-just-been-released/</guid>
+      <description>Today I released Eve v2.1, which comes with official Flask 2.2+ support and the ability to modify the pagination limit on a per-resource basis thanks to the new pagination_limit setting. You can find the release on PyPI, while the changelog is available here—special thanks to Pieter De Clercq and smeng9 for the help with this release.
+Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+    </item>
+    <item>
+      <title>Eve 2.0.4 released</title>
+      <link>https://nicolaiarocci.com/eve-2.0.4-released/</link>
+      <pubDate>Thu, 10 Nov 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/eve-2.0.4-released/</guid>
+      <description>I just released Eve 2.0.4, the REST API framework for #python. It&amp;rsquo;s available on PyPI and includes a relevant security fix so you might want to update ASAP.
+Package info Docs Subscribe to the newsletter, the RSS feed, or follow @nicolaiarocci on Twitter</description>
+    </item>
+    <item>
+      <title>Eve 2.0.2 released</title>
+      <link>https://nicolaiarocci.com/eve-2.0.2-released/</link>
+      <pubDate>Fri, 23 Sep 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/eve-2.0.2-released/</guid>
+      <description>Eve 2.0.2 was just released today. It fixes a problem introduced with v2.0 in which ETag generation failed if uuidRepresentation was not set in MONGO_OPTIONS. See issue #1486 for details. Many thanks @tgm for reporting and then contributing the fix.
+Subscribe to the newsletter, the RSS feed, or follow @nicolaiarocci on Twitter</description>
+    </item>
+    <item>
+      <title>FatturaElettronica v3.4 released</title>
+      <link>https://nicolaiarocci.com/fatturaelettronica-v3.4-released/</link>
+      <pubDate>Fri, 09 Sep 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/fatturaelettronica-v3.4-released/</guid>
+      <description>Today I released v3.4 of FatturaElettronica, a .NET open source project that allows validation and de/serialization of electronic invoices adhering to the standard defined by the Italian &amp;ldquo;Agenzia delle Entrate&amp;rdquo;. It&amp;rsquo;s doing very well for such a niche project, with downloads now well beyond the one hundred thousand mark.
+Be aware that this release anticipates support for v1.7.1 of the specification going into effect on October 1, 2022. For more information, see the appropriate ticket and the changelog.</description>
+    </item>
+    <item>
+      <title>The Docker Event Monitor</title>
+      <link>https://nicolaiarocci.com/the-docker-event-monitor/</link>
+      <pubDate>Thu, 08 Sep 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-docker-event-monitor/</guid>
+      <description>How to get alerted when a docker container goes down, or (many) other things happen to it</description>
+    </item>
+    <item>
+      <title>Eve 2.0.1 released</title>
+      <link>https://nicolaiarocci.com/eve-2.0.1-released/</link>
+      <pubDate>Wed, 07 Sep 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/eve-2.0.1-released/</guid>
+      <description>Today I released Eve 2.0.1, which contains an essential fix if you&amp;rsquo;re using MONGO_URI to connect to your MongoDB instance. See the relevant ticket for details. I&amp;rsquo;ve also pinned Flask dependency to v2.1, as v2.2 brings some breaking changes that, you guessed it, break our CI runs. If you think you can help wiht that, please do so. The complete changelog is available here.
+Subscribe to the newsletter, the RSS feed, or follow @nicolaiarocci on Twitter</description>
+    </item>
+    <item>
+      <title>How I stopped Spotify from draining both my RAM and CPU</title>
+      <link>https://nicolaiarocci.com/how-i-stopped-spotify-from-draining-both-my-ram-and-cpu/</link>
+      <pubDate>Mon, 05 Sep 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/how-i-stopped-spotify-from-draining-both-my-ram-and-cpu/</guid>
+      <description>A few days ago, I was browsing my Twitter feed when a suggestion from my friend @flaper87 caught my attention:
+On my &amp;ldquo;comfortably old&amp;rdquo; MacBook Pro1, Spotify has been an absolute hog. The simple act of opening it will require three hundred MBs. That&amp;rsquo;s a remarkable amount of memory for staying idle and doing nothing useful. Let it play for a few hours, and have fun glancing at CPU and RAM usage ramping up like there&amp;rsquo;s no tomorrow.</description>
+    </item>
+    <item>
+      <title>&#34;A project you maintain has been designated as critical&#34;</title>
+      <link>https://nicolaiarocci.com/a-project-you-maintain-has-been-designated-as-critical/</link>
+      <pubDate>Mon, 18 Jul 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/a-project-you-maintain-has-been-designated-as-critical/</guid>
+      <description>Last week, I got a mail from PyPI, the Python package index. They informed me that one of my open source projects had been designated as &amp;lsquo;critical,&amp;rsquo; and I was therefore required to enable two-factor authentication. If I didn&amp;rsquo;t oblige, I would soon lose the ability to add new releases or modify the project.
+The project in question was Cerberus. The &amp;lsquo;critical&amp;rsquo; designation happens when a project has been in the top 1% of downloads over the prior six months.</description>
+    </item>
+    <item>
+      <title>Eve 2.0 released</title>
+      <link>https://nicolaiarocci.com/eve-2.0-released/</link>
+      <pubDate>Wed, 08 Jun 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/eve-2.0-released/</guid>
+      <description>It&amp;rsquo;s been a long time coming, but I&amp;rsquo;m glad to announce that Eve 2 has finally been released today. This release drops support for Python 2, Python 3.5 and Python 3.6 hence the major version bump. Other than that, expect some fixes, a new uuidRepresentation setting for MONGO_OPTIONS, and an alignment to the latest Werkzeug/PyMongo idiosyncrasies. The full changelog is available on the project website.
+The Eve project has been out for ten years.</description>
+    </item>
+    <item>
+      <title>Eve-Swagger v0.2 released</title>
+      <link>https://nicolaiarocci.com/eve-swagger-v0.2-released/</link>
+      <pubDate>Tue, 17 May 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/eve-swagger-v0.2-released/</guid>
+      <description>I just released Eve-Swagger v0.2 on PyPI. Eve-Swagger is a Swagger/OpenAPI extension for Eve powered RESTful APIs. This maintenance release addresses a few issues and adds support for eve-auth-jwt. Many thanks to Roberto Romero for his contributions to this release.
+Subscribe to the newsletter, the RSS feed, or follow @nicolaiarocci on Twitter</description>
+    </item>
+    <item>
+      <title>Work in progress on Eve 2.0</title>
+      <link>https://nicolaiarocci.com/work-in-progress-on-eve-2.0/</link>
+      <pubDate>Sun, 13 Feb 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/work-in-progress-on-eve-2.0/</guid>
+      <description>I&amp;rsquo;ve been back at the forge working on Eve 2.0. Version 2 will support Python 3.7+ and drop Python 2.7, 3.5 and 3.6. It will bring support for PyMongo 4+ as well, along with several other minor fixes and improvements (changelog). It would be nice if you guys and gals, users of Eve, would give it a spin before the release.
+I know. I recently stated that Eve was in maintenance mode.</description>
+    </item>
+    <item>
+      <title>Is Eve still maintained?</title>
+      <link>https://nicolaiarocci.com/is-eve-still-maintained/</link>
+      <pubDate>Sat, 06 Nov 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/is-eve-still-maintained/</guid>
+      <description>Tonight someone opened a ticket on the Eve repository. I jotted down a quick reply and was about to hit the Comment button when I thought a more articulated reply was in order. I also want it published on my website.
+So the question is:
+Is Eve still maintained?
+My reply goes like this:
+Hello, yes, Eve is in &amp;lsquo;maintenance mode&amp;rsquo;, as I call it. I don&amp;rsquo;t actively develop new features anymore.</description>
+    </item>
+    <item>
+      <title>Drama going on at the .NET Foundation</title>
+      <link>https://nicolaiarocci.com/drama-going-on-at-the-.net-foundation/</link>
+      <pubDate>Thu, 07 Oct 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/drama-going-on-at-the-.net-foundation/</guid>
+      <description>A few months after I released my first .NET open source project (a niche one targeting the Italian fintech world), I was contacted by a representative of Team Digitale, the digital innovation branch of the Italian Public Administration. He suggested joining the Developers Italia initiative and moving my project to the their organization on GitHub &amp;ldquo;to enjoy enhanced visibility and broaden the audience&amp;rdquo;. I politely refused. I did not doubt my counterpart&amp;rsquo;s good faith.</description>
+    </item>
+    <item>
+      <title>My DotNetPodcast interview</title>
+      <link>https://nicolaiarocci.com/my-dotnetpodcast-interview/</link>
+      <pubDate>Tue, 06 Jul 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/my-dotnetpodcast-interview/</guid>
+      <description>Today I was interviewed by Mauro Servienti on the DotNetPodcast. The theme was my experience as an open-source maintainer on both the Python and C# stacks. We also discussed the ongoing evolution of the dotNET ecosystem, touching on a few tangent topics.
+The recording is in Italian and is available below here.
+Listen to &amp;ldquo;Python, Eve, open source e fattura elettronica. Con Nicola Iarocci&amp;rdquo; on Spreaker.
+Subscribe to the newsletter, the RSS feed, or follow @nicolaiarocci on Twitter</description>
+    </item>
+    <item>
+      <title>Open Source: What Happens When the Free Lunch Ends?</title>
+      <link>https://nicolaiarocci.com/open-source-what-happens-when-the-free-lunch-ends/</link>
+      <pubDate>Fri, 04 Jun 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/open-source-what-happens-when-the-free-lunch-ends/</guid>
+      <description>The article I&amp;rsquo;m linking today is authored by Aaron Stannard and focuses on the drama currently going on in the .NET Open Source ecosystem. We&amp;rsquo;ve all been there. A dependency we took aeons ago goes unmaintained or changes its licensing model. Why does this happen? Because at some point, projects need to become sustainable or else they fail.
+[&amp;hellip;] it&amp;rsquo;s inexpensive for maintainers to support a small number of users with relatively similar demands - but once a project achieves critical mass and the demand on the maintainers exceeds their desire to supply, something will have to give.</description>
+    </item>
+    <item>
+      <title>Eve and Cerberus are now collaboratively funded projects</title>
+      <link>https://nicolaiarocci.com/eve-and-cerberus-are-now-collaboratively-funded-projects/</link>
+      <pubDate>Sun, 05 Mar 2017 10:10:29 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/eve-and-cerberus-are-now-collaboratively-funded-projects/</guid>
+      <description>I finally took the plunge and made Eve and Cerberus collaboratively funded projects. Even if only mildly successful, this initiative will have a huge impact on them, as I will be able to dedicate them at least some of my working time.
+So far (five years and counting) I have almost exclusively been working on Eve and Cerberus in my free time. However maintaining, supporting, and developing new features to projects of this scope takes a considerable amount of time.</description>
+    </item>
+    <item>
+      <title>Eve SDK for .NET v0.2 is out in the wild</title>
+      <link>https://nicolaiarocci.com/eve-sdk-for-net-v0-2-is-out-in-the-wild/</link>
+      <pubDate>Tue, 02 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/eve-sdk-for-net-v0-2-is-out-in-the-wild/</guid>
+      <description>I just released a long overdue update to Eve.NET. This release marks a significant improvement over the previous one, which was more a prototype than a real package. New features are as follows:
+PostAsync() supports bulk inserts DeleteAsync() supports bulk deletes GetAsync() has a softDelete option to include soft-deleted documents with query results GetAsync() has a rawQuery option to pass raw Eve queries to the server BearerAuthenticator class adds support for Bearer Token authentication Several fixes made it into this release and, most importantly, I switched to portable Profile259 which offers support for the following platforms: Xamarin.</description>
+    </item>
+    <item>
+      <title>Introducing SimpleObjectCache a simple cross-platform object cache for .NET systems</title>
+      <link>https://nicolaiarocci.com/introducing-simpleobjectcache-a-simple-cross-platform-object-cache-for-net-systems/</link>
+      <pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/introducing-simpleobjectcache-a-simple-cross-platform-object-cache-for-net-systems/</guid>
+      <description>SimpleObjectCache is a very simple permanent, cross-platform, asynchronous key-value object cache for .NET. It comes with built-in SQLite 3 support. Alternative backends can be added by implementing the IObjectCache or IBulkObjectCache interfaces.
+How it works First, you need to set the ApplicatioName. This is also going to be the folder where your cache will reside. Depending on the host OS the location of this folder might be different. On Windows it would be something like C:\ProgramData\&amp;lt;ApplicationName&amp;gt;\SimpleObjectCache.</description>
+    </item>
+    <item>
+      <title>EveGenie makes Eve schema generation a breeze</title>
+      <link>https://nicolaiarocci.com/evegenie-makes-eve-schema-generation-breeze/</link>
+      <pubDate>Wed, 15 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/evegenie-makes-eve-schema-generation-breeze/</guid>
+      <description>Released by the nice folks at Drud, EveGenie is a tool for making Eve schema generation easier.
+Eve’s schema definitions are full of features, but can take a good amount of time to create when dealing with lots of complex resources. From our experience, it’s often helpful to describe an endpoint in JSON before creating it as an Eve schema. This allows you to make quick decisions about the structure of your entities without spending time moving schema code around.</description>
+    </item>
+    <item>
+      <title>Eve REST API Framework v0.6.4 now available</title>
+      <link>https://nicolaiarocci.com/eve-0-6-4-just-released/</link>
+      <pubDate>Wed, 08 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/eve-0-6-4-just-released/</guid>
+      <description>Quick note to let you all know that Eve v0.6.4 is out with a few significant updates. Thanks to James Stewart for contributing to this release.
+Work on v0.7, which will include MongoDB Aggregation Framework support (docs) and many other new features, continues steadily.</description>
+    </item>
+    <item>
+      <title>Cerberus 1.0 is coming and it is going to be awesome</title>
+      <link>https://nicolaiarocci.com/cerberus-1-0-coming-going-awesome/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/cerberus-1-0-coming-going-awesome/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://python-cerberus.org&#34;&gt;Cerberus&lt;/a&gt; is a lightweight and extensible data validation library for Python. Beta has been around since 2012. During this time Cerberus has been serving as the validation system for &lt;a href=&#34;http://python-eve.org&#34;&gt;Eve&lt;/a&gt; core. It has been also adopted by a &lt;a href=&#34;https://github.com/search?q=from+cerberus+import+Validator&amp;amp;type=Code&amp;amp;utf8=%E2%9C%93&#34;&gt;quite a lot&lt;/a&gt; open source projects, averaging around 18K downloads per month on PyPI and collecting some remarkable &lt;a href=&#34;https://speakerdeck.com/nicola/cerberus?slide=56&#34;&gt;endorsements&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;All things considered, I would dare to claim that Cerberus is battle tested to death. This is, in fact, one reason why I believe that the time for a canonical and stable release has come. Another reason is that next release is a major one. It brings a ton of important &lt;a href=&#34;http://docs.python-cerberus.org/en/latest/changelog.html#version-1-0&#34;&gt;new features&lt;/a&gt; along with very significant code refactoring and a redesigned, powerful &lt;a href=&#34;http://docs.python-cerberus.org/en/latest/api.html&#34;&gt;API&lt;/a&gt;. Third, next release &lt;a href=&#34;http://docs.python-cerberus.org/en/latest/changelog.html#breaking-changes&#34;&gt;breaks&lt;/a&gt; backward compatibility, and we want to signal that in the version number.&lt;/p&gt;
+&lt;p&gt;So next Cerberus release will be 1.0. If you have been following the development this will come as no surprise, as a Release Candidate has been out for a while. As a Cerberus user you will want to take the plunge and upgrade to 1.0 because well, it is just too cool to be true. If new to Cerberus you will also want to adopt 1.0 right away, for the same reason. If you are new however, make sure you get the &lt;a href=&#34;https://cerberus.readthedocs.io/en/latest/usage.html#cerberus-usage&#34;&gt;basics covered&lt;/a&gt; before reading further. By the way, at latest PyCon Italy I gave a talk on Cerberus which also included a preview of several 1.0 features. You can check the &lt;a href=&#34;https://speakerdeck.com/nicola/cerberus&#34;&gt;slides&lt;/a&gt; to get a general idea of the tool, its usage, and upcoming features.&lt;/p&gt;
+&lt;p&gt;Let’s now look at some of the relevant features and changes introduced with Cerberus 1.0. For a (mostly) accurate list of changes and new features, have a look at the &lt;a href=&#34;http://docs.python-cerberus.org/en/latest/changelog.html#version-1-0&#34;&gt;changelog&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fattura Elettronica per la PA v0.2.1</title>
+      <link>https://nicolaiarocci.com/fattura-elettronica-per-la-pa-v0-2-1/</link>
+      <pubDate>Mon, 23 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/fattura-elettronica-per-la-pa-v0-2-1/</guid>
+      <description>Ho appena pubblicato su NuGet l’ultimo aggiornamento di FatturaElettronicaPA, il package .NET per la compilazione e convalida delle fatture elettroniche per la Pubblica Amministrazione. Si tratta della versione 0.2.1 che fa proprie le novità annunciate il 9 Maggio scorso:
+A partire dal 9 maggio 2016 sono introdotti nuovi controlli sui file trasmessi al Sistema di Interscambio. Per consentire il necessario adeguamento al nuovo regime di verifiche, fino al 31 luglio 2016 il mancato superamento di uno o più di questi nuovi controlli non comporterà lo scarto del file ma solo una segnalazione che verrà riportata all’interno della Ricevuta di consegna o della Notifica di mancata consegna.</description>
+    </item>
+    <item>
+      <title>My Crazy Speaking Month</title>
+      <link>https://nicolaiarocci.com/crazy-speaking-month/</link>
+      <pubDate>Mon, 09 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/crazy-speaking-month/</guid>
+      <description>April was definitely my crazy Speaking Month. After an almost one year long self-imposed conference hiatus, I was challenged to deliver four different talks, attend two discussion panels, give one live demo and release one interview. All in a three weeks period span. First I went to PyCon Sette in Florence. A few days later a plane took me to St. Petersburg, Russia, for PiterPy. Finally, the next weekend I was in Rome for the Western Europe Microsoft MVP Community Day.</description>
+    </item>
+    <item>
+      <title>FatturaElettronicaPA for .NET has been updated</title>
+      <link>https://nicolaiarocci.com/fatturaelettronicapa-for-net-has-been-updated/</link>
+      <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/fatturaelettronicapa-for-net-has-been-updated/</guid>
+      <description>FatturaElettronicaPA has just been updated to v0.1.4. With this release invoice bodies (FatturaElettronicaBody items) are also validated. As always, you can install the package directly from NuGet. See the original post for more info. Also don’t forget to check the related projects.
+Update: v0.1.6 has also been released.</description>
+    </item>
+    <item>
+      <title>Cerberus 0.9 has been released</title>
+      <link>https://nicolaiarocci.com/cerberus-0-9-has-been-released/</link>
+      <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/cerberus-0-9-has-been-released/</guid>
+      <description>A few days ago Cerberus 0.9 was released. It includes a bunch of new cool features, let’s browse through some of them.
+Collection rules First up is the new set of anyof, allof, noneof and oneof validation rules. anyof allows you to list multiple sets of rules to validate against. The field will be considered valid if it validates against one set in the list. For example, to verify that a property is a number between 0 and 10 or 100 and 110, you could do the following:</description>
+    </item>
+    <item>
+      <title>Fattura Elettronica Open Source: Web Service PA</title>
+      <link>https://nicolaiarocci.com/fattura-elettronica-open-source-web-service-pa/</link>
+      <pubDate>Thu, 21 May 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/fattura-elettronica-open-source-web-service-pa/</guid>
+      <description>this post is about an all-Italian open source release, so it’s going to be in Italian
+Il progetto Fattura Elettronica Open Source si è arricchito di un nuovo strumento: Web Services. Il namespace FatturaElettronicaPA.WebServices raccoglie una serie di client C# che consentono di consultare i Web Service per la Fattura Elettronica messi a disposizione dalla Pubblica Amministrazione.
+Sono disegnati in maniera da esporre tutti la stessa interfaccia ed essere al tempo stesso semplici e leggeri.</description>
+    </item>
+    <item>
+      <title>Fattura Elettronica Open Source Update</title>
+      <link>https://nicolaiarocci.com/fattura-elettronica-open-source-update/</link>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/fattura-elettronica-open-source-update/</guid>
+      <description>Fattura Elettronica Open Source has been updated to v0.1.3 a few days ago and is available on NuGet. Sources are on GitHub. It fixes a deserialization issue with the ReadXML method.</description>
+    </item>
+    <item>
+      <title>I wrote a thing about New Microsoft</title>
+      <link>https://nicolaiarocci.com/i-wrote-a-thing-about-new-microsoft/</link>
+      <pubDate>Wed, 04 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/i-wrote-a-thing-about-new-microsoft/</guid>
+      <description>I have a guest post up at the official Italian MSDN Team Blog. It’s about the new Microsoft I met last Wednesday at the Azure Open Day in Milan.</description>
+    </item>
+    <item>
+      <title>Fattura Elettronica Open Source</title>
+      <link>https://nicolaiarocci.com/fattura-elettronica-open-source/</link>
+      <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/fattura-elettronica-open-source/</guid>
+      <description>&lt;p&gt;&lt;em&gt;this post is about an all-italian open source release, so it’s going to be in italian&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/FatturaElettronicaPA&#34;&gt;FatturaElettronicaPA&lt;/a&gt; è un nuovo progetto open source che ho rilasciato qualche giorno fa assieme alla &lt;a href=&#34;http://gestionaleamica.com&#34;&gt;mia azienda&lt;/a&gt;. Si tratta di una libreria C# che permette di leggere, scrivere e convalidare le Fatture Elettroniche aderenti alle specifiche del &lt;a href=&#34;http://www.fatturapa.gov.it/export/fatturazione/sdi/Specifiche_tecniche_del_formato_FatturaPA_V1.1.pdf&#34;&gt;sistema di interscambio&lt;/a&gt; della Pubblica Amministrazione.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>On Sustainable Open Source Management</title>
+      <link>https://nicolaiarocci.com/sustainable-open-source-management/</link>
+      <pubDate>Fri, 06 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/sustainable-open-source-management/</guid>
+      <description>Tom Christie has some very good things to say on how to successfully maintain an open source project without losing sanity.
+Truth one: There are, and will always be, a non-finite number of possible valid issues to address. Your code can always be better polished, your APIs better defined, and your project more fully featured. Your documentation can always be better. The ecosystem within which your project lives is constantly evolving.</description>
+    </item>
+    <item>
+      <title>Some Thoughts on the new .NET (Redux)</title>
+      <link>https://nicolaiarocci.com/some-thoughts-on-the-new-net-redux/</link>
+      <pubDate>Thu, 04 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/some-thoughts-on-the-new-net-redux/</guid>
+      <description>Like all those involved with the .NET ecosystem I’ve been slowly digesting the recent news on the whole thing going open source and cross platform. I’ve been jogging down a few notes in light of a future blog post, but then Jeremy Miller came out with his own Some Thoughts on the New .NET which is almost exactly the post I wanted to write. So when he writes:
+I’ve started to associate .</description>
+    </item>
+    <item>
+      <title>Introducing Eve.NET the HTTP/REST Client for Humans™</title>
+      <link>https://nicolaiarocci.com/introducing-eve-net-httprest-client-humans/</link>
+      <pubDate>Thu, 27 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/introducing-eve-net-httprest-client-humans/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/nicolaiarocci/Eve.NET&#34;&gt;Eve.NET&lt;/a&gt; is a simple HTTP and REST client for Web Services powered by the &lt;a href=&#34;http://python-eve.org&#34;&gt;Eve Framework&lt;/a&gt;. It leverages both &lt;code&gt;System.Net.HttpClient&lt;/code&gt; and &lt;code&gt;Json.NET&lt;/code&gt; to provide the best possible Eve experience on the .NET platform.&lt;/p&gt;
+&lt;p&gt;Written and maintained by the same author of the Eve Framework itself, Eve.NET is delivered as a portable library (PCL) and runs seamlessly on .NET4, Mono, Xamarin.iOS, Xamarin.Android, Windows Phone 8 and Windows 8. We use Eve.NET internally to power our iOS, Web and Windows applications.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Open Source and Code Responsibility</title>
+      <link>https://nicolaiarocci.com/open-source-and-code-responsibility/</link>
+      <pubDate>Tue, 21 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/open-source-and-code-responsibility/</guid>
+      <description>&lt;p&gt;Last week I was speaking at an Open Source panel at &lt;a href=&#34;http://www.bettersoftware.it&#34;&gt;Better Software 2014&lt;/a&gt;, and one of the topics that we touched was code responsibility. This is an important topic for anyone who is maintaining an open source project, especially when it comes to the process of reviewing and accepting code contributions.&lt;/p&gt;
+&lt;p&gt;At some point during the debate, I argued that when a maintainer merges a pull request, he (or she) implicitly agrees on being responsible for that code. That seemed to strike some surprise into most attendees.&lt;/p&gt;
+&lt;p&gt;Yes, in theory any contributor is just a ping away so in case trouble arises one can always reach him, or her. Unfortunately this is not always the case. While some contributors will fully embrace your project and keep helping after their initial contribution, truth is that a good number of them will just move on, never to be seen again.&lt;/p&gt;
+&lt;p&gt;There’s nothing wrong with that. Not everyone has spare time to devote to your project, which is perfectly fine. It is natural for most people to contribute what they need to a project and then go on their way. Actually, one could argue that most projects grow and prosper precisely thanks to this kind of contributions.&lt;/p&gt;
+&lt;p&gt;However this attitude can become an incumbent when big chunks of code get merged, usually as new (big) features. Good practices advice against merging huge pull requests. In fact they are rare and when they do come, it is a good idea to ask for them to be split into smaller ones. But no matter the format, a huge contribution is likely to hit a project one day or another. It might even come from more than one person: a disconnected and distributed team of contributors who have been patiently tinkering on a side branch or a fork for example. When this happens, and provided that the contribution is worth merging, the maintainer should then ask him/herself the obvious question: &lt;em&gt;am I willing to deal with the consequences of this merge?&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eve v0.0.8 has been released</title>
+      <link>https://nicolaiarocci.com/eve-v0-0-8-has-been-released/</link>
+      <pubDate>Thu, 25 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/eve-v0-0-8-has-been-released/</guid>
+      <description>Most significant features are probably the native support for MongoDB write concern settings, new event hooks allowing for transformation of documents before they are sent to clients, increased handling of both pagination and CORS, and the native validation of float data types.
+Get it on PyPI, go straight to the source code or more likely, visit the project homepage.</description>
+    </item>
+    <item>
+      <title>Gestione degli Eventi in Python</title>
+      <link>https://nicolaiarocci.com/gestione-degli-eventi-in-python/</link>
+      <pubDate>Thu, 14 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/gestione-degli-eventi-in-python/</guid>
+      <description>&lt;p&gt;Gli eventi sono molto usati nelle GUI e nelle implementazioni del modello MVC (Model, View, Controller). Un’altra applicazione tipica è nei protocolli di comunicazione, laddove layer di basso livello devono informare quelli più alti quando ci sono dati in ingresso o in uscita.&lt;/p&gt;
+&lt;p&gt;Il linguaggio C# dispone da sempre di una soluzione elegante al problema della gestione degli eventi: il delegato EventHandler. &lt;a href=&#34;https://github.com/nicolaiarocci/events&#34; title=&#34;Events: Bringing the elegance of C# EventHandler to Python&#34;&gt;Events&lt;/a&gt; è una mia implementazione Python del EventHandler C#. In pratica si tratta di una classe molto leggera che incapsula il cuore del meccanismo di sottoscrizione e gestione degli eventi, e tenta di farlo in maniera “naturale”, sembrando parte integrante del linguaggio Python.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Convalidare un dizionario Python con Cerberus</title>
+      <link>https://nicolaiarocci.com/convalidare-un-dizionario-python-con-cerberus/</link>
+      <pubDate>Tue, 16 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/convalidare-un-dizionario-python-con-cerberus/</guid>
+      <description>Da qualche giorno ho rilasciato Cerberus, uno strumento per la convalida dei dizionari Python. Gli passate un dizionario, lui lo confronta con uno schema di convalida e, se c’è qualcosa che non va (per esempio una chiave sconosciuta, oppure un valore di tipo sbagliato), ve lo segnala.
+Sono due le caratteristiche che rendono Cerberus interessante: è facilmente estensibile (la documentazione include un esempio di estensione del sistema di convalida), e non si blocca sollevando un’eccezione al primo problema riscontrato: gli errori, quando presenti, sono tutti riportati in una lista a fine convalida.</description>
+    </item>
+    <item>
+      <title>Pybooks – Le migliori risorse gratuite su Python</title>
+      <link>https://nicolaiarocci.com/pybooks-le-migliori-risorse-gratuite-su-python/</link>
+      <pubDate>Tue, 04 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/pybooks-le-migliori-risorse-gratuite-su-python/</guid>
+      <description>PyBooks è un’ottima selezione di risorse gratuite su Python e dintorni. I migliori libri gratuiti su Python sono inclusi, così come alcuni validi tutorial sulle librerie e i framework più diffusi. Il progetto è curato dalle stesse persone che stanno dietro JSBooks, la raccolta di libri JavaScript di cui ho scritto qualche giorno fa. Anche in questo caso è possibile contribuire attivamente segnalando nuove interessanti risorse.</description>
+    </item>
+    <item>
+      <title>JSBooks – Libri Open Source su JavaScript</title>
+      <link>https://nicolaiarocci.com/jsbooks-libri-open-source-su-javascript/</link>
+      <pubDate>Thu, 30 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/jsbooks-libri-open-source-su-javascript/</guid>
+      <description>JSBooks Free JavaScript Books è una valida selezione di risorse gratuite su JavaScript. Si tratta di libri e guide gratuite per programmatori di ogni livello, dal principiante al veterano. Il catalogo include titoli su jQuery, Backbone, design patterns, Node, CoffeeScript, qualcosa su HTML5 e addirittura un libro su MongoDB (si tratta una mia vecchia conoscenza). Alcuni suggerimenti sono davvero di ottima qualità. Il progetto è open source e chiunque può contribuire segnalando nuove interessanti risorse via GitHub.</description>
+    </item>
+    <item>
+      <title>ASP.NET MVC, Web API, ASP.NET Web Pages (Razor) sono Open Source</title>
+      <link>https://nicolaiarocci.com/asp-net-mvc-web-api-asp-net-web-pages-razor-sono-open-source/</link>
+      <pubDate>Wed, 28 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/asp-net-mvc-web-api-asp-net-web-pages-razor-sono-open-source/</guid>
+      <description>Oggi Microsoft annuncia una svolta che ha del clamoroso:
+Sono felice di annunciare che oggi rilasciamo il codice sorgente di ASP.NET Web API e ASP.NET Web Pages (Razor) sotto una licenza open source (Apache 2.0), e che continueremo a migliorare la trasparenza di tutti i tre progetti ospitando il loro codice sorgente su CodePlex (usando il nuovo supporto per Git annunciato la settimana scorsa).
+Ma quel che più conta, e che per un’azienda corporate ‘vecchia maniera’ come Microsoft denota davvero un’evoluzione (rivoluzione) culturale:</description>
+    </item>
+    <item>
+      <title>Link Consigliati dal 29.2 al 5.3.2012</title>
+      <link>https://nicolaiarocci.com/link-consigliati-dal-29-2-al-5-3-2012/</link>
+      <pubDate>Sun, 04 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/link-consigliati-dal-29-2-al-5-3-2012/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Ogni giorno su &lt;!-- raw HTML omitted --&gt;Twitter&lt;!-- raw HTML omitted --&gt; segnalo i link interessanti in cui incappo mentre mi documento per il mio lavoro. Riscuotono un certo successo, quindi ho pensato di condividerne alcuni anche qui sul sito. Parte così Link Consigliati, rubrica settimanale e sperimentale.&lt;/em&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;“Why are so many developers so very emotional when it comes to their favourite programming language? Considering that no language can (yet) magically translate the perfect idea in your head into machine code, all of them exist on a scale of badness – they all limit you more than your own thoughts or the hardware does.”&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;“Clean, simple web designs have become a popular trend. This article will cover the subject through a two-part discussion. First, we’ll talk about a few traits that clean designs tend to have in common. Secondly, I’ll share some tricks and techniques that can be helpful when trying to achieve a clean design.”&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Database of HTTP status codes with their IETF and Wikipedia descriptions&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;“What happens when you click on a weblink? Here’s one answer: a request goes from your computer to a server identified by the URL of the desired link. The server then locates the webpage in its files and sends it back to your browser, which then displays it on your screen. Simple.”&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ci sono più offerte di lavoro che Programmatori .NET</title>
+      <link>https://nicolaiarocci.com/ci-sono-piu-offerte-di-lavoro-che-programmatori-net/</link>
+      <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/ci-sono-piu-offerte-di-lavoro-che-programmatori-net/</guid>
+      <description>&lt;p&gt;Ai primi di ottobre &lt;!-- raw HTML omitted --&gt;TechCrunch&lt;!-- raw HTML omitted --&gt; riportava una notizia interessante: negli Stati Uniti ci sarebbe carenza di sviluppatori .NET. La piattaforma di recruitment Dice dichiara che le offerte di lavoro .NET aumentano del 25% ogni anno, e che la gran parte delle ricerche sui loro database riguarda skill .NET. Ai primi di ottobre 2011 sarebbero state oltre 10.000 le richieste inevase di figure professionali .NET.&lt;/p&gt;
+&lt;p&gt;Notizie di questo tipo vanno prese con beneficio di inventario anche se in questo caso una conferma indiretta viene da WANTED Analytics, che a Settembre ha pubblicato un &lt;!-- raw HTML omitted --&gt;report&lt;!-- raw HTML omitted --&gt; indipendente che sembra giungere alle stesse conclusioni. Anche i &lt;!-- raw HTML omitted --&gt;commenti&lt;!-- raw HTML omitted --&gt; all’articolo di TechCrunch sono confortanti: ci sono aziende che ammettono di essere a caccia di sviluppatori .NET e ci sono programmatori che confermano di ricevere continuamente offerte di lavoro (non mancano quelli che sono passati ad altri linguaggi e non se ne pentono).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Perché le Web Startup non amano .NET Framework?</title>
+      <link>https://nicolaiarocci.com/perche-le-web-startup-non-amano-net-framework/</link>
+      <pubDate>Thu, 19 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/perche-le-web-startup-non-amano-net-framework/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Sul blog aziendale di Expensify il CEO &lt;strong&gt;David Barrett&lt;/strong&gt; ha &lt;!-- raw HTML omitted --&gt;raccontato&lt;!-- raw HTML omitted --&gt; perché la sua azienda non assume programmatori Microsoft .NET Framework. In poche ore il suo articolo ha fatto il giro del mondo scatenando un gran putiferio. Gli sviluppatori .NET si sono lanciati in una difesa accorata della piattaforma Microsoft mentre molti commentatori e blogger hanno sposato le tesi di Barrett. Gli oltre 500 commenti danno un’idea ben precisa del fervore suscitato dall’articolo. Non intendo dilungarmi sui contenuti, mi interessa piuttosto approfondire una questione sollevata indirettamente dal pezzo di Barrett.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Il Progetto Mono salvato in extremis dal suo fondatore</title>
+      <link>https://nicolaiarocci.com/il-progetto-mono-salvato-in-extremis-dal-suo-fondatore/</link>
+      <pubDate>Tue, 17 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-progetto-mono-salvato-in-extremis-dal-suo-fondatore/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Sono settimane di passione per il &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;progetto Mono&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, celeberrima versione open source e multi piattaforma del Microsoft .NET Framework. All’inizio del mese Attachmate (proprietaria di Novell, sponsor storico del progetto) ha &lt;!-- raw HTML omitted --&gt;improvvisamente licenziato&lt;!-- raw HTML omitted --&gt; l’intero team di ingegneri al lavoro su Mono.&lt;/p&gt;
+&lt;p&gt;L’annuncio ha gettato nel panico la comunità internazionale di sviluppatori Mono. Dal 2004, anno di nascita del progetto, migliaia di grandi e piccole software house hanno adottato la piattaforma per lo sviluppo rapido di soluzioni cross-platform. Purtroppo salvo rare eccezioni è frequente che progetti open source nati o assorbiti in grandi organizzazioni commerciali finiscano per essere abbandonati.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

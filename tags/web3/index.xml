@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web3 on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/web3/</link>
+    <description>Recent content in web3 on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 08 Jan 2022 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/web3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moxie on Web3</title>
+      <link>https://nicolaiarocci.com/moxie-on-web3/</link>
+      <pubDate>Sat, 08 Jan 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/moxie-on-web3/</guid>
+      <description>An excellent article on Web3 has just appeared on Moxie Marlinspike&amp;rsquo;s website. Being Moxie1, he&amp;rsquo;s not just speculating and rambling about stuff. In an attempt to learn more about the so-called Web3 and the technologies around it, he went all-in and built a couple of dApps himself. Then, he produced an NFT and put it up for sale. What he found is, well, to put it mildly, fascinating.
+Some of his insights on technology are also interesting.</description>
+    </item>
+  </channel>
+</rss>

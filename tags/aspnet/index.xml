@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aspnet on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/aspnet/</link>
+    <description>Recent content in aspnet on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Nov 2021 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/aspnet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My ASP.NET 5 migration to .NET 6</title>
+      <link>https://nicolaiarocci.com/my-asp.net-5-migration-to-.net-6/</link>
+      <pubDate>Sun, 14 Nov 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/my-asp.net-5-migration-to-.net-6/</guid>
+      <description>I spent the last few days migrating our ASP.NET REST services, MVC web applications and Blazor server apps to .NET 6. Overall the process was pretty straightforward. The few issues I went through were easy to solve and well documented. Things got more involved with the EF Core 6 transition, especially with the Npgsql Entity Framework Core Provider.
+The official ASP.NET Core 5.0 to 6.0 migration guide was my first stop.</description>
+    </item>
+    <item>
+      <title>ASP.NET 6 Migration Cheatsheet and FAQ</title>
+      <link>https://nicolaiarocci.com/asp.net-6-migration-cheatsheet-and-faq/</link>
+      <pubDate>Thu, 23 Sep 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/asp.net-6-migration-cheatsheet-and-faq/</guid>
+      <description>David Fowler has a very informative gist up on GitHub. It&amp;rsquo;s titled [Migration to ASP.NET Core. NET6][3] and it&amp;rsquo;s filled with details, recipes and FAQs on migrating an ASP.NET Core 5 web app to ASP.NET Core 61. The focus is on the new, streamlined hosting model, also known as Minimal APIs2. To be clear, You don&amp;rsquo;t have to move to the new model. As the FAQ section emphasizes:
+Do I have to migrate to the new hosting model</description>
+    </item>
+  </channel>
+</rss>

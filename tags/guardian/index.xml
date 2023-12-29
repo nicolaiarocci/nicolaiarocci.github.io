@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>guardian on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/guardian/</link>
+    <description>Recent content in guardian on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 06 Apr 2023 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/guardian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT is making up fake Guardian articles</title>
+      <link>https://nicolaiarocci.com/chatgpt-is-making-up-fake-guardian-articles/</link>
+      <pubDate>Thu, 06 Apr 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/chatgpt-is-making-up-fake-guardian-articles/</guid>
+      <description>Chris Moran, the Guardian’s head of editorial innovation:
+Last month one of our journalists received an interesting email. A researcher had come across mention of a Guardian article, written by the journalist on a specific subject from a few years before. But the piece was proving elusive on our website and in search. Had the headline perhaps been changed since it was launched? Had it been removed intentionally from the website because of a problem we’d identified?</description>
+    </item>
+  </channel>
+</rss>

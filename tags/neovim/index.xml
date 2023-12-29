@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>neovim on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/neovim/</link>
+    <description>Recent content in neovim on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 03 Mar 2023 08:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/neovim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making C# and OmniSharp play well with Neovim</title>
+      <link>https://nicolaiarocci.com/making-csharp-and-omnisharp-play-well-with-neovim/</link>
+      <pubDate>Fri, 03 Mar 2023 08:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/making-csharp-and-omnisharp-play-well-with-neovim/</guid>
+      <description>I&amp;rsquo;ve recently moved away from my custom Neovim configuration to embrace LazyVim. LazyVim is a Neovim setup with sane default settings for options, autocmds, and keymaps. It boldly aims to transform Neovim into a full-fledged IDE that is easy to extend and customize. It comes with a wealth of plugins pre-configured and ready to use, and it is also blazing fast. Elijah Manor has a fantastic introductory video on YouTube; I suggest you take the time to look at it.</description>
+    </item>
+  </channel>
+</rss>

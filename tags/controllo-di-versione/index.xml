@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>controllo di versione on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/controllo-di-versione/</link>
+    <description>Recent content in controllo di versione on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 09 Dec 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/controllo-di-versione/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Branching di successo per Git</title>
+      <link>https://nicolaiarocci.com/branching-di-successo-per-git/</link>
+      <pubDate>Fri, 09 Dec 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/branching-di-successo-per-git/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Git&lt;!-- raw HTML omitted --&gt; è di gran lunga la tecnologia più significativa che il mio team ha introdotto negli ultimi tempi. Grazie a Git la nostra produttività è migliorata a tal punto che davvero non passa giorno senza che mi chieda come abbiamo potuto farne a meno così a lungo.&lt;/p&gt;
+&lt;p&gt;Git è un &lt;!-- raw HTML omitted --&gt;sistema di controllo versione&lt;!-- raw HTML omitted --&gt; ideato da Linus Torvald (quello di Linux). E’ gratuito, multi-piattaforma, distribuito e soprattutto talmente veloce che sembra aggiungere un pizzico di magia al processo produttivo. Git è una macchina del tempo con cui spostarsi avanti e indietro tra le versioni del codice. E’ l’ideale sia per progetti individuali che per gruppi di lavoro numerosi e distribuiti. L’integrità del codice e la preservazione delle versioni sono garantite da un efficiente – e veloce! – sistema di &lt;em&gt;branching&lt;/em&gt; e &lt;em&gt;merging&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Se non avete mai usato prima un sistema di controllo versione (e magari ricorrete ancora a copie manuali del codice tra una release e l’altra) gioite, perché Git vi cambierà la vita. Se venite da altri sistemi (Subversion, Team Foundation Server) sappiate che Git adotta un approccio fondamentalmente diverso: niente copie differenziali. In Git ogni repository è un mirror integrale della codebase; è quest’accorgimento ciò che rende Git così veloce.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

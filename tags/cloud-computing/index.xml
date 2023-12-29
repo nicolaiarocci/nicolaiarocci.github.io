@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cloud computing on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/cloud-computing/</link>
+    <description>Recent content in cloud computing on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Sep 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/cloud-computing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL Server e il Cloud di Amazon EC2: vantaggi e svantaggi</title>
+      <link>https://nicolaiarocci.com/sql-server-e-il-cloud-di-amazon-ec2-vantaggi-e-svantaggi/</link>
+      <pubDate>Wed, 14 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/sql-server-e-il-cloud-di-amazon-ec2-vantaggi-e-svantaggi/</guid>
+      <description>Se state considerando l’opzione Cloud per il vostro SQL Server non lasciatevi sfuggire l’ultimo articolo di Jeremiah Peschka, Configuring SQL Server in Amazon EC2. A dispetto del titolo non si tratta di un tutorial, ma di una analisi accurata di vantaggi e svantaggi legati al deploy di un database SQL nel Cloud, a prescindere dalla piattaforma adottata.
+Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità. Nel cloud, anche la cacca profuma di rose.</description>
+    </item>
+    <item>
+      <title>Frammenti di Cloud Computing al Romagna Camp 2011</title>
+      <link>https://nicolaiarocci.com/frammenti-di-cloud-computing-al-romagna-camp-2011/</link>
+      <pubDate>Mon, 12 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/frammenti-di-cloud-computing-al-romagna-camp-2011/</guid>
+      <description>&lt;p&gt;Gran bella esperienza quella del &lt;!-- raw HTML omitted --&gt;Romagna Camp&lt;!-- raw HTML omitted --&gt;. Un mix perfetto di networking, lavoro e (tanto) divertimento. Chi c’era sa, chi non c’era faccia un giro sul tag &lt;!-- raw HTML omitted --&gt;#romagnacamp&lt;!-- raw HTML omitted --&gt; di Twitter e saprà.&lt;/p&gt;
+&lt;p&gt;Scopro con disappunto che SlideShare fa un pessimo servizio a Keynote, non rendendo né transizioni né animazioni e sostituendo i font come gli pare. Ecco dunque la mia presentazione, o piuttosto quel che ne rimane dopo l’upload*:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Il Cloud Computing è davvero affidabile?</title>
+      <link>https://nicolaiarocci.com/il-cloud-computing-e-davvero-affidabile/</link>
+      <pubDate>Fri, 03 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-cloud-computing-e-davvero-affidabile/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;E’ di pochi giorni fa la &lt;!-- raw HTML omitted --&gt;notizia&lt;!-- raw HTML omitted --&gt; che alcuni servizi API gratuiti forniti da Google verranno chiusi. Tra questi spicca &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Translate API&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, la più apprezzata libreria gratuita per la traduzione automatica sul web. Basta una occhiata ai &lt;!-- raw HTML omitted --&gt;commenti &lt;!-- raw HTML omitted --&gt;per rendersi conto dello sconcerto generato dall’annuncio, per altro del tutto inatteso. Molti si dicono disposti a pagare pur di non rinunciare alla API, ma non è  questa l’idea di Google che in alternativa propone &lt;!-- raw HTML omitted --&gt;Google Translate Element&lt;!-- raw HTML omitted --&gt;, widget gratuito che certo non è una soluzione accettabile per applicazioni che attualmente integrano la API in maniera trasparente. Immagino che proprio qui stia il nocciolo della questione: una API non è visibile né apprezzabile dall’esterno, mentre un widget promuove il brand Google.&lt;/p&gt;
+&lt;p&gt;Migliaia di aziende, enti pubblici e organizzazioni non governative internazionali che oggi usano la API dovranno trovare soluzioni alternative, probabilmente a pagamento. Almeno gli è stato concesso un po’ di tempo: Google garantisce un periodo di tre anni prima della sospensione del servizio.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Questa notizia induce ancora una volta alcune riflessioni circa l’affidabilità del &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Cloud Computing&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, modello di sviluppo verso il quale, volenti o nolenti, tutti noi siamo diretti.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Programmazione, SEO, Startups – Il Meglio della Settimana #1</title>
+      <link>https://nicolaiarocci.com/programmazione-seo-startups-il-meglio-della-settimana-1/</link>
+      <pubDate>Mon, 21 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/programmazione-seo-startups-il-meglio-della-settimana-1/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Vi propongo una scelta delle risorse più interessanti e curiose che ho scovato questa settimana in rete. Ce né per tutti i gusti: programmazione, SEO, Startups e curiosità. Andiamo a cominciare:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SourceKit – Scrivere codice in Google Chrome e salvarlo su DropBox</title>
+      <link>https://nicolaiarocci.com/sourcekit-chrome-dropbox/</link>
+      <pubDate>Thu, 10 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/sourcekit-chrome-dropbox/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/iieeldjdihkpoapgipfkeoddjckopgjg&#34;&gt;&lt;strong&gt;SourceKit&lt;/strong&gt;&lt;/a&gt; è una applicazione per Google Chrome che permette di scrivere codice direttamente nel browser usando &lt;a href=&#34;https://www.dropbox.com/&#34;&gt;DropBox&lt;/a&gt; come disco dati/repository. Un &lt;a href=&#34;http://macromates.com/&#34;&gt;TextMate&lt;/a&gt; &lt;em&gt;in the cloud&lt;/em&gt; insomma.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>Il futuro del codice sorgente è online?</title>
+      <link>https://nicolaiarocci.com/il-futuro-del-codici-sorgente-e-online/</link>
+      <pubDate>Sat, 29 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-futuro-del-codici-sorgente-e-online/</guid>
+      <description>&lt;p&gt;Gli ambienti di sviluppo (IDE) online sono una delle opportunità più originali che il &lt;a href=&#34;http://it.wikipedia.org/wiki/Cloud_computing&#34;&gt;cloud computing&lt;/a&gt; mette a disposizione dei programmatori web. In generale si tratta di editor di codice, debugger e strumenti per il controllo di versione da usare nel browser web senza bisogno di installare alcun software sul client. Per il momento le soluzioni disponibili offrono funzionalità limitate che tuttavia lasciano intravedere le possibilità che questi strumenti metteranno a nostra disposizione.&lt;/p&gt;
+&lt;h2 id=&#34;il-progetto-orion&#34;&gt;Il Progetto Orion&lt;/h2&gt;
+&lt;p&gt;Semplici editor di codice sorgente sono disponibili online già da tempo, ma progetti come &lt;strong&gt;Orion&lt;/strong&gt; portano il concetto di programmazione online a un livello superiore. &lt;a href=&#34;http://dev.eclipse.org/blogs/mike/2011/01/11/introducing-orion/&#34;&gt;Annunciato pochi giorni fa&lt;/a&gt; dal team di sviluppo di &lt;strong&gt;Eclipse&lt;/strong&gt;, una IDE Open Source molto diffusa e apprezzata, il progetto Orion è qualcosa di nuovo:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

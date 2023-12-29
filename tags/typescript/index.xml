@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>typescript on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/typescript/</link>
+    <description>Recent content in typescript on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 05 Oct 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ancora su TypeScript</title>
+      <link>https://nicolaiarocci.com/ancora-su-typescript/</link>
+      <pubDate>Fri, 05 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/ancora-su-typescript/</guid>
+      <description>A proposito di TypeScript vi segnalo Thoughts on TypeScript, il miglior articolo che ho letto finora sul nuovo nato in casa Microsoft.
+I’m happy that regular JavaScript can be written in TypeScript and still benefit from some of the type checking provided by the TypeScript compiler. That means writing TypeScript can actually help people learn JavaScript, which makes me happy.</description>
+    </item>
+    <item>
+      <title>TypeScript: prime impressioni</title>
+      <link>https://nicolaiarocci.com/typescript-prime-impressioni/</link>
+      <pubDate>Tue, 02 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/typescript-prime-impressioni/</guid>
+      <description>Ieri Microsoft ha annunciato TypeScript, nuovo linguaggio fortemente tipizzato il cui codice compilato è puro JavaScript. TypeScript aggiunge classi, controllo degli errori in compilazione, completamento del codice in fase di sviluppo, e tante altre cose interessanti.
+Miguel de Icaza, il cervello dietro Xamarin e la piattaforma Mono, ha sintentizzato le sue prime impressioni sul progetto. Interessanti anche i commenti di uno degli sviluppatori di Dart, progetto Google dal quale TypeScript ha senz’altro tratto ispirazione.</description>
+    </item>
+  </channel>
+</rss>

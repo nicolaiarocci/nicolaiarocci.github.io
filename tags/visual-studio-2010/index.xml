@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>visual studio 2010 on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/visual-studio-2010/</link>
+    <description>Recent content in visual studio 2010 on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 12 Jul 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/visual-studio-2010/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Tools per Visual Studio 2010 arriva la RC1</title>
+      <link>https://nicolaiarocci.com/python-tools-per-visual-studio-2010-arriva-la-rc1/</link>
+      <pubDate>Tue, 12 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/python-tools-per-visual-studio-2010-arriva-la-rc1/</guid>
+      <description>&lt;p&gt;Prosegue senza intoppi il cammino di &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Python Tools per Visual Studio&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, il progetto open source targato Microsoft che consente di programmare in Python con Visual Studio 2010. Dopo il &lt;a href=&#34;http://nicolaiarocci.com/python-tools-per-visual-studio-2010/&#34; title=&#34;Programmare in Python con Visual Studio 2010&#34;&gt;lancio ufficiale&lt;/a&gt; dello scorso marzo e la successiva &lt;a href=&#34;http://nicolaiarocci.com/python-tools-per-visual-studio-ecco-la-beta-2/&#34; title=&#34;Python Tools per Visual Studio 2010 Beta 2&#34;&gt;Beta 2&lt;/a&gt; di maggio, ieri è stata presentata la &lt;strong&gt;Release Candidate 1&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Programmare in Python con Visual Studio 2010</title>
+      <link>https://nicolaiarocci.com/python-tools-per-visual-studio-2010/</link>
+      <pubDate>Mon, 14 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/python-tools-per-visual-studio-2010/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://pytools.codeplex.com/&#34;&gt;Python Tools per Visual Studio&lt;/a&gt;&lt;/strong&gt; è un plugin gratuito e open source che consente di programmare in Python usando la IDE Microsoft. Nel corso della lunga gestazione di Visual Studio 2010 si era rumoreggiato di un possibile supporto nativo per il linguaggio Python. Qualcosa di vero doveva esserci visto che il progetto è appena stato presentato al &lt;a href=&#34;http://us.pycon.org/2011/home/&#34;&gt;&lt;strong&gt;PyCon 2011&lt;/strong&gt;&lt;/a&gt;, la più importante conferenza Python al mondo, nientemeno che dal &lt;a href=&#34;http://www.microsoft.com/hpc&#34;&gt;Microsoft Technical Computing Group&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>microservices on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/microservices/</link>
+    <description>Recent content in microservices on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 04 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/microservices/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monolith vs Microservices</title>
+      <link>https://nicolaiarocci.com/monolith-vs-microservices/</link>
+      <pubDate>Thu, 04 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/monolith-vs-microservices/</guid>
+      <description>I spent the last couple days in Paris with a bunch of smart architects and developers who are about to deal with a complex Monolithic-to-Microservices architecture transition.
+On my flight back to Italy I jotted down a few thoughts on the topic and then, this morning, the first thing that comes up on my newsfeed is Monolith First by Martin Fowler. Stunning, because the essay content totally resonates with my own notes, so much that it would perfectly serve as a recap for them.</description>
+    </item>
+    <item>
+      <title>Why Microservices Matter</title>
+      <link>https://nicolaiarocci.com/microservices-matter/</link>
+      <pubDate>Wed, 21 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/microservices-matter/</guid>
+      <description>In spite of being a marketing spin and link bait, Heroku article on microservices does a pretty good job at explaining why microservices matter and, at a very high level, what challenges they pose.
+However, microservices aren’t a silver bullet, and they won’t make a sluggish IT organization fast. While individual services become more robust and less complex, the overall system takes on the many challenges of distributed systems at the network level.</description>
+    </item>
+  </channel>
+</rss>

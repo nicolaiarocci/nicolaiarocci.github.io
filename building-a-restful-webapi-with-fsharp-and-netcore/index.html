@@ -1,0 +1,221 @@
+<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Building a RESTful WebApi with F# and NetCore | Nicola Iarocci</title>
+<meta name=keywords content><meta name=description content="In this article, we build a simple WebApi with F# and NetCore. Target is C# developers who want to know more about functional languages and F# in particular."><meta name=author content><link rel=canonical href=https://nicolaiarocci.com/building-a-restful-webapi-with-fsharp-and-netcore/><link crossorigin=anonymous href=/assets/css/stylesheet.f0568d4df87da526a07cdd5f492b4a146e3fa93d5ee950200eaafb2bb50d6fd8.css integrity="sha256-8FaNTfh9pSagfN1fSStKFG4/qT1e6VAgDqr7K7UNb9g=" rel="preload stylesheet" as=style><link rel=icon href=https://nicolaiarocci.com/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://nicolaiarocci.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://nicolaiarocci.com/favicon-32x32.png><link rel=apple-touch-icon href=https://nicolaiarocci.com/apple-touch-icon.png><link rel=mask-icon href=https://nicolaiarocci.com/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><meta property="og:title" content="Building a RESTful WebApi with F# and NetCore"><meta property="og:description" content="In this article, we build a simple WebApi with F# and NetCore. Target is C# developers who want to know more about functional languages and F# in particular."><meta property="og:type" content="article"><meta property="og:url" content="https://nicolaiarocci.com/building-a-restful-webapi-with-fsharp-and-netcore/"><meta property="article:section" content="post"><meta property="article:published_time" content="2019-02-24T09:05:25+02:00"><meta property="article:modified_time" content="2019-02-24T09:05:25+02:00"><meta property="og:site_name" content="Nicola Iarocci"><meta name=twitter:card content="summary"><meta name=twitter:title content="Building a RESTful WebApi with F# and NetCore"><meta name=twitter:description content="In this article, we build a simple WebApi with F# and NetCore. Target is C# developers who want to know more about functional languages and F# in particular."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":2,"name":"Posts","item":"https://nicolaiarocci.com/post/"},{"@type":"ListItem","position":3,"name":"Building a RESTful WebApi with F# and NetCore","item":"https://nicolaiarocci.com/building-a-restful-webapi-with-fsharp-and-netcore/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Building a RESTful WebApi with F# and NetCore","name":"Building a RESTful WebApi with F# and NetCore","description":"In this article, we build a simple WebApi with F# and NetCore. Target is C# developers who want to know more about functional languages and F# in particular.","keywords":[],"articleBody":"It is a common misconception that F# is just for data science, machine learning, and quantitative finance; in the .NET eco-system you turn to C# for enterprise and web development and, eventually, you’ll look at F# for serious number crunching.\nWhile it is undoubtedly true that functional languages are ideally suited for solving numerical problems, some of them - and F# in particular - are perfectly fine for tackling so many different domains other than scientific ones. F# is a cross-platform, functional-first, general purpose language. Stress on functional-first and general purpose. Line-of-business applications are almost always perfect candidates for F# development. On this topic, I recommend you take a look at Scott Wlaschin’s “Why F# is the best enterprise language”\nOn my part I am going to show you how easily we can build a RESTful WebAPI with F# on NetCore, taking no compromises on its C# counterpart.\nCreate, build, run Open up your terminal and type the following:\n$ dotnet new webapi -o MyWebApi -lang f# The template \"ASP.NET Core Web API\" was created successfully. The command above creates the MyWebApi directory and initializes an F# WebApi project in it, which you can build right away:\n$ cd MyWebApi \u0026\u0026 dotnet build Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Core Copyright (C) Microsoft Corporation. All rights reserved. Build succeeded. 0 Warning(s) 0 Error(s) And while we are at it, let’s launch it:\n$ dotnet bin/Debug//MyWebApi.dll Now listening on: http://localhost:5000 Now listening on: https://localhost:5001 Application started. Press Ctrl+C to shut down. Our WebApi is up and running, ready for us to play with it:\n$ curl -k https://localhost:5001/api/values [\"value1\",\"value2\"] The -k option tells curl to skip certificate verification on the https connection to localhost. Alternatively, you can open the same URL from your browser.\nWe did not write a single line of code, and yet we have a web API up and running. Yes, this is the same experience we get when we create a C# WebApi project. If you want to see that, try launching the same dotnet new command, minus the -lang option.\nShow me the code These days I use Visual Studio Code and the Unix (MacOS) terminal for most of my development, be it Python, JavaScript, C#, or F#. If you are on Visual Studio, you should still be able to follow along.\nLet’s fire up VSCode:\ncode . The F# development experience in VSCode is excellent thanks to the Ionide project, an open source cross-platform package for F# development. It brings IntelliSense, tooltips, document formatting, syntax checking, error highlighting, and more to VSCode. Just go to the Extensions tab and search for Ionide. Once you install and activate the extension, a brand new F# tab appears in VSCode. Click it. This tab lets you look at the project from the F# perspective.\nIn F#, the file order matters. That’s a consequence of another important rule: in F#, the order in we define types does matter. Files at the bottom of the project can access types and values defined above them, but not the other way around. In the F# tab, stuff is ordered for you by dependency. You can add new files, or move them up and down the hierarchy as needed.\nClick on Contollers/ValuesControllers.fs, so we can view its code. It begins like this:\nnamespace MyWebApi.Controllers open Microsoft.AspNetCore.Mvc F# namespaces work like C# ones. They allow you to organize data types and modules (not functions!) and yes, you can nest them in a hierarchy. The open statement, you guessed it, is F# flavor of C#’s using.\nBut! Where are the curly braces? Well, the thing is, in F# we don’t need curly braces. Don’t run away now; we’ll get back to this.\nLet’s go on with the code review:\n[","wordCount":"2528","inLanguage":"en","datePublished":"2019-02-24T09:05:25+02:00","dateModified":"2019-02-24T09:05:25+02:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://nicolaiarocci.com/building-a-restful-webapi-with-fsharp-and-netcore/"},"publisher":{"@type":"Organization","name":"Nicola Iarocci","logo":{"@type":"ImageObject","url":"https://nicolaiarocci.com/favicon.ico"}}}</script></head><body id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://nicolaiarocci.com accesskey=h title="Home (Alt + H)"><img src=https://nicolaiarocci.com/images/avatar.png alt aria-label=logo height=35>Home</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://nicolaiarocci.com/opensource/ title=code><span>code</span></a></li><li><a href=https://nicolaiarocci.com/speaking/ title=conferences><span>conferences</span></a></li><li><a href=https://nicolaiarocci.com/books-i-have-read/ title=library><span>library</span></a></li><li><a href=https://nicolaiarocci.com/archives/ title=archive><span>archive</span></a></li><li><a href=https://nicolaiarocci.com/search/ title="search (Alt + /)" accesskey=/><span>search</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class="post-title entry-hint-parent">Building a RESTful WebApi with F# and NetCore</h1><div class=post-description>In this article, we build a simple WebApi with F# and NetCore. Target is C# developers who want to know more about functional languages and F# in particular.</div><div class=post-meta><span title='2019-02-24 09:05:25 +0200 +0200'>February 24, 2019</span></div></header><div class=post-content><p>It is a common misconception that F# is just for data science, machine
+learning, and quantitative finance; in the .NET eco-system you turn to C#
+for enterprise and web development and, eventually, you&rsquo;ll look at F# for
+serious number crunching.</p><p>While it is undoubtedly true that functional languages are ideally suited for
+solving numerical problems, some of them - and F# in particular - are
+perfectly fine for tackling so many different domains other than scientific
+ones. F# is a cross-platform, functional-first, general purpose language.
+Stress on functional-first and general purpose. Line-of-business applications
+are almost always perfect candidates for F# development. On this topic, I
+recommend you take a look at Scott Wlaschin&rsquo;s &ldquo;<a href=https://fsharpforfunandprofit.com/posts/fsharp-is-the-best-enterprise-language/>Why F# is the best enterprise
+language</a>&rdquo;</p><p>On my part I am going to show you how easily we can build a RESTful WebAPI
+with F# on NetCore, taking no compromises on its C# counterpart.</p><h2 id=create-build-run>Create, build, run<a hidden class=anchor aria-hidden=true href=#create-build-run>#</a></h2><p>Open up your terminal and type the following:</p><pre><code>$ dotnet new webapi -o MyWebApi -lang f#
+The template &quot;ASP.NET Core Web API&quot; was created successfully.
+</code></pre><p>The command above creates the <code>MyWebApi</code> directory and initializes an F#
+WebApi project in it, which you can build right away:</p><pre><code>$ cd MyWebApi &amp;&amp; dotnet build
+Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+</code></pre><p>And while we are at it, let&rsquo;s launch it:</p><pre><code>$ dotnet bin/Debug/&lt;dotnetcoreapp_version&gt;/MyWebApi.dll
+Now listening on: http://localhost:5000
+Now listening on: https://localhost:5001
+Application started. Press Ctrl+C to shut down.
+</code></pre><p>Our WebApi is up and running, ready for us to play with it:</p><pre><code>$ curl -k https://localhost:5001/api/values
+[&quot;value1&quot;,&quot;value2&quot;]
+</code></pre><p>The <code>-k</code> option tells <code>curl</code> to skip certificate verification on the https
+connection to localhost. Alternatively, you can open the same URL from your
+browser.</p><p>We did not write a single line of code, and yet we have a web API up and
+running. Yes, this is the same experience we get when we create a C# WebApi
+project. If you want to see that, try launching the same <code>dotnet new</code>
+command, minus the <code>-lang</code> option.</p><h2 id=show-me-the-code>Show me the code<a hidden class=anchor aria-hidden=true href=#show-me-the-code>#</a></h2><p>These days I use Visual Studio Code and the Unix (MacOS) terminal for most of
+my development, be it Python, JavaScript, C#, or F#. If you are on Visual
+Studio, you should still be able to follow along.</p><p>Let&rsquo;s fire up VSCode:</p><pre><code>code .
+</code></pre><p>The F# development experience in VSCode is excellent thanks to the <a href=http://ionide.io/>Ionide
+project</a>, an open source cross-platform package for F# development. It
+brings IntelliSense, tooltips, document formatting, syntax checking, error
+highlighting, and more to VSCode. Just go to the Extensions tab and search
+for Ionide. Once you install and activate the extension, a brand new F# tab
+appears in VSCode. Click it. This tab lets you look at the project from the
+F# perspective.</p><p>In F#, the file order matters. That&rsquo;s a consequence of another important
+rule: in F#, the order in we define types does matter. Files at the bottom of
+the project can access types and values defined above them, but not the other
+way around. In the F# tab, stuff is ordered for you by dependency. You can
+add new files, or move them up and down the hierarchy as needed.</p><p>Click on <code>Contollers/ValuesControllers.fs</code>, so we can view its code. It
+begins like this:</p><pre><code>namespace MyWebApi.Controllers
+
+open Microsoft.AspNetCore.Mvc
+</code></pre><p>F# namespaces work like C# ones. They allow you to organize data types and
+modules (not functions!) and yes, you can nest them in a hierarchy. The
+<code>open</code> statement, you guessed it, is F# flavor of C#&rsquo;s <code>using</code>.</p><p>But! Where are the curly braces? Well, the thing is, in F# we don&rsquo;t need
+curly braces. Don&rsquo;t run away now; we&rsquo;ll get back to this.</p><p>Let&rsquo;s go on with the code review:</p><pre><code>[&lt;Route(&quot;api/[controller]&quot;)&gt;]
+[&lt;ApiController&gt;]
+type ValuesController () =
+    inherit ControllerBase()
+</code></pre><p>We decorate the <code>ValuesController</code> type (think C# classes) with two
+attributes. First one defines the general route to the controller endpoints
+(<code>/api/values/</code>); the second one informs .NET that <code>ValuesController</code> is, in
+fact, a controller.</p><p>Finally, we get to look at one of the controller members:</p><pre><code>[&lt;HttpGet&gt;]
+member this.Get() =
+    let values = [|&quot;value1&quot;; &quot;value2&quot;|]
+    ActionResult&lt;string[]&gt;(values)
+</code></pre><p>Again, very much like with C#, we have an attribute binding an HTTP method to
+this member (<code>Get</code>). Every time a GET request hits the controller route,
+<code>Get</code> executes. What&rsquo;s more interesting here, however, is the member scope.</p><p>For starters, no curly braces. F#, like Python and others, is a
+whitespace-significant language: we indent code to tell the compiler that
+we&rsquo;re in a nested scope. At first, coming from other .NET languages, this
+might come as a shock. It sure was for me, although I had to make this jump
+way back when I got first into Python.</p><p>Secondly, the <code>values</code> assignment has no type declaration what-so-ever. It
+looks like we&rsquo;re dealing with a dynamic language like JavaScript or, again,
+Python. Only, F# is static. In F# you rarely have to specify types, and
+that&rsquo;s thanks to its powerful type inference system. If you hover your mouse
+over the <code>values</code> word, you&rsquo;ll see that good old IntelliSense is on duty, as
+usual, reporting <code>values</code> as an array of strings.</p><p>F# type inference is so robust that sometimes can feel like magic, but it is
+not. It follows a set of precedence rules that drive the compiler. The result
+is that you get the best of both worlds: a language that is concise as a
+dynamic one, yet it is strongly typed and compiled, as a static one. By the
+way: thanks of type inference, F# functions are implicitly generic.</p><p>Combined with the removal of noise, such as curly braces and semicolons, you
+will find that the type inference system makes writing, reading and, more
+importantly, reasoning about code a pleasant experience.</p><p>So why do we have to declare <code>ActionResult</code> type on the following line?
+Because that&rsquo;s a .NET BCL type, not an F# type. Type inference won&rsquo;t work as
+well when applied to the BCL. Fortunately, the compiler (IntelliSense) will
+let you know when an explicit type is needed.</p><p>Notice that on the last line there is no <code>return</code>. In F#, <code>return</code> is
+implicit. I should probably mention immutability. That <code>values</code> array over
+there, is immutable like all F# types are unless they are explicitly made
+mutable with the <code>mutable</code> keyword. Immutability is a <em>big</em> deal in
+functional languages.</p><p>Let&rsquo;s assume that we want to replace this template code with something more
+meaningful. Maybe we have a repository object that allows us to retrieve data
+from a backend. This repository an external C# package and it has this nice
+<code>Find(Expression&lt;Func&lt;T, bool>>)</code> method that we want to leverage, to enable
+filtering on our API endpoint.</p><ol><li>The client can use a query string (<code>?name=john</code>);</li><li>If included, parse the query into a lambda expression (<code>x => x.Name==john</code>);</li><li>Pass the lambda to repository&rsquo;s <code>Find</code> method;</li><li>Return lookup results to the client.</li></ol><p>For simplicity, we don&rsquo;t want to support multiple query keys, or various
+values for the same key;</p><p>We want to achieve this:</p><pre><code>[&lt;HttpGet&gt;]
+member this.Get() =
+    let filter = getFilter this.Request.Query
+    let result = repository.Find&lt;License&gt;(filter).Result;
+
+    ActionResult&lt;License List&gt;(result)
+</code></pre><p>On the first line, we pass the query to the <code>getFilter</code> helper function. In
+F# there&rsquo;s no notion of wrapping function arguments with parenthesis. Again,
+succinctness. <code>getFilter</code> will return either <code>null</code> if there is no query
+string or a lambda filter.</p><p>On the second line, we invoke the <code>Find</code> method, passing our filter to it. We
+then send back the results to the client. Notice that we are returning a
+<code>List&lt;Value></code> or, in F# syntax, a <code>Value List</code>. We do not have to update the
+<code>Get</code> signature. Type inference quietly takes note.</p><p>With the general business logic out of our way, let&rsquo;s get to the only
+remaining piece of the puzzle, the <code>getFilter</code> function. For this, it is
+probably a good idea to add a <code>Helpers.fs</code> file, with a <code>Helpers</code> module in
+it.</p><pre><code>namespace MyWebApi
+
+open Microsoft.AspNetCore.Http
+open System.Linq.Expressions
+open System
+
+module private Helpers =
+
+    let getFilter (query:IQueryCollection)  =
+
+        let expr (key:string, value) =
+            let entity=Expression.Parameter(typeof&lt;'T&gt;)
+            let body= Expression.Equal(Expression.Property(entity, key), Expression.Constant(value))
+            Expression.Lambda&lt;Func&lt;'T, bool&gt;&gt;(body, entity)
+
+        match query.Count with
+        | 0 -&gt; null
+        | _ -&gt;
+            query
+            |&gt; Seq.head
+            |&gt; fun kvp -&gt; (kvp.Key, kvp.Value |&gt; Seq.head)
+            |&gt; expr
+</code></pre><p>Now, this is interesting. We briefly touched on the fact that namespaces
+can&rsquo;t hold functions. You use modules for that (F# modules can also store
+types, however, like namespaces.). Here we define a <code>Helpers</code> module, with
+one function <code>getFilter</code> in it. To use this module in <code>ValueController</code>, we
+will need to <code>open MyWebApi.Helpers</code> there. Alternatively, we could decorate
+the module with the <code>[&lt;AutoOpen>]</code> attribute, so that adopters do not need to
+open it explicitly. <code>AutoOpen</code> is a nice feature, but please don&rsquo;t overuse
+it.</p><p>Let&rsquo;s look at <code>getFilter</code> implementation. First, we define an inner function
+<code>expr</code>. It takes a key-value tuple (one argument, not two!), does its magic,
+and, returns a lambda expression with the required signature of <code>Func&lt;'T, bool></code>. This code is not particularly interesting; you would do something
+similar in C#. Notice, however, that we are forced to declare the type one of
+the tuple values. That&rsquo;s because the compiler needs to know which of the (way
+too many) overloads of <code>Expression.Property</code> we want to use. We could
+strongly type the second argument instead; it would be the same. Also, take
+note of how we declare a generic type in F#. The convention is not to use
+uppercase as we do here, you typically use <code>'a</code> for example, but <code>'T</code> is also
+ok. I tend to use ``T` when I am working on the boundaries between the BCL
+and F#, like in here.</p><p>The <code>match...with</code> block is the heart of <code>getFilter</code>.</p><pre><code>        match query.Count with
+        | 0 -&gt; null
+        | _ -&gt; ...
+</code></pre><p>It matches <code>query.Count</code> value with some alternatives.</p><ul><li>if no items are in the query, then return null;</li><li>any other value (<code>_</code> is a catchall), do something else.</li></ul><p>Pattern matching is super interesting in F#. You can think of <code>match...with</code>
+as a <code>switch/case</code> on steroids. Here, let&rsquo;s stress one of its many features:
+exhaustive checking. We used the catchall <code>_</code> symbol on the second branch.
+Had we used a specific value instead, the compiler would throw an &ldquo;incomplete
+pattern matching&rdquo; error. Think of how many subtle bugs this feature alone
+cuts out.</p><p>Let&rsquo;s now consider the second and last branch in our pattern matching code.
+All the time in our code, no matter the language, we call a sequence of
+methods. In this concatenation, the output of one method serves as the input
+for the next. In these situations we have two options: either we use a
+temporary variable to hold the result of one method call, then we pass said
+variable to the next, or, if the call sequence is not too long, we nest one
+method call within the other. In both cases, code quickly becomes hard to
+read and, what&rsquo;s worse, it becomes difficult to grasp its intentions. F#
+<em>forward pipe</em> operator aims to solve this problem. Let&rsquo;s look back at our
+pipeline:</p><pre><code>query |&gt; Seq.head |&gt; fun kvp -&gt; (kvp.Key, kvp.Value |&gt; Seq.head) |&gt; expr
+</code></pre><p>In his book <a href=https://manning.com/books/get-programming-with-f-sharp>Get Programming with F#</a>, Isaac Abraham provides us with what
+I think is the best explanation of what the forward pipe operator means:</p><blockquote><p>Take the value on the left-hand side of the pipe and flip it over to the
+right-hand side as the last argument to the function. [&mldr;] The beauty of
+this is that as long as the output of one function matches the input of the
+next one, any function can be chained with another one.</p></blockquote><p>Once it clicks, you&rsquo;ll love it.</p><p>We start with <code>query</code>, our input argument, which is pipelined (passed) to the
+<code>Seq.head</code> function. This function returns the first element (head) of the
+input sequence. Now, <code>query</code> is an <code>IQueryCollection</code>, which happens to
+implement <code>IEnumerable</code> which, in turn, is an alias for F# <code>seq&lt;'T></code> so yes,
+<code>query</code> is a sequence. Here we don&rsquo;t want to support multiple keys, so we
+only take the first one. Next up in the pipeline we have an inline function
+or lambda. This one accepts the <code>kvp</code> argument (a <code>KeyValuePair</code>) and returns
+a tuple with <code>kvp</code> key and the value. The lambda is interesting because it
+comes with a nested pipeline. Querystrings can come with multiple values for
+the same key (i.e. <code>?name=john&amp;name=mike</code>), so <code>kvp.Value</code> is itself a
+sequence of strings. Again, we don&rsquo;t support multiple key values, so we keep
+the first one. The last step in our pipeline is, of course, the call to our
+<code>expr</code> function, which will take the tuple as input, and return the
+corresponding expression filter.</p><p>One last thing. Remember that explicit type declaration we had to add to
+<code>expr</code>&rsquo;s input tuple? That one was weird, although it did have a reason.
+Let&rsquo;s refactor our code to be more compact, so we inline <code>expr</code> into the
+pipeline:</p><pre><code>let getFilter (query:IQueryCollection)  =
+
+    match query.Count with
+    | 0 -&gt; null
+    | _ -&gt;
+        query
+        |&gt; Seq.head
+        |&gt; fun kvp -&gt; (kvp.Key, kvp.Value |&gt; Seq.head)
+        |&gt; fun (key, value) -&gt;
+            let entity=Expression.Parameter(typeof&lt;'T&gt;)
+            let body= Expression.Equal(Expression.Property(entity, key), Expression.Constant(value))
+            Expression.Lambda&lt;Func&lt;'T, bool&gt;&gt;(body, entity)
+</code></pre><p>See? Now we don&rsquo;t need to declare <code>key</code> type. It is inferred from the input
+function (the left-hand side of the pipe!)</p><h2 id=wrapping-up>Wrapping up<a hidden class=anchor aria-hidden=true href=#wrapping-up>#</a></h2><p>Building and running a RESTful API with F# is simple. Sure, the template code
+above does not look very functional, and it isn&rsquo;t. Once you get more
+confident with F#, you should probably move to functional web frameworks,
+like <a href=https://github.com/giraffe-fsharp/Giraffe>Giraffe</a>. The takeaway point I am trying to make, however, is that
+F# with pure NetCore delivers. Functional purists may shiver, but my advice
+is that you begin doing F# right away, solving problems that you are already
+familiar with.</p><p>I learned about F# back in 2010-11 when it was very new, and I immediately
+fell in love with it. Then I spent years and years waiting for the right
+project, the one with a perfect &ldquo;functional fit&rdquo; that would allow me to use
+F# in the real world. Guess what? It never happened. Either we had a good
+candidate but we were in a hurry, so no time for learning, or we got
+&ldquo;less-than-ideal-for-functional&rdquo; projects (in our mind) to work on.</p><p>Then I was tasked to write yet another RESTful web service. We have plenty
+scattered around, both in Python and C#. RESTful services have been my bread
+and butter for such a long time; I even went around to release a Python REST
+framework called <a href=https://github.com/pyeve/eve/>Eve</a>.</p><p>This time, I thought, I am going to do it differently. This time, I am going
+down the F# rabbit hole. What I found at the bottom of it was pure joy.</p><hr><p>PS: That fictional repository we&rsquo;ve been using, well, that&rsquo;s a concrete
+thing, an open source project I have been working on called Boxroom. When it
+is ready for prime time, I will post about it here on my site. Interested?
+Join the newsletter; a link is right down here.</p><p><em>Join the <a href=http://eepurl.com/b-_Pzz>newsletter</a> to get an email alert when a new post surfaces on
+this site. If you want to get in touch, I am @<a href=http://twitter.com/nicolaiarocci>nicolaiarocci</a> on twitter.</em></p></div><footer class=post-footer><ul class=post-tags></ul></footer></article></main><footer class=footer><span>&copy; 2023 <a href=https://nicolaiarocci.com>Nicola Iarocci</a></span>
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg></a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script></body></html>

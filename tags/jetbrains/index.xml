@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jetbrains on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/jetbrains/</link>
+    <description>Recent content in jetbrains on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 12 Dec 2022 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/jetbrains/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First impressions on JetBrains Rider 2022.3 update</title>
+      <link>https://nicolaiarocci.com/first-impressions-on-jetbrains-rider-2022.3-update/</link>
+      <pubDate>Mon, 12 Dec 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/first-impressions-on-jetbrains-rider-2022.3-update/</guid>
+      <description>Today I upgraded to JetBrains&amp;rsquo; Rider 2022.3. Startup speed has been enhanced, and full .NET 7 and C# 11 support is included. So far, my favorite feature is the conversion of regular and verbatim strings into their raw counterparts (it&amp;rsquo;s often the small, simple things.)
+My second best is the fulls upport for WSL2 remote development. This one took a good while to come out of the trenches, but better late than never, I&amp;rsquo;d say.</description>
+    </item>
+    <item>
+      <title>JetBrains has left Russia</title>
+      <link>https://nicolaiarocci.com/jetbrains-has-left-russia/</link>
+      <pubDate>Wed, 07 Dec 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/jetbrains-has-left-russia/</guid>
+      <description>While it has been a very challenging and difficult time for the company, it cannot even remotely be compared with the horrendous situation that the people of Ukraine are facing on a daily basis, caused by the war. Once again, we condemn this aggression, and have and will continue to stand by the people of Ukraine, including our colleagues and their families. More here.
+I&amp;rsquo;m using JetBrains products when I&amp;rsquo;m not in (neo)vim.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>parallels on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/parallels/</link>
+    <description>Recent content in parallels on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 11 Dec 2021 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/parallels/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrating a Windows 10 VM to Windows 11 in Parallels Desktop: a story of TPM chips and BIOS upgrades</title>
+      <link>https://nicolaiarocci.com/migrating-a-windows-10-vm-to-windows-11-in-parallels-desktop-a-story-of-tpm-chips-and-bios-upgrades/</link>
+      <pubDate>Sat, 11 Dec 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/migrating-a-windows-10-vm-to-windows-11-in-parallels-desktop-a-story-of-tpm-chips-and-bios-upgrades/</guid>
+      <description>This weekend assignment was to upgrade a couple of old Windows 10 VMs to Windows 11 in Parallels Desktop 17. I couldn&amp;rsquo;t do that right away because Windows Update was complaining about the lack of the TPM chip. A little research revealed that TPM chips only work on UEFI BIOS. To check which BIOS version was being used in my VMs, I used the msinfo32 (System Information) application. It showed the BIOS to be of &amp;ldquo;Legacy&amp;rdquo; type.</description>
+    </item>
+  </channel>
+</rss>

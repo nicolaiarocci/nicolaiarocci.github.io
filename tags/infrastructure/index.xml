@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>infrastructure on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/infrastructure/</link>
+    <description>Recent content in infrastructure on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 25 Mar 2021 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/infrastructure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Write libraries, not services? Not so fast</title>
+      <link>https://nicolaiarocci.com/write-libraries-not-services-not-so-fast/</link>
+      <pubDate>Thu, 25 Mar 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/write-libraries-not-services-not-so-fast/</guid>
+      <description>Write libraries instead of services is an interesting article I read a while ago. I cannot get it off my head. In an attempt to clear up my mind, I decided to sit down and write about it. I have been writing libraries for a good part of my life. Most of my earlier dev-work resides on thousands of computers in the form of libraries. More recently, I have been writing and deploying remote services.</description>
+    </item>
+  </channel>
+</rss>

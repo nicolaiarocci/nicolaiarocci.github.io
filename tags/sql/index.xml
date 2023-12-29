@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sql on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/sql/</link>
+    <description>Recent content in sql on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 13 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcing Eve-SQLAlchemy the official SQL extension for the Eve REST Framework</title>
+      <link>https://nicolaiarocci.com/announcing-eve-sqlalchemy-the-official-sql-extension-for-the-eve-rest-framework/</link>
+      <pubDate>Tue, 13 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/announcing-eve-sqlalchemy-the-official-sql-extension-for-the-eve-rest-framework/</guid>
+      <description>Powered by SQLAlchemy and good intentions, Eve-SQLAlchemy is an official Eve extension which allows to effortlessly build and deploy highly customizable, fully featured RESTful Web Services with SQL backends.
+As with all Eve extensions, once installed with
+$ pip install eve-sqlalchemy using Eve-SQLAlchemy is very simple:
+from eve import Eve from eve_sqlalchemy import SQL app = Eve(data=SQL) app.run() On a fresh virtualenv (of course you are using virtualenvs, right?) the install will also setup Eve and all its dependencies for you.</description>
+    </item>
+    <item>
+      <title>Cancellare tutte le Tabelle da un Database SQL Server</title>
+      <link>https://nicolaiarocci.com/cancellare-tutte-le-tabelle-da-un-database-sql-server/</link>
+      <pubDate>Wed, 09 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/cancellare-tutte-le-tabelle-da-un-database-sql-server/</guid>
+      <description>&lt;p&gt;In rari casi può capitare la necessità di cancellare tutto, ma proprio tutto, da un database SQL Server. &lt;strong&gt;Tabelle&lt;/strong&gt;, &lt;strong&gt;Stored Procedure&lt;/strong&gt;, &lt;strong&gt;Funzioni&lt;/strong&gt;, &lt;strong&gt;Viste&lt;/strong&gt;, &lt;strong&gt;Relazioni&lt;/strong&gt; e &lt;strong&gt;Chiavi Primarie&lt;/strong&gt;. A questo punto tanto varrebbe cancellare il database e ricrearlo, direte voi. Vero, ma non sempre si dispone delle autorizzazioni per farlo. Nel mio caso si tratta di un database ospitato su un server remoto e condiviso. Posso creare e cancellare quel che voglio all’interno del database, ma non posso rinominare o cancellare il db stesso.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Come rimuovere tutte le Stored Procedure da un database SQL Server?</title>
+      <link>https://nicolaiarocci.com/come-rimuovere-tutte-le-stored-procedure-da-un-database-sql/</link>
+      <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/come-rimuovere-tutte-le-stored-procedure-da-un-database-sql/</guid>
+      <description>&lt;p&gt;In questi giorni sto lavorando sui database &lt;strong&gt;SQL Server&lt;/strong&gt; che fanno da back-end ai nostri web services e ne approfitto per fare un po’ manutenzione straordinaria. __Stamattina mi è capitato di dover cancellare tutte le &lt;strong&gt;Stored Procedure&lt;/strong&gt; di un database e ho &lt;a href=&#34;http://www.devasp.net/net/articles/display/309.html&#34;&gt;scovato&lt;/a&gt; questa routine che mi ha fatto risparmiare un mucchio di tempo&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Il meglio di Stack Overflow in una collana di eBook gratuiti</title>
+      <link>https://nicolaiarocci.com/il-meglio-di-stack-overflow-una-collana-di-ebook-gratuiti/</link>
+      <pubDate>Wed, 02 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-meglio-di-stack-overflow-una-collana-di-ebook-gratuiti/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://stackoverflow.com/&#34;&gt;&lt;strong&gt;Stack Overflow&lt;/strong&gt;&lt;/a&gt; è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera &lt;strong&gt;minera di informazioni&lt;/strong&gt; &lt;strong&gt;preziose&lt;/strong&gt; e  meriterebbe maggiore attenzione…&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

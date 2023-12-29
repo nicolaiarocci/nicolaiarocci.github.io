@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bpython on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/bpython/</link>
+    <description>Recent content in bpython on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 06 Jun 2023 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/bpython/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python `decimal.getcontext` does not work with bpython</title>
+      <link>https://nicolaiarocci.com/python-decimal.getcontext-does-not-work-with-bpython/</link>
+      <pubDate>Tue, 06 Jun 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/python-decimal.getcontext-does-not-work-with-bpython/</guid>
+      <description>I have been working on a side project for which I&amp;rsquo;m using bpython, a &amp;ldquo;fancy interface to the Python interpreter.&amp;rdquo; If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax highlighting, readline-like autocomplete, a &amp;ldquo;rewind&amp;rdquo; function to pop the last line of code from memory, auto-indentation and more.
+Anyway, today I found a bug in bpython, and that&amp;rsquo;s that Python&amp;rsquo;s decimal.getcontext() does not work with it.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>comics on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/comics/</link>
+    <description>Recent content in comics on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 15 Dec 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/comics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python ti mette le ali</title>
+      <link>https://nicolaiarocci.com/python-ti-mette-le-ali/</link>
+      <pubDate>Sat, 15 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/python-ti-mette-le-ali/</guid>
+      <description> </description>
+    </item>
+  </channel>
+</rss>

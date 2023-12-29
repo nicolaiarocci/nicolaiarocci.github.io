@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>podcast on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/podcast/</link>
+    <description>Recent content in podcast on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 06 Jul 2021 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My DotNetPodcast interview</title>
+      <link>https://nicolaiarocci.com/my-dotnetpodcast-interview/</link>
+      <pubDate>Tue, 06 Jul 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/my-dotnetpodcast-interview/</guid>
+      <description>Today I was interviewed by Mauro Servienti on the DotNetPodcast. The theme was my experience as an open-source maintainer on both the Python and C# stacks. We also discussed the ongoing evolution of the dotNET ecosystem, touching on a few tangent topics.
+The recording is in Italian and is available below here.
+Listen to &amp;ldquo;Python, Eve, open source e fattura elettronica. Con Nicola Iarocci&amp;rdquo; on Spreaker.
+Subscribe to the newsletter, the RSS feed, or follow @nicolaiarocci on Twitter</description>
+    </item>
+    <item>
+      <title>Talk Python To Me Podcast Episode #1: EVE RESTful APIs for Humans</title>
+      <link>https://nicolaiarocci.com/talk-python-to-me-podcast-episode-1-eve-restful-apis-for-humans/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/talk-python-to-me-podcast-episode-1-eve-restful-apis-for-humans/</guid>
+      <description>I was lucky enough be the first guest for the shiny new Talk Python To Me Podcast hosted by Michael Kennedy. In this episode we talk about Eve an my other open source releases, which gives us an excuse to touch on a variety of topics such as Polyglot Programming, New Microsoft and the .NET evolution, MongoDB and the Open Source eco-system as seen from the point of view of an old fart who has been spending most of his career in closed systems.</description>
+    </item>
+  </channel>
+</rss>

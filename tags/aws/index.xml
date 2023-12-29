@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aws on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/aws/</link>
+    <description>Recent content in aws on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Sep 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL Server e il Cloud di Amazon EC2: vantaggi e svantaggi</title>
+      <link>https://nicolaiarocci.com/sql-server-e-il-cloud-di-amazon-ec2-vantaggi-e-svantaggi/</link>
+      <pubDate>Wed, 14 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/sql-server-e-il-cloud-di-amazon-ec2-vantaggi-e-svantaggi/</guid>
+      <description>Se state considerando l’opzione Cloud per il vostro SQL Server non lasciatevi sfuggire l’ultimo articolo di Jeremiah Peschka, Configuring SQL Server in Amazon EC2. A dispetto del titolo non si tratta di un tutorial, ma di una analisi accurata di vantaggi e svantaggi legati al deploy di un database SQL nel Cloud, a prescindere dalla piattaforma adottata.
+Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità. Nel cloud, anche la cacca profuma di rose.</description>
+    </item>
+  </channel>
+</rss>

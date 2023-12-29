@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>meetup on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/meetup/</link>
+    <description>Recent content in meetup on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 22 Mar 2023 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web Performance meetup at DevRomagna</title>
+      <link>https://nicolaiarocci.com/web-performance-meetup-at-devromagna/</link>
+      <pubDate>Wed, 22 Mar 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/web-performance-meetup-at-devromagna/</guid>
+      <description>I know this is coming in a bit late; apologies, but&amp;hellip; We&amp;rsquo;re doing a Web Performance meetup at DevRomagna today. Andrea &amp;lsquo;Verlok&amp;rsquo; Verlicchi, a Google Developer Expert specialing in web performance, will share his extensive experience in web performance and provide practical, high-impact, and easily applicable tips on improving performance in 2023.
+Info and signup here.
+Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+    </item>
+    <item>
+      <title>Heading to Go: A Look at Building a Video Encoder (meetup)</title>
+      <link>https://nicolaiarocci.com/heading-to-go-a-look-at-building-a-video-encoder-meetup/</link>
+      <pubDate>Wed, 08 Feb 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/heading-to-go-a-look-at-building-a-video-encoder-meetup/</guid>
+      <description>We&amp;rsquo;re doing a DevRomagna meetup this month, and I think it will be a super-interesting one. It&amp;rsquo;s titled Heading to Go: A Look at Building a Video Encoder and the presenter will be Daniel Enrico Botta, a C# software engineer who recently switched to Go for his video encoding projects. Here&amp;rsquo;s the abstract:
+This talk will discuss the experience of moving from C# to Go for a video coding project. The pros and cons of using Go, a modern and efficient programming language, and how it compares to other languages will be shown.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python tools per visual studio on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/python-tools-per-visual-studio/</link>
+    <description>Recent content in python tools per visual studio on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Nov 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/python-tools-per-visual-studio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Tools per Visual Studio 1.5</title>
+      <link>https://nicolaiarocci.com/python-tools-per-visual-studio-1-5/</link>
+      <pubDate>Thu, 01 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/python-tools-per-visual-studio-1-5/</guid>
+      <description>Seguo il progetto Python Tools per Visual Studio da molto tempo.
+Python Tools per Visual Studio è un plugin gratuito e open source che trasforma Visual Studio in una IDE per Python. Supporta CPython, IronPython, Intellisense, Debugging, Profiling, Editing, Browsing, REPL Multipli, IPython, Django e Cloud Computing con librerie client per Windows, Linux e OS X (Azure).
+La versione 1.5, rilasciata oggi, aggiunge supporto per Django, Azure, REPL debugging, Visual Studio 2012 e altro.</description>
+    </item>
+    <item>
+      <title>Python Tools per Visual Studio per accedere a Kinect SDK ed Excel via Python</title>
+      <link>https://nicolaiarocci.com/python-tools-per-visual-studio-per-accedere-a-kinect-sdk-ed-excel-via-python/</link>
+      <pubDate>Fri, 04 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/python-tools-per-visual-studio-per-accedere-a-kinect-sdk-ed-excel-via-python/</guid>
+      <description>E’ uscita ieri la versione 1.1 Alpha dei Python Tools per Visual Studio, il plug-in open source per programmare in Python con Visual Studio 2010. Migliorie e molte nuove features per la IDE ma la novità più interessante sono senz’altro PyKinect e Pyvot, due librerie che consentono rispettivamente di lavorare col Kinect SDK e di interagire con Excel via Python.
+Per informazioni su Python Tools per Visual Studio date una occhiata a Programmare in Python con Visual Studio 2010 e Python Studio per Visual Studio 1.</description>
+    </item>
+    <item>
+      <title>Python Tools per Visual Studio 1.0</title>
+      <link>https://nicolaiarocci.com/python-tools-per-visual-studio-1-0/</link>
+      <pubDate>Tue, 30 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/python-tools-per-visual-studio-1-0/</guid>
+      <description>&lt;p&gt;Dopo una breve e brillante Beta, con l’uscita della versione 1.0 il progetto open source &lt;!-- raw HTML omitted --&gt;Python Tools for Visual Studio&lt;!-- raw HTML omitted --&gt; entra nel novero delle estensioni ufficiali per Visual Studio 2010. Ne da notizia W. Somasegar sul suo weblog, con &lt;!-- raw HTML omitted --&gt;un articolo introduttivo&lt;!-- raw HTML omitted --&gt; in cui ci ricorda le caratteristiche salienti di PTVS: syntax highlighting, refactoring, debugging in tempo reale, interprete Python interattivo integrato e supporto per CPython, IronPython, JPython e PyPy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Python Tools per Visual Studio 2010 arriva la RC1</title>
+      <link>https://nicolaiarocci.com/python-tools-per-visual-studio-2010-arriva-la-rc1/</link>
+      <pubDate>Tue, 12 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/python-tools-per-visual-studio-2010-arriva-la-rc1/</guid>
+      <description>&lt;p&gt;Prosegue senza intoppi il cammino di &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Python Tools per Visual Studio&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, il progetto open source targato Microsoft che consente di programmare in Python con Visual Studio 2010. Dopo il &lt;a href=&#34;http://nicolaiarocci.com/python-tools-per-visual-studio-2010/&#34; title=&#34;Programmare in Python con Visual Studio 2010&#34;&gt;lancio ufficiale&lt;/a&gt; dello scorso marzo e la successiva &lt;a href=&#34;http://nicolaiarocci.com/python-tools-per-visual-studio-ecco-la-beta-2/&#34; title=&#34;Python Tools per Visual Studio 2010 Beta 2&#34;&gt;Beta 2&lt;/a&gt; di maggio, ieri è stata presentata la &lt;strong&gt;Release Candidate 1&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Python Tools per Visual Studio ecco la Beta 2</title>
+      <link>https://nicolaiarocci.com/python-tools-per-visual-studio-ecco-la-beta-2/</link>
+      <pubDate>Tue, 10 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/python-tools-per-visual-studio-ecco-la-beta-2/</guid>
+      <description>&lt;p&gt;Microsoft ha rilasciato la seconda beta di &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Python Tools per Visual Studio&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, il suo progetto open source che offre agli sviluppatori la possibilità di scrivere codice Python, CPython e IronPython nell’ambiente IDE di Visual Studio 2010.&lt;/p&gt;
+&lt;p&gt;Il progetto è stato presentato al &lt;!-- raw HTML omitted --&gt;PyCon 2011&lt;!-- raw HTML omitted --&gt; dal &lt;!-- raw HTML omitted --&gt;Microsoft Technical Computing Group&lt;!-- raw HTML omitted --&gt; ed è davvero ben fatto. Per tutti gli approfondimenti vi rimando al mio articolo &lt;!-- raw HTML omitted --&gt;Programmare in Python con Visual Studio 2010&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

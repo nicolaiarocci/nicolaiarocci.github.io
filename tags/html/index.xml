@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>html on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/html/</link>
+    <description>Recent content in html on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 Jan 2021 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The unreasonable effectiveness of simple HTML</title>
+      <link>https://nicolaiarocci.com/the-unreasonable-effectiveness-of-simple-html/</link>
+      <pubDate>Thu, 28 Jan 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-unreasonable-effectiveness-of-simple-html/</guid>
+      <description>We&amp;rsquo;ve seen other articles pointing the finger at unnecessarily bloated websites. Terence Eden&amp;rsquo;s On the unreasonable effectiveness of simple HTML deserves mention, I think, for two reasons. First, the delivery is incredibly effective. Second, it is effective because of the storytelling.
+By enveloping the message into an original short, touching story, he achieves two goals. First, he captures the reader&amp;rsquo;s attention; second, he makes the experience memorable. Please, go and read it; I&amp;rsquo;ll wait here.</description>
+    </item>
+    <item>
+      <title>Web Standards Killed the HTML Star</title>
+      <link>https://nicolaiarocci.com/web-standards-killed-the-html-star/</link>
+      <pubDate>Sat, 04 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/web-standards-killed-the-html-star/</guid>
+      <description>What we may not have realized is that once the browsers don’t suck, being an HTML and CSS “guru” isn’t really a very marketable skillset. 80% of what made us useful was the way we knew all the quirks and intracries of the browsers. Guess what? Those are all gone. And if they’re not, they will be in the very near future. Then what?
+A lot of folks who came up from that time and headspace have diversified their skillsets since.</description>
+    </item>
+    <item>
+      <title>Imparare HTML e CSS Online con Codecademy</title>
+      <link>https://nicolaiarocci.com/imparare-html-e-css-online-con-codecademy/</link>
+      <pubDate>Tue, 03 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/imparare-html-e-css-online-con-codecademy/</guid>
+      <description>Codecademy propone da ieri un corso gratuito e interattivo su HTML e CSS. Il corso, per principianti, si affianca a quello ormai collaudato (e recentemente ampliato) su JavaScript.
+Il meccanismo è quello della gamification, con tanto di punteggi e badge da conquistare man mano che si raggiungono obiettivi prefissati . Presto dovrebbe uscire anche un corso su Python.
+Compi i tuoi primi passi con HTML e CSS. Non è necessaria alcuna esperienza precedente — cominceremo dalle basi e in poco tempo ti ritroverai a lavorare alla tua homepage personale!</description>
+    </item>
+    <item>
+      <title>HTML e CSS di base per i Web Designer del futuro</title>
+      <link>https://nicolaiarocci.com/html-e-css-di-base-per-i-web-designer-del-futuro/</link>
+      <pubDate>Tue, 23 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/html-e-css-di-base-per-i-web-designer-del-futuro/</guid>
+      <description>Don’t Fear the Internet è una ottima risorsa per Web Designer principianti. Attenzione ai dettagli, grande cura e ottimi contenuti sono il marchio distintivo di questo progetto di Jessica Hische e Russ Maschmeyer:
+Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? Hai un sito che mai messo insieme con Dreamweaver grazie a quell’UNICA lezione scolastica di web design? Il sito non ce l’hai nemmeno, perché sono due anni che aspetti che tuo cugino lo faccia per te?</description>
+    </item>
+    <item>
+      <title>Inserire un marchio nelle immagini via JavaScript</title>
+      <link>https://nicolaiarocci.com/il-marchio-nelle-immagini-via-javascript/</link>
+      <pubDate>Tue, 05 Apr 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-marchio-nelle-immagini-via-javascript/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.patrick-wied.at/static/watermarkjs/&#34;&gt;Watermark.js&lt;/a&gt;&lt;/strong&gt; è una libreria JavaScript che aggiunge un &lt;!-- raw HTML omitted --&gt;watermark&lt;!-- raw HTML omitted --&gt; (letteralmente &lt;em&gt;filigrana&lt;/em&gt;, ovvero un logo o un marchio) alle immagini presenti sulle pagine web. Contrassegnare le immagini in modo permanente è utile a proteggerle dalla copia oppure, al contrario, ad approfittare della loro riproduzione per diffondere un marchio (&lt;a href=&#34;http://en.wikipedia.org/wiki/Brand_awareness&#34;&gt;brand awareness&lt;/a&gt;). Usare watermark.js è semplice, vediamo quanto.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;come-usare-watermarkjs&#34;&gt;Come usare watermark.js&lt;/h2&gt;
+&lt;p&gt;La libreria innesta il marchio nelle immagini marcate con la classe CSS “watermark”. Se il nome della classe non piace è possibile cambiarlo. Se il nostro watermark è in formato JPG la libreria aggiunge per noi un livello di trasparenza, altrimenti possiamo fornirle i più idonei formati PNG e GIF.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Microsoft, mi tocca boicottare pure IE6countdown.com</title>
+      <link>https://nicolaiarocci.com/microsoft-mi-tocca-boicottare-pure-ie6countdown-com/</link>
+      <pubDate>Sat, 05 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/microsoft-mi-tocca-boicottare-pure-ie6countdown-com/</guid>
+      <description>&lt;p&gt;Col suo sito &lt;a href=&#34;http://www.ie6countdown.com/&#34;&gt;IE6countdown.com&lt;/a&gt; Microsoft riconosce finalmente che l’ormai decenne (2001) Internet Explorer 6 ha fatto il suo tempo. E’ ora di guardare avanti.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Il sito invita i web master di tutto il mondo a unirsi alla crociata per la distruzione della vetusta reliquia aggiungendo un banner alle loro home page. Il banner compare solo quando la pagina è aperta da IE6, spiegando al visitatore che il suo browser è obsoleto e di scarsa qualità (questo in effetti dimentica di dirlo) e suggerendo di aggiornarlo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TEMPO: mostrare dati JSON con solo codice HTML</title>
+      <link>https://nicolaiarocci.com/tempo-mostrare-dati-json-con-solo-codice-html/</link>
+      <pubDate>Thu, 03 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/tempo-mostrare-dati-json-con-solo-codice-html/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Lanciata da pochi giorni, &lt;a href=&#34;http://tempojs.com/&#34;&gt;&lt;!-- raw HTML omitted --&gt;Lanciata da pochi giorni,&lt;/a&gt; è una piccola (4Kb) e brillante libreria JavaScript che ci mette a disposizione un &lt;em&gt;rendering engine&lt;/em&gt; JSON controllabile con puro codice HTML. La separazione tra HTML e JavaScript rende più facile il lavoro con contenuti AJAX, aumenta la leggibilità del codice e ne facilita la manutenzione. Tempo è compatibile con tutti i browser (IE6 incluso), si integra alla perfezione con jQuery ed è davvero facile da usare.&lt;/p&gt;
+&lt;h2 id=&#34;json&#34;&gt;JSON&lt;/h2&gt;
+&lt;p&gt;JSON è un formato di scambio dati sempre più diffuso. Un flusso di dati JSON è relativamente compatto (soprattutto rispetto al suo rivale XML) ed è facile da interpretare sia per un umano che per un computer. Ormai tutte le Web API più usate (Facebook, Twitter, ecc.) supportano ampiamente JSON. Ecco un esempio di array JSON:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Il meglio di Stack Overflow in una collana di eBook gratuiti</title>
+      <link>https://nicolaiarocci.com/il-meglio-di-stack-overflow-una-collana-di-ebook-gratuiti/</link>
+      <pubDate>Wed, 02 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-meglio-di-stack-overflow-una-collana-di-ebook-gratuiti/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://stackoverflow.com/&#34;&gt;&lt;strong&gt;Stack Overflow&lt;/strong&gt;&lt;/a&gt; è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera &lt;strong&gt;minera di informazioni&lt;/strong&gt; &lt;strong&gt;preziose&lt;/strong&gt; e  meriterebbe maggiore attenzione…&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Il futuro del codice sorgente è online?</title>
+      <link>https://nicolaiarocci.com/il-futuro-del-codici-sorgente-e-online/</link>
+      <pubDate>Sat, 29 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-futuro-del-codici-sorgente-e-online/</guid>
+      <description>&lt;p&gt;Gli ambienti di sviluppo (IDE) online sono una delle opportunità più originali che il &lt;a href=&#34;http://it.wikipedia.org/wiki/Cloud_computing&#34;&gt;cloud computing&lt;/a&gt; mette a disposizione dei programmatori web. In generale si tratta di editor di codice, debugger e strumenti per il controllo di versione da usare nel browser web senza bisogno di installare alcun software sul client. Per il momento le soluzioni disponibili offrono funzionalità limitate che tuttavia lasciano intravedere le possibilità che questi strumenti metteranno a nostra disposizione.&lt;/p&gt;
+&lt;h2 id=&#34;il-progetto-orion&#34;&gt;Il Progetto Orion&lt;/h2&gt;
+&lt;p&gt;Semplici editor di codice sorgente sono disponibili online già da tempo, ma progetti come &lt;strong&gt;Orion&lt;/strong&gt; portano il concetto di programmazione online a un livello superiore. &lt;a href=&#34;http://dev.eclipse.org/blogs/mike/2011/01/11/introducing-orion/&#34;&gt;Annunciato pochi giorni fa&lt;/a&gt; dal team di sviluppo di &lt;strong&gt;Eclipse&lt;/strong&gt;, una IDE Open Source molto diffusa e apprezzata, il progetto Orion è qualcosa di nuovo:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Humans TXT – Il robots.txt per gli esseri umani</title>
+      <link>https://nicolaiarocci.com/humans-txt-il-robots-txt-per-gli-esseri-umani/</link>
+      <pubDate>Sun, 23 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/humans-txt-il-robots-txt-per-gli-esseri-umani/</guid>
+      <description>&lt;p&gt;**&lt;!-- raw HTML omitted --&gt;**Introdotta dallo slogan &lt;em&gt;Siamo Uomini Non Macchine&lt;/em&gt;, &lt;!-- raw HTML omitted --&gt;Humans TXT&lt;!-- raw HTML omitted --&gt; è una iniziativa che consente di conoscere gli autori di un sito web. Per ragioni di immagine i committenti sono spesso &lt;!-- raw HTML omitted --&gt;riluttanti&lt;!-- raw HTML omitted --&gt; a consentire che sulle loro homepage appaiano i nomi degli autori. Non sempre è evidente chi ha sviluppato un sito, cosa certo non gradita all’autore che avrebbe tutto il diritto (e l’interesse) di &lt;strong&gt;firmare&lt;/strong&gt; le proprie opere.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eric Meyer aggiorna il suo famoso CSS Reset</title>
+      <link>https://nicolaiarocci.com/eric-meyer-aggiorna-il-suo-famoso-css-reset/</link>
+      <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/eric-meyer-aggiorna-il-suo-famoso-css-reset/</guid>
+      <description>Quattro anni fa Eric Meyer pubblicò la prima versione del suo CSS Reset. Concepito come un prototipo da condividere con altri sviluppatori dediti alla creazione di uno standard, il modulo riscosse subito grande successo diffondendosi rapidamente. In poche settimane venne adottato, spesso inconsapevolmente, da decine di migliaia di programmatori e designer web. Oggi gran parte dei siti web nel mondo includono nel loro codice almeno una traccia di quello che è universalmente noto come Eric Meyer Reset.</description>
+    </item>
+    <item>
+      <title>Oltre il 50% degli utenti web ora supporta il formato video HTML5</title>
+      <link>https://nicolaiarocci.com/oltre-il-50-degli-utenti-web-ora-supporta-il-formato-video-html5/</link>
+      <pubDate>Sat, 08 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/oltre-il-50-degli-utenti-web-ora-supporta-il-formato-video-html5/</guid>
+      <description>&lt;p&gt;Proprio ieri in &lt;a href=&#34;http://nicolaiarocci.com/flash-adobe-e-una-pessima-idea/&#34;&gt;Adobe Flash è una Pessima Idea&lt;/a&gt; concludevo sostenendo che l’adozione dei nuovi standard HTML5 e CSS3 sarà molto più rapida di quanto non si immagini. Nemmeno ventiquattro ore dopo ecco la notizia che &lt;a href=&#34;http://videojs.com/2011/01/html5-video-statistics/&#34;&gt;&lt;strong&gt;oltre il 50% degli utenti web supporta già il formato video HTML5&lt;/strong&gt;&lt;/a&gt;. La fonte dei dati è &lt;a href=&#34;http://gs.statcounter.com/#browser_version-ww-daily-20101201-20101231&#34;&gt;StatCounter&lt;/a&gt;, ancora oggi una delle piattaforme più usate al mondo per tracciare la navigazione sui siti web.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Adobe Flash è una Pessima Idea</title>
+      <link>https://nicolaiarocci.com/flash-adobe-e-una-pessima-idea/</link>
+      <pubDate>Thu, 06 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/flash-adobe-e-una-pessima-idea/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;E’ incredibile la quantità di siti che ancora oggi vengono sviluppati con Flash. Il fenomeno colpisce soprattutto i siti-vetrina: negozi, attività commerciali, ristoranti, artigiani. Basta farsi un giro sui siti di venditori di mobili, per esempio, per godersi il trionfo della ‘&lt;a href=&#34;http://en.wikipedia.org/wiki/Adobe_Flash&#34;&gt;multimedia platform&lt;/a&gt;‘ di Adobe. Bisogna prenderne atto: nel 2011 migliaia di aziende italiane di ogni dimensione affidano la loro identità web ad Adobe Flash. Consulenti e agenzie continuano a produrre siti con tecnologie assimilate anni fa. Reticenti all’aggiornamento delle proprie competenze, si accontentano del loro confortante orticello che, tutto sommato, assicura lo stipendio.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

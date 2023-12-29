@@ -1,0 +1,119 @@
+<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Introduzione alle Regular Expression – Seconda Parte | Nicola Iarocci</title>
+<meta name=keywords content="programmazione,regex,regular expression,tutorial"><meta name=description content="Questa è la seconda parte della serie Introduzione alle Regular Expression. Se non hai ancora letto la prima parte ti consiglio di farlo. Puoi usare la pagina demo per provare le query della guida.
+Negazione [^] Abbiamo già conosciuto la [cornice]. Una caratteristica importante di cui non abbiamo ancora parlato è la negazione. Supponiamo di voler cercare qualunque carattere eccetto la lettera a.
+[^a] # trova b,c,d,e,f,\n .... qualunque carattere eccetto 'a' La negazione si applica a tutti i caratteri della cornice in cui compare l&rsquo;operatore ˆ."><meta name=author content="Nicola Iarocci"><link rel=canonical href=https://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/><link crossorigin=anonymous href=/assets/css/stylesheet.f0568d4df87da526a07cdd5f492b4a146e3fa93d5ee950200eaafb2bb50d6fd8.css integrity="sha256-8FaNTfh9pSagfN1fSStKFG4/qT1e6VAgDqr7K7UNb9g=" rel="preload stylesheet" as=style><link rel=icon href=https://nicolaiarocci.com/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://nicolaiarocci.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://nicolaiarocci.com/favicon-32x32.png><link rel=apple-touch-icon href=https://nicolaiarocci.com/apple-touch-icon.png><link rel=mask-icon href=https://nicolaiarocci.com/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><meta property="og:title" content="Introduzione alle Regular Expression – Seconda Parte"><meta property="og:description" content="Questa è la seconda parte della serie Introduzione alle Regular Expression. Se non hai ancora letto la prima parte ti consiglio di farlo. Puoi usare la pagina demo per provare le query della guida.
+Negazione [^] Abbiamo già conosciuto la [cornice]. Una caratteristica importante di cui non abbiamo ancora parlato è la negazione. Supponiamo di voler cercare qualunque carattere eccetto la lettera a.
+[^a] # trova b,c,d,e,f,\n .... qualunque carattere eccetto 'a' La negazione si applica a tutti i caratteri della cornice in cui compare l&rsquo;operatore ˆ."><meta property="og:type" content="article"><meta property="og:url" content="https://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/"><meta property="article:section" content="post"><meta property="article:published_time" content="2011-02-26T00:00:00+00:00"><meta property="article:modified_time" content="2011-02-26T00:00:00+00:00"><meta property="og:site_name" content="Nicola Iarocci"><meta name=twitter:card content="summary"><meta name=twitter:title content="Introduzione alle Regular Expression – Seconda Parte"><meta name=twitter:description content="Questa è la seconda parte della serie Introduzione alle Regular Expression. Se non hai ancora letto la prima parte ti consiglio di farlo. Puoi usare la pagina demo per provare le query della guida.
+Negazione [^] Abbiamo già conosciuto la [cornice]. Una caratteristica importante di cui non abbiamo ancora parlato è la negazione. Supponiamo di voler cercare qualunque carattere eccetto la lettera a.
+[^a] # trova b,c,d,e,f,\n .... qualunque carattere eccetto 'a' La negazione si applica a tutti i caratteri della cornice in cui compare l&rsquo;operatore ˆ."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":2,"name":"Posts","item":"https://nicolaiarocci.com/post/"},{"@type":"ListItem","position":3,"name":"Introduzione alle Regular Expression – Seconda Parte","item":"https://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Introduzione alle Regular Expression – Seconda Parte","name":"Introduzione alle Regular Expression – Seconda Parte","description":"Questa è la seconda parte della serie Introduzione alle Regular Expression. Se non hai ancora letto la prima parte ti consiglio di farlo. Puoi usare la pagina demo per provare le query della guida.\nNegazione [^] Abbiamo già conosciuto la [cornice]. Una caratteristica importante di cui non abbiamo ancora parlato è la negazione. Supponiamo di voler cercare qualunque carattere eccetto la lettera a.\n[^a] # trova b,c,d,e,f,\\n .... qualunque carattere eccetto 'a' La negazione si applica a tutti i caratteri della cornice in cui compare l\u0026rsquo;operatore ˆ.","keywords":["programmazione","regex","regular expression","tutorial"],"articleBody":"Questa è la seconda parte della serie Introduzione alle Regular Expression. Se non hai ancora letto la prima parte ti consiglio di farlo. Puoi usare la pagina demo per provare le query della guida.\nNegazione [^] Abbiamo già conosciuto la [cornice]. Una caratteristica importante di cui non abbiamo ancora parlato è la negazione. Supponiamo di voler cercare qualunque carattere eccetto la lettera a.\n[^a] # trova b,c,d,e,f,\\n .... qualunque carattere eccetto 'a' La negazione si applica a tutti i caratteri della cornice in cui compare l’operatore ˆ. Non è possibile limitarla a solo alcuni.\n[^0123456789] # trova qualunque carattere non numerico Gli Alias Ora siamo pronti per affrontare qualche esempio realistico di regular expression. Uno degli usi più frequenti delle regex è la convalida di Stringhe. Proviamo a verificare la correttezza di un ipotetico numero telefonico da esprimere nel formato 555-12345678. Di norma divideremmo l’input in due parti e proveremmo a convertirle in numeri. Ora tuttavia conosciamo le regex e possiamo sbrigarcela meglio.\n555-[0-9]{7} Fatto. Stiamo convalidando 555 seguito da un trattino seguito da 7 caratteri numerici. Possiamo essere addirittura più sintetici, vediamo come.\nI range [0-9] e [a-z] sono talmente frequenti da saltar fuori continuamente, tanto che sono state create scorciatoie (alias) dedicate ai range più usati. Nel nostro caso ci torna utile \\d, che sta per digit (carattere numerico) ed è semanticamente identico a [0-9].\n555-\\d{7} # identico a 555-[0-9]{7} Gli alias non sono certo indispensabili, puoi ottenere gli stessi risultati usando la cornice in modo esteso. Tuttavia sono molto comodi.\nsignificato coorrisponde a digit (numero) [0-9] word (parola) [a-zA-Z0-9_] Include il carattere underscore spazio, tab o newline [ \\t\\r\\n] qualsiasi non numerico ^\\d quasiasi non alfanumerico ^\\w quasiasi ma non lo spazio ^\\s Suggerimento: nota come ad ogni alias ne corrisponde uno dal significato opposto, tutto in maiuscolo. Impara i primi tre per conoscerli tutti e sei.\nIl Punto Il punto è un alias un pò speciale. Ne parlo soprattutto perchè può capitare di notarlo nel codice scritto da altri. Il punto cerca tutto eccetto il new line (\\n). Il problema è che il carattere new line non è lo stesso su tutte le piattaforme.\n. # trova tutti i caratteri .* # equivalente a [^\\n], trova tutti i paragrafi Il punto spesso crea confusione. Consiglio di ricorrere a combinazioni di alias e cornici per ottenere gli stessi risultati senza rischiare errori.\nEscaping Capita a volte di dover cercare proprio il punto, oppure i caratteri [ o ]. Poiché fanno parte della sintassi regex in questi casi è necessario riccorrere all’escaping, ovvero precederli col carattere \\ che rappresenta l’escape. Per esempio\n\\. # cerca il punto invece che tutto quanto \\* # trova tutti gli asterischi \\\\ # trova tutti gli escape Raggruppamenti e OR Torniamo alla convalida. Questa volta vogliamo verificare la validità di un indirizzo email. Prima di tutto stabiliamo le regole (semplificate) a cui una stringa deve attenersi per venire convalidata come indirizzo email: 1) il nome utente può contenere lettere, numeri, underscore e trattini ma deve cominciare con una lettera; 2) il dominio può contenere solo lettere seguite da un punto seguito da altre lettere. Quindi domain.fakecom è valido per noi\n[a-z][\\w-]*@[a-z]+\\.[a-z]+ Presta attenzione all’escaping del punto! Un’altro dettaglio importante è il quantificatore + che abbiamo visto nel primo articolo di questa serie. Nel dominio infatti vogliamo almeno una lettera, non zero o più.\nSupponiamo ora di voler aggiornare le regole in modo da convalidare solo i domini più importanti. Il nostro indirizzo email deve finire con com oppure net. Non possiamo risolvere questo problema con quel che abbiamo imparato finora. La nostra query regex dovrà ricorrere a due nuovi concetti, l’operatore OR e i gruppi.\n[a-z][\\w-]*@[a-z]+\\.(com|net) Vediamo l’OR all’opera\ncom|net # trova com oppure net a|b|c # lo stesso di [abc]. L’aggiunta delle parentesi () si rende necessaria per chiarire che non vogliamo trovare tutte le occorrenze della parte di regex alla loro sinistra. Se volessimo “Brad Pitt” oppure “Angelina Pitt”\nBrad|Angelina Pitt # trova sia 'Brad' che 'Angelina Pitt' (Brad|Angelina) Pitt # ora ci siamo! Per un programmatore il concetto del raggruppamento (grouping) con le parentesi dovrebbe essere facilmente comprensibile. Di fatto possiamo combinarlo con altri operatori che già conosciamo\n(dog)+ # trova dog,dogdog,dogdogdog ... java(bean)? # trova java o javabean Conclusione Questo conclude la seconda parte della guida. La prossima e ultima parte verrà pubblicata tra qualche giorno. Nel frattempo raccomando di giocare con la pagina demo per fare un pò di pratica.\nE’ ora disponibile anche la terza parte di questo tutorial.\nQuesto articolo è una traduzione autorizzata di Regex Primer: Part 2. Ringrazio l’autore per il permesso accordatomi.\n","wordCount":"798","inLanguage":"en","datePublished":"2011-02-26T00:00:00Z","dateModified":"2011-02-26T00:00:00Z","author":{"@type":"Person","name":"Nicola Iarocci"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/"},"publisher":{"@type":"Organization","name":"Nicola Iarocci","logo":{"@type":"ImageObject","url":"https://nicolaiarocci.com/favicon.ico"}}}</script></head><body id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://nicolaiarocci.com accesskey=h title="Home (Alt + H)"><img src=https://nicolaiarocci.com/images/avatar.png alt aria-label=logo height=35>Home</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://nicolaiarocci.com/opensource/ title=code><span>code</span></a></li><li><a href=https://nicolaiarocci.com/speaking/ title=conferences><span>conferences</span></a></li><li><a href=https://nicolaiarocci.com/books-i-have-read/ title=library><span>library</span></a></li><li><a href=https://nicolaiarocci.com/archives/ title=archive><span>archive</span></a></li><li><a href=https://nicolaiarocci.com/search/ title="search (Alt + /)" accesskey=/><span>search</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class="post-title entry-hint-parent">Introduzione alle Regular Expression – Seconda Parte</h1><div class=post-meta><span title='2011-02-26 00:00:00 +0000 UTC'>February 26, 2011</span>&nbsp;·&nbsp;Nicola Iarocci</div></header><div class=post-content><p>Questa è la seconda parte della serie <em>Introduzione alle Regular Expression</em>.
+Se non hai ancora letto la <a href=http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/>prima parte</a> ti consiglio di farlo. Puoi usare
+la pagina demo per provare
+le query della guida.</p><h2 id=negazione->Negazione [^]<a hidden class=anchor aria-hidden=true href=#negazione->#</a></h2><p>Abbiamo già conosciuto la <code>[cornice]</code>. Una caratteristica importante di cui non
+abbiamo ancora parlato è la negazione. Supponiamo di voler cercare qualunque
+carattere <em>eccetto la lettera a</em>.</p><pre><code>[^a] # trova b,c,d,e,f,\n .... qualunque carattere eccetto 'a'
+</code></pre><p>La negazione si applica a tutti i caratteri della cornice in cui compare
+l&rsquo;operatore <code>ˆ</code>. Non è possibile limitarla a solo alcuni.</p><pre><code>[^0123456789] # trova qualunque carattere non numerico
+</code></pre><h2 id=gli-alias>Gli Alias<a hidden class=anchor aria-hidden=true href=#gli-alias>#</a></h2><p>Ora siamo pronti per affrontare qualche esempio realistico di regular
+expression. Uno degli usi più frequenti delle regex è la convalida di Stringhe.
+Proviamo a verificare la correttezza di un ipotetico numero telefonico da
+esprimere nel formato 555-12345678. Di norma divideremmo l&rsquo;input in due
+parti e proveremmo a convertirle in numeri. Ora tuttavia conosciamo le regex
+e possiamo sbrigarcela meglio.</p><pre><code>555-[0-9]{7}
+</code></pre><p>Fatto. Stiamo convalidando 555 seguito da un trattino seguito da 7 caratteri
+numerici. Possiamo essere addirittura più sintetici, vediamo come.</p><p>I range <code>[0-9]</code> e <code>[a-z]</code>  sono talmente frequenti da saltar fuori continuamente,
+tanto che sono state create scorciatoie (alias) dedicate ai range più usati.
+Nel nostro caso ci torna utile <code>\d</code>, che sta per digit (carattere numerico)
+ed è semanticamente identico a <code>[0-9]</code>.</p><pre><code>555-\d{7} # identico a 555-[0-9]{7}
+</code></pre><p>Gli alias non sono certo indispensabili, puoi ottenere gli stessi risultati
+usando la cornice in modo esteso. Tuttavia sono molto comodi.</p><pre><code>&lt;th&gt;
+  significato
+&lt;/th&gt;
+
+&lt;th&gt;
+  coorrisponde a
+&lt;/th&gt;
+</code></pre><pre><code>&lt;td&gt;
+  digit (numero)
+&lt;/td&gt;
+
+&lt;td&gt;
+  [0-9]
+&lt;/td&gt;
+</code></pre><pre><code>&lt;td&gt;
+  word (parola)
+&lt;/td&gt;
+
+&lt;td&gt;
+  [a-zA-Z0-9_]  Include il carattere underscore
+&lt;/td&gt;
+</code></pre><pre><code>&lt;td&gt;
+  spazio, tab o newline
+&lt;/td&gt;
+
+&lt;td&gt;
+  [ \t\r\n]
+&lt;/td&gt;
+</code></pre><pre><code>&lt;td&gt;
+  qualsiasi non numerico
+&lt;/td&gt;
+
+&lt;td&gt;
+  ^\d
+&lt;/td&gt;
+</code></pre><pre><code>&lt;td&gt;
+  quasiasi non alfanumerico
+&lt;/td&gt;
+
+&lt;td&gt;
+  ^\w
+&lt;/td&gt;
+</code></pre><pre><code>&lt;td&gt;
+  quasiasi ma non lo spazio
+&lt;/td&gt;
+
+&lt;td&gt;
+  ^\s
+&lt;/td&gt;
+</code></pre><p><strong>Suggerimento:</strong> nota come ad ogni alias ne corrisponde uno dal significato
+opposto, tutto in maiuscolo. Impara i primi tre per conoscerli tutti e sei.</p><h2 id=il-punto>Il Punto<a hidden class=anchor aria-hidden=true href=#il-punto>#</a></h2><p>Il punto è un alias un pò speciale. Ne parlo soprattutto perchè può capitare di
+notarlo nel codice scritto da altri. Il punto cerca tutto eccetto il new line
+(<code>\n</code>). Il problema è che il carattere new line non è lo stesso su tutte le
+piattaforme.</p><pre><code>.   # trova tutti i caratteri
+.*  # equivalente a [^\n], trova tutti i paragrafi
+</code></pre><p>Il punto spesso crea confusione. Consiglio di ricorrere a combinazioni di alias
+e cornici per ottenere gli stessi risultati senza rischiare errori.</p><h2 id=escaping>Escaping<a hidden class=anchor aria-hidden=true href=#escaping>#</a></h2><p>Capita a volte di dover cercare proprio il punto, oppure i caratteri [ o ].
+Poiché fanno parte della sintassi regex in questi casi è necessario riccorrere
+all&rsquo;escaping, ovvero precederli col carattere <code>\</code> che rappresenta
+l&rsquo;escape. Per esempio</p><pre><code>\.    # cerca il punto invece che tutto quanto
+\*    # trova tutti gli asterischi
+\\    # trova tutti gli escape
+</code></pre><h2 id=raggruppamenti-e-or>Raggruppamenti e OR<a hidden class=anchor aria-hidden=true href=#raggruppamenti-e-or>#</a></h2><p>Torniamo alla convalida. Questa volta vogliamo verificare la validità di un
+indirizzo email. Prima di tutto stabiliamo le regole (semplificate) a cui una
+stringa deve attenersi per venire convalidata come indirizzo email: 1) il nome
+utente può contenere lettere, numeri, underscore e trattini ma deve cominciare
+con una lettera; 2) il dominio può contenere solo lettere seguite da un punto
+seguito da altre lettere. Quindi domain.fakecom è valido per noi</p><pre><code>[a-z][\w-]*@[a-z]+\.[a-z]+
+</code></pre><p>Presta attenzione all&rsquo;escaping del punto! Un&rsquo;altro dettaglio
+importante è il quantificatore <code>+</code> che abbiamo visto nel <a href=http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/>primo articolo</a> di
+questa serie. Nel dominio infatti vogliamo <em>almeno</em> una lettera, non zero
+o più.</p><p>Supponiamo ora di voler aggiornare le regole in modo da convalidare solo
+i domini più importanti. Il nostro indirizzo email deve finire con com oppure
+net. Non possiamo risolvere questo problema con quel che abbiamo imparato
+finora. La nostra query regex dovrà ricorrere a due nuovi concetti,
+l&rsquo;operatore OR e i gruppi.</p><pre><code>[a-z][\w-]*@[a-z]+\.(com|net)
+</code></pre><p>Vediamo l&rsquo;OR all&rsquo;opera</p><pre><code>com|net  #  trova com oppure net
+a|b|c    # lo stesso di [abc].
+</code></pre><p>L&rsquo;aggiunta delle parentesi () si rende necessaria per chiarire che non
+vogliamo trovare <em>tutte</em> le occorrenze della parte di regex alla loro sinistra.
+Se volessimo &ldquo;Brad Pitt&rdquo; oppure &ldquo;Angelina Pitt&rdquo;</p><pre><code>Brad|Angelina Pitt  # trova sia 'Brad' che 'Angelina Pitt'
+(Brad|Angelina) Pitt  # ora ci siamo!
+</code></pre><p>Per un programmatore il concetto del raggruppamento (grouping) con le parentesi
+dovrebbe essere facilmente comprensibile. Di fatto possiamo combinarlo con
+altri operatori che già conosciamo</p><pre><code>(dog)+   #  trova dog,dogdog,dogdogdog ...
+java(bean)?    #  trova java o javabean
+</code></pre><h2 id=conclusione>Conclusione<a hidden class=anchor aria-hidden=true href=#conclusione>#</a></h2><p>Questo conclude la seconda parte della guida. La prossima e ultima parte verrà
+pubblicata tra qualche giorno. Nel frattempo raccomando di giocare con la pagina demo per fare un
+pò di pratica.</p><p>E&rsquo; ora disponibile anche la <a href=http://nicolaiarocci.com/introduzione-alle-regular-expression-terza-parte/>terza parte</a> di questo tutorial.</p><p>Questo articolo è una traduzione autorizzata di <a href=http://www.agillo.net/regex-primer-part-2/>Regex Primer: Part 2</a>. Ringrazio l&rsquo;autore per il permesso accordatomi.</p></div><footer class=post-footer><ul class=post-tags><li><a href=https://nicolaiarocci.com/tags/programmazione/>programmazione</a></li><li><a href=https://nicolaiarocci.com/tags/regex/>regex</a></li><li><a href=https://nicolaiarocci.com/tags/regular-expression/>regular expression</a></li><li><a href=https://nicolaiarocci.com/tags/tutorial/>tutorial</a></li></ul></footer></article></main><footer class=footer><span>&copy; 2023 <a href=https://nicolaiarocci.com>Nicola Iarocci</a></span>
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg></a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script></body></html>

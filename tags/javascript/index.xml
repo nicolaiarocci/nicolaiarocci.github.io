@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>javascript on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/javascript/</link>
+    <description>Recent content in javascript on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 01 Apr 2022 06:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Playwright session at WebDay 2022</title>
+      <link>https://nicolaiarocci.com/my-playwright-session-at-webday-2022/</link>
+      <pubDate>Fri, 01 Apr 2022 06:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/my-playwright-session-at-webday-2022/</guid>
+      <description>If you understand Italian, the recording of my Playwright session at UGIdotNET&amp;rsquo;s WebDay 2022 is now available on YouTube1. Playwright is a phenomenal cross-browser, cross-platform, cross-language, single-API, mobile-friendly front-end testing tool.
+I&amp;rsquo;m looking forward to giving the same session in English sooner or later, but I should first win my laziness and start looking for exciting events with open CFPs. If you happen to know one, please let me know.</description>
+    </item>
+    <item>
+      <title>JavaScript: The Right Way</title>
+      <link>https://nicolaiarocci.com/javascript-the-right-way/</link>
+      <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/javascript-the-right-way/</guid>
+      <description>Hey, you!
+This is a JavaScript guide intended to introduce new developers and help experienced ones to the JavaScript’s best practices.
+via JS: The Right Way.</description>
+    </item>
+    <item>
+      <title>Backbone.JS vs Angular.JS: dissacrare il mito</title>
+      <link>https://nicolaiarocci.com/backbone-js-vs-angular-js-dissacrare-il-mito/</link>
+      <pubDate>Mon, 25 Feb 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/backbone-js-vs-angular-js-dissacrare-il-mito/</guid>
+      <description>Lettura interessante se state cercando quello giusto fra le decine di front-end framework disponibili.
+I love the way how each and every discussion turns into the war of the frameworks. I have worked with BackboneJS and AngularJS quite extensively and have come across most of their short comings in production. So, you dont really have to take this analysis with a grain of salt. I would be happy to take back anything that I have said if it turns out to be wrong.</description>
+    </item>
+    <item>
+      <title>Ancora su TypeScript</title>
+      <link>https://nicolaiarocci.com/ancora-su-typescript/</link>
+      <pubDate>Fri, 05 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/ancora-su-typescript/</guid>
+      <description>A proposito di TypeScript vi segnalo Thoughts on TypeScript, il miglior articolo che ho letto finora sul nuovo nato in casa Microsoft.
+I’m happy that regular JavaScript can be written in TypeScript and still benefit from some of the type checking provided by the TypeScript compiler. That means writing TypeScript can actually help people learn JavaScript, which makes me happy.</description>
+    </item>
+    <item>
+      <title>TypeScript: prime impressioni</title>
+      <link>https://nicolaiarocci.com/typescript-prime-impressioni/</link>
+      <pubDate>Tue, 02 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/typescript-prime-impressioni/</guid>
+      <description>Ieri Microsoft ha annunciato TypeScript, nuovo linguaggio fortemente tipizzato il cui codice compilato è puro JavaScript. TypeScript aggiunge classi, controllo degli errori in compilazione, completamento del codice in fase di sviluppo, e tante altre cose interessanti.
+Miguel de Icaza, il cervello dietro Xamarin e la piattaforma Mono, ha sintentizzato le sue prime impressioni sul progetto. Interessanti anche i commenti di uno degli sviluppatori di Dart, progetto Google dal quale TypeScript ha senz’altro tratto ispirazione.</description>
+    </item>
+    <item>
+      <title>JSBooks – Libri Open Source su JavaScript</title>
+      <link>https://nicolaiarocci.com/jsbooks-libri-open-source-su-javascript/</link>
+      <pubDate>Thu, 30 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/jsbooks-libri-open-source-su-javascript/</guid>
+      <description>JSBooks Free JavaScript Books è una valida selezione di risorse gratuite su JavaScript. Si tratta di libri e guide gratuite per programmatori di ogni livello, dal principiante al veterano. Il catalogo include titoli su jQuery, Backbone, design patterns, Node, CoffeeScript, qualcosa su HTML5 e addirittura un libro su MongoDB (si tratta una mia vecchia conoscenza). Alcuni suggerimenti sono davvero di ottima qualità. Il progetto è open source e chiunque può contribuire segnalando nuove interessanti risorse via GitHub.</description>
+    </item>
+    <item>
+      <title>Come usare al meglio WebKit Inspector</title>
+      <link>https://nicolaiarocci.com/come-usare-al-meglio-webkit-inspector/</link>
+      <pubDate>Fri, 15 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/come-usare-al-meglio-webkit-inspector/</guid>
+      <description>Se vi occupate di frontend non perdetevi lo spettacolare articolo in cui Majd Taby ci spiega come usare al meglio il WebKit Inspector.
+Il panorama mobile è monopolizzato da WebKit e di conseguenza gran parte degli strumenti e dell’infrastruttura per lo sviluppo di applicazioni frontend mobile (e non solo, ndr) risiedono nel WebKit Inspector. Per questo ne analizzerò con cura gli strumenti e spiegherò come e quando usarli.
+Ci sono anche le slide.</description>
+    </item>
+    <item>
+      <title>Comprendere il MVVM – Guida per Sviluppatori JavaScript</title>
+      <link>https://nicolaiarocci.com/comprendere-il-mvvm-guida-per-sviluppatori-javascript/</link>
+      <pubDate>Wed, 11 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/comprendere-il-mvvm-guida-per-sviluppatori-javascript/</guid>
+      <description>Addy Osmani ne ha combinata un’altra delle sue:
+MVVM (Model View ViewModel) è un pattern architetturale basato su MVC e MVP, che tenta di separare chiaramente lo sviluppo della interfaccia utente (UI) da quelle che sono business logic e comportamento dell’applicazione. A questo fine, molte implementazioni del pattern ricorrono a un uso dichiarativo dei data bindings, per consentire la separazione del lavoro sulle Viste (View) dagli altri strati (layer).
+MVVM consente creazione di UI e sviluppo del codice in parallelo, all’interno della stessa base di codice.</description>
+    </item>
+    <item>
+      <title>Evidenziare il codice sorgente via JavaScript e CSS con Rainbow</title>
+      <link>https://nicolaiarocci.com/evidenziare-il-codice-sorgente-via-javascript-e-css-con-rainbow/</link>
+      <pubDate>Mon, 02 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/evidenziare-il-codice-sorgente-via-javascript-e-css-con-rainbow/</guid>
+      <description>Rainbow è una libreria per l’evidenziazione del codice scritta in Javascript. E’ leggera (1.4kb), facile da usare, estensibile e completamente configurabile via CSS.</description>
+    </item>
+    <item>
+      <title>7 Risorse Per Sviluppatori JavaScript</title>
+      <link>https://nicolaiarocci.com/7-risorse-per-sviluppatori-javascript/</link>
+      <pubDate>Thu, 15 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/7-risorse-per-sviluppatori-javascript/</guid>
+      <description>Anni fa JavaScript era considerato più che altro una seccatura: produceva queste animazioni e trailer per il browser e poco altro. Ora tutto è cambiato. JavaScript è eletto a linguaggio funzionale di prima classe e in rete sono disponibili risorse innumerevoli . Condivido con voi alcune delle mie fonti migliori, che uso per tenermi aggiornato su librerie, progetti e JavaScript in generale. – Rob Bazinet</description>
+    </item>
+    <item>
+      <title>Link Consigliati dal 29.2 al 5.3.2012</title>
+      <link>https://nicolaiarocci.com/link-consigliati-dal-29-2-al-5-3-2012/</link>
+      <pubDate>Sun, 04 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/link-consigliati-dal-29-2-al-5-3-2012/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Ogni giorno su &lt;!-- raw HTML omitted --&gt;Twitter&lt;!-- raw HTML omitted --&gt; segnalo i link interessanti in cui incappo mentre mi documento per il mio lavoro. Riscuotono un certo successo, quindi ho pensato di condividerne alcuni anche qui sul sito. Parte così Link Consigliati, rubrica settimanale e sperimentale.&lt;/em&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;“Why are so many developers so very emotional when it comes to their favourite programming language? Considering that no language can (yet) magically translate the perfect idea in your head into machine code, all of them exist on a scale of badness – they all limit you more than your own thoughts or the hardware does.”&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;“Clean, simple web designs have become a popular trend. This article will cover the subject through a two-part discussion. First, we’ll talk about a few traits that clean designs tend to have in common. Secondly, I’ll share some tricks and techniques that can be helpful when trying to achieve a clean design.”&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Database of HTTP status codes with their IETF and Wikipedia descriptions&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;“What happens when you click on a weblink? Here’s one answer: a request goes from your computer to a server identified by the URL of the desired link. The server then locates the webpage in its files and sends it back to your browser, which then displays it on your screen. Simple.”&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript come Primo Linguaggio</title>
+      <link>https://nicolaiarocci.com/javascript-come-primo-linguaggio/</link>
+      <pubDate>Tue, 10 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/javascript-come-primo-linguaggio/</guid>
+      <description>&lt;p&gt;JavaScript non è mai la prima scelta di un aspirante programmatore. Spesso si finisce per usarlo all’occorrenza, per giochetti AJAX o per manipolare il DOM. Google, copia &amp;amp; incolla, e JavaScript è servito. Prima o poi l’abbiamo fatto tutti. E’ un vero peccato perché JavaScript merita di ben altra attenzione.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;A spiegarlo al mondo è stato naturalmente Douglas Crockford in &lt;a href=&#34;http://www.amazon.it/gp/product/0596517742/ref=as_li_ss_tl?ie=UTF8&amp;amp;tag=nicoiaro-21&amp;amp;linkCode=as2&amp;amp;camp=3370&amp;amp;creative=24114&amp;amp;creativeASIN=0596517742&#34;&gt;JavaScript: The Good Parts&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;, un libretto di 172 intensissime pagine in cui si ha costantemente la sensazione che l’autore intenda demolire il linguaggio mentre, in realtà, non fa altro che esaltarne le doti. JavaScript è il linguaggio più usato al mondo, e non a caso: è l’unico supportato da qualunque browser del pianeta. La recente affermazione di &lt;!-- raw HTML omitted --&gt;Node &lt;!-- raw HTML omitted --&gt;lato server ne dimostra l’indiscussa attualità.&lt;/p&gt;
+&lt;p&gt;Ciò nonostante JavaScript rimane un linguaggio inadatto al programmatore neofita. O forse no.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chess@home è una Intelligenza Artificiale Distribuita per gli Scacchi</title>
+      <link>https://nicolaiarocci.com/chesshome-intelligenza-artificiale-distribuita-applicata-agli-scacchi-via-browser/</link>
+      <pubDate>Fri, 09 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/chesshome-intelligenza-artificiale-distribuita-applicata-agli-scacchi-via-browser/</guid>
+      <description>&lt;p&gt;Il progetto &lt;!-- raw HTML omitted --&gt;Chess@home&lt;!-- raw HTML omitted --&gt; è il vincitore del recente &lt;!-- raw HTML omitted --&gt;Node Knockout&lt;!-- raw HTML omitted --&gt;, ed una volta tanto si tratta di qualcosa di davvero innovativo e intrigante. Obiettivo: la creazione della più potente Intelligenza Artificiale per il gioco degli Scacchi al mondo, generata nientemeno che dai browser attivi sulla rete.&lt;/p&gt;
+&lt;p&gt;L’elaborazione collaborativa distribuita è diventata famosa grazie a progetti come &lt;!-- raw HTML omitted --&gt;SETI@home&lt;!-- raw HTML omitted --&gt; e &lt;!-- raw HTML omitted --&gt;Folding@home&lt;!-- raw HTML omitted --&gt;. Semplificando molto potremmo dire che questo tipo di applicazione prevede che un piccolo programma venga installato e fatto girare su decine di migliaia di computer volontari. La capacita elaborativa del progetto è data dalla somma delle elaborazioni individuali.&lt;/p&gt;
+&lt;p&gt;La novità di Chess@Home consiste nell’idea di ricorrere a codice JavaScript che gira nel browser, dunque senza alcuna necessità di client dedicati. Appositi widget presenti nelle pagine dei siti aderenti innestano l’elaborazione sul computer del visitatore, potenzialmente decuplicando il numero di nodi che partecipano all’elaborazione (più visitatori accedono alla stessa pagina contemporaneamente).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Imparare a programmare online con Codecademy</title>
+      <link>https://nicolaiarocci.com/imparare-a-programmare-online-con-codecademy/</link>
+      <pubDate>Fri, 26 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/imparare-a-programmare-online-con-codecademy/</guid>
+      <description>Codecademy è una fantastica iniziativa che insegna a programmare online. Lanciata poco più di una settimana fa, ha già raccolto duecentomila utenti registrati. Brillante l’idea di integrare gli strumenti tipici del social network (badge, punteggi, seguire i progressi degli amici) con un interprete interattivo e un preciso feedback in tempo reale.
+Codecademy è il modo più semplice per imparare a programmare. E’ interattivo, divertente, e lo puoi fare con gli amici</description>
+    </item>
+    <item>
+      <title>JavaScript trucchi e suggerimenti avanzati</title>
+      <link>https://nicolaiarocci.com/javascript-trucchi-e-suggerimenti-avanzati/</link>
+      <pubDate>Mon, 18 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/javascript-trucchi-e-suggerimenti-avanzati/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Ho scovato quasi per caso &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Javascript Tips&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, incredibile collezione di trucchi e suggerimenti per JavaScript. Si tratta di decine di snippets rivolti soprattutto a chi JavaScript lo usa come un linguaggio vero e proprio e non, come spesso capita, quale semplice strumento per la manipolazione del DOM.&lt;/p&gt;
+&lt;p&gt;Tra le tante chicche (alcune davvero gustose) vi segnalo a caso: &lt;!-- raw HTML omitted --&gt;concatenare due array&lt;!-- raw HTML omitted --&gt; senza crearne uno nuovo; mandare un testo in &lt;!-- raw HTML omitted --&gt;output su più righe&lt;!-- raw HTML omitted --&gt;; una funzione per &lt;!-- raw HTML omitted --&gt;eliminare un elemento da un array&lt;!-- raw HTML omitted --&gt;; una riga di codice che &lt;!-- raw HTML omitted --&gt;stampa lo stack&lt;!-- raw HTML omitted --&gt; delle chiamate correnti; un esempio di come &lt;!-- raw HTML omitted --&gt;trasformare gli argomenti di una funzione in array&lt;!-- raw HTML omitted --&gt;. Ce n’é per tutti i palati, dal principiante al più esperto, &lt;!-- raw HTML omitted --&gt;date una occhiata&lt;!-- raw HTML omitted --&gt; voi stessi.&lt;/p&gt;
+&lt;p&gt;Buona parte dei trucchi funziona con&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Windows 8 e i dubbi sul destino di Silverlight</title>
+      <link>https://nicolaiarocci.com/windows-8-e-i-dubbi-sul-destino-di-silverlight/</link>
+      <pubDate>Wed, 08 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/windows-8-e-i-dubbi-sul-destino-di-silverlight/</guid>
+      <description>&lt;p&gt;Con un &lt;!-- raw HTML omitted --&gt;filmato di 10 minuti&lt;!-- raw HTML omitted --&gt; Microsoft ha presentato in anteprima il nuovo Windows 8. A molti non è sfuggita l’enfasi su HTML5 e JavaScript, annunciate come le tecnologie con le quali costruire le nuove accattivanti applicazioni per Windows 8. Il fatto che non si faccia cenno a Silverlight, WPF o .NET sta causando un bel po’ di preoccupazione.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>Inserire un marchio nelle immagini via JavaScript</title>
+      <link>https://nicolaiarocci.com/il-marchio-nelle-immagini-via-javascript/</link>
+      <pubDate>Tue, 05 Apr 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-marchio-nelle-immagini-via-javascript/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.patrick-wied.at/static/watermarkjs/&#34;&gt;Watermark.js&lt;/a&gt;&lt;/strong&gt; è una libreria JavaScript che aggiunge un &lt;!-- raw HTML omitted --&gt;watermark&lt;!-- raw HTML omitted --&gt; (letteralmente &lt;em&gt;filigrana&lt;/em&gt;, ovvero un logo o un marchio) alle immagini presenti sulle pagine web. Contrassegnare le immagini in modo permanente è utile a proteggerle dalla copia oppure, al contrario, ad approfittare della loro riproduzione per diffondere un marchio (&lt;a href=&#34;http://en.wikipedia.org/wiki/Brand_awareness&#34;&gt;brand awareness&lt;/a&gt;). Usare watermark.js è semplice, vediamo quanto.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;come-usare-watermarkjs&#34;&gt;Come usare watermark.js&lt;/h2&gt;
+&lt;p&gt;La libreria innesta il marchio nelle immagini marcate con la classe CSS “watermark”. Se il nome della classe non piace è possibile cambiarlo. Se il nostro watermark è in formato JPG la libreria aggiunge per noi un livello di trasparenza, altrimenti possiamo fornirle i più idonei formati PNG e GIF.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eclipse Foundation lancia la beta pubblica di OrionHub</title>
+      <link>https://nicolaiarocci.com/eclipse-foundation-lancia-la-beta-pubblica-di-orionhub/</link>
+      <pubDate>Tue, 22 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/eclipse-foundation-lancia-la-beta-pubblica-di-orionhub/</guid>
+      <description>Eclipse Foundation ha avviato il beta testing di OrionHub, una implementazione hosted del suo Progetto Orion. Orion è una piattaforma di sviluppo aperta dedicata allo sviluppo per il web, dentro il web. La IDE Orion gira nel browser e fornisce un completo ambiente di produzione per progetti JavaScript, HTML e CSS. Il risultato è ottenuto grazie a un plugin lato client sviluppato in HTML5.
+Per un approfondimento dai una occhiata a Il futuro del codice sorgente è online?</description>
+    </item>
+    <item>
+      <title>TEMPO: mostrare dati JSON con solo codice HTML</title>
+      <link>https://nicolaiarocci.com/tempo-mostrare-dati-json-con-solo-codice-html/</link>
+      <pubDate>Thu, 03 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/tempo-mostrare-dati-json-con-solo-codice-html/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Lanciata da pochi giorni, &lt;a href=&#34;http://tempojs.com/&#34;&gt;&lt;!-- raw HTML omitted --&gt;Lanciata da pochi giorni,&lt;/a&gt; è una piccola (4Kb) e brillante libreria JavaScript che ci mette a disposizione un &lt;em&gt;rendering engine&lt;/em&gt; JSON controllabile con puro codice HTML. La separazione tra HTML e JavaScript rende più facile il lavoro con contenuti AJAX, aumenta la leggibilità del codice e ne facilita la manutenzione. Tempo è compatibile con tutti i browser (IE6 incluso), si integra alla perfezione con jQuery ed è davvero facile da usare.&lt;/p&gt;
+&lt;h2 id=&#34;json&#34;&gt;JSON&lt;/h2&gt;
+&lt;p&gt;JSON è un formato di scambio dati sempre più diffuso. Un flusso di dati JSON è relativamente compatto (soprattutto rispetto al suo rivale XML) ed è facile da interpretare sia per un umano che per un computer. Ormai tutte le Web API più usate (Facebook, Twitter, ecc.) supportano ampiamente JSON. Ecco un esempio di array JSON:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ecco Cloud9 IDE la Piattaforma per Programmare nel Cloud</title>
+      <link>https://nicolaiarocci.com/arriva-cloud9-ide-la-piattaforma-per-il-software-online/</link>
+      <pubDate>Tue, 01 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/arriva-cloud9-ide-la-piattaforma-per-il-software-online/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Se crei applicazioni per il web non avrebbe senso svilupparle online? Con questa domanda e con uno slogan ben congegnato (&lt;em&gt;Il tuo codice sempre disponibile, ovunque tu sia&lt;/em&gt;) &lt;strong&gt;&lt;a href=&#34;http://cloud9ide.com/&#34;&gt;Cloud9 IDE&lt;/a&gt;&lt;/strong&gt; si presenta finalmente al pubblico. L’idea iniziale era una piattaforma online condivisa e open source per sviluppare codice JavaScript direttamente nel browser. Talento e ambizione hanno consentito di puntare più in alto e Cloud9 è diventata una piattaforma completa per la produzione di software &lt;em&gt;in the cloud&lt;/em&gt; (&lt;a href=&#34;http://en.wikipedia.org/wiki/Platform_as_a_service&#34;&gt;PaaS&lt;/a&gt;). Ma vediamo meglio di cosa si tratta.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Il meglio di Stack Overflow in una collana di eBook gratuiti</title>
+      <link>https://nicolaiarocci.com/il-meglio-di-stack-overflow-una-collana-di-ebook-gratuiti/</link>
+      <pubDate>Wed, 02 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-meglio-di-stack-overflow-una-collana-di-ebook-gratuiti/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://stackoverflow.com/&#34;&gt;&lt;strong&gt;Stack Overflow&lt;/strong&gt;&lt;/a&gt; è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera &lt;strong&gt;minera di informazioni&lt;/strong&gt; &lt;strong&gt;preziose&lt;/strong&gt; e  meriterebbe maggiore attenzione…&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Il futuro del codice sorgente è online?</title>
+      <link>https://nicolaiarocci.com/il-futuro-del-codici-sorgente-e-online/</link>
+      <pubDate>Sat, 29 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-futuro-del-codici-sorgente-e-online/</guid>
+      <description>&lt;p&gt;Gli ambienti di sviluppo (IDE) online sono una delle opportunità più originali che il &lt;a href=&#34;http://it.wikipedia.org/wiki/Cloud_computing&#34;&gt;cloud computing&lt;/a&gt; mette a disposizione dei programmatori web. In generale si tratta di editor di codice, debugger e strumenti per il controllo di versione da usare nel browser web senza bisogno di installare alcun software sul client. Per il momento le soluzioni disponibili offrono funzionalità limitate che tuttavia lasciano intravedere le possibilità che questi strumenti metteranno a nostra disposizione.&lt;/p&gt;
+&lt;h2 id=&#34;il-progetto-orion&#34;&gt;Il Progetto Orion&lt;/h2&gt;
+&lt;p&gt;Semplici editor di codice sorgente sono disponibili online già da tempo, ma progetti come &lt;strong&gt;Orion&lt;/strong&gt; portano il concetto di programmazione online a un livello superiore. &lt;a href=&#34;http://dev.eclipse.org/blogs/mike/2011/01/11/introducing-orion/&#34;&gt;Annunciato pochi giorni fa&lt;/a&gt; dal team di sviluppo di &lt;strong&gt;Eclipse&lt;/strong&gt;, una IDE Open Source molto diffusa e apprezzata, il progetto Orion è qualcosa di nuovo:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Adobe Flash è una Pessima Idea</title>
+      <link>https://nicolaiarocci.com/flash-adobe-e-una-pessima-idea/</link>
+      <pubDate>Thu, 06 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/flash-adobe-e-una-pessima-idea/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;E’ incredibile la quantità di siti che ancora oggi vengono sviluppati con Flash. Il fenomeno colpisce soprattutto i siti-vetrina: negozi, attività commerciali, ristoranti, artigiani. Basta farsi un giro sui siti di venditori di mobili, per esempio, per godersi il trionfo della ‘&lt;a href=&#34;http://en.wikipedia.org/wiki/Adobe_Flash&#34;&gt;multimedia platform&lt;/a&gt;‘ di Adobe. Bisogna prenderne atto: nel 2011 migliaia di aziende italiane di ogni dimensione affidano la loro identità web ad Adobe Flash. Consulenti e agenzie continuano a produrre siti con tecnologie assimilate anni fa. Reticenti all’aggiornamento delle proprie competenze, si accontentano del loro confortante orticello che, tutto sommato, assicura lo stipendio.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>E’ Python il linguaggio del 2011</title>
+      <link>https://nicolaiarocci.com/python-e-il-linguaggio-del-2011/</link>
+      <pubDate>Mon, 03 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/python-e-il-linguaggio-del-2011/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Qualche giorno &lt;a href=&#34;http://www.readwriteweb.com/hack/2010/12/hacker-poll-programming-languages-2011.php&#34;&gt;ReadWriteWeb&lt;/a&gt; ha chiesto ai suoi lettori quali sono i linguaggi di programmazione che pensano di studiare nel 2011. La selezione è piuttosto ampia e include buona parte i linguaggi attorno ai quali c’è fermento questi mesi (tra gli altri &lt;a href=&#34;http://clojure.org/&#34;&gt;Clojure&lt;/a&gt;, &lt;a href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt;, &lt;a href=&#34;http://www.erlang.org/&#34;&gt;Erlang&lt;/a&gt;, &lt;a href=&#34;http://www.haskell.org/haskellwiki/Haskell&#34;&gt;Haskell&lt;/a&gt;). Ci si rivolge a programmatori esperti che hanno già maturato una certa esperienza, probabilmente per questo motivo sono esclusi alcuni grandi classici come il linguaggio C (è presente Java).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

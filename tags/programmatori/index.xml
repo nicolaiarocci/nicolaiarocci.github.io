@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programmatori on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/programmatori/</link>
+    <description>Recent content in programmatori on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 14 Jun 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/programmatori/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Noi programmatori miglioriamo con l’età (forse)</title>
+      <link>https://nicolaiarocci.com/noi-programmatori-miglioriamo-con-leta-forse/</link>
+      <pubDate>Tue, 14 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/noi-programmatori-miglioriamo-con-leta-forse/</guid>
+      <description>&lt;p&gt;Man mano che partecipo ai vari eventi in giro per l’Italia mi capita sempre più spesso di ritrovarmi a essere, tra i partecipanti, uno dei più anziani. L’altro giorno al &lt;!-- raw HTML omitted --&gt;Cowo on the Beach&lt;!-- raw HTML omitted --&gt; distanziavo tutti di almeno una decade. Mi sono detto che i veterani non amano frequentare gli eventi pubblici, non tanto quanto li apprezzavano da giovani, e mi sono messo l’anima in pace.&lt;/p&gt;
+&lt;p&gt;Fino a stamattina, quando un bell’articolo di &lt;!-- raw HTML omitted --&gt;Peter Knego&lt;!-- raw HTML omitted --&gt; mi ha svelato la scomoda verità (che inconsciamente rifiutavo di considerare). &lt;strong&gt;I programmatori oltre i trent’anni, per non dire dei quaranta, sono merce rara&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Partendo dai dati pubblici messi a disposizione da &lt;!-- raw HTML omitted --&gt;StackOverflow&lt;!-- raw HTML omitted --&gt; e relativi a un campione di ben 37.400 programmatori, Peter ha indagato sul rapporto tra età, reputazione e quantità di programmatori ancora attivi. Ne è uscita una serie di grafici davvero interessante.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

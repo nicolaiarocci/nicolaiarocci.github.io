@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>email validation on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/email-validation/</link>
+    <description>Recent content in email validation on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 29 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/email-validation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Free Robust Email Validation API</title>
+      <link>https://nicolaiarocci.com/free-email-validation-api/</link>
+      <pubDate>Mon, 29 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/free-email-validation-api/</guid>
+      <description>The guys at Mailgun are taking a very interesting approach at the ever-lasting problem of proper Email validation:
+Given an arbitrary address this service validates address based off syntax checks (RFC defined grammar), DNS validation, spell checks, and if available, Email ServiceProvider (ESP) specific local-part grammar.
+They’re relying on formal grammar and not on regex like the rest of us, which is perhaps the more intriguing aspect of the project. Being Email Service Providers themselves they have good knowledge of most ESPs local-part grammars (the left side of the @ symbol) so when there is a match, they’re validating local-parts too.</description>
+    </item>
+  </channel>
+</rss>

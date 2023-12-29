@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>grid system on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/grid-system/</link>
+    <description>Recent content in grid system on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 06 May 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/grid-system/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Siti fluidi coi CSS Framework: Inuit.css</title>
+      <link>https://nicolaiarocci.com/siti-fluidi-coi-css-framework-inuit-css/</link>
+      <pubDate>Fri, 06 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/siti-fluidi-coi-css-framework-inuit-css/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Dopo l’articolo introduttivo sui &lt;a href=&#34;http://nicolaiarocci.com/costruire-siti-fluidi-coi-css-framework-tiny-fluid-grid/&#34;&gt;siti fluidi e i CSS Framework&lt;/a&gt; è giunta l’ora di dare una occhiata a un framework vero e proprio. Come dicevo prediligo strumenti agili, leggeri, specializzati e possibilmente fatti in casa. Se scelgo un framework quest’ultimo deve essere essenziale, leggero, flessibile. &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Inuit.css&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, ultimo nato nella numerosa e agguerrita famiglia dei Framework CSS, sembra nato apposta per fare di me un uomo felice.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Costruire siti fluidi coi CSS Framework: Tiny Fluid Grid</title>
+      <link>https://nicolaiarocci.com/costruire-siti-fluidi-coi-css-framework-tiny-fluid-grid/</link>
+      <pubDate>Fri, 29 Apr 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/costruire-siti-fluidi-coi-css-framework-tiny-fluid-grid/</guid>
+      <description>&lt;p&gt;Fino a non molti anni fa la gamma di risoluzioni video disponibili alla gran parte degli utenti era piuttosto limitata, tanto che nel disegnare siti web non ci si preoccupava granché di questo aspetto. La diffusione di massa di monitor wide, netbooks, tablet e smartphone ha cambiato rapidamente le carte in tavola. Per raggiungere con efficienza il loro pubblico i siti odierni devono essere capaci di adattare il loro aspetto alla risoluzione del dispositivo usato dal visitatore. Devono, in una parola, essere &lt;em&gt;fluidi&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;il-grid-design-e-l8217era-dei-css-framework&#34;&gt;Il Grid Design e l’era dei CSS Framework&lt;/h2&gt;
+&lt;p&gt;L’avvento dei CSS Framework si deve (principalmente) alla necessità di soddisfare l’esigenza di fluidità. Il capostipite, se non in ordine cronologico senz’altro per l’influenza che ha avuto, è il &lt;!-- raw HTML omitted --&gt;960 Grid System&lt;!-- raw HTML omitted --&gt;. Altri prodotti famosi, per citarne solo un paio, sono &lt;!-- raw HTML omitted --&gt;Blueprint&lt;!-- raw HTML omitted --&gt; e &lt;!-- raw HTML omitted --&gt;Emastic&lt;!-- raw HTML omitted --&gt;. Questi framework hanno in comune l’obiettivo di velocizzare creazione, gestione e manutenzione dei fogli di stile ma se andiamo al nocciolo della questione ci accorgiamo che tutti si basano sul concetto chiave di &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Grid Design&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

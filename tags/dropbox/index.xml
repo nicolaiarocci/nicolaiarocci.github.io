@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dropbox on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/dropbox/</link>
+    <description>Recent content in dropbox on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 17 Mar 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/dropbox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Usare Git con Dropbox</title>
+      <link>https://nicolaiarocci.com/usare-git-con-dropbox/</link>
+      <pubDate>Sat, 17 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/usare-git-con-dropbox/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;usare-dropbox-come-repository-git-remoto&#34;&gt;Usare Dropbox come repository Git remoto&lt;/h2&gt;
+&lt;p&gt;Recentemente, più che altro per curiosità, ho giocato con una terza opzione: &lt;!-- raw HTML omitted --&gt;Dropbox&lt;!-- raw HTML omitted --&gt;. Per me Dropbox è uno strumento indispensabile sia per il lavoro che per le mie cose personali. Su qualunque computer io sia, ovunque mi trovi, grazie a Dropbox ho accesso al mio materiale. Dunque, mi son detto, perché non usarlo anche per il codice,  pur senza rinunciare al controllo versione offerto da Git?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://db.tt/V8L8FFo&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ebbene ho scoperto che non solo è possibile, è anche molto semplice. In realtà non c’è nulla di nuovo in quel che vi mostro, la ‘magia’ la fa tutta Dropbox.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

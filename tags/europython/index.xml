@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>europython on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/europython/</link>
+    <description>Recent content in europython on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 09 Jul 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/europython/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sviluppare una RESTful Web API con Python, Flask e MongoDB</title>
+      <link>https://nicolaiarocci.com/sviluppare-una-restful-web-api-con-python-flask-e-mongodb/</link>
+      <pubDate>Mon, 09 Jul 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/sviluppare-una-restful-web-api-con-python-flask-e-mongodb/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;La scorsa settimana a &lt;!-- raw HTML omitted --&gt;EuroPython 2012&lt;!-- raw HTML omitted --&gt; ho tenuto un talk intitolato &lt;!-- raw HTML omitted --&gt;Sviluppare una RESTful Web API con Python, Flask e MongoDB&lt;!-- raw HTML omitted --&gt;. Mi ha fatto piacere riscontrare forte interesse sia per gli aspetti teorici dell’architettura REST che per la loro implementazione pratica con strumenti quali Flask e MongoDB. In entrambe le sessioni inglese e italiana mi sono state rivolte molte domande, sia in occasione delle Q&amp;amp;A plenarie che nei successivi colloqui informali. Parecchi anche i commenti ed i suggerimenti, davvero utili ed apprezzati (a quanto pare non sono l’unico che, forte di un background .NET, ha compiuto o sta per compiere il salto verso Python e il mondo open source).&lt;/p&gt;
+&lt;p&gt;Soprattutto ho rilevato una forte curiosità su MongoDB, un database non-relazionale verso il quale sembra prevalere un atteggiamento  di generale timidezza: “vorrei ma non oso”, insomma. Per quanto riguarda Flask direi che ormai, nel vasto firmamento dei micro web framework, è una stella che brilla di luce propria.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Guido van Rossum a EuroPython 2012</title>
+      <link>https://nicolaiarocci.com/guido-van-rossum-a-europython-2012/</link>
+      <pubDate>Fri, 20 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/guido-van-rossum-a-europython-2012/</guid>
+      <description>Partenza col botto per EuroPython 2012. I keynote introduttivi saranno tenuti nientemeno che dal creatore stesso del linguaggio, Guido Van Rossum, e da Alex Martelli. Ieri è stato annunciato il programma ufficiale e a quanto pare mi spetta l’inaugurazione della italian track martedì 3 luglio. Il giorno successivo sarò impegnato, ancora di prima mattina, con la versione in lingua inglese del mio talk:
+Sviluppare una RESTful Web API con Python, Flask e MongoDB</description>
+    </item>
+    <item>
+      <title>Speaker a EuroPython 2012</title>
+      <link>https://nicolaiarocci.com/speaker-a-europython-2012/</link>
+      <pubDate>Fri, 13 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/speaker-a-europython-2012/</guid>
+      <description>EuroPython è la conferenza europea di riferimento per il linguaggio Python. Si terrà anche quest’anno a Firenze, dal 2 al 8 luglio. Sono in programma molti interventi davvero interessanti, cosa che rende ancor più soprendente il fatto che i miei talk siano stati votati così tanto.
+Date un’occhiata al sito ufficiale per saperne di più sulla conferenza (in questo momento è ancora possibile approfittare dell’offerta early bird per l’acquisto dei biglietti); maggiori informazioni sui miei interventi tra qualche tempo, quando sarà ufficializzato il calendario dei talk.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>http on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/http/</link>
+    <description>Recent content in http on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 03 May 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/http/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guida introduttiva agli HTTP Cache Header</title>
+      <link>https://nicolaiarocci.com/guida-introduttiva-agli-http-cache-header/</link>
+      <pubDate>Fri, 03 May 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/guida-introduttiva-agli-http-cache-header/</guid>
+      <description>Cosa sono i gli HTTP Cache Header e come funzionano? Che uso ne fanno i browser e le CDN? Come è preferibile impostarli per ottimizzare le prestazioni di un sito o di un servizio web? Se volete saperne di più A Beginner’s Guide to HTTP Cache Headers fa senz’altro per voi.</description>
+    </item>
+    <item>
+      <title>Link Consigliati dal 29.2 al 5.3.2012</title>
+      <link>https://nicolaiarocci.com/link-consigliati-dal-29-2-al-5-3-2012/</link>
+      <pubDate>Sun, 04 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/link-consigliati-dal-29-2-al-5-3-2012/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Ogni giorno su &lt;!-- raw HTML omitted --&gt;Twitter&lt;!-- raw HTML omitted --&gt; segnalo i link interessanti in cui incappo mentre mi documento per il mio lavoro. Riscuotono un certo successo, quindi ho pensato di condividerne alcuni anche qui sul sito. Parte così Link Consigliati, rubrica settimanale e sperimentale.&lt;/em&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;“Why are so many developers so very emotional when it comes to their favourite programming language? Considering that no language can (yet) magically translate the perfect idea in your head into machine code, all of them exist on a scale of badness – they all limit you more than your own thoughts or the hardware does.”&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;“Clean, simple web designs have become a popular trend. This article will cover the subject through a two-part discussion. First, we’ll talk about a few traits that clean designs tend to have in common. Secondly, I’ll share some tricks and techniques that can be helpful when trying to achieve a clean design.”&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Database of HTTP status codes with their IETF and Wikipedia descriptions&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;“What happens when you click on a weblink? Here’s one answer: a request goes from your computer to a server identified by the URL of the desired link. The server then locates the webpage in its files and sends it back to your browser, which then displays it on your screen. Simple.”&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

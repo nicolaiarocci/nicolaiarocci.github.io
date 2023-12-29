@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>anonymity on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/anonymity/</link>
+    <description>Recent content in anonymity on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Apr 2021 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/anonymity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Hitchhiker’s Guide to Online Anonymity</title>
+      <link>https://nicolaiarocci.com/the-hitchhikers-guide-to-online-anonymity/</link>
+      <pubDate>Thu, 01 Apr 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-hitchhikers-guide-to-online-anonymity/</guid>
+      <description>This is a maintained technical guide that aims to provide introduction to various online tracking techniques, online id verification techniques and guidance to creating and maintaining (truly) anonymous online identities including social media accounts safely and legally. No pre-requisites besides English reading are required.
+At a glance, I suspect most people will be tempted to dismiss The Hitchhiker&amp;rsquo;s Guide to Online Anonymity as borderline paranoia. But make no mistake, it is a great resource.</description>
+    </item>
+  </channel>
+</rss>

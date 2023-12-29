@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tutorial on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/tutorial/</link>
+    <description>Recent content in tutorial on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 11 Apr 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comprendere il MVVM – Guida per Sviluppatori JavaScript</title>
+      <link>https://nicolaiarocci.com/comprendere-il-mvvm-guida-per-sviluppatori-javascript/</link>
+      <pubDate>Wed, 11 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/comprendere-il-mvvm-guida-per-sviluppatori-javascript/</guid>
+      <description>Addy Osmani ne ha combinata un’altra delle sue:
+MVVM (Model View ViewModel) è un pattern architetturale basato su MVC e MVP, che tenta di separare chiaramente lo sviluppo della interfaccia utente (UI) da quelle che sono business logic e comportamento dell’applicazione. A questo fine, molte implementazioni del pattern ricorrono a un uso dichiarativo dei data bindings, per consentire la separazione del lavoro sulle Viste (View) dagli altri strati (layer).
+MVVM consente creazione di UI e sviluppo del codice in parallelo, all’interno della stessa base di codice.</description>
+    </item>
+    <item>
+      <title>Imparare HTML e CSS Online con Codecademy</title>
+      <link>https://nicolaiarocci.com/imparare-html-e-css-online-con-codecademy/</link>
+      <pubDate>Tue, 03 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/imparare-html-e-css-online-con-codecademy/</guid>
+      <description>Codecademy propone da ieri un corso gratuito e interattivo su HTML e CSS. Il corso, per principianti, si affianca a quello ormai collaudato (e recentemente ampliato) su JavaScript.
+Il meccanismo è quello della gamification, con tanto di punteggi e badge da conquistare man mano che si raggiungono obiettivi prefissati . Presto dovrebbe uscire anche un corso su Python.
+Compi i tuoi primi passi con HTML e CSS. Non è necessaria alcuna esperienza precedente — cominceremo dalle basi e in poco tempo ti ritroverai a lavorare alla tua homepage personale!</description>
+    </item>
+    <item>
+      <title>Imparare a programmare online con Codecademy</title>
+      <link>https://nicolaiarocci.com/imparare-a-programmare-online-con-codecademy/</link>
+      <pubDate>Fri, 26 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/imparare-a-programmare-online-con-codecademy/</guid>
+      <description>Codecademy è una fantastica iniziativa che insegna a programmare online. Lanciata poco più di una settimana fa, ha già raccolto duecentomila utenti registrati. Brillante l’idea di integrare gli strumenti tipici del social network (badge, punteggi, seguire i progressi degli amici) con un interprete interattivo e un preciso feedback in tempo reale.
+Codecademy è il modo più semplice per imparare a programmare. E’ interattivo, divertente, e lo puoi fare con gli amici</description>
+    </item>
+    <item>
+      <title>HTML e CSS di base per i Web Designer del futuro</title>
+      <link>https://nicolaiarocci.com/html-e-css-di-base-per-i-web-designer-del-futuro/</link>
+      <pubDate>Tue, 23 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/html-e-css-di-base-per-i-web-designer-del-futuro/</guid>
+      <description>Don’t Fear the Internet è una ottima risorsa per Web Designer principianti. Attenzione ai dettagli, grande cura e ottimi contenuti sono il marchio distintivo di questo progetto di Jessica Hische e Russ Maschmeyer:
+Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? Hai un sito che mai messo insieme con Dreamweaver grazie a quell’UNICA lezione scolastica di web design? Il sito non ce l’hai nemmeno, perché sono due anni che aspetti che tuo cugino lo faccia per te?</description>
+    </item>
+    <item>
+      <title>Siti fluidi coi CSS Framework: Inuit.css</title>
+      <link>https://nicolaiarocci.com/siti-fluidi-coi-css-framework-inuit-css/</link>
+      <pubDate>Fri, 06 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/siti-fluidi-coi-css-framework-inuit-css/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Dopo l’articolo introduttivo sui &lt;a href=&#34;http://nicolaiarocci.com/costruire-siti-fluidi-coi-css-framework-tiny-fluid-grid/&#34;&gt;siti fluidi e i CSS Framework&lt;/a&gt; è giunta l’ora di dare una occhiata a un framework vero e proprio. Come dicevo prediligo strumenti agili, leggeri, specializzati e possibilmente fatti in casa. Se scelgo un framework quest’ultimo deve essere essenziale, leggero, flessibile. &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Inuit.css&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, ultimo nato nella numerosa e agguerrita famiglia dei Framework CSS, sembra nato apposta per fare di me un uomo felice.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Programmazione, SEO, Startup – Il Meglio della Settimana #4</title>
+      <link>https://nicolaiarocci.com/programmazione-seo-startup-il-meglio-della-settimana-4/</link>
+      <pubDate>Sun, 13 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/programmazione-seo-startup-il-meglio-della-settimana-4/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://stevecheney.posterous.com/how-facebook-is-killing-your-authenticity&#34;&gt;Facebook sta uccidendo la tua Autenticità&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;Steve Cheney propone una riflessione su come Facebook condizioni ormai _l&amp;amp;#8217;autenticità_ dei suoi utenti. Il timore che conoscenti e amici (alcuni non li incontriamo da anni, altri sono parenti stretti) vedano quel che facciamo online ci induce a comportarci in maniera diversa da quel che sarebbe il nostro istintivo sentire.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.distilled.co.uk/excel-for-seo/&#34;&gt;&lt;strong&gt;Tutorial: Microsoft Excel per il SEO&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;Eccellente tutorial su come usare Excel per analizzare al meglio la quantità di dati che raccogliamo durante le nostre indagini SEO.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;http://sixrevisions.com/web-development/decrease-webpage-load-times/&#34;&gt;&lt;strong&gt;10 consigli per velocizzare il caricamento delle pagine Web&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;La pazienza è la virtù dei forti, ma per molti è una pratica difficile da applicare. Ciò è vero soprattutto per chi visita siti web. Six Revision ci propone una decina di consigli per velocizzare le nostre pagine web.
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>Impara Python in 10 minuti</title>
+      <link>https://nicolaiarocci.com/impara-python-in-10-minuti/</link>
+      <pubDate>Thu, 10 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/impara-python-in-10-minuti/</guid>
+      <description>E così vorresti imparare il linguaggio di programmazione Python. Probabilmente sei alla ricerca di un tutorial completo e allo stesso tempo conciso. Questa guida è un tentativo di insegnarti Python in 10 minuti. In effetti più che con una guida vera e propria hai a che fare con degli appunti che userai per partire col piede giusto. Naturalmente se davvero vuoi imparare bene dovrai anche esercitarti molto. Do per scontato che tu sappia già programmare, questo mi permetterà di concentrarmi sulle caratteristiche intrinseche del linguaggio.</description>
+    </item>
+    <item>
+      <title>Introduzione alle Regular Expression – Terza Parte</title>
+      <link>https://nicolaiarocci.com/introduzione-alle-regular-expression-terza-parte/</link>
+      <pubDate>Thu, 03 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/introduzione-alle-regular-expression-terza-parte/</guid>
+      <description>Benvenuto alla terza e ultima parte della nostra Introduzione alle Regular Expression. Concluso il capitolo sarai in grado di affrontare la maggior parte dei problemi di ricerca nel testo. Se ancora non l&amp;rsquo;hai fatto ti consiglio di leggere la Prima Parte e la Seconda Parte. Ricorda che puoi usare la pagina di prova per testare le query della guida.
+Avidità Il problema della avidità degli operatori regex diventa evidente quando si comincia a lavorare su ricerche avanzate.</description>
+    </item>
+    <item>
+      <title>Introduzione alle Regular Expression – Seconda Parte</title>
+      <link>https://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/</link>
+      <pubDate>Sat, 26 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/</guid>
+      <description>Questa è la seconda parte della serie Introduzione alle Regular Expression. Se non hai ancora letto la prima parte ti consiglio di farlo. Puoi usare la pagina demo per provare le query della guida.
+Negazione [^] Abbiamo già conosciuto la [cornice]. Una caratteristica importante di cui non abbiamo ancora parlato è la negazione. Supponiamo di voler cercare qualunque carattere eccetto la lettera a.
+[^a] # trova b,c,d,e,f,\n .... qualunque carattere eccetto &#39;a&#39; La negazione si applica a tutti i caratteri della cornice in cui compare l&amp;rsquo;operatore ˆ.</description>
+    </item>
+    <item>
+      <title>Introduzione alle Regular Expression – Prima Parte</title>
+      <link>https://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/</link>
+      <pubDate>Wed, 23 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/</guid>
+      <description>&lt;p&gt;Quando si tratta fare ricerche in blocchi di testo le &lt;a href=&#34;http://it.wikipedia.org/wiki/Espressione_regolare&#34;&gt;&lt;strong&gt;regular
+expression&lt;/strong&gt;&lt;/a&gt; (regex) sono la soluzione ideale. Come programmatore studiare
+le regex è stata una delle cose migliori che ho fatto per migliorare la mia
+produttività.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Valide in ogni linguaggio e indipendenti dalla piattaforma, le regex sono
+un investimento sempre valido. Java, JavaScript, Ruby, .Net, Python…
+le regex non cambiano.&lt;/li&gt;
+&lt;li&gt;Rendono ricerca e sostituzione del testo &lt;em&gt;enormemente&lt;/em&gt; più potenti&lt;/li&gt;
+&lt;li&gt;Soddisfano pienamente il principio &lt;a href=&#34;http://en.wikipedia.org/wiki/Pareto_principle#In_software&#34;&gt;80/20&lt;/a&gt;. Basta conoscerne il 20% per
+risolvere l&#39;80% dei problemi.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Ho preparato una &lt;!-- raw HTML omitted --&gt;pagina di
+prova&lt;!-- raw HTML omitted --&gt; per testare le regex del tutorial. In alternativa è sempre possibile
+usare una IDE, praticamente tutte supportano le regular expressions.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

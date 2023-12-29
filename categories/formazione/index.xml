@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Formazione on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/categories/formazione/</link>
+    <description>Recent content in Formazione on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 23 Apr 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/categories/formazione/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Offline / Online: superare la crisi anche grazie alla rete</title>
+      <link>https://nicolaiarocci.com/offline-online-superare-la-crisi-anche-grazie-alla-rete/</link>
+      <pubDate>Mon, 23 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/offline-online-superare-la-crisi-anche-grazie-alla-rete/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;La scorsa settimana ho partecipato come relatore alla prima edizione del &lt;!-- raw HTML omitted --&gt;Ravenna CNA Barcamp&lt;!-- raw HTML omitted --&gt; sulla cultura d’impresa 2.0. &lt;!-- raw HTML omitted --&gt;Offline / Online&lt;!-- raw HTML omitted --&gt; è il racconto di una esperienza vissuta sul campo; un case study su come il mercato del software si è evoluto nel corso degli anni passando dalla classica filiera lunga sul territorio, tipica degli anni ’90 e della prima metà dei 2000, alla vendita online dei giorni nostri. La crisi economica degli ultimi anni si è innestata in un processo evolutivo già in atto e inarrestabile, perlomeno per quanto riguarda il nostro settore:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Primo importante aggiornamento del Piccolo Libro di MongoDB</title>
+      <link>https://nicolaiarocci.com/primo-importante-aggiornamento-del-piccolo-libro-di-mongodb/</link>
+      <pubDate>Thu, 08 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/primo-importante-aggiornamento-del-piccolo-libro-di-mongodb/</guid>
+      <description>Se avete già scaricato il Piccolo Libro di MongoDB vi consiglio di aggiornarlo con la versione odierna. E’ stato aggiunto un capitolo (MapReduce) misteriosamente assente nella prima edizione. Grazie a Walter Tommasi per la preziosa segnalazione, e a Git per averne consentito il recupero in extremis.</description>
+    </item>
+    <item>
+      <title>E’ uscito il Piccolo Libro di MongoDB</title>
+      <link>https://nicolaiarocci.com/e-uscito-il-piccolo-libro-di-mongodb/</link>
+      <pubDate>Tue, 21 Feb 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/e-uscito-il-piccolo-libro-di-mongodb/</guid>
+      <description>Il Piccolo Libro di MongoDB, edizione italiana di The Little MongoDB Book, è finalmente disponibile online. C’è voluto un bel po’ di lavoro, e sono certo i primi lettori scoveranno una serie di errori raccapriccianti, ma vi invito comunque a leggerlo e farmi sapere cosa ne pensate.</description>
+    </item>
+    <item>
+      <title>Imparare a Programmare… Pensando da Informatico</title>
+      <link>https://nicolaiarocci.com/imparare-a-programmare-e-pensare-da-informatico/</link>
+      <pubDate>Fri, 20 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/imparare-a-programmare-e-pensare-da-informatico/</guid>
+      <description>&lt;p&gt;Chi mi segue da tempo sa  che l’educazione è un argomento che mi sta particolarmente a cuore ed è forse per questo motivo che spesso le persone mi chiedono consigli su come imparare a programmare. Gli articoli più letti di questo sito sono senz’altro le guide alla programmazione; &lt;a href=&#34;http://nicolaiarocci.com/impara-python-in-10-minuti/&#34; title=&#34;Python in 10 minuti&#34;&gt;Impara Python in 10 minuti&lt;/a&gt; e la &lt;a href=&#34;http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/&#34; title=&#34;Introduzione alle Regular Expression&#34;&gt;serie sulle Regular Expression&lt;/a&gt; sono vere e proprie Hit, ma certo non sono adatte ai principianti. L’ultima mail è di pochi giorni fa: Mirko chiedeva qual’è il modo migliore per avvicinarsi all’affascinante mondo della programmazione.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript come Primo Linguaggio</title>
+      <link>https://nicolaiarocci.com/javascript-come-primo-linguaggio/</link>
+      <pubDate>Tue, 10 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/javascript-come-primo-linguaggio/</guid>
+      <description>&lt;p&gt;JavaScript non è mai la prima scelta di un aspirante programmatore. Spesso si finisce per usarlo all’occorrenza, per giochetti AJAX o per manipolare il DOM. Google, copia &amp;amp; incolla, e JavaScript è servito. Prima o poi l’abbiamo fatto tutti. E’ un vero peccato perché JavaScript merita di ben altra attenzione.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;A spiegarlo al mondo è stato naturalmente Douglas Crockford in &lt;a href=&#34;http://www.amazon.it/gp/product/0596517742/ref=as_li_ss_tl?ie=UTF8&amp;amp;tag=nicoiaro-21&amp;amp;linkCode=as2&amp;amp;camp=3370&amp;amp;creative=24114&amp;amp;creativeASIN=0596517742&#34;&gt;JavaScript: The Good Parts&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;, un libretto di 172 intensissime pagine in cui si ha costantemente la sensazione che l’autore intenda demolire il linguaggio mentre, in realtà, non fa altro che esaltarne le doti. JavaScript è il linguaggio più usato al mondo, e non a caso: è l’unico supportato da qualunque browser del pianeta. La recente affermazione di &lt;!-- raw HTML omitted --&gt;Node &lt;!-- raw HTML omitted --&gt;lato server ne dimostra l’indiscussa attualità.&lt;/p&gt;
+&lt;p&gt;Ciò nonostante JavaScript rimane un linguaggio inadatto al programmatore neofita. O forse no.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Identità Digitale e Personal Branding per studenti del liceo</title>
+      <link>https://nicolaiarocci.com/internet-non-solo-per-gioco/</link>
+      <pubDate>Tue, 27 Dec 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/internet-non-solo-per-gioco/</guid>
+      <description>&lt;p&gt;In questo periodo sono impegnato come docente nel progetto “Internet non (solo) per gioco”. Si tratta di una serie di lezioni tenute al liceo. L’obiettivo è sensibilizzare i ragazzi circa il ruolo che la rete può svolgere nello sviluppo delle loro abilità personali e professionali. La settimana scorsa si è conclusa la prima parte, quella più teorica, e approfitto della pausa festiva per proporvi le slide e raccontarvi come è andata.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

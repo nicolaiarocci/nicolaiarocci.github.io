@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>links on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/links/</link>
+    <description>Recent content in links on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 14 Dec 2023 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/links/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Many Hobbits?</title>
+      <link>https://nicolaiarocci.com/how-many-hobbits/</link>
+      <pubDate>Thu, 14 Dec 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/how-many-hobbits/</guid>
+      <description>For those who don’t know me, I’m a demographer. I study population. And my first love in fantasy was, of course, Middle Earth. How many people live in Middle Earth? Being a demographer, I was mainly interested in the data side of things.
+Tolkien is frustratingly vague about population. He almost never gives us estimates of settlement sizes, and many of the larger metropolises of Middle Earth (like Pelargir) never actually appear on the page.</description>
+    </item>
+    <item>
+      <title>The Winterkeeper</title>
+      <link>https://nicolaiarocci.com/the-winterkeeper/</link>
+      <pubDate>Sun, 10 Dec 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-winterkeeper/</guid>
+      <description>The Guardian&amp;rsquo;s The Winterkeeper: A Lifetime Spent Protecting Yellowstone National Park is a beautiful short documentary I truly enjoyed watching.
+A little research on Steven Fuller, the protagonist, allowed me to dig out some promising reading material.
+Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+    </item>
+    <item>
+      <title>Intro to Large Language Models (video)</title>
+      <link>https://nicolaiarocci.com/intro-to-large-language-models-video/</link>
+      <pubDate>Fri, 24 Nov 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/intro-to-large-language-models-video/</guid>
+      <description>Andrej Karpathy has a very well-done Intro to Large Language Models video on YouTube. As a founding member and research scientist at OpenAI and with a two-year hiatus working on Tesla Autopilot, Karpathy is an authority in the field. He is also good at explaining hard things.
+As a Kahneman reader, I appreciated the Thinking Fast and Slow analogy proposed at about half-length in the video: &amp;ldquo;System 1&amp;rdquo; (fast automatic thinking, rapid decisions) is where we&amp;rsquo;re now; &amp;ldquo;System 2&amp;rdquo; (rational, slow thinking, complex decisions) is LLMs next goal.</description>
+    </item>
+    <item>
+      <title>The Legacy of Bram Moolenaar</title>
+      <link>https://nicolaiarocci.com/the-legacy-of-bram-moolenaar/</link>
+      <pubDate>Fri, 11 Aug 2023 08:55:35 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/the-legacy-of-bram-moolenaar/</guid>
+      <description>Quoting Jan van den Berg:
+This weekend we learned that Bram Moolenaar had passed away at the age of 62. And this news affected me more than I expected. Like so many: I did not know Bram personally. But I’ve been using a tool made by Bram for more than half my life — at least weekly, sometimes daily. That tool is a text editor. The best one there is: Vim.</description>
+    </item>
+    <item>
+      <title>The Medieval Monks Who Lived on Top of Giant Pillars</title>
+      <link>https://nicolaiarocci.com/the-medieval-monks-who-lived-on-top-of-giant-pillars/</link>
+      <pubDate>Thu, 03 Aug 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-medieval-monks-who-lived-on-top-of-giant-pillars/</guid>
+      <description>Imagine, for a moment, that you are walking along a dirt road in the seventh century Middle East. The sun is hot, the air is dry, your feet are tired. It’s been a long journey, by boat and foot, from your home in Constantinople to where you find yourself now: outside of the walls of the mountainous river city of Antioch. In the bright sunlight, you strain your eyes to catch a distant glimpse of the sight you’ve come all this way to see – and then suddenly, you do.</description>
+    </item>
+    <item>
+      <title>Quoting Donald Knuth</title>
+      <link>https://nicolaiarocci.com/quoting-donald-knuth/</link>
+      <pubDate>Fri, 26 May 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/quoting-donald-knuth/</guid>
+      <description>Donald Knuth challenged ChatGPT-4 with 20 questions and then submitted the results and his comments to Stephen Wolfram. The whole thing is fascinating in many ways and worth reading.
+Some remarkable quotes:
+Of course these are extremely impressive responses, sometimes astonishingly so; thus I totally understand why you and others have been paying attention to it.
+The most immediate impression is the quality of the wordsmithing. It&amp;rsquo;s way better than 99% of copy that people actually write.</description>
+    </item>
+    <item>
+      <title>Tiny electronic desktop sculptures</title>
+      <link>https://nicolaiarocci.com/tiny-electronic-desktop-sculptures/</link>
+      <pubDate>Thu, 18 May 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/tiny-electronic-desktop-sculptures/</guid>
+      <description>Adorable, functional, often internet-connected desktop bots like those below are hand-crafted by Mohit Bhoite in San Francisco, California.
+It pleasantly surprised me that they&amp;rsquo;re built as a purely artistic expression. All sculptures (as Mohit rightfully refers to them) are unique and not for sale. Check them all out on his website (via).
+Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+    </item>
+    <item>
+      <title>macOS networkQuality tool</title>
+      <link>https://nicolaiarocci.com/macos-networkquality-tool/</link>
+      <pubDate>Mon, 15 May 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/macos-networkquality-tool/</guid>
+      <description>Today I learned about a precious little macOS command line tool, networkQuality.
+The networkQuality tool is a built-in tool released in macOS Monterey that can help diagnose network issues and measure network performance.
+Usage:
+networkQuality -v Example output:
+==== SUMMARY ==== Uplink capacity: 44.448 Mbps (Accuracy: High) Downlink capacity: 162.135 Mbps (Accuracy: High) Responsiveness: Low (73 RPM) (Accuracy: High) Idle Latency: 50.125 milliseconds (Accuracy: High) Interface: en0 Uplink bytes transferred: 69.</description>
+    </item>
+    <item>
+      <title>Story of Redis and its creator antirez</title>
+      <link>https://nicolaiarocci.com/story-of-redis-and-its-creator-antirez/</link>
+      <pubDate>Thu, 11 May 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/story-of-redis-and-its-creator-antirez/</guid>
+      <description>I read a well-researched story about Redis and its creator Salvatore Sanfilippo, also known as antirez. I was already familiar with many details as I have been following him since OKNotizie and Segnalo, of which I was a user. At the time, as a user, I exchanged a few emails with Salvatore, whom years later I had the pleasure of meeting in person, as we were both speakers at several conferences.</description>
+    </item>
+    <item>
+      <title>AI-curated minimalist news</title>
+      <link>https://nicolaiarocci.com/ai-curated-minimalist-news/</link>
+      <pubDate>Wed, 03 May 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/ai-curated-minimalist-news/</guid>
+      <description>Minimalist News is the first LLM project that excites me but in a nervous way. Quoting the About page:
+We only publish significant news. To find them we use AI (ChatGPT-4) to read and analyze 1000 top news every day. For each article it estimates magnitude, scale, potential and credibility. Then we combine these estimates to get the final Significance score from 0 to 10. And now the best part: We&amp;rsquo;ll only send you the news scored 6.</description>
+    </item>
+    <item>
+      <title>The religious aspects of the corporate space race</title>
+      <link>https://nicolaiarocci.com/the-religious-aspects-of-the-corporate-space-race/</link>
+      <pubDate>Mon, 01 May 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-religious-aspects-of-the-corporate-space-race/</guid>
+      <description>A fascinating article surfaced on Nautilus last week. Mary-Jane Rubenstein, a professor of religion and science in society at Wesleyan University, shares her concerns about the technical strides and aspirations of Elon Musk&amp;rsquo;s SpaceX, the company&amp;rsquo;s mission to enable thousands of people to live on Mars, and the ethics of terraforming the planet to be more like Earth. What&amp;rsquo;s intriguing, though, is Rubenstein&amp;rsquo;s thoughts about the religious underpinnings of the United States space program and how even modern science is still hostage to imperialistic Christian ideas.</description>
+    </item>
+    <item>
+      <title>The Interstellar Style of Sun Ra</title>
+      <link>https://nicolaiarocci.com/the-interstellar-style-of-sun-ra/</link>
+      <pubDate>Tue, 25 Apr 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-interstellar-style-of-sun-ra/</guid>
+      <description>Pitchfork has a great piece on Sun Ra and his legacy. It&amp;rsquo;s worth reading if you&amp;rsquo;re a fan, even more so if you know nothing about him.
+But what Sun Ra had done, and done best, was reminding earthlings everywhere that he wasn’t mortal. He was a signifier of a life beyond the reality of this one. He was a visual reassurance of the presence of another world. He brought the cosmos to the streets, and, most importantly, he was a reminder that one does not have to subscribe to the status quo—musically, stylistically, politically, ideologically.</description>
+    </item>
+    <item>
+      <title>The end of computer magazines in America (and elsewhere)</title>
+      <link>https://nicolaiarocci.com/the-end-of-computer-magazines-in-america-and-elsewhere/</link>
+      <pubDate>Wed, 19 Apr 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-end-of-computer-magazines-in-america-and-elsewhere/</guid>
+      <description>In the mid-to-late 80s, my excitement used to culminate by the end of the month when BYTE&amp;rsquo;s new issue would hit the newsstands1. In my small Italian hometown, only one, sometimes two, newsstands would sometime get a copy (BYTE was published in the US and copies sent abroad were scarce; only major, close-to-the-train-station stands had a chance to receive it). I wasn&amp;rsquo;t the only kid in town interested in that elusive one issue; I had an anonymous competitor.</description>
+    </item>
+    <item>
+      <title>Noam Chomsky on ChatGPT</title>
+      <link>https://nicolaiarocci.com/noam-chomsky-on-chatgpt/</link>
+      <pubDate>Sun, 09 Apr 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/noam-chomsky-on-chatgpt/</guid>
+      <description>Noam Chomsky&amp;rsquo;s essays are always worth reading, no matter the topic he decides to address, because, well, frankly, he&amp;rsquo;s one of the brightest and most well-informed minds of our time. His criticism of OpenAI&amp;rsquo;s ChatGPT makes no exception. It does an excellent job of explaining how LLMs work, the differences with human reasoning, and why, in his opinion, the advent of artificial general intelligence is a long way to go, if ever.</description>
+    </item>
+    <item>
+      <title>The real cost of interruption</title>
+      <link>https://nicolaiarocci.com/the-real-cost-of-interruption/</link>
+      <pubDate>Fri, 07 Apr 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-real-cost-of-interruption/</guid>
+      <description>I&amp;rsquo;m just back from reading Programmer Interrupted: The Real Cost of Interruption and Context Switching, an interesting short piece in which I learned about at least two new things.
+First, The Parable of the Two Watchmakers, introduced by Nobel Prize winner Herbert Simon, describes the complex relationship between sub-systems and their larger wholes. In the context of the article, it helps explain, even for non-programmers, the cost of an interruption. It also hints at a possible mitigation technique:</description>
+    </item>
+    <item>
+      <title>ChatGPT is making up fake Guardian articles</title>
+      <link>https://nicolaiarocci.com/chatgpt-is-making-up-fake-guardian-articles/</link>
+      <pubDate>Thu, 06 Apr 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/chatgpt-is-making-up-fake-guardian-articles/</guid>
+      <description>Chris Moran, the Guardian’s head of editorial innovation:
+Last month one of our journalists received an interesting email. A researcher had come across mention of a Guardian article, written by the journalist on a specific subject from a few years before. But the piece was proving elusive on our website and in search. Had the headline perhaps been changed since it was launched? Had it been removed intentionally from the website because of a problem we’d identified?</description>
+    </item>
+    <item>
+      <title>Playing D&amp;D with ChatGPT as the DM</title>
+      <link>https://nicolaiarocci.com/playing-dnd-with-chatgpt-as-the-dm/</link>
+      <pubDate>Mon, 03 Apr 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/playing-dnd-with-chatgpt-as-the-dm/</guid>
+      <description>A dad reunites with his three kids, ages 26, 23 and 15, and they decide to do a D&amp;amp;D campaign together. Now, this alone would be enough to catch my attention: I&amp;rsquo;ve been an avid D&amp;amp;D player as a boy, my older son has been playing too, and I always dreamed of playing one day with my three kids and maybe my wife. But there&amp;rsquo;s more to this story. Tenzin, the youngest son and long-time tabletop RPG gamer and DM, proposes to let OpenAI&amp;rsquo;s ChatGPT 4 be their DM.</description>
+    </item>
+    <item>
+      <title>Awesome psql tips</title>
+      <link>https://nicolaiarocci.com/awesome-psql-tips/</link>
+      <pubDate>Thu, 23 Feb 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/awesome-psql-tips/</guid>
+      <description>Today I learned about psql-tips.org by Lætitia Avrot, an excellent repository of psql (the CLI tool, not the database itself) tips. I like how one randomized tip is playfully served on the home page while the complete list is always at hand.
+Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+    </item>
+    <item>
+      <title>On the state of developer conferences</title>
+      <link>https://nicolaiarocci.com/on-the-state-of-developer-conferences/</link>
+      <pubDate>Thu, 23 Feb 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/on-the-state-of-developer-conferences/</guid>
+      <description>Brian Rinaldi has an insightful post on his blog about the current state of developer conferences, where &amp;lsquo;current state&amp;rsquo; means post-COVID pandemic. Brian is well-positioned to reason about this space as a long-time conference organizer. I appreciate that he also takes the time to explain how the developer conference business works. The core of his blog is about post-pandemic conference attendance, which has plunged.
+independent, in-person developer conferences are hurting. Based on my own observation as well as talks with organizers and sponsors that I have come to know over the years, the average independent in-person event is still down 30-40% from pre-pandemic attendance levels.</description>
+    </item>
+    <item>
+      <title>The best time to own a domain</title>
+      <link>https://nicolaiarocci.com/the-best-time-to-own-a-domain/</link>
+      <pubDate>Thu, 09 Feb 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-best-time-to-own-a-domain/</guid>
+      <description>Jim Nielsen:
+That is why owning a domain (and publishing your content there) is like planting a tree: it’s value that starts small and grows. The best time to own a domain and publish your content there was 20 years ago. The second best time is today.
+More here.
+Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+    </item>
+    <item>
+      <title>Brad Mehldau plays I am the Walrus</title>
+      <link>https://nicolaiarocci.com/brad-mehldau-plays-i-am-the-walrus/</link>
+      <pubDate>Mon, 06 Feb 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/brad-mehldau-plays-i-am-the-walrus/</guid>
+      <description>Brad Mehldau plays Lennon/McCartney&amp;rsquo;s I Am the Walrus, from his upcoming album, Your Mother Should Know: Brad Mehldau Plays the Beatles.
+Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+    </item>
+    <item>
+      <title>Flammarion engraving</title>
+      <link>https://nicolaiarocci.com/flammarion-engraving/</link>
+      <pubDate>Thu, 02 Feb 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/flammarion-engraving/</guid>
+      <description>I was reading iA&amp;rsquo;s grumpy writing about GPT (with which I sympathize) when my attention was captured by the image they added to their post. It was so fascinating that I had to research it.
+As it turns out, this is the Flammarion engraving, a famous wood engraving by an unknown artist, so named because its first documented appearance is in Camille Flammarion&amp;rsquo;s 1888 book L&amp;rsquo;atmosphère: météorologie populaire (&amp;ldquo;The Atmosphere: Popular Meteorology&amp;rdquo;).</description>
+    </item>
+    <item>
+      <title>The days are long but years are short</title>
+      <link>https://nicolaiarocci.com/the-days-are-long-but-years-are-short/</link>
+      <pubDate>Fri, 27 Jan 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-days-are-long-but-years-are-short/</guid>
+      <description>Source
+Above all, I liked the affection and serenity that shines, through all stages, between father and son. A depiction of the circle of life I gladly subscribe to.
+Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+    </item>
+    <item>
+      <title>Barnes &amp; Noble&#39;s surprising turnaround</title>
+      <link>https://nicolaiarocci.com/barnes-nobles-surprising-turnaround/</link>
+      <pubDate>Wed, 25 Jan 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/barnes-nobles-surprising-turnaround/</guid>
+      <description>According to the always-interesting Ted Gioia, the recent turnaround of Barnes &amp;amp; Noble is to be attributed to the company&amp;rsquo;s new CEO and his love of books. Quite astonishingly James Daunt, who took the helm of B&amp;amp;N in late 2019, refused to take promotional money from publishers:
+Daunt refused to play this game. He wanted to put the best books in the window. He wanted to display the most exciting books by the front door.</description>
+    </item>
+    <item>
+      <title>This is Water by David Foster Wallace</title>
+      <link>https://nicolaiarocci.com/this-is-water-by-david-foster-wallace/</link>
+      <pubDate>Sun, 22 Jan 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/this-is-water-by-david-foster-wallace/</guid>
+      <description>Slow Sunday morning, while surfing the YouTube ocean, I stumbled upon the audio recording of David Foster Wallace&amp;rsquo;s This is Water speech. Any DFW fan knows about the commencement speech he famously gave at Kenyon College in 2005, and I&amp;rsquo;m probably one of the few who hadn&amp;rsquo;t yet listened to it. So this morning, I hit the play button and was blown away by it. Unsurprisingly, I guess, as the speech was met with universal acclaim.</description>
+    </item>
+    <item>
+      <title>Why give up drinking in your early twenties</title>
+      <link>https://nicolaiarocci.com/why-give-up-drinking-in-your-early-twenties/</link>
+      <pubDate>Sun, 01 Jan 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/why-give-up-drinking-in-your-early-twenties/</guid>
+      <description>On New Years Day of 2022, I stumbled out of bed and immediately lost my vision, fell to the floor, and had to get my then-partner to help me back into bed. This wasn’t the first time this had happened, and I knew what it was straight away - I was having a migraine. In the previous decade I’d had countless migraines, and they always followed the same pattern. I’d wake up after a night out, attempt to get to the bathroom, lose my vision, and most likely end up on the floor vomiting from the pain that I can only describe as feeling like someone trying to hammer a nail into my skull.</description>
+    </item>
+    <item>
+      <title>Latewood</title>
+      <link>https://nicolaiarocci.com/latewood/</link>
+      <pubDate>Thu, 22 Dec 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/latewood/</guid>
+      <description>And we must remind ourselves that growth occurs in intervals: there are times of growth, and there are times of non-growth. The latter isn’t a failure so much as a necessary period of rest. Dormancy isn’t stagnant; it’s potentiating. It’s patient. If you’ve grown a lot in the past however many months or years and now feel that growth coming to a close, don’t fret right away. Wait. Reflect on what you’ve learned.</description>
+    </item>
+    <item>
+      <title>What was Dracula really like?</title>
+      <link>https://nicolaiarocci.com/what-was-dracula-really-like/</link>
+      <pubDate>Tue, 13 Dec 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/what-was-dracula-really-like/</guid>
+      <description>It&amp;rsquo;s mind-blowing that today scientists can &amp;ldquo;extract genetic material from the letters written [in 1475] by Vlad Dracula [&amp;hellip;] and, from that, build up a picture of not only the physical makeup of the Wallachian warlord who became known as Vlad the Impaler but also the environmental conditions in which he lived.&amp;rdquo;
+Also, I&amp;rsquo;m not surprised that similar investigations revealed that Mikhail Bulgakov was under morphine when he wrote his masterpiece, The Master and Margarita (one of my all-time favorite books).</description>
+    </item>
+    <item>
+      <title>Writing is Magic</title>
+      <link>https://nicolaiarocci.com/writing-is-magic/</link>
+      <pubDate>Fri, 09 Dec 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/writing-is-magic/</guid>
+      <description>I find, more often than not, that I understand something much less well when I sit down to write about it than when I&amp;rsquo;m thinking about it in the shower. In fact, I find that I change my own mind on things a lot when I try write them down. It really is a powerful tool for finding clarity in your own mind. Once you have clarity in your own mind, you&amp;rsquo;re much more able to explain it to others.</description>
+    </item>
+    <item>
+      <title>JetBrains has left Russia</title>
+      <link>https://nicolaiarocci.com/jetbrains-has-left-russia/</link>
+      <pubDate>Wed, 07 Dec 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/jetbrains-has-left-russia/</guid>
+      <description>While it has been a very challenging and difficult time for the company, it cannot even remotely be compared with the horrendous situation that the people of Ukraine are facing on a daily basis, caused by the war. Once again, we condemn this aggression, and have and will continue to stand by the people of Ukraine, including our colleagues and their families. More here.
+I&amp;rsquo;m using JetBrains products when I&amp;rsquo;m not in (neo)vim.</description>
+    </item>
+    <item>
+      <title>The Making of Dune II</title>
+      <link>https://nicolaiarocci.com/the-making-of-dune-ii/</link>
+      <pubDate>Tue, 06 Dec 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-making-of-dune-ii/</guid>
+      <description>Despite its name suggesting otherwise, Dune II was a first – a real-time strategy game that sprang out of the box with almost every gameplay attribute and control system seen in every RTS since. In direct lineage, it was the father of the globally successful Command &amp;amp; Conquer franchise, in that its code was used as a basis of the first game of the series. Yet in terms of wider influence, the battles first fought out on the vibrant sands of Arrakis continue to echo through modern videogaming.</description>
+    </item>
+    <item>
+      <title>I am on Mastodon and I love it</title>
+      <link>https://nicolaiarocci.com/i-am-on-mastodon-and-i-love-it/</link>
+      <pubDate>Fri, 02 Dec 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/i-am-on-mastodon-and-i-love-it/</guid>
+      <description>Marcus Hutchins on Mastodon:
+What I missed about Mastodon was its very different culture. Ad-driven social media platforms are willing to tolerate monumental volumes of abusive users. They’ve discovered the same thing the Mainstream Media did: negative emotions grip people’s attention harder than positive ones. Hate and fear drives engagement, and engagement drives ad impressions.
+More here.
+I have been on Mastodon for a few weeks now, and wow, what a breath of fresh air.</description>
+    </item>
+    <item>
+      <title>The Origins of Python</title>
+      <link>https://nicolaiarocci.com/the-origins-of-python/</link>
+      <pubDate>Sat, 26 Nov 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-origins-of-python/</guid>
+      <description>Yesterday the creator of the Python language, Guido van Rossum, tweeted about The Origins of Python, an essay by his mentor, Lambert Meertens.
+&amp;ldquo;On Sunday, June 21, 1970, in an office building on Great Portland Street in London, a teletype sprang to life. Under the heading &amp;ldquo;HAPPY FAMILIES,&amp;rdquo; the machine rattled out a sequence of English sentences, such as &amp;ldquo;THE DOG SITS ON THE BABY&amp;rdquo; and &amp;ldquo;UNCLE TED PLAYS WITH SISTER.</description>
+    </item>
+    <item>
+      <title>Castle Rock Climb in Antarctica</title>
+      <link>https://nicolaiarocci.com/castle-rock-climb-in-antarctica/</link>
+      <pubDate>Fri, 18 Nov 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/castle-rock-climb-in-antarctica/</guid>
+      <description>There&amp;rsquo;s regular hiking, and then there&amp;rsquo;s Antarctica hiking. Check out brr&amp;rsquo;s report of a Sunday&amp;rsquo;s hike from McMurdo&amp;rsquo;s base up to the tip of Castle Rock, with spectacular views of Mount Erebus and the surroundings.
+brr&amp;rsquo;s Antarticta blog is a recent addition to my RSS feed collection. It&amp;rsquo;s always interesting to follow people living and working in the most remote parts of the world.
+Subscribe to the newsletter, the RSS feed, or follow @nicolaiarocci on Twitter</description>
+    </item>
+    <item>
+      <title>Welcome to hell, Elon</title>
+      <link>https://nicolaiarocci.com/welcome-to-hell-elon/</link>
+      <pubDate>Sat, 29 Oct 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/welcome-to-hell-elon/</guid>
+      <description>As someone who&amp;rsquo;s been on board with Twitter since 2009, I have to admit that I&amp;rsquo;m very concerned with recent developments. I admire and respect Elon Musk for his companies&amp;rsquo; achievements, especially in space and electric movement industries, but the man himself, holy cow, what a drag.
+On The Verge, Nilay Patel&amp;rsquo;s brutal piece on the recent Twitter acquisition is chock-full of brilliant insights on what it takes to run a modern commercial social service.</description>
+    </item>
+    <item>
+      <title>A lot of what is known about pirates is not true</title>
+      <link>https://nicolaiarocci.com/a-lot-of-what-is-known-about-pirates-is-not-true/</link>
+      <pubDate>Wed, 26 Oct 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/a-lot-of-what-is-known-about-pirates-is-not-true/</guid>
+      <description>In 1701, in Middletown, New Jersey, Moses Butterworth languished in a jail, accused of piracy. Like many young men based in England or her colonies, he had joined a crew that sailed the Indian Ocean intent on plundering ships of the Muslim Mughal Empire. Throughout the 1690s, these pirates marauded vessels laden with gold, jewels, silk, and calico on pilgrimage toward Mecca. After achieving great success, many of these men sailed back into the Atlantic via Madagascar to the North American seaboard, where they quietly disembarked in Charleston, Philadelphia, New Jersey, New York City, Newport, and Boston, and made themselves at home.</description>
+    </item>
+    <item>
+      <title>The high cost of living your life online</title>
+      <link>https://nicolaiarocci.com/the-high-cost-of-living-your-life-online/</link>
+      <pubDate>Wed, 05 Oct 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-high-cost-of-living-your-life-online/</guid>
+      <description>Studies have found that high levels of social media use are connected with an increased risk of symptoms of anxiety and depression. There appears to be substantial evidence connecting people’s mental health and their online habits. Furthermore, many psychologists believe people may be dealing with psychological effects that are pervasive but not always obvious.
+More here.
+Subscribe to the newsletter, the RSS feed, or follow @nicolaiarocci on Twitter</description>
+    </item>
+    <item>
+      <title>Indiepeople</title>
+      <link>https://nicolaiarocci.com/indiepeople/</link>
+      <pubDate>Fri, 30 Sep 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/indiepeople/</guid>
+      <description>Ben Werdmuller has a terrific post up on his website. His &amp;ldquo;tortured&amp;rdquo; analogy of the web and governments as platforms for people to build upon is fascinating.
+I believe strongly in the indieweb principles of distributed ownership, control, and independence. For me, the important thing is that this is how we get to a diverse web. A web where everyone can define not just what they write but how they present is by definition far more expressive, diverse, and interesting than one where most online content and identities must be squished into templates created by a handful of companies based on their financial needs.</description>
+    </item>
+    <item>
+      <title>The Tripitaka Koreana</title>
+      <link>https://nicolaiarocci.com/the-tripitaka-koreana/</link>
+      <pubDate>Tue, 27 Sep 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-tripitaka-koreana/</guid>
+      <description>The Tripitaka Koreana - carved on 81258 woodblocks in the 13th century - is the most successful large data transfer over time yet achieved by humankind. 52 million characters of information, transmitted over nearly 8 centuries with zero data loss - an unequalled achievement.
+The full story is available here (via).
+Subscribe to the newsletter, the RSS feed, or follow @nicolaiarocci on Twitter</description>
+    </item>
+    <item>
+      <title>The Man Who Explains Italy</title>
+      <link>https://nicolaiarocci.com/the-man-who-explains-italy/</link>
+      <pubDate>Fri, 23 Sep 2022 08:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-man-who-explains-italy/</guid>
+      <description>The New Yorker, in The Man Who Explains Italy:
+The Italian podcaster Francesco Costa thinks that the foreign press’s fixation on creeping Fascism in the country is overblown and unhelpful. If the center-right coalition wins, “Will Italy be a police state? No,” he said. “Will it be very badly run? Yes.”
+Full article is available here. I&amp;rsquo;ve been following Francesco Costa for a few years. He&amp;rsquo;s talented, conscientious, brilliant, and gifted with good humor.</description>
+    </item>
+    <item>
+      <title>Software quality is systemic</title>
+      <link>https://nicolaiarocci.com/software-quality-is-systemic/</link>
+      <pubDate>Thu, 15 Sep 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/software-quality-is-systemic/</guid>
+      <description>Jacob Kaplan-Moss&amp;rsquo;s hot take on software quality:
+Software quality is more the result of a system designed to produce quality, and not so much the result of individual performance. That is: a group of mediocre programmers working with a structure designed to produce quality will produce better software than a group of fantastic programmers working in a system designed with other goals.
+This leads to the insightful conclusion:
+Instead of spending tons of time and effort on hiring because you believe that you can “only hire the best”, direct some of that effort towards building a system that produces great results out of a wider spectrum of individual performance.</description>
+    </item>
+    <item>
+      <title>The Women Who Built Grunge</title>
+      <link>https://nicolaiarocci.com/the-women-who-built-grunge/</link>
+      <pubDate>Sun, 04 Sep 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-women-who-built-grunge/</guid>
+      <description>This week the &amp;ldquo;Sunday Morning Reading Award&amp;rdquo; goes to Lisa Whittington-Hill, for her The Women Who Built Grunge on Longreads:
+Bands like L7 and Heavens to Betsy were instrumental to the birth of the grunge scene, but for decades were treated like novelties and sex objects. Thirty years later, it’s time to reassess their legacy.
+More here.
+Subscribe to the newsletter, the RSS feed, or follow @nicolaiarocci on Twitter</description>
+    </item>
+    <item>
+      <title>G.K. Chesterton on fairy tales, actually</title>
+      <link>https://nicolaiarocci.com/g.k.-chesterton-on-fairy-tales-actually/</link>
+      <pubDate>Fri, 02 Sep 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/g.k.-chesterton-on-fairy-tales-actually/</guid>
+      <description>Robin Rendle quoting Neil Gaiman, who is quoting G.K. Chesterton:
+Fairy tales, as G.K. Chesterton once said, are more than true. Not because they tell us that dragons exist, but because they tell us that dragons can be defeated.
+I read somewhere that he based the Gilbert character from The Sandman on Chesterton, so it&amp;rsquo;s no surprise to find Gaiman quoting Chesterton in Smoke and Mirrors.
+Wanting to find the work in which the quote first appeared, I did a little research only to discover that G.</description>
+    </item>
+    <item>
+      <title>An account of the mother of all demos</title>
+      <link>https://nicolaiarocci.com/an-account-of-the-mother-of-all-demos/</link>
+      <pubDate>Wed, 31 Aug 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/an-account-of-the-mother-of-all-demos/</guid>
+      <description>As part of his captivating Hidden Heroes series, Steven Johnson publishes an account of the mother of all demos.
+More than 50 years ago, Douglas Engelbart gave the &amp;ldquo;mother of all demos&amp;rdquo; that transformed software forever. The computer world has been catching up with his vision ever since.
+More here
+Subscribe to the newsletter, the RSS feed, or follow @nicolaiarocci on Twitter</description>
+    </item>
+    <item>
+      <title>A stunning visualization of John Coltrane&#39;s &#39;Giant Steps&#39; solo</title>
+      <link>https://nicolaiarocci.com/a-stunning-visualization-of-john-coltranes-giant-steps-solo/</link>
+      <pubDate>Tue, 30 Aug 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/a-stunning-visualization-of-john-coltranes-giant-steps-solo/</guid>
+      <description>Open Culture shared a &amp;ldquo;jaw-dropping visualization of John Coltrane&amp;rsquo;s &amp;lsquo;Giant Steps&amp;rsquo; solo.&amp;rdquo;
+Indeed, it is stunning, beautiful and valuable. A visualization like this makes music much more accessible. Quoting Open Culture:
+Coltrane’s complexity is daunting for the most accomplished musicians. How much more so for non-musicians? It can seem like “you need a doctorate of music to go anywhere near his recordings,” Nicholson writes. But “nothing could be further from the truth.</description>
+    </item>
+    <item>
+      <title>The indictment against Sparta</title>
+      <link>https://nicolaiarocci.com/the-indictment-against-sparta/</link>
+      <pubDate>Wed, 24 Aug 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-indictment-against-sparta/</guid>
+      <description>Bret Devereaux has long been my go-to source for all things ancient and military history. One thing I somehow missed reading from his incredibly resourceful website is the This Isn&amp;rsquo;t Sparta series. He recently published a three-year-anniversary series retrospective which promptly surfaced on my RSS feed, giving me a chance to catch up over the holidays. The whole thing is a very long read, with some installments more engaging than others but overall very enjoyable, eye-opening, and information dense.</description>
+    </item>
+    <item>
+      <title>Becoming the Emperor</title>
+      <link>https://nicolaiarocci.com/becoming-the-emperor/</link>
+      <pubDate>Wed, 18 May 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/becoming-the-emperor/</guid>
+      <description>Today, probably not just by coincidence, I came across Becoming the Emperor, an excellent New Yorker piece from 2005 on Memoirs of Hadrian, Yourcenar&amp;rsquo;s other works, and her peculiar career and life trajectory. Having just read the Memoirs, I was glad to see several of my reading impressions confirmed. I found the New Yorker article to be spot-on on Yourcenar&amp;rsquo;s prose and theme:
+Actually, some of Yourcenar’s prose is marmoreal, but not so that you can’t get through it.</description>
+    </item>
+    <item>
+      <title>Stripe releases MarkDoc and that&#39;s a good thing</title>
+      <link>https://nicolaiarocci.com/stripe-releases-markdoc-and-thats-a-good-thing/</link>
+      <pubDate>Fri, 13 May 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/stripe-releases-markdoc-and-thats-a-good-thing/</guid>
+      <description>Stripe docs are a marvel, and every developer who&amp;rsquo;s had to deal with them knows it. After years of painful PayPal interactions, I remember the amazement and the feverish grin on my face the first time I landed on their API reference. Stripe API is beautifully designed, but it&amp;rsquo;s the combination of good design and excellent documentation that paved Stripe&amp;rsquo;s fulgid success.
+A few days ago, they unexpectedly released MarkDoc, the &amp;ldquo;powerful, flexible, Markdown-based authoring framework&amp;rdquo; they use internally to build their documentation.</description>
+    </item>
+    <item>
+      <title>If you know your user is asking for help show them the damn help</title>
+      <link>https://nicolaiarocci.com/if-you-know-your-user-is-asking-for-help-show-them-the-damn-help/</link>
+      <pubDate>Wed, 13 Apr 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/if-you-know-your-user-is-asking-for-help-show-them-the-damn-help/</guid>
+      <description>One of my pet peeves has always been the many different, sometimes very original ways in which CLI tools handle help requests. POSIX sets the canon: -h or --help is how we ask for help. But no, some tools1 want to be original at the worst moment: when their users are struggling, looking for guidance.
+It&amp;rsquo;s somewhat consolatory to learn that I&amp;rsquo;m not alone in this fight. The other day I landed on Clayton Craft&amp;rsquo;s blog.</description>
+    </item>
+    <item>
+      <title>Neuromancer and the birth of Cyberpunk</title>
+      <link>https://nicolaiarocci.com/neuromancer-and-the-birth-of-cyberpunk/</link>
+      <pubDate>Thu, 07 Apr 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/neuromancer-and-the-birth-of-cyberpunk/</guid>
+      <description>I went back to my library to check the year of my original Neuromancer edition. It&amp;rsquo;s 1993. For some context, I was 23 back then, with my software company founded only a couple of years earlier. The World Wide Web was at its very early stages. I distinctly remember getting out of that book dazed and confused. Characters were two-dimensional at best. There was a certain lack of exposition. The recurring streams of consciousness were complex for me to follow1.</description>
+    </item>
+    <item>
+      <title>The Sun in high resolution</title>
+      <link>https://nicolaiarocci.com/the-sun-in-high-resolution/</link>
+      <pubDate>Tue, 05 Apr 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-sun-in-high-resolution/</guid>
+      <description>The Sun as seen by Solar Orbiter in extreme ultraviolet light from a distance of roughly 75 million kilometres. The image is a mosaic of 25 individual images taken on 7 March by the high resolution telescope of the Extreme Ultraviolet Imager (EUI) instrument. Taken at a wavelength of 17 nanometers, in the extreme ultraviolet region of the electromagnetic spectrum, this image reveals the Sun’s upper atmosphere, the corona, which has a temperature of around a million degrees Celsius.</description>
+    </item>
+    <item>
+      <title>How multifactor authentication is breached</title>
+      <link>https://nicolaiarocci.com/how-multifactor-authentication-is-breached/</link>
+      <pubDate>Wed, 30 Mar 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/how-multifactor-authentication-is-breached/</guid>
+      <description>Dan Goodin at Ars Tecnica, on multifactor authentication (2FA/MFA):
+Multifactor authentication (MFA) is a core defense that is among the most effective at preventing account takeovers. In addition to requiring that users provide a username and password, MFA ensures they must also use an additional factor—be it a fingerprint, physical security key, or one-time password—before they can access an account. Nothing in this article should be construed as saying MFA isn’t anything other than essential.</description>
+    </item>
+    <item>
+      <title>Endurance: Shackleton&#39;s lost ship found in Antarctic</title>
+      <link>https://nicolaiarocci.com/endurance-shackletons-lost-ship-found-in-antarctic/</link>
+      <pubDate>Wed, 09 Mar 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/endurance-shackletons-lost-ship-found-in-antarctic/</guid>
+      <description>A few months ago I started my review of Lansing&amp;rsquo;s Endurance: Shackleton&amp;rsquo;s Incredible Voyage with these words:
+Of all the stories of maritime adventures I’ve read, that of the Endurance, masterfully told by Alfred Lansing in this book, is the most incredible and shocking.
+And I meant that. As the book&amp;rsquo;s title suggests, that story is simply unbelievable, yet true. Imagine my astonishment this morning at the news that the Endurance was found in the depths of the Antarctic.</description>
+    </item>
+    <item>
+      <title>Trusting third-party services with your data, a cautionary tale</title>
+      <link>https://nicolaiarocci.com/trusting-third-party-services-with-your-data-a-cautionary-tale/</link>
+      <pubDate>Sat, 05 Mar 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/trusting-third-party-services-with-your-data-a-cautionary-tale/</guid>
+      <description>Quoting [Nelson&amp;rsquo;s weblog][3]:
+Goodreads lost my entire account last week. Nine years as a user, some 600 books and 250 carefully written reviews all deleted and unrecoverable. Their support has not been helpful. In 35 years of being online I&amp;rsquo;ve never encountered a company with such callous disregard for their users&amp;rsquo; data.
+Ouch. A lesson learned the hard way:
+My plan now is to host my own blog-like collection of all my reading notes like [Tom does][2].</description>
+    </item>
+    <item>
+      <title>You&#39;re probably using the wrong dictionary</title>
+      <link>https://nicolaiarocci.com/youre-probably-using-the-wrong-dictionary/</link>
+      <pubDate>Tue, 01 Mar 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/youre-probably-using-the-wrong-dictionary/</guid>
+      <description>In 2014, James Somers sat down to write a beautiful, entertaining lament about the state of today’s dictionaries and an argument in favor of the adoption of Noah Webster’s 1913 edition.
+I don&amp;rsquo;t want you to conclude that it&amp;rsquo;s just a matter of aesthetics. Yes, Webster&amp;rsquo;s definitions are prettier. But they are also better. They&amp;rsquo;re so much better that to use another dictionary is to keep yourself forever at arm&amp;rsquo;s length from the actual language.</description>
+    </item>
+    <item>
+      <title>Jonny Greenwood pretended to play the keyboard when he first joined Radiohead</title>
+      <link>https://nicolaiarocci.com/jonny-greenwood-pretended-to-play-the-keyboard-when-he-first-joined-radiohead/</link>
+      <pubDate>Mon, 21 Feb 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/jonny-greenwood-pretended-to-play-the-keyboard-when-he-first-joined-radiohead/</guid>
+      <description>Kottke reports this juicy excerpt from Jonny Greenwood&amp;rsquo;s interview at npr:
+Thom [Yorke]&amp;rsquo;s band had a keyboard player — [whom] I think they didn&amp;rsquo;t get on with because he played his keyboard so loud. And so when I got the chance to play with them, the first thing I did was make sure my keyboard was turned off &amp;hellip; I must have done months of rehearsals with them with this keyboard, and they didn&amp;rsquo;t know that I&amp;rsquo;d already turned it off.</description>
+    </item>
+    <item>
+      <title>How recycling pee could help save the world</title>
+      <link>https://nicolaiarocci.com/how-recycling-pee-could-help-save-the-world/</link>
+      <pubDate>Thu, 17 Feb 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/how-recycling-pee-could-help-save-the-world/</guid>
+      <description>Chelsea Wald in Nature:
+Scientists say that urine diversion would have huge environmental and public-health benefits if deployed on a large scale around the world. That’s in part because urine is rich in nutrients that, instead of polluting water bodies, could go towards fertilizing crops or feed into industrial processes. According to Simha’s estimates, humans produce enough urine to replace about one-quarter of current nitrogen and phosphorus fertilizers worldwide; it also contains potassium and many micronutrients (see ‘What’s in urine’).</description>
+    </item>
+    <item>
+      <title>Google Search is Dying</title>
+      <link>https://nicolaiarocci.com/google-search-is-dying/</link>
+      <pubDate>Tue, 15 Feb 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/google-search-is-dying/</guid>
+      <description>Reddit is currently the most popular search engine. The only people who don’t know that are the team at Reddit, who can’t be bothered to build a decent search interface. So instead we resort to using Google, and appending the word “reddit” to the end of our queries. [&amp;hellip;] Why are people searching Reddit specifically? The short answer is that Google search results are clearly dying. The long answer is that most of the web has become too inauthentic to trust.</description>
+    </item>
+    <item>
+      <title>A historian perspective on blockchain technology</title>
+      <link>https://nicolaiarocci.com/a-historian-perspective-on-blockchain-technology/</link>
+      <pubDate>Mon, 07 Feb 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/a-historian-perspective-on-blockchain-technology/</guid>
+      <description>One of my recent discoveries is A Collection of Unmitigated Pedantry by Bret Devereaux, an historian who&amp;rsquo;s been posting great content over the years. His Fireside Fridays, for example, provide intriguing musings on varied topics. In this week instalment, professor Devereaux takes on the different applications of blockchain technology as seen from a historian&amp;rsquo;s perspective.
+Really, this is less about the technologies themselves and more about the nature of states.</description>
+    </item>
+    <item>
+      <title>A Passage To Parenthood</title>
+      <link>https://nicolaiarocci.com/a-passage-to-parenthood/</link>
+      <pubDate>Wed, 26 Jan 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/a-passage-to-parenthood/</guid>
+      <description>A very touching Akhil Sharma in The New Yorker:
+Not long after we began dating, my now wife, Christine, and I started making up stories about the child we might have.
+We named the child—or, in the stories we told about him, he named himself—Suzuki Noguchi. Among the things we liked about him was that he was cheerfully indifferent to us. He did not wish to be either Irish (like Christine) or Indian (like me).</description>
+    </item>
+    <item>
+      <title>Is Old Music Killing New Music?</title>
+      <link>https://nicolaiarocci.com/is-old-music-killing-new-music/</link>
+      <pubDate>Thu, 20 Jan 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/is-old-music-killing-new-music/</guid>
+      <description>I had a hunch that old songs were taking over music streaming platforms—but even I was shocked when I saw the most recent numbers. According to MRC Data, old songs now represent 70% of the US music market. Those who make a living from new music—especially that endangered species known as the working musician—have to look at these figures with fear and trembling. But the news gets worse.
+I can&amp;rsquo;t say I can relate as my kids of ages 21, 18, and 16 do their best to stay clear from the music I like, but anyways, Ted Gioia&amp;rsquo;s latest piece on recent music trends is super-interesting.</description>
+    </item>
+    <item>
+      <title>Go James Webb</title>
+      <link>https://nicolaiarocci.com/go-james-webb/</link>
+      <pubDate>Mon, 10 Jan 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/go-james-webb/</guid>
+      <description>It&amp;rsquo;s now old news that the James Webb Telescope was successfully launched on Christmas Day. But last Saturday marked another historic moment for this incredible human artifact:
+After a quarter-century of effort by tens of thousands of people, more than $10 billion in taxpayer funding, and some 350 deployment mechanisms that had to go just so, the James Webb Space Telescope fully unfurled its wings. The massive spacecraft completed its final deployments, and, by God, the process went smoothly.</description>
+    </item>
+    <item>
+      <title>Moxie on Web3</title>
+      <link>https://nicolaiarocci.com/moxie-on-web3/</link>
+      <pubDate>Sat, 08 Jan 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/moxie-on-web3/</guid>
+      <description>An excellent article on Web3 has just appeared on Moxie Marlinspike&amp;rsquo;s website. Being Moxie1, he&amp;rsquo;s not just speculating and rambling about stuff. In an attempt to learn more about the so-called Web3 and the technologies around it, he went all-in and built a couple of dApps himself. Then, he produced an NFT and put it up for sale. What he found is, well, to put it mildly, fascinating.
+Some of his insights on technology are also interesting.</description>
+    </item>
+    <item>
+      <title>System Shock is Back Home</title>
+      <link>https://nicolaiarocci.com/system-shock-is-back-home/</link>
+      <pubDate>Mon, 27 Dec 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/system-shock-is-back-home/</guid>
+      <description>When The Digital Antiquarian released his System Shock retrospective earlier this year, I was in awe. System Shock was one of my favorite games back in the day, and yes, in the quarrel between id Software&amp;rsquo;s DOOM and Looking Glass&amp;rsquo;s System Shock, I was siding with the latter. I was so much more for immersion and storyline than shoot &amp;rsquo;em-ups. The Antiquarian article is excellent. If you&amp;rsquo;re into gaming history or, really, into computer&amp;rsquo;s history, I urge you to read it all.</description>
+    </item>
+    <item>
+      <title>A big nail in the coffin of MySQL</title>
+      <link>https://nicolaiarocci.com/a-big-nail-in-the-coffin-of-mysql/</link>
+      <pubDate>Thu, 09 Dec 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/a-big-nail-in-the-coffin-of-mysql/</guid>
+      <description>After five years in Oracle&amp;rsquo;s MySQL team, Steinar H. Gunderson resigned a few days ago. On the same day, he dropped the bomb on his blog:
+let me point out something that I&amp;rsquo;ve been saying both internally and externally for the last five years (although never on a stage—which explains why I&amp;rsquo;ve been staying away from stages talking about MySQL): MySQL is a pretty poor database, and you should strongly consider using Postgres instead1.</description>
+    </item>
+    <item>
+      <title>On the incredible opportunities offered by Starship</title>
+      <link>https://nicolaiarocci.com/on-the-incredible-opportunities-offered-by-starship/</link>
+      <pubDate>Wed, 08 Dec 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/on-the-incredible-opportunities-offered-by-starship/</guid>
+      <description>Space-junkie me is back, this time reading about the innumerable opportunities that SpaceX&amp;rsquo;s Starship will offer once it becomes operational, hopefully no later than this year or the next. In his Science Upside for Starship, the exceptionally knowledgeable Casey Handmer makes a case for Starship relevance in the future of space exploration by listing an astounding number of reasonable use-cases for the vessel.
+I think it is relatively straightforward to think of cool things to do with SpaceX Starships, so recent posts have focused on trying to understand the more mixed consequences for incumbent industrial organizations that are not ideally positioned to exploit the coming advances.</description>
+    </item>
+    <item>
+      <title>Chet Baker, born to be cool</title>
+      <link>https://nicolaiarocci.com/chet-baker-born-to-be-cool/</link>
+      <pubDate>Mon, 29 Nov 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/chet-baker-born-to-be-cool/</guid>
+      <description>A great piece of writing on jazz has recently been posted on The Smart Set. In Born to be cool, Matthew Duffus writes about jazz trumpeter Chet Baker, reporting about his troubled life, musical prowess, influence, and legacy. Some facts are well known, like the reception and then the competition with trumpet legends such as Miles Davis and Dizzy Gillespie; other tidbits are less known (to me at least). On Baker legacy:</description>
+    </item>
+    <item>
+      <title>I&#39;m a Moka guy</title>
+      <link>https://nicolaiarocci.com/im-a-moka-guy/</link>
+      <pubDate>Sat, 27 Nov 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/im-a-moka-guy/</guid>
+      <description>I&amp;rsquo;m a Moka guy, always have been. Admittedly, I also like so-called American coffee and, of course, espresso. But every day at my place, I&amp;rsquo;ll have a Moka-brewed coffee. Twice. As I wake up, and then in the afternoon before getting back to work. I&amp;rsquo;ve been observing the pods frenzy spreading all around me with curiosity and bewilderment in recent years, with dedicated retailers opening (and often closing soon after) everywhere in my town.</description>
+    </item>
+    <item>
+      <title>The posthuman dog</title>
+      <link>https://nicolaiarocci.com/the-posthuman-dog/</link>
+      <pubDate>Sat, 06 Nov 2021 08:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-posthuman-dog/</guid>
+      <description>Flo, our dog, spent her whole fifteen-years long life with us. Many, many times after she passed away, I wondered if she lived a happy dog life or not. In The posthuman dog (Aeon), Jessica Pierce poses a fascinating question that somehow helps find answers to my troubling question:
+If humans were to disappear from the face of the Earth, what might dogs become? And would they be better off without us?</description>
+    </item>
+    <item>
+      <title>The word for web is forest</title>
+      <link>https://nicolaiarocci.com/the-word-for-web-is-forest/</link>
+      <pubDate>Thu, 30 Sep 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-word-for-web-is-forest/</guid>
+      <description>When I read Entangled Life: How Fungi Make Our Worlds, Change Our Minds &amp;amp; Shape Our Futures by Merlin Sheldrake1, I was stunned by the scale and importance of the mycorrhizal network that lies beneath the surface of any given forest in the world. The &amp;ldquo;wood wide web&amp;rdquo;, as scientists started to call it, sounded like the perfect metaphor for such an incredibly efficient, symbiotic relation between fungi and trees.</description>
+    </item>
+    <item>
+      <title>An nginx playground</title>
+      <link>https://nicolaiarocci.com/an-nginx-playground/</link>
+      <pubDate>Mon, 27 Sep 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/an-nginx-playground/</guid>
+      <description>Every single time I need nginx, I end up spending way too much time fiddling around with its configuration. If you&amp;rsquo;re like me, rejoice! Julia Evans built a lovely, helpful little tool called nginx playground.
+Hello! On Wednesday I was talking to a friend about how it would be cool to have an nginx playground website where you can just paste in an nginx config and test it out. And then I realized it might actually be pretty easy to build, so got excited and started coding and I built it.</description>
+    </item>
+    <item>
+      <title>What getting old really feels like</title>
+      <link>https://nicolaiarocci.com/what-getting-old-really-feels-like/</link>
+      <pubDate>Sun, 26 Sep 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/what-getting-old-really-feels-like/</guid>
+      <description>In a new study published in Ageing and Society, researchers Sam Carr and Chao Fang spent over 130 hours interviewing older people to understand what it&amp;rsquo;s like to get old and cope with loneliness. The Conversation UK features their report, appropriately titled Loneliness, loss and regret: what getting old really feels like.
+We found that ageing brings about a series of inevitable losses that deeply challenge people’s sense of connection to the world around them.</description>
+    </item>
+    <item>
+      <title>ASP.NET 6 Migration Cheatsheet and FAQ</title>
+      <link>https://nicolaiarocci.com/asp.net-6-migration-cheatsheet-and-faq/</link>
+      <pubDate>Thu, 23 Sep 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/asp.net-6-migration-cheatsheet-and-faq/</guid>
+      <description>David Fowler has a very informative gist up on GitHub. It&amp;rsquo;s titled [Migration to ASP.NET Core. NET6][3] and it&amp;rsquo;s filled with details, recipes and FAQs on migrating an ASP.NET Core 5 web app to ASP.NET Core 61. The focus is on the new, streamlined hosting model, also known as Minimal APIs2. To be clear, You don&amp;rsquo;t have to move to the new model. As the FAQ section emphasizes:
+Do I have to migrate to the new hosting model</description>
+    </item>
+    <item>
+      <title>The American Style of quotation mark punctuation makes no sense</title>
+      <link>https://nicolaiarocci.com/the-american-style-of-quotation-mark-punctuation-makes-no-sense/</link>
+      <pubDate>Thu, 16 Sep 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-american-style-of-quotation-mark-punctuation-makes-no-sense/</guid>
+      <description>Years ago, I translated an essay by Terry Windling, On Tolkien and Fairie-Stories, from American English to Italian. I remember arguing with the author about her use of periods in quotations. Each quotation would end with a period before the closing mark. I was puzzled. We don&amp;rsquo;t do that in Italy. More importantly, I read many English texts where the period was left outside the quotation itself. She insisted that her style was correct1.</description>
+    </item>
+    <item>
+      <title>Daft Punk&#39;s legendary Alive 2007 concert with remastered audio and 4K video</title>
+      <link>https://nicolaiarocci.com/daft-punks-legendary-alive-2007-concert-with-remastered-audio-and-4k-video/</link>
+      <pubDate>Wed, 08 Sep 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/daft-punks-legendary-alive-2007-concert-with-remastered-audio-and-4k-video/</guid>
+      <description>Someone did it &amp;ndash;the perfect Daft Punk tribute after their break up. Also ideal for those hard-coding sessions.
+For the first time in 14 years, experience Daft Punk like never before! The first professionally recorded live show; revived meticulously by remastering and restoring the audio and video. The Alive 2007 show is considered a staple in live performances featuring the signature &amp;lsquo;Pyramid&amp;rsquo; and groundbreaking visuals, which is now complemented by a fully remastered audio track which aims to maximize the experience.</description>
+    </item>
+    <item>
+      <title>Get the Fucking Vaccine Already, You Fucking Fucks</title>
+      <link>https://nicolaiarocci.com/get-the-fucking-vaccine-already-you-fucking-fucks/</link>
+      <pubDate>Sat, 04 Sep 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/get-the-fucking-vaccine-already-you-fucking-fucks/</guid>
+      <description>Wendy Molyneux, writing unabashedly for McSweeney&amp;rsquo;s, summarizes all I have to say on the COVID vaccine and never dared to say:
+You think vaccines don’t fucking work? Oh, fuck off into the trash, you attention-seeking fuckworm-faced shitbutt. This isn’t even a point worth discussing, you fuck-o-rama fuck-stival of ignorance. Vaccines got rid of smallpox and polio and all the other disgusting diseases that used to kill off little fucks like you en masse.</description>
+    </item>
+    <item>
+      <title>Performance improvements in .NET6</title>
+      <link>https://nicolaiarocci.com/performance-improvements-in-.net6/</link>
+      <pubDate>Fri, 03 Sep 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/performance-improvements-in-.net6/</guid>
+      <description>I&amp;rsquo;m pretty psyched about the upcoming .NET6 release. I&amp;rsquo;ve already touched on ASP.NET 6 Minimal APIs. Continuing on the long-established tradition, the team has also worked hard on the performance side of things. File IO, for example, is seeing impressive gains:
+For .NET 6, we have made FileStream much faster and more reliable, thanks to an almost entire re-write. For same cases, the async implementation is now a few times faster!</description>
+    </item>
+    <item>
+      <title>Travel is no cure for the mind</title>
+      <link>https://nicolaiarocci.com/travel-is-no-cure-for-the-mind/</link>
+      <pubDate>Mon, 23 Aug 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/travel-is-no-cure-for-the-mind/</guid>
+      <description>I stumbled upon a personal growth article this weekend, and that&amp;rsquo;s odd because I tend to stay clear from such things. Yet I found it quite relevant, so much that I thought I would share it (the delivery is also amusing, which is something new for this kind of content).
+It’s just another day… and you’re just doing what you need to do. You’re getting things done, and the day moves forward in this continuous sequence of checklists, actions, and respites.</description>
+    </item>
+    <item>
+      <title>Finland&#39;s intriguing take on the homelessness problem</title>
+      <link>https://nicolaiarocci.com/finlands-intriguing-take-on-the-homelessness-problem/</link>
+      <pubDate>Tue, 03 Aug 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/finlands-intriguing-take-on-the-homelessness-problem/</guid>
+      <description>In Finland, the number of homeless people has fallen sharply. The reason: The country applies the “Housing First” concept. Those affected by homelessness receive a small apartment and counselling – without any preconditions. 4 out of 5 people affected thus make their way back into a stable life. And: All this is cheaper than accepting homelessness.
+Finland&amp;rsquo;s take on the homelessness problem is remarkable and gives hope. I live in a small town where the problem is not as apparent as in, say, San Francisco.</description>
+    </item>
+    <item>
+      <title>On GitHub Copilot</title>
+      <link>https://nicolaiarocci.com/on-github-copilot/</link>
+      <pubDate>Sat, 24 Jul 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/on-github-copilot/</guid>
+      <description>Like everyone else on the planet, I&amp;rsquo;ve been following GitHub Copilot since its launch. It is an impressive achievement and a remarkable milestone for the deep learning industry, that&amp;rsquo;s for sure. We are obviously at the early stages in deep learning applied to software development, and it is somewhat unsettling to ponder what the future might hold in this field.
+Like many others, however, I worry about code quality issues and the risk of license infringements1.</description>
+    </item>
+    <item>
+      <title>The Internet is Rotting</title>
+      <link>https://nicolaiarocci.com/the-internet-is-rotting/</link>
+      <pubDate>Sat, 17 Jul 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-internet-is-rotting/</guid>
+      <description>Terrific piece by Jonathan Zittrain, on The Atlantic, on link rot and digital preservation. I love how well documented and informative it is. Yet, it remains perfectly approachable for both the non-knowledgeable reader and the technically savvy.
+Too much has been lost already. The glue that holds humanity’s knowledge together is coming undone.
+We need more content like this.
+Subscribe to the newsletter, the RSS feed, or follow @nicolaiarocci on Twitter</description>
+    </item>
+    <item>
+      <title>Proust&#39;s Madeleine Was Originally a Slice of Toast</title>
+      <link>https://nicolaiarocci.com/prousts-madeleine-was-originally-a-slice-of-toast/</link>
+      <pubDate>Thu, 15 Jul 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/prousts-madeleine-was-originally-a-slice-of-toast/</guid>
+      <description>A long-sought first draft of Marcel Proust&amp;rsquo;s &amp;lsquo;In Search of Lost Time&amp;rsquo; surfaced a few years ago. Its fascinating story and intriguing news are revealed in a Tablet article titled Proust&amp;rsquo;s Madeleine Was Originally a Slice Toast.
+Being the Tablet &amp;ldquo;a daily online magazine of Jewish news, ideas, and culture&amp;rdquo;, it makes sense that a good part of the article focuses on Proust&amp;rsquo;s ambivalence about his Jewishness. Still, there are many other interesting tidbits to be learned.</description>
+    </item>
+    <item>
+      <title>A Beginner&#39;s Guide to Miles Davis</title>
+      <link>https://nicolaiarocci.com/a-beginners-guide-to-miles-davis/</link>
+      <pubDate>Sun, 27 Jun 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/a-beginners-guide-to-miles-davis/</guid>
+      <description>Sam Enright assembled a friendly Beginner&amp;rsquo;s Guide to Miles Davis. If you&amp;rsquo;ve always been curious about jazz but never really managed to get into it, then this resource might serve as a good starting point. I cannot say I&amp;rsquo;m one hundred per cent aligned with his choices, but we&amp;rsquo;re close. One remarkable statement I concur with is this one:
+Jazz is so interesting to me because of its fusion of intricate underlying structure with improvisation and spontaneity.</description>
+    </item>
+    <item>
+      <title>Linus Torvalds addresses an anti-vaxxer</title>
+      <link>https://nicolaiarocci.com/linus-torvalds-addresses-an-anti-vaxxer/</link>
+      <pubDate>Mon, 14 Jun 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/linus-torvalds-addresses-an-anti-vaxxer/</guid>
+      <description>Linus Torvalds&amp;rsquo; reply to an anti-vaxxer on the Linux kernel list is a must-read. Pre-2018, Linus would have destroyed the poor chump. He&amp;rsquo;s discouraging further discussion (Kernel list is not the place for that) while providing crystal clear and detailed mRNA vaccine information, all without renouncing to an opening salvo of his good-ole, grumpy style.
+As John Gruber affirms, this is one rant we can all get behind.
+Subscribe to the newsletter, the RSS feed, or follow @nicolaiarocci on Twitter</description>
+    </item>
+    <item>
+      <title>Open Source: What Happens When the Free Lunch Ends?</title>
+      <link>https://nicolaiarocci.com/open-source-what-happens-when-the-free-lunch-ends/</link>
+      <pubDate>Fri, 04 Jun 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/open-source-what-happens-when-the-free-lunch-ends/</guid>
+      <description>The article I&amp;rsquo;m linking today is authored by Aaron Stannard and focuses on the drama currently going on in the .NET Open Source ecosystem. We&amp;rsquo;ve all been there. A dependency we took aeons ago goes unmaintained or changes its licensing model. Why does this happen? Because at some point, projects need to become sustainable or else they fail.
+[&amp;hellip;] it&amp;rsquo;s inexpensive for maintainers to support a small number of users with relatively similar demands - but once a project achieves critical mass and the demand on the maintainers exceeds their desire to supply, something will have to give.</description>
+    </item>
+    <item>
+      <title>Trade Wars 2002 and its connection to Eve Online</title>
+      <link>https://nicolaiarocci.com/trade-wars-2002-and-its-connection-to-eve-online/</link>
+      <pubDate>Sat, 29 May 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/trade-wars-2002-and-its-connection-to-eve-online/</guid>
+      <description>Trade Wars 2002 was a great 1991 online game I hosted on one of my BBSes back in the day. Not sure if it was Lorien or Phoenix BBS; it might have been the latter given the game&amp;rsquo;s release date. I totally forgot TW2002 until yesterday when I spotted this 1991: Trade Wars 2002 article on the 50 Years of Text Games newsletter.
+I humbly confess that, until yesterday, I never made the obvious connection between TW2002 and Eve Online.</description>
+    </item>
+    <item>
+      <title>On Programming and Writing</title>
+      <link>https://nicolaiarocci.com/on-programming-and-writing/</link>
+      <pubDate>Tue, 25 May 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/on-programming-and-writing/</guid>
+      <description>My brilliant friend Salvatore Sanfilippo (otherwise known as antirez of Redis fame) has an interesting write-up on his website. How similar is programming to prose writing? After getting his own feet wet with novel writing, he is convinced that the two activities share many common traits.
+One year ago I paused my programming life and started writing a novel, with the illusion that my new activity was deeply different than the previous one.</description>
+    </item>
+    <item>
+      <title>The Grim Secret of Nordic Happiness</title>
+      <link>https://nicolaiarocci.com/the-grim-secret-of-nordic-happiness/</link>
+      <pubDate>Wed, 12 May 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-grim-secret-of-nordic-happiness/</guid>
+      <description>For decades Scandinavian countries have been renowned for their educational systems, low levels of corruption, sustainable economy, social justice, overall quality of life. According to Jukka Savolainen on Slate, the reason why Finns have now been dominating the World Happiness Report four years in a row has little to do with these factors and more with their life expectations.
+Savolainen perspective is interesting because he is a Finn living in the US.</description>
+    </item>
+    <item>
+      <title>Earth Restored</title>
+      <link>https://nicolaiarocci.com/earth-restored/</link>
+      <pubDate>Sun, 25 Apr 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/earth-restored/</guid>
+      <description>Only 24 people have journeyed far enough to see the whole Earth against the black of space. The images they brought back changed our world. Here is a selection of the most beautiful photographs of Earth — iconic images and unknown gems — digitally restored to their full glory.
+Toby Ord&amp;rsquo;s recent Earth Restored project is a must-see.
+Subscribe to the newsletter, the RSS feed, or follow @nicolaiarocci on Twitter</description>
+    </item>
+    <item>
+      <title>Adding is favoured over subtracting in problem solving (and software systems)</title>
+      <link>https://nicolaiarocci.com/adding-is-favoured-over-subtracting-in-problem-solving-and-software-systems/</link>
+      <pubDate>Sun, 18 Apr 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/adding-is-favoured-over-subtracting-in-problem-solving-and-software-systems/</guid>
+      <description>Consider the 10x10 grids of green and white boxes below. How would you make them symmetrical? Most people would add green boxes to the emptier half of the grid rather than remove them from the fuller half. Even when the latter would have been more efficient.
+The case, along with a similar problem revolving around the stability of a peculiar lego structure, is reported by an intriguing Nature article on the topic of psychology and human behaviour.</description>
+    </item>
+    <item>
+      <title>SQLite is the only database you will ever need in most cases</title>
+      <link>https://nicolaiarocci.com/sqlite-is-the-only-database-you-will-ever-need-in-most-cases/</link>
+      <pubDate>Sat, 17 Apr 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/sqlite-is-the-only-database-you-will-ever-need-in-most-cases/</guid>
+      <description>The name SQLite is a nice name, but the &amp;ldquo;lite&amp;rdquo; part is misleading, it sounds like it is only useful for tiny things - which is very wrong. SQLite should be named AwesomeSQL, because that is what it is. SQLite is probably the only database you will ever need in most cases
+Yeah. This article resonates with me. SQLite is the de-facto standard engine for embedded systems. But it should also be the go-to database for all those websites and services that don&amp;rsquo;t need to scale to multiple machines.</description>
+    </item>
+    <item>
+      <title>The Real Book (of Jazz)</title>
+      <link>https://nicolaiarocci.com/the-real-book-of-jazz/</link>
+      <pubDate>Thu, 08 Apr 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-real-book-of-jazz/</guid>
+      <description>What a fascinating read. It sits right at the intersection of two of my (too many) vicious interests: Jazz music and books.
+Since the mid-1970s, almost every jazz musician has owned a copy of the same book. It has a peach-colored cover, a chunky, 1970s-style logo, and a black plastic binding. It’s delightfully homemade-looking—like it was printed by a bunch of teenagers at a Kinkos. And inside is the sheet music for hundreds of common jazz tunes—also known as jazz “standards”—all meticulously notated by hand.</description>
+    </item>
+    <item>
+      <title>Quicker window snapping on macOS</title>
+      <link>https://nicolaiarocci.com/quicker-window-snapping-on-macos/</link>
+      <pubDate>Tue, 06 Apr 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/quicker-window-snapping-on-macos/</guid>
+      <description>I never see my macOS desktop. It&amp;rsquo;s always cluttered with way too many open windows. When I spot those fantastic, tidy and clean Desktops on the internet, I envy their owners. I wonder if and how they manage to keep those desktops tidy like that the whole workday. It must feel so good.
+I try to keep my windows well arranged. The typical setup might be two windows, from two different apps, tiled side by side.</description>
+    </item>
+    <item>
+      <title>The Hitchhiker’s Guide to Online Anonymity</title>
+      <link>https://nicolaiarocci.com/the-hitchhikers-guide-to-online-anonymity/</link>
+      <pubDate>Thu, 01 Apr 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-hitchhikers-guide-to-online-anonymity/</guid>
+      <description>This is a maintained technical guide that aims to provide introduction to various online tracking techniques, online id verification techniques and guidance to creating and maintaining (truly) anonymous online identities including social media accounts safely and legally. No pre-requisites besides English reading are required.
+At a glance, I suspect most people will be tempted to dismiss The Hitchhiker&amp;rsquo;s Guide to Online Anonymity as borderline paranoia. But make no mistake, it is a great resource.</description>
+    </item>
+    <item>
+      <title>Get better at programming by learning how things work</title>
+      <link>https://nicolaiarocci.com/get-better-at-programming-by-learning-how-things-work/</link>
+      <pubDate>Sat, 27 Mar 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/get-better-at-programming-by-learning-how-things-work/</guid>
+      <description>When we talk about getting better at programming, we often talk about testing, writing reusable code, design patterns, and readability. All of those things are important. But in this blog post, I want to talk about a different way to get better at programming: learning how the systems you’re using work! This is the main way I approach getting better at programming.
+Once again, Julia Evans has great sensible advice up on her site.</description>
+    </item>
+    <item>
+      <title>Write libraries, not services? Not so fast</title>
+      <link>https://nicolaiarocci.com/write-libraries-not-services-not-so-fast/</link>
+      <pubDate>Thu, 25 Mar 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/write-libraries-not-services-not-so-fast/</guid>
+      <description>Write libraries instead of services is an interesting article I read a while ago. I cannot get it off my head. In an attempt to clear up my mind, I decided to sit down and write about it. I have been writing libraries for a good part of my life. Most of my earlier dev-work resides on thousands of computers in the form of libraries. More recently, I have been writing and deploying remote services.</description>
+    </item>
+    <item>
+      <title>My Pusher of Digital Memorabilia</title>
+      <link>https://nicolaiarocci.com/my-pusher-of-digital-memorabilia/</link>
+      <pubDate>Sun, 21 Mar 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/my-pusher-of-digital-memorabilia/</guid>
+      <description>If you are a grumpy old geek like me, you are probably a sucker for vintage computer games too. I don&amp;rsquo;t play games. Not anymore. I still enjoy reading about them, though. I guess it&amp;rsquo;s mostly nostalgia. I also believe that the mid-80s up to the mid-90s really was the golden age of computer games. In my book, innovation started with Infocom&amp;rsquo;s text adventures and soft-ended with Origin&amp;rsquo;s Ultima Online. After that, it&amp;rsquo;s been a constant evolution.</description>
+    </item>
+    <item>
+      <title>How to Write Good Software Documentation</title>
+      <link>https://nicolaiarocci.com/how-to-write-good-software-documentation/</link>
+      <pubDate>Tue, 16 Mar 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/how-to-write-good-software-documentation/</guid>
+      <description>There is a secret that needs to be understood in order to write good software documentation: there isn’t one thing called documentation, there are four. They are: tutorials, how-to guides, technical reference and explanation. They represent four different purposes or functions, and require four different approaches to their creation. Understanding the implications of this will help improve most documentation - often immensely.
+I dig Daniele Procida&amp;rsquo;s take on writing good software documentation.</description>
+    </item>
+    <item>
+      <title>How to Shrink a WSL2 Virtual Disk</title>
+      <link>https://nicolaiarocci.com/how-to-shrink-a-wsl2-virtual-disk/</link>
+      <pubDate>Fri, 12 Mar 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/how-to-shrink-a-wsl2-virtual-disk/</guid>
+      <description>I discovered you can use the &amp;ldquo;diskpart&amp;rdquo; tool to compact a VHDX. This allows you to shrink a WSL2 virtual disk file, reclaiming disk space. It appeared to work for me without any data corruption, taking the file size down from 100GB to 15GB. (source)
+I adore Parallels &amp;ldquo;reclaim disk space&amp;rdquo; feature. Just the other day, I got back 70GB off my Windows Guest in a breeze. I&amp;rsquo;m coming from VirtualBox, where reclaiming disk space is a significant pain.</description>
+    </item>
+    <item>
+      <title>You Have to Write As Though Your Parents Are Dead</title>
+      <link>https://nicolaiarocci.com/you-have-to-write-as-though-your-parents-are-dead/</link>
+      <pubDate>Fri, 12 Mar 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/you-have-to-write-as-though-your-parents-are-dead/</guid>
+      <description>The Literary Hub has a great short interview with Ian McEwan.
+What’s the best writing advice you’ve ever received? When I was living in London at the start of my career in the mid-1970s, I became friends with Philip Roth, who took an avuncular interest in my work. Where many others thought my writing was wild and weird, he thought I wasn’t being wild enough. He once came to my apartment and spread the typescript of my first novel (The Cement Garden) over the floor.</description>
+    </item>
+    <item>
+      <title>Cleaning Up Your Postgres Database</title>
+      <link>https://nicolaiarocci.com/cleaning-up-your-postgres-database/</link>
+      <pubDate>Tue, 09 Mar 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/cleaning-up-your-postgres-database/</guid>
+      <description>I am an application/backend developer who has to quibble with databases more often than desired. I can get my way around Postgres pretty well, but I can always use a hint or two, especially when it comes to fine-tuning and performance.
+I stumbled upon Cleaning Up Your Postgres Databases. It offers useful advice on spotting performance bottlenecks in your Postgres database. Take the cache and index hit queries, for example.</description>
+    </item>
+    <item>
+      <title>Semantic Versioning Will Not Save You</title>
+      <link>https://nicolaiarocci.com/semantic-versioning-will-not-save-you/</link>
+      <pubDate>Thu, 04 Mar 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/semantic-versioning-will-not-save-you/</guid>
+      <description>The always brilliant Hynek recently posted Semantic Versioning Will Not Save You. Primarily targeted at consumers of SemVer-versioned packages, it is full of insightful advice.
+From my perspective as an open-source maintainer, I can tell you that versioning is hard. Judging when a new release is going to break backward compatibility is not as simple as it might seem on the surface, and Hynek does a great job explaining why. Sometimes it is also hard for me to tell if a change in a codebase classifies as a new feature, small improvement, or fix—subtle differences.</description>
+    </item>
+    <item>
+      <title>Reverse engineering an obfuscated codebase and fixing it in the process</title>
+      <link>https://nicolaiarocci.com/reverse-engineering-an-obfuscated-codebase-and-fixing-it-in-the-process/</link>
+      <pubDate>Tue, 02 Mar 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/reverse-engineering-an-obfuscated-codebase-and-fixing-it-in-the-process/</guid>
+      <description>Today&amp;rsquo;s mandatory reading is How I cut GTA Online loading times by 70%.
+As someone who&amp;rsquo;s been fighting the protection/obfuscation cat &amp;amp; mouse game for twenty+ years, let me tell you one thing. The way this guy reverse-engineered parts of the GTA5 codebase and then proceeded to single-handly triage and fix a long-standing (7+ years) performance issue is simply mindblowing. All he had to work with were heavily obfuscated dlls. This also shows how we, the protectors, are always playing a losing game.</description>
+    </item>
+    <item>
+      <title>On the CEO and founder of Signal</title>
+      <link>https://nicolaiarocci.com/on-the-ceo-and-founder-of-signal/</link>
+      <pubDate>Mon, 01 Mar 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/on-the-ceo-and-founder-of-signal/</guid>
+      <description>Last weekend&amp;rsquo;s reading list also included Taking Back Our Privacy, yet another1 New Yorker piece but this time signed by Anna Wiener. This article is a long-read on Moxie Marlinspike, co-founder and CEO of Signal. Moxie is a childhood nickname. That alone signals (pun intended) an original personality. I mean, how many times have you heard of a CEO going by his childhood nickname?
+Indeed the personal story of Marlinspike, along with that of the ascent of Signal, is fascinating.</description>
+    </item>
+    <item>
+      <title>The Activists Who Embrace Nuclear Power</title>
+      <link>https://nicolaiarocci.com/the-activists-who-embrace-nuclear-power/</link>
+      <pubDate>Sun, 28 Feb 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-activists-who-embrace-nuclear-power/</guid>
+      <description>Today, my Sunday long-reading list included New Yorker&amp;rsquo;s The Activists Who Embrace Nuclear Power by Rebecca Tuhus-Dubrow. Can nuclear power possibly be a viable solution for climate change? Twenty or even ten years ago, my answer would have been a big fat No. Today? Not so sure anymore.
+Today, the looming disruptions of climate change have altered the risk calculus around nuclear energy. James Hansen, the NASA scientist credited with first bringing global warming to public attention, in 1988, has long advocated a vast expansion of nuclear power to replace fossil fuels.</description>
+    </item>
+    <item>
+      <title>Five Minutes to Make You Love Classical Music</title>
+      <link>https://nicolaiarocci.com/five-minutes-to-make-you-love-classical-music/</link>
+      <pubDate>Thu, 25 Feb 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/five-minutes-to-make-you-love-classical-music/</guid>
+      <description>I already mentioned what background music (or sounds) I like when I am coding. In that list, I included classical music. I know classical is not exactly a favorite. Not in my field, at least. I suspect the vast majority of people disregard it in advance, not really knowing what they&amp;rsquo;re missing out on, just because, well, you know, it&amp;rsquo;s dinosaurs stuff. If you are among them, you should reconsider and repent your sins.</description>
+    </item>
+    <item>
+      <title>The Lasting Lessons of John Conway&#39;s Game of Life</title>
+      <link>https://nicolaiarocci.com/the-lasting-lessons-of-john-conways-game-of-life/</link>
+      <pubDate>Sat, 20 Feb 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-lasting-lessons-of-john-conways-game-of-life/</guid>
+      <description>In March 1970, Dr. John Conway sent the &amp;ldquo;fatal&amp;rdquo; (as he later referred to it) letter to Martin Gardner. He was submitting ideas for Gardner&amp;rsquo;s Mathematical Games column in Scientific American.
+The New York Times features a good article on the fifty-year parable of The Game of Life. What&amp;rsquo;s appreciable, they asked some of Life&amp;rsquo;s most steadfast friends to reflect upon its influence and lessons over half a century. Among them, Brian Eno, who, being Brian Eno, has some smart things to say:</description>
+    </item>
+    <item>
+      <title>When Homebrew breaks your Python virtual environment</title>
+      <link>https://nicolaiarocci.com/when-homebrew-breaks-your-python-virtual-environment/</link>
+      <pubDate>Mon, 08 Feb 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/when-homebrew-breaks-your-python-virtual-environment/</guid>
+      <description>Ever had your old, trusty Python virtual environment fail on you? I sure did. Sometimes, when I activate or switch between virtual environments, I get the following error:
+$ workon eve dyld: Library not loaded: @executable_path/../.Python I never really took the time to look into it. When this happens, because I am in a rush (and because I am a lazy old fart), I shrug it off, recreate the virtual environment on the spot, and get back to work.</description>
+    </item>
+    <item>
+      <title>Strong opinions on software development</title>
+      <link>https://nicolaiarocci.com/strong-opinions-on-software-development/</link>
+      <pubDate>Wed, 03 Feb 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/strong-opinions-on-software-development/</guid>
+      <description>After six years in the field, Chris has shared his strong opinions on software development practices, languages, and methodologies. I like his attitude. Willingness to continuously put one&amp;rsquo;s personal views under scrutiny, eventually adapting or even changing them as needed, is not a common trait. Not in our field. While I generally agree with most of his opinions, I feel the urge to comment on a few of them.
+Typed languages are better when you&amp;rsquo;re working on a team of people with various experience levels</description>
+    </item>
+    <item>
+      <title>The Great Unbundling according to Benedict Evans</title>
+      <link>https://nicolaiarocci.com/the-great-unbundling-according-to-benedict-evans/</link>
+      <pubDate>Tue, 02 Feb 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-great-unbundling-according-to-benedict-evans/</guid>
+      <description>As a non-native English reader, I had to look up the true meaning of &amp;ldquo;Unbundling&amp;rdquo; as a neologism. According to Wikipedia
+Unbundling is a neologism to describe how the ubiquity of mobile devices, Internet connectivity, consumer web technologies, social media and information access in the 21st century is affecting older institutions (education, broadcasting, newspapers, games, shopping, etc.) by &amp;ldquo;break[ing] up the packages they once offered (possibly even for free), providing particular parts of them at a scale and cost unmatchable by the old order.</description>
+    </item>
+    <item>
+      <title>The unreasonable effectiveness of simple HTML</title>
+      <link>https://nicolaiarocci.com/the-unreasonable-effectiveness-of-simple-html/</link>
+      <pubDate>Thu, 28 Jan 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-unreasonable-effectiveness-of-simple-html/</guid>
+      <description>We&amp;rsquo;ve seen other articles pointing the finger at unnecessarily bloated websites. Terence Eden&amp;rsquo;s On the unreasonable effectiveness of simple HTML deserves mention, I think, for two reasons. First, the delivery is incredibly effective. Second, it is effective because of the storytelling.
+By enveloping the message into an original short, touching story, he achieves two goals. First, he captures the reader&amp;rsquo;s attention; second, he makes the experience memorable. Please, go and read it; I&amp;rsquo;ll wait here.</description>
+    </item>
+    <item>
+      <title>On the short, tormented life of Phil Katz</title>
+      <link>https://nicolaiarocci.com/on-the-short-tormented-life-of-phil-katz/</link>
+      <pubDate>Fri, 22 Jan 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/on-the-short-tormented-life-of-phil-katz/</guid>
+      <description>Bless the Internet Archive and its Wayback Machine. With it, we can go back in time and read The short, tormented life of computer genius Phil Katz, an unusually detailed and accurate article published in the April 14, 2000 issue of the Milwaukee Journal Sentinel.
+When he was found dead April 14, Phil Katz was slumped against a nightstand in a south side hotel, cradling an empty bottle of peppermint schnapps.</description>
+    </item>
+  </channel>
+</rss>

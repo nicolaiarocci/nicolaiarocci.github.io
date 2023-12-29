@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aaron swartz on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/aaron-swartz/</link>
+    <description>Recent content in aaron swartz on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/aaron-swartz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Internet’s Own Boy</title>
+      <link>https://nicolaiarocci.com/internet-own-boy-aaron-swartz/</link>
+      <pubDate>Wed, 14 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/internet-own-boy-aaron-swartz/</guid>
+      <description>I wasn’t aware that The Internet’s Own Boy: The Story of Aaron Swartz is now available with a Creative Common license, free for everyone to enjoy.</description>
+    </item>
+  </channel>
+</rss>

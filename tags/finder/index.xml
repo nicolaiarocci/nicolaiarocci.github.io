@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>finder on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/finder/</link>
+    <description>Recent content in finder on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 04 Apr 2022 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/finder/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to copy a file&#39;s path in macOS Finder</title>
+      <link>https://nicolaiarocci.com/how-to-copy-a-files-path-in-macos-finder/</link>
+      <pubDate>Mon, 04 Apr 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/how-to-copy-a-files-path-in-macos-finder/</guid>
+      <description>No matter how long I&amp;rsquo;ve possessed a Mac and how hard I try, there will always be a helpful keyboard shortcut hidden somewhere that I don&amp;rsquo;t know about.
+Today I learned about holding the Option key while clicking on the Copy command in Finder. It activates the super-useful (and super-secret) &amp;ldquo;copy as pathname&amp;rdquo; feature.
+I spotted this trick on Jamie Smith&amp;rsquo;s website, where other handy shortcuts (and the pretty gif above) reside.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tools on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/tools/</link>
+    <description>Recent content in tools on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 30 Jul 2021 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to remove a file from Git history</title>
+      <link>https://nicolaiarocci.com/how-to-remove-a-file-from-git-history/</link>
+      <pubDate>Fri, 30 Jul 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/how-to-remove-a-file-from-git-history/</guid>
+      <description>Today I learned how to remove a file from a git repository while also cleaning it from the history. When you delete it with git rm or git rm --cached, tracks remain in the commit history (the reflog). That might not be a big deal, but if the file has sensitive contents that you want to disappear from version control entirely, then you also want it cleaned from the reflog. That&amp;rsquo;s when git filter-branch comes to the rescue.</description>
+    </item>
+    <item>
+      <title>Git Worktree vs Git Savepoints</title>
+      <link>https://nicolaiarocci.com/git-worktree-vs-git-savepoints/</link>
+      <pubDate>Thu, 29 Apr 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/git-worktree-vs-git-savepoints/</guid>
+      <description>The official Git documentation presents the following example as a valid use-case for the worktree command:
+You are in the middle of a refactoring session and your boss comes in and demands that you fix something immediately. You might typically use git-stash1 to store your changes away temporarily. However, your working tree is in such a state of disarray (with new, moved, and removed files and other bits and pieces strewn around) that you don&amp;rsquo;t want to risk disturbing any of it.</description>
+    </item>
+    <item>
+      <title>Sublime Text 2 un anno dopo</title>
+      <link>https://nicolaiarocci.com/sublime-text-2-un-anno-dopo/</link>
+      <pubDate>Sat, 10 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/sublime-text-2-un-anno-dopo/</guid>
+      <description>&lt;p&gt;Proprio un anno fa &lt;!-- raw HTML omitted --&gt;presentavo Sublime Text 2&lt;!-- raw HTML omitted --&gt;. Dopo dodici mesi ho pensato di fare il punto della situazione. Si sono susseguiti una serie di aggiornamenti importanti, il prodotto è più maturo e devo dire che in questo periodo non mi ha affatto deluso: è ancora il mio editor di codice preferito. Nel frattempo &lt;!-- raw HTML omitted --&gt;Sublime Text 2&lt;!-- raw HTML omitted --&gt; è diventato &lt;em&gt;mainstream.&lt;/em&gt; Me ne sono reso conto in questi giorni, quando articoli, recensioni, trucchi e suggerimenti su Sublime Text 2 affioravano ripetutamente nel mio feed.&lt;/p&gt;
+&lt;p&gt;Vi propongo alcune delle caratteristiche che ne fanno, almeno per quanto riguarda il mio modo di lavorare, l’editor ideale.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Programmazione, SEO, Startup – Il Meglio della Settimana #4</title>
+      <link>https://nicolaiarocci.com/programmazione-seo-startup-il-meglio-della-settimana-4/</link>
+      <pubDate>Sun, 13 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/programmazione-seo-startup-il-meglio-della-settimana-4/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://stevecheney.posterous.com/how-facebook-is-killing-your-authenticity&#34;&gt;Facebook sta uccidendo la tua Autenticità&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;Steve Cheney propone una riflessione su come Facebook condizioni ormai _l&amp;amp;#8217;autenticità_ dei suoi utenti. Il timore che conoscenti e amici (alcuni non li incontriamo da anni, altri sono parenti stretti) vedano quel che facciamo online ci induce a comportarci in maniera diversa da quel che sarebbe il nostro istintivo sentire.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.distilled.co.uk/excel-for-seo/&#34;&gt;&lt;strong&gt;Tutorial: Microsoft Excel per il SEO&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;Eccellente tutorial su come usare Excel per analizzare al meglio la quantità di dati che raccogliamo durante le nostre indagini SEO.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;http://sixrevisions.com/web-development/decrease-webpage-load-times/&#34;&gt;&lt;strong&gt;10 consigli per velocizzare il caricamento delle pagine Web&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;La pazienza è la virtù dei forti, ma per molti è una pratica difficile da applicare. Ciò è vero soprattutto per chi visita siti web. Six Revision ci propone una decina di consigli per velocizzare le nostre pagine web.
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aspnetcore on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/aspnetcore/</link>
+    <description>Recent content in aspnetcore on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 26 Feb 2021 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/aspnetcore/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to increase upload file size in ASP.NET Core</title>
+      <link>https://nicolaiarocci.com/how-to-increase-upload-file-size-in-asp.net-core/</link>
+      <pubDate>Fri, 26 Feb 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/how-to-increase-upload-file-size-in-asp.net-core/</guid>
+      <description>Today I learned the hard way that since ASP.NET Core 2.0, the request body has acquired a default size limit at 30MB (~28.6 MiB).
+If the request body size exceeds the configured max request body size limit, the call to Request.Body.ReadAsync will throw an IOException. If this exception is uncaught, Kestrel will respond with a 413 Payload Too Large response and HttpSys will respond with a generic 500 Internal Server Error response (source).</description>
+    </item>
+  </channel>
+</rss>

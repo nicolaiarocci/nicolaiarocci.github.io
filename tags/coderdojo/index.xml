@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>coderdojo on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/coderdojo/</link>
+    <description>Recent content in coderdojo on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 04 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/coderdojo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CoderDojo interview at Channel 9</title>
+      <link>https://nicolaiarocci.com/my-coderdojo-interview-at-chennel-9-techeroes/</link>
+      <pubDate>Fri, 04 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/my-coderdojo-interview-at-chennel-9-techeroes/</guid>
+      <description>I was recently interviewed at Channel 9 TecHeroes. Topic was CoderDojo, the network of free computer programming clubs for young people. The show is run by Microsoft Italy, so the interview is in Italian. Enjoy the show.</description>
+    </item>
+    <item>
+      <title>CoderDojo Launch</title>
+      <link>https://nicolaiarocci.com/coderdojo-launch/</link>
+      <pubDate>Fri, 17 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/coderdojo-launch/</guid>
+      <description>Yesterday I attended the Digital Divide Workshop ran by Agenda Digitale Ravenna. With my friend Giulio Cesare we gave a quick introductory talk on the CoderDojo we are launching in our area. Want to help as a mentor? Get in touch!</description>
+    </item>
+    <item>
+      <title>Giving back to my community</title>
+      <link>https://nicolaiarocci.com/giving-back-to-my-community-with-coderdojo-ravenna/</link>
+      <pubDate>Sat, 11 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/giving-back-to-my-community-with-coderdojo-ravenna/</guid>
+      <description>A few days ago I tweeted:
+Now the project is out in the wild and I’m very excited about it. It’s all italian yes, but do know that CoderDojo is a global movement, and starting a kids coding club in your own town would probably be great idea.
+Come meet me next week. I will be giving a short talk about CoderDojo Ravenna and, most importantly, we’ll have a good pizza afterwards.</description>
+    </item>
+    <item>
+      <title>We Need Coding in Schools, but Where are the Teachers?</title>
+      <link>https://nicolaiarocci.com/we-need-coding-in-schools-but-where-are-the-teachers/</link>
+      <pubDate>Tue, 31 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/we-need-coding-in-schools-but-where-are-the-teachers/</guid>
+      <description>Maybe instead of Coder Dojos for kids, we should run them for their teachers.
+We must build a team of dedicated teachers to support school coding programs. We do not rely on our students to absorb math from textbooks, online videos or math clubs; similarly, we cannot depend on every student to learn to code on their own, by using online tutorials and afterschool clubs. If coding becomes as fundamental as reading and writing, we need to create a system where everyone has an opportunity to learn, not just the few who probably would have learned it on their own anyway.</description>
+    </item>
+  </channel>
+</rss>

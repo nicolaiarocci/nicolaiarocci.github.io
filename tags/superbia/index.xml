@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>superbia on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/superbia/</link>
+    <description>Recent content in superbia on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 27 May 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/superbia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dei vizi del programmatore #1: La Superbia</title>
+      <link>https://nicolaiarocci.com/dei-vizi-del-programmatore-1-la-superbia/</link>
+      <pubDate>Fri, 27 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/dei-vizi-del-programmatore-1-la-superbia/</guid>
+      <description>&lt;h2 id=&#34;il-mio-codice-è-perfetto-quello-degli-altri-è-spazzatura&#34;&gt;Il mio codice è perfetto. Quello degli altri è spazzatura&lt;/h2&gt;
+&lt;p&gt;La superbia è un atteggiamento molto frequente tra noi programmatori. Io stesso sono – ahimé – un superbo seriale. Non importa quanto ci impegniamo. Ci saranno sempre colleghi che giudicheranno male il nostro codice, che penseranno di poter far meglio.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>watermark.js on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/watermark.js/</link>
+    <description>Recent content in watermark.js on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 05 Apr 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/watermark.js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inserire un marchio nelle immagini via JavaScript</title>
+      <link>https://nicolaiarocci.com/il-marchio-nelle-immagini-via-javascript/</link>
+      <pubDate>Tue, 05 Apr 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-marchio-nelle-immagini-via-javascript/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.patrick-wied.at/static/watermarkjs/&#34;&gt;Watermark.js&lt;/a&gt;&lt;/strong&gt; è una libreria JavaScript che aggiunge un &lt;!-- raw HTML omitted --&gt;watermark&lt;!-- raw HTML omitted --&gt; (letteralmente &lt;em&gt;filigrana&lt;/em&gt;, ovvero un logo o un marchio) alle immagini presenti sulle pagine web. Contrassegnare le immagini in modo permanente è utile a proteggerle dalla copia oppure, al contrario, ad approfittare della loro riproduzione per diffondere un marchio (&lt;a href=&#34;http://en.wikipedia.org/wiki/Brand_awareness&#34;&gt;brand awareness&lt;/a&gt;). Usare watermark.js è semplice, vediamo quanto.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;come-usare-watermarkjs&#34;&gt;Come usare watermark.js&lt;/h2&gt;
+&lt;p&gt;La libreria innesta il marchio nelle immagini marcate con la classe CSS “watermark”. Se il nome della classe non piace è possibile cambiarlo. Se il nostro watermark è in formato JPG la libreria aggiunge per noi un livello di trasparenza, altrimenti possiamo fornirle i più idonei formati PNG e GIF.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

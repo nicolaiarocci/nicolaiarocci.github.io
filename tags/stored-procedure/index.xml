@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stored procedure on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/stored-procedure/</link>
+    <description>Recent content in stored procedure on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 08 Mar 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/stored-procedure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Come rimuovere tutte le Stored Procedure da un database SQL Server?</title>
+      <link>https://nicolaiarocci.com/come-rimuovere-tutte-le-stored-procedure-da-un-database-sql/</link>
+      <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/come-rimuovere-tutte-le-stored-procedure-da-un-database-sql/</guid>
+      <description>&lt;p&gt;In questi giorni sto lavorando sui database &lt;strong&gt;SQL Server&lt;/strong&gt; che fanno da back-end ai nostri web services e ne approfitto per fare un po’ manutenzione straordinaria. __Stamattina mi è capitato di dover cancellare tutte le &lt;strong&gt;Stored Procedure&lt;/strong&gt; di un database e ho &lt;a href=&#34;http://www.devasp.net/net/articles/display/309.html&#34;&gt;scovato&lt;/a&gt; questa routine che mi ha fatto risparmiare un mucchio di tempo&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

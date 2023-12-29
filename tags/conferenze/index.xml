@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>conferenze on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/conferenze/</link>
+    <description>Recent content in conferenze on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 09 May 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/conferenze/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WhyMCA Mobile Developer Conference 2012</title>
+      <link>https://nicolaiarocci.com/whymca-mobile-developer-conference-2012/</link>
+      <pubDate>Wed, 09 May 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/whymca-mobile-developer-conference-2012/</guid>
+      <description>Parteciperò alla WhyMCA Mobile Developer Conference a Bologna il 24 e 25 maggio. Il programma mi sembra piuttosto interessante. Se pensate di venire fatemelo sapere che vediamo di incotrarci.</description>
+    </item>
+    <item>
+      <title>La mia fuga dalla Comfort Zone al KnowCamp 2011</title>
+      <link>https://nicolaiarocci.com/la-mia-fuga-dalla-comfort-zone-al-knowcamp-2011/</link>
+      <pubDate>Tue, 04 Oct 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/la-mia-fuga-dalla-comfort-zone-al-knowcamp-2011/</guid>
+      <description>Sabato 8 ottobre sarò a Modena per il KnowCamp 2011. Per la prima volta mi cimenterò in un Ignite, ovvero una forma di intervento-lampo-acrobatico della durata di cinque minuti durante i quali verranno passate venti slide a intervalli regolari (una ogni quindici secondi).
+Il titolo provvisiorio del mio intervento è Fuga dalla Comfort Zone. Ammetto di essere piuttosto nervoso. Il rischio di impappinarmi nel corso di quest’esibizione-rap è notevole, e tuttavia sono curioso di vedere come andrà a finire.</description>
+    </item>
+    <item>
+      <title>Quattro passi tra le nuvole al Romagna Camp 2011</title>
+      <link>https://nicolaiarocci.com/quattro-passi-tra-le-nuvole-al-romagna-camp-2011/</link>
+      <pubDate>Mon, 22 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/quattro-passi-tra-le-nuvole-al-romagna-camp-2011/</guid>
+      <description>“Quattro passi tra le nuvole (e non scordate il paracadute)” è il titolo del mio intervento al Romagna Camp 2011. Racconterò la mia esperienza nella fornitura di servizi cloud alle small business italiane. In questi giorni di ferie ho cominciato buttare giù qualche appunto e abbozzare le prime slide. La sfida è condensare tutto quel che c’è da dire in quindici minuti.
+Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 settembre) sono in calendario una cena, 16 speech e 7 ignite.</description>
+    </item>
+  </channel>
+</rss>

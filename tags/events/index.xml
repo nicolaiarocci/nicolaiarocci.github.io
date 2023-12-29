@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>events on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/events/</link>
+    <description>Recent content in events on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 31 Jul 2023 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Events 0.5 released</title>
+      <link>https://nicolaiarocci.com/events-0.5-released/</link>
+      <pubDate>Mon, 31 Jul 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/events-0.5-released/</guid>
+      <description>Today I released Events 0.5. Thanks to Cailean Parker&amp;rsquo;s contribution, we added support for the __getitem__ dunder (aka Python magic method.) This allows the calling of events from strings, thus enabling dynamic events. For instance:
+events = Events(tuple(f&amp;#34;on_{i}&amp;#34; for i in range(5))) for i in range(5): events[f&amp;#34;on_{i}&amp;#34;](i) The C# language provides a handy way to declare, subscribe to and fire events. In C#, an event is a &amp;ldquo;slot&amp;rdquo; to which callback functions (event handlers) can be attached - a process referred to as subscribing to an event.</description>
+    </item>
+    <item>
+      <title>In-person vs. online events</title>
+      <link>https://nicolaiarocci.com/in-person-vs.-online-events/</link>
+      <pubDate>Sun, 01 May 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/in-person-vs.-online-events/</guid>
+      <description>Last week, thanks to Andrea Verlicchi1&amp;rsquo;s effort, we ran the first in-person DevRomagna event since 2019. We did some meetups during the pandemic, some in 2020 and a couple in 2022, but they were all online.
+In theory, online meetups and DevRomagna are a match made in heaven. The Romagna region consists of small same-size towns scattered in the vast countryside. To accommodate this, and in an attempt to encourage varied participation, DevRomagna has always been a roaming meetup.</description>
+    </item>
+    <item>
+      <title>Real Life .NET Cross Platform</title>
+      <link>https://nicolaiarocci.com/real-life-net-cross-platform/</link>
+      <pubDate>Fri, 11 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/real-life-net-cross-platform/</guid>
+      <description>There is a new episode up at Channel9 TecHeroes. It is called Real Life .NET Cross Platform and it is about developing production-ready, cross-platform applications with today’s .NET. In the interview we talk about SimpleCache, an asynchronous, permanent and cross-platform key-value object cache powered by SQLite3. The project is still a work in progress so there is no NuGet package available yet, but it is quite usable already. The talk slides are also available.</description>
+    </item>
+    <item>
+      <title>CoderDojo interview at Channel 9</title>
+      <link>https://nicolaiarocci.com/my-coderdojo-interview-at-chennel-9-techeroes/</link>
+      <pubDate>Fri, 04 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/my-coderdojo-interview-at-chennel-9-techeroes/</guid>
+      <description>I was recently interviewed at Channel 9 TecHeroes. Topic was CoderDojo, the network of free computer programming clubs for young people. The show is run by Microsoft Italy, so the interview is in Italian. Enjoy the show.</description>
+    </item>
+    <item>
+      <title>MongoDB Masters Summit 2013</title>
+      <link>https://nicolaiarocci.com/mongodb-masters-summit-2013/</link>
+      <pubDate>Tue, 25 Jun 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/mongodb-masters-summit-2013/</guid>
+      <description>I’m just back from the MongoDB Masters Summit hosted by 10Gen in New York City. In just a couple days I was given the opportunity to meet and share knowledge (and fun!) with amazingly talented minds coming from all over the world. I’m back with literally dozen new ideas opportunities and concepts, on which I’ll need to elaborate a little bit. While I cannot comment on the many things the smart minds at 10Gen are working on, rest assured that the future of MongoDB is looking great and brighter than ever.</description>
+    </item>
+  </channel>
+</rss>

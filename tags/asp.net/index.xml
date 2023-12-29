@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>asp.net on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/asp.net/</link>
+    <description>Recent content in asp.net on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 27 Apr 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/asp.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Avviare un Download con richiesta di nome file da una pagina ASP.NET</title>
+      <link>https://nicolaiarocci.com/avviare-un-download-con-richiesta-di-nome-file-da-una-pagina-asp-net/</link>
+      <pubDate>Wed, 27 Apr 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/avviare-un-download-con-richiesta-di-nome-file-da-una-pagina-asp-net/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Normalmente quando un visitatore clicca su un link che punta a un file, quest’ultimo viene mostrato nel browser e non viene avviato alcun download. Questo succede perché il browser determina il tipo di contenuto in base alla estensione del file. Quando clicchiamo su un file con estensione jpg il browser sa che si tratta di una immagine e la mostra direttamente. Lo stesso avviene per i file pdf e così via.&lt;/p&gt;
+&lt;p&gt;Può capitare che questo comportamento non sia quello desiderato. Oggi &lt;!-- raw HTML omitted --&gt;al lavoro&lt;!-- raw HTML omitted --&gt; ho implementato una funzionalità interessante: il download della versione PDF di una pagina web. Il pdf viene costruito dinamicamente nel momento stesso in cui il visitatore clicca un link. Questo accorgimento libera il webmaster dalla tediosa (e facilmente dimenticabile) necessità di rigenerare il pdf ad ogni minimo ritocco della pagina.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Volevo che cliccando sul link si avviasse automaticamente il download, così da ‘costringere’ l’utente a interagire col PDF in un secondo tempo rispetto all’esperienza di navigazione. Se scarichi un PDF è per stamparlo o consultarlo con calma o magari passarlo a un collega, no?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Il Formato Valuta in ASP.NET quando il sito è all’estero</title>
+      <link>https://nicolaiarocci.com/il-formato-valuta-in-asp-net-quando-il-sito-e-allestero/</link>
+      <pubDate>Mon, 28 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-formato-valuta-in-asp-net-quando-il-sito-e-allestero/</guid>
+      <description>&lt;p&gt;Una settimana fa abbiamo lanciato il nuovo sito del &lt;a href=&#34;http://gestionaleamica.com&#34; title=&#34;Gestionale Amica&#34;&gt;Gestionale Amica&lt;/a&gt;, il nostro prodotto di punta. E’ scritto in &lt;strong&gt;ASP.NET&lt;/strong&gt; ed è dotato di un sistema di e-commerce sviluppato su misura. Carrello della spesa, checkout, pagamenti con carta di credito, tracciamento ordini, profilo utenti… un lavoro del quale sono piuttosto orgoglioso. Man mano che il giorno del debutto si avvicinava cresceva l’eccitazione; ero impaziente di vederlo funzionare questo gioiellino. Finalmente il 21 marzo è arrivato e con la primavera è sbocciato il nuovo sito. Come è andata? Bene! A parte un piccolo dettaglio. Il mio gioiellino vendeva in Dollari ($) anziché in Euro (€)&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>Il meglio di Stack Overflow in una collana di eBook gratuiti</title>
+      <link>https://nicolaiarocci.com/il-meglio-di-stack-overflow-una-collana-di-ebook-gratuiti/</link>
+      <pubDate>Wed, 02 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-meglio-di-stack-overflow-una-collana-di-ebook-gratuiti/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://stackoverflow.com/&#34;&gt;&lt;strong&gt;Stack Overflow&lt;/strong&gt;&lt;/a&gt; è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera &lt;strong&gt;minera di informazioni&lt;/strong&gt; &lt;strong&gt;preziose&lt;/strong&gt; e  meriterebbe maggiore attenzione…&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Il futuro del codice sorgente è online?</title>
+      <link>https://nicolaiarocci.com/il-futuro-del-codici-sorgente-e-online/</link>
+      <pubDate>Sat, 29 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-futuro-del-codici-sorgente-e-online/</guid>
+      <description>&lt;p&gt;Gli ambienti di sviluppo (IDE) online sono una delle opportunità più originali che il &lt;a href=&#34;http://it.wikipedia.org/wiki/Cloud_computing&#34;&gt;cloud computing&lt;/a&gt; mette a disposizione dei programmatori web. In generale si tratta di editor di codice, debugger e strumenti per il controllo di versione da usare nel browser web senza bisogno di installare alcun software sul client. Per il momento le soluzioni disponibili offrono funzionalità limitate che tuttavia lasciano intravedere le possibilità che questi strumenti metteranno a nostra disposizione.&lt;/p&gt;
+&lt;h2 id=&#34;il-progetto-orion&#34;&gt;Il Progetto Orion&lt;/h2&gt;
+&lt;p&gt;Semplici editor di codice sorgente sono disponibili online già da tempo, ma progetti come &lt;strong&gt;Orion&lt;/strong&gt; portano il concetto di programmazione online a un livello superiore. &lt;a href=&#34;http://dev.eclipse.org/blogs/mike/2011/01/11/introducing-orion/&#34;&gt;Annunciato pochi giorni fa&lt;/a&gt; dal team di sviluppo di &lt;strong&gt;Eclipse&lt;/strong&gt;, una IDE Open Source molto diffusa e apprezzata, il progetto Orion è qualcosa di nuovo:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Come accorciare links e URL usando le API di Bit.ly via ASP.NET</title>
+      <link>https://nicolaiarocci.com/accorciare-url-usando-bit-ly-via-asp-net/</link>
+      <pubDate>Mon, 29 Nov 2010 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/accorciare-url-usando-bit-ly-via-asp-net/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Una delle applicazioni su cui sto lavorando in questo periodo manda decine di emails al giorno, ognuna contenente almeno un paio di links (URL). Questi link sono molto lunghi perché oltre all’indirizzo della pagina da aprire contengono una o più &lt;a href=&#34;http://en.wikipedia.org/wiki/Query_string&#34;&gt;query strings&lt;/a&gt;. In generale, per tante buone ragioni, le URL lunghe non sono mai una buona idea; ancor meno lo sono se  devono comparire in un messaggio email. Gli algoritmi di &lt;a href=&#34;http://en.wikipedia.org/wiki/Word_wrap&#34;&gt;word wrapping&lt;/a&gt; dei client di posta elettronica vanno in crisi quando sono costretti a inserire un ritorno di carrello nel bel mezzo della URL. Come biasimarli?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Una ottima guida di riferimento per lo sviluppatore ASP.NET</title>
+      <link>https://nicolaiarocci.com/guida-di-riferimento-per-asp-net/</link>
+      <pubDate>Tue, 26 Oct 2010 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/guida-di-riferimento-per-asp-net/</guid>
+      <description>La ASP.NET Developer Guidance Map è una eccellente risorsa sia per il programmatore alle prime armi che per il veterano. Fornisce una ottima selezione di risorse web catalogate nelle seguenti categorie: Primi Passi, Architettura e Design, Codice di Esempio, Come Fare, Filmati, Addestramento.
+Peccato sia disponibile solo in formato PDF, qualcuno dovrebbe approntare una pagina wiki o qualcosa di simile che riproduca questi contenuti.</description>
+    </item>
+  </channel>
+</rss>

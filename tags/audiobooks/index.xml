@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>audiobooks on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/audiobooks/</link>
+    <description>Recent content in audiobooks on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 Sep 2022 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/audiobooks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book Review: The Count of Monte Cristo</title>
+      <link>https://nicolaiarocci.com/book-review-the-count-of-monte-cristo/</link>
+      <pubDate>Fri, 16 Sep 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/book-review-the-count-of-monte-cristo/</guid>
+      <description>In my early morning stroll, I sometimes listen to audiobooks. This was the case with The Count of Monte Cristo. Rai Radio 3, the third channel of the national broadcasting service, has been airing Ad Alta Voce (Aloud) for many years. In the program, top-tier actors read old and new literary classics. The quality of these productions is astounding. Audio editions are often edited, which was the case with The Count, as the unabridged edition surpasses the 1200-page count (a little-known fact is that most printed editions are also edited for brevity).</description>
+    </item>
+  </channel>
+</rss>

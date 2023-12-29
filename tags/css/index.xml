@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>css on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/css/</link>
+    <description>Recent content in css on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 04 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web Standards Killed the HTML Star</title>
+      <link>https://nicolaiarocci.com/web-standards-killed-the-html-star/</link>
+      <pubDate>Sat, 04 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/web-standards-killed-the-html-star/</guid>
+      <description>What we may not have realized is that once the browsers don’t suck, being an HTML and CSS “guru” isn’t really a very marketable skillset. 80% of what made us useful was the way we knew all the quirks and intracries of the browsers. Guess what? Those are all gone. And if they’re not, they will be in the very near future. Then what?
+A lot of folks who came up from that time and headspace have diversified their skillsets since.</description>
+    </item>
+    <item>
+      <title>Come usare al meglio WebKit Inspector</title>
+      <link>https://nicolaiarocci.com/come-usare-al-meglio-webkit-inspector/</link>
+      <pubDate>Fri, 15 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/come-usare-al-meglio-webkit-inspector/</guid>
+      <description>Se vi occupate di frontend non perdetevi lo spettacolare articolo in cui Majd Taby ci spiega come usare al meglio il WebKit Inspector.
+Il panorama mobile è monopolizzato da WebKit e di conseguenza gran parte degli strumenti e dell’infrastruttura per lo sviluppo di applicazioni frontend mobile (e non solo, ndr) risiedono nel WebKit Inspector. Per questo ne analizzerò con cura gli strumenti e spiegherò come e quando usarli.
+Ci sono anche le slide.</description>
+    </item>
+    <item>
+      <title>Imparare HTML e CSS Online con Codecademy</title>
+      <link>https://nicolaiarocci.com/imparare-html-e-css-online-con-codecademy/</link>
+      <pubDate>Tue, 03 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/imparare-html-e-css-online-con-codecademy/</guid>
+      <description>Codecademy propone da ieri un corso gratuito e interattivo su HTML e CSS. Il corso, per principianti, si affianca a quello ormai collaudato (e recentemente ampliato) su JavaScript.
+Il meccanismo è quello della gamification, con tanto di punteggi e badge da conquistare man mano che si raggiungono obiettivi prefissati . Presto dovrebbe uscire anche un corso su Python.
+Compi i tuoi primi passi con HTML e CSS. Non è necessaria alcuna esperienza precedente — cominceremo dalle basi e in poco tempo ti ritroverai a lavorare alla tua homepage personale!</description>
+    </item>
+    <item>
+      <title>Evidenziare il codice sorgente via JavaScript e CSS con Rainbow</title>
+      <link>https://nicolaiarocci.com/evidenziare-il-codice-sorgente-via-javascript-e-css-con-rainbow/</link>
+      <pubDate>Mon, 02 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/evidenziare-il-codice-sorgente-via-javascript-e-css-con-rainbow/</guid>
+      <description>Rainbow è una libreria per l’evidenziazione del codice scritta in Javascript. E’ leggera (1.4kb), facile da usare, estensibile e completamente configurabile via CSS.</description>
+    </item>
+    <item>
+      <title>Print.css è il foglio di stile per il web designer attento all’ambiente</title>
+      <link>https://nicolaiarocci.com/print-css-e-il-foglio-di-stile-per-il-web-designer-attento-allambiente/</link>
+      <pubDate>Mon, 05 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/print-css-e-il-foglio-di-stile-per-il-web-designer-attento-allambiente/</guid>
+      <description>Carta e inchiostro costano eppure ci sono (ancora) molte ragioni per mandare in stampa una pagina web. David Bushell ha creato Print.css, un mini sito che incoraggia i web designer alla creazione di fogli di stile eco-compatibili che inviino alla stampante solo il necessario. In effetti la direttiva CSS @media permette di farlo con facilità.</description>
+    </item>
+    <item>
+      <title>HTML e CSS di base per i Web Designer del futuro</title>
+      <link>https://nicolaiarocci.com/html-e-css-di-base-per-i-web-designer-del-futuro/</link>
+      <pubDate>Tue, 23 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/html-e-css-di-base-per-i-web-designer-del-futuro/</guid>
+      <description>Don’t Fear the Internet è una ottima risorsa per Web Designer principianti. Attenzione ai dettagli, grande cura e ottimi contenuti sono il marchio distintivo di questo progetto di Jessica Hische e Russ Maschmeyer:
+Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? Hai un sito che mai messo insieme con Dreamweaver grazie a quell’UNICA lezione scolastica di web design? Il sito non ce l’hai nemmeno, perché sono due anni che aspetti che tuo cugino lo faccia per te?</description>
+    </item>
+    <item>
+      <title>Bootstrap è il CSS Framework di Twitter</title>
+      <link>https://nicolaiarocci.com/bootstrap-from-twitter-twitter-developers/</link>
+      <pubDate>Sun, 21 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/bootstrap-from-twitter-twitter-developers/</guid>
+      <description>Twitter rilascia Bootstrap, il CSS Framework creato inizialmente per uso interno e ora disponibile al pubblico.
+It is a collection of CSS and HTML conventions. It uses some of the latest browser techniques to provide you with stylish typography, forms, buttons, tables, grids, navigation and everything else you need in a super tiny (only 6k with gzip) resource.
+A prima vista sembra molto ben fatto. Per tutte le informazioni e il download visitate la bella home page del progetto.</description>
+    </item>
+    <item>
+      <title>Siti fluidi coi CSS Framework: Inuit.css</title>
+      <link>https://nicolaiarocci.com/siti-fluidi-coi-css-framework-inuit-css/</link>
+      <pubDate>Fri, 06 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/siti-fluidi-coi-css-framework-inuit-css/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Dopo l’articolo introduttivo sui &lt;a href=&#34;http://nicolaiarocci.com/costruire-siti-fluidi-coi-css-framework-tiny-fluid-grid/&#34;&gt;siti fluidi e i CSS Framework&lt;/a&gt; è giunta l’ora di dare una occhiata a un framework vero e proprio. Come dicevo prediligo strumenti agili, leggeri, specializzati e possibilmente fatti in casa. Se scelgo un framework quest’ultimo deve essere essenziale, leggero, flessibile. &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Inuit.css&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, ultimo nato nella numerosa e agguerrita famiglia dei Framework CSS, sembra nato apposta per fare di me un uomo felice.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Costruire siti fluidi coi CSS Framework: Tiny Fluid Grid</title>
+      <link>https://nicolaiarocci.com/costruire-siti-fluidi-coi-css-framework-tiny-fluid-grid/</link>
+      <pubDate>Fri, 29 Apr 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/costruire-siti-fluidi-coi-css-framework-tiny-fluid-grid/</guid>
+      <description>&lt;p&gt;Fino a non molti anni fa la gamma di risoluzioni video disponibili alla gran parte degli utenti era piuttosto limitata, tanto che nel disegnare siti web non ci si preoccupava granché di questo aspetto. La diffusione di massa di monitor wide, netbooks, tablet e smartphone ha cambiato rapidamente le carte in tavola. Per raggiungere con efficienza il loro pubblico i siti odierni devono essere capaci di adattare il loro aspetto alla risoluzione del dispositivo usato dal visitatore. Devono, in una parola, essere &lt;em&gt;fluidi&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;il-grid-design-e-l8217era-dei-css-framework&#34;&gt;Il Grid Design e l’era dei CSS Framework&lt;/h2&gt;
+&lt;p&gt;L’avvento dei CSS Framework si deve (principalmente) alla necessità di soddisfare l’esigenza di fluidità. Il capostipite, se non in ordine cronologico senz’altro per l’influenza che ha avuto, è il &lt;!-- raw HTML omitted --&gt;960 Grid System&lt;!-- raw HTML omitted --&gt;. Altri prodotti famosi, per citarne solo un paio, sono &lt;!-- raw HTML omitted --&gt;Blueprint&lt;!-- raw HTML omitted --&gt; e &lt;!-- raw HTML omitted --&gt;Emastic&lt;!-- raw HTML omitted --&gt;. Questi framework hanno in comune l’obiettivo di velocizzare creazione, gestione e manutenzione dei fogli di stile ma se andiamo al nocciolo della questione ci accorgiamo che tutti si basano sul concetto chiave di &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Grid Design&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eclipse Foundation lancia la beta pubblica di OrionHub</title>
+      <link>https://nicolaiarocci.com/eclipse-foundation-lancia-la-beta-pubblica-di-orionhub/</link>
+      <pubDate>Tue, 22 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/eclipse-foundation-lancia-la-beta-pubblica-di-orionhub/</guid>
+      <description>Eclipse Foundation ha avviato il beta testing di OrionHub, una implementazione hosted del suo Progetto Orion. Orion è una piattaforma di sviluppo aperta dedicata allo sviluppo per il web, dentro il web. La IDE Orion gira nel browser e fornisce un completo ambiente di produzione per progetti JavaScript, HTML e CSS. Il risultato è ottenuto grazie a un plugin lato client sviluppato in HTML5.
+Per un approfondimento dai una occhiata a Il futuro del codice sorgente è online?</description>
+    </item>
+    <item>
+      <title>Il meglio di Stack Overflow in una collana di eBook gratuiti</title>
+      <link>https://nicolaiarocci.com/il-meglio-di-stack-overflow-una-collana-di-ebook-gratuiti/</link>
+      <pubDate>Wed, 02 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-meglio-di-stack-overflow-una-collana-di-ebook-gratuiti/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://stackoverflow.com/&#34;&gt;&lt;strong&gt;Stack Overflow&lt;/strong&gt;&lt;/a&gt; è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera &lt;strong&gt;minera di informazioni&lt;/strong&gt; &lt;strong&gt;preziose&lt;/strong&gt; e  meriterebbe maggiore attenzione…&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eric Meyer aggiorna il suo famoso CSS Reset</title>
+      <link>https://nicolaiarocci.com/eric-meyer-aggiorna-il-suo-famoso-css-reset/</link>
+      <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/eric-meyer-aggiorna-il-suo-famoso-css-reset/</guid>
+      <description>Quattro anni fa Eric Meyer pubblicò la prima versione del suo CSS Reset. Concepito come un prototipo da condividere con altri sviluppatori dediti alla creazione di uno standard, il modulo riscosse subito grande successo diffondendosi rapidamente. In poche settimane venne adottato, spesso inconsapevolmente, da decine di migliaia di programmatori e designer web. Oggi gran parte dei siti web nel mondo includono nel loro codice almeno una traccia di quello che è universalmente noto come Eric Meyer Reset.</description>
+    </item>
+    <item>
+      <title>Adobe Flash è una Pessima Idea</title>
+      <link>https://nicolaiarocci.com/flash-adobe-e-una-pessima-idea/</link>
+      <pubDate>Thu, 06 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/flash-adobe-e-una-pessima-idea/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;E’ incredibile la quantità di siti che ancora oggi vengono sviluppati con Flash. Il fenomeno colpisce soprattutto i siti-vetrina: negozi, attività commerciali, ristoranti, artigiani. Basta farsi un giro sui siti di venditori di mobili, per esempio, per godersi il trionfo della ‘&lt;a href=&#34;http://en.wikipedia.org/wiki/Adobe_Flash&#34;&gt;multimedia platform&lt;/a&gt;‘ di Adobe. Bisogna prenderne atto: nel 2011 migliaia di aziende italiane di ogni dimensione affidano la loro identità web ad Adobe Flash. Consulenti e agenzie continuano a produrre siti con tecnologie assimilate anni fa. Reticenti all’aggiornamento delle proprie competenze, si accontentano del loro confortante orticello che, tutto sommato, assicura lo stipendio.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

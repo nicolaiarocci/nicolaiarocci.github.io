@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sun on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/sun/</link>
+    <description>Recent content in sun on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 05 Apr 2022 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/sun/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Sun in high resolution</title>
+      <link>https://nicolaiarocci.com/the-sun-in-high-resolution/</link>
+      <pubDate>Tue, 05 Apr 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-sun-in-high-resolution/</guid>
+      <description>The Sun as seen by Solar Orbiter in extreme ultraviolet light from a distance of roughly 75 million kilometres. The image is a mosaic of 25 individual images taken on 7 March by the high resolution telescope of the Extreme Ultraviolet Imager (EUI) instrument. Taken at a wavelength of 17 nanometers, in the extreme ultraviolet region of the electromagnetic spectrum, this image reveals the Sun’s upper atmosphere, the corona, which has a temperature of around a million degrees Celsius.</description>
+    </item>
+  </channel>
+</rss>

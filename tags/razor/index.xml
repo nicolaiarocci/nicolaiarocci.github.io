@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>razor on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/razor/</link>
+    <description>Recent content in razor on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 28 Mar 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/razor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ASP.NET MVC, Web API, ASP.NET Web Pages (Razor) sono Open Source</title>
+      <link>https://nicolaiarocci.com/asp-net-mvc-web-api-asp-net-web-pages-razor-sono-open-source/</link>
+      <pubDate>Wed, 28 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/asp-net-mvc-web-api-asp-net-web-pages-razor-sono-open-source/</guid>
+      <description>Oggi Microsoft annuncia una svolta che ha del clamoroso:
+Sono felice di annunciare che oggi rilasciamo il codice sorgente di ASP.NET Web API e ASP.NET Web Pages (Razor) sotto una licenza open source (Apache 2.0), e che continueremo a migliorare la trasparenza di tutti i tre progetti ospitando il loro codice sorgente su CodePlex (usando il nuovo supporto per Git annunciato la settimana scorsa).
+Ma quel che più conta, e che per un’azienda corporate ‘vecchia maniera’ come Microsoft denota davvero un’evoluzione (rivoluzione) culturale:</description>
+    </item>
+  </channel>
+</rss>

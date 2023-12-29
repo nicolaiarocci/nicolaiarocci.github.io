@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fiction on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/fiction/</link>
+    <description>Recent content in fiction on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 22 Sep 2021 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/fiction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book Review: Nausea</title>
+      <link>https://nicolaiarocci.com/book-review-nausea/</link>
+      <pubDate>Wed, 22 Sep 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/book-review-nausea/</guid>
+      <description>Antoine Roquentin, the protagonist of the novel, is a former adventurer who has been living for three years in Bouville, a fictional French seaport town, researching the life of an 18th-century diplomat. During his previous life around the world, Antoine has seen many places, met many interesting people, done exciting things. For the last three years, however, he&amp;rsquo;s been alone in Bouville. He has no friends and no desire to make some or meet anyone.</description>
+    </item>
+  </channel>
+</rss>

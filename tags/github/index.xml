@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/github/</link>
+    <description>Recent content in github on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 24 Jul 2021 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On GitHub Copilot</title>
+      <link>https://nicolaiarocci.com/on-github-copilot/</link>
+      <pubDate>Sat, 24 Jul 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/on-github-copilot/</guid>
+      <description>Like everyone else on the planet, I&amp;rsquo;ve been following GitHub Copilot since its launch. It is an impressive achievement and a remarkable milestone for the deep learning industry, that&amp;rsquo;s for sure. We are obviously at the early stages in deep learning applied to software development, and it is somewhat unsettling to ponder what the future might hold in this field.
+Like many others, however, I worry about code quality issues and the risk of license infringements1.</description>
+    </item>
+    <item>
+      <title>I am a Mars Helicopter Contributor</title>
+      <link>https://nicolaiarocci.com/i-am-a-mars-helicopter-contributor/</link>
+      <pubDate>Tue, 20 Apr 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/i-am-a-mars-helicopter-contributor/</guid>
+      <description>As I was browsing my RSS feed this morning, I came across a [new blog][1] from Nat Friedman over at GitHub. The piece was titled &amp;ldquo;Open source goes to Mars&amp;rdquo;, and, of course, it caught my interest. In the article, Nat announced a Mars 2020 Helicopter Mission badge added to GitHub profiles contributing to open-source projects and libraries used by Ingenuity. Some time ago, like many others, I was granted the Arctic Code Vault badge, so I am familiar with the concept.</description>
+    </item>
+    <item>
+      <title>Why doesn’t GitHub talk about their product roadmap?</title>
+      <link>https://nicolaiarocci.com/doesnt-github-talk-product-roadmap/</link>
+      <pubDate>Mon, 26 May 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/doesnt-github-talk-product-roadmap/</guid>
+      <description>Software development is mostly horseshit. We’re busy trying to build things, trying to estimate when things are done, trying to work with other humans to make sure you don’t break anything when you launch. All of these things can go horribly, horribly wrong without much malice or without much intention. It’s still very difficult.
+via Why doesn’t GitHub talk about their product roadmap?</description>
+    </item>
+    <item>
+      <title>Champion Pythonista</title>
+      <link>https://nicolaiarocci.com/champion-pythonista/</link>
+      <pubDate>Tue, 21 May 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/champion-pythonista/</guid>
+      <description>La Open Source Report Card è un’iniziativa divertente. E’ difficile resistere al richiamo dell’ego… soprattutto quand’è smisurato.
+Nicola is a champion Pythonista (one of the top 11% most active Python users) who loves pushing code. Nicola is a nine-to-fiver who seems to work best in the mid-afternoon.</description>
+    </item>
+    <item>
+      <title>Gestione degli Eventi in Python</title>
+      <link>https://nicolaiarocci.com/gestione-degli-eventi-in-python/</link>
+      <pubDate>Thu, 14 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/gestione-degli-eventi-in-python/</guid>
+      <description>&lt;p&gt;Gli eventi sono molto usati nelle GUI e nelle implementazioni del modello MVC (Model, View, Controller). Un’altra applicazione tipica è nei protocolli di comunicazione, laddove layer di basso livello devono informare quelli più alti quando ci sono dati in ingresso o in uscita.&lt;/p&gt;
+&lt;p&gt;Il linguaggio C# dispone da sempre di una soluzione elegante al problema della gestione degli eventi: il delegato EventHandler. &lt;a href=&#34;https://github.com/nicolaiarocci/events&#34; title=&#34;Events: Bringing the elegance of C# EventHandler to Python&#34;&gt;Events&lt;/a&gt; è una mia implementazione Python del EventHandler C#. In pratica si tratta di una classe molto leggera che incapsula il cuore del meccanismo di sottoscrizione e gestione degli eventi, e tenta di farlo in maniera “naturale”, sembrando parte integrante del linguaggio Python.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

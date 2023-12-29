@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/docker/</link>
+    <description>Recent content in docker on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 08 Sep 2022 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Docker Event Monitor</title>
+      <link>https://nicolaiarocci.com/the-docker-event-monitor/</link>
+      <pubDate>Thu, 08 Sep 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-docker-event-monitor/</guid>
+      <description>How to get alerted when a docker container goes down, or (many) other things happen to it</description>
+    </item>
+    <item>
+      <title>How to automatically pull and deploy updated Docker images</title>
+      <link>https://nicolaiarocci.com/how-to-automatically-pull-and-deploy-updated-docker-images/</link>
+      <pubDate>Sun, 21 Nov 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/how-to-automatically-pull-and-deploy-updated-docker-images/</guid>
+      <description>We want our test and production stacks to be automatically updated every time something new is pushed to the test or release branch. CI builds the docker image on successful test runs, then stores it in our private registry. But how do you automatically pull and deploy those updated images?
+I looked into the Watchtower project, which is interesting. You add Watchtower to the stack, and it will diligently check for new versions of the images used by the containers in the stack, pulling, building and deploying as needed while the stack is up and running.</description>
+    </item>
+  </channel>
+</rss>

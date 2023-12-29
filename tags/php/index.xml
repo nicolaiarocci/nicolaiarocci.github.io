@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>php on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/php/</link>
+    <description>Recent content in php on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 07 May 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conosco solo PHP. Come scrivo una applicazione web in Python?</title>
+      <link>https://nicolaiarocci.com/conosco-solo-php-come-scrivo-una-applicazione-web-in-python/</link>
+      <pubDate>Mon, 07 May 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/conosco-solo-php-come-scrivo-una-applicazione-web-in-python/</guid>
+      <description>Venite da PHP e siete incuriositi da Python? Vi consiglio la lettura di Python FAQ Webdev: i web framework Python dal punto di vista di un ex sviluppatore PHP.</description>
+    </item>
+    <item>
+      <title>Opportunità per esperti Joomla e PHP</title>
+      <link>https://nicolaiarocci.com/opportunita-per-esperti-joomla-e-php/</link>
+      <pubDate>Sun, 06 May 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/opportunita-per-esperti-joomla-e-php/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Ogni tanto ricevo proposte di lavoro che non sono in grado di soddisfare né direttamente (per mancanza di tempo o know-how) né indirettamente (passando nomi di colleghi e conoscenti). E’ questo il caso della richiesta di Michele, che vi propongo nel caso qualcuno di voi sia interessato. Sia chiaro che io non c’entro e non ci guadagno nulla; mi interessa solo favorire domanda e offerta e mi limito, col permesso dell’autore, a ripubblicare il suo annuncio. Se siete interessati contattate Michele direttamente:&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Infografica: PHP vs Ruby vs Python</title>
+      <link>https://nicolaiarocci.com/infografica-php-vs-ruby-vs-python/</link>
+      <pubDate>Wed, 21 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/infografica-php-vs-ruby-vs-python/</guid>
+      <description>&lt;p&gt;I linguaggi di programmazione ‘moderni’ a confronto: PHP vs Ruby vs Python. Lo scorso gennaio &lt;!-- raw HTML omitted --&gt;Udemy&lt;!-- raw HTML omitted --&gt; ha rilasciato una bella infografica che confronta i tre linguaggi sotto molti aspetti. Ne esce una fotografia secondo me interessante dell’attuale panorama dei linguaggi interpretati:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

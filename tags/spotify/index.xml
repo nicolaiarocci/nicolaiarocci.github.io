@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spotify on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/spotify/</link>
+    <description>Recent content in spotify on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 03 Dec 2022 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/spotify/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Music in 2022 according to Spotify</title>
+      <link>https://nicolaiarocci.com/my-music-in-2022-according-to-spotify/</link>
+      <pubDate>Sat, 03 Dec 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/my-music-in-2022-according-to-spotify/</guid>
+      <description>Wrapped by Spotify, the 2022 edition just landed in my mailbox. This year I listened to twenty-four different genres. My favorite was Indie Jazz, followed by Hip Hop, Jazz, Electronica and Rock. I am a little puzzled about that Hip Hop in second place. In total, I spent 14143 minutes listening to music, 80 percent more than other listeners in Italy did.
+My favorite track was Fear Of The Dawn by Jack White, followed by The Beginning by Native Soul, Sorcery by The Toxic Avenger, Spirals by Django Django, and Boy From Michigan by John Grant.</description>
+    </item>
+    <item>
+      <title>How I stopped Spotify from draining both my RAM and CPU</title>
+      <link>https://nicolaiarocci.com/how-i-stopped-spotify-from-draining-both-my-ram-and-cpu/</link>
+      <pubDate>Mon, 05 Sep 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/how-i-stopped-spotify-from-draining-both-my-ram-and-cpu/</guid>
+      <description>A few days ago, I was browsing my Twitter feed when a suggestion from my friend @flaper87 caught my attention:
+On my &amp;ldquo;comfortably old&amp;rdquo; MacBook Pro1, Spotify has been an absolute hog. The simple act of opening it will require three hundred MBs. That&amp;rsquo;s a remarkable amount of memory for staying idle and doing nothing useful. Let it play for a few hours, and have fun glancing at CPU and RAM usage ramping up like there&amp;rsquo;s no tomorrow.</description>
+    </item>
+  </channel>
+</rss>

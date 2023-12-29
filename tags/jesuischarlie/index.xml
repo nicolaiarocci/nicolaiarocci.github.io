@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jesuischarlie on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/jesuischarlie/</link>
+    <description>Recent content in jesuischarlie on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 12 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/jesuischarlie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to: Add custom JeSuisCharlie header to API responses</title>
+      <link>https://nicolaiarocci.com/how-to-add-a-je-suis-charlie-header-to-api-responses/</link>
+      <pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/how-to-add-a-je-suis-charlie-header-to-api-responses/</guid>
+      <description>A lot of servers have been including a JeSuisCharlie header with their responses. If you haven’t already, try with Charlie Hebdo site itself:
+$ curl -I charliehebdo.fr Date: Mon, 12 Jan 2015 15:56:13 GMT Content-Type: text/html; charset=iso-8859-1 Content-Length: 221 Connection: keep-alive Location: http://www.charliehebdo.fr/index.html Vary: Accept-Encoding X-Charlie-fr: Je suis toujours Charlie. X-Charlie-en: I am still Charlie. X-Charlie-es: Todavia soy Charlie. X-Charlie-de: Ich bin immer Charlie. X-Charlie-ro: Inca sunt Charlie. X-Charlie-cz: Jsem stale Charlie.</description>
+    </item>
+  </channel>
+</rss>

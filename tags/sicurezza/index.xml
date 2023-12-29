@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sicurezza on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/sicurezza/</link>
+    <description>Recent content in sicurezza on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 11 May 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/sicurezza/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sulla Usabilità delle Password</title>
+      <link>https://nicolaiarocci.com/sulla-usabilita-delle-password/</link>
+      <pubDate>Wed, 11 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/sulla-usabilita-delle-password/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;I consulenti della sicurezza e chi lavora nel mondo IT raccomandano continuamente di usare password complicate e difficili da ricordare. E’ un cattivo consiglio, dato che è perfettamente possibile creare password semplici, facili da ricordare e davvero sicure. In realtà le password semplici sono spesso molto più sicure di quelle complesse.&lt;/p&gt;
+&lt;p&gt;Addentriamoci dunque nel mondo delle password e scopriamo come crearne di pratiche e sicure.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

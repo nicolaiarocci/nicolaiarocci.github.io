@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>f# on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/f#/</link>
+    <description>Recent content in f# on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 20 Apr 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/f#/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>F# Vs C#</title>
+      <link>https://nicolaiarocci.com/f-vs-c/</link>
+      <pubDate>Mon, 20 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/f-vs-c/</guid>
+      <description>I have another guest post up at the official MSDN Team Blog. Titled F# Versus C#, it is an attempt at a gentle introduction to F# for the Italian C# developer.</description>
+    </item>
+  </channel>
+</rss>

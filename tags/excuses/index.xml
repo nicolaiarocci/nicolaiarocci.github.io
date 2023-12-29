@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>excuses on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/excuses/</link>
+    <description>Recent content in excuses on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 30 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/excuses/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Excuses for Lazy Coders</title>
+      <link>https://nicolaiarocci.com/excuses-for-lazy-coders/</link>
+      <pubDate>Tue, 30 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/excuses-for-lazy-coders/</guid>
+      <description>Did you check for a virus on your system?
+You must have the wrong version.
+It’s a third party application issue.
+That code was written by the last guy.
+Programming Excuses. We’ve all been there.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stampante on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/stampante/</link>
+    <description>Recent content in stampante on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 05 Sep 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/stampante/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Print.css è il foglio di stile per il web designer attento all’ambiente</title>
+      <link>https://nicolaiarocci.com/print-css-e-il-foglio-di-stile-per-il-web-designer-attento-allambiente/</link>
+      <pubDate>Mon, 05 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/print-css-e-il-foglio-di-stile-per-il-web-designer-attento-allambiente/</guid>
+      <description>Carta e inchiostro costano eppure ci sono (ancora) molte ragioni per mandare in stampa una pagina web. David Bushell ha creato Print.css, un mini sito che incoraggia i web designer alla creazione di fogli di stile eco-compatibili che inviino alla stampante solo il necessario. In effetti la direttiva CSS @media permette di farlo con facilità.</description>
+    </item>
+  </channel>
+</rss>

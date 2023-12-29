@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hacking on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/hacking/</link>
+    <description>Recent content in hacking on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 07 May 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hacking Italia</title>
+      <link>https://nicolaiarocci.com/hacking-italia/</link>
+      <pubDate>Tue, 07 May 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/hacking-italia/</guid>
+      <description>Aderisco con entusiasmo all’iniziativa di Salvatore.
+Hacking Italia e’ un sito di “social news”, molto simile ad Hacker News, il celebre collettore di news per hacker di YCombinator. A che serve un sito italiano, e in italiano se c’e’ gia’ molto di piu’ e di meglio nel panorama internazionale? A mettere assieme una massa critica di persone “giuste” in Italia.
+Vi consiglio di aggiungere HI ai vostri bookmark. Per quanto mi riguarda conto di essere molto attivo.</description>
+    </item>
+    <item>
+      <title>Sulla Usabilità delle Password</title>
+      <link>https://nicolaiarocci.com/sulla-usabilita-delle-password/</link>
+      <pubDate>Wed, 11 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/sulla-usabilita-delle-password/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;I consulenti della sicurezza e chi lavora nel mondo IT raccomandano continuamente di usare password complicate e difficili da ricordare. E’ un cattivo consiglio, dato che è perfettamente possibile creare password semplici, facili da ricordare e davvero sicure. In realtà le password semplici sono spesso molto più sicure di quelle complesse.&lt;/p&gt;
+&lt;p&gt;Addentriamoci dunque nel mondo delle password e scopriamo come crearne di pratiche e sicure.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

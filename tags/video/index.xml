@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>video on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/video/</link>
+    <description>Recent content in video on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Dec 2023 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Winterkeeper</title>
+      <link>https://nicolaiarocci.com/the-winterkeeper/</link>
+      <pubDate>Sun, 10 Dec 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-winterkeeper/</guid>
+      <description>The Guardian&amp;rsquo;s The Winterkeeper: A Lifetime Spent Protecting Yellowstone National Park is a beautiful short documentary I truly enjoyed watching.
+A little research on Steven Fuller, the protagonist, allowed me to dig out some promising reading material.
+Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+    </item>
+    <item>
+      <title>Intro to Large Language Models (video)</title>
+      <link>https://nicolaiarocci.com/intro-to-large-language-models-video/</link>
+      <pubDate>Fri, 24 Nov 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/intro-to-large-language-models-video/</guid>
+      <description>Andrej Karpathy has a very well-done Intro to Large Language Models video on YouTube. As a founding member and research scientist at OpenAI and with a two-year hiatus working on Tesla Autopilot, Karpathy is an authority in the field. He is also good at explaining hard things.
+As a Kahneman reader, I appreciated the Thinking Fast and Slow analogy proposed at about half-length in the video: &amp;ldquo;System 1&amp;rdquo; (fast automatic thinking, rapid decisions) is where we&amp;rsquo;re now; &amp;ldquo;System 2&amp;rdquo; (rational, slow thinking, complex decisions) is LLMs next goal.</description>
+    </item>
+    <item>
+      <title>Modulations - History of Electronic Music</title>
+      <link>https://nicolaiarocci.com/modulations-history-of-electronic-music/</link>
+      <pubDate>Tue, 08 Feb 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/modulations-history-of-electronic-music/</guid>
+      <description>I stumbled upon Modulations, a documentary on &amp;ldquo;the evolution of electronic music and its many genres. How the wide range of styles and scenes formed through experimentations on sound formation.&amp;rdquo; This short film (75 minutes) is packed with guest stars of all calibers1, some of them genuinely pivotal to the evolution of electronic music. Indeed, the uninitiated mind gets to know a lot of details and amenities on the first decade or so of electronic music.</description>
+    </item>
+    <item>
+      <title>Daft Punk&#39;s legendary Alive 2007 concert with remastered audio and 4K video</title>
+      <link>https://nicolaiarocci.com/daft-punks-legendary-alive-2007-concert-with-remastered-audio-and-4k-video/</link>
+      <pubDate>Wed, 08 Sep 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/daft-punks-legendary-alive-2007-concert-with-remastered-audio-and-4k-video/</guid>
+      <description>Someone did it &amp;ndash;the perfect Daft Punk tribute after their break up. Also ideal for those hard-coding sessions.
+For the first time in 14 years, experience Daft Punk like never before! The first professionally recorded live show; revived meticulously by remastering and restoring the audio and video. The Alive 2007 show is considered a staple in live performances featuring the signature &amp;lsquo;Pyramid&amp;rsquo; and groundbreaking visuals, which is now complemented by a fully remastered audio track which aims to maximize the experience.</description>
+    </item>
+  </channel>
+</rss>

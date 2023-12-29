@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mastodon on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/mastodon/</link>
+    <description>Recent content in mastodon on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 02 Dec 2022 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/mastodon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I am on Mastodon and I love it</title>
+      <link>https://nicolaiarocci.com/i-am-on-mastodon-and-i-love-it/</link>
+      <pubDate>Fri, 02 Dec 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/i-am-on-mastodon-and-i-love-it/</guid>
+      <description>Marcus Hutchins on Mastodon:
+What I missed about Mastodon was its very different culture. Ad-driven social media platforms are willing to tolerate monumental volumes of abusive users. They’ve discovered the same thing the Mainstream Media did: negative emotions grip people’s attention harder than positive ones. Hate and fear drives engagement, and engagement drives ad impressions.
+More here.
+I have been on Mastodon for a few weeks now, and wow, what a breath of fresh air.</description>
+    </item>
+  </channel>
+</rss>

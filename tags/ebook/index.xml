@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ebook on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/ebook/</link>
+    <description>Recent content in ebook on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 12 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/ebook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conquering the Command Line</title>
+      <link>https://nicolaiarocci.com/conquering-the-command-line/</link>
+      <pubDate>Sun, 12 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/conquering-the-command-line/</guid>
+      <description>This is a very good ebook, and is free for reading online.
+This book is for new developers, experienced developers, and everyone in between who wants to master Unix and Linux commands. This book was designed to showcase some of the most useful commands that a developer can know to help them in their daily tasks.
+via Softcover | Conquering the Command Line.</description>
+    </item>
+    <item>
+      <title>Aggiornato il Piccolo Libro di MongoDB</title>
+      <link>https://nicolaiarocci.com/aggiornato-il-piccolo-libro-di-mongodb/</link>
+      <pubDate>Sat, 24 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/aggiornato-il-piccolo-libro-di-mongodb/</guid>
+      <description>Finalmente ho trovato il tempo per aggiornare Il Piccolo Libro di MongoDB. Grazie ai contributi di Andrea Rabbaglietti e Michele Zonca sono stati corretti molti errori sparsi qui e là nel testo. Ho approfittato dell’occasione per ritoccare il formato grafico allineandolo alla versione più recente dell’edizione inglese. Se avete già scaricato il libro vi consiglio di rifarlo: la nuova edizione è decisamente più leggibile.</description>
+    </item>
+    <item>
+      <title>Pybooks – Le migliori risorse gratuite su Python</title>
+      <link>https://nicolaiarocci.com/pybooks-le-migliori-risorse-gratuite-su-python/</link>
+      <pubDate>Tue, 04 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/pybooks-le-migliori-risorse-gratuite-su-python/</guid>
+      <description>PyBooks è un’ottima selezione di risorse gratuite su Python e dintorni. I migliori libri gratuiti su Python sono inclusi, così come alcuni validi tutorial sulle librerie e i framework più diffusi. Il progetto è curato dalle stesse persone che stanno dietro JSBooks, la raccolta di libri JavaScript di cui ho scritto qualche giorno fa. Anche in questo caso è possibile contribuire attivamente segnalando nuove interessanti risorse.</description>
+    </item>
+    <item>
+      <title>JSBooks – Libri Open Source su JavaScript</title>
+      <link>https://nicolaiarocci.com/jsbooks-libri-open-source-su-javascript/</link>
+      <pubDate>Thu, 30 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/jsbooks-libri-open-source-su-javascript/</guid>
+      <description>JSBooks Free JavaScript Books è una valida selezione di risorse gratuite su JavaScript. Si tratta di libri e guide gratuite per programmatori di ogni livello, dal principiante al veterano. Il catalogo include titoli su jQuery, Backbone, design patterns, Node, CoffeeScript, qualcosa su HTML5 e addirittura un libro su MongoDB (si tratta una mia vecchia conoscenza). Alcuni suggerimenti sono davvero di ottima qualità. Il progetto è open source e chiunque può contribuire segnalando nuove interessanti risorse via GitHub.</description>
+    </item>
+    <item>
+      <title>Primo importante aggiornamento del Piccolo Libro di MongoDB</title>
+      <link>https://nicolaiarocci.com/primo-importante-aggiornamento-del-piccolo-libro-di-mongodb/</link>
+      <pubDate>Thu, 08 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/primo-importante-aggiornamento-del-piccolo-libro-di-mongodb/</guid>
+      <description>Se avete già scaricato il Piccolo Libro di MongoDB vi consiglio di aggiornarlo con la versione odierna. E’ stato aggiunto un capitolo (MapReduce) misteriosamente assente nella prima edizione. Grazie a Walter Tommasi per la preziosa segnalazione, e a Git per averne consentito il recupero in extremis.</description>
+    </item>
+    <item>
+      <title>E’ uscito il Piccolo Libro di MongoDB</title>
+      <link>https://nicolaiarocci.com/e-uscito-il-piccolo-libro-di-mongodb/</link>
+      <pubDate>Tue, 21 Feb 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/e-uscito-il-piccolo-libro-di-mongodb/</guid>
+      <description>Il Piccolo Libro di MongoDB, edizione italiana di The Little MongoDB Book, è finalmente disponibile online. C’è voluto un bel po’ di lavoro, e sono certo i primi lettori scoveranno una serie di errori raccapriccianti, ma vi invito comunque a leggerlo e farmi sapere cosa ne pensate.</description>
+    </item>
+    <item>
+      <title>Programmazione, SEO, Startups – Il Meglio della Settimana #1</title>
+      <link>https://nicolaiarocci.com/programmazione-seo-startups-il-meglio-della-settimana-1/</link>
+      <pubDate>Mon, 21 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/programmazione-seo-startups-il-meglio-della-settimana-1/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Vi propongo una scelta delle risorse più interessanti e curiose che ho scovato questa settimana in rete. Ce né per tutti i gusti: programmazione, SEO, Startups e curiosità. Andiamo a cominciare:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Il meglio di Stack Overflow in una collana di eBook gratuiti</title>
+      <link>https://nicolaiarocci.com/il-meglio-di-stack-overflow-una-collana-di-ebook-gratuiti/</link>
+      <pubDate>Wed, 02 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-meglio-di-stack-overflow-una-collana-di-ebook-gratuiti/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://stackoverflow.com/&#34;&gt;&lt;strong&gt;Stack Overflow&lt;/strong&gt;&lt;/a&gt; è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera &lt;strong&gt;minera di informazioni&lt;/strong&gt; &lt;strong&gt;preziose&lt;/strong&gt; e  meriterebbe maggiore attenzione…&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

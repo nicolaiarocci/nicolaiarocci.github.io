@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fattura elettronica on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/fattura-elettronica/</link>
+    <description>Recent content in fattura elettronica on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 27 Oct 2023 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/fattura-elettronica/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FatturaElettronica for .NET v3.4.11</title>
+      <link>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.11/</link>
+      <pubDate>Fri, 27 Oct 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.11/</guid>
+      <description>Fattura Elettronica for .NET v3.4.11 was released on NuGet today. The Fattura Elettronica project allows for the fixes a missing validation point. See the changelog for details (Italian). validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. This release
+Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+    </item>
+    <item>
+      <title>FatturaElettronica for .NET v3.4.10</title>
+      <link>https://nicolaiarocci.com/fattura-elettronica-for-dotnet-v3.4.10/</link>
+      <pubDate>Thu, 03 Aug 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/fattura-elettronica-for-dotnet-v3.4.10/</guid>
+      <description>Fattura Elettronica for .NET v3.4.10 was released on NuGet today. The Fattura Elettronica project allows for the validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. This release adds a missing validation point. See the changelog for details (Italian).
+Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+    </item>
+    <item>
+      <title>FatturaElettronica for .NET v3.4.8</title>
+      <link>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.8/</link>
+      <pubDate>Tue, 02 May 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.8/</guid>
+      <description>Fattura Elettronica for .NET v3.4.8 was released on NuGet today. The Fattura Elettronica project allows for the validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. As with the previous one, this release also addresses a small undocumented behavior in validating the invoice. See the relevant ticket for the details.
+Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+    </item>
+    <item>
+      <title>FatturaElettronica for .NET v3.4.7</title>
+      <link>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.7/</link>
+      <pubDate>Wed, 05 Apr 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.7/</guid>
+      <description>Fattura Elettronica for .NET v3.4.7 was released on NuGet today. The Fattura Elettronica project allows for the validation and de/serialization of electronic invoices adhering to the canon defined by the Italian Revenue Agency.
+This release refines how the one-cent tolerance is accounted for in validation checks of types 00421 and 00423. As is often the case, there are subtle differences between the theoretical implementation defined in the official specs and the actual validation implemented by the same Agency that released said specs.</description>
+    </item>
+    <item>
+      <title>FatturaElettronica v3.4 released</title>
+      <link>https://nicolaiarocci.com/fatturaelettronica-v3.4-released/</link>
+      <pubDate>Fri, 09 Sep 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/fatturaelettronica-v3.4-released/</guid>
+      <description>Today I released v3.4 of FatturaElettronica, a .NET open source project that allows validation and de/serialization of electronic invoices adhering to the standard defined by the Italian &amp;ldquo;Agenzia delle Entrate&amp;rdquo;. It&amp;rsquo;s doing very well for such a niche project, with downloads now well beyond the one hundred thousand mark.
+Be aware that this release anticipates support for v1.7.1 of the specification going into effect on October 1, 2022. For more information, see the appropriate ticket and the changelog.</description>
+    </item>
+    <item>
+      <title>FatturaElettronicaPA for .NET has been updated</title>
+      <link>https://nicolaiarocci.com/fatturaelettronicapa-for-net-has-been-updated/</link>
+      <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/fatturaelettronicapa-for-net-has-been-updated/</guid>
+      <description>FatturaElettronicaPA has just been updated to v0.1.4. With this release invoice bodies (FatturaElettronicaBody items) are also validated. As always, you can install the package directly from NuGet. See the original post for more info. Also don’t forget to check the related projects.
+Update: v0.1.6 has also been released.</description>
+    </item>
+    <item>
+      <title>Fattura Elettronica Open Source: Web Service PA</title>
+      <link>https://nicolaiarocci.com/fattura-elettronica-open-source-web-service-pa/</link>
+      <pubDate>Thu, 21 May 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/fattura-elettronica-open-source-web-service-pa/</guid>
+      <description>this post is about an all-Italian open source release, so it’s going to be in Italian
+Il progetto Fattura Elettronica Open Source si è arricchito di un nuovo strumento: Web Services. Il namespace FatturaElettronicaPA.WebServices raccoglie una serie di client C# che consentono di consultare i Web Service per la Fattura Elettronica messi a disposizione dalla Pubblica Amministrazione.
+Sono disegnati in maniera da esporre tutti la stessa interfaccia ed essere al tempo stesso semplici e leggeri.</description>
+    </item>
+    <item>
+      <title>Fattura Elettronica Open Source Update</title>
+      <link>https://nicolaiarocci.com/fattura-elettronica-open-source-update/</link>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/fattura-elettronica-open-source-update/</guid>
+      <description>Fattura Elettronica Open Source has been updated to v0.1.3 a few days ago and is available on NuGet. Sources are on GitHub. It fixes a deserialization issue with the ReadXML method.</description>
+    </item>
+    <item>
+      <title>Fattura Elettronica Open Source</title>
+      <link>https://nicolaiarocci.com/fattura-elettronica-open-source/</link>
+      <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/fattura-elettronica-open-source/</guid>
+      <description>&lt;p&gt;&lt;em&gt;this post is about an all-italian open source release, so it’s going to be in italian&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/FatturaElettronicaPA&#34;&gt;FatturaElettronicaPA&lt;/a&gt; è un nuovo progetto open source che ho rilasciato qualche giorno fa assieme alla &lt;a href=&#34;http://gestionaleamica.com&#34;&gt;mia azienda&lt;/a&gt;. Si tratta di una libreria C# che permette di leggere, scrivere e convalidare le Fatture Elettroniche aderenti alle specifiche del &lt;a href=&#34;http://www.fatturapa.gov.it/export/fatturazione/sdi/Specifiche_tecniche_del_formato_FatturaPA_V1.1.pdf&#34;&gt;sistema di interscambio&lt;/a&gt; della Pubblica Amministrazione.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

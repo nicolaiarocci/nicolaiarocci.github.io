@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/programming/</link>
+    <description>Recent content in programming on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 Nov 2023 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use XmlWriter along with StringWriter to properly serialize a UTF-8 string</title>
+      <link>https://nicolaiarocci.com/how-to-use-xmlwriter-along-with-stringwriter-to-properly-serialize-a-utf-8-string/</link>
+      <pubDate>Thu, 09 Nov 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/how-to-use-xmlwriter-along-with-stringwriter-to-properly-serialize-a-utf-8-string/</guid>
+      <description>Today, I (re)learned how to serialize an XML to a UTF-8 string. Like all the other times I did this, I got backstabbed by StringWriter, which only supports UTF-16. A simple code snippet like this:
+await using var sw = new StringWriter(); await using var w = XmlWriter.Create(sw, new() { Async = true }); ... await w.FlushAsync(); return sw.ToString(); Will emit this output:
+&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-16&amp;#34;?&amp;gt;&amp;lt;... There&amp;rsquo;s nothing inherently wrong with UTF-16, but XML is usually UTF-8, so one must do something about it.</description>
+    </item>
+    <item>
+      <title>LINQ DistinctBy on a property for .NET Standard and older .NET versions</title>
+      <link>https://nicolaiarocci.com/linq-distinctby-on-a-property-for-dotnet-standard-and-old-dotnet-versions/</link>
+      <pubDate>Wed, 25 Oct 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/linq-distinctby-on-a-property-for-dotnet-standard-and-old-dotnet-versions/</guid>
+      <description>Today I learned how to implement a custom Enumerable.DistinctBy extension method that returns distinct elements from a sequence according to a specified key selector function.
+.NET 6 and its successors have the method built in within LINQ, but I needed it in a .NET Standard 2.0 class library, so I was out of luck. My implementation is simple, not different from others I found online, and should also work fine with old .</description>
+    </item>
+    <item>
+      <title>I won the Microsoft MVP Award</title>
+      <link>https://nicolaiarocci.com/i-won-the-microsoft-mvp-award/</link>
+      <pubDate>Thu, 06 Jul 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/i-won-the-microsoft-mvp-award/</guid>
+      <description>I&amp;rsquo;ve just received news that I&amp;rsquo;ve been awarded the Microsoft Most Valuable Professional (MVP) Award in the Software Development category. It is an honor and a pleasure to be renewed for the eighth time. Being a Microsoft MVP means a lot to me; I remember how intimidated I felt when I met MVPs at various events and how totally out of reach the title seemed for someone like me. Besides my everyday work, I kept doing the things I loved:</description>
+    </item>
+    <item>
+      <title>Homebrew and docfx don&#39;t like each other too</title>
+      <link>https://nicolaiarocci.com/homebrew-and-docfx-dont-like-each-other-too/</link>
+      <pubDate>Tue, 20 Jun 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/homebrew-and-docfx-dont-like-each-other-too/</guid>
+      <description>Another day another Homebrew incompatibility emerges, this time with docfx, the technical documentation building tool of reference in .NET space. I&amp;rsquo;ve been using docfx for years to build the FatturaElettronica.NET website, and it&amp;rsquo;s always been working without a glitch. Lately, however, my builds have been failing with strange errors I was too lazy to diagnose until today when I decided to grasp the nettle and sort the whole thing out.</description>
+    </item>
+    <item>
+      <title>Homebrew and .NET 8 Preview don&#39;t like each other</title>
+      <link>https://nicolaiarocci.com/homebrew-and-dotnet-8-preview-dont-like-each-other/</link>
+      <pubDate>Tue, 13 Jun 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/homebrew-and-dotnet-8-preview-dont-like-each-other/</guid>
+      <description>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&amp;rsquo;m working on a C# 12 presentation for our local developer meetup, and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As version 7 was initially installed with Homebrew, I also wanted to install version 8 Preview with Homebrew, but that recipe was unavailable. Not perfectly happy with that, I fell back to the stand-alone installer, expecting problems.</description>
+    </item>
+    <item>
+      <title>Python `decimal.getcontext` does not work with bpython</title>
+      <link>https://nicolaiarocci.com/python-decimal.getcontext-does-not-work-with-bpython/</link>
+      <pubDate>Tue, 06 Jun 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/python-decimal.getcontext-does-not-work-with-bpython/</guid>
+      <description>I have been working on a side project for which I&amp;rsquo;m using bpython, a &amp;ldquo;fancy interface to the Python interpreter.&amp;rdquo; If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax highlighting, readline-like autocomplete, a &amp;ldquo;rewind&amp;rdquo; function to pop the last line of code from memory, auto-indentation and more.
+Anyway, today I found a bug in bpython, and that&amp;rsquo;s that Python&amp;rsquo;s decimal.getcontext() does not work with it.</description>
+    </item>
+    <item>
+      <title>A new modern MSBuild terminal logger is coming with .NET 8</title>
+      <link>https://nicolaiarocci.com/a-new-modern-msbuild-terminal-logger-is-coming-with-dotnet-8/</link>
+      <pubDate>Sat, 20 May 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/a-new-modern-msbuild-terminal-logger-is-coming-with-dotnet-8/</guid>
+      <description>The latest .NET 8 Preview is out, and I love that they&amp;rsquo;re finally changing how MSBuild logs are printed to the terminal. The new Terminal Logger ditches the infamous &amp;ldquo;wall of text&amp;rdquo; that is a nightmare to parse in favor of a cleaner, leaner, and more organized output.
+Once enabled, the new logger shows you the restore phase, followed by the build phase. During each phase, the currently-building projects are at the bottom of the terminal, and each building project tells you both the MSBuild Target currently being built, as well as the amount of time spent on that target.</description>
+    </item>
+    <item>
+      <title>Story of Redis and its creator antirez</title>
+      <link>https://nicolaiarocci.com/story-of-redis-and-its-creator-antirez/</link>
+      <pubDate>Thu, 11 May 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/story-of-redis-and-its-creator-antirez/</guid>
+      <description>I read a well-researched story about Redis and its creator Salvatore Sanfilippo, also known as antirez. I was already familiar with many details as I have been following him since OKNotizie and Segnalo, of which I was a user. At the time, as a user, I exchanged a few emails with Salvatore, whom years later I had the pleasure of meeting in person, as we were both speakers at several conferences.</description>
+    </item>
+    <item>
+      <title>The real cost of interruption</title>
+      <link>https://nicolaiarocci.com/the-real-cost-of-interruption/</link>
+      <pubDate>Fri, 07 Apr 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-real-cost-of-interruption/</guid>
+      <description>I&amp;rsquo;m just back from reading Programmer Interrupted: The Real Cost of Interruption and Context Switching, an interesting short piece in which I learned about at least two new things.
+First, The Parable of the Two Watchmakers, introduced by Nobel Prize winner Herbert Simon, describes the complex relationship between sub-systems and their larger wholes. In the context of the article, it helps explain, even for non-programmers, the cost of an interruption. It also hints at a possible mitigation technique:</description>
+    </item>
+    <item>
+      <title>Running .NET code in an isolated sandbox</title>
+      <link>https://nicolaiarocci.com/running-dotnet-code-in-an-isolated-sandbox/</link>
+      <pubDate>Thu, 23 Mar 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/running-dotnet-code-in-an-isolated-sandbox/</guid>
+      <description>Steve Sanderson is experimenting again, and when Steve plays with his toys, I pay attention. In a new video on his YouTube channel, Steve introduces an experimental new .NET package that allows the creation of isolated instances of the .NET runtime that will safely run code in a sandbox.
+Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+    </item>
+    <item>
+      <title>Making C# and OmniSharp play well with Neovim</title>
+      <link>https://nicolaiarocci.com/making-csharp-and-omnisharp-play-well-with-neovim/</link>
+      <pubDate>Fri, 03 Mar 2023 08:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/making-csharp-and-omnisharp-play-well-with-neovim/</guid>
+      <description>I&amp;rsquo;ve recently moved away from my custom Neovim configuration to embrace LazyVim. LazyVim is a Neovim setup with sane default settings for options, autocmds, and keymaps. It boldly aims to transform Neovim into a full-fledged IDE that is easy to extend and customize. It comes with a wealth of plugins pre-configured and ready to use, and it is also blazing fast. Elijah Manor has a fantastic introductory video on YouTube; I suggest you take the time to look at it.</description>
+    </item>
+    <item>
+      <title>Making the latest C# language features available in older .NET versions</title>
+      <link>https://nicolaiarocci.com/making-the-latest-csharp-language-features-available-in-older-dotnet-versions/</link>
+      <pubDate>Sat, 04 Feb 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/making-the-latest-csharp-language-features-available-in-older-dotnet-versions/</guid>
+      <description>In a C# library I&amp;rsquo;ve been working on, I wanted to use C# 9.0&amp;rsquo;s init keyword. Quoting the documentation:
+The init keyword defines an accessor method in a property or indexer. An init-only setter assigns a value to the property or the indexer element only during object construction. This enforces immutability so that once the object is initialized, it can&amp;rsquo;t be changed again.
+Consider the following class:
+public class Person { public string FirstName { get; init; } } You can initialize it like this:</description>
+    </item>
+    <item>
+      <title>A quick preview of the Blazor United prototype for .NET8</title>
+      <link>https://nicolaiarocci.com/a-quick-preview-of-the-blazor-united-prototype-for-.net8/</link>
+      <pubDate>Sat, 28 Jan 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/a-quick-preview-of-the-blazor-united-prototype-for-.net8/</guid>
+      <description>Steve Sanderson, the original creator of Blazor, recently posted a quick peek at some of the new Blazor prototypes they are experimenting with for .NET 8.
+I think this looks great. Mixing client and server is a brilliant concept. Essentially one would be served with server-side Blazor on the first landing. While using the app, a background task would download the client-side stuff, ready to be consumed at any subsequent access.</description>
+    </item>
+    <item>
+      <title>On implementing the ASP.NET Core 7 rate-limiting middleware</title>
+      <link>https://nicolaiarocci.com/on-implementing-the-asp.net-core-7-rate-limiting-middleware/</link>
+      <pubDate>Fri, 23 Dec 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/on-implementing-the-asp.net-core-7-rate-limiting-middleware/</guid>
+      <description>Today, my last self-assigned duty before the Christmas break was to migrate our in-house rate-limiting implementation (based on the AspNetCoreRateLimiting third-party package) to the new, shiny rate-limiting middleware introduced by ASP.NET Core 7. While the process was relatively straightforward, I stumbled upon a few quirks I want to annotate here.
+Our use case is simple. We use what the ASP.NET Core 7 documentation defines as a &amp;ldquo;fixed window limiter.&amp;rdquo; It uses a specified time window to limit requests.</description>
+    </item>
+    <item>
+      <title>First impressions on JetBrains Rider 2022.3 update</title>
+      <link>https://nicolaiarocci.com/first-impressions-on-jetbrains-rider-2022.3-update/</link>
+      <pubDate>Mon, 12 Dec 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/first-impressions-on-jetbrains-rider-2022.3-update/</guid>
+      <description>Today I upgraded to JetBrains&amp;rsquo; Rider 2022.3. Startup speed has been enhanced, and full .NET 7 and C# 11 support is included. So far, my favorite feature is the conversion of regular and verbatim strings into their raw counterparts (it&amp;rsquo;s often the small, simple things.)
+My second best is the fulls upport for WSL2 remote development. This one took a good while to come out of the trenches, but better late than never, I&amp;rsquo;d say.</description>
+    </item>
+    <item>
+      <title>My Top 7 New Features in .NET 7</title>
+      <link>https://nicolaiarocci.com/my-top-7-new-features-in-.net-7/</link>
+      <pubDate>Sun, 04 Dec 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/my-top-7-new-features-in-.net-7/</guid>
+      <description>The other day we did a .NET 7 Spotlight event at this month&amp;rsquo;s DevRomagna meetup. The speakers were Ugo Lattanzi and me. In my session, I chose to talk about my top 7 new features in .NET 7 (pun intended.) What follows is a mix of my preparation notes and what I ended up really saying1.
+1. Performance Since the initial release of &amp;ldquo;new dotnet&amp;rdquo; (.NET Core), performance has always been a critical goal for the .</description>
+    </item>
+    <item>
+      <title>The Origins of Python</title>
+      <link>https://nicolaiarocci.com/the-origins-of-python/</link>
+      <pubDate>Sat, 26 Nov 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-origins-of-python/</guid>
+      <description>Yesterday the creator of the Python language, Guido van Rossum, tweeted about The Origins of Python, an essay by his mentor, Lambert Meertens.
+&amp;ldquo;On Sunday, June 21, 1970, in an office building on Great Portland Street in London, a teletype sprang to life. Under the heading &amp;ldquo;HAPPY FAMILIES,&amp;rdquo; the machine rattled out a sequence of English sentences, such as &amp;ldquo;THE DOG SITS ON THE BABY&amp;rdquo; and &amp;ldquo;UNCLE TED PLAYS WITH SISTER.</description>
+    </item>
+    <item>
+      <title>Software quality is systemic</title>
+      <link>https://nicolaiarocci.com/software-quality-is-systemic/</link>
+      <pubDate>Thu, 15 Sep 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/software-quality-is-systemic/</guid>
+      <description>Jacob Kaplan-Moss&amp;rsquo;s hot take on software quality:
+Software quality is more the result of a system designed to produce quality, and not so much the result of individual performance. That is: a group of mediocre programmers working with a structure designed to produce quality will produce better software than a group of fantastic programmers working in a system designed with other goals.
+This leads to the insightful conclusion:
+Instead of spending tons of time and effort on hiring because you believe that you can “only hire the best”, direct some of that effort towards building a system that produces great results out of a wider spectrum of individual performance.</description>
+    </item>
+    <item>
+      <title>My Playwright session at WebDay 2022</title>
+      <link>https://nicolaiarocci.com/my-playwright-session-at-webday-2022/</link>
+      <pubDate>Fri, 01 Apr 2022 06:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/my-playwright-session-at-webday-2022/</guid>
+      <description>If you understand Italian, the recording of my Playwright session at UGIdotNET&amp;rsquo;s WebDay 2022 is now available on YouTube1. Playwright is a phenomenal cross-browser, cross-platform, cross-language, single-API, mobile-friendly front-end testing tool.
+I&amp;rsquo;m looking forward to giving the same session in English sooner or later, but I should first win my laziness and start looking for exciting events with open CFPs. If you happen to know one, please let me know.</description>
+    </item>
+    <item>
+      <title>Lay Back and Keep Smiling</title>
+      <link>https://nicolaiarocci.com/lay-back-and-keep-smiling/</link>
+      <pubDate>Sun, 23 Jan 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/lay-back-and-keep-smiling/</guid>
+      <description>Tomorrow we&amp;rsquo;re releasing a major project on which we&amp;rsquo;ve been working non-stop for two and a half years. No matter how many years in the trenches, release day always makes me a bit nervous. Experience does help. I know there will be problems, and we will solve them. Some customers will complain, and those will be the most vocal. The vast majority of them will appreciate the effort, enjoy the features, and stay silent.</description>
+    </item>
+    <item>
+      <title>My ASP.NET 5 migration to .NET 6</title>
+      <link>https://nicolaiarocci.com/my-asp.net-5-migration-to-.net-6/</link>
+      <pubDate>Sun, 14 Nov 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/my-asp.net-5-migration-to-.net-6/</guid>
+      <description>I spent the last few days migrating our ASP.NET REST services, MVC web applications and Blazor server apps to .NET 6. Overall the process was pretty straightforward. The few issues I went through were easy to solve and well documented. Things got more involved with the EF Core 6 transition, especially with the Npgsql Entity Framework Core Provider.
+The official ASP.NET Core 5.0 to 6.0 migration guide was my first stop.</description>
+    </item>
+    <item>
+      <title>ASP.NET 6 Migration Cheatsheet and FAQ</title>
+      <link>https://nicolaiarocci.com/asp.net-6-migration-cheatsheet-and-faq/</link>
+      <pubDate>Thu, 23 Sep 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/asp.net-6-migration-cheatsheet-and-faq/</guid>
+      <description>David Fowler has a very informative gist up on GitHub. It&amp;rsquo;s titled [Migration to ASP.NET Core. NET6][3] and it&amp;rsquo;s filled with details, recipes and FAQs on migrating an ASP.NET Core 5 web app to ASP.NET Core 61. The focus is on the new, streamlined hosting model, also known as Minimal APIs2. To be clear, You don&amp;rsquo;t have to move to the new model. As the FAQ section emphasizes:
+Do I have to migrate to the new hosting model</description>
+    </item>
+    <item>
+      <title>Performance improvements in .NET6</title>
+      <link>https://nicolaiarocci.com/performance-improvements-in-.net6/</link>
+      <pubDate>Fri, 03 Sep 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/performance-improvements-in-.net6/</guid>
+      <description>I&amp;rsquo;m pretty psyched about the upcoming .NET6 release. I&amp;rsquo;ve already touched on ASP.NET 6 Minimal APIs. Continuing on the long-established tradition, the team has also worked hard on the performance side of things. File IO, for example, is seeing impressive gains:
+For .NET 6, we have made FileStream much faster and more reliable, thanks to an almost entire re-write. For same cases, the async implementation is now a few times faster!</description>
+    </item>
+    <item>
+      <title>How to read Windows-1252 encoded files with .NETCore and .NET5&#43;</title>
+      <link>https://nicolaiarocci.com/how-to-read-windows-1252-encoded-files-with-.netcore-and-.net5-/</link>
+      <pubDate>Fri, 27 Aug 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/how-to-read-windows-1252-encoded-files-with-.netcore-and-.net5-/</guid>
+      <description>Another day, another lesson learned: modern .NET does not support the Windows-1252 encoding out of the box. Today my colleague was happily porting a legacy NET4+ app to NET6. As usual, the port was super-easy; it would compile and run just fine, so he was surprised when the app crashed reading a few specific XML files. That&amp;rsquo;s when I was called in. A closer inspection revealed a pattern: all those crashing files were Windows 1252-encoded (the rest, a vast majority, were UTF-8.</description>
+    </item>
+    <item>
+      <title>On GitHub Copilot</title>
+      <link>https://nicolaiarocci.com/on-github-copilot/</link>
+      <pubDate>Sat, 24 Jul 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/on-github-copilot/</guid>
+      <description>Like everyone else on the planet, I&amp;rsquo;ve been following GitHub Copilot since its launch. It is an impressive achievement and a remarkable milestone for the deep learning industry, that&amp;rsquo;s for sure. We are obviously at the early stages in deep learning applied to software development, and it is somewhat unsettling to ponder what the future might hold in this field.
+Like many others, however, I worry about code quality issues and the risk of license infringements1.</description>
+    </item>
+    <item>
+      <title>Will .NET 6 Minimal APIs turn heads?</title>
+      <link>https://nicolaiarocci.com/will-.net-6-minimal-apis-turn-heads/</link>
+      <pubDate>Wed, 14 Jul 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/will-.net-6-minimal-apis-turn-heads/</guid>
+      <description>I am pretty excited about the [Minimal APIs][3] feature that is coming with .NET 6. Three lines of code will be enough to build a fully functional REST microservice1:
+var app = WebApplication.Create(args); app.MapGet(&amp;quot;/&amp;quot;, () =&amp;gt; &amp;quot;Hello World!&amp;quot;); await app.RunAsync(); If you&amp;rsquo;re a seasoned ASP.NET MVC/WebApi developer, the snippet caught your attention because, pre-.NET 6, achieving the same result will have you messing with a lot of extra cruft2. I suspect, however, that this feature is not primarily targeted at existing .</description>
+    </item>
+    <item>
+      <title>Custom default values for not existing dictionary items (and a lesson learned)</title>
+      <link>https://nicolaiarocci.com/custom-default-values-for-not-existing-dictionary-items-and-a-lesson-learned/</link>
+      <pubDate>Fri, 11 Jun 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/custom-default-values-for-not-existing-dictionary-items-and-a-lesson-learned/</guid>
+      <description>When dealing with dictionaries, a typical problem is when an operation attempts to retrieve an element using a key that does not exist in the dictionary. In .NET, a KeyNotFoundException is raised, and that&amp;rsquo;s the desired behaviour in most circumstances. Sometimes, however, you know that your program will frequently try to retrieve keys that do not exist. In such cases, it is more efficient to use the TryGetValue method:
+This method returns the value associated with the specified key, if the key is found; otherwise, the default value for the type of the value parameter is returned (source)</description>
+    </item>
+    <item>
+      <title>On Programming and Writing</title>
+      <link>https://nicolaiarocci.com/on-programming-and-writing/</link>
+      <pubDate>Tue, 25 May 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/on-programming-and-writing/</guid>
+      <description>My brilliant friend Salvatore Sanfilippo (otherwise known as antirez of Redis fame) has an interesting write-up on his website. How similar is programming to prose writing? After getting his own feet wet with novel writing, he is convinced that the two activities share many common traits.
+One year ago I paused my programming life and started writing a novel, with the illusion that my new activity was deeply different than the previous one.</description>
+    </item>
+    <item>
+      <title>Flask 2.0</title>
+      <link>https://nicolaiarocci.com/flask-2.0/</link>
+      <pubDate>Fri, 14 May 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/flask-2.0/</guid>
+      <description>Flask 2.0 has just been released. Along with it come many other major satellite releases: Werkzeug 2.0, Jinja 3.0, Click 8.0, ItsDangerous 2.0, and MarkupSafe 2.0.
+Across all projects, Python 3.6+ is now required, and comprehensive type annotations are supported. At a glance, I&amp;rsquo;d say that the biggest news is async views in Flask 2. Work has also been done around Werkzeug Request and Response classes to allow for better sync and async in the future (it&amp;rsquo;s not a public API yet.</description>
+    </item>
+    <item>
+      <title>dotnet SmtpClient should not be used</title>
+      <link>https://nicolaiarocci.com/dotnet-smtpclient-should-not-be-used/</link>
+      <pubDate>Tue, 04 May 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/dotnet-smtpclient-should-not-be-used/</guid>
+      <description>I am very late to the party, but today I learned that the good old dotnet SmptClient is considered obsolete and should not be used. Quoting the documentation:
+We don&amp;rsquo;t recommend using the SmtpClient class for new development because SmtpClient doesn&amp;rsquo;t support many modern protocols. Use MailKit or other libraries instead. (source)
+Interestingly, Microsoft is recommending a third-party open-source library as an alternative. I hope we&amp;rsquo;ll see more of that in the future.</description>
+    </item>
+    <item>
+      <title>School assignments that count: simulating the COVID outbreak with the C language</title>
+      <link>https://nicolaiarocci.com/school-assignments-that-count-simulating-the-covid-outbreak-with-the-c-language/</link>
+      <pubDate>Mon, 05 Apr 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/school-assignments-that-count-simulating-the-covid-outbreak-with-the-c-language/</guid>
+      <description>Giulia got an exciting assignment from her teacher:
+Write a C program that simulates (a simplified version of) COVID outbreak spreading across a population of 200 people. When a healthy person comes into contact with a sick person, the healthy person becomes ill, too. After some time, a sick person will recover. A recovered person cannot infect a healthy person nor become sick again after coming in contact with a sick person.</description>
+    </item>
+    <item>
+      <title>Get better at programming by learning how things work</title>
+      <link>https://nicolaiarocci.com/get-better-at-programming-by-learning-how-things-work/</link>
+      <pubDate>Sat, 27 Mar 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/get-better-at-programming-by-learning-how-things-work/</guid>
+      <description>When we talk about getting better at programming, we often talk about testing, writing reusable code, design patterns, and readability. All of those things are important. But in this blog post, I want to talk about a different way to get better at programming: learning how the systems you’re using work! This is the main way I approach getting better at programming.
+Once again, Julia Evans has great sensible advice up on her site.</description>
+    </item>
+    <item>
+      <title>Write libraries, not services? Not so fast</title>
+      <link>https://nicolaiarocci.com/write-libraries-not-services-not-so-fast/</link>
+      <pubDate>Thu, 25 Mar 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/write-libraries-not-services-not-so-fast/</guid>
+      <description>Write libraries instead of services is an interesting article I read a while ago. I cannot get it off my head. In an attempt to clear up my mind, I decided to sit down and write about it. I have been writing libraries for a good part of my life. Most of my earlier dev-work resides on thousands of computers in the form of libraries. More recently, I have been writing and deploying remote services.</description>
+    </item>
+    <item>
+      <title>Semantic Versioning Will Not Save You</title>
+      <link>https://nicolaiarocci.com/semantic-versioning-will-not-save-you/</link>
+      <pubDate>Thu, 04 Mar 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/semantic-versioning-will-not-save-you/</guid>
+      <description>The always brilliant Hynek recently posted Semantic Versioning Will Not Save You. Primarily targeted at consumers of SemVer-versioned packages, it is full of insightful advice.
+From my perspective as an open-source maintainer, I can tell you that versioning is hard. Judging when a new release is going to break backward compatibility is not as simple as it might seem on the surface, and Hynek does a great job explaining why. Sometimes it is also hard for me to tell if a change in a codebase classifies as a new feature, small improvement, or fix—subtle differences.</description>
+    </item>
+    <item>
+      <title>Reverse engineering an obfuscated codebase and fixing it in the process</title>
+      <link>https://nicolaiarocci.com/reverse-engineering-an-obfuscated-codebase-and-fixing-it-in-the-process/</link>
+      <pubDate>Tue, 02 Mar 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/reverse-engineering-an-obfuscated-codebase-and-fixing-it-in-the-process/</guid>
+      <description>Today&amp;rsquo;s mandatory reading is How I cut GTA Online loading times by 70%.
+As someone who&amp;rsquo;s been fighting the protection/obfuscation cat &amp;amp; mouse game for twenty+ years, let me tell you one thing. The way this guy reverse-engineered parts of the GTA5 codebase and then proceeded to single-handly triage and fix a long-standing (7+ years) performance issue is simply mindblowing. All he had to work with were heavily obfuscated dlls. This also shows how we, the protectors, are always playing a losing game.</description>
+    </item>
+    <item>
+      <title>Musings on Python&#39;s Pattern Matching</title>
+      <link>https://nicolaiarocci.com/musings-on-pythons-pattern-matching/</link>
+      <pubDate>Tue, 23 Feb 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/musings-on-pythons-pattern-matching/</guid>
+      <description>Pattern Matching is coming to Python, and I am not sure I like it. Don&amp;rsquo;t get me wrong, I love pattern matching. I use it all the time in F#. I am sure that once it lands in the language, it will be wildly adopted.
+So what&amp;rsquo;s the problem with Python&amp;rsquo;s pattern matching? The community, some core developers included, has expressed several concerns. The Python Steering Council has acknowledged them and is willing to look into improvements should they be proposed.</description>
+    </item>
+    <item>
+      <title>What I listen to while programming</title>
+      <link>https://nicolaiarocci.com/what-i-listen-to-while-programming/</link>
+      <pubDate>Fri, 12 Feb 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/what-i-listen-to-while-programming/</guid>
+      <description>What music do you listen to while programming?1 For me, it&amp;rsquo;s usually jazz, classical, electronic, lots of it, or nothing. There are some specialized websites and podcasts I sometimes recur to, like [Music for Programming][1]. Several Spotify playlists I dig a lot, [Every Day I&amp;rsquo;m Nerdin&amp;rsquo;][2] being one of them. What can I say? I am musically omnivore.
+However, I recently discovered something different: the [Field Recordings podcast][3]. &amp;ldquo;A podcast where audio-makers stand silently in fields (or things that could be broadly interpreted as fields).</description>
+    </item>
+    <item>
+      <title>When Homebrew breaks your Python virtual environment</title>
+      <link>https://nicolaiarocci.com/when-homebrew-breaks-your-python-virtual-environment/</link>
+      <pubDate>Mon, 08 Feb 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/when-homebrew-breaks-your-python-virtual-environment/</guid>
+      <description>Ever had your old, trusty Python virtual environment fail on you? I sure did. Sometimes, when I activate or switch between virtual environments, I get the following error:
+$ workon eve dyld: Library not loaded: @executable_path/../.Python I never really took the time to look into it. When this happens, because I am in a rush (and because I am a lazy old fart), I shrug it off, recreate the virtual environment on the spot, and get back to work.</description>
+    </item>
+    <item>
+      <title>Strong opinions on software development</title>
+      <link>https://nicolaiarocci.com/strong-opinions-on-software-development/</link>
+      <pubDate>Wed, 03 Feb 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/strong-opinions-on-software-development/</guid>
+      <description>After six years in the field, Chris has shared his strong opinions on software development practices, languages, and methodologies. I like his attitude. Willingness to continuously put one&amp;rsquo;s personal views under scrutiny, eventually adapting or even changing them as needed, is not a common trait. Not in our field. While I generally agree with most of his opinions, I feel the urge to comment on a few of them.
+Typed languages are better when you&amp;rsquo;re working on a team of people with various experience levels</description>
+    </item>
+    <item>
+      <title>The unreasonable effectiveness of simple HTML</title>
+      <link>https://nicolaiarocci.com/the-unreasonable-effectiveness-of-simple-html/</link>
+      <pubDate>Thu, 28 Jan 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/the-unreasonable-effectiveness-of-simple-html/</guid>
+      <description>We&amp;rsquo;ve seen other articles pointing the finger at unnecessarily bloated websites. Terence Eden&amp;rsquo;s On the unreasonable effectiveness of simple HTML deserves mention, I think, for two reasons. First, the delivery is incredibly effective. Second, it is effective because of the storytelling.
+By enveloping the message into an original short, touching story, he achieves two goals. First, he captures the reader&amp;rsquo;s attention; second, he makes the experience memorable. Please, go and read it; I&amp;rsquo;ll wait here.</description>
+    </item>
+    <item>
+      <title>On the short, tormented life of Phil Katz</title>
+      <link>https://nicolaiarocci.com/on-the-short-tormented-life-of-phil-katz/</link>
+      <pubDate>Fri, 22 Jan 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/on-the-short-tormented-life-of-phil-katz/</guid>
+      <description>Bless the Internet Archive and its Wayback Machine. With it, we can go back in time and read The short, tormented life of computer genius Phil Katz, an unusually detailed and accurate article published in the April 14, 2000 issue of the Milwaukee Journal Sentinel.
+When he was found dead April 14, Phil Katz was slumped against a nightstand in a south side hotel, cradling an empty bottle of peppermint schnapps.</description>
+    </item>
+    <item>
+      <title>The Obligation of The Programmer</title>
+      <link>https://nicolaiarocci.com/obligation-programmer/</link>
+      <pubDate>Tue, 18 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/obligation-programmer/</guid>
+      <description>Robert C.Martin, of Clean Code fame, has something to say on the role of we programmers in today’s society.
+We rule the world.
+We don’t quite understand this yet. More importantly, the world doesn’t quite understand it yet. Our civilization doesn’t quite realize how dependent it has become on software — on us.
+He goes as far as suggesting a programmer’s code of conduct of sorts. Food for thought I guess, although I suspect we’re too much of a wild and scattered bunch for something like that to really stick.</description>
+    </item>
+    <item>
+      <title>Why Don’t More People Work As Programmers?</title>
+      <link>https://nicolaiarocci.com/dont-people-work-programmers/</link>
+      <pubDate>Thu, 06 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/dont-people-work-programmers/</guid>
+      <description>This originally appeared on Quora and is well worth reading.
+Becoming a good programmer is incredibly difficult and it doesn’t happen quickly. We can’t expect to plant some trees and have 2000-year-old redwoods grow overnight, regardless of the demand for them.
+via Why Don&amp;rsquo;t More People Work As Programmers? – Forbes.</description>
+    </item>
+    <item>
+      <title>How to be a sane programmer</title>
+      <link>https://nicolaiarocci.com/how-to-be-a-sane-programmer/</link>
+      <pubDate>Mon, 24 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/how-to-be-a-sane-programmer/</guid>
+      <description>But here’s the rub. Programming, like writing, painting, and music, is chiefly a creative endeavor not a technical one. Practice with any technology or language is useful as a means of learning tools and techniques, but it will not make you a substantially better programmer.
+via How to be a sane programmer</description>
+    </item>
+    <item>
+      <title>Why Good Programming Projects Go Bad</title>
+      <link>https://nicolaiarocci.com/why-good-programming-projects-go-bad/</link>
+      <pubDate>Sun, 29 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/why-good-programming-projects-go-bad/</guid>
+      <description>Fred Brooks wrote the software development classic The Mythical Man-Month almost 40 years ago. In this interview, Brooks explains why managers still make the same mistakes.
+via Why Good Programming Projects Go Bad.</description>
+    </item>
+    <item>
+      <title>The Future of Programming</title>
+      <link>https://nicolaiarocci.com/the-future-of-programming/</link>
+      <pubDate>Wed, 31 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/the-future-of-programming/</guid>
+      <description>Bret Victor on Vimeo.</description>
+    </item>
+  </channel>
+</rss>

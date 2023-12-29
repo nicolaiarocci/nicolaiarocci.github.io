@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>apps on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/apps/</link>
+    <description>Recent content in apps on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 06 Apr 2021 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/apps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quicker window snapping on macOS</title>
+      <link>https://nicolaiarocci.com/quicker-window-snapping-on-macos/</link>
+      <pubDate>Tue, 06 Apr 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/quicker-window-snapping-on-macos/</guid>
+      <description>I never see my macOS desktop. It&amp;rsquo;s always cluttered with way too many open windows. When I spot those fantastic, tidy and clean Desktops on the internet, I envy their owners. I wonder if and how they manage to keep those desktops tidy like that the whole workday. It must feel so good.
+I try to keep my windows well arranged. The typical setup might be two windows, from two different apps, tiled side by side.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>xamarin on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/xamarin/</link>
+    <description>Recent content in xamarin on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 30 May 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/xamarin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Xamarin abbandona il progetto Silverlight per Linux</title>
+      <link>https://nicolaiarocci.com/xamarin-abbandona-il-progetto-silverlight-per-linux/</link>
+      <pubDate>Wed, 30 May 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/xamarin-abbandona-il-progetto-silverlight-per-linux/</guid>
+      <description>Moonlight, l’implementazione open-source di Silverlight per sistemi Linux, è stata abbandonata da Xamarin.
+Abbiamo abbandonato Moonlight (…) Il web non ha addotato Silverlight; non ha avuto il successo che mi aspettavo. Miguel de Icaza
+Un’altro chiodo sulla bara di Silverlight. Dei dubbi sul futuro della tecnologia Microsoft avevo già scritto in occasione della sua mancata adozione in Windows 8 e al momento dell’annuncio di Silverlight 5.</description>
+    </item>
+    <item>
+      <title>Mono 2.10.3 gira su OS X Lion (ed è vivo e vegeto)</title>
+      <link>https://nicolaiarocci.com/mono-2-10-3-gira-su-os-x-lion-ed-e-vivo-e-vegeto/</link>
+      <pubDate>Fri, 05 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/mono-2-10-3-gira-su-os-x-lion-ed-e-vivo-e-vegeto/</guid>
+      <description>Xamarin, la compagnia che ha preso in mano il Progetto Mono dopo l’addio di Novell, ha appena rilasciato Mono 2.10.3. Ne da annuncio lo stesso Manuel de Icaza, storico deux-ex-machina del progetto e fondatore di Xamarin.
+Si tratta per lo più di una versione di manutenzione che risolve numerosi problemi, primo fra tutti l’instabilità di Mono sull’ultima versione di MacOS X Lion.
+L’importanza di questo aggiornamento va ben oltre le sue caratteristiche tecniche.</description>
+    </item>
+  </channel>
+</rss>

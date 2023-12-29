@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sqlite on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/sqlite/</link>
+    <description>Recent content in sqlite on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 17 Apr 2021 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/sqlite/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQLite is the only database you will ever need in most cases</title>
+      <link>https://nicolaiarocci.com/sqlite-is-the-only-database-you-will-ever-need-in-most-cases/</link>
+      <pubDate>Sat, 17 Apr 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/sqlite-is-the-only-database-you-will-ever-need-in-most-cases/</guid>
+      <description>The name SQLite is a nice name, but the &amp;ldquo;lite&amp;rdquo; part is misleading, it sounds like it is only useful for tiny things - which is very wrong. SQLite should be named AwesomeSQL, because that is what it is. SQLite is probably the only database you will ever need in most cases
+Yeah. This article resonates with me. SQLite is the de-facto standard engine for embedded systems. But it should also be the go-to database for all those websites and services that don&amp;rsquo;t need to scale to multiple machines.</description>
+    </item>
+  </channel>
+</rss>

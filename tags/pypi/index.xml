@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pypi on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/pypi/</link>
+    <description>Recent content in pypi on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Mar 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/pypi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flask MimeRender nel Python Package Index (PyPI)</title>
+      <link>https://nicolaiarocci.com/flask-mimerender-e-nel-python-package-index-pypi/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/flask-mimerender-e-nel-python-package-index-pypi/</guid>
+      <description>Un appunto veloce per segnalare che Flask MimeRender, il mio strumento RESTful per il rendering basato sul MIME Media-Type delle richieste HTTP (JSON, XML, HTML, ecc.), è ora presente su PyPI, il Python Package Index ufficiale.
+Tutto ciò significa che l’installazione di Flask MimeRender su Windows, OSX e Linux è diventato più semplice:
+Codice sorgente e istruzioni sono a vostra disposizione su GitHub, mentre per spiegazione approfondita ed esempio d’uso vi rimando al mio articolo precedente: Una REST API che adatta le sue risposte al MIME Media-Type delle richieste HTTP.</description>
+    </item>
+  </channel>
+</rss>

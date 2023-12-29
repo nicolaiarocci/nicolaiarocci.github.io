@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>postgres on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/postgres/</link>
+    <description>Recent content in postgres on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 23 Feb 2023 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/postgres/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Awesome psql tips</title>
+      <link>https://nicolaiarocci.com/awesome-psql-tips/</link>
+      <pubDate>Thu, 23 Feb 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/awesome-psql-tips/</guid>
+      <description>Today I learned about psql-tips.org by Lætitia Avrot, an excellent repository of psql (the CLI tool, not the database itself) tips. I like how one randomized tip is playfully served on the home page while the complete list is always at hand.
+Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+    </item>
+    <item>
+      <title>Automatic deletion of older records in Postgres</title>
+      <link>https://nicolaiarocci.com/automatic-deletion-of-older-records-in-postgres/</link>
+      <pubDate>Sun, 16 Jan 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/automatic-deletion-of-older-records-in-postgres/</guid>
+      <description>We have a Postgres cluster with a database for each user. Each database has a table that records events, and we want this table to only record the last 15 days.
+If we were on MongoDB, we could use a capped collection, but we are in Postgres, which does not have equivalent functionality. In Postgres, you have to make do with something homemade. My first idea was to install a cron job in the system.</description>
+    </item>
+    <item>
+      <title>How to restore a single Postgres database from a pg_dumpall dump</title>
+      <link>https://nicolaiarocci.com/how-to-restore-a-single-postgres-database-from-a-pg_dumpall-dump/</link>
+      <pubDate>Wed, 25 Aug 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/how-to-restore-a-single-postgres-database-from-a-pg_dumpall-dump/</guid>
+      <description>Today I learned how to restore a single Postgres database from a global dump generated with pg_dumpall. Now, pg_dumpall is handy when you want to back up an entire Postgres cluster. It will dump all databases and global objects in a single text file. In contrast, pg_dump, the go-to tool for Postgres backups, offers more control but only works with a single database and doesn&amp;rsquo;t dump global objects, such as the roles/users linked to the database.</description>
+    </item>
+    <item>
+      <title>Cleaning Up Your Postgres Database</title>
+      <link>https://nicolaiarocci.com/cleaning-up-your-postgres-database/</link>
+      <pubDate>Tue, 09 Mar 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/cleaning-up-your-postgres-database/</guid>
+      <description>I am an application/backend developer who has to quibble with databases more often than desired. I can get my way around Postgres pretty well, but I can always use a hint or two, especially when it comes to fine-tuning and performance.
+I stumbled upon Cleaning Up Your Postgres Databases. It offers useful advice on spotting performance bottlenecks in your Postgres database. Take the cache and index hit queries, for example.</description>
+    </item>
+  </channel>
+</rss>

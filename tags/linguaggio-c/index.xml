@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linguaggio C on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/linguaggio-c/</link>
+    <description>Recent content in Linguaggio C on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 13 Oct 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/linguaggio-c/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dennis Ritchie se n’è andato</title>
+      <link>https://nicolaiarocci.com/dennis-ritchie-se-ne-andato/</link>
+      <pubDate>Thu, 13 Oct 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/dennis-ritchie-se-ne-andato/</guid>
+      <description>Decisamente questo non è un buon momento per le scienze dell’informazione. Dopo la recente scomparsa di Steve Jobs, ecco la notizia che lo scorso fine settimana anche Dennis Ritchie ci ha lasciato. Inventore e autore del Linguaggio C, Ritchie era anche uno dei padri fondatori del sistema operativo Unix. Poco conosciuto dal grande pubblico, non certo manager e tanto meno figura pubblica, Ritchie era uno scienziato di calibro assoluto la cui influenza nell’informatica tutta è semplicemente inestimabile.</description>
+    </item>
+  </channel>
+</rss>

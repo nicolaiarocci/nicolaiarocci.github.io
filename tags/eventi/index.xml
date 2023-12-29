@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eventi on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/eventi/</link>
+    <description>Recent content in eventi on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 03 Jun 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/eventi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MongoDB User Group a Cesena</title>
+      <link>https://nicolaiarocci.com/mongodb-user-group/</link>
+      <pubDate>Mon, 03 Jun 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/mongodb-user-group/</guid>
+      <description>Domani sarò al primo meeting romagnolo del #MUG MongoDB User Group organizzato da 10Gen (azienda dietro a MongoDB), Byte-Code e Ideato.
+Parlerò di MongoDB usato come backend per una REST WEB API. L’evento si svolgerà in serata a Cesena, è gratuito, e ci sono ancora posti disponibili. Se ci siete passate a salutarmi.</description>
+    </item>
+    <item>
+      <title>Gestione degli Eventi in Python</title>
+      <link>https://nicolaiarocci.com/gestione-degli-eventi-in-python/</link>
+      <pubDate>Thu, 14 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/gestione-degli-eventi-in-python/</guid>
+      <description>&lt;p&gt;Gli eventi sono molto usati nelle GUI e nelle implementazioni del modello MVC (Model, View, Controller). Un’altra applicazione tipica è nei protocolli di comunicazione, laddove layer di basso livello devono informare quelli più alti quando ci sono dati in ingresso o in uscita.&lt;/p&gt;
+&lt;p&gt;Il linguaggio C# dispone da sempre di una soluzione elegante al problema della gestione degli eventi: il delegato EventHandler. &lt;a href=&#34;https://github.com/nicolaiarocci/events&#34; title=&#34;Events: Bringing the elegance of C# EventHandler to Python&#34;&gt;Events&lt;/a&gt; è una mia implementazione Python del EventHandler C#. In pratica si tratta di una classe molto leggera che incapsula il cuore del meccanismo di sottoscrizione e gestione degli eventi, e tenta di farlo in maniera “naturale”, sembrando parte integrante del linguaggio Python.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Una mattinata con MongoDB</title>
+      <link>https://nicolaiarocci.com/una-mattinata-con-mongodb/</link>
+      <pubDate>Wed, 10 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/una-mattinata-con-mongodb/</guid>
+      <description>Il prossimo 24 ottobre sarò a Milano per A Morning with MongoDB, evento ufficiale 10gen nel corso del quale racconterò la mia esperienza nell’integrazione di MongoDB in una Web REST API. Partecipazione e registrazione sono gratuite: cosa aspettate?</description>
+    </item>
+    <item>
+      <title>Il filmato del mio intervento al Ravenna CNA BarCamp</title>
+      <link>https://nicolaiarocci.com/il-mio-intervento-al-cna-barcamp-video/</link>
+      <pubDate>Thu, 31 May 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-mio-intervento-al-cna-barcamp-video/</guid>
+      <description>Il filmato del mio recente intervento al Ravenna CNA BarCamp è online. L’articolo originale è stato aggiornato e ora include sia le slide che il video. In alternativa c’è sempre YouTube.</description>
+    </item>
+    <item>
+      <title>WhyMCA Mobile Developer Conference 2012</title>
+      <link>https://nicolaiarocci.com/whymca-mobile-developer-conference-2012/</link>
+      <pubDate>Wed, 09 May 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/whymca-mobile-developer-conference-2012/</guid>
+      <description>Parteciperò alla WhyMCA Mobile Developer Conference a Bologna il 24 e 25 maggio. Il programma mi sembra piuttosto interessante. Se pensate di venire fatemelo sapere che vediamo di incotrarci.</description>
+    </item>
+    <item>
+      <title>Offline / Online: superare la crisi anche grazie alla rete</title>
+      <link>https://nicolaiarocci.com/offline-online-superare-la-crisi-anche-grazie-alla-rete/</link>
+      <pubDate>Mon, 23 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/offline-online-superare-la-crisi-anche-grazie-alla-rete/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;La scorsa settimana ho partecipato come relatore alla prima edizione del &lt;!-- raw HTML omitted --&gt;Ravenna CNA Barcamp&lt;!-- raw HTML omitted --&gt; sulla cultura d’impresa 2.0. &lt;!-- raw HTML omitted --&gt;Offline / Online&lt;!-- raw HTML omitted --&gt; è il racconto di una esperienza vissuta sul campo; un case study su come il mercato del software si è evoluto nel corso degli anni passando dalla classica filiera lunga sul territorio, tipica degli anni ’90 e della prima metà dei 2000, alla vendita online dei giorni nostri. La crisi economica degli ultimi anni si è innestata in un processo evolutivo già in atto e inarrestabile, perlomeno per quanto riguarda il nostro settore:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Guido van Rossum a EuroPython 2012</title>
+      <link>https://nicolaiarocci.com/guido-van-rossum-a-europython-2012/</link>
+      <pubDate>Fri, 20 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/guido-van-rossum-a-europython-2012/</guid>
+      <description>Partenza col botto per EuroPython 2012. I keynote introduttivi saranno tenuti nientemeno che dal creatore stesso del linguaggio, Guido Van Rossum, e da Alex Martelli. Ieri è stato annunciato il programma ufficiale e a quanto pare mi spetta l’inaugurazione della italian track martedì 3 luglio. Il giorno successivo sarò impegnato, ancora di prima mattina, con la versione in lingua inglese del mio talk:
+Sviluppare una RESTful Web API con Python, Flask e MongoDB</description>
+    </item>
+    <item>
+      <title>Il mio intervento al KnowCamp 2011: Fuga dalla Comfort Zone</title>
+      <link>https://nicolaiarocci.com/il-mio-intervento-al-knowcamp-2011-fuga-dalla-comfort-zone/</link>
+      <pubDate>Tue, 25 Oct 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-mio-intervento-al-knowcamp-2011-fuga-dalla-comfort-zone/</guid>
+      <description>&lt;p&gt;Da qualche giorno sono disponibili le slide e la registrazione video del mio intervento al &lt;!-- raw HTML omitted --&gt;KnowCamp 2011&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;La diretta è stata seguita da oltre 1200 spettatori mentre in sala erano presenti circa 150 persone: un bel successo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Web Designer e Programmatori Front End si incontrano a From The Front 2011</title>
+      <link>https://nicolaiarocci.com/web-designer-e-programmatori-front-end-si-incontrano-a-from-the-front-2011/</link>
+      <pubDate>Fri, 23 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/web-designer-e-programmatori-front-end-si-incontrano-a-from-the-front-2011/</guid>
+      <description>Giovedì 29 Settembre sarò a Cesena per partecipare a From The Front 2011, conferenza-evento di una giornata dedicata a programmatori front end e web designer. Il programma dei talk pomeridiani è interessante, vi consiglio di dare una occhiata anche perché il costo di iscrizione è pari a zero irrisorio. Se venite battete un colpo: è una buona occasione per incontrarsi di persona (magari al party che seguirà l’evento).</description>
+    </item>
+    <item>
+      <title>Quattro passi tra le nuvole al Romagna Camp 2011</title>
+      <link>https://nicolaiarocci.com/quattro-passi-tra-le-nuvole-al-romagna-camp-2011/</link>
+      <pubDate>Mon, 22 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/quattro-passi-tra-le-nuvole-al-romagna-camp-2011/</guid>
+      <description>“Quattro passi tra le nuvole (e non scordate il paracadute)” è il titolo del mio intervento al Romagna Camp 2011. Racconterò la mia esperienza nella fornitura di servizi cloud alle small business italiane. In questi giorni di ferie ho cominciato buttare giù qualche appunto e abbozzare le prime slide. La sfida è condensare tutto quel che c’è da dire in quindici minuti.
+Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 settembre) sono in calendario una cena, 16 speech e 7 ignite.</description>
+    </item>
+    <item>
+      <title>Qualche riflessione sull’esperienza del Co-Working</title>
+      <link>https://nicolaiarocci.com/qualche-riflessione-sullesperienza-del-co-working/</link>
+      <pubDate>Mon, 13 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/qualche-riflessione-sullesperienza-del-co-working/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Faccio subito mie le riflessioni di &lt;!-- raw HTML omitted --&gt;Gianluca Diegoli&lt;!-- raw HTML omitted --&gt; sul primo esperimento di co-working in spiaggia, a cui ho partecipato pure io:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mentre tornavo in auto, riflettevo di quanta tristezza in questi anni ho visto transitare in molti uffici in cui aleggia quel senso di prigione, in cui le persone si sentono agli arresti domiciliari, mangiano solo con colleghi che odiano, con cui parlano di un lavoro o di un capo che altrettanto odiano, in cui la produttività e la creatività, apparentemente garantite dallo svolgersi in ambiente controllato e da orari stringenti, in realtà siano minime. Anzi, proprio quel sistema che in passato era stato creato per controllare il lavoratore, come se fosse un animale d’allevamento, ora è la causa dell’inefficienza e del disinteresse.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Nella intervista semi-seria che trovate qui sotto (mescolata a quelle degli amici) dichiaro che consiglierei senz’altro l’esperienza ai miei dipendenti. Confermo. I miei splendidi ragazzi lavorerebbero felicemente anche (forse soprattutto) sul cucuzzolo di una montagna, ma sulla efficacia del co-working ad ampio spettro qualche perplessità l’avrei.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Domani si lavora in spiaggia! Vieni al #cowobeach</title>
+      <link>https://nicolaiarocci.com/domani-si-lavora-in-spiaggia-vieni-al-cowobeach/</link>
+      <pubDate>Thu, 09 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/domani-si-lavora-in-spiaggia-vieni-al-cowobeach/</guid>
+      <description>Se siete in Romagna e dintorni forse potete ancora farci un pensierino: domani venite a lavorare in spiaggia! Cowo on the beach è una bella iniziativa organizzata da Alessandra Farabegoli su suggerimento di Gianluca Diegoli. Di cosa si tratta? Semplice:
+Giornata di temporary coworking on the beach: ci troviamo la mattina al Boca Barranca, il wifi c’è ed è gratuito, la mattina si lavora, poi bagno in mare, pranzo, di nuovo lavoro e.</description>
+    </item>
+    <item>
+      <title>Programmazione, SEO, Startups – Il Meglio della Settimana #1</title>
+      <link>https://nicolaiarocci.com/programmazione-seo-startups-il-meglio-della-settimana-1/</link>
+      <pubDate>Mon, 21 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/programmazione-seo-startups-il-meglio-della-settimana-1/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Vi propongo una scelta delle risorse più interessanti e curiose che ho scovato questa settimana in rete. Ce né per tutti i gusti: programmazione, SEO, Startups e curiosità. Andiamo a cominciare:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Disponibile il programma completo di BE-Wizard 2011</title>
+      <link>https://nicolaiarocci.com/disponibile-il-programma-di-be-wizard-2011/</link>
+      <pubDate>Thu, 17 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/disponibile-il-programma-di-be-wizard-2011/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Sul sito ufficiale di &lt;strong&gt;BE-Wizard 2011&lt;/strong&gt; è disponibile il &lt;a href=&#34;http://admin.abc.sm/upload/2156/programma_be-wizard.pdf&#34;&gt;programma completo&lt;/a&gt; della due giorni SEO/Web Marketing che si terrà a San Marino i prossimi 11 e 12 marzo. Come scrivevo già &lt;a href=&#34;http://nicolaiarocci.com/be-wizard-2011-porta-in-italia-i-guru-di-seo-e-web-marketing/&#34;&gt;qualche tempo fa&lt;/a&gt; quest’anno BE-Wizard porta in italia i &lt;strong&gt;guru internazionali di SEO e Web Marketing&lt;/strong&gt;: Rand Fishkin (SEOmoz), Avinash Kaushik (Google), Marcus Tandler &amp;amp; Nils Döerje (Tandler &amp;amp; Döerje Partners), Tom Critchlow (Distilled) e altri.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BE-Wizard 2011 porta in Italia i guru di SEO e Web Marketing</title>
+      <link>https://nicolaiarocci.com/be-wizard-2011-porta-in-italia-i-guru-di-seo-e-web-marketing/</link>
+      <pubDate>Wed, 19 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/be-wizard-2011-porta-in-italia-i-guru-di-seo-e-web-marketing/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.be-wizard.com&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;I giorni 11 e 12 marzo parteciperò a &lt;!-- raw HTML omitted --&gt;BE-Wizard 2011&lt;!-- raw HTML omitted --&gt;, evento SEO e Web Marketing dal programma molto ricco e interessante. Tra i relatori celebrità internazionali come &lt;a href=&#34;http://www.seomoz.org/team/randfish&#34;&gt;Rand Fishkin&lt;/a&gt; (SEOmoz), &lt;a href=&#34;http://www.kaushik.net/avinash/about&#34;&gt;Avinash Kaushik&lt;/a&gt; (Google), &lt;a href=&#34;http://www.tandlerdoerjepartner.com/&#34;&gt;Marcus Tandler &amp;amp; Nils Döerje&lt;/a&gt; (Tandler &amp;amp; Döerje Partners) e &lt;a href=&#34;http://www.distilled.co.uk/company/people/tom-critchlow.html&#34;&gt;Tom Critchlow&lt;/a&gt; (Distilled). Chi lavora nell’ambito SEO/SEM riconoscerà senz’altro questi nomi, Fishkin e Kaushik sono stelle di prima grandezza (di Kaushik raccomando senz’altro &lt;a href=&#34;http://www.webanalytics20.com/&#34;&gt;Web Analytics 2.0&lt;/a&gt;, uscito recentemente anche &lt;a href=&#34;http://www.amazon.it/Analytics-Misurare-successo-nellera-Internet/dp/882034498X/ref=sr_1_2?ie=UTF8&amp;amp;qid=1295446745&amp;amp;sr=8-2&#34;&gt;in italiano&lt;/a&gt;).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

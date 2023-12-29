@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sublime text on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/sublime-text/</link>
+    <description>Recent content in sublime text on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 27 Jun 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/sublime-text/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>E finalmente esce Sublime Text 2</title>
+      <link>https://nicolaiarocci.com/e-finalmente-esce-sublime-text-2/</link>
+      <pubDate>Wed, 27 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/e-finalmente-esce-sublime-text-2/</guid>
+      <description>Da ieri Sublime Text 2 è ufficialmente fuori dalla lunghissima beta. Molte novità anche nell’ultima build, incluso il supporto per il Retina Display di OSX (tanto per dire quanto questi ragazzi stiano sul pezzo). Vi propongo un po’ di link di riferimento:
+Annuncio della versione 2.0 sul blog Sublime Come Kenneth Reitz ha configurato ST2 per Python Sublime Text 2 un anno dopo, il mio articolo più recente su ST2 PS: io nel frattempo sono tornato a vim, e per ora ci sto molto comodo.</description>
+    </item>
+    <item>
+      <title>Sublime Text 2 un anno dopo</title>
+      <link>https://nicolaiarocci.com/sublime-text-2-un-anno-dopo/</link>
+      <pubDate>Sat, 10 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/sublime-text-2-un-anno-dopo/</guid>
+      <description>&lt;p&gt;Proprio un anno fa &lt;!-- raw HTML omitted --&gt;presentavo Sublime Text 2&lt;!-- raw HTML omitted --&gt;. Dopo dodici mesi ho pensato di fare il punto della situazione. Si sono susseguiti una serie di aggiornamenti importanti, il prodotto è più maturo e devo dire che in questo periodo non mi ha affatto deluso: è ancora il mio editor di codice preferito. Nel frattempo &lt;!-- raw HTML omitted --&gt;Sublime Text 2&lt;!-- raw HTML omitted --&gt; è diventato &lt;em&gt;mainstream.&lt;/em&gt; Me ne sono reso conto in questi giorni, quando articoli, recensioni, trucchi e suggerimenti su Sublime Text 2 affioravano ripetutamente nel mio feed.&lt;/p&gt;
+&lt;p&gt;Vi propongo alcune delle caratteristiche che ne fanno, almeno per quanto riguarda il mio modo di lavorare, l’editor ideale.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

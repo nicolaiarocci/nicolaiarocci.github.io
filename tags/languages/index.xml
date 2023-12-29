@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>languages on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/languages/</link>
+    <description>Recent content in languages on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 30 Dec 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/languages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microsoft’s New Systems Language</title>
+      <link>https://nicolaiarocci.com/microsofts-new-systems-language/</link>
+      <pubDate>Mon, 30 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/microsofts-new-systems-language/</guid>
+      <description>Number #3 on Praeclarum’s list hits home for me, but all his points are both valid and strong.
+As a programming language nerd I had mixed feelings when Jon Galloway tweeted about Microsoft’s new programming language.
+“Why are your feelings mixed?” I kept asking myself. I love new programming languages. I took an internship at Microsoft just so I could be closer to the people who made C#. I read language specs for fun.</description>
+    </item>
+  </channel>
+</rss>

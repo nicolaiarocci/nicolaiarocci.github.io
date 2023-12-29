@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nosql on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/nosql/</link>
+    <description>Recent content in nosql on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 08 Mar 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/nosql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Primo importante aggiornamento del Piccolo Libro di MongoDB</title>
+      <link>https://nicolaiarocci.com/primo-importante-aggiornamento-del-piccolo-libro-di-mongodb/</link>
+      <pubDate>Thu, 08 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/primo-importante-aggiornamento-del-piccolo-libro-di-mongodb/</guid>
+      <description>Se avete già scaricato il Piccolo Libro di MongoDB vi consiglio di aggiornarlo con la versione odierna. E’ stato aggiunto un capitolo (MapReduce) misteriosamente assente nella prima edizione. Grazie a Walter Tommasi per la preziosa segnalazione, e a Git per averne consentito il recupero in extremis.</description>
+    </item>
+    <item>
+      <title>E’ uscito il Piccolo Libro di MongoDB</title>
+      <link>https://nicolaiarocci.com/e-uscito-il-piccolo-libro-di-mongodb/</link>
+      <pubDate>Tue, 21 Feb 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/e-uscito-il-piccolo-libro-di-mongodb/</guid>
+      <description>Il Piccolo Libro di MongoDB, edizione italiana di The Little MongoDB Book, è finalmente disponibile online. C’è voluto un bel po’ di lavoro, e sono certo i primi lettori scoveranno una serie di errori raccapriccianti, ma vi invito comunque a leggerlo e farmi sapere cosa ne pensate.</description>
+    </item>
+    <item>
+      <title>Il Piccolo Libro di MongoDB</title>
+      <link>https://nicolaiarocci.com/il-piccolo-libro-di-mongodb/</link>
+      <pubDate>Thu, 26 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-piccolo-libro-di-mongodb/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Update: il &lt;a href=&#34;http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/&#34; title=&#34;Il Piccolo Libro di MongoDB, Edizione Italiana&#34;&gt;Piccolo Libro di MongoDB, Edizione Italiana&lt;/a&gt; è ora disponibile online.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Ho cominciato a lavorare alla traduzione autorizzata dell’ottimo &lt;!-- raw HTML omitted --&gt;The Little MongoDB Book&lt;!-- raw HTML omitted --&gt; di Karl Seguin. Ho scovato il libro di Karl mentre raccoglievo la documentazione per un nuovo progetto super-segreto (!) a cui sto lavorando. Lo ritengo un’ottima introduzione al mondo &lt;!-- raw HTML omitted --&gt;NoSQL&lt;!-- raw HTML omitted --&gt; in generale e naturalmente al fantastico &lt;!-- raw HTML omitted --&gt;MongoDB&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
+&lt;p&gt;Il titolo italiano sarà Il Piccolo Libro di MongoDB. La traduzione prosegue costante ma a piccoli passi perché purtroppo o per fortuna di tempo libero ne ho poco. Al momento sono tradotti più o meno grossolanamente l’introduzione e il primo capitolo. Mi farebbe comodo un po’ di aiuto, in particolare per quanto riguarda la revisione del testo. Se qualcuno vuol dare una mano è il benvenuto: potete fare delle &lt;em&gt;pull request&lt;/em&gt; direttamente su &lt;!-- raw HTML omitted --&gt;GitHub&lt;!-- raw HTML omitted --&gt; (metodo preferibile), oppure mandarmi le correzioni via mail. In cambio vi prometto una menzione d’onore e l’eterna gratitudine dei futuri cultori italiani di MongoDB!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

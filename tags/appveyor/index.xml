@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>appveyor on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/appveyor/</link>
+    <description>Recent content in appveyor on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 25 Feb 2017 16:48:09 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/appveyor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting the default timezone in AppVeyor build worker (and C# 7.0 support)</title>
+      <link>https://nicolaiarocci.com/setting-the-default-timezone-in-appveyor-and-c-sharp-7-support/</link>
+      <pubDate>Sat, 25 Feb 2017 16:48:09 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/setting-the-default-timezone-in-appveyor-and-c-sharp-7-support/</guid>
+      <description>So yesterday I pushed some code over to GitHub, then went off to work on a different project. A few seconds later I got an email from AppVeyor telling me that my CI build worker was reporting a failure. I was surprised as just ahead of the push I had tests all green in local.
+Turned out failure was on an equality assertion between two date values:
+As you can see the mismatch was precisely two hours.</description>
+    </item>
+  </channel>
+</rss>

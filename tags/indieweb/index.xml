@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>indieweb on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/indieweb/</link>
+    <description>Recent content in indieweb on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 30 Sep 2022 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/indieweb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Indiepeople</title>
+      <link>https://nicolaiarocci.com/indiepeople/</link>
+      <pubDate>Fri, 30 Sep 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/indiepeople/</guid>
+      <description>Ben Werdmuller has a terrific post up on his website. His &amp;ldquo;tortured&amp;rdquo; analogy of the web and governments as platforms for people to build upon is fascinating.
+I believe strongly in the indieweb principles of distributed ownership, control, and independence. For me, the important thing is that this is how we get to a diverse web. A web where everyone can define not just what they write but how they present is by definition far more expressive, diverse, and interesting than one where most online content and identities must be squished into templates created by a handful of companies based on their financial needs.</description>
+    </item>
+  </channel>
+</rss>

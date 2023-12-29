@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docfx on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/docfx/</link>
+    <description>Recent content in docfx on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 20 Jun 2023 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/docfx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homebrew and docfx don&#39;t like each other too</title>
+      <link>https://nicolaiarocci.com/homebrew-and-docfx-dont-like-each-other-too/</link>
+      <pubDate>Tue, 20 Jun 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/homebrew-and-docfx-dont-like-each-other-too/</guid>
+      <description>Another day another Homebrew incompatibility emerges, this time with docfx, the technical documentation building tool of reference in .NET space. I&amp;rsquo;ve been using docfx for years to build the FatturaElettronica.NET website, and it&amp;rsquo;s always been working without a glitch. Lately, however, my builds have been failing with strange errors I was too lazy to diagnose until today when I decided to grasp the nettle and sort the whole thing out.</description>
+    </item>
+  </channel>
+</rss>

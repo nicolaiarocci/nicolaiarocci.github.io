@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>codecademy on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/codecademy/</link>
+    <description>Recent content in codecademy on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 31 Jul 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/codecademy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Imparare Python con Codecademy</title>
+      <link>https://nicolaiarocci.com/imparare-python-con-codecademy/</link>
+      <pubDate>Tue, 31 Jul 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/imparare-python-con-codecademy/</guid>
+      <description>Di Codecademy avevo già scritto tempo fa in occasione dei loro primi corsi giocoso-interattivi su HTML, CSS e JavaScript. E’ di ieri l’annuncio del nuovo corso Python per principianti. Se volete rompere il ghiaccio con questo bellissimo linguaggio l’approccio di Codecademy (imparare divertendosi, anche grazie a collaudati meccanismi incentivanti come i punteggi e i trofei) potrebbe fare per voi.</description>
+    </item>
+    <item>
+      <title>Imparare HTML e CSS Online con Codecademy</title>
+      <link>https://nicolaiarocci.com/imparare-html-e-css-online-con-codecademy/</link>
+      <pubDate>Tue, 03 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/imparare-html-e-css-online-con-codecademy/</guid>
+      <description>Codecademy propone da ieri un corso gratuito e interattivo su HTML e CSS. Il corso, per principianti, si affianca a quello ormai collaudato (e recentemente ampliato) su JavaScript.
+Il meccanismo è quello della gamification, con tanto di punteggi e badge da conquistare man mano che si raggiungono obiettivi prefissati . Presto dovrebbe uscire anche un corso su Python.
+Compi i tuoi primi passi con HTML e CSS. Non è necessaria alcuna esperienza precedente — cominceremo dalle basi e in poco tempo ti ritroverai a lavorare alla tua homepage personale!</description>
+    </item>
+    <item>
+      <title>Imparare a programmare online con Codecademy</title>
+      <link>https://nicolaiarocci.com/imparare-a-programmare-online-con-codecademy/</link>
+      <pubDate>Fri, 26 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/imparare-a-programmare-online-con-codecademy/</guid>
+      <description>Codecademy è una fantastica iniziativa che insegna a programmare online. Lanciata poco più di una settimana fa, ha già raccolto duecentomila utenti registrati. Brillante l’idea di integrare gli strumenti tipici del social network (badge, punteggi, seguire i progressi degli amici) con un interprete interattivo e un preciso feedback in tempo reale.
+Codecademy è il modo più semplice per imparare a programmare. E’ interattivo, divertente, e lo puoi fare con gli amici</description>
+    </item>
+  </channel>
+</rss>

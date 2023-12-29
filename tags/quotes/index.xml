@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>quotes on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/quotes/</link>
+    <description>Recent content in quotes on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 09 Dec 2023 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/quotes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quoting Andrej Karpathy</title>
+      <link>https://nicolaiarocci.com/quoting-andrej-karpathy/</link>
+      <pubDate>Sat, 09 Dec 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/quoting-andrej-karpathy/</guid>
+      <description>I always struggle a bit with I&amp;rsquo;m asked about the &amp;ldquo;hallucination problem&amp;rdquo; in LLMs. Because, in some sense, hallucination is all LLMs do. They are dream machines.
+We direct their dreams with prompts. The prompts start the dream, and based on the LLM&amp;rsquo;s hazy recollection of its training documents, most of the time the result goes someplace useful.
+It&amp;rsquo;s only when the dreams go into deemed factually incorrect territory that we label it a &amp;ldquo;hallucination&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Quoting Donald Knuth</title>
+      <link>https://nicolaiarocci.com/quoting-donald-knuth/</link>
+      <pubDate>Fri, 26 May 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/quoting-donald-knuth/</guid>
+      <description>Donald Knuth challenged ChatGPT-4 with 20 questions and then submitted the results and his comments to Stephen Wolfram. The whole thing is fascinating in many ways and worth reading.
+Some remarkable quotes:
+Of course these are extremely impressive responses, sometimes astonishingly so; thus I totally understand why you and others have been paying attention to it.
+The most immediate impression is the quality of the wordsmithing. It&amp;rsquo;s way better than 99% of copy that people actually write.</description>
+    </item>
+    <item>
+      <title>Quoting Cicero</title>
+      <link>https://nicolaiarocci.com/quoting-cicero/</link>
+      <pubDate>Sun, 30 Apr 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/quoting-cicero/</guid>
+      <description>Not to know what happened before one was born is always to be a child.
+I found this Cicero quote on Lapham&amp;rsquo;s Quarterly&amp;rsquo;s about page. A little research dug out the supposedly original version found in Orator Ad M. Brutum (46 BC). It goes like this:
+To be ignorant of what occurred before you were born is to remain always a child. For what is the worth of human life, unless it is woven into the life of our ancestors by the records of history?</description>
+    </item>
+    <item>
+      <title>Quoting John Carmack</title>
+      <link>https://nicolaiarocci.com/quoting-john-carmack/</link>
+      <pubDate>Mon, 20 Mar 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/quoting-john-carmack/</guid>
+      <description>John Carmack, while advising on the advent of AI and its influence on the Software Engineering profession:
+Software is just a tool to help accomplish something for people &amp;ndash; many programmers never understood that. Keep your eyes on the delivered value, and don&amp;rsquo;t over-focus on the specifics of the tools.
+I have often fallen into the over-focusing trap in my career. The whole thread is well worth reading:
+(via)
+Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+    </item>
+    <item>
+      <title>Quoting Italo Calvino</title>
+      <link>https://nicolaiarocci.com/quoting-italo-calvino/</link>
+      <pubDate>Fri, 17 Mar 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/quoting-italo-calvino/</guid>
+      <description>Quoting the last paragraph from Italo Calvino&amp;rsquo;s Invisible Cities:
+The inferno of the living is not something that will be; if there is one, it is what is already here, the inferno where we live every day, that we form by being together. There are two ways to escape suffering it. The first is easy for many: accept the inferno and become such a part of it that you can no longer see it.</description>
+    </item>
+    <item>
+      <title>Quoting Solzhenitsyn</title>
+      <link>https://nicolaiarocci.com/quoting-solzhenitsyn/</link>
+      <pubDate>Thu, 16 Feb 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/quoting-solzhenitsyn/</guid>
+      <description>The simple step of a courageous individual is not to take part in the lie. &amp;ndash;Aleksandr Solzhenitsyn
+Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+    </item>
+    <item>
+      <title>Quoting David Foster Wallace</title>
+      <link>https://nicolaiarocci.com/quoting-david-foster-wallace/</link>
+      <pubDate>Thu, 31 Mar 2022 06:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/quoting-david-foster-wallace/</guid>
+      <description>Because here’s something else that’s true. In the day-to-day trenches of adult life, there is actually no such thing as atheism. There is no such thing as not worshipping. Everybody worships. The only choice we get is what to worship. And an outstanding reason for choosing some sort of God or spiritual-type thing to worship-be it J.C. or Allah, be it Yahweh or the Wiccan mother-goddess or the Four Noble Truths or some infrangible set of ethical principles-is that pretty much anything else you worship will eat you alive.</description>
+    </item>
+  </channel>
+</rss>

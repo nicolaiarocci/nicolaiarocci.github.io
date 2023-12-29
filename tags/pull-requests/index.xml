@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pull requests on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/pull-requests/</link>
+    <description>Recent content in pull requests on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/pull-requests/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Better Pull Requests</title>
+      <link>https://nicolaiarocci.com/better-pull-requests/</link>
+      <pubDate>Fri, 16 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/better-pull-requests/</guid>
+      <description>I am not a big fan of top tens but 10 Tips for Better Pull Requests is well worth reading.
+A good Pull Request involves more than just some code. In most cases, there’s one or more reviewer(s) involved, who will have to review your Pull Request in order to evaluate whether it’s a good fit for inclusion in the code base. Not only must you produce good code, but you must also cater to the person(s) doing the review.</description>
+    </item>
+  </channel>
+</rss>

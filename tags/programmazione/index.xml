@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programmazione on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/programmazione/</link>
+    <description>Recent content in programmazione on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 30 Apr 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/programmazione/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quali sono i font migliori per scrivere codice?</title>
+      <link>https://nicolaiarocci.com/quali-sono-i-font-migliori-per-scrivere-codice/</link>
+      <pubDate>Tue, 30 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/quali-sono-i-font-migliori-per-scrivere-codice/</guid>
+      <description>Malgrado la giovane età Source Code Pro di Adobe domina incontrastato, col più classico Consolas come sua regina. Inconsolata-g e Monaco seguono a distanza mentre il mio preferito, Menlo, è tristemente indietro: What Are the Best Programming Fonts?</description>
+    </item>
+    <item>
+      <title>Vi presento Eve il framework per le REST API Web</title>
+      <link>https://nicolaiarocci.com/vi-presento-eve-il-framework-per-lanciare-la-vostra-rest-api-web/</link>
+      <pubDate>Tue, 08 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/vi-presento-eve-il-framework-per-lanciare-la-vostra-rest-api-web/</guid>
+      <description>Lo scorso anno abbiamo lavorato duro per costruirci una RESTful Web API su misura, flessibile e completa. In corso d’opera abbiamo imparato molto sulle migliori pratiche REST, mettendo anche alla frusta le rinomate capacità Web del linguaggio Python.
+Ad EuroPython 2012 ho poi raccontato la nostra esperienza e condiviso ciò che avevamo imparato. In quell’occasione mi sono reso conto di quanto l’argomento fosse d’attualità, tanto che da quel 4 luglio le slide che avevo preparato (le trovate su Speaker Deck o Slideshare) ed i video su YouTube (italiano; inglese) hanno totalizzato 30mila visite.</description>
+    </item>
+    <item>
+      <title>Scrivete il dannato manuale</title>
+      <link>https://nicolaiarocci.com/scrivete-il-dannato-manuale/</link>
+      <pubDate>Sat, 29 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/scrivete-il-dannato-manuale/</guid>
+      <description>Sviluppatori: passate ore, giorni, mesi, forse anni interi a perfezionare il vostro capolavoro. In fin dei conti si tratta dell’espressione di un’intera vita professionale, anima e cuore. Perché dunque vi fate del male dotandolo di documentazione scarna, o addirittura inesistente?
+Write The Freaking Manual</description>
+    </item>
+    <item>
+      <title>JSBooks – Libri Open Source su JavaScript</title>
+      <link>https://nicolaiarocci.com/jsbooks-libri-open-source-su-javascript/</link>
+      <pubDate>Thu, 30 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/jsbooks-libri-open-source-su-javascript/</guid>
+      <description>JSBooks Free JavaScript Books è una valida selezione di risorse gratuite su JavaScript. Si tratta di libri e guide gratuite per programmatori di ogni livello, dal principiante al veterano. Il catalogo include titoli su jQuery, Backbone, design patterns, Node, CoffeeScript, qualcosa su HTML5 e addirittura un libro su MongoDB (si tratta una mia vecchia conoscenza). Alcuni suggerimenti sono davvero di ottima qualità. Il progetto è open source e chiunque può contribuire segnalando nuove interessanti risorse via GitHub.</description>
+    </item>
+    <item>
+      <title>Sull’essere un Programmatore</title>
+      <link>https://nicolaiarocci.com/sullessere-un-programmatore/</link>
+      <pubDate>Sat, 18 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/sullessere-un-programmatore/</guid>
+      <description>Non fare lo stronzo Codice semplice è difficile da scrivere Codice squisitamente semplice è davvero difficile da scrivere Se è semplice leggerlo non vuol dire che sia stato semplice scriverlo In effetti più è semplice più, probabilmente, è stato difficile scriverlo Ci sono molti modi di ottenere lo stesso risultato E’ davvero improbabile che il primo che ti viene in mente sia anche il migliore Probabilmente il migliore non esiste – ne esistono molti, ognuno migliore a modo suo Hai sempre modo di migliorare – nel codice, nelle capacità, in te stesso Se pensi che non sei mai stato così bravo prima d’ora, probabilmente hai ragione Non esistono correzioni di una sola riga Impara a desiderare il successo più di quanto temi il fallimento Diventi vecchio solo quando non sei più capace di imparare nuovi trucchetti Fai sempre un backup prima di “dare una sistemata” al codice Leggi il fottuto manuale A volte un po’ stronzo è ok.</description>
+    </item>
+    <item>
+      <title>Imparare Python con Codecademy</title>
+      <link>https://nicolaiarocci.com/imparare-python-con-codecademy/</link>
+      <pubDate>Tue, 31 Jul 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/imparare-python-con-codecademy/</guid>
+      <description>Di Codecademy avevo già scritto tempo fa in occasione dei loro primi corsi giocoso-interattivi su HTML, CSS e JavaScript. E’ di ieri l’annuncio del nuovo corso Python per principianti. Se volete rompere il ghiaccio con questo bellissimo linguaggio l’approccio di Codecademy (imparare divertendosi, anche grazie a collaudati meccanismi incentivanti come i punteggi e i trofei) potrebbe fare per voi.</description>
+    </item>
+    <item>
+      <title>Flask-MimeRender v0.1.2</title>
+      <link>https://nicolaiarocci.com/flask-mimerender-v0-1-2/</link>
+      <pubDate>Thu, 19 Jul 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/flask-mimerender-v0-1-2/</guid>
+      <description>Grazie al contributo di Bruno Ripa, la versione 0.1.2 di Flask-MimeRender pubblicata oggi introduce il supporto per codici di stato HTTP arbitrari. Ho colto l’occasione per uniformare il codice sorgente alle direttive PEP8 e per sistemare alcuni dettagli del package PyPI. Vi ricordo che potete contribuire voi stessi al progetto, direttamente su GitHub.</description>
+    </item>
+    <item>
+      <title>E finalmente esce Sublime Text 2</title>
+      <link>https://nicolaiarocci.com/e-finalmente-esce-sublime-text-2/</link>
+      <pubDate>Wed, 27 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/e-finalmente-esce-sublime-text-2/</guid>
+      <description>Da ieri Sublime Text 2 è ufficialmente fuori dalla lunghissima beta. Molte novità anche nell’ultima build, incluso il supporto per il Retina Display di OSX (tanto per dire quanto questi ragazzi stiano sul pezzo). Vi propongo un po’ di link di riferimento:
+Annuncio della versione 2.0 sul blog Sublime Come Kenneth Reitz ha configurato ST2 per Python Sublime Text 2 un anno dopo, il mio articolo più recente su ST2 PS: io nel frattempo sono tornato a vim, e per ora ci sto molto comodo.</description>
+    </item>
+    <item>
+      <title>Windows Azure ora supporta ufficialmente Python</title>
+      <link>https://nicolaiarocci.com/windows-azure-ora-supporta-ufficialmente-python/</link>
+      <pubDate>Fri, 08 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/windows-azure-ora-supporta-ufficialmente-python/</guid>
+      <description>Windows Azure ora supporta ufficialmente Python. La pagina ufficiale consente di scaricare l’SDK e contiene alcuni tutorial per la creazione di applicazioni Django, Python e IPython direttamente da Visual Studio.</description>
+    </item>
+    <item>
+      <title>Convertire una data JSON in un oggetto datetime Python</title>
+      <link>https://nicolaiarocci.com/convertire-una-data-json-in-un-oggetto-datetime-python/</link>
+      <pubDate>Thu, 07 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/convertire-una-data-json-in-un-oggetto-datetime-python/</guid>
+      <description>Abbiamo una stringa JSON che contiene una data:
+fonte = &#39;{&amp;quot;ragione_sociale&amp;quot;: &amp;quot;CIR 2000&amp;quot;, &amp;quot;aggiornato_il&amp;quot;: &amp;quot;Wed, 06 Jun 2012 14:19:53 UTC&amp;quot;}&#39; Vediamo che succede se la convertiamo in un dizionario Python:
+import simplejson as json json.loads(fonte) {&#39;aggiornato_il&#39;: &#39;Wed, 06 Jun 2012 14:19:53 UTC &#39;, &#39;ragione_sociale&#39;: &#39;CIR 2000&#39;} Facile, vero? C’è però un piccolo problema: aggiornato_il è ancora una stringa mentre a noi, per poterlo elaborare comodamente, serve un campo datetime.datetime. Come mai il pur potente modulo simplejson non converte correttamente la nostra data?</description>
+    </item>
+    <item>
+      <title>Primi passi con SSH</title>
+      <link>https://nicolaiarocci.com/primi-passi-con-ssh/</link>
+      <pubDate>Wed, 23 May 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/primi-passi-con-ssh/</guid>
+      <description>Se siete ai primi passi nello sviluppo di applicazioni web vi consiglio la lettura di SSH: What and How. Senza troppi fronzoli l’articolo spiega le basi di SSH mettendo bene in luce le possibilità offerte da questo importante strumento di lavoro.
+Ogni giorno molti sviluppatori web usano SSH (“Secure Shell”) per gestire i loro server, fare backup, lavorare in remoto e una miriade di altre cosette. Oggi vi spiego cos’è e da dove viene SSH e, soprattutto, vi insegno come configurarlo sul vostro server remoto o sulla vostra rete locale.</description>
+    </item>
+    <item>
+      <title>Come annullare una Commit in Git</title>
+      <link>https://nicolaiarocci.com/come-annullare-una-commit-in-git/</link>
+      <pubDate>Thu, 17 May 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/come-annullare-una-commit-in-git/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Usando &lt;!-- raw HTML omitted --&gt;Git&lt;!-- raw HTML omitted --&gt; capita ogni tanto, vuoi per stanchezza o per distrazione, di lanciare commit sbagliate. Stamattina m’è capitato di sistemare del codice, testarlo e fare la commit… solo per scoprire di aver lavorato sulla branch sbagliata! Non è la prima volta che mi succede e non sarà nemmeno l’ultima. Poiché ho scarsa memoria ogni volta mi tocca usare google e ripescare quei due o tre comandi utili in questi casi. Ho pensato di appuntarli qui, un po’ per metterli a disposizione di tutti, un po’ per poterli ritrovare facilmente.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Guido van Rossum a EuroPython 2012</title>
+      <link>https://nicolaiarocci.com/guido-van-rossum-a-europython-2012/</link>
+      <pubDate>Fri, 20 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/guido-van-rossum-a-europython-2012/</guid>
+      <description>Partenza col botto per EuroPython 2012. I keynote introduttivi saranno tenuti nientemeno che dal creatore stesso del linguaggio, Guido Van Rossum, e da Alex Martelli. Ieri è stato annunciato il programma ufficiale e a quanto pare mi spetta l’inaugurazione della italian track martedì 3 luglio. Il giorno successivo sarò impegnato, ancora di prima mattina, con la versione in lingua inglese del mio talk:
+Sviluppare una RESTful Web API con Python, Flask e MongoDB</description>
+    </item>
+    <item>
+      <title>Imparare Git un passo alla volta con Git Immersion</title>
+      <link>https://nicolaiarocci.com/imparare-git-un-passo-alla-volta-con-git-immersion/</link>
+      <pubDate>Fri, 13 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/imparare-git-un-passo-alla-volta-con-git-immersion/</guid>
+      <description>Già sapete che Git è uno degli strumenti senza i quali non potrei più vivere, ne ho scritto anche recentemente in Branching di successo per Git e Usare Git con Dropbox. Oggi vi propongo Git Immersion, fantastico sito-laboratorio per “immergersi” in Git imparandolo passo dopo passo.
+Git Immersion è un tour guidato che ti accompagna in una passeggiata tra i fondamenti di Git, ispirato dalla premessa che conoscere una cosa significa usarla.</description>
+    </item>
+    <item>
+      <title>Speaker a EuroPython 2012</title>
+      <link>https://nicolaiarocci.com/speaker-a-europython-2012/</link>
+      <pubDate>Fri, 13 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/speaker-a-europython-2012/</guid>
+      <description>EuroPython è la conferenza europea di riferimento per il linguaggio Python. Si terrà anche quest’anno a Firenze, dal 2 al 8 luglio. Sono in programma molti interventi davvero interessanti, cosa che rende ancor più soprendente il fatto che i miei talk siano stati votati così tanto.
+Date un’occhiata al sito ufficiale per saperne di più sulla conferenza (in questo momento è ancora possibile approfittare dell’offerta early bird per l’acquisto dei biglietti); maggiori informazioni sui miei interventi tra qualche tempo, quando sarà ufficializzato il calendario dei talk.</description>
+    </item>
+    <item>
+      <title>Usare Git con Dropbox</title>
+      <link>https://nicolaiarocci.com/usare-git-con-dropbox/</link>
+      <pubDate>Sat, 17 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/usare-git-con-dropbox/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;usare-dropbox-come-repository-git-remoto&#34;&gt;Usare Dropbox come repository Git remoto&lt;/h2&gt;
+&lt;p&gt;Recentemente, più che altro per curiosità, ho giocato con una terza opzione: &lt;!-- raw HTML omitted --&gt;Dropbox&lt;!-- raw HTML omitted --&gt;. Per me Dropbox è uno strumento indispensabile sia per il lavoro che per le mie cose personali. Su qualunque computer io sia, ovunque mi trovi, grazie a Dropbox ho accesso al mio materiale. Dunque, mi son detto, perché non usarlo anche per il codice,  pur senza rinunciare al controllo versione offerto da Git?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://db.tt/V8L8FFo&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ebbene ho scoperto che non solo è possibile, è anche molto semplice. In realtà non c’è nulla di nuovo in quel che vi mostro, la ‘magia’ la fa tutta Dropbox.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>7 Risorse Per Sviluppatori JavaScript</title>
+      <link>https://nicolaiarocci.com/7-risorse-per-sviluppatori-javascript/</link>
+      <pubDate>Thu, 15 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/7-risorse-per-sviluppatori-javascript/</guid>
+      <description>Anni fa JavaScript era considerato più che altro una seccatura: produceva queste animazioni e trailer per il browser e poco altro. Ora tutto è cambiato. JavaScript è eletto a linguaggio funzionale di prima classe e in rete sono disponibili risorse innumerevoli . Condivido con voi alcune delle mie fonti migliori, che uso per tenermi aggiornato su librerie, progetti e JavaScript in generale. – Rob Bazinet</description>
+    </item>
+    <item>
+      <title>Sublime Text 2 un anno dopo</title>
+      <link>https://nicolaiarocci.com/sublime-text-2-un-anno-dopo/</link>
+      <pubDate>Sat, 10 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/sublime-text-2-un-anno-dopo/</guid>
+      <description>&lt;p&gt;Proprio un anno fa &lt;!-- raw HTML omitted --&gt;presentavo Sublime Text 2&lt;!-- raw HTML omitted --&gt;. Dopo dodici mesi ho pensato di fare il punto della situazione. Si sono susseguiti una serie di aggiornamenti importanti, il prodotto è più maturo e devo dire che in questo periodo non mi ha affatto deluso: è ancora il mio editor di codice preferito. Nel frattempo &lt;!-- raw HTML omitted --&gt;Sublime Text 2&lt;!-- raw HTML omitted --&gt; è diventato &lt;em&gt;mainstream.&lt;/em&gt; Me ne sono reso conto in questi giorni, quando articoli, recensioni, trucchi e suggerimenti su Sublime Text 2 affioravano ripetutamente nel mio feed.&lt;/p&gt;
+&lt;p&gt;Vi propongo alcune delle caratteristiche che ne fanno, almeno per quanto riguarda il mio modo di lavorare, l’editor ideale.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Una REST API che adatta le sue risposte al MIME Media-Type delle richieste HTTP</title>
+      <link>https://nicolaiarocci.com/come-implementare-un-web-service-rest-che-adatta-le-risposte-al-mime-media-type-delle-richieste-http/</link>
+      <pubDate>Fri, 03 Feb 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/come-implementare-un-web-service-rest-che-adatta-le-risposte-al-mime-media-type-delle-richieste-http/</guid>
+      <description>&lt;p&gt;Da qualche tempo sto lavorando alla implementazione di una REST API. In linea generale e semplificando, una &lt;!-- raw HTML omitted --&gt;API&lt;!-- raw HTML omitted --&gt; è un servizio che espone alcune funzionalità, è accessibile via internet più o meno liberamente ed è, infine, utilizzabile non solo da persone fisiche ma anche e soprattutto da altre applicazioni. Un esempio di API è quella di Facebook, che consente a chiunque di creare applicazioni che interagiscono con gli utenti e le pagine Facebook. Già, se non ci fosse la API non esisterebbero i terribili giochini Facebook…&lt;/p&gt;
+&lt;p&gt;Una delle specifiche &lt;!-- raw HTML omitted --&gt;REST&lt;!-- raw HTML omitted --&gt; più importanti vuole che un servizio RESTful sia in grado di fornire dati in più formati, in modo tale da soddisfare il maggior numero possibile di utenti/applicazioni. Immaginiamo un servizio che fornisce i risultati delle partite del campionato di calcio. Supponiamo che arrivino tre richieste successive per lo stesso risultato: la prima potrebbe chiedere una risposta in formato XML, la seconda in JSON e la terza in HTML. Il  nostro servizio deve rispondere a tutte e tre le richieste, adattando il flusso di dati della risposta al formato di ognuna.&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Nel mio caso la API che sto implementando supporta XML, JSON, HTML e testo puro. E’ scritta in Python (ma va!) e si appoggia all’eccellente &lt;!-- raw HTML omitted --&gt;Flask&lt;!-- raw HTML omitted --&gt; micro web framework. Per risolvere in maniera elegante il problema delle risposte multi-formato ho deciso di usare i &lt;!-- raw HTML omitted --&gt;decorator&lt;!-- raw HTML omitted --&gt;, una delle caratteristiche più interessanti di Python. Dopo un po’ di lavoro in proprio ho scoperto che qualcuno aveva già risolto il problema, per giunta con la stessa tecnica. &lt;!-- raw HTML omitted --&gt;MimeRender&lt;!-- raw HTML omitted --&gt; di Martin Blech è un’ottima soluzione, solo che è specifica per web.py (un altro web framework). La mia soluzione non disponeva di alcune opzioni interessanti che MimeRender include; ho deciso allora di scrivere un port di MimeRender per Flask, e di metterlo a disposizione del pubblico.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Il Piccolo Libro di MongoDB</title>
+      <link>https://nicolaiarocci.com/il-piccolo-libro-di-mongodb/</link>
+      <pubDate>Thu, 26 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-piccolo-libro-di-mongodb/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Update: il &lt;a href=&#34;http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/&#34; title=&#34;Il Piccolo Libro di MongoDB, Edizione Italiana&#34;&gt;Piccolo Libro di MongoDB, Edizione Italiana&lt;/a&gt; è ora disponibile online.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Ho cominciato a lavorare alla traduzione autorizzata dell’ottimo &lt;!-- raw HTML omitted --&gt;The Little MongoDB Book&lt;!-- raw HTML omitted --&gt; di Karl Seguin. Ho scovato il libro di Karl mentre raccoglievo la documentazione per un nuovo progetto super-segreto (!) a cui sto lavorando. Lo ritengo un’ottima introduzione al mondo &lt;!-- raw HTML omitted --&gt;NoSQL&lt;!-- raw HTML omitted --&gt; in generale e naturalmente al fantastico &lt;!-- raw HTML omitted --&gt;MongoDB&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
+&lt;p&gt;Il titolo italiano sarà Il Piccolo Libro di MongoDB. La traduzione prosegue costante ma a piccoli passi perché purtroppo o per fortuna di tempo libero ne ho poco. Al momento sono tradotti più o meno grossolanamente l’introduzione e il primo capitolo. Mi farebbe comodo un po’ di aiuto, in particolare per quanto riguarda la revisione del testo. Se qualcuno vuol dare una mano è il benvenuto: potete fare delle &lt;em&gt;pull request&lt;/em&gt; direttamente su &lt;!-- raw HTML omitted --&gt;GitHub&lt;!-- raw HTML omitted --&gt; (metodo preferibile), oppure mandarmi le correzioni via mail. In cambio vi prometto una menzione d’onore e l’eterna gratitudine dei futuri cultori italiani di MongoDB!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Python nella scuola italiana. Si può.</title>
+      <link>https://nicolaiarocci.com/python-nella-scuola-italiana-si-puo/</link>
+      <pubDate>Fri, 25 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/python-nella-scuola-italiana-si-puo/</guid>
+      <description>&lt;p&gt;Mia moglie è docente nel liceo artistico della nostra città. L’anno scorso era coinvolta in un progetto che vedeva studenti e professori impegnati nella progettazione di un monumento da installare nella sede dell’Autorità Portuale.&lt;/p&gt;
+&lt;p&gt;Il soggetto scelto dal team erano le onde del mare e ben presto si pose il problema di rappresentarle realisticamente. Un insegnate di Matematica suggerì di ricorrere alla teoria dei &lt;!-- raw HTML omitted --&gt;frattali&lt;!-- raw HTML omitted --&gt;. Idea brillante che offriva l’opportunità di un approfondimento didattico piuttosto insolito per un liceo artistico.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ci sono più offerte di lavoro che Programmatori .NET</title>
+      <link>https://nicolaiarocci.com/ci-sono-piu-offerte-di-lavoro-che-programmatori-net/</link>
+      <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/ci-sono-piu-offerte-di-lavoro-che-programmatori-net/</guid>
+      <description>&lt;p&gt;Ai primi di ottobre &lt;!-- raw HTML omitted --&gt;TechCrunch&lt;!-- raw HTML omitted --&gt; riportava una notizia interessante: negli Stati Uniti ci sarebbe carenza di sviluppatori .NET. La piattaforma di recruitment Dice dichiara che le offerte di lavoro .NET aumentano del 25% ogni anno, e che la gran parte delle ricerche sui loro database riguarda skill .NET. Ai primi di ottobre 2011 sarebbero state oltre 10.000 le richieste inevase di figure professionali .NET.&lt;/p&gt;
+&lt;p&gt;Notizie di questo tipo vanno prese con beneficio di inventario anche se in questo caso una conferma indiretta viene da WANTED Analytics, che a Settembre ha pubblicato un &lt;!-- raw HTML omitted --&gt;report&lt;!-- raw HTML omitted --&gt; indipendente che sembra giungere alle stesse conclusioni. Anche i &lt;!-- raw HTML omitted --&gt;commenti&lt;!-- raw HTML omitted --&gt; all’articolo di TechCrunch sono confortanti: ci sono aziende che ammettono di essere a caccia di sviluppatori .NET e ci sono programmatori che confermano di ricevere continuamente offerte di lavoro (non mancano quelli che sono passati ad altri linguaggi e non se ne pentono).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Python per il Web</title>
+      <link>https://nicolaiarocci.com/python-per-il-web/</link>
+      <pubDate>Thu, 20 Oct 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/python-per-il-web/</guid>
+      <description>Python for the Web è una agile guida introduttiva per chi vuole accedere al Web via Python. Vengono presentate tre eccellenti librerie: Requests, simplejson e lxml. La prima consente di interagire facilmente coi siti Web da Python, la seconda serve a processare i flussi JSON e l’ultima è una fantastica risorsa per lo scraping (l’ho usata in un mio progetto, ve la consiglio senz’altro). L’ultimo argomento della guida è la creazione di siti web in Python attraverso il framework Django.</description>
+    </item>
+    <item>
+      <title>Il Linguaggio più importante per il Programmatore</title>
+      <link>https://nicolaiarocci.com/il-linguaggio-piu-importante-per-il-programmatore/</link>
+      <pubDate>Wed, 19 Oct 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-linguaggio-piu-importante-per-il-programmatore/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Molti programmatori hanno difficoltà nel gestire la comunicazione. Non intendo quella di rete, ma quella interpersonale. E’ forse per questo che gran parte di loro preferisce lavorare in proprio. Ciò gli consente di non dover comunicare o perlomeno di farlo il meno possibile.&lt;/p&gt;
+&lt;p&gt;Luogo comune vuole che i programmatori siano persone chiuse, a volte timide, oppure scontrose e irascibili; più interessate al codice che non alle relazioni interpersonali.  E’ pur vero che il nostro lavoro richiede concentrazione. Molti &lt;!-- raw HTML omitted --&gt;sostengono&lt;!-- raw HTML omitted --&gt; che programmare è una forma d’arte e la gran parte degli artisti (pittori, scultori, disegnatori) non lavora forse in silenzio?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sui Vantaggi del Programmatore Poliglotta</title>
+      <link>https://nicolaiarocci.com/sui-vantaggi-del-programmatore-poliglotta/</link>
+      <pubDate>Wed, 21 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/sui-vantaggi-del-programmatore-poliglotta/</guid>
+      <description>&lt;p&gt;Per gran parte della mia carriera sono stato un programmatore client/server specializzato nel .NET Framework e in tutto quel gira intorno all’ecosistema Microsoft. Un paio di anni fa ho deciso di uscire dalla mia &lt;em&gt;&lt;!-- raw HTML omitted --&gt;comfort zone&lt;!-- raw HTML omitted --&gt;&lt;/em&gt; professionale, guardarmi attorno e, per citare &lt;a href=&#34;http://www.youtube.com/watch?v=Ex2fpsz-hQI&#34; title=&#34;Quanto è profonda la tana del Bianconiglio?&#34;&gt;qualcun’altro&lt;/a&gt;, andare a vedere &lt;em&gt;quanto è profonda la tana del Bianconiglio&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Tempo libero a disposizione non ce n’era. A quarant’anni tra lavoro, famiglia e attività agonistica mi rimaneva solo la via del furto: rubare ore al sonno per dedicarmi allo studio di nuovi linguaggi e piattaforme. Prima è stato il turno di JavaScript, poi di Python, Django, Ruby e infine Node e MongoDB. Ora mi considero un programmatore poliglotta, capace di scrivere codice in una moltitudine di linguaggi.&lt;/p&gt;
+&lt;p&gt;Eppure in passato sono sempre stato convinto che fosse più produttivo concentrarsi su una sola piattaforma per conoscerla fino in fondo e sfruttarne al meglio le possibilità. Sulle ragioni che mi hanno indotto a prendere quella decisione potrei scrivere una decina di articoli, e magari lo farò prima o poi, ma quel che desidero condividere oggi sono le lezioni che questa esperienza mi ha insegnato.&lt;/p&gt;
+&lt;p&gt;A dire il vero ci ho già provato una volta, buttando giù appunti e abbozzando un articolo poi miseramente abbandonato. Per fortuna qualche giorno fa sono incappato in &lt;!-- raw HTML omitted --&gt;Advantages of Being a Polyglot Programmer&lt;!-- raw HTML omitted --&gt;, stupefacente articolo di Davy Brion. Il suo è &lt;em&gt;precisamente&lt;/em&gt; il pezzo che io non riuscivo a scrivere, parola per parola. Davy elenca quelli che secondo lui sono i cinque principali vantaggi del programmatore poliglotta. Io ne aggiungo uno e ve li propongo – fate conto che sia io a parlare attraverso lui, o viceversa.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Imparare a programmare online con Codecademy</title>
+      <link>https://nicolaiarocci.com/imparare-a-programmare-online-con-codecademy/</link>
+      <pubDate>Fri, 26 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/imparare-a-programmare-online-con-codecademy/</guid>
+      <description>Codecademy è una fantastica iniziativa che insegna a programmare online. Lanciata poco più di una settimana fa, ha già raccolto duecentomila utenti registrati. Brillante l’idea di integrare gli strumenti tipici del social network (badge, punteggi, seguire i progressi degli amici) con un interprete interattivo e un preciso feedback in tempo reale.
+Codecademy è il modo più semplice per imparare a programmare. E’ interattivo, divertente, e lo puoi fare con gli amici</description>
+    </item>
+    <item>
+      <title>Mono 2.10.3 gira su OS X Lion (ed è vivo e vegeto)</title>
+      <link>https://nicolaiarocci.com/mono-2-10-3-gira-su-os-x-lion-ed-e-vivo-e-vegeto/</link>
+      <pubDate>Fri, 05 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/mono-2-10-3-gira-su-os-x-lion-ed-e-vivo-e-vegeto/</guid>
+      <description>Xamarin, la compagnia che ha preso in mano il Progetto Mono dopo l’addio di Novell, ha appena rilasciato Mono 2.10.3. Ne da annuncio lo stesso Manuel de Icaza, storico deux-ex-machina del progetto e fondatore di Xamarin.
+Si tratta per lo più di una versione di manutenzione che risolve numerosi problemi, primo fra tutti l’instabilità di Mono sull’ultima versione di MacOS X Lion.
+L’importanza di questo aggiornamento va ben oltre le sue caratteristiche tecniche.</description>
+    </item>
+    <item>
+      <title>JavaScript trucchi e suggerimenti avanzati</title>
+      <link>https://nicolaiarocci.com/javascript-trucchi-e-suggerimenti-avanzati/</link>
+      <pubDate>Mon, 18 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/javascript-trucchi-e-suggerimenti-avanzati/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Ho scovato quasi per caso &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Javascript Tips&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, incredibile collezione di trucchi e suggerimenti per JavaScript. Si tratta di decine di snippets rivolti soprattutto a chi JavaScript lo usa come un linguaggio vero e proprio e non, come spesso capita, quale semplice strumento per la manipolazione del DOM.&lt;/p&gt;
+&lt;p&gt;Tra le tante chicche (alcune davvero gustose) vi segnalo a caso: &lt;!-- raw HTML omitted --&gt;concatenare due array&lt;!-- raw HTML omitted --&gt; senza crearne uno nuovo; mandare un testo in &lt;!-- raw HTML omitted --&gt;output su più righe&lt;!-- raw HTML omitted --&gt;; una funzione per &lt;!-- raw HTML omitted --&gt;eliminare un elemento da un array&lt;!-- raw HTML omitted --&gt;; una riga di codice che &lt;!-- raw HTML omitted --&gt;stampa lo stack&lt;!-- raw HTML omitted --&gt; delle chiamate correnti; un esempio di come &lt;!-- raw HTML omitted --&gt;trasformare gli argomenti di una funzione in array&lt;!-- raw HTML omitted --&gt;. Ce n’é per tutti i palati, dal principiante al più esperto, &lt;!-- raw HTML omitted --&gt;date una occhiata&lt;!-- raw HTML omitted --&gt; voi stessi.&lt;/p&gt;
+&lt;p&gt;Buona parte dei trucchi funziona con&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Python Tools per Visual Studio 2010 arriva la RC1</title>
+      <link>https://nicolaiarocci.com/python-tools-per-visual-studio-2010-arriva-la-rc1/</link>
+      <pubDate>Tue, 12 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/python-tools-per-visual-studio-2010-arriva-la-rc1/</guid>
+      <description>&lt;p&gt;Prosegue senza intoppi il cammino di &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Python Tools per Visual Studio&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, il progetto open source targato Microsoft che consente di programmare in Python con Visual Studio 2010. Dopo il &lt;a href=&#34;http://nicolaiarocci.com/python-tools-per-visual-studio-2010/&#34; title=&#34;Programmare in Python con Visual Studio 2010&#34;&gt;lancio ufficiale&lt;/a&gt; dello scorso marzo e la successiva &lt;a href=&#34;http://nicolaiarocci.com/python-tools-per-visual-studio-ecco-la-beta-2/&#34; title=&#34;Python Tools per Visual Studio 2010 Beta 2&#34;&gt;Beta 2&lt;/a&gt; di maggio, ieri è stata presentata la &lt;strong&gt;Release Candidate 1&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dei vizi del programmatore #3: Orgoglio</title>
+      <link>https://nicolaiarocci.com/dei-vizi-del-programmatore-3-lorgoglio/</link>
+      <pubDate>Wed, 29 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/dei-vizi-del-programmatore-3-lorgoglio/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;Tutto comincia con una normale riunione tra programmatori, magari dedicata all’analisi di un nuovo intrigante progetto software. I toni inizialmente tranquilli all’improvviso si alzano e quello che doveva essere un incontro di routine si trasforma rapidamente in qualcos’altro. La discussione, ora vivace e concitata, diventa un vero e proprio alterco. Sedie penne e matite vengono spostate freneticamente, le voci si sovrappongono l’un l’altra e man mano che il tempo passa il meeting assomiglia sempre più a un furioso scontro tra galli combattenti. Se avete una certa carriera alle spalle ci siete già passati; se non l’avete state tranquilli, prima o poi ci passerete anche voi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Noi programmatori miglioriamo con l’età (forse)</title>
+      <link>https://nicolaiarocci.com/noi-programmatori-miglioriamo-con-leta-forse/</link>
+      <pubDate>Tue, 14 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/noi-programmatori-miglioriamo-con-leta-forse/</guid>
+      <description>&lt;p&gt;Man mano che partecipo ai vari eventi in giro per l’Italia mi capita sempre più spesso di ritrovarmi a essere, tra i partecipanti, uno dei più anziani. L’altro giorno al &lt;!-- raw HTML omitted --&gt;Cowo on the Beach&lt;!-- raw HTML omitted --&gt; distanziavo tutti di almeno una decade. Mi sono detto che i veterani non amano frequentare gli eventi pubblici, non tanto quanto li apprezzavano da giovani, e mi sono messo l’anima in pace.&lt;/p&gt;
+&lt;p&gt;Fino a stamattina, quando un bell’articolo di &lt;!-- raw HTML omitted --&gt;Peter Knego&lt;!-- raw HTML omitted --&gt; mi ha svelato la scomoda verità (che inconsciamente rifiutavo di considerare). &lt;strong&gt;I programmatori oltre i trent’anni, per non dire dei quaranta, sono merce rara&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Partendo dai dati pubblici messi a disposizione da &lt;!-- raw HTML omitted --&gt;StackOverflow&lt;!-- raw HTML omitted --&gt; e relativi a un campione di ben 37.400 programmatori, Peter ha indagato sul rapporto tra età, reputazione e quantità di programmatori ancora attivi. Ne è uscita una serie di grafici davvero interessante.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Windows 8 e i dubbi sul destino di Silverlight</title>
+      <link>https://nicolaiarocci.com/windows-8-e-i-dubbi-sul-destino-di-silverlight/</link>
+      <pubDate>Wed, 08 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/windows-8-e-i-dubbi-sul-destino-di-silverlight/</guid>
+      <description>&lt;p&gt;Con un &lt;!-- raw HTML omitted --&gt;filmato di 10 minuti&lt;!-- raw HTML omitted --&gt; Microsoft ha presentato in anteprima il nuovo Windows 8. A molti non è sfuggita l’enfasi su HTML5 e JavaScript, annunciate come le tecnologie con le quali costruire le nuove accattivanti applicazioni per Windows 8. Il fatto che non si faccia cenno a Silverlight, WPF o .NET sta causando un bel po’ di preoccupazione.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>Il Cloud Computing è davvero affidabile?</title>
+      <link>https://nicolaiarocci.com/il-cloud-computing-e-davvero-affidabile/</link>
+      <pubDate>Fri, 03 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-cloud-computing-e-davvero-affidabile/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;E’ di pochi giorni fa la &lt;!-- raw HTML omitted --&gt;notizia&lt;!-- raw HTML omitted --&gt; che alcuni servizi API gratuiti forniti da Google verranno chiusi. Tra questi spicca &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Translate API&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, la più apprezzata libreria gratuita per la traduzione automatica sul web. Basta una occhiata ai &lt;!-- raw HTML omitted --&gt;commenti &lt;!-- raw HTML omitted --&gt;per rendersi conto dello sconcerto generato dall’annuncio, per altro del tutto inatteso. Molti si dicono disposti a pagare pur di non rinunciare alla API, ma non è  questa l’idea di Google che in alternativa propone &lt;!-- raw HTML omitted --&gt;Google Translate Element&lt;!-- raw HTML omitted --&gt;, widget gratuito che certo non è una soluzione accettabile per applicazioni che attualmente integrano la API in maniera trasparente. Immagino che proprio qui stia il nocciolo della questione: una API non è visibile né apprezzabile dall’esterno, mentre un widget promuove il brand Google.&lt;/p&gt;
+&lt;p&gt;Migliaia di aziende, enti pubblici e organizzazioni non governative internazionali che oggi usano la API dovranno trovare soluzioni alternative, probabilmente a pagamento. Almeno gli è stato concesso un po’ di tempo: Google garantisce un periodo di tre anni prima della sospensione del servizio.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Questa notizia induce ancora una volta alcune riflessioni circa l’affidabilità del &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Cloud Computing&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, modello di sviluppo verso il quale, volenti o nolenti, tutti noi siamo diretti.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dei vizi del programmatore #2: La Fretta</title>
+      <link>https://nicolaiarocci.com/dei-vizi-dei-programmatori-2-la-fretta/</link>
+      <pubDate>Mon, 30 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/dei-vizi-dei-programmatori-2-la-fretta/</guid>
+      <description>&lt;h2 id=&#34;8220per-risolvere-il-problema-mi-bastano-un-paio-di-minuti8221&#34;&gt;“Per risolvere il problema mi bastano un paio di minuti”&lt;/h2&gt;
+&lt;p&gt;La tentazione della scorciatoia. E’ difficile resisterle, prima o poi ci caschiamo tutti. In alcuni casi isolati vale la pena scegliere la strada più veloce, ma non è certo questa la via maestra. E’ pericolosa e in genere causa più problemi di quelli che risolve. Una scorciatoia può farti risparmiare qualche ora ma i danni causati possono costarti mesi di lavoro.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dei vizi del programmatore #1: La Superbia</title>
+      <link>https://nicolaiarocci.com/dei-vizi-del-programmatore-1-la-superbia/</link>
+      <pubDate>Fri, 27 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/dei-vizi-del-programmatore-1-la-superbia/</guid>
+      <description>&lt;h2 id=&#34;il-mio-codice-è-perfetto-quello-degli-altri-è-spazzatura&#34;&gt;Il mio codice è perfetto. Quello degli altri è spazzatura&lt;/h2&gt;
+&lt;p&gt;La superbia è un atteggiamento molto frequente tra noi programmatori. Io stesso sono – ahimé – un superbo seriale. Non importa quanto ci impegniamo. Ci saranno sempre colleghi che giudicheranno male il nostro codice, che penseranno di poter far meglio.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Python Tools per Visual Studio ecco la Beta 2</title>
+      <link>https://nicolaiarocci.com/python-tools-per-visual-studio-ecco-la-beta-2/</link>
+      <pubDate>Tue, 10 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/python-tools-per-visual-studio-ecco-la-beta-2/</guid>
+      <description>&lt;p&gt;Microsoft ha rilasciato la seconda beta di &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Python Tools per Visual Studio&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, il suo progetto open source che offre agli sviluppatori la possibilità di scrivere codice Python, CPython e IronPython nell’ambiente IDE di Visual Studio 2010.&lt;/p&gt;
+&lt;p&gt;Il progetto è stato presentato al &lt;!-- raw HTML omitted --&gt;PyCon 2011&lt;!-- raw HTML omitted --&gt; dal &lt;!-- raw HTML omitted --&gt;Microsoft Technical Computing Group&lt;!-- raw HTML omitted --&gt; ed è davvero ben fatto. Per tutti gli approfondimenti vi rimando al mio articolo &lt;!-- raw HTML omitted --&gt;Programmare in Python con Visual Studio 2010&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Il reddit dei programmatori italiani</title>
+      <link>https://nicolaiarocci.com/il-reddit-dei-programmatori-italiani/</link>
+      <pubDate>Wed, 13 Apr 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-reddit-dei-programmatori-italiani/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Reddit&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt; è un servizio di condivisione, votazione e discussione delle risorse in rete. In tempi recenti è diventato uno dei punti di riferimento della comunità internazionale degli &lt;!-- raw HTML omitted --&gt;alpha-geek&lt;!-- raw HTML omitted --&gt;, sbaragliando una concorrenza agguerrita e ben radicata.&lt;/p&gt;
+&lt;p&gt;Reddit ha conquistato un pubblico particolarmente ostico ed esigente grazie alla sua caratteristica più peculiare: essere un &lt;strong&gt;sistema aperto&lt;/strong&gt;. Potremmo definire Reddit una semplice infrastruttura lasciata in gestione agli utenti, i quali ricambiano dedicandosi con dedizione alla cura dei contenuti. Su Reddit chiunque in pochi secondi può creare un’area nuova dedicata a un argomento non ancora trattato. Se il tema è valido i contributi arrivano: segnalazioni di nuove risorse (articoli, tutorial, opinioni), votazioni e discussioni spesso vivaci. Reddit è un po’ Wikipedia, un po’ Facebook e un po’ Twitter.&lt;/p&gt;
+&lt;p&gt;La scommessa è quella di una selezione naturale dei contenuti, compiuta dai loro diretti destinatari e non (solo) dagli autori, come succede nel caso degli aggregatori di notizie.&lt;/p&gt;
+&lt;h2 id=&#34;reddit-in-italia&#34;&gt;Reddit in Italia&lt;/h2&gt;
+&lt;p&gt;In Italia Reddit è ancora poco conosciuto, ma qualcosa sta cambiando.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Il Formato Valuta in ASP.NET quando il sito è all’estero</title>
+      <link>https://nicolaiarocci.com/il-formato-valuta-in-asp-net-quando-il-sito-e-allestero/</link>
+      <pubDate>Mon, 28 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-formato-valuta-in-asp-net-quando-il-sito-e-allestero/</guid>
+      <description>&lt;p&gt;Una settimana fa abbiamo lanciato il nuovo sito del &lt;a href=&#34;http://gestionaleamica.com&#34; title=&#34;Gestionale Amica&#34;&gt;Gestionale Amica&lt;/a&gt;, il nostro prodotto di punta. E’ scritto in &lt;strong&gt;ASP.NET&lt;/strong&gt; ed è dotato di un sistema di e-commerce sviluppato su misura. Carrello della spesa, checkout, pagamenti con carta di credito, tracciamento ordini, profilo utenti… un lavoro del quale sono piuttosto orgoglioso. Man mano che il giorno del debutto si avvicinava cresceva l’eccitazione; ero impaziente di vederlo funzionare questo gioiellino. Finalmente il 21 marzo è arrivato e con la primavera è sbocciato il nuovo sito. Come è andata? Bene! A parte un piccolo dettaglio. Il mio gioiellino vendeva in Dollari ($) anziché in Euro (€)&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>Eclipse Foundation lancia la beta pubblica di OrionHub</title>
+      <link>https://nicolaiarocci.com/eclipse-foundation-lancia-la-beta-pubblica-di-orionhub/</link>
+      <pubDate>Tue, 22 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/eclipse-foundation-lancia-la-beta-pubblica-di-orionhub/</guid>
+      <description>Eclipse Foundation ha avviato il beta testing di OrionHub, una implementazione hosted del suo Progetto Orion. Orion è una piattaforma di sviluppo aperta dedicata allo sviluppo per il web, dentro il web. La IDE Orion gira nel browser e fornisce un completo ambiente di produzione per progetti JavaScript, HTML e CSS. Il risultato è ottenuto grazie a un plugin lato client sviluppato in HTML5.
+Per un approfondimento dai una occhiata a Il futuro del codice sorgente è online?</description>
+    </item>
+    <item>
+      <title>SublimeText 2 – Un sofisticato text editor per codice, HTML e prosa</title>
+      <link>https://nicolaiarocci.com/sublimetext-2-un-sofisticato-text-editor-per-codice-html-e-prosa/</link>
+      <pubDate>Sat, 19 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/sublimetext-2-un-sofisticato-text-editor-per-codice-html-e-prosa/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;SublimeText 2&lt;!-- raw HTML omitted --&gt; è il mio nuovo text editor preferito. Veloce, ricco di &lt;a href=&#34;http://www.sublimetext.com/features&#34;&gt;funzioni avanzate&lt;/a&gt; eppure semplice grazie a una interfaccia gradevole e minimalista. Mi ci sono imbattuto per caso quando ormai avevo rinunciato a trovare un valido sostituto a TextMate. Cercavo da tempo una soluzione &lt;strong&gt;multi piattaforma&lt;/strong&gt; che mi consentisse di lavorare nello stesso ambiente sia a casa (OSX) che in ufficio (Windows). SublimeText 2 gira su &lt;strong&gt;Windows&lt;/strong&gt;, &lt;strong&gt;OSX&lt;/strong&gt; e &lt;strong&gt;Linux&lt;/strong&gt; e sta raccogliendo attorno a sé una &lt;a href=&#34;http://www.sublimetext.com/forum/&#34;&gt;comunità molto attiva&lt;/a&gt; di supporters e sviluppatori entusiasti.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Programmare in Python con Visual Studio 2010</title>
+      <link>https://nicolaiarocci.com/python-tools-per-visual-studio-2010/</link>
+      <pubDate>Mon, 14 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/python-tools-per-visual-studio-2010/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://pytools.codeplex.com/&#34;&gt;Python Tools per Visual Studio&lt;/a&gt;&lt;/strong&gt; è un plugin gratuito e open source che consente di programmare in Python usando la IDE Microsoft. Nel corso della lunga gestazione di Visual Studio 2010 si era rumoreggiato di un possibile supporto nativo per il linguaggio Python. Qualcosa di vero doveva esserci visto che il progetto è appena stato presentato al &lt;a href=&#34;http://us.pycon.org/2011/home/&#34;&gt;&lt;strong&gt;PyCon 2011&lt;/strong&gt;&lt;/a&gt;, la più importante conferenza Python al mondo, nientemeno che dal &lt;a href=&#34;http://www.microsoft.com/hpc&#34;&gt;Microsoft Technical Computing Group&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>Come rimuovere tutte le Stored Procedure da un database SQL Server?</title>
+      <link>https://nicolaiarocci.com/come-rimuovere-tutte-le-stored-procedure-da-un-database-sql/</link>
+      <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/come-rimuovere-tutte-le-stored-procedure-da-un-database-sql/</guid>
+      <description>&lt;p&gt;In questi giorni sto lavorando sui database &lt;strong&gt;SQL Server&lt;/strong&gt; che fanno da back-end ai nostri web services e ne approfitto per fare un po’ manutenzione straordinaria. __Stamattina mi è capitato di dover cancellare tutte le &lt;strong&gt;Stored Procedure&lt;/strong&gt; di un database e ho &lt;a href=&#34;http://www.devasp.net/net/articles/display/309.html&#34;&gt;scovato&lt;/a&gt; questa routine che mi ha fatto risparmiare un mucchio di tempo&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Programmazione, SEO, Startup – Il Meglio della Settimana #3</title>
+      <link>https://nicolaiarocci.com/programmazione-seo-startup-il-meglio-della-settimana-3/</link>
+      <pubDate>Sun, 06 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/programmazione-seo-startup-il-meglio-della-settimana-3/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Settimana ricca di avvenimenti anche questa. SEO, Startup e applicazioni per Smartphone in primo piano ma non mancano altre chicche per buongustai. Al decimo posto una curiosità non ha nulla da spartire con gli argomenti trattati di solito, ma quelle foto dovevo segnalarvele. Ringrazio chi mi ha contattato via mail, Facebook e Twitter. A quanto pare la rubrica piace e farò il possibile per portarla avanti migliorando la qualità delle selezioni, come sempre assolutamente arbitrarie.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduzione alle Regular Expression – Terza Parte</title>
+      <link>https://nicolaiarocci.com/introduzione-alle-regular-expression-terza-parte/</link>
+      <pubDate>Thu, 03 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/introduzione-alle-regular-expression-terza-parte/</guid>
+      <description>Benvenuto alla terza e ultima parte della nostra Introduzione alle Regular Expression. Concluso il capitolo sarai in grado di affrontare la maggior parte dei problemi di ricerca nel testo. Se ancora non l&amp;rsquo;hai fatto ti consiglio di leggere la Prima Parte e la Seconda Parte. Ricorda che puoi usare la pagina di prova per testare le query della guida.
+Avidità Il problema della avidità degli operatori regex diventa evidente quando si comincia a lavorare su ricerche avanzate.</description>
+    </item>
+    <item>
+      <title>TEMPO: mostrare dati JSON con solo codice HTML</title>
+      <link>https://nicolaiarocci.com/tempo-mostrare-dati-json-con-solo-codice-html/</link>
+      <pubDate>Thu, 03 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/tempo-mostrare-dati-json-con-solo-codice-html/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Lanciata da pochi giorni, &lt;a href=&#34;http://tempojs.com/&#34;&gt;&lt;!-- raw HTML omitted --&gt;Lanciata da pochi giorni,&lt;/a&gt; è una piccola (4Kb) e brillante libreria JavaScript che ci mette a disposizione un &lt;em&gt;rendering engine&lt;/em&gt; JSON controllabile con puro codice HTML. La separazione tra HTML e JavaScript rende più facile il lavoro con contenuti AJAX, aumenta la leggibilità del codice e ne facilita la manutenzione. Tempo è compatibile con tutti i browser (IE6 incluso), si integra alla perfezione con jQuery ed è davvero facile da usare.&lt;/p&gt;
+&lt;h2 id=&#34;json&#34;&gt;JSON&lt;/h2&gt;
+&lt;p&gt;JSON è un formato di scambio dati sempre più diffuso. Un flusso di dati JSON è relativamente compatto (soprattutto rispetto al suo rivale XML) ed è facile da interpretare sia per un umano che per un computer. Ormai tutte le Web API più usate (Facebook, Twitter, ecc.) supportano ampiamente JSON. Ecco un esempio di array JSON:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ecco Cloud9 IDE la Piattaforma per Programmare nel Cloud</title>
+      <link>https://nicolaiarocci.com/arriva-cloud9-ide-la-piattaforma-per-il-software-online/</link>
+      <pubDate>Tue, 01 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/arriva-cloud9-ide-la-piattaforma-per-il-software-online/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Se crei applicazioni per il web non avrebbe senso svilupparle online? Con questa domanda e con uno slogan ben congegnato (&lt;em&gt;Il tuo codice sempre disponibile, ovunque tu sia&lt;/em&gt;) &lt;strong&gt;&lt;a href=&#34;http://cloud9ide.com/&#34;&gt;Cloud9 IDE&lt;/a&gt;&lt;/strong&gt; si presenta finalmente al pubblico. L’idea iniziale era una piattaforma online condivisa e open source per sviluppare codice JavaScript direttamente nel browser. Talento e ambizione hanno consentito di puntare più in alto e Cloud9 è diventata una piattaforma completa per la produzione di software &lt;em&gt;in the cloud&lt;/em&gt; (&lt;a href=&#34;http://en.wikipedia.org/wiki/Platform_as_a_service&#34;&gt;PaaS&lt;/a&gt;). Ma vediamo meglio di cosa si tratta.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduzione alle Regular Expression – Seconda Parte</title>
+      <link>https://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/</link>
+      <pubDate>Sat, 26 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/</guid>
+      <description>Questa è la seconda parte della serie Introduzione alle Regular Expression. Se non hai ancora letto la prima parte ti consiglio di farlo. Puoi usare la pagina demo per provare le query della guida.
+Negazione [^] Abbiamo già conosciuto la [cornice]. Una caratteristica importante di cui non abbiamo ancora parlato è la negazione. Supponiamo di voler cercare qualunque carattere eccetto la lettera a.
+[^a] # trova b,c,d,e,f,\n .... qualunque carattere eccetto &#39;a&#39; La negazione si applica a tutti i caratteri della cornice in cui compare l&amp;rsquo;operatore ˆ.</description>
+    </item>
+    <item>
+      <title>Introduzione alle Regular Expression – Prima Parte</title>
+      <link>https://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/</link>
+      <pubDate>Wed, 23 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/</guid>
+      <description>&lt;p&gt;Quando si tratta fare ricerche in blocchi di testo le &lt;a href=&#34;http://it.wikipedia.org/wiki/Espressione_regolare&#34;&gt;&lt;strong&gt;regular
+expression&lt;/strong&gt;&lt;/a&gt; (regex) sono la soluzione ideale. Come programmatore studiare
+le regex è stata una delle cose migliori che ho fatto per migliorare la mia
+produttività.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Valide in ogni linguaggio e indipendenti dalla piattaforma, le regex sono
+un investimento sempre valido. Java, JavaScript, Ruby, .Net, Python…
+le regex non cambiano.&lt;/li&gt;
+&lt;li&gt;Rendono ricerca e sostituzione del testo &lt;em&gt;enormemente&lt;/em&gt; più potenti&lt;/li&gt;
+&lt;li&gt;Soddisfano pienamente il principio &lt;a href=&#34;http://en.wikipedia.org/wiki/Pareto_principle#In_software&#34;&gt;80/20&lt;/a&gt;. Basta conoscerne il 20% per
+risolvere l&#39;80% dei problemi.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Ho preparato una &lt;!-- raw HTML omitted --&gt;pagina di
+prova&lt;!-- raw HTML omitted --&gt; per testare le regex del tutorial. In alternativa è sempre possibile
+usare una IDE, praticamente tutte supportano le regular expressions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Programmazione, SEO, Startups – Il Meglio della Settimana #1</title>
+      <link>https://nicolaiarocci.com/programmazione-seo-startups-il-meglio-della-settimana-1/</link>
+      <pubDate>Mon, 21 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/programmazione-seo-startups-il-meglio-della-settimana-1/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Vi propongo una scelta delle risorse più interessanti e curiose che ho scovato questa settimana in rete. Ce né per tutti i gusti: programmazione, SEO, Startups e curiosità. Andiamo a cominciare:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SourceKit – Scrivere codice in Google Chrome e salvarlo su DropBox</title>
+      <link>https://nicolaiarocci.com/sourcekit-chrome-dropbox/</link>
+      <pubDate>Thu, 10 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/sourcekit-chrome-dropbox/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/iieeldjdihkpoapgipfkeoddjckopgjg&#34;&gt;&lt;strong&gt;SourceKit&lt;/strong&gt;&lt;/a&gt; è una applicazione per Google Chrome che permette di scrivere codice direttamente nel browser usando &lt;a href=&#34;https://www.dropbox.com/&#34;&gt;DropBox&lt;/a&gt; come disco dati/repository. Un &lt;a href=&#34;http://macromates.com/&#34;&gt;TextMate&lt;/a&gt; &lt;em&gt;in the cloud&lt;/em&gt; insomma.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>Il meglio di Stack Overflow in una collana di eBook gratuiti</title>
+      <link>https://nicolaiarocci.com/il-meglio-di-stack-overflow-una-collana-di-ebook-gratuiti/</link>
+      <pubDate>Wed, 02 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-meglio-di-stack-overflow-una-collana-di-ebook-gratuiti/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://stackoverflow.com/&#34;&gt;&lt;strong&gt;Stack Overflow&lt;/strong&gt;&lt;/a&gt; è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera &lt;strong&gt;minera di informazioni&lt;/strong&gt; &lt;strong&gt;preziose&lt;/strong&gt; e  meriterebbe maggiore attenzione…&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

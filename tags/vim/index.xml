@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vim on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/vim/</link>
+    <description>Recent content in vim on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 11 Aug 2023 08:55:35 +0200</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Legacy of Bram Moolenaar</title>
+      <link>https://nicolaiarocci.com/the-legacy-of-bram-moolenaar/</link>
+      <pubDate>Fri, 11 Aug 2023 08:55:35 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/the-legacy-of-bram-moolenaar/</guid>
+      <description>Quoting Jan van den Berg:
+This weekend we learned that Bram Moolenaar had passed away at the age of 62. And this news affected me more than I expected. Like so many: I did not know Bram personally. But I’ve been using a tool made by Bram for more than half my life — at least weekly, sometimes daily. That tool is a text editor. The best one there is: Vim.</description>
+    </item>
+  </channel>
+</rss>

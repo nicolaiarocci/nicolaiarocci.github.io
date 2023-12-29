@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Suggested Readings on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/categories/suggested-readings/</link>
+    <description>Recent content in Suggested Readings on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Mar 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/categories/suggested-readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Attention is a Resource</title>
+      <link>https://nicolaiarocci.com/attention-is-a-resource/</link>
+      <pubDate>Sun, 15 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/attention-is-a-resource/</guid>
+      <description>Today, the New York Times’ SundayReview features a great column by Matthew B. Crawford: The Cost of Paying Attention.
+Attention is a resource; a person has only so much of it […] What if we saw attention in the same way that we saw air or water, as a valuable resource that we hold in common? Perhaps, if we could envision an “attentional commons,” then we could figure out how to protect it.</description>
+    </item>
+    <item>
+      <title>Sam Altman on Machine Intelligence</title>
+      <link>https://nicolaiarocci.com/sam-altman-on-machine-intelligence/</link>
+      <pubDate>Sat, 07 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/sam-altman-on-machine-intelligence/</guid>
+      <description>Sam Altman has a great short series on the development of superhuman machine intelligence (SMI). Machine intelligence, Part 1 is on why machine intelligence is something that we should be afraid of while Part 2 is on what we should do about it. And then there’s Technology predictions, the perfect closer.</description>
+    </item>
+    <item>
+      <title>So Why Exactly Is HTTP/2 So Cool?</title>
+      <link>https://nicolaiarocci.com/so-why-exactly-is-http2-so-cool/</link>
+      <pubDate>Tue, 24 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/so-why-exactly-is-http2-so-cool/</guid>
+      <description>Today must read is Nine Things to Expect from HTTP/2, brewed for us by one of the HTTP/2 core designers, Mark Nottingham. Ten well spent minutes of your time.</description>
+    </item>
+    <item>
+      <title>March To Triumph As A Mentor</title>
+      <link>https://nicolaiarocci.com/march-triumph-mentor/</link>
+      <pubDate>Wed, 11 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/march-triumph-mentor/</guid>
+      <description>If you have time to read just one thing today, then make sure it is March To Triumph As A Mentor, an essay on Mentoring by A. Jesse Jiryu Davis.</description>
+    </item>
+    <item>
+      <title>On Sustainable Open Source Management</title>
+      <link>https://nicolaiarocci.com/sustainable-open-source-management/</link>
+      <pubDate>Fri, 06 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/sustainable-open-source-management/</guid>
+      <description>Tom Christie has some very good things to say on how to successfully maintain an open source project without losing sanity.
+Truth one: There are, and will always be, a non-finite number of possible valid issues to address. Your code can always be better polished, your APIs better defined, and your project more fully featured. Your documentation can always be better. The ecosystem within which your project lives is constantly evolving.</description>
+    </item>
+    <item>
+      <title>Why Microservices Matter</title>
+      <link>https://nicolaiarocci.com/microservices-matter/</link>
+      <pubDate>Wed, 21 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/microservices-matter/</guid>
+      <description>In spite of being a marketing spin and link bait, Heroku article on microservices does a pretty good job at explaining why microservices matter and, at a very high level, what challenges they pose.
+However, microservices aren’t a silver bullet, and they won’t make a sluggish IT organization fast. While individual services become more robust and less complex, the overall system takes on the many challenges of distributed systems at the network level.</description>
+    </item>
+    <item>
+      <title>Better Pull Requests</title>
+      <link>https://nicolaiarocci.com/better-pull-requests/</link>
+      <pubDate>Fri, 16 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/better-pull-requests/</guid>
+      <description>I am not a big fan of top tens but 10 Tips for Better Pull Requests is well worth reading.
+A good Pull Request involves more than just some code. In most cases, there’s one or more reviewer(s) involved, who will have to review your Pull Request in order to evaluate whether it’s a good fit for inclusion in the code base. Not only must you produce good code, but you must also cater to the person(s) doing the review.</description>
+    </item>
+    <item>
+      <title>The Internet’s Own Boy</title>
+      <link>https://nicolaiarocci.com/internet-own-boy-aaron-swartz/</link>
+      <pubDate>Wed, 14 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/internet-own-boy-aaron-swartz/</guid>
+      <description>I wasn’t aware that The Internet’s Own Boy: The Story of Aaron Swartz is now available with a Creative Common license, free for everyone to enjoy.</description>
+    </item>
+    <item>
+      <title>Interfaces out of Laziness</title>
+      <link>https://nicolaiarocci.com/interfaces-laziness/</link>
+      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/interfaces-laziness/</guid>
+      <description>Robert C. Martin is at it again this time targeting the (infamous?) Interface construct in a funny way. As both a C# and Python coder I couldn’t agree more. Also, let me quote my fellow polyglot developer Nicola Musatti who went all out on the topic:
+Some of us have known that for the best part of the last 20 years 😉</description>
+    </item>
+    <item>
+      <title>On Reusable Software</title>
+      <link>https://nicolaiarocci.com/on-reusable-software/</link>
+      <pubDate>Thu, 08 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/on-reusable-software/</guid>
+      <description>Jos de Jong has a great concise write-up on pitfalls and excesses in building reusable software.</description>
+    </item>
+    <item>
+      <title>Some Thoughts on the new .NET (Redux)</title>
+      <link>https://nicolaiarocci.com/some-thoughts-on-the-new-net-redux/</link>
+      <pubDate>Thu, 04 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/some-thoughts-on-the-new-net-redux/</guid>
+      <description>Like all those involved with the .NET ecosystem I’ve been slowly digesting the recent news on the whole thing going open source and cross platform. I’ve been jogging down a few notes in light of a future blog post, but then Jeremy Miller came out with his own Some Thoughts on the New .NET which is almost exactly the post I wanted to write. So when he writes:
+I’ve started to associate .</description>
+    </item>
+    <item>
+      <title>The Obligation of The Programmer</title>
+      <link>https://nicolaiarocci.com/obligation-programmer/</link>
+      <pubDate>Tue, 18 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/obligation-programmer/</guid>
+      <description>Robert C.Martin, of Clean Code fame, has something to say on the role of we programmers in today’s society.
+We rule the world.
+We don’t quite understand this yet. More importantly, the world doesn’t quite understand it yet. Our civilization doesn’t quite realize how dependent it has become on software — on us.
+He goes as far as suggesting a programmer’s code of conduct of sorts. Food for thought I guess, although I suspect we’re too much of a wild and scattered bunch for something like that to really stick.</description>
+    </item>
+    <item>
+      <title>Why Don’t More People Work As Programmers?</title>
+      <link>https://nicolaiarocci.com/dont-people-work-programmers/</link>
+      <pubDate>Thu, 06 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/dont-people-work-programmers/</guid>
+      <description>This originally appeared on Quora and is well worth reading.
+Becoming a good programmer is incredibly difficult and it doesn’t happen quickly. We can’t expect to plant some trees and have 2000-year-old redwoods grow overnight, regardless of the demand for them.
+via Why Don&amp;rsquo;t More People Work As Programmers? – Forbes.</description>
+    </item>
+    <item>
+      <title>Microsoft’s New Running Shoes</title>
+      <link>https://nicolaiarocci.com/microsofts-new-running-shoes/</link>
+      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/microsofts-new-running-shoes/</guid>
+      <description>When Ballmer famously said, “Linux is a cancer that attaches itself in an intellectual property sense to everything it touches,” it was fair to characterize Microsoft’s approach to open source as hostile. But over time, forces within Microsoft pushed to change this attitude. Many groups inside of Microsoft continue to see the customer and business value in fostering, rather than fighting, OSS.
+via Microsoft’s New Running Shoes.</description>
+    </item>
+    <item>
+      <title>How to handle big repositories with git</title>
+      <link>https://nicolaiarocci.com/how-to-handle-big-repositories-with-git/</link>
+      <pubDate>Wed, 11 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/how-to-handle-big-repositories-with-git/</guid>
+      <description>git is a fantastic choice for tracking the evolution of your code base and to collaborate efficiently with your peers. But what happens when the repository you want to track is really huge?
+via How to handle big repositories with git – Atlassian Blogs.</description>
+    </item>
+    <item>
+      <title>10 Most Common Python Mistakes</title>
+      <link>https://nicolaiarocci.com/10-most-common-python-mistakes/</link>
+      <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/10-most-common-python-mistakes/</guid>
+      <description>Python’s simple, easy-to-learn syntax can mislead Python developers – especially those who are newer to the language – into missing some of its subtleties and underestimating the power of the language.
+With that in mind, this article presents a “top 10” list of somewhat subtle, harder-to-catch mistakes that can bite even the most advanced Python developer in the rear.
+via 10 Most Common Python Mistakes.</description>
+    </item>
+    <item>
+      <title>Why doesn’t GitHub talk about their product roadmap?</title>
+      <link>https://nicolaiarocci.com/doesnt-github-talk-product-roadmap/</link>
+      <pubDate>Mon, 26 May 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/doesnt-github-talk-product-roadmap/</guid>
+      <description>Software development is mostly horseshit. We’re busy trying to build things, trying to estimate when things are done, trying to work with other humans to make sure you don’t break anything when you launch. All of these things can go horribly, horribly wrong without much malice or without much intention. It’s still very difficult.
+via Why doesn’t GitHub talk about their product roadmap?</description>
+    </item>
+    <item>
+      <title>How to be a sane programmer</title>
+      <link>https://nicolaiarocci.com/how-to-be-a-sane-programmer/</link>
+      <pubDate>Mon, 24 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/how-to-be-a-sane-programmer/</guid>
+      <description>But here’s the rub. Programming, like writing, painting, and music, is chiefly a creative endeavor not a technical one. Practice with any technology or language is useful as a means of learning tools and techniques, but it will not make you a substantially better programmer.
+via How to be a sane programmer</description>
+    </item>
+    <item>
+      <title>Never judge a programmer by their commit history</title>
+      <link>https://nicolaiarocci.com/never-judge-a-programmer-by-their-commit-history/</link>
+      <pubDate>Tue, 25 Feb 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/never-judge-a-programmer-by-their-commit-history/</guid>
+      <description>It’s been a very long time since I judged any programmer based on their commit history and I believe if you think you can judge a programmer’s ability by reading his/her code YOU ARE WRONG.
+via Never judge a programmer by their commit history</description>
+    </item>
+    <item>
+      <title>Learn C, Then Learn Computer Science</title>
+      <link>https://nicolaiarocci.com/learn-c-then-learn-computer-science/</link>
+      <pubDate>Wed, 12 Feb 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/learn-c-then-learn-computer-science/</guid>
+      <description>This is the problem with emphasizing computer science over learning to code. Without an understanding of what’s happening at a low level, my peers ran into issues […] and had no idea what to do to debug them. This is a problem that stems from teaching people computer science but not teaching them how to code. Learning to code isn’t just teaching people how to spell – it’s teaching people the meaning behind the words.</description>
+    </item>
+    <item>
+      <title>What the Heck is Happening to Windows?</title>
+      <link>https://nicolaiarocci.com/what-the-heck-is-happening-to-windows/</link>
+      <pubDate>Wed, 12 Feb 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/what-the-heck-is-happening-to-windows/</guid>
+      <description>This oh so this.
+If you look back over the decades at the many high-level complaints that have been leveled at Windows, one in particular sticks out: Unlike Mac OS, in particular, Windows has always attempted to satisfy every possible customer need, and as such it often provides multiple ways to accomplish the same thing. The result is a messy product, if you will, one that lacks the singular vision that is typically associated with the Mac and Apple’s other products.</description>
+    </item>
+    <item>
+      <title>How to Save 90% on Your S3 Bill</title>
+      <link>https://nicolaiarocci.com/how-to-save-90-on-your-s3-bill/</link>
+      <pubDate>Fri, 07 Feb 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/how-to-save-90-on-your-s3-bill/</guid>
+      <description>If you are using Python and the awesome Boto library to access Amazon S3, make sure you don’t miss How to Save 90% on Your S3 Bill.</description>
+    </item>
+    <item>
+      <title>Why AngularJS Will Be Huge</title>
+      <link>https://nicolaiarocci.com/why-angularjs-will-be-huge/</link>
+      <pubDate>Fri, 07 Feb 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/why-angularjs-will-be-huge/</guid>
+      <description>The reality is that AngularJS is winning the frontend framework war. It’s not to say there aren’t great, high quality alternatives out there, but few have gained so much developer mindshare that slow and conservative companies see it as a wonderful investment. And it’s all the better that normal developers actually love developing with it!
+via Why AngularJS Will Be Huge.</description>
+    </item>
+    <item>
+      <title>Why I Left the .NET Framework</title>
+      <link>https://nicolaiarocci.com/left-net-framework/</link>
+      <pubDate>Mon, 03 Feb 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/left-net-framework/</guid>
+      <description>I can’t say I left the .NET Framework altogether as our main app was developed with .NET and we still maintain it on daily basis. Whenever applicable however, all the recent stuff is being done outside the walled garden.
+The following Jonathan Oliver totally resonates with my experience.
+The .NET Framework was good. Really good. Until it wasn’t. Why did I leave .NET? In short, it constrained our ability to choose (which is a huge deal for me) and turned our focus inward toward the perceived safety of the nest instead of the helping us experiencing all of the possibilities out there in the big, wide world.</description>
+    </item>
+    <item>
+      <title>The Descent to C</title>
+      <link>https://nicolaiarocci.com/the-descent-to-c/</link>
+      <pubDate>Sat, 01 Feb 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/the-descent-to-c/</guid>
+      <description>This is really worth you time if you’re looking to learn C language (you should).
+This article attempts to give a sort of ‘orientation tour’ for people whose previous programming background is in high (ish) level languages such as Java or Python, and who now find that they need or want to learn C.
+via The Descent to C.</description>
+    </item>
+    <item>
+      <title>A programmer’s legacy</title>
+      <link>https://nicolaiarocci.com/a-programmers-legacy/</link>
+      <pubDate>Mon, 27 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/a-programmers-legacy/</guid>
+      <description>This is a subject I’ve been pondering on for a while.
+I think we all have an urge to mark our stamp on this world, to graffiti ‘I was here–don’t forget me’. Yet, as a programmer, where is my legacy?
+via A programmer’s legacy.</description>
+    </item>
+    <item>
+      <title>Pro Git Workflow</title>
+      <link>https://nicolaiarocci.com/pro-git-workflow/</link>
+      <pubDate>Mon, 27 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/pro-git-workflow/</guid>
+      <description>Pro Git Workflow is an interesting collection of Git shortcuts, aliases and workflows. Nothing really new but give it a shot if you want to improve your git-fu beyond basics.</description>
+    </item>
+    <item>
+      <title>Got any tips or tricks for Terminal in Mac OS X?</title>
+      <link>https://nicolaiarocci.com/got-tips-tricks-terminal-mac-os-x/</link>
+      <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/got-tips-tricks-terminal-mac-os-x/</guid>
+      <description>Best collection of Terminal tricks ever:
+Got any tips or tricks for Terminal in Mac OS X? – Ask Different.</description>
+    </item>
+    <item>
+      <title>JavaScript: The Right Way</title>
+      <link>https://nicolaiarocci.com/javascript-the-right-way/</link>
+      <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/javascript-the-right-way/</guid>
+      <description>Hey, you!
+This is a JavaScript guide intended to introduce new developers and help experienced ones to the JavaScript’s best practices.
+via JS: The Right Way.</description>
+    </item>
+    <item>
+      <title>Python and Flask Are Ridiculously Powerful</title>
+      <link>https://nicolaiarocci.com/python-and-flask-are-ridiculously-powerful/</link>
+      <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/python-and-flask-are-ridiculously-powerful/</guid>
+      <description>As a developer, I sometimes forget the power I yield. It’s easy to forget that, when something doesn’t work the way I’d like, I have the power to change it.
+via Python and Flask Are Ridiculously Powerful.</description>
+    </item>
+    <item>
+      <title>Today my startup failed</title>
+      <link>https://nicolaiarocci.com/today-my-startup-failed/</link>
+      <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/today-my-startup-failed/</guid>
+      <description>Shit happens. Way more often than what most people think.
+It may seem surprising that a seemingly successful product could fail, but it happens all the time. Although we arguably found product/market fit, we couldn’t quite crack the business side of things.
+via Chris Hates Writing • Today my startup failed.</description>
+    </item>
+    <item>
+      <title>On undoing, fixing, or removing commits in git</title>
+      <link>https://nicolaiarocci.com/on-undoing-fixing-or-removing-commits-in-git/</link>
+      <pubDate>Thu, 16 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/on-undoing-fixing-or-removing-commits-in-git/</guid>
+      <description>This document is an attempt to be a fairly comprehensive guide to recovering from what you did not mean to do when using git.
+via On undoing, fixing, or removing commits in git.</description>
+    </item>
+    <item>
+      <title>Conquering the Command Line</title>
+      <link>https://nicolaiarocci.com/conquering-the-command-line/</link>
+      <pubDate>Sun, 12 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/conquering-the-command-line/</guid>
+      <description>This is a very good ebook, and is free for reading online.
+This book is for new developers, experienced developers, and everyone in between who wants to master Unix and Linux commands. This book was designed to showcase some of the most useful commands that a developer can know to help them in their daily tasks.
+via Softcover | Conquering the Command Line.</description>
+    </item>
+    <item>
+      <title>How To Be A Great Developer</title>
+      <link>https://nicolaiarocci.com/how-to-be-a-great-developer/</link>
+      <pubDate>Sun, 12 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/how-to-be-a-great-developer/</guid>
+      <description>… and a Great Person in general.
+Empathy is your most important skill. Practice it with everyone you interact with, and everyone who interacts with your work.
+Humility goes hand in hand with empathy. Be open to the possibility (likelihood, even) that you are wrong. Know that you will always be learning and improving. accept and own up to mistakes immediately.
+The less you fear being wrong, the more confident you can be.</description>
+    </item>
+    <item>
+      <title>Where the best designers go to find photos and graphics</title>
+      <link>https://nicolaiarocci.com/where-the-best-designers-go-to-find-photos-and-graphics-blog/</link>
+      <pubDate>Sun, 12 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/where-the-best-designers-go-to-find-photos-and-graphics-blog/</guid>
+      <description>This is seriously good collection of resources for web designers and the likes, don’t miss it.
+I’ll let you in on a little secret: beautiful websites aren’t made, they’re found. Smart designers know where to find that perfect photo, subtle pattern or that unique icon.
+Here’s where the best designers go to find photos, graphics, icons, and more.
+via Where the best designers go to find photos and graphics | Blog.</description>
+    </item>
+    <item>
+      <title>Stateless Mindset</title>
+      <link>https://nicolaiarocci.com/stateless-mindset/</link>
+      <pubDate>Wed, 08 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/stateless-mindset/</guid>
+      <description>Would it be possible (and advisable) for a person to deal with everyday matters as if he/she was a stateless machine?
+Imagine if you as a person dealt with millions of requests a day from a thousand or so clients: if you had to keep track all those clients and the multiple requests they were making, it would drive you crazy. The burden of remembering would crush you.
+This is what our lives are like.</description>
+    </item>
+    <item>
+      <title>The Development of the C Language</title>
+      <link>https://nicolaiarocci.com/the-development-of-the-c-language/</link>
+      <pubDate>Wed, 08 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/the-development-of-the-c-language/</guid>
+      <description>Dennis M. Ritchie ‘The Development of the C Language’ is one of those things any programmer should read soon or later, if nothing else for historic reasons.
+C came into being in the years 1969-1973, in parallel with the early development of the Unix operating system; the most creative period occurred during 1972. Another spate of changes peaked between 1977 and 1979, when portability of the Unix system was being demonstrated.</description>
+    </item>
+    <item>
+      <title>Web Standards Killed the HTML Star</title>
+      <link>https://nicolaiarocci.com/web-standards-killed-the-html-star/</link>
+      <pubDate>Sat, 04 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/web-standards-killed-the-html-star/</guid>
+      <description>What we may not have realized is that once the browsers don’t suck, being an HTML and CSS “guru” isn’t really a very marketable skillset. 80% of what made us useful was the way we knew all the quirks and intracries of the browsers. Guess what? Those are all gone. And if they’re not, they will be in the very near future. Then what?
+A lot of folks who came up from that time and headspace have diversified their skillsets since.</description>
+    </item>
+    <item>
+      <title>Python is the Language of the Year</title>
+      <link>https://nicolaiarocci.com/python-is-the-language-of-the-year/</link>
+      <pubDate>Thu, 02 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/python-is-the-language-of-the-year/</guid>
+      <description>We shouldn’t really trust this kind of statistics, I know, but when my favorite language comes out as a clear winner, I can’t resist and take them for good.
+Python is the “language of the year” according to the PYPL index : it had the biggest increase in popularity share in 2013. PHP had the biggest decline. Meanwhile, Java continues to have the highest popularity share among the programming languages.</description>
+    </item>
+    <item>
+      <title>Why Are All These Idiots More Successful Than You?</title>
+      <link>https://nicolaiarocci.com/why-are-all-these-idiots-more-successful-than-you/</link>
+      <pubDate>Thu, 02 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/why-are-all-these-idiots-more-successful-than-you/</guid>
+      <description>You’re so damn smart — I’ve told you how awesome I think you and the solutions you’ve built…they’re amazing. You have so many awesome things on your hard drive you built that it would blow the world away if only they knew. You created Facebook before there was Facebook and PayPal before there was PayPal. But recently I’ve heard you ask, “how can this junk software out there be so popular?</description>
+    </item>
+    <item>
+      <title>We Need Coding in Schools, but Where are the Teachers?</title>
+      <link>https://nicolaiarocci.com/we-need-coding-in-schools-but-where-are-the-teachers/</link>
+      <pubDate>Tue, 31 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/we-need-coding-in-schools-but-where-are-the-teachers/</guid>
+      <description>Maybe instead of Coder Dojos for kids, we should run them for their teachers.
+We must build a team of dedicated teachers to support school coding programs. We do not rely on our students to absorb math from textbooks, online videos or math clubs; similarly, we cannot depend on every student to learn to code on their own, by using online tutorials and afterschool clubs. If coding becomes as fundamental as reading and writing, we need to create a system where everyone has an opportunity to learn, not just the few who probably would have learned it on their own anyway.</description>
+    </item>
+    <item>
+      <title>Alex Gaynor — About Python 3</title>
+      <link>https://nicolaiarocci.com/alex-gaynor-about-python-3/</link>
+      <pubDate>Mon, 30 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/alex-gaynor-about-python-3/</guid>
+      <description>A very interesting read if you’re into Python. Eve has been Python 3 compatible for a while and honestl, I would be surprised to find that somebody is running it in production under Python 3.
+Why aren’t people using Python 3?
+First, I think it’s because of a lack of urgency. Many years ago, before I knew how to program, the decision to have Python 3 releases live in parallel to Python 2 releases was made.</description>
+    </item>
+    <item>
+      <title>Microsoft’s New Systems Language</title>
+      <link>https://nicolaiarocci.com/microsofts-new-systems-language/</link>
+      <pubDate>Mon, 30 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/microsofts-new-systems-language/</guid>
+      <description>Number #3 on Praeclarum’s list hits home for me, but all his points are both valid and strong.
+As a programming language nerd I had mixed feelings when Jon Galloway tweeted about Microsoft’s new programming language.
+“Why are your feelings mixed?” I kept asking myself. I love new programming languages. I took an internship at Microsoft just so I could be closer to the people who made C#. I read language specs for fun.</description>
+    </item>
+    <item>
+      <title>What Happens When One of Your Coworkers Dies</title>
+      <link>https://nicolaiarocci.com/happens-one-coworkers-dies/</link>
+      <pubDate>Mon, 30 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/happens-one-coworkers-dies/</guid>
+      <description>I barely knew Colin. He sat two offices down from me, but we never worked on anything together, never laid eyes on each other after 5 p.m. Our relationship consisted, in its entirety, of work-related small talk in the break room, his lunch rotating behind us in the microwave. Ding, stir, have a good rest of your day.
+via What Happens When One of Your Coworkers Dies | The Billfold.</description>
+    </item>
+    <item>
+      <title>A basic guide to when and how to deploy HTTPS</title>
+      <link>https://nicolaiarocci.com/a-basic-guide-to-when-and-how-to-deploy-https/</link>
+      <pubDate>Sun, 29 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/a-basic-guide-to-when-and-how-to-deploy-https/</guid>
+      <description>Many web developers know about SSL, but it is very common to see it only partially deployed, or not deployed where it should be. This basic guide on when and how to deploy SSL will help you avoid the most common mistakes.
+via A basic guide to when and how to deploy HTTPS — Erik Romijn.</description>
+    </item>
+    <item>
+      <title>WarGames Magazine Identified</title>
+      <link>https://nicolaiarocci.com/wargames-magazine-identified/</link>
+      <pubDate>Sun, 29 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/wargames-magazine-identified/</guid>
+      <description>On seeing WarGames for the first time in the 1980s, I wondered which magazine it was. Later, after seeing it on TV and on VHS/DVD, the same question kept nagging at me. I believed that I would one day get to the bottom of this matter. I correctly assumed that the magazine was a real world magazine with a fake advertisement added to it. Through some effort and persistence I finally achieved my goal on 2013-02-24 at 5:30pm.</description>
+    </item>
+    <item>
+      <title>Why Good Programming Projects Go Bad</title>
+      <link>https://nicolaiarocci.com/why-good-programming-projects-go-bad/</link>
+      <pubDate>Sun, 29 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/why-good-programming-projects-go-bad/</guid>
+      <description>Fred Brooks wrote the software development classic The Mythical Man-Month almost 40 years ago. In this interview, Brooks explains why managers still make the same mistakes.
+via Why Good Programming Projects Go Bad.</description>
+    </item>
+    <item>
+      <title>You Should Change Your Python Shell</title>
+      <link>https://nicolaiarocci.com/you-should-change-your-python-shell/</link>
+      <pubDate>Sun, 29 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/you-should-change-your-python-shell/</guid>
+      <description>If you write Python code, switching to IPython is the number one thing you can do to immediately improve your productivity. Bold words, I know. Let’s look at how IPython can make you a more productive programmer.
+via You Should Change Your Python Shell | GrokCode.</description>
+    </item>
+  </channel>
+</rss>

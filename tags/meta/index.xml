@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>meta on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/meta/</link>
+    <description>Recent content in meta on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 16 Nov 2021 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/meta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learn in public</title>
+      <link>https://nicolaiarocci.com/learn-in-public/</link>
+      <pubDate>Tue, 16 Nov 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/learn-in-public/</guid>
+      <description>Today I searched the internet for something, and the first result I got from @duckduckgo was a note I wrote months ago to my future self; how meta is that.
+Learn in public, it gives superpowers1. Also, in recent years, adopting POSSE was the best thing I did for my personal development.
+Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter
+I should do better. Post more TILs, for example.</description>
+    </item>
+  </channel>
+</rss>

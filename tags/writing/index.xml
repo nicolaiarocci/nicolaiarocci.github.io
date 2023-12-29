@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>writing on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/writing/</link>
+    <description>Recent content in writing on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 09 Dec 2022 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writing is Magic</title>
+      <link>https://nicolaiarocci.com/writing-is-magic/</link>
+      <pubDate>Fri, 09 Dec 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/writing-is-magic/</guid>
+      <description>I find, more often than not, that I understand something much less well when I sit down to write about it than when I&amp;rsquo;m thinking about it in the shower. In fact, I find that I change my own mind on things a lot when I try write them down. It really is a powerful tool for finding clarity in your own mind. Once you have clarity in your own mind, you&amp;rsquo;re much more able to explain it to others.</description>
+    </item>
+    <item>
+      <title>On Programming and Writing</title>
+      <link>https://nicolaiarocci.com/on-programming-and-writing/</link>
+      <pubDate>Tue, 25 May 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/on-programming-and-writing/</guid>
+      <description>My brilliant friend Salvatore Sanfilippo (otherwise known as antirez of Redis fame) has an interesting write-up on his website. How similar is programming to prose writing? After getting his own feet wet with novel writing, he is convinced that the two activities share many common traits.
+One year ago I paused my programming life and started writing a novel, with the illusion that my new activity was deeply different than the previous one.</description>
+    </item>
+  </channel>
+</rss>

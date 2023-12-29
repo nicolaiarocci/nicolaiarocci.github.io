@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blockchain on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/blockchain/</link>
+    <description>Recent content in blockchain on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 07 Feb 2022 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A historian perspective on blockchain technology</title>
+      <link>https://nicolaiarocci.com/a-historian-perspective-on-blockchain-technology/</link>
+      <pubDate>Mon, 07 Feb 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/a-historian-perspective-on-blockchain-technology/</guid>
+      <description>One of my recent discoveries is A Collection of Unmitigated Pedantry by Bret Devereaux, an historian who&amp;rsquo;s been posting great content over the years. His Fireside Fridays, for example, provide intriguing musings on varied topics. In this week instalment, professor Devereaux takes on the different applications of blockchain technology as seen from a historian&amp;rsquo;s perspective.
+Really, this is less about the technologies themselves and more about the nature of states.</description>
+    </item>
+  </channel>
+</rss>

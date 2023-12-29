@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.net framework on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/.net-framework/</link>
+    <description>Recent content in .net framework on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 02 Nov 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/.net-framework/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ci sono più offerte di lavoro che Programmatori .NET</title>
+      <link>https://nicolaiarocci.com/ci-sono-piu-offerte-di-lavoro-che-programmatori-net/</link>
+      <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/ci-sono-piu-offerte-di-lavoro-che-programmatori-net/</guid>
+      <description>&lt;p&gt;Ai primi di ottobre &lt;!-- raw HTML omitted --&gt;TechCrunch&lt;!-- raw HTML omitted --&gt; riportava una notizia interessante: negli Stati Uniti ci sarebbe carenza di sviluppatori .NET. La piattaforma di recruitment Dice dichiara che le offerte di lavoro .NET aumentano del 25% ogni anno, e che la gran parte delle ricerche sui loro database riguarda skill .NET. Ai primi di ottobre 2011 sarebbero state oltre 10.000 le richieste inevase di figure professionali .NET.&lt;/p&gt;
+&lt;p&gt;Notizie di questo tipo vanno prese con beneficio di inventario anche se in questo caso una conferma indiretta viene da WANTED Analytics, che a Settembre ha pubblicato un &lt;!-- raw HTML omitted --&gt;report&lt;!-- raw HTML omitted --&gt; indipendente che sembra giungere alle stesse conclusioni. Anche i &lt;!-- raw HTML omitted --&gt;commenti&lt;!-- raw HTML omitted --&gt; all’articolo di TechCrunch sono confortanti: ci sono aziende che ammettono di essere a caccia di sviluppatori .NET e ci sono programmatori che confermano di ricevere continuamente offerte di lavoro (non mancano quelli che sono passati ad altri linguaggi e non se ne pentono).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mono 2.10.3 gira su OS X Lion (ed è vivo e vegeto)</title>
+      <link>https://nicolaiarocci.com/mono-2-10-3-gira-su-os-x-lion-ed-e-vivo-e-vegeto/</link>
+      <pubDate>Fri, 05 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/mono-2-10-3-gira-su-os-x-lion-ed-e-vivo-e-vegeto/</guid>
+      <description>Xamarin, la compagnia che ha preso in mano il Progetto Mono dopo l’addio di Novell, ha appena rilasciato Mono 2.10.3. Ne da annuncio lo stesso Manuel de Icaza, storico deux-ex-machina del progetto e fondatore di Xamarin.
+Si tratta per lo più di una versione di manutenzione che risolve numerosi problemi, primo fra tutti l’instabilità di Mono sull’ultima versione di MacOS X Lion.
+L’importanza di questo aggiornamento va ben oltre le sue caratteristiche tecniche.</description>
+    </item>
+    <item>
+      <title>Perché le Web Startup non amano .NET Framework?</title>
+      <link>https://nicolaiarocci.com/perche-le-web-startup-non-amano-net-framework/</link>
+      <pubDate>Thu, 19 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/perche-le-web-startup-non-amano-net-framework/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Sul blog aziendale di Expensify il CEO &lt;strong&gt;David Barrett&lt;/strong&gt; ha &lt;!-- raw HTML omitted --&gt;raccontato&lt;!-- raw HTML omitted --&gt; perché la sua azienda non assume programmatori Microsoft .NET Framework. In poche ore il suo articolo ha fatto il giro del mondo scatenando un gran putiferio. Gli sviluppatori .NET si sono lanciati in una difesa accorata della piattaforma Microsoft mentre molti commentatori e blogger hanno sposato le tesi di Barrett. Gli oltre 500 commenti danno un’idea ben precisa del fervore suscitato dall’articolo. Non intendo dilungarmi sui contenuti, mi interessa piuttosto approfondire una questione sollevata indirettamente dal pezzo di Barrett.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Il Progetto Mono salvato in extremis dal suo fondatore</title>
+      <link>https://nicolaiarocci.com/il-progetto-mono-salvato-in-extremis-dal-suo-fondatore/</link>
+      <pubDate>Tue, 17 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/il-progetto-mono-salvato-in-extremis-dal-suo-fondatore/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Sono settimane di passione per il &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;progetto Mono&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, celeberrima versione open source e multi piattaforma del Microsoft .NET Framework. All’inizio del mese Attachmate (proprietaria di Novell, sponsor storico del progetto) ha &lt;!-- raw HTML omitted --&gt;improvvisamente licenziato&lt;!-- raw HTML omitted --&gt; l’intero team di ingegneri al lavoro su Mono.&lt;/p&gt;
+&lt;p&gt;L’annuncio ha gettato nel panico la comunità internazionale di sviluppatori Mono. Dal 2004, anno di nascita del progetto, migliaia di grandi e piccole software house hanno adottato la piattaforma per lo sviluppo rapido di soluzioni cross-platform. Purtroppo salvo rare eccezioni è frequente che progetti open source nati o assorbiti in grandi organizzazioni commerciali finiscano per essere abbandonati.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

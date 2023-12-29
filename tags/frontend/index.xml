@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>frontend on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/frontend/</link>
+    <description>Recent content in frontend on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 15 Jun 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/frontend/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Come usare al meglio WebKit Inspector</title>
+      <link>https://nicolaiarocci.com/come-usare-al-meglio-webkit-inspector/</link>
+      <pubDate>Fri, 15 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/come-usare-al-meglio-webkit-inspector/</guid>
+      <description>Se vi occupate di frontend non perdetevi lo spettacolare articolo in cui Majd Taby ci spiega come usare al meglio il WebKit Inspector.
+Il panorama mobile è monopolizzato da WebKit e di conseguenza gran parte degli strumenti e dell’infrastruttura per lo sviluppo di applicazioni frontend mobile (e non solo, ndr) risiedono nel WebKit Inspector. Per questo ne analizzerò con cura gli strumenti e spiegherò come e quando usarli.
+Ci sono anche le slide.</description>
+    </item>
+    <item>
+      <title>Web Designer e Programmatori Front End si incontrano a From The Front 2011</title>
+      <link>https://nicolaiarocci.com/web-designer-e-programmatori-front-end-si-incontrano-a-from-the-front-2011/</link>
+      <pubDate>Fri, 23 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/web-designer-e-programmatori-front-end-si-incontrano-a-from-the-front-2011/</guid>
+      <description>Giovedì 29 Settembre sarò a Cesena per partecipare a From The Front 2011, conferenza-evento di una giornata dedicata a programmatori front end e web designer. Il programma dei talk pomeridiani è interessante, vi consiglio di dare una occhiata anche perché il costo di iscrizione è pari a zero irrisorio. Se venite battete un colpo: è una buona occasione per incontrarsi di persona (magari al party che seguirà l’evento).</description>
+    </item>
+  </channel>
+</rss>

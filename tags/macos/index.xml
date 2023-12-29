@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>macos on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/macos/</link>
+    <description>Recent content in macos on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 May 2023 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>macOS networkQuality tool</title>
+      <link>https://nicolaiarocci.com/macos-networkquality-tool/</link>
+      <pubDate>Mon, 15 May 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/macos-networkquality-tool/</guid>
+      <description>Today I learned about a precious little macOS command line tool, networkQuality.
+The networkQuality tool is a built-in tool released in macOS Monterey that can help diagnose network issues and measure network performance.
+Usage:
+networkQuality -v Example output:
+==== SUMMARY ==== Uplink capacity: 44.448 Mbps (Accuracy: High) Downlink capacity: 162.135 Mbps (Accuracy: High) Responsiveness: Low (73 RPM) (Accuracy: High) Idle Latency: 50.125 milliseconds (Accuracy: High) Interface: en0 Uplink bytes transferred: 69.</description>
+    </item>
+    <item>
+      <title>How to copy a file&#39;s path in macOS Finder</title>
+      <link>https://nicolaiarocci.com/how-to-copy-a-files-path-in-macos-finder/</link>
+      <pubDate>Mon, 04 Apr 2022 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/how-to-copy-a-files-path-in-macos-finder/</guid>
+      <description>No matter how long I&amp;rsquo;ve possessed a Mac and how hard I try, there will always be a helpful keyboard shortcut hidden somewhere that I don&amp;rsquo;t know about.
+Today I learned about holding the Option key while clicking on the Copy command in Finder. It activates the super-useful (and super-secret) &amp;ldquo;copy as pathname&amp;rdquo; feature.
+I spotted this trick on Jamie Smith&amp;rsquo;s website, where other handy shortcuts (and the pretty gif above) reside.</description>
+    </item>
+    <item>
+      <title>So tired of Homebrew messing up with my stuff</title>
+      <link>https://nicolaiarocci.com/so-tired-of-homebrew-messing-up-with-my-stuff/</link>
+      <pubDate>Tue, 25 May 2021 08:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/so-tired-of-homebrew-messing-up-with-my-stuff/</guid>
+      <description>Pardon me while I&amp;rsquo;m venting out my frustration. I am so tired of Homebrew messing up with my stuff. It used to be the perfect tool for the right job until they decided to auto-brew-update-and-cleanup at every new install. Another day another issue, today with vim not running anymore:
+dyld: Library not loaded: /usr/local/opt/lua/lib/liblua.5.3.dylib Referenced from: /user/local/bin/vi Reason: image not found Lua has suddenly gone missing. Ah, but of course. I installed something with Homebrew this morning.</description>
+    </item>
+    <item>
+      <title>Quicker window snapping on macOS</title>
+      <link>https://nicolaiarocci.com/quicker-window-snapping-on-macos/</link>
+      <pubDate>Tue, 06 Apr 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/quicker-window-snapping-on-macos/</guid>
+      <description>I never see my macOS desktop. It&amp;rsquo;s always cluttered with way too many open windows. When I spot those fantastic, tidy and clean Desktops on the internet, I envy their owners. I wonder if and how they manage to keep those desktops tidy like that the whole workday. It must feel so good.
+I try to keep my windows well arranged. The typical setup might be two windows, from two different apps, tiled side by side.</description>
+    </item>
+    <item>
+      <title>Battling with SSH, cron jobs, and macOS Keyring</title>
+      <link>https://nicolaiarocci.com/battling-with-ssh-cron-jobs-and-macos-keyring/</link>
+      <pubDate>Wed, 17 Mar 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/battling-with-ssh-cron-jobs-and-macos-keyring/</guid>
+      <description>So today, I was setting up a cronjob on my trusty MacBook Pro. The goal was to backup some folders from a remote Linux server via rsync. The script is simple. It goes something like this:
+rsync -avz -e &amp;quot;ssh -i ~/.ssh/my_rsa_keyfile&amp;quot; myuser@myserver:remotedir/ ~/localdir/ Launched by hand, it works seamlessly. Call it from a cron job via crontab, and I get a permission denied error. I then enabled ssh -v option to gather a little intel on what was actually going on.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>windows azure on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/windows-azure/</link>
+    <description>Recent content in windows azure on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 08 Jun 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/windows-azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows Azure ora supporta ufficialmente Python</title>
+      <link>https://nicolaiarocci.com/windows-azure-ora-supporta-ufficialmente-python/</link>
+      <pubDate>Fri, 08 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/windows-azure-ora-supporta-ufficialmente-python/</guid>
+      <description>Windows Azure ora supporta ufficialmente Python. La pagina ufficiale consente di scaricare l’SDK e contiene alcuni tutorial per la creazione di applicazioni Django, Python e IPython direttamente da Visual Studio.</description>
+    </item>
+  </channel>
+</rss>

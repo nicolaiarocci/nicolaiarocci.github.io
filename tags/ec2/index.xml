@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ec2 on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/ec2/</link>
+    <description>Recent content in ec2 on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 19 Mar 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/ec2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amazon EC2: Quanto si risparmia con le Reserved Instances rispetto alle classiche On-Demand?</title>
+      <link>https://nicolaiarocci.com/amazon-ec2-quanto-si-risparmia-con-le-reserved-instances-rispetto-alle-classiche-on-demand/</link>
+      <pubDate>Mon, 19 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/amazon-ec2-quanto-si-risparmia-con-le-reserved-instances-rispetto-alle-classiche-on-demand/</guid>
+      <description>Amazon offre sconti significativi per chi sceglie le istanze riservate al posto di quelle on-demand. Dal punto di vista finanziario, e se avete intenzione di usare EC2 per almeno un anno, passare dalle istanze on-demand a quelle riservate potrebbe aver senso. Sborserete una cifra più alta inizialmente, ma il costo mensile si ridurrà sensibilmente.
+Per quanto io ne sappia il tool sviluppato da Mike Khristo è il primo che consente di confrontare direttamente, senza tanti giri di parole, il costo delle due soluzioni:</description>
+    </item>
+  </channel>
+</rss>

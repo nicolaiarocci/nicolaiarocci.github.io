@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programmazione. .net on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/programmazione.-.net/</link>
+    <description>Recent content in programmazione. .net on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 May 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/programmazione.-.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Perché le Web Startup non amano .NET Framework?</title>
+      <link>https://nicolaiarocci.com/perche-le-web-startup-non-amano-net-framework/</link>
+      <pubDate>Thu, 19 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/perche-le-web-startup-non-amano-net-framework/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Sul blog aziendale di Expensify il CEO &lt;strong&gt;David Barrett&lt;/strong&gt; ha &lt;!-- raw HTML omitted --&gt;raccontato&lt;!-- raw HTML omitted --&gt; perché la sua azienda non assume programmatori Microsoft .NET Framework. In poche ore il suo articolo ha fatto il giro del mondo scatenando un gran putiferio. Gli sviluppatori .NET si sono lanciati in una difesa accorata della piattaforma Microsoft mentre molti commentatori e blogger hanno sposato le tesi di Barrett. Gli oltre 500 commenti danno un’idea ben precisa del fervore suscitato dall’articolo. Non intendo dilungarmi sui contenuti, mi interessa piuttosto approfondire una questione sollevata indirettamente dal pezzo di Barrett.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

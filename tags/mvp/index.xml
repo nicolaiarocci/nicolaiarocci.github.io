@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mvp on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/mvp/</link>
+    <description>Recent content in mvp on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 09 May 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/mvp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Crazy Speaking Month</title>
+      <link>https://nicolaiarocci.com/crazy-speaking-month/</link>
+      <pubDate>Mon, 09 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/crazy-speaking-month/</guid>
+      <description>April was definitely my crazy Speaking Month. After an almost one year long self-imposed conference hiatus, I was challenged to deliver four different talks, attend two discussion panels, give one live demo and release one interview. All in a three weeks period span. First I went to PyCon Sette in Florence. A few days later a plane took me to St. Petersburg, Russia, for PiterPy. Finally, the next weekend I was in Rome for the Western Europe Microsoft MVP Community Day.</description>
+    </item>
+    <item>
+      <title>Look mum, I’m a MVP</title>
+      <link>https://nicolaiarocci.com/look-mum-im-an-mvp/</link>
+      <pubDate>Sat, 02 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/look-mum-im-an-mvp/</guid>
+      <description>A few hours ago I was notified that I have been awarded with the Microsoft MVP Award for Development Technologies.
+This came totally unexpected. Especially so considering that during the last few years I have been splitting my time between Microsoft and other open source technologies. My public work has mostly been on Python and MongoDB. Yes I also released .NET open source projects in the meantime (more are coming soon) and yes, I wrote a few articles here and on the MSDN Blog, attended Microsoft events and did interviews.</description>
+    </item>
+  </channel>
+</rss>

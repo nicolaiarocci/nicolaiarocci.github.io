@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>disqus on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/disqus/</link>
+    <description>Recent content in disqus on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 20 Apr 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/disqus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Servire 500 milioni di utenti con Python e Django</title>
+      <link>https://nicolaiarocci.com/servire-500-milioni-di-utenti-al-mese-con-python-e-django/</link>
+      <pubDate>Wed, 20 Apr 2011 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/servire-500-milioni-di-utenti-al-mese-con-python-e-django/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;A &lt;!-- raw HTML omitted --&gt;PyCon 2011&lt;!-- raw HTML omitted --&gt;, la conferenza mondiale sul linguaggio Python che si è conclusa da poco ad Atlanta, gli ingegneri di &lt;!-- raw HTML omitted --&gt;DISQUS&lt;!-- raw HTML omitted --&gt; hanno presentato una interessante relazione sulla loro infrastruttura hardware e software. DISQUS è un servizio di gestione dei commenti adottato da centinaia di migliaia di siti nel mondo. Tra i clienti figurano nomi importanti come CNN, MTV, IGN, Engadget, Mashable e tanti altri. Nel mese di marzo 2011 il network DISQUS ha gestito &lt;strong&gt;500 milioni di visitatori unici&lt;/strong&gt;. Questi volumi sono gestiti da una azienda che vanta &lt;strong&gt;16 addetti, dei quali solo 8 (otto!) ingegneri software&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Come è possibile tutto ciò? Gran parte del merito va attribuito al metodo produttivo adottato da DISQUS: &lt;!-- raw HTML omitted --&gt;metodologia agile&lt;!-- raw HTML omitted --&gt;, hardware in affitto e facilmente scalabile, grande fiducia nella capacità dei propri talenti: ognuno degli otto ingegneri è anche product manager. Secondo DISQUS tutto questo è stato possibile anche e soprattutto grazie a una scelta che si è rivelata determinante: l’adozione del linguaggio &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Python&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; e del web framework &lt;!-- raw HTML omitted --&gt;Django&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

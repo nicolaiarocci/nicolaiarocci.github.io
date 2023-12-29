@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OOP on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/oop/</link>
+    <description>Recent content in OOP on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 26 May 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/oop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Composition vs. Inheritance: How to Choose?</title>
+      <link>https://nicolaiarocci.com/composition-vs-inheritance-how-to-choose/</link>
+      <pubDate>Tue, 26 May 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/composition-vs-inheritance-how-to-choose/</guid>
+      <description>Steven Lowe piece on Composition vs. Inheritance is a must read. Just to wet your appetite, let me quote the opening paragraph:
+In the beginning, there was no inheritance and no composition, only code. And the code was unwieldy, repetitive, blocky, unhappy, verbose, and tired. Copy and Paste were the primary mechanisms of code reuse. Procedures and functions were rare, newfangled gadgets viewed with suspicion. Calling a procedure was expensive! Separating pieces of code from the main logic caused confusion!</description>
+    </item>
+  </channel>
+</rss>

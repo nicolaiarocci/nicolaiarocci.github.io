@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>duckduckgo on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/duckduckgo/</link>
+    <description>Recent content in duckduckgo on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 Jul 2021 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/duckduckgo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yet Another Reason to Use DuckDuckGo</title>
+      <link>https://nicolaiarocci.com/yet-another-reason-to-use-duckduckgo/</link>
+      <pubDate>Fri, 16 Jul 2021 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/yet-another-reason-to-use-duckduckgo/</guid>
+      <description>I couldn&amp;rsquo;t recall a [tmux][5] command, so I quickly reached for my trusted default search engine DuckDuckGo. I typed &amp;ldquo;tmux cheat sheet&amp;rdquo; because, well, once I found an excellent one which I wanted to summon again. To my surprise, the [search result][1] included an in-page cheat sheet—a good one too.
+It isn&amp;rsquo;t the first time that DuckDuckGo surprises me like that. Need a new GUID? [Search for it][2].
+Need a quick QR code?</description>
+    </item>
+  </channel>
+</rss>

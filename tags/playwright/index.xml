@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>playwright on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/playwright/</link>
+    <description>Recent content in playwright on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 01 Apr 2022 06:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/playwright/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Playwright session at WebDay 2022</title>
+      <link>https://nicolaiarocci.com/my-playwright-session-at-webday-2022/</link>
+      <pubDate>Fri, 01 Apr 2022 06:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/my-playwright-session-at-webday-2022/</guid>
+      <description>If you understand Italian, the recording of my Playwright session at UGIdotNET&amp;rsquo;s WebDay 2022 is now available on YouTube1. Playwright is a phenomenal cross-browser, cross-platform, cross-language, single-API, mobile-friendly front-end testing tool.
+I&amp;rsquo;m looking forward to giving the same session in English sooner or later, but I should first win my laziness and start looking for exciting events with open CFPs. If you happen to know one, please let me know.</description>
+    </item>
+  </channel>
+</rss>

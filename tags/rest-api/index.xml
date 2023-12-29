@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rest api on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/rest-api/</link>
+    <description>Recent content in rest api on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 Oct 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/rest-api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My talk at Percona Live 2015</title>
+      <link>https://nicolaiarocci.com/my-talk-at-percona-live-2015/</link>
+      <pubDate>Fri, 16 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/my-talk-at-percona-live-2015/</guid>
+      <description>The slides of my talk at Percona Live 2015 (Amsterdam) are online. It was titled “MongoDB and REST APIs a Match Made in Heaven” and it was meant as an introduction to Mongo, REST principles and the Eve python framework.
+Overall it has been a pleasant experience, although I found that splitting 300 attendees through seven concurrent tracks ultimately led to too much fragmentation. People often found themselves with 2-3 interesting talks all happening simultaneously, and just had to pick one.</description>
+    </item>
+    <item>
+      <title>MongoDB and REST API go for a picnic (video and slides)</title>
+      <link>https://nicolaiarocci.com/mongodb-rest-api-go-picnic-video-slides/</link>
+      <pubDate>Tue, 19 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/mongodb-rest-api-go-picnic-video-slides/</guid>
+      <description>I had the opportunity to give my RESTful WeB APIs and MongoDB Go For A Picnic talk at both MongoTorino and NoSQL Day. The folks at PUG Friuli where so nice to record all the NoSQL Day sessions, so here you have it: the full length video of yours truly speaking to a fully packed room crowded with 120 very attentive attendees.
+Unfortunately audio is horrible and while all MongoTorino talks were in english, NoSQL Day was an italian-only event.</description>
+    </item>
+    <item>
+      <title>Eve v0.0.8 has been released</title>
+      <link>https://nicolaiarocci.com/eve-v0-0-8-has-been-released/</link>
+      <pubDate>Thu, 25 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/eve-v0-0-8-has-been-released/</guid>
+      <description>Most significant features are probably the native support for MongoDB write concern settings, new event hooks allowing for transformation of documents before they are sent to clients, increased handling of both pagination and CORS, and the native validation of float data types.
+Get it on PyPI, go straight to the source code or more likely, visit the project homepage.</description>
+    </item>
+    <item>
+      <title>Sito ufficiale e blog per il progetto Eve</title>
+      <link>https://nicolaiarocci.com/sito-ufficiale-e-blog-per-il-progetto-eve/</link>
+      <pubDate>Tue, 14 May 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/sito-ufficiale-e-blog-per-il-progetto-eve/</guid>
+      <description>E’ passato qualche mese da quando ho annunciato Eve, il REST API framework open source. Nel frattempo il progetto è cresciuto bene: siamo appena giunti alla versione 0.0.6, abbiamo un sito ufficiale, un blog, e stiamo lavorando a nuove feature davvero interessanti.</description>
+    </item>
+    <item>
+      <title>Vi presento Eve il framework per le REST API Web</title>
+      <link>https://nicolaiarocci.com/vi-presento-eve-il-framework-per-lanciare-la-vostra-rest-api-web/</link>
+      <pubDate>Tue, 08 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/vi-presento-eve-il-framework-per-lanciare-la-vostra-rest-api-web/</guid>
+      <description>Lo scorso anno abbiamo lavorato duro per costruirci una RESTful Web API su misura, flessibile e completa. In corso d’opera abbiamo imparato molto sulle migliori pratiche REST, mettendo anche alla frusta le rinomate capacità Web del linguaggio Python.
+Ad EuroPython 2012 ho poi raccontato la nostra esperienza e condiviso ciò che avevamo imparato. In quell’occasione mi sono reso conto di quanto l’argomento fosse d’attualità, tanto che da quel 4 luglio le slide che avevo preparato (le trovate su Speaker Deck o Slideshare) ed i video su YouTube (italiano; inglese) hanno totalizzato 30mila visite.</description>
+    </item>
+    <item>
+      <title>Una REST API che adatta le sue risposte al MIME Media-Type delle richieste HTTP</title>
+      <link>https://nicolaiarocci.com/come-implementare-un-web-service-rest-che-adatta-le-risposte-al-mime-media-type-delle-richieste-http/</link>
+      <pubDate>Fri, 03 Feb 2012 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/come-implementare-un-web-service-rest-che-adatta-le-risposte-al-mime-media-type-delle-richieste-http/</guid>
+      <description>&lt;p&gt;Da qualche tempo sto lavorando alla implementazione di una REST API. In linea generale e semplificando, una &lt;!-- raw HTML omitted --&gt;API&lt;!-- raw HTML omitted --&gt; è un servizio che espone alcune funzionalità, è accessibile via internet più o meno liberamente ed è, infine, utilizzabile non solo da persone fisiche ma anche e soprattutto da altre applicazioni. Un esempio di API è quella di Facebook, che consente a chiunque di creare applicazioni che interagiscono con gli utenti e le pagine Facebook. Già, se non ci fosse la API non esisterebbero i terribili giochini Facebook…&lt;/p&gt;
+&lt;p&gt;Una delle specifiche &lt;!-- raw HTML omitted --&gt;REST&lt;!-- raw HTML omitted --&gt; più importanti vuole che un servizio RESTful sia in grado di fornire dati in più formati, in modo tale da soddisfare il maggior numero possibile di utenti/applicazioni. Immaginiamo un servizio che fornisce i risultati delle partite del campionato di calcio. Supponiamo che arrivino tre richieste successive per lo stesso risultato: la prima potrebbe chiedere una risposta in formato XML, la seconda in JSON e la terza in HTML. Il  nostro servizio deve rispondere a tutte e tre le richieste, adattando il flusso di dati della risposta al formato di ognuna.&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Nel mio caso la API che sto implementando supporta XML, JSON, HTML e testo puro. E’ scritta in Python (ma va!) e si appoggia all’eccellente &lt;!-- raw HTML omitted --&gt;Flask&lt;!-- raw HTML omitted --&gt; micro web framework. Per risolvere in maniera elegante il problema delle risposte multi-formato ho deciso di usare i &lt;!-- raw HTML omitted --&gt;decorator&lt;!-- raw HTML omitted --&gt;, una delle caratteristiche più interessanti di Python. Dopo un po’ di lavoro in proprio ho scoperto che qualcuno aveva già risolto il problema, per giunta con la stessa tecnica. &lt;!-- raw HTML omitted --&gt;MimeRender&lt;!-- raw HTML omitted --&gt; di Martin Blech è un’ottima soluzione, solo che è specifica per web.py (un altro web framework). La mia soluzione non disponeva di alcune opzioni interessanti che MimeRender include; ho deciso allora di scrivere un port di MimeRender per Flask, e di metterlo a disposizione del pubblico.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
