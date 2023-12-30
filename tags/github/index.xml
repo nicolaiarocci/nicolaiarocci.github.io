@@ -15,6 +15,78 @@
       <guid>https://nicolaiarocci.com/on-github-copilot/</guid>
       <description>Like everyone else on the planet, I&amp;rsquo;ve been following GitHub Copilot since its launch. It is an impressive achievement and a remarkable milestone for the deep learning industry, that&amp;rsquo;s for sure. We are obviously at the early stages in deep learning applied to software development, and it is somewhat unsettling to ponder what the future might hold in this field.
 Like many others, however, I worry about code quality issues and the risk of license infringements1.</description>
+      <content:encoded><![CDATA[<p>Like everyone else on the planet, I&rsquo;ve been following <a href="https://copilot.github.com/">GitHub Copilot</a> since
+its launch. It is an impressive achievement and a remarkable milestone for the
+deep learning industry, that&rsquo;s for sure. We are obviously at the early stages
+in deep learning applied to software development, and it is somewhat unsettling
+to ponder what the future might hold in this field.</p>
+<p>Like many others, however, I worry about code quality issues and the risk of
+license infringements<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. I am also concerned that the advent of Copilot-like
+tools might fundamentally change the software developer experience, if not the
+software developer role as a whole, and for the worst.</p>
+<p>I wrote down some notes preparing for an in-depth Copilot article, but then
+I stumbled on Jeremy Howard&rsquo;s &lsquo;[Is Copilot a blessing, or a curse?][3]&rsquo;. In
+that piece, Jeremy covers all of my points and then some more. Also, given his
+background, Jeremy&rsquo;s musings on deep learning carry way more weight than mine.
+My advice is to read his article. I especially appreciate his critique on
+Copilot&rsquo;s so-advertised role as &ldquo;AI pair programmer&rdquo;:</p>
+<blockquote>
+<p>GitHub markets Copilot as a “pair programmer”. But I’m not sure this really
+captures what it’s doing. A good pair programmer is someone who helps you
+question your assumptions, identify hidden problems, and see the bigger
+picture. Copilot doesn’t do any of those things – quite the opposite, it
+blindly assumes that your assumptions are appropriate and focuses entirely on
+churning out code based on the immediate context of where your text cursor is
+right now.</p>
+</blockquote>
+<p>He then mentions both <em>automation</em> and <em>anchoring</em> biases and explains how they
+might influence the developers using advanced AI-powered automation tools like
+Copilot.</p>
+<p>The code proposed to Copilot seems to solve most problems, yes, but it appears
+to average quality at best. Jeremy explains why: Copilot trains on public
+repositories, with no filter on the overall quality of the material at hand
+&ndash;something complicated to achieve, indeed. The developer is expected to
+carefully review the suggestions, and that&rsquo;s where automation and anchoring
+biases might affect judgment. Besides, who enjoys doing code reviews?
+I certainly don&rsquo;t. Any day, I&rsquo;d instead take on the challenge and churn out my
+own solution. Yes, it might require effort and time, or see me googling for
+some help (those Stack Overflow hints have usually been reviewed, amended and
+commented on by fellow programmers; both quality <em>and</em> review, right there).
+When my solution works, I am thrilled. That feel of self-accomplishment and
+satisfaction is what I enjoy the most. It&rsquo;s what I look forward to in the
+morning when I sit at my desk.</p>
+<p>I also don&rsquo;t want to renounce deep understanding. When we delegate code
+creation, we&rsquo;re taking a step toward shallow knowledge in our field. Eric
+Sink&rsquo;s &lsquo;[Will deep understanding still be valuable?][4]&rsquo; has an excellent
+discussion around this topic:</p>
+<blockquote>
+<p>In my nearly 4 decades of writing code, I have consistently found that the
+most valuable thing is to know how things work. Nothing in software
+development is more effective than the ability to see deeper. [&hellip;] I am
+utterly convinced that deep understanding is important. But increasingly,
+I feel like I&rsquo;m swimming upstream. It seems like most people in our industry
+care far more about &ldquo;how to do&rdquo; rather than &ldquo;how does it work&rdquo;.</p>
+</blockquote>
+<p>Copilot is great and feels like magic<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. And precisely for that reason, at my
+company, we&rsquo;re not going to adopt it.</p>
+<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>For example, see Armin Ronacher&rsquo;s  on Copilot <a href="https://twitter.com/mitsuhiko/status/1410886329924194309">regurgitating famous, GPL-license code</a>.
+[3]: <a href="https://www.fast.ai/2021/07/19/copilot/">https://www.fast.ai/2021/07/19/copilot/</a>
+[4]: <a href="https://ericsink.com/entries/depth.html">https://ericsink.com/entries/depth.html</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Any sufficiently advanced technology is indistinguishable from magic <em>&ndash;Arthur C. Clark</em>
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
     </item>
     <item>
       <title>I am a Mars Helicopter Contributor</title>
@@ -22,6 +94,70 @@ Like many others, however, I worry about code quality issues and the risk of lic
       <pubDate>Tue, 20 Apr 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/i-am-a-mars-helicopter-contributor/</guid>
       <description>As I was browsing my RSS feed this morning, I came across a [new blog][1] from Nat Friedman over at GitHub. The piece was titled &amp;ldquo;Open source goes to Mars&amp;rdquo;, and, of course, it caught my interest. In the article, Nat announced a Mars 2020 Helicopter Mission badge added to GitHub profiles contributing to open-source projects and libraries used by Ingenuity. Some time ago, like many others, I was granted the Arctic Code Vault badge, so I am familiar with the concept.</description>
+      <content:encoded><![CDATA[<p><img loading="lazy" src="/images/mars-achievement.webp#right" alt="The Mars Helicopter Contributor badge"  />
+
+As I was browsing my RSS feed this morning, I came across a [new blog][1] from
+Nat Friedman over at GitHub. The piece was titled &ldquo;Open source goes to Mars&rdquo;,
+and, of course, it caught my interest. In the article, Nat announced a Mars
+2020 Helicopter Mission badge added to GitHub profiles contributing to
+open-source projects and libraries used by Ingenuity. Some time ago, like many
+others, I was granted the Arctic Code Vault badge, so I am familiar with the
+concept. I quickly dismissed the information as &ldquo;nice, not gonna get it&rdquo; and
+moved along.</p>
+<p>Later during the day, I got a mail from an Eve contributor. In between other
+things, he briefly congratulated me on my new GitHub badge. I went to check my
+profile, only to find that, indeed, I am a Mars Helicopter Contributor. I was
+bewildered. To my knowledge, I never worked on something even remotely related
+to the Ingenuity mission.</p>
+<p>Years ago, I received a package from a software team at a private space agency
+whose name I cannot tell. They sent me a lot of cool swag and a hand-written
+letter signed by all team members. In it, I learned that they had been using
+one of my open-source projects with success. They added that I should take
+pride, as my work was used in one of their renowned space ships projects. The
+package was their way to express gratitude. If you&rsquo;ve attended any of my talks
+in the past, you probably know this story. You might have seen me wearing one
+of their t-shirts too. I knew my work was used in many places; I certainly did
+not expect it was contributing to a space ship program.</p>
+<p>So when I reached for my profile page on GitHub today, I was confused, yes, but
+not wholly unprepared. And indeed, there it is, the new, shiny Mars Helicopter
+Contributor badge. A quick investigation revealed that I earned it as a Flask
+contributor. To be honest, I don&rsquo;t even remember contributing to it<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. I know
+I&rsquo;ve used it extensively, of course, as [Eve][4] inherits from and builds on it.</p>
+<p><img loading="lazy" src="/images/mars-profile-badge.png" alt="The Mars Helicopter Contributor badge"  />
+</p>
+<p>So, what to make of all of this? I am happy, of course. I have a badge of
+honor to show off to my kids later this evening. I appreciate the intent:</p>
+<blockquote>
+<p>“Many of the people who are getting a badge probably have no idea their
+software is being used to fly a helicopter on another planet,” says GitHub
+Senior Director of Developer Relations Martin Woodward. “We wanted to make
+sure everyone was recognized for their contributions to this incredible human
+achievement.” (<a href="https://github.com/readme/nasa-ingenuity-helicopter">source</a>)</p>
+</blockquote>
+<p>These badges surely help raise awareness of open-source relevance in the
+modern-day world. I am grateful for it. I have to say, however, that I am not
+a fan of the current gamification process going on at GitHub. I cringed when
+I saw the &ldquo;How do you feel today&rdquo; box in my profile page a while ago<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. This
+Achievements feature looks good on the surface. Still, it leans itself to be
+leveraged in many different, even subtle ways. Let&rsquo;s hope for the best.</p>
+<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>A quick <code>git shortlog -sne</code> on the flask repo confirms the rumors.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>It seems gone now?
+[4]: <a href="https://github.com/pyeve/">https://github.com/pyeve/</a>
+[1]: <a href="https://github.blog/2021-04-19-open-source-goes-to-mars/">https://github.blog/2021-04-19-open-source-goes-to-mars/</a>
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
     </item>
     <item>
       <title>Why doesn’t GitHub talk about their product roadmap?</title>
@@ -30,6 +166,11 @@ Like many others, however, I worry about code quality issues and the risk of lic
       <guid>https://nicolaiarocci.com/doesnt-github-talk-product-roadmap/</guid>
       <description>Software development is mostly horseshit. We’re busy trying to build things, trying to estimate when things are done, trying to work with other humans to make sure you don’t break anything when you launch. All of these things can go horribly, horribly wrong without much malice or without much intention. It’s still very difficult.
 via Why doesn’t GitHub talk about their product roadmap?</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Software development is mostly horseshit. We’re busy trying to build things, trying to estimate when things are done, trying to work with other humans to make sure you don’t break anything when you launch. All of these things can go horribly, horribly wrong without much malice or without much intention. It’s still very difficult.</p>
+</blockquote>
+<p>via <a href="https://github.com/holman/feedback/issues/534">Why doesn’t GitHub talk about their product roadmap?</a></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Champion Pythonista</title>
@@ -38,6 +179,11 @@ via Why doesn’t GitHub talk about their product roadmap?</description>
       <guid>https://nicolaiarocci.com/champion-pythonista/</guid>
       <description>La Open Source Report Card è un’iniziativa divertente. E’ difficile resistere al richiamo dell’ego… soprattutto quand’è smisurato.
 Nicola is a champion Pythonista (one of the top 11% most active Python users) who loves pushing code. Nicola is a nine-to-fiver who seems to work best in the mid-afternoon.</description>
+      <content:encoded><![CDATA[<p>La <!-- raw HTML omitted -->Open Source Report Card<!-- raw HTML omitted --> è un’iniziativa divertente. E’ difficile resistere al richiamo dell’ego… soprattutto quand’è smisurato.</p>
+<blockquote>
+<p>Nicola is a champion Pythonista (one of the top 11% most active Python users) who loves pushing code. Nicola is a nine-to-fiver who seems to work best in the mid-afternoon.</p>
+</blockquote>
+]]></content:encoded>
     </item>
     <item>
       <title>Gestione degli Eventi in Python</title>
@@ -46,6 +192,26 @@ Nicola is a champion Pythonista (one of the top 11% most active Python users) 
       <guid>https://nicolaiarocci.com/gestione-degli-eventi-in-python/</guid>
       <description>&lt;p&gt;Gli eventi sono molto usati nelle GUI e nelle implementazioni del modello MVC (Model, View, Controller). Un’altra applicazione tipica è nei protocolli di comunicazione, laddove layer di basso livello devono informare quelli più alti quando ci sono dati in ingresso o in uscita.&lt;/p&gt;
 &lt;p&gt;Il linguaggio C# dispone da sempre di una soluzione elegante al problema della gestione degli eventi: il delegato EventHandler. &lt;a href=&#34;https://github.com/nicolaiarocci/events&#34; title=&#34;Events: Bringing the elegance of C# EventHandler to Python&#34;&gt;Events&lt;/a&gt; è una mia implementazione Python del EventHandler C#. In pratica si tratta di una classe molto leggera che incapsula il cuore del meccanismo di sottoscrizione e gestione degli eventi, e tenta di farlo in maniera “naturale”, sembrando parte integrante del linguaggio Python.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Gli eventi sono molto usati nelle GUI e nelle implementazioni del modello MVC (Model, View, Controller). Un’altra applicazione tipica è nei protocolli di comunicazione, laddove layer di basso livello devono informare quelli più alti quando ci sono dati in ingresso o in uscita.</p>
+<p>Il linguaggio C# dispone da sempre di una soluzione elegante al problema della gestione degli eventi: il delegato EventHandler. <a href="https://github.com/nicolaiarocci/events" title="Events: Bringing the elegance of C# EventHandler to Python">Events</a> è una mia implementazione Python del EventHandler C#. In pratica si tratta di una classe molto leggera che incapsula il cuore del meccanismo di sottoscrizione e gestione degli eventi, e tenta di farlo in maniera “naturale”, sembrando parte integrante del linguaggio Python.</p>
+<h2 id="come-usare-events">Come usare Events</h2>
+<p>Tecnicamente un evento è qualcosa a cui è possibile “attaccare” una o più funzioni di callback. Prima di tutto creiamo una funzione di callback che verrà invocata allo scatenarsi dell’evento a cui siamo interessati:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Poi ‘iscriviamo’ la nostra funzione all’evento:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Notate come l’evento sia al tempo stesso dichiarato e sottoscritto, in un’unico passaggio. Più funzioni possono sottoscrivere lo stesso evento. Quando si scatena un evento tutte le funzioni ad esso collegate vengono invocate in sequenza. Per scatenare l’evento ci basta eseguire una chiamata all’evento stesso:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="un-esempio-di-modello-model-view-controller">Un esempio di modello Model-View-Controller</h2>
+<p>In genere nell’implementazione di uno schema MVC l’istanza della classe Events farà parte di un Modello, come in questo esempio:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Oggetti View e Controller ne sono i tipici  sottoscrittori:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>E’ inoltre possibile vincolare il nome degli eventi e fare l’introspezione delle sole due classi che costituiscono Events. La <a href="http://events.readthedocs.org/" title="Events">documentazione</a> include gli esempi e le istruzioni per l’installazione; il <a href="https://github.com/nicolaiarocci/events" title="Events on GitHub">codice sorgente</a> è a disposizione su GitHub. Buon divertimento!</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

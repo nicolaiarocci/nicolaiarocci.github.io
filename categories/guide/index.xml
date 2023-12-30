@@ -14,6 +14,8 @@
       <pubDate>Fri, 03 May 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/guida-introduttiva-agli-http-cache-header/</guid>
       <description>Cosa sono i gli HTTP Cache Header e come funzionano? Che uso ne fanno i browser e le CDN? Come è preferibile impostarli per ottimizzare le prestazioni di un sito o di un servizio web? Se volete saperne di più A Beginner’s Guide to HTTP Cache Headers fa senz’altro per voi.</description>
+      <content:encoded><![CDATA[<p>Cosa sono i gli HTTP Cache Header e come funzionano? Che uso ne fanno i browser e le CDN? Come è preferibile impostarli per ottimizzare le prestazioni di un sito o di un servizio web? Se volete saperne di più <!-- raw HTML omitted -->A Beginner’s Guide to HTTP Cache Headers<!-- raw HTML omitted --> fa senz’altro per voi.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Sviluppare una RESTful Web API con Python, Flask e MongoDB</title>
@@ -22,6 +24,13 @@
       <guid>https://nicolaiarocci.com/sviluppare-una-restful-web-api-con-python-flask-e-mongodb/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;La scorsa settimana a &lt;!-- raw HTML omitted --&gt;EuroPython 2012&lt;!-- raw HTML omitted --&gt; ho tenuto un talk intitolato &lt;!-- raw HTML omitted --&gt;Sviluppare una RESTful Web API con Python, Flask e MongoDB&lt;!-- raw HTML omitted --&gt;. Mi ha fatto piacere riscontrare forte interesse sia per gli aspetti teorici dell’architettura REST che per la loro implementazione pratica con strumenti quali Flask e MongoDB. In entrambe le sessioni inglese e italiana mi sono state rivolte molte domande, sia in occasione delle Q&amp;amp;A plenarie che nei successivi colloqui informali. Parecchi anche i commenti ed i suggerimenti, davvero utili ed apprezzati (a quanto pare non sono l’unico che, forte di un background .NET, ha compiuto o sta per compiere il salto verso Python e il mondo open source).&lt;/p&gt;
 &lt;p&gt;Soprattutto ho rilevato una forte curiosità su MongoDB, un database non-relazionale verso il quale sembra prevalere un atteggiamento  di generale timidezza: “vorrei ma non oso”, insomma. Per quanto riguarda Flask direi che ormai, nel vasto firmamento dei micro web framework, è una stella che brilla di luce propria.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->La scorsa settimana a <!-- raw HTML omitted -->EuroPython 2012<!-- raw HTML omitted --> ho tenuto un talk intitolato <!-- raw HTML omitted -->Sviluppare una RESTful Web API con Python, Flask e MongoDB<!-- raw HTML omitted -->. Mi ha fatto piacere riscontrare forte interesse sia per gli aspetti teorici dell’architettura REST che per la loro implementazione pratica con strumenti quali Flask e MongoDB. In entrambe le sessioni inglese e italiana mi sono state rivolte molte domande, sia in occasione delle Q&amp;A plenarie che nei successivi colloqui informali. Parecchi anche i commenti ed i suggerimenti, davvero utili ed apprezzati (a quanto pare non sono l’unico che, forte di un background .NET, ha compiuto o sta per compiere il salto verso Python e il mondo open source).</p>
+<p>Soprattutto ho rilevato una forte curiosità su MongoDB, un database non-relazionale verso il quale sembra prevalere un atteggiamento  di generale timidezza: “vorrei ma non oso”, insomma. Per quanto riguarda Flask direi che ormai, nel vasto firmamento dei micro web framework, è una stella che brilla di luce propria.</p>
+<p>Per quanto riguarda le registrazioni video potete andare su YouTube o sulla pagina ufficiale di EuroPython (<!-- raw HTML omitted -->english track<!-- raw HTML omitted --> e <!-- raw HTML omitted -->italian track<!-- raw HTML omitted -->). Ammetto di essere più soddisfatto della versione inglese nella quale – complice anche l’esperienza italiana del giorno prima – credo di essere stato più sintetico ed efficace. Qui mi limito a proporvi le slide:</p>
+<h2 id="ringraziamenti">Ringraziamenti</h2>
+<p>Un immenso grazie ai ragazzi dello staff di EuroPython che veramente hanno fatto di tutto per rendere questa manifestazione un evento straordinario – e ci sono riusciti  (una settimana di talk su cinque tracce parallele, sprint, hands-on, corsi, cibo di ottima qualità e credo oltre 800 partecipanti).</p>
+<p>Vi racconto un episodio giusto per darvi l’idea di quanto questi ragazzi, tutti volontari, si diano da fare e ci mettano passione vera. Nella sessione italiana ho ‘sforato’ (capita anche ai migliori, mi dicono!) e così mi son trovato a sorvolare su un certo numero di slide. Ebbene il mio talk manager e il suo assistente mi hanno proposto di loro iniziativa di tenere una sessione pomeridiana straordinaria per consentirmi di portare a termine la mia relazione. Non capita tutti i giorni, credetemi. Per mia fortuna gran parte delle persone che avevano assistito alla sessione mattutina sono poi tornate per quella del pomeriggio, altrimenti sai che figura!</p>
+<p>Se siete pythonisti o vorreste diventarlo non perdetevi la prossima edizione di questo evento internazionale che, con tutta probabilità, si terrà di nuovo a Firenze l’anno prossimo.</p>]]></content:encoded>
     </item>
     <item>
       <title>Primo importante aggiornamento del Piccolo Libro di MongoDB</title>
@@ -29,6 +38,8 @@
       <pubDate>Thu, 08 Mar 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/primo-importante-aggiornamento-del-piccolo-libro-di-mongodb/</guid>
       <description>Se avete già scaricato il Piccolo Libro di MongoDB vi consiglio di aggiornarlo con la versione odierna. E’ stato aggiunto un capitolo (MapReduce) misteriosamente assente nella prima edizione. Grazie a Walter Tommasi per la preziosa segnalazione, e a Git per averne consentito il recupero in extremis.</description>
+      <content:encoded><![CDATA[<p>Se avete già scaricato il <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB">Piccolo Libro di MongoDB</a> vi consiglio di aggiornarlo con la versione odierna. E’ stato aggiunto un capitolo (MapReduce) misteriosamente assente nella prima edizione. Grazie a Walter Tommasi per la preziosa segnalazione, e a <a href="http://nicolaiarocci.com/branching-di-successo-per-git/" title="Branching di successo per Git">Git</a> per averne consentito il recupero in extremis.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>E’ uscito il Piccolo Libro di MongoDB</title>
@@ -36,6 +47,8 @@
       <pubDate>Tue, 21 Feb 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/e-uscito-il-piccolo-libro-di-mongodb/</guid>
       <description>Il Piccolo Libro di MongoDB, edizione italiana di The Little MongoDB Book, è finalmente disponibile online. C’è voluto un bel po’ di lavoro, e sono certo i primi lettori scoveranno una serie di errori raccapriccianti, ma vi invito comunque a leggerlo e farmi sapere cosa ne pensate.</description>
+      <content:encoded><![CDATA[<p><a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB, Edizione Italiana">Il Piccolo Libro di MongoDB</a>, edizione italiana di The Little MongoDB Book, è finalmente <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB">disponibile online</a>. C’è voluto un bel po’ di lavoro, e sono certo i primi lettori scoveranno una serie di errori raccapriccianti, ma vi invito comunque a leggerlo e farmi sapere cosa ne pensate.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Il Piccolo Libro di MongoDB</title>
@@ -45,6 +58,12 @@
       <description>&lt;p&gt;&lt;em&gt;Update: il &lt;a href=&#34;http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/&#34; title=&#34;Il Piccolo Libro di MongoDB, Edizione Italiana&#34;&gt;Piccolo Libro di MongoDB, Edizione Italiana&lt;/a&gt; è ora disponibile online.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Ho cominciato a lavorare alla traduzione autorizzata dell’ottimo &lt;!-- raw HTML omitted --&gt;The Little MongoDB Book&lt;!-- raw HTML omitted --&gt; di Karl Seguin. Ho scovato il libro di Karl mentre raccoglievo la documentazione per un nuovo progetto super-segreto (!) a cui sto lavorando. Lo ritengo un’ottima introduzione al mondo &lt;!-- raw HTML omitted --&gt;NoSQL&lt;!-- raw HTML omitted --&gt; in generale e naturalmente al fantastico &lt;!-- raw HTML omitted --&gt;MongoDB&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
 &lt;p&gt;Il titolo italiano sarà Il Piccolo Libro di MongoDB. La traduzione prosegue costante ma a piccoli passi perché purtroppo o per fortuna di tempo libero ne ho poco. Al momento sono tradotti più o meno grossolanamente l’introduzione e il primo capitolo. Mi farebbe comodo un po’ di aiuto, in particolare per quanto riguarda la revisione del testo. Se qualcuno vuol dare una mano è il benvenuto: potete fare delle &lt;em&gt;pull request&lt;/em&gt; direttamente su &lt;!-- raw HTML omitted --&gt;GitHub&lt;!-- raw HTML omitted --&gt; (metodo preferibile), oppure mandarmi le correzioni via mail. In cambio vi prometto una menzione d’onore e l’eterna gratitudine dei futuri cultori italiani di MongoDB!&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><em>Update: il <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB, Edizione Italiana">Piccolo Libro di MongoDB, Edizione Italiana</a> è ora disponibile online.</em></p>
+<p>Ho cominciato a lavorare alla traduzione autorizzata dell’ottimo <!-- raw HTML omitted -->The Little MongoDB Book<!-- raw HTML omitted --> di Karl Seguin. Ho scovato il libro di Karl mentre raccoglievo la documentazione per un nuovo progetto super-segreto (!) a cui sto lavorando. Lo ritengo un’ottima introduzione al mondo <!-- raw HTML omitted -->NoSQL<!-- raw HTML omitted --> in generale e naturalmente al fantastico <!-- raw HTML omitted -->MongoDB<!-- raw HTML omitted -->.</p>
+<p>Il titolo italiano sarà Il Piccolo Libro di MongoDB. La traduzione prosegue costante ma a piccoli passi perché purtroppo o per fortuna di tempo libero ne ho poco. Al momento sono tradotti più o meno grossolanamente l’introduzione e il primo capitolo. Mi farebbe comodo un po’ di aiuto, in particolare per quanto riguarda la revisione del testo. Se qualcuno vuol dare una mano è il benvenuto: potete fare delle <em>pull request</em> direttamente su <!-- raw HTML omitted -->GitHub<!-- raw HTML omitted --> (metodo preferibile), oppure mandarmi le correzioni via mail. In cambio vi prometto una menzione d’onore e l’eterna gratitudine dei futuri cultori italiani di MongoDB!</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>A lavori ultimati rilascerò il Piccolo Libro di MongoDB nei formati PDF, ePub, .mobi e probabilmente HTML. Se avete commenti o suggerimenti in proposito fatemelo sapere!</p>]]></content:encoded>
     </item>
     <item>
       <title>Sulla Usabilità delle Password</title>
@@ -53,6 +72,73 @@
       <guid>https://nicolaiarocci.com/sulla-usabilita-delle-password/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;I consulenti della sicurezza e chi lavora nel mondo IT raccomandano continuamente di usare password complicate e difficili da ricordare. E’ un cattivo consiglio, dato che è perfettamente possibile creare password semplici, facili da ricordare e davvero sicure. In realtà le password semplici sono spesso molto più sicure di quelle complesse.&lt;/p&gt;
 &lt;p&gt;Addentriamoci dunque nel mondo delle password e scopriamo come crearne di pratiche e sicure.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->I consulenti della sicurezza e chi lavora nel mondo IT raccomandano continuamente di usare password complicate e difficili da ricordare. E’ un cattivo consiglio, dato che è perfettamente possibile creare password semplici, facili da ricordare e davvero sicure. In realtà le password semplici sono spesso molto più sicure di quelle complesse.</p>
+<p>Addentriamoci dunque nel mondo delle password e scopriamo come crearne di pratiche e sicure.</p>
+<h2 id="come-scoprire-una-password">Come scoprire una password</h2>
+<p>Scoprire una password è davvero semplice. Esistono cinque metodi affidabili per raggiungere l’obiettivo:</p>
+<ol>
+<li><strong>Domandarla.</strong> E’ incredibile, ma il modo più usato per ottenere la password di qualcuno è domandargliela (spesso in cambio di qualcosa). Le persone dicono spesso la loro password a colleghi, amici e famigliari. In questo caso l’aver adottato password complicate non aiuta di certo.</li>
+<li><strong>Indovinarla.</strong> E’ il secondo metodo più usato per accedere a un account. E’ cosa nota che la maggior parte delle persone scelgono password facili da ricordare, e le più semplici sono proprio quelle che in qualche modo hanno a che fare con la persona obiettivo dell’attacco. Password come il vostro cognome, il nome di vostra moglie, il nome del gatto, la data di nascita sono molto frequenti. In questo caso l’unica, ovvia, soluzione è quella di scegliere password che non hanno relazione diretta con la persona.</li>
+<li><strong>Attacco a Forza Bruta</strong>. Molto semplice da realizzare. Un hacker tenta l’accesso usando password diverse volta per volta. Se la nostra password è “sun”, lui tenterà di entrare con “aaa, aab, aad … sul, sum, <strong>sun (TROVATA)</strong>“. L’unica cosa che blocca un attacco a forza bruta sono password di maggiore complessità e lunghezza (è proprio a causa di questo tipo di attacco che gli esperti IT le consigliano).</li>
+<li><strong>Attacco a Parole Comuni</strong>. Forma semplificata dell’attacco a forza bruta, nel quale l’hacker tenta di accedere ricorrendo a un elenco di parole molto usate. Invece di tentare combinazioni di lettere, l’hacker tenta di accedere con parole intere diverse di volta in volta, come per esempio “sum, summer, summit, sump, <strong>sun (TROVATA)</strong>“.</li>
+<li><strong>Attacco a Dizionario</strong>. Stesso principio dell’attacco a parole comuni, solo che questa volta l’hacker usa l’intero dizionario (ci sono circa 500.000 parole nella lingua inglese).</li>
+</ol>
+<h2 id="quando-la-password-è-sicura">Quando la password è sicura?</h2>
+<p>Non puoi proteggerti contro attacchi del tipo “Domandarla” e “Indovinarla”, ma puoi proteggerti bene dalle altre forme di attacco. Un hacker di solito crea uno script automatico o un programma che svolge il lavoro al posto suo. Non ha alcuna intenzione di star seduto al computer tentando manualmente 500.000 parole per scoprire se una di quelle è la tua password.</p>
+<p>Ne consegue che l’unità di misura della sicurezza diventa “<strong>quante password può tentare un programma per ogni unità di tempo (per esempio un secondo)?</strong>“. Il numero esatto non è determinabile, ma la maggior parte delle applicazioni non è in grado di gestire più di 100 accessi al secondo.</p>
+<p>Ciò significa che per scoprire la password “sun” sono necessari:</p>
+<ul>
+<li>Forza bruta: <strong>3 minuti</strong></li>
+<li>Attacco a Parole Comuni: <strong>3 minuti</strong></li>
+<li>Attacco a Dizionario: <strong>1 ora 20 minuti</strong></li>
+</ul>
+<p><em>Nota: ci sono 17.576 combinazioni di carattere possibili per “sun”. 3 lettere dell’alfabeto minuscolo = 26^3</em></p>
+<p>__Quindi “sun” è una password davvero poco sicura, ma quanto tempo deve resistere una password affinché la si possa ritenere davvero sicura?</p>
+<ul>
+<li>una password che può essere scoperta in <strong>1 minuto</strong> è fin troppo fragile</li>
+<li><strong>10 minuti</strong> – ancora troppo fragile</li>
+<li><strong>1 ora</strong> – non ancora abbastanza</li>
+<li><strong>1 giorno</strong> – cominciamo a ragionare. La probabilità che qualcuno lasci girare un programma per un giorno intero solo per accedere a un singolo account è modesta. Tuttavia non è impossibile.</li>
+<li><strong>1 mese</strong> – solo un hacker molto motivato ci proverebbe</li>
+<li><strong>1 anno</strong> – passiamo dal rischio reale al rischio teorico. La NASA o la CIA non potrebbero accettare un livello di sicurezza così basso. Il resto di noi, beh – non abbiamo il loro tipo di nemici e la nostra azienda non è certo così allettante.</li>
+<li><strong>10 anni</strong> – siamo ormai entrati nel campo della teoria pura</li>
+<li><strong>Una vita: 100 anni</strong> – probabilmente questo è un limite accettabile per la maggior parte di noi. Chi si preoccuperebbe per una password che potrebbe resistere fin dopo la sua morte? E’ confortante pensare a una password che è “sicura per tutta la vita”</li>
+</ul>
+<p>Analizziamo con attenzione il livello “100 anni”. Suona bene e ci fa sentire sicuri. C’è però la possibilità che un hacker sia particolarmente fortunato e trovi la password giusta dopo soli 15 anni di tentativi, invece di 100. Improbabile, ma può succedere.</p>
+<p>Alziamo dunque la posta ancora una volta, puntando al massimo. Vogliamo una password che richieda <strong>1.000 anni per essere scoperta</strong>– chiamiamolo livello “<strong>sicuro per sempre</strong>“. Dovrebbe essere abbastanza, no?</p>
+<h2 id="creare-password-sicure-e-davvero-utilizzabili">Creare password sicure e davvero utilizzabili</h2>
+<p>Ora che abbiamo coperto le basi diamo una occhiata a qualche esempio sul campo, cercando di capire quanto utilizzabile possiamo rendere una password pur mantenendola “sicura per sempre”.</p>
+<p><em>Nota: gli esempi sottostanti sono tutti basati su una ipotesi di 100 tentativi di accesso al secondo. Viene riportato l’attacco più efficace per scardinare ogni password – forza bruta, parole comuni o attacco a dizionario.</em></p>
+<p>Cominciamo dalla classica password di 6 caratteri</p>
+<p>[table id=1 /]</p>
+<p>In questo caso la complessità vince chiaramente. Usare una password con caratteri maiuscoli e minuscoli, numeri e simboli è molto sicuro. Usare una semplice parola come password è inutile.</p>
+<p>Ciò significa forse che i colleghi dell’IT e i consulenti sulla sicurezza hanno ragione? No. Una password di 6 caratteri non funzionerà comunque. Nessuno è in grado di ricordare una password come “J4fS&lt;2”, il che vuol dire che prima o poi verrà inevitabilmente trascritta su un post-it o altrove.</p>
+<p>Se vogliamo password veramente utilizzabili dobbiamo approcciare il problema in modo diverso. Prima di tutto abbiamo bisogno di usare parole che possiamo ricordare, qualcosa di semplice che possiamo scrivere con facilità.</p>
+<p>Come queste:</p>
+<p>[table id=2 /]</p>
+<p>Usare più di una parola per password aumenta significativamente il livello di sicurezza (da 3 minuti a 2 mesi). Tuttavia, usando 3 parole invece di 2 ci ritroviamo con una password estremamente sicura.</p>
+<p>Sono necessari:</p>
+<ul>
+<li>1.163.859 anni per scardinarla con un attacco a forza bruta</li>
+<li>2.537 anni con un attacco a parole comuni</li>
+<li>39.637.240 anni con un attacco a dizionario</li>
+</ul>
+<p><strong>E’ 10 volte più sicuro usare “this is fun” come password piuttosto che “J4fS&lt;2”.</strong></p>
+<p>Se poi volete stare assurdamente al sicuro, scegliete <strong>parole poco usate</strong> per comporre la vostra password – qualcosa come:</p>
+<p>[table id=4 /]</p>
+<p>Una password sicura e al tempo stesso davvero utilizzabile non è una password complicata. E’ piuttosto una frase semplice composta da tre o più parole.</p>
+<h2 id="non-è-solo-questione-di-password">Non è solo questione di password</h2>
+<p>Una cosa è scegliere password sicure e utilizzabili. Un’altra è prevenire gli attacchi degli hacker. Si tratta di un obiettivo semplice da raggiungere. Per impedire che gli script automatici lavorino efficacemente è necessario:</p>
+<ol>
+<li><strong>Aggiungere una pausa tra i tentativi di accesso.</strong> 5 secondi tra un tentativo e l’altro sono sufficienti. E’ un lasso di tempo abbastanza breve perché non si noti (ci vogliono più di 5 secondi per rendersi conto di aver sbagliato la password e digitarne una nuova). Obbliga l’hacker a un solo tentativo ogni 5 secondi (invece che 100 tentativi al secondo).</li>
+<li><strong>Aggiungere una pausa di penalizzazione</strong> se qualcuno inserisce una password sbagliata più di – diciamo – 10 volte. Una penalità di 1 ora è sufficiente. Di nuovo, una azione di questo tipo disturba seriamente qualunque script o programma hacker.</li>
+</ol>
+<p>Un hacker può scoprire la password “alpine fun” in solo due mesi se è in grado di attaccare il nostro server 100 volte al secondo. Tuttavia con la pausa di 5 secondi tra un tentativo e l’altro la stessa password può resistere all’attacco per 1.889 anni.</p>
+<p>[table id=3 /]</p>
+<p>Tieni a mente questi concetti la prossima volta che sei al lavoro su applicazioni web o stai discutendo di sicurezza delle password con i tuoi colleghi dell’IT. <strong>Le password possono essere allo stesso tempo sicure e facili da ricordare.</strong></p>
+<h3 id="attribuzione">Attribuzione</h3>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->]]></content:encoded>
     </item>
     <item>
       <title>Siti fluidi coi CSS Framework: Inuit.css</title>
@@ -60,6 +146,27 @@
       <pubDate>Fri, 06 May 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/siti-fluidi-coi-css-framework-inuit-css/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Dopo l’articolo introduttivo sui &lt;a href=&#34;http://nicolaiarocci.com/costruire-siti-fluidi-coi-css-framework-tiny-fluid-grid/&#34;&gt;siti fluidi e i CSS Framework&lt;/a&gt; è giunta l’ora di dare una occhiata a un framework vero e proprio. Come dicevo prediligo strumenti agili, leggeri, specializzati e possibilmente fatti in casa. Se scelgo un framework quest’ultimo deve essere essenziale, leggero, flessibile. &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Inuit.css&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, ultimo nato nella numerosa e agguerrita famiglia dei Framework CSS, sembra nato apposta per fare di me un uomo felice.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Dopo l’articolo introduttivo sui <a href="http://nicolaiarocci.com/costruire-siti-fluidi-coi-css-framework-tiny-fluid-grid/">siti fluidi e i CSS Framework</a> è giunta l’ora di dare una occhiata a un framework vero e proprio. Come dicevo prediligo strumenti agili, leggeri, specializzati e possibilmente fatti in casa. Se scelgo un framework quest’ultimo deve essere essenziale, leggero, flessibile. <strong><!-- raw HTML omitted -->Inuit.css<!-- raw HTML omitted --></strong>, ultimo nato nella numerosa e agguerrita famiglia dei Framework CSS, sembra nato apposta per fare di me un uomo felice.</p>
+<h2 id="flessibilità-e-qualità-prima-di-tutto">Flessibilità e qualità prima di tutto</h2>
+<p>Inuit.css è pronto all’uso, se siete di corsa e non avete esigenze particolari potete usarlo così com’è. Quando serve è facile adattarlo al nostro progetto, soprattutto grazie all’alta qualità del <!-- raw HTML omitted -->codice sorgente<!-- raw HTML omitted -->, commentato molto bene. E’ proprio la cura che l’autore ha dedicato alla documentazione l’elemento chiave che ci consente di intervenire rapidamente, eliminando le parti superflue o ritoccando il codice ove necessario.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Qui sopra vedete uno <!-- raw HTML omitted -->snippet<!-- raw HTML omitted --> tratto dal foglio di stile originale. Notate come l’autore si sia preoccupato di fornire indicazioni su come organizzare la gerarchia dei font. Ben fatto!</p>
+<h2 id="la-potenza-è-nulla-senza-controllo">La potenza è nulla senza controllo</h2>
+<p>Difficilmente Inuit.css prende l’iniziativa, preferisce lasciarla al designer. Prendiamo gli elementi base di HTML5 e CSS3. Inuit.css li supporta ma li isola in classi dedicate che useremo all’occorrenza.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>La scelta del basso profilo è apprezzabile. Lascia il controllo nelle nostre mani, ma corre il rischio che – soprattutto al primo impatto – il framework sembri meno ricco rispetto ad altre soluzioni. In effetti non è sulla ricchezza che punta Inuit ma su flessibilità, estensibilità e… mobilità.</p>
+<h2 id="tablet-smartphone-e-non-solo">Tablet, smartphone e non solo</h2>
+<p><!-- raw HTML omitted -->Il supporto per l’attributo <!-- raw HTML omitted -->@media<!-- raw HTML omitted --> consente a Inuit di ridefinire dinamicamente gran parte delle impostazioni in base al dispositivo (tablet, smartphone, stampante) che consuma la pagina. Il Grid System adottato deriva dal capostipite 960 Grid System (vedi in proposito l’<!-- raw HTML omitted -->articolo precedente<!-- raw HTML omitted -->), supporta matrici (grid) a 12 e 16 colonne e implementa un ingegnoso marchingegno che evita l’inserimento della classica <code>class=end</code> nell’ultima colonna.</p>
+<p>A differenza della Tiny Fluid Grid vista la volta scrosa, Inuit è un Framework vero e proprio e supporta ben più della sola Grid. Sono presenti impostazioni predefinite e ben fatte per tutti gli elementi più comuni di una pagina HTML: header, paragrafi, liste numerate e non, tabelle, form, citazioni, link, immagini. Non manca una implementazione del <a href="http://nicolaiarocci.com/eric-meyer-aggiorna-il-suo-famoso-css-reset/" title="Eric Meyer Reset">Eric Meyer CSS Reset</a> e il supporto per la modalità debug che rende visibile la grid sullo sfondo. Una occhiata alla <!-- raw HTML omitted -->pagina demo<!-- raw HTML omitted --> e soprattutto al suo sorgente è sufficiente per rendersi conto di quanti sono gli stili che Inuit.css ci mette a disposizione.</p>
+<h2 id="div-idattachment_2410-stylewidth-490px-classwp-caption-aligncenter"><!-- raw HTML omitted --></h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="giovani-di-belle-speranze">Giovani di belle speranze</h2>
+<p>Inuit è il nuovo arrivato, ha solo una ventina di giorni ed è in revisione continua. E’ giovane come il suo autore, il ventenne Harry Roberts (l’età non tragga in inganno, Harry è la mente che si cela dietro <!-- raw HTML omitted -->CSS Wizardry<!-- raw HTML omitted -->). Come tutti i giovani di belle speranze Inuit guarda al futuro e se ne frega allegramente del passato: supporta Internet Explorer a partire dalla versione 7 <em>(update del 24.5: la release 1.5 introduce un supporto base per le grid in IE6)</em>.</p>
+<p>Dovrà sgomitare un bel pò per conquistarsi uno spazio in una nicchia già affollata da una concorrenza agguerrita. Ha tutte le carte in regola per sfondare, prova ne è il fatto che a pochi giorni dal lancio qualche sito <!-- raw HTML omitted -->qui<!-- raw HTML omitted --> e <!-- raw HTML omitted -->là<!-- raw HTML omitted --> ha già cominciato ad adottarlo.</p>
+<p>Se scegliete di usare Inuit nei vostri progetti fatemelo sapere. Chissà, potrebbero finire dritti dritti nella Web Gallery del sito ufficiale.</p>]]></content:encoded>
     </item>
     <item>
       <title>Costruire siti fluidi coi CSS Framework: Tiny Fluid Grid</title>
@@ -69,6 +176,28 @@
       <description>&lt;p&gt;Fino a non molti anni fa la gamma di risoluzioni video disponibili alla gran parte degli utenti era piuttosto limitata, tanto che nel disegnare siti web non ci si preoccupava granché di questo aspetto. La diffusione di massa di monitor wide, netbooks, tablet e smartphone ha cambiato rapidamente le carte in tavola. Per raggiungere con efficienza il loro pubblico i siti odierni devono essere capaci di adattare il loro aspetto alla risoluzione del dispositivo usato dal visitatore. Devono, in una parola, essere &lt;em&gt;fluidi&lt;/em&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;il-grid-design-e-l8217era-dei-css-framework&#34;&gt;Il Grid Design e l’era dei CSS Framework&lt;/h2&gt;
 &lt;p&gt;L’avvento dei CSS Framework si deve (principalmente) alla necessità di soddisfare l’esigenza di fluidità. Il capostipite, se non in ordine cronologico senz’altro per l’influenza che ha avuto, è il &lt;!-- raw HTML omitted --&gt;960 Grid System&lt;!-- raw HTML omitted --&gt;. Altri prodotti famosi, per citarne solo un paio, sono &lt;!-- raw HTML omitted --&gt;Blueprint&lt;!-- raw HTML omitted --&gt; e &lt;!-- raw HTML omitted --&gt;Emastic&lt;!-- raw HTML omitted --&gt;. Questi framework hanno in comune l’obiettivo di velocizzare creazione, gestione e manutenzione dei fogli di stile ma se andiamo al nocciolo della questione ci accorgiamo che tutti si basano sul concetto chiave di &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Grid Design&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Fino a non molti anni fa la gamma di risoluzioni video disponibili alla gran parte degli utenti era piuttosto limitata, tanto che nel disegnare siti web non ci si preoccupava granché di questo aspetto. La diffusione di massa di monitor wide, netbooks, tablet e smartphone ha cambiato rapidamente le carte in tavola. Per raggiungere con efficienza il loro pubblico i siti odierni devono essere capaci di adattare il loro aspetto alla risoluzione del dispositivo usato dal visitatore. Devono, in una parola, essere <em>fluidi</em>.</p>
+<h2 id="il-grid-design-e-l8217era-dei-css-framework">Il Grid Design e l’era dei CSS Framework</h2>
+<p>L’avvento dei CSS Framework si deve (principalmente) alla necessità di soddisfare l’esigenza di fluidità. Il capostipite, se non in ordine cronologico senz’altro per l’influenza che ha avuto, è il <!-- raw HTML omitted -->960 Grid System<!-- raw HTML omitted -->. Altri prodotti famosi, per citarne solo un paio, sono <!-- raw HTML omitted -->Blueprint<!-- raw HTML omitted --> e <!-- raw HTML omitted -->Emastic<!-- raw HTML omitted -->. Questi framework hanno in comune l’obiettivo di velocizzare creazione, gestione e manutenzione dei fogli di stile ma se andiamo al nocciolo della questione ci accorgiamo che tutti si basano sul concetto chiave di <strong><!-- raw HTML omitted -->Grid Design<!-- raw HTML omitted --></strong>:</p>
+<blockquote>
+<p>Una griglia tipografica è una struttura bidimensionale composta da una serie di guide verticali e orizzontali intersecanti (matrice) usata per organizzare il contenuto della pagina. La griglia offre una traccia sulla quale il designer può organizzare testo e immagini in maniera ordinata e razionale (<!-- raw HTML omitted -->Wikipedia<!-- raw HTML omitted -->)</p>
+</blockquote>
+<p>Niente di nuovo, i tipografi hanno usato questa tecnica per secoli. Il Grid Design in declinazione web è fluido: le colonne (e gli spazi tra le colonne) che compongono la matrice sono capaci di adattarsi alla risoluzione dell schermo.</p>
+<p>Gran parte dei CSS Framework non si limitano a implementare versioni più o meno sofisticate del Grid System ma offrono una serie di servizi aggiuntivi nel tentativo di risparmiare al designer i compiti più ripetitivi e tediosi. Non sempre ci riescono. Ogni sito ha esigenze specifiche e ogni designer abitudini consolidate. E’ difficile che una soluzione standard sia l’ideale per ogni esigenza. Spesso preferisco la via di mezzo: strumenti agili che consentono di portare a casa rapidamente il risultato senza aggiungere (molto) più del necessario.</p>
+<p>In questa mini-serie di tre articoli prenderò in esame tre diverse soluzioni che implementano il Grid Design e che ci permettono di implementare, con diversi gradi di complessità (e numero di funzionalità), pagine web fluide.</p>
+<h2 id="tiny-fluid-grid">Tiny Fluid Grid</h2>
+<!-- raw HTML omitted -->
+<p>Se non altro amerete questa soluzione a causa del suo design: il sito è oggettivamente splendido. E facile da usare. In effetti <strong><!-- raw HTML omitted -->Tiny Fluid Grid<!-- raw HTML omitted --></strong> non è un CSS Framework vero e proprio ma una semplice soluzione interattiva che vi consente, agendo su tre semplici regolazioni (numero di colonne, spazio tra le colonne e larghezza dell’area client), di configurare online la vostra CSS grid. Il pulsante Preview offre una anteprima (anch’essa interattiva) della grid. L’unica altra opzione disponibile è il Download. Otterrete un archivio compresso che contiene due files: il foglio di stile <em>grid.css</em> e un <em>index.html</em> che contiene un esempio d’uso della grid appena creata:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Una occhiata al foglio di stile ci consente di capire la struttura della grid</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Una classe per ogni larghezza di colonna. Poiché larghezza e margini delle colonne sono espressi in percentuale la nostra grid si adatta alla risoluzione dello schermo, con i limiti imposti dagli attributi <code>min-width</code> e <code>max-width</code>. L’implementazione lato HTML è banale (tralascio le parti non rilevanti):</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>La nostra grid è contenuta in un div di classe “container”. Le colonne sono a loro volta dei div. Per ottenere più colonne nella stessa riga dobbiamo assicurarci che la somma dei numeri contenuti nel nome di ogni classe (<em>grid_x</em>) sia uguale al numero di colonne di cui è composta la grid. Nel nostro caso la seconda riga è composta da tre div <em>grid_4</em> (4×3=12); la terza riga da due colonne: grid_3 e grid_9 (3+9=12). Semplice no? Naturalmente possiamo ritoccare il foglio di stile come vogliamo, adattandolo alle nostre esigenze.</p>
+<p>Nel prossimo articolo della serie affronteremo un CSS Framework vero e proprio, anche questo snello e semplice da usare. Se ancora non l’avete fatto abbonatevi al <!-- raw HTML omitted -->feed RSS<!-- raw HTML omitted --> per non perdere la prossima puntata, oppure iscrivetevi alla mailing list (riquadro in alto a destra). Mi raccomando!</p>]]></content:encoded>
     </item>
     <item>
       <title>Avviare un Download con richiesta di nome file da una pagina ASP.NET</title>
@@ -80,6 +209,17 @@
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Volevo che cliccando sul link si avviasse automaticamente il download, così da ‘costringere’ l’utente a interagire col PDF in un secondo tempo rispetto all’esperienza di navigazione. Se scarichi un PDF è per stamparlo o consultarlo con calma o magari passarlo a un collega, no?&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Normalmente quando un visitatore clicca su un link che punta a un file, quest’ultimo viene mostrato nel browser e non viene avviato alcun download. Questo succede perché il browser determina il tipo di contenuto in base alla estensione del file. Quando clicchiamo su un file con estensione jpg il browser sa che si tratta di una immagine e la mostra direttamente. Lo stesso avviene per i file pdf e così via.</p>
+<p>Può capitare che questo comportamento non sia quello desiderato. Oggi <!-- raw HTML omitted -->al lavoro<!-- raw HTML omitted --> ho implementato una funzionalità interessante: il download della versione PDF di una pagina web. Il pdf viene costruito dinamicamente nel momento stesso in cui il visitatore clicca un link. Questo accorgimento libera il webmaster dalla tediosa (e facilmente dimenticabile) necessità di rigenerare il pdf ad ogni minimo ritocco della pagina.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Volevo che cliccando sul link si avviasse automaticamente il download, così da ‘costringere’ l’utente a interagire col PDF in un secondo tempo rispetto all’esperienza di navigazione. Se scarichi un PDF è per stamparlo o consultarlo con calma o magari passarlo a un collega, no?</p>
+<p>Costringere l’utente a usare il menu contestuale del browser (<em>Salva link con nome..</em>) non è certo la scelta ideale dal punto di vista dell’esperienza utente, tanto più che in questo caso il link non è statico e invoca codice JavaScript. Per ottenere il risultato desiderato dobbiamo inviare direttamente il file all’utente. [cci_asp theme=”standard”]Response.TransmitFile()[/cci_asp] è il metodo che invia il file dall’applicazione ASP.NET al client, ma prima dobbiamo preoccuparci di aggiungere un paio di header al nostro messaggio di output:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>E’ importante fornire il ContentType corretto altrimenti il browser non sarà sempre in grado di gestire i contenuti del file. Internet Explorer per esempio offre l’opzione di aprire direttamente il file (verrà scaricato nella cache). Nel nostro caso se l’utente sceglie l’apertura diretta IE lancerà Acrobat Reader perché ContentType è <em>application/pdf</em>.</p>
+<p>Altro accorgimento è la chiamata al metodo Path.GetFileName() in riga 7. Non sarebbe necessario se non fosse che <em>taluni broswer arcaici e superati</em> (ogni riferimento a IE è naturalmente voluto) non sono in grado di gestire intelligentemente il filename e, quando propongono il nome del file da salvare, riproducono l’intero path del file sul server. Questo comportamento tra l’altro è pericoloso perché espone l’intera struttura  del sito, dalla radice al folder che contiene la pagina, al visitatore.</p>
+<p>Se la routine deve essere usata in un modulo e non direttamente in una pagina aspx ricordate di sostituire Response con HttpContect.Current.Response. Buon lavoro!</p>]]></content:encoded>
     </item>
     <item>
       <title>Inserire un marchio nelle immagini via JavaScript</title>
@@ -91,6 +231,24 @@
 &lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;come-usare-watermarkjs&#34;&gt;Come usare watermark.js&lt;/h2&gt;
 &lt;p&gt;La libreria innesta il marchio nelle immagini marcate con la classe CSS “watermark”. Se il nome della classe non piace è possibile cambiarlo. Se il nostro watermark è in formato JPG la libreria aggiunge per noi un livello di trasparenza, altrimenti possiamo fornirle i più idonei formati PNG e GIF.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong><a href="http://www.patrick-wied.at/static/watermarkjs/">Watermark.js</a></strong> è una libreria JavaScript che aggiunge un <!-- raw HTML omitted -->watermark<!-- raw HTML omitted --> (letteralmente <em>filigrana</em>, ovvero un logo o un marchio) alle immagini presenti sulle pagine web. Contrassegnare le immagini in modo permanente è utile a proteggerle dalla copia oppure, al contrario, ad approfittare della loro riproduzione per diffondere un marchio (<a href="http://en.wikipedia.org/wiki/Brand_awareness">brand awareness</a>). Usare watermark.js è semplice, vediamo quanto.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="come-usare-watermarkjs">Come usare watermark.js</h2>
+<p>La libreria innesta il marchio nelle immagini marcate con la classe CSS “watermark”. Se il nome della classe non piace è possibile cambiarlo. Se il nostro watermark è in formato JPG la libreria aggiunge per noi un livello di trasparenza, altrimenti possiamo fornirle i più idonei formati PNG e GIF.</p>
+<p>Prima di tutto inseriamo il riferimento allo script. E’ consigliabile inserirlo in fondo alla pagina, subito prima della chiusura del tag</p>
+<p><code>body</code></p>
+<!-- raw HTML omitted -->
+<p>Al caricamento della pagina chiamamo il metodo <code>wmark.init</code></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>La variabile <code>load</code> agisce come un flag e serve a evitare che il codice venga eseguito ad ogni postback. Infine aggiorniamo i tag HTML delle immagini a cui vogliamo aggiungere il nostro watermark</p>
+<!-- raw HTML omitted -->
+<p>E questo è tutto.</p>
+<p>Sul <!-- raw HTML omitted -->sito ufficiale<!-- raw HTML omitted --> sono disponibili un paio di demo funzionanti. La <!-- raw HTML omitted -->seconda<!-- raw HTML omitted --> mostra un uso senz’altro originale della libreria: l’inserimento di <!-- raw HTML omitted -->Codici QR<!-- raw HTML omitted --> nelle immagini. Trattandosi di un progetto open source è possibile scaricare anche il <!-- raw HTML omitted -->codice sorgente<!-- raw HTML omitted --> di watermark.js.</p>
+<h2 id="non-tutto-è-oro-quel-che-luccica">Non tutto è oro quel che luccica</h2>
+<p>Essendo implementata lato client, la protezione delle immagini non è certo garantita al cento per cento. Dobbiamo decidere cosa è più importante, l’inviolabilità delle nostre immagini o la comodità di non doverle ritoccare prima di inviarle al server. Altro fattore da non trascurare è il calo di prestazioni. Il codice JavaScript deve caricare il watermark e inserirlo nell’immagine originale. Il tempo di caricamento potrebbe risentirne, soprattutto nel caso di pagine ricche di immagini.</p>
+<p>Watermark.js è un progetto interessante e ingegnoso che va usato tenendo ben presente i suoi pregi e tutte le possibili controindicazioni.</p>]]></content:encoded>
     </item>
     <item>
       <title>Il Formato Valuta in ASP.NET quando il sito è all’estero</title>
@@ -99,6 +257,33 @@
       <guid>https://nicolaiarocci.com/il-formato-valuta-in-asp-net-quando-il-sito-e-allestero/</guid>
       <description>&lt;p&gt;Una settimana fa abbiamo lanciato il nuovo sito del &lt;a href=&#34;http://gestionaleamica.com&#34; title=&#34;Gestionale Amica&#34;&gt;Gestionale Amica&lt;/a&gt;, il nostro prodotto di punta. E’ scritto in &lt;strong&gt;ASP.NET&lt;/strong&gt; ed è dotato di un sistema di e-commerce sviluppato su misura. Carrello della spesa, checkout, pagamenti con carta di credito, tracciamento ordini, profilo utenti… un lavoro del quale sono piuttosto orgoglioso. Man mano che il giorno del debutto si avvicinava cresceva l’eccitazione; ero impaziente di vederlo funzionare questo gioiellino. Finalmente il 21 marzo è arrivato e con la primavera è sbocciato il nuovo sito. Come è andata? Bene! A parte un piccolo dettaglio. Il mio gioiellino vendeva in Dollari ($) anziché in Euro (€)&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;</description>
+      <content:encoded><![CDATA[<p>Una settimana fa abbiamo lanciato il nuovo sito del <a href="http://gestionaleamica.com" title="Gestionale Amica">Gestionale Amica</a>, il nostro prodotto di punta. E’ scritto in <strong>ASP.NET</strong> ed è dotato di un sistema di e-commerce sviluppato su misura. Carrello della spesa, checkout, pagamenti con carta di credito, tracciamento ordini, profilo utenti… un lavoro del quale sono piuttosto orgoglioso. Man mano che il giorno del debutto si avvicinava cresceva l’eccitazione; ero impaziente di vederlo funzionare questo gioiellino. Finalmente il 21 marzo è arrivato e con la primavera è sbocciato il nuovo sito. Come è andata? Bene! A parte un piccolo dettaglio. Il mio gioiellino vendeva in Dollari ($) anziché in Euro (€)</p>
+<!-- raw HTML omitted -->
+<h2 id="come-è-potuto-succedere">Come è potuto succedere?</h2>
+<p>In fatto di localizzazione una pagina ASP.NET non è diversa da una normale applicazione WinForms. In assenza di indicazioni diverse il .NET Framework <strong>rappresenta le valute in base alle impostazioni internazionali del computer che lo ospita</strong>. Durante sviluppo e collaudo non abbiamo avuto problemi perché lavoravamo su server aziendali locali. Tuttavia il server di produzione è americano, ed è così che pubblicando il sito ci siamo regalati un bel cambiamento di valuta, il tutto senza toccare una linea di codice.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Restituisce <strong>€1.567,50</strong> in Italia e <strong>$1,567.50</strong> negli Stati Uniti. Probabilmente a questo punto vi starete dicendo due cose:</p>
+<ol>
+<li>Ma perché hai pubblicato un sito in italiano, per un pubblico italiano, negli Stati Uniti?</li>
+<li>Te lo dovevi aspettare, cosa volevi che succedesse? Qualunque sviluppatore con un minimo di esperienza sa queste cose.</li>
+</ol>
+<p>A proposito del primo punto ci sarebbe da scrivere un articolo intero (e magari lo farò). Basti sapere per ora che, malgrado le apparenze, ci sono (anche) buone ragioni per pubblicare siti italiani all’estero. Sul secondo punto naturalmente avreste ragione. Il fatto è che, nel grande schema delle cose, sono proprio i piccoli dettagli quelli che possono sfuggire. Per fortuna porre rimedio è stato semplice e indolore. Vediamo.</p>
+<h2 id="e8217-tutta-questione-di-culture">E’ tutta questione di Culture</h2>
+<p>In ogni pagina ASP.NET è possibile impostare il valore delle proprietà <a href="http://msdn.microsoft.com/en-us/library/system.web.ui.page.culture(v=VS.85).aspx"><strong>Culture</strong></a> e <a href="http://msdn.microsoft.com/en-us/library/system.web.ui.page.uiculture(v=VS.85).aspx"><strong>UICulture</strong></a>. <!-- raw HTML omitted -->Culture<!-- raw HTML omitted --> determina l’output delle funzioni influenzate dalla cultura: date, numeri, valute, orari. <!-- raw HTML omitted -->UICulture<!-- raw HTML omitted --> istruisce la pagina su quali risorse culturali caricare.</p>
+<h3 id="impostare-culture-e-uiculture-per-tutto-il-sito">Impostare Culture e UICulture per tutto il sito</h3>
+<p>Intervenendo direttamente nel file Web.Config possiamo dire a ASP.NET quale è la cultura da usare in tutto il sito. In questo modo non dovremo preoccuparci di intervenire su ogni in pagina.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Attenzione alle maiuscole. <!-- raw HTML omitted -->uiCulture<!-- raw HTML omitted --> va bene; <!-- raw HTML omitted -->uiculture<!-- raw HTML omitted --> non va bene. Non sprecate mezz’ora per una sciocchezza del genere, l’ho già fatto io per voi.</p>
+<h3 id="impostare-culture-e-uiculture-per-una-pagina">Impostare Culture e UICulture per una pagina</h3>
+<p>Per modificare Culture e UICulture di una singola pagina è necessario impostare i corrispondenti attributi della direttiva <a href="http://msdn.microsoft.com/it-it/library/ydy4x04a(v=VS.85).aspx">@ Page</a></p>
+<!-- raw HTML omitted -->
+<p>Questa tecnica può naturalmente venire usata in abbinamento alla precedente anche se devo dire che non mi viene in mente un motivo, uno scenario valido in cui ciò potrebbe essere utile.</p>
+<h3 id="adattare-l8217output-alla-lingua-del-browser">Adattare l’output alla lingua del browser</h3>
+<p>Per adattare la cultura al linguaggio del browser che visita la pagina basta impostare <strong>UICulture</strong> e <strong>Culture</strong> su <strong>auto</strong> (non l’ho testato personalmente). E’ anche possibile cambiare la cultura dinamicamente via codice. Se volete sapere come fare consultate la <a href="http://msdn.microsoft.com/en-us/library/syy068tk.aspx">documentazione ufficiale</a>.</p>
+<h2 id="dimenticavo8230">Dimenticavo…</h2>
+<p>C’è un’altra cosuccia che non ha funzionato perfettamente al momento del debutto. Immaginate la sorpresa del cliente che, ordinando un prodotto da €499 + IVA, si è visto proporre l’addebito su carta di credito per <strong>€1 (uno)</strong> IVA inclusa. Ma questa è un’altra storia…</p>]]></content:encoded>
     </item>
     <item>
       <title>Impara Python in 10 minuti</title>
@@ -106,6 +291,414 @@
       <pubDate>Thu, 10 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/impara-python-in-10-minuti/</guid>
       <description>E così vorresti imparare il linguaggio di programmazione Python. Probabilmente sei alla ricerca di un tutorial completo e allo stesso tempo conciso. Questa guida è un tentativo di insegnarti Python in 10 minuti. In effetti più che con una guida vera e propria hai a che fare con degli appunti che userai per partire col piede giusto. Naturalmente se davvero vuoi imparare bene dovrai anche esercitarti molto. Do per scontato che tu sappia già programmare, questo mi permetterà di concentrarmi sulle caratteristiche intrinseche del linguaggio.</description>
+      <content:encoded><![CDATA[<p>E così vorresti imparare il linguaggio di programmazione Python. Probabilmente
+sei alla ricerca di un tutorial completo e allo stesso tempo conciso. Questa
+guida è un tentativo di insegnarti Python in 10 minuti. In effetti più che con
+una guida vera e propria hai a che fare con degli appunti che userai per
+partire col piede giusto. Naturalmente se davvero vuoi imparare bene dovrai
+anche esercitarti molto. Do per scontato che tu sappia già programmare, questo
+mi permetterà di concentrarmi sulle caratteristiche intrinseche del linguaggio.
+Troverai le parole chiave <em>evidenziate</em> così potrai individuarle facilmente.
+<em>Fai attenzione</em> perché per brevità alcune cose verranno introdotte
+e commentate direttamente nel codice di esempio.</p>
+<h3 id="attribuzione">Attribuzione</h3>
+<p>Questo articolo è una traduzione autorizzata di <a href="http://www.korokithakis.net/tutorials/python">Learn Python in 10
+minutes</a>. Ringrazio l&rsquo;amico Stavros Korokithakis per il permesso
+di accordatomi.</p>
+<h2 id="caratteristiche">Caratteristiche</h2>
+<p>Python è un linguaggio fortemente e <em>dinamicamente tipizzato</em> (i tipi dati
+esistono e sono necessari ma non è necessario dichiararli esplicitamente),
+<em>case sensitive</em> (var e VAR sono due variabili diverse) e <em>object oriented</em>
+(tutto in Python è un oggetto).</p>
+<h2 id="come-ottenere-aiuto">Come ottenere aiuto</h2>
+<p>L&rsquo;interprete di Python fornisce già un valido sistema di aiuto. Per
+sapere come usare un oggetto basta digitare <code>help()</code>. Sono utili anche <code>dir</code>,
+che elenca gli attributi (metodi) disponibili per l&rsquo;oggetto,  e
+<code>.__doc__</code> che mostra la documentazione completa quando disponibile:</p>
+<pre><code>&gt;&gt;&gt; help(5)
+Help on int object:
+(etc etc)
+
+&gt;&gt;&gt; dir(5)
+['__abs__', '__add__', ...]
+
+&gt;&gt;&gt; abs.__doc__
+'abs(number) -&gt; number\n\nReturn the absolute value of the
+argument.'
+</code></pre>
+<h2 id="sintassi">Sintassi</h2>
+<p>In Python *non ci sono terminatori di riga obbligatori e i <em>blocchi sono
+specificati con l&rsquo; indentazione</em>. Indenta per cominciare un blocco e rimuovi
+l&rsquo;indentazione per concluderlo, tutto qui. Le istruzioni che richiedono un
+blocco indentato terminano con i due punti (<code>:</code>). I <em>commenti</em> cominciano col
+cancelletto (<code>#</code>) e sono a linea singola. Stringhe su più righe sono usate per
+i <em>commenti multi linea</em>. Le <em>assegnazioni</em> si compiono col simbolo di
+uguale (<code>=</code>). Per i <em>test di uguaglianza</em> si usa il doppo uguale (<code>==</code>).
+Puoi aumentare e diminuire un valore usando gli operatori <code>+=</code> e <code>-=</code> seguiti
+dall&rsquo;addendo. Ciò funziona con molti tipi di dati, stringhe incluse. Puoi
+assegnare e usare più variabili sulla stessa riga. Alcuni esempi:</p>
+<pre><code>&gt;&gt;&gt; myvar = 3
+&gt;&gt;&gt; myvar += 2
+&gt;&gt;&gt; myvar
+5
+
+&gt;&gt;&gt; myvar -= 1
+&gt;&gt;&gt; myvar
+4
+
+&quot;&quot;&quot;Questo è un commento su più righe.
+Le righe seguenti vengono concatenate.&quot;&quot;&quot;
+&gt;&gt;&gt; mystring = &quot;Hello&quot;
+&gt;&gt;&gt; mystring += &quot; world.&quot;
+&gt;&gt;&gt; print mystring
+Hello world.
+
+# Il codice seguente scambia due variabili in una sola riga.
+# Non ci sono errori di conversione di tipo perché
+# i nuovi valori non vengono assegnati. Vengono creati
+# nuovi oggetti ai quali le variabili fanno ora riferimento.
+&gt;&gt;&gt; myvar, mystring = mystring, myvar
+</code></pre>
+<h2 id="tipi-di-dati">Tipi di dati</h2>
+<p>Le strutture più significative in Python sono <em>liste, tuple e dizionari</em>. I Set
+sono integrati in Python a partire dalla versione 2.5 (per le versioni
+precedenti sono disponibili nella libreria <code>sets</code>). Le Liste sono simili ad
+array mono dimensionali ma è possibile creare liste che contengono altre liste.
+I dizionari sono array che contengono coppie di chiavi e valori (hash table)
+e le tuple sono oggetti immutabili mono dimensionali. In Python gli array
+possono essere di qualunque tipo, quindi puoi mischiare interi, stringhe, ecc
+nelle tue liste/dizionari e tuple. L&rsquo;indice del primo oggetto in qualunque tipo
+di array è sempre zero. Gli indici negativi sono ammessi e contano a partire
+dalla fine dell&rsquo;array, -1 indica l&rsquo;ultimo elemento dell&rsquo;array. Le variabili
+possono fare riferimento a funzioni.</p>
+<pre><code>&gt;&gt;&gt; esempio = [1, [&quot;un'altra&quot;, &quot;lista&quot;], (&quot;una&quot;, &quot;tupla&quot;)]
+&gt;&gt;&gt; mialista = [&quot;Elemento 1&quot;, 2, 3.14]
+&gt;&gt;&gt; mialista[0] = &quot;Ancora elemento 1&quot;
+&gt;&gt;&gt; mialista[-1] = 3.15
+&gt;&gt;&gt; miodizionario = {&quot;Key 1&quot;: &quot;Valore 1&quot;, 2: 3, &quot;pi&quot;: 3.14}
+&gt;&gt;&gt; miodizionario[&quot;pi&quot;] = 3.15
+&gt;&gt;&gt; miatupla = (1, 2, 3)
+&gt;&gt;&gt; miafunzione = len
+&gt;&gt;&gt; print miafunzione(mialista)
+3
+</code></pre>
+<p>Puoi ottenere un <em>range di array</em> usando i due punti (<code>:</code>). Non indicare
+l&rsquo;indice iniziale del range sottintende il primo elemento; non indicare
+l&rsquo;indice finale sottintende l&rsquo;ultimo elemento. Indici negativi contano
+a partire dall&rsquo;ultimo elemento (-1 è l&rsquo;ultimo elemento dell&rsquo;array). Quindi:</p>
+<pre><code>&gt;&gt;&gt; mialista = [&quot;Elemento 1&quot;, 2, 3.14]
+&gt;&gt;&gt; print mialista[:]
+['Elemento 1', 2, 3.1400000000000001]
+
+&gt;&gt;&gt; print mialista[0:2]
+['Elemento 1', 2]
+
+&gt;&gt;&gt; print mialista[-3:-1]
+['Elemento 1', 2]
+
+&gt;&gt;&gt; print mialista[1:]
+[2, 3.14]
+</code></pre>
+<h2 id="stringhe">Stringhe</h2>
+<p>Le stringhe in Python sono indicate *indifferentemente con la virgoletta
+singola (<code>'</code>) o doppia (<code>&quot;</code>) ed è consentito usare una notazione all&rsquo;interno
+di una stringa delimitata dall&rsquo;altra (<code>&quot;Egli disse 'ciao'.&quot;</code> è valida).
+Stringhe su più righe sono racchiuse in triple (o singole) virgolette (<code>&quot;&quot;&quot;</code>).
+Python *supporta Unicode, basta ricorrere alla sintassi <code>u&quot;Questa è una stringa unicode&quot;</code>. Per <em>inserire valori in una stringa</em> usa l&rsquo;operatore <code>%</code> (modulo)
+e una tupla. Ogni % viene sostituito da un elemento della tupla, da sinistra
+a destra, ed è consentito usare un dizionario per le sostituzioni.</p>
+<pre><code>&gt;&gt;&gt; &quot;Nome: %s\nNumero: %s\nStringa: %s&quot; % (miaclasse.nome, 3, 3 * &quot;-&quot;)
+Nome: Poromenos
+Numero: 3
+Stringa: ---
+
+strString = &quot;&quot;&quot;Questa è
+una stringa
+multi riga.&quot;&quot;&quot;
+
+# ATTENZIONE: Nota la s finale in &quot;%(key)s&quot;.
+&gt;&gt;&gt; print &quot;Questo %(verbo)s un %(nome)s.&quot; % {&quot;nome&quot;: &quot;test&quot;, &quot;verbo&quot;: &quot;è&quot;}
+Questo è un test.
+</code></pre>
+<h2 id="controllo-di-flusso">Controllo di flusso</h2>
+<p>Le istruzioni per il controllo di flusso sono <code>if</code>, <code>for</code>, e <code>while</code>. Non esiste il <code>select</code>; al suo posto si usa <code>if</code>. Il <code>for</code> si usa anche per enumerare i membri di una lista. Per ottenere un elenco di numeri si usa <code>range(numero)</code>.</p>
+<pre><code>rangelist = range(10)
+&gt;&gt;&gt; print rangelist
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+for number in rangelist:
+    # Verifica se numer è uno dei
+    # numeri nella tupla.
+    if number in (3, 4, 7, 9):
+        # &quot;Break&quot; termina un for senza
+        # eseguire la clausola &quot;else&quot;.
+        break
+    else:
+        # &quot;Continue&quot; prosegue con l'iterazione successiva
+        # del loop. Piuttosto inutile in questo caso,
+        # visto che siamo all'ultima istruzione del loop.
+        continue
+else:
+    # Questo &quot;else&quot; è opzionale ed è
+    # eseguito solo se il loop non è stato interrotto
+    # con &quot;break&quot;.
+    pass # Non fa nulla
+
+if rangelist[1] == 2:
+    print &quot;Il secondo elemento (le liste sono 0-based) è 2&quot;
+elif rangelist[1] == 3:
+    print &quot;Il secondo elemento (le liste sono 0-based) è 3&quot;
+else:
+    print &quot;Non saprei&quot;
+
+while rangelist[1] == 1:
+    pass
+</code></pre>
+<h2 id="funzioni">Funzioni</h2>
+<p>Le funzioni sono dichiarate con la la parola chiave <code>def</code>. Eventuali *argomenti
+opzionali vanno dichiarati dopo quelli obbligatori e devono avere un valore
+assegnato. Quando si chiamano funzioni passando *argomenti per nome
+è necessario passare anche il valore. Le funzioni possono restituire una tuple
+(lo spacchettamento delle tuple rende possibile la restituzione di *valori
+multipli). Le *lambda sono funzioni in linea. I parametri sono passati <em>per
+riferimento</em>, ma i tipi immutabili (tuple, interi, stringhe, ecc.) non possono
+essere modificati nella funzione. Questo succede perché <em>viene passata solo la
+posizione in memoria</em> dell&rsquo;elemento, e assegnare un altro oggetto alla
+variabile <em>comporta la perdita del riferimento</em> all&rsquo;oggetto precedente. Per
+esempio:</p>
+<pre><code># Equivalente a def f(x): return x + 1
+funzionevar = lambda x: x + 1
+&gt;&gt;&gt; print funzionevar(1)
+2
+
+# un_int e una_stringa sono opzionali, hanno valori di default
+# da usare se non vengono passati (2 e &quot;Una stringa&quot;, rispettivamente).
+def passing_example(una_lista, un_int=2, una_stringa=&quot;Una stringa&quot;):
+    una_lista.append(&quot;Nuovo elemento&quot;)
+    un_int = 4
+    return una_lista, un_int, una_string
+
+&gt;&gt;&gt; mia_lista = [1, 2, 3]
+&gt;&gt;&gt; mio_int = 10
+&gt;&gt;&gt; print passing_example(mia_lista, mio_int)
+([1, 2, 3, 'Nuovo elemento'], 4, &quot;Una stringa&quot;)
+
+&gt;&gt;&gt; mia_lista
+[1, 2, 3, 'Nuovo elemento']
+
+&gt;&gt;&gt; mio_int
+10
+</code></pre>
+<h2 id="classi">Classi</h2>
+<p>Python supporta la <em>ereditarietà multipla</em> delle classi. Le variabili
+e i metodi privati vengono dichiarati per convezione (non è una regola del
+linguaggio) precedendoli con due underscore (_). Possiamo assegnare <em>attributi
+(proprietà) arbitrari</em> alle istanze di una classe. Un esempio:</p>
+<pre><code>class MiaClasse:
+    comune = 10
+    def __init__(self):
+        self.miavariabile = 3
+    def miafunzione(self, arg1, arg2):
+        return self.miavariabile
+
+# Creiamo una istanza della classe
+&gt;&gt;&gt; istanza = MiaClasse()
+&gt;&gt;&gt; istanza.miafunzione(1, 2)
+3
+
+# Questa variabile è condivisa da tutte le istanze
+&gt;&gt;&gt; istanza2 = MiaClasse()
+&gt;&gt;&gt; istanza.comune
+10
+
+&gt;&gt;&gt; istanza2.comune
+10
+
+# Nota come qui usiamo il nome della classe
+# invece dell'istanza.
+&gt;&gt;&gt; MiaClasse.common = 30
+&gt;&gt;&gt; instanza.common
+30
+
+&gt;&gt;&gt; instanza2.common
+30
+
+# Questo non aggiornerà la variabile nella classe,
+# invece assegnerà un nuovo oggetto alla variabile
+# della prima istanza.
+&gt;&gt;&gt; istanza.common = 10
+&gt;&gt;&gt; istanza.common
+10
+
+&gt;&gt;&gt; istanza2.common
+30
+
+&gt;&gt;&gt; MiaClasse.common = 50
+
+# Il valore non è cambiato perché &quot;common&quot;
+# ora è una variabile dell'istanza.
+&gt;&gt;&gt; istanza.common
+10
+
+&gt;&gt;&gt; istanza2.common
+50
+
+# Questa classe eredita da MiaClasse. L'ereditarietà
+# multipla viene dichiarata così:
+# class AltraClasse(MiaClasse1, MiaClasse2, MiaClasseN)
+class AltraClasse(MiaClasse):
+    # L'argomento &quot;self&quot; è passato automaticamente
+    # e fa riferimento all'istanza della classe, quindi puoi impostare
+    # variabili di istanza come sopra, ma dall'interno della classe.
+    def __init__(self, arg1):
+        self.miavariabile = 3
+        print arg1
+
+&gt;&gt;&gt; istanza = AltraClasse(&quot;hello&quot;)
+hello
+
+&gt;&gt;&gt; istanza.miafunzione(1, 2)
+3
+
+# Questa classe non ha un membro (proprietà) .test member, ma
+# possiamo aggiungerne uno all'istanza quando vogliamo. Nota
+# che .test sarà un membro della sola istanza.
+&gt;&gt;&gt; istanza.test = 10
+&gt;&gt;&gt; istanza.test
+10
+</code></pre>
+<h2 id="eccezioni">Eccezioni</h2>
+<p>Le eccezioni in Python sono gestite con dei blocchi <code>try-except [nome_eccezione]</code>:</p>
+<pre><code>def una_funzione():
+    try:
+        # Divisione per zero causa una eccezione
+        10 / 0
+    except ZeroDivisionError:
+        print &quot;Oops, errore.&quot;
+    else:
+        # Non c'è stata eccezione, possiamo proseguire.
+        pass
+    finally:
+        # Questo codice viene eseguito quando il blocco
+        # try..except è già eseguito e tutte le eccezioni
+        # sono state gestite, anche se si verifica una nuova
+        # eccezione direttamente nel blocco.
+        print &quot;Abbiamo finito.&quot;
+
+&gt;&gt;&gt; una_funzione()
+Oops, errore.
+Abbiamo finito.
+</code></pre>
+<h2 id="importare-librerie">Importare librerie</h2>
+<p>Le librerie esterne si importano con <code>import [nomelibreria]</code>. Puoi anche usare la forma <code>[nomelibreria] import [nomefunzione]</code> per importare singole funzioni. Ecco un esempio:</p>
+<pre><code>import random
+from time import clock
+
+randomint = random.randint(1, 100)
+
+&gt;&gt;&gt; print randomint
+64
+</code></pre>
+<h2 id="input-e-output">Input e Output</h2>
+<p>Python vanta una vasta gamma di librerie per gestire input/output di files. In
+questo esempio vediamo come <em>serializzare</em> (convertire strutture dati in
+stringhe) usando la libreria <code>pickle</code>:</p>
+<pre><code>import pickle
+mialista = [&quot;Questo&quot;, &quot;è&quot;, 4, 13327]
+
+# Apre il file C:\binary.dat in scrittura. La lettera r
+# prima del nome file serve a evitare l'escaping
+# del backslash.
+miofile = file(r&quot;C:\binary.dat&quot;, &quot;w&quot;)
+
+pickle.dump(mialista, miofile)
+miofile.close()
+
+miofile = file(r&quot;C:\text.txt&quot;, &quot;w&quot;)
+miofile.write(&quot;Questa è una stringa di prova&quot;)
+miofile.close()
+
+miofile = file(r&quot;C:\text.txt&quot;)
+
+&gt;&gt;&gt; print miofile.read()
+'Questa è una stringa di prova'
+
+miofile.close()
+
+# Apre il file in lettura.
+miofile = file(r&quot;C:\binary.dat&quot;)
+listadafile = pickle.load(miofile)
+miofile.close()
+
+&gt;&gt;&gt; print listadafile
+['Questo', 'è', 4, 13327]
+</code></pre>
+<h2 id="varie-ed-eventuali">Varie ed eventuali</h2>
+<p>I *test possono essere concatenati. <code>1 &gt; a &lt; 3</code> verifica che a sia minore di  3
+e maggiore di 1. Puoi usare <code>del</code> per <em>cancellare variabili o elementi di
+array</em>. Le <em>comprensioni di lista</em> sono uno strumento potente per creare
+e manipolare le liste. Consistono in una espressione seguita da una clausola
+<code>for</code> seguita da zero o più clausole <code>if</code>. Quindi:</p>
+<pre><code>&gt;&gt;&gt; lst1 = [1, 2, 3]
+&gt;&gt;&gt; lst2 = [3, 4, 5]
+&gt;&gt;&gt; print [x * y for x in lst1 for y in lst2]
+[3, 4, 5, 6, 8, 10, 9, 12, 15]
+&gt;&gt;&gt; print [x for x in lst1 if 4 &gt; x &gt; 1]
+[2, 3]
+
+# Verifica se almeno un elemento ha una determinata
+# caratteristica.
+# &quot;any&quot; restituisce true se qualunque elemento nella
+# lista è vero.
+&gt;&gt;&gt; any([i % 3 for i in [3, 3, 4, 4, 3]])
+True
+# Funziona perché 4 % 3 = 1, e 1 in Python è true,
+# quindi any() restituisce True.
+
+# Verifica quanto elemento hanno una determinata
+# caratteristica.
+&gt;&gt;&gt; sum(1 for i in [3, 3, 4, 4, 3] if i == 4)
+2
+
+&gt;&gt;&gt; del lst1[0]
+&gt;&gt;&gt; print lst1
+[2, 3]
+
+&gt;&gt;&gt; del lst1
+</code></pre>
+<p>Le <em>variabili globali</em> vengono dichiarate all&rsquo;esterno delle funzioni
+senza dichiarazioni particolari, ma se desideri modificarle in una funzione
+devi dichiararle con la parola <code>global</code> all&rsquo;inizio della funzione,
+altrimenti Python assegnerà quell&rsquo;oggetto a una nuova variabile locale
+(presta attenzione, si tratta di un piccolo dettaglio che può metterti
+facilmente nei guai). Per esempio: numero = 5</p>
+<pre><code>def miafunz():
+    # Questo stamperà 5.
+    print numero
+
+def altrafunz():
+    # Questo solleva una eccezione perché la variabile
+    # non è stata ancora assegnata. Python crea un
+    # nuovo oggetto locale invece di accedere al globale
+    print numero
+    numero = 3
+
+def ancorafunz():
+    global numero
+    # Questo cambierà il valore alla variabile globale
+    numero = 3
+</code></pre>
+<h2 id="epilogo">Epilogo</h2>
+<p>Questa non intende essere una guida completa (e nemmeno parziale) a Python.
+Python ha una vasta gamma di librerie e molte, moltissime funzionalità che
+dovrai scoprire con altri mezzi, come <a href="http://it.diveintopython.net/">Dive Into Python</a> (tradotto in
+italiano) o l&rsquo;eccellente <a href="http://www.amazon.it/gp/product/0596158068/ref=as_li_ss_tl?ie=UTF8&amp;camp=3370&amp;creative=24114&amp;creativeASIN=0596158068&amp;linkCode=as2&amp;tag=nicoiaro-21">Learning Python di Mark Lutz</a>, libro che consiglio
+a chiunque voglia davvero imparare e capire Python.</p>
+<p>Mi auguro di averti aiutato nella transizione verso Python. Lasciami un
+commento se pensi che ci sia qualcosa da migliorare o se c&rsquo;é qualcos&rsquo;altro
+che vorresti approfondire.</p>
+<p>Sono <a href="http://twitter.com/nicolaiarocci">@nicolaiarocci</a> su Twitter.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Cancellare tutte le Tabelle da un Database SQL Server</title>
@@ -113,6 +706,13 @@
       <pubDate>Wed, 09 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/cancellare-tutte-le-tabelle-da-un-database-sql-server/</guid>
       <description>&lt;p&gt;In rari casi può capitare la necessità di cancellare tutto, ma proprio tutto, da un database SQL Server. &lt;strong&gt;Tabelle&lt;/strong&gt;, &lt;strong&gt;Stored Procedure&lt;/strong&gt;, &lt;strong&gt;Funzioni&lt;/strong&gt;, &lt;strong&gt;Viste&lt;/strong&gt;, &lt;strong&gt;Relazioni&lt;/strong&gt; e &lt;strong&gt;Chiavi Primarie&lt;/strong&gt;. A questo punto tanto varrebbe cancellare il database e ricrearlo, direte voi. Vero, ma non sempre si dispone delle autorizzazioni per farlo. Nel mio caso si tratta di un database ospitato su un server remoto e condiviso. Posso creare e cancellare quel che voglio all’interno del database, ma non posso rinominare o cancellare il db stesso.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>In rari casi può capitare la necessità di cancellare tutto, ma proprio tutto, da un database SQL Server. <strong>Tabelle</strong>, <strong>Stored Procedure</strong>, <strong>Funzioni</strong>, <strong>Viste</strong>, <strong>Relazioni</strong> e <strong>Chiavi Primarie</strong>. A questo punto tanto varrebbe cancellare il database e ricrearlo, direte voi. Vero, ma non sempre si dispone delle autorizzazioni per farlo. Nel mio caso si tratta di un database ospitato su un server remoto e condiviso. Posso creare e cancellare quel che voglio all’interno del database, ma non posso rinominare o cancellare il db stesso.</p>
+<p>Ecco una <a href="http://stackoverflow.com/questions/536350/sql-server-2005-drop-all-the-tables-stored-procedures-triggers-constriants-an">comoda routine</a> che fa al caso nostro. Dopo averla eseguita vi troverete il database completamente vuoto, come se fosse stato appena creato.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Anche questa routine (come <a href="http://nicolaiarocci.com/come-rimuovere-tutte-le-stored-procedure-da-un-database-sql/">quella vista ieri che cancella le sole Stored Procedure</a>) accede alla tabella di sistema <code>sys.objects</code> per reperire lo schema del database. Cambia però la tecnica di accesso alle informazioni. Invece di usare un cursore qui selezioniamo il primo record utile per poi inoltrarci in un ciclo di cancellazioni ripetute. Il ciclo termina quando non ci sono più record che soddisfano i parametri di ricerca. Per evitare problemi coi vincoli relazionali è importante cancellare prima le relazioni e solo dopo le tabelle.</p>
+<h2 id="nota-bene">Nota Bene</h2>
+<p>Probabilmente c’è una ottima ragione per cui non disponete dei diritti di cancellazione del database. Prima di lanciare questo codice chiedetevi almeno dieci volte se 1) state sul database giusto, 2) siete coscienti delle conseguenze di quel che state per fare e 3) disponete di un backup dei dati. In ogni caso se perdete dati preziosi <strong>non venite a lamentarvi dal sottoscritto! 😉</strong></p>]]></content:encoded>
     </item>
     <item>
       <title>Come rimuovere tutte le Stored Procedure da un database SQL Server?</title>
@@ -120,6 +720,10 @@
       <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/come-rimuovere-tutte-le-stored-procedure-da-un-database-sql/</guid>
       <description>&lt;p&gt;In questi giorni sto lavorando sui database &lt;strong&gt;SQL Server&lt;/strong&gt; che fanno da back-end ai nostri web services e ne approfitto per fare un po’ manutenzione straordinaria. __Stamattina mi è capitato di dover cancellare tutte le &lt;strong&gt;Stored Procedure&lt;/strong&gt; di un database e ho &lt;a href=&#34;http://www.devasp.net/net/articles/display/309.html&#34;&gt;scovato&lt;/a&gt; questa routine che mi ha fatto risparmiare un mucchio di tempo&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>In questi giorni sto lavorando sui database <strong>SQL Server</strong> che fanno da back-end ai nostri web services e ne approfitto per fare un po’ manutenzione straordinaria. __Stamattina mi è capitato di dover cancellare tutte le <strong>Stored Procedure</strong> di un database e ho <a href="http://www.devasp.net/net/articles/display/309.html">scovato</a> questa routine che mi ha fatto risparmiare un mucchio di tempo</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>La tecnica è quella di sfruttare la tabella di sistema <em>sys.objects</em> che elenca tutti gli oggetti contenuti nel database. Le Stored Procedure hanno tutte type = ‘P’ per cui è facile individuarle. A questo punto ci sono due possibilità: memorizzarne i nomi in una tabella temporanea per poi lanciare un loop che le cancelli una per una, oppure usare un cursore ed eseguire le cancellazioni con la funzione EXEC. La nostra routine usa il secondo approccio, senz’altro più performante.</p>]]></content:encoded>
     </item>
     <item>
       <title>Introduzione alle Regular Expression – Terza Parte</title>
@@ -128,6 +732,135 @@
       <guid>https://nicolaiarocci.com/introduzione-alle-regular-expression-terza-parte/</guid>
       <description>Benvenuto alla terza e ultima parte della nostra Introduzione alle Regular Expression. Concluso il capitolo sarai in grado di affrontare la maggior parte dei problemi di ricerca nel testo. Se ancora non l&amp;rsquo;hai fatto ti consiglio di leggere la Prima Parte e la Seconda Parte. Ricorda che puoi usare la pagina di prova per testare le query della guida.
 Avidità Il problema della avidità degli operatori regex diventa evidente quando si comincia a lavorare su ricerche avanzate.</description>
+      <content:encoded><![CDATA[<p>Benvenuto alla terza e ultima parte della nostra <em>Introduzione alle Regular
+Expression</em>. Concluso il capitolo sarai  in grado di affrontare la maggior
+parte dei problemi di ricerca nel testo. Se ancora non l&rsquo;hai fatto ti
+consiglio di leggere la <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/">Prima Parte</a> e la <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/">Seconda Parte</a>. Ricorda che
+puoi usare la <!-- raw HTML omitted -->pagina di
+prova<!-- raw HTML omitted --> per testare le query della guida.</p>
+<h2 id="avidità">Avidità</h2>
+<p>Il problema della avidità degli operatori regex diventa evidente quando si
+comincia a lavorare su ricerche avanzate. Un caso tipico è il parsing di file
+XML o HTML.</p>
+<pre><code>&lt;p&gt;questo è un &lt;b&gt;paragrafo&lt;/b&gt;&lt;/p&gt;
+</code></pre>
+<p>Supponiamo di voler trovare tutti i tag usati.</p>
+<pre><code>&lt;.*&gt; # cerca tutti i tag
+</code></pre>
+<p>Il risultato della query non è quello che ci si potrebbe aspettare.
+L&rsquo;operatore <code>*</code> è <em>avido</em>, ovvero cerca di catturare più caratteri
+possibili. Una volta trovato il primo <code>&lt;</code> prosegue avidamente selezionando tutto
+fino all&rsquo;ultimo <code>&gt;</code>. In questo caso vogliamo che si fermi al primo <code>&gt;</code>, non
+all&rsquo;ultimo. E&rsquo; questa una distinzione importante, da comprendere
+a fondo. Possiamo disattivare il comportamento avido aggiungendo il carattere?</p>
+<pre><code>&lt;.*?&gt; # ora otteniamo quel che vogliamo (niente avidità)
+</code></pre>
+<p>Se desideriamo usare l&rsquo;operatore <code>+</code> (1 o più) al posto del <code>*</code> (zero o più),
+la nostra query diventa <code>&lt;.+?&gt;</code>.</p>
+<h2 id="confini">Confini</h2>
+<p>Nella <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/">seconda parte</a> del nostro tutorial abbiamo convalidato un numero
+telefonico nel formato 555-12345678</p>
+<pre><code>555-\d{8}   # 555- seguito da 8 cifre
+</code></pre>
+<p>Anche se tecnicamente corretta questa query non è perfetta. Se la testiamo con
+queste stringhe:</p>
+<pre><code>testoDavanti 555-12345678
+555-12345678 il mio telefono
+</code></pre>
+<p>scopriamo che vengono accettate perché la regola <code>555-\d{8}</code> è ancora valida.
+In realtà noi desideriamo accettare il solo il numero telefonico, niente
+altro. La soluzione richiede l&rsquo;uso degli operatori di confine:</p>
+<pre><code>^555-\d{8}$
+</code></pre>
+<p>I confini sono caratteri speciali perché non occupano spazio. Sono dei
+segnaposto che servono a delimitare il testo da cercare. Dopo l&rsquo;inizio
+<code>(^)</code> deve esserci il nostro numero di telefono; prima della fine <code>($)</code> deve
+esserci il nostro numero di telefono.</p>
+<!-- raw HTML omitted -->
+<pre><code>&lt;th&gt;
+  significato
+&lt;/th&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td style=&quot;vertical-align: top;&quot;&gt;
+  Inizio del testo. Sfortunatamente gli inventori di regex hanno scelto lo stesso carattere usato per la negazione. E&amp;#8217; importante riconoscerne il significato in base al contesto. Quando non è compreso tra [ e ] il carattere ^ è un confine e indica l&amp;#8217;inizio del testo.
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  fine del testo
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<p>Quindi</p>
+<pre><code>a   #  trova qualunque a
+^a  #  trova solo il testo che comincia per a
+a$  #  trova solo il testo che finisce per a
+</code></pre>
+<p>C&rsquo;è un altro confine, quello di parola <code>(\b)</code>. Vediamo un esempio. Vogliamo
+cercare le parole &ldquo;for&rdquo; e &ldquo;she&rdquo; nella nostra <!-- raw HTML omitted -->pagina di test<!-- raw HTML omitted -->.</p>
+<pre><code>(for|she)  # trova for e she
+</code></pre>
+<p>Non va male. Trova tutte le occorrenze di &ldquo;she&rdquo; e &ldquo;for&rdquo;, tuttavia viene
+selezionata anche la parola &ldquo;before&rdquo;. Non è il comportamento desiderato.
+Potremmo tentare cercando solo le occorrenze precedute e succedute da uno
+spazio.</p>
+<pre><code>[ ](for|she)[ ]  # cerca for o she
+</code></pre>
+<p>Va meglio. Non seleziona più before. Abbiamo però un nuovo problema. Nel testo
+c&rsquo;è la frase &ldquo;for she had plenty of time&rdquo;. La nostra regex non ha individuato
+la parola &ldquo;she&rdquo; contenuta nella frase. Per quale motivo?</p>
+<pre><code>for she had plenty of time
+</code></pre>
+<p>Con il &ldquo;for&rdquo; iniziale abbiamo già rintracciato lo spazio che precede &ldquo;she&rdquo;, che
+quindi viene escluso. Sono queste le situazioni un cui un confine di parola può
+risolvere il problema.</p>
+<pre><code>\b(for|she)\b  # trova she oppure for
+</code></pre>
+<p>Il confine <code>\b</code> definisce dove la parola comincia e finisce, proprio come
+succede con i confini visti prima. Abbiamo detto prima che i &ldquo;confini non
+occupano spazio&rdquo;. Nell&rsquo;esempio qui sopra cerchiamo esattamente
+&ldquo;for&rdquo; o &ldquo;she&rdquo;. Non cerchiamo la stringa <code>\b</code> e questa non occupa alcuno spazio
+durante la ricerca, a differenza di quel che è successo quando abbiamo tentato
+di usare la <code>[cornice]</code>. E&rsquo; un dettaglio importate perché con tutti gli
+altri operatori regex ciò che è nella query &ldquo;occupa spazio&rdquo; e non
+può essere trovato <em>di nuovo</em>.</p>
+<h2 id="il-finale-ricerca-e-sostituzione">Il Finale: Ricerca e Sostituzione</h2>
+<p>Ce l&rsquo;hai fatta! Sei arrivato in fondo. Congratulazioni. Il meglio arriva ora.
+Ricerca e sostituzione è senz&rsquo;altro il mio argomento preferito. Qui la pagina
+di test non ci può aiutare, occorre qualche tipo di editor oppure una IDE
+(Eclipse/Notepad++/Wordpad).</p>
+<p>Supponiamo di avere un file composto da 100 righe come queste</p>
+<pre><code>31-01-10_backup32
+24-01-10_backup1
+24-02-10_backup_mona
+11-03-09_backup_lisa
+</code></pre>
+<p>Vogliamo correggere le date portandole dal formato europeo a quello americano
+(da <code>gg-mm-aa</code> a <code>mm-gg-aaaa</code>).</p>
+<pre><code>\d{2}-\d{2}-\d{2}_backup.*  // trova le nostre righe
+</code></pre>
+<p>Per ogni riga desideriamo sostituire aree specifiche quindi ricorriamo
+all&rsquo;operatore di raggruppamento già visto nella <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/">seconda parte</a> di
+questa guida.</p>
+<pre><code>(\d{2})-(\d{2})-(\d{2})_backup(.*)  // ci siamo
+</code></pre>
+<p>A questo punto tutto quel che dobbiamo fare è sostituire le righe trovate con</p>
+<p><!-- raw HTML omitted -->{Gruppo2}<!-- raw HTML omitted -->–<!-- raw HTML omitted -->{Gruppo1}<!-- raw HTML omitted -->-20<!-- raw HTML omitted -->{Gruppo3}<!-- raw HTML omitted -->_backup<!-- raw HTML omitted -->{Gruppo4}<!-- raw HTML omitted --></p>
+<p>Il che si traduce nella seguente espressione di sostituzione</p>
+<pre><code>\2-\1-20\3_backup\4
+</code></pre>
+<p>Facile no? Niente più lavori ripetitivi. La mia regola è: se un testo richiede
+la modifica di più di cinque righe è giunta l&rsquo;ora di ricorrere alle
+regex. Potrebbe sembrare una esagerazione. Eppure un programmatore dovrebbe
+rifiutarsi per principio di ripetere manualmente un lavoro che può essere
+automatizzato.</p>
+<p>Buona fortuna.</p>
+<p>Questo articolo è una traduzione autorizzata di <a href="http://www.agillo.net/regex-primer-part-3/">Regex Primer: Part 3</a>.
+Ringrazio l&rsquo;autore per il permesso accordatomi.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Introduzione alle Regular Expression – Seconda Parte</title>
@@ -137,6 +870,173 @@ Avidità Il problema della avidità degli operatori regex diventa evidente quand
       <description>Questa è la seconda parte della serie Introduzione alle Regular Expression. Se non hai ancora letto la prima parte ti consiglio di farlo. Puoi usare la pagina demo per provare le query della guida.
 Negazione [^] Abbiamo già conosciuto la [cornice]. Una caratteristica importante di cui non abbiamo ancora parlato è la negazione. Supponiamo di voler cercare qualunque carattere eccetto la lettera a.
 [^a] # trova b,c,d,e,f,\n .... qualunque carattere eccetto &#39;a&#39; La negazione si applica a tutti i caratteri della cornice in cui compare l&amp;rsquo;operatore ˆ.</description>
+      <content:encoded><![CDATA[<p>Questa è la seconda parte della serie <em>Introduzione alle Regular Expression</em>.
+Se non hai ancora letto la <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/">prima parte</a> ti consiglio di farlo. Puoi usare
+la <!-- raw HTML omitted -->pagina demo<!-- raw HTML omitted --> per provare
+le query della guida.</p>
+<h2 id="negazione-">Negazione [^]</h2>
+<p>Abbiamo già conosciuto la <code>[cornice]</code>. Una caratteristica importante di cui non
+abbiamo ancora parlato è la negazione. Supponiamo di voler cercare qualunque
+carattere <em>eccetto la lettera a</em>.</p>
+<pre><code>[^a] # trova b,c,d,e,f,\n .... qualunque carattere eccetto 'a'
+</code></pre>
+<p>La negazione si applica a tutti i caratteri della cornice in cui compare
+l&rsquo;operatore <code>ˆ</code>. Non è possibile limitarla a solo alcuni.</p>
+<pre><code>[^0123456789] # trova qualunque carattere non numerico
+</code></pre>
+<h2 id="gli-alias">Gli Alias</h2>
+<p>Ora siamo pronti per affrontare qualche esempio realistico di regular
+expression. Uno degli usi più frequenti delle regex è la convalida di Stringhe.
+Proviamo a verificare la correttezza di un ipotetico numero telefonico da
+esprimere nel formato 555-12345678. Di norma divideremmo l&rsquo;input in due
+parti e proveremmo a convertirle in numeri. Ora tuttavia conosciamo le regex
+e possiamo sbrigarcela meglio.</p>
+<pre><code>555-[0-9]{7}
+</code></pre>
+<p>Fatto. Stiamo convalidando 555 seguito da un trattino seguito da 7 caratteri
+numerici. Possiamo essere addirittura più sintetici, vediamo come.</p>
+<p>I range <code>[0-9]</code> e <code>[a-z]</code>  sono talmente frequenti da saltar fuori continuamente,
+tanto che sono state create scorciatoie (alias) dedicate ai range più usati.
+Nel nostro caso ci torna utile <code>\d</code>, che sta per digit (carattere numerico)
+ed è semanticamente identico a <code>[0-9]</code>.</p>
+<pre><code>555-\d{7} # identico a 555-[0-9]{7}
+</code></pre>
+<p>Gli alias non sono certo indispensabili, puoi ottenere gli stessi risultati
+usando la cornice in modo esteso. Tuttavia sono molto comodi.</p>
+<!-- raw HTML omitted -->
+<pre><code>&lt;th&gt;
+  significato
+&lt;/th&gt;
+
+&lt;th&gt;
+  coorrisponde a
+&lt;/th&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  digit (numero)
+&lt;/td&gt;
+
+&lt;td&gt;
+  [0-9]
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  word (parola)
+&lt;/td&gt;
+
+&lt;td&gt;
+  [a-zA-Z0-9_]  Include il carattere underscore
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  spazio, tab o newline
+&lt;/td&gt;
+
+&lt;td&gt;
+  [ \t\r\n]
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  qualsiasi non numerico
+&lt;/td&gt;
+
+&lt;td&gt;
+  ^\d
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  quasiasi non alfanumerico
+&lt;/td&gt;
+
+&lt;td&gt;
+  ^\w
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  quasiasi ma non lo spazio
+&lt;/td&gt;
+
+&lt;td&gt;
+  ^\s
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<p><strong>Suggerimento:</strong> nota come ad ogni alias ne corrisponde uno dal significato
+opposto, tutto in maiuscolo. Impara i primi tre per conoscerli tutti e sei.</p>
+<h2 id="il-punto">Il Punto</h2>
+<p>Il punto è un alias un pò speciale. Ne parlo soprattutto perchè può capitare di
+notarlo nel codice scritto da altri. Il punto cerca tutto eccetto il new line
+(<code>\n</code>). Il problema è che il carattere new line non è lo stesso su tutte le
+piattaforme.</p>
+<pre><code>.   # trova tutti i caratteri
+.*  # equivalente a [^\n], trova tutti i paragrafi
+</code></pre>
+<p>Il punto spesso crea confusione. Consiglio di ricorrere a combinazioni di alias
+e cornici per ottenere gli stessi risultati senza rischiare errori.</p>
+<h2 id="escaping">Escaping</h2>
+<p>Capita a volte di dover cercare proprio il punto, oppure i caratteri [ o ].
+Poiché fanno parte della sintassi regex in questi casi è necessario riccorrere
+all&rsquo;escaping, ovvero precederli col carattere <code>\</code> che rappresenta
+l&rsquo;escape. Per esempio</p>
+<pre><code>\.    # cerca il punto invece che tutto quanto
+\*    # trova tutti gli asterischi
+\\    # trova tutti gli escape
+</code></pre>
+<h2 id="raggruppamenti-e-or">Raggruppamenti e OR</h2>
+<p>Torniamo alla convalida. Questa volta vogliamo verificare la validità di un
+indirizzo email. Prima di tutto stabiliamo le regole (semplificate) a cui una
+stringa deve attenersi per venire convalidata come indirizzo email: 1) il nome
+utente può contenere lettere, numeri, underscore e trattini ma deve cominciare
+con una lettera; 2) il dominio può contenere solo lettere seguite da un punto
+seguito da altre lettere. Quindi domain.fakecom è valido per noi</p>
+<pre><code>[a-z][\w-]*@[a-z]+\.[a-z]+
+</code></pre>
+<p>Presta attenzione all&rsquo;escaping del punto! Un&rsquo;altro dettaglio
+importante è il quantificatore <code>+</code> che abbiamo visto nel <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/">primo articolo</a> di
+questa serie. Nel dominio infatti vogliamo <em>almeno</em> una lettera, non zero
+o più.</p>
+<p>Supponiamo ora di voler aggiornare le regole in modo da convalidare solo
+i domini più importanti. Il nostro indirizzo email deve finire con com oppure
+net. Non possiamo risolvere questo problema con quel che abbiamo imparato
+finora. La nostra query regex dovrà ricorrere a due nuovi concetti,
+l&rsquo;operatore OR e i gruppi.</p>
+<pre><code>[a-z][\w-]*@[a-z]+\.(com|net)
+</code></pre>
+<p>Vediamo l&rsquo;OR all&rsquo;opera</p>
+<pre><code>com|net  #  trova com oppure net
+a|b|c    # lo stesso di [abc].
+</code></pre>
+<p>L&rsquo;aggiunta delle parentesi () si rende necessaria per chiarire che non
+vogliamo trovare <em>tutte</em> le occorrenze della parte di regex alla loro sinistra.
+Se volessimo &ldquo;Brad Pitt&rdquo; oppure &ldquo;Angelina Pitt&rdquo;</p>
+<pre><code>Brad|Angelina Pitt  # trova sia 'Brad' che 'Angelina Pitt'
+(Brad|Angelina) Pitt  # ora ci siamo!
+</code></pre>
+<p>Per un programmatore il concetto del raggruppamento (grouping) con le parentesi
+dovrebbe essere facilmente comprensibile. Di fatto possiamo combinarlo con
+altri operatori che già conosciamo</p>
+<pre><code>(dog)+   #  trova dog,dogdog,dogdogdog ...
+java(bean)?    #  trova java o javabean
+</code></pre>
+<h2 id="conclusione">Conclusione</h2>
+<p>Questo conclude la seconda parte della guida. La prossima e ultima parte verrà
+pubblicata tra qualche giorno. Nel frattempo raccomando di giocare con la <!-- raw HTML omitted -->pagina demo<!-- raw HTML omitted --> per fare un
+pò di pratica.</p>
+<p>E&rsquo; ora disponibile anche la <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-terza-parte/">terza parte</a> di questo tutorial.</p>
+<p>Questo articolo è una traduzione autorizzata di <a href="http://www.agillo.net/regex-primer-part-2/">Regex Primer: Part 2</a>. Ringrazio l&rsquo;autore per il permesso accordatomi.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Introduzione alle Regular Expression – Prima Parte</title>
@@ -158,6 +1058,152 @@ risolvere l&#39;80% dei problemi.&lt;/li&gt;
 &lt;p&gt;Ho preparato una &lt;!-- raw HTML omitted --&gt;pagina di
 prova&lt;!-- raw HTML omitted --&gt; per testare le regex del tutorial. In alternativa è sempre possibile
 usare una IDE, praticamente tutte supportano le regular expressions.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Quando si tratta fare ricerche in blocchi di testo le <a href="http://it.wikipedia.org/wiki/Espressione_regolare"><strong>regular
+expression</strong></a> (regex) sono la soluzione ideale. Come programmatore studiare
+le regex è stata una delle cose migliori che ho fatto per migliorare la mia
+produttività.</p>
+<ol>
+<li>Valide in ogni linguaggio e indipendenti dalla piattaforma, le regex sono
+un investimento sempre valido. Java, JavaScript, Ruby, .Net, Python…
+le regex non cambiano.</li>
+<li>Rendono ricerca e sostituzione del testo <em>enormemente</em> più potenti</li>
+<li>Soddisfano pienamente il principio <a href="http://en.wikipedia.org/wiki/Pareto_principle#In_software">80/20</a>. Basta conoscerne il 20% per
+risolvere l'80% dei problemi.</li>
+</ol>
+<p>Ho preparato una <!-- raw HTML omitted -->pagina di
+prova<!-- raw HTML omitted --> per testare le regex del tutorial. In alternativa è sempre possibile
+usare una IDE, praticamente tutte supportano le regular expressions.</p>
+<h2 id="partiamo-dalla-cornice">Partiamo dalla [cornice]</h2>
+<p>La regex più semplice? Eccola:</p>
+<pre><code>bank
+</code></pre>
+<p>La quale cerca &ldquo;bank&rdquo;. Cambiamola leggermente, immaginiamo di voler cercare sia &ldquo;bank&rdquo; che &ldquo;tank&rdquo; nello stesso blocco di testo.</p>
+<pre><code>[bt]ank  // cerca sia bank che tank
+</code></pre>
+<p>La [cornice] rappresenta comunque 1 carattere. Stiamo ancora cercando una
+parola di 4 caratteri, ma il primo può essere &ldquo;b&rdquo; oppure &ldquo;t&rdquo;. I caratteri
+inclusi nelle parentesi [] sono legati da una relazione di tipo OR. La loro
+posizione è irrilevante, <code>[tb]ank</code> è semanticamente identico. Ecco altri esempi
+d’uso della [cornice]:</p>
+<pre><code>[abc]1              // trova a1, b1 o c1
+[cba]1              // trova a1, b1 o c1
+file[0123456789]    // trova file0,file1,file2 ... o file9
+file[0-9]           // trova file0,file1,file2 ... o file9
+[a-z]               // trova a, b, c oppure ... z
+</code></pre>
+<p>Avrai notato che abbiamo introdotto un nuovo operatore. Usando il carattere
+<code>-</code> definiamo un <em>range</em>. Il range ci permette di evitare costrutti
+assurdamente lunghi come questo: <code>[abcdefghijklmnopqrstuvwyz]</code>. E’ una
+scorciatoia.</p>
+<h2 id="proseguiamo-coi-quantificatori">Proseguiamo coi Quantificatori</h2>
+<p>Riprendiamo dall’esempio iniziale. Immaginiamo di voler trovare <em>tank</em>,
+<em>bank</em>, <em>tanks</em>, e <em>banks</em>. Potremmo provare in questo modo:</p>
+<pre><code>[bt]anks?
+</code></pre>
+<p>Abbiamo aggiunto il <em>quantificatore</em> <code>?</code> che agisce sul carattere
+che si trova direttamente alla sua sinistra. Significa <em>una occorrenza oppure
+nessuna</em>, quindi nel nostro caso stiamo dicendo &ldquo;cerca [bt]ank con una
+&rsquo;s&rsquo; finale o meno&rdquo;. Un quantificatore può essere affiancato a qualunque
+carattere e addirittura a una <code>[cornice]</code>. Dai una occhiata a questi esempi:</p>
+<pre><code>[bt]anks         // trova banks o tanks
+[bt]anks?        // trova bank, tank, banks oppure tanks
+[bt]?ank         // trova bank, tank oppure ank
+ab?c?            // trova a, ab, abc oppure ac
+</code></pre>
+<p>Riassumendo, quando usiamo un carattere senza quantificatore indichiamo che ne
+cerchiamo una singola occorrenza. Quando aggiungiamo un quantificatore cambia
+il numero di occorrenze che vogliamo trovare. Nella tabella seguente trovi
+l’elenco dei quantificatori disponibili:</p>
+<!-- raw HTML omitted -->
+<pre><code>&lt;th&gt;
+  significato
+&lt;/th&gt;
+
+&lt;th&gt;
+  regex
+&lt;/th&gt;
+
+&lt;th&gt;
+  esempio
+&lt;/th&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  zero o 1
+&lt;/td&gt;
+
+&lt;td&gt;
+  abc?
+&lt;/td&gt;
+
+&lt;td&gt;
+  ab, abc
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  zero o più
+&lt;/td&gt;
+
+&lt;td&gt;
+  abc*
+&lt;/td&gt;
+
+&lt;td&gt;
+  ab,abc,abcc,abccc,abcccc,… etc
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  uno o più
+&lt;/td&gt;
+
+&lt;td&gt;
+  abc+
+&lt;/td&gt;
+
+&lt;td&gt;
+  abc,abcc,abccc,abcccc,…etc
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  esattamente n volte
+&lt;/td&gt;
+
+&lt;td&gt;
+  abc{2}
+&lt;/td&gt;
+
+&lt;td&gt;
+  abcc
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  da n a m volte
+&lt;/td&gt;
+
+&lt;td&gt;
+  abc{2,3}
+&lt;/td&gt;
+
+&lt;td&gt;
+  abcc,abccc
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<h2 id="concludendo">Concludendo</h2>
+<p>Abbiamo appreso la sintassi base che ci consente di fare un pò di pratica.
+E’ una buona idea fare quale esperimento in una IDE oppure sulla <!-- raw HTML omitted -->pagina demo<!-- raw HTML omitted -->.</p>
+<p>La seconda parte di questa guida è ora <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/">pubblicata</a>.</p>
+<p>Questo articolo è una traduzione autorizzata di <a href="http://www.agillo.net/regex-primer-part-1/">Regex Primer: Part 1</a>.
+Ringrazio l’autore per il permesso accordatomi.</p>]]></content:encoded>
     </item>
     <item>
       <title>Come accorciare links e URL usando le API di Bit.ly via ASP.NET</title>
@@ -165,6 +1211,16 @@ usare una IDE, praticamente tutte supportano le regular expressions.&lt;/p&gt;</
       <pubDate>Mon, 29 Nov 2010 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/accorciare-url-usando-bit-ly-via-asp-net/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Una delle applicazioni su cui sto lavorando in questo periodo manda decine di emails al giorno, ognuna contenente almeno un paio di links (URL). Questi link sono molto lunghi perché oltre all’indirizzo della pagina da aprire contengono una o più &lt;a href=&#34;http://en.wikipedia.org/wiki/Query_string&#34;&gt;query strings&lt;/a&gt;. In generale, per tante buone ragioni, le URL lunghe non sono mai una buona idea; ancor meno lo sono se  devono comparire in un messaggio email. Gli algoritmi di &lt;a href=&#34;http://en.wikipedia.org/wiki/Word_wrap&#34;&gt;word wrapping&lt;/a&gt; dei client di posta elettronica vanno in crisi quando sono costretti a inserire un ritorno di carrello nel bel mezzo della URL. Come biasimarli?&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Una delle applicazioni su cui sto lavorando in questo periodo manda decine di emails al giorno, ognuna contenente almeno un paio di links (URL). Questi link sono molto lunghi perché oltre all’indirizzo della pagina da aprire contengono una o più <a href="http://en.wikipedia.org/wiki/Query_string">query strings</a>. In generale, per tante buone ragioni, le URL lunghe non sono mai una buona idea; ancor meno lo sono se  devono comparire in un messaggio email. Gli algoritmi di <a href="http://en.wikipedia.org/wiki/Word_wrap">word wrapping</a> dei client di posta elettronica vanno in crisi quando sono costretti a inserire un ritorno di carrello nel bel mezzo della URL. Come biasimarli?</p>
+<p>Ci sono poi certi sistemi di web mail (quello di Libero, per non far nomi) che semplicemente non sono capaci di riprodurre correttamente un link o se lo fanno non attivano il link per ragioni di sicurezza, lasciando così al destinatario della mail il compito di copiare e incollare l’intera URL nel browser. Operazione non sempre banale per l’utente medio, soprattutto quando (guarda caso!) il testo da copiare e incollare è lunghissimo.</p>
+<p>Si potrebbe risolvere banalmente ricorrendo agli <a href="http://www.w3schools.com/HTML/html_links.asp">anchor tag HTML</a> ma nel mio caso questa strada non è praticabile: i messaggi devono essere in puro testo. Non solo, questa soluzione non risolverebbe comunque il problema dei web mail client che non si fidano dei miei messaggi. Creare a priori URL brevi non è una opzione per ragioni di legacy (il sito non l’ho creato io!). Come fare allora?</p>
+<h2 id="chiedere-aiuto-a-un-serviziourl-shortener">Chiedere aiuto a un servizio URL Shortener</h2>
+<p>Gli <a href="http://it.wikipedia.org/wiki/URL_shortening">URL shortener</a> sono servizi molto usati in ambito social networking e non solo. Data una certa URL di qualunque lunghezza ne restituiscono una equivalente molto più breve. Pioniere in questo campo è stato TinyURL ma oggigiorno il servizio più diffuso e conosciuto è senz’altro <a href="http://bit.ly/">Bit.ly</a>, il quale ha l’indubbio vantaggio di offrire una <a href="http://it.wikipedia.org/wiki/Representational_State_Transfer">REST API</a> ricca, robusta e <a href="http://code.google.com/p/bitly-api/wiki/ApiDocumentation#bit.ly_API_Documentation">ben documentata</a>. Questa libreria gratuita consente ai programmatori indipendenti (noi) l’implementazione di servizi di URL shortening nelle proprie applicazioni.</p>
+<p>Ecco dunque <strong>ShortenUrl</strong>, una semplice funzione ASP.NET che restituisce una URL breve a partire da una URL di qualunque lunghezza passata come parametro. Nel caso la chiamata alla API fallisca la funzione restituirà semplicemente una stringa vuota.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>La gran parte del lavoro è fatto da una sola linea di codice (ok, avrei potuto suddividerla in due o tre linee per amor di chiarezza, te lo concedo). La richiesta REST al servizio è eseguita da una istanza della classe <a href="http://msdn.microsoft.com/it-it/library/system.net.httpwebrequest(v=VS.90).aspx">HttpWebRequest</a>. Il <a href="http://code.google.com/p/bitly-api/wiki/ApiDocumentation#/v3/shorten">metodo Shorten</a> può restituire risultati in formato <a href="http://it.wikipedia.org/wiki/JSON">JSON</a>, <a href="http://it.wikipedia.org/wiki/XML">XML</a> o puro testo. Per semplicità ho scelto il formato testo. A seconda delle necessità potresti ricorrere al bellissimo formato JSON o al logorroico XML,  la documentazione ufficiale contiene esempi molto chiari anche per questi formati.</p>
+<p>Se non disponi di un account Bit.ly dovrai <a href="http://bit.ly/a/sign_up">registrarti</a> (è gratis). Una volta creato l’account potrai recuperare facilmente la tua <a href="http://bit.ly/a/your_api_key">API Key personale</a>, indispensabile per poter effettuare chiamate ai metodi della libreria.</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

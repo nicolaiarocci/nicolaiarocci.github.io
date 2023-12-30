@@ -14,6 +14,113 @@
       <pubDate>Tue, 01 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/arriva-cloud9-ide-la-piattaforma-per-il-software-online/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Se crei applicazioni per il web non avrebbe senso svilupparle online? Con questa domanda e con uno slogan ben congegnato (&lt;em&gt;Il tuo codice sempre disponibile, ovunque tu sia&lt;/em&gt;) &lt;strong&gt;&lt;a href=&#34;http://cloud9ide.com/&#34;&gt;Cloud9 IDE&lt;/a&gt;&lt;/strong&gt; si presenta finalmente al pubblico. L’idea iniziale era una piattaforma online condivisa e open source per sviluppare codice JavaScript direttamente nel browser. Talento e ambizione hanno consentito di puntare più in alto e Cloud9 è diventata una piattaforma completa per la produzione di software &lt;em&gt;in the cloud&lt;/em&gt; (&lt;a href=&#34;http://en.wikipedia.org/wiki/Platform_as_a_service&#34;&gt;PaaS&lt;/a&gt;). Ma vediamo meglio di cosa si tratta.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Se crei applicazioni per il web non avrebbe senso svilupparle online? Con questa domanda e con uno slogan ben congegnato (<em>Il tuo codice sempre disponibile, ovunque tu sia</em>) <strong><a href="http://cloud9ide.com/">Cloud9 IDE</a></strong> si presenta finalmente al pubblico. L’idea iniziale era una piattaforma online condivisa e open source per sviluppare codice JavaScript direttamente nel browser. Talento e ambizione hanno consentito di puntare più in alto e Cloud9 è diventata una piattaforma completa per la produzione di software <em>in the cloud</em> (<a href="http://en.wikipedia.org/wiki/Platform_as_a_service">PaaS</a>). Ma vediamo meglio di cosa si tratta.</p>
+<p>Già un mese fa <a href="http://nicolaiarocci.com/il-futuro-del-codici-sorgente-e-online/">presentando il Progetto Orion</a> accennavo a Cloud9, allora in beta avanzata. Erano disponibili pochi dettagli e soprattutto mancavano i prezzi. Partiamo dalle caratteristiche salienti.</p>
+<h2 id="punti-di-forza">Punti di forza</h2>
+<p>Cloud9 si vanta di possedere il miglior editor online per linguaggi dinamici. In effetti l’editor è un progetto originale Mozilla (<a href="http://mozillalabs.com/skywriter/">Skywriter</a>), poi integrato in <a href="http://ace.ajax.org/">Ace</a>. Il codice viene convalidato in tempo reale ed è possibile fare debug e lanciare applicazioni direttamente dal browser. Molte le funzioni per la collaborazione: chat integrato, modifiche condivise in tempo reale, team management e, <em>dulcis in fundo</em>, integrazione completa con <a href="https://github.com/">GitHub</a> (una UI per GitHub è in lavorazione, al momento è disponibile la classica linea di comando). Vedere per credere:</p>
+<!-- raw HTML omitted -->
+<pre><code>      &lt;p class=&quot;wp-caption-text&quot;&gt;
+        Editor per linguaggi dinamici integrato nel browser
+      &lt;/p&gt;
+    &lt;/div&gt;&lt;/td&gt; 
+    
+    &lt;td&gt;
+      &lt;p&gt;
+        &lt;div id=&quot;attachment_1274&quot; style=&quot;width: 220px&quot; class=&quot;wp-caption alignright&quot;&gt;
+          &lt;a href=&quot;images/cloud9_2.png&quot; rel=&quot;lightbox[1208]&quot;&gt;&lt;img class=&quot;size-thumbnail wp-image-1274  &quot; title=&quot;Convalida del codice JavaScript in tempo reale&quot; src=&quot;http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/cloud9_2-150x100.png?w=150&quot; alt=&quot;&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+          
+          &lt;p class=&quot;wp-caption-text&quot;&gt;
+            Convalida del codice JavaScript in tempo reale
+          &lt;/p&gt;
+        &lt;/div&gt;&lt;/td&gt; &lt;/tr&gt; 
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;p&gt;
+              &lt;div id=&quot;attachment_1275&quot; style=&quot;width: 220px&quot; class=&quot;wp-caption alignright&quot;&gt;
+                &lt;a href=&quot;http://i2.wp.com/nicolaiarocci.com/wp-content/uploads/cloud9_21.png&quot; rel=&quot;lightbox[1208]&quot;&gt;&lt;img class=&quot;size-thumbnail wp-image-1275   &quot; title=&quot;Chat intengrato in Cloud9&quot; src=&quot;images/cloud9_21-150x100.png?w=150&quot; alt=&quot;&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+                
+                &lt;p class=&quot;wp-caption-text&quot;&gt;
+                  Chat intengrato in Cloud9
+                &lt;/p&gt;
+              &lt;/div&gt;&lt;/td&gt; 
+              
+              &lt;td&gt;
+                &lt;p&gt;
+                  &lt;div id=&quot;attachment_1276&quot; style=&quot;width: 220px&quot; class=&quot;wp-caption alignright&quot;&gt;
+                    &lt;a href=&quot;http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/cloud9_4.png&quot; rel=&quot;lightbox[1208]&quot;&gt;&lt;img class=&quot;size-thumbnail wp-image-1276    &quot; title=&quot;Gruppi di lavoro&quot; src=&quot;http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/cloud9_4-150x100.png?w=150&quot; alt=&quot;&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+                    
+                    &lt;p class=&quot;wp-caption-text&quot;&gt;
+                      Gruppi di lavoro
+                    &lt;/p&gt;
+                  &lt;/div&gt;&lt;/td&gt; &lt;/tr&gt; 
+                  
+                  &lt;tr&gt;
+                    &lt;td&gt;
+                      &lt;p&gt;
+                        &lt;div id=&quot;attachment_1277&quot; style=&quot;width: 220px&quot; class=&quot;wp-caption alignright&quot;&gt;
+                          &lt;a href=&quot;images/cloud9_5.png&quot; rel=&quot;lightbox[1208]&quot;&gt;&lt;img class=&quot;size-thumbnail wp-image-1277  &quot; title=&quot;Run e Debug online&quot; src=&quot;http://i1.wp.com/nicolaiarocci.com/wp-content/uploads/cloud9_5-150x100.png?w=150&quot; alt=&quot;&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+                          
+                          &lt;p class=&quot;wp-caption-text&quot;&gt;
+                            Run e Debug online
+                          &lt;/p&gt;
+                        &lt;/div&gt;&lt;/td&gt; 
+                        
+                        &lt;td&gt;
+                          &lt;p&gt;
+                            &lt;div id=&quot;attachment_1278&quot; style=&quot;width: 220px&quot; class=&quot;wp-caption alignright&quot;&gt;
+                              &lt;a href=&quot;images/cloud9_6.png&quot; rel=&quot;lightbox[1208]&quot;&gt;&lt;img class=&quot;size-thumbnail wp-image-1278  &quot; title=&quot;Integrazione con GitHub&quot; src=&quot;http://i1.wp.com/nicolaiarocci.com/wp-content/uploads/cloud9_6-150x100.png?w=150&quot; alt=&quot;&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+                              
+                              &lt;p class=&quot;wp-caption-text&quot;&gt;
+                                Integrazione con GitHub
+                              &lt;/p&gt;
+                            &lt;/div&gt;&lt;/td&gt; &lt;/tr&gt; 
+                            
+                            &lt;tr&gt;
+                              &lt;td&gt;
+                                &lt;p&gt;
+                                  &lt;div id=&quot;attachment_1279&quot; style=&quot;width: 220px&quot; class=&quot;wp-caption alignright&quot;&gt;
+                                    &lt;a href=&quot;http://i2.wp.com/nicolaiarocci.com/wp-content/uploads/cloud9_7.png&quot; rel=&quot;lightbox[1208]&quot;&gt;&lt;img class=&quot;size-thumbnail wp-image-1279  &quot; title=&quot;Team Management&quot; src=&quot;images/cloud9_7-150x100.png?w=150&quot; alt=&quot;&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+                                    
+                                    &lt;p class=&quot;wp-caption-text&quot;&gt;
+                                      Team Management
+                                    &lt;/p&gt;
+                                  &lt;/div&gt;&lt;/td&gt; 
+                                  
+                                  &lt;td&gt;
+                                    &lt;p&gt;
+                                      &lt;div id=&quot;attachment_1280&quot; style=&quot;width: 220px&quot; class=&quot;wp-caption alignright&quot;&gt;
+                                        &lt;a href=&quot;images/cloud9_8.png&quot; rel=&quot;lightbox[1208]&quot;&gt;&lt;img class=&quot;size-thumbnail wp-image-1280  &quot; title=&quot;Accedi al codice ovunque tu sia&quot; src=&quot;http://i1.wp.com/nicolaiarocci.com/wp-content/uploads/cloud9_8-150x100.png?w=150&quot; alt=&quot;&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+                                        
+                                        &lt;p class=&quot;wp-caption-text&quot;&gt;
+                                          Accedi al codice ovunque tu sia
+                                        &lt;/p&gt;
+                                      &lt;/div&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; 
+                                      
+                                      &lt;h2&gt;
+                                        Linguaggi e Frameworks
+                                      &lt;/h2&gt;
+                                      
+                                      &lt;p&gt;
+                                        JavaScript naturalmente è supportato al 100%. Ruby anche, seppure parzialmente. Cloud9 mira a integrare tutti i linguaggi e i framework più diffusi. Per quanto riguarda i linguaggi della galassia Microsoft per ora nulla da fare (ma c&amp;#8217;è sempre &lt;strong&gt;&lt;a href=&quot;http://www.coderun.com/&quot;&gt;CodeRun&lt;/a&gt;&lt;/strong&gt;), anche se ho colto un (molto) blando accenno a un futuro supporto per Mono. Cloud9 supporterà il &lt;em&gt;one-click-deploy&lt;/em&gt; su altre piattaforme cloud e il mounting di drive locali per consentire l&amp;#8217;accesso ai files remoti da parte di applicazioni esterne. Insomma il menù è ricco e invitante, bisognerà vedere a che ritmo si succederanno le implementazioni.
+                                      &lt;/p&gt;
+                                      
+                                      &lt;h2&gt;
+                                        Piani tariffari
+                                      &lt;/h2&gt;
+                                      
+                                      &lt;p&gt;
+                                        Qui la faccenda si fa ancor più interessante e per certi versi sorprendente. I progetti open source possono accedere a Cloud9 gratuitamente. Quelli commerciali possono scegliere tra due piani tariffari, uno giornaliero (€0.33/giorno) e uno mensile (€39/mese). Il piano giornaliero mi incuriosisce parecchio. Se ho ben capito si pagano solo i giorni di uso effettivo, se così fosse si tratterebbe di una soluzione davvero valida oltre che originale. Ad ogni buon conto è previsto un periodo di prova di 30 giorni.
+                                      &lt;/p&gt;
+                                      
+                                      &lt;h2&gt;
+                                        Coraggio!
+                                      &lt;/h2&gt;
+                                      
+                                      &lt;p&gt;
+                                        Sono intrigato un bel pò, l&amp;#8217;avrete capito. Le titubanze sono legittime, per carità. Sicurezza e riservatezza sono aspetti importanti; queste piattaforme cloud potranno garantirle? Molti di noi hanno superato da tempo queste paure appoggiandosi (per progetti aperti e privati) a GitHub, Mercurial e altri servizi repository. E&amp;#8217; forse giunto il momento di cominciare a sporcarsi le mani. Prima o poi dovremo farci i conti comunque, non credete?
+                                      &lt;/p&gt;
+</code></pre>]]></content:encoded>
     </item>
   </channel>
 </rss>

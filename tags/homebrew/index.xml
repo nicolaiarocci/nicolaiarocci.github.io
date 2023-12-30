@@ -14,6 +14,18 @@
       <pubDate>Tue, 20 Jun 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/homebrew-and-docfx-dont-like-each-other-too/</guid>
       <description>Another day another Homebrew incompatibility emerges, this time with docfx, the technical documentation building tool of reference in .NET space. I&amp;rsquo;ve been using docfx for years to build the FatturaElettronica.NET website, and it&amp;rsquo;s always been working without a glitch. Lately, however, my builds have been failing with strange errors I was too lazy to diagnose until today when I decided to grasp the nettle and sort the whole thing out.</description>
+      <content:encoded><![CDATA[<p>Another day another Homebrew incompatibility emerges, this time with <a href="https://dotnet.github.io/docfx/index.html">docfx</a>, the technical documentation building
+tool of reference in .NET space. I&rsquo;ve been using docfx for years to build the <a href="https://fatturaelettronicaopensource.org">FatturaElettronica.NET</a> website, and it&rsquo;s
+always been working without a glitch. Lately, however, my builds have been failing with strange errors I was too lazy to
+diagnose until today when I decided to grasp the nettle and sort the whole thing out.</p>
+<p>It took me an embarrassing time to realize that, while successful, my docfx updates (<code>dotnet tool update -g docfx</code>) were
+being ignored. An old, Homebrew-installed version of docfx was being executed at my launches —a simple <code>which docfx</code>
+revealed the issue. <code>brew uninstall docfx</code> finally set the updated, dotnet-installed version free of its chains, and it
+is now merrily churning websites.</p>
+<p>A similar issue emerged <a href="/homebrew-and-dotnet-8-preview-dont-like-each-other/">between Homebrew and .NET 8 Preview</a> only a few days ago. Lesson learned I&rsquo;m not installing
+dotnet tools via Homebrew anymore. Or maybe, I might stay clear of Homebrew altogether.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Homebrew and .NET 8 Preview don&#39;t like each other</title>
@@ -21,6 +33,21 @@
       <pubDate>Tue, 13 Jun 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/homebrew-and-dotnet-8-preview-dont-like-each-other/</guid>
       <description>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&amp;rsquo;m working on a C# 12 presentation for our local developer meetup, and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As version 7 was initially installed with Homebrew, I also wanted to install version 8 Preview with Homebrew, but that recipe was unavailable. Not perfectly happy with that, I fell back to the stand-alone installer, expecting problems.</description>
+      <content:encoded><![CDATA[<p>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&rsquo;m working on a <a href="https://www.meetup.com/it-IT/devromagna/events/293340671/">C# 12 presentation
+for our local developer meetup</a>, and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As
+version 7 was initially installed with Homebrew, I also wanted to install version 8 Preview with Homebrew, but that
+recipe was unavailable. Not perfectly happy with that, I fell back to the stand-alone installer, expecting
+problems.</p>
+<p>Installation went well, but then I turned to the command line only to find that <code>dotnet --list-sdks</code> was still and only
+showing version 7. Yet, the 8 Preview was sitting there at its canonical location at <code>/usr/local/share/dotnet/sdk</code>,
+where the v7 was also listed.</p>
+<p>Puzzled, I tried a few things, but the quick fix was to simply <code>brew uninstall --ignore-dependencies dotnet</code> and, boom,
+both versions 8 Preview and 7 became immediately available. I suspect that <code>brew uninstall</code> only removed the symlink
+from .NET canonical location to the Homebrew cellar, which magically solved the SDK visibility problem.</p>
+<p>TL; DR. Homebrew recipes don&rsquo;t play nicely with .NET canonical installer. To make all my SDK versions visible to .NET,
+I had to forego the Homebrew installation, which did not uninstall the SDK itself, but simply unlinked it.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>So tired of Homebrew messing up with my stuff</title>
@@ -29,6 +56,36 @@
       <guid>https://nicolaiarocci.com/so-tired-of-homebrew-messing-up-with-my-stuff/</guid>
       <description>Pardon me while I&amp;rsquo;m venting out my frustration. I am so tired of Homebrew messing up with my stuff. It used to be the perfect tool for the right job until they decided to auto-brew-update-and-cleanup at every new install. Another day another issue, today with vim not running anymore:
 dyld: Library not loaded: /usr/local/opt/lua/lib/liblua.5.3.dylib Referenced from: /user/local/bin/vi Reason: image not found Lua has suddenly gone missing. Ah, but of course. I installed something with Homebrew this morning.</description>
+      <content:encoded><![CDATA[<p>Pardon me while I&rsquo;m venting out my frustration. I am so tired of Homebrew
+messing up with my stuff. It used to be the perfect tool for the right job
+until they decided to auto-brew-update-and-cleanup at every new install.
+Another day another issue, today with vim not running anymore:</p>
+<pre><code>dyld: Library not loaded: /usr/local/opt/lua/lib/liblua.5.3.dylib
+Referenced from: /user/local/bin/vi
+Reason: image not found
+</code></pre>
+<p>Lua has suddenly gone missing. Ah, but of course. I installed something with
+Homebrew this morning. The fix is to <code>brew reinstall vim</code>, which then leads to
+the following error:</p>
+<pre><code>Error: python@3.9 the bottle needs the Apple Command LIne Tools to be installed.
+You can install them, if desired, with:
+xcode-select --install
+</code></pre>
+<p>An <code>xcode-select install</code> and another <code>brew reinstall</code> later, vim is back home.
+It&rsquo;s only a minor annoyance —only a few wasted minutes, but the point is, they
+didn&rsquo;t need to be wasted. If you&rsquo;re frequently installing stuff via Homebrew,
+this is quite a common, unpleasant occurrence (python virtual environments
+being hit with alarming frequency).</p>
+<p>I know that one can disable automatic cleanups by setting the
+<code>HOMEBREW_NO_INSTALL_CLEANUP</code> environment variable. I will end up doing that
+out of frustration sooner or later. Again, the point is I should not need to do
+that.  It all adds unnecessary friction, especially for someone who&rsquo;s been
+religiously running manual cleanups (I concede that an un-maintained brew cache
+can grow to <em>very</em> sizable dimensions).</p>
+<p>Homebrew is still an essential tool; just not so enjoyable anymore. It&rsquo;s not
+like we have a valid alternative at hand, anyway.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

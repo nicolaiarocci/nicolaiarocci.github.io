@@ -14,6 +14,10 @@
       <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/come-rimuovere-tutte-le-stored-procedure-da-un-database-sql/</guid>
       <description>&lt;p&gt;In questi giorni sto lavorando sui database &lt;strong&gt;SQL Server&lt;/strong&gt; che fanno da back-end ai nostri web services e ne approfitto per fare un po’ manutenzione straordinaria. __Stamattina mi è capitato di dover cancellare tutte le &lt;strong&gt;Stored Procedure&lt;/strong&gt; di un database e ho &lt;a href=&#34;http://www.devasp.net/net/articles/display/309.html&#34;&gt;scovato&lt;/a&gt; questa routine che mi ha fatto risparmiare un mucchio di tempo&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>In questi giorni sto lavorando sui database <strong>SQL Server</strong> che fanno da back-end ai nostri web services e ne approfitto per fare un po’ manutenzione straordinaria. __Stamattina mi è capitato di dover cancellare tutte le <strong>Stored Procedure</strong> di un database e ho <a href="http://www.devasp.net/net/articles/display/309.html">scovato</a> questa routine che mi ha fatto risparmiare un mucchio di tempo</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>La tecnica è quella di sfruttare la tabella di sistema <em>sys.objects</em> che elenca tutti gli oggetti contenuti nel database. Le Stored Procedure hanno tutte type = ‘P’ per cui è facile individuarle. A questo punto ci sono due possibilità: memorizzarne i nomi in una tabella temporanea per poi lanciare un loop che le cancelli una per una, oppure usare un cursore ed eseguire le cancellazioni con la funzione EXEC. La nostra routine usa il secondo approccio, senz’altro più performante.</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

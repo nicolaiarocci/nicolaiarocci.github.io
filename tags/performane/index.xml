@@ -16,6 +16,19 @@
       <description>E’ vero che non tutti i programmi Python richiedono un’analisi rigorosa delle prestazioni, ma è rassicurante sapere che l’ecosistema Python ci mette a disposizione una serie di strumenti a cui possiamo rivolgerci in caso di necessità.
 Analizzare la performance di un programma significa prima di tutto rispondere a queste quattro semplici domande:
 Quanto gira veloce? Dove sono i “collli di bottiglia”? Quanta memoria sta utilizzando? Dove occorrono gli spechi di memoria?</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>E’ vero che non tutti i programmi Python richiedono un’analisi rigorosa delle prestazioni, ma è rassicurante sapere che l’ecosistema Python ci mette a disposizione una serie di strumenti a cui possiamo rivolgerci in caso di necessità.</p>
+<p>Analizzare la performance di un programma significa prima di tutto rispondere a queste quattro semplici domande:</p>
+<ul>
+<li>Quanto gira veloce?</li>
+<li>Dove sono i “collli di bottiglia”?</li>
+<li>Quanta memoria sta utilizzando?</li>
+<li>Dove occorrono gli spechi di memoria?</li>
+</ul>
+<p>Scopriamo come rispondere a queste domande attraverso alcuni strumenti molto interessanti.</p>
+</blockquote>
+<p><!-- raw HTML omitted -->A guide to analyzing Python performance<!-- raw HTML omitted --> è un’articolo non difficile che vale la pena leggere.</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

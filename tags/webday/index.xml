@@ -15,6 +15,18 @@
       <guid>https://nicolaiarocci.com/i-am-speaking-at-webday-2023/</guid>
       <description>On Thursday, I will be speaking in Milan at WebDay 2023. Mine is a hands-on session on building a reliable and continuous end-to-end testing environment for web apps using Microsoft Playwright. If you attended my introductory Playwright session at WPC last year, Thursday&amp;rsquo;s session would be the ideal follow-up to that one, as I only briefly touched on CI deployments there.
 Drawing from my experience doing the whole thing in production, I&amp;rsquo;ll essentially be live testing a Blazor app, then take the entire thing to remote CI via GitHub Actions.</description>
+      <content:encoded><![CDATA[<p>On Thursday, I will be speaking in Milan at <a href="https://www.webdayconf.it/">WebDay 2023</a>. Mine is a hands-on session on building a reliable and
+continuous end-to-end testing environment for web apps using Microsoft Playwright. If you attended my <a href="https://nicolaiarocci.com/my-session-at-wpc-2022/">introductory
+Playwright session at WPC</a> last year, Thursday&rsquo;s session would be the ideal follow-up to that one, as I
+only briefly touched on CI deployments there.</p>
+<p>Drawing from my experience doing the whole thing in production, I&rsquo;ll essentially be live testing a Blazor app, then take
+the entire thing to remote CI via GitHub Actions. In the process, I&rsquo;ll show some of the issues we faced, share how we
+solved them, and offer some practices we adopted.</p>
+<p>WebDay 2023 will be a hybrid event, with over 380 in-person attendees and almost 1300 registered for live streaming.
+After the exhilarating experience of being back on an actual stage at WPC a few months ago, I&rsquo;m excited to speak once
+again in front of a real crowd.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

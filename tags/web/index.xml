@@ -14,6 +14,69 @@
       <pubDate>Thu, 30 Sep 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-word-for-web-is-forest/</guid>
       <description>When I read Entangled Life: How Fungi Make Our Worlds, Change Our Minds &amp;amp; Shape Our Futures by Merlin Sheldrake1, I was stunned by the scale and importance of the mycorrhizal network that lies beneath the surface of any given forest in the world. The &amp;ldquo;wood wide web&amp;rdquo;, as scientists started to call it, sounded like the perfect metaphor for such an incredibly efficient, symbiotic relation between fungi and trees.</description>
+      <content:encoded><![CDATA[<p>When I read <em>Entangled Life: How Fungi Make Our Worlds, Change Our Minds
+&amp; Shape Our Futures</em> by Merlin Sheldrake<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, I was stunned by the scale and
+importance of the mycorrhizal network that lies beneath the surface of any
+given forest in the world. The &ldquo;wood wide web&rdquo;, as scientists started to call
+it, sounded like the perfect metaphor for such an incredibly efficient,
+symbiotic relation between fungi and trees.</p>
+<p>In <a href="https://newpublic.org/article/1572/the-word-for-web-is-fores://newpublic.org/article/1572/the-word-for-web-is-forest">The Word for Web is Forest</a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, Claire L. Evans brilliantly reverses the
+perspective. If the wood wide web metaphor holds, we can see the world wide web
+as a live, intermingled network of interconnected, initially decentralized and
+perhaps symbiotic entities. The issues we face in the modern web are not
+dissimilar from those faced by ill forests worldwide.</p>
+<blockquote>
+<p>The wood wide web has been a powerhouse metaphor for popularizing the
+mutualistic relationships of healthy forests. But like a struggling forest,
+the web is no longer healthy. It has been wounded and depleted in the pursuit
+of profit. Going online today is not an invigorating walk through a green
+woodland—it’s rush-hour traffic alongside a freeway median of diseased trees,
+littered with the detritus of late capitalism. If we want to repair this
+damage, we must look to the wisdom of the forest and listen to ecologists
+like Simard when they tell us just how sustainable, interdependent,
+life-giving systems work.</p>
+</blockquote>
+<p>Suzane Simard, the Canadian ecologist who revealed the cooperative nature of
+forests, explains that Mother Trees (the eldest trees) serve as &ldquo;central hubs
+of the wood wide web.  They are the strongest, the most resource-rich, with
+taproots stretching far beneath the earth.&rdquo; When a Mother Tree dies, it shares
+its resources with the forest while many other Mothers guarantee the
+continuity and integrity of the ecosystem. This used to be the case with the
+Web too, but not anymore.</p>
+<blockquote>
+<p>The web isn’t what it used to be. When the editors of Nature compared
+mycorrhizal fungi to a computer network, the web was still predominantly
+peer-to-peer, its users sharing their thoughts on personal home pages and
+homespun message-boards. Online advertising was in its infancy. But as the
+web has centralized, it has strayed further and further from the ideal
+presented by the wood wide web [..] By selecting for the most inflammatory
+and emotional content, Big Tech has algorithmically weeded the forest into
+a field of commercial timber.</p>
+</blockquote>
+<p>Evans then proceeds to suggest that we should probably strive to imitate
+mycorrhizal networks and (re?)build decentralized networks, with &ldquo;Mother nodes
+&ndash; sites in the network bearing a responsibility of care.&rdquo; I&rsquo;ll stop here. Read
+the <a href="https://newpublic.org/article/1572/the-word-for-web-is-fores://newpublic.org/article/1572/the-word-for-web-is-forest">article</a> now, there is a lot to absorb. She doesn&rsquo;t go into the details
+of her proposed solution, but offers us an original, courageous and pregnant
+point of view to consider.</p>
+<p><img loading="lazy" src="/images/entangled_life.jpg#center" alt="Entangled life"  />
+</p>
+<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><em>Entangled Life</em> is a great read. It also features one of the most beautiful book covers of the modern age.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>The just-recently published magazine hosting the article, <a href="https://newpublic.org/">New_Public</a>, appears as a promising source of future content.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
     </item>
     <item>
       <title>Primi passi con SSH</title>
@@ -22,6 +85,11 @@
       <guid>https://nicolaiarocci.com/primi-passi-con-ssh/</guid>
       <description>Se siete ai primi passi nello sviluppo di applicazioni web vi consiglio la lettura di SSH: What and How. Senza troppi fronzoli l’articolo spiega le basi di SSH mettendo bene in luce le possibilità offerte da questo importante strumento di lavoro.
 Ogni giorno molti sviluppatori web usano SSH (“Secure Shell”) per gestire i loro server, fare backup, lavorare in remoto e una miriade di altre cosette. Oggi vi spiego cos’è e da dove viene SSH e, soprattutto, vi insegno come configurarlo sul vostro server remoto o sulla vostra rete locale.</description>
+      <content:encoded><![CDATA[<p>Se siete ai primi passi nello sviluppo di applicazioni web vi consiglio la lettura di <!-- raw HTML omitted -->SSH: What and How<!-- raw HTML omitted -->. Senza troppi fronzoli l’articolo spiega le basi di SSH mettendo bene in luce le possibilità offerte da questo importante strumento di lavoro.</p>
+<blockquote>
+<p>Ogni giorno molti sviluppatori web usano SSH (“Secure Shell”) per gestire i loro server, fare backup, lavorare in remoto e una miriade di altre cosette. Oggi vi spiego cos’è e da dove viene SSH e, soprattutto, vi insegno come configurarlo sul vostro server remoto o sulla vostra rete locale. Cominciamo!</p>
+</blockquote>
+]]></content:encoded>
     </item>
     <item>
       <title>Conosco solo PHP. Come scrivo una applicazione web in Python?</title>
@@ -29,6 +97,8 @@ Ogni giorno molti sviluppatori web usano SSH (“Secure Shell”) per gestire i 
       <pubDate>Mon, 07 May 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/conosco-solo-php-come-scrivo-una-applicazione-web-in-python/</guid>
       <description>Venite da PHP e siete incuriositi da Python? Vi consiglio la lettura di Python FAQ Webdev: i web framework Python dal punto di vista di un ex sviluppatore PHP.</description>
+      <content:encoded><![CDATA[<p>Venite da PHP e siete incuriositi da Python? Vi consiglio la lettura di <!-- raw HTML omitted -->Python FAQ Webdev<!-- raw HTML omitted -->: i web framework Python dal punto di vista di un ex sviluppatore PHP.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Python per il Web</title>
@@ -36,6 +106,11 @@ Ogni giorno molti sviluppatori web usano SSH (“Secure Shell”) per gestire i 
       <pubDate>Thu, 20 Oct 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/python-per-il-web/</guid>
       <description>Python for the Web è una agile guida introduttiva per chi vuole accedere al Web via Python. Vengono presentate tre eccellenti librerie: Requests, simplejson e lxml. La prima consente di interagire facilmente coi siti Web da Python, la seconda serve a processare i flussi JSON e l’ultima è una fantastica risorsa per lo scraping (l’ho usata in un mio progetto, ve la consiglio senz’altro). L’ultimo argomento della guida è la creazione di siti web in Python attraverso il framework Django.</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Python for the Web<!-- raw HTML omitted --> è una agile guida introduttiva per chi vuole accedere al Web via Python. Vengono presentate tre eccellenti librerie: <!-- raw HTML omitted -->Requests<!-- raw HTML omitted -->, <!-- raw HTML omitted -->simplejson<!-- raw HTML omitted --> e <!-- raw HTML omitted -->lxml<!-- raw HTML omitted -->. La prima consente di interagire facilmente coi siti Web da Python, la seconda serve a processare i flussi JSON e l’ultima è una fantastica risorsa per lo scraping (l’ho usata in un mio progetto, ve la consiglio senz’altro). L’ultimo argomento della guida è la creazione di siti web in Python attraverso il framework <!-- raw HTML omitted -->Django<!-- raw HTML omitted -->.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Più che una guida, Python for the Web è un <em>appetizer</em> che vi invoglierà ad approfondire gli argomenti trattati. Se state cominciando con Python, date una occhiata.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Quattro passi tra le nuvole al Romagna Camp 2011</title>
@@ -44,6 +119,12 @@ Ogni giorno molti sviluppatori web usano SSH (“Secure Shell”) per gestire i 
       <guid>https://nicolaiarocci.com/quattro-passi-tra-le-nuvole-al-romagna-camp-2011/</guid>
       <description>“Quattro passi tra le nuvole (e non scordate il paracadute)” è il titolo del mio intervento al Romagna Camp 2011. Racconterò la mia esperienza nella fornitura di servizi cloud alle small business italiane. In questi giorni di ferie ho cominciato buttare giù qualche appunto e abbozzare le prime slide. La sfida è condensare tutto quel che c’è da dire in quindici minuti.
 Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 settembre) sono in calendario una cena, 16 speech e 7 ignite.</description>
+      <content:encoded><![CDATA[<p>“Quattro passi tra le nuvole (e non scordate il paracadute)” è il titolo del mio intervento al <!-- raw HTML omitted -->Romagna Camp 2011<!-- raw HTML omitted -->. Racconterò la mia esperienza nella fornitura di servizi cloud alle small business italiane. In questi giorni di ferie ho cominciato buttare giù qualche appunto e abbozzare le prime slide. La sfida è condensare tutto quel che c’è da dire in quindici minuti.</p>
+<!-- raw HTML omitted -->
+<p>Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 settembre) sono in calendario <!-- raw HTML omitted -->una cena<!-- raw HTML omitted -->, <!-- raw HTML omitted -->16 speech<!-- raw HTML omitted --> e <!-- raw HTML omitted -->7 ignite<!-- raw HTML omitted -->. Gli iscritti sono già più di 200 tra imprenditori, web marketer, agenzie web, freelance e sviluppatori.</p>
+<p>Le <!-- raw HTML omitted -->iscrizioni <!-- raw HTML omitted -->sono ancora aperte, fateci un pensierino perché credo ne valga la pena. Se ci siete passate a salutarmi, mi raccomando. Sono quello con gli occhiali, la barba e il sorriso ebete.</p>
+<p><em>Aggiornamento del 12.9.2011: <a href="http://nicolaiarocci.com/frammenti-di-cloud-computing-al-romagna-camp-2011/" title="Frammenti di Cloud Computing al Romagna Camp 2011">qui</a> trovate le slide del mio intervento.</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Il Cloud Computing è davvero affidabile?</title>
@@ -54,6 +135,24 @@ Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 sett
 &lt;p&gt;Migliaia di aziende, enti pubblici e organizzazioni non governative internazionali che oggi usano la API dovranno trovare soluzioni alternative, probabilmente a pagamento. Almeno gli è stato concesso un po’ di tempo: Google garantisce un periodo di tre anni prima della sospensione del servizio.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Questa notizia induce ancora una volta alcune riflessioni circa l’affidabilità del &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Cloud Computing&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, modello di sviluppo verso il quale, volenti o nolenti, tutti noi siamo diretti.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->E’ di pochi giorni fa la <!-- raw HTML omitted -->notizia<!-- raw HTML omitted --> che alcuni servizi API gratuiti forniti da Google verranno chiusi. Tra questi spicca <strong><!-- raw HTML omitted -->Translate API<!-- raw HTML omitted --></strong>, la più apprezzata libreria gratuita per la traduzione automatica sul web. Basta una occhiata ai <!-- raw HTML omitted -->commenti <!-- raw HTML omitted -->per rendersi conto dello sconcerto generato dall’annuncio, per altro del tutto inatteso. Molti si dicono disposti a pagare pur di non rinunciare alla API, ma non è  questa l’idea di Google che in alternativa propone <!-- raw HTML omitted -->Google Translate Element<!-- raw HTML omitted -->, widget gratuito che certo non è una soluzione accettabile per applicazioni che attualmente integrano la API in maniera trasparente. Immagino che proprio qui stia il nocciolo della questione: una API non è visibile né apprezzabile dall’esterno, mentre un widget promuove il brand Google.</p>
+<p>Migliaia di aziende, enti pubblici e organizzazioni non governative internazionali che oggi usano la API dovranno trovare soluzioni alternative, probabilmente a pagamento. Almeno gli è stato concesso un po’ di tempo: Google garantisce un periodo di tre anni prima della sospensione del servizio.</p>
+<!-- raw HTML omitted -->
+<p>Questa notizia induce ancora una volta alcune riflessioni circa l’affidabilità del <strong><!-- raw HTML omitted -->Cloud Computing<!-- raw HTML omitted --></strong>, modello di sviluppo verso il quale, volenti o nolenti, tutti noi siamo diretti.</p>
+<p><!-- raw HTML omitted -->Stand-Alone Vs Cloud Computing<!-- raw HTML omitted --></p>
+<p>Le vecchie applicazioni stand alone funzionano sempre e comunque. Prima o poi il programmatore originale sparisce dalla circolazione; del codice sorgente (se disponibile) nessuno capisce più nulla, ma l’applicazione continua a girare. E se una delle librerie usate dall’applicazione (le vecchie .dll, per capirci) viene improvvisamente abbandonata dal produttore? Non ci sono problemi, l’installazione gira come prima.</p>
+<p>Nel dorato mondo <!-- raw HTML omitted -->PaaS<!-- raw HTML omitted --> le applicazioni smettono di funzionare non appena una singola API remota diventa inaccessibile. Non mi sembra una differenza da poco.</p>
+<h2 id="disservizi-e-sorprese">Disservizi e sorprese</h2>
+<p>Si potrebbe obiettare che appoggiarsi a una API gratuita per sviluppare un prodotto strategico non è una mossa intelligente e che comunque casi di disservizi come questo sono assai rari. In Aprile alcuni server Amazon AWS (la piattaforma cloud più usata al mondo) <!-- raw HTML omitted -->sono andati in corto circuito<!-- raw HTML omitted --> lasciando improvvisamente a piedi centinaia di fornitori di servizi e diversi milioni di loro utenti. Il disservizio, durato oltre ventiquattro ore, è avvenuto nonostante AWS sia un servizio a pagamento di altissimo livello che garantisce un livello di Service Level Agreement (SLA) superiore al 99%.</p>
+<p>Un caso diverso ma dalle stesse conseguenze  si è verificato proprio in casa Google poche settimane fa, quando <!-- raw HTML omitted -->Google App Engine<!-- raw HTML omitted --> è diventato a pagamento (almeno per alcuni livelli di utilizzo prima gratuiti), mettendo di fatto fuori mercato molti piccoli servizi gratuiti che avevano scelto la piattaforma cloud del gigante di Mountain View.</p>
+<h2 id="le-contromisure-necessarie">Le contromisure necessarie</h2>
+<p>Non per questo penso che il cloud computing vada evitato, ne sono anzi un sostenitore convinto, ma è importante per noi tutti <strong>comprendere a fondo i limiti e i rischi che questo nuovo paradigma porta con sé</strong>.</p>
+<p>Un paio di anni fa ho scritto <!-- raw HTML omitted -->un programma di backup remoto<!-- raw HTML omitted --> che si appoggia a <!-- raw HTML omitted -->Simple Storage Service<!-- raw HTML omitted --> (S3), uno dei servizi della piattaforma Amazon AWS. Il programma ha continuato a lavorare impunemente mentre il disastro si abbatteva sui server Amazon della East Coast perché, fin dall’inizio, era progettato per far fronte a evenienze come questa. Usa server multipli ridondanti dislocati su più aree geografiche, in modo che il crash di una singola server farm non lo mandi in tilt. E’ bene aspettarsi il peggio dai servizi cloud per essere pronti a gestire la crisi se (quando) verrà.</p>
+<p>Per quanto riguarda il modello di business, è necessario adottarne uno che garantisca margini sufficienti a compensare improvvisi aumenti delle tariffe, anche solo per il periodo necessario alla eventuale dislocazione. La tendenza generale del mercato è comunque rassicurante: in questi anni costi dei servizi cloud sono calati costantemente.</p>
+<h2 id="le-responsabilità-stanno-da-entrambe-le-parti">Le responsabilità stanno da entrambe le parti</h2>
+<p>E se domani mi si annunciasse che S3 è improvvisamente deprecato? Fortunatamente per me e per le migliaia di altri il servizio non è gratuito e assicura ad Amazon utili stellari, ma non è questo il punto. Il punto è che in ogni momento <em>potrebbe succedere</em>.</p>
+<p>I fornitori di servizi cloud hanno una grande responsabilità: garantire la continuità del loro servizio anche e soprattutto nel lungo periodo. Speriamo che ne siano coscienti. Noi programmatori e analisti dobbiamo tenere conto dei rischi che corriamo quando scegliamo di lavorare su piattaforme cloud, progettando i nostri prodotti di conseguenza.</p>
+<p><em>Aggiornamento. Venerdì 3 giugno Google ha ritoccato l’annuncio ufficiale. La chiusura è annullata e la Translate API verrà messa a pagamento.</em></p>]]></content:encoded>
     </item>
     <item>
       <title>Perché le Web Startup non amano .NET Framework?</title>
@@ -61,6 +160,30 @@ Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 sett
       <pubDate>Thu, 19 May 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/perche-le-web-startup-non-amano-net-framework/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Sul blog aziendale di Expensify il CEO &lt;strong&gt;David Barrett&lt;/strong&gt; ha &lt;!-- raw HTML omitted --&gt;raccontato&lt;!-- raw HTML omitted --&gt; perché la sua azienda non assume programmatori Microsoft .NET Framework. In poche ore il suo articolo ha fatto il giro del mondo scatenando un gran putiferio. Gli sviluppatori .NET si sono lanciati in una difesa accorata della piattaforma Microsoft mentre molti commentatori e blogger hanno sposato le tesi di Barrett. Gli oltre 500 commenti danno un’idea ben precisa del fervore suscitato dall’articolo. Non intendo dilungarmi sui contenuti, mi interessa piuttosto approfondire una questione sollevata indirettamente dal pezzo di Barrett.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Sul blog aziendale di Expensify il CEO <strong>David Barrett</strong> ha <!-- raw HTML omitted -->raccontato<!-- raw HTML omitted --> perché la sua azienda non assume programmatori Microsoft .NET Framework. In poche ore il suo articolo ha fatto il giro del mondo scatenando un gran putiferio. Gli sviluppatori .NET si sono lanciati in una difesa accorata della piattaforma Microsoft mentre molti commentatori e blogger hanno sposato le tesi di Barrett. Gli oltre 500 commenti danno un’idea ben precisa del fervore suscitato dall’articolo. Non intendo dilungarmi sui contenuti, mi interessa piuttosto approfondire una questione sollevata indirettamente dal pezzo di Barrett.</p>
+<h2 id="perché-così-poche-startup-scelgono-net-framework">Perché così poche Startup scelgono .NET Framework?</h2>
+<p>Guardando all’intero ecosistema delle Startup internet<!-- raw HTML omitted -->,<!-- raw HTML omitted --> è facile riscontrare che ben poche adottano il .NET Framework. Ci sono eccezioni importanti e significative, come per esempio Stack Overflow, ma le tecnologie dominanti sono altre: Ruby on Rails, PHP e Python su tutte. <strong>Ian Muir</strong>, Senior Developer di Piehead, in un suo <!-- raw HTML omitted -->interessante articolo<!-- raw HTML omitted --> tenta di individuare le ragioni che fanno di .NET Framework una scelta poco apprezzata dal vivace e  dinamico mondo delle Startup.</p>
+<h3 id="il-costo-della-piattaforma-microsoft">Il costo della piattaforma Microsoft</h3>
+<p>Se per le grandi aziende le voci di spesa davvero rilevanti sono stipendi, hardware, infrastrutture, banda e dati, per le nostre Startup il problema è innanzi tutto partire. Ruby on Rails, PHP, Python e i loro fratelli sono soluzioni <!-- raw HTML omitted -->FOSS<!-- raw HTML omitted --> (gratuite e open source) che permettono di lavorare a costo zero mentre l’ambiente .NET è al contrario un closed-source a pagamento.</p>
+<!-- raw HTML omitted -->
+<p>Muir ricorda che già da qualche anno Microsoft ha lanciato il programma <strong><!-- raw HTML omitted -->BizSpark<!-- raw HTML omitted --></strong> che tra le altre cose elimina gran parte dei costi di adozione del .NET Framework. La differenza di spesa insomma non sarebbe così significativa. Peccato che BizSpark sia pressochè sconosciuto.</p>
+<p>Ci sono soluzioni alternative. <!-- raw HTML omitted -->Showcase Lane<!-- raw HTML omitted --> per esempio è sviluppato interamente in ASP.NET MVC, ma gira sotto <!-- raw HTML omitted -->Mono<!-- raw HTML omitted -->. Se vi interessa questo approccio <!-- raw HTML omitted -->qui<!-- raw HTML omitted --> potete leggere tutti i dettagli in proposito.</p>
+<h3 id="difficoltà-nella-applicazione-della-metodologia-agile">Difficoltà nella applicazione della Metodologia Agile</h3>
+<p>Inutile negarlo, questi sono gli anni della <strong><!-- raw HTML omitted -->metodologia agile<!-- raw HTML omitted --></strong>. I giovani imprenditori rilasciano i loro prodotti il più velocemente possibile, spesso in versioni beta appena funzionanti, che implementano a malapena le funzionalità di base. Ruby, Python, PHP e soci dispongono di strumenti mirati per lo sviluppo e il deploy rapido delle applicazioni, qualcosa che in parte manca al mondo .NET. Nel suo articolo Muir sostiene che in realtà non c’è una gran differenza nei tempi di sviluppo.</p>
+<!-- raw HTML omitted -->
+<p>Concordo con Muir anche se dimentica un dettaglio importante. Molti startupper sono programmatori alle prime armi, spesso ricchi di idee da lanciare rapidamente, ma poveri di capacità tecniche. E’ in questo scenario che linguaggi e tecnologie come Python e Ruby brillano di luce propria rispetto a un ambiente monolitico e piuttosto sofisticato come il .NET Framework. La <!-- raw HTML omitted -->curva di apprendimento<!-- raw HTML omitted --> vincente è quella dei linguaggi open source.</p>
+<h3 id="net-è-roba-da-enterprise-e-comunque-microsoft-va-boicottata">.NET è roba da Enterprise (e comunque Microsoft va boicottata)</h3>
+<p>Muir sostiene che le startup non usano .NET per motivi culturali più che tecnologici. Voce di popolo vorrebbe che Microsoft sia apprezzata dalle enterprise mentre PHP e Ruby sarebbero l’ideale per le piccole (e sfigate) startup. Questa percezione diffusa influenzerebbe i giovani imprenditori inducendoli ad adottare una piattaforma senza chiedersi quale sia lo strumento migliore per soddisfare le loro necessità.</p>
+<p>Le cose stanno anche peggio di così. Specialmente nel mondo giovanile Microsoft è considerata il colosso pachidermico e monopolistico da boicottare in ogni modo. L’immagine non è il punto di forza di Microsoft.</p>
+<h4 id="startup-e-enterprise-mondi-diversi">Startup e Enterprise, mondi diversi</h4>
+<p>Gran parte delle startup incoraggiano i loro programmatori a imparare un ampio spettro di tecnologie piuttosto che specializzarsi su argomenti (linguaggi) singoli. Per le startup è la scelta giusta poiché dispongono di pochi programmatori e devono rimanere agili e pronte al cambiamento. Le grandi aziende al contrario hanno una cultura ingegneristica e sono organizzate in grandi team, nei quali ogni soggetto tende a essere molto specializzato. Sono differenze importanti che rendono difficile per un programmatore il passaggio da una realtà all’altra.</p>
+<h2 id="ampliare-la-propria-prospettiva">Ampliare la propria prospettiva</h2>
+<p>Secondo Muir quelli elencati sopra sono i fattori che più di altri condizionano la scelta della piattaforma da adottare. All’inizio della loro carriera i programmatori scelgono un percorso che in seguito diventa difficile cambiare. Il datore di lavoro dovrebbe impegnarsi in prima persona affinché i programmatori mantengano un attegiamento agnostico rispetto alle piattaforme tecnologiche, e siano sempre pronti ad abbracciare nuovi paradigmi e tecnologie.</p>
+<!-- raw HTML omitted -->
+<p>Su questo punto Muir ha ragione da vendere. In tanti anni di lavoro ho provato sulla mia pelle quanto reale sia il rischio confinarsi nel proprio piccolo mondo. Impegnati nella soluzione dei problemi quotidiani scordiamo che è utile fermarsi ogni tanto e guardarsi intorno. Aggiornarsi su cosa avviene al di fuori del proprio ramo di <em>expertise,</em> consente di sviluppare una migliore visione d’insieme osservando le cose da una prospettiva più ampia.</p>
+<h2 id="le-persone-contano-più-della-piattaforma">Le persone contano più della piattaforma</h2>
+<p>Perché dunque le Startup non amano .NET Framework? Come abbiamo visto la risposta è tanto tecnica quanto culturale. Qualunque sia la tecnologia adottata, ciò che conta sono le persone che prendete a bordo. Se volete i migliori programmatori su piazza non selezionate specialisti PHP o .NET Framework. Cercate piuttosto persone con esperienze e conoscenze diverse, curiose, che abbiano voglia di imparare e siano pronte a rimettersi in gioco quando serve. Le persone giuste sono quelle capaci di prendere decisioni importanti senza lasciarsi condizionare (solo) dalle competenze già acquisite.</p>
+<p><em>Post Scriptum. E se persone con queste caratteristiche non riuscite a trovarle o peggio, non potete permettervele? Non scendete a compromessi. Piuttosto, fate da soli.</em></p>]]></content:encoded>
     </item>
     <item>
       <title>Una API ufficiale per Google Page Speed</title>
@@ -69,6 +192,10 @@ Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 sett
       <guid>https://nicolaiarocci.com/una-api-ufficiale-per-google-page-speed/</guid>
       <description>&lt;p&gt;&lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Google Page Speed&lt;/strong&gt;, lo strumento che misura la velocità delle pagine web e offre consigli su come migliorarne le prestazioni, dispone da ieri di una sua &lt;!-- raw HTML omitted --&gt;API ufficiale&lt;!-- raw HTML omitted --&gt;. Annunciata nell’ambito di &lt;!-- raw HTML omitted --&gt;Google I/O&lt;!-- raw HTML omitted --&gt;, la API di Page Speed consente di integrare l’analisi delle prestazioni nelle applicazioni proprie. C’è già un plugin per WordPress che la sfrutta, &lt;!-- raw HTML omitted --&gt;W3 Total Cache&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
 &lt;p&gt;L’uso effettivo di questa API sarà probabilmente circoscritto a una nicchia piuttosto ristretta, penso soprattutto alle agenzie di consulenza e SEO. Il messaggio utile da portare a casa (se ancora ce ne fosse bisogno) è che &lt;strong&gt;per Google le prestazioni dei siti e della rete in generale sono sempre più un fattore determinante&lt;/strong&gt;, il rapidissimo sviluppo di Page Speed (prima le &lt;!-- raw HTML omitted --&gt;estensioni per browser&lt;!-- raw HTML omitted --&gt;, poi il &lt;!-- raw HTML omitted --&gt;servizio online&lt;!-- raw HTML omitted --&gt; e infine la API) ne è la prova più evidente.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong><!-- raw HTML omitted -->Google Page Speed</strong>, lo strumento che misura la velocità delle pagine web e offre consigli su come migliorarne le prestazioni, dispone da ieri di una sua <!-- raw HTML omitted -->API ufficiale<!-- raw HTML omitted -->. Annunciata nell’ambito di <!-- raw HTML omitted -->Google I/O<!-- raw HTML omitted -->, la API di Page Speed consente di integrare l’analisi delle prestazioni nelle applicazioni proprie. C’è già un plugin per WordPress che la sfrutta, <!-- raw HTML omitted -->W3 Total Cache<!-- raw HTML omitted -->.</p>
+<p>L’uso effettivo di questa API sarà probabilmente circoscritto a una nicchia piuttosto ristretta, penso soprattutto alle agenzie di consulenza e SEO. Il messaggio utile da portare a casa (se ancora ce ne fosse bisogno) è che <strong>per Google le prestazioni dei siti e della rete in generale sono sempre più un fattore determinante</strong>, il rapidissimo sviluppo di Page Speed (prima le <!-- raw HTML omitted -->estensioni per browser<!-- raw HTML omitted -->, poi il <!-- raw HTML omitted -->servizio online<!-- raw HTML omitted --> e infine la API) ne è la prova più evidente.</p>
+<p>In passato ho espresso <!-- raw HTML omitted -->alcune perplessità<!-- raw HTML omitted --> sulla reale applicabilità dei consigli forniti da questi strumenti, tuttavia rimango convinto della loro utilità generale. Proprio in questi giorni sto lavorando alla ottimizzazione del sito del nostro software gestionale e uso Page Speed per valutare i miglioramenti (o peggioramenti!) che riesco a ottenere. Finora ho raggiunto una valutazione di 80/100, partivo da 70 . Stimo di aver guadagnato 4-5 punti grazie ai consigli di Page Speed.</p>
+<p>Per maggiori informazioni date una occhiata alla <!-- raw HTML omitted -->Guida per Sviluppatori<!-- raw HTML omitted --> e all’annuncio ufficiale sul <!-- raw HTML omitted -->Google Webmaster Blog<!-- raw HTML omitted -->.</p>]]></content:encoded>
     </item>
     <item>
       <title>Sulla Usabilità delle Password</title>
@@ -77,6 +204,73 @@ Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 sett
       <guid>https://nicolaiarocci.com/sulla-usabilita-delle-password/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;I consulenti della sicurezza e chi lavora nel mondo IT raccomandano continuamente di usare password complicate e difficili da ricordare. E’ un cattivo consiglio, dato che è perfettamente possibile creare password semplici, facili da ricordare e davvero sicure. In realtà le password semplici sono spesso molto più sicure di quelle complesse.&lt;/p&gt;
 &lt;p&gt;Addentriamoci dunque nel mondo delle password e scopriamo come crearne di pratiche e sicure.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->I consulenti della sicurezza e chi lavora nel mondo IT raccomandano continuamente di usare password complicate e difficili da ricordare. E’ un cattivo consiglio, dato che è perfettamente possibile creare password semplici, facili da ricordare e davvero sicure. In realtà le password semplici sono spesso molto più sicure di quelle complesse.</p>
+<p>Addentriamoci dunque nel mondo delle password e scopriamo come crearne di pratiche e sicure.</p>
+<h2 id="come-scoprire-una-password">Come scoprire una password</h2>
+<p>Scoprire una password è davvero semplice. Esistono cinque metodi affidabili per raggiungere l’obiettivo:</p>
+<ol>
+<li><strong>Domandarla.</strong> E’ incredibile, ma il modo più usato per ottenere la password di qualcuno è domandargliela (spesso in cambio di qualcosa). Le persone dicono spesso la loro password a colleghi, amici e famigliari. In questo caso l’aver adottato password complicate non aiuta di certo.</li>
+<li><strong>Indovinarla.</strong> E’ il secondo metodo più usato per accedere a un account. E’ cosa nota che la maggior parte delle persone scelgono password facili da ricordare, e le più semplici sono proprio quelle che in qualche modo hanno a che fare con la persona obiettivo dell’attacco. Password come il vostro cognome, il nome di vostra moglie, il nome del gatto, la data di nascita sono molto frequenti. In questo caso l’unica, ovvia, soluzione è quella di scegliere password che non hanno relazione diretta con la persona.</li>
+<li><strong>Attacco a Forza Bruta</strong>. Molto semplice da realizzare. Un hacker tenta l’accesso usando password diverse volta per volta. Se la nostra password è “sun”, lui tenterà di entrare con “aaa, aab, aad … sul, sum, <strong>sun (TROVATA)</strong>“. L’unica cosa che blocca un attacco a forza bruta sono password di maggiore complessità e lunghezza (è proprio a causa di questo tipo di attacco che gli esperti IT le consigliano).</li>
+<li><strong>Attacco a Parole Comuni</strong>. Forma semplificata dell’attacco a forza bruta, nel quale l’hacker tenta di accedere ricorrendo a un elenco di parole molto usate. Invece di tentare combinazioni di lettere, l’hacker tenta di accedere con parole intere diverse di volta in volta, come per esempio “sum, summer, summit, sump, <strong>sun (TROVATA)</strong>“.</li>
+<li><strong>Attacco a Dizionario</strong>. Stesso principio dell’attacco a parole comuni, solo che questa volta l’hacker usa l’intero dizionario (ci sono circa 500.000 parole nella lingua inglese).</li>
+</ol>
+<h2 id="quando-la-password-è-sicura">Quando la password è sicura?</h2>
+<p>Non puoi proteggerti contro attacchi del tipo “Domandarla” e “Indovinarla”, ma puoi proteggerti bene dalle altre forme di attacco. Un hacker di solito crea uno script automatico o un programma che svolge il lavoro al posto suo. Non ha alcuna intenzione di star seduto al computer tentando manualmente 500.000 parole per scoprire se una di quelle è la tua password.</p>
+<p>Ne consegue che l’unità di misura della sicurezza diventa “<strong>quante password può tentare un programma per ogni unità di tempo (per esempio un secondo)?</strong>“. Il numero esatto non è determinabile, ma la maggior parte delle applicazioni non è in grado di gestire più di 100 accessi al secondo.</p>
+<p>Ciò significa che per scoprire la password “sun” sono necessari:</p>
+<ul>
+<li>Forza bruta: <strong>3 minuti</strong></li>
+<li>Attacco a Parole Comuni: <strong>3 minuti</strong></li>
+<li>Attacco a Dizionario: <strong>1 ora 20 minuti</strong></li>
+</ul>
+<p><em>Nota: ci sono 17.576 combinazioni di carattere possibili per “sun”. 3 lettere dell’alfabeto minuscolo = 26^3</em></p>
+<p>__Quindi “sun” è una password davvero poco sicura, ma quanto tempo deve resistere una password affinché la si possa ritenere davvero sicura?</p>
+<ul>
+<li>una password che può essere scoperta in <strong>1 minuto</strong> è fin troppo fragile</li>
+<li><strong>10 minuti</strong> – ancora troppo fragile</li>
+<li><strong>1 ora</strong> – non ancora abbastanza</li>
+<li><strong>1 giorno</strong> – cominciamo a ragionare. La probabilità che qualcuno lasci girare un programma per un giorno intero solo per accedere a un singolo account è modesta. Tuttavia non è impossibile.</li>
+<li><strong>1 mese</strong> – solo un hacker molto motivato ci proverebbe</li>
+<li><strong>1 anno</strong> – passiamo dal rischio reale al rischio teorico. La NASA o la CIA non potrebbero accettare un livello di sicurezza così basso. Il resto di noi, beh – non abbiamo il loro tipo di nemici e la nostra azienda non è certo così allettante.</li>
+<li><strong>10 anni</strong> – siamo ormai entrati nel campo della teoria pura</li>
+<li><strong>Una vita: 100 anni</strong> – probabilmente questo è un limite accettabile per la maggior parte di noi. Chi si preoccuperebbe per una password che potrebbe resistere fin dopo la sua morte? E’ confortante pensare a una password che è “sicura per tutta la vita”</li>
+</ul>
+<p>Analizziamo con attenzione il livello “100 anni”. Suona bene e ci fa sentire sicuri. C’è però la possibilità che un hacker sia particolarmente fortunato e trovi la password giusta dopo soli 15 anni di tentativi, invece di 100. Improbabile, ma può succedere.</p>
+<p>Alziamo dunque la posta ancora una volta, puntando al massimo. Vogliamo una password che richieda <strong>1.000 anni per essere scoperta</strong>– chiamiamolo livello “<strong>sicuro per sempre</strong>“. Dovrebbe essere abbastanza, no?</p>
+<h2 id="creare-password-sicure-e-davvero-utilizzabili">Creare password sicure e davvero utilizzabili</h2>
+<p>Ora che abbiamo coperto le basi diamo una occhiata a qualche esempio sul campo, cercando di capire quanto utilizzabile possiamo rendere una password pur mantenendola “sicura per sempre”.</p>
+<p><em>Nota: gli esempi sottostanti sono tutti basati su una ipotesi di 100 tentativi di accesso al secondo. Viene riportato l’attacco più efficace per scardinare ogni password – forza bruta, parole comuni o attacco a dizionario.</em></p>
+<p>Cominciamo dalla classica password di 6 caratteri</p>
+<p>[table id=1 /]</p>
+<p>In questo caso la complessità vince chiaramente. Usare una password con caratteri maiuscoli e minuscoli, numeri e simboli è molto sicuro. Usare una semplice parola come password è inutile.</p>
+<p>Ciò significa forse che i colleghi dell’IT e i consulenti sulla sicurezza hanno ragione? No. Una password di 6 caratteri non funzionerà comunque. Nessuno è in grado di ricordare una password come “J4fS&lt;2”, il che vuol dire che prima o poi verrà inevitabilmente trascritta su un post-it o altrove.</p>
+<p>Se vogliamo password veramente utilizzabili dobbiamo approcciare il problema in modo diverso. Prima di tutto abbiamo bisogno di usare parole che possiamo ricordare, qualcosa di semplice che possiamo scrivere con facilità.</p>
+<p>Come queste:</p>
+<p>[table id=2 /]</p>
+<p>Usare più di una parola per password aumenta significativamente il livello di sicurezza (da 3 minuti a 2 mesi). Tuttavia, usando 3 parole invece di 2 ci ritroviamo con una password estremamente sicura.</p>
+<p>Sono necessari:</p>
+<ul>
+<li>1.163.859 anni per scardinarla con un attacco a forza bruta</li>
+<li>2.537 anni con un attacco a parole comuni</li>
+<li>39.637.240 anni con un attacco a dizionario</li>
+</ul>
+<p><strong>E’ 10 volte più sicuro usare “this is fun” come password piuttosto che “J4fS&lt;2”.</strong></p>
+<p>Se poi volete stare assurdamente al sicuro, scegliete <strong>parole poco usate</strong> per comporre la vostra password – qualcosa come:</p>
+<p>[table id=4 /]</p>
+<p>Una password sicura e al tempo stesso davvero utilizzabile non è una password complicata. E’ piuttosto una frase semplice composta da tre o più parole.</p>
+<h2 id="non-è-solo-questione-di-password">Non è solo questione di password</h2>
+<p>Una cosa è scegliere password sicure e utilizzabili. Un’altra è prevenire gli attacchi degli hacker. Si tratta di un obiettivo semplice da raggiungere. Per impedire che gli script automatici lavorino efficacemente è necessario:</p>
+<ol>
+<li><strong>Aggiungere una pausa tra i tentativi di accesso.</strong> 5 secondi tra un tentativo e l’altro sono sufficienti. E’ un lasso di tempo abbastanza breve perché non si noti (ci vogliono più di 5 secondi per rendersi conto di aver sbagliato la password e digitarne una nuova). Obbliga l’hacker a un solo tentativo ogni 5 secondi (invece che 100 tentativi al secondo).</li>
+<li><strong>Aggiungere una pausa di penalizzazione</strong> se qualcuno inserisce una password sbagliata più di – diciamo – 10 volte. Una penalità di 1 ora è sufficiente. Di nuovo, una azione di questo tipo disturba seriamente qualunque script o programma hacker.</li>
+</ol>
+<p>Un hacker può scoprire la password “alpine fun” in solo due mesi se è in grado di attaccare il nostro server 100 volte al secondo. Tuttavia con la pausa di 5 secondi tra un tentativo e l’altro la stessa password può resistere all’attacco per 1.889 anni.</p>
+<p>[table id=3 /]</p>
+<p>Tieni a mente questi concetti la prossima volta che sei al lavoro su applicazioni web o stai discutendo di sicurezza delle password con i tuoi colleghi dell’IT. <strong>Le password possono essere allo stesso tempo sicure e facili da ricordare.</strong></p>
+<h3 id="attribuzione">Attribuzione</h3>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->]]></content:encoded>
     </item>
     <item>
       <title>Avviare un Download con richiesta di nome file da una pagina ASP.NET</title>
@@ -88,6 +282,17 @@ Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 sett
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Volevo che cliccando sul link si avviasse automaticamente il download, così da ‘costringere’ l’utente a interagire col PDF in un secondo tempo rispetto all’esperienza di navigazione. Se scarichi un PDF è per stamparlo o consultarlo con calma o magari passarlo a un collega, no?&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Normalmente quando un visitatore clicca su un link che punta a un file, quest’ultimo viene mostrato nel browser e non viene avviato alcun download. Questo succede perché il browser determina il tipo di contenuto in base alla estensione del file. Quando clicchiamo su un file con estensione jpg il browser sa che si tratta di una immagine e la mostra direttamente. Lo stesso avviene per i file pdf e così via.</p>
+<p>Può capitare che questo comportamento non sia quello desiderato. Oggi <!-- raw HTML omitted -->al lavoro<!-- raw HTML omitted --> ho implementato una funzionalità interessante: il download della versione PDF di una pagina web. Il pdf viene costruito dinamicamente nel momento stesso in cui il visitatore clicca un link. Questo accorgimento libera il webmaster dalla tediosa (e facilmente dimenticabile) necessità di rigenerare il pdf ad ogni minimo ritocco della pagina.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Volevo che cliccando sul link si avviasse automaticamente il download, così da ‘costringere’ l’utente a interagire col PDF in un secondo tempo rispetto all’esperienza di navigazione. Se scarichi un PDF è per stamparlo o consultarlo con calma o magari passarlo a un collega, no?</p>
+<p>Costringere l’utente a usare il menu contestuale del browser (<em>Salva link con nome..</em>) non è certo la scelta ideale dal punto di vista dell’esperienza utente, tanto più che in questo caso il link non è statico e invoca codice JavaScript. Per ottenere il risultato desiderato dobbiamo inviare direttamente il file all’utente. [cci_asp theme=”standard”]Response.TransmitFile()[/cci_asp] è il metodo che invia il file dall’applicazione ASP.NET al client, ma prima dobbiamo preoccuparci di aggiungere un paio di header al nostro messaggio di output:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>E’ importante fornire il ContentType corretto altrimenti il browser non sarà sempre in grado di gestire i contenuti del file. Internet Explorer per esempio offre l’opzione di aprire direttamente il file (verrà scaricato nella cache). Nel nostro caso se l’utente sceglie l’apertura diretta IE lancerà Acrobat Reader perché ContentType è <em>application/pdf</em>.</p>
+<p>Altro accorgimento è la chiamata al metodo Path.GetFileName() in riga 7. Non sarebbe necessario se non fosse che <em>taluni broswer arcaici e superati</em> (ogni riferimento a IE è naturalmente voluto) non sono in grado di gestire intelligentemente il filename e, quando propongono il nome del file da salvare, riproducono l’intero path del file sul server. Questo comportamento tra l’altro è pericoloso perché espone l’intera struttura  del sito, dalla radice al folder che contiene la pagina, al visitatore.</p>
+<p>Se la routine deve essere usata in un modulo e non direttamente in una pagina aspx ricordate di sostituire Response con HttpContect.Current.Response. Buon lavoro!</p>]]></content:encoded>
     </item>
     <item>
       <title>Vuoi lavorare in una Startup italiana?</title>
@@ -96,6 +301,16 @@ Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 sett
       <guid>https://nicolaiarocci.com/vuoi-lavorare-in-una-startup-italiana/</guid>
       <description>&lt;p&gt;&lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Italian Startup Scene&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt; è un &lt;em&gt;“gruppo di ritrovo degli startupper italiani. Imprenditori, investitori, bloggers, sviluppatori e chiunque abbia un interesse per startups e venture capital”&lt;/em&gt;. Si tratta di una risorsa da non perdere se vi interessate alla scena startup italiana, che esiste ed è viva e vegeta malgrado molti (senza aver mai guardato al di là del proprio steccato) sostengano il contrario o non facciano altro che guardare alla remota Silicon Valley.&lt;/p&gt;
 &lt;p&gt;Fondata da alcuni degli startupper più affermati e frequentata da quasi 2.000 utenti, molti dei quali attivamente coinvolti in progetti di startup, ISS è il posto ideale per chiedere &lt;strong&gt;consigli&lt;/strong&gt;, proporre e &lt;strong&gt;discutere idee&lt;/strong&gt;, &lt;strong&gt;cercare collaborazioni&lt;/strong&gt; e chissà, &lt;strong&gt;trovare finanziamenti&lt;/strong&gt; per i vostri progetti.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong><!-- raw HTML omitted -->Italian Startup Scene<!-- raw HTML omitted --></strong> è un <em>“gruppo di ritrovo degli startupper italiani. Imprenditori, investitori, bloggers, sviluppatori e chiunque abbia un interesse per startups e venture capital”</em>. Si tratta di una risorsa da non perdere se vi interessate alla scena startup italiana, che esiste ed è viva e vegeta malgrado molti (senza aver mai guardato al di là del proprio steccato) sostengano il contrario o non facciano altro che guardare alla remota Silicon Valley.</p>
+<p>Fondata da alcuni degli startupper più affermati e frequentata da quasi 2.000 utenti, molti dei quali attivamente coinvolti in progetti di startup, ISS è il posto ideale per chiedere <strong>consigli</strong>, proporre e <strong>discutere idee</strong>, <strong>cercare collaborazioni</strong> e chissà, <strong>trovare finanziamenti</strong> per i vostri progetti.</p>
+<p>Italian Startup Scene è organizzata come <!-- raw HTML omitted -->Gruppo Facebook<!-- raw HTML omitted --> – in effetti si tratta dell’unica risorsa Facebook che frequento assiduamente. La lettura del gruppo è libera ma dovete iscrivervi per partecipare alle discussioni che sono molte, interessanti e pertinenti – astenersi perditempo! In queste settimane stanno nascendo i sotto gruppi regionali che servono ad agevolare conoscenze e scambi di informazioni tra gli utenti che vivono vicini.</p>
+<!-- raw HTML omitted -->
+<h2 id="lavorare-per-una-startup-italiana">Lavorare per una Startup italiana</h2>
+<p>Ma il progetto ISS di cui voglio parlarvi, anche perché è nato un po’ in sordina e credo meriti maggiore attenzione, è <!-- raw HTML omitted -->Jobs for Geeks<!-- raw HTML omitted -->. Si tratta di una bella bacheca interattiva dove le startup italiane propongono impieghi di ogni genere: programmatori, designer, esperti commerciali, managers e testers. A sottolineare lo spirito originale di ISS è presente anche il panel per la ricerca di soci fondatori. Nel momento in cui scrivo il panel <!-- raw HTML omitted -->Programmatori<!-- raw HTML omitted --> conta 9 posizioni disponibili.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Trattandosi quasi sempre di startup che operano nel campo delle tecnologie e della rete è facile trovare disponibilità per ogni tipo di collaborazione: part-time, freelance, remote. Non si tratta di offerte di lavoro canoniche neanche dal punto di vista della retribuzione. In tipico stile startup c’è chi cerca, per esempio, un .NET Developer che partecipi a un progetto senz’altro interessante ma attenzione, <em>“Niente retribuzione, per ora, tanto affetto e tanta simpatia :)”</em></p>
+<p>Niente male davvero.</p>]]></content:encoded>
     </item>
     <item>
       <title>Il reddit dei programmatori italiani</title>
@@ -107,6 +322,16 @@ Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 sett
 &lt;p&gt;La scommessa è quella di una selezione naturale dei contenuti, compiuta dai loro diretti destinatari e non (solo) dagli autori, come succede nel caso degli aggregatori di notizie.&lt;/p&gt;
 &lt;h2 id=&#34;reddit-in-italia&#34;&gt;Reddit in Italia&lt;/h2&gt;
 &lt;p&gt;In Italia Reddit è ancora poco conosciuto, ma qualcosa sta cambiando.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted --><strong><!-- raw HTML omitted -->Reddit<!-- raw HTML omitted --></strong> è un servizio di condivisione, votazione e discussione delle risorse in rete. In tempi recenti è diventato uno dei punti di riferimento della comunità internazionale degli <!-- raw HTML omitted -->alpha-geek<!-- raw HTML omitted -->, sbaragliando una concorrenza agguerrita e ben radicata.</p>
+<p>Reddit ha conquistato un pubblico particolarmente ostico ed esigente grazie alla sua caratteristica più peculiare: essere un <strong>sistema aperto</strong>. Potremmo definire Reddit una semplice infrastruttura lasciata in gestione agli utenti, i quali ricambiano dedicandosi con dedizione alla cura dei contenuti. Su Reddit chiunque in pochi secondi può creare un’area nuova dedicata a un argomento non ancora trattato. Se il tema è valido i contributi arrivano: segnalazioni di nuove risorse (articoli, tutorial, opinioni), votazioni e discussioni spesso vivaci. Reddit è un po’ Wikipedia, un po’ Facebook e un po’ Twitter.</p>
+<p>La scommessa è quella di una selezione naturale dei contenuti, compiuta dai loro diretti destinatari e non (solo) dagli autori, come succede nel caso degli aggregatori di notizie.</p>
+<h2 id="reddit-in-italia">Reddit in Italia</h2>
+<p>In Italia Reddit è ancora poco conosciuto, ma qualcosa sta cambiando.</p>
+<p>Il reddit</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted -->/r/italy<!-- raw HTML omitted --><!-- raw HTML omitted --> propone solo contenuti italiani e al momento in cui scrivo sta per toccare i 1.000 lettori. Stanno nascendo altri reddit italiani, alcuni <!-- raw HTML omitted -->davvero curiosi<!-- raw HTML omitted --> e uno molto interessante.</p>
+<h2 id="il-reddit-dei-programmatori-italiani">Il reddit dei programmatori italiani</h2>
+<p>Il mio personale contributo alla diffusione di Reddit nel nostro paese è <strong><!-- raw HTML omitted -->/r/programmazione<!-- raw HTML omitted --></strong>. Platealmente ispirato alla <!-- raw HTML omitted -->controparte inglese<!-- raw HTML omitted -->, <code>Programmazione</code> è nato inizialmente come tentativo di rispondere a una mia esigenza personale: raccogliere in modo organizzato le migliori risorse italiane su programmazione, web design, posizionamento siti web (SEO) e dintorni. Articoli, tutorial, riflessioni, approfondimenti e notizie, purché pertinenti, sono tutti benvenuti. Partecipare è facile e poco impegnativo. Votate i contenuti più (o meno) interessanti e, se volete, segnalate i vostri link preferiti.</p>
+<p>Se riusciremo ad attirare un pubblico abbastanza numeroso potremmo contribuire, nel tempo, alla creazione di una risorsa interessante per la comunità italiana.</p>]]></content:encoded>
     </item>
     <item>
       <title>Come scoprire i font di una pagina web?</title>
@@ -114,6 +339,9 @@ Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 sett
       <pubDate>Fri, 08 Apr 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/come-scoprire-i-font-di-una-pagina-web/</guid>
       <description>&lt;p&gt;Volete scoprire rapidamente quali sono i font usati su una pagina web? Ho scovato quasi per caso &lt;strong&gt;&lt;a href=&#34;http://chengyinliu.com/whatfont.html&#34;&gt;WhatFont&lt;/a&gt;&lt;/strong&gt;, un &lt;!-- raw HTML omitted --&gt;bookmarklet &lt;!-- raw HTML omitted --&gt;davvero facile da usare. Basta trascinarlo sulla barra degli indirizzi del browser e l’installazione è fatta. Navigate sulle pagine che vi interessano e attivate WhatFont con un click. Da quel momento spostando il puntatore sui vari elementi della pagina ne vedrete il font in sovraimpressione. Comodo e veloce.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Volete scoprire rapidamente quali sono i font usati su una pagina web? Ho scovato quasi per caso <strong><a href="http://chengyinliu.com/whatfont.html">WhatFont</a></strong>, un <!-- raw HTML omitted -->bookmarklet <!-- raw HTML omitted -->davvero facile da usare. Basta trascinarlo sulla barra degli indirizzi del browser e l’installazione è fatta. Navigate sulle pagine che vi interessano e attivate WhatFont con un click. Da quel momento spostando il puntatore sui vari elementi della pagina ne vedrete il font in sovraimpressione. Comodo e veloce.</p>
+<!-- raw HTML omitted -->
+<p>Se per trovare ispirazione amate curiosare nel lavoro degli altri questo è proprio l’oggettino che fa per voi. Se siete programmatori continuerete a usare Firebug ****o Webkit Inspector ma questo strumento è talmente comodo che potreste decidere di aggiungerlo comunque ai vostri strumenti preferiti.</p>]]></content:encoded>
     </item>
     <item>
       <title>Google Speed ora è anche Online</title>
@@ -122,6 +350,12 @@ Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 sett
       <guid>https://nicolaiarocci.com/google-speed-ora-e-anche-online/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;A una settimana esatta dall’uscita della &lt;a href=&#34;http://nicolaiarocci.com/google-page-speed-ora-gira-anche-su-chrome/&#34;&gt;estensione per Chrome di Page Speed&lt;/a&gt; Google stupisce tutti aprendo al pubblico &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Speed Online&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, versione web del suo servizio di analisi delle performance dei siti. La versione &lt;em&gt;live&lt;/em&gt; di Google Speed non si limita a misurare la velocità delle pagine ma offre consigli per migliorarne le prestazioni, come già fatto dalle estensioni Firefox e Chrome.&lt;/p&gt;
 &lt;p&gt;In questi giorni ho avuto modo di testare Page Speed per Chrome su un certo numero di siti, sia sviluppati da me che da altri. Mi sono reso conto che non sempre i consigli, pur validi, sono facilmente applicabili. Molte inefficienze non sono sotto il nostro controllo perché i contenuti sono forniti da terze parti – annunci pubblicitari, pulsanti, widgets e così via. La stessa Google ha &lt;a href=&#34;http://adsense.blogspot.com/2011/03/making-web-faster-for-all-adsense-for.html&#34;&gt;ottimizzato le prestazioni di AdSense&lt;/a&gt; solo recentemente, prima non era certo un fulmine di guerra.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->A una settimana esatta dall’uscita della <a href="http://nicolaiarocci.com/google-page-speed-ora-gira-anche-su-chrome/">estensione per Chrome di Page Speed</a> Google stupisce tutti aprendo al pubblico <strong><!-- raw HTML omitted -->Speed Online<!-- raw HTML omitted --></strong>, versione web del suo servizio di analisi delle performance dei siti. La versione <em>live</em> di Google Speed non si limita a misurare la velocità delle pagine ma offre consigli per migliorarne le prestazioni, come già fatto dalle estensioni Firefox e Chrome.</p>
+<p>In questi giorni ho avuto modo di testare Page Speed per Chrome su un certo numero di siti, sia sviluppati da me che da altri. Mi sono reso conto che non sempre i consigli, pur validi, sono facilmente applicabili. Molte inefficienze non sono sotto il nostro controllo perché i contenuti sono forniti da terze parti – annunci pubblicitari, pulsanti, widgets e così via. La stessa Google ha <a href="http://adsense.blogspot.com/2011/03/making-web-faster-for-all-adsense-for.html">ottimizzato le prestazioni di AdSense</a> solo recentemente, prima non era certo un fulmine di guerra.</p>
+<p>Altri suggerimenti sono alla nostra portata ma quando ci mettiamo al lavoro ci rendiamo conto che rischiamo di impiegare un mucchio di tempo per ottenere miglioramenti appena percettibili. Un esempio? Il consiglio di combinare le diverse immagini di una pagina in un singolo sprite CSS. E’ abbastanza veloce raccogliere in un file tutte le immagini ma quando ci mettiamo a cambiare il codice HTML, CSS e JavaScript per caricare le porzioni dello sprite nei posti giusti ecco che il tempo necessario a portare a termine (e testare) il lavoro si dilata inesorabilmente.</p>
+<p>Finché si lavora su pagine semplici i consigli di servizi come Page Speed (una menzione d’onore la merita <!-- raw HTML omitted --><!-- raw HTML omitted -->YSlow<!-- raw HTML omitted --><!-- raw HTML omitted -->) sono rapidi da implementare. Quando si tratta di ottimizzare siti complessi le cose si fanno più complicate. Il problema è che non c’è modo di predire con precisione <em>quanto</em> miglioreranno le prestazioni. Riprendendo l’esempio delle immagini, Page Speed fornisce una stima dei Kb che risparmierei creando un unico sprite CSS ma non può dirmi <em>quanto tempo risparmierà l’utente</em> che visitera il sito. Otterrò un miglioramento effettivamente percepibile?</p>
+<h2 id="cum-grano-salis">Cum grano salis</h2>
+<p>L’esperienza ci aiuterà a scegliere quali ottimizzazioni implementare e quali tralasciare. Se fin dall’inizio avremo fatto bene il nostro lavoro non rimarrà molto da migliorare. Se  al contrario ci ritroveremo con decine di consigli di ottimizzazione beh, vorrà dire che la prossima volta dovremo lavorare meglio. In ogni caso usiamo questi strumenti con saggezza non lasciandoci prendere ciecamente dal “demone ottimizzatore”.</p>]]></content:encoded>
     </item>
     <item>
       <title>Il Formato Valuta in ASP.NET quando il sito è all’estero</title>
@@ -130,6 +364,33 @@ Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 sett
       <guid>https://nicolaiarocci.com/il-formato-valuta-in-asp-net-quando-il-sito-e-allestero/</guid>
       <description>&lt;p&gt;Una settimana fa abbiamo lanciato il nuovo sito del &lt;a href=&#34;http://gestionaleamica.com&#34; title=&#34;Gestionale Amica&#34;&gt;Gestionale Amica&lt;/a&gt;, il nostro prodotto di punta. E’ scritto in &lt;strong&gt;ASP.NET&lt;/strong&gt; ed è dotato di un sistema di e-commerce sviluppato su misura. Carrello della spesa, checkout, pagamenti con carta di credito, tracciamento ordini, profilo utenti… un lavoro del quale sono piuttosto orgoglioso. Man mano che il giorno del debutto si avvicinava cresceva l’eccitazione; ero impaziente di vederlo funzionare questo gioiellino. Finalmente il 21 marzo è arrivato e con la primavera è sbocciato il nuovo sito. Come è andata? Bene! A parte un piccolo dettaglio. Il mio gioiellino vendeva in Dollari ($) anziché in Euro (€)&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;</description>
+      <content:encoded><![CDATA[<p>Una settimana fa abbiamo lanciato il nuovo sito del <a href="http://gestionaleamica.com" title="Gestionale Amica">Gestionale Amica</a>, il nostro prodotto di punta. E’ scritto in <strong>ASP.NET</strong> ed è dotato di un sistema di e-commerce sviluppato su misura. Carrello della spesa, checkout, pagamenti con carta di credito, tracciamento ordini, profilo utenti… un lavoro del quale sono piuttosto orgoglioso. Man mano che il giorno del debutto si avvicinava cresceva l’eccitazione; ero impaziente di vederlo funzionare questo gioiellino. Finalmente il 21 marzo è arrivato e con la primavera è sbocciato il nuovo sito. Come è andata? Bene! A parte un piccolo dettaglio. Il mio gioiellino vendeva in Dollari ($) anziché in Euro (€)</p>
+<!-- raw HTML omitted -->
+<h2 id="come-è-potuto-succedere">Come è potuto succedere?</h2>
+<p>In fatto di localizzazione una pagina ASP.NET non è diversa da una normale applicazione WinForms. In assenza di indicazioni diverse il .NET Framework <strong>rappresenta le valute in base alle impostazioni internazionali del computer che lo ospita</strong>. Durante sviluppo e collaudo non abbiamo avuto problemi perché lavoravamo su server aziendali locali. Tuttavia il server di produzione è americano, ed è così che pubblicando il sito ci siamo regalati un bel cambiamento di valuta, il tutto senza toccare una linea di codice.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Restituisce <strong>€1.567,50</strong> in Italia e <strong>$1,567.50</strong> negli Stati Uniti. Probabilmente a questo punto vi starete dicendo due cose:</p>
+<ol>
+<li>Ma perché hai pubblicato un sito in italiano, per un pubblico italiano, negli Stati Uniti?</li>
+<li>Te lo dovevi aspettare, cosa volevi che succedesse? Qualunque sviluppatore con un minimo di esperienza sa queste cose.</li>
+</ol>
+<p>A proposito del primo punto ci sarebbe da scrivere un articolo intero (e magari lo farò). Basti sapere per ora che, malgrado le apparenze, ci sono (anche) buone ragioni per pubblicare siti italiani all’estero. Sul secondo punto naturalmente avreste ragione. Il fatto è che, nel grande schema delle cose, sono proprio i piccoli dettagli quelli che possono sfuggire. Per fortuna porre rimedio è stato semplice e indolore. Vediamo.</p>
+<h2 id="e8217-tutta-questione-di-culture">E’ tutta questione di Culture</h2>
+<p>In ogni pagina ASP.NET è possibile impostare il valore delle proprietà <a href="http://msdn.microsoft.com/en-us/library/system.web.ui.page.culture(v=VS.85).aspx"><strong>Culture</strong></a> e <a href="http://msdn.microsoft.com/en-us/library/system.web.ui.page.uiculture(v=VS.85).aspx"><strong>UICulture</strong></a>. <!-- raw HTML omitted -->Culture<!-- raw HTML omitted --> determina l’output delle funzioni influenzate dalla cultura: date, numeri, valute, orari. <!-- raw HTML omitted -->UICulture<!-- raw HTML omitted --> istruisce la pagina su quali risorse culturali caricare.</p>
+<h3 id="impostare-culture-e-uiculture-per-tutto-il-sito">Impostare Culture e UICulture per tutto il sito</h3>
+<p>Intervenendo direttamente nel file Web.Config possiamo dire a ASP.NET quale è la cultura da usare in tutto il sito. In questo modo non dovremo preoccuparci di intervenire su ogni in pagina.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Attenzione alle maiuscole. <!-- raw HTML omitted -->uiCulture<!-- raw HTML omitted --> va bene; <!-- raw HTML omitted -->uiculture<!-- raw HTML omitted --> non va bene. Non sprecate mezz’ora per una sciocchezza del genere, l’ho già fatto io per voi.</p>
+<h3 id="impostare-culture-e-uiculture-per-una-pagina">Impostare Culture e UICulture per una pagina</h3>
+<p>Per modificare Culture e UICulture di una singola pagina è necessario impostare i corrispondenti attributi della direttiva <a href="http://msdn.microsoft.com/it-it/library/ydy4x04a(v=VS.85).aspx">@ Page</a></p>
+<!-- raw HTML omitted -->
+<p>Questa tecnica può naturalmente venire usata in abbinamento alla precedente anche se devo dire che non mi viene in mente un motivo, uno scenario valido in cui ciò potrebbe essere utile.</p>
+<h3 id="adattare-l8217output-alla-lingua-del-browser">Adattare l’output alla lingua del browser</h3>
+<p>Per adattare la cultura al linguaggio del browser che visita la pagina basta impostare <strong>UICulture</strong> e <strong>Culture</strong> su <strong>auto</strong> (non l’ho testato personalmente). E’ anche possibile cambiare la cultura dinamicamente via codice. Se volete sapere come fare consultate la <a href="http://msdn.microsoft.com/en-us/library/syy068tk.aspx">documentazione ufficiale</a>.</p>
+<h2 id="dimenticavo8230">Dimenticavo…</h2>
+<p>C’è un’altra cosuccia che non ha funzionato perfettamente al momento del debutto. Immaginate la sorpresa del cliente che, ordinando un prodotto da €499 + IVA, si è visto proporre l’addebito su carta di credito per <strong>€1 (uno)</strong> IVA inclusa. Ma questa è un’altra storia…</p>]]></content:encoded>
     </item>
     <item>
       <title>Google Page Speed ora gira anche su Chrome</title>
@@ -137,6 +398,14 @@ Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 sett
       <pubDate>Wed, 23 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/google-page-speed-ora-gira-anche-su-chrome/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://code.google.com/speed/page-speed/&#34;&gt;Page Speed&lt;/a&gt; è un servizio Google per la ottimizzazione delle prestazioni delle pagine web. E’ molto apprezzato dagli sviluppatori di tutto il mondo che finora l’hanno usato su web server Apache oppure sotto forma di estensione per Firefox. Finalmente Google ha &lt;a href=&#34;http://googlewebmastercentral.blogspot.com/2011/03/page-speed-for-chrome-and-in-40.html&#34;&gt;annunciato&lt;/a&gt; l’estensione sperimentale &lt;!-- raw HTML omitted --&gt;Page Speed per Chrome&lt;!-- raw HTML omitted --&gt;, disponibile anche in italiano.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted --><a href="http://code.google.com/speed/page-speed/">Page Speed</a> è un servizio Google per la ottimizzazione delle prestazioni delle pagine web. E’ molto apprezzato dagli sviluppatori di tutto il mondo che finora l’hanno usato su web server Apache oppure sotto forma di estensione per Firefox. Finalmente Google ha <a href="http://googlewebmastercentral.blogspot.com/2011/03/page-speed-for-chrome-and-in-40.html">annunciato</a> l’estensione sperimentale <!-- raw HTML omitted -->Page Speed per Chrome<!-- raw HTML omitted -->, disponibile anche in italiano.</p>
+<h2 id="installazione">Installazione</h2>
+<p>Trattandosi di una estensione sperimentale l’installazione è più laboriosa del solito. Nella barra degli indirizzi digitate <code>about:flags</code> e premete invio. Abilitate l’opzione <code>API sperimentali di estensione</code> quindi scorrete fino in fondo alla pagina e cliccate sul pulsante <code>Riavvia adesso</code>. Dopo il riavvio sarà finalmente possibile <a href="https://clients2.google.com/service/update2/crx?response=redirect&amp;x=id%3Dgplegfbjlmmehdoakndmohflojccocli%26uc">scaricare l’estensione</a> e completare l’installazione. Per attivare Page Speed andate sulla pagina web che volete collaudare e aprite gli Strumenti per sviluppatori. Per maggiori informazioni consultate la <a href="http://code.google.com/intl/it-IT/speed/page-speed/docs/using_chrome.html">pagina ufficiale dell’estensione</a>.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="perché-la-velocità-del-tuo-sito-è-importante">Perché la velocità del tuo sito è importante</h2>
+<p>I siti veloci migliorano l’esperienza dell’utente e questo piace molto ai motori di ricerca, che già oggi misurano le prestazioni di ogni sito indicizzato. I risultati di queste misurazioni sono uno degli indicatori usati per determinare l’importanza dei siti web e quindi la loro <strong>posizione nei risultati delle SERP</strong>. Il fatto che Google stessa sia impegnata a fornire strumenti avanzati di ottimizzazione e misurazione la dice lunga su quanto questo indicatore sarà sempre più determinante nel prossimo futuro.</p>
+<p>Se non siete convinti considerate questo: solo qualche giorno fa anche Yahoo a rilasciato la <a href="https://chrome.google.com/extensions/detail/ninejjcohidippngpapiilnmkgllmakh">versione per Chrome</a> di <a href="http://developer.yahoo.com/yslow/">YSlow</a>, la sua sua estensione per la ottimizzazione delle pagine web. Se due indizi non fanno una prova, poco ci manca.</p>]]></content:encoded>
     </item>
     <item>
       <title>Programmazione, SEO, Startup – Il Meglio della Settimana #3</title>
@@ -144,6 +413,70 @@ Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 sett
       <pubDate>Sun, 06 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/programmazione-seo-startup-il-meglio-della-settimana-3/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Settimana ricca di avvenimenti anche questa. SEO, Startup e applicazioni per Smartphone in primo piano ma non mancano altre chicche per buongustai. Al decimo posto una curiosità non ha nulla da spartire con gli argomenti trattati di solito, ma quelle foto dovevo segnalarvele. Ringrazio chi mi ha contattato via mail, Facebook e Twitter. A quanto pare la rubrica piace e farò il possibile per portarla avanti migliorando la qualità delle selezioni, come sempre assolutamente arbitrarie.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Settimana ricca di avvenimenti anche questa. SEO, Startup e applicazioni per Smartphone in primo piano ma non mancano altre chicche per buongustai. Al decimo posto una curiosità non ha nulla da spartire con gli argomenti trattati di solito, ma quelle foto dovevo segnalarvele. Ringrazio chi mi ha contattato via mail, Facebook e Twitter. A quanto pare la rubrica piace e farò il possibile per portarla avanti migliorando la qualità delle selezioni, come sempre assolutamente arbitrarie.</p>
+<ol>
+<li>
+<p><strong><a href="http://cdixon.org/2011/03/05/seo-is-no-longer-a-viable-marketing-strategy-for-startups/">SEO non è più una strategia valida per le Startup</a></strong></p>
+<p>Opinione fuori dal coro quella di Chris Dixon, CEO di Hunch e investitore seriale (Skype, Foursquare, Stack Overflow e altri). Chris sostiene che le Startup dovrebbero smetterla di puntare su SEO. Alla base del successo di molte Startup dell’ultimo decennio, l’industria SEO è cresciuta talmente che il mercato ne é saturo. Al punto che Google ormai fatica a distinguere i contenuti di qualità da quelli <em>SEO-optimized</em>. Nei commenti una discussione vivace alle quale partecipano investitori famosi e SEO guru internazionali.</p>
+</li>
+<li>
+<p><strong><a href="http://www.marioconcina.it/blog/mobile-development/analisi-sullo-sviluppo-di-applicazioni-per-smartphone.html">Analisi sullo sviluppo di applicazioni per Smartphone</a></strong></p>
+</li>
+</ol>
+<pre><code>Secondo molti lo sviluppo di applicazioni mobile è il futuro. Ma quale è la piattaforma sulla quale puntare investendo tempo e denaro? Mario Concina ci offre una bella panoramica su linguaggi, costi e pro e contro di ognuna delle piattaforme tecnologiche più importanti (iPhone, Android, Windows Mobile, Symbian, BlackBerry)
+</code></pre>
+<ol start="3">
+<li>**[<!-- raw HTML omitted -->Settimana ricca di avvenimenti anche questa. SEO, Startup e applicazioni per Smartphone in primo piano ma non mancano altre chicche per buongustai. Al decimo posto una curiosità non ha nulla da spartire con gli argomenti trattati di solito, ma quelle foto dovevo segnalarvele. Ringrazio chi mi ha contattato via mail, Facebook e Twitter. A quanto pare la rubrica piace e farò il possibile per portarla avanti migliorando la qualità delle selezioni, come sempre assolutamente arbitrarie.</li>
+</ol>
+<!-- raw HTML omitted -->
+<ol>
+<li><strong><a href="http://cdixon.org/2011/03/05/seo-is-no-longer-a-viable-marketing-strategy-for-startups/">SEO non è più una strategia valida per le Startup</a></strong></li>
+</ol>
+<pre><code>Opinione fuori dal coro quella di Chris Dixon, CEO di Hunch e investitore seriale (Skype, Foursquare, Stack Overflow e altri). Chris sostiene che le Startup dovrebbero smetterla di puntare su SEO. Alla base del successo di molte Startup dell&amp;#8217;ultimo decennio, l&amp;#8217;industria SEO è cresciuta talmente che il mercato ne é saturo. Al punto che Google ormai fatica a distinguere i contenuti di qualità da quelli _SEO-optimized_. Nei commenti una discussione vivace alle quale partecipano investitori famosi e SEO guru internazionali.
+</code></pre>
+<ol start="2">
+<li><strong><a href="http://www.marioconcina.it/blog/mobile-development/analisi-sullo-sviluppo-di-applicazioni-per-smartphone.html">Analisi sullo sviluppo di applicazioni per Smartphone</a></strong></li>
+</ol>
+<pre><code>Secondo molti lo sviluppo di applicazioni mobile è il futuro. Ma quale è la piattaforma sulla quale puntare investendo tempo e denaro? Mario Concina ci offre una bella panoramica su linguaggi, costi e pro e contro di ognuna delle piattaforme tecnologiche più importanti (iPhone, Android, Windows Mobile, Symbian, BlackBerry)
+</code></pre>
+<ol start="3">
+<li><strong>]<a href="http://www.pcworld.com/article/221159/5_new_ways_build_iphone_android_browser_apps.html">3</a></strong> Molte Startup lanciano in questi giorni prodotti e soluzioni che promettono di semplificare la creazione di applicazioni mobile. In questo articolo PC World ne presenta cinque. Alcune promettono la luna: creazione rapida di applicazioni mobile per tutti, programmatori e non.</li>
+<li><a href="http://www.attackofdesign.com/coder-who-cant-design-and-designers-who-cant-code/"><strong>Programmatori che non sono Designer, Designer che non sono Programmatori</strong></a></li>
+</ol>
+<pre><code>Il programmatore incapace di accoppiare due colori. Il designer inetto col codice. O ci riconosciamo in una di queste figure (io nella prima), o ne abbiamo incontrate nella nostra carriera. Questo breve articolo ne traccia il profilo.
+</code></pre>
+<ol start="5">
+<li><strong><a href="http://www.bigthink.it/facebook-e-i-nuovi-commenti-sincronizzati/">Facebook e i nuovi commenti sincronizzati</a></strong></li>
+</ol>
+<pre><code>Facebook è in gran spolvero di questi tempi. Solo quindici giorni fa aggiornava subdolamente il Like Button e questa settimana mette mano al plugin dei Commenti. La novità è destinata a influire pesantemente sulla penetrazione di Facebook nel &amp;#8216;resto della rete&amp;#8217;. Con la solita dovizia di particolari BigThink ci spiega gli aspetti pratici di questo aggiornamento.
+
+&lt;a style=&quot;font-weight: bold;&quot; href=&quot;http://www.bigthink.it/facebook-e-i-nuovi-commenti-sincronizzati/&quot;&gt;&lt;/a&gt;
+</code></pre>
+<ol start="6">
+<li><a href="http://startup.wikli.it/"><strong>Startup.Wikli.it</strong></a></li>
+</ol>
+<pre><code>Startup, web, acquisizioni e venture capital. Wikli seleziona e commenta le news tematiche più interessanti della settimana, le confeziona e te le fa trovare puntuali nella casella di posta ogni venerdì alle 8.00. Idea brillante e molto ben congegnata. Vi invito ad iscrivervi a questa innovativa mailing list. Non ve ne pentirete.
+</code></pre>
+<ol start="7">
+<li><a href="http://www.fabiolalli.com/2011/03/02/yeplike-startup-in-72-ore/"><strong>YepLike! Startup in 72 ore</strong></a></li>
+</ol>
+<pre><code>In preda a delirio febbricitante Fabio Lalli si inventa una idea da lanciare in 72 ore. Leggete il suo racconto. PS: nel frattempo le 72 ore sono trascorse, l&amp;#8217;applicazione è su iPhone e a quanto pare riscuote buon successo.
+</code></pre>
+<ol start="8">
+<li><a href="http://rgarg.posterous.com/20-software-development-best-practices"><strong>Venti consigli pratici per il programmatore</strong></a></li>
+</ol>
+<pre><code>Di post di questo tipo se ne trovano tanti in rete ma questo mi ha colpito perché contiene alcune chicche interessanti che denotano esperienza diretta da parte dell&amp;#8217;autore. Da non perdere se siete principianti. Se siete esperti vi riconoscerete senz&amp;#8217;altro in alcune di queste situazioni.
+</code></pre>
+<ol start="9">
+<li><a href="http://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read"><strong>Quale è il libro fondamentale che ogni programmatore dovrebbe leggere nella vita?</strong></a></li>
+</ol>
+<pre><code>Su Stack Overflow se ne è discusso a lungo. Il risultato è una selezione di alcuni tra i libri più importanti di sempre. Il fatto che il Kernighan &amp; Ritchie non sia il primo in classifica la dice lunga sulla mia vetustità. Sono un collezionista di prime edizioni, ammetto che vedere riuniti così tanti testi fondamentali mi ha fatto prudere le mani.
+</code></pre>
+<ol start="10">
+<li><a href="http://www.howtobearetronaut.com/2011/02/shackletons-antarctica-in-colour-1915/"><strong>Shackleton, L’Antartide a Colori – 1915</strong></a></li>
+</ol>
+<pre><code>Nel 1915 Shackleton e i suoi uomini furono costretti ad abbandonare la &amp;#8216;Endurance&amp;#8217;, inesorabilmente intrappolata dai ghiacci. Frank Hurley, il fotografo dela spedizione, riuscì miracolosamente a salvare le lastre fotografiche di quella spedizione. In questa magnifica galleria vediamo le foto (a colori) di quella spedizione
+</code></pre>]]></content:encoded>
     </item>
     <item>
       <title>Microsoft, mi tocca boicottare pure IE6countdown.com</title>
@@ -153,6 +486,14 @@ Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 sett
       <description>&lt;p&gt;Col suo sito &lt;a href=&#34;http://www.ie6countdown.com/&#34;&gt;IE6countdown.com&lt;/a&gt; Microsoft riconosce finalmente che l’ormai decenne (2001) Internet Explorer 6 ha fatto il suo tempo. E’ ora di guardare avanti.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Il sito invita i web master di tutto il mondo a unirsi alla crociata per la distruzione della vetusta reliquia aggiungendo un banner alle loro home page. Il banner compare solo quando la pagina è aperta da IE6, spiegando al visitatore che il suo browser è obsoleto e di scarsa qualità (questo in effetti dimentica di dirlo) e suggerendo di aggiornarlo.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Col suo sito <a href="http://www.ie6countdown.com/">IE6countdown.com</a> Microsoft riconosce finalmente che l’ormai decenne (2001) Internet Explorer 6 ha fatto il suo tempo. E’ ora di guardare avanti.</p>
+<!-- raw HTML omitted -->
+<p>Il sito invita i web master di tutto il mondo a unirsi alla crociata per la distruzione della vetusta reliquia aggiungendo un banner alle loro home page. Il banner compare solo quando la pagina è aperta da IE6, spiegando al visitatore che il suo browser è obsoleto e di scarsa qualità (questo in effetti dimentica di dirlo) e suggerendo di aggiornarlo.</p>
+<!-- raw HTML omitted -->
+<p>E’ probabile che decine di migliaia di siti adotteranno il banner. E’ interesse comune che IE6 abbandoni le scene al più presto. Tutti vorremmo che le nostre pagine venissero visitate da browser moderni che supportano HTML5 e CSS3. Giusto?</p>
+<h2 id="piccolo-dettaglio-insignificante">Piccolo dettaglio insignificante</h2>
+<p>C’è però un dettaglio, prontamente segnalato da <a href="http://statichtml.com/2011/ie6-countdown-a-wolf-in-sheeps-clothing.html">Steve Webster</a>, che non quadra. Cliccando sul banner veniamo indirizzati al <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx">sito di Internet Explorer</a> dove siamo invitati a scaricare l’ultimo aggiornamento. Quando va bene chi oggi usa ancora IE6 sta su piattaforma Windows XP. E’ cosa nota che <a href="http://www.theregister.co.uk/2010/09/16/no_ie9_9_on_windows_xp/">Internet Explorer 9 non gira su sistemi precedenti a Vista SP2</a>. L’unica opzione di aggiornamento valida rimane…</p>
+<p>…Internet Explorer 8. Un browser vecchio di due anni che si trova sull’orlo dell’obsolescenza e non supporta affatto HTML5. Certo sempre meglio di IE6 ma c’è in giro di molto meglio, non trovate? Fate la cosa giusta e mettete mano al codice che trovate su IE6countdown.com. Fate puntare il vostro banner a <a href="http://google.com/chrome">Chrome</a>, <a href="http://www.getfirefox.com/">Firefox</a>, <a href="http://www.opera.com/">Opera</a> o <a href="http://www.apple.com/it/safari/">Safari</a>. Già che ci siete aggiungete il tag <em>alt</em> (se lo sono scordato) e sostituite l’immagine con una che non ricordi gli anni 90 del secolo scorso.</p>]]></content:encoded>
     </item>
     <item>
       <title>Il Processo Creativo nell’Era Moderna</title>
@@ -160,6 +501,9 @@ Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 sett
       <pubDate>Sat, 19 Feb 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/il-processo-creativo-nellera-moderna/</guid>
       <description> </description>
+      <content:encoded><![CDATA[<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+]]></content:encoded>
     </item>
   </channel>
 </rss>

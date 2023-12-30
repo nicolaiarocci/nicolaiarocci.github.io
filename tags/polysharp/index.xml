@@ -17,6 +17,59 @@
 The init keyword defines an accessor method in a property or indexer. An init-only setter assigns a value to the property or the indexer element only during object construction. This enforces immutability so that once the object is initialized, it can&amp;rsquo;t be changed again.
 Consider the following class:
 public class Person { public string FirstName { get; init; } } You can initialize it like this:</description>
+      <content:encoded><![CDATA[<p>In a C# library I&rsquo;ve been working on, I wanted to use C# 9.0&rsquo;s <code>init</code> keyword.
+Quoting the <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/init">documentation</a>:</p>
+<blockquote>
+<p>The init keyword defines an accessor method in a property or indexer. An
+init-only setter assigns a value to the property or the indexer element
+<strong>only</strong> during object construction. This enforces immutability so that once
+the object is initialized, it can&rsquo;t be changed again.</p>
+</blockquote>
+<p>Consider the following class:</p>
+<pre tabindex="0"><code>    public class Person
+    {
+        public string FirstName { get; init; }
+    }
+</code></pre><p>You can initialize it like this:</p>
+<pre tabindex="0"><code>    var person = new Person { FirstName = &#34;John&#34; };
+</code></pre><p>But this will fail:</p>
+<pre tabindex="0"><code>    var person = new Person();
+    person.FirstName = &#34;John&#34;;  //Not allowed
+</code></pre><p>For my project, which is a .NET Standard 2.0 library, I thought this approach
+might be preferable to a parameter-enforced class constructor alternative.</p>
+<p>To my surprise, however, when I tried the above, I got the following error:</p>
+<pre tabindex="0"><code>The predefined type &#39;System.Runtime.CompilerServices.IsExternalInit&#39; must be
+defined or imported in order to declare init-only setter
+</code></pre><p>As it <a href="https://developercommunity.visualstudio.com/t/error-cs0518-predefined-type-systemruntimecompiler/1244809#TPIN-N1249582">turns out</a>, The <code>IsExternalInit</code> type is only included in the net5.0
+(and subsequent) target frameworks, so one cannot use it right away in a
+NetStandard 2.0 (or 2.1, for that matter) library.</p>
+<p>In the dotnet world, when I encounter <em>&ldquo;type is not defined in version X&rdquo;</em>
+scenario, I know I can get around the issue by making up the type on my own. A
+quick lookup confirmed that this was the case, and the workaround is to add
+the following somewhere in my source code:</p>
+<pre tabindex="0"><code>    namespace System.Runtime.CompilerServices
+    {
+        internal static class IsExternalInit {}
+    }
+</code></pre><p>And presto, the <code>init</code> keyword is now fully available to my library.</p>
+<p>While researching this matter, I stumbled into <a href="https://github.com/Sergio0694/PolySharp">PolySharp</a>,  a lovely
+package that takes this workaround approach to new heights. What is it?</p>
+<blockquote>
+<p>PolySharp provides generated, source-only polyfills for C# language features,
+to easily use all runtime-agnostic features downlevel. The package is
+distributed as a source generator, so that it will automatically detect which
+polyfills are needed depending on the target framework and project in use:
+just add a reference to PolySharp, set your C# language version to latest,
+and have fun!</p>
+</blockquote>
+<p>And it works! Just add a PolySharp reference, and almost all modern C# language
+features become automagically available to your project, with no tricks around
+polluting your code. What&rsquo;s also nice about PolySharp, is that it isn&rsquo;t a
+dependency for your library; it only needs to be there at compile time.</p>
+<p>Do you know what&rsquo;s funny? After all, I took a different route; no <code>init</code>
+keyword is used anymore in my library, but that&rsquo;s for another story.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

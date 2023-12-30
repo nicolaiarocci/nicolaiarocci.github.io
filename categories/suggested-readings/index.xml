@@ -15,6 +15,11 @@
       <guid>https://nicolaiarocci.com/attention-is-a-resource/</guid>
       <description>Today, the New York Times’ SundayReview features a great column by Matthew B. Crawford: The Cost of Paying Attention.
 Attention is a resource; a person has only so much of it […] What if we saw attention in the same way that we saw air or water, as a valuable resource that we hold in common? Perhaps, if we could envision an “attentional commons,” then we could figure out how to protect it.</description>
+      <content:encoded><![CDATA[<p>Today, the New York Times’ SundayReview features a great column by Matthew B. Crawford: <a href="http://www.nytimes.com/2015/03/08/opinion/sunday/the-cost-of-paying-attention.html">The Cost of Paying Attention</a>.</p>
+<blockquote>
+<p>Attention is a resource; a person has only so much of it […] What if we saw attention in the same way that we saw air or water, as a valuable resource that we hold in common? Perhaps, if we could envision an “attentional commons,” then we could figure out how to protect it.</p>
+</blockquote>
+]]></content:encoded>
     </item>
     <item>
       <title>Sam Altman on Machine Intelligence</title>
@@ -22,6 +27,8 @@ Attention is a resource; a person has only so much of it […] What if we saw at
       <pubDate>Sat, 07 Mar 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/sam-altman-on-machine-intelligence/</guid>
       <description>Sam Altman has a great short series on the development of superhuman machine intelligence (SMI). Machine intelligence, Part 1 is on why machine intelligence is something that we should be afraid of while Part 2 is on what we should do about it. And then there’s Technology predictions, the perfect closer.</description>
+      <content:encoded><![CDATA[<p>Sam Altman has a great short series on the development of superhuman machine intelligence (SMI). <a href="http://blog.samaltman.com/machine-intelligence-part-1">Machine intelligence, Part 1</a> is on why machine intelligence is something that we should be afraid of while <a href="http://blog.samaltman.com/machine-intelligence-part-2">Part 2</a> is on what we should do about it. And then there’s <a href="http://blog.samaltman.com/technology-predictions">Technology predictions</a>, the perfect closer.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>So Why Exactly Is HTTP/2 So Cool?</title>
@@ -29,6 +36,8 @@ Attention is a resource; a person has only so much of it […] What if we saw at
       <pubDate>Tue, 24 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/so-why-exactly-is-http2-so-cool/</guid>
       <description>Today must read is Nine Things to Expect from HTTP/2, brewed for us by one of the HTTP/2 core designers, Mark Nottingham. Ten well spent minutes of your time.</description>
+      <content:encoded><![CDATA[<p>Today must read is <a href="https://www.mnot.net/blog/2014/01/30/http2_expectations">Nine Things to Expect from HTTP/2</a>, brewed for us by one of the HTTP/2 core designers, Mark Nottingham. Ten well spent minutes of your time.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>March To Triumph As A Mentor</title>
@@ -36,6 +45,8 @@ Attention is a resource; a person has only so much of it […] What if we saw at
       <pubDate>Wed, 11 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/march-triumph-mentor/</guid>
       <description>If you have time to read just one thing today, then make sure it is March To Triumph As A Mentor, an essay on Mentoring by A. Jesse Jiryu Davis.</description>
+      <content:encoded><![CDATA[<p>If you have time to read just one thing today, then make sure it is <a href="http://emptysqua.re/blog/mentoring/">March To Triumph As A Mentor</a>, an essay on Mentoring by A. Jesse Jiryu Davis.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>On Sustainable Open Source Management</title>
@@ -44,6 +55,14 @@ Attention is a resource; a person has only so much of it […] What if we saw at
       <guid>https://nicolaiarocci.com/sustainable-open-source-management/</guid>
       <description>Tom Christie has some very good things to say on how to successfully maintain an open source project without losing sanity.
 Truth one: There are, and will always be, a non-finite number of possible valid issues to address. Your code can always be better polished, your APIs better defined, and your project more fully featured. Your documentation can always be better. The ecosystem within which your project lives is constantly evolving.</description>
+      <content:encoded><![CDATA[<p>Tom Christie has some very good things to say on how to successfully maintain an open source project without losing sanity.</p>
+<blockquote>
+<p>Truth one: There are, and will always be, a non-finite number of possible valid issues to address. Your code can always be better polished, your APIs better defined, and your project more fully featured. Your documentation can always be better. The ecosystem within which your project lives is constantly evolving. You will never run out of things you could work on. Ever.</p>
+<p>Truth two: You have finite resources. Damn.</p>
+</blockquote>
+<p>If you are an open source maintainer, contributor or even a user do yourself a favour and <a href="http://www.dabapps.com/blog/sustainable-open-source-management/">read what Tom has to say</a> on the subject. Tom is the creator and maintainer of the Django REST Framework, a hugely successful open source project so he really knows what he’s talking about. And for what is worth, his conclusions mirror mines.</p>
+<p>On a completely unrelated note, I met Tom at EuroPython 2014. He was so nice to come and meet me minutes after I was done delivering my <a href="https://speakerdeck.com/nicola/eve-rest-api-for-humans">REST API for Humans</a> talk. Good vibes.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Why Microservices Matter</title>
@@ -52,6 +71,11 @@ Truth one: There are, and will always be, a non-finite number of possible valid 
       <guid>https://nicolaiarocci.com/microservices-matter/</guid>
       <description>In spite of being a marketing spin and link bait, Heroku article on microservices does a pretty good job at explaining why microservices matter and, at a very high level, what challenges they pose.
 However, microservices aren’t a silver bullet, and they won’t make a sluggish IT organization fast. While individual services become more robust and less complex, the overall system takes on the many challenges of distributed systems at the network level.</description>
+      <content:encoded><![CDATA[<p>In spite of being a marketing spin and link bait, Heroku <a href="https://blog.heroku.com/archives/2015/1/20/why_microservices_matter">article on microservices</a> does a pretty good job at explaining why microservices matter and, at a very high level, what challenges they pose.</p>
+<blockquote>
+<p>However, microservices aren’t a silver bullet, and they won’t make a sluggish IT organization fast. While individual services become more robust and less complex, the overall system takes on the many challenges of distributed systems at the network level. Despite their challenges, they’re here to stay because they map better than anything else to the software landscape of the future: parallel development, platform-as-a-service deployment, and ubiquitous use.</p>
+</blockquote>
+]]></content:encoded>
     </item>
     <item>
       <title>Better Pull Requests</title>
@@ -60,6 +84,12 @@ However, microservices aren’t a silver bullet, and they won’t make a sluggis
       <guid>https://nicolaiarocci.com/better-pull-requests/</guid>
       <description>I am not a big fan of top tens but 10 Tips for Better Pull Requests is well worth reading.
 A good Pull Request involves more than just some code. In most cases, there’s one or more reviewer(s) involved, who will have to review your Pull Request in order to evaluate whether it’s a good fit for inclusion in the code base. Not only must you produce good code, but you must also cater to the person(s) doing the review.</description>
+      <content:encoded><![CDATA[<p>I am not a big fan of top tens but <a href="http://blog.ploeh.dk/2015/01/15/10-tips-for-better-pull-requests/">10 Tips for Better Pull Requests</a> is well worth reading.</p>
+<blockquote>
+<p>A good Pull Request involves more than just some code. In most cases, there’s one or more reviewer(s) involved, who will have to review your Pull Request in order to evaluate whether it’s a good fit for inclusion in the code base. Not only must you produce good code, but you must also cater to the person(s) doing the review.</p>
+<p>Here’s a list of tips to make your Pull Request better. It isn’t exhaustive, but I think it addresses some of the more important aspects of creating a good Pull Request.</p>
+</blockquote>
+]]></content:encoded>
     </item>
     <item>
       <title>The Internet’s Own Boy</title>
@@ -67,6 +97,8 @@ A good Pull Request involves more than just some code. In most cases, there’s 
       <pubDate>Wed, 14 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/internet-own-boy-aaron-swartz/</guid>
       <description>I wasn’t aware that The Internet’s Own Boy: The Story of Aaron Swartz is now available with a Creative Common license, free for everyone to enjoy.</description>
+      <content:encoded><![CDATA[<p>I wasn’t aware that <a href="https://www.youtube.com/watch?v=vXr-2hwTk58">The Internet’s Own Boy: The Story of Aaron Swartz</a> is now available with a Creative Common license, free for everyone to enjoy.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Interfaces out of Laziness</title>
@@ -75,6 +107,11 @@ A good Pull Request involves more than just some code. In most cases, there’s 
       <guid>https://nicolaiarocci.com/interfaces-laziness/</guid>
       <description>Robert C. Martin is at it again this time targeting the (infamous?) Interface construct in a funny way. As both a C# and Python coder I couldn’t agree more. Also, let me quote my fellow polyglot developer Nicola Musatti who went all out on the topic:
 Some of us have known that for the best part of the last 20 years 😉</description>
+      <content:encoded><![CDATA[<p>Robert C. Martin is at it <a href="http://blog.cleancoder.com/uncle-bob/2015/01/08/InterfaceConsideredHarmful.html">again</a> this time targeting the (infamous?) <code>Interface</code> construct in a funny way. As both a C# and Python coder I couldn’t agree more. Also, let me quote my fellow polyglot developer <a href="http://wthwdik.wordpress.com/">Nicola Musatti</a> who went all out on the topic:</p>
+<blockquote>
+<p>Some of us have known that for the best part of the last 20 years 😉</p>
+</blockquote>
+]]></content:encoded>
     </item>
     <item>
       <title>On Reusable Software</title>
@@ -82,6 +119,8 @@ Some of us have known that for the best part of the last 20 years 😉</descript
       <pubDate>Thu, 08 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/on-reusable-software/</guid>
       <description>Jos de Jong has a great concise write-up on pitfalls and excesses in building reusable software.</description>
+      <content:encoded><![CDATA[<p>Jos de Jong has a <a href="http://josdejong.com/blog/2015/01/06/code-reuse/">great concise write-up</a> on pitfalls and excesses in building reusable software.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Some Thoughts on the new .NET (Redux)</title>
@@ -90,6 +129,24 @@ Some of us have known that for the best part of the last 20 years 😉</descript
       <guid>https://nicolaiarocci.com/some-thoughts-on-the-new-net-redux/</guid>
       <description>Like all those involved with the .NET ecosystem I’ve been slowly digesting the recent news on the whole thing going open source and cross platform. I’ve been jogging down a few notes in light of a future blog post, but then Jeremy Miller came out with his own Some Thoughts on the New .NET which is almost exactly the post I wanted to write. So when he writes:
 I’ve started to associate .</description>
+      <content:encoded><![CDATA[<p>Like all those involved with the .NET ecosystem I’ve been slowly digesting the recent news on the whole thing going open source and cross platform. I’ve been jogging down a few notes in light of a future blog post, but then Jeremy Miller came out with his own <a href="http://jeremydmiller.com/2014/12/02/some-thoughts-on-the-new-net/">Some Thoughts on the New .NET</a> which is almost exactly the post I wanted to write. So when he writes:</p>
+<blockquote>
+<p>I’ve started to associate .Net “classic” with seemingly constant aggravations like strong naming conflicts, csproj file merge hell, slow compilation, slow nuget restores, and how absurdly heavyweight and bloated that Visual Studio.Net has become over the years.</p>
+</blockquote>
+<p>It is me. No it’s actually Jeremy but really it’s me. I also share his concerns on the future OSS .NET community him:</p>
+<blockquote>
+<p>So much of .Net is open source now and they even take contributions. Awesome, great, but my very first reaction was that it doesn’t matter much because <strong>the .Net community as a whole isn’t as participatory as other communities</strong> and that would have to change before ASP.Net vNext being OSS matters. It’ll be interesting to me to see if that changes over time.</p>
+</blockquote>
+<p>I’m very involved with the Python language and its community. I released <a href="http://nicolaiarocci.com/opensource/">open source projects</a> for both platforms and frankly I’ve been shocked by the difference in culture between the two communities. I am really hoping that, in due time, .NET going open source will also cause its community to evolve as a whole.</p>
+<p>And what about coding on a Mac (or Linux for the matter)? He goes on with:</p>
+<blockquote>
+<p>After a couple years now of using a Mac, I’d really prefer to stay on that side of things and hopefully give my Windows VM much more time off. Mac OS being a first class citizen for the new .Net and the progress on the OmniSharp tools for Sublime or MacVim is going to make the new ASP.Net vNext runtime a much easier sell in my shop.</p>
+</blockquote>
+<p>I’ve been working on a Mac for years, confining Windows on a VM, doing Python with Vim as much as possible. My God I love Vim. My Visual Studio runs VsVim (which is open source by the way). Even my Xamarin Studio on OSX runs in vi mode (which sucks unfortunately). I would never go back to a Windows machine but that does not mean that I don’ want to use C# or F#. Even these days most of my coding is C# in XS/OSX or Vim with OmniSharp, a project I’ve been experimenting with since when the plugin for Vim was released. So native .NET on OSX and Unix? Yes please.</p>
+<p>I am in the process of writing a C# iOS application. The data layer is SQLite encapsulated in a Portable Class so we can use it on both Windows and iOS. The HTTP/REST client is also portable, <a href="http://nicolaiarocci.com/introducing-eve-net-httprest-client-humans/">open source</a> and consumed on both platforms. And now even the mobile UI is C# and portable between Android, iOS and Windows Phone thanks to Xamarin.Forms. If you ask me, the future looks bright.</p>
+<p>You should read Jeremy post on <a href="http://jeremydmiller.com/2014/12/02/some-thoughts-on-the-new-net/">his site</a>.</p>
+<p>If you want to get in touch, I am <a href="https://twitter.com/nicolaiarocci">@nicolaiarocci</a> on Twitter.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>The Obligation of The Programmer</title>
@@ -100,6 +157,15 @@ I’ve started to associate .</description>
 We rule the world.
 We don’t quite understand this yet. More importantly, the world doesn’t quite understand it yet. Our civilization doesn’t quite realize how dependent it has become on software — on us.
 He goes as far as suggesting a programmer’s code of conduct of sorts. Food for thought I guess, although I suspect we’re too much of a wild and scattered bunch for something like that to really stick.</description>
+      <content:encoded><![CDATA[<p>Robert C.Martin, of <!-- raw HTML omitted -->Clean Code<!-- raw HTML omitted --> fame, has something to say on the role of we programmers in today’s society.</p>
+<blockquote>
+<p>We rule the world.</p>
+<p>We don’t quite understand this yet. More importantly, the world doesn’t quite understand it yet. Our civilization doesn’t quite realize how dependent it has become on software — on us.</p>
+</blockquote>
+<p>He goes as far as suggesting a programmer’s code of conduct of sorts. Food for thought I guess, although I suspect we’re too much of a wild and scattered bunch for something like that to really stick.</p>
+<p>Nonetheless, he raises a very good point about the predominance of software in our society and the risk that soon or later someone will wake up and attempt to impose some sort of regulation on the profession.</p>
+<p>Read it all at the <a href="http://blog.cleancoder.com/uncle-bob/2014/11/15/WeRuleTheWorld.html">Clean Coder Blog</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Why Don’t More People Work As Programmers?</title>
@@ -109,6 +175,12 @@ He goes as far as suggesting a programmer’s code of conduct of sorts. Food for
       <description>This originally appeared on Quora and is well worth reading.
 Becoming a good programmer is incredibly difficult and it doesn’t happen quickly. We can’t expect to plant some trees and have 2000-year-old redwoods grow overnight, regardless of the demand for them.
 via Why Don&amp;rsquo;t More People Work As Programmers? – Forbes.</description>
+      <content:encoded><![CDATA[<p>This originally appeared on Quora and is well worth reading.</p>
+<blockquote>
+<p>Becoming a good programmer is incredibly difficult and it doesn’t happen quickly. We can’t expect to plant some trees and have 2000-year-old redwoods grow overnight, regardless of the demand for them.</p>
+</blockquote>
+<p>via <a href="http://www.forbes.com/sites/quora/2014/10/31/why-dont-more-people-work-as-programmers/">Why Don&rsquo;t More People Work As Programmers? – Forbes</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Microsoft’s New Running Shoes</title>
@@ -117,6 +189,11 @@ via Why Don&amp;rsquo;t More People Work As Programmers? – Forbes.</descriptio
       <guid>https://nicolaiarocci.com/microsofts-new-running-shoes/</guid>
       <description>When Ballmer famously said, “Linux is a cancer that attaches itself in an intellectual property sense to everything it touches,” it was fair to characterize Microsoft’s approach to open source as hostile. But over time, forces within Microsoft pushed to change this attitude. Many groups inside of Microsoft continue to see the customer and business value in fostering, rather than fighting, OSS.
 via Microsoft’s New Running Shoes.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>When Ballmer famously said, “Linux is a cancer that attaches itself in an intellectual property sense to everything it touches,” it was fair to characterize Microsoft’s approach to open source as hostile. But over time, forces within Microsoft pushed to change this attitude. Many groups inside of Microsoft continue to see the customer and business value in fostering, rather than fighting, OSS.</p>
+</blockquote>
+<p>via <a href="http://haacked.com/archive/2014/05/17/microsofts-new-running-shoes/">Microsoft’s New Running Shoes</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>How to handle big repositories with git</title>
@@ -125,6 +202,11 @@ via Microsoft’s New Running Shoes.</description>
       <guid>https://nicolaiarocci.com/how-to-handle-big-repositories-with-git/</guid>
       <description>git is a fantastic choice for tracking the evolution of your code base and to collaborate efficiently with your peers. But what happens when the repository you want to track is really huge?
 via How to handle big repositories with git – Atlassian Blogs.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>git is a fantastic choice for tracking the evolution of your code base and to collaborate efficiently with your peers. But what happens when the repository you want to track is really huge?</p>
+</blockquote>
+<p>via <a href="https://blogs.atlassian.com/2014/05/handle-big-repositories-git/">How to handle big repositories with git – Atlassian Blogs</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>10 Most Common Python Mistakes</title>
@@ -134,6 +216,12 @@ via How to handle big repositories with git – Atlassian Blogs.</description>
       <description>Python’s simple, easy-to-learn syntax can mislead Python developers – especially those who are newer to the language – into missing some of its subtleties and underestimating the power of the language.
 With that in mind, this article presents a “top 10” list of somewhat subtle, harder-to-catch mistakes that can bite even the most advanced Python developer in the rear.
 via 10 Most Common Python Mistakes.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Python’s simple, easy-to-learn syntax can mislead Python developers – especially those who are newer to the language – into missing some of its subtleties and underestimating the power of the language.</p>
+<p>With that in mind, this article presents a “top 10” list of somewhat subtle, harder-to-catch mistakes that can bite even the most advanced Python developer in the rear.</p>
+</blockquote>
+<p>via <a href="http://www.toptal.com/python/top-10-mistakes-that-python-programmers-make">10 Most Common Python Mistakes</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Why doesn’t GitHub talk about their product roadmap?</title>
@@ -142,6 +230,11 @@ via 10 Most Common Python Mistakes.</description>
       <guid>https://nicolaiarocci.com/doesnt-github-talk-product-roadmap/</guid>
       <description>Software development is mostly horseshit. We’re busy trying to build things, trying to estimate when things are done, trying to work with other humans to make sure you don’t break anything when you launch. All of these things can go horribly, horribly wrong without much malice or without much intention. It’s still very difficult.
 via Why doesn’t GitHub talk about their product roadmap?</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Software development is mostly horseshit. We’re busy trying to build things, trying to estimate when things are done, trying to work with other humans to make sure you don’t break anything when you launch. All of these things can go horribly, horribly wrong without much malice or without much intention. It’s still very difficult.</p>
+</blockquote>
+<p>via <a href="https://github.com/holman/feedback/issues/534">Why doesn’t GitHub talk about their product roadmap?</a></p>
+]]></content:encoded>
     </item>
     <item>
       <title>How to be a sane programmer</title>
@@ -150,6 +243,11 @@ via Why doesn’t GitHub talk about their product roadmap?</description>
       <guid>https://nicolaiarocci.com/how-to-be-a-sane-programmer/</guid>
       <description>But here’s the rub. Programming, like writing, painting, and music, is chiefly a creative endeavor not a technical one. Practice with any technology or language is useful as a means of learning tools and techniques, but it will not make you a substantially better programmer.
 via How to be a sane programmer</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>But here’s the rub. Programming, like writing, painting, and music, is chiefly a creative endeavor not a technical one. Practice with any technology or language is useful as a means of learning tools and techniques, but it will not make you a substantially better programmer.</p>
+</blockquote>
+<p>via <a href="http://www.nicholascloud.com/2014/03/how-to-be-a-sane-programmer/">How to be a sane programmer</a></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Never judge a programmer by their commit history</title>
@@ -158,6 +256,11 @@ via How to be a sane programmer</description>
       <guid>https://nicolaiarocci.com/never-judge-a-programmer-by-their-commit-history/</guid>
       <description>It’s been a very long time since I judged any programmer based on their commit history and I believe if you think you can judge a programmer’s ability by reading his/her code YOU ARE WRONG.
 via Never judge a programmer by their commit history</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>It’s been a very long time since I judged any programmer based on their commit history and I believe if you think you can judge a programmer’s ability by reading his/her code YOU ARE WRONG.</p>
+</blockquote>
+<p>via <a href="http://www.mehdi-khalili.com/never-judge-a-programmer-by-their-commit-history">Never judge a programmer by their commit history</a></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Learn C, Then Learn Computer Science</title>
@@ -165,6 +268,11 @@ via Never judge a programmer by their commit history</description>
       <pubDate>Wed, 12 Feb 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/learn-c-then-learn-computer-science/</guid>
       <description>This is the problem with emphasizing computer science over learning to code. Without an understanding of what’s happening at a low level, my peers ran into issues […] and had no idea what to do to debug them. This is a problem that stems from teaching people computer science but not teaching them how to code. Learning to code isn’t just teaching people how to spell – it’s teaching people the meaning behind the words.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>This is the problem with emphasizing computer science over learning to code. Without an understanding of what’s happening at a low level, my peers ran into issues […] and had no idea what to do to debug them. This is a problem that stems from teaching people computer science but not teaching them how to code. Learning to code isn’t just teaching people how to spell – it’s teaching people the meaning behind the words.</p>
+</blockquote>
+<p>via <a href="http://qrohlf.com/posts/learn-to-code-then-learn-cs/">Learn C, Then Learn Computer Science</a></p>
+]]></content:encoded>
     </item>
     <item>
       <title>What the Heck is Happening to Windows?</title>
@@ -173,6 +281,12 @@ via Never judge a programmer by their commit history</description>
       <guid>https://nicolaiarocci.com/what-the-heck-is-happening-to-windows/</guid>
       <description>This oh so this.
 If you look back over the decades at the many high-level complaints that have been leveled at Windows, one in particular sticks out: Unlike Mac OS, in particular, Windows has always attempted to satisfy every possible customer need, and as such it often provides multiple ways to accomplish the same thing. The result is a messy product, if you will, one that lacks the singular vision that is typically associated with the Mac and Apple’s other products.</description>
+      <content:encoded><![CDATA[<p>This oh so this.</p>
+<blockquote>
+<p>If you look back over the decades at the many high-level complaints that have been leveled at Windows, one in particular sticks out: Unlike Mac OS, in particular, Windows has always attempted to satisfy every possible customer need, and as such it often provides multiple ways to accomplish the same thing. The result is a messy product, if you will, one that lacks the singular vision that is typically associated with the Mac and Apple’s other products.</p>
+</blockquote>
+<p>via <a href="http://winsupersite.com/windows-8/what-heck-happening-windows">What the Heck is Happening to Windows?</a>ì</p>
+]]></content:encoded>
     </item>
     <item>
       <title>How to Save 90% on Your S3 Bill</title>
@@ -180,6 +294,8 @@ If you look back over the decades at the many high-level complaints that have be
       <pubDate>Fri, 07 Feb 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/how-to-save-90-on-your-s3-bill/</guid>
       <description>If you are using Python and the awesome Boto library to access Amazon S3, make sure you don’t miss How to Save 90% on Your S3 Bill.</description>
+      <content:encoded><![CDATA[<p>If you are using Python and the awesome Boto library to access Amazon S3, make sure you don’t miss <a href="http://www.appneta.com/blog/s3-list-get-bucket-default/">How to Save 90% on Your S3 Bill</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Why AngularJS Will Be Huge</title>
@@ -188,6 +304,11 @@ If you look back over the decades at the many high-level complaints that have be
       <guid>https://nicolaiarocci.com/why-angularjs-will-be-huge/</guid>
       <description>The reality is that AngularJS is winning the frontend framework war. It’s not to say there aren’t great, high quality alternatives out there, but few have gained so much developer mindshare that slow and conservative companies see it as a wonderful investment. And it’s all the better that normal developers actually love developing with it!
 via Why AngularJS Will Be Huge.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>The reality is that AngularJS is winning the frontend framework war. It’s not to say there aren’t great, high quality alternatives out there, but few have gained so much developer mindshare that slow and conservative companies see it as a wonderful investment. And it’s all the better that normal developers actually love developing with it!</p>
+</blockquote>
+<p>via <a href="http://ionicframework.com/blog/angularjs-will-be-huge/">Why AngularJS Will Be Huge</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Why I Left the .NET Framework</title>
@@ -197,6 +318,13 @@ via Why AngularJS Will Be Huge.</description>
       <description>I can’t say I left the .NET Framework altogether as our main app was developed with .NET and we still maintain it on daily basis. Whenever applicable however, all the recent stuff is being done outside the walled garden.
 The following Jonathan Oliver totally resonates with my experience.
 The .NET Framework was good. Really good. Until it wasn’t. Why did I leave .NET? In short, it constrained our ability to choose (which is a huge deal for me) and turned our focus inward toward the perceived safety of the nest instead of the helping us experiencing all of the possibilities out there in the big, wide world.</description>
+      <content:encoded><![CDATA[<p>I can’t say I left the .NET Framework altogether as our main app was developed with .NET and we still maintain it on daily basis. Whenever applicable however, all the recent stuff is being done outside the walled garden.</p>
+<p>The following Jonathan Oliver totally resonates with my experience.</p>
+<blockquote>
+<p>The .NET Framework was good. Really good. Until it wasn’t. Why did I leave .NET? In short, it constrained our ability to choose (which is a huge deal for me) and turned our focus inward toward the perceived safety of the nest instead of the helping us experiencing all of the possibilities out there in the big, wide world.</p>
+</blockquote>
+<p>via <a href="http://blog.jonathanoliver.com/why-i-left-dot-net/">Why I Left the .NET Framework</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>The Descent to C</title>
@@ -206,6 +334,12 @@ The .NET Framework was good. Really good. Until it wasn’t. Why did I leave .NE
       <description>This is really worth you time if you’re looking to learn C language (you should).
 This article attempts to give a sort of ‘orientation tour’ for people whose previous programming background is in high (ish) level languages such as Java or Python, and who now find that they need or want to learn C.
 via The Descent to C.</description>
+      <content:encoded><![CDATA[<p>This is really worth you time if you’re looking to learn C language (you should).</p>
+<blockquote>
+<p>This article attempts to give a sort of ‘orientation tour’ for people whose previous programming background is in high (ish) level languages such as Java or Python, and who now find that they need or want to learn C.</p>
+</blockquote>
+<p>via <a href="http://www.chiark.greenend.org.uk/~sgtatham/cdescent/">The Descent to C</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>A programmer’s legacy</title>
@@ -215,6 +349,12 @@ via The Descent to C.</description>
       <description>This is a subject I’ve been pondering on for a while.
 I think we all have an urge to mark our stamp on this world, to graffiti ‘I was here–don’t forget me’. Yet, as a programmer, where is my legacy?
 via A programmer’s legacy.</description>
+      <content:encoded><![CDATA[<p>This is a subject I’ve been pondering on for a while.</p>
+<blockquote>
+<p>I think we all have an urge to mark our stamp on this world, to graffiti ‘I was here–don’t forget me’. Yet, as a programmer, where is my legacy?</p>
+</blockquote>
+<p>via <a href="http://blog.alexmaccaw.com/a-programmers-legacy">A programmer’s legacy</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Pro Git Workflow</title>
@@ -222,6 +362,8 @@ via A programmer’s legacy.</description>
       <pubDate>Mon, 27 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/pro-git-workflow/</guid>
       <description>Pro Git Workflow is an interesting collection of Git shortcuts, aliases and workflows. Nothing really new but give it a shot if you want to improve your git-fu beyond basics.</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Pro Git Workflow<!-- raw HTML omitted --> is an interesting collection of Git shortcuts, aliases and workflows. Nothing really new but give it a shot if you want to improve your git-fu beyond basics.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Got any tips or tricks for Terminal in Mac OS X?</title>
@@ -230,6 +372,9 @@ via A programmer’s legacy.</description>
       <guid>https://nicolaiarocci.com/got-tips-tricks-terminal-mac-os-x/</guid>
       <description>Best collection of Terminal tricks ever:
 Got any tips or tricks for Terminal in Mac OS X? – Ask Different.</description>
+      <content:encoded><![CDATA[<p>Best collection of Terminal tricks ever:</p>
+<p><a href="http://apple.stackexchange.com/questions/5435/got-any-tips-or-tricks-for-terminal-in-mac-os-x">Got any tips or tricks for Terminal in Mac OS X? – Ask Different</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>JavaScript: The Right Way</title>
@@ -239,6 +384,12 @@ Got any tips or tricks for Terminal in Mac OS X? – Ask Different.</description
       <description>Hey, you!
 This is a JavaScript guide intended to introduce new developers and help experienced ones to the JavaScript’s best practices.
 via JS: The Right Way.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Hey, you!</p>
+<p>This is a JavaScript guide intended to introduce new developers and help experienced ones to the JavaScript’s best practices.</p>
+</blockquote>
+<p>via <a href="http://jstherightway.org/?utm_content=buffer7f09d&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">JS: The Right Way</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Python and Flask Are Ridiculously Powerful</title>
@@ -247,6 +398,11 @@ via JS: The Right Way.</description>
       <guid>https://nicolaiarocci.com/python-and-flask-are-ridiculously-powerful/</guid>
       <description>As a developer, I sometimes forget the power I yield. It’s easy to forget that, when something doesn’t work the way I’d like, I have the power to change it.
 via Python and Flask Are Ridiculously Powerful.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>As a developer, I sometimes forget the power I yield. It’s easy to forget that, when something doesn’t work the way I’d like, I have the power to change it.</p>
+</blockquote>
+<p>via <a href="http://jeffknupp.com/blog/2014/01/18/python-and-flask-are-ridiculously-powerful/">Python and Flask Are Ridiculously Powerful</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Today my startup failed</title>
@@ -256,6 +412,12 @@ via Python and Flask Are Ridiculously Powerful.</description>
       <description>Shit happens. Way more often than what most people think.
 It may seem surprising that a seemingly successful product could fail, but it happens all the time. Although we arguably found product/market fit, we couldn’t quite crack the business side of things.
 via Chris Hates Writing • Today my startup failed.</description>
+      <content:encoded><![CDATA[<p>Shit happens. Way more often than what most people think.</p>
+<blockquote>
+<p>It may seem surprising that a seemingly successful product could fail, but it happens all the time. Although we arguably found product/market fit, we couldn’t quite crack the business side of things.</p>
+</blockquote>
+<p>via <a href="http://chrishateswriting.com/post/74083032842/today-my-startup-failed">Chris Hates Writing • Today my startup failed</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>On undoing, fixing, or removing commits in git</title>
@@ -264,6 +426,11 @@ via Chris Hates Writing • Today my startup failed.</description>
       <guid>https://nicolaiarocci.com/on-undoing-fixing-or-removing-commits-in-git/</guid>
       <description>This document is an attempt to be a fairly comprehensive guide to recovering from what you did not mean to do when using git.
 via On undoing, fixing, or removing commits in git.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>This document is an attempt to be a fairly comprehensive guide to recovering from what you did not mean to do when using git.</p>
+</blockquote>
+<p>via <a href="http://sethrobertson.github.io/GitFixUm/fixup.html">On undoing, fixing, or removing commits in git</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Conquering the Command Line</title>
@@ -273,6 +440,12 @@ via On undoing, fixing, or removing commits in git.</description>
       <description>This is a very good ebook, and is free for reading online.
 This book is for new developers, experienced developers, and everyone in between who wants to master Unix and Linux commands. This book was designed to showcase some of the most useful commands that a developer can know to help them in their daily tasks.
 via Softcover | Conquering the Command Line.</description>
+      <content:encoded><![CDATA[<p>This is a very good ebook, and is free for reading online.</p>
+<blockquote>
+<p>This book is for new developers, experienced developers, and everyone in between who wants to master Unix and Linux commands. This book was designed to showcase some of the most useful commands that a developer can know to help them in their daily tasks.</p>
+</blockquote>
+<p>via <a href="http://conqueringthecommandline.com/book/frontmatter#preface">Softcover | Conquering the Command Line</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>How To Be A Great Developer</title>
@@ -283,6 +456,16 @@ via Softcover | Conquering the Command Line.</description>
 Empathy is your most important skill. Practice it with everyone you interact with, and everyone who interacts with your work.
 Humility goes hand in hand with empathy. Be open to the possibility (likelihood, even) that you are wrong. Know that you will always be learning and improving. accept and own up to mistakes immediately.
 The less you fear being wrong, the more confident you can be.</description>
+      <content:encoded><![CDATA[<p>… and a Great Person in general.</p>
+<blockquote>
+<p>Empathy is your most important skill. Practice it with everyone you interact with, and everyone who interacts with your work.</p>
+<p>Humility goes hand in hand with empathy. Be open to the possibility (likelihood, even) that you are wrong. Know that you will always be learning and improving. accept and own up to mistakes immediately.</p>
+<p>The less you fear being wrong, the more confident you can be. You are wrong about many things. You know very little about most things. Everyone else is exactly the same way. Embrace it. Always learn, always question, always adapt and grow.</p>
+<p>Understand what you do well, and what you don’t.</p>
+<p>(…)</p>
+</blockquote>
+<p>via <a href="https://the-pastry-box-project.net/ed-finkler/2014-january-6">The Pastry Box Project</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Where the best designers go to find photos and graphics</title>
@@ -293,6 +476,13 @@ The less you fear being wrong, the more confident you can be.</description>
 I’ll let you in on a little secret: beautiful websites aren’t made, they’re found. Smart designers know where to find that perfect photo, subtle pattern or that unique icon.
 Here’s where the best designers go to find photos, graphics, icons, and more.
 via Where the best designers go to find photos and graphics | Blog.</description>
+      <content:encoded><![CDATA[<p>This is  seriously good collection of resources for web designers and the likes, don’t miss it.</p>
+<blockquote>
+<p>I’ll let you in on a little secret: beautiful websites aren’t made, they’re found. Smart designers know where to find that perfect photo, subtle pattern or that unique icon.</p>
+<p>Here’s where the best designers go to find photos, graphics, icons, and more.</p>
+</blockquote>
+<p>via <a href="http://www.sitebuilderreport.com/blog/where-the-best-designers-go-to-find-photos-and-graphics">Where the best designers go to find photos and graphics | Blog</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Stateless Mindset</title>
@@ -302,6 +492,13 @@ via Where the best designers go to find photos and graphics | Blog.</description
       <description>Would it be possible (and advisable) for a person to deal with everyday matters as if he/she was a stateless machine?
 Imagine if you as a person dealt with millions of requests a day from a thousand or so clients: if you had to keep track all those clients and the multiple requests they were making, it would drive you crazy. The burden of remembering would crush you.
 This is what our lives are like.</description>
+      <content:encoded><![CDATA[<p>Would it be possible (and advisable) for a person to deal with everyday matters as if he/she was a stateless machine?</p>
+<blockquote>
+<p><!-- raw HTML omitted -->Imagine if you as a person dealt with millions of requests a day from a thousand or so clients: if you had to keep track all those clients and the multiple requests they were making, it would drive you crazy. The burden of remembering would crush you.<!-- raw HTML omitted --></p>
+<p>This is what our lives are like. We are constantly holding information, frustration, ideas, tension, requests, needs, of a thousand different requests each day. Every email, every call, every text message, every open browser tab, every interaction with another person, every task we do … it all builds up in us until we are overloaded.</p>
+</blockquote>
+<p>via <a href="http://zenhabits.net/stateless/">Stateless Mindset : zenhabits</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>The Development of the C Language</title>
@@ -310,6 +507,12 @@ This is what our lives are like.</description>
       <guid>https://nicolaiarocci.com/the-development-of-the-c-language/</guid>
       <description>Dennis M. Ritchie ‘The Development of the C Language’ is one of those things any programmer should read soon or later, if nothing else for historic reasons.
 C came into being in the years 1969-1973, in parallel with the early development of the Unix operating system; the most creative period occurred during 1972. Another spate of changes peaked between 1977 and 1979, when portability of the Unix system was being demonstrated.</description>
+      <content:encoded><![CDATA[<p>Dennis M. Ritchie ‘The Development of the C Language’ is one of those things any programmer should read soon or later, if nothing else for historic reasons.</p>
+<blockquote>
+<p>C came into being in the years 1969-1973, in parallel with the early development of the Unix operating system; the most creative period occurred during 1972. Another spate of changes peaked between 1977 and 1979, when portability of the Unix system was being demonstrated. In the middle of this second period, the first widely available description of the language appeared: The C Programming Language, often called the `white book’ or `K&amp;R’ [Kernighan 78].</p>
+</blockquote>
+<p>via <a href="http://cm.bell-labs.com/who/dmr/chist.html">Chistory</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Web Standards Killed the HTML Star</title>
@@ -318,6 +521,12 @@ C came into being in the years 1969-1973, in parallel with the early development
       <guid>https://nicolaiarocci.com/web-standards-killed-the-html-star/</guid>
       <description>What we may not have realized is that once the browsers don’t suck, being an HTML and CSS “guru” isn’t really a very marketable skillset. 80% of what made us useful was the way we knew all the quirks and intracries of the browsers. Guess what? Those are all gone. And if they’re not, they will be in the very near future. Then what?
 A lot of folks who came up from that time and headspace have diversified their skillsets since.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>What we may not have realized is that once the browsers don’t suck, being an HTML and CSS “guru” isn’t really a very marketable skillset. 80% of what made us useful was the way we knew all the quirks and intracries of the browsers. Guess what? Those are all gone. And if they’re not, they will be in the very near future. Then what?</p>
+<p>A lot of folks who came up from that time and headspace have diversified their skillsets since. Many are now programmers, or project managers, or creative directors, or business owners. But a lot of others are still making a go of it as an HTML and CSS guru, often in a comfortable job they’ve had for years. What happens when that gig comes to an end?</p>
+</blockquote>
+<p>via <a href="http://jeffcroft.com/blog/2014/jan/03/web-standards-killed-the-html-star/?utm_source=buffer&amp;utm_campaign=Buffer&amp;utm_content=buffer92680&amp;utm_medium=twitter">Web Standards Killed the HTML Star – JeffCroft.com</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Python is the Language of the Year</title>
@@ -326,6 +535,12 @@ A lot of folks who came up from that time and headspace have diversified their s
       <guid>https://nicolaiarocci.com/python-is-the-language-of-the-year/</guid>
       <description>We shouldn’t really trust this kind of statistics, I know, but when my favorite language comes out as a clear winner, I can’t resist and take them for good.
 Python is the “language of the year” according to the PYPL index : it had the biggest increase in popularity share in 2013. PHP had the biggest decline. Meanwhile, Java continues to have the highest popularity share among the programming languages.</description>
+      <content:encoded><![CDATA[<p>We shouldn’t really trust this kind of statistics, I know, but when my favorite language comes out as a clear winner, I can’t resist and take them for good.</p>
+<blockquote>
+<p>Python is the “language of the year” according to the PYPL index : it had the biggest increase in popularity share in 2013. PHP had the biggest decline. Meanwhile, Java continues to have the highest popularity share among the programming languages.</p>
+</blockquote>
+<p>via <a href="https://sites.google.com/site/pydatalog/pypl/python-blog/pythonisthelanguageoftheyear?utm_source=buffer&amp;utm_campaign=Buffer&amp;utm_content=bufferd1bdd&amp;utm_medium=twitter">Python is the Language of the Year – pyDatalog</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Why Are All These Idiots More Successful Than You?</title>
@@ -333,6 +548,11 @@ Python is the “language of the year” according to the PYPL index : it had th
       <pubDate>Thu, 02 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/why-are-all-these-idiots-more-successful-than-you/</guid>
       <description>You’re so damn smart — I’ve told you how awesome I think you and the solutions you’ve built…they’re amazing. You have so many awesome things on your hard drive you built that it would blow the world away if only they knew. You created Facebook before there was Facebook and PayPal before there was PayPal. But recently I’ve heard you ask, “how can this junk software out there be so popular?</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>You’re so damn smart — I’ve told you how awesome I think you and the solutions you’ve built…they’re amazing. You have so many awesome things on your hard drive you built that it would blow the world away if only they knew. You created Facebook before there was Facebook and PayPal before there was PayPal. But recently I’ve heard you ask, “how can this junk software out there be so popular?”…why are all these idiots more successful than me?</p>
+</blockquote>
+<p>via <a href="http://marcgrabanski.com/success/?utm_source=buffer&amp;utm_campaign=Buffer&amp;utm_content=buffer7356d&amp;utm_medium=twitter">Why Are All These Idiots More Successful Than You?</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>We Need Coding in Schools, but Where are the Teachers?</title>
@@ -341,6 +561,12 @@ Python is the “language of the year” according to the PYPL index : it had th
       <guid>https://nicolaiarocci.com/we-need-coding-in-schools-but-where-are-the-teachers/</guid>
       <description>Maybe instead of Coder Dojos for kids, we should run them for their teachers.
 We must build a team of dedicated teachers to support school coding programs. We do not rely on our students to absorb math from textbooks, online videos or math clubs; similarly, we cannot depend on every student to learn to code on their own, by using online tutorials and afterschool clubs. If coding becomes as fundamental as reading and writing, we need to create a system where everyone has an opportunity to learn, not just the few who probably would have learned it on their own anyway.</description>
+      <content:encoded><![CDATA[<p>Maybe instead of Coder Dojos for kids, we should run them for their teachers.</p>
+<blockquote>
+<p>We must build a team of dedicated teachers to support school coding programs. We do not rely on our students to absorb math from textbooks, online videos or math clubs; similarly, we cannot depend on every student to learn to code on their own, by using online tutorials and afterschool clubs. If coding becomes as fundamental as reading and writing, we need to create a system where everyone has an opportunity to learn, not just the few who probably would have learned it on their own anyway.</p>
+</blockquote>
+<p>via <a href="https://www.edsurge.com/n/2013-12-09-opinion-we-need-coding-in-schools-but-where-are-the-teachers?utm_source=buffer&amp;utm_campaign=Buffer&amp;utm_content=buffer062d3&amp;utm_medium=twitter">OPINION: We Need Coding in Schools, but Where are the Teachers? | EdSurge News</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Alex Gaynor — About Python 3</title>
@@ -350,6 +576,14 @@ We must build a team of dedicated teachers to support school coding programs. We
       <description>A very interesting read if you’re into Python. Eve has been Python 3 compatible for a while and honestl, I would be surprised to find that somebody is running it in production under Python 3.
 Why aren’t people using Python 3?
 First, I think it’s because of a lack of urgency. Many years ago, before I knew how to program, the decision to have Python 3 releases live in parallel to Python 2 releases was made.</description>
+      <content:encoded><![CDATA[<p>A very interesting read if you’re into Python. Eve has been Python 3 compatible for a while and honestl, I would be surprised to find that somebody is running it in production under Python 3.</p>
+<blockquote>
+<p>Why aren’t people using Python 3?</p>
+<p>First, I think it’s because of a lack of urgency. Many years ago, before I knew how to program, the decision to have Python 3 releases live in parallel to Python 2 releases was made. In retrospect this was a mistake, it resulted in a complete lack of urgency for the community to move, and the lack of urgency has given way to lethargy.</p>
+<p>Second, I think there’s been little uptake because Python 3 is fundamentally unexciting. It doesn’t have the super big ticket items people want, such as removal of the GIL or better performance (for which many are using PyPy). Instead it has many new libraries (whose need is largely filled by pip install), and small cleanups which many experienced Python developers just avoid by habit at this point. Certainly nothing that would make one stop their development for any length of time to upgrade, not when Python 2 seems like it’s going to be here for a while.</p>
+</blockquote>
+<p>via <a href="http://alexgaynor.net/2013/dec/30/about-python-3/">Alex Gaynor — About Python 3</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Microsoft’s New Systems Language</title>
@@ -359,6 +593,14 @@ First, I think it’s because of a lack of urgency. Many years ago, before I kne
       <description>Number #3 on Praeclarum’s list hits home for me, but all his points are both valid and strong.
 As a programming language nerd I had mixed feelings when Jon Galloway tweeted about Microsoft’s new programming language.
 “Why are your feelings mixed?” I kept asking myself. I love new programming languages. I took an internship at Microsoft just so I could be closer to the people who made C#. I read language specs for fun.</description>
+      <content:encoded><![CDATA[<p>Number #3 on Praeclarum’s list hits home for me, but all his points are both valid and strong.</p>
+<blockquote>
+<p>As a programming language nerd I had mixed feelings when Jon Galloway tweeted about Microsoft’s new programming language.</p>
+<p>“Why are your feelings mixed?” I kept asking myself. I love new programming languages. I took an internship at Microsoft just so I could be closer to the people who made C#. I read language specs for fun. I write compilers for fun. I sell a programming language, interpreter, and IDE.</p>
+<p>So why am I not thrilled? Finally, after as much soul searching as 4 hours of sleep allowed me, I identified a few reasons for this pit in my stomach:</p>
+</blockquote>
+<p>via <!-- raw HTML omitted -->præclarum – Microsoft’s New Systems Language<!-- raw HTML omitted -->.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>What Happens When One of Your Coworkers Dies</title>
@@ -367,6 +609,11 @@ As a programming language nerd I had mixed feelings when Jon Galloway tweeted ab
       <guid>https://nicolaiarocci.com/happens-one-coworkers-dies/</guid>
       <description>I barely knew Colin. He sat two offices down from me, but we never worked on anything together, never laid eyes on each other after 5 p.m. Our relationship consisted, in its entirety, of work-related small talk in the break room, his lunch rotating behind us in the microwave. Ding, stir, have a good rest of your day.
 via What Happens When One of Your Coworkers Dies | The Billfold.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>I barely knew Colin. He sat two offices down from me, but we never worked on anything together, never laid eyes on each other after 5 p.m. Our relationship consisted, in its entirety, of work-related small talk in the break room, his lunch rotating behind us in the microwave. Ding, stir, have a good rest of your day.</p>
+</blockquote>
+<p>via <!-- raw HTML omitted -->What Happens When One of Your Coworkers Dies | The Billfold<!-- raw HTML omitted -->.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>A basic guide to when and how to deploy HTTPS</title>
@@ -375,6 +622,11 @@ via What Happens When One of Your Coworkers Dies | The Billfold.</description>
       <guid>https://nicolaiarocci.com/a-basic-guide-to-when-and-how-to-deploy-https/</guid>
       <description>Many web developers know about SSL, but it is very common to see it only partially deployed, or not deployed where it should be. This basic guide on when and how to deploy SSL will help you avoid the most common mistakes.
 via A basic guide to when and how to deploy HTTPS — Erik Romijn.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Many web developers know about SSL, but it is very common to see it only partially deployed, or not deployed where it should be. This basic guide on when and how to deploy SSL will help you avoid the most common mistakes.</p>
+</blockquote>
+<p>via <!-- raw HTML omitted -->A basic guide to when and how to deploy HTTPS — Erik Romijn<!-- raw HTML omitted -->.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>WarGames Magazine Identified</title>
@@ -382,6 +634,11 @@ via A basic guide to when and how to deploy HTTPS — Erik Romijn.</description>
       <pubDate>Sun, 29 Dec 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/wargames-magazine-identified/</guid>
       <description>On seeing WarGames for the first time in the 1980s, I wondered which magazine it was. Later, after seeing it on TV and on VHS/DVD, the same question kept nagging at me. I believed that I would one day get to the bottom of this matter. I correctly assumed that the magazine was a real world magazine with a fake advertisement added to it. Through some effort and persistence I finally achieved my goal on 2013-02-24 at 5:30pm.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>On seeing WarGames for the first time in the 1980s, I wondered which magazine it was. Later, after seeing it on TV and on VHS/DVD, the same question kept nagging at me. I believed that I would one day get to the bottom of this matter. I correctly assumed that the magazine was a real world magazine with a fake advertisement added to it. Through some effort and persistence I finally achieved my goal on 2013-02-24 at 5:30pm.</p>
+</blockquote>
+<p>via <!-- raw HTML omitted -->WarGames Magazine Identified By Michael Walden<!-- raw HTML omitted -->.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Why Good Programming Projects Go Bad</title>
@@ -390,6 +647,11 @@ via A basic guide to when and how to deploy HTTPS — Erik Romijn.</description>
       <guid>https://nicolaiarocci.com/why-good-programming-projects-go-bad/</guid>
       <description>Fred Brooks wrote the software development classic The Mythical Man-Month almost 40 years ago. In this interview, Brooks explains why managers still make the same mistakes.
 via Why Good Programming Projects Go Bad.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Fred Brooks wrote the software development classic The Mythical Man-Month almost 40 years ago. In this interview, Brooks explains why managers still make the same mistakes.</p>
+</blockquote>
+<p>via <!-- raw HTML omitted -->Why Good Programming Projects Go Bad<!-- raw HTML omitted -->.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>You Should Change Your Python Shell</title>
@@ -398,6 +660,11 @@ via Why Good Programming Projects Go Bad.</description>
       <guid>https://nicolaiarocci.com/you-should-change-your-python-shell/</guid>
       <description>If you write Python code, switching to IPython is the number one thing you can do to immediately improve your productivity. Bold words, I know. Let’s look at how IPython can make you a more productive programmer.
 via You Should Change Your Python Shell | GrokCode.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>If you write Python code, switching to IPython is the number one thing you can do to immediately improve your productivity. Bold words, I know. Let’s look at how IPython can make you a more productive programmer.</p>
+</blockquote>
+<p>via <!-- raw HTML omitted -->You Should Change Your Python Shell | GrokCode<!-- raw HTML omitted -->.</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

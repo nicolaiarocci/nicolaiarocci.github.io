@@ -15,6 +15,12 @@
       <guid>https://nicolaiarocci.com/awesome-psql-tips/</guid>
       <description>Today I learned about psql-tips.org by Lætitia Avrot, an excellent repository of psql (the CLI tool, not the database itself) tips. I like how one randomized tip is playfully served on the home page while the complete list is always at hand.
 Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+      <content:encoded><![CDATA[<p>Today I learned about <a href="https://psql-tips.org">psql-tips.org</a> by Lætitia Avrot, an excellent
+repository of <code>psql</code> (the CLI tool, not the database itself) tips. I like how
+one randomized tip is playfully served on the home page while the <a href="https://psql-tips.org/psql_tips_all.html">complete
+list</a> is always at hand.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

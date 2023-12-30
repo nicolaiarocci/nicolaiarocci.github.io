@@ -15,6 +15,11 @@
       <guid>https://nicolaiarocci.com/interfaces-laziness/</guid>
       <description>Robert C. Martin is at it again this time targeting the (infamous?) Interface construct in a funny way. As both a C# and Python coder I couldn’t agree more. Also, let me quote my fellow polyglot developer Nicola Musatti who went all out on the topic:
 Some of us have known that for the best part of the last 20 years 😉</description>
+      <content:encoded><![CDATA[<p>Robert C. Martin is at it <a href="http://blog.cleancoder.com/uncle-bob/2015/01/08/InterfaceConsideredHarmful.html">again</a> this time targeting the (infamous?) <code>Interface</code> construct in a funny way. As both a C# and Python coder I couldn’t agree more. Also, let me quote my fellow polyglot developer <a href="http://wthwdik.wordpress.com/">Nicola Musatti</a> who went all out on the topic:</p>
+<blockquote>
+<p>Some of us have known that for the best part of the last 20 years 😉</p>
+</blockquote>
+]]></content:encoded>
     </item>
     <item>
       <title>On Reusable Software</title>
@@ -22,6 +27,8 @@ Some of us have known that for the best part of the last 20 years 😉</descript
       <pubDate>Thu, 08 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/on-reusable-software/</guid>
       <description>Jos de Jong has a great concise write-up on pitfalls and excesses in building reusable software.</description>
+      <content:encoded><![CDATA[<p>Jos de Jong has a <a href="http://josdejong.com/blog/2015/01/06/code-reuse/">great concise write-up</a> on pitfalls and excesses in building reusable software.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Programmazione, SEO, Startup – Il Meglio della Settimana #3</title>
@@ -29,6 +36,70 @@ Some of us have known that for the best part of the last 20 years 😉</descript
       <pubDate>Sun, 06 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/programmazione-seo-startup-il-meglio-della-settimana-3/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Settimana ricca di avvenimenti anche questa. SEO, Startup e applicazioni per Smartphone in primo piano ma non mancano altre chicche per buongustai. Al decimo posto una curiosità non ha nulla da spartire con gli argomenti trattati di solito, ma quelle foto dovevo segnalarvele. Ringrazio chi mi ha contattato via mail, Facebook e Twitter. A quanto pare la rubrica piace e farò il possibile per portarla avanti migliorando la qualità delle selezioni, come sempre assolutamente arbitrarie.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Settimana ricca di avvenimenti anche questa. SEO, Startup e applicazioni per Smartphone in primo piano ma non mancano altre chicche per buongustai. Al decimo posto una curiosità non ha nulla da spartire con gli argomenti trattati di solito, ma quelle foto dovevo segnalarvele. Ringrazio chi mi ha contattato via mail, Facebook e Twitter. A quanto pare la rubrica piace e farò il possibile per portarla avanti migliorando la qualità delle selezioni, come sempre assolutamente arbitrarie.</p>
+<ol>
+<li>
+<p><strong><a href="http://cdixon.org/2011/03/05/seo-is-no-longer-a-viable-marketing-strategy-for-startups/">SEO non è più una strategia valida per le Startup</a></strong></p>
+<p>Opinione fuori dal coro quella di Chris Dixon, CEO di Hunch e investitore seriale (Skype, Foursquare, Stack Overflow e altri). Chris sostiene che le Startup dovrebbero smetterla di puntare su SEO. Alla base del successo di molte Startup dell’ultimo decennio, l’industria SEO è cresciuta talmente che il mercato ne é saturo. Al punto che Google ormai fatica a distinguere i contenuti di qualità da quelli <em>SEO-optimized</em>. Nei commenti una discussione vivace alle quale partecipano investitori famosi e SEO guru internazionali.</p>
+</li>
+<li>
+<p><strong><a href="http://www.marioconcina.it/blog/mobile-development/analisi-sullo-sviluppo-di-applicazioni-per-smartphone.html">Analisi sullo sviluppo di applicazioni per Smartphone</a></strong></p>
+</li>
+</ol>
+<pre><code>Secondo molti lo sviluppo di applicazioni mobile è il futuro. Ma quale è la piattaforma sulla quale puntare investendo tempo e denaro? Mario Concina ci offre una bella panoramica su linguaggi, costi e pro e contro di ognuna delle piattaforme tecnologiche più importanti (iPhone, Android, Windows Mobile, Symbian, BlackBerry)
+</code></pre>
+<ol start="3">
+<li>**[<!-- raw HTML omitted -->Settimana ricca di avvenimenti anche questa. SEO, Startup e applicazioni per Smartphone in primo piano ma non mancano altre chicche per buongustai. Al decimo posto una curiosità non ha nulla da spartire con gli argomenti trattati di solito, ma quelle foto dovevo segnalarvele. Ringrazio chi mi ha contattato via mail, Facebook e Twitter. A quanto pare la rubrica piace e farò il possibile per portarla avanti migliorando la qualità delle selezioni, come sempre assolutamente arbitrarie.</li>
+</ol>
+<!-- raw HTML omitted -->
+<ol>
+<li><strong><a href="http://cdixon.org/2011/03/05/seo-is-no-longer-a-viable-marketing-strategy-for-startups/">SEO non è più una strategia valida per le Startup</a></strong></li>
+</ol>
+<pre><code>Opinione fuori dal coro quella di Chris Dixon, CEO di Hunch e investitore seriale (Skype, Foursquare, Stack Overflow e altri). Chris sostiene che le Startup dovrebbero smetterla di puntare su SEO. Alla base del successo di molte Startup dell&amp;#8217;ultimo decennio, l&amp;#8217;industria SEO è cresciuta talmente che il mercato ne é saturo. Al punto che Google ormai fatica a distinguere i contenuti di qualità da quelli _SEO-optimized_. Nei commenti una discussione vivace alle quale partecipano investitori famosi e SEO guru internazionali.
+</code></pre>
+<ol start="2">
+<li><strong><a href="http://www.marioconcina.it/blog/mobile-development/analisi-sullo-sviluppo-di-applicazioni-per-smartphone.html">Analisi sullo sviluppo di applicazioni per Smartphone</a></strong></li>
+</ol>
+<pre><code>Secondo molti lo sviluppo di applicazioni mobile è il futuro. Ma quale è la piattaforma sulla quale puntare investendo tempo e denaro? Mario Concina ci offre una bella panoramica su linguaggi, costi e pro e contro di ognuna delle piattaforme tecnologiche più importanti (iPhone, Android, Windows Mobile, Symbian, BlackBerry)
+</code></pre>
+<ol start="3">
+<li><strong>]<a href="http://www.pcworld.com/article/221159/5_new_ways_build_iphone_android_browser_apps.html">3</a></strong> Molte Startup lanciano in questi giorni prodotti e soluzioni che promettono di semplificare la creazione di applicazioni mobile. In questo articolo PC World ne presenta cinque. Alcune promettono la luna: creazione rapida di applicazioni mobile per tutti, programmatori e non.</li>
+<li><a href="http://www.attackofdesign.com/coder-who-cant-design-and-designers-who-cant-code/"><strong>Programmatori che non sono Designer, Designer che non sono Programmatori</strong></a></li>
+</ol>
+<pre><code>Il programmatore incapace di accoppiare due colori. Il designer inetto col codice. O ci riconosciamo in una di queste figure (io nella prima), o ne abbiamo incontrate nella nostra carriera. Questo breve articolo ne traccia il profilo.
+</code></pre>
+<ol start="5">
+<li><strong><a href="http://www.bigthink.it/facebook-e-i-nuovi-commenti-sincronizzati/">Facebook e i nuovi commenti sincronizzati</a></strong></li>
+</ol>
+<pre><code>Facebook è in gran spolvero di questi tempi. Solo quindici giorni fa aggiornava subdolamente il Like Button e questa settimana mette mano al plugin dei Commenti. La novità è destinata a influire pesantemente sulla penetrazione di Facebook nel &amp;#8216;resto della rete&amp;#8217;. Con la solita dovizia di particolari BigThink ci spiega gli aspetti pratici di questo aggiornamento.
+
+&lt;a style=&quot;font-weight: bold;&quot; href=&quot;http://www.bigthink.it/facebook-e-i-nuovi-commenti-sincronizzati/&quot;&gt;&lt;/a&gt;
+</code></pre>
+<ol start="6">
+<li><a href="http://startup.wikli.it/"><strong>Startup.Wikli.it</strong></a></li>
+</ol>
+<pre><code>Startup, web, acquisizioni e venture capital. Wikli seleziona e commenta le news tematiche più interessanti della settimana, le confeziona e te le fa trovare puntuali nella casella di posta ogni venerdì alle 8.00. Idea brillante e molto ben congegnata. Vi invito ad iscrivervi a questa innovativa mailing list. Non ve ne pentirete.
+</code></pre>
+<ol start="7">
+<li><a href="http://www.fabiolalli.com/2011/03/02/yeplike-startup-in-72-ore/"><strong>YepLike! Startup in 72 ore</strong></a></li>
+</ol>
+<pre><code>In preda a delirio febbricitante Fabio Lalli si inventa una idea da lanciare in 72 ore. Leggete il suo racconto. PS: nel frattempo le 72 ore sono trascorse, l&amp;#8217;applicazione è su iPhone e a quanto pare riscuote buon successo.
+</code></pre>
+<ol start="8">
+<li><a href="http://rgarg.posterous.com/20-software-development-best-practices"><strong>Venti consigli pratici per il programmatore</strong></a></li>
+</ol>
+<pre><code>Di post di questo tipo se ne trovano tanti in rete ma questo mi ha colpito perché contiene alcune chicche interessanti che denotano esperienza diretta da parte dell&amp;#8217;autore. Da non perdere se siete principianti. Se siete esperti vi riconoscerete senz&amp;#8217;altro in alcune di queste situazioni.
+</code></pre>
+<ol start="9">
+<li><a href="http://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read"><strong>Quale è il libro fondamentale che ogni programmatore dovrebbe leggere nella vita?</strong></a></li>
+</ol>
+<pre><code>Su Stack Overflow se ne è discusso a lungo. Il risultato è una selezione di alcuni tra i libri più importanti di sempre. Il fatto che il Kernighan &amp; Ritchie non sia il primo in classifica la dice lunga sulla mia vetustità. Sono un collezionista di prime edizioni, ammetto che vedere riuniti così tanti testi fondamentali mi ha fatto prudere le mani.
+</code></pre>
+<ol start="10">
+<li><a href="http://www.howtobearetronaut.com/2011/02/shackletons-antarctica-in-colour-1915/"><strong>Shackleton, L’Antartide a Colori – 1915</strong></a></li>
+</ol>
+<pre><code>Nel 1915 Shackleton e i suoi uomini furono costretti ad abbandonare la &amp;#8216;Endurance&amp;#8217;, inesorabilmente intrappolata dai ghiacci. Frank Hurley, il fotografo dela spedizione, riuscì miracolosamente a salvare le lastre fotografiche di quella spedizione. In questa magnifica galleria vediamo le foto (a colori) di quella spedizione
+</code></pre>]]></content:encoded>
     </item>
   </channel>
 </rss>

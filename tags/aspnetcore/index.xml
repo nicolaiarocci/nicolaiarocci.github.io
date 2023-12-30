@@ -15,6 +15,42 @@
       <guid>https://nicolaiarocci.com/how-to-increase-upload-file-size-in-asp.net-core/</guid>
       <description>Today I learned the hard way that since ASP.NET Core 2.0, the request body has acquired a default size limit at 30MB (~28.6 MiB).
 If the request body size exceeds the configured max request body size limit, the call to Request.Body.ReadAsync will throw an IOException. If this exception is uncaught, Kestrel will respond with a 413 Payload Too Large response and HttpSys will respond with a generic 500 Internal Server Error response (source).</description>
+      <content:encoded><![CDATA[<p>Today I learned the hard way that since ASP.NET Core 2.0, the request body has
+acquired a default size limit at 30MB (~28.6 MiB).</p>
+<blockquote>
+<p>If the request body size exceeds the configured max request body size limit,
+the call to Request.Body.ReadAsync will throw an IOException. If this
+exception is uncaught, Kestrel will respond with a 413 Payload Too Large
+response and HttpSys will respond with a generic 500 Internal Server Error
+response (<a href="https://github.com/aspnet/Announcements/issues/267">source</a>).</p>
+</blockquote>
+<p>This will be a breaking change if your endpoint is expected to handle large
+uploads. The solution is simple, just decorate your MVC action or controller
+with the <code>RequestSizeLimit</code> attribute, like so:</p>
+<pre tabindex="0"><code>    [HttpPost]
+    [RequestSizeLimit(100_000_000)]
+    public IActionResult MyAction([FromBody] MyViewModel data)
+    {
+</code></pre><p><code>DisableRequestSizeLimit</code> can be used to make request size unlimited. This
+effectively restores pre-2.0.0 behavior for just the attributed action or
+controller. You can also change or disable the limit programmatically, either
+on a per-request basis or globally (see the instructions at this <a href="https://github.com/aspnet/Announcements/issues/267">link</a>.)</p>
+<p>In my case, however, disabling the request limit was not enough. Because my
+endpoint is expecting an <code>IFormFile</code> argument, I also had to set the
+<code>RequestFormLimits</code> attribute:</p>
+<pre tabindex="0"><code>    [HttpPost]
+    [DisableRequestSizeLimit,
+    RequestFormLimits(MultipartBodyLengthLimit = int.MaxValue, 
+        ValueLengthLimit = int.MaxValue)]
+    public async Task&lt;ActionResult&gt; BulkAdd(string schema, IFormFile file)
+    {
+</code></pre><p>Please note that all of this happened on a .NET 5 Linux application with
+Kestrel running behind nginx. As pointed out at the link above, if you&rsquo;re
+running behind IIS, then the limit is disabled, and the usual <em>web.config</em>
+limit applies.</p>
+<p>For future reference, <a href="https://github.com/dotnet/aspnetcore/blob/main/src/Servers/Kestrel/Core/src/KestrelServerLimits.cs">here</a> are the current Kestrel limits.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

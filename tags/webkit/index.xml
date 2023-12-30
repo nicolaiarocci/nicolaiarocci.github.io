@@ -16,6 +16,12 @@
       <description>Se vi occupate di frontend non perdetevi lo spettacolare articolo in cui Majd Taby ci spiega come usare al meglio il WebKit Inspector.
 Il panorama mobile è monopolizzato da WebKit e di conseguenza gran parte degli strumenti e dell’infrastruttura per lo sviluppo di applicazioni frontend mobile (e non solo, ndr) risiedono nel WebKit Inspector. Per questo ne analizzerò con cura gli strumenti e spiegherò come e quando usarli.
 Ci sono anche le slide.</description>
+      <content:encoded><![CDATA[<p>Se vi occupate di frontend non perdetevi lo spettacolare articolo in cui Majd Taby ci spiega <!-- raw HTML omitted -->come usare al meglio il WebKit Inspector<!-- raw HTML omitted -->.</p>
+<blockquote>
+<p>Il panorama mobile è monopolizzato da WebKit e di conseguenza gran parte degli strumenti e dell’infrastruttura per lo sviluppo di applicazioni frontend mobile (e non solo, ndr) risiedono nel WebKit Inspector. Per questo ne analizzerò con cura gli strumenti e spiegherò come e quando usarli.</p>
+</blockquote>
+<p>Ci sono anche le <!-- raw HTML omitted -->slide<!-- raw HTML omitted -->.</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

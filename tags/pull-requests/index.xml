@@ -15,6 +15,12 @@
       <guid>https://nicolaiarocci.com/better-pull-requests/</guid>
       <description>I am not a big fan of top tens but 10 Tips for Better Pull Requests is well worth reading.
 A good Pull Request involves more than just some code. In most cases, there’s one or more reviewer(s) involved, who will have to review your Pull Request in order to evaluate whether it’s a good fit for inclusion in the code base. Not only must you produce good code, but you must also cater to the person(s) doing the review.</description>
+      <content:encoded><![CDATA[<p>I am not a big fan of top tens but <a href="http://blog.ploeh.dk/2015/01/15/10-tips-for-better-pull-requests/">10 Tips for Better Pull Requests</a> is well worth reading.</p>
+<blockquote>
+<p>A good Pull Request involves more than just some code. In most cases, there’s one or more reviewer(s) involved, who will have to review your Pull Request in order to evaluate whether it’s a good fit for inclusion in the code base. Not only must you produce good code, but you must also cater to the person(s) doing the review.</p>
+<p>Here’s a list of tips to make your Pull Request better. It isn’t exhaustive, but I think it addresses some of the more important aspects of creating a good Pull Request.</p>
+</blockquote>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

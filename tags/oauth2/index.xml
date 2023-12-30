@@ -16,6 +16,49 @@
       <description>Flask-Sentinel is a OAuth2 Server implementation of the Resource Owner Password Credentials Grant pattern described in Section 1.3.3 of RFC 6749. It is powered by Flask-Oauthlib, Redis and MongoDB and is bundled as a Flask extension so it can be used to add OAuth2 capabilities to an existing application.
 So what is the Resource Owner Password Credentials Grant pattern? According to the official RFC:
 The resource owner password credentials (i.e., username and password) can be used directly as an authorization grant to obtain an access token.</description>
+      <content:encoded><![CDATA[<p><a href="https://github.com/nicolaiarocci/flask-sentinel">Flask-Sentinel</a> is a OAuth2 Server implementation of the Resource Owner Password Credentials Grant pattern described in <a href="http://tools.ietf.org/html/rfc6749#section-1.3.3">Section 1.3.3 of RFC 6749</a>. It is powered by Flask-Oauthlib, Redis and MongoDB and is bundled as a Flask extension so it can be used to add OAuth2 capabilities to an existing application.</p>
+<p>So what is the Resource Owner Password Credentials Grant pattern? According to the official RFC:</p>
+<blockquote>
+<p>The resource owner password credentials (i.e., username and password) can be used directly as an authorization grant to obtain an access token. The credentials should only be used when there is a high degree of trust between the resource owner and the client (e.g., the client is part of the device operating system or a highly privileged application).</p>
+</blockquote>
+<p>A typical use case would be when the remote API maintainer controls the client application. Say that you have a REST API being consumed by your own iOS, Android, WinPhone, desktop or web applications. Users register to your service by creating their accounts. Then, they consume the service using your applications.</p>
+<blockquote>
+<p>Even though this grant type requires direct client access to the resource owner credentials, the resource owner credentials are used for a single request and are exchanged for an access token. This grant type can eliminate the need for the client to store the resource owner credentials for future use, by exchanging the credentials with a long-lived access token or refresh token.</p>
+</blockquote>
+<p>So let’s get back at the proprietary client scenario. The user has just installed the application on his/her device. On first run he/she is asked to provide his/her username and password. These are sent to the OAuth2 server through a SSL/TLS encrypted channel. If the user is registered for the service and the client id, which has also been sent along with the user credentials, is recognised, then the server sends back a valid access token. Otherwise responds with a <code>401 Unhautorized</code>.</p>
+<p>From now on the application will only be using the access token for all requests until, eventually, the token expires. If that happens, the cycle repeats. Please note that in this scenario the client does not need to (and probably should not) store the username and/or password on the local cache. The User Credentials pattern usually relies on long lived tokens so asking again for username and password is not a big deal (you could also opt for permanent, revokable tokens.)</p>
+<p>Flask-Sentinel provides two endpoints: one for token creation which defaults to <code>/oauth/token</code> and is consumed by clients, and another for users and clients management, accessible at <code>/oauth/management</code>:</p>
+<!-- raw HTML omitted -->
+<p>Note that the password is hashed and salted on the server, so no plain password is stored on either sides of the channel.</p>
+<p>Only existing users and recognised clients will be provided an access token. A typical token request would be as follows:</p>
+<pre><code>$ curl -k -X POST -d \
+  &quot;client_id=9qFbZD4udTzFVYo0u5UzkZX9iuzbdcJDRAquTfRk&amp;
+   grant_type=password&amp;
+   username=jonas&amp;
+   password=pass&quot; \
+   &lt;api_url&gt;/oauth/token
+</code></pre>
+<p>And the response would be like so:</p>
+<pre><code>{
+    &quot;access_token&quot;: &quot;NYODXSR8KalTPnWUib47t5E8Pi8mo4&quot;, 
+    &quot;token_type&quot;: &quot;Bearer&quot;, 
+    &quot;refresh_token&quot;: &quot;s6L6OPL2bnKSRSbgQM3g0wbFkJB4ML&quot;, 
+    &quot;scope&quot;: &quot;&quot;
+}
+</code></pre>
+<p>The client can now use the access token to access protected API endpoints:</p>
+<pre><code>$ curl -k -H \
+  &quot;Authorization:Bearer NYODXSR8KalTPnWUib47t5E8Pi8mo4&quot; \
+  &lt;api_url&gt;/endpoint
+
+200 OK
+</code></pre>
+<p>There are a number of configuration options of course, for example you can change the url of token and management endpoints, set token expiration, setup database connection, stuff like that. Redis is used to store active access tokens, allows for optimal performance.</p>
+<p>While you can use Flask-Sentinel to extend an existing API, you might want to instance it as a stand-alone Flask application to optimize for scalability. You would end up with a distributed network of three different (micro)services: the OAuth2 server, the resouces API with protected endpoints as needed, and the Redis instance bridging the two. Check out the <a href="https://github.com/nicolaiarocci/flask-sentinel">project page</a> on GitHub for details.</p>
+<p>Of course Flask-Sentinel integrates seamlessly with any <a href="http://python-eve.org">Eve</a> powered REST API. Check out the <a href="https://github.com/nicolaiarocci/eve-oauth2">Eve-OAuth2</a> sample, a fork of the original Eve-Demo project with a couple protected endpoints and a static HTML page, also protected.</p>
+<p>The project is very new and lacks a few little things, but I suspect it is already usable even at this stage. Enjoy!</p>
+<p>If you want to get in touch, I am <a href="http://twitter.com/nicolaiarocci">@nicolaiarocci</a> on Twitter.</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

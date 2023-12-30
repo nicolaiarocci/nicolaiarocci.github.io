@@ -14,6 +14,8 @@
       <pubDate>Fri, 03 May 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/guida-introduttiva-agli-http-cache-header/</guid>
       <description>Cosa sono i gli HTTP Cache Header e come funzionano? Che uso ne fanno i browser e le CDN? Come è preferibile impostarli per ottimizzare le prestazioni di un sito o di un servizio web? Se volete saperne di più A Beginner’s Guide to HTTP Cache Headers fa senz’altro per voi.</description>
+      <content:encoded><![CDATA[<p>Cosa sono i gli HTTP Cache Header e come funzionano? Che uso ne fanno i browser e le CDN? Come è preferibile impostarli per ottimizzare le prestazioni di un sito o di un servizio web? Se volete saperne di più <!-- raw HTML omitted -->A Beginner’s Guide to HTTP Cache Headers<!-- raw HTML omitted --> fa senz’altro per voi.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Link Consigliati dal 29.2 al 5.3.2012</title>
@@ -29,6 +31,27 @@
 &lt;p&gt;Database of HTTP status codes with their IETF and Wikipedia descriptions&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;“What happens when you click on a weblink? Here’s one answer: a request goes from your computer to a server identified by the URL of the desired link. The server then locates the webpage in its files and sends it back to your browser, which then displays it on your screen. Simple.”&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><em>Ogni giorno su <!-- raw HTML omitted -->Twitter<!-- raw HTML omitted --> segnalo i link interessanti in cui incappo mentre mi documento per il mio lavoro. Riscuotono un certo successo, quindi ho pensato di condividerne alcuni anche qui sul sito. Parte così Link Consigliati, rubrica settimanale e sperimentale.</em></p>
+<!-- raw HTML omitted -->
+<p>“Why are so many developers so very emotional when it comes to their favourite programming language? Considering that no language can (yet) magically translate the perfect idea in your head into machine code, all of them exist on a scale of badness – they all limit you more than your own thoughts or the hardware does.”</p>
+<!-- raw HTML omitted -->
+<p>“Clean, simple web designs have become a popular trend. This article will cover the subject through a two-part discussion. First, we’ll talk about a few traits that clean designs tend to have in common. Secondly, I’ll share some tricks and techniques that can be helpful when trying to achieve a clean design.”</p>
+<!-- raw HTML omitted -->
+<p>Database of HTTP status codes with their IETF and Wikipedia descriptions</p>
+<!-- raw HTML omitted -->
+<p>“What happens when you click on a weblink? Here’s one answer: a request goes from your computer to a server identified by the URL of the desired link. The server then locates the webpage in its files and sends it back to your browser, which then displays it on your screen. Simple.”</p>
+<!-- raw HTML omitted -->
+<p>“We occasionally try commercial software. Mostly, we don’t end up buying it. A big reason why is the incredibly time-consuming, aggravating sales process that most commercial enterprise (that is, non-consumer) software vendors insist on.”</p>
+<!-- raw HTML omitted -->
+<p>“My experience of learning how to write iOS software, after having spent many years exclusively in the world of .NET development. It provides warnings, suggestions, and tips for others who are interested in learning iOS development.”</p>
+<!-- raw HTML omitted -->
+<p>“If you write any code in JavaScript then you’ve probably used closures, but do you actually understand what they are and how they work? Taking the time to understand closures and how they’re implemented can add a deeper dimension to your understanding of the JavaScript language.”</p>
+<!-- raw HTML omitted -->
+<p>“In desktop applications, the user interface dominated the screen. The buttons to click, the bars to drag, the windows. That isn’t the case with mobile devices. What’s powerful about mobile devices is that they exist to complement what we are already doing, rather than be our primary focus.”</p>
+<!-- raw HTML omitted -->
+<p>“At Stack Overflow (…) we feel that it’s part of our mission to help lead fellow .NET developers — and the most effective way to do that is by contributing some of the code that we use to build Stack Overflow and Stack Exchange back to the greater .NET developer community as reusable open source packages.”</p>
+<!-- raw HTML omitted -->
+<p>“We’ve made a selection of indispensable resources like layout frameworks, tutorials, books, templates and useful tools that can help you understand and implement grid based design in your projects.”</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

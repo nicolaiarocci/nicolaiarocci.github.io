@@ -16,6 +16,35 @@
       <description>I couldn&amp;rsquo;t recall a [tmux][5] command, so I quickly reached for my trusted default search engine DuckDuckGo. I typed &amp;ldquo;tmux cheat sheet&amp;rdquo; because, well, once I found an excellent one which I wanted to summon again. To my surprise, the [search result][1] included an in-page cheat sheet—a good one too.
 It isn&amp;rsquo;t the first time that DuckDuckGo surprises me like that. Need a new GUID? [Search for it][2].
 Need a quick QR code?</description>
+      <content:encoded><![CDATA[<p>I couldn&rsquo;t recall a [tmux][5] command, so I quickly reached for my trusted default
+search engine DuckDuckGo. I typed &ldquo;tmux cheat sheet&rdquo; because, well, once
+I found an excellent one which I wanted to summon again. To my surprise, the
+[search result][1] included an in-page cheat sheet—a good one too.</p>
+<p><img loading="lazy" src="/images/duckduckgo-tmux.png" alt="DuckDuckGo provides an in-page tmux cheat sheet"  />
+</p>
+<p>It isn&rsquo;t the first time that DuckDuckGo surprises me like that. Need a new
+GUID? [Search for it][2].</p>
+<p><img loading="lazy" src="/images/duckduckgo-guid.png" alt="DuckDuckGo comes with an in-page guid generation feature"  />
+</p>
+<p>Need a quick QR code? [Of course][3].</p>
+<p><img loading="lazy" src="/images/duckduckgo-qrcode.png" alt="DuckDuckGo comes with an in-page QR code generation feature"  />
+</p>
+<p>DuckDuckGo should be everyone&rsquo;s default browser for many [valid reasons][4], and
+in-page results for frequent searches (or [Istant Answers][6] as they call them)
+sure isn&rsquo;t the most prominent one, but it is handy to have around. It is also of
+some comfort to see that I&rsquo;m obviously not the only one forgetting tmux
+commands.</p>
+<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em>
+[1]: <a href="https://duckduckgo.com/?t=ffab&amp;q=tmux+cheat+sheet&amp;atb=v224-1&amp;ia=cheatsheet">https://duckduckgo.com/?t=ffab&amp;q=tmux+cheat+sheet&amp;atb=v224-1&amp;ia=cheatsheet</a>
+[2]: <a href="https://duckduckgo.com/?q=new+guid&amp;t=ffab&amp;atb=v224-1&amp;ia=answer">https://duckduckgo.com/?q=new+guid&amp;t=ffab&amp;atb=v224-1&amp;ia=answer</a>
+[3]: <a href="https://duckduckgo.com/?q=qrcode+for+https%3A%2F%2Fnicolaiarocci.com&amp;t=ffab&amp;atb=v224-1&amp;ia=answer">https://duckduckgo.com/?q=qrcode+for+https%3A%2F%2Fnicolaiarocci.com&amp;t=ffab&amp;atb=v224-1&amp;ia=answer</a>
+[4]: <a href="https://duckduckgo.com/spread">https://duckduckgo.com/spread</a>
+[5]: <a href="https://github.com/tmux/tmux">https://github.com/tmux/tmux</a>
+[6]: <a href="https://duck.co/ia/dev">https://duck.co/ia/dev</a>
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

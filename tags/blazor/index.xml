@@ -15,6 +15,28 @@
       <guid>https://nicolaiarocci.com/a-quick-preview-of-the-blazor-united-prototype-for-.net8/</guid>
       <description>Steve Sanderson, the original creator of Blazor, recently posted a quick peek at some of the new Blazor prototypes they are experimenting with for .NET 8.
 I think this looks great. Mixing client and server is a brilliant concept. Essentially one would be served with server-side Blazor on the first landing. While using the app, a background task would download the client-side stuff, ready to be consumed at any subsequent access.</description>
+      <content:encoded><![CDATA[<p>Steve Sanderson, the original creator of Blazor, recently posted a quick peek
+at some of the new Blazor prototypes they are experimenting with for .NET 8.</p>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/48G_CEGXZZM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<!-- raw HTML omitted -->
+I think this looks great. Mixing client and server is a brilliant concept.
+Essentially one would be served with server-side Blazor on the first landing.
+While using the app, a background task would download the client-side stuff,
+ready to be consumed at any subsequent access.</p>
+<p>Blazor United is all experimental at the moment, but I&rsquo;m confident it will land
+in one form or another, either in .NET 8 or later. I remember a few years ago
+at a Microsoft MVP Summit in Redmond when Steve first introduced Blazor as &ldquo;an
+experiment&rdquo;. If he puts in the effort to present his experiments to the public,
+he&rsquo;s got approval for that, which means the project is a little more than just
+an experiment at this point.</p>
+<p>Blazor weakness so far has been more with the tooling than the features. Should
+Blazor United come with some solid tooling, it will be a huge hit.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

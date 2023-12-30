@@ -14,6 +14,19 @@
       <pubDate>Tue, 15 Feb 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/google-search-is-dying/</guid>
       <description>Reddit is currently the most popular search engine. The only people who don’t know that are the team at Reddit, who can’t be bothered to build a decent search interface. So instead we resort to using Google, and appending the word “reddit” to the end of our queries. [&amp;hellip;] Why are people searching Reddit specifically? The short answer is that Google search results are clearly dying. The long answer is that most of the web has become too inauthentic to trust.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Reddit is currently the most popular search engine. The only people who don’t
+know that are the team at Reddit, who can’t be bothered to build a decent
+search interface. So instead we resort to using Google, and appending the
+word “reddit” to the end of our queries. [&hellip;] Why are people searching
+Reddit specifically? The short answer is that Google search results are
+clearly dying. The long answer is that most of the web has become too
+inauthentic to trust.</p>
+</blockquote>
+<p>More <a href="https://dkb.io/post/google-search-is-dying">here</a>.</p>
+<p>I <a href="https://nicolaiarocci.com/yet-another-reason-to-use-duckduckgo/">switched to DuckDuckGo</a> a long time ago, and you probably should too.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Google Web Fonts 2 i font gratuiti e ottimizzati per il Web</title>
@@ -21,6 +34,16 @@
       <pubDate>Tue, 05 Jul 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/google-web-fonts-v2-i-font-gratuiti-e-ottimizzati-per-il-web/</guid>
       <description>&lt;p&gt;Il progetto &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Google Web Fonts v2&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt; offre a webmaster, designer e sviluppatori un accesso facile e gratuito a una ricca selezione di fonti tipografiche di qualità, ottimizzate per il web. Google sostiene che non ci dovrebbero essere barriere finanziare per la costruzione di siti web, e che il progetto Google Web Font contribuisce alla creazione di un web più bello, leggibile, accessibile e aperto. Secondo Google nei prossimi anni la gran parte di siti web adotteranno i web fonts.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Il progetto <strong><!-- raw HTML omitted -->Google Web Fonts v2<!-- raw HTML omitted --></strong> offre a webmaster, designer e sviluppatori un accesso facile e gratuito a una ricca selezione di fonti tipografiche di qualità, ottimizzate per il web. Google sostiene che non ci dovrebbero essere barriere finanziare per la costruzione di siti web, e che il progetto Google Web Font contribuisce alla creazione di un web più bello, leggibile, accessibile e aperto. Secondo Google nei prossimi anni la gran parte di siti web adotteranno i web fonts.</p>
+<!-- raw HTML omitted -->
+<p>La versione 2 di Google Web Fonts è appena stata rilasciata ed è ricca di novità. La nuova interfaccia consente di consultare rapidamente la directory di quasi 200 fonti tipografiche, inserendo quelle prescelte in una collezione personale. Gli esempi possono essere visualizzati come parole, frasi oppure interi paragrafi di testo. E’ anche possibile vedere tutti assieme i font della propria collezione, in una apposita pagina di prova.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>I web font non sono una tecnologia nuova, sono stati <!-- raw HTML omitted -->introdotti dalle specifiche CSS3<!-- raw HTML omitted --> (2002) e sono già molto diffusi. Quelli di Google sono forniti dinamicamente dalla <strong><!-- raw HTML omitted -->Google Web Fonts API<!-- raw HTML omitted --></strong>, una applicazione ad alte prestazioni ospitata sui server di Mountain View. Il lavoro che dobbiamo fare noi è semplicemente quello di incollare una riga di codice nella nostra pagina HTML, dopodiché potremo usare il web font come un qualunque font standard. Questa soluzione garantisce indipendenza dalla piattaforma software del client e libertà di scelta, al costo di un minimo rischio di incompatibilità verso browser molto datati (<!-- raw HTML omitted -->qui<!-- raw HTML omitted --> trovate una lista aggiornata).</p>
+<p><!-- raw HTML omitted -->Google tiene molto alla velocità della rete, e dei siti web in particolare, tanto da farne uno dei fattori di ranking per il suo motore di ricerca. Non stupisce quindi che venga fornito anche un indicatore di prestazioni che, in base al tipo e alle caratteristiche dei font selezionati, stima il tempo di caricamento del font nella nostra pagina web. In generale l’accesso alla API (e al sottostante CDN) è rapidissimo e non dovrebbe porre alcun tipo di problema.</p>
+<p>Il mio interesse in Google Web Font v2 è nato in seguito alla visione della anteprima presentata alla <!-- raw HTML omitted -->Google I/O 2011<!-- raw HTML omitted -->. Se volete potete seguirla per intero anche voi:</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p> </p>]]></content:encoded>
     </item>
     <item>
       <title>Una API ufficiale per Google Page Speed</title>
@@ -29,6 +52,10 @@
       <guid>https://nicolaiarocci.com/una-api-ufficiale-per-google-page-speed/</guid>
       <description>&lt;p&gt;&lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Google Page Speed&lt;/strong&gt;, lo strumento che misura la velocità delle pagine web e offre consigli su come migliorarne le prestazioni, dispone da ieri di una sua &lt;!-- raw HTML omitted --&gt;API ufficiale&lt;!-- raw HTML omitted --&gt;. Annunciata nell’ambito di &lt;!-- raw HTML omitted --&gt;Google I/O&lt;!-- raw HTML omitted --&gt;, la API di Page Speed consente di integrare l’analisi delle prestazioni nelle applicazioni proprie. C’è già un plugin per WordPress che la sfrutta, &lt;!-- raw HTML omitted --&gt;W3 Total Cache&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
 &lt;p&gt;L’uso effettivo di questa API sarà probabilmente circoscritto a una nicchia piuttosto ristretta, penso soprattutto alle agenzie di consulenza e SEO. Il messaggio utile da portare a casa (se ancora ce ne fosse bisogno) è che &lt;strong&gt;per Google le prestazioni dei siti e della rete in generale sono sempre più un fattore determinante&lt;/strong&gt;, il rapidissimo sviluppo di Page Speed (prima le &lt;!-- raw HTML omitted --&gt;estensioni per browser&lt;!-- raw HTML omitted --&gt;, poi il &lt;!-- raw HTML omitted --&gt;servizio online&lt;!-- raw HTML omitted --&gt; e infine la API) ne è la prova più evidente.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong><!-- raw HTML omitted -->Google Page Speed</strong>, lo strumento che misura la velocità delle pagine web e offre consigli su come migliorarne le prestazioni, dispone da ieri di una sua <!-- raw HTML omitted -->API ufficiale<!-- raw HTML omitted -->. Annunciata nell’ambito di <!-- raw HTML omitted -->Google I/O<!-- raw HTML omitted -->, la API di Page Speed consente di integrare l’analisi delle prestazioni nelle applicazioni proprie. C’è già un plugin per WordPress che la sfrutta, <!-- raw HTML omitted -->W3 Total Cache<!-- raw HTML omitted -->.</p>
+<p>L’uso effettivo di questa API sarà probabilmente circoscritto a una nicchia piuttosto ristretta, penso soprattutto alle agenzie di consulenza e SEO. Il messaggio utile da portare a casa (se ancora ce ne fosse bisogno) è che <strong>per Google le prestazioni dei siti e della rete in generale sono sempre più un fattore determinante</strong>, il rapidissimo sviluppo di Page Speed (prima le <!-- raw HTML omitted -->estensioni per browser<!-- raw HTML omitted -->, poi il <!-- raw HTML omitted -->servizio online<!-- raw HTML omitted --> e infine la API) ne è la prova più evidente.</p>
+<p>In passato ho espresso <!-- raw HTML omitted -->alcune perplessità<!-- raw HTML omitted --> sulla reale applicabilità dei consigli forniti da questi strumenti, tuttavia rimango convinto della loro utilità generale. Proprio in questi giorni sto lavorando alla ottimizzazione del sito del nostro software gestionale e uso Page Speed per valutare i miglioramenti (o peggioramenti!) che riesco a ottenere. Finora ho raggiunto una valutazione di 80/100, partivo da 70 . Stimo di aver guadagnato 4-5 punti grazie ai consigli di Page Speed.</p>
+<p>Per maggiori informazioni date una occhiata alla <!-- raw HTML omitted -->Guida per Sviluppatori<!-- raw HTML omitted --> e all’annuncio ufficiale sul <!-- raw HTML omitted -->Google Webmaster Blog<!-- raw HTML omitted -->.</p>]]></content:encoded>
     </item>
     <item>
       <title>Google Shopping Italia è finalmente online</title>
@@ -37,6 +64,11 @@
       <guid>https://nicolaiarocci.com/google-shopping-italia-e-finalmente-online/</guid>
       <description>A quanto pare da stamattina Google Shopping Italia, edizione nazionale del più vasto progetto Google Merchant Center, è operativo. Per provarlo andate su Google.it, eseguite una normale ricerca e cliccate sulla nuova opzione Shopping (oppure fate una ricerca diretta dalla home page di Google Shopping)
 Dato per imminente a febbraio, del nuovo canale e-commerce di Google non si erano più avute notizie, tanto che qualcuno cominciava a domandarsi che fine avesse fatto.</description>
+      <content:encoded><![CDATA[<p>A quanto pare da stamattina <strong><!-- raw HTML omitted -->Google Shopping Italia<!-- raw HTML omitted --></strong>, edizione nazionale del più vasto progetto <strong>Google Merchant Center</strong>,  è operativo. Per provarlo andate su Google.it, eseguite una normale ricerca e cliccate sulla nuova opzione Shopping (oppure fate una ricerca diretta dalla home page di <!-- raw HTML omitted -->Google Shopping<!-- raw HTML omitted -->)</p>
+<!-- raw HTML omitted -->
+<p>Dato per imminente <!-- raw HTML omitted -->a febbraio<!-- raw HTML omitted -->, del nuovo canale e-commerce di Google non si erano più avute notizie, tanto che qualcuno cominciava a domandarsi <!-- raw HTML omitted -->che fine avesse fatto<!-- raw HTML omitted -->.</p>
+<p>Per informazioni approfondite vi rimando <!-- raw HTML omitted -->all’articolo che scrissi a suo tempo<!-- raw HTML omitted -->, qui mi limito a segnalarvi il link per <!-- raw HTML omitted -->creare un account<!-- raw HTML omitted -->, registrare i prodotti e impostare il proprio negozio su Google Shopping.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Google Speed ora è anche Online</title>
@@ -45,6 +77,12 @@ Dato per imminente a febbraio, del nuovo canale e-commerce di Google non si er
       <guid>https://nicolaiarocci.com/google-speed-ora-e-anche-online/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;A una settimana esatta dall’uscita della &lt;a href=&#34;http://nicolaiarocci.com/google-page-speed-ora-gira-anche-su-chrome/&#34;&gt;estensione per Chrome di Page Speed&lt;/a&gt; Google stupisce tutti aprendo al pubblico &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Speed Online&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, versione web del suo servizio di analisi delle performance dei siti. La versione &lt;em&gt;live&lt;/em&gt; di Google Speed non si limita a misurare la velocità delle pagine ma offre consigli per migliorarne le prestazioni, come già fatto dalle estensioni Firefox e Chrome.&lt;/p&gt;
 &lt;p&gt;In questi giorni ho avuto modo di testare Page Speed per Chrome su un certo numero di siti, sia sviluppati da me che da altri. Mi sono reso conto che non sempre i consigli, pur validi, sono facilmente applicabili. Molte inefficienze non sono sotto il nostro controllo perché i contenuti sono forniti da terze parti – annunci pubblicitari, pulsanti, widgets e così via. La stessa Google ha &lt;a href=&#34;http://adsense.blogspot.com/2011/03/making-web-faster-for-all-adsense-for.html&#34;&gt;ottimizzato le prestazioni di AdSense&lt;/a&gt; solo recentemente, prima non era certo un fulmine di guerra.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->A una settimana esatta dall’uscita della <a href="http://nicolaiarocci.com/google-page-speed-ora-gira-anche-su-chrome/">estensione per Chrome di Page Speed</a> Google stupisce tutti aprendo al pubblico <strong><!-- raw HTML omitted -->Speed Online<!-- raw HTML omitted --></strong>, versione web del suo servizio di analisi delle performance dei siti. La versione <em>live</em> di Google Speed non si limita a misurare la velocità delle pagine ma offre consigli per migliorarne le prestazioni, come già fatto dalle estensioni Firefox e Chrome.</p>
+<p>In questi giorni ho avuto modo di testare Page Speed per Chrome su un certo numero di siti, sia sviluppati da me che da altri. Mi sono reso conto che non sempre i consigli, pur validi, sono facilmente applicabili. Molte inefficienze non sono sotto il nostro controllo perché i contenuti sono forniti da terze parti – annunci pubblicitari, pulsanti, widgets e così via. La stessa Google ha <a href="http://adsense.blogspot.com/2011/03/making-web-faster-for-all-adsense-for.html">ottimizzato le prestazioni di AdSense</a> solo recentemente, prima non era certo un fulmine di guerra.</p>
+<p>Altri suggerimenti sono alla nostra portata ma quando ci mettiamo al lavoro ci rendiamo conto che rischiamo di impiegare un mucchio di tempo per ottenere miglioramenti appena percettibili. Un esempio? Il consiglio di combinare le diverse immagini di una pagina in un singolo sprite CSS. E’ abbastanza veloce raccogliere in un file tutte le immagini ma quando ci mettiamo a cambiare il codice HTML, CSS e JavaScript per caricare le porzioni dello sprite nei posti giusti ecco che il tempo necessario a portare a termine (e testare) il lavoro si dilata inesorabilmente.</p>
+<p>Finché si lavora su pagine semplici i consigli di servizi come Page Speed (una menzione d’onore la merita <!-- raw HTML omitted --><!-- raw HTML omitted -->YSlow<!-- raw HTML omitted --><!-- raw HTML omitted -->) sono rapidi da implementare. Quando si tratta di ottimizzare siti complessi le cose si fanno più complicate. Il problema è che non c’è modo di predire con precisione <em>quanto</em> miglioreranno le prestazioni. Riprendendo l’esempio delle immagini, Page Speed fornisce una stima dei Kb che risparmierei creando un unico sprite CSS ma non può dirmi <em>quanto tempo risparmierà l’utente</em> che visitera il sito. Otterrò un miglioramento effettivamente percepibile?</p>
+<h2 id="cum-grano-salis">Cum grano salis</h2>
+<p>L’esperienza ci aiuterà a scegliere quali ottimizzazioni implementare e quali tralasciare. Se fin dall’inizio avremo fatto bene il nostro lavoro non rimarrà molto da migliorare. Se  al contrario ci ritroveremo con decine di consigli di ottimizzazione beh, vorrà dire che la prossima volta dovremo lavorare meglio. In ogni caso usiamo questi strumenti con saggezza non lasciandoci prendere ciecamente dal “demone ottimizzatore”.</p>]]></content:encoded>
     </item>
     <item>
       <title>Programmazione, SEO, Startups – Il Meglio della Settimana #2</title>
@@ -52,6 +90,30 @@ Dato per imminente a febbraio, del nuovo canale e-commerce di Google non si er
       <pubDate>Mon, 28 Feb 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/programmazione-seo-startups-il-meglio-della-settimana-2/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Eccoci alla selezione delle notizie e i link che ho trovato più interessanti questa settimana. E’ stata una settimana ricca di avvenimenti e non è stato facile decidere cosa lasciare fuori. Andiamo a cominciare:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Eccoci alla selezione delle notizie e i link che ho trovato più interessanti questa settimana. E’ stata una settimana ricca di avvenimenti e non è stato facile decidere cosa lasciare fuori. Andiamo a cominciare:</p>
+<h2 id="like-button-facebook-cambia-le-regole">Like Button: Facebook cambia le regole</h2>
+<p>Questa settimana Facebook ha sorpreso tutti cambiando radicalmente il funzionamento del pulsante Mi Piace. Su <strong>BigThink</strong> Daniele Ghidoli è tra i primi ad accorgersene e a segnalare la novità. <a href="http://www.bigthink.it/like-button-facebook-cambia/">Leggi l’articolo su BigThink</a>.</p>
+<h2 id="google-migliora-l8217algoritmo-di-indicizzazione-del-web">Google migliora l’algoritmo di indicizzazione del web</h2>
+<p>Negli ultimi mesi le critiche sulla qualità ****delle ricerche Google si sono moltiplicate. Le famigerate <em>content farm</em> hanno conquistato le prime posizioni per molte ricerche sulle keyword più importanti. Il gigante di Mountain View annuncia a sorpresa la contromossa, ossia l’aggiornamento del suo algoritmo più importante. L’obiettivo è penalizzare i siti di scarsa qualità e migliorare il ranking di quelli con contenuti validi. <a href="http://googleblog.blogspot.com/2011/02/finding-more-high-quality-sites-in.html">Leggi l’annuncio sul blog ufficiale di Google</a>.</p>
+<h2 id="e8217-in-arrivo-una-nuova-bolla-delle-dot-com">E’ in arrivo una nuova Bolla delle Dot-Com?</h2>
+<p>Le incredibili valutazioni economiche di servizi come Twitter e Facebook inducono molti a sostenere che ci troviamo nel bel mezzo della seconda bolla delle Dot-Com, declinata questa volta ai social network. <strong>TagliaBlog</strong> pubblica la traduzione di un bell’articolo del Wall Street Journal che, prendendo spunto dalla situazione di Twitter, tenta di fare il punto della situazione. <a href="http://blog.tagliaerbe.com/2011/02/nuova-bolla-dot-com.html">Leggi l’articolo su TagliaBlog</a></p>
+<h2 id="come-un-tweet-sbagliato-può-portare-al-successo-commerciale-e-a-una-raccolta-di-sangue">Come un Tweet sbagliato può portare al successo commerciale (e a una raccolta di sangue)</h2>
+<p>Quando Gloria Huang si accorge di aver twittato per sbaglio la sua richiesta di birra fresca dall’account del datore di lavoro (la Croce Rossa) non immagina certo di scatenare una donazione di sangue di massa e il successo commerciale della sua birra preferita. <a href="http://money.cnn.com/2011/02/17/smallbusiness/dogfish_redcross/index.htm">Leggi questa storia sul sito della CNN</a></p>
+<h2 id="lo-stato-attuale-del-web-design-trends-2010">Lo stato attuale del Web Design: Trends 2010</h2>
+<p>Il Web Design sta vivendo un’epoca d’oro. Abbiamo a disposizione strumenti potenti (CSS3, HTML5, il font-embedding), migliaia di risorse gratuite e decine di vivaci comunità online. Ma quali sono le nuove tendenze? Quali le tecniche, i concetti e le idee che si stanno affermando? Questa settimana <strong>Smashing Magazine</strong> tenta di anticipare il Web Design del prossimo futuro. <a href="http://www.smashingmagazine.com/2010/05/04/web-design-trends-2010/">Leggi l’articolo di Smashing Magazine</a>.</p>
+<h2 id="diffondiamo-la-cultura-digitale-in-italia">Diffondiamo la Cultura Digitale in Italia</h2>
+<p>Interessante il progetto Cultura Digitale curato e ideato da Fabio Lalli e dagli Indigeni Digitali. “Si vuole creare un libro gratuito da distribuire on line e off line che parli della Cultura Digitale, di cosa significa per ognuno di noi”. Chiunque può contribuire pubblicando il proprio pensiero sul wall di Cultura Digitale. L’idea è ingegnosa e ben implementata. Funziona anche perché solletica l’ego di ognuno di noi e sfrutta abilmente i meccanismi virali propri del web 2.0. I contributi affluiscono copiosi.  <a href="http://culturadigitale.com/">Visita il sito di Cultura Digitale</a></p>
+<h2 id="mono-210">Mono 2.10</h2>
+<p>La versione 2.10 di Mono, la piattaforma open source e multi piattaforma alternativa al Microsoft NET Framework, è stata rilasciata questa settimana. Tra le novità aggiornamenti ai compilatori C# e VB, supporto a MVC3, F# e Native Client Google oltre alla soluzione di molti problemi conosciuti. <a href="http://www.mono-project.com/Release_Notes_Mono_2.10">Leggi le Release Notes ufficiali</a>.</p>
+<h2 id="python-32">Python 3.2</h2>
+<p>Questa è anche la settimana che ha visto l’uscita dell’ultima release del linguaggio Python, la 3.2. La documentazione ufficiale è stata aggiornata con un documento che illustra accuratamente le novità introdotte con questo aggiornamento. <a href="http://docs.python.org/dev/whatsnew/3.2.html">Leggi le novità su Python 3.2</a>.</p>
+<h2 id="google-cloud-connect">Google Cloud Connect</h2>
+<p>Google Cloud Connect è un plugin per Microsoft Office che consente di sincronizzare i documenti Office appoggiandosi alla piattaforma Google Docs. Rilasciato da Google, questo plugin rende semplice la collaborazione tra utenti che non vogliono o non possono rinunciare alla suite Microsoft. I documenti possono essere aggiornati sia offline che online. <a href="http://www.readwriteweb.com/enterprise/2011/02/google-releases-microsoft-offi.php">Leggi tutto su Google Cloud Connect</a>.</p>
+<h2 id="i-5-migliori-tool-gratuiti-per-sql-server">I 5 migliori tool gratuiti per SQL Server</h2>
+<p>Sei pigro e la tua azienda è al verde. Che fare? Brent Ozar, guru SQL Server e uno dei progettisti di Stack Overflow, propone cinque tools gratuiti per la gestione e manutenzione di SQL Server. <a href="http://www.brentozar.com/archive/2011/02/my-favorite-free-sql-server-downloads/">Leggi l’articolo sul sito di Brent Ozar</a>.</p>
+<h2 id="introduzione-alle-regular-expression">Introduzione alle Regular Expression</h2>
+<p>Concludo con una svergognata auto promozione. Introduzione alle Regular Expression è una serie in tre parti, attualmente in pubblicazione, che ha l’ambizione di consentire a chiunque di avvicinarsi alle Regular Expression. Le RegEx sono un strumento potente e spesso incompreso, utile non solo ai programmatori ma a chiunque abbia a che fare con le ricerche su testo. <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/">Leggi la prima parte della Introduzione alle Regular Expression.</a></p>
+<p>Vi è piaciuta questa selezione? Fatemi sapere che ne pensate con un bel commento qui sotto, lo apprezzerei molto. Alla prossima settimana!</p>]]></content:encoded>
     </item>
     <item>
       <title>Programmazione, SEO, Startups – Il Meglio della Settimana #1</title>
@@ -59,6 +121,65 @@ Dato per imminente a febbraio, del nuovo canale e-commerce di Google non si er
       <pubDate>Mon, 21 Feb 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/programmazione-seo-startups-il-meglio-della-settimana-1/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Vi propongo una scelta delle risorse più interessanti e curiose che ho scovato questa settimana in rete. Ce né per tutti i gusti: programmazione, SEO, Startups e curiosità. Andiamo a cominciare:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Vi propongo una scelta delle risorse più interessanti e curiose che ho scovato questa settimana in rete. Ce né per tutti i gusti: programmazione, SEO, Startups e curiosità. Andiamo a cominciare:</p>
+<ol>
+<li>
+<p><strong><a href="http://docs.python.org/dev/howto/pyporting.html">Da Python 2 a Python 3</a></strong></p>
+<p>Python 3 è il futuro, ma Python 2 è attualmente la versione più usata al mondo. Ora finalmente la documentazione ufficiale è arricchita da una bella guida alle migliori strategie per supportare entrambe le versioni di Python.</p>
+<p><a href="http://docs.python.org/dev/howto/pyporting.html"></a></p>
+</li>
+<li>
+<p><a href="http://blogs.nationalgeographic.com/blogs/news/breakingorbit/2011/01/400-volunteer-for-one-way-mars-trip.html"><strong>Per quale motivo 400 persone si sono offerte volontarie per una viaggio di sola andata verso Marte?</strong></a></p>
+</li>
+</ol>
+<pre><code>Il numero Ottobre-Novembre 2010 del _Journal of Cosmology_ contiene uno speciale di 55 pagine intitolato &amp;#8220;Missione Umana su Marte: Colonizzare il Pianeta Rosso&amp;#8221;. Secondo gli scienziati una missione di sola andata destinata a colonizzare Marte sarebbe possibile entro 20 anni. Cosa ha spinto ben quattrocento lettori a offrirsi come volontari per la missione?
+</code></pre>
+<ol start="3">
+<li><strong><a href="http://www.seomoz.org/blog/tweets-effect-rankings-unexpected-case-study">Il sorprendente effetto di un singolo Tweet sul Page Rank di Google</a></strong></li>
+</ol>
+<pre><code>Google ha ammesso recentemente che i link provenienti dai social network sono segnali usati nella valutazione dell&amp;#8217;importanza dei siti web. I ragazzi di SEOmoz (tra i migliori esperti SEO in circolazione) sono rimasti esterrefatti dagli effetti che un singolo tweet ha causato sul page rank della loro _Beginners Guide to SEO_.
+</code></pre>
+<ol start="4">
+<li><a href="http://www.lucasartoni.com/lavoro/open-letter-to-an-event-organizer"><strong>Lettera aperta a un organizzatore di eventi</strong></a></li>
+</ol>
+<pre><code>Per mestiere Luca Sartoni partecipa (come speaker, spettatore o organizzatore) a molte conferenze , seminari e workshops. In questa lettera elenca quelli che secondo lui sono i cinque errori commessi più spesso dagli organizzatori di eventi. E suggerisce come evitarli.
+</code></pre>
+<ol start="5">
+<li><a href="http://en.blog.wordpress.com/2011/02/17/how-is-wordpress-com-made/"><strong>Come si fa WordPress?</strong></a></li>
+</ol>
+<pre><code>A quanto pare WordPress, pur avendo una sede a San Francisco, è una realtà capillarmente distribuita. Gran parte dei dipendenti lavora da casa ed è disseminata per il mondo, coprendone quasi tutti i fusi orari. In questo articolo sul blog ufficiale dell&amp;#8217;azienda Scott Berkun racconta come si svolge una giornata di lavoro in una azienda di questo tipo.
+</code></pre>
+<ol start="6">
+<li><a href="http://www.allthingsdistributed.com/2011/02/website_amazon_s3.html"><strong>Come ospitare un intero sito (statico) su Amazon S3</strong></a></li>
+</ol>
+<pre><code>Da qualche tempo Werner Vogels, CTO di Amazon, ospita il suo sito direttamente su S3, la potente piattaforma di _cloud storage_ di Amazon. Una soluzione di questo tipo offre diversi vantaggi, primo fra tutti la scalabilità. In questo articolo Vogels ci spiega come raggiungere lo stesso risultato.
+</code></pre>
+<ol start="7">
+<li><a href="http://www.limedaring.com/im-a-designer-who-learned-django-and-launched-her-first-webapp-in-6-weeks/"><strong>Sono una Designer e ho lanciato la mia prima applicazione in 6 settimane</strong></a></li>
+</ol>
+<pre><code>Tracy è una designer che non sa quasi nulla di programmazione. Ha una idea su un sito innovativo e tenta senza successo di ottenere un finanziamento che le consenta di assumere un programmatore esperto. Cosa fare? Tracy si rimbocca le maniche e in sei settimane riesce a lanciare una variante (semplificata) della sua idea originale. In Python/Django, ovviamente.
+</code></pre>
+<ol start="8">
+<li><a href="http://sixrevisions.com/web-applications/new-facebook-page/"><strong>La Guida Definitiva al Design delle Pagine Facebook</strong></a></li>
+</ol>
+<pre><code>Facebook ha aggiornato le Pagine Fan introducendo parecchie novità significative. In questo articolo Six Revisions ci spiega quali sono e come sfruttarle al meglio.
+</code></pre>
+<ol start="9">
+<li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/"><strong>I filmati completi del Corso di Programmazione (Python) del MIT</strong></a></li>
+</ol>
+<pre><code>Ventiquattro filmati completi, di ottima qualità, per imparare a programmare direttamente dai professori del famoso MIT di Boston. Il materiale è di qualità eccellente.
+</code></pre>
+<ol start="10">
+<li><a href="http://www.cenedella.com/job-search/leonardo-da-vincis-resume/"><strong>Il curriculum vitae di Leonardo Da Vinci</strong></a></li>
+</ol>
+<pre><code>Prima di Mona Lisa, dell&amp;#8217;Ultima Cena e dell&amp;#8217;invenzione dell&amp;#8217;elicottero anche a Leonardo Da Vinci è toccato scrivere il suo bel curriculum. Nel 1482, a trent&amp;#8217;anni, Leonardo lo inviò a Ludovico il Moro, Duca di Milano. In questo splendido articolo possiamo vedere l&amp;#8217;originale e leggerne la trascrizione. Perché? Per imparare un paio di trucchetti che potrebbero tornarci utili.
+</code></pre>
+<ol start="11">
+<li><a href="http://mattoufoutu.rafale.org/ebooks/Doc_diverse/Cours%20Prog/Python/Books/Natural%20Language%20Processing%20with%20Python%20(2009).pdf"><strong>Processare il Linguaggio Naturale in Python</strong></a></li>
+</ol>
+<pre><code>L&amp;#8217;intero contenuto del libro _Natural Processing Language With Python_ in formato PDF, liberamente accessibile.
+</code></pre>
+<p>Queste sono solo alcune delle segnalazioni che giorno per giorno pubblico su Twitter. Se volete più notizie, spunti e link interessanti <a href="http://twitter.com/#!/nicolaiarocci">seguitemi anche su Twitter</a>!</p>]]></content:encoded>
     </item>
     <item>
       <title>Google Testa Il Feedback Utente Come Segnale di Ranking</title>
@@ -67,6 +188,24 @@ Dato per imminente a febbraio, del nuovo canale e-commerce di Google non si er
       <guid>https://nicolaiarocci.com/google-testa-il-feedback-utente-come-segnale-di-ranking/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Google ha appena annunciato una estensione per &lt;strong&gt;&lt;a href=&#34;http://www.google.com/chrome?hl=it&#34;&gt;Chrome&lt;/a&gt;&lt;/strong&gt; che permette agli utenti del browser di escludere dai risultati delle ricerche i siti di scarsa qualità o poco interessanti.&lt;/p&gt;
 &lt;p&gt;Estensioni di questo tipo esistono da tempo ma questa si distingue per un motivo importante. Nel suo &lt;a href=&#34;http://googleblog.blogspot.com/2011/02/new-chrome-extension-block-sites-from.html&#34;&gt;annuncio&lt;/a&gt; &lt;strong&gt;Matt Cutts&lt;/strong&gt;, responsabile Google per i motori di ricerca, afferma che i siti bloccati da &lt;a href=&#34;https://chrome.google.com/webstore/detail/nolijncfnkgaikbjbdaogikpmpbdcdef&#34;&gt;&lt;strong&gt;Personal Blocklist&lt;/strong&gt;&lt;/a&gt; (questo il nome dell’estensione) verranno registrati in un database. In futuro Google potrebbe escludere questi siti dai risultati organici delle ricerche:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Google ha appena annunciato una estensione per <strong><a href="http://www.google.com/chrome?hl=it">Chrome</a></strong> che permette agli utenti del browser di escludere dai risultati delle ricerche i siti di scarsa qualità o poco interessanti.</p>
+<p>Estensioni di questo tipo esistono da tempo ma questa si distingue per un motivo importante. Nel suo <a href="http://googleblog.blogspot.com/2011/02/new-chrome-extension-block-sites-from.html">annuncio</a> <strong>Matt Cutts</strong>, responsabile Google per i motori di ricerca, afferma che i siti bloccati da <a href="https://chrome.google.com/webstore/detail/nolijncfnkgaikbjbdaogikpmpbdcdef"><strong>Personal Blocklist</strong></a> (questo il nome dell’estensione) verranno registrati in un database. In futuro Google potrebbe escludere questi siti dai risultati organici delle ricerche:</p>
+<blockquote>
+<p>One of the signals we’re exploring is explicit feedback from users. To that end, today we’re launching an early, experimental Chrome extension so people can block sites from their web search results. If installed, <strong>the extension also sends blocked site information to Google, and we will study the resulting feedback and explore using it as a potential ranking signal for our search results</strong>.</p>
+</blockquote>
+<p>Un sito bloccato da migliaia di utenti potrebbe indurre Google a classificarlo come <a href="http://en.wikipedia.org/wiki/Content_farm"><strong>content farm</strong></a> ed escluderlo dai risultati delle ricerche. E’ probabile (e auspicabile!) che, almeno in una prima fase, questi siti saranno sottoposti a uno scrutinio accurato prima di venire depennati.</p>
+<h2 id="web-20-all8217ennesima-potenza">Web 2.0 all’ennesima potenza</h2>
+<p>Finora Google ha sempre dichiarato di puntare fermamente a una soluzione algoritmica al problema della classificazione dei siti web. Con l’annuncio di oggi pare aprirsi una crepa in questa filosofia. Per la prima volta gli utenti potrebbero avere la possibilità di <strong>partecipare in maniera attiva</strong> alla selezione qualitativa dei risultati proposti da un motore da ricerca.</p>
+<h2 id="un-sistema-abusabile">Un sistema abusabile?</h2>
+<p>Probabilmente è presto per preoccuparsi di questo ma c’è da augurarsi, se mai ci si arriverà, che l’implementazione finale tenga ben conto del rischio di abusi. Una azienda con pochi scrupoli potrebbe pensare di investire quattrini sonanti in una campagna di discredito nei confronti di un concorrente. Certo non sarebbe semplice né economico, ma pur sempre fattibile.</p>
+<h2 id="che-ne-pensate">Che ne pensate?</h2>
+<p>Questa mi pare una innovazione interessante sia dal punto di vista pratico-funzionale che ‘sociale’, passatemi il termine.  Voi cosa ne pensate?</p>
+<h3 id="approfondimenti">Approfondimenti</h3>
+<ul>
+<li><a href="http://googleblog.blogspot.com/2011/02/new-chrome-extension-block-sites-from.html">Annuncio della nuova Estensione per Google Chrome</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/nolijncfnkgaikbjbdaogikpmpbdcdef">Pagina ufficiale di Personal Blocklist</a></li>
+<li><a href="http://www.seroundtable.com/google-personal-blocklist-12958.html">Dettagli sul funzionamento dell’estensione su Search Engine Roundtable</a></li>
+</ul>]]></content:encoded>
     </item>
   </channel>
 </rss>

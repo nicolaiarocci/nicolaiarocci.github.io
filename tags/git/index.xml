@@ -14,6 +14,61 @@
       <pubDate>Fri, 30 Jul 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-remove-a-file-from-git-history/</guid>
       <description>Today I learned how to remove a file from a git repository while also cleaning it from the history. When you delete it with git rm or git rm --cached, tracks remain in the commit history (the reflog). That might not be a big deal, but if the file has sensitive contents that you want to disappear from version control entirely, then you also want it cleaned from the reflog. That&amp;rsquo;s when git filter-branch comes to the rescue.</description>
+      <content:encoded><![CDATA[<p>Today I learned how to remove a file from a git repository while also cleaning
+it from the history. When you delete it with <code>git rm</code> or <code>git rm --cached</code>,
+tracks remain in the commit history (the reflog). That might not be a big deal,
+but if the file has sensitive contents that you want to disappear from version
+control entirely, then you also want it cleaned from the reflog. That&rsquo;s when
+<a href="https://git-scm.com/docs/git-filter-branch"><code>git filter-branch</code></a> comes to the rescue.</p>
+<p>To be on the safe side, I first cloned the repository to a test directory:</p>
+<pre><code>$ git clone &lt;REPOSITORY&gt; test
+$ cd test
+</code></pre>
+<p>Once into the test directory, this is the command that saved the day:</p>
+<pre><code># make sure you insert the whole file path, relative to the repository root
+$ git filter-branch --force --index-filter \
+  &quot;git rm --cached --ignore-unmatch PATH-TO-THE-FILE&quot; \
+  --prune-empty --tag-name-filter cat -- --all
+</code></pre>
+<p>The command above will go through the history, find all commits where the file
+is involved, and alter them to eliminate the file. Yes, history changes,
+so a force-push will be required at the end.</p>
+<p>To test that the file has indeed been removed, I used <code>git blame</code>:</p>
+<pre><code>$ git blame PATH-TO-THE-FILE
+fatal: no such path 'PATH-TO-THE-FILE' in HEAD
+</code></pre>
+<p>If the file needs to stay in the local directory, you can add it to
+<code>.gitignore</code>:</p>
+<pre><code>$ echo &quot;PATH-TO-THE-FILE&quot; &gt;&gt; .gitignore
+$ git add .gitignore
+$ git commit -m &quot;add FILE to .gitignore&quot;
+</code></pre>
+<p>Once everything was ready, I went back to the original clone directory,
+replayed all the above, then force-pushed back to the remote:</p>
+<pre><code>$ git push origin --force --all
+</code></pre>
+<p>If you have remote tags, those need to be force-pushed as well:</p>
+<pre><code>$ git push origin --force --tags
+</code></pre>
+<p>In my case, the repository is private with no forks, so the changing
+history was not a big deal for the few colleagues with access to it. Of
+course, any other existing clone will need to be updated<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>In so many years with git, this is the very first time I had to do something
+similar. Typically, you don&rsquo;t commit sensitive data to version control, but we
+all make mistakes every once in a while, don&rsquo;t we?</p>
+<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Keep in mind, eventual stashed changes will be lost after <code>git filter-branch</code>. Make sure you unstash before issuing the command.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
     </item>
     <item>
       <title>Git Worktree vs Git Savepoints</title>
@@ -22,6 +77,66 @@
       <guid>https://nicolaiarocci.com/git-worktree-vs-git-savepoints/</guid>
       <description>The official Git documentation presents the following example as a valid use-case for the worktree command:
 You are in the middle of a refactoring session and your boss comes in and demands that you fix something immediately. You might typically use git-stash1 to store your changes away temporarily. However, your working tree is in such a state of disarray (with new, moved, and removed files and other bits and pieces strewn around) that you don&amp;rsquo;t want to risk disturbing any of it.</description>
+      <content:encoded><![CDATA[<p>The official Git documentation presents the following example as a valid
+use-case for the <code>worktree</code> command:</p>
+<blockquote>
+<p>You are in the middle of a refactoring session and your boss comes in and
+demands that you fix something immediately. You might typically use
+git-stash<a href="https://git-scm.com/docs/git-worktree">1</a> to store your changes away temporarily. However, your working
+tree is in such a state of disarray (with new, moved, and removed files and
+other bits and pieces strewn around) that you don&rsquo;t want to risk disturbing
+any of it. (<a href="https://git-scm.com/docs/git-worktree">source</a>)</p>
+</blockquote>
+<p>If you don&rsquo;t know about <code>worktree</code>, you should check it out. It is a handy,
+powerful yet little known command. I don&rsquo;t use it, however. It will check out
+a new branch to a new directory, and I don&rsquo;t like that. I prefer to keep the
+simple, default 1:1 relationship between the repository and the file system.
+Managing multiple working trees seems like an unnecessary complication when
+similar results can be achieved with a few aliases.</p>
+<p>Indeed, for the use-case above, my workflow revolves around three git-aliases.
+Over the years, I collected many. Most of them (like the ones mentioned here)
+are not my doing. I stumbled upon them somewhere, tinkered as needed, and then
+incorporated them into my daily workflow.</p>
+<h2 id="git-save"><code>git save</code></h2>
+<p>This adds all changes, including untracked files, to the staging area and then
+commits with a <code>SAVEPOINT</code> message. When an emergency hits and I need to
+quickly switch context, I&rsquo;ll just <code>git save</code> and check out to a new branch to
+do whatever I am tasked to do. When I&rsquo;m done, I&rsquo;ll switch back to my original
+branch, <code>git undo</code>(see below), and resume work. It&rsquo;s easily configured with:</p>
+<pre><code>$ git config --global alias.save '!git add -A &amp;&amp; git commit -m &quot;SAVEPOINT&quot;'
+</code></pre>
+<h2 id="git-wip"><code>git wip</code></h2>
+<p><code>wip</code> is similar to <code>save</code>. It stages all tracked changes and then commits with
+a <code>WIP</code> message. So yes, it offers the same features as above but leaves
+untracked files unstaged, a significant difference. Like above, when done with
+the extra work, I&rsquo;ll switch back, <code>git undo</code>, and resume. Set it up with:</p>
+<pre><code>$ git config --global alias.wip '!git add -u &amp;&amp; git commit -m &quot;WIP&quot;'
+</code></pre>
+<h2 id="git-undo"><code>git undo</code></h2>
+<p>This alias allows me to quickly resume work after a <code>save</code> or <code>wip</code>. It undoes
+the last commit but keeps its changes, with files unstaged. It can also be used
+in other circumstances (for those, however, I have a functionally identical
+<code>r1</code> alias at hand). Configure with:</p>
+<pre><code>$ git config —-global alias.undo 'reset HEAD^ —-mixed'
+</code></pre>
+<h2 id="git-wipe"><code>git wipe</code></h2>
+<p>This is a special, use-with-caution one. It adds changes in the working tree to
+a <code>WIPE SAVEPOINT</code> commit, then it wipes the commit. At that point, the working
+tree is clean, but I can still go back to that work if the need arises (via
+reflog). Seldom used, this <code>wipe</code> comes in handy when I have some experimental
+code that is not going into production and yet, I want to keep it around. Set
+it up with:</p>
+<pre><code>$ git config --global alias.wipe \
+    '!git add -A &amp;&amp; git commit -qm &quot;WIPE SAVEPOINT&quot; &amp;&amp; git reset HEAD~1 --hard'
+</code></pre>
+<p>If you are not familiar with the git reflog, you might want to stay clear from
+<code>wipe</code>, though.</p>
+<p>One advantage of this workflow is that saved changes will stay with their
+relevant branch. When you get back to it, <code>git log</code> will hint at what happened
+when you left. Assuming it is a private branch, you might even decide to push
+it for backup before starting the hotfix work.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>How to add an empty directory to a Git repository</title>
@@ -30,6 +145,46 @@ You are in the middle of a refactoring session and your boss comes in and demand
       <guid>https://nicolaiarocci.com/how-to-add-an-empty-directory-to-a-git-repository/</guid>
       <description>How do you add an empty directory to a Git repository? It&amp;rsquo;s a classic, and yet, I have to look it up every single time. Git does not support this out of the box:
 Currently the design of the Git index (staging area) only permits files to be listed, and nobody competent enough to make the change to allow empty directories has cared enough about this situation to remedy it. Directories are added automatically when adding files inside them.</description>
+      <content:encoded><![CDATA[<p>How do you add an empty directory to a Git repository? It&rsquo;s a classic, and yet,
+I have to look it up every single time. Git does not support this out of the
+box:</p>
+<blockquote>
+<p>Currently the design of the Git index (staging area) only permits files to be
+listed, and nobody competent enough to make the change to allow empty
+directories has cared enough about this situation to remedy it. Directories
+are added automatically when adding files inside them. That is, directories
+never have to be added to the repository, and are not tracked on their own.
+You can say <code>git add &lt;dir&gt;</code> and it will add the files in there. <strong>If you really
+need a directory to exist in checkouts you should create a file in it</strong>.
+.gitignore works well for this purpose; you can leave it empty or fill in
+the names of files you do not expect to show up in the directory.
+(<a href="https://git.wiki.kernel.org/index.php/GitFaq#Can_I_add_empty_directories.3F">source</a>)</p>
+</blockquote>
+<p>The same answer offers a workaround: just save an empty .gitignore file into
+the directory. At that point, <code>git status</code> shows the file as untracked. We can
+add it to the repository, and <em>presto</em>, our folder ends up captured in version
+control.</p>
+<p>I don&rsquo;t like using .gitignore for this. That file serves a different,
+unrelated goal. Finding it in an otherwise empty directory would cause
+puzzlement to my colleagues and my future self in six months. For better
+semantic and clarity, what I do is add a <code>.keep</code> file instead:</p>
+<pre><code>$ touch mydir/.keep
+</code></pre>
+<p>Same trick. Better semantics. When I pull this repository in six months, I will
+immediately grasp what&rsquo;s going on (an alternative would be a README.md file
+with an explanation.)</p>
+<p>Of course, if the dir is meant to fill-up over time, but we still want to
+ignore its future contents in version control, then .gitignore is the right
+tool for the job. Something like this would work (I <a href="https://stackoverflow.com/questions/115983/how-can-i-add-an-empty-directory-to-a-git-repository">dug it up</a> on Stack
+Overflow, where else):</p>
+<pre><code># Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+</code></pre>
+<p>I should probably adopt the #tirl tag, as in &ldquo;Today I Re-Learned.&rdquo;</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>How to handle big repositories with git</title>
@@ -38,6 +193,11 @@ Currently the design of the Git index (staging area) only permits files to be li
       <guid>https://nicolaiarocci.com/how-to-handle-big-repositories-with-git/</guid>
       <description>git is a fantastic choice for tracking the evolution of your code base and to collaborate efficiently with your peers. But what happens when the repository you want to track is really huge?
 via How to handle big repositories with git – Atlassian Blogs.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>git is a fantastic choice for tracking the evolution of your code base and to collaborate efficiently with your peers. But what happens when the repository you want to track is really huge?</p>
+</blockquote>
+<p>via <a href="https://blogs.atlassian.com/2014/05/handle-big-repositories-git/">How to handle big repositories with git – Atlassian Blogs</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Pro Git Workflow</title>
@@ -45,6 +205,8 @@ via How to handle big repositories with git – Atlassian Blogs.</description>
       <pubDate>Mon, 27 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/pro-git-workflow/</guid>
       <description>Pro Git Workflow is an interesting collection of Git shortcuts, aliases and workflows. Nothing really new but give it a shot if you want to improve your git-fu beyond basics.</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Pro Git Workflow<!-- raw HTML omitted --> is an interesting collection of Git shortcuts, aliases and workflows. Nothing really new but give it a shot if you want to improve your git-fu beyond basics.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>On undoing, fixing, or removing commits in git</title>
@@ -53,6 +215,11 @@ via How to handle big repositories with git – Atlassian Blogs.</description>
       <guid>https://nicolaiarocci.com/on-undoing-fixing-or-removing-commits-in-git/</guid>
       <description>This document is an attempt to be a fairly comprehensive guide to recovering from what you did not mean to do when using git.
 via On undoing, fixing, or removing commits in git.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>This document is an attempt to be a fairly comprehensive guide to recovering from what you did not mean to do when using git.</p>
+</blockquote>
+<p>via <a href="http://sethrobertson.github.io/GitFixUm/fixup.html">On undoing, fixing, or removing commits in git</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Come annullare una Commit in Git</title>
@@ -60,6 +227,25 @@ via On undoing, fixing, or removing commits in git.</description>
       <pubDate>Thu, 17 May 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/come-annullare-una-commit-in-git/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Usando &lt;!-- raw HTML omitted --&gt;Git&lt;!-- raw HTML omitted --&gt; capita ogni tanto, vuoi per stanchezza o per distrazione, di lanciare commit sbagliate. Stamattina m’è capitato di sistemare del codice, testarlo e fare la commit… solo per scoprire di aver lavorato sulla branch sbagliata! Non è la prima volta che mi succede e non sarà nemmeno l’ultima. Poiché ho scarsa memoria ogni volta mi tocca usare google e ripescare quei due o tre comandi utili in questi casi. Ho pensato di appuntarli qui, un po’ per metterli a disposizione di tutti, un po’ per poterli ritrovare facilmente.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Usando <!-- raw HTML omitted -->Git<!-- raw HTML omitted --> capita ogni tanto, vuoi per stanchezza o per distrazione, di lanciare commit sbagliate. Stamattina m’è capitato di sistemare del codice, testarlo e fare la commit… solo per scoprire di aver lavorato sulla branch sbagliata! Non è la prima volta che mi succede e non sarà nemmeno l’ultima. Poiché ho scarsa memoria ogni volta mi tocca usare google e ripescare quei due o tre comandi utili in questi casi. Ho pensato di appuntarli qui, un po’ per metterli a disposizione di tutti, un po’ per poterli ritrovare facilmente.</p>
+<h2 id="annullare-una-commit">Annullare una commit</h2>
+<p>Se ancora non è stato stato eseguito il push verso un repo remoto:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>In Git <code>HEAD</code> è la commit più recente mentre <code>HEAD^</code> è la penultima (<code>HEAD^^</code> è la terzultima). In alternativa è possibile indicare l’SHA-1 dell’hash della commit alla quale si vuole tornare, qualunque essa sia:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Il numero di hash di ogni commit è rintracciabile con un semplice <code>git log --oneline</code></p>
+<h2 id="differenza-tra---soft-e---hard">Differenza tra <code>--soft</code> e <code>--hard</code></h2>
+<p>L’opzione <code>--soft</code> cancella la commit ma lascia i file invariati. Se volete riportare anche i file allo stato in cui si trovavano alla penultima commit:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Questo porterà “indietro nel tempo” il vostro repo, alla penultima commit. Sarà come se le ultime modifiche (e con esse l’ultima commit) non fossero mai esistite.</p>
+<h2 id="e-se-la-commit-è-già-finita-nel-repository">E se la commit è già finita nel repository?</h2>
+<p>Se la commit è già stata inviata a un repo remoto (push) è necessario seguire un’altra procedura:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Questo comando crea una <em>nuova commit</em> che annulla tutto ciò che è stato introdotto dalla commit indesiderata.</p>]]></content:encoded>
     </item>
     <item>
       <title>Git si è rifatto il look (e non solo)</title>
@@ -67,6 +253,8 @@ via On undoing, fixing, or removing commits in git.</description>
       <pubDate>Tue, 08 May 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/git-si-e-rifatto-il-look-e-non-solo/</guid>
       <description>Il sito del progetto Git è stato finalmente aggiornato. Nuova grafica, nuovo logo, ottimizzazione dei contenuti e soprattutto integrazione di importanti risorse prima ospitate altrove: la Git Reference, il libro ProGit, Why Git is Better Than X e il nuovo progetto Git Video Series, che include quattro bei filmati già pronti.</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Il sito del <!-- raw HTML omitted -->progetto Git<!-- raw HTML omitted --> è stato finalmente aggiornato. Nuova grafica, nuovo logo, ottimizzazione dei contenuti e soprattutto integrazione di importanti risorse prima ospitate altrove: la <!-- raw HTML omitted -->Git Reference<!-- raw HTML omitted -->, il libro <!-- raw HTML omitted -->ProGit<!-- raw HTML omitted -->, <!-- raw HTML omitted -->Why Git is Better Than X<!-- raw HTML omitted --> e il nuovo progetto <!-- raw HTML omitted -->Git Video Series<!-- raw HTML omitted -->, che include quattro bei filmati già pronti.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Imparare Git un passo alla volta con Git Immersion</title>
@@ -75,6 +263,12 @@ via On undoing, fixing, or removing commits in git.</description>
       <guid>https://nicolaiarocci.com/imparare-git-un-passo-alla-volta-con-git-immersion/</guid>
       <description>Già sapete che Git è uno degli strumenti senza i quali non potrei più vivere, ne ho scritto anche recentemente in Branching di successo per Git e Usare Git con Dropbox. Oggi vi propongo Git Immersion, fantastico sito-laboratorio per “immergersi” in Git imparandolo passo dopo passo.
 Git Immersion è un tour guidato che ti accompagna in una passeggiata tra i fondamenti di Git, ispirato dalla premessa che conoscere una cosa significa usarla.</description>
+      <content:encoded><![CDATA[<p>Già sapete che Git è uno degli strumenti senza i quali non potrei più vivere, ne ho scritto anche recentemente in <a href="http://nicolaiarocci.com/branching-di-successo-per-git/" title="Branching di successo per Git">Branching di successo per Git</a> e <a href="http://nicolaiarocci.com/usare-git-con-dropbox/" title="Usare Git con Dropbox">Usare Git con Dropbox</a>. Oggi vi propongo <!-- raw HTML omitted -->Git Immersion<!-- raw HTML omitted -->, fantastico sito-laboratorio per “immergersi” in Git imparandolo passo dopo passo.</p>
+<!-- raw HTML omitted -->
+<blockquote>
+<p>Git Immersion è un tour guidato che ti accompagna in una passeggiata tra i fondamenti di Git, ispirato dalla premessa che conoscere una cosa significa usarla. Git è un sistema potente e sofisticato per il controllo di versione distribuito. Per lo sviluppatore conoscere e comprenderne le caratteristiche significa aprirsi a un nuovo e liberatorio approccio alla gestione del codice sorgente. Il modo migliore per padroneggiare Git è immergesi nelle sue utility ed operazioni, sperimentarlo in prima persona.</p>
+</blockquote>
+]]></content:encoded>
     </item>
     <item>
       <title>Usare Git con Dropbox</title>
@@ -86,6 +280,44 @@ Git Immersion è un tour guidato che ti accompagna in una passeggiata tra i fond
 &lt;p&gt;Recentemente, più che altro per curiosità, ho giocato con una terza opzione: &lt;!-- raw HTML omitted --&gt;Dropbox&lt;!-- raw HTML omitted --&gt;. Per me Dropbox è uno strumento indispensabile sia per il lavoro che per le mie cose personali. Su qualunque computer io sia, ovunque mi trovi, grazie a Dropbox ho accesso al mio materiale. Dunque, mi son detto, perché non usarlo anche per il codice,  pur senza rinunciare al controllo versione offerto da Git?&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://db.tt/V8L8FFo&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Ebbene ho scoperto che non solo è possibile, è anche molto semplice. In realtà non c’è nulla di nuovo in quel che vi mostro, la ‘magia’ la fa tutta Dropbox.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<!-- raw HTML omitted -->
+<h2 id="usare-dropbox-come-repository-git-remoto">Usare Dropbox come repository Git remoto</h2>
+<p>Recentemente, più che altro per curiosità, ho giocato con una terza opzione: <!-- raw HTML omitted -->Dropbox<!-- raw HTML omitted -->. Per me Dropbox è uno strumento indispensabile sia per il lavoro che per le mie cose personali. Su qualunque computer io sia, ovunque mi trovi, grazie a Dropbox ho accesso al mio materiale. Dunque, mi son detto, perché non usarlo anche per il codice,  pur senza rinunciare al controllo versione offerto da Git?</p>
+<p><a href="http://db.tt/V8L8FFo"><!-- raw HTML omitted --></a></p>
+<p>Ebbene ho scoperto che non solo è possibile, è anche molto semplice. In realtà non c’è nulla di nuovo in quel che vi mostro, la ‘magia’ la fa tutta Dropbox.</p>
+<h2 id="creare-un-git-repository-8216remoto8217-su-drobox">Creare un Git repository ‘remoto’ su Drobox</h2>
+<p>Se siete su Linux o Mac aprite una finestra terminale; su Windows aprite semplicemente Git Bash. Se avete una installazione predefinita la cartella Dropbox si trova nella HOME di Linux e Mac, oppure nella Documenti di Windows.</p>
+<p>Spostatevi nella cartella Dropbox:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Una volta entrati in ~/Dropbox create un ‘bare’ repository:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Il nostro repository privato, l’equivalente di un repo remoto alla GitHub per capirci, è pronto. Lo useremo per tenere sincronizzati i nostri computer. Naturalmente appoggiarci a Dropbox ci garantisce anche la possibilità di ricorrere a un restore di emergenza nel caso il codice venga perduto localmente.</p>
+<h2 id="creare-il-git-repository-locale">Creare il Git repository locale</h2>
+<p>Su ognuno dei computer creiamo il repository locale:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Lavoriamo un po’, quindi facciamo la nostra commit locale:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Ora colleghiamo il repo “remoto” (quello in Dropbox) al nostro repository locale:</p>
+<!-- raw HTML omitted -->
+<p>Ora possiamo fare il push verso il remoto dei files locali. Dal branch [cci lang=”bash” theme=”default”]master[/cci] verso [cci lang=”bash” theme=”default”]origin[/cci]:</p>
+<!-- raw HTML omitted -->
+<p>Fatto! Possiamo simulare facilmente il lavoro su un’altro computer. Basta clonare [cci lang=”bash” theme=”default”]progetto[/cci] dal ‘remoto’, cambiare qualche file e salvarlo:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Torniamo ora al folder locale originale. Possiamo sincronizzarlo e aggiornarlo con le modifiche fatte sul “secondo computer”:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="il-versioning-di-dropbox">Il versioning di Dropbox</h2>
+<p>Dropbox è dotato di un proprio sistema di versioning, pertanto aggiungere Git potrebbe sembrare superfluo. Qualunque sviluppatore avvezzo a Git vi dirà che non è così. Il versioning di Dropbox è adatto a file di testo, fogli di calcolo, immagini e quant’altro ma non ha niente a che vedere con le capacità di manutenzione e gestione dei progetti offerte da Git.</p>
+<h2 id="git-e-dropbox-per-gruppi-di-lavoro">Git e Dropbox per gruppi di lavoro?</h2>
+<p>E’ sufficiente condividere il folder Dropbox con altre persone per creare un ambiente di sviluppo privato ma condiviso col proprio gruppo di lavoro. In quest’ultimo caso la probabilità di conflitti aumenta notevolmente. Si tratta di una soluzione forse interessante per mini-team di 2 o 3 persone nei quali è relativamente facile evitare la generazione di conflitti (evitare le push contemporanee).</p>
+<h2 id="concludendo">Concludendo</h2>
+<p>BitBucket o GitHub (a pagamento) rimangono la soluzione ideale, e offrono molte funzionalità comunque assenti in Git+Dropbox (interfaccia web, wiki, issues, eccetera). Per piccoli progetti personali Dropbox offre una alternativa a buon mercato, rapida e comoda.</p>
+<p><em>PS: se create un account Dropbox dal link dell’articolo, oppure da <!-- raw HTML omitted -->questo<!-- raw HTML omitted -->, ricevete 500BMB extra (e altrettanti ne otterrà il sottoscritto)!</em></p>]]></content:encoded>
     </item>
     <item>
       <title>Branching di successo per Git</title>
@@ -95,6 +327,20 @@ Git Immersion è un tour guidato che ti accompagna in una passeggiata tra i fond
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Git&lt;!-- raw HTML omitted --&gt; è di gran lunga la tecnologia più significativa che il mio team ha introdotto negli ultimi tempi. Grazie a Git la nostra produttività è migliorata a tal punto che davvero non passa giorno senza che mi chieda come abbiamo potuto farne a meno così a lungo.&lt;/p&gt;
 &lt;p&gt;Git è un &lt;!-- raw HTML omitted --&gt;sistema di controllo versione&lt;!-- raw HTML omitted --&gt; ideato da Linus Torvald (quello di Linux). E’ gratuito, multi-piattaforma, distribuito e soprattutto talmente veloce che sembra aggiungere un pizzico di magia al processo produttivo. Git è una macchina del tempo con cui spostarsi avanti e indietro tra le versioni del codice. E’ l’ideale sia per progetti individuali che per gruppi di lavoro numerosi e distribuiti. L’integrità del codice e la preservazione delle versioni sono garantite da un efficiente – e veloce! – sistema di &lt;em&gt;branching&lt;/em&gt; e &lt;em&gt;merging&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Se non avete mai usato prima un sistema di controllo versione (e magari ricorrete ancora a copie manuali del codice tra una release e l’altra) gioite, perché Git vi cambierà la vita. Se venite da altri sistemi (Subversion, Team Foundation Server) sappiate che Git adotta un approccio fondamentalmente diverso: niente copie differenziali. In Git ogni repository è un mirror integrale della codebase; è quest’accorgimento ciò che rende Git così veloce.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Git<!-- raw HTML omitted --> è di gran lunga la tecnologia più significativa che il mio team ha introdotto negli ultimi tempi. Grazie a Git la nostra produttività è migliorata a tal punto che davvero non passa giorno senza che mi chieda come abbiamo potuto farne a meno così a lungo.</p>
+<p>Git è un <!-- raw HTML omitted -->sistema di controllo versione<!-- raw HTML omitted --> ideato da Linus Torvald (quello di Linux). E’ gratuito, multi-piattaforma, distribuito e soprattutto talmente veloce che sembra aggiungere un pizzico di magia al processo produttivo. Git è una macchina del tempo con cui spostarsi avanti e indietro tra le versioni del codice. E’ l’ideale sia per progetti individuali che per gruppi di lavoro numerosi e distribuiti. L’integrità del codice e la preservazione delle versioni sono garantite da un efficiente – e veloce! – sistema di <em>branching</em> e <em>merging</em>.</p>
+<p>Se non avete mai usato prima un sistema di controllo versione (e magari ricorrete ancora a copie manuali del codice tra una release e l’altra) gioite, perché Git vi cambierà la vita. Se venite da altri sistemi (Subversion, Team Foundation Server) sappiate che Git adotta un approccio fondamentalmente diverso: niente copie differenziali. In Git ogni repository è un mirror integrale della codebase; è quest’accorgimento ciò che rende Git così veloce.</p>
+<h2 id="come-e-dove-imparare-git">Come e dove imparare Git</h2>
+<p>Git non è difficile, ma richiede un pò d’impegno iniziale. In rete sono disponibili numerose e ottime fonti. Vi consiglio <!-- raw HTML omitted -->Git Pro<!-- raw HTML omitted -->, libro gratuito nella versione online. Stampatelo e tenetelo sempre a portata di mano. Ottimi anche <!-- raw HTML omitted -->Git Reference<!-- raw HTML omitted --> e <!-- raw HTML omitted -->Everyday GIT<!-- raw HTML omitted --> (consigliati dal sito ufficiale), <!-- raw HTML omitted -->Git Magic<!-- raw HTML omitted --> per quando avrete già un pò di dimestichezza con Git, e infine la valida raccolta che trovate su <!-- raw HTML omitted -->Stack Overflow<!-- raw HTML omitted -->.</p>
+<h2 id="la-potenza-è-nulla-senza-controllo">La potenza è nulla senza controllo</h2>
+<p>Uno dei risultati più interessanti che abbiamo ottenuto grazie all’adozione di Git è la pubblicazione contemporanea di più versioni del nostro <!-- raw HTML omitted -->software gestionale<!-- raw HTML omitted -->. C’è quella ufficiale (stabile) e c’é quella <em>sperimentale</em> con una anteprima delle novità a cui stiamo ancora lavorando. E’ un pò la nostra _<!-- raw HTML omitted -->night build<!-- raw HTML omitted --> e _contiene le cose non ancora mature per affrontare il grande pubblico ma già interessanti per gli utenti più smaliziati. Nel frattempo lavoriamo anche a nuove funzionalità importanti. Queste ultime vedranno la luce solo in occasione dei rilasci più significativi (tipicamente non sono più di due o tre all’anno) e non sono incluse nelle night build. In tutto questo <em>bailamme</em> di versioni, hotfix e rilasci pubblici e interni non perdiamo una linea di codice e manteniamo i nostri repository allineati, muovendoci avanti e indietro quando necessario.</p>
+<p>Per ottenere un risultato così non basta il sistema di controllo versione; è necessaria anche una ottima strategia o, per meglio dire, un modello di branching ben progettato. Dopo diversi tentativi andati più o meno a vuoto la soluzione è arrivata grazie alla scoperta dello spettacolare articolo di <!-- raw HTML omitted -->Vincent Driessen<!-- raw HTML omitted -->:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Il modello si basa su due branch principali (master e develop) e su tre di supporto (hotfix, feature e release). Lo considero talmente valido che mi sono proposto a Vincent come curatore della traduzione italiana, solo per scoprire che qualcuno prima di me <!-- raw HTML omitted -->ci aveva già pensato<!-- raw HTML omitted -->: meglio così. Da quando l’ho scoperto lo applichiamo con zelo e vi consiglio di fare altrettanto, soprattutto se lavorate su progetti complessi.</p>
+<h2 id="non-solo-codice">Non solo codice</h2>
+<p>Git è utile anche per i piccoli progetti personali. Anzi, se state cominciando vi consiglio di partire proprio da uno di questi. Non è necessario che sia un programma, potrebbe benissimo trattarsi di un file di testo qualunque. Git funziona con qualunque tipo di file e in effetti viene usato con successo per progetti di scrittura, documentazione, web design e quant’altro.</p>
+<p>Una volta presa dimestichezza con Git non potrete più rinunciarvi, qualunque sia la portata del progetto a cui state lavorando.</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

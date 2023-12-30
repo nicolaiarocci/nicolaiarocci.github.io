@@ -14,6 +14,18 @@
       <pubDate>Tue, 20 Jun 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/homebrew-and-docfx-dont-like-each-other-too/</guid>
       <description>Another day another Homebrew incompatibility emerges, this time with docfx, the technical documentation building tool of reference in .NET space. I&amp;rsquo;ve been using docfx for years to build the FatturaElettronica.NET website, and it&amp;rsquo;s always been working without a glitch. Lately, however, my builds have been failing with strange errors I was too lazy to diagnose until today when I decided to grasp the nettle and sort the whole thing out.</description>
+      <content:encoded><![CDATA[<p>Another day another Homebrew incompatibility emerges, this time with <a href="https://dotnet.github.io/docfx/index.html">docfx</a>, the technical documentation building
+tool of reference in .NET space. I&rsquo;ve been using docfx for years to build the <a href="https://fatturaelettronicaopensource.org">FatturaElettronica.NET</a> website, and it&rsquo;s
+always been working without a glitch. Lately, however, my builds have been failing with strange errors I was too lazy to
+diagnose until today when I decided to grasp the nettle and sort the whole thing out.</p>
+<p>It took me an embarrassing time to realize that, while successful, my docfx updates (<code>dotnet tool update -g docfx</code>) were
+being ignored. An old, Homebrew-installed version of docfx was being executed at my launches —a simple <code>which docfx</code>
+revealed the issue. <code>brew uninstall docfx</code> finally set the updated, dotnet-installed version free of its chains, and it
+is now merrily churning websites.</p>
+<p>A similar issue emerged <a href="/homebrew-and-dotnet-8-preview-dont-like-each-other/">between Homebrew and .NET 8 Preview</a> only a few days ago. Lesson learned I&rsquo;m not installing
+dotnet tools via Homebrew anymore. Or maybe, I might stay clear of Homebrew altogether.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

@@ -18,6 +18,24 @@
 &lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;come-usare-watermarkjs&#34;&gt;Come usare watermark.js&lt;/h2&gt;
 &lt;p&gt;La libreria innesta il marchio nelle immagini marcate con la classe CSS “watermark”. Se il nome della classe non piace è possibile cambiarlo. Se il nostro watermark è in formato JPG la libreria aggiunge per noi un livello di trasparenza, altrimenti possiamo fornirle i più idonei formati PNG e GIF.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong><a href="http://www.patrick-wied.at/static/watermarkjs/">Watermark.js</a></strong> è una libreria JavaScript che aggiunge un <!-- raw HTML omitted -->watermark<!-- raw HTML omitted --> (letteralmente <em>filigrana</em>, ovvero un logo o un marchio) alle immagini presenti sulle pagine web. Contrassegnare le immagini in modo permanente è utile a proteggerle dalla copia oppure, al contrario, ad approfittare della loro riproduzione per diffondere un marchio (<a href="http://en.wikipedia.org/wiki/Brand_awareness">brand awareness</a>). Usare watermark.js è semplice, vediamo quanto.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="come-usare-watermarkjs">Come usare watermark.js</h2>
+<p>La libreria innesta il marchio nelle immagini marcate con la classe CSS “watermark”. Se il nome della classe non piace è possibile cambiarlo. Se il nostro watermark è in formato JPG la libreria aggiunge per noi un livello di trasparenza, altrimenti possiamo fornirle i più idonei formati PNG e GIF.</p>
+<p>Prima di tutto inseriamo il riferimento allo script. E’ consigliabile inserirlo in fondo alla pagina, subito prima della chiusura del tag</p>
+<p><code>body</code></p>
+<!-- raw HTML omitted -->
+<p>Al caricamento della pagina chiamamo il metodo <code>wmark.init</code></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>La variabile <code>load</code> agisce come un flag e serve a evitare che il codice venga eseguito ad ogni postback. Infine aggiorniamo i tag HTML delle immagini a cui vogliamo aggiungere il nostro watermark</p>
+<!-- raw HTML omitted -->
+<p>E questo è tutto.</p>
+<p>Sul <!-- raw HTML omitted -->sito ufficiale<!-- raw HTML omitted --> sono disponibili un paio di demo funzionanti. La <!-- raw HTML omitted -->seconda<!-- raw HTML omitted --> mostra un uso senz’altro originale della libreria: l’inserimento di <!-- raw HTML omitted -->Codici QR<!-- raw HTML omitted --> nelle immagini. Trattandosi di un progetto open source è possibile scaricare anche il <!-- raw HTML omitted -->codice sorgente<!-- raw HTML omitted --> di watermark.js.</p>
+<h2 id="non-tutto-è-oro-quel-che-luccica">Non tutto è oro quel che luccica</h2>
+<p>Essendo implementata lato client, la protezione delle immagini non è certo garantita al cento per cento. Dobbiamo decidere cosa è più importante, l’inviolabilità delle nostre immagini o la comodità di non doverle ritoccare prima di inviarle al server. Altro fattore da non trascurare è il calo di prestazioni. Il codice JavaScript deve caricare il watermark e inserirlo nell’immagine originale. Il tempo di caricamento potrebbe risentirne, soprattutto nel caso di pagine ricche di immagini.</p>
+<p>Watermark.js è un progetto interessante e ingegnoso che va usato tenendo ben presente i suoi pregi e tutte le possibili controindicazioni.</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

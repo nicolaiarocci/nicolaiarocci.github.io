@@ -15,6 +15,22 @@
       <guid>https://nicolaiarocci.com/quicker-window-snapping-on-macos/</guid>
       <description>I never see my macOS desktop. It&amp;rsquo;s always cluttered with way too many open windows. When I spot those fantastic, tidy and clean Desktops on the internet, I envy their owners. I wonder if and how they manage to keep those desktops tidy like that the whole workday. It must feel so good.
 I try to keep my windows well arranged. The typical setup might be two windows, from two different apps, tiled side by side.</description>
+      <content:encoded><![CDATA[<p>I never see my macOS desktop. It&rsquo;s always cluttered with way too many open
+windows. When I spot those fantastic, tidy and clean Desktops on the internet,
+I envy their owners. I wonder if and how they manage to keep those desktops
+tidy like that the whole workday. It must feel so good.</p>
+<p>I try to keep my windows well arranged. The typical setup might be two windows,
+from two different apps, tiled side by side. Maybe the browser, or Postman, on
+the right, and my favourite editor on the left. Stuff like that.</p>
+<p><a href="https://hookshot.app/">Hookshot</a> is excellent for doing just that. I discovered this tiny little
+app a few weeks ago, thanks to <a href="https://www.robinrendle.com/notes/hookshot">Robin Rendle</a>. Before, I was using Moom,
+which is also good. I like Hookshot&rsquo;s dead-simple keyboard shortcuts. Once the
+single modifier key combo <em>Control+Command</em> clicks, you&rsquo;re done. Rearranging
+windows becomes a no-brainer. In a way, the experience reminds me of Vim and
+its unique muscle-memory superpower. The ten days trial ended today, and
+I purchased the license right away.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

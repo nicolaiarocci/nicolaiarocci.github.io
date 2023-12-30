@@ -15,6 +15,13 @@
       <guid>https://nicolaiarocci.com/running-dotnet-code-in-an-isolated-sandbox/</guid>
       <description>Steve Sanderson is experimenting again, and when Steve plays with his toys, I pay attention. In a new video on his YouTube channel, Steve introduces an experimental new .NET package that allows the creation of isolated instances of the .NET runtime that will safely run code in a sandbox.
 Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+      <content:encoded><![CDATA[<p>Steve Sanderson is experimenting <a href="/a-quick-preview-of-the-blazor-united-prototype-for-.net8/">again</a>, and when Steve plays with his toys, I pay attention. In a new video on his
+YouTube channel, Steve introduces an experimental new .NET package that allows the creation of isolated instances of the
+.NET runtime that will safely run code in a sandbox.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

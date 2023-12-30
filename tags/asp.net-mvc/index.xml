@@ -16,6 +16,17 @@
       <description>Oggi Microsoft annuncia una svolta che ha del clamoroso:
 Sono felice di annunciare che oggi rilasciamo il codice sorgente di ASP.NET Web API e ASP.NET Web Pages (Razor) sotto una licenza open source (Apache 2.0), e che continueremo a migliorare la trasparenza di tutti i tre progetti ospitando il loro codice sorgente su CodePlex (usando il nuovo supporto per Git annunciato la settimana scorsa).
 Ma quel che più conta, e che per un’azienda corporate ‘vecchia maniera’ come Microsoft denota davvero un’evoluzione (rivoluzione) culturale:</description>
+      <content:encoded><![CDATA[<p>Oggi Microsoft annuncia una svolta che ha del clamoroso:</p>
+<blockquote>
+<p>Sono felice di annunciare che oggi rilasciamo il codice sorgente di ASP.NET Web API e ASP.NET Web Pages (Razor) sotto una licenza open source (Apache 2.0), e che continueremo a migliorare la trasparenza di tutti i tre progetti ospitando il loro codice sorgente su CodePlex (usando il nuovo supporto per Git annunciato la settimana scorsa).</p>
+</blockquote>
+<p>Ma quel che più conta, e che per un’azienda corporate ‘vecchia maniera’ come Microsoft denota davvero un’evoluzione (rivoluzione) culturale:</p>
+<blockquote>
+<p>Per la prima volta consentiremo agli sviluppatori esterni a Microsoft di proporre patches e contributi di codice, che il nostro team di sviluppo valuterà per la potenziale inclusione diretta nei prodotti.</p>
+</blockquote>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+]]></content:encoded>
     </item>
   </channel>
 </rss>

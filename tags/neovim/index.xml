@@ -14,6 +14,116 @@
       <pubDate>Fri, 03 Mar 2023 08:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/making-csharp-and-omnisharp-play-well-with-neovim/</guid>
       <description>I&amp;rsquo;ve recently moved away from my custom Neovim configuration to embrace LazyVim. LazyVim is a Neovim setup with sane default settings for options, autocmds, and keymaps. It boldly aims to transform Neovim into a full-fledged IDE that is easy to extend and customize. It comes with a wealth of plugins pre-configured and ready to use, and it is also blazing fast. Elijah Manor has a fantastic introductory video on YouTube; I suggest you take the time to look at it.</description>
+      <content:encoded><![CDATA[<p>I&rsquo;ve recently moved away from my custom Neovim configuration to embrace <a href="https://www.lazyvim.org/">LazyVim</a>. LazyVim is a Neovim setup with sane
+default settings for options, autocmds, and keymaps. It boldly aims to transform Neovim into a full-fledged IDE that is
+easy to extend and customize. It comes with a wealth of plugins pre-configured and ready to use, and it is also blazing
+fast. Elijah Manor has a fantastic introductory video on YouTube; I suggest you take the time to look at it.</p>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/N93cTbtLCIM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<!-- raw HTML omitted -->
+So far I&rsquo;m delighted with the result. In the process, I learned about several useful plugins I now use regularly.</p>
+<h3 id="neovim-trouble-with-c-and-omnisharp">Neovim trouble with C# and OmniSharp</h3>
+<p>When I upgraded my old-<em>ish</em> Neovim (I am using nightly builds now), I started getting a weird error on every <code>.cs</code> file
+I loaded:</p>
+<pre tabindex="0"><code>Error executing vim.schedule lua callbaack: /usr/share/[...]/semantic_tokens.lua:342:E5248: Invalid character in group name.
+</code></pre><p>A little investigation revealed that semantic tokens provided by
+OmniSharp don&rsquo;t conform to the LSP specification, which triggers the error. I cloned the <em>omnisharp-roslyn</em> repo and dug
+into the code hoping I could offer a quick fix. As it turns out, however, the issue is actually with <a href="https://github.com/dotnet/roslyn/blob/3cca4fdc3b125995bfd32b3a02b5d5c2d2b82504/src/Workspaces/Core/Portable/Classification/ClassificationTypeNames.cs#L97">Roslyn
+itself</a>, not OmniSharp. There are tickets on both the <a href="https://github.com/neovim/neovim/issues/21391">Neovim</a> and the <a href="https://github.com/OmniSharp/omnisharp-roslyn/issues/2483">OmniSharp</a> repositories, but I fear
+they&rsquo;ll stagnate there as non-relevant (<em>note to self</em>: maybe report the problem to the Roslyn folks? Alternatively,
+propose a patched semantic provider to the <em>omnisharp-roslyn</em> maintainers.)</p>
+<p>Anyway, a quick, hacky, and not future-proof fix is to customize Neovim (LazyVim) configuration like this:</p>
+<pre tabindex="0"><code>-- ~/.config/nvim/lua/plugins/omnisharp.lua (create if needed)
+return {
+  &#34;OmniSharp/omnisharp-vim&#34;,
+  init = function()
+    require(&#34;lazyvim.util&#34;).on_attach(function(client, _)
+      if client.name == &#34;omnisharp&#34; then
+        client.server_capabilities.semanticTokensProvider = {
+          full = vim.empty_dict(),
+          legend = {
+            tokenModifiers = { &#34;static_symbol&#34; },
+            tokenTypes = {
+              &#34;comment&#34;,
+              &#34;excluded_code&#34;,
+              &#34;identifier&#34;,
+              &#34;keyword&#34;,
+              &#34;keyword_control&#34;,
+              &#34;number&#34;,
+              &#34;operator&#34;,
+              &#34;operator_overloaded&#34;,
+              &#34;preprocessor_keyword&#34;,
+              &#34;string&#34;,
+              &#34;whitespace&#34;,
+              &#34;text&#34;,
+              &#34;static_symbol&#34;,
+              &#34;preprocessor_text&#34;,
+              &#34;punctuation&#34;,
+              &#34;string_verbatim&#34;,
+              &#34;string_escape_character&#34;,
+              &#34;class_name&#34;,
+              &#34;delegate_name&#34;,
+              &#34;enum_name&#34;,
+              &#34;interface_name&#34;,
+              &#34;module_name&#34;,
+              &#34;struct_name&#34;,
+              &#34;type_parameter_name&#34;,
+              &#34;field_name&#34;,
+              &#34;enum_member_name&#34;,
+              &#34;constant_name&#34;,
+              &#34;local_name&#34;,
+              &#34;parameter_name&#34;,
+              &#34;method_name&#34;,
+              &#34;extension_method_name&#34;,
+              &#34;property_name&#34;,
+              &#34;event_name&#34;,
+              &#34;namespace_name&#34;,
+              &#34;label_name&#34;,
+              &#34;xml_doc_comment_attribute_name&#34;,
+              &#34;xml_doc_comment_attribute_quotes&#34;,
+              &#34;xml_doc_comment_attribute_value&#34;,
+              &#34;xml_doc_comment_cdata_section&#34;,
+              &#34;xml_doc_comment_comment&#34;,
+              &#34;xml_doc_comment_delimiter&#34;,
+              &#34;xml_doc_comment_entity_reference&#34;,
+              &#34;xml_doc_comment_name&#34;,
+              &#34;xml_doc_comment_processing_instruction&#34;,
+              &#34;xml_doc_comment_text&#34;,
+              &#34;xml_literal_attribute_name&#34;,
+              &#34;xml_literal_attribute_quotes&#34;,
+              &#34;xml_literal_attribute_value&#34;,
+              &#34;xml_literal_cdata_section&#34;,
+              &#34;xml_literal_comment&#34;,
+              &#34;xml_literal_delimiter&#34;,
+              &#34;xml_literal_embedded_expression&#34;,
+              &#34;xml_literal_entity_reference&#34;,
+              &#34;xml_literal_name&#34;,
+              &#34;xml_literal_processing_instruction&#34;,
+              &#34;xml_literal_text&#34;,
+              &#34;regex_comment&#34;,
+              &#34;regex_character_class&#34;,
+              &#34;regex_anchor&#34;,
+              &#34;regex_quantifier&#34;,
+              &#34;regex_grouping&#34;,
+              &#34;regex_alternation&#34;,
+              &#34;regex_text&#34;,
+              &#34;regex_self_escaped_character&#34;,
+              &#34;regex_other_escape&#34;,
+            },
+          },
+          range = true,
+        }
+      end
+    end)
+  end,
+}
+</code></pre><p>It overrides the <code>on_attach</code> event to pass an LSP-digestible list of semantic tokens. And voilà, C# files are now loaded seamlessly.</p>
+<p>I&rsquo;m not done yet. I&rsquo;m having another <a href="https://github.com/OmniSharp/omnisharp-roslyn/issues/2510">weird issue</a> with <em>.editorconfig</em> files. I&rsquo;m still triaging it, and will report back when (if) I sort it out.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

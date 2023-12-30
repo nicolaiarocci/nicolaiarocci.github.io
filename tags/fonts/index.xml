@@ -14,6 +14,8 @@
       <pubDate>Tue, 30 Apr 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/quali-sono-i-font-migliori-per-scrivere-codice/</guid>
       <description>Malgrado la giovane età Source Code Pro di Adobe domina incontrastato, col più classico Consolas come sua regina. Inconsolata-g e Monaco seguono a distanza mentre il mio preferito, Menlo, è tristemente indietro: What Are the Best Programming Fonts?</description>
+      <content:encoded><![CDATA[<p>Malgrado la giovane età Source Code Pro di Adobe domina incontrastato, col più classico Consolas come sua regina. Inconsolata-g e Monaco seguono a distanza mentre il mio preferito, Menlo, è tristemente indietro: <!-- raw HTML omitted -->What Are the Best Programming Fonts?<!-- raw HTML omitted --></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Google Web Fonts 2 i font gratuiti e ottimizzati per il Web</title>
@@ -21,6 +23,16 @@
       <pubDate>Tue, 05 Jul 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/google-web-fonts-v2-i-font-gratuiti-e-ottimizzati-per-il-web/</guid>
       <description>&lt;p&gt;Il progetto &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Google Web Fonts v2&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt; offre a webmaster, designer e sviluppatori un accesso facile e gratuito a una ricca selezione di fonti tipografiche di qualità, ottimizzate per il web. Google sostiene che non ci dovrebbero essere barriere finanziare per la costruzione di siti web, e che il progetto Google Web Font contribuisce alla creazione di un web più bello, leggibile, accessibile e aperto. Secondo Google nei prossimi anni la gran parte di siti web adotteranno i web fonts.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Il progetto <strong><!-- raw HTML omitted -->Google Web Fonts v2<!-- raw HTML omitted --></strong> offre a webmaster, designer e sviluppatori un accesso facile e gratuito a una ricca selezione di fonti tipografiche di qualità, ottimizzate per il web. Google sostiene che non ci dovrebbero essere barriere finanziare per la costruzione di siti web, e che il progetto Google Web Font contribuisce alla creazione di un web più bello, leggibile, accessibile e aperto. Secondo Google nei prossimi anni la gran parte di siti web adotteranno i web fonts.</p>
+<!-- raw HTML omitted -->
+<p>La versione 2 di Google Web Fonts è appena stata rilasciata ed è ricca di novità. La nuova interfaccia consente di consultare rapidamente la directory di quasi 200 fonti tipografiche, inserendo quelle prescelte in una collezione personale. Gli esempi possono essere visualizzati come parole, frasi oppure interi paragrafi di testo. E’ anche possibile vedere tutti assieme i font della propria collezione, in una apposita pagina di prova.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>I web font non sono una tecnologia nuova, sono stati <!-- raw HTML omitted -->introdotti dalle specifiche CSS3<!-- raw HTML omitted --> (2002) e sono già molto diffusi. Quelli di Google sono forniti dinamicamente dalla <strong><!-- raw HTML omitted -->Google Web Fonts API<!-- raw HTML omitted --></strong>, una applicazione ad alte prestazioni ospitata sui server di Mountain View. Il lavoro che dobbiamo fare noi è semplicemente quello di incollare una riga di codice nella nostra pagina HTML, dopodiché potremo usare il web font come un qualunque font standard. Questa soluzione garantisce indipendenza dalla piattaforma software del client e libertà di scelta, al costo di un minimo rischio di incompatibilità verso browser molto datati (<!-- raw HTML omitted -->qui<!-- raw HTML omitted --> trovate una lista aggiornata).</p>
+<p><!-- raw HTML omitted -->Google tiene molto alla velocità della rete, e dei siti web in particolare, tanto da farne uno dei fattori di ranking per il suo motore di ricerca. Non stupisce quindi che venga fornito anche un indicatore di prestazioni che, in base al tipo e alle caratteristiche dei font selezionati, stima il tempo di caricamento del font nella nostra pagina web. In generale l’accesso alla API (e al sottostante CDN) è rapidissimo e non dovrebbe porre alcun tipo di problema.</p>
+<p>Il mio interesse in Google Web Font v2 è nato in seguito alla visione della anteprima presentata alla <!-- raw HTML omitted -->Google I/O 2011<!-- raw HTML omitted -->. Se volete potete seguirla per intero anche voi:</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p> </p>]]></content:encoded>
     </item>
   </channel>
 </rss>

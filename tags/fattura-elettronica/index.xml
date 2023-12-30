@@ -15,6 +15,11 @@
       <guid>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.11/</guid>
       <description>Fattura Elettronica for .NET v3.4.11 was released on NuGet today. The Fattura Elettronica project allows for the fixes a missing validation point. See the changelog for details (Italian). validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. This release
 Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+      <content:encoded><![CDATA[<p><a href="https://fatturaelettronicaopensource.org/docs">Fattura Elettronica</a> for .NET v3.4.11 was released on NuGet today. The Fattura Elettronica project allows for the
+fixes a missing validation point. See the <a href="https://fatturaelettronicaopensource.org/docs/changelog.html#v-3411">changelog</a> for details (Italian). validation and de/serialization of
+electronic invoices following the Italian Revenue Agency standards. This release</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>FatturaElettronica for .NET v3.4.10</title>
@@ -23,6 +28,11 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
       <guid>https://nicolaiarocci.com/fattura-elettronica-for-dotnet-v3.4.10/</guid>
       <description>Fattura Elettronica for .NET v3.4.10 was released on NuGet today. The Fattura Elettronica project allows for the validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. This release adds a missing validation point. See the changelog for details (Italian).
 Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+      <content:encoded><![CDATA[<p><a href="https://fatturaelettronicaopensource.org/docs">Fattura Elettronica</a> for .NET v3.4.10 was released on NuGet today. The Fattura Elettronica project allows for the
+validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. This release
+adds a missing validation point. See the <a href="https://fatturaelettronicaopensource.org/docs/changelog.html#v-3410">changelog</a> for details (Italian).</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>FatturaElettronica for .NET v3.4.8</title>
@@ -31,6 +41,12 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
       <guid>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.8/</guid>
       <description>Fattura Elettronica for .NET v3.4.8 was released on NuGet today. The Fattura Elettronica project allows for the validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. As with the previous one, this release also addresses a small undocumented behavior in validating the invoice. See the relevant ticket for the details.
 Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+      <content:encoded><![CDATA[<p>Fattura Elettronica for .NET v3.4.8 was <a href="https://www.nuget.org/packages/FatturaElettronica/3.4.8">released</a> on NuGet today. The <a href="https://fatturaelettronicaopensource.org/">Fattura Elettronica</a> project allows for the
+validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. As with the
+previous one, this release also addresses a small undocumented behavior in validating the invoice. See the <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/396">relevant
+ticket</a> for the details.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>FatturaElettronica for .NET v3.4.7</title>
@@ -39,6 +55,14 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
       <guid>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.7/</guid>
       <description>Fattura Elettronica for .NET v3.4.7 was released on NuGet today. The Fattura Elettronica project allows for the validation and de/serialization of electronic invoices adhering to the canon defined by the Italian Revenue Agency.
 This release refines how the one-cent tolerance is accounted for in validation checks of types 00421 and 00423. As is often the case, there are subtle differences between the theoretical implementation defined in the official specs and the actual validation implemented by the same Agency that released said specs.</description>
+      <content:encoded><![CDATA[<p>Fattura Elettronica for .NET v3.4.7 was <a href="https://www.nuget.org/packages/FatturaElettronica/3.4.7">released</a> on NuGet today. The <a href="https://fatturaelettronicaopensource.org">Fattura Elettronica project</a> allows for
+the validation and de/serialization of electronic invoices adhering to the canon defined by the Italian Revenue Agency.</p>
+<p>This release refines how the one-cent tolerance is accounted for in validation checks of types 00421 and 00423. As is
+often the case, there are subtle differences between the theoretical implementation defined in the official specs and
+the actual validation implemented by the same Agency that released said specs. See the <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/394">relevant ticket</a> for the
+details.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>FatturaElettronica v3.4 released</title>
@@ -47,6 +71,16 @@ This release refines how the one-cent tolerance is accounted for in validation c
       <guid>https://nicolaiarocci.com/fatturaelettronica-v3.4-released/</guid>
       <description>Today I released v3.4 of FatturaElettronica, a .NET open source project that allows validation and de/serialization of electronic invoices adhering to the standard defined by the Italian &amp;ldquo;Agenzia delle Entrate&amp;rdquo;. It&amp;rsquo;s doing very well for such a niche project, with downloads now well beyond the one hundred thousand mark.
 Be aware that this release anticipates support for v1.7.1 of the specification going into effect on October 1, 2022. For more information, see the appropriate ticket and the changelog.</description>
+      <content:encoded><![CDATA[<p>Today I released v3.4 of <a href="https://fatturaelettronicaopensource.org/">FatturaElettronica</a>, a .NET open source project
+that allows validation and de/serialization of electronic invoices adhering to
+the standard defined by the Italian &ldquo;Agenzia delle Entrate&rdquo;. It&rsquo;s doing very
+well for such a niche project, with downloads now well beyond the one hundred
+thousand mark.</p>
+<p>Be aware that this release anticipates support for <a href="https://www.agenziaentrate.gov.it/portale/web/guest/specifiche-tecniche-versione-1.7.1">v1.7.1</a> of the
+specification going into effect on October 1, 2022. For more information, see
+the appropriate <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/376">ticket</a> and the <a href="https://fatturaelettronicaopensource.org/docs/changelog.html#v-34">changelog</a>.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>FatturaElettronicaPA for .NET has been updated</title>
@@ -55,6 +89,9 @@ Be aware that this release anticipates support for v1.7.1 of the specification g
       <guid>https://nicolaiarocci.com/fatturaelettronicapa-for-net-has-been-updated/</guid>
       <description>FatturaElettronicaPA has just been updated to v0.1.4. With this release invoice bodies (FatturaElettronicaBody items) are also validated. As always, you can install the package directly from NuGet. See the original post for more info. Also don’t forget to check the related projects.
 Update: v0.1.6 has also been released.</description>
+      <content:encoded><![CDATA[<p><a href="https://github.com/FatturaElettronicaPA/FatturaElettronicaPA">FatturaElettronicaPA</a> has just been updated to v0.1.4. With this release invoice bodies (<code>FatturaElettronicaBody</code> items) are also validated. As always, you can install the package directly from <a href="https://www.nuget.org/packages/FatturaElettronicaPA/">NuGet</a>. See the <a href="http://nicolaiarocci.com/fattura-elettronica-open-source/">original post</a> for more info. Also don’t forget to check the <a href="https://github.com/FatturaElettronicaPA">related projects</a>.</p>
+<p>Update: v0.1.6 has also been released.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Fattura Elettronica Open Source: Web Service PA</title>
@@ -64,6 +101,33 @@ Update: v0.1.6 has also been released.</description>
       <description>this post is about an all-Italian open source release, so it’s going to be in Italian
 Il progetto Fattura Elettronica Open Source si è arricchito di un nuovo strumento: Web Services. Il namespace FatturaElettronicaPA.WebServices raccoglie una serie di client C# che consentono di consultare i Web Service per la Fattura Elettronica messi a disposizione dalla Pubblica Amministrazione.
 Sono disegnati in maniera da esporre tutti la stessa interfaccia ed essere al tempo stesso semplici e leggeri.</description>
+      <content:encoded><![CDATA[<p><em>this post is about an all-Italian open source release, so it’s going to be in Italian</em></p>
+<p>Il progetto <a href="http://nicolaiarocci.com/fattura-elettronica-open-source/">Fattura Elettronica Open Source</a> si è arricchito di un nuovo strumento: <a href="https://github.com/FatturaElettronicaPA/FatturaElettronicaPA.WebServices">Web Services</a>. Il namespace <code>FatturaElettronicaPA.WebServices</code> raccoglie una serie di client C# che consentono di consultare i Web Service per la Fattura Elettronica messi a disposizione dalla Pubblica Amministrazione.</p>
+<p>Sono disegnati in maniera da esporre tutti la stessa interfaccia ed essere al tempo stesso semplici e leggeri. Al momento lavorano in modalità sincrona ma l’obiettivo è di renderli tutti asincroni.</p>
+<h2 id="come-usare-i-web-service">Come usare i Web Service</h2>
+<p>Prendiamo per esempio il Web Service che consente di convalidare un Codice Univoco di Fatturazione e recuperare le informazioni relative all’ufficio:</p>
+<pre><code>var ws = new CodiceUnivocoFatturazioneWebService()
+
+// Authorization Id ricevuto dall'ente.
+ws.AuthId = &quot;&lt;auth Id&gt;&quot;;
+// Codice univoco dell'ufficio che ci interessa
+ws.CodiceUfficio = &quot;KN3VNW&quot;;
+
+ws.PerformRequest();
+if (ws.Ufficio == null) return;
+
+// &quot;Ravenna&quot;
+Console.WriteLine(ws.Ufficio.Comune);
+</code></pre>
+<p>Molto semplice. Gli altri WebService (sono sette in tutto) operano secondo lo stesso schema. Ricordo che per l’utilizzo dei Web Services della Pubblica Amministrazione è necessario richiedere una specifica autorizzazione. L’Authorization Id è gratuito ed il rilascio è immediato, ma bisogna compilare un apposito <a href="http://www.indicepa.gov.it/registr-user-ws/ws-registrazione-start.php">questionario</a>.</p>
+<h2 id="installazione">Installazione</h2>
+<p>FatturaElettronicaPA.WebServices è su <a href="https://www.nuget.org/packages/FatturaElettronicaPA.WebServices/">NuGet</a> quindi tutto quel che serve è eseguire:</p>
+<pre><code>PM&gt; Install-Package FatturaElettronicaPA.WebServices
+</code></pre>
+<p>dalla Package Console, oppure usare il comando equivalente in Visual Studio.</p>
+<p>La libreria è una portable class library e gira senza modifiche sui seguenti ambienti: .NET Framework 4.0 e superiori; Xamarin.iOS; Xamarin.Android; Windows Phone 8; Windows Store apps (Windows 8); Silverlight 5.0. Enjoy!</p>
+<p>If you want to get in touch, I am @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Fattura Elettronica Open Source Update</title>
@@ -71,6 +135,8 @@ Sono disegnati in maniera da esporre tutti la stessa interfaccia ed essere al te
       <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/fattura-elettronica-open-source-update/</guid>
       <description>Fattura Elettronica Open Source has been updated to v0.1.3 a few days ago and is available on NuGet. Sources are on GitHub. It fixes a deserialization issue with the ReadXML method.</description>
+      <content:encoded><![CDATA[<p><a href="http://fatturaelettronicaopensource.org/">Fattura Elettronica Open Source</a> has been updated to v0.1.3 a few days ago and is available on <a href="https://www.nuget.org/packages/FatturaElettronicaPA/">NuGet</a>. Sources are on <a href="https://github.com/FatturaElettronicaPA/FatturaElettronicaPA">GitHub</a>. It fixes a deserialization issue with the <code>ReadXML</code> method.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Fattura Elettronica Open Source</title>
@@ -79,6 +145,73 @@ Sono disegnati in maniera da esporre tutti la stessa interfaccia ed essere al te
       <guid>https://nicolaiarocci.com/fattura-elettronica-open-source/</guid>
       <description>&lt;p&gt;&lt;em&gt;this post is about an all-italian open source release, so it’s going to be in italian&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/FatturaElettronicaPA&#34;&gt;FatturaElettronicaPA&lt;/a&gt; è un nuovo progetto open source che ho rilasciato qualche giorno fa assieme alla &lt;a href=&#34;http://gestionaleamica.com&#34;&gt;mia azienda&lt;/a&gt;. Si tratta di una libreria C# che permette di leggere, scrivere e convalidare le Fatture Elettroniche aderenti alle specifiche del &lt;a href=&#34;http://www.fatturapa.gov.it/export/fatturazione/sdi/Specifiche_tecniche_del_formato_FatturaPA_V1.1.pdf&#34;&gt;sistema di interscambio&lt;/a&gt; della Pubblica Amministrazione.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><em>this post is about an all-italian open source release, so it’s going to be in italian</em></p>
+<p><a href="https://github.com/FatturaElettronicaPA">FatturaElettronicaPA</a> è un nuovo progetto open source che ho rilasciato qualche giorno fa assieme alla <a href="http://gestionaleamica.com">mia azienda</a>. Si tratta di una libreria C# che permette di leggere, scrivere e convalidare le Fatture Elettroniche aderenti alle specifiche del <a href="http://www.fatturapa.gov.it/export/fatturazione/sdi/Specifiche_tecniche_del_formato_FatturaPA_V1.1.pdf">sistema di interscambio</a> della Pubblica Amministrazione.</p>
+<p>Rilasciata come <a href="https://msdn.microsoft.com/en-us/library/gg597391%28v=vs.110%29.aspx">Portable Class Library</a>, FatturaElettronicaPA gira senza modifiche sui seguenti ambienti:</p>
+<ul>
+<li>.NET Framework 4.0 e superiori,</li>
+<li>Xamarin.iOS</li>
+<li>Xamarin.Android</li>
+<li>Windows Phone 8</li>
+<li>Windows Store apps (Windows 8)</li>
+<li>Silverlight 5.0</li>
+</ul>
+<h2 id="come-usare-la-fattura-elettronica-pa">Come usare la Fattura Elettronica PA</h2>
+<p>Usarla è molto semplice. Prima creiamo una istanza di <code>FatturaElettronica</code>:</p>
+<pre><code>// instanzia una nuova fattura elettronica
+FatturaElettronica fattura = new FatturaElettronica();
+</code></pre>
+<p>Quindi leggiamo da un file standard SDI. E’ sufficiente passare un <code>XmlReader</code> attivo al metodo <code>FatturaElettronica.ReadXml()</code>:</p>
+<pre><code>// lettura da file XML compatibile con formato SDI1.1
+var s = new XmlReaderSettings {IgnoreWhitespace = true};
+var r = XmlReader.Create(&quot;IT01234567890_11111.xml&quot;, s);
+fattura.ReadXml(r);
+</code></pre>
+<p>La fattura si aggiorna cambiando i valori delle sue proprietà. Qui aggiorniamo il regime fiscale del mittente. Basterebbe una sola riga di codice; usiamo tre linee per una migliore leggibilità:</p>
+<pre><code>// modifica valore
+var header = fattura.FatturaElettronicaHeader
+var prestatore = header.CedentePrestatore
+prestatore.DatiAnagrafici.RegimeFiscale = &quot;RF11&quot;;
+</code></pre>
+<p>Convalidare una fattura è un gioco da ragazzi. La proprietà <code>Error</code> conterrà tutti gli errori eventualmente riscontrati.</p>
+<pre><code>// convalida documento
+if (!fattura.IsValid) {
+    Debug.WriteLine(fattura.Error);
+}
+</code></pre>
+<p>Stampiano la fattura come flusso JSON:</p>
+<pre><code>// serializzazione JSON
+var json = fattura.ToJson(JsonOptions.Indented);
+Debug.WriteLine(json);
+</code></pre>
+<p>Infine, salvarla su file standard SDI è solo questione di aprire un file con <code>XmlWriter</code> e passarlo al metodo <code>WriteXml</code>:</p>
+<pre><code>// serializzazione XML secondo lo standard SDI 1.1
+var s = new XmlWriterSettings { Indent = true };
+
+XmlWriter w;
+var fileName = &quot;IT01234567890_11111.xml&quot;
+using (w = XmlWriter.Create(fileName, s)) {
+    fattura.WriteXml(w);
+}
+</code></pre>
+<h2 id="installazione">Installazione</h2>
+<p>FatturaElettronicaPA è un package <a href="https://www.nuget.org/packages/FatturaElettronicaPA/">NuGet</a>. Per installarlo è sufficiente usare la Package Console manualmente:</p>
+<pre><code>PM&gt; Install-Package FatturaElettronicaPA
+</code></pre>
+<p>oppure usare la interfaccia di Visual Studio.</p>
+<h2 id="progetti-satellite">Progetti satellite</h2>
+<p><code>FatturaElettronica</code> deriva a sua volta da <a href="https://github.com/FatturaElettronicaPA/BusinessObjects">BusinessObjects</a>, una classe che implementa la (de)serializzazione e la convalida base.</p>
+<p><a href="https://github.com/FatturaElettronicaPA/FatturaElettronicaPA.Forms">FatturaElettronica.Forms</a> è invece una libreria WinForms che provvede una UI per l’editing e la segnalazione degli errori di convalida. Al momento supporta l’intestazione (header) e viene già usato in produzione nel nostro software gestionale:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>In futuro sarebbe utile aggiungere supporto per la visualizzazione e convalida del corpo fattura (Body).</p>
+<p><a href="https://github.com/FatturaElettronicaPA/FatturaElettronicaPA.WebServices">FatturaElettronica.WebServices</a> consente di interrogare i diversi Web Service della Pubblica Amministrazione dedicati alla fatturazione elettronica. Tutti i progetti relativi alla fatturazione elettronica sono disponibili su <a href="https://github.com/FatturaElettronicaPA">GitHub</a>.</p>
+<h2 id="perché-la-fattura-elettronica-open-source">Perché la Fattura Elettronica Open Source?</h2>
+<p>Dallo scorso 6 Giugno 2014 i Ministeri, le Agenzie fiscali, le scuole e gli enti nazionali di previdenza non accettano più fatture emesse o trasmesse in forma cartacea. A partire dal 31 marzo 2015 la stessa disposizione è estesa agli altri Enti a carattere Nazionale ed a tutte le amministrazioni locali.</p>
+<p>L’adozione delle fatture elettroniche è in pieno svolgimento e non crediamo di sbagliarci immaginando un futuro non troppo remoto in cui questo formato verrà adottato (per imposizione, come ci pare probabile, o per comodità) anche dal settore privato, diventando di fatto lo standard di riferimento.</p>
+<p>Noi ci siamo trovati a dover implementare il supporto per la fatturazione elettronica per gli utenti di <a href="http://gestionaleamica.com">Amica 10</a>, il nostro software gestionale. Abbiamo pensato che questa fosse una buona occasione per rendere libero il nostro lavoro così che chiunque possa utilizzarlo per mettersi rapidamente al passo e magari decidere di dare una mano in uno dei tanti modi possibili: <a href="https://github.com/FatturaElettronicaPA/FatturaElettronicaPA/issues">segnalando problemi</a>, <a href="https://github.com/FatturaElettronicaPA">contribuendo direttamente</a> al progetto, o semplicemente parlandone in giro.</p>
+<p>Il software è migliore quando è condiviso.</p>
+<p>If you want to get in touch, I am @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter.</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

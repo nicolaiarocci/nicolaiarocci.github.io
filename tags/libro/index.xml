@@ -14,6 +14,8 @@
       <pubDate>Thu, 08 Mar 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/primo-importante-aggiornamento-del-piccolo-libro-di-mongodb/</guid>
       <description>Se avete già scaricato il Piccolo Libro di MongoDB vi consiglio di aggiornarlo con la versione odierna. E’ stato aggiunto un capitolo (MapReduce) misteriosamente assente nella prima edizione. Grazie a Walter Tommasi per la preziosa segnalazione, e a Git per averne consentito il recupero in extremis.</description>
+      <content:encoded><![CDATA[<p>Se avete già scaricato il <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB">Piccolo Libro di MongoDB</a> vi consiglio di aggiornarlo con la versione odierna. E’ stato aggiunto un capitolo (MapReduce) misteriosamente assente nella prima edizione. Grazie a Walter Tommasi per la preziosa segnalazione, e a <a href="http://nicolaiarocci.com/branching-di-successo-per-git/" title="Branching di successo per Git">Git</a> per averne consentito il recupero in extremis.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>E’ uscito il Piccolo Libro di MongoDB</title>
@@ -21,6 +23,8 @@
       <pubDate>Tue, 21 Feb 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/e-uscito-il-piccolo-libro-di-mongodb/</guid>
       <description>Il Piccolo Libro di MongoDB, edizione italiana di The Little MongoDB Book, è finalmente disponibile online. C’è voluto un bel po’ di lavoro, e sono certo i primi lettori scoveranno una serie di errori raccapriccianti, ma vi invito comunque a leggerlo e farmi sapere cosa ne pensate.</description>
+      <content:encoded><![CDATA[<p><a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB, Edizione Italiana">Il Piccolo Libro di MongoDB</a>, edizione italiana di The Little MongoDB Book, è finalmente <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB">disponibile online</a>. C’è voluto un bel po’ di lavoro, e sono certo i primi lettori scoveranno una serie di errori raccapriccianti, ma vi invito comunque a leggerlo e farmi sapere cosa ne pensate.</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

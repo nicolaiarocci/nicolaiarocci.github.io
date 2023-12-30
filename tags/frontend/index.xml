@@ -16,6 +16,12 @@
       <description>Se vi occupate di frontend non perdetevi lo spettacolare articolo in cui Majd Taby ci spiega come usare al meglio il WebKit Inspector.
 Il panorama mobile è monopolizzato da WebKit e di conseguenza gran parte degli strumenti e dell’infrastruttura per lo sviluppo di applicazioni frontend mobile (e non solo, ndr) risiedono nel WebKit Inspector. Per questo ne analizzerò con cura gli strumenti e spiegherò come e quando usarli.
 Ci sono anche le slide.</description>
+      <content:encoded><![CDATA[<p>Se vi occupate di frontend non perdetevi lo spettacolare articolo in cui Majd Taby ci spiega <!-- raw HTML omitted -->come usare al meglio il WebKit Inspector<!-- raw HTML omitted -->.</p>
+<blockquote>
+<p>Il panorama mobile è monopolizzato da WebKit e di conseguenza gran parte degli strumenti e dell’infrastruttura per lo sviluppo di applicazioni frontend mobile (e non solo, ndr) risiedono nel WebKit Inspector. Per questo ne analizzerò con cura gli strumenti e spiegherò come e quando usarli.</p>
+</blockquote>
+<p>Ci sono anche le <!-- raw HTML omitted -->slide<!-- raw HTML omitted -->.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Web Designer e Programmatori Front End si incontrano a From The Front 2011</title>
@@ -23,6 +29,10 @@ Ci sono anche le slide.</description>
       <pubDate>Fri, 23 Sep 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/web-designer-e-programmatori-front-end-si-incontrano-a-from-the-front-2011/</guid>
       <description>Giovedì 29 Settembre sarò a Cesena per partecipare a From The Front 2011, conferenza-evento di una giornata dedicata a programmatori front end e web designer. Il programma dei talk pomeridiani è interessante, vi consiglio di dare una occhiata anche perché il costo di iscrizione è pari a zero irrisorio. Se venite battete un colpo: è una buona occasione per incontrarsi di persona (magari al party che seguirà l’evento).</description>
+      <content:encoded><![CDATA[<p>Giovedì 29 Settembre sarò a Cesena per partecipare a <!-- raw HTML omitted -->From The Front 2011<!-- raw HTML omitted -->, conferenza-evento di una giornata dedicata a programmatori front end e web designer. Il programma dei talk pomeridiani è interessante, vi consiglio di dare una occhiata anche perché il costo di iscrizione è <!-- raw HTML omitted -->pari a zero<!-- raw HTML omitted --> irrisorio. Se venite battete un colpo: è una buona occasione per incontrarsi di persona (magari al party che seguirà l’evento).</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+]]></content:encoded>
     </item>
   </channel>
 </rss>

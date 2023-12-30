@@ -14,6 +14,61 @@
       <pubDate>Sat, 19 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/sublimetext-2-un-sofisticato-text-editor-per-codice-html-e-prosa/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;SublimeText 2&lt;!-- raw HTML omitted --&gt; è il mio nuovo text editor preferito. Veloce, ricco di &lt;a href=&#34;http://www.sublimetext.com/features&#34;&gt;funzioni avanzate&lt;/a&gt; eppure semplice grazie a una interfaccia gradevole e minimalista. Mi ci sono imbattuto per caso quando ormai avevo rinunciato a trovare un valido sostituto a TextMate. Cercavo da tempo una soluzione &lt;strong&gt;multi piattaforma&lt;/strong&gt; che mi consentisse di lavorare nello stesso ambiente sia a casa (OSX) che in ufficio (Windows). SublimeText 2 gira su &lt;strong&gt;Windows&lt;/strong&gt;, &lt;strong&gt;OSX&lt;/strong&gt; e &lt;strong&gt;Linux&lt;/strong&gt; e sta raccogliendo attorno a sé una &lt;a href=&#34;http://www.sublimetext.com/forum/&#34;&gt;comunità molto attiva&lt;/a&gt; di supporters e sviluppatori entusiasti.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->SublimeText 2<!-- raw HTML omitted --> è il mio nuovo text editor preferito. Veloce, ricco di <a href="http://www.sublimetext.com/features">funzioni avanzate</a> eppure semplice grazie a una interfaccia gradevole e minimalista. Mi ci sono imbattuto per caso quando ormai avevo rinunciato a trovare un valido sostituto a TextMate. Cercavo da tempo una soluzione <strong>multi piattaforma</strong> che mi consentisse di lavorare nello stesso ambiente sia a casa (OSX) che in ufficio (Windows). SublimeText 2 gira su <strong>Windows</strong>, <strong>OSX</strong> e <strong>Linux</strong> e sta raccogliendo attorno a sé una <a href="http://www.sublimetext.com/forum/">comunità molto attiva</a> di supporters e sviluppatori entusiasti.</p>
+<p>Mi ha colpito l’interfaccia, davvero al servizio dei contenuti. La <strong>Minimap</strong> è una trovata originale che offre una vista “da diecimila metri di quota” sul codice. Immaginate di levarvi in volo e osservare il vostro codice dall’alto: apparirà come una ‘lenzuolata’ sulla quale potete cliccare per spostarvi rapidamente da una zona all’altra del vostro documento. Notevole anche il <strong>doppio (o triplo) pannello</strong> che consente di lavorare in linea su più files.</p>
+<!-- raw HTML omitted -->
+<pre><code>      &lt;p class=&quot;wp-caption-text&quot;&gt;
+        Doppio pannello per lavorare su più files contemporaneamente
+      &lt;/p&gt;
+    &lt;/div&gt;&lt;/td&gt; 
+    
+    &lt;td&gt;
+      &lt;p&gt;
+        &lt;div id=&quot;attachment_1639&quot; style=&quot;width: 220px&quot; class=&quot;wp-caption alignnone&quot;&gt;
+          &lt;a href=&quot;http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/SublimeText2-SyntaxHighlighting.png&quot; rel=&quot;lightbox[1637]&quot;&gt;&lt;img class=&quot;size-full wp-image-1639 &quot; title=&quot;SublimeText 2- Syntax Highlighting&quot; src=&quot;http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/SublimeText2-SyntaxHighlighting.png?w=210&quot; alt=&quot;SublimeText 2- Syntax Highlighting&quot; srcset=&quot;http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/SublimeText2-SyntaxHighlighting.png?w=900 900w, http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/SublimeText2-SyntaxHighlighting.png?resize=150%2C93 150w, http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/SublimeText2-SyntaxHighlighting.png?resize=300%2C187 300w, http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/SublimeText2-SyntaxHighlighting.png?resize=480%2C300 480w&quot; sizes=&quot;(max-width: 525px) 100vw, 525px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+          
+          &lt;p class=&quot;wp-caption-text&quot;&gt;
+            Syntax Highlighting di PHP, HTML e JavaScript nella stessa finestra
+          &lt;/p&gt;
+        &lt;/div&gt;&lt;/td&gt; &lt;/tr&gt; 
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;p&gt;
+              &lt;div id=&quot;attachment_1642&quot; style=&quot;width: 220px&quot; class=&quot;wp-caption alignnone&quot;&gt;
+                &lt;a href=&quot;http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/SublimeText2-RegEx.png&quot; rel=&quot;lightbox[1637]&quot;&gt;&lt;img class=&quot;size-full wp-image-1642 &quot; title=&quot;SublimeText 2 - RegEx&quot; src=&quot;http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/SublimeText2-RegEx.png?w=210&quot; alt=&quot;SublimeText 2 - RegEx&quot; srcset=&quot;http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/SublimeText2-RegEx.png?w=900 900w, http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/SublimeText2-RegEx.png?resize=150%2C93 150w, http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/SublimeText2-RegEx.png?resize=300%2C187 300w, http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/SublimeText2-RegEx.png?resize=480%2C300 480w&quot; sizes=&quot;(max-width: 525px) 100vw, 525px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+                
+                &lt;p class=&quot;wp-caption-text&quot;&gt;
+                  Ricerca e sostituzione con le Regular Expression
+                &lt;/p&gt;
+              &lt;/div&gt;&lt;/td&gt; 
+              
+              &lt;td&gt;
+                &lt;p&gt;
+                  &lt;div id=&quot;attachment_1643&quot; style=&quot;width: 220px&quot; class=&quot;wp-caption alignnone&quot;&gt;
+                    &lt;a href=&quot;images/SublimeText2-MultipleSelections.png&quot; rel=&quot;lightbox[1637]&quot;&gt;&lt;img class=&quot;size-full wp-image-1643   &quot; title=&quot;SublimeText 2 - Selezione Multipla&quot; src=&quot;http://i1.wp.com/nicolaiarocci.com/wp-content/uploads/SublimeText2-MultipleSelections.png?fit=210%2C131&quot; alt=&quot;SublimeText 2 - Selezione Multipla&quot; srcset=&quot;http://i1.wp.com/nicolaiarocci.com/wp-content/uploads/SublimeText2-MultipleSelections.png?w=900 900w, http://i1.wp.com/nicolaiarocci.com/wp-content/uploads/SublimeText2-MultipleSelections.png?resize=150%2C93 150w, http://i1.wp.com/nicolaiarocci.com/wp-content/uploads/SublimeText2-MultipleSelections.png?resize=300%2C187 300w, http://i1.wp.com/nicolaiarocci.com/wp-content/uploads/SublimeText2-MultipleSelections.png?resize=480%2C300 480w&quot; sizes=&quot;(max-width: 210px) 100vw, 210px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+                    
+                    &lt;p class=&quot;wp-caption-text&quot;&gt;
+                      Selezione multipla e Minimap facilitano notevolmente il lavoro
+                    &lt;/p&gt;
+                  &lt;/div&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; 
+                  
+                  &lt;p&gt;
+                    Tra le altre caratteristiche degne di nota segnalo la ricerca e sostituzione via &lt;strong&gt;regular expression&lt;/strong&gt;, la selezione multipla, il &lt;strong&gt;completamento automatico&lt;/strong&gt;, gli &lt;strong&gt;snippet già pronti&lt;/strong&gt;, l&amp;#8217;&lt;strong&gt;automazione&lt;/strong&gt; dei processi frequenti, l&amp;#8217;evidenziazione degli elementi del linguaggio (&lt;strong&gt;syntax highlighting&lt;/strong&gt;) per ASP, Python, JavaScript, HTML, Java, C#, C++, JSON e molti altri linguaggi. Ci sono decine di &lt;strong&gt;plugin&lt;/strong&gt; e il prodotto è seguito con &lt;strong&gt;aggiornamenti frequenti&lt;/strong&gt; (che al mio adorato TextMate mancano ormai da troppo da tempo).
+                  &lt;/p&gt;
+                  
+                  &lt;p&gt;
+                    Unica controindicazione che ho riscontrato finora è la non completa aderenza alle combinazioni di tastiera standard a cui OSX mi ha abituato. Per esempio la combinazione di tasti Command-, (virgola) non richiama le Preferenze come invece succede con qualunque programma Mac-nativo.
+                  &lt;/p&gt;
+                  
+                  &lt;p&gt;
+                    Se siete alla ricerca di un text editor evoluto non fatevi scappare questa piccola gemma.
+                  &lt;/p&gt;
+                  
+                  &lt;p&gt;
+                    &lt;em&gt;PS: ho scritto un seguito a questo articolo: &lt;a title=&quot;Sublime Text 2 un anno dopo&quot; href=&quot;http://nicolaiarocci.com/sublime-text-2-un-anno-dopo/&quot;&gt;Sublime Text 2 un anno dopo&lt;/a&gt;.&lt;/em&gt;
+                  &lt;/p&gt;
+</code></pre>]]></content:encoded>
     </item>
   </channel>
 </rss>

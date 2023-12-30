@@ -15,6 +15,98 @@
       <guid>https://nicolaiarocci.com/introducing-eve-net-httprest-client-humans/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/nicolaiarocci/Eve.NET&#34;&gt;Eve.NET&lt;/a&gt; is a simple HTTP and REST client for Web Services powered by the &lt;a href=&#34;http://python-eve.org&#34;&gt;Eve Framework&lt;/a&gt;. It leverages both &lt;code&gt;System.Net.HttpClient&lt;/code&gt; and &lt;code&gt;Json.NET&lt;/code&gt; to provide the best possible Eve experience on the .NET platform.&lt;/p&gt;
 &lt;p&gt;Written and maintained by the same author of the Eve Framework itself, Eve.NET is delivered as a portable library (PCL) and runs seamlessly on .NET4, Mono, Xamarin.iOS, Xamarin.Android, Windows Phone 8 and Windows 8. We use Eve.NET internally to power our iOS, Web and Windows applications.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><a href="https://github.com/nicolaiarocci/Eve.NET">Eve.NET</a> is a simple HTTP and REST client for Web Services powered by the <a href="http://python-eve.org">Eve Framework</a>. It leverages both <code>System.Net.HttpClient</code> and <code>Json.NET</code> to provide the best possible Eve experience on the .NET platform.</p>
+<p>Written and maintained by the same author of the Eve Framework itself, Eve.NET is delivered as a portable library (PCL) and runs seamlessly on .NET4, Mono, Xamarin.iOS, Xamarin.Android, Windows Phone 8 and Windows 8. We use Eve.NET internally to power our iOS, Web and Windows applications.</p>
+<p><em>And now please forgive me while I take you on a quick motivational, strongly opinionated, probably boring and overzealous detour</em></p>
+<hr>
+<h2 id="python-and-c-motherfucker-do-you-speak-it-">Python and C# Motherfucker, Do You Speak It? *</h2>
+<p>If you don’t then well, you should consider doing just that. Especially so these days, with C# and the whole .NET platform going open source and cross platform. Actually, thanks to technologies like Mono and Xamarin (also based on Mono) we have been able to run C# code on all major platforms for a while: iOS, Android, OSX, Linux, Windows, Windows Phone, you-name-it. And what’s even better, on mobile platforms C# is compiled to native so performance is a non-issue.</p>
+<p>What makes C# a perfect match for a REST API is precisely that: it’s ubiquity. You can have a portable client library like Eve.NET which runs seamlessly (and untouched) on all these mobile desktop and server platforms.</p>
+<p>If you already have a Web Service running on Eve and are now looking at the client side of things then well, you should consider C# and Eve.NET because you know, you can’t have a native iOS app written in Python anyway. On the other hand if you are a C#/.NET shop consider this: you can have a powerful Web Service up and running in minutes (even if you don’t grok Python yet – trust me on that) <em>and</em> a complete out-of-the-box, cross platform client library ready to go with it.</p>
+<p>A few years ago I gave a talk about leaving my Comfort Zone (**) and getting out of my .NET nest. That opened the path to Python, MongoDB, Node and so many other technologies and best practices and, what’s even more relevant, most of what I learned down that path I ended up using in my .NET projects in the long run. But the point I’m trying to make is don’t be afraid of change, it can only improve your skills making you a better all-around professional programmer.</p>
+<p>Never mind the naysayers. Polyglot is the way.</p>
+<hr>
+<p>(*) I’m paraphrasing Zed A. Shaw’s <a href="http://programming-motherfucker.com/">Programming, Motherfucker</a>. You should get a T-Shirt by the way. They are so cool.</p>
+<p>(**) Since then there have been plenty of talks on the same subject. Mine was an 5 minutes ignite talk and was in Italian, so you probably don’t care (it’s on my <a href="http//nicolaiarocci.com/talks">Talks</a> page anyway).</p>
+<hr>
+<p><em>Back to business now</em>.</p>
+<h2 id="usage">Usage</h2>
+<p>Initialization is as simple as instantiating a new client and providing it with the web service entry point.</p>
+<pre><code>// Initialize and set API address.
+var client = new EveClient();
+client.BaseAddress = new Uri(&quot;http://api.com&quot;);
+
+// Set target resource for subsequent requests.
+client.ResourceName = &quot;companies&quot;;
+</code></pre>
+<p>Getting a list of objects is pretty straightforward:</p>
+<pre><code>// List&lt;T&gt;
+companies = await client.GetAsync&lt;Company&gt;();
+
+// Objects changed since DateTime.
+var ifModifiedSince = DateTime.Now.AddDays(-1);
+companies = await 
+  client.GetAsync&lt;Company&gt;(ifModifiedSince);
+
+// Refresh an object
+company = await client.GetAsync&lt;Company&gt;(company);
+
+// Raw, conditional GET request
+var companyId = &quot;507c7f79bcf86cd7994f6c0e&quot;;
+var eTag = &quot;7776cdb01f44354af8bfa4db0c56eebcb1378975&quot;;
+
+company = await 
+  client.GetAsync&lt;Company&gt;(&quot;companies&quot;, companyId, eTag);
+</code></pre>
+<p>Other CRUD operations are easy too:</p>
+<pre><code>// Create (POST)
+company = await 
+  client.PostAsync&lt;Company&gt;(
+    new Company { Name = &quot;MyCompany&quot; }
+  );
+
+// Update (PUT)
+company.Name = &quot;YourCompany&quot;;
+var result = await client.PutAsync&lt;Company&gt;(company);
+
+// Delete (DELETE)
+var result = await client.DeleteAsync(company);
+</code></pre>
+<p>As you can see all methods are Async and return full object instances parsing JSON in and out on for you. If you need more control you can query the <code>HttpResponse</code> property to inspect the original JSON, response headers, status code, etc.</p>
+<p>Behind the scenes <a href="http://python-eve.org/features#data-integrity-and-concurrency-control">data integrity and concurrency control</a> are transparently handled so for example <code>PutAsync</code> performs a <code>If-Match</code> check and same happens with <code>DeleteAsync</code>. On <code>PostAsync</code> new objects are returned with fresh meta-fields such as <code>ETag</code>, <code>DateCreated</code>, <code>DateUpdated</code> and <code>UniqueId</code>. Mapping object properties to JSON fields and Eve metafields is just a matter of setting the <code>JSonPropertyAttribute</code> and <code>RemoteAttribute</code>:</p>
+<pre><code>public abstract class BaseClass
+{
+  [JsonProperty(&quot;_id&quot;)]
+  [Remote(Meta.DocumentId)]
+  public string UniqueId { get; set; }
+
+  [JsonProperty(&quot;_etag&quot;)]
+  [Remote(Meta.ETag)]
+  public string ETag { get; set; }
+
+  [JsonProperty(&quot;_updated&quot;)]
+  [Remote(Meta.LastUpdated)]
+  public DateTime Updated { get; set; }
+
+  [JsonProperty(&quot;_created&quot;)]
+  [Remote(Meta.DateCreated)]
+  public DateTime Created { get; set; }   
+}
+
+public class Company : BaseClass
+{
+  [JsonProperty(&quot;n&quot;)]
+  public string Name { get; set; }
+
+  [JsonProperty(&quot;p&quot;)]
+  public string Password { get; set; }
+}
+</code></pre>
+<p>For a complete list of usage examples see the <a href="https://github.com/nicolaiarocci/Eve.NET/blob/master/README.md">README</a></p>
+<h2 id="current-status-and-license">Current Status and License</h2>
+<p>Eve.NET is a <a href="http://nicolaiarocci.com">Nicola Iarocci</a> and <a href="http://gestionaleamica.com">Gestionali Amica</a> open source project distributed under the <a href="https://github.com/nicolaiarocci/Eve.NET/blob/master/LICENSE.txt">BSD license</a>. It is a work in progress but it’s pretty stable already. It is <a href="https://www.nuget.org/packages/Eve.NET/">available on NuGet</a> as a pre-release package. The test suite can be run against a local Eve instance or, if you don’t grok Python yet, you can use a free test instance which is available online, see the <a href="https://github.com/nicolaiarocci/Eve.NET/blob/master/README.md">README</a> for details.</p>
+<p>Did you read this far? Well thank you! And please, consider showing your appreciation by starring the project on <a href="https://github.com/nicolaiarocci/Eve.NET">GitHub</a>. It feels so lonely out there.</p>
+<p>If you want to get in touch, I’m <a href="https://twitter.com/nicolaiarocci">@nicolaiarocci</a> on Twitter.</p>]]></content:encoded>
     </item>
     <item>
       <title>REST API con MongoDB</title>
@@ -23,6 +115,9 @@
       <guid>https://nicolaiarocci.com/rest-api-con-mongodb/</guid>
       <description>Le slide che ho presentato a ‘A Morning with MongoDB‘ (24 ottobre, Milano) sono disponibili online. Gran parte degli interventi erano di tipo divulgativo ed inizialmente ero preoccupato che i miei contenuti fossero troppo tecnici. In realtà in sala c’erano davvero tanti programmatori, quindi tutto è andato bene.
 A margine dell’evento molte le domande su Eve, la REST API open source a cui sto lavorando e che conto di rilasciare entro fine anno: bene!</description>
+      <content:encoded><![CDATA[<p>Le slide che ho presentato a ‘<!-- raw HTML omitted -->A Morning with MongoDB<!-- raw HTML omitted -->‘ (24 ottobre, Milano) sono disponibili online. Gran parte degli interventi erano di tipo divulgativo ed inizialmente ero preoccupato che i miei contenuti fossero troppo tecnici. In realtà in sala c’erano davvero tanti programmatori, quindi tutto è andato bene.</p>
+<p>A margine dell’evento molte le domande su <!-- raw HTML omitted -->Eve<!-- raw HTML omitted -->, la REST API open source a cui sto lavorando e che conto di rilasciare entro fine anno: bene! Grazie a tutti i partecipanti ed a 10Gen per avermi invitato.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Sviluppare una RESTful Web API con Python, Flask e MongoDB</title>
@@ -31,6 +126,13 @@ A margine dell’evento molte le domande su Eve, la REST API open source a cui s
       <guid>https://nicolaiarocci.com/sviluppare-una-restful-web-api-con-python-flask-e-mongodb/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;La scorsa settimana a &lt;!-- raw HTML omitted --&gt;EuroPython 2012&lt;!-- raw HTML omitted --&gt; ho tenuto un talk intitolato &lt;!-- raw HTML omitted --&gt;Sviluppare una RESTful Web API con Python, Flask e MongoDB&lt;!-- raw HTML omitted --&gt;. Mi ha fatto piacere riscontrare forte interesse sia per gli aspetti teorici dell’architettura REST che per la loro implementazione pratica con strumenti quali Flask e MongoDB. In entrambe le sessioni inglese e italiana mi sono state rivolte molte domande, sia in occasione delle Q&amp;amp;A plenarie che nei successivi colloqui informali. Parecchi anche i commenti ed i suggerimenti, davvero utili ed apprezzati (a quanto pare non sono l’unico che, forte di un background .NET, ha compiuto o sta per compiere il salto verso Python e il mondo open source).&lt;/p&gt;
 &lt;p&gt;Soprattutto ho rilevato una forte curiosità su MongoDB, un database non-relazionale verso il quale sembra prevalere un atteggiamento  di generale timidezza: “vorrei ma non oso”, insomma. Per quanto riguarda Flask direi che ormai, nel vasto firmamento dei micro web framework, è una stella che brilla di luce propria.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->La scorsa settimana a <!-- raw HTML omitted -->EuroPython 2012<!-- raw HTML omitted --> ho tenuto un talk intitolato <!-- raw HTML omitted -->Sviluppare una RESTful Web API con Python, Flask e MongoDB<!-- raw HTML omitted -->. Mi ha fatto piacere riscontrare forte interesse sia per gli aspetti teorici dell’architettura REST che per la loro implementazione pratica con strumenti quali Flask e MongoDB. In entrambe le sessioni inglese e italiana mi sono state rivolte molte domande, sia in occasione delle Q&amp;A plenarie che nei successivi colloqui informali. Parecchi anche i commenti ed i suggerimenti, davvero utili ed apprezzati (a quanto pare non sono l’unico che, forte di un background .NET, ha compiuto o sta per compiere il salto verso Python e il mondo open source).</p>
+<p>Soprattutto ho rilevato una forte curiosità su MongoDB, un database non-relazionale verso il quale sembra prevalere un atteggiamento  di generale timidezza: “vorrei ma non oso”, insomma. Per quanto riguarda Flask direi che ormai, nel vasto firmamento dei micro web framework, è una stella che brilla di luce propria.</p>
+<p>Per quanto riguarda le registrazioni video potete andare su YouTube o sulla pagina ufficiale di EuroPython (<!-- raw HTML omitted -->english track<!-- raw HTML omitted --> e <!-- raw HTML omitted -->italian track<!-- raw HTML omitted -->). Ammetto di essere più soddisfatto della versione inglese nella quale – complice anche l’esperienza italiana del giorno prima – credo di essere stato più sintetico ed efficace. Qui mi limito a proporvi le slide:</p>
+<h2 id="ringraziamenti">Ringraziamenti</h2>
+<p>Un immenso grazie ai ragazzi dello staff di EuroPython che veramente hanno fatto di tutto per rendere questa manifestazione un evento straordinario – e ci sono riusciti  (una settimana di talk su cinque tracce parallele, sprint, hands-on, corsi, cibo di ottima qualità e credo oltre 800 partecipanti).</p>
+<p>Vi racconto un episodio giusto per darvi l’idea di quanto questi ragazzi, tutti volontari, si diano da fare e ci mettano passione vera. Nella sessione italiana ho ‘sforato’ (capita anche ai migliori, mi dicono!) e così mi son trovato a sorvolare su un certo numero di slide. Ebbene il mio talk manager e il suo assistente mi hanno proposto di loro iniziativa di tenere una sessione pomeridiana straordinaria per consentirmi di portare a termine la mia relazione. Non capita tutti i giorni, credetemi. Per mia fortuna gran parte delle persone che avevano assistito alla sessione mattutina sono poi tornate per quella del pomeriggio, altrimenti sai che figura!</p>
+<p>Se siete pythonisti o vorreste diventarlo non perdetevi la prossima edizione di questo evento internazionale che, con tutta probabilità, si terrà di nuovo a Firenze l’anno prossimo.</p>]]></content:encoded>
     </item>
     <item>
       <title>Flask MimeRender nel Python Package Index (PyPI)</title>
@@ -40,6 +142,13 @@ A margine dell’evento molte le domande su Eve, la REST API open source a cui s
       <description>Un appunto veloce per segnalare che Flask MimeRender, il mio strumento RESTful per il rendering basato sul MIME Media-Type delle richieste HTTP (JSON, XML, HTML, ecc.), è ora presente su PyPI, il Python Package Index ufficiale.
 Tutto ciò significa che l’installazione di Flask MimeRender su Windows, OSX e Linux è diventato più semplice:
 Codice sorgente e istruzioni sono a vostra disposizione su GitHub, mentre per spiegazione approfondita ed esempio d’uso vi rimando al mio articolo precedente: Una REST API che adatta le sue risposte al MIME Media-Type delle richieste HTTP.</description>
+      <content:encoded><![CDATA[<p>Un appunto veloce per segnalare che <!-- raw HTML omitted -->Flask MimeRender<!-- raw HTML omitted -->, il mio strumento RESTful per il rendering basato sul MIME Media-Type delle richieste HTTP (JSON, XML, HTML, ecc.), è ora presente su <!-- raw HTML omitted -->PyPI<!-- raw HTML omitted -->, il Python Package Index ufficiale.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Tutto ciò significa che l’installazione di Flask MimeRender su Windows, OSX e Linux è diventato più semplice:</p>
+<!-- raw HTML omitted -->
+<p>Codice sorgente e istruzioni sono a vostra disposizione su <!-- raw HTML omitted -->GitHub<!-- raw HTML omitted -->, mentre per spiegazione approfondita ed esempio d’uso vi rimando al mio articolo precedente: <a href="http://nicolaiarocci.com/come-implementare-un-web-service-rest-che-adatta-le-risposte-al-mime-media-type-delle-richieste-http/" title="Una REST API che adatta le sue risposte al MIME Media-Type delle richieste HTTP">Una REST API che adatta le sue risposte al MIME Media-Type delle richieste HTTP</a>.</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

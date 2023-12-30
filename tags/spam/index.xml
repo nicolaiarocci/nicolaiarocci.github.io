@@ -15,6 +15,24 @@
       <guid>https://nicolaiarocci.com/google-testa-il-feedback-utente-come-segnale-di-ranking/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Google ha appena annunciato una estensione per &lt;strong&gt;&lt;a href=&#34;http://www.google.com/chrome?hl=it&#34;&gt;Chrome&lt;/a&gt;&lt;/strong&gt; che permette agli utenti del browser di escludere dai risultati delle ricerche i siti di scarsa qualità o poco interessanti.&lt;/p&gt;
 &lt;p&gt;Estensioni di questo tipo esistono da tempo ma questa si distingue per un motivo importante. Nel suo &lt;a href=&#34;http://googleblog.blogspot.com/2011/02/new-chrome-extension-block-sites-from.html&#34;&gt;annuncio&lt;/a&gt; &lt;strong&gt;Matt Cutts&lt;/strong&gt;, responsabile Google per i motori di ricerca, afferma che i siti bloccati da &lt;a href=&#34;https://chrome.google.com/webstore/detail/nolijncfnkgaikbjbdaogikpmpbdcdef&#34;&gt;&lt;strong&gt;Personal Blocklist&lt;/strong&gt;&lt;/a&gt; (questo il nome dell’estensione) verranno registrati in un database. In futuro Google potrebbe escludere questi siti dai risultati organici delle ricerche:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Google ha appena annunciato una estensione per <strong><a href="http://www.google.com/chrome?hl=it">Chrome</a></strong> che permette agli utenti del browser di escludere dai risultati delle ricerche i siti di scarsa qualità o poco interessanti.</p>
+<p>Estensioni di questo tipo esistono da tempo ma questa si distingue per un motivo importante. Nel suo <a href="http://googleblog.blogspot.com/2011/02/new-chrome-extension-block-sites-from.html">annuncio</a> <strong>Matt Cutts</strong>, responsabile Google per i motori di ricerca, afferma che i siti bloccati da <a href="https://chrome.google.com/webstore/detail/nolijncfnkgaikbjbdaogikpmpbdcdef"><strong>Personal Blocklist</strong></a> (questo il nome dell’estensione) verranno registrati in un database. In futuro Google potrebbe escludere questi siti dai risultati organici delle ricerche:</p>
+<blockquote>
+<p>One of the signals we’re exploring is explicit feedback from users. To that end, today we’re launching an early, experimental Chrome extension so people can block sites from their web search results. If installed, <strong>the extension also sends blocked site information to Google, and we will study the resulting feedback and explore using it as a potential ranking signal for our search results</strong>.</p>
+</blockquote>
+<p>Un sito bloccato da migliaia di utenti potrebbe indurre Google a classificarlo come <a href="http://en.wikipedia.org/wiki/Content_farm"><strong>content farm</strong></a> ed escluderlo dai risultati delle ricerche. E’ probabile (e auspicabile!) che, almeno in una prima fase, questi siti saranno sottoposti a uno scrutinio accurato prima di venire depennati.</p>
+<h2 id="web-20-all8217ennesima-potenza">Web 2.0 all’ennesima potenza</h2>
+<p>Finora Google ha sempre dichiarato di puntare fermamente a una soluzione algoritmica al problema della classificazione dei siti web. Con l’annuncio di oggi pare aprirsi una crepa in questa filosofia. Per la prima volta gli utenti potrebbero avere la possibilità di <strong>partecipare in maniera attiva</strong> alla selezione qualitativa dei risultati proposti da un motore da ricerca.</p>
+<h2 id="un-sistema-abusabile">Un sistema abusabile?</h2>
+<p>Probabilmente è presto per preoccuparsi di questo ma c’è da augurarsi, se mai ci si arriverà, che l’implementazione finale tenga ben conto del rischio di abusi. Una azienda con pochi scrupoli potrebbe pensare di investire quattrini sonanti in una campagna di discredito nei confronti di un concorrente. Certo non sarebbe semplice né economico, ma pur sempre fattibile.</p>
+<h2 id="che-ne-pensate">Che ne pensate?</h2>
+<p>Questa mi pare una innovazione interessante sia dal punto di vista pratico-funzionale che ‘sociale’, passatemi il termine.  Voi cosa ne pensate?</p>
+<h3 id="approfondimenti">Approfondimenti</h3>
+<ul>
+<li><a href="http://googleblog.blogspot.com/2011/02/new-chrome-extension-block-sites-from.html">Annuncio della nuova Estensione per Google Chrome</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/nolijncfnkgaikbjbdaogikpmpbdcdef">Pagina ufficiale di Personal Blocklist</a></li>
+<li><a href="http://www.seroundtable.com/google-personal-blocklist-12958.html">Dettagli sul funzionamento dell’estensione su Search Engine Roundtable</a></li>
+</ul>]]></content:encoded>
     </item>
   </channel>
 </rss>

@@ -18,6 +18,44 @@
 &lt;p&gt;Recentemente, più che altro per curiosità, ho giocato con una terza opzione: &lt;!-- raw HTML omitted --&gt;Dropbox&lt;!-- raw HTML omitted --&gt;. Per me Dropbox è uno strumento indispensabile sia per il lavoro che per le mie cose personali. Su qualunque computer io sia, ovunque mi trovi, grazie a Dropbox ho accesso al mio materiale. Dunque, mi son detto, perché non usarlo anche per il codice,  pur senza rinunciare al controllo versione offerto da Git?&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://db.tt/V8L8FFo&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Ebbene ho scoperto che non solo è possibile, è anche molto semplice. In realtà non c’è nulla di nuovo in quel che vi mostro, la ‘magia’ la fa tutta Dropbox.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<!-- raw HTML omitted -->
+<h2 id="usare-dropbox-come-repository-git-remoto">Usare Dropbox come repository Git remoto</h2>
+<p>Recentemente, più che altro per curiosità, ho giocato con una terza opzione: <!-- raw HTML omitted -->Dropbox<!-- raw HTML omitted -->. Per me Dropbox è uno strumento indispensabile sia per il lavoro che per le mie cose personali. Su qualunque computer io sia, ovunque mi trovi, grazie a Dropbox ho accesso al mio materiale. Dunque, mi son detto, perché non usarlo anche per il codice,  pur senza rinunciare al controllo versione offerto da Git?</p>
+<p><a href="http://db.tt/V8L8FFo"><!-- raw HTML omitted --></a></p>
+<p>Ebbene ho scoperto che non solo è possibile, è anche molto semplice. In realtà non c’è nulla di nuovo in quel che vi mostro, la ‘magia’ la fa tutta Dropbox.</p>
+<h2 id="creare-un-git-repository-8216remoto8217-su-drobox">Creare un Git repository ‘remoto’ su Drobox</h2>
+<p>Se siete su Linux o Mac aprite una finestra terminale; su Windows aprite semplicemente Git Bash. Se avete una installazione predefinita la cartella Dropbox si trova nella HOME di Linux e Mac, oppure nella Documenti di Windows.</p>
+<p>Spostatevi nella cartella Dropbox:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Una volta entrati in ~/Dropbox create un ‘bare’ repository:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Il nostro repository privato, l’equivalente di un repo remoto alla GitHub per capirci, è pronto. Lo useremo per tenere sincronizzati i nostri computer. Naturalmente appoggiarci a Dropbox ci garantisce anche la possibilità di ricorrere a un restore di emergenza nel caso il codice venga perduto localmente.</p>
+<h2 id="creare-il-git-repository-locale">Creare il Git repository locale</h2>
+<p>Su ognuno dei computer creiamo il repository locale:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Lavoriamo un po’, quindi facciamo la nostra commit locale:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Ora colleghiamo il repo “remoto” (quello in Dropbox) al nostro repository locale:</p>
+<!-- raw HTML omitted -->
+<p>Ora possiamo fare il push verso il remoto dei files locali. Dal branch [cci lang=”bash” theme=”default”]master[/cci] verso [cci lang=”bash” theme=”default”]origin[/cci]:</p>
+<!-- raw HTML omitted -->
+<p>Fatto! Possiamo simulare facilmente il lavoro su un’altro computer. Basta clonare [cci lang=”bash” theme=”default”]progetto[/cci] dal ‘remoto’, cambiare qualche file e salvarlo:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Torniamo ora al folder locale originale. Possiamo sincronizzarlo e aggiornarlo con le modifiche fatte sul “secondo computer”:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="il-versioning-di-dropbox">Il versioning di Dropbox</h2>
+<p>Dropbox è dotato di un proprio sistema di versioning, pertanto aggiungere Git potrebbe sembrare superfluo. Qualunque sviluppatore avvezzo a Git vi dirà che non è così. Il versioning di Dropbox è adatto a file di testo, fogli di calcolo, immagini e quant’altro ma non ha niente a che vedere con le capacità di manutenzione e gestione dei progetti offerte da Git.</p>
+<h2 id="git-e-dropbox-per-gruppi-di-lavoro">Git e Dropbox per gruppi di lavoro?</h2>
+<p>E’ sufficiente condividere il folder Dropbox con altre persone per creare un ambiente di sviluppo privato ma condiviso col proprio gruppo di lavoro. In quest’ultimo caso la probabilità di conflitti aumenta notevolmente. Si tratta di una soluzione forse interessante per mini-team di 2 o 3 persone nei quali è relativamente facile evitare la generazione di conflitti (evitare le push contemporanee).</p>
+<h2 id="concludendo">Concludendo</h2>
+<p>BitBucket o GitHub (a pagamento) rimangono la soluzione ideale, e offrono molte funzionalità comunque assenti in Git+Dropbox (interfaccia web, wiki, issues, eccetera). Per piccoli progetti personali Dropbox offre una alternativa a buon mercato, rapida e comoda.</p>
+<p><em>PS: se create un account Dropbox dal link dell’articolo, oppure da <!-- raw HTML omitted -->questo<!-- raw HTML omitted -->, ricevete 500BMB extra (e altrettanti ne otterrà il sottoscritto)!</em></p>]]></content:encoded>
     </item>
   </channel>
 </rss>

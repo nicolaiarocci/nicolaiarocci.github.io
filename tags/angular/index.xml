@@ -15,6 +15,11 @@
       <guid>https://nicolaiarocci.com/why-angularjs-will-be-huge/</guid>
       <description>The reality is that AngularJS is winning the frontend framework war. It’s not to say there aren’t great, high quality alternatives out there, but few have gained so much developer mindshare that slow and conservative companies see it as a wonderful investment. And it’s all the better that normal developers actually love developing with it!
 via Why AngularJS Will Be Huge.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>The reality is that AngularJS is winning the frontend framework war. It’s not to say there aren’t great, high quality alternatives out there, but few have gained so much developer mindshare that slow and conservative companies see it as a wonderful investment. And it’s all the better that normal developers actually love developing with it!</p>
+</blockquote>
+<p>via <a href="http://ionicframework.com/blog/angularjs-will-be-huge/">Why AngularJS Will Be Huge</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Backbone.JS vs Angular.JS: dissacrare il mito</title>
@@ -23,6 +28,12 @@ via Why AngularJS Will Be Huge.</description>
       <guid>https://nicolaiarocci.com/backbone-js-vs-angular-js-dissacrare-il-mito/</guid>
       <description>Lettura interessante se state cercando quello giusto fra le decine di front-end framework disponibili.
 I love the way how each and every discussion turns into the war of the frameworks. I have worked with BackboneJS and AngularJS quite extensively and have come across most of their short comings in production. So, you dont really have to take this analysis with a grain of salt. I would be happy to take back anything that I have said if it turns out to be wrong.</description>
+      <content:encoded><![CDATA[<p>Lettura interessante se state cercando quello giusto fra le decine di front-end framework disponibili.</p>
+<blockquote>
+<p>I love the way how each and every discussion turns into the war of the frameworks. I have worked with BackboneJS and AngularJS quite extensively and have come across most of their short comings in production. So, you dont really have to take this analysis with a grain of salt. I would be happy to take back anything that I have said if it turns out to be wrong. Lets get to the meat of it, then, shall we?</p>
+</blockquote>
+<p><!-- raw HTML omitted -->Backbone vs Angular: Demystifying the myths<!-- raw HTML omitted --></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

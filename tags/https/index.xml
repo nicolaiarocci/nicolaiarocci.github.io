@@ -15,6 +15,11 @@
       <guid>https://nicolaiarocci.com/a-basic-guide-to-when-and-how-to-deploy-https/</guid>
       <description>Many web developers know about SSL, but it is very common to see it only partially deployed, or not deployed where it should be. This basic guide on when and how to deploy SSL will help you avoid the most common mistakes.
 via A basic guide to when and how to deploy HTTPS — Erik Romijn.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Many web developers know about SSL, but it is very common to see it only partially deployed, or not deployed where it should be. This basic guide on when and how to deploy SSL will help you avoid the most common mistakes.</p>
+</blockquote>
+<p>via <!-- raw HTML omitted -->A basic guide to when and how to deploy HTTPS — Erik Romijn<!-- raw HTML omitted -->.</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

@@ -17,6 +17,15 @@
 The recording is in Italian and is available below here.
 Listen to &amp;ldquo;Python, Eve, open source e fattura elettronica. Con Nicola Iarocci&amp;rdquo; on Spreaker.
 Subscribe to the newsletter, the RSS feed, or follow @nicolaiarocci on Twitter</description>
+      <content:encoded><![CDATA[<p>Today I was interviewed by <a href="https://twitter.com/mauroservienti">Mauro Servienti</a> on the <a href="https://www.spreaker.com/show/dotnetpodcast">DotNetPodcast</a>. The
+theme was my experience as an open-source maintainer on both the Python and C#
+stacks. We also discussed the ongoing evolution of the dotNET ecosystem,
+touching on a few tangent topics.</p>
+<p>The recording is in Italian and is available below here.</p>
+<p><!-- raw HTML omitted -->Listen to &ldquo;Python, Eve, open source
+e fattura elettronica. Con Nicola Iarocci&rdquo; on Spreaker.<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Talk Python To Me Podcast Episode #1: EVE RESTful APIs for Humans</title>
@@ -24,6 +33,12 @@ Subscribe to the newsletter, the RSS feed, or follow @nicolaiarocci on Twitter</
       <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/talk-python-to-me-podcast-episode-1-eve-restful-apis-for-humans/</guid>
       <description>I was lucky enough be the first guest for the shiny new Talk Python To Me Podcast hosted by Michael Kennedy. In this episode we talk about Eve an my other open source releases, which gives us an excuse to touch on a variety of topics such as Polyglot Programming, New Microsoft and the .NET evolution, MongoDB and the Open Source eco-system as seen from the point of view of an old fart who has been spending most of his career in closed systems.</description>
+      <content:encoded><![CDATA[<p>I was lucky enough be the first guest for the shiny new <a href="http://www.talkpythontome.com">Talk Python To Me Podcast</a> hosted by Michael Kennedy. In this episode we talk about Eve an my other open source releases, which gives us an excuse to touch on a variety of topics such as Polyglot Programming, New Microsoft and the .NET evolution, MongoDB and the Open Source eco-system as seen from the point of view of an old fart who has been spending most of his career in closed systems.</p>
+<p><a href="http://www.talkpythontome.com/episodes/show/1/eve-restful-apis-for-humans"><img loading="lazy" src="/images/Screen-Shot-2015-04-01-at-10.16.08.png" alt="Talk Python To Me"  />
+</a></p>
+<p>Michael has a great lineup ready for the next episodes, so make sure you subscribe to his show. It is also available on <a href="https://itunes.apple.com/us/podcast/talk-python-to-me-python-conversations/id979020229">iTunes</a>.</p>
+<p>If you want to get in touch, I am @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter.</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

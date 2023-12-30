@@ -14,6 +14,8 @@
       <pubDate>Fri, 07 Feb 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/how-to-save-90-on-your-s3-bill/</guid>
       <description>If you are using Python and the awesome Boto library to access Amazon S3, make sure you don’t miss How to Save 90% on Your S3 Bill.</description>
+      <content:encoded><![CDATA[<p>If you are using Python and the awesome Boto library to access Amazon S3, make sure you don’t miss <a href="http://www.appneta.com/blog/s3-list-get-bucket-default/">How to Save 90% on Your S3 Bill</a>.</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

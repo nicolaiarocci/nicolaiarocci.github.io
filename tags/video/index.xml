@@ -16,6 +16,16 @@
       <description>The Guardian&amp;rsquo;s The Winterkeeper: A Lifetime Spent Protecting Yellowstone National Park is a beautiful short documentary I truly enjoyed watching.
 A little research on Steven Fuller, the protagonist, allowed me to dig out some promising reading material.
 Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+      <content:encoded><![CDATA[<p>The Guardian&rsquo;s <em>The Winterkeeper: A Lifetime Spent Protecting Yellowstone National Park</em> is a beautiful short documentary I truly enjoyed watching.</p>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/9OwLLNPRbUw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<!-- raw HTML omitted -->
+A little research on Steven Fuller, the protagonist, allowed me to dig out some promising <a href="https://mountainjournal.org/a-winterkeeper-remembers-his-piece-in-natgo">reading material</a>.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Intro to Large Language Models (video)</title>
@@ -24,6 +34,18 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
       <guid>https://nicolaiarocci.com/intro-to-large-language-models-video/</guid>
       <description>Andrej Karpathy has a very well-done Intro to Large Language Models video on YouTube. As a founding member and research scientist at OpenAI and with a two-year hiatus working on Tesla Autopilot, Karpathy is an authority in the field. He is also good at explaining hard things.
 As a Kahneman reader, I appreciated the Thinking Fast and Slow analogy proposed at about half-length in the video: &amp;ldquo;System 1&amp;rdquo; (fast automatic thinking, rapid decisions) is where we&amp;rsquo;re now; &amp;ldquo;System 2&amp;rdquo; (rational, slow thinking, complex decisions) is LLMs next goal.</description>
+      <content:encoded><![CDATA[<p>Andrej Karpathy has a very well-done <a href="https://youtu.be/zjkBMFhNj_g?si=5tJNFaDcK-FBWnWK">Intro to Large Language Models</a>
+video on YouTube. As a founding member and research scientist at OpenAI and with a two-year hiatus working on Tesla
+Autopilot, Karpathy is an authority in the field. He is also good at explaining hard things.</p>
+<p>As a Kahneman reader, I appreciated the <em>Thinking Fast and Slow</em> analogy proposed at about half-length in the video:
+&ldquo;System 1&rdquo; (fast automatic thinking, rapid decisions) is where we&rsquo;re now; &ldquo;System 2&rdquo; (rational, slow thinking, complex
+decisions) is LLMs next goal. Also, I suspect Karpathy&rsquo;s intriguing idea of LLMs as the center of a new &ldquo;operating
+system style&rdquo; is not too far off from what will emerge soon. The final segment on AI security and known attack vectors
+(jailbreaking, prompt injection, data poisoning) is also super interesting.</p>
+<p>On his website, Karpathy also has a promising <a href="https://karpathy.ai/zero-to-hero.html">zero-to-hero video series</a>, &ldquo;a
+course on building neural networks from scratch, in code.&rdquo;</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Modulations - History of Electronic Music</title>
@@ -31,6 +53,38 @@ As a Kahneman reader, I appreciated the Thinking Fast and Slow analogy proposed 
       <pubDate>Tue, 08 Feb 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/modulations-history-of-electronic-music/</guid>
       <description>I stumbled upon Modulations, a documentary on &amp;ldquo;the evolution of electronic music and its many genres. How the wide range of styles and scenes formed through experimentations on sound formation.&amp;rdquo; This short film (75 minutes) is packed with guest stars of all calibers1, some of them genuinely pivotal to the evolution of electronic music. Indeed, the uninitiated mind gets to know a lot of details and amenities on the first decade or so of electronic music.</description>
+      <content:encoded><![CDATA[<p>I stumbled upon <a href="https://youtu.be/icpDt6aQDww">Modulations</a>, a documentary on &ldquo;the evolution of electronic
+music and its many genres. How the wide range of styles and scenes formed
+through experimentations on sound formation.&rdquo; This short film (75 minutes) is
+packed with guest stars of all calibers<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, some of them genuinely pivotal to the
+evolution of electronic music. Indeed, the uninitiated mind gets to know a lot
+of details and amenities on the first decade or so of electronic music.</p>
+<p>Perhaps it attempts to fit too much information into a tight timeline:
+many guests, genres, places. There&rsquo;s a lot to unpack, and, inevitably, a lot is
+left out. A series (like the excellent Hip-Hop Evolution recently aired on
+Netflix) could better cover all the material. Unfortunately, Modulations was
+released in 1998, when such an option wasn&rsquo;t even in the books. And this takes
+us to my second qualm with this production: it of course doesn&rsquo;t cover the
+recent years, let&rsquo;s say from early 2000s up to today. A second part would be
+grand.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/icpDt6aQDww" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>A partial list I digged out includes the likes of John Cage, Afrika Bambaataa, Juan Atkins, Bundy Brown, DJ Spooky, Future Sound of London, Fumiya Tanaka, Hardfloor, Kodwo Eshun, Teo Macero, Christian Marclay, Giorgio Moroder, Robert Moog, Mixmaster Morris, Orbital, Prodigy, Simon Reynolds, Ed Rush, Karlheinz Stockhausen, Tetsu Inoue and Westbam.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
     </item>
     <item>
       <title>Daft Punk&#39;s legendary Alive 2007 concert with remastered audio and 4K video</title>
@@ -39,6 +93,24 @@ As a Kahneman reader, I appreciated the Thinking Fast and Slow analogy proposed 
       <guid>https://nicolaiarocci.com/daft-punks-legendary-alive-2007-concert-with-remastered-audio-and-4k-video/</guid>
       <description>Someone did it &amp;ndash;the perfect Daft Punk tribute after their break up. Also ideal for those hard-coding sessions.
 For the first time in 14 years, experience Daft Punk like never before! The first professionally recorded live show; revived meticulously by remastering and restoring the audio and video. The Alive 2007 show is considered a staple in live performances featuring the signature &amp;lsquo;Pyramid&amp;rsquo; and groundbreaking visuals, which is now complemented by a fully remastered audio track which aims to maximize the experience.</description>
+      <content:encoded><![CDATA[<p>Someone did it &ndash;the perfect Daft Punk tribute after their break up. Also ideal
+for those hard-coding sessions.</p>
+<blockquote>
+<p>For the first time in 14 years, experience Daft Punk like never before! The
+first professionally recorded live show; revived meticulously by remastering
+and restoring the audio and video. The Alive 2007 show is considered a staple
+in live performances featuring the signature &lsquo;Pyramid&rsquo; and groundbreaking
+visuals, which is now complemented by a fully remastered audio track which
+aims to maximize the experience. Presenting the ultimate authentic Daft Punk
+experience.</p>
+</blockquote>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/QmR4zLcORNc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

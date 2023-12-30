@@ -16,6 +16,13 @@
       <description>Addy Osmani ne ha combinata un’altra delle sue:
 MVVM (Model View ViewModel) è un pattern architetturale basato su MVC e MVP, che tenta di separare chiaramente lo sviluppo della interfaccia utente (UI) da quelle che sono business logic e comportamento dell’applicazione. A questo fine, molte implementazioni del pattern ricorrono a un uso dichiarativo dei data bindings, per consentire la separazione del lavoro sulle Viste (View) dagli altri strati (layer).
 MVVM consente creazione di UI e sviluppo del codice in parallelo, all’interno della stessa base di codice.</description>
+      <content:encoded><![CDATA[<p>Addy Osmani ne ha combinata un’altra delle sue:</p>
+<blockquote>
+<p>MVVM (Model View ViewModel) è un pattern architetturale basato su MVC e MVP, che tenta di separare chiaramente lo sviluppo della interfaccia utente (UI) da quelle che sono business logic e comportamento dell’applicazione. A questo fine, molte implementazioni del pattern ricorrono a un uso dichiarativo dei data bindings, per consentire la separazione del lavoro sulle Viste (View) dagli altri strati (layer).</p>
+<p>MVVM consente creazione di UI  e sviluppo del codice in parallelo, all’interno della stessa base di codice. Gli esperti UI scrivono bindings per il ViewModel all’interno del loro markup (HTML), mentre il Model e il ViewModel sono gestiti dagli sviluppatori che lavorano alla logica dell’applicazione.</p>
+</blockquote>
+<p><!-- raw HTML omitted -->Comprendere il MVVM – Guida per Sviluppatori JavaScript<!-- raw HTML omitted --></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

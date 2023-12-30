@@ -14,6 +14,19 @@
       <pubDate>Sun, 09 Apr 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/noam-chomsky-on-chatgpt/</guid>
       <description>Noam Chomsky&amp;rsquo;s essays are always worth reading, no matter the topic he decides to address, because, well, frankly, he&amp;rsquo;s one of the brightest and most well-informed minds of our time. His criticism of OpenAI&amp;rsquo;s ChatGPT makes no exception. It does an excellent job of explaining how LLMs work, the differences with human reasoning, and why, in his opinion, the advent of artificial general intelligence is a long way to go, if ever.</description>
+      <content:encoded><![CDATA[<p>Noam Chomsky&rsquo;s essays are always worth reading, no matter the topic he decides to address, because, well, frankly, he&rsquo;s
+one of the brightest and most well-informed minds of our time. His criticism of OpenAI&rsquo;s ChatGPT makes no exception. It
+does an excellent job of explaining how LLMs work, the differences with human reasoning, and why, in his opinion, the
+advent of artificial general intelligence is a long way to go, if ever.</p>
+<blockquote>
+<p>However useful these programs may be in some narrow domains (they can be helpful in computer programming, for
+example, or in suggesting rhymes for light verse), we know from the science of linguistics and the philosophy of
+knowledge that they differ profoundly from how humans reason and use language. These differences place significant
+limitations on what these programs can do, encoding them with ineradicable defects.</p>
+</blockquote>
+<p>More <a href="https://archive.is/AgWkn">here</a>.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>ChatGPT is making up fake Guardian articles</title>
@@ -22,6 +35,27 @@
       <guid>https://nicolaiarocci.com/chatgpt-is-making-up-fake-guardian-articles/</guid>
       <description>Chris Moran, the Guardian’s head of editorial innovation:
 Last month one of our journalists received an interesting email. A researcher had come across mention of a Guardian article, written by the journalist on a specific subject from a few years before. But the piece was proving elusive on our website and in search. Had the headline perhaps been changed since it was launched? Had it been removed intentionally from the website because of a problem we’d identified?</description>
+      <content:encoded><![CDATA[<p>Chris Moran, the Guardian’s head of editorial innovation:</p>
+<blockquote>
+<p>Last month one of our journalists received an interesting email. A researcher had come across mention of a Guardian
+article, written by the journalist on a specific subject from a few years before. But the piece was proving elusive on
+our website and in search. Had the headline perhaps been changed since it was launched? Had it been removed
+intentionally from the website because of a problem we’d identified? Or had we been forced to take it down by the
+subject of the piece through legal means?</p>
+</blockquote>
+<blockquote>
+<p>The reporter couldn’t remember writing the specific piece, but the headline certainly sounded like something they
+would have written. It was a subject they were identified with and had a record of covering. Worried that there may
+have been some mistake at our end, they asked colleagues to go back through our systems to track it down. Despite the
+detailed records we keep of all our content, and especially around deletions or legal issues, they could find no trace
+of its existence.</p>
+</blockquote>
+<blockquote>
+<p>Why? Because it had never been written.</p>
+</blockquote>
+<p>More <a href="https://www.theguardian.com/commentisfree/2023/apr/06/ai-chatgpt-guardian-technology-risks-fake-article">here</a>.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

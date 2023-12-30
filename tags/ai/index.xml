@@ -16,6 +16,18 @@
       <description>I always struggle a bit with I&amp;rsquo;m asked about the &amp;ldquo;hallucination problem&amp;rdquo; in LLMs. Because, in some sense, hallucination is all LLMs do. They are dream machines.
 We direct their dreams with prompts. The prompts start the dream, and based on the LLM&amp;rsquo;s hazy recollection of its training documents, most of the time the result goes someplace useful.
 It&amp;rsquo;s only when the dreams go into deemed factually incorrect territory that we label it a &amp;ldquo;hallucination&amp;rdquo;.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>I always struggle a bit with I&rsquo;m asked about the &ldquo;hallucination problem&rdquo; in LLMs. Because, in some sense, hallucination is all LLMs do. They are dream machines.</p>
+</blockquote>
+<blockquote>
+<p>We direct their dreams with prompts. The prompts start the dream, and based on the LLM&rsquo;s hazy recollection of its training documents, most of the time the result goes someplace useful.</p>
+</blockquote>
+<blockquote>
+<p>It&rsquo;s only when the dreams go into deemed factually incorrect territory that we label it a &ldquo;hallucination&rdquo;. It looks like a bug, but it&rsquo;s just the LLM doing what it always does.</p>
+</blockquote>
+<p>&ndash; <a href="https://twitter.com/karpathy/status/1733299213503787018">Andrej Karpathy</a></p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Intro to Large Language Models (video)</title>
@@ -24,6 +36,18 @@ It&amp;rsquo;s only when the dreams go into deemed factually incorrect territory
       <guid>https://nicolaiarocci.com/intro-to-large-language-models-video/</guid>
       <description>Andrej Karpathy has a very well-done Intro to Large Language Models video on YouTube. As a founding member and research scientist at OpenAI and with a two-year hiatus working on Tesla Autopilot, Karpathy is an authority in the field. He is also good at explaining hard things.
 As a Kahneman reader, I appreciated the Thinking Fast and Slow analogy proposed at about half-length in the video: &amp;ldquo;System 1&amp;rdquo; (fast automatic thinking, rapid decisions) is where we&amp;rsquo;re now; &amp;ldquo;System 2&amp;rdquo; (rational, slow thinking, complex decisions) is LLMs next goal.</description>
+      <content:encoded><![CDATA[<p>Andrej Karpathy has a very well-done <a href="https://youtu.be/zjkBMFhNj_g?si=5tJNFaDcK-FBWnWK">Intro to Large Language Models</a>
+video on YouTube. As a founding member and research scientist at OpenAI and with a two-year hiatus working on Tesla
+Autopilot, Karpathy is an authority in the field. He is also good at explaining hard things.</p>
+<p>As a Kahneman reader, I appreciated the <em>Thinking Fast and Slow</em> analogy proposed at about half-length in the video:
+&ldquo;System 1&rdquo; (fast automatic thinking, rapid decisions) is where we&rsquo;re now; &ldquo;System 2&rdquo; (rational, slow thinking, complex
+decisions) is LLMs next goal. Also, I suspect Karpathy&rsquo;s intriguing idea of LLMs as the center of a new &ldquo;operating
+system style&rdquo; is not too far off from what will emerge soon. The final segment on AI security and known attack vectors
+(jailbreaking, prompt injection, data poisoning) is also super interesting.</p>
+<p>On his website, Karpathy also has a promising <a href="https://karpathy.ai/zero-to-hero.html">zero-to-hero video series</a>, &ldquo;a
+course on building neural networks from scratch, in code.&rdquo;</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>AI-curated minimalist news</title>
@@ -32,6 +56,18 @@ As a Kahneman reader, I appreciated the Thinking Fast and Slow analogy proposed 
       <guid>https://nicolaiarocci.com/ai-curated-minimalist-news/</guid>
       <description>Minimalist News is the first LLM project that excites me but in a nervous way. Quoting the About page:
 We only publish significant news. To find them we use AI (ChatGPT-4) to read and analyze 1000 top news every day. For each article it estimates magnitude, scale, potential and credibility. Then we combine these estimates to get the final Significance score from 0 to 10. And now the best part: We&amp;rsquo;ll only send you the news scored 6.</description>
+      <content:encoded><![CDATA[<p><a href="https://www.newsminimalist.com">Minimalist News</a> is the first LLM project that excites me but in a nervous way. Quoting the About page:</p>
+<blockquote>
+<p>We only publish significant news. To find them we use AI (ChatGPT-4) to read and analyze 1000 top news every day. For
+each article it estimates magnitude, scale, potential and credibility. Then we combine these estimates to get the
+final Significance score from 0 to 10. And now the best part: We&rsquo;ll only send you the news scored 6.5 or higher.
+Sometimes it&rsquo;s 5 articles, sometimes 2, sometimes 8. And sometimes — none at all. But one thing is constant — you can
+be sure that you haven&rsquo;t missed anything important.</p>
+</blockquote>
+<p>The concept is brilliant and well executed, but I can&rsquo;t help but feel uncomfortable at the notion of an AI curating news
+for me. Yet, this is the best use case for LLM/AI I&rsquo;ve seen until now.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Noam Chomsky on ChatGPT</title>
@@ -39,6 +75,19 @@ We only publish significant news. To find them we use AI (ChatGPT-4) to read and
       <pubDate>Sun, 09 Apr 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/noam-chomsky-on-chatgpt/</guid>
       <description>Noam Chomsky&amp;rsquo;s essays are always worth reading, no matter the topic he decides to address, because, well, frankly, he&amp;rsquo;s one of the brightest and most well-informed minds of our time. His criticism of OpenAI&amp;rsquo;s ChatGPT makes no exception. It does an excellent job of explaining how LLMs work, the differences with human reasoning, and why, in his opinion, the advent of artificial general intelligence is a long way to go, if ever.</description>
+      <content:encoded><![CDATA[<p>Noam Chomsky&rsquo;s essays are always worth reading, no matter the topic he decides to address, because, well, frankly, he&rsquo;s
+one of the brightest and most well-informed minds of our time. His criticism of OpenAI&rsquo;s ChatGPT makes no exception. It
+does an excellent job of explaining how LLMs work, the differences with human reasoning, and why, in his opinion, the
+advent of artificial general intelligence is a long way to go, if ever.</p>
+<blockquote>
+<p>However useful these programs may be in some narrow domains (they can be helpful in computer programming, for
+example, or in suggesting rhymes for light verse), we know from the science of linguistics and the philosophy of
+knowledge that they differ profoundly from how humans reason and use language. These differences place significant
+limitations on what these programs can do, encoding them with ineradicable defects.</p>
+</blockquote>
+<p>More <a href="https://archive.is/AgWkn">here</a>.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>ChatGPT is making up fake Guardian articles</title>
@@ -47,6 +96,27 @@ We only publish significant news. To find them we use AI (ChatGPT-4) to read and
       <guid>https://nicolaiarocci.com/chatgpt-is-making-up-fake-guardian-articles/</guid>
       <description>Chris Moran, the Guardian’s head of editorial innovation:
 Last month one of our journalists received an interesting email. A researcher had come across mention of a Guardian article, written by the journalist on a specific subject from a few years before. But the piece was proving elusive on our website and in search. Had the headline perhaps been changed since it was launched? Had it been removed intentionally from the website because of a problem we’d identified?</description>
+      <content:encoded><![CDATA[<p>Chris Moran, the Guardian’s head of editorial innovation:</p>
+<blockquote>
+<p>Last month one of our journalists received an interesting email. A researcher had come across mention of a Guardian
+article, written by the journalist on a specific subject from a few years before. But the piece was proving elusive on
+our website and in search. Had the headline perhaps been changed since it was launched? Had it been removed
+intentionally from the website because of a problem we’d identified? Or had we been forced to take it down by the
+subject of the piece through legal means?</p>
+</blockquote>
+<blockquote>
+<p>The reporter couldn’t remember writing the specific piece, but the headline certainly sounded like something they
+would have written. It was a subject they were identified with and had a record of covering. Worried that there may
+have been some mistake at our end, they asked colleagues to go back through our systems to track it down. Despite the
+detailed records we keep of all our content, and especially around deletions or legal issues, they could find no trace
+of its existence.</p>
+</blockquote>
+<blockquote>
+<p>Why? Because it had never been written.</p>
+</blockquote>
+<p>More <a href="https://www.theguardian.com/commentisfree/2023/apr/06/ai-chatgpt-guardian-technology-risks-fake-article">here</a>.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Quoting John Carmack</title>
@@ -58,6 +128,17 @@ Software is just a tool to help accomplish something for people &amp;ndash; many
 I have often fallen into the over-focusing trap in my career. The whole thread is well worth reading:
 (via)
 Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+      <content:encoded><![CDATA[<p>John Carmack, while advising on the advent of AI and its influence on the Software Engineering profession:</p>
+<blockquote>
+<p>Software is just a tool to help accomplish something for people &ndash; many programmers never understood that. Keep your
+eyes on the delivered value, and don&rsquo;t over-focus on the specifics of the tools.</p>
+</blockquote>
+<p>I have often fallen into the over-focusing trap in my career. The whole thread is well worth reading:</p>
+<p><img loading="lazy" src="/images/quoting-john-carmack.jpg" alt="Quoting John Carmack"  />
+</p>
+<p>(<a href="https://twitter.com/ID_AA_Carmack/status/1637087219591659520"><em>via</em></a>)</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Chess@home è una Intelligenza Artificiale Distribuita per gli Scacchi</title>
@@ -67,6 +148,14 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
       <description>&lt;p&gt;Il progetto &lt;!-- raw HTML omitted --&gt;Chess@home&lt;!-- raw HTML omitted --&gt; è il vincitore del recente &lt;!-- raw HTML omitted --&gt;Node Knockout&lt;!-- raw HTML omitted --&gt;, ed una volta tanto si tratta di qualcosa di davvero innovativo e intrigante. Obiettivo: la creazione della più potente Intelligenza Artificiale per il gioco degli Scacchi al mondo, generata nientemeno che dai browser attivi sulla rete.&lt;/p&gt;
 &lt;p&gt;L’elaborazione collaborativa distribuita è diventata famosa grazie a progetti come &lt;!-- raw HTML omitted --&gt;SETI@home&lt;!-- raw HTML omitted --&gt; e &lt;!-- raw HTML omitted --&gt;Folding@home&lt;!-- raw HTML omitted --&gt;. Semplificando molto potremmo dire che questo tipo di applicazione prevede che un piccolo programma venga installato e fatto girare su decine di migliaia di computer volontari. La capacita elaborativa del progetto è data dalla somma delle elaborazioni individuali.&lt;/p&gt;
 &lt;p&gt;La novità di Chess@Home consiste nell’idea di ricorrere a codice JavaScript che gira nel browser, dunque senza alcuna necessità di client dedicati. Appositi widget presenti nelle pagine dei siti aderenti innestano l’elaborazione sul computer del visitatore, potenzialmente decuplicando il numero di nodi che partecipano all’elaborazione (più visitatori accedono alla stessa pagina contemporaneamente).&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Il progetto <!-- raw HTML omitted -->Chess@home<!-- raw HTML omitted --> è il vincitore del recente <!-- raw HTML omitted -->Node Knockout<!-- raw HTML omitted -->, ed una volta tanto si tratta di qualcosa di davvero innovativo e intrigante. Obiettivo: la creazione della più potente Intelligenza Artificiale per il gioco degli Scacchi al mondo, generata nientemeno che dai browser attivi sulla rete.</p>
+<p>L’elaborazione collaborativa distribuita è diventata famosa grazie a progetti come <!-- raw HTML omitted -->SETI@home<!-- raw HTML omitted --> e <!-- raw HTML omitted -->Folding@home<!-- raw HTML omitted -->. Semplificando molto potremmo dire che questo tipo di applicazione prevede che un piccolo programma venga installato e fatto girare su decine di migliaia di computer volontari. La capacita elaborativa del progetto è data dalla somma delle elaborazioni individuali.</p>
+<p>La novità di Chess@Home consiste nell’idea di ricorrere a codice JavaScript che gira nel browser, dunque senza alcuna necessità di client dedicati. Appositi widget presenti nelle pagine dei siti aderenti innestano l’elaborazione sul computer del visitatore, potenzialmente decuplicando il numero di nodi che partecipano all’elaborazione (più visitatori accedono alla stessa pagina contemporaneamente).</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>E’ facile intravedere complicazioni etiche ma occorre tenere conto del fatto che il progetto, messo in piedi in sole 48 ore, è nato soprattutto come esperimento per testare il limite delle tecnologie impiegate (Node.JS, MongoDB, JavaScript). Vi consiglio caldamente l’articolo di uno degli ideatori, <!-- raw HTML omitted -->Sylvain Zimmer<!-- raw HTML omitted -->, che descrive genesi e dettagli tecnici del progetto.</p>
+<p>Già oggi potete giocare la vostra prima partita a scacchi contro la rete. Il mio cuore di nerd (che in anni ahimè troppo lontani ha fatto girare impunemente il client SETI per mesi e mesi) tifa per voi.</p>
+<p><em>PS: domani al Romagna Camp 2011 terrò una relazione dal titolo “Quattro passi fra le nuvole (e non scordate il paracadute)”. Per saperne di più date una occhiata <a href="http://nicolaiarocci.com/quattro-passi-tra-le-nuvole-al-romagna-camp-2011/" title="Quattro passi fra le nuvole">qui</a>.</em></p>]]></content:encoded>
     </item>
   </channel>
 </rss>

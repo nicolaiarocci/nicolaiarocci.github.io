@@ -14,6 +14,8 @@
       <pubDate>Mon, 20 Apr 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/f-vs-c/</guid>
       <description>I have another guest post up at the official MSDN Team Blog. Titled F# Versus C#, it is an attempt at a gentle introduction to F# for the Italian C# developer.</description>
+      <content:encoded><![CDATA[<p>I have another guest post up at the official MSDN Team Blog. Titled <a href="http://blogs.msdn.com/b/italy/archive/2015/04/17/f-vs-c.aspx">F# Versus C#</a>, it is an attempt at a gentle introduction to F# for the Italian C# developer.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Introducing Eve.NET the HTTP/REST Client for Humans™</title>
@@ -22,6 +24,98 @@
       <guid>https://nicolaiarocci.com/introducing-eve-net-httprest-client-humans/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/nicolaiarocci/Eve.NET&#34;&gt;Eve.NET&lt;/a&gt; is a simple HTTP and REST client for Web Services powered by the &lt;a href=&#34;http://python-eve.org&#34;&gt;Eve Framework&lt;/a&gt;. It leverages both &lt;code&gt;System.Net.HttpClient&lt;/code&gt; and &lt;code&gt;Json.NET&lt;/code&gt; to provide the best possible Eve experience on the .NET platform.&lt;/p&gt;
 &lt;p&gt;Written and maintained by the same author of the Eve Framework itself, Eve.NET is delivered as a portable library (PCL) and runs seamlessly on .NET4, Mono, Xamarin.iOS, Xamarin.Android, Windows Phone 8 and Windows 8. We use Eve.NET internally to power our iOS, Web and Windows applications.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><a href="https://github.com/nicolaiarocci/Eve.NET">Eve.NET</a> is a simple HTTP and REST client for Web Services powered by the <a href="http://python-eve.org">Eve Framework</a>. It leverages both <code>System.Net.HttpClient</code> and <code>Json.NET</code> to provide the best possible Eve experience on the .NET platform.</p>
+<p>Written and maintained by the same author of the Eve Framework itself, Eve.NET is delivered as a portable library (PCL) and runs seamlessly on .NET4, Mono, Xamarin.iOS, Xamarin.Android, Windows Phone 8 and Windows 8. We use Eve.NET internally to power our iOS, Web and Windows applications.</p>
+<p><em>And now please forgive me while I take you on a quick motivational, strongly opinionated, probably boring and overzealous detour</em></p>
+<hr>
+<h2 id="python-and-c-motherfucker-do-you-speak-it-">Python and C# Motherfucker, Do You Speak It? *</h2>
+<p>If you don’t then well, you should consider doing just that. Especially so these days, with C# and the whole .NET platform going open source and cross platform. Actually, thanks to technologies like Mono and Xamarin (also based on Mono) we have been able to run C# code on all major platforms for a while: iOS, Android, OSX, Linux, Windows, Windows Phone, you-name-it. And what’s even better, on mobile platforms C# is compiled to native so performance is a non-issue.</p>
+<p>What makes C# a perfect match for a REST API is precisely that: it’s ubiquity. You can have a portable client library like Eve.NET which runs seamlessly (and untouched) on all these mobile desktop and server platforms.</p>
+<p>If you already have a Web Service running on Eve and are now looking at the client side of things then well, you should consider C# and Eve.NET because you know, you can’t have a native iOS app written in Python anyway. On the other hand if you are a C#/.NET shop consider this: you can have a powerful Web Service up and running in minutes (even if you don’t grok Python yet – trust me on that) <em>and</em> a complete out-of-the-box, cross platform client library ready to go with it.</p>
+<p>A few years ago I gave a talk about leaving my Comfort Zone (**) and getting out of my .NET nest. That opened the path to Python, MongoDB, Node and so many other technologies and best practices and, what’s even more relevant, most of what I learned down that path I ended up using in my .NET projects in the long run. But the point I’m trying to make is don’t be afraid of change, it can only improve your skills making you a better all-around professional programmer.</p>
+<p>Never mind the naysayers. Polyglot is the way.</p>
+<hr>
+<p>(*) I’m paraphrasing Zed A. Shaw’s <a href="http://programming-motherfucker.com/">Programming, Motherfucker</a>. You should get a T-Shirt by the way. They are so cool.</p>
+<p>(**) Since then there have been plenty of talks on the same subject. Mine was an 5 minutes ignite talk and was in Italian, so you probably don’t care (it’s on my <a href="http//nicolaiarocci.com/talks">Talks</a> page anyway).</p>
+<hr>
+<p><em>Back to business now</em>.</p>
+<h2 id="usage">Usage</h2>
+<p>Initialization is as simple as instantiating a new client and providing it with the web service entry point.</p>
+<pre><code>// Initialize and set API address.
+var client = new EveClient();
+client.BaseAddress = new Uri(&quot;http://api.com&quot;);
+
+// Set target resource for subsequent requests.
+client.ResourceName = &quot;companies&quot;;
+</code></pre>
+<p>Getting a list of objects is pretty straightforward:</p>
+<pre><code>// List&lt;T&gt;
+companies = await client.GetAsync&lt;Company&gt;();
+
+// Objects changed since DateTime.
+var ifModifiedSince = DateTime.Now.AddDays(-1);
+companies = await 
+  client.GetAsync&lt;Company&gt;(ifModifiedSince);
+
+// Refresh an object
+company = await client.GetAsync&lt;Company&gt;(company);
+
+// Raw, conditional GET request
+var companyId = &quot;507c7f79bcf86cd7994f6c0e&quot;;
+var eTag = &quot;7776cdb01f44354af8bfa4db0c56eebcb1378975&quot;;
+
+company = await 
+  client.GetAsync&lt;Company&gt;(&quot;companies&quot;, companyId, eTag);
+</code></pre>
+<p>Other CRUD operations are easy too:</p>
+<pre><code>// Create (POST)
+company = await 
+  client.PostAsync&lt;Company&gt;(
+    new Company { Name = &quot;MyCompany&quot; }
+  );
+
+// Update (PUT)
+company.Name = &quot;YourCompany&quot;;
+var result = await client.PutAsync&lt;Company&gt;(company);
+
+// Delete (DELETE)
+var result = await client.DeleteAsync(company);
+</code></pre>
+<p>As you can see all methods are Async and return full object instances parsing JSON in and out on for you. If you need more control you can query the <code>HttpResponse</code> property to inspect the original JSON, response headers, status code, etc.</p>
+<p>Behind the scenes <a href="http://python-eve.org/features#data-integrity-and-concurrency-control">data integrity and concurrency control</a> are transparently handled so for example <code>PutAsync</code> performs a <code>If-Match</code> check and same happens with <code>DeleteAsync</code>. On <code>PostAsync</code> new objects are returned with fresh meta-fields such as <code>ETag</code>, <code>DateCreated</code>, <code>DateUpdated</code> and <code>UniqueId</code>. Mapping object properties to JSON fields and Eve metafields is just a matter of setting the <code>JSonPropertyAttribute</code> and <code>RemoteAttribute</code>:</p>
+<pre><code>public abstract class BaseClass
+{
+  [JsonProperty(&quot;_id&quot;)]
+  [Remote(Meta.DocumentId)]
+  public string UniqueId { get; set; }
+
+  [JsonProperty(&quot;_etag&quot;)]
+  [Remote(Meta.ETag)]
+  public string ETag { get; set; }
+
+  [JsonProperty(&quot;_updated&quot;)]
+  [Remote(Meta.LastUpdated)]
+  public DateTime Updated { get; set; }
+
+  [JsonProperty(&quot;_created&quot;)]
+  [Remote(Meta.DateCreated)]
+  public DateTime Created { get; set; }   
+}
+
+public class Company : BaseClass
+{
+  [JsonProperty(&quot;n&quot;)]
+  public string Name { get; set; }
+
+  [JsonProperty(&quot;p&quot;)]
+  public string Password { get; set; }
+}
+</code></pre>
+<p>For a complete list of usage examples see the <a href="https://github.com/nicolaiarocci/Eve.NET/blob/master/README.md">README</a></p>
+<h2 id="current-status-and-license">Current Status and License</h2>
+<p>Eve.NET is a <a href="http://nicolaiarocci.com">Nicola Iarocci</a> and <a href="http://gestionaleamica.com">Gestionali Amica</a> open source project distributed under the <a href="https://github.com/nicolaiarocci/Eve.NET/blob/master/LICENSE.txt">BSD license</a>. It is a work in progress but it’s pretty stable already. It is <a href="https://www.nuget.org/packages/Eve.NET/">available on NuGet</a> as a pre-release package. The test suite can be run against a local Eve instance or, if you don’t grok Python yet, you can use a free test instance which is available online, see the <a href="https://github.com/nicolaiarocci/Eve.NET/blob/master/README.md">README</a> for details.</p>
+<p>Did you read this far? Well thank you! And please, consider showing your appreciation by starring the project on <a href="https://github.com/nicolaiarocci/Eve.NET">GitHub</a>. It feels so lonely out there.</p>
+<p>If you want to get in touch, I’m <a href="https://twitter.com/nicolaiarocci">@nicolaiarocci</a> on Twitter.</p>]]></content:encoded>
     </item>
     <item>
       <title>Learn C, Then Learn Computer Science</title>
@@ -29,6 +123,11 @@
       <pubDate>Wed, 12 Feb 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/learn-c-then-learn-computer-science/</guid>
       <description>This is the problem with emphasizing computer science over learning to code. Without an understanding of what’s happening at a low level, my peers ran into issues […] and had no idea what to do to debug them. This is a problem that stems from teaching people computer science but not teaching them how to code. Learning to code isn’t just teaching people how to spell – it’s teaching people the meaning behind the words.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>This is the problem with emphasizing computer science over learning to code. Without an understanding of what’s happening at a low level, my peers ran into issues […] and had no idea what to do to debug them. This is a problem that stems from teaching people computer science but not teaching them how to code. Learning to code isn’t just teaching people how to spell – it’s teaching people the meaning behind the words.</p>
+</blockquote>
+<p>via <a href="http://qrohlf.com/posts/learn-to-code-then-learn-cs/">Learn C, Then Learn Computer Science</a></p>
+]]></content:encoded>
     </item>
     <item>
       <title>The Descent to C</title>
@@ -38,6 +137,12 @@
       <description>This is really worth you time if you’re looking to learn C language (you should).
 This article attempts to give a sort of ‘orientation tour’ for people whose previous programming background is in high (ish) level languages such as Java or Python, and who now find that they need or want to learn C.
 via The Descent to C.</description>
+      <content:encoded><![CDATA[<p>This is really worth you time if you’re looking to learn C language (you should).</p>
+<blockquote>
+<p>This article attempts to give a sort of ‘orientation tour’ for people whose previous programming background is in high (ish) level languages such as Java or Python, and who now find that they need or want to learn C.</p>
+</blockquote>
+<p>via <a href="http://www.chiark.greenend.org.uk/~sgtatham/cdescent/">The Descent to C</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>The Development of the C Language</title>
@@ -46,6 +151,12 @@ via The Descent to C.</description>
       <guid>https://nicolaiarocci.com/the-development-of-the-c-language/</guid>
       <description>Dennis M. Ritchie ‘The Development of the C Language’ is one of those things any programmer should read soon or later, if nothing else for historic reasons.
 C came into being in the years 1969-1973, in parallel with the early development of the Unix operating system; the most creative period occurred during 1972. Another spate of changes peaked between 1977 and 1979, when portability of the Unix system was being demonstrated.</description>
+      <content:encoded><![CDATA[<p>Dennis M. Ritchie ‘The Development of the C Language’ is one of those things any programmer should read soon or later, if nothing else for historic reasons.</p>
+<blockquote>
+<p>C came into being in the years 1969-1973, in parallel with the early development of the Unix operating system; the most creative period occurred during 1972. Another spate of changes peaked between 1977 and 1979, when portability of the Unix system was being demonstrated. In the middle of this second period, the first widely available description of the language appeared: The C Programming Language, often called the `white book’ or `K&amp;R’ [Kernighan 78].</p>
+</blockquote>
+<p>via <a href="http://cm.bell-labs.com/who/dmr/chist.html">Chistory</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Gestione degli Eventi in Python</title>
@@ -54,6 +165,26 @@ C came into being in the years 1969-1973, in parallel with the early development
       <guid>https://nicolaiarocci.com/gestione-degli-eventi-in-python/</guid>
       <description>&lt;p&gt;Gli eventi sono molto usati nelle GUI e nelle implementazioni del modello MVC (Model, View, Controller). Un’altra applicazione tipica è nei protocolli di comunicazione, laddove layer di basso livello devono informare quelli più alti quando ci sono dati in ingresso o in uscita.&lt;/p&gt;
 &lt;p&gt;Il linguaggio C# dispone da sempre di una soluzione elegante al problema della gestione degli eventi: il delegato EventHandler. &lt;a href=&#34;https://github.com/nicolaiarocci/events&#34; title=&#34;Events: Bringing the elegance of C# EventHandler to Python&#34;&gt;Events&lt;/a&gt; è una mia implementazione Python del EventHandler C#. In pratica si tratta di una classe molto leggera che incapsula il cuore del meccanismo di sottoscrizione e gestione degli eventi, e tenta di farlo in maniera “naturale”, sembrando parte integrante del linguaggio Python.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Gli eventi sono molto usati nelle GUI e nelle implementazioni del modello MVC (Model, View, Controller). Un’altra applicazione tipica è nei protocolli di comunicazione, laddove layer di basso livello devono informare quelli più alti quando ci sono dati in ingresso o in uscita.</p>
+<p>Il linguaggio C# dispone da sempre di una soluzione elegante al problema della gestione degli eventi: il delegato EventHandler. <a href="https://github.com/nicolaiarocci/events" title="Events: Bringing the elegance of C# EventHandler to Python">Events</a> è una mia implementazione Python del EventHandler C#. In pratica si tratta di una classe molto leggera che incapsula il cuore del meccanismo di sottoscrizione e gestione degli eventi, e tenta di farlo in maniera “naturale”, sembrando parte integrante del linguaggio Python.</p>
+<h2 id="come-usare-events">Come usare Events</h2>
+<p>Tecnicamente un evento è qualcosa a cui è possibile “attaccare” una o più funzioni di callback. Prima di tutto creiamo una funzione di callback che verrà invocata allo scatenarsi dell’evento a cui siamo interessati:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Poi ‘iscriviamo’ la nostra funzione all’evento:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Notate come l’evento sia al tempo stesso dichiarato e sottoscritto, in un’unico passaggio. Più funzioni possono sottoscrivere lo stesso evento. Quando si scatena un evento tutte le funzioni ad esso collegate vengono invocate in sequenza. Per scatenare l’evento ci basta eseguire una chiamata all’evento stesso:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="un-esempio-di-modello-model-view-controller">Un esempio di modello Model-View-Controller</h2>
+<p>In genere nell’implementazione di uno schema MVC l’istanza della classe Events farà parte di un Modello, come in questo esempio:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Oggetti View e Controller ne sono i tipici  sottoscrittori:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>E’ inoltre possibile vincolare il nome degli eventi e fare l’introspezione delle sole due classi che costituiscono Events. La <a href="http://events.readthedocs.org/" title="Events">documentazione</a> include gli esempi e le istruzioni per l’installazione; il <a href="https://github.com/nicolaiarocci/events" title="Events on GitHub">codice sorgente</a> è a disposizione su GitHub. Buon divertimento!</p>]]></content:encoded>
     </item>
     <item>
       <title>Libri gratuiti sul linguaggio C</title>
@@ -61,6 +192,8 @@ C came into being in the years 1969-1973, in parallel with the early development
       <pubDate>Sat, 09 Feb 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/libri-gratuiti-sul-linguaggio-c/</guid>
       <description>9 of the Best Free C Books è un’ottima selezione di libri gratuiti sul linguaggio C. C’è n’è per tutti, dai testi per principianti a quelli per programmatori esperti provenienti da altri linguaggi. Lo sapete già, C dovrebbe far parte del bagaglio di ogni programmatore.</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->9 of the Best Free C Books<!-- raw HTML omitted --> è un’ottima selezione di libri gratuiti sul linguaggio C. C’è n’è per tutti, dai testi per principianti a quelli per programmatori esperti provenienti da altri linguaggi. Lo sapete già, C dovrebbe far parte del bagaglio di ogni programmatore.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Programmazione Asincrona per C# e VB</title>
@@ -69,6 +202,17 @@ C came into being in the years 1969-1973, in parallel with the early development
       <guid>https://nicolaiarocci.com/programmazione-asincrona/</guid>
       <description>Un articolo sul Somasegar’s Weblog annuncia oggi il rilascio imminente di un nuovo modello di programmazione asincrona per C# and VB:
 Today, we are unveiling significant language and framework enhancements in C# and Visual Basic that enable developers to harness asynchrony, letting them retain the control flow from their synchronous code while developing responsive user interfaces and scalable web applications with greater ease. This CTP delivers a lightweight asynchronous development experience as close to the standard synchronous paradigms as possible, while providing an easy on-ramp to the world of concurrency</description>
+      <content:encoded><![CDATA[<p>Un articolo sul <!-- raw HTML omitted -->Somasegar’s Weblog<!-- raw HTML omitted --> annuncia oggi il rilascio imminente di un nuovo modello di programmazione asincrona per C# and VB:</p>
+<blockquote>
+<p>Today, we are unveiling significant language and framework enhancements in C# and Visual Basic that enable developers to harness asynchrony, letting them retain the control flow from their synchronous code while developing responsive user interfaces and scalable web applications with greater ease.   This CTP delivers a lightweight asynchronous development experience as close to the standard synchronous paradigms as possible, while providing an easy on-ramp to the world of concurrency</p>
+</blockquote>
+<p>Lo stesso Somasegar riconosce che finora sviluppare applicazioni asincrone complesse con la piattaforma .NET non è stato facile. Tempo fa l’ho sperimentato in prima persona. Lavoravo su <a href="http://gestionaleamica.com/Backup/">Amica Prodigy Backup</a>, una applicazione di backup remoto.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Il programma invia files di grandi dimensioni al servizio di cloud storage <a href="http://aws.amazon.com/s3/">S3</a> aggiornando l’interfaccia utente con lo stato del trasferimento e consentendo nel frattempo di operare liberamente con l’interfaccia. Devo ammettere che si è trattata di una sfida molto accattivante. Lavoravo per la prima volta su sistemi cloud e c’era molto da imparare. La parte più difficile fu naturalmente la gestione dei processi asincroni sul client, che era una applicazione WinForm scritta su .NET Framework.</p>
+<p>Una rapida occhiata al codice di esempio presente nell’articolo di Somasegar è meglio di mille parole. ‘The Old Way’ vs ‘The New Way’ ha un vincitore evidente, ed è la New Way. Mi piace molto il concetto della nuova keyword Await, è una soluzione così elegante! Come sempre in questi casi occorrerà scendere nei dettagli per verificare l’affidabilità di questa nuova soluzione.</p>
+<p>La  CTP è già disponibile per il <!-- raw HTML omitted -->download<!-- raw HTML omitted -->, attualmente solo per le versioni inglesi di Visual Studio 2010.</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

@@ -14,6 +14,67 @@
       <pubDate>Wed, 10 May 2017 09:47:05 +0200</pubDate>
       <guid>https://nicolaiarocci.com/how-to-convert-a-pcl-portable-project-to-netstandard/</guid>
       <description>I have been upgrading a few projects from their original PCL profiles (now deemed obsolete) to the Net Standard platform specification. It turned out to be a relatively straightforward process, but it does have its small hurdles, especially so if in the meantime you also want to transition to the new, streamlined, .csproj format as the migration will leave you with a now obsolete project.json project. In this article, I will cover upgrading a project from Portable Class Library to NetStandard.</description>
+      <content:encoded><![CDATA[<p>I have been upgrading a few projects from their original PCL profiles (now
+deemed obsolete) to the <a href="https://docs.microsoft.com/it-it/dotnet/articles/standard/library">Net Standard</a> platform specification. It turned out
+to be a relatively straightforward process, but it does have its small hurdles,
+especially so if in the meantime you also want to transition to the new,
+streamlined, <code>.csproj</code> format as the migration will leave you with a now
+obsolete <code>project.json</code> project. In this article, I will cover upgrading
+a project from Portable Class Library to NetStandard. In a follow-up post,
+I plan to write about the switch from <code>project.json</code> to the new <code>.csproj</code>
+format.</p>
+<p>So let us take the <a href="https://github.com/pyeve/Eve.NET/">Eve.NET</a> project as an example. It makes a good
+candidate because it is an open source project, so you can go and have a look
+at the source code <a href="https://github.com/pyeve/Eve.NET/tree/v0.2">before</a> and <a href="https://github.com/pyeve/Eve.NET/tree/netstandard">after</a> the switch from PCL to
+NetStandard.</p>
+<p>The first step was, of course, opening the project in Visual Studio 2017. If
+you are on an older VS version, you should upgrade. For many valid reasons
+indeed, among them the fact that Visual Studio 2017 comes with a built-in
+option to switch a project to NetStandard.</p>
+<p><img loading="lazy" src="/images/netstandard1.png" alt=""  />
+</p>
+<p>As you can see, before the upgrade Eve.NET was a Profile259 PCL project. As
+metioned, Visual Studio offers the option to switch to the .NET Platform
+Standard. By clicking the link, you get a fair warning that <em>you might not be
+able to use the same APIs when targeting NetStandard</em>. That makes sense
+because, as you probably know already, NetStandard is an API specification
+while a PCL essentially is the intersection (or lowest common denominator) of
+the APIs available on target platforms. PCL compatibility has never been the
+design goal of NetStandard.</p>
+<p>Generally speaking, NetStandard offers a wider range of APIs compared to most
+PCL profiles and, most importantly, is planned to go through a cycle of
+incremental upgrades of the API specification, each one denoted by a version
+number. We already went from 1.0 to 1.6, with 2.0 currently being developed.
+<a href="https://github.com/dotnet/standard/blob/master/docs/netstandard-20/README.md">NetStandard 2</a> will be a significant milestone, just give a look at the
+<a href="https://raw.githubusercontent.com/dotnet/standard/master/docs/versions/netstandard2.0_diff.md">impressive diff</a> between 1.6 and 2.0. A <em>lot</em> of open source projects are
+eagerly waiting on NetStandard 2 release (Q3 2017).</p>
+<p>Upon confirming the switch, you might get the following show-stopper (I did):</p>
+<p><img loading="lazy" src="/images/netstandard2.png" alt=""  />
+</p>
+<p>This dialog will pop up if your project never has opted-in for NuGet 3.0. If
+this is the case, you have to go back, uninstall all NuGet packages, then
+attempt the switch again. When the migration is complete, you will have to
+re-install the packages, provided that they are compatible with NetStandard. In
+Eve.NET case the only dependency is Json.NET, which supports NetStandard 1.3,
+which also means that Eve cannot support previous NetStandard versions.</p>
+<p>Now, if you give a look at the installed packages, you will find that you have
+a couple of new entries: <code>NETStandard.Library</code>, which is pretty
+self-explanatory, and <code>Microsoft.NETCore.Portable.Compatibility</code>. This one will
+only appear when you convert from a PCL: a brand new NetStandard project will
+not take a dependency on it. If you are not using any legacy code, like NET
+4.0-only, or Silverlight, you should be able to drop this dependency safely (I
+did with no consequences).</p>
+<p>The project is now NetStandard and ready to be used on all the platforms
+supporting your chosen version: NETCore, Windows, Xamarin, UWP, you name it.</p>
+<p>However, you will soon notice that the project has gained a <code>project.json</code>
+file. It is ok, it works just fine, but it is obsolete: with Visual Studio 2017
+project.json was abandoned for a new, streamlined and pretty darn powerful,
+<code>.csproj</code> project file. In the next article, I will show you how to move your
+project forward by dropping <code>project.json</code> and embracing the new project type
+(and other niceties, like dropping the <code>.nuspec</code> file in the process).</p>
+<p><em>Join the <a href="http://eepurl.com/b-_Pzz">newsletter</a> to get an email alert when a new post surfaces on
+this site. If you want to get in touch, I am @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on twitter.</em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

@@ -18,6 +18,17 @@
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Volevo che cliccando sul link si avviasse automaticamente il download, così da ‘costringere’ l’utente a interagire col PDF in un secondo tempo rispetto all’esperienza di navigazione. Se scarichi un PDF è per stamparlo o consultarlo con calma o magari passarlo a un collega, no?&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Normalmente quando un visitatore clicca su un link che punta a un file, quest’ultimo viene mostrato nel browser e non viene avviato alcun download. Questo succede perché il browser determina il tipo di contenuto in base alla estensione del file. Quando clicchiamo su un file con estensione jpg il browser sa che si tratta di una immagine e la mostra direttamente. Lo stesso avviene per i file pdf e così via.</p>
+<p>Può capitare che questo comportamento non sia quello desiderato. Oggi <!-- raw HTML omitted -->al lavoro<!-- raw HTML omitted --> ho implementato una funzionalità interessante: il download della versione PDF di una pagina web. Il pdf viene costruito dinamicamente nel momento stesso in cui il visitatore clicca un link. Questo accorgimento libera il webmaster dalla tediosa (e facilmente dimenticabile) necessità di rigenerare il pdf ad ogni minimo ritocco della pagina.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Volevo che cliccando sul link si avviasse automaticamente il download, così da ‘costringere’ l’utente a interagire col PDF in un secondo tempo rispetto all’esperienza di navigazione. Se scarichi un PDF è per stamparlo o consultarlo con calma o magari passarlo a un collega, no?</p>
+<p>Costringere l’utente a usare il menu contestuale del browser (<em>Salva link con nome..</em>) non è certo la scelta ideale dal punto di vista dell’esperienza utente, tanto più che in questo caso il link non è statico e invoca codice JavaScript. Per ottenere il risultato desiderato dobbiamo inviare direttamente il file all’utente. [cci_asp theme=”standard”]Response.TransmitFile()[/cci_asp] è il metodo che invia il file dall’applicazione ASP.NET al client, ma prima dobbiamo preoccuparci di aggiungere un paio di header al nostro messaggio di output:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>E’ importante fornire il ContentType corretto altrimenti il browser non sarà sempre in grado di gestire i contenuti del file. Internet Explorer per esempio offre l’opzione di aprire direttamente il file (verrà scaricato nella cache). Nel nostro caso se l’utente sceglie l’apertura diretta IE lancerà Acrobat Reader perché ContentType è <em>application/pdf</em>.</p>
+<p>Altro accorgimento è la chiamata al metodo Path.GetFileName() in riga 7. Non sarebbe necessario se non fosse che <em>taluni broswer arcaici e superati</em> (ogni riferimento a IE è naturalmente voluto) non sono in grado di gestire intelligentemente il filename e, quando propongono il nome del file da salvare, riproducono l’intero path del file sul server. Questo comportamento tra l’altro è pericoloso perché espone l’intera struttura  del sito, dalla radice al folder che contiene la pagina, al visitatore.</p>
+<p>Se la routine deve essere usata in un modulo e non direttamente in una pagina aspx ricordate di sostituire Response con HttpContect.Current.Response. Buon lavoro!</p>]]></content:encoded>
     </item>
     <item>
       <title>Il Formato Valuta in ASP.NET quando il sito è all’estero</title>
@@ -26,6 +37,33 @@
       <guid>https://nicolaiarocci.com/il-formato-valuta-in-asp-net-quando-il-sito-e-allestero/</guid>
       <description>&lt;p&gt;Una settimana fa abbiamo lanciato il nuovo sito del &lt;a href=&#34;http://gestionaleamica.com&#34; title=&#34;Gestionale Amica&#34;&gt;Gestionale Amica&lt;/a&gt;, il nostro prodotto di punta. E’ scritto in &lt;strong&gt;ASP.NET&lt;/strong&gt; ed è dotato di un sistema di e-commerce sviluppato su misura. Carrello della spesa, checkout, pagamenti con carta di credito, tracciamento ordini, profilo utenti… un lavoro del quale sono piuttosto orgoglioso. Man mano che il giorno del debutto si avvicinava cresceva l’eccitazione; ero impaziente di vederlo funzionare questo gioiellino. Finalmente il 21 marzo è arrivato e con la primavera è sbocciato il nuovo sito. Come è andata? Bene! A parte un piccolo dettaglio. Il mio gioiellino vendeva in Dollari ($) anziché in Euro (€)&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;</description>
+      <content:encoded><![CDATA[<p>Una settimana fa abbiamo lanciato il nuovo sito del <a href="http://gestionaleamica.com" title="Gestionale Amica">Gestionale Amica</a>, il nostro prodotto di punta. E’ scritto in <strong>ASP.NET</strong> ed è dotato di un sistema di e-commerce sviluppato su misura. Carrello della spesa, checkout, pagamenti con carta di credito, tracciamento ordini, profilo utenti… un lavoro del quale sono piuttosto orgoglioso. Man mano che il giorno del debutto si avvicinava cresceva l’eccitazione; ero impaziente di vederlo funzionare questo gioiellino. Finalmente il 21 marzo è arrivato e con la primavera è sbocciato il nuovo sito. Come è andata? Bene! A parte un piccolo dettaglio. Il mio gioiellino vendeva in Dollari ($) anziché in Euro (€)</p>
+<!-- raw HTML omitted -->
+<h2 id="come-è-potuto-succedere">Come è potuto succedere?</h2>
+<p>In fatto di localizzazione una pagina ASP.NET non è diversa da una normale applicazione WinForms. In assenza di indicazioni diverse il .NET Framework <strong>rappresenta le valute in base alle impostazioni internazionali del computer che lo ospita</strong>. Durante sviluppo e collaudo non abbiamo avuto problemi perché lavoravamo su server aziendali locali. Tuttavia il server di produzione è americano, ed è così che pubblicando il sito ci siamo regalati un bel cambiamento di valuta, il tutto senza toccare una linea di codice.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Restituisce <strong>€1.567,50</strong> in Italia e <strong>$1,567.50</strong> negli Stati Uniti. Probabilmente a questo punto vi starete dicendo due cose:</p>
+<ol>
+<li>Ma perché hai pubblicato un sito in italiano, per un pubblico italiano, negli Stati Uniti?</li>
+<li>Te lo dovevi aspettare, cosa volevi che succedesse? Qualunque sviluppatore con un minimo di esperienza sa queste cose.</li>
+</ol>
+<p>A proposito del primo punto ci sarebbe da scrivere un articolo intero (e magari lo farò). Basti sapere per ora che, malgrado le apparenze, ci sono (anche) buone ragioni per pubblicare siti italiani all’estero. Sul secondo punto naturalmente avreste ragione. Il fatto è che, nel grande schema delle cose, sono proprio i piccoli dettagli quelli che possono sfuggire. Per fortuna porre rimedio è stato semplice e indolore. Vediamo.</p>
+<h2 id="e8217-tutta-questione-di-culture">E’ tutta questione di Culture</h2>
+<p>In ogni pagina ASP.NET è possibile impostare il valore delle proprietà <a href="http://msdn.microsoft.com/en-us/library/system.web.ui.page.culture(v=VS.85).aspx"><strong>Culture</strong></a> e <a href="http://msdn.microsoft.com/en-us/library/system.web.ui.page.uiculture(v=VS.85).aspx"><strong>UICulture</strong></a>. <!-- raw HTML omitted -->Culture<!-- raw HTML omitted --> determina l’output delle funzioni influenzate dalla cultura: date, numeri, valute, orari. <!-- raw HTML omitted -->UICulture<!-- raw HTML omitted --> istruisce la pagina su quali risorse culturali caricare.</p>
+<h3 id="impostare-culture-e-uiculture-per-tutto-il-sito">Impostare Culture e UICulture per tutto il sito</h3>
+<p>Intervenendo direttamente nel file Web.Config possiamo dire a ASP.NET quale è la cultura da usare in tutto il sito. In questo modo non dovremo preoccuparci di intervenire su ogni in pagina.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Attenzione alle maiuscole. <!-- raw HTML omitted -->uiCulture<!-- raw HTML omitted --> va bene; <!-- raw HTML omitted -->uiculture<!-- raw HTML omitted --> non va bene. Non sprecate mezz’ora per una sciocchezza del genere, l’ho già fatto io per voi.</p>
+<h3 id="impostare-culture-e-uiculture-per-una-pagina">Impostare Culture e UICulture per una pagina</h3>
+<p>Per modificare Culture e UICulture di una singola pagina è necessario impostare i corrispondenti attributi della direttiva <a href="http://msdn.microsoft.com/it-it/library/ydy4x04a(v=VS.85).aspx">@ Page</a></p>
+<!-- raw HTML omitted -->
+<p>Questa tecnica può naturalmente venire usata in abbinamento alla precedente anche se devo dire che non mi viene in mente un motivo, uno scenario valido in cui ciò potrebbe essere utile.</p>
+<h3 id="adattare-l8217output-alla-lingua-del-browser">Adattare l’output alla lingua del browser</h3>
+<p>Per adattare la cultura al linguaggio del browser che visita la pagina basta impostare <strong>UICulture</strong> e <strong>Culture</strong> su <strong>auto</strong> (non l’ho testato personalmente). E’ anche possibile cambiare la cultura dinamicamente via codice. Se volete sapere come fare consultate la <a href="http://msdn.microsoft.com/en-us/library/syy068tk.aspx">documentazione ufficiale</a>.</p>
+<h2 id="dimenticavo8230">Dimenticavo…</h2>
+<p>C’è un’altra cosuccia che non ha funzionato perfettamente al momento del debutto. Immaginate la sorpresa del cliente che, ordinando un prodotto da €499 + IVA, si è visto proporre l’addebito su carta di credito per <strong>€1 (uno)</strong> IVA inclusa. Ma questa è un’altra storia…</p>]]></content:encoded>
     </item>
     <item>
       <title>Il meglio di Stack Overflow in una collana di eBook gratuiti</title>
@@ -33,6 +71,112 @@
       <pubDate>Wed, 02 Feb 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/il-meglio-di-stack-overflow-una-collana-di-ebook-gratuiti/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://stackoverflow.com/&#34;&gt;&lt;strong&gt;Stack Overflow&lt;/strong&gt;&lt;/a&gt; è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera &lt;strong&gt;minera di informazioni&lt;/strong&gt; &lt;strong&gt;preziose&lt;/strong&gt; e  meriterebbe maggiore attenzione…&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…</p>
+<h2 id="gli-ebooks-di-stack-overflow">Gli eBooks di Stack Overflow</h2>
+<h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1-"><!-- raw HTML omitted --></h2>
+<p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
+<ul>
+<li>JAVA (26M)</li>
+<li>C# (24M), C++ (21M), C (11M)</li>
+<li>NET (21M)</li>
+<li>PYTHON (20M), DJANGO (1.6M)</li>
+<li>JAVASCRIPT (15M)</li>
+<li>PHP (9.6M)</li>
+<li>IPHONE (7.3M)</li>
+<li>HTML (6.0M), HTML 5 (3.0M)</li>
+<li>CSS (5.7M)</li>
+<li>JQUERY (5.5M)</li>
+<li>ASP.NET (4.8M)</li>
+<li>DATABASE (4.8M)</li>
+<li>RUBY (3.1M), RUBY ON RAILS (1.9M)</li>
+<li>ANDROID (2.7M)</li>
+<li>MY SQL (2.5M), ORACLE (662K), SQL SERVER (2.8M), SQL (5.1M)</li>
+<li>AJAX (2.1M)</li>
+<li>COCOA (1.5M), OBJECTIVE-C (3.1M)</li>
+<li>VB.NET (1.5M)</li>
+<li>SILVERLIGHT (1.1M)</li>
+<li>FLASH (509K)</li>
+</ul>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…<!-- raw HTML omitted --></p>
+<h2 id="gli-ebooks-di-stack-overflow-1">Gli eBooks di Stack Overflow</h2>
+<h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1--1"><!-- raw HTML omitted --></h2>
+<p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
+<ul>
+<li>JAVA (26M)</li>
+<li>C# (24M), C++ (21M), C (11M)</li>
+<li>NET (21M)</li>
+<li>PYTHON (20M), DJANGO (1.6M)</li>
+<li>JAVASCRIPT (15M)</li>
+<li>PHP (9.6M)</li>
+<li>IPHONE (7.3M)</li>
+<li>HTML (6.0M), HTML 5 (3.0M)</li>
+<li>CSS (5.7M)</li>
+<li>JQUERY (5.5M)</li>
+<li>ASP.NET (4.8M)</li>
+<li>DATABASE (4.8M)</li>
+<li>RUBY (3.1M), RUBY ON RAILS (1.9M)</li>
+<li>ANDROID (2.7M)</li>
+<li>MY SQL (2.5M), ORACLE (662K), SQL SERVER (2.8M), SQL (5.1M)</li>
+<li>AJAX (2.1M)</li>
+<li>COCOA (1.5M), OBJECTIVE-C (3.1M)</li>
+<li>VB.NET (1.5M)</li>
+<li>SILVERLIGHT (1.1M)</li>
+<li>FLASH (509K)</li>
+</ul>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con]<a href="http://www.amazon.com/dp/B002Y27P3M/?tag=gocous-20&amp;hvadid=5729120357&amp;ref=pd_sl_blgu0nkyl_b">7</a> e credo con altri lettori di eBook. Ricordo che è possibile leggere i libri per Kindle con l’applicazione <strong>gratuita</strong> disponibile per <a href="http://www.amazon.com/gp/feature.html/ref=kcp_pc_mkt_lnd?docId=1000426311">PC</a>, <a href="http://www.amazon.com/gp/feature.html/ref=kcp_mac_mkt_lnd?docId=1000464931">Mac</a>, [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…<!-- raw HTML omitted --></p>
+<h2 id="gli-ebooks-di-stack-overflow-2">Gli eBooks di Stack Overflow</h2>
+<h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1--2"><!-- raw HTML omitted --></h2>
+<p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
+<ul>
+<li>JAVA (26M)</li>
+<li>C# (24M), C++ (21M), C (11M)</li>
+<li>NET (21M)</li>
+<li>PYTHON (20M), DJANGO (1.6M)</li>
+<li>JAVASCRIPT (15M)</li>
+<li>PHP (9.6M)</li>
+<li>IPHONE (7.3M)</li>
+<li>HTML (6.0M), HTML 5 (3.0M)</li>
+<li>CSS (5.7M)</li>
+<li>JQUERY (5.5M)</li>
+<li>ASP.NET (4.8M)</li>
+<li>DATABASE (4.8M)</li>
+<li>RUBY (3.1M), RUBY ON RAILS (1.9M)</li>
+<li>ANDROID (2.7M)</li>
+<li>MY SQL (2.5M), ORACLE (662K), SQL SERVER (2.8M), SQL (5.1M)</li>
+<li>AJAX (2.1M)</li>
+<li>COCOA (1.5M), OBJECTIVE-C (3.1M)</li>
+<li>VB.NET (1.5M)</li>
+<li>SILVERLIGHT (1.1M)</li>
+<li>FLASH (509K)</li>
+</ul>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…<!-- raw HTML omitted --></p>
+<h2 id="gli-ebooks-di-stack-overflow-3">Gli eBooks di Stack Overflow</h2>
+<h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1--3"><!-- raw HTML omitted --></h2>
+<p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
+<ul>
+<li>JAVA (26M)</li>
+<li>C# (24M), C++ (21M), C (11M)</li>
+<li>NET (21M)</li>
+<li>PYTHON (20M), DJANGO (1.6M)</li>
+<li>JAVASCRIPT (15M)</li>
+<li>PHP (9.6M)</li>
+<li>IPHONE (7.3M)</li>
+<li>HTML (6.0M), HTML 5 (3.0M)</li>
+<li>CSS (5.7M)</li>
+<li>JQUERY (5.5M)</li>
+<li>ASP.NET (4.8M)</li>
+<li>DATABASE (4.8M)</li>
+<li>RUBY (3.1M), RUBY ON RAILS (1.9M)</li>
+<li>ANDROID (2.7M)</li>
+<li>MY SQL (2.5M), ORACLE (662K), SQL SERVER (2.8M), SQL (5.1M)</li>
+<li>AJAX (2.1M)</li>
+<li>COCOA (1.5M), OBJECTIVE-C (3.1M)</li>
+<li>VB.NET (1.5M)</li>
+<li>SILVERLIGHT (1.1M)</li>
+<li>FLASH (509K)</li>
+</ul>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con]<a href="http://www.amazon.com/dp/B002Y27P3M/?tag=gocous-20&amp;hvadid=5729120357&amp;ref=pd_sl_blgu0nkyl_b">7</a> e credo con altri lettori di eBook. Ricordo che è possibile leggere i libri per Kindle con l’applicazione <strong>gratuita</strong> disponibile per <a href="http://www.amazon.com/gp/feature.html/ref=kcp_pc_mkt_lnd?docId=1000426311">PC</a>, <a href="http://www.amazon.com/gp/feature.html/ref=kcp_mac_mkt_lnd?docId=1000464931">Mac</a>,]<a href="http://www.amazon.com/gp/feature.html/ref=kcp_iphone_mkt_lnd?docId=1000301301">10</a> e <a href="http://www.amazon.com/gp/feature.html?ie=UTF8&amp;docId=165849822">Android</a>.</p>
+<p><strong>Buona lettura!</strong></p>]]></content:encoded>
     </item>
     <item>
       <title>Il futuro del codice sorgente è online?</title>
@@ -42,6 +186,112 @@
       <description>&lt;p&gt;Gli ambienti di sviluppo (IDE) online sono una delle opportunità più originali che il &lt;a href=&#34;http://it.wikipedia.org/wiki/Cloud_computing&#34;&gt;cloud computing&lt;/a&gt; mette a disposizione dei programmatori web. In generale si tratta di editor di codice, debugger e strumenti per il controllo di versione da usare nel browser web senza bisogno di installare alcun software sul client. Per il momento le soluzioni disponibili offrono funzionalità limitate che tuttavia lasciano intravedere le possibilità che questi strumenti metteranno a nostra disposizione.&lt;/p&gt;
 &lt;h2 id=&#34;il-progetto-orion&#34;&gt;Il Progetto Orion&lt;/h2&gt;
 &lt;p&gt;Semplici editor di codice sorgente sono disponibili online già da tempo, ma progetti come &lt;strong&gt;Orion&lt;/strong&gt; portano il concetto di programmazione online a un livello superiore. &lt;a href=&#34;http://dev.eclipse.org/blogs/mike/2011/01/11/introducing-orion/&#34;&gt;Annunciato pochi giorni fa&lt;/a&gt; dal team di sviluppo di &lt;strong&gt;Eclipse&lt;/strong&gt;, una IDE Open Source molto diffusa e apprezzata, il progetto Orion è qualcosa di nuovo:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Gli ambienti di sviluppo (IDE) online sono una delle opportunità più originali che il <a href="http://it.wikipedia.org/wiki/Cloud_computing">cloud computing</a> mette a disposizione dei programmatori web. In generale si tratta di editor di codice, debugger e strumenti per il controllo di versione da usare nel browser web senza bisogno di installare alcun software sul client. Per il momento le soluzioni disponibili offrono funzionalità limitate che tuttavia lasciano intravedere le possibilità che questi strumenti metteranno a nostra disposizione.</p>
+<h2 id="il-progetto-orion">Il Progetto Orion</h2>
+<p>Semplici editor di codice sorgente sono disponibili online già da tempo, ma progetti come <strong>Orion</strong> portano il concetto di programmazione online a un livello superiore. <a href="http://dev.eclipse.org/blogs/mike/2011/01/11/introducing-orion/">Annunciato pochi giorni fa</a> dal team di sviluppo di <strong>Eclipse</strong>, una IDE Open Source molto diffusa e apprezzata, il progetto Orion è qualcosa di nuovo:</p>
+<blockquote>
+<p>E’ una piattaforma di sviluppo aperta focalizzata totalmente allo sviluppo per il web, dentro il web. I tools sono scritti in JavaScript e girano nel browser. A differenza di altri tentativi di realizzare strumenti di sviluppo integrati nel browser, Orion non è una IDE che gira in una singola scheda del browser. I links funzionano e possono essere condivisi. Puoi aprire files in schede diverse e grande cura è stata messa nel fornire una ottima web experience durante lo sviluppo del codice</p>
+</blockquote>
+<!-- raw HTML omitted -->
+<pre><code>  &lt;p class=&quot;wp-caption-text&quot;&gt;
+    Codice JavaScript sviluppato direttamente in Google Chrome - Progetto Orion/Eclipse
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+  Orion supporta JavaScript e presto funzionerà anche con PHP, HTML, CSS e Java.
+&lt;/p&gt;
+
+&lt;h2&gt;
+  Cloud9 e gli altri
+&lt;/h2&gt;
+
+&lt;p&gt;
+  &lt;img class=&quot;alignleft&quot; title=&quot;Cloud9 IDE&quot; src=&quot;images/2011/01/cloud9ide.png?resize=147%2C150&quot; alt=&quot;Cloud9 IDE&quot; data-recalc-dims=&quot;1&quot; /&gt;Anche &lt;strong&gt;Mozilla&lt;/strong&gt; lavora da tempo (2008) a qualcosa di simile. &lt;a href=&quot;http://mozillalabs.com/skywriter/&quot;&gt;Skywriter&lt;/a&gt;, semplice editor online ora integrato in &lt;a href=&quot;http://ace.ajax.org/&quot;&gt;Ace&lt;/a&gt;, è alla base della piattaforma &lt;a style=&quot;font-weight: bold;&quot; href=&quot;http://cloud9ide.com/&quot;&gt;Cloud9 IDE&lt;/a&gt;. Attualmente in beta, Cloud9 è una IDE JavaScript integrata in Google Chrome che promette prestazioni uguali a quelle offerte da editor e IDE tradizionali, integrazione tra codice sorgente locale e remoto, debugging e deployment integrati.
+&lt;/p&gt;
+
+&lt;p&gt;
+  Altro brillante esempio è &lt;strong&gt;&lt;a href=&quot;http://www.coderun.com/&quot;&gt;CodeRun&lt;/a&gt;&lt;/strong&gt;, IDE online già funzionante e gratuita dedicata soprattutto a sviluppatori ASP.NET, Silverlight e WPF. Il mondo IDE insomma è in gran fermento.
+&lt;/p&gt;
+
+&lt;h2&gt;
+  Vantaggi e svantaggi di sviluppare nel cloud
+&lt;/h2&gt;
+
+&lt;p&gt;
+  Immaginate un &lt;a href=&quot;http://docs.google.com/&quot;&gt;Google Documents&lt;/a&gt; per programmatori. Oggi possiamo creare online fogli di calcolo, testi e presentazioni; domani potremo sviluppare i nostri programmi nel browser. Ma quali sono i vantaggi e gli svantaggi di affidarsi a un ambiente di sviluppo online? Gli stessi offerti da un ambiente di produttività come Google Documents.
+&lt;/p&gt;
+
+&lt;h3&gt;
+  Accessibilità
+&lt;/h3&gt;
+
+&lt;p&gt;
+  Possiamo accedere al nostro ambiente di lavoro da qualunque località nel mondo. Bastano un accesso internet e un browser per metterci al lavoro. Siamo a Bangkok e abbiamo un paio di ore a disposizione? Entriamo in un internet cafe e pochi minuti dopo stiamo scrivendo codice o revisionando il lavoro dei colleghi. Il che ci porta al prossimo punto.
+&lt;/p&gt;
+
+&lt;h3&gt;
+  Collaborazione e condivisione semplificate
+&lt;/h3&gt;
+
+&lt;p&gt;
+  Nei progetti più importanti è spesso necessario installare strumenti di gestione e controllo dei team di sviluppo. Il codice sorgente memorizzato su un server remoto e accessibile a chiunque rende collaborazione e condivisione del codice più semplice. Tutte le cloud IDE promettono il supporto per team di sviluppo.
+&lt;/p&gt;
+
+&lt;h3&gt;
+  Indipendenza dalla piattaforma hardware
+&lt;/h3&gt;
+
+&lt;p&gt;
+  Con le cloud IDE scriviamo codice in un web browser. Compilazione, linking e debugging sono processi svolti su una macchina remota che (si suppone) offrirà prestazioni adeguate al compito. Trovarsi momentaneamente su un computer poco performante non sarà un problema. Sviluppare su computers diversi (Mac a casa e PC in ufficio, per esempio) non comporterà differenze sostanziali.
+&lt;/p&gt;
+
+&lt;h3&gt;
+  Riservatezza
+&lt;/h3&gt;
+
+&lt;p&gt;
+  Il nostro codice sarà memorizzato su un dispositivo sul quale non potremo esercitare un controllo assoluto. Difficilmente avremo garanzia di totale riservatezza. Applicazioni particolarmente delicate non potranno probabilmente essere sviluppate &lt;em&gt;sulle nuovole &lt;/em&gt;anche se servizi di successo come &lt;strong&gt;&lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; &lt;/strong&gt;offrono supporto a progetti open source e privati garantendo a questi ultimi la riservatezza necessaria.
+&lt;/p&gt;
+
+&lt;h3&gt;
+  Sicurezza
+&lt;/h3&gt;
+
+&lt;p&gt;
+  Che succede se il mio codice sorgente viene perduto in seguito a un guasto hardware del sistema remoto che lo ospita? L&amp;#8217;affidabilità è senz&amp;#8217;altro un aspetto delicato e costituisce uno dei deterrenti all&amp;#8217;adozione dei sistemi di cloud computing in generale. Affidare i nostri codici a terzi non ci impedirebbe di conservarne copie locali. Come già successo per i sistemi di &lt;a href=&quot;http://it.wikipedia.org/wiki/Cloud-storage&quot;&gt;cloud storage&lt;/a&gt;, i servizi di cloud development dovranno offrire elevati standard di sicurezza e affidabilità.
+&lt;/p&gt;
+
+&lt;h2&gt;
+  Conclusioni
+&lt;/h2&gt;
+
+&lt;p&gt;
+  Lo sviluppo di applicazioni &lt;em&gt;sulle nuvole&lt;/em&gt; è senz&amp;#8217;altro una prospettiva affascinante che presto sarà di attualità. Non sono poche le perplessità degli sviluppatori, soprattutto negli ambienti &lt;em&gt;enterprise&lt;/em&gt; o nei settori nei quali la riservatezza è un elemento determinante. Le applicazioni web saranno le prime implementate con queste tecnologie, per le altre bisognerà probabilmente attendere a lungo.
+&lt;/p&gt;
+
+&lt;h4&gt;
+  Approfondimenti
+&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;http://dev.eclipse.org/blogs/mike/2011/01/11/introducing-orion/&quot;&gt;Introducing Orion&lt;/a&gt;, di Mike Milinkovich
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;http://borisoneclipse.blogspot.com/2011/01/orion.html&quot;&gt;Orion&lt;/a&gt;, di Boris Bukowski
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;http://jaxenter.com/eclipse-orion-the-new-ide-paradigm-33431.html&quot;&gt;Eclipse Orion: The New IDE Paradigm&lt;/a&gt;, intervista a B. Bukowski
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;http://www.i-programmer.info/news/90-tools/1872-mozilla-and-eclipse-take-programming-into-the-cloud.html&quot;&gt;Mozilla and Eclipse take programming into the cloud&lt;/a&gt;, di Mike James
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;http://dotnet.dzone.com/articles/online-ides-%E2%80%93-perspectives&quot;&gt;Online IDEs – perspectives?&lt;/a&gt; Di Den Delimarsky
+  &lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>]]></content:encoded>
     </item>
     <item>
       <title>Come accorciare links e URL usando le API di Bit.ly via ASP.NET</title>
@@ -49,6 +299,16 @@
       <pubDate>Mon, 29 Nov 2010 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/accorciare-url-usando-bit-ly-via-asp-net/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Una delle applicazioni su cui sto lavorando in questo periodo manda decine di emails al giorno, ognuna contenente almeno un paio di links (URL). Questi link sono molto lunghi perché oltre all’indirizzo della pagina da aprire contengono una o più &lt;a href=&#34;http://en.wikipedia.org/wiki/Query_string&#34;&gt;query strings&lt;/a&gt;. In generale, per tante buone ragioni, le URL lunghe non sono mai una buona idea; ancor meno lo sono se  devono comparire in un messaggio email. Gli algoritmi di &lt;a href=&#34;http://en.wikipedia.org/wiki/Word_wrap&#34;&gt;word wrapping&lt;/a&gt; dei client di posta elettronica vanno in crisi quando sono costretti a inserire un ritorno di carrello nel bel mezzo della URL. Come biasimarli?&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Una delle applicazioni su cui sto lavorando in questo periodo manda decine di emails al giorno, ognuna contenente almeno un paio di links (URL). Questi link sono molto lunghi perché oltre all’indirizzo della pagina da aprire contengono una o più <a href="http://en.wikipedia.org/wiki/Query_string">query strings</a>. In generale, per tante buone ragioni, le URL lunghe non sono mai una buona idea; ancor meno lo sono se  devono comparire in un messaggio email. Gli algoritmi di <a href="http://en.wikipedia.org/wiki/Word_wrap">word wrapping</a> dei client di posta elettronica vanno in crisi quando sono costretti a inserire un ritorno di carrello nel bel mezzo della URL. Come biasimarli?</p>
+<p>Ci sono poi certi sistemi di web mail (quello di Libero, per non far nomi) che semplicemente non sono capaci di riprodurre correttamente un link o se lo fanno non attivano il link per ragioni di sicurezza, lasciando così al destinatario della mail il compito di copiare e incollare l’intera URL nel browser. Operazione non sempre banale per l’utente medio, soprattutto quando (guarda caso!) il testo da copiare e incollare è lunghissimo.</p>
+<p>Si potrebbe risolvere banalmente ricorrendo agli <a href="http://www.w3schools.com/HTML/html_links.asp">anchor tag HTML</a> ma nel mio caso questa strada non è praticabile: i messaggi devono essere in puro testo. Non solo, questa soluzione non risolverebbe comunque il problema dei web mail client che non si fidano dei miei messaggi. Creare a priori URL brevi non è una opzione per ragioni di legacy (il sito non l’ho creato io!). Come fare allora?</p>
+<h2 id="chiedere-aiuto-a-un-serviziourl-shortener">Chiedere aiuto a un servizio URL Shortener</h2>
+<p>Gli <a href="http://it.wikipedia.org/wiki/URL_shortening">URL shortener</a> sono servizi molto usati in ambito social networking e non solo. Data una certa URL di qualunque lunghezza ne restituiscono una equivalente molto più breve. Pioniere in questo campo è stato TinyURL ma oggigiorno il servizio più diffuso e conosciuto è senz’altro <a href="http://bit.ly/">Bit.ly</a>, il quale ha l’indubbio vantaggio di offrire una <a href="http://it.wikipedia.org/wiki/Representational_State_Transfer">REST API</a> ricca, robusta e <a href="http://code.google.com/p/bitly-api/wiki/ApiDocumentation#bit.ly_API_Documentation">ben documentata</a>. Questa libreria gratuita consente ai programmatori indipendenti (noi) l’implementazione di servizi di URL shortening nelle proprie applicazioni.</p>
+<p>Ecco dunque <strong>ShortenUrl</strong>, una semplice funzione ASP.NET che restituisce una URL breve a partire da una URL di qualunque lunghezza passata come parametro. Nel caso la chiamata alla API fallisca la funzione restituirà semplicemente una stringa vuota.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>La gran parte del lavoro è fatto da una sola linea di codice (ok, avrei potuto suddividerla in due o tre linee per amor di chiarezza, te lo concedo). La richiesta REST al servizio è eseguita da una istanza della classe <a href="http://msdn.microsoft.com/it-it/library/system.net.httpwebrequest(v=VS.90).aspx">HttpWebRequest</a>. Il <a href="http://code.google.com/p/bitly-api/wiki/ApiDocumentation#/v3/shorten">metodo Shorten</a> può restituire risultati in formato <a href="http://it.wikipedia.org/wiki/JSON">JSON</a>, <a href="http://it.wikipedia.org/wiki/XML">XML</a> o puro testo. Per semplicità ho scelto il formato testo. A seconda delle necessità potresti ricorrere al bellissimo formato JSON o al logorroico XML,  la documentazione ufficiale contiene esempi molto chiari anche per questi formati.</p>
+<p>Se non disponi di un account Bit.ly dovrai <a href="http://bit.ly/a/sign_up">registrarti</a> (è gratis). Una volta creato l’account potrai recuperare facilmente la tua <a href="http://bit.ly/a/your_api_key">API Key personale</a>, indispensabile per poter effettuare chiamate ai metodi della libreria.</p>]]></content:encoded>
     </item>
     <item>
       <title>Una ottima guida di riferimento per lo sviluppatore ASP.NET</title>
@@ -57,6 +317,9 @@
       <guid>https://nicolaiarocci.com/guida-di-riferimento-per-asp-net/</guid>
       <description>La ASP.NET Developer Guidance Map è una eccellente risorsa sia per il programmatore alle prime armi che per il veterano. Fornisce una ottima selezione di risorse web catalogate nelle seguenti categorie: Primi Passi, Architettura e Design, Codice di Esempio, Come Fare, Filmati, Addestramento.
 Peccato sia disponibile solo in formato PDF, qualcuno dovrebbe approntare una pagina wiki o qualcosa di simile che riproduca questi contenuti.</description>
+      <content:encoded><![CDATA[<p>La  <!-- raw HTML omitted -->ASP.NET Developer Guidance Map<!-- raw HTML omitted --> è una eccellente risorsa sia per il programmatore alle prime armi che per il veterano. Fornisce una ottima selezione di  risorse web catalogate nelle seguenti categorie: Primi Passi, Architettura e Design, Codice di Esempio, Come Fare, Filmati, Addestramento.</p>
+<p>Peccato sia disponibile solo in formato PDF, qualcuno dovrebbe approntare una pagina wiki o qualcosa di simile che riproduca questi contenuti.</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

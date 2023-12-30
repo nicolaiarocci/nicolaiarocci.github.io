@@ -18,6 +18,31 @@ The networkQuality tool is a built-in tool released in macOS Monterey that can h
 Usage:
 networkQuality -v Example output:
 ==== SUMMARY ==== Uplink capacity: 44.448 Mbps (Accuracy: High) Downlink capacity: 162.135 Mbps (Accuracy: High) Responsiveness: Low (73 RPM) (Accuracy: High) Idle Latency: 50.125 milliseconds (Accuracy: High) Interface: en0 Uplink bytes transferred: 69.</description>
+      <content:encoded><![CDATA[<p>Today I learned about a precious little macOS command line tool, <code>networkQuality</code>.</p>
+<blockquote>
+<p>The networkQuality tool is a built-in tool released in macOS Monterey that can help diagnose network issues and
+measure network performance.</p>
+</blockquote>
+<p>Usage:</p>
+<pre tabindex="0"><code>networkQuality -v
+</code></pre><p>Example output:</p>
+<pre tabindex="0"><code>==== SUMMARY ====
+Uplink capacity: 44.448 Mbps (Accuracy: High)
+Downlink capacity: 162.135 Mbps (Accuracy: High)
+Responsiveness: Low (73 RPM) (Accuracy: High)
+Idle Latency: 50.125 milliseconds (Accuracy: High)
+Interface: en0
+Uplink bytes transferred: 69.921 MB
+Downlink bytes transferred: 278.340 MB
+Uplink Flow count: 16
+Downlink Flow count: 12
+Start: 13/05/2023, 15:04:13
+End: 13/05/2023, 15:04:27
+OS Version: Version 13.3.1 (a) (Build 22E772610a)
+</code></pre><p>It supports Apple&rsquo;s Private Relay, offers some configuration options and allows setting up your own server. More info
+<a href="https://cyberhost.uk/the-hidden-macos-speedtest-tool-networkquality/">here</a>.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>How to copy a file&#39;s path in macOS Finder</title>
@@ -27,6 +52,17 @@ networkQuality -v Example output:
       <description>No matter how long I&amp;rsquo;ve possessed a Mac and how hard I try, there will always be a helpful keyboard shortcut hidden somewhere that I don&amp;rsquo;t know about.
 Today I learned about holding the Option key while clicking on the Copy command in Finder. It activates the super-useful (and super-secret) &amp;ldquo;copy as pathname&amp;rdquo; feature.
 I spotted this trick on Jamie Smith&amp;rsquo;s website, where other handy shortcuts (and the pretty gif above) reside.</description>
+      <content:encoded><![CDATA[<p>No matter how long I&rsquo;ve possessed a Mac and how hard I try, there will always
+be a helpful keyboard shortcut hidden somewhere that I don&rsquo;t know about.</p>
+<p>Today I learned about holding the <code>Option</code> key while clicking on the Copy
+command in Finder. It activates the super-useful (and super-secret) &ldquo;copy as
+pathname&rdquo; feature.</p>
+<p><img loading="lazy" src="/images/finder-menu-option.gif" alt="Credits: Jamie Smith"  />
+</p>
+<p>I spotted this trick on <a href="https://www.jamieonkeys.dev/posts/keyboard-shortcuts/">Jamie Smith&rsquo;s website</a>, where other handy shortcuts
+(and the pretty gif above) reside.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>So tired of Homebrew messing up with my stuff</title>
@@ -35,6 +71,36 @@ I spotted this trick on Jamie Smith&amp;rsquo;s website, where other handy short
       <guid>https://nicolaiarocci.com/so-tired-of-homebrew-messing-up-with-my-stuff/</guid>
       <description>Pardon me while I&amp;rsquo;m venting out my frustration. I am so tired of Homebrew messing up with my stuff. It used to be the perfect tool for the right job until they decided to auto-brew-update-and-cleanup at every new install. Another day another issue, today with vim not running anymore:
 dyld: Library not loaded: /usr/local/opt/lua/lib/liblua.5.3.dylib Referenced from: /user/local/bin/vi Reason: image not found Lua has suddenly gone missing. Ah, but of course. I installed something with Homebrew this morning.</description>
+      <content:encoded><![CDATA[<p>Pardon me while I&rsquo;m venting out my frustration. I am so tired of Homebrew
+messing up with my stuff. It used to be the perfect tool for the right job
+until they decided to auto-brew-update-and-cleanup at every new install.
+Another day another issue, today with vim not running anymore:</p>
+<pre><code>dyld: Library not loaded: /usr/local/opt/lua/lib/liblua.5.3.dylib
+Referenced from: /user/local/bin/vi
+Reason: image not found
+</code></pre>
+<p>Lua has suddenly gone missing. Ah, but of course. I installed something with
+Homebrew this morning. The fix is to <code>brew reinstall vim</code>, which then leads to
+the following error:</p>
+<pre><code>Error: python@3.9 the bottle needs the Apple Command LIne Tools to be installed.
+You can install them, if desired, with:
+xcode-select --install
+</code></pre>
+<p>An <code>xcode-select install</code> and another <code>brew reinstall</code> later, vim is back home.
+It&rsquo;s only a minor annoyance —only a few wasted minutes, but the point is, they
+didn&rsquo;t need to be wasted. If you&rsquo;re frequently installing stuff via Homebrew,
+this is quite a common, unpleasant occurrence (python virtual environments
+being hit with alarming frequency).</p>
+<p>I know that one can disable automatic cleanups by setting the
+<code>HOMEBREW_NO_INSTALL_CLEANUP</code> environment variable. I will end up doing that
+out of frustration sooner or later. Again, the point is I should not need to do
+that.  It all adds unnecessary friction, especially for someone who&rsquo;s been
+religiously running manual cleanups (I concede that an un-maintained brew cache
+can grow to <em>very</em> sizable dimensions).</p>
+<p>Homebrew is still an essential tool; just not so enjoyable anymore. It&rsquo;s not
+like we have a valid alternative at hand, anyway.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Quicker window snapping on macOS</title>
@@ -43,6 +109,22 @@ dyld: Library not loaded: /usr/local/opt/lua/lib/liblua.5.3.dylib Referenced fro
       <guid>https://nicolaiarocci.com/quicker-window-snapping-on-macos/</guid>
       <description>I never see my macOS desktop. It&amp;rsquo;s always cluttered with way too many open windows. When I spot those fantastic, tidy and clean Desktops on the internet, I envy their owners. I wonder if and how they manage to keep those desktops tidy like that the whole workday. It must feel so good.
 I try to keep my windows well arranged. The typical setup might be two windows, from two different apps, tiled side by side.</description>
+      <content:encoded><![CDATA[<p>I never see my macOS desktop. It&rsquo;s always cluttered with way too many open
+windows. When I spot those fantastic, tidy and clean Desktops on the internet,
+I envy their owners. I wonder if and how they manage to keep those desktops
+tidy like that the whole workday. It must feel so good.</p>
+<p>I try to keep my windows well arranged. The typical setup might be two windows,
+from two different apps, tiled side by side. Maybe the browser, or Postman, on
+the right, and my favourite editor on the left. Stuff like that.</p>
+<p><a href="https://hookshot.app/">Hookshot</a> is excellent for doing just that. I discovered this tiny little
+app a few weeks ago, thanks to <a href="https://www.robinrendle.com/notes/hookshot">Robin Rendle</a>. Before, I was using Moom,
+which is also good. I like Hookshot&rsquo;s dead-simple keyboard shortcuts. Once the
+single modifier key combo <em>Control+Command</em> clicks, you&rsquo;re done. Rearranging
+windows becomes a no-brainer. In a way, the experience reminds me of Vim and
+its unique muscle-memory superpower. The ten days trial ended today, and
+I purchased the license right away.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Battling with SSH, cron jobs, and macOS Keyring</title>
@@ -51,6 +133,51 @@ I try to keep my windows well arranged. The typical setup might be two windows, 
       <guid>https://nicolaiarocci.com/battling-with-ssh-cron-jobs-and-macos-keyring/</guid>
       <description>So today, I was setting up a cronjob on my trusty MacBook Pro. The goal was to backup some folders from a remote Linux server via rsync. The script is simple. It goes something like this:
 rsync -avz -e &amp;quot;ssh -i ~/.ssh/my_rsa_keyfile&amp;quot; myuser@myserver:remotedir/ ~/localdir/ Launched by hand, it works seamlessly. Call it from a cron job via crontab, and I get a permission denied error. I then enabled ssh -v option to gather a little intel on what was actually going on.</description>
+      <content:encoded><![CDATA[<p>So today, I was setting up a cronjob on my trusty MacBook Pro. The goal was to
+backup some folders from a remote Linux server via rsync. The script is simple.
+It goes something like this:</p>
+<pre><code>rsync -avz -e &quot;ssh -i ~/.ssh/my_rsa_keyfile&quot; myuser@myserver:remotedir/ ~/localdir/
+</code></pre>
+<p>Launched by hand, it works seamlessly. Call it from a cron job via crontab, and
+I get a permission denied error. I then enabled ssh <code>-v</code> option to gather
+a little intel on what was actually going on. As it turns out, the exact
+error was:</p>
+<pre><code>`read_passphrase: can't open /dev/tty: Device not configured`
+</code></pre>
+<p>Quite puzzling. Long story short, the error message was misleading. It took me
+an embarrassingly long time to figure out what the real problem was. The
+identity file I was using has a passphrase, which is saved in macOS Keyring.
+When the <code>ssh -i</code> command is launched via cron, no Keyring is used. Not unless
+you explicitly instruct ssh to do. See, my <code>~/.ssh/config</code> file was something
+like this:</p>
+<pre><code>Host *
+    ServerAliveInterval 360
+    AddKeysToAgent yes
+
+[...]
+
+Host myserver
+    HostName 123.123.123.123
+    User myuser
+</code></pre>
+<p>See, in <code>myserver</code> section there was no <code>Usekeychain</code> option. Launching the
+script interactively worked because of <code>AddkeysToAgent</code> in the general section.
+It enables the ssh-agent for the current terminal session, for all hosts. But
+cron jobs, well, they don&rsquo;t run in the same session, and certainly don&rsquo;t run
+the agent. I could eval the agent in the script, of course, but the
+simplest solution was to update <code>myserver</code> section:</p>
+<pre><code>Host myserver
+    HostName 123.123.123.123
+    Usekeychain yes
+    User myuser
+</code></pre>
+<p>Now ssh knows it should use the keychain when resolving <code>myserver</code> RSA key,
+even when no agent is running. I am not sure why I did not have <code>Usekeychain</code>
+there; I do have it enabled for other hosts in the same file. As said, I wasted
+way too much time on this issue. At least, I hope my experience will be useful
+to someone else, or, more likely, to my future self in a few months or years.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

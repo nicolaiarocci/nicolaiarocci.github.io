@@ -16,6 +16,18 @@
       <description>I always struggle a bit with I&amp;rsquo;m asked about the &amp;ldquo;hallucination problem&amp;rdquo; in LLMs. Because, in some sense, hallucination is all LLMs do. They are dream machines.
 We direct their dreams with prompts. The prompts start the dream, and based on the LLM&amp;rsquo;s hazy recollection of its training documents, most of the time the result goes someplace useful.
 It&amp;rsquo;s only when the dreams go into deemed factually incorrect territory that we label it a &amp;ldquo;hallucination&amp;rdquo;.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>I always struggle a bit with I&rsquo;m asked about the &ldquo;hallucination problem&rdquo; in LLMs. Because, in some sense, hallucination is all LLMs do. They are dream machines.</p>
+</blockquote>
+<blockquote>
+<p>We direct their dreams with prompts. The prompts start the dream, and based on the LLM&rsquo;s hazy recollection of its training documents, most of the time the result goes someplace useful.</p>
+</blockquote>
+<blockquote>
+<p>It&rsquo;s only when the dreams go into deemed factually incorrect territory that we label it a &ldquo;hallucination&rdquo;. It looks like a bug, but it&rsquo;s just the LLM doing what it always does.</p>
+</blockquote>
+<p>&ndash; <a href="https://twitter.com/karpathy/status/1733299213503787018">Andrej Karpathy</a></p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Intro to Large Language Models (video)</title>
@@ -24,6 +36,18 @@ It&amp;rsquo;s only when the dreams go into deemed factually incorrect territory
       <guid>https://nicolaiarocci.com/intro-to-large-language-models-video/</guid>
       <description>Andrej Karpathy has a very well-done Intro to Large Language Models video on YouTube. As a founding member and research scientist at OpenAI and with a two-year hiatus working on Tesla Autopilot, Karpathy is an authority in the field. He is also good at explaining hard things.
 As a Kahneman reader, I appreciated the Thinking Fast and Slow analogy proposed at about half-length in the video: &amp;ldquo;System 1&amp;rdquo; (fast automatic thinking, rapid decisions) is where we&amp;rsquo;re now; &amp;ldquo;System 2&amp;rdquo; (rational, slow thinking, complex decisions) is LLMs next goal.</description>
+      <content:encoded><![CDATA[<p>Andrej Karpathy has a very well-done <a href="https://youtu.be/zjkBMFhNj_g?si=5tJNFaDcK-FBWnWK">Intro to Large Language Models</a>
+video on YouTube. As a founding member and research scientist at OpenAI and with a two-year hiatus working on Tesla
+Autopilot, Karpathy is an authority in the field. He is also good at explaining hard things.</p>
+<p>As a Kahneman reader, I appreciated the <em>Thinking Fast and Slow</em> analogy proposed at about half-length in the video:
+&ldquo;System 1&rdquo; (fast automatic thinking, rapid decisions) is where we&rsquo;re now; &ldquo;System 2&rdquo; (rational, slow thinking, complex
+decisions) is LLMs next goal. Also, I suspect Karpathy&rsquo;s intriguing idea of LLMs as the center of a new &ldquo;operating
+system style&rdquo; is not too far off from what will emerge soon. The final segment on AI security and known attack vectors
+(jailbreaking, prompt injection, data poisoning) is also super interesting.</p>
+<p>On his website, Karpathy also has a promising <a href="https://karpathy.ai/zero-to-hero.html">zero-to-hero video series</a>, &ldquo;a
+course on building neural networks from scratch, in code.&rdquo;</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>AI-curated minimalist news</title>
@@ -32,6 +56,18 @@ As a Kahneman reader, I appreciated the Thinking Fast and Slow analogy proposed 
       <guid>https://nicolaiarocci.com/ai-curated-minimalist-news/</guid>
       <description>Minimalist News is the first LLM project that excites me but in a nervous way. Quoting the About page:
 We only publish significant news. To find them we use AI (ChatGPT-4) to read and analyze 1000 top news every day. For each article it estimates magnitude, scale, potential and credibility. Then we combine these estimates to get the final Significance score from 0 to 10. And now the best part: We&amp;rsquo;ll only send you the news scored 6.</description>
+      <content:encoded><![CDATA[<p><a href="https://www.newsminimalist.com">Minimalist News</a> is the first LLM project that excites me but in a nervous way. Quoting the About page:</p>
+<blockquote>
+<p>We only publish significant news. To find them we use AI (ChatGPT-4) to read and analyze 1000 top news every day. For
+each article it estimates magnitude, scale, potential and credibility. Then we combine these estimates to get the
+final Significance score from 0 to 10. And now the best part: We&rsquo;ll only send you the news scored 6.5 or higher.
+Sometimes it&rsquo;s 5 articles, sometimes 2, sometimes 8. And sometimes — none at all. But one thing is constant — you can
+be sure that you haven&rsquo;t missed anything important.</p>
+</blockquote>
+<p>The concept is brilliant and well executed, but I can&rsquo;t help but feel uncomfortable at the notion of an AI curating news
+for me. Yet, this is the best use case for LLM/AI I&rsquo;ve seen until now.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

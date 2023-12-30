@@ -15,6 +15,20 @@
       <guid>https://nicolaiarocci.com/an-nginx-playground/</guid>
       <description>Every single time I need nginx, I end up spending way too much time fiddling around with its configuration. If you&amp;rsquo;re like me, rejoice! Julia Evans built a lovely, helpful little tool called nginx playground.
 Hello! On Wednesday I was talking to a friend about how it would be cool to have an nginx playground website where you can just paste in an nginx config and test it out. And then I realized it might actually be pretty easy to build, so got excited and started coding and I built it.</description>
+      <content:encoded><![CDATA[<p>Every single time I need nginx, I end up spending way too much time fiddling
+around with its configuration. If you&rsquo;re like me, rejoice! Julia Evans built
+a lovely, helpful little tool called nginx playground.</p>
+<blockquote>
+<p>Hello! On Wednesday I was talking to a friend about how it would be cool to
+have an nginx playground website where you can just paste in an nginx config
+and test it out. And then I realized it might actually be pretty easy to
+build, so got excited and started coding and I built it.</p>
+</blockquote>
+<p>The playground is available <a href="https://nginx-playground.wizardzines.com/">here</a>. Make sure you also read <a href="https://jvns.ca/blog/2021/09/24/new-tool--an-nginx-playground/">Julia&rsquo;s
+introduction</a> to the tool. In there, she recounts why and, more importantly,
+how she built it.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

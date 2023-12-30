@@ -15,6 +15,16 @@
       <guid>https://nicolaiarocci.com/i-am-speaking-at-the-dotnet-conference-italia-2023/</guid>
       <description>In a few days, on Monday, December 4, at 10 a.m., I will present at the .NET Conference Italia 2023, which will be held at the Microsoft House in Milan. My session is titled &amp;ldquo;C#12 What&amp;rsquo;s new and interesting&amp;rdquo; and is part of a rich agenda focused on the recent release of .NET 8.
 I presented on the same subject at a DevRomagna meetup a few months ago when C# 12 was in preview and still had several moving parts.</description>
+      <content:encoded><![CDATA[<p>In a few days, on Monday, December 4, at 10 a.m., I will present at the .NET Conference Italia 2023, which will be held
+at the Microsoft House in Milan. My session is titled &ldquo;C#12 What&rsquo;s new and interesting&rdquo; and is part of a <a href="https://dotnetconference.it/e/3281/dotNET-Conference-Italia-2023">rich agenda</a>
+focused on the recent release of .NET 8.</p>
+<p>I presented on the same subject at a <a href="https://www.meetup.com/it-IT/devromagna/">DevRomagna</a> meetup a few months ago when C# 12 was in preview and still had
+several moving parts. Now that the final release is out, it will be interesting to return to the topic to consolidate my
+knowledge. I suspect that of the many reasons I challenge myself to speak publicly, enriching my knowledge is prevalent.
+As the adage goes, for learning a subject, nothing beats explaining it in front of a knowledgeable audience.</p>
+<p>If you will attend the conference (you should!), remember to meet me and say hi!</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>How to use XmlWriter along with StringWriter to properly serialize a UTF-8 string</title>
@@ -24,6 +34,43 @@ I presented on the same subject at a DevRomagna meetup a few months ago when C# 
       <description>Today, I (re)learned how to serialize an XML to a UTF-8 string. Like all the other times I did this, I got backstabbed by StringWriter, which only supports UTF-16. A simple code snippet like this:
 await using var sw = new StringWriter(); await using var w = XmlWriter.Create(sw, new() { Async = true }); ... await w.FlushAsync(); return sw.ToString(); Will emit this output:
 &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-16&amp;#34;?&amp;gt;&amp;lt;... There&amp;rsquo;s nothing inherently wrong with UTF-16, but XML is usually UTF-8, so one must do something about it.</description>
+      <content:encoded><![CDATA[<p>Today, I (re)learned how to serialize an XML to a UTF-8 string. Like all the other times I did this, I got backstabbed
+by StringWriter, which only supports UTF-16. A simple code snippet like this:</p>
+<pre tabindex="0"><code>    await using var sw = new StringWriter();
+    await using var w = XmlWriter.Create(sw, new() { Async = true });
+    ...
+    await w.FlushAsync();
+    return sw.ToString();
+</code></pre><p>Will emit this output:</p>
+<pre tabindex="0"><code>    &lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-16&#34;?&gt;&lt;...
+</code></pre><p>There&rsquo;s nothing inherently wrong with UTF-16, but XML is usually UTF-8, so one must do something about it. StringWriter
+exposes an <code>Encoding</code> property, but it is read-only for unknown reasons. One might think that given that the XmlWriter
+allows setting its own <code>Encoding</code> value, something like this would work:</p>
+<pre tabindex="0"><code>    await using var sw = new StringWriter();
+    await using var w = XmlWriter.Create(sw, 
+        new() { Async = true , Encoding = Encoding.UTF8});
+    ...
+    await w.FlushAsync();
+    return sw.ToString();
+</code></pre><p>But it doesn’t. Over time, I’ve seen a few different ways to get out of this dead end, some more performant and or less
+verbose than others, but my favorite is resorting to a custom StringWriter:</p>
+<pre tabindex="0"><code>    public class Utf8StringWriter : StringWriter
+    {
+        public override Encoding Encoding =&gt; Encoding.UTF8;
+    }
+</code></pre><p>Armed with this, it is trivial, as it should have been from the get-go, to obtain the desired output:</p>
+<pre tabindex="0"><code>    await using var sw = new Utf8StringWriter();
+    await using var w = XmlWriter.Create(sw, new() { Async = true });
+    ...
+    await w.FlushAsync();
+    return sw.ToString();
+
+    // returns  &lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;&lt;...
+</code></pre><p>The whole .NET framework has seen fantastic performance improvements, top-class multi-platform support, and remarkable
+streamlining, but some baffling pitfalls are still hidden in some of its less obvious parts. StringWriter not supporting
+UTF-8 out-of-the-box is one of them.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>FatturaElettronica for .NET v3.4.11</title>
@@ -32,6 +79,11 @@ await using var sw = new StringWriter(); await using var w = XmlWriter.Create(sw
       <guid>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.11/</guid>
       <description>Fattura Elettronica for .NET v3.4.11 was released on NuGet today. The Fattura Elettronica project allows for the fixes a missing validation point. See the changelog for details (Italian). validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. This release
 Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+      <content:encoded><![CDATA[<p><a href="https://fatturaelettronicaopensource.org/docs">Fattura Elettronica</a> for .NET v3.4.11 was released on NuGet today. The Fattura Elettronica project allows for the
+fixes a missing validation point. See the <a href="https://fatturaelettronicaopensource.org/docs/changelog.html#v-3411">changelog</a> for details (Italian). validation and de/serialization of
+electronic invoices following the Italian Revenue Agency standards. This release</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>LINQ DistinctBy on a property for .NET Standard and older .NET versions</title>
@@ -40,6 +92,30 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
       <guid>https://nicolaiarocci.com/linq-distinctby-on-a-property-for-dotnet-standard-and-old-dotnet-versions/</guid>
       <description>Today I learned how to implement a custom Enumerable.DistinctBy extension method that returns distinct elements from a sequence according to a specified key selector function.
 .NET 6 and its successors have the method built in within LINQ, but I needed it in a .NET Standard 2.0 class library, so I was out of luck. My implementation is simple, not different from others I found online, and should also work fine with old .</description>
+      <content:encoded><![CDATA[<p>Today I learned how to implement a custom <code>Enumerable.DistinctBy</code> extension method that returns distinct elements from a
+sequence according to a specified key selector function.</p>
+<p>.NET 6 and its successors have the method <a href="https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.distinctby?view=net-6.0">built in</a> within LINQ, but I needed it in a .NET Standard 2.0 class
+library, so I was out of luck. My implementation is simple, not different from <a href="https://stackoverflow.com/a/489421/323269">others</a> I found online, and should
+also work fine with old .NET releases. Here it is:</p>
+<pre tabindex="0"><code>    public static IEnumerable&lt;TSource&gt; DistinctBy&lt;TSource, TKey&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; keySelector)
+    {
+        var keys = new HashSet&lt;TKey&gt;();
+        foreach (var element in source)
+        {
+            if (keys.Contains(keySelector(element))) continue;
+            keys.Add(keySelector(element));
+            yield return element;
+        }
+    }
+</code></pre><p>In the following usage example, I will get back all unique objects from the original sequence, distinct by their Name
+property:</p>
+<pre tabindex="0"><code>    var uniques = mySequenceOfObjects.DistinctBy(x =&gt; x.Name);
+</code></pre><p>I later went to check the <a href="https://github.com/dotnet/runtime/blob/e0409d44bd8d1fd0be1d66fbb52bd609be18f388/src/libraries/System.Linq/src/System/Linq/Distinct.cs#L62">official .NET 6+ implementation</a>. They support an optional equality comparer , which I
+don&rsquo;t need, but their base implementation is similar to mine (they use deferred execution as well).</p>
+<p>By the way, years after its open-sourcing, I still get thrills when I realize I can always look at, let alone contribute
+to, the .NET source code.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>FatturaElettronica for .NET v3.4.10</title>
@@ -48,6 +124,11 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
       <guid>https://nicolaiarocci.com/fattura-elettronica-for-dotnet-v3.4.10/</guid>
       <description>Fattura Elettronica for .NET v3.4.10 was released on NuGet today. The Fattura Elettronica project allows for the validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. This release adds a missing validation point. See the changelog for details (Italian).
 Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+      <content:encoded><![CDATA[<p><a href="https://fatturaelettronicaopensource.org/docs">Fattura Elettronica</a> for .NET v3.4.10 was released on NuGet today. The Fattura Elettronica project allows for the
+validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. This release
+adds a missing validation point. See the <a href="https://fatturaelettronicaopensource.org/docs/changelog.html#v-3410">changelog</a> for details (Italian).</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>I won the Microsoft MVP Award</title>
@@ -55,6 +136,21 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
       <pubDate>Thu, 06 Jul 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/i-won-the-microsoft-mvp-award/</guid>
       <description>I&amp;rsquo;ve just received news that I&amp;rsquo;ve been awarded the Microsoft Most Valuable Professional (MVP) Award in the Software Development category. It is an honor and a pleasure to be renewed for the eighth time. Being a Microsoft MVP means a lot to me; I remember how intimidated I felt when I met MVPs at various events and how totally out of reach the title seemed for someone like me. Besides my everyday work, I kept doing the things I loved:</description>
+      <content:encoded><![CDATA[<p>I&rsquo;ve just received news that I&rsquo;ve been awarded the Microsoft Most Valuable Professional (MVP) Award in the Software
+Development category. It is an honor and a pleasure to be renewed for the eighth time. Being a Microsoft MVP means a lot
+to me; I remember how intimidated I felt when I met MVPs at various events and how totally out of reach the title seemed
+for someone like me. Besides my everyday work, I kept doing the things I loved:</p>
+<ul>
+<li>Work on my open-source projects</li>
+<li>Present at conferences and local meetups</li>
+<li>Write some articles here and there</li>
+<li>Blog as usual</li>
+</ul>
+<p>Then, one day, someone nominated me for the award. I was surprised, baffled and thankful, and I did not expect to pass
+the selection process. I was genuinely shocked when I received the first award. Being in the MVP program has been a
+happy and rewarding ride, and I&rsquo;m glad the journey continues for another year.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Homebrew and docfx don&#39;t like each other too</title>
@@ -62,6 +158,18 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
       <pubDate>Tue, 20 Jun 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/homebrew-and-docfx-dont-like-each-other-too/</guid>
       <description>Another day another Homebrew incompatibility emerges, this time with docfx, the technical documentation building tool of reference in .NET space. I&amp;rsquo;ve been using docfx for years to build the FatturaElettronica.NET website, and it&amp;rsquo;s always been working without a glitch. Lately, however, my builds have been failing with strange errors I was too lazy to diagnose until today when I decided to grasp the nettle and sort the whole thing out.</description>
+      <content:encoded><![CDATA[<p>Another day another Homebrew incompatibility emerges, this time with <a href="https://dotnet.github.io/docfx/index.html">docfx</a>, the technical documentation building
+tool of reference in .NET space. I&rsquo;ve been using docfx for years to build the <a href="https://fatturaelettronicaopensource.org">FatturaElettronica.NET</a> website, and it&rsquo;s
+always been working without a glitch. Lately, however, my builds have been failing with strange errors I was too lazy to
+diagnose until today when I decided to grasp the nettle and sort the whole thing out.</p>
+<p>It took me an embarrassing time to realize that, while successful, my docfx updates (<code>dotnet tool update -g docfx</code>) were
+being ignored. An old, Homebrew-installed version of docfx was being executed at my launches —a simple <code>which docfx</code>
+revealed the issue. <code>brew uninstall docfx</code> finally set the updated, dotnet-installed version free of its chains, and it
+is now merrily churning websites.</p>
+<p>A similar issue emerged <a href="/homebrew-and-dotnet-8-preview-dont-like-each-other/">between Homebrew and .NET 8 Preview</a> only a few days ago. Lesson learned I&rsquo;m not installing
+dotnet tools via Homebrew anymore. Or maybe, I might stay clear of Homebrew altogether.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Homebrew and .NET 8 Preview don&#39;t like each other</title>
@@ -69,6 +177,21 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
       <pubDate>Tue, 13 Jun 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/homebrew-and-dotnet-8-preview-dont-like-each-other/</guid>
       <description>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&amp;rsquo;m working on a C# 12 presentation for our local developer meetup, and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As version 7 was initially installed with Homebrew, I also wanted to install version 8 Preview with Homebrew, but that recipe was unavailable. Not perfectly happy with that, I fell back to the stand-alone installer, expecting problems.</description>
+      <content:encoded><![CDATA[<p>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&rsquo;m working on a <a href="https://www.meetup.com/it-IT/devromagna/events/293340671/">C# 12 presentation
+for our local developer meetup</a>, and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As
+version 7 was initially installed with Homebrew, I also wanted to install version 8 Preview with Homebrew, but that
+recipe was unavailable. Not perfectly happy with that, I fell back to the stand-alone installer, expecting
+problems.</p>
+<p>Installation went well, but then I turned to the command line only to find that <code>dotnet --list-sdks</code> was still and only
+showing version 7. Yet, the 8 Preview was sitting there at its canonical location at <code>/usr/local/share/dotnet/sdk</code>,
+where the v7 was also listed.</p>
+<p>Puzzled, I tried a few things, but the quick fix was to simply <code>brew uninstall --ignore-dependencies dotnet</code> and, boom,
+both versions 8 Preview and 7 became immediately available. I suspect that <code>brew uninstall</code> only removed the symlink
+from .NET canonical location to the Homebrew cellar, which magically solved the SDK visibility problem.</p>
+<p>TL; DR. Homebrew recipes don&rsquo;t play nicely with .NET canonical installer. To make all my SDK versions visible to .NET,
+I had to forego the Homebrew installation, which did not uninstall the SDK itself, but simply unlinked it.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>A new modern MSBuild terminal logger is coming with .NET 8</title>
@@ -77,6 +200,26 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
       <guid>https://nicolaiarocci.com/a-new-modern-msbuild-terminal-logger-is-coming-with-dotnet-8/</guid>
       <description>The latest .NET 8 Preview is out, and I love that they&amp;rsquo;re finally changing how MSBuild logs are printed to the terminal. The new Terminal Logger ditches the infamous &amp;ldquo;wall of text&amp;rdquo; that is a nightmare to parse in favor of a cleaner, leaner, and more organized output.
 Once enabled, the new logger shows you the restore phase, followed by the build phase. During each phase, the currently-building projects are at the bottom of the terminal, and each building project tells you both the MSBuild Target currently being built, as well as the amount of time spent on that target.</description>
+      <content:encoded><![CDATA[<p>The <a href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-8-preview-4/">latest .NET 8 Preview</a> is out, and I love that they&rsquo;re finally changing how MSBuild logs are printed to the terminal.
+The new Terminal Logger ditches the infamous &ldquo;wall of text&rdquo; that is a nightmare to parse in favor of a cleaner, leaner,
+and more organized output.</p>
+<blockquote>
+<p>Once enabled, the new logger shows you the restore phase, followed by the build phase. During each phase, the
+currently-building projects are at the bottom of the terminal, and each building project tells you both the MSBuild
+Target currently being built, as well as the amount of time spent on that target.</p>
+</blockquote>
+<p>The new MSBuild terminal logger is not the default. It must be opted-in with the <code>tl</code> option of the <code>dotnet build</code>
+command. Here&rsquo;s what it looks like for a complex, multi-project and multi-target solution:</p>
+<p><img loading="lazy" src="/images/modernbuildoutput.gif" alt="MSBuild Terminal Logger output"  />
+</p>
+<p>Now, if you&rsquo;re doing .NET programming within an IDE like Rider of Visual Studio, this all might seem of little
+importance to you, but rest assured as soon as you have to look at CI logs or if you use the command line in your
+workflow a lot as I do, this is pure bliss.</p>
+<p>Interestingly, this marks only the first step in a series of upcoming MSBuild UX improvements: <em>&ldquo;We hope to use this
+logger as the foundation for a new batch of UX improvements for MSBuild, including aspects like progress reporting and
+structured errors in the future.&rdquo;</em> Color me excited.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>FatturaElettronica for .NET v3.4.8</title>
@@ -85,6 +228,12 @@ Once enabled, the new logger shows you the restore phase, followed by the build 
       <guid>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.8/</guid>
       <description>Fattura Elettronica for .NET v3.4.8 was released on NuGet today. The Fattura Elettronica project allows for the validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. As with the previous one, this release also addresses a small undocumented behavior in validating the invoice. See the relevant ticket for the details.
 Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+      <content:encoded><![CDATA[<p>Fattura Elettronica for .NET v3.4.8 was <a href="https://www.nuget.org/packages/FatturaElettronica/3.4.8">released</a> on NuGet today. The <a href="https://fatturaelettronicaopensource.org/">Fattura Elettronica</a> project allows for the
+validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. As with the
+previous one, this release also addresses a small undocumented behavior in validating the invoice. See the <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/396">relevant
+ticket</a> for the details.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>FatturaElettronica for .NET v3.4.7</title>
@@ -93,6 +242,14 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
       <guid>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.7/</guid>
       <description>Fattura Elettronica for .NET v3.4.7 was released on NuGet today. The Fattura Elettronica project allows for the validation and de/serialization of electronic invoices adhering to the canon defined by the Italian Revenue Agency.
 This release refines how the one-cent tolerance is accounted for in validation checks of types 00421 and 00423. As is often the case, there are subtle differences between the theoretical implementation defined in the official specs and the actual validation implemented by the same Agency that released said specs.</description>
+      <content:encoded><![CDATA[<p>Fattura Elettronica for .NET v3.4.7 was <a href="https://www.nuget.org/packages/FatturaElettronica/3.4.7">released</a> on NuGet today. The <a href="https://fatturaelettronicaopensource.org">Fattura Elettronica project</a> allows for
+the validation and de/serialization of electronic invoices adhering to the canon defined by the Italian Revenue Agency.</p>
+<p>This release refines how the one-cent tolerance is accounted for in validation checks of types 00421 and 00423. As is
+often the case, there are subtle differences between the theoretical implementation defined in the official specs and
+the actual validation implemented by the same Agency that released said specs. See the <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/394">relevant ticket</a> for the
+details.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Running .NET code in an isolated sandbox</title>
@@ -101,6 +258,13 @@ This release refines how the one-cent tolerance is accounted for in validation c
       <guid>https://nicolaiarocci.com/running-dotnet-code-in-an-isolated-sandbox/</guid>
       <description>Steve Sanderson is experimenting again, and when Steve plays with his toys, I pay attention. In a new video on his YouTube channel, Steve introduces an experimental new .NET package that allows the creation of isolated instances of the .NET runtime that will safely run code in a sandbox.
 Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+      <content:encoded><![CDATA[<p>Steve Sanderson is experimenting <a href="/a-quick-preview-of-the-blazor-united-prototype-for-.net8/">again</a>, and when Steve plays with his toys, I pay attention. In a new video on his
+YouTube channel, Steve introduces an experimental new .NET package that allows the creation of isolated instances of the
+.NET runtime that will safely run code in a sandbox.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Making the latest C# language features available in older .NET versions</title>
@@ -111,6 +275,59 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
 The init keyword defines an accessor method in a property or indexer. An init-only setter assigns a value to the property or the indexer element only during object construction. This enforces immutability so that once the object is initialized, it can&amp;rsquo;t be changed again.
 Consider the following class:
 public class Person { public string FirstName { get; init; } } You can initialize it like this:</description>
+      <content:encoded><![CDATA[<p>In a C# library I&rsquo;ve been working on, I wanted to use C# 9.0&rsquo;s <code>init</code> keyword.
+Quoting the <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/init">documentation</a>:</p>
+<blockquote>
+<p>The init keyword defines an accessor method in a property or indexer. An
+init-only setter assigns a value to the property or the indexer element
+<strong>only</strong> during object construction. This enforces immutability so that once
+the object is initialized, it can&rsquo;t be changed again.</p>
+</blockquote>
+<p>Consider the following class:</p>
+<pre tabindex="0"><code>    public class Person
+    {
+        public string FirstName { get; init; }
+    }
+</code></pre><p>You can initialize it like this:</p>
+<pre tabindex="0"><code>    var person = new Person { FirstName = &#34;John&#34; };
+</code></pre><p>But this will fail:</p>
+<pre tabindex="0"><code>    var person = new Person();
+    person.FirstName = &#34;John&#34;;  //Not allowed
+</code></pre><p>For my project, which is a .NET Standard 2.0 library, I thought this approach
+might be preferable to a parameter-enforced class constructor alternative.</p>
+<p>To my surprise, however, when I tried the above, I got the following error:</p>
+<pre tabindex="0"><code>The predefined type &#39;System.Runtime.CompilerServices.IsExternalInit&#39; must be
+defined or imported in order to declare init-only setter
+</code></pre><p>As it <a href="https://developercommunity.visualstudio.com/t/error-cs0518-predefined-type-systemruntimecompiler/1244809#TPIN-N1249582">turns out</a>, The <code>IsExternalInit</code> type is only included in the net5.0
+(and subsequent) target frameworks, so one cannot use it right away in a
+NetStandard 2.0 (or 2.1, for that matter) library.</p>
+<p>In the dotnet world, when I encounter <em>&ldquo;type is not defined in version X&rdquo;</em>
+scenario, I know I can get around the issue by making up the type on my own. A
+quick lookup confirmed that this was the case, and the workaround is to add
+the following somewhere in my source code:</p>
+<pre tabindex="0"><code>    namespace System.Runtime.CompilerServices
+    {
+        internal static class IsExternalInit {}
+    }
+</code></pre><p>And presto, the <code>init</code> keyword is now fully available to my library.</p>
+<p>While researching this matter, I stumbled into <a href="https://github.com/Sergio0694/PolySharp">PolySharp</a>,  a lovely
+package that takes this workaround approach to new heights. What is it?</p>
+<blockquote>
+<p>PolySharp provides generated, source-only polyfills for C# language features,
+to easily use all runtime-agnostic features downlevel. The package is
+distributed as a source generator, so that it will automatically detect which
+polyfills are needed depending on the target framework and project in use:
+just add a reference to PolySharp, set your C# language version to latest,
+and have fun!</p>
+</blockquote>
+<p>And it works! Just add a PolySharp reference, and almost all modern C# language
+features become automagically available to your project, with no tricks around
+polluting your code. What&rsquo;s also nice about PolySharp, is that it isn&rsquo;t a
+dependency for your library; it only needs to be there at compile time.</p>
+<p>Do you know what&rsquo;s funny? After all, I took a different route; no <code>init</code>
+keyword is used anymore in my library, but that&rsquo;s for another story.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>A quick preview of the Blazor United prototype for .NET8</title>
@@ -119,6 +336,28 @@ public class Person { public string FirstName { get; init; } } You can initializ
       <guid>https://nicolaiarocci.com/a-quick-preview-of-the-blazor-united-prototype-for-.net8/</guid>
       <description>Steve Sanderson, the original creator of Blazor, recently posted a quick peek at some of the new Blazor prototypes they are experimenting with for .NET 8.
 I think this looks great. Mixing client and server is a brilliant concept. Essentially one would be served with server-side Blazor on the first landing. While using the app, a background task would download the client-side stuff, ready to be consumed at any subsequent access.</description>
+      <content:encoded><![CDATA[<p>Steve Sanderson, the original creator of Blazor, recently posted a quick peek
+at some of the new Blazor prototypes they are experimenting with for .NET 8.</p>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/48G_CEGXZZM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<!-- raw HTML omitted -->
+I think this looks great. Mixing client and server is a brilliant concept.
+Essentially one would be served with server-side Blazor on the first landing.
+While using the app, a background task would download the client-side stuff,
+ready to be consumed at any subsequent access.</p>
+<p>Blazor United is all experimental at the moment, but I&rsquo;m confident it will land
+in one form or another, either in .NET 8 or later. I remember a few years ago
+at a Microsoft MVP Summit in Redmond when Steve first introduced Blazor as &ldquo;an
+experiment&rdquo;. If he puts in the effort to present his experiments to the public,
+he&rsquo;s got approval for that, which means the project is a little more than just
+an experiment at this point.</p>
+<p>Blazor weakness so far has been more with the tooling than the features. Should
+Blazor United come with some solid tooling, it will be a huge hit.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>On implementing the ASP.NET Core 7 rate-limiting middleware</title>
@@ -127,6 +366,146 @@ I think this looks great. Mixing client and server is a brilliant concept. Essen
       <guid>https://nicolaiarocci.com/on-implementing-the-asp.net-core-7-rate-limiting-middleware/</guid>
       <description>Today, my last self-assigned duty before the Christmas break was to migrate our in-house rate-limiting implementation (based on the AspNetCoreRateLimiting third-party package) to the new, shiny rate-limiting middleware introduced by ASP.NET Core 7. While the process was relatively straightforward, I stumbled upon a few quirks I want to annotate here.
 Our use case is simple. We use what the ASP.NET Core 7 documentation defines as a &amp;ldquo;fixed window limiter.&amp;rdquo; It uses a specified time window to limit requests.</description>
+      <content:encoded><![CDATA[<p>Today, my last self-assigned duty before the Christmas break was to migrate
+our in-house rate-limiting implementation (based on the
+<a href="https://github.com/stefanprodan/AspNetCoreRateLimit">AspNetCoreRateLimiting</a> third-party package) to the new, shiny
+<a href="https://devblogs.microsoft.com/dotnet/announcing-rate-limiting-for-dotnet/">rate-limiting middleware</a> introduced by ASP.NET Core 7. While the process
+was relatively straightforward, I stumbled upon a few quirks I want to annotate
+here.</p>
+<p>Our use case is simple. We use what the ASP.NET Core 7 documentation defines as
+a &ldquo;fixed window limiter.&rdquo; It uses a specified time window to limit requests.
+When the time window expires, a new time window starts, and the request limit
+is reset. Consider the following code (for convenience, I&rsquo;m using an extension
+method):</p>
+<pre tabindex="0"><code>public static void ConfigureRateLimit(this IServiceCollection services)
+{
+    services.AddRateLimiter(x =&gt; 
+        x.AddFixedWindowLimiter(
+                policyName: &#34;fixed&#34;, options =&gt;
+                {
+                    options.PermitLimit 1;
+                    options.Window = TimeSpan.FromSeconds(10);
+                    options.QueueLimit 1;
+                }));
+}
+</code></pre><p>It sets a window of 10 seconds. Within that window, a maximum of one request is
+allowed. Exceeding requests will be queued and served at window reset. Notice
+that we defined &ldquo;fixed&rdquo; as the policy name.</p>
+<p>Once our policy is configured, we must instrument the app instance to use the
+rate limiter, then we call <code>RequireRateLimiting</code> on our endpoints:</p>
+<pre tabindex="0"><code>app.UseRouting();  // I&#39;m mentioning this line for good reason, see below
+app.UseRateLimiter();
+app.UseEndpoints(endpoints =&gt; { endpoints.MapControllers()
+    .RequireRateLimiting(&#34;fixed&#34;); });
+</code></pre><p>Nothing else is needed, really, for such a simple scenario. We could be more
+sophisticated. We could opt for more advanced options, like a &ldquo;sliding windows
+limiter&rdquo; or a &ldquo;bucket token limiter&rdquo;; we could apply rate limiting only to
+specific endpoints or controllers or mix and match these options. I chose to
+ditch hard-coded settings and read them from the configuration file. My
+<em>appsettings.json</em> contains the following (with different vaues):</p>
+<pre tabindex="0"><code>  &#34;RateLimiter&#34;: {
+    &#34;PermitLimit&#34;: 1
+    &#34;Window&#34;: 10,
+    &#34;QueueLimit&#34;: 1
+  }
+</code></pre><p>The <code>RateLimiter</code> class maps the json structure:</p>
+<pre tabindex="0"><code>public class RateLimiter
+{
+    public int PermitLimit { get; set; }
+    public int Window { get; set; }
+    public int QueueLimit { get; set; }
+}
+</code></pre><p>The updated code looks like this:</p>
+<pre tabindex="0"><code>public static void ConfigureRateLimit(this IServiceCollection services, 
+    IConfiguration configuration)
+{
+    var rateLimiter = new RateLimiter();
+    configuration.GetSection(&#34;RateLimiter&#34;).Bind(rateLimiter);
+    
+    services.AddRateLimiter(x =&gt; 
+        x.AddFixedWindowLimiter(
+                policyName: &#34;fixed&#34;, options =&gt;
+                {
+                    options.PermitLimit = rateLimiter.PermitLimit;
+                    options.Window = TimeSpan.FromSeconds(rateLimiter.Window);
+                    options.QueueLimit = rateLimiter.QueueLimit;
+                }));
+}
+</code></pre><p>I wish I could say it all worked splendidly on the first try. The API was
+running fine, but it was not rate-limited. It looked like the middleware was
+not being invoked, or it somehow failed miserably and silently. After an
+embarrassingly long time, I figured out the problem: <code>UseRateLimiter</code>
+<em>must</em> be called after <code>UseRouting</code>.</p>
+<p>Before:</p>
+<pre tabindex="0"><code>app.UseRateLimiter();
+app.UseRouting();
+app.UseEndpoints(endpoints =&gt; { endpoints
+    .MapControllers().RequireRateLimiting(&#34;fixed&#34;); });
+</code></pre><p>After:</p>
+<pre tabindex="0"><code>app.UseRouting();
+app.UseRateLimiter();
+app.UseEndpoints(endpoints =&gt; { endpoints.MapControllers()
+    .RequireRateLimiting(&#34;fixed&#34;); });
+</code></pre><p>Simply switching two lines saved the day. I looked high and low but could not
+find any reference to this requirement. If intended, it should be mentioned in
+the documentation. If it is a bug, it should be fixed (and I should
+probably open at ticket about it.)</p>
+<p>Anyways, now the API is rate-limited via the new middleware. The first request
+sent via Postman goes through. The second, rapid-fired one is queued and served
+at window reset, as expected. A third request within the same window is bounced
+back.</p>
+<p>However:</p>
+<ol>
+<li>You get a <code>503 Service Unavailable</code> response. I&rsquo;m not in favor of 500
+replies for this case. Five-hundreds should be reserved for server errors,
+and that&rsquo;s not what we are dealing with here. My previous implementation
+served a more appropriate <code>429 Too Many Requests</code>.</li>
+<li>No <code>Retry-After</code> header is included with the response. I think it&rsquo;s
+mandatory to instruct clients on what to do next.</li>
+</ol>
+<p>Luckily, the rate-limiting middleware allows for ample customization. On
+defining our policy, we can attach a custom function to the <code>OnRejected</code> event.
+The code below is updated to address both issues above:</p>
+<pre tabindex="0"><code>public static class ServicesConfiguration
+{
+    public static void ConfigureRateLimit(this IServiceCollection services, 
+        IConfiguration configuration) {
+
+        var rateLimiter = new RateLimiter();
+        configuration.GetSection(&#34;RateLimiter&#34;).Bind(rateLimiter);
+        
+        services.AddRateLimiter(x =&gt; 
+            x.AddFixedWindowLimiter(
+                    policyName: &#34;fixed&#34;, options =&gt; {
+                        options.PermitLimit = rateLimiter.PermitLimit;
+                        options.Window = TimeSpan.FromSeconds(rateLimiter.Window);
+                        options.QueueLimit = rateLimiter.QueueLimit;
+                    })
+
+                // new code here:
+                .OnRejected = (context, _) =&gt; {
+
+                // inject Retry-After header (too much line wrapping, I know)
+                if (context.Lease.TryGetMetadata(MetadataName.RetryAfter, 
+                    out var retryAfter)) {
+                    context.HttpContext.Response.Headers.RetryAfter =
+                        ((int) retryAfter.TotalSeconds).ToString();
+                }
+                // return a different status code
+                context.HttpContext.Response.StatusCode = 
+                    StatusCodes.Status429TooManyRequests;
+                return new();
+            });
+    }
+</code></pre><p>And that&rsquo;s all there is to it. I dropped the AspNetCoreRateLimiting dependency.
+That is one great piece of software, and I am grateful to its author Stefan
+Prodan and his contributors. As mentioned in <a href="/my-top-7-new-features-in-.net-7/">My Top 7 New Features in .NET
+7</a>, they recently released a package that allows using Redis as a
+rate-limiting backend. I might adopt it in the future.</p>
+<p>Complete documentation for ASP.NET Core 7 rate-limiting middleware is available
+<a href="https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit?view=aspnetcore-7.0">here</a>.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>First impressions on JetBrains Rider 2022.3 update</title>
@@ -135,6 +514,20 @@ Our use case is simple. We use what the ASP.NET Core 7 documentation defines as 
       <guid>https://nicolaiarocci.com/first-impressions-on-jetbrains-rider-2022.3-update/</guid>
       <description>Today I upgraded to JetBrains&amp;rsquo; Rider 2022.3. Startup speed has been enhanced, and full .NET 7 and C# 11 support is included. So far, my favorite feature is the conversion of regular and verbatim strings into their raw counterparts (it&amp;rsquo;s often the small, simple things.)
 My second best is the fulls upport for WSL2 remote development. This one took a good while to come out of the trenches, but better late than never, I&amp;rsquo;d say.</description>
+      <content:encoded><![CDATA[<p>Today I upgraded to JetBrains&rsquo; Rider 2022.3. Startup speed has been
+enhanced, and full .NET 7 and C# 11 support is included. So far,  my favorite
+feature is the conversion of regular and verbatim strings into their raw
+counterparts (it&rsquo;s often the small, simple things.)</p>
+<p><img loading="lazy" src="/images/cs-to-raw-strings.gif" alt=""  />
+</p>
+<p>My second best is the fulls upport for WSL2  remote development. This one took a
+good while to come out of the trenches, but better late than never, I&rsquo;d say.</p>
+<p>And the new experimental UI? That&rsquo;s neat too.</p>
+<p><img loading="lazy" src="/images/uiux-newui-thumb.png" alt=""  />
+</p>
+<p>The full list of updates is available on their <a href="https://www.jetbrains.com/rider/whatsnew/2022-3/">What&rsquo;s New</a> page.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>My Top 7 New Features in .NET 7</title>
@@ -143,6 +536,166 @@ My second best is the fulls upport for WSL2 remote development. This one took a 
       <guid>https://nicolaiarocci.com/my-top-7-new-features-in-.net-7/</guid>
       <description>The other day we did a .NET 7 Spotlight event at this month&amp;rsquo;s DevRomagna meetup. The speakers were Ugo Lattanzi and me. In my session, I chose to talk about my top 7 new features in .NET 7 (pun intended.) What follows is a mix of my preparation notes and what I ended up really saying1.
 1. Performance Since the initial release of &amp;ldquo;new dotnet&amp;rdquo; (.NET Core), performance has always been a critical goal for the .</description>
+      <content:encoded><![CDATA[<p>The other day we did a <a href="https://www.meetup.com/it-IT/devromagna/events/289709131/">.NET 7 Spotlight</a> event at this month&rsquo;s
+<a href="https://www.meetup.com/it-IT/devromagna/">DevRomagna</a> meetup. The speakers were <a href="https://twitter.com/imperugo">Ugo Lattanzi</a> and me. In my
+session, I chose to talk about my top 7 new features in .NET 7 (pun intended.)
+What follows is a mix of my preparation notes and what I ended up really
+saying<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<h2 id="1-performance">1. Performance</h2>
+<p>Since the initial release of &ldquo;new dotnet&rdquo; (.NET Core), performance has always
+been a critical goal for the .NET team. Starting with .NET 5, performance gains
+have been skyrocketing. .NET 6 was <em>a lot</em> faster than 5, and now, well, I&rsquo;m
+surprised by the remarkable performance improvements in .NET 7. Stephen Toub
+posted a remarkably long (255 printed pages!) <a href="https://devblogs.microsoft.com/dotnet/performance_improvements_in_net_7">in-depth analysis of the
+performance improvements in .NET 7</a>. one That was followed by articles
+dedicated to <a href="https://devblogs.microsoft.com/dotnet/performance-improvements-in-aspnet-core-7/">ASP.NET Core 7</a> and <a href="https://devblogs.microsoft.com/dotnet/dotnet-7-performance-improvements-in-dotnet-maui/">MAUI 7</a> performance gains. At .NETConf
+2022, a particular slide caught everyone&rsquo;s attention.</p>
+<p><img loading="lazy" src="/images/dotnetconf22.png" alt=""  />
+</p>
+<p>I recall seeing the same slide at the .NET 5 release, so this one is must be
+updated version. I&rsquo;m more impressed with the gRPC graph than the big &ldquo;11x
+faster than Node&rdquo; one. Being faster than Node doesn&rsquo;t break the news these days,
+but being quicker than Go, C++ and Rust? That&rsquo;s one bold statement you have
+right there.</p>
+<p>An <a href="https://dusted.codes/how-fast-is-really-aspnet-core">exciting article</a> surfaced a while ago on this specific topic. In it,
+Dustin Moris Gorski presents an in-depth analysis of the ASP.NET Core 7 code
+used for the TechEmpower Framework Benchmark referenced in the above slide. The
+results are&hellip; fascinating. That code is undoubtedly <em>not</em> what mere mortals
+tend to run in their production systems. It is super-performance-optimized,
+often ditching canonical, built-in, and wildly adopted features in favor of
+low-level, high-performance and precisely hand-crafted alternatives. Dustin&rsquo;s
+article is a masterpiece for several reasons; I suggest you invest your time
+<a href="https://dusted.codes/how-fast-is-really-aspnet-core">reading it</a>.</p>
+<p>But yeah, despite this glitch, the takeaway is that .NET 7 is speedy, faster
+than previous versions, and on par with, if not (far?) superior to, most stacks
+and frameworks. The <a href="https://devblogs.microsoft.com/dotnet/performance_improvements_in_net_7">Stephen Toub&rsquo;s article</a> is a testament to the massive
+work done and the achievements obtained.</p>
+<p>Most importantely, we get most of these speed benefits for free, just by
+upgrading to .NET 7. And the good new is, the upgrade is as easy as changing
+the framework moniker from, say, <code>net6.0</code> to <code>net7.0</code> and upgrading the
+Microsoft dependencies to v7.0.0.</p>
+<h2 id="2-c-11-required-modifier">2. C# 11 <code>required</code> modifier</h2>
+<p>As a consequence of the C# release cycle alignment to that of.NET itself (which
+is much faster), recent versions of C# see fewer features announcements than in
+the past. A good thing in my opinion. Of the several appreciable new features
+coming with C# 11, a remarkable one is the <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/required"><code>required</code> modifier</a>.</p>
+<p>When you enable nullable checks in a project, non-nullable string properties
+are flagged with warning that they should be initialized with a non-null value
+when exiting the constructor:</p>
+<p><img loading="lazy" src="/images/required-keyword1.png" alt=""  />
+</p>
+<p>A common workaround has been these properties them with a <code>null!</code> value. That
+is like telling the compiler that we know they should be initialized with a
+non-nullable, but well, let&rsquo;s initialize them with a null value first, just in
+case. It&rsquo;ll all be sorted later in the code. Somewhat awkward and prone to
+errors. Also, battling the compiler like that is a tedious task.</p>
+<p>Enter the <code>required</code> keyword. When you flag a property with <code>required,</code> the
+IntelliSense engine will report an error if the property value is not set <em>at
+initialization</em>, not at declaration.</p>
+<p><img loading="lazy" src="/images/required-keyword2.png" alt=""  />
+</p>
+<p>When someone initializes our class instance, he/she&rsquo;s <em>required</em> to set an
+explicit value for our property. Notice how we went from a warning (which
+will compile) to an error (which won&rsquo;t compile). Once you start using this
+feature, it feels so obvious and natural that you wonder why it wasn&rsquo;t there
+right from start.</p>
+<h2 id="3-c-11-raw-string-literals">3. C# 11 raw string literals</h2>
+<p>In C# 11, wrapping a string with triple-double-quotes makes it a <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-11.0/raw-string-literal">raw
+literal</a>. Its main benefits are that no escaping of double-quotes is
+necessary, and newlines are allowed within the string.</p>
+<pre tabindex="0"><code>var xml = &#34;&#34;&#34;
+          &lt;element attr=&#34;content&#34;&gt;
+            &lt;body&gt;
+            &lt;/body&gt;
+          &lt;/element&gt;
+          &#34;&#34;&#34;;
+</code></pre><p>The code looks natural, and no runtime costs for specialized string
+manipulation are required. One caveat is that string literals naturally remove
+the indentation when producing the final literal value. The snippet above
+prints as:</p>
+<pre tabindex="0"><code>&lt;element attr=&#34;content&#34;&gt;
+  &lt;body&gt;
+  &lt;/body&gt;
+&lt;/element&gt;
+</code></pre><p>We can disable indentation removal like so:</p>
+<pre tabindex="0"><code>var xml = &#34;&#34;&#34;
+          &lt;element attr=&#34;content&#34;&gt;
+            &lt;body&gt;
+            &lt;/body&gt;
+          &lt;/element&gt;
+&#34;&#34;&#34;;
+</code></pre><p>String interpolation is also supported:</p>
+<pre tabindex="0"><code>var json = $$&#34;&#34;&#34;
+             {
+                &#34;summary&#34;: &#34;text&#34;,
+                &#34;length&#34; : {{value.Length}},
+             };
+             &#34;&#34;&#34;
+</code></pre><p>In hindsight, like the <code>required</code> modifier, raw string literals appear as
+obvious.</p>
+<h2 id="4-built-in-container-support">4. Built-in container support</h2>
+<p>.NET 7 has <a href="https://devblogs.microsoft.com/dotnet/announcing-builtin-container-support-for-the-dotnet-sdk/">built-in container support</a>, meaning that <code>dotnet publish</code> can
+now output to a container image instead of a directory. We control image names,
+tags, and other settings (like the base image) via dedicated <code>.csproj</code> tags. Two
+requirements:</p>
+<ul>
+<li>Docker must be running when we issue the <code>publish</code> command;</li>
+<li>The <code>Microsoft.NET.Build.Containers</code> package must be added to the project as
+a package reference.</li>
+</ul>
+<p>In my demo, I had a small console application that I published to a docker
+image by simply issuing the following command:</p>
+<pre tabindex="0"><code>$ dotnet publish --os linux --arch x64 /t:PublishContainer -c Release
+</code></pre><p>I did not mention a Dockerfile, and that&rsquo;s because it is not needed anymore.
+All my projects deploy to docker containers and are already migrated to .NET 7.
+I&rsquo;m currently using Dockerfiles, but I&rsquo;ll be experimenting with this
+alternative in the coming weeks, both with builds and remote CI builds.</p>
+<h2 id="5-native-aot">5. Native AOT</h2>
+<p><a href="https://learn.microsoft.com/en-us/dotnet/core/deploying/native-aot/">Native AOT</a> produces a standalone executable in the target platform&rsquo;s file
+format, with no external dependencies. It&rsquo;s native, with no IL or JIT involved,
+and provides fast startup time and a small, self-contained deployment.</p>
+<p>In my demo, I just needed to add a <code>&lt;PublishAot&gt;true&lt;/PublishAot&gt;</code> tag to the
+<code>.csproj</code>, and then the <code>dotnet publish -c Release</code> command produced a
+single-file, macOS native executable. You can set the destination platform at
+build-time like so:</p>
+<pre tabindex="0"><code>$ dotnet publish -r win-x64 -c Release
+</code></pre><p>Native AOT will be determinant in a number of use cases, like
+multi-cloud-deployments, lambda functions, and, in general, hyper-scale
+services. ASP.NET Core is currently not supported, so we&rsquo;re limited to console
+apps.</p>
+<h2 id="6-and-7-rate-limiting-and-output-caching">6 and 7. Rate-limiting and output caching</h2>
+<p>Ok, these are two, not one. Luckily, my pal Ugo, who was demoing ASP.NET Core 7
+parts after me, took charge of showing these.</p>
+<p>I briefly mentioned that rate-limiting and output caching are key features in
+mature production systems. Until today, we had to bake them in-house or rely on
+third-party packages. I&rsquo;ve been using LazyCache and AspNetCoreRateLimit myself.
+The latter <a href="https://github.com/stefanprodan/AspNetCoreRateLimit/issues/382">recently acknowledged</a> the arrival of rate-limiting in .NET 7 and
+embraced it in a new package that offers Redis as a rate-limiting backend.
+<a href="https://devblogs.microsoft.com/dotnet/announcing-rate-limiting-for-dotnet/">Rate-limiting</a> and <a href="https://learn.microsoft.com/en-us/aspnet/core/performance/caching/output?view=aspnetcore-7.0">output caching</a> are now part of the ASP.NET Core
+framework, and that&rsquo;s where they belong.</p>
+<h2 id="8-minimal-apis-group-routes">8. Minimal APIs group routes</h2>
+<p>I know I said 7. I don&rsquo;t use minimal APIs in production yet, but <a href="https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-7.0#route-groups">group
+routing</a> is beautiful and something I&rsquo;ll be employing on the first
+occasion. During the meetup, an interesting (and much-expected) discussion
+ensued on the usefulness of minimal APIs. Veterans of many battles don&rsquo;t deem
+them necessary, especially in real-world use cases, which is actually accurate:
+one can keep relying on the canonical MVC approach. The sentiment was that
+Minimal APIs are mostly targeted to newcomers, which is probably true<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. As
+someone coming from the Python REST ecosystem, I dig them a lot. They evolve
+rapidly and I&rsquo;m sure we&rsquo;ll soon see them in action in complex, real scenarios.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>To Caesar what is Caesar&rsquo;s, short on time, I recycled both the idea and the materials from James Montemagno&rsquo;s <a href="https://www.youtube.com/watch?v=0BvCzZ9P7UY">excellent video</a> on the same the topic.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Back when Minimal APIs were about to debut, I wrote <em><a href="https://nicolaiarocci.com/will-.net-6-minimal-apis-turn-heads?">Will .NET 6 Minimal APIs turn heads?</a></em>, with some musings on their effectiveness and target audience.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
     </item>
     <item>
       <title>FatturaElettronica v3.4 released</title>
@@ -151,6 +704,16 @@ My second best is the fulls upport for WSL2 remote development. This one took a 
       <guid>https://nicolaiarocci.com/fatturaelettronica-v3.4-released/</guid>
       <description>Today I released v3.4 of FatturaElettronica, a .NET open source project that allows validation and de/serialization of electronic invoices adhering to the standard defined by the Italian &amp;ldquo;Agenzia delle Entrate&amp;rdquo;. It&amp;rsquo;s doing very well for such a niche project, with downloads now well beyond the one hundred thousand mark.
 Be aware that this release anticipates support for v1.7.1 of the specification going into effect on October 1, 2022. For more information, see the appropriate ticket and the changelog.</description>
+      <content:encoded><![CDATA[<p>Today I released v3.4 of <a href="https://fatturaelettronicaopensource.org/">FatturaElettronica</a>, a .NET open source project
+that allows validation and de/serialization of electronic invoices adhering to
+the standard defined by the Italian &ldquo;Agenzia delle Entrate&rdquo;. It&rsquo;s doing very
+well for such a niche project, with downloads now well beyond the one hundred
+thousand mark.</p>
+<p>Be aware that this release anticipates support for <a href="https://www.agenziaentrate.gov.it/portale/web/guest/specifiche-tecniche-versione-1.7.1">v1.7.1</a> of the
+specification going into effect on October 1, 2022. For more information, see
+the appropriate <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/376">ticket</a> and the <a href="https://fatturaelettronicaopensource.org/docs/changelog.html#v-34">changelog</a>.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>I&#39;m a Microsoft MVP once again</title>
@@ -159,6 +722,24 @@ Be aware that this release anticipates support for v1.7.1 of the specification g
       <guid>https://nicolaiarocci.com/im-a-microsoft-mvp-once-again/</guid>
       <description>I am happy and humbled to have been awarded the Microsoft MVP Award for the seventh consecutive year. July 1, the award assignation day, always comes with curiosity and a bit of trepidation.
 Being a member of the MVP community has been a very positive experience for me, especially in the years before COVID, when the MVP Summit, the main MVP event, was held in person in Seattle at the Microsoft HQ.</description>
+      <content:encoded><![CDATA[<p>I am happy and humbled to have been awarded the Microsoft MVP Award for the
+seventh consecutive year. July 1, the award assignation day, always comes with
+curiosity and a bit of trepidation.</p>
+<p>Being a member of the MVP community has been a very positive experience for me,
+especially in the years before COVID, when the MVP Summit, the main MVP event,
+was held in person in Seattle at the Microsoft HQ. That assembly of experienced
+developers from all over the world is an exhilarating experience. Smart guys
+and gals from different cultures gather to meet the people responsible for
+their daily drivers&rsquo; tools and technologies. There are countless networking
+possibilities, both with fellow MVPs and Microsoft personnel.</p>
+<p>For the last two years, the Summit has been an online event. I admit I&rsquo;ve had
+a hard time following the sessions as work and family tended to get in the way.
+The networking was, of course, next to zero. I miss the original MVP Summit. In
+the absence of it, even just meeting the Italian MVPs has been a rare
+occurrence. Hopefully, things will return to normal this year, although I&rsquo;m
+doubtful.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>My Playwright session at WebDay 2022</title>
@@ -167,6 +748,31 @@ Being a member of the MVP community has been a very positive experience for me, 
       <guid>https://nicolaiarocci.com/my-playwright-session-at-webday-2022/</guid>
       <description>If you understand Italian, the recording of my Playwright session at UGIdotNET&amp;rsquo;s WebDay 2022 is now available on YouTube1. Playwright is a phenomenal cross-browser, cross-platform, cross-language, single-API, mobile-friendly front-end testing tool.
 I&amp;rsquo;m looking forward to giving the same session in English sooner or later, but I should first win my laziness and start looking for exciting events with open CFPs. If you happen to know one, please let me know.</description>
+      <content:encoded><![CDATA[<p>If you understand Italian, the recording of my Playwright session at
+UGIdotNET&rsquo;s <a href="https://www.ugidotnet.org/e/2840/Web-Day-2022">WebDay 2022</a> is now available on YouTube<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Playwright is
+a phenomenal cross-browser, cross-platform, cross-language, single-API,
+mobile-friendly front-end testing tool.</p>
+<p>I&rsquo;m looking forward to giving the same session in English sooner or later, but
+I should first win my laziness and start looking for exciting events with open
+CFPs. If you happen to know one, please let me know.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/BaY9WIHUwFc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>A couple weeks later I also presented at <a href="https://www.meetup.com/it-IT/DevRomagna/events/284626987/">DevRomagna</a>, the local meetup I run.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
     </item>
     <item>
       <title>Parameter null-checking added to C# 11 Preview</title>
@@ -175,6 +781,49 @@ I&amp;rsquo;m looking forward to giving the same session in English sooner or la
       <guid>https://nicolaiarocci.com/paramter-null-checking-added-to-csharp-11-preview/</guid>
       <description>The first preview of C# 11 is out, and well, I think I like what I see. I dig the new List patterns and am a fan of allowing newlines in the &amp;ldquo;holes&amp;rdquo; of interpolated strings. Parameter null-checking is a bit contentious, and it&amp;rsquo;s good that they are releasing it in preview one and asking for feedback.
 In a nutshell, they want to spare us a lot of boilerplate. Code like this:</description>
+      <content:encoded><![CDATA[<p>The <a href="https://devblogs.microsoft.com/dotnet/early-peek-at-csharp-11-features/">first preview</a> of C# 11 is out, and well, I think I like what I see.
+I dig the new <a href="https://devblogs.microsoft.com/dotnet/early-peek-at-csharp-11-features/#c-11-preview-list-patterns">List patterns</a> and am a fan of <a href="https://devblogs.microsoft.com/dotnet/early-peek-at-csharp-11-features/#c-11-preview-allow-newlines-in-the-holes-of-interpolated-strings">allowing newlines in the
+&ldquo;holes&rdquo; of interpolated strings</a>. <a href="https://devblogs.microsoft.com/dotnet/early-peek-at-csharp-11-features/#c-11-preview-parameter-null-checking">Parameter null-checking</a> is a bit
+contentious, and it&rsquo;s good that they are releasing it in preview one and asking
+for feedback.</p>
+<p>In a nutshell, they want to spare us a lot of boilerplate. Code like this:</p>
+<pre><code>public static void M(string s)
+{
+    if (s is null)
+    {
+        throw new ArgumentNullException(nameof(s));
+    }
+    // Body of the method
+}
+</code></pre>
+<p>Would be abbreviated by adding <code>!!</code> to the parameter name:</p>
+<pre><code>public static void M(string s!!)
+{
+    // Body of the method
+}
+</code></pre>
+<blockquote>
+<p>Code will be generated to perform the null check. The generated null check
+will execute before any of the code within the method. For constructors, the
+null check occurs before field initialization, calls to base constructors,
+and calls to this constructors.</p>
+</blockquote>
+<p>My initial reaction was, we don&rsquo;t need this; we got Nullable Reference Types.
+NRTs however help at design time, to know whether a null is possible, while
+parameter null-checking is meant for runtime.</p>
+<p>According to Kathleen Dollard, the .NET Runtime itself removed nearly 20,000
+lines of code using this new null-check syntax. That&rsquo;s one heck of a lot of
+boilerplate removed.</p>
+<p>I don&rsquo;t think I like the syntax, though. It&rsquo;s super concise, which is good, and
+I appreciate putting the <code>!!</code> on the parameter rather than the type since
+the parameter&rsquo;s value is being checked. Still, the two-punctuation character
+seems a bit clumsy. Someone suggested adopting <code>notnull</code> instead:</p>
+<pre><code>public void M(string s notnull) { // code }
+</code></pre>
+<p>I like this suggestion. I wouldn&rsquo;t want <code>notnull</code> on the left of the parameter
+name. To the right? Count me in.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>My ASP.NET 5 migration to .NET 6</title>
@@ -183,6 +832,205 @@ In a nutshell, they want to spare us a lot of boilerplate. Code like this:</desc
       <guid>https://nicolaiarocci.com/my-asp.net-5-migration-to-.net-6/</guid>
       <description>I spent the last few days migrating our ASP.NET REST services, MVC web applications and Blazor server apps to .NET 6. Overall the process was pretty straightforward. The few issues I went through were easy to solve and well documented. Things got more involved with the EF Core 6 transition, especially with the Npgsql Entity Framework Core Provider.
 The official ASP.NET Core 5.0 to 6.0 migration guide was my first stop.</description>
+      <content:encoded><![CDATA[<p>I spent the last few days migrating our ASP.NET REST services, MVC web
+applications and Blazor server apps to .NET 6. Overall the process was pretty
+straightforward. The few issues I went through were easy to solve and well
+documented. Things got more involved with the EF Core 6 transition, especially
+with the Npgsql Entity Framework Core Provider.</p>
+<p>The official <a href="https://docs.microsoft.com/en-us/aspnet/core/migration/50-to-60">ASP.NET Core 5.0 to 6.0 migration guide</a> was my first stop. It
+offers the perfect entry point, rich with in-depth links. At this stage, I am
+not interested in switching to the new .NET 6 minimal hosting model (aka
+Minimal APIs). I think it&rsquo;s a significant improvement, and we will likely adopt
+it for new projects, but our production projects aren&rsquo;t going to be refactored
+right away. Should minimal APIs also prove to be remarkably performant, we&rsquo;ll
+reconsider them<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>The first step was updating the target framework moniker to <code>net6.0</code>.</p>
+<pre><code>&lt;Project Sdk=&quot;Microsoft.NET.Sdk.Web&quot;&gt;
+  &lt;PropertyGroup&gt;
+    &lt;TargetFramework&gt;net6.0&lt;/TargetFramework&gt;
+  &lt;/PropertyGroup&gt;
+&lt;/Project&gt;
+</code></pre>
+<p>Then, I updated all <code>Microsoft.AspNetCore.*</code> and <code>Microsoft.Extensions.*</code> package
+references to version 6.0.0.</p>
+<pre><code>&lt;ItemGroup&gt;
+  &lt;PackageReference Include=&quot;Microsoft.AspNetCore.JsonPatch&quot; Version=&quot;6.0.0&quot; /&gt;
+  &lt;PackageReference Include=&quot;Microsoft.Extensions.Caching.[...]&quot; Version=&quot;6.0.0&quot; /&gt;
+&lt;/ItemGroup&gt;
+</code></pre>
+<p>That&rsquo;s all I needed to do to update the MVC application. The only other thing
+left for me was to update Dockerfile&rsquo;s <code>FROM</code> statements to pull the new .NET
+6 image:</p>
+<pre><code># build stage
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+WORKDIR /build
+[..]
+# final stage/image
+FROM mcr.microsoft.com/dotnet/aspnet:6.0
+[..]
+</code></pre>
+<p>Migrating the WebApi/REST services required more work. I got a few errors and
+warnings, either at compile or runtime. Let&rsquo;s go through them one by one.</p>
+<h3 id="new-jsonserializer-source-generator-overloads">New <code>JsonSerializer</code> source generator overloads</h3>
+<blockquote>
+<p>The call is ambiguous between the following methods or properties:
+&lsquo;JsonSerializer.Serialize(TValue, JsonSerializerOptions?)&rsquo; and
+&lsquo;JsonSerializer.Serialize(TValue, JsonTypeInfo)&rsquo;&quot;</p>
+</blockquote>
+<p>In .NET 6, the <code>Sytem.Text.Json.JsonSerializer</code> <a href="https://docs.microsoft.com/en-us/dotnet/core/compatibility/serialization/6.0/jsonserializer-source-generator-overloads">acquired two new overloads</a> that
+support pre-generated type information via source-generators. Previously, you
+could write code that passed <code>null</code> (or <code>default</code>) as the value for the
+<code>JsonSeralizerOptions</code> parameter:</p>
+<pre><code>entity.Property(e =&gt; e.Value)
+    .HasConversion(
+        v =&gt; JsonSerializer.Serialize(v, null),
+        v =&gt; JsonSerializer.Deserialize(v, null));
+</code></pre>
+<p>However, the new source-generator-enabled overloads will cause ambiguity if you
+pass <code>null</code>. The solution was to add simply an explicit cast to the intended
+target:</p>
+<pre><code>entity.Property(e =&gt; e.Value)
+    .HasConversion(
+        v =&gt; JsonSerializer.Serialize(v, (JsonSerializerOptions)null), 
+        v =&gt; JsonSerializer.Deserialize(v, (JsonSerializerOptions)null));
+</code></pre>
+<h3 id="the-rngcryptoserviceprovider-is-now-obsolete">The <code>RNGCryptoServiceProvider</code> is now obsolete</h3>
+<blockquote>
+<p>SYSLIB0023: RNGCryptoServiceProvider is obsolete</p>
+</blockquote>
+<p>As it turns out, <code>RNGCryptoServiceProvider</code> is <a href="https://docs.microsoft.com/en-us/dotnet/fundamentals/syslib-diagnostics/syslib0023">marked as obsolete in .NET 6</a>. The
+new preferred way to generate a random number is using one of the
+<code>RandomNunmberGenerator</code> static methods.</p>
+<pre><code>  // old
+  using var rng = new RNGCryptoServiceProvider();
+  var uintBuffer = new byte[sizeof(uint)];
+  rng.GetBytes(uintBuffer);
+  var num = BitConverter.ToUInt32(uintBuffer, 0);
+
+  // new
+  using var rng = RandomNumberGenerator.Create();
+  var uintBuffer = new byte[sizeof(uint)];
+  rng.GetBytes(uintBuffer);
+  var num = BitConverter.ToUInt32(uintBuffer, 0);
+</code></pre>
+<p>The two issues above are essentially the only ones I met with .NET 6 itself. As
+mentioned, I also encountered a few EF Core 6 annoyances. They are listed
+below.</p>
+<h3 id="new-imodelcachekeyfactorycreate-overload">New <code>IModelCacheKeyFactory.Create()</code> overload</h3>
+<blockquote>
+<p>The requested configuration is not stored in the read-optimized model, please
+use DbContext.GetService&lt;IDesignTimeModel&gt;().Model.</p>
+</blockquote>
+<p>If, like me, you happen to have a custom <code>IModelCacheKeyFactory</code>
+implementation, you will likely get this error at runtime. Starting with EF
+Core 6, <a href="https://github.com/dotnet/EntityFramework.Docs/pull/3305/files">you must implement</a> the new overload of the <code>Create</code> method that
+handles design-time model caching.</p>
+<pre><code>// old
+public class DynamicModelCacheKeyFactoryDesignTimeSupport : IModelCacheKeyFactory
+{
+   public object Create(DbContext context) =&gt; 
+     context is DynamicContext dynamicContext
+       ? (context.GetType(), dynamicContext.UseIntProperty)
+       : (object)context.GetType();
+
+    public object Create(DbContext context) =&gt; Create(context, false);
+}
+
+// new
+public class DynamicModelCacheKeyFactoryDesignTimeSupport : IModelCacheKeyFactory
+{
+   public object Create(DbContext context, bool designTime) =&gt; 
+     context is DynamicContext dynamicContext
+       ? (context.GetType(), dynamicContext.UseIntProperty, designTime)
+       : (object)context.GetType();
+
+    public object Create(DbContext context) =&gt; Create(context, false);
+}
+</code></pre>
+<h3 id="nested-optional-dependents-with-no-required-properties">Nested optional dependents with no required properties</h3>
+<blockquote>
+<p>Entity type &lsquo;[EntityType]&rsquo; is an optional dependent using table sharing and
+containing other dependents without any required non shared property to
+identify whether the entity exists. If all nullable properties contain a null
+value in database then an object instance won&rsquo;t be created in the query
+causing nested dependent&rsquo;s values to be lost. Add a required property to
+create instances with null values for other properties or mark the incoming
+navigation as required to always create an instance.</p>
+</blockquote>
+<p>The message above is a consequence of a <a href="https://docs.microsoft.com/en-us/ef/core/what-is-new/ef-core-6.0/breaking-changes#high-impact-changes">high-impact breaking change</a> introduced
+in EF Core 6.0. In the past, you could have models with nested optional dependents
+sharing the same table, each with no required properties. In such
+circumstances, data loss could occur (see the <a href="https://docs.microsoft.com/en-us/ef/core/what-is-new/ef-core-6.0/breaking-changes#high-impact-changes">documentation</a> for details
+and examples). My solution was to mark at least one property of dependent
+models with the <code>RequiredAttribute</code> (which, in every single case, was the right
+thing to do anyway)</p>
+<h3 id="the-efcorenamingconventions-package-is-missing-a-method">The <code>EFCore.NamingConventions</code> package is missing a method</h3>
+<blockquote>
+<p>Method &lsquo;GetServiceProviderHashCode&rsquo; in type &lsquo;ExtensionInfo&rsquo; from assembly
+&lsquo;EFCore.NamingConventions&quot;</p>
+</blockquote>
+<p>The message says it all: there&rsquo;s currently a missing method in the latest
+stable version of the <code>EFCore.NamingConventions</code> package. At the time of this
+writing, <code>v6.0</code> of the package has not been released, but there is a pre-release
+available that includes the missing implementation. Switch to <code>v6.0.0-rc.1</code> and
+you&rsquo;ll be fine (ticket is <a href="https://github.com/efcore/EFCore.NamingConventions/issues/108">here</a>). I&rsquo;m sure the new stable release will be
+out by the time you read this.</p>
+<p><em>Update: EFCore.NamingConventions v6 has now been released.</em></p>
+<h3 id="the-npgsql-timestamps-breaking-change">The Npgsql timestamps breaking change</h3>
+<p>While the above situations were quick to fix, the new, updated Npgsql provider
+offers a different threat level. There&rsquo;s <a href="https://www.npgsql.org/efcore/release-notes/6.0.html#major-changes-to-timestamp-mapping">one significant breaking change</a>
+that impacts <code>DateTime</code> fields (timestamps). As the documentation suggests, it is
+possible to opt out of this change to preserve backward compatibility, but
+I decided to take the plunge and embrace it. The short version is that
+Postgres&rsquo;s <code>timestamp</code> fields (&rsquo;timestamps without timezone&rsquo;) are changed to
+<code>timestampz</code> (&rsquo;timestamps with time zones&rsquo;). In the application, when dealing
+with Npgsql, <code>DateTime</code> properties must be treated as UTC by setting the <code>Kind</code>
+property to <code>DateTimeKind.UTC</code>. When you run the migration tool, a migration is
+created to accomodate the change, which can impact existing data. Make sure you
+read the <a href="https://www.npgsql.org/efcore/release-notes/6.0.html#migrating-columns-from-timestamp-to-timestamptz">detailed notes</a> to assess the impact on your data. I let the
+migration run, then updated models configuration by setting a custom
+<code>DateTimeUtcValueConverter</code> for DateTime properties:</p>
+<pre><code>// custom DateTime converter
+protected readonly ValueConverter DateTimeToUtcConverter = 
+  new ValueConverter&lt;DateTime, DateTime&gt;(
+    v =&gt; DateTime.SpecifyKind(v, DateTimeKind.Utc),
+    v =&gt; v);
+
+// Entity configuration 
+internal class MyEntityConfiguratin : IEntityTypeConfiguration&lt;MyEntity&gt; 
+{
+  public override void Configure(EntityTypeBuilder&lt;MyEntity&gt; builder)
+  {
+    builder.Property(o =&gt; o.Date).HasConversion(DateTimeToUtcConverter);
+  }
+}
+</code></pre>
+<p>Now Postgres timestamps are stored as &rsquo;timestamp with timezone (timestampz).
+Actual values are UTC as before. A custom converter is attached to the <code>Date</code>
+property at the application level to ensure that values are correctly handled.</p>
+<p>Our stack is now fully running on .NET 6. Upgrading a standard ASP.NET
+5 project to .NET 6 revealed to be relatively straightforward. The EF Core
+6.0 migration can be more involved, while the Npgsql 6 migration requires some
+attention but, remember, you can always opt-out of the delicate timestamps
+change. Was the upgrade worth it? I think so for a few reasons. First, .NET
+6 is LTS, while .NET 5 will be out of support in six months. Second, .<a href="https://devblogs.microsoft.com/dotnet/announcing-net-6">NET 6 is
+the fastest yet</a>, with a remarkable margin (EF Core 6 alone is <a href="https://docs.microsoft.com/en-us/ef/core/what-is-new/ef-core-6.0/whatsnew#improved-performance-on-techempower-fortunes">70%
+faster</a>.) While the primary migration is done, there are a lot of changes
+and new features that are worth considering for our codebase, which is
+something we will be doing in the upcoming weeks.</p>
+<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>My initial ramblings on Minimal APIs are available <a href="/will-.net-6-minimal-apis-turn-heads/">here</a>.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
     </item>
     <item>
       <title>Drama going on at the .NET Foundation</title>
@@ -190,6 +1038,64 @@ The official ASP.NET Core 5.0 to 6.0 migration guide was my first stop.</descrip
       <pubDate>Thu, 07 Oct 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/drama-going-on-at-the-.net-foundation/</guid>
       <description>A few months after I released my first .NET open source project (a niche one targeting the Italian fintech world), I was contacted by a representative of Team Digitale, the digital innovation branch of the Italian Public Administration. He suggested joining the Developers Italia initiative and moving my project to the their organization on GitHub &amp;ldquo;to enjoy enhanced visibility and broaden the audience&amp;rdquo;. I politely refused. I did not doubt my counterpart&amp;rsquo;s good faith.</description>
+      <content:encoded><![CDATA[<p>A few months after I released my first <a href="https://fatturaelettronicaopensource.org/">.NET open source project</a> (a niche
+one targeting the Italian fintech world), I was contacted by a representative
+of Team Digitale, the digital innovation branch of the Italian Public
+Administration. He suggested joining the Developers Italia initiative and
+moving my project to the their organization on GitHub &ldquo;to enjoy
+enhanced visibility and broaden the audience&rdquo;. I politely refused. I did not
+doubt my counterpart&rsquo;s good faith. At the same time, I was concerned about the
+possible long-term consequences of a seemingly easy move. Moving a GitHub
+project away from your profile or an organization you control means ceding
+control over it. I was assured I would keep control of the project. But what
+happens if sometime in the future, when people in charge might even have
+changed, they revoke my access rights? As long as I am involved with my
+project, I should be in control. Also, I was not convinced that the move would
+help promote the project. We live in the search-engine age; people search for
+solutions to their problems. I was, and still am, confident that if I did my
+due diligence and my project is any good, people will find it<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>Unfortunately, the worst-case scenario pictured above, or worse, appears to
+be happening these days, not to me, but to the many open-source maintainers
+who, in recent years, agreed to move their projects under the .NET Foundation
+umbrella.  The drama is unfolding in these very same hours, and it is
+painful. On my Twitter feed, I first noticed <a href="https://twitter.com/eric_sink/status/1445096990153613323">Eric Sink&rsquo;s note</a> on the issue.
+The next day, a <a href="https://www.theregister.com/2021/10/05/microsoft_net_foundation_under_fire/">detailed article</a> surfaces on The Register. Then, just
+yesterday, the Executive Director of the DNF posted an <a href="https://github.com/dotnet-foundation/Home/discussions/39">I am Sorry</a> message on
+GitHub, which most maintainers consider disappointing, to say the least.
+Maintainers see the ownership of their projects being moved over to DNF. Some
+projects are transferred to GitHub Enterprise for no apparent reason. DNF
+Executive Director opened a Pull Request, which was closed by the maintainers
+and then reopened (twice!) by the Director (who also happens to be a former
+maintainer). You can get all the details at the links above. The I am Sorry
+thread is especially worth reading.</p>
+<p>I think the foundation is well-intentioned. I question whether independent
+open-source projects should belong there, though—maybe very few major and
+commercially inclined ones. To offer legal protection, DNF needs some control
+over its projects, and that&rsquo;s something not every maintainer is willing to give
+away. On the other hand, maintainers might have underestimated the consequences
+of moving their projects to DNF. I can feel their pain.</p>
+<p>Overall, this is all concerning. As someone <a href="https://news.ycombinator.com/item?id=28759630">commented</a> on Hacker News, with the
+.NET ecosystem, Microsoft has made so many surprisingly good moves in recent
+years that there is room for a couple of fuck-ups, but this is a big one.
+Besides, most maintainers involved in this drama are highly influential and
+very well respected individuals in the .NET world. The DNF needs to get its
+acts together and react immediately, at the risk of losing all of its credibility.</p>
+<p><em>Update:</em> Executive director [has resigned][7]. Updates from DNF are due as
+earsly as next week.</p>
+<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>One year later, someone from the same team got in touch and proposed the move again. I refused for the same reasons. The story is actually longer than that. A few months later, I was also invited to join Team Digitale. I even had a brief video call with their recruiter. I chukled when he realized I was a grey beard, not the typical just-out-of-college boy or girl they usually head-hunt.
+[7]: <a href="https://github.com/dotnet-foundation/Home/discussions/40">https://github.com/dotnet-foundation/Home/discussions/40</a>
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
     </item>
     <item>
       <title>ASP.NET 6 Migration Cheatsheet and FAQ</title>
@@ -198,6 +1104,42 @@ The official ASP.NET Core 5.0 to 6.0 migration guide was my first stop.</descrip
       <guid>https://nicolaiarocci.com/asp.net-6-migration-cheatsheet-and-faq/</guid>
       <description>David Fowler has a very informative gist up on GitHub. It&amp;rsquo;s titled [Migration to ASP.NET Core. NET6][3] and it&amp;rsquo;s filled with details, recipes and FAQs on migrating an ASP.NET Core 5 web app to ASP.NET Core 61. The focus is on the new, streamlined hosting model, also known as Minimal APIs2. To be clear, You don&amp;rsquo;t have to move to the new model. As the FAQ section emphasizes:
 Do I have to migrate to the new hosting model</description>
+      <content:encoded><![CDATA[<p>David Fowler has a very informative gist up on GitHub. It&rsquo;s titled [Migration
+to ASP.NET Core. NET6][3] and it&rsquo;s filled with details, recipes and FAQs on
+migrating an ASP.NET Core 5 web app to ASP.NET Core 6<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. The focus is on the
+new, streamlined hosting model, also known as Minimal APIs<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. To be clear,
+You don&rsquo;t <em>have</em> to move to the new model. As the FAQ section emphasizes:</p>
+<blockquote>
+<p>Do I have to migrate to the new hosting model</p>
+<p>No, you don&rsquo;t have to. It&rsquo;s the preferred way to host ASP.NET Core
+applications from .NET 6 and onwards but you aren&rsquo;t forced to change your
+project layout. This means you can upgrade from .NET 5 to .NET 6.0 by
+changing the target framework in your project file from net5.0 to net6.0.</p>
+</blockquote>
+<p>.NET6 Release Candidate is out, so the guide is unlikely to receive updates,
+but I&rsquo;m sure that David will be ready to do so if required.</p>
+<p>We are about to release several brand new web services in the coming weeks.
+They are all ASP.NET 5, currently in beta, but before release we&rsquo;re likely to
+upgrade them to NET6. NET6 is LTS, NET5 isn&rsquo;t, and offers significant
+advantages, remarkable [performance gains][2] included.</p>
+<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The Core tag was dropped in NET5, and it was a good move. The reason why the insist on using it with ASP.NET eludes me.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://nicolaiarocci.com/will-.net-6-minimal-apis-turn-heads/">Will .NET 6 Mininal APIs turn heads?</a> collects my thoughts on the subject.
+[2]: <a href="https://nicolaiarocci.com/performance-improvements-in-.net6/">https://nicolaiarocci.com/performance-improvements-in-.net6/</a>
+[3]: <a href="https://gist.github.com/davidfowl/0e0372c3c1d895c3ce195ba983b1e03d">https://gist.github.com/davidfowl/0e0372c3c1d895c3ce195ba983b1e03d</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
     </item>
     <item>
       <title>Performance improvements in .NET6</title>
@@ -206,6 +1148,33 @@ Do I have to migrate to the new hosting model</description>
       <guid>https://nicolaiarocci.com/performance-improvements-in-.net6/</guid>
       <description>I&amp;rsquo;m pretty psyched about the upcoming .NET6 release. I&amp;rsquo;ve already touched on ASP.NET 6 Minimal APIs. Continuing on the long-established tradition, the team has also worked hard on the performance side of things. File IO, for example, is seeing impressive gains:
 For .NET 6, we have made FileStream much faster and more reliable, thanks to an almost entire re-write. For same cases, the async implementation is now a few times faster!</description>
+      <content:encoded><![CDATA[<p>I&rsquo;m pretty psyched about the upcoming .NET6 release. I&rsquo;ve already <a href="https://nicolaiarocci.com/will-.net-6-minimal-apis-turn-heads/">touched</a>
+on ASP.NET 6 Minimal APIs. Continuing on the long-established tradition, the
+team has also worked hard on the performance side of things. File IO, for
+example, is seeing <a href="https://devblogs.microsoft.com/dotnet/file-io-improvements-in-dotnet-6/">impressive gains</a>:</p>
+<blockquote>
+<p>For .NET 6, we have made FileStream much faster and more reliable, thanks to
+an almost entire re-write. For same cases, the async implementation is now
+a few times faster! We also recognized the need of having more
+high-performance file IO features: concurrent reads and writes,
+scatter/gather IO and introduced new APIs for them. TL;DR File I/O is better,
+stronger, faster!</p>
+</blockquote>
+<p>If you have the time, make sure you read the whole blog post. Learning about
+the low-level details on how they achieved such (pretty phenomenal) results is
+fascinating. They&rsquo;re not stopping at file IO either. In another <a href="https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-6/#is-that-all">lengthy blog
+post</a>, they had to add a table of contents, or we would get lost in the myriad
+of improvements.</p>
+<blockquote>
+<p>Don’t worry, I don’t cover all of them here, but grab a large mug of your
+favorite hot beverage, and settle in: this post takes a rip-roarin’ tour
+through ~400 PRs that, all together, significantly improve .NET performance
+for .NET 6.</p>
+</blockquote>
+<p>There are <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-7/">a</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-6/">ton</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-5/">of</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-4/">new</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-3/">things</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-2/">coming</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-1/">up</a>,
+too, of course.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>How to read Windows-1252 encoded files with .NETCore and .NET5&#43;</title>
@@ -213,6 +1182,40 @@ For .NET 6, we have made FileStream much faster and more reliable, thanks to an 
       <pubDate>Fri, 27 Aug 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-read-windows-1252-encoded-files-with-.netcore-and-.net5-/</guid>
       <description>Another day, another lesson learned: modern .NET does not support the Windows-1252 encoding out of the box. Today my colleague was happily porting a legacy NET4+ app to NET6. As usual, the port was super-easy; it would compile and run just fine, so he was surprised when the app crashed reading a few specific XML files. That&amp;rsquo;s when I was called in. A closer inspection revealed a pattern: all those crashing files were Windows 1252-encoded (the rest, a vast majority, were UTF-8.</description>
+      <content:encoded><![CDATA[<p>Another day, another lesson learned: modern .NET does not support the
+Windows-1252 encoding out of the box. Today my colleague was happily porting
+a legacy NET4+ app to NET6. As usual, the port was super-easy; it would compile
+and run just fine, so he was surprised when the app crashed reading a few
+specific XML files. That&rsquo;s when I was called in. A closer inspection revealed
+a pattern: all those crashing files were Windows 1252-encoded (the rest, a vast
+majority, were UTF-8.)</p>
+<p>It turns out that under NETCore/NET5+, to read Windows-1252 encoded files, we
+first need to take a dependency on <code>System.Text.Encoding.CodePages</code>:</p>
+<pre><code>dotnet add package System.Text.Encoding.CodePages
+</code></pre>
+<p>Then, we register a <code>CodePagesEncodingProvider</code> instance from the package:</p>
+<pre><code>Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+</code></pre>
+<p>Finally, on creating the XmlReader instance, we can set the encoding. To do
+that, we need to pass an <code>XmlParserContext</code> instance, which allows us to
+specify custom encoding:</p>
+<pre><code># Create the parser context and set the encoding
+var context = new XmlParserContext(null, null, null, XmlSpace.None)
+context.Encoding = Encoding.GetEncoding(1252);
+
+# Use the custom parser when reading the Xml
+using (var r = XmlReader.Create(fileName, null, context))
+{
+    ...
+}
+</code></pre>
+<p>And sure enough, all those troublesome XML files are no problem anymore. It
+works on all platforms: Linux, macOS, and Windows.  That&rsquo;s a lot of tinkering
+for a small task that required no effort in the past. However, it makes sense
+as .NET is now cross-platform, and we want to reduce the app&rsquo;s footprint as
+much as possible.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Will .NET 6 Minimal APIs turn heads?</title>
@@ -221,6 +1224,89 @@ For .NET 6, we have made FileStream much faster and more reliable, thanks to an 
       <guid>https://nicolaiarocci.com/will-.net-6-minimal-apis-turn-heads/</guid>
       <description>I am pretty excited about the [Minimal APIs][3] feature that is coming with .NET 6. Three lines of code will be enough to build a fully functional REST microservice1:
 var app = WebApplication.Create(args); app.MapGet(&amp;quot;/&amp;quot;, () =&amp;gt; &amp;quot;Hello World!&amp;quot;); await app.RunAsync(); If you&amp;rsquo;re a seasoned ASP.NET MVC/WebApi developer, the snippet caught your attention because, pre-.NET 6, achieving the same result will have you messing with a lot of extra cruft2. I suspect, however, that this feature is not primarily targeted at existing .</description>
+      <content:encoded><![CDATA[<p>I am pretty excited about the [Minimal APIs][3] feature that is coming with
+.NET 6. Three lines of code will be enough to build a fully functional REST
+microservice<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>:</p>
+<pre><code>var app = WebApplication.Create(args);
+app.MapGet(&quot;/&quot;, () =&gt; &quot;Hello World!&quot;);
+await app.RunAsync();
+</code></pre>
+<p>If you&rsquo;re a seasoned ASP.NET MVC/WebApi developer, the snippet caught your
+attention because, pre-.NET 6, achieving the same result will have you messing
+with a lot of extra cruft<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. I suspect, however, that this feature is not
+primarily targeted at existing .NET developers. Developers new and old looking
+at .NET for the first time, or those like me returning after a long break;
+these are, I think, the designated audience.</p>
+<p>A long time ago, I left C# and .NET behind <em>precisely</em> because I had to write
+REST APIs, and back then, the options available in .NET were, to put it mildly,
+cumbersome. Admittedly, there were other reasons for switching, like .NET not
+being cross-platform - I wanted to run my APIs on Linux - and general
+dissatisfaction with the Microsoft ecosystem. Long story short, I went with
+Python. Check out this snippet from Flask&rsquo;s renowned <a href="https://flask.palletsprojects.com/en/2.0.x/quickstart/#a-minimal-application">Quickstart</a>:</p>
+<pre><code>app = Flask(__name__)
+
+@app.route(&quot;/&quot;)
+def hello_world():
+    return &quot;&lt;p&gt;Hello, World!&lt;/p&gt;&quot;
+</code></pre>
+<p>Launched with the compelling motto &lsquo;web development, one drop at a time&rsquo; and
+presented as a &lsquo;micro&rsquo; web framework, Flask immediately caught my attention<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.
+Cruft-free and elegant APIs are not a Flask (or Python, for the matter)
+exclusive. A Node code snippet for a REST API would be similar. Now, with NET
+6 Minimal APIs, we&rsquo;re finally matching the industry standard for code clarity
+and simplicity. Moreover, .NET has better performance<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> and strongly typed
+languages that offer excellent type inference (F# reigns supreme there, with C#
+catching up nicely.) I&rsquo;d dare to say that the C# snippet is a winner. I mean,
+look at that inline lambda, with no casts!</p>
+<p>Minimal APIs typical use-case is everyone&rsquo;s favourite, microservices. I do not
+doubt the delivery<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup><sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>. The challenge, I think, is the actual adoption rate.
+Whether veterans will adopt them or not (over time, they will) is relatively
+significant, I guess. The critical question is, will Minimal APIs succeed in
+attracting new developers to .NET?</p>
+<p>That will mainly depend on communication. Will evangelism be robust, persistent
+and persuasive enough? That&rsquo;s the tricky part. Every time I speak to the Python
+or JavaScript crowd, I  am amazed that the majority don&rsquo;t even know that .NET
+is now open-source, cross-platform, and blazingly performant. Most, if not all,
+are tied to the old idea of a Windows-only, cumbersome, black-boxed,
+enterprise-oriented offering. That&rsquo;s not the case anymore. .NET is on par with
+the other cool stacks or is getting there very rapidly. I am afraid it&rsquo;s just
+a little bit too late for the vast majority of the web development crowd to
+take notice. It will take an enormous, coordinated effort to bring the message
+across.</p>
+<p>With the platform now ready, effective communication, branding, and evangelism
+will eventually change the tide. Tutorials, getting-started guides, conference
+talks, YouTube videos, and workshops should all be explicitly conceived for new
+developers. The process started already. The observant can see the numerous
+efforts being made in this area. Will it be enough to attract new crowds? It is
+a hard bet, but I sure hope so because C# and F# are great languages, and NET
+6 is modern, robust,  feature-rich, and powerful enough to go at war, and with
+no fear.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>You will still be able to scale up to (or start right away with) a fully-functional WebApi/MVC application, with all its classes and controllers.
+[3]: <a href="https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-6-preview-4/#introducing-minimal-apis">https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-6-preview-4/#introducing-minimal-apis</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Mind you. The dev team isn&rsquo;t just adding a layer of abstraction on top of the existing code. Quoting fellow MVP <a href="https://www.telerik.com/blogs/low-ceremony-high-value-tour-minimal-apis-dotnet-6">Dave Brock</a> &ldquo;With minimal APIs, the goal is to move out core API-building capabilities—the ones that only exist in MVC today—and allow them to be used outside of MVC. When extracting these components away to a new paradigm, you can rely on middleware-like performance.&rdquo;&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Long story short, besides lazily maintaining my Python open source <a href="/opensource">projects</a>, I am mostly back to C# these days.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Sure, all benchmarks should be taken with a grain of salt, but <a href="https://www.techempower.com/benchmarks/#section=data-r20&amp;hw=ph&amp;test=plaintext">check this out</a>. ASPCORE ranks at #2; Flask and Node #338 and #173 respectively. And NET 6 is expected to still improve on performance.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>For examples of real-life-scenarios, see Damian Edwards&rsquo; <a href="https://github.com/DamianEdwards/MinimalApiPlayground/blob/main/src/MinimalApiPlayground/Program.cs">Minimal APIs playground</a>.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>Cool. As I am writing this, NET 6 Preview 6 is released, which adds <a href="https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-6-preview-6/#configure-swagger-ui-with-minimal-apis">OpenAPI (Swagger UI) support</a> to Minimal APIs.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
     </item>
     <item>
       <title>My DotNetPodcast interview</title>
@@ -231,6 +1317,15 @@ var app = WebApplication.Create(args); app.MapGet(&amp;quot;/&amp;quot;, () =&am
 The recording is in Italian and is available below here.
 Listen to &amp;ldquo;Python, Eve, open source e fattura elettronica. Con Nicola Iarocci&amp;rdquo; on Spreaker.
 Subscribe to the newsletter, the RSS feed, or follow @nicolaiarocci on Twitter</description>
+      <content:encoded><![CDATA[<p>Today I was interviewed by <a href="https://twitter.com/mauroservienti">Mauro Servienti</a> on the <a href="https://www.spreaker.com/show/dotnetpodcast">DotNetPodcast</a>. The
+theme was my experience as an open-source maintainer on both the Python and C#
+stacks. We also discussed the ongoing evolution of the dotNET ecosystem,
+touching on a few tangent topics.</p>
+<p>The recording is in Italian and is available below here.</p>
+<p><!-- raw HTML omitted -->Listen to &ldquo;Python, Eve, open source
+e fattura elettronica. Con Nicola Iarocci&rdquo; on Spreaker.<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Custom default values for not existing dictionary items (and a lesson learned)</title>
@@ -239,6 +1334,56 @@ Subscribe to the newsletter, the RSS feed, or follow @nicolaiarocci on Twitter</
       <guid>https://nicolaiarocci.com/custom-default-values-for-not-existing-dictionary-items-and-a-lesson-learned/</guid>
       <description>When dealing with dictionaries, a typical problem is when an operation attempts to retrieve an element using a key that does not exist in the dictionary. In .NET, a KeyNotFoundException is raised, and that&amp;rsquo;s the desired behaviour in most circumstances. Sometimes, however, you know that your program will frequently try to retrieve keys that do not exist. In such cases, it is more efficient to use the TryGetValue method:
 This method returns the value associated with the specified key, if the key is found; otherwise, the default value for the type of the value parameter is returned (source)</description>
+      <content:encoded><![CDATA[<p>When dealing with dictionaries, a typical problem is when an operation attempts
+to retrieve an element using a key that does not exist in the dictionary. In
+.NET, a <code>KeyNotFoundException</code> is raised, and that&rsquo;s the desired behaviour in
+most circumstances. Sometimes, however, you know that your program will
+frequently try to retrieve keys that do not exist. In such cases, it is more
+efficient to use the <code>TryGetValue</code> method:</p>
+<blockquote>
+<p>This method returns the value associated with the specified key, if the key
+is found; otherwise, the default value for the type of the value parameter is
+returned (<a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2.trygetvalue?view=net-5.0">source</a>)</p>
+</blockquote>
+<p>The devil hides in details. <code>TryGetValue</code> returns the default value for the
+type of the <code>value</code> parameter. So, if you use <code>TryGetValue</code> to look into
+a dictionary of strings, <code>null</code> is returned on a missing key. That is probably
+ok in most cases. Howewer, if your logic requires a custom default value
+instead, then you are out of luck. You have to set it yourself on <code>TryGetValue</code>
+failure. A typical implementation would be:</p>
+<pre tabindex="0"><code>    var result = MyDictionary.TryGetValue(&#34;key&#34;, var out value) 
+        ? value
+        : &#34;not found&#34;;
+</code></pre><p>It is a minor annoyance but still a hassle. Our solution has always been
+a homemade <code>GetValueOrDefault</code> extension method, something like this:</p>
+<pre tabindex="0"><code>    public static TValue GetValueOrDefault&lt;TKey, TValue&gt; 
+        (this IDictionary&lt;TKey, TValue&gt; dictionary, TKey key, TValue defaultValue)
+    {
+        return dictionary.TryGetValue(key, var out value) 
+            ? value
+            : defaultValue;
+    }
+</code></pre><p>Usage:</p>
+<pre tabindex="0"><code>    var result = MyDictionary.GetValueOrDefault(&#34;key&#34;, &#34;not found&#34;);
+</code></pre><p>We&rsquo;ve been using it since forever, and we are still using it even in recent
+projects.</p>
+<p>Today, as I was looking at something only tangentially related, I learned that
+our extension method is obsolete, and it&rsquo;s been for a while. NetStandard
+2.1 and NetCore 2 added a new extension method to the official API. It&rsquo;s
+called, you guessed it, <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.collectionextensions.getvalueordefault?view=net-5.0"><code>GetValueOrDefault</code></a>. It extends
+<code>ÌReadOnlyDictionary&lt;TKey, TValue&gt;</code>, so it applies to all generic dictionaries,
+which is cool.</p>
+<p>We could continue with our extension method. It has the advantage of working
+across all .NET platforms, not just recent ones. Implementations are likely
+similar, and there’s probably little (if any) performance difference (I am too
+lazy to compare). With NETCore (now NET5), APIs have not only acquired
+cross-platform compatibility and improved performance but they have also been
+expanded and amended, something often not very apparent. Not to me, at least.</p>
+<p>The point I want to make here, I think, is that nothing is set in stone. Today&rsquo;s
+little event shows how my knowledge becomes stagnant over time. Setting apart
+the time to learn new things is good, but acquired ones need sharping too.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>dotnet SmtpClient should not be used</title>
@@ -248,6 +1393,23 @@ This method returns the value associated with the specified key, if the key is f
       <description>I am very late to the party, but today I learned that the good old dotnet SmptClient is considered obsolete and should not be used. Quoting the documentation:
 We don&amp;rsquo;t recommend using the SmtpClient class for new development because SmtpClient doesn&amp;rsquo;t support many modern protocols. Use MailKit or other libraries instead. (source)
 Interestingly, Microsoft is recommending a third-party open-source library as an alternative. I hope we&amp;rsquo;ll see more of that in the future.</description>
+      <content:encoded><![CDATA[<p>I am very late to the party, but today I learned that the good old dotnet
+<code>SmptClient</code> is considered obsolete and should not be used. Quoting the
+documentation:</p>
+<blockquote>
+<p>We don&rsquo;t recommend using the SmtpClient class for new development because
+SmtpClient doesn&rsquo;t support many modern protocols. Use MailKit or other
+libraries instead. (<a href="https://docs.microsoft.com/en-us/dotnet/api/system.net.mail.smtpclient?view=net-5.0&amp;viewFallbackFrom=netcore-5.0#remarks">source</a>)</p>
+</blockquote>
+<p>Interestingly, Microsoft is recommending a third-party open-source library as an
+alternative. I hope we&rsquo;ll see more of that in the future.</p>
+<p>I just finished integrating <a href="https://github.com/jstedfast/MailKit">MailKit</a> in our backend. I must say that I&rsquo;m
+pleasantly surprised by its rich feature-set and the elegant and
+straightforward design, which makes getting on-board super easy. It&rsquo;s built on
+top of the excellent MimeKit, after all, and authored by the very same author
+Jeffrey Stedfast.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

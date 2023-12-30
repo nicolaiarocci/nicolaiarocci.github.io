@@ -16,6 +16,43 @@
       <description>Today, I (re)learned how to serialize an XML to a UTF-8 string. Like all the other times I did this, I got backstabbed by StringWriter, which only supports UTF-16. A simple code snippet like this:
 await using var sw = new StringWriter(); await using var w = XmlWriter.Create(sw, new() { Async = true }); ... await w.FlushAsync(); return sw.ToString(); Will emit this output:
 &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-16&amp;#34;?&amp;gt;&amp;lt;... There&amp;rsquo;s nothing inherently wrong with UTF-16, but XML is usually UTF-8, so one must do something about it.</description>
+      <content:encoded><![CDATA[<p>Today, I (re)learned how to serialize an XML to a UTF-8 string. Like all the other times I did this, I got backstabbed
+by StringWriter, which only supports UTF-16. A simple code snippet like this:</p>
+<pre tabindex="0"><code>    await using var sw = new StringWriter();
+    await using var w = XmlWriter.Create(sw, new() { Async = true });
+    ...
+    await w.FlushAsync();
+    return sw.ToString();
+</code></pre><p>Will emit this output:</p>
+<pre tabindex="0"><code>    &lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-16&#34;?&gt;&lt;...
+</code></pre><p>There&rsquo;s nothing inherently wrong with UTF-16, but XML is usually UTF-8, so one must do something about it. StringWriter
+exposes an <code>Encoding</code> property, but it is read-only for unknown reasons. One might think that given that the XmlWriter
+allows setting its own <code>Encoding</code> value, something like this would work:</p>
+<pre tabindex="0"><code>    await using var sw = new StringWriter();
+    await using var w = XmlWriter.Create(sw, 
+        new() { Async = true , Encoding = Encoding.UTF8});
+    ...
+    await w.FlushAsync();
+    return sw.ToString();
+</code></pre><p>But it doesn’t. Over time, I’ve seen a few different ways to get out of this dead end, some more performant and or less
+verbose than others, but my favorite is resorting to a custom StringWriter:</p>
+<pre tabindex="0"><code>    public class Utf8StringWriter : StringWriter
+    {
+        public override Encoding Encoding =&gt; Encoding.UTF8;
+    }
+</code></pre><p>Armed with this, it is trivial, as it should have been from the get-go, to obtain the desired output:</p>
+<pre tabindex="0"><code>    await using var sw = new Utf8StringWriter();
+    await using var w = XmlWriter.Create(sw, new() { Async = true });
+    ...
+    await w.FlushAsync();
+    return sw.ToString();
+
+    // returns  &lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;&lt;...
+</code></pre><p>The whole .NET framework has seen fantastic performance improvements, top-class multi-platform support, and remarkable
+streamlining, but some baffling pitfalls are still hidden in some of its less obvious parts. StringWriter not supporting
+UTF-8 out-of-the-box is one of them.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>LINQ DistinctBy on a property for .NET Standard and older .NET versions</title>
@@ -24,6 +61,30 @@ await using var sw = new StringWriter(); await using var w = XmlWriter.Create(sw
       <guid>https://nicolaiarocci.com/linq-distinctby-on-a-property-for-dotnet-standard-and-old-dotnet-versions/</guid>
       <description>Today I learned how to implement a custom Enumerable.DistinctBy extension method that returns distinct elements from a sequence according to a specified key selector function.
 .NET 6 and its successors have the method built in within LINQ, but I needed it in a .NET Standard 2.0 class library, so I was out of luck. My implementation is simple, not different from others I found online, and should also work fine with old .</description>
+      <content:encoded><![CDATA[<p>Today I learned how to implement a custom <code>Enumerable.DistinctBy</code> extension method that returns distinct elements from a
+sequence according to a specified key selector function.</p>
+<p>.NET 6 and its successors have the method <a href="https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.distinctby?view=net-6.0">built in</a> within LINQ, but I needed it in a .NET Standard 2.0 class
+library, so I was out of luck. My implementation is simple, not different from <a href="https://stackoverflow.com/a/489421/323269">others</a> I found online, and should
+also work fine with old .NET releases. Here it is:</p>
+<pre tabindex="0"><code>    public static IEnumerable&lt;TSource&gt; DistinctBy&lt;TSource, TKey&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; keySelector)
+    {
+        var keys = new HashSet&lt;TKey&gt;();
+        foreach (var element in source)
+        {
+            if (keys.Contains(keySelector(element))) continue;
+            keys.Add(keySelector(element));
+            yield return element;
+        }
+    }
+</code></pre><p>In the following usage example, I will get back all unique objects from the original sequence, distinct by their Name
+property:</p>
+<pre tabindex="0"><code>    var uniques = mySequenceOfObjects.DistinctBy(x =&gt; x.Name);
+</code></pre><p>I later went to check the <a href="https://github.com/dotnet/runtime/blob/e0409d44bd8d1fd0be1d66fbb52bd609be18f388/src/libraries/System.Linq/src/System/Linq/Distinct.cs#L62">official .NET 6+ implementation</a>. They support an optional equality comparer , which I
+don&rsquo;t need, but their base implementation is similar to mine (they use deferred execution as well).</p>
+<p>By the way, years after its open-sourcing, I still get thrills when I realize I can always look at, let alone contribute
+to, the .NET source code.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>rsync with a different user</title>
@@ -32,6 +93,41 @@ await using var sw = new StringWriter(); await using var w = XmlWriter.Create(sw
       <guid>https://nicolaiarocci.com/rsync-with-a-different-user/</guid>
       <description>Today I learned how to rsync with a user different than the one connected to the remote. Why would one want to do such a thing? The data I need to download from that server is owned by &amp;lsquo;backup,&amp;rsquo; a different, service-only user. I wanted to avoid going the change-permissions slippery route and allow my user direct access to the data.
 Looking at the rsync documentation, I learned about the nifty --rsync-path=PROGRAM option:</description>
+      <content:encoded><![CDATA[<p>Today I learned how to rsync with a user different than the one connected to the remote. Why would one want to do such a
+thing? The data I need to download from that server is owned by &lsquo;backup,&rsquo; a different, service-only user. I wanted to
+avoid going the change-permissions slippery route and allow my user direct access to the data.</p>
+<p>Looking at the rsync documentation, I learned about the nifty <code>--rsync-path=PROGRAM</code> <a href="https://download.samba.org/pub/rsync/rsync.1#opt--rsync-path">option</a>:</p>
+<blockquote>
+<p>Use this to specify what program is to be run on the remote machine to start-up rsync. Often used when rsync is not in
+the default remote-shell&rsquo;s path (e.g. &ndash;rsync-path=/usr/local/bin/rsync).</p>
+</blockquote>
+<p>The example caught my attention. I could perhaps leverage this option to perform a user switch before executing rsync
+(now performed on the remote machine). As further research confirmed, it <a href="https://unix.stackexchange.com/a/546296">can be done</a>:</p>
+<pre tabindex="0"><code>rsync --rsync-path &#39;sudo -u backup rsync&#39; -a --delete host:source destination
+</code></pre><p>It didn&rsquo;t work immediately because my user was not a sudoer, but that was an easy fix:</p>
+<pre tabindex="0"><code>cat &gt; /etc/sudoers.d/myuser &lt;&lt; EOF
+myuser ALL=(ALL) NOPASSWD:/usr/bin/rsync
+EOF
+</code></pre><p>As you can see, not only must the user be a sudoer, but it also needs to be able to sudo with no password. One last
+minor issue was that &lsquo;backup&rsquo;, being a service user, had no shell access. That was another easy fix:</p>
+<pre tabindex="0"><code>sudo usermod -s /bin/bash backup
+</code></pre><p>Now my rsync-with-a-different-user command works like a charm. I do have some mild security concerns, though. My user is
+a sudoer (can only sudo rsync, though<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>), and &lsquo;backup&rsquo; now has shell access. As password logins are turned off, and
+SSH keys-only access is allowed to the machine (and I&rsquo;m the only person holding those keys), everything&rsquo;s still
+reasonably safe. Are there better ways? Please let me know.</p>
+<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or [follow me on Mastodon][m]</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Thanks to Sebastian on Mastodon for <a href="https://fosstodon.org/@DarkMetatron@rollenspiel.social/110939139075153024">pointing out</a> that I should limit the sudoer to just rsync itself. I updated the post accordingly. By the way, this is why I love posting TILs in public.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[m]: <a href="https://fosstodon.org/@nicola">https://fosstodon.org/@nicola</a>
+[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
     </item>
     <item>
       <title>Homebrew and .NET 8 Preview don&#39;t like each other</title>
@@ -39,6 +135,21 @@ Looking at the rsync documentation, I learned about the nifty --rsync-path=PROGR
       <pubDate>Tue, 13 Jun 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/homebrew-and-dotnet-8-preview-dont-like-each-other/</guid>
       <description>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&amp;rsquo;m working on a C# 12 presentation for our local developer meetup, and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As version 7 was initially installed with Homebrew, I also wanted to install version 8 Preview with Homebrew, but that recipe was unavailable. Not perfectly happy with that, I fell back to the stand-alone installer, expecting problems.</description>
+      <content:encoded><![CDATA[<p>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&rsquo;m working on a <a href="https://www.meetup.com/it-IT/devromagna/events/293340671/">C# 12 presentation
+for our local developer meetup</a>, and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As
+version 7 was initially installed with Homebrew, I also wanted to install version 8 Preview with Homebrew, but that
+recipe was unavailable. Not perfectly happy with that, I fell back to the stand-alone installer, expecting
+problems.</p>
+<p>Installation went well, but then I turned to the command line only to find that <code>dotnet --list-sdks</code> was still and only
+showing version 7. Yet, the 8 Preview was sitting there at its canonical location at <code>/usr/local/share/dotnet/sdk</code>,
+where the v7 was also listed.</p>
+<p>Puzzled, I tried a few things, but the quick fix was to simply <code>brew uninstall --ignore-dependencies dotnet</code> and, boom,
+both versions 8 Preview and 7 became immediately available. I suspect that <code>brew uninstall</code> only removed the symlink
+from .NET canonical location to the Homebrew cellar, which magically solved the SDK visibility problem.</p>
+<p>TL; DR. Homebrew recipes don&rsquo;t play nicely with .NET canonical installer. To make all my SDK versions visible to .NET,
+I had to forego the Homebrew installation, which did not uninstall the SDK itself, but simply unlinked it.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Python `decimal.getcontext` does not work with bpython</title>
@@ -47,6 +158,32 @@ Looking at the rsync documentation, I learned about the nifty --rsync-path=PROGR
       <guid>https://nicolaiarocci.com/python-decimal.getcontext-does-not-work-with-bpython/</guid>
       <description>I have been working on a side project for which I&amp;rsquo;m using bpython, a &amp;ldquo;fancy interface to the Python interpreter.&amp;rdquo; If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax highlighting, readline-like autocomplete, a &amp;ldquo;rewind&amp;rdquo; function to pop the last line of code from memory, auto-indentation and more.
 Anyway, today I found a bug in bpython, and that&amp;rsquo;s that Python&amp;rsquo;s decimal.getcontext() does not work with it.</description>
+      <content:encoded><![CDATA[<p>I have been working on a side project for which I&rsquo;m using <a href="https://bpython-interpreter.org">bpython</a>, a &ldquo;fancy interface to the Python interpreter.&rdquo;
+If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax
+highlighting, readline-like autocomplete, a &ldquo;rewind&rdquo; function to pop the last line of code from memory, auto-indentation
+and more.</p>
+<p>Anyway, today I found a bug in bpython, and that&rsquo;s that Python&rsquo;s <code>decimal.getcontext()</code> does not work with it.</p>
+<pre tabindex="0"><code>bpython version 0.24 on top of Python 3.11.3
+&gt;&gt;&gt; import decimal
+&gt;&gt;&gt; decimal.getcontext().prec = 6
+&gt;&gt;&gt; decimal.Decimal(1) / decimal.Decimal(7)
+Decimal(&#39;0.1428571428571428571428571429&#39;)
+</code></pre><p>If you run the same lines in the standard Python REPL, what you get instead is:</p>
+<pre tabindex="0"><code>bpython version 0.24 on top of Python 3.11.3
+&gt;&gt;&gt; import decimal
+&gt;&gt;&gt; decimal.getcontext().prec = 6
+&gt;&gt;&gt; decimal.Decimal(1) / decimal.Decimal(7)
+Decimal(&#39;0.142857&#39;)
+</code></pre><p>Further experimenting revealed that, as a workaround, setting <code>DefaultContext</code> works as expected:</p>
+<pre tabindex="0"><code>bpython version 0.24 on top of Python 3.11.3
+&gt;&gt;&gt; decimal.DefaultContext.prec = 6
+&gt;&gt;&gt; decimal.Decimal(1) / decimal.Decimal(7)
+Decimal(&#39;0.142857&#39;)
+</code></pre><p>I suspect this has something to do with threads, as <code>decimal.getcontext</code> targets the current thread while
+<code>DefaultContext</code> is global. I went to the bpython repository only to find that a ticket was already opened in 2021. I
+<a href="https://github.com/bpython/bpython/issues/918#issuecomment-1578911204">added</a> my <code>DefaultContext</code> observation there.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>macOS networkQuality tool</title>
@@ -58,6 +195,31 @@ The networkQuality tool is a built-in tool released in macOS Monterey that can h
 Usage:
 networkQuality -v Example output:
 ==== SUMMARY ==== Uplink capacity: 44.448 Mbps (Accuracy: High) Downlink capacity: 162.135 Mbps (Accuracy: High) Responsiveness: Low (73 RPM) (Accuracy: High) Idle Latency: 50.125 milliseconds (Accuracy: High) Interface: en0 Uplink bytes transferred: 69.</description>
+      <content:encoded><![CDATA[<p>Today I learned about a precious little macOS command line tool, <code>networkQuality</code>.</p>
+<blockquote>
+<p>The networkQuality tool is a built-in tool released in macOS Monterey that can help diagnose network issues and
+measure network performance.</p>
+</blockquote>
+<p>Usage:</p>
+<pre tabindex="0"><code>networkQuality -v
+</code></pre><p>Example output:</p>
+<pre tabindex="0"><code>==== SUMMARY ====
+Uplink capacity: 44.448 Mbps (Accuracy: High)
+Downlink capacity: 162.135 Mbps (Accuracy: High)
+Responsiveness: Low (73 RPM) (Accuracy: High)
+Idle Latency: 50.125 milliseconds (Accuracy: High)
+Interface: en0
+Uplink bytes transferred: 69.921 MB
+Downlink bytes transferred: 278.340 MB
+Uplink Flow count: 16
+Downlink Flow count: 12
+Start: 13/05/2023, 15:04:13
+End: 13/05/2023, 15:04:27
+OS Version: Version 13.3.1 (a) (Build 22E772610a)
+</code></pre><p>It supports Apple&rsquo;s Private Relay, offers some configuration options and allows setting up your own server. More info
+<a href="https://cyberhost.uk/the-hidden-macos-speedtest-tool-networkquality/">here</a>.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>The real cost of interruption</title>
@@ -66,6 +228,41 @@ networkQuality -v Example output:
       <guid>https://nicolaiarocci.com/the-real-cost-of-interruption/</guid>
       <description>I&amp;rsquo;m just back from reading Programmer Interrupted: The Real Cost of Interruption and Context Switching, an interesting short piece in which I learned about at least two new things.
 First, The Parable of the Two Watchmakers, introduced by Nobel Prize winner Herbert Simon, describes the complex relationship between sub-systems and their larger wholes. In the context of the article, it helps explain, even for non-programmers, the cost of an interruption. It also hints at a possible mitigation technique:</description>
+      <content:encoded><![CDATA[<p>I&rsquo;m just back from reading <a href="https://contextkeeper.io/blog/the-real-cost-of-an-interruption-and-context-switching/">Programmer Interrupted: The Real Cost of Interruption and Context Switching</a>, an interesting
+short piece in which I learned about at least two new things.</p>
+<p>First, <em>The Parable of the Two Watchmakers</em>, introduced by Nobel Prize winner Herbert Simon, describes the complex
+relationship between sub-systems and their larger wholes. In the context of the article, it helps explain, even for
+non-programmers, the cost of an interruption. It also hints at a possible mitigation technique:</p>
+<blockquote>
+<p>There once were two watchmakers, named Hora and Tempus, who made very fine watches. The phones in their workshops rang
+frequently and new customers were constantly calling them. However, Hora prospered while Tempus became poorer and
+poorer. In the end, Tempus lost his shop. What was the reason behind this?</p>
+</blockquote>
+<blockquote>
+<p>The watches consisted of about 1000 parts each. The watches that Tempus made were designed such that, when he had to
+put down a partly assembled watch, it immediately fell into pieces and had to be reassembled from the basic elements.
+Hora had designed his watches so that he could put together sub-assemblies of about ten components each, and each
+sub-assembly could be put down without falling apart. Ten of these sub-assemblies could be put together to make a
+larger sub-assembly, and ten of the larger sub-assemblies constituted the whole watch.</p>
+</blockquote>
+<p>Second, larger computer screens help a programmer keep his mental model (and context) together. I&rsquo;m still deciding on
+this one. Focusing on a single window or not having a lot of cruft around the screen helps solve complex code for me.
+But toss anything John Carmack at me, and I will abide.</p>
+<blockquote>
+<p>The 640 x 480 resolution was the standard from 1990 to around 1996, but it was possible to get more screen real estate
+back then. There is a famous photo of John Carmack working on Quake using a 28-inch 1080p monitor in 1995.</p>
+</blockquote>
+<blockquote>
+<p>Why did he choose 45 kg monitor for about $10k in 1995? The higher screen real estate allowed for more code to be
+visible at once, resulting in a more dense context. Productivity greatly increases when you have the ability to store
+and access more detailed context. It&rsquo;s like having a larger desk to hold documents when studying for an exam or doing
+any task that requires the use of multiple sources of information from a common domain, such as solving puzzles.</p>
+</blockquote>
+<p>The brilliant comic that opens the article is the perfect TL;DR for the Watchmakers parable.</p>
+<p><img loading="lazy" src="/images/ProgrammerInterrupted.png" alt="This is why you shouldn&amp;rsquo;t interrupt a programmer"  />
+</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Hand dryers</title>
@@ -74,6 +271,11 @@ First, The Parable of the Two Watchmakers, introduced by Nobel Prize winner Herb
       <guid>https://nicolaiarocci.com/hand-dryers/</guid>
       <description>via
 Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+      <content:encoded><![CDATA[<p><img loading="lazy" src="/images/hand-dryers.png" alt="It seems like hand dryers take forever to heat up, but that&amp;rsquo;s because evaporation cools your skin, so the hot air feels good until the water is gone."  />
+
+<em><a href="https://botsin.space/@xkcdbot/109937567703546899">via</a></em></p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Awesome psql tips</title>
@@ -82,6 +284,12 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
       <guid>https://nicolaiarocci.com/awesome-psql-tips/</guid>
       <description>Today I learned about psql-tips.org by Lætitia Avrot, an excellent repository of psql (the CLI tool, not the database itself) tips. I like how one randomized tip is playfully served on the home page while the complete list is always at hand.
 Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+      <content:encoded><![CDATA[<p>Today I learned about <a href="https://psql-tips.org">psql-tips.org</a> by Lætitia Avrot, an excellent
+repository of <code>psql</code> (the CLI tool, not the database itself) tips. I like how
+one randomized tip is playfully served on the home page while the <a href="https://psql-tips.org/psql_tips_all.html">complete
+list</a> is always at hand.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Making the latest C# language features available in older .NET versions</title>
@@ -92,6 +300,59 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
 The init keyword defines an accessor method in a property or indexer. An init-only setter assigns a value to the property or the indexer element only during object construction. This enforces immutability so that once the object is initialized, it can&amp;rsquo;t be changed again.
 Consider the following class:
 public class Person { public string FirstName { get; init; } } You can initialize it like this:</description>
+      <content:encoded><![CDATA[<p>In a C# library I&rsquo;ve been working on, I wanted to use C# 9.0&rsquo;s <code>init</code> keyword.
+Quoting the <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/init">documentation</a>:</p>
+<blockquote>
+<p>The init keyword defines an accessor method in a property or indexer. An
+init-only setter assigns a value to the property or the indexer element
+<strong>only</strong> during object construction. This enforces immutability so that once
+the object is initialized, it can&rsquo;t be changed again.</p>
+</blockquote>
+<p>Consider the following class:</p>
+<pre tabindex="0"><code>    public class Person
+    {
+        public string FirstName { get; init; }
+    }
+</code></pre><p>You can initialize it like this:</p>
+<pre tabindex="0"><code>    var person = new Person { FirstName = &#34;John&#34; };
+</code></pre><p>But this will fail:</p>
+<pre tabindex="0"><code>    var person = new Person();
+    person.FirstName = &#34;John&#34;;  //Not allowed
+</code></pre><p>For my project, which is a .NET Standard 2.0 library, I thought this approach
+might be preferable to a parameter-enforced class constructor alternative.</p>
+<p>To my surprise, however, when I tried the above, I got the following error:</p>
+<pre tabindex="0"><code>The predefined type &#39;System.Runtime.CompilerServices.IsExternalInit&#39; must be
+defined or imported in order to declare init-only setter
+</code></pre><p>As it <a href="https://developercommunity.visualstudio.com/t/error-cs0518-predefined-type-systemruntimecompiler/1244809#TPIN-N1249582">turns out</a>, The <code>IsExternalInit</code> type is only included in the net5.0
+(and subsequent) target frameworks, so one cannot use it right away in a
+NetStandard 2.0 (or 2.1, for that matter) library.</p>
+<p>In the dotnet world, when I encounter <em>&ldquo;type is not defined in version X&rdquo;</em>
+scenario, I know I can get around the issue by making up the type on my own. A
+quick lookup confirmed that this was the case, and the workaround is to add
+the following somewhere in my source code:</p>
+<pre tabindex="0"><code>    namespace System.Runtime.CompilerServices
+    {
+        internal static class IsExternalInit {}
+    }
+</code></pre><p>And presto, the <code>init</code> keyword is now fully available to my library.</p>
+<p>While researching this matter, I stumbled into <a href="https://github.com/Sergio0694/PolySharp">PolySharp</a>,  a lovely
+package that takes this workaround approach to new heights. What is it?</p>
+<blockquote>
+<p>PolySharp provides generated, source-only polyfills for C# language features,
+to easily use all runtime-agnostic features downlevel. The package is
+distributed as a source generator, so that it will automatically detect which
+polyfills are needed depending on the target framework and project in use:
+just add a reference to PolySharp, set your C# language version to latest,
+and have fun!</p>
+</blockquote>
+<p>And it works! Just add a PolySharp reference, and almost all modern C# language
+features become automagically available to your project, with no tricks around
+polluting your code. What&rsquo;s also nice about PolySharp, is that it isn&rsquo;t a
+dependency for your library; it only needs to be there at compile time.</p>
+<p>Do you know what&rsquo;s funny? After all, I took a different route; no <code>init</code>
+keyword is used anymore in my library, but that&rsquo;s for another story.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>On implementing the ASP.NET Core 7 rate-limiting middleware</title>
@@ -100,6 +361,146 @@ public class Person { public string FirstName { get; init; } } You can initializ
       <guid>https://nicolaiarocci.com/on-implementing-the-asp.net-core-7-rate-limiting-middleware/</guid>
       <description>Today, my last self-assigned duty before the Christmas break was to migrate our in-house rate-limiting implementation (based on the AspNetCoreRateLimiting third-party package) to the new, shiny rate-limiting middleware introduced by ASP.NET Core 7. While the process was relatively straightforward, I stumbled upon a few quirks I want to annotate here.
 Our use case is simple. We use what the ASP.NET Core 7 documentation defines as a &amp;ldquo;fixed window limiter.&amp;rdquo; It uses a specified time window to limit requests.</description>
+      <content:encoded><![CDATA[<p>Today, my last self-assigned duty before the Christmas break was to migrate
+our in-house rate-limiting implementation (based on the
+<a href="https://github.com/stefanprodan/AspNetCoreRateLimit">AspNetCoreRateLimiting</a> third-party package) to the new, shiny
+<a href="https://devblogs.microsoft.com/dotnet/announcing-rate-limiting-for-dotnet/">rate-limiting middleware</a> introduced by ASP.NET Core 7. While the process
+was relatively straightforward, I stumbled upon a few quirks I want to annotate
+here.</p>
+<p>Our use case is simple. We use what the ASP.NET Core 7 documentation defines as
+a &ldquo;fixed window limiter.&rdquo; It uses a specified time window to limit requests.
+When the time window expires, a new time window starts, and the request limit
+is reset. Consider the following code (for convenience, I&rsquo;m using an extension
+method):</p>
+<pre tabindex="0"><code>public static void ConfigureRateLimit(this IServiceCollection services)
+{
+    services.AddRateLimiter(x =&gt; 
+        x.AddFixedWindowLimiter(
+                policyName: &#34;fixed&#34;, options =&gt;
+                {
+                    options.PermitLimit 1;
+                    options.Window = TimeSpan.FromSeconds(10);
+                    options.QueueLimit 1;
+                }));
+}
+</code></pre><p>It sets a window of 10 seconds. Within that window, a maximum of one request is
+allowed. Exceeding requests will be queued and served at window reset. Notice
+that we defined &ldquo;fixed&rdquo; as the policy name.</p>
+<p>Once our policy is configured, we must instrument the app instance to use the
+rate limiter, then we call <code>RequireRateLimiting</code> on our endpoints:</p>
+<pre tabindex="0"><code>app.UseRouting();  // I&#39;m mentioning this line for good reason, see below
+app.UseRateLimiter();
+app.UseEndpoints(endpoints =&gt; { endpoints.MapControllers()
+    .RequireRateLimiting(&#34;fixed&#34;); });
+</code></pre><p>Nothing else is needed, really, for such a simple scenario. We could be more
+sophisticated. We could opt for more advanced options, like a &ldquo;sliding windows
+limiter&rdquo; or a &ldquo;bucket token limiter&rdquo;; we could apply rate limiting only to
+specific endpoints or controllers or mix and match these options. I chose to
+ditch hard-coded settings and read them from the configuration file. My
+<em>appsettings.json</em> contains the following (with different vaues):</p>
+<pre tabindex="0"><code>  &#34;RateLimiter&#34;: {
+    &#34;PermitLimit&#34;: 1
+    &#34;Window&#34;: 10,
+    &#34;QueueLimit&#34;: 1
+  }
+</code></pre><p>The <code>RateLimiter</code> class maps the json structure:</p>
+<pre tabindex="0"><code>public class RateLimiter
+{
+    public int PermitLimit { get; set; }
+    public int Window { get; set; }
+    public int QueueLimit { get; set; }
+}
+</code></pre><p>The updated code looks like this:</p>
+<pre tabindex="0"><code>public static void ConfigureRateLimit(this IServiceCollection services, 
+    IConfiguration configuration)
+{
+    var rateLimiter = new RateLimiter();
+    configuration.GetSection(&#34;RateLimiter&#34;).Bind(rateLimiter);
+    
+    services.AddRateLimiter(x =&gt; 
+        x.AddFixedWindowLimiter(
+                policyName: &#34;fixed&#34;, options =&gt;
+                {
+                    options.PermitLimit = rateLimiter.PermitLimit;
+                    options.Window = TimeSpan.FromSeconds(rateLimiter.Window);
+                    options.QueueLimit = rateLimiter.QueueLimit;
+                }));
+}
+</code></pre><p>I wish I could say it all worked splendidly on the first try. The API was
+running fine, but it was not rate-limited. It looked like the middleware was
+not being invoked, or it somehow failed miserably and silently. After an
+embarrassingly long time, I figured out the problem: <code>UseRateLimiter</code>
+<em>must</em> be called after <code>UseRouting</code>.</p>
+<p>Before:</p>
+<pre tabindex="0"><code>app.UseRateLimiter();
+app.UseRouting();
+app.UseEndpoints(endpoints =&gt; { endpoints
+    .MapControllers().RequireRateLimiting(&#34;fixed&#34;); });
+</code></pre><p>After:</p>
+<pre tabindex="0"><code>app.UseRouting();
+app.UseRateLimiter();
+app.UseEndpoints(endpoints =&gt; { endpoints.MapControllers()
+    .RequireRateLimiting(&#34;fixed&#34;); });
+</code></pre><p>Simply switching two lines saved the day. I looked high and low but could not
+find any reference to this requirement. If intended, it should be mentioned in
+the documentation. If it is a bug, it should be fixed (and I should
+probably open at ticket about it.)</p>
+<p>Anyways, now the API is rate-limited via the new middleware. The first request
+sent via Postman goes through. The second, rapid-fired one is queued and served
+at window reset, as expected. A third request within the same window is bounced
+back.</p>
+<p>However:</p>
+<ol>
+<li>You get a <code>503 Service Unavailable</code> response. I&rsquo;m not in favor of 500
+replies for this case. Five-hundreds should be reserved for server errors,
+and that&rsquo;s not what we are dealing with here. My previous implementation
+served a more appropriate <code>429 Too Many Requests</code>.</li>
+<li>No <code>Retry-After</code> header is included with the response. I think it&rsquo;s
+mandatory to instruct clients on what to do next.</li>
+</ol>
+<p>Luckily, the rate-limiting middleware allows for ample customization. On
+defining our policy, we can attach a custom function to the <code>OnRejected</code> event.
+The code below is updated to address both issues above:</p>
+<pre tabindex="0"><code>public static class ServicesConfiguration
+{
+    public static void ConfigureRateLimit(this IServiceCollection services, 
+        IConfiguration configuration) {
+
+        var rateLimiter = new RateLimiter();
+        configuration.GetSection(&#34;RateLimiter&#34;).Bind(rateLimiter);
+        
+        services.AddRateLimiter(x =&gt; 
+            x.AddFixedWindowLimiter(
+                    policyName: &#34;fixed&#34;, options =&gt; {
+                        options.PermitLimit = rateLimiter.PermitLimit;
+                        options.Window = TimeSpan.FromSeconds(rateLimiter.Window);
+                        options.QueueLimit = rateLimiter.QueueLimit;
+                    })
+
+                // new code here:
+                .OnRejected = (context, _) =&gt; {
+
+                // inject Retry-After header (too much line wrapping, I know)
+                if (context.Lease.TryGetMetadata(MetadataName.RetryAfter, 
+                    out var retryAfter)) {
+                    context.HttpContext.Response.Headers.RetryAfter =
+                        ((int) retryAfter.TotalSeconds).ToString();
+                }
+                // return a different status code
+                context.HttpContext.Response.StatusCode = 
+                    StatusCodes.Status429TooManyRequests;
+                return new();
+            });
+    }
+</code></pre><p>And that&rsquo;s all there is to it. I dropped the AspNetCoreRateLimiting dependency.
+That is one great piece of software, and I am grateful to its author Stefan
+Prodan and his contributors. As mentioned in <a href="/my-top-7-new-features-in-.net-7/">My Top 7 New Features in .NET
+7</a>, they recently released a package that allows using Redis as a
+rate-limiting backend. I might adopt it in the future.</p>
+<p>Complete documentation for ASP.NET Core 7 rate-limiting middleware is available
+<a href="https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit?view=aspnetcore-7.0">here</a>.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Brazilian Ju-Jitsu and me</title>
@@ -107,6 +508,43 @@ Our use case is simple. We use what the ASP.NET Core 7 documentation defines as 
       <pubDate>Thu, 27 Oct 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/brazilian-ju-jitsu-and-me/</guid>
       <description>I attended my first BJJ class a little more than a month ago. Going into it, I was hesitant. After many years doing what most people today call calisthenics, I wanted to try something new and challenging. But would it be appropriate for me to get into martial arts at the age of fifty-two? When I discovered that we have a branch of the renowned Roger Gracie Academy here in my hometown, I thought it was time to find out.</description>
+      <content:encoded><![CDATA[<p>I attended my first BJJ class a little more than a month ago. Going into it,
+I was hesitant. After many years doing what most people today call
+calisthenics, I wanted to try something new and challenging. But would it be
+appropriate for me to get into martial arts at the age of fifty-two? When
+I discovered that we have a branch of the renowned Roger Gracie Academy here in
+my hometown, I thought it was time to find out.</p>
+<p>I was simultaneously blown away and puzzled for the whole first two or three
+weeks. I was surprised by how effective BJJ can be, even with only a few
+classes. At the same time, martial arts are a new space for me. So many new
+things to absorb in an uncharted, unfamiliar territory in which I often feel
+lost, struggling for guidance. All trainees, from white to brown belts, and my
+coach, have been extraordinarily supportive, always making me feel comfortable
+despite me being the only grey beard on the tatami. I could see myself doing
+BJJ for the foreseeable future, along with my calisthenics routine.</p>
+<p>A couple of weeks ago, during a &ldquo;rolling&rdquo; (sparring) session with a fellow
+white belt, I cracked a couple of ribs. I didn&rsquo;t immediately realize it,
+though. I kept sparring. Later in the evening, the pain increased, but
+I stubbornly went back for the rest of the week. The pain would go away. Only
+it didn&rsquo;t. In my many years of strenuous training, whether running, swimming,
+climbing or calisthenics, I had to deal with all kinds of injuries, yet it
+taught me nothing. Here I am, at an age at which I&rsquo;m supposed to be the wise
+guy in the room, recovering from an underestimated injury.</p>
+<p>It&rsquo;s been two weeks, with several more to go before I fully recover. After much
+consideration this morning, during my early walk (the only activity I can
+perform without pain), I called my coach and told him I&rsquo;d stop training BJJ. At
+my age, recovery takes longer; I&rsquo;m probably more subject to injury, and as it
+appears, martial arts are not the smartest thing I can do to keep me in shape,
+no matter how much I love them. I wish I had tried BJJ ten years ago, or maybe
+twenty. I want to keep training for the long haul, and an impact sport does me
+no good. As soon as I&rsquo;m recovered, I go back to calisthenics. Am I giving up
+too soon? Maybe. I&rsquo;d love to progress in BJJ, and I&rsquo;m sure I would have a lot
+of fun with it, but today, for once, I choose the known path of safety over the
+unknown, exhilarating course of uncertainty.</p>
+<p><img loading="lazy" src="/images/ju-jitsu.jpeg" alt=""  />
+</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>How to avoid unwanted calls on iPhone</title>
@@ -116,6 +554,25 @@ Our use case is simple. We use what the ASP.NET Core 7 documentation defines as 
       <description>Oh, joy. After many years with an iPhone, today I learned how to stop spam calls with a single, not-really-super-secret move.
 Settings &amp;gt; Phone &amp;gt; Silence Unknown Callers That&amp;rsquo;s it. Unknown callers now go straight to my recent calls list for me to (eventually) review. Most importantly, the phone doesn&amp;rsquo;t ring.
 I initially had True Caller installed and enabled, which worked for a while. Spammers use throw-away numbers anyway, so it&amp;rsquo;s super-hard for tools like that to keep track.</description>
+      <content:encoded><![CDATA[<p>Oh, joy. After many years with an iPhone, today I learned how to stop spam
+calls with a single, not-really-super-secret move.</p>
+<pre><code>Settings &gt; Phone &gt; Silence Unknown Callers
+</code></pre>
+<p>That&rsquo;s it. Unknown callers now go straight to my recent calls list for me to
+(eventually) review. Most importantly, the phone doesn&rsquo;t ring.</p>
+<p>I initially had True Caller installed and enabled, which worked for a while.
+Spammers use throw-away numbers anyway, so it&rsquo;s super-hard for tools like that
+to keep track. In Italy, we can enlist in a nationwide &ldquo;oppositions register&rdquo;.
+Once a phone number is registered there, national call services can&rsquo;t call it.
+I signed up on the register&rsquo;s opening day, which also worked for a few days.
+There are ways for spammers to go around the register, such as calling from
+abroad. I fell back to simply not answering unknown calls. That worked, but
+unsolicited calls still caught my attention and muting the phone helped
+only a little.</p>
+<p>The Silence Unknown Callers option has probably always been there, unbeknownst
+to me. It&rsquo;s a godsend. Now my iPhone doesn&rsquo;t even try to ring anymore.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>The Docker Event Monitor</title>
@@ -123,6 +580,23 @@ I initially had True Caller installed and enabled, which worked for a while. Spa
       <pubDate>Thu, 08 Sep 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-docker-event-monitor/</guid>
       <description>How to get alerted when a docker container goes down, or (many) other things happen to it</description>
+      <content:encoded><![CDATA[<p>I added a new tool to my amateurish DevOps toolbox. Developed in the open by
+Tom Williams, the <a href="https://bitbucket.org/quaideman/dem">Docker Event Monitor is</a> a &ldquo;tiny container that monitors
+the local Docker event system in real-time and sends notifications to various
+integrations for event types that match the configuration. For example, you can
+trigger an alert when a container is stopped, killed, runs out of memory or
+health status change.&rdquo;</p>
+<p>At its core sits a simple <a href="https://bitbucket.org/quaideman/dem/src/master/app/main.py">python script</a> that monitors the <code>docker.sock</code>
+file for noticeable changes. The code is straightforward and looks safe to
+me. It only took a few minutes to set DEM up so that our <code>alerts</code> channel on
+Slack gets notified of any health status changes. Some handy options are
+included; my favorite is <code>silence</code> to set a time window during which alerts are
+not fired. It avoids unnecessary spam when routine maintenance goes off on your
+stack.</p>
+<p>I find <a href="https://bitbucket.org/quaideman/dem">DEM</a> a useful little tool for lightweight, simple deployments where
+you&rsquo;re not employing heavy weaponry, like k8s.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>How to copy a file&#39;s path in macOS Finder</title>
@@ -132,6 +606,17 @@ I initially had True Caller installed and enabled, which worked for a while. Spa
       <description>No matter how long I&amp;rsquo;ve possessed a Mac and how hard I try, there will always be a helpful keyboard shortcut hidden somewhere that I don&amp;rsquo;t know about.
 Today I learned about holding the Option key while clicking on the Copy command in Finder. It activates the super-useful (and super-secret) &amp;ldquo;copy as pathname&amp;rdquo; feature.
 I spotted this trick on Jamie Smith&amp;rsquo;s website, where other handy shortcuts (and the pretty gif above) reside.</description>
+      <content:encoded><![CDATA[<p>No matter how long I&rsquo;ve possessed a Mac and how hard I try, there will always
+be a helpful keyboard shortcut hidden somewhere that I don&rsquo;t know about.</p>
+<p>Today I learned about holding the <code>Option</code> key while clicking on the Copy
+command in Finder. It activates the super-useful (and super-secret) &ldquo;copy as
+pathname&rdquo; feature.</p>
+<p><img loading="lazy" src="/images/finder-menu-option.gif" alt="Credits: Jamie Smith"  />
+</p>
+<p>I spotted this trick on <a href="https://www.jamieonkeys.dev/posts/keyboard-shortcuts/">Jamie Smith&rsquo;s website</a>, where other handy shortcuts
+(and the pretty gif above) reside.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>The curious origins of Bluetooth&#39;s name</title>
@@ -139,6 +624,52 @@ I spotted this trick on Jamie Smith&amp;rsquo;s website, where other handy short
       <pubDate>Wed, 09 Feb 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-curious-origins-of-bluetooths-name/</guid>
       <description>When Giulia came home from school today, she was anxious to tell me what she learned about a Viking King and his legacy. She told me the story of King Harald Gormsson, who ruled Denmark and Norway from c. 958 to c. 986. Harald is mainly known for introducing Christianity to Denmark and consolidating his rule over most Jutland and Zealand. However, what sparked my interest is that Harald was nicknamed &amp;ldquo;Bluetooth&amp;rdquo;, and, in 1997, the Bluetooth wireless specification design was named after him.</description>
+      <content:encoded><![CDATA[<p>When Giulia came home from school today, she was anxious to tell me what she
+learned about a Viking King and his legacy. She told me the story of King
+Harald Gormsson, who ruled Denmark and Norway from c. 958 to c. 986. Harald is
+mainly known for introducing Christianity to Denmark and consolidating his rule
+over most Jutland and Zealand. However, what sparked my interest is that Harald
+was nicknamed &ldquo;Bluetooth&rdquo;, and, in 1997, the Bluetooth wireless specification
+design was named after him. The choice was based on an analogy that the
+technology would unite devices the way Harald united the tribes of Denmark into
+a single kingdom. Furthermore, the Bluetooth logo consists of the two
+Scandinavian runes for his initials, H (ᚼ) and B (ᛒ)<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>The traditional explanation for his byname is that Harald must have had
+a conspicuous bad tooth that appeared &ldquo;blue&rdquo; (i.e. &ldquo;black&rdquo;, as blár &ldquo;blue&rdquo;
+meant &ldquo;blue-black&rdquo;, or &ldquo;dark-coloured&rdquo;). Another explanation is that he was
+called &ldquo;blue thane&rdquo; (or &ldquo;dark thane&rdquo;) in England (with Anglo-Saxon thegn
+corrupted to tan when the name came back into Old Norse).<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>Another interesting tidbit is that, according to Bluetooth&rsquo;s official website,
+Bluetooth was only intended as a placeholder until marketing could come up with
+something cool. Later, when it came time to select a serious name, Bluetooth
+was to be replaced with either RadioWire or PAN (Personal Area Networking). PAN
+was the front runner, but an exhaustive search discovered it already had tens
+of thousands of hits throughout the internet. A full trademark search on
+RadioWire couldn&rsquo;t be completed in time for launch, making Bluetooth the only
+choice. The name caught on fast, and before it could be changed, it spread
+throughout the industry, becoming synonymous with short-range wireless
+technology<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
+<p>I&rsquo;m a sucker for stories like this in which technology pays proper tribute to
+our past, without which it wouldn&rsquo;t exist in the first place.</p>
+<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Source: <a href="https://en.wikipedia.org/wiki/Harald_Bluetooth#Bluetooth_technology">Harald Bluetooth, Wikipedia</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Source: <a href="https://en.wikipedia.org/wiki/Harald_Bluetooth#Name">Harald Bluetooth, Wikipedia</a>.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Source: <a href="https://en.wikipedia.org/wiki/Bluetooth#History">Bluetooth history, Wikipedia</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
     </item>
     <item>
       <title>Automatic deletion of older records in Postgres</title>
@@ -147,6 +678,51 @@ I spotted this trick on Jamie Smith&amp;rsquo;s website, where other handy short
       <guid>https://nicolaiarocci.com/automatic-deletion-of-older-records-in-postgres/</guid>
       <description>We have a Postgres cluster with a database for each user. Each database has a table that records events, and we want this table to only record the last 15 days.
 If we were on MongoDB, we could use a capped collection, but we are in Postgres, which does not have equivalent functionality. In Postgres, you have to make do with something homemade. My first idea was to install a cron job in the system.</description>
+      <content:encoded><![CDATA[<p>We have a Postgres cluster with a database for each user. Each database has
+a table that records events, and we want this table to only record the last 15
+days.</p>
+<p>If we were on MongoDB, we could use a <a href="https://docs.mongodb.com/manual/core/capped-collections/">capped collection</a>, but we are in
+Postgres, which does not have equivalent functionality. In Postgres, you have
+to make do with something homemade. My first idea was to install a cron job in
+the system. It would execute daily, deleting older events in each user
+database.</p>
+<p>Before jumping in, I looked at what others do. One surprising popular approach
+appears to be using <a href="https://www.postgresql.org/docs/current/sql-createtrigger.html">triggers</a>: older ones are pruned when a new row is
+inserted in the table. For my use case, this seems unnecessarily taxing to the
+system. I&rsquo;m happy with running a single maintenance task late in the night when
+the system is underused. Two other solutions are <a href="https://www.pgadmin.org/docs/pgadmin4/latest/pgagent.html">pgAgent</a> or <a href="https://github.com/citusdata/pg_cron">pg_cron</a>.
+pgAgent is an external UI tool, so hard No to pgAgent from me. pg_cron
+essentially offers cron jobs baked into the database, which is good, but, like
+pg_Agent, it requires you to install the tool itself, create a Postgres
+extension, change Postgres configuration, optionally grant usage to a schema,
+etc. There&rsquo;s also <a href="https://www.postgresql.org/docs/current/ddl-partitioning.html">partitioning</a>, which seems way overboard for our use
+case. It seems that these approaches demand new dependencies and unnecessary
+work for something I can easily accomplish by leveraging what is already
+available, for free, in the system. So, it&rsquo;s good old Linux cron jobs for me.</p>
+<p>Because we run Postgres in Docker, a little more work is involved, but overall,
+the solution is pretty straightforward. Here is the script I came up with:</p>
+<pre><code>readonly CONTAINER=$(docker ps -q -f name=postgres)
+readonly USER=dbuser
+docker exec -i $CONTAINER \
+    psql -U $USER -d postgres -t \
+        -c &quot;select datname from pg_database where datname like 'cus_%'&quot; | \
+    xargs -n 1 -I&quot;{}&quot; docker exec -i $CONTAINER psql -U $USER -d {} -t \
+        -c &quot;delete from mytable where datetime &lt; now() - interval '15 days'&quot;
+</code></pre>
+<p>First, we find the id of the docker container (it runs in a swarm, so we don&rsquo;t
+have exact container names). We need it because we want to execute psql from
+within the container. The second row sets a Postgres user other than the
+default one. That&rsquo;s because we don&rsquo;t allow default user logins. Then comes the
+Linux pipeline. First, we execute a query that returns all user database names;
+then, we pipe those into the query that deletes obsolete rows. The query
+executes against each target database. The script is then installed as a cron
+job with something similar to:</p>
+<pre><code>0 4 * * * /home/user/dir/cleanup.sh
+</code></pre>
+<p>Which ensures the script runs daily at 4 am. For a weekend task, I&rsquo;m happy with
+the result.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Migrating a Windows 10 VM to Windows 11 in Parallels Desktop: a story of TPM chips and BIOS upgrades</title>
@@ -154,6 +730,63 @@ If we were on MongoDB, we could use a capped collection, but we are in Postgres,
       <pubDate>Sat, 11 Dec 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/migrating-a-windows-10-vm-to-windows-11-in-parallels-desktop-a-story-of-tpm-chips-and-bios-upgrades/</guid>
       <description>This weekend assignment was to upgrade a couple of old Windows 10 VMs to Windows 11 in Parallels Desktop 17. I couldn&amp;rsquo;t do that right away because Windows Update was complaining about the lack of the TPM chip. A little research revealed that TPM chips only work on UEFI BIOS. To check which BIOS version was being used in my VMs, I used the msinfo32 (System Information) application. It showed the BIOS to be of &amp;ldquo;Legacy&amp;rdquo; type.</description>
+      <content:encoded><![CDATA[<p>This weekend assignment was to upgrade a couple of old Windows 10 VMs to
+Windows 11 in Parallels Desktop 17. I couldn&rsquo;t do that right away because
+Windows Update was complaining about the lack of the TPM chip. A little
+research revealed that TPM chips only work on UEFI BIOS.  To check which BIOS
+version was being used in my VMs, I used the msinfo32 (System Information)
+application. It showed the BIOS to be of &ldquo;Legacy&rdquo; type. So my task was now to
+switch it to UEFI.</p>
+<p><img loading="lazy" src="/images/windows10-bios-legacy-mode.png" alt="Windows 10 BIOS in Legacy  mode"  />
+</p>
+<p>I looked high and low with little luck. Parallels the product is incredible.
+Not so much its documentation and online support.  At some point, I landed in
+the Parallels forums, a vast ocean of scarcely useful threads from which
+I usually try to stay the hell away. The Parallels personnel there has
+a long-standing tendency to copy &amp; paste ready-made and irrelevant solutions.
+Users are left to their own, and, luckily, one of them posted the <a href="https://forum.parallels.com/threads/process-for-converting-from-legacy-to-uefi-in-prep-for-win-11.354888/">perfect
+solution</a> to my Legacy-to-UEFI BIOS migration problem. I am reposting it
+here, with minor edits, for future reference (my future self <a href="https://nicolaiarocci.com/learn-in-public/">will be
+grateful</a>):</p>
+<ol>
+<li>Back up your VM</li>
+<li>Boot into your Windows 10 VM as usual</li>
+<li>While holding down Shift key: Start -&gt; Power -&gt; Restart</li>
+<li>Select Troubleshoot, then Advanced options</li>
+<li>Select Command Prompt</li>
+<li>Log in with your account and Microsoft password (not your pin)</li>
+<li>Type: <code>mbr2gpt /validate</code> and hit return; this will check your hard disk</li>
+<li>If there&rsquo;s a problem, type: <code>mbr2gpt /validate /allowFullOS</code> and hit return</li>
+<li>Type <code>mbr2gpt /convert</code> and hit return. It will convert the MBR disk partition scheme to GUID. It might complain about WinRE or something, but generally, if it says &ldquo;conversion was a success,&rdquo; you can type <code>exit</code> and hit return to kill the command prompt and return to the advanced menu</li>
+<li>Choose &ldquo;Turn off PC.&rdquo; You don&rsquo;t want to restart Windows yet</li>
+<li>Find your VM file in the Finder, right-click on it, and choose: &ldquo;Show Package Contents.&rdquo;</li>
+<li>Find the config.pvs file and open it with a text editor</li>
+<li>Search for the section <code>&lt;Bios dyn_lists=&quot;&quot;&gt;</code></li>
+<li>Change <code>&lt;EfiEnabled&gt;</code> from 0 to 1</li>
+<li>Change <code>&lt;EfiSecureBoot&gt;</code> from 0 to 1</li>
+<li>Save the file</li>
+<li>Open the VM Configuration, go to the Hardware tab, click the &ldquo;+&rdquo;, and add the TPM Chip</li>
+</ol>
+<p>At this point you can run Windows 10 as you usually would. At fist launch,
+right after the login, I got a critical error and a hard restart (the original
+poster reported the same experience.) After that, the VM is stable. A quick
+msinfo32 check confirms that the VM is now on UEFI BIOS.</p>
+<p><img loading="lazy" src="/images/windows10-bios-uefi-mode.png" alt="Windows 10 BIOS in UEFI mode"  />
+</p>
+<p>Should Windows Update still complain, that&rsquo;s probably because of the CPU
+limitation check. You can disable it:</p>
+<ol>
+<li>Open the Registry Editor</li>
+<li>Navigate to <code>HKEY_LOCAL_MACHINE\SYSTEM\Setup\MoSetup</code></li>
+<li>Search for <code>AllowUpgradesWithUnsupportedTPMOrCPU</code></li>
+<li>Change its value to 1</li>
+<li>Restart the VM</li>
+</ol>
+<p>Personally, I did not need to alter the registry, and I got <em>very</em> old VMs to
+upgrade. At the time of this writing, Windows 11 installation is at 94% and
+I am confident it will be successful.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>How to automatically pull and deploy updated Docker images</title>
@@ -162,6 +795,56 @@ If we were on MongoDB, we could use a capped collection, but we are in Postgres,
       <guid>https://nicolaiarocci.com/how-to-automatically-pull-and-deploy-updated-docker-images/</guid>
       <description>We want our test and production stacks to be automatically updated every time something new is pushed to the test or release branch. CI builds the docker image on successful test runs, then stores it in our private registry. But how do you automatically pull and deploy those updated images?
 I looked into the Watchtower project, which is interesting. You add Watchtower to the stack, and it will diligently check for new versions of the images used by the containers in the stack, pulling, building and deploying as needed while the stack is up and running.</description>
+      <content:encoded><![CDATA[<p>We want our test and production stacks to be automatically updated every time
+something new is pushed to the <code>test</code> or <code>release</code> branch. CI builds the docker
+image on successful test runs, then stores it in our private registry. But how
+do you automatically pull and deploy those updated images?</p>
+<p>I looked into the <a href="https://containrrr.dev/watchtower/">Watchtower</a> project, which is interesting. You add
+Watchtower to the stack, and it will diligently check for new versions of the
+images used by the containers in the stack, pulling, building and deploying as
+needed while the stack is up and running. In my experiments, however, I had
+<a href="https://github.com/containrrr/watchtower/issues/1113">little luck</a> in making it talk with our private registry. Also, I&rsquo;m not too
+fond of polluting my stack with foreign containers. I want my docker stack to
+be simple, tidy, clean, and single-tasked.</p>
+<p>I ended up doing something super simple. A cronjob routinely invokes a script
+that pulls relevant images from our registry. If updated images are downloaded,
+then the <code>docker stack up</code> command is issued.  Finally, a <code>docker image prune -af</code> ensures obsolete images are deleted. For the simplest scenario, where we
+only need to take care of one image, the script looks like this:</p>
+<pre><code>#!/bin/bash
+set -e
+
+readonly IMAGE=[image]
+readonly TAG=[tag]
+
+out=$(docker pull $IMAGE:$TAG)
+
+if [[ $out != *&quot;up to date&quot;* ]]; then
+    echo &quot;an updated image has been donwloaded for '$IMAGE:$TAG'&quot;
+    # we actually launch a script here:
+    docker stack up -c stack.yml mystack --with-registry-auth
+    docker image prune -af
+else
+    echo &quot;no updates available for '$IMAGE:$TAG'&quot;
+fi
+</code></pre>
+<p>I expected <code>docker pull</code> to return <code>1</code> on successful pulls; it turns out it
+always returns <code>0</code>, so I&rsquo;m checking its output for confirmation (I got the hint
+<a href="https://stackoverflow.com/a/51628017/323269">here</a>).</p>
+<p>You might be wondering why we don&rsquo;t directly execute <code>docker stack up</code> in our
+cronjob. It updates the stack resolving new images by default. The problem is
+that, in our experience, it also briefly stops the services. Not an issue if
+you run this command sporadically. We want our stacks refreshed minutes after
+the initial developer push, though, so the cronjob runs frequently. With our
+pre-fetch approach, actual deployment only happens when an updated image has
+been found and downloaded.</p>
+<p>Now, when I push to, say, <code>test</code> branch, I have the updated services up and
+running a minute later, without me doing anything on the docker or server-side
+of things. Mission accomplished, I guess, but I am sure there are other, better
+ways around this problem. If you happen to know one, please let me know about
+it (keep in mind, we don&rsquo;t use alternative orchestrators, just the built-in
+&lsquo;swarm&rsquo; thing.)</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Learn in public</title>
@@ -172,6 +855,26 @@ I looked into the Watchtower project, which is interesting. You add Watchtower t
 Learn in public, it gives superpowers1. Also, in recent years, adopting POSSE was the best thing I did for my personal development.
 Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter
 I should do better. Post more TILs, for example.</description>
+      <content:encoded><![CDATA[<p>Today I searched the internet for something, and the first result I got from
+<a href="https://duckduckgo.com/">@duckduckgo</a> was a note I wrote months ago to my future self; how meta is
+that.</p>
+<p><img loading="lazy" src="/images/duckduckgo-search.png" alt=""  />
+</p>
+<p><a href="https://www.swyx.io/learn-in-public/">Learn in public</a>, it gives superpowers<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Also, in recent years, adopting
+<a href="https://indieweb.org/POSSE">POSSE</a> was the best thing I did for my personal development.</p>
+<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I should do better. Post more <a href="/tags/til/">TILs</a>, for example.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
     </item>
     <item>
       <title>The American Style of quotation mark punctuation makes no sense</title>
@@ -179,6 +882,37 @@ I should do better. Post more TILs, for example.</description>
       <pubDate>Thu, 16 Sep 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-american-style-of-quotation-mark-punctuation-makes-no-sense/</guid>
       <description>Years ago, I translated an essay by Terry Windling, On Tolkien and Fairie-Stories, from American English to Italian. I remember arguing with the author about her use of periods in quotations. Each quotation would end with a period before the closing mark. I was puzzled. We don&amp;rsquo;t do that in Italy. More importantly, I read many English texts where the period was left outside the quotation itself. She insisted that her style was correct1.</description>
+      <content:encoded><![CDATA[<p>Years ago, I <a href="http://www.endore.it/Arretrati/9/Articoli/SuTolkienELeFiabe.pdf">translated</a> an essay by Terry Windling, <a href="https://accademia.tolkieniana.net/tesi/endicott/tlkefiabeng.html">On Tolkien and
+Fairie-Stories</a>, from American English to Italian. I remember arguing with
+the author about her use of periods in quotations. Each quotation would end
+with a period before the closing mark. I was puzzled. We don&rsquo;t do that in
+Italy. More importantly, I read many English texts where the period was left
+outside the quotation itself. She insisted that her style was correct<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>Today I learn that, in English, there are in fact two different and conflicting
+quotation mark punctuation styles: American and British.</p>
+<blockquote>
+<p>There are different ways of combining quotation and punctuation marks. In the
+American style, you almost always put periods and commas inside the quotation
+marks [&hellip;] In the British style, however, you put periods and commas outside
+the quotation marks, unless they are part of a complete sentence that is
+fully contained between the quotation marks:</p>
+</blockquote>
+<p>In <a href="https://www.erichgrunewald.com/posts/the-american-style-of-quotation-mark-punctuation-makes-no-sense">The American Style of Quotation Mark Punctuation Makes No Sense</a> the
+author illustrates the differences between the two styles, then argues that
+&ldquo;the British approach makes more sense, so use that one.&rdquo; Whoops.</p>
+<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>In my rendition I moved the period after the end mark. Different languages, different rules.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
     </item>
     <item>
       <title>How to read Windows-1252 encoded files with .NETCore and .NET5&#43;</title>
@@ -186,6 +920,40 @@ I should do better. Post more TILs, for example.</description>
       <pubDate>Fri, 27 Aug 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-read-windows-1252-encoded-files-with-.netcore-and-.net5-/</guid>
       <description>Another day, another lesson learned: modern .NET does not support the Windows-1252 encoding out of the box. Today my colleague was happily porting a legacy NET4+ app to NET6. As usual, the port was super-easy; it would compile and run just fine, so he was surprised when the app crashed reading a few specific XML files. That&amp;rsquo;s when I was called in. A closer inspection revealed a pattern: all those crashing files were Windows 1252-encoded (the rest, a vast majority, were UTF-8.</description>
+      <content:encoded><![CDATA[<p>Another day, another lesson learned: modern .NET does not support the
+Windows-1252 encoding out of the box. Today my colleague was happily porting
+a legacy NET4+ app to NET6. As usual, the port was super-easy; it would compile
+and run just fine, so he was surprised when the app crashed reading a few
+specific XML files. That&rsquo;s when I was called in. A closer inspection revealed
+a pattern: all those crashing files were Windows 1252-encoded (the rest, a vast
+majority, were UTF-8.)</p>
+<p>It turns out that under NETCore/NET5+, to read Windows-1252 encoded files, we
+first need to take a dependency on <code>System.Text.Encoding.CodePages</code>:</p>
+<pre><code>dotnet add package System.Text.Encoding.CodePages
+</code></pre>
+<p>Then, we register a <code>CodePagesEncodingProvider</code> instance from the package:</p>
+<pre><code>Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+</code></pre>
+<p>Finally, on creating the XmlReader instance, we can set the encoding. To do
+that, we need to pass an <code>XmlParserContext</code> instance, which allows us to
+specify custom encoding:</p>
+<pre><code># Create the parser context and set the encoding
+var context = new XmlParserContext(null, null, null, XmlSpace.None)
+context.Encoding = Encoding.GetEncoding(1252);
+
+# Use the custom parser when reading the Xml
+using (var r = XmlReader.Create(fileName, null, context))
+{
+    ...
+}
+</code></pre>
+<p>And sure enough, all those troublesome XML files are no problem anymore. It
+works on all platforms: Linux, macOS, and Windows.  That&rsquo;s a lot of tinkering
+for a small task that required no effort in the past. However, it makes sense
+as .NET is now cross-platform, and we want to reduce the app&rsquo;s footprint as
+much as possible.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>How to restore a single Postgres database from a pg_dumpall dump</title>
@@ -193,6 +961,44 @@ I should do better. Post more TILs, for example.</description>
       <pubDate>Wed, 25 Aug 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-restore-a-single-postgres-database-from-a-pg_dumpall-dump/</guid>
       <description>Today I learned how to restore a single Postgres database from a global dump generated with pg_dumpall. Now, pg_dumpall is handy when you want to back up an entire Postgres cluster. It will dump all databases and global objects in a single text file. In contrast, pg_dump, the go-to tool for Postgres backups, offers more control but only works with a single database and doesn&amp;rsquo;t dump global objects, such as the roles/users linked to the database.</description>
+      <content:encoded><![CDATA[<p>Today I learned how to restore a single Postgres database from a global dump
+generated with <a href="https://www.postgresql.org/docs/current/app-pg-dumpall.html"><code>pg_dumpall</code></a>. Now, <code>pg_dumpall</code> is handy when you want to back
+up an entire Postgres cluster. It will dump all databases and global objects in
+a single text file. In contrast, <a href="https://www.postgresql.org/docs/current/app-pgdump.html"><code>pg_dump</code></a>, the go-to tool for Postgres
+backups, offers more control but only works with a single database and doesn&rsquo;t
+dump global objects, such as the roles/users linked to the database.</p>
+<p>The problem with <code>pg_dumpall</code> comes when you want to restore just one database
+from the dump file. That&rsquo;s not supported out of the box, but it is achievable
+with some tinkering.</p>
+<p>The <code>pg_dumpall</code> dump is a plain text file that contains all the SQL commands
+needed to restore the cluster. All database instructions are there as well; we
+only need to extract them. Say we have one &ldquo;mydb&rdquo; database that we need to
+retrieve. Open the dump file and look for a string starting with &ldquo;connect
+mydb&rdquo;. That&rsquo;s where our database instructions begin. Then look for the first
+occurrence of &ldquo;PostgreSQL database dump complete&rdquo;. That&rsquo;s where the
+instructions end. <a href="https://stackoverflow.com/a/48866503/323269">This</a> script, which I have to say makes clever use of <code>sed</code>,
+will do just that for us:</p>
+<pre><code>#!/bin/bash
+[ $# -lt 2 ] &amp;&amp; { echo &quot;Usage: $0 &lt;postgresql dump&gt; &lt;dbname&gt;&quot;; exit 1; }
+sed  &quot;/connect.*$2/,\$!d&quot; $1 | sed &quot;/PostgreSQL database dump complete/,\$d&quot;
+</code></pre>
+<p>The output will be to STDOUT; we want to pipe it into a file. If we named the
+script <code>pg_extract.sh</code>, as I did, we&rsquo;d do:</p>
+<pre><code>./pg_extract.sh dumpall.sql mydb &gt;&gt; mydb.dump
+</code></pre>
+<p>Now we have the specific DB dump, and we can restore it like this:</p>
+<pre><code>psql (connection options) mydb &lt; mydb.dump
+</code></pre>
+<p>If the database still exists on the cluster, we first want to drop it, or we&rsquo;ll
+only get error messages:</p>
+<pre><code>psql (connection options) -d postgres -c &quot;DROP DATABASE IF EXISTS mydb&quot;
+psql (connection options) -d postgres -c &quot;CREATE DATABASE mydb&quot;
+</code></pre>
+<p><code>DROP DATABASE</code> will fail if there are active connections. Either
+<a href="https://stackoverflow.com/a/5408501/323269">force-drop</a> all active connections or tell your peers to leave the database
+alone. Merging the above passages in a script is an option.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>How to remove a file from Git history</title>
@@ -200,6 +1006,61 @@ I should do better. Post more TILs, for example.</description>
       <pubDate>Fri, 30 Jul 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-remove-a-file-from-git-history/</guid>
       <description>Today I learned how to remove a file from a git repository while also cleaning it from the history. When you delete it with git rm or git rm --cached, tracks remain in the commit history (the reflog). That might not be a big deal, but if the file has sensitive contents that you want to disappear from version control entirely, then you also want it cleaned from the reflog. That&amp;rsquo;s when git filter-branch comes to the rescue.</description>
+      <content:encoded><![CDATA[<p>Today I learned how to remove a file from a git repository while also cleaning
+it from the history. When you delete it with <code>git rm</code> or <code>git rm --cached</code>,
+tracks remain in the commit history (the reflog). That might not be a big deal,
+but if the file has sensitive contents that you want to disappear from version
+control entirely, then you also want it cleaned from the reflog. That&rsquo;s when
+<a href="https://git-scm.com/docs/git-filter-branch"><code>git filter-branch</code></a> comes to the rescue.</p>
+<p>To be on the safe side, I first cloned the repository to a test directory:</p>
+<pre><code>$ git clone &lt;REPOSITORY&gt; test
+$ cd test
+</code></pre>
+<p>Once into the test directory, this is the command that saved the day:</p>
+<pre><code># make sure you insert the whole file path, relative to the repository root
+$ git filter-branch --force --index-filter \
+  &quot;git rm --cached --ignore-unmatch PATH-TO-THE-FILE&quot; \
+  --prune-empty --tag-name-filter cat -- --all
+</code></pre>
+<p>The command above will go through the history, find all commits where the file
+is involved, and alter them to eliminate the file. Yes, history changes,
+so a force-push will be required at the end.</p>
+<p>To test that the file has indeed been removed, I used <code>git blame</code>:</p>
+<pre><code>$ git blame PATH-TO-THE-FILE
+fatal: no such path 'PATH-TO-THE-FILE' in HEAD
+</code></pre>
+<p>If the file needs to stay in the local directory, you can add it to
+<code>.gitignore</code>:</p>
+<pre><code>$ echo &quot;PATH-TO-THE-FILE&quot; &gt;&gt; .gitignore
+$ git add .gitignore
+$ git commit -m &quot;add FILE to .gitignore&quot;
+</code></pre>
+<p>Once everything was ready, I went back to the original clone directory,
+replayed all the above, then force-pushed back to the remote:</p>
+<pre><code>$ git push origin --force --all
+</code></pre>
+<p>If you have remote tags, those need to be force-pushed as well:</p>
+<pre><code>$ git push origin --force --tags
+</code></pre>
+<p>In my case, the repository is private with no forks, so the changing
+history was not a big deal for the few colleagues with access to it. Of
+course, any other existing clone will need to be updated<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>In so many years with git, this is the very first time I had to do something
+similar. Typically, you don&rsquo;t commit sensitive data to version control, but we
+all make mistakes every once in a while, don&rsquo;t we?</p>
+<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Keep in mind, eventual stashed changes will be lost after <code>git filter-branch</code>. Make sure you unstash before issuing the command.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
     </item>
     <item>
       <title>Yet Another Reason to Use DuckDuckGo</title>
@@ -209,6 +1070,35 @@ I should do better. Post more TILs, for example.</description>
       <description>I couldn&amp;rsquo;t recall a [tmux][5] command, so I quickly reached for my trusted default search engine DuckDuckGo. I typed &amp;ldquo;tmux cheat sheet&amp;rdquo; because, well, once I found an excellent one which I wanted to summon again. To my surprise, the [search result][1] included an in-page cheat sheet—a good one too.
 It isn&amp;rsquo;t the first time that DuckDuckGo surprises me like that. Need a new GUID? [Search for it][2].
 Need a quick QR code?</description>
+      <content:encoded><![CDATA[<p>I couldn&rsquo;t recall a [tmux][5] command, so I quickly reached for my trusted default
+search engine DuckDuckGo. I typed &ldquo;tmux cheat sheet&rdquo; because, well, once
+I found an excellent one which I wanted to summon again. To my surprise, the
+[search result][1] included an in-page cheat sheet—a good one too.</p>
+<p><img loading="lazy" src="/images/duckduckgo-tmux.png" alt="DuckDuckGo provides an in-page tmux cheat sheet"  />
+</p>
+<p>It isn&rsquo;t the first time that DuckDuckGo surprises me like that. Need a new
+GUID? [Search for it][2].</p>
+<p><img loading="lazy" src="/images/duckduckgo-guid.png" alt="DuckDuckGo comes with an in-page guid generation feature"  />
+</p>
+<p>Need a quick QR code? [Of course][3].</p>
+<p><img loading="lazy" src="/images/duckduckgo-qrcode.png" alt="DuckDuckGo comes with an in-page QR code generation feature"  />
+</p>
+<p>DuckDuckGo should be everyone&rsquo;s default browser for many [valid reasons][4], and
+in-page results for frequent searches (or [Istant Answers][6] as they call them)
+sure isn&rsquo;t the most prominent one, but it is handy to have around. It is also of
+some comfort to see that I&rsquo;m obviously not the only one forgetting tmux
+commands.</p>
+<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em>
+[1]: <a href="https://duckduckgo.com/?t=ffab&amp;q=tmux+cheat+sheet&amp;atb=v224-1&amp;ia=cheatsheet">https://duckduckgo.com/?t=ffab&amp;q=tmux+cheat+sheet&amp;atb=v224-1&amp;ia=cheatsheet</a>
+[2]: <a href="https://duckduckgo.com/?q=new+guid&amp;t=ffab&amp;atb=v224-1&amp;ia=answer">https://duckduckgo.com/?q=new+guid&amp;t=ffab&amp;atb=v224-1&amp;ia=answer</a>
+[3]: <a href="https://duckduckgo.com/?q=qrcode+for+https%3A%2F%2Fnicolaiarocci.com&amp;t=ffab&amp;atb=v224-1&amp;ia=answer">https://duckduckgo.com/?q=qrcode+for+https%3A%2F%2Fnicolaiarocci.com&amp;t=ffab&amp;atb=v224-1&amp;ia=answer</a>
+[4]: <a href="https://duckduckgo.com/spread">https://duckduckgo.com/spread</a>
+[5]: <a href="https://github.com/tmux/tmux">https://github.com/tmux/tmux</a>
+[6]: <a href="https://duck.co/ia/dev">https://duck.co/ia/dev</a>
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Custom default values for not existing dictionary items (and a lesson learned)</title>
@@ -217,6 +1107,56 @@ Need a quick QR code?</description>
       <guid>https://nicolaiarocci.com/custom-default-values-for-not-existing-dictionary-items-and-a-lesson-learned/</guid>
       <description>When dealing with dictionaries, a typical problem is when an operation attempts to retrieve an element using a key that does not exist in the dictionary. In .NET, a KeyNotFoundException is raised, and that&amp;rsquo;s the desired behaviour in most circumstances. Sometimes, however, you know that your program will frequently try to retrieve keys that do not exist. In such cases, it is more efficient to use the TryGetValue method:
 This method returns the value associated with the specified key, if the key is found; otherwise, the default value for the type of the value parameter is returned (source)</description>
+      <content:encoded><![CDATA[<p>When dealing with dictionaries, a typical problem is when an operation attempts
+to retrieve an element using a key that does not exist in the dictionary. In
+.NET, a <code>KeyNotFoundException</code> is raised, and that&rsquo;s the desired behaviour in
+most circumstances. Sometimes, however, you know that your program will
+frequently try to retrieve keys that do not exist. In such cases, it is more
+efficient to use the <code>TryGetValue</code> method:</p>
+<blockquote>
+<p>This method returns the value associated with the specified key, if the key
+is found; otherwise, the default value for the type of the value parameter is
+returned (<a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2.trygetvalue?view=net-5.0">source</a>)</p>
+</blockquote>
+<p>The devil hides in details. <code>TryGetValue</code> returns the default value for the
+type of the <code>value</code> parameter. So, if you use <code>TryGetValue</code> to look into
+a dictionary of strings, <code>null</code> is returned on a missing key. That is probably
+ok in most cases. Howewer, if your logic requires a custom default value
+instead, then you are out of luck. You have to set it yourself on <code>TryGetValue</code>
+failure. A typical implementation would be:</p>
+<pre tabindex="0"><code>    var result = MyDictionary.TryGetValue(&#34;key&#34;, var out value) 
+        ? value
+        : &#34;not found&#34;;
+</code></pre><p>It is a minor annoyance but still a hassle. Our solution has always been
+a homemade <code>GetValueOrDefault</code> extension method, something like this:</p>
+<pre tabindex="0"><code>    public static TValue GetValueOrDefault&lt;TKey, TValue&gt; 
+        (this IDictionary&lt;TKey, TValue&gt; dictionary, TKey key, TValue defaultValue)
+    {
+        return dictionary.TryGetValue(key, var out value) 
+            ? value
+            : defaultValue;
+    }
+</code></pre><p>Usage:</p>
+<pre tabindex="0"><code>    var result = MyDictionary.GetValueOrDefault(&#34;key&#34;, &#34;not found&#34;);
+</code></pre><p>We&rsquo;ve been using it since forever, and we are still using it even in recent
+projects.</p>
+<p>Today, as I was looking at something only tangentially related, I learned that
+our extension method is obsolete, and it&rsquo;s been for a while. NetStandard
+2.1 and NetCore 2 added a new extension method to the official API. It&rsquo;s
+called, you guessed it, <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.collectionextensions.getvalueordefault?view=net-5.0"><code>GetValueOrDefault</code></a>. It extends
+<code>ÌReadOnlyDictionary&lt;TKey, TValue&gt;</code>, so it applies to all generic dictionaries,
+which is cool.</p>
+<p>We could continue with our extension method. It has the advantage of working
+across all .NET platforms, not just recent ones. Implementations are likely
+similar, and there’s probably little (if any) performance difference (I am too
+lazy to compare). With NETCore (now NET5), APIs have not only acquired
+cross-platform compatibility and improved performance but they have also been
+expanded and amended, something often not very apparent. Not to me, at least.</p>
+<p>The point I want to make here, I think, is that nothing is set in stone. Today&rsquo;s
+little event shows how my knowledge becomes stagnant over time. Setting apart
+the time to learn new things is good, but acquired ones need sharping too.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>dotnet SmtpClient should not be used</title>
@@ -226,6 +1166,23 @@ This method returns the value associated with the specified key, if the key is f
       <description>I am very late to the party, but today I learned that the good old dotnet SmptClient is considered obsolete and should not be used. Quoting the documentation:
 We don&amp;rsquo;t recommend using the SmtpClient class for new development because SmtpClient doesn&amp;rsquo;t support many modern protocols. Use MailKit or other libraries instead. (source)
 Interestingly, Microsoft is recommending a third-party open-source library as an alternative. I hope we&amp;rsquo;ll see more of that in the future.</description>
+      <content:encoded><![CDATA[<p>I am very late to the party, but today I learned that the good old dotnet
+<code>SmptClient</code> is considered obsolete and should not be used. Quoting the
+documentation:</p>
+<blockquote>
+<p>We don&rsquo;t recommend using the SmtpClient class for new development because
+SmtpClient doesn&rsquo;t support many modern protocols. Use MailKit or other
+libraries instead. (<a href="https://docs.microsoft.com/en-us/dotnet/api/system.net.mail.smtpclient?view=net-5.0&amp;viewFallbackFrom=netcore-5.0#remarks">source</a>)</p>
+</blockquote>
+<p>Interestingly, Microsoft is recommending a third-party open-source library as an
+alternative. I hope we&rsquo;ll see more of that in the future.</p>
+<p>I just finished integrating <a href="https://github.com/jstedfast/MailKit">MailKit</a> in our backend. I must say that I&rsquo;m
+pleasantly surprised by its rich feature-set and the elegant and
+straightforward design, which makes getting on-board super easy. It&rsquo;s built on
+top of the excellent MimeKit, after all, and authored by the very same author
+Jeffrey Stedfast.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>How to add an empty directory to a Git repository</title>
@@ -234,6 +1191,46 @@ Interestingly, Microsoft is recommending a third-party open-source library as an
       <guid>https://nicolaiarocci.com/how-to-add-an-empty-directory-to-a-git-repository/</guid>
       <description>How do you add an empty directory to a Git repository? It&amp;rsquo;s a classic, and yet, I have to look it up every single time. Git does not support this out of the box:
 Currently the design of the Git index (staging area) only permits files to be listed, and nobody competent enough to make the change to allow empty directories has cared enough about this situation to remedy it. Directories are added automatically when adding files inside them.</description>
+      <content:encoded><![CDATA[<p>How do you add an empty directory to a Git repository? It&rsquo;s a classic, and yet,
+I have to look it up every single time. Git does not support this out of the
+box:</p>
+<blockquote>
+<p>Currently the design of the Git index (staging area) only permits files to be
+listed, and nobody competent enough to make the change to allow empty
+directories has cared enough about this situation to remedy it. Directories
+are added automatically when adding files inside them. That is, directories
+never have to be added to the repository, and are not tracked on their own.
+You can say <code>git add &lt;dir&gt;</code> and it will add the files in there. <strong>If you really
+need a directory to exist in checkouts you should create a file in it</strong>.
+.gitignore works well for this purpose; you can leave it empty or fill in
+the names of files you do not expect to show up in the directory.
+(<a href="https://git.wiki.kernel.org/index.php/GitFaq#Can_I_add_empty_directories.3F">source</a>)</p>
+</blockquote>
+<p>The same answer offers a workaround: just save an empty .gitignore file into
+the directory. At that point, <code>git status</code> shows the file as untracked. We can
+add it to the repository, and <em>presto</em>, our folder ends up captured in version
+control.</p>
+<p>I don&rsquo;t like using .gitignore for this. That file serves a different,
+unrelated goal. Finding it in an otherwise empty directory would cause
+puzzlement to my colleagues and my future self in six months. For better
+semantic and clarity, what I do is add a <code>.keep</code> file instead:</p>
+<pre><code>$ touch mydir/.keep
+</code></pre>
+<p>Same trick. Better semantics. When I pull this repository in six months, I will
+immediately grasp what&rsquo;s going on (an alternative would be a README.md file
+with an explanation.)</p>
+<p>Of course, if the dir is meant to fill-up over time, but we still want to
+ignore its future contents in version control, then .gitignore is the right
+tool for the job. Something like this would work (I <a href="https://stackoverflow.com/questions/115983/how-can-i-add-an-empty-directory-to-a-git-repository">dug it up</a> on Stack
+Overflow, where else):</p>
+<pre><code># Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+</code></pre>
+<p>I should probably adopt the #tirl tag, as in &ldquo;Today I Re-Learned.&rdquo;</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Battling with SSH, cron jobs, and macOS Keyring</title>
@@ -242,6 +1239,51 @@ Currently the design of the Git index (staging area) only permits files to be li
       <guid>https://nicolaiarocci.com/battling-with-ssh-cron-jobs-and-macos-keyring/</guid>
       <description>So today, I was setting up a cronjob on my trusty MacBook Pro. The goal was to backup some folders from a remote Linux server via rsync. The script is simple. It goes something like this:
 rsync -avz -e &amp;quot;ssh -i ~/.ssh/my_rsa_keyfile&amp;quot; myuser@myserver:remotedir/ ~/localdir/ Launched by hand, it works seamlessly. Call it from a cron job via crontab, and I get a permission denied error. I then enabled ssh -v option to gather a little intel on what was actually going on.</description>
+      <content:encoded><![CDATA[<p>So today, I was setting up a cronjob on my trusty MacBook Pro. The goal was to
+backup some folders from a remote Linux server via rsync. The script is simple.
+It goes something like this:</p>
+<pre><code>rsync -avz -e &quot;ssh -i ~/.ssh/my_rsa_keyfile&quot; myuser@myserver:remotedir/ ~/localdir/
+</code></pre>
+<p>Launched by hand, it works seamlessly. Call it from a cron job via crontab, and
+I get a permission denied error. I then enabled ssh <code>-v</code> option to gather
+a little intel on what was actually going on. As it turns out, the exact
+error was:</p>
+<pre><code>`read_passphrase: can't open /dev/tty: Device not configured`
+</code></pre>
+<p>Quite puzzling. Long story short, the error message was misleading. It took me
+an embarrassingly long time to figure out what the real problem was. The
+identity file I was using has a passphrase, which is saved in macOS Keyring.
+When the <code>ssh -i</code> command is launched via cron, no Keyring is used. Not unless
+you explicitly instruct ssh to do. See, my <code>~/.ssh/config</code> file was something
+like this:</p>
+<pre><code>Host *
+    ServerAliveInterval 360
+    AddKeysToAgent yes
+
+[...]
+
+Host myserver
+    HostName 123.123.123.123
+    User myuser
+</code></pre>
+<p>See, in <code>myserver</code> section there was no <code>Usekeychain</code> option. Launching the
+script interactively worked because of <code>AddkeysToAgent</code> in the general section.
+It enables the ssh-agent for the current terminal session, for all hosts. But
+cron jobs, well, they don&rsquo;t run in the same session, and certainly don&rsquo;t run
+the agent. I could eval the agent in the script, of course, but the
+simplest solution was to update <code>myserver</code> section:</p>
+<pre><code>Host myserver
+    HostName 123.123.123.123
+    Usekeychain yes
+    User myuser
+</code></pre>
+<p>Now ssh knows it should use the keychain when resolving <code>myserver</code> RSA key,
+even when no agent is running. I am not sure why I did not have <code>Usekeychain</code>
+there; I do have it enabled for other hosts in the same file. As said, I wasted
+way too much time on this issue. At least, I hope my experience will be useful
+to someone else, or, more likely, to my future self in a few months or years.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>How to Shrink a WSL2 Virtual Disk</title>
@@ -250,6 +1292,19 @@ rsync -avz -e &amp;quot;ssh -i ~/.ssh/my_rsa_keyfile&amp;quot; myuser@myserver:r
       <guid>https://nicolaiarocci.com/how-to-shrink-a-wsl2-virtual-disk/</guid>
       <description>I discovered you can use the &amp;ldquo;diskpart&amp;rdquo; tool to compact a VHDX. This allows you to shrink a WSL2 virtual disk file, reclaiming disk space. It appeared to work for me without any data corruption, taking the file size down from 100GB to 15GB. (source)
 I adore Parallels &amp;ldquo;reclaim disk space&amp;rdquo; feature. Just the other day, I got back 70GB off my Windows Guest in a breeze. I&amp;rsquo;m coming from VirtualBox, where reclaiming disk space is a significant pain.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>I discovered you can use the &ldquo;diskpart&rdquo; tool to compact a VHDX. This allows
+you to shrink a WSL2 virtual disk file, reclaiming disk space. It appeared to
+work for me without any data corruption, taking the file size down from 100GB
+to 15GB. (<a href="https://stephenreescarter.net/how-to-shrink-a-wsl2-virtual-disk/">source</a>)</p>
+</blockquote>
+<p>I adore Parallels &ldquo;reclaim disk space&rdquo; feature. Just the other day, I got back
+70GB off my Windows Guest in a breeze. I&rsquo;m coming from VirtualBox, where
+reclaiming disk space is a significant pain. I would expect <code>optimize-vhd</code> to
+achieve the goal with WSL2, but it&rsquo;s nice to know there are alternatives, like
+Stephen&rsquo;s above</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Cleaning Up Your Postgres Database</title>
@@ -258,6 +1313,24 @@ I adore Parallels &amp;ldquo;reclaim disk space&amp;rdquo; feature. Just the oth
       <guid>https://nicolaiarocci.com/cleaning-up-your-postgres-database/</guid>
       <description>I am an application/backend developer who has to quibble with databases more often than desired. I can get my way around Postgres pretty well, but I can always use a hint or two, especially when it comes to fine-tuning and performance.
 I stumbled upon Cleaning Up Your Postgres Databases. It offers useful advice on spotting performance bottlenecks in your Postgres database. Take the cache and index hit queries, for example.</description>
+      <content:encoded><![CDATA[<p>I am an application/backend developer who has to quibble with databases more
+often than desired. I can get my way around Postgres pretty well, but I can
+always use a hint or two, especially when it comes to fine-tuning and
+performance.</p>
+<p>I stumbled upon <a href="http://blog.crunchydata.com/blog/cleaning-up-your-postgres-database">Cleaning Up Your Postgres Databases</a>. It offers useful
+advice on spotting performance bottlenecks in your Postgres database. Take the
+cache and index hit queries, for example.</p>
+<blockquote>
+<p>The first thing you&rsquo;re going to want to look at is your cache hit ratio and
+index hit ratio. Your cache hit ratio is going to give the percentage of time
+your data is served from within memory vs. having to go to disk. Generally
+serving data from memory vs. disk is going to orders of magnitude faster,
+thus the more you can serve from memory the better. For a typical web
+application making a lot of short requests I&rsquo;m going to target &gt; 99% here.</p>
+</blockquote>
+<p>I will be trying them real soon. Like, today.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>How to increase upload file size in ASP.NET Core</title>
@@ -266,6 +1339,42 @@ I stumbled upon Cleaning Up Your Postgres Databases. It offers useful advice on 
       <guid>https://nicolaiarocci.com/how-to-increase-upload-file-size-in-asp.net-core/</guid>
       <description>Today I learned the hard way that since ASP.NET Core 2.0, the request body has acquired a default size limit at 30MB (~28.6 MiB).
 If the request body size exceeds the configured max request body size limit, the call to Request.Body.ReadAsync will throw an IOException. If this exception is uncaught, Kestrel will respond with a 413 Payload Too Large response and HttpSys will respond with a generic 500 Internal Server Error response (source).</description>
+      <content:encoded><![CDATA[<p>Today I learned the hard way that since ASP.NET Core 2.0, the request body has
+acquired a default size limit at 30MB (~28.6 MiB).</p>
+<blockquote>
+<p>If the request body size exceeds the configured max request body size limit,
+the call to Request.Body.ReadAsync will throw an IOException. If this
+exception is uncaught, Kestrel will respond with a 413 Payload Too Large
+response and HttpSys will respond with a generic 500 Internal Server Error
+response (<a href="https://github.com/aspnet/Announcements/issues/267">source</a>).</p>
+</blockquote>
+<p>This will be a breaking change if your endpoint is expected to handle large
+uploads. The solution is simple, just decorate your MVC action or controller
+with the <code>RequestSizeLimit</code> attribute, like so:</p>
+<pre tabindex="0"><code>    [HttpPost]
+    [RequestSizeLimit(100_000_000)]
+    public IActionResult MyAction([FromBody] MyViewModel data)
+    {
+</code></pre><p><code>DisableRequestSizeLimit</code> can be used to make request size unlimited. This
+effectively restores pre-2.0.0 behavior for just the attributed action or
+controller. You can also change or disable the limit programmatically, either
+on a per-request basis or globally (see the instructions at this <a href="https://github.com/aspnet/Announcements/issues/267">link</a>.)</p>
+<p>In my case, however, disabling the request limit was not enough. Because my
+endpoint is expecting an <code>IFormFile</code> argument, I also had to set the
+<code>RequestFormLimits</code> attribute:</p>
+<pre tabindex="0"><code>    [HttpPost]
+    [DisableRequestSizeLimit,
+    RequestFormLimits(MultipartBodyLengthLimit = int.MaxValue, 
+        ValueLengthLimit = int.MaxValue)]
+    public async Task&lt;ActionResult&gt; BulkAdd(string schema, IFormFile file)
+    {
+</code></pre><p>Please note that all of this happened on a .NET 5 Linux application with
+Kestrel running behind nginx. As pointed out at the link above, if you&rsquo;re
+running behind IIS, then the limit is disabled, and the usual <em>web.config</em>
+limit applies.</p>
+<p>For future reference, <a href="https://github.com/dotnet/aspnetcore/blob/main/src/Servers/Kestrel/Core/src/KestrelServerLimits.cs">here</a> are the current Kestrel limits.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

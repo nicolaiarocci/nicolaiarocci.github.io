@@ -15,6 +15,20 @@
       <guid>https://nicolaiarocci.com/first-impressions-on-jetbrains-rider-2022.3-update/</guid>
       <description>Today I upgraded to JetBrains&amp;rsquo; Rider 2022.3. Startup speed has been enhanced, and full .NET 7 and C# 11 support is included. So far, my favorite feature is the conversion of regular and verbatim strings into their raw counterparts (it&amp;rsquo;s often the small, simple things.)
 My second best is the fulls upport for WSL2 remote development. This one took a good while to come out of the trenches, but better late than never, I&amp;rsquo;d say.</description>
+      <content:encoded><![CDATA[<p>Today I upgraded to JetBrains&rsquo; Rider 2022.3. Startup speed has been
+enhanced, and full .NET 7 and C# 11 support is included. So far,  my favorite
+feature is the conversion of regular and verbatim strings into their raw
+counterparts (it&rsquo;s often the small, simple things.)</p>
+<p><img loading="lazy" src="/images/cs-to-raw-strings.gif" alt=""  />
+</p>
+<p>My second best is the fulls upport for WSL2  remote development. This one took a
+good while to come out of the trenches, but better late than never, I&rsquo;d say.</p>
+<p>And the new experimental UI? That&rsquo;s neat too.</p>
+<p><img loading="lazy" src="/images/uiux-newui-thumb.png" alt=""  />
+</p>
+<p>The full list of updates is available on their <a href="https://www.jetbrains.com/rider/whatsnew/2022-3/">What&rsquo;s New</a> page.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

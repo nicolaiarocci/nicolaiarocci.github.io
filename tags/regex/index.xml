@@ -15,6 +15,135 @@
       <guid>https://nicolaiarocci.com/introduzione-alle-regular-expression-terza-parte/</guid>
       <description>Benvenuto alla terza e ultima parte della nostra Introduzione alle Regular Expression. Concluso il capitolo sarai in grado di affrontare la maggior parte dei problemi di ricerca nel testo. Se ancora non l&amp;rsquo;hai fatto ti consiglio di leggere la Prima Parte e la Seconda Parte. Ricorda che puoi usare la pagina di prova per testare le query della guida.
 Avidità Il problema della avidità degli operatori regex diventa evidente quando si comincia a lavorare su ricerche avanzate.</description>
+      <content:encoded><![CDATA[<p>Benvenuto alla terza e ultima parte della nostra <em>Introduzione alle Regular
+Expression</em>. Concluso il capitolo sarai  in grado di affrontare la maggior
+parte dei problemi di ricerca nel testo. Se ancora non l&rsquo;hai fatto ti
+consiglio di leggere la <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/">Prima Parte</a> e la <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/">Seconda Parte</a>. Ricorda che
+puoi usare la <!-- raw HTML omitted -->pagina di
+prova<!-- raw HTML omitted --> per testare le query della guida.</p>
+<h2 id="avidità">Avidità</h2>
+<p>Il problema della avidità degli operatori regex diventa evidente quando si
+comincia a lavorare su ricerche avanzate. Un caso tipico è il parsing di file
+XML o HTML.</p>
+<pre><code>&lt;p&gt;questo è un &lt;b&gt;paragrafo&lt;/b&gt;&lt;/p&gt;
+</code></pre>
+<p>Supponiamo di voler trovare tutti i tag usati.</p>
+<pre><code>&lt;.*&gt; # cerca tutti i tag
+</code></pre>
+<p>Il risultato della query non è quello che ci si potrebbe aspettare.
+L&rsquo;operatore <code>*</code> è <em>avido</em>, ovvero cerca di catturare più caratteri
+possibili. Una volta trovato il primo <code>&lt;</code> prosegue avidamente selezionando tutto
+fino all&rsquo;ultimo <code>&gt;</code>. In questo caso vogliamo che si fermi al primo <code>&gt;</code>, non
+all&rsquo;ultimo. E&rsquo; questa una distinzione importante, da comprendere
+a fondo. Possiamo disattivare il comportamento avido aggiungendo il carattere?</p>
+<pre><code>&lt;.*?&gt; # ora otteniamo quel che vogliamo (niente avidità)
+</code></pre>
+<p>Se desideriamo usare l&rsquo;operatore <code>+</code> (1 o più) al posto del <code>*</code> (zero o più),
+la nostra query diventa <code>&lt;.+?&gt;</code>.</p>
+<h2 id="confini">Confini</h2>
+<p>Nella <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/">seconda parte</a> del nostro tutorial abbiamo convalidato un numero
+telefonico nel formato 555-12345678</p>
+<pre><code>555-\d{8}   # 555- seguito da 8 cifre
+</code></pre>
+<p>Anche se tecnicamente corretta questa query non è perfetta. Se la testiamo con
+queste stringhe:</p>
+<pre><code>testoDavanti 555-12345678
+555-12345678 il mio telefono
+</code></pre>
+<p>scopriamo che vengono accettate perché la regola <code>555-\d{8}</code> è ancora valida.
+In realtà noi desideriamo accettare il solo il numero telefonico, niente
+altro. La soluzione richiede l&rsquo;uso degli operatori di confine:</p>
+<pre><code>^555-\d{8}$
+</code></pre>
+<p>I confini sono caratteri speciali perché non occupano spazio. Sono dei
+segnaposto che servono a delimitare il testo da cercare. Dopo l&rsquo;inizio
+<code>(^)</code> deve esserci il nostro numero di telefono; prima della fine <code>($)</code> deve
+esserci il nostro numero di telefono.</p>
+<!-- raw HTML omitted -->
+<pre><code>&lt;th&gt;
+  significato
+&lt;/th&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td style=&quot;vertical-align: top;&quot;&gt;
+  Inizio del testo. Sfortunatamente gli inventori di regex hanno scelto lo stesso carattere usato per la negazione. E&amp;#8217; importante riconoscerne il significato in base al contesto. Quando non è compreso tra [ e ] il carattere ^ è un confine e indica l&amp;#8217;inizio del testo.
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  fine del testo
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<p>Quindi</p>
+<pre><code>a   #  trova qualunque a
+^a  #  trova solo il testo che comincia per a
+a$  #  trova solo il testo che finisce per a
+</code></pre>
+<p>C&rsquo;è un altro confine, quello di parola <code>(\b)</code>. Vediamo un esempio. Vogliamo
+cercare le parole &ldquo;for&rdquo; e &ldquo;she&rdquo; nella nostra <!-- raw HTML omitted -->pagina di test<!-- raw HTML omitted -->.</p>
+<pre><code>(for|she)  # trova for e she
+</code></pre>
+<p>Non va male. Trova tutte le occorrenze di &ldquo;she&rdquo; e &ldquo;for&rdquo;, tuttavia viene
+selezionata anche la parola &ldquo;before&rdquo;. Non è il comportamento desiderato.
+Potremmo tentare cercando solo le occorrenze precedute e succedute da uno
+spazio.</p>
+<pre><code>[ ](for|she)[ ]  # cerca for o she
+</code></pre>
+<p>Va meglio. Non seleziona più before. Abbiamo però un nuovo problema. Nel testo
+c&rsquo;è la frase &ldquo;for she had plenty of time&rdquo;. La nostra regex non ha individuato
+la parola &ldquo;she&rdquo; contenuta nella frase. Per quale motivo?</p>
+<pre><code>for she had plenty of time
+</code></pre>
+<p>Con il &ldquo;for&rdquo; iniziale abbiamo già rintracciato lo spazio che precede &ldquo;she&rdquo;, che
+quindi viene escluso. Sono queste le situazioni un cui un confine di parola può
+risolvere il problema.</p>
+<pre><code>\b(for|she)\b  # trova she oppure for
+</code></pre>
+<p>Il confine <code>\b</code> definisce dove la parola comincia e finisce, proprio come
+succede con i confini visti prima. Abbiamo detto prima che i &ldquo;confini non
+occupano spazio&rdquo;. Nell&rsquo;esempio qui sopra cerchiamo esattamente
+&ldquo;for&rdquo; o &ldquo;she&rdquo;. Non cerchiamo la stringa <code>\b</code> e questa non occupa alcuno spazio
+durante la ricerca, a differenza di quel che è successo quando abbiamo tentato
+di usare la <code>[cornice]</code>. E&rsquo; un dettaglio importate perché con tutti gli
+altri operatori regex ciò che è nella query &ldquo;occupa spazio&rdquo; e non
+può essere trovato <em>di nuovo</em>.</p>
+<h2 id="il-finale-ricerca-e-sostituzione">Il Finale: Ricerca e Sostituzione</h2>
+<p>Ce l&rsquo;hai fatta! Sei arrivato in fondo. Congratulazioni. Il meglio arriva ora.
+Ricerca e sostituzione è senz&rsquo;altro il mio argomento preferito. Qui la pagina
+di test non ci può aiutare, occorre qualche tipo di editor oppure una IDE
+(Eclipse/Notepad++/Wordpad).</p>
+<p>Supponiamo di avere un file composto da 100 righe come queste</p>
+<pre><code>31-01-10_backup32
+24-01-10_backup1
+24-02-10_backup_mona
+11-03-09_backup_lisa
+</code></pre>
+<p>Vogliamo correggere le date portandole dal formato europeo a quello americano
+(da <code>gg-mm-aa</code> a <code>mm-gg-aaaa</code>).</p>
+<pre><code>\d{2}-\d{2}-\d{2}_backup.*  // trova le nostre righe
+</code></pre>
+<p>Per ogni riga desideriamo sostituire aree specifiche quindi ricorriamo
+all&rsquo;operatore di raggruppamento già visto nella <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/">seconda parte</a> di
+questa guida.</p>
+<pre><code>(\d{2})-(\d{2})-(\d{2})_backup(.*)  // ci siamo
+</code></pre>
+<p>A questo punto tutto quel che dobbiamo fare è sostituire le righe trovate con</p>
+<p><!-- raw HTML omitted -->{Gruppo2}<!-- raw HTML omitted -->–<!-- raw HTML omitted -->{Gruppo1}<!-- raw HTML omitted -->-20<!-- raw HTML omitted -->{Gruppo3}<!-- raw HTML omitted -->_backup<!-- raw HTML omitted -->{Gruppo4}<!-- raw HTML omitted --></p>
+<p>Il che si traduce nella seguente espressione di sostituzione</p>
+<pre><code>\2-\1-20\3_backup\4
+</code></pre>
+<p>Facile no? Niente più lavori ripetitivi. La mia regola è: se un testo richiede
+la modifica di più di cinque righe è giunta l&rsquo;ora di ricorrere alle
+regex. Potrebbe sembrare una esagerazione. Eppure un programmatore dovrebbe
+rifiutarsi per principio di ripetere manualmente un lavoro che può essere
+automatizzato.</p>
+<p>Buona fortuna.</p>
+<p>Questo articolo è una traduzione autorizzata di <a href="http://www.agillo.net/regex-primer-part-3/">Regex Primer: Part 3</a>.
+Ringrazio l&rsquo;autore per il permesso accordatomi.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Introduzione alle Regular Expression – Seconda Parte</title>
@@ -24,6 +153,173 @@ Avidità Il problema della avidità degli operatori regex diventa evidente quand
       <description>Questa è la seconda parte della serie Introduzione alle Regular Expression. Se non hai ancora letto la prima parte ti consiglio di farlo. Puoi usare la pagina demo per provare le query della guida.
 Negazione [^] Abbiamo già conosciuto la [cornice]. Una caratteristica importante di cui non abbiamo ancora parlato è la negazione. Supponiamo di voler cercare qualunque carattere eccetto la lettera a.
 [^a] # trova b,c,d,e,f,\n .... qualunque carattere eccetto &#39;a&#39; La negazione si applica a tutti i caratteri della cornice in cui compare l&amp;rsquo;operatore ˆ.</description>
+      <content:encoded><![CDATA[<p>Questa è la seconda parte della serie <em>Introduzione alle Regular Expression</em>.
+Se non hai ancora letto la <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/">prima parte</a> ti consiglio di farlo. Puoi usare
+la <!-- raw HTML omitted -->pagina demo<!-- raw HTML omitted --> per provare
+le query della guida.</p>
+<h2 id="negazione-">Negazione [^]</h2>
+<p>Abbiamo già conosciuto la <code>[cornice]</code>. Una caratteristica importante di cui non
+abbiamo ancora parlato è la negazione. Supponiamo di voler cercare qualunque
+carattere <em>eccetto la lettera a</em>.</p>
+<pre><code>[^a] # trova b,c,d,e,f,\n .... qualunque carattere eccetto 'a'
+</code></pre>
+<p>La negazione si applica a tutti i caratteri della cornice in cui compare
+l&rsquo;operatore <code>ˆ</code>. Non è possibile limitarla a solo alcuni.</p>
+<pre><code>[^0123456789] # trova qualunque carattere non numerico
+</code></pre>
+<h2 id="gli-alias">Gli Alias</h2>
+<p>Ora siamo pronti per affrontare qualche esempio realistico di regular
+expression. Uno degli usi più frequenti delle regex è la convalida di Stringhe.
+Proviamo a verificare la correttezza di un ipotetico numero telefonico da
+esprimere nel formato 555-12345678. Di norma divideremmo l&rsquo;input in due
+parti e proveremmo a convertirle in numeri. Ora tuttavia conosciamo le regex
+e possiamo sbrigarcela meglio.</p>
+<pre><code>555-[0-9]{7}
+</code></pre>
+<p>Fatto. Stiamo convalidando 555 seguito da un trattino seguito da 7 caratteri
+numerici. Possiamo essere addirittura più sintetici, vediamo come.</p>
+<p>I range <code>[0-9]</code> e <code>[a-z]</code>  sono talmente frequenti da saltar fuori continuamente,
+tanto che sono state create scorciatoie (alias) dedicate ai range più usati.
+Nel nostro caso ci torna utile <code>\d</code>, che sta per digit (carattere numerico)
+ed è semanticamente identico a <code>[0-9]</code>.</p>
+<pre><code>555-\d{7} # identico a 555-[0-9]{7}
+</code></pre>
+<p>Gli alias non sono certo indispensabili, puoi ottenere gli stessi risultati
+usando la cornice in modo esteso. Tuttavia sono molto comodi.</p>
+<!-- raw HTML omitted -->
+<pre><code>&lt;th&gt;
+  significato
+&lt;/th&gt;
+
+&lt;th&gt;
+  coorrisponde a
+&lt;/th&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  digit (numero)
+&lt;/td&gt;
+
+&lt;td&gt;
+  [0-9]
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  word (parola)
+&lt;/td&gt;
+
+&lt;td&gt;
+  [a-zA-Z0-9_]  Include il carattere underscore
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  spazio, tab o newline
+&lt;/td&gt;
+
+&lt;td&gt;
+  [ \t\r\n]
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  qualsiasi non numerico
+&lt;/td&gt;
+
+&lt;td&gt;
+  ^\d
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  quasiasi non alfanumerico
+&lt;/td&gt;
+
+&lt;td&gt;
+  ^\w
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  quasiasi ma non lo spazio
+&lt;/td&gt;
+
+&lt;td&gt;
+  ^\s
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<p><strong>Suggerimento:</strong> nota come ad ogni alias ne corrisponde uno dal significato
+opposto, tutto in maiuscolo. Impara i primi tre per conoscerli tutti e sei.</p>
+<h2 id="il-punto">Il Punto</h2>
+<p>Il punto è un alias un pò speciale. Ne parlo soprattutto perchè può capitare di
+notarlo nel codice scritto da altri. Il punto cerca tutto eccetto il new line
+(<code>\n</code>). Il problema è che il carattere new line non è lo stesso su tutte le
+piattaforme.</p>
+<pre><code>.   # trova tutti i caratteri
+.*  # equivalente a [^\n], trova tutti i paragrafi
+</code></pre>
+<p>Il punto spesso crea confusione. Consiglio di ricorrere a combinazioni di alias
+e cornici per ottenere gli stessi risultati senza rischiare errori.</p>
+<h2 id="escaping">Escaping</h2>
+<p>Capita a volte di dover cercare proprio il punto, oppure i caratteri [ o ].
+Poiché fanno parte della sintassi regex in questi casi è necessario riccorrere
+all&rsquo;escaping, ovvero precederli col carattere <code>\</code> che rappresenta
+l&rsquo;escape. Per esempio</p>
+<pre><code>\.    # cerca il punto invece che tutto quanto
+\*    # trova tutti gli asterischi
+\\    # trova tutti gli escape
+</code></pre>
+<h2 id="raggruppamenti-e-or">Raggruppamenti e OR</h2>
+<p>Torniamo alla convalida. Questa volta vogliamo verificare la validità di un
+indirizzo email. Prima di tutto stabiliamo le regole (semplificate) a cui una
+stringa deve attenersi per venire convalidata come indirizzo email: 1) il nome
+utente può contenere lettere, numeri, underscore e trattini ma deve cominciare
+con una lettera; 2) il dominio può contenere solo lettere seguite da un punto
+seguito da altre lettere. Quindi domain.fakecom è valido per noi</p>
+<pre><code>[a-z][\w-]*@[a-z]+\.[a-z]+
+</code></pre>
+<p>Presta attenzione all&rsquo;escaping del punto! Un&rsquo;altro dettaglio
+importante è il quantificatore <code>+</code> che abbiamo visto nel <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/">primo articolo</a> di
+questa serie. Nel dominio infatti vogliamo <em>almeno</em> una lettera, non zero
+o più.</p>
+<p>Supponiamo ora di voler aggiornare le regole in modo da convalidare solo
+i domini più importanti. Il nostro indirizzo email deve finire con com oppure
+net. Non possiamo risolvere questo problema con quel che abbiamo imparato
+finora. La nostra query regex dovrà ricorrere a due nuovi concetti,
+l&rsquo;operatore OR e i gruppi.</p>
+<pre><code>[a-z][\w-]*@[a-z]+\.(com|net)
+</code></pre>
+<p>Vediamo l&rsquo;OR all&rsquo;opera</p>
+<pre><code>com|net  #  trova com oppure net
+a|b|c    # lo stesso di [abc].
+</code></pre>
+<p>L&rsquo;aggiunta delle parentesi () si rende necessaria per chiarire che non
+vogliamo trovare <em>tutte</em> le occorrenze della parte di regex alla loro sinistra.
+Se volessimo &ldquo;Brad Pitt&rdquo; oppure &ldquo;Angelina Pitt&rdquo;</p>
+<pre><code>Brad|Angelina Pitt  # trova sia 'Brad' che 'Angelina Pitt'
+(Brad|Angelina) Pitt  # ora ci siamo!
+</code></pre>
+<p>Per un programmatore il concetto del raggruppamento (grouping) con le parentesi
+dovrebbe essere facilmente comprensibile. Di fatto possiamo combinarlo con
+altri operatori che già conosciamo</p>
+<pre><code>(dog)+   #  trova dog,dogdog,dogdogdog ...
+java(bean)?    #  trova java o javabean
+</code></pre>
+<h2 id="conclusione">Conclusione</h2>
+<p>Questo conclude la seconda parte della guida. La prossima e ultima parte verrà
+pubblicata tra qualche giorno. Nel frattempo raccomando di giocare con la <!-- raw HTML omitted -->pagina demo<!-- raw HTML omitted --> per fare un
+pò di pratica.</p>
+<p>E&rsquo; ora disponibile anche la <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-terza-parte/">terza parte</a> di questo tutorial.</p>
+<p>Questo articolo è una traduzione autorizzata di <a href="http://www.agillo.net/regex-primer-part-2/">Regex Primer: Part 2</a>. Ringrazio l&rsquo;autore per il permesso accordatomi.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Introduzione alle Regular Expression – Prima Parte</title>
@@ -45,6 +341,152 @@ risolvere l&#39;80% dei problemi.&lt;/li&gt;
 &lt;p&gt;Ho preparato una &lt;!-- raw HTML omitted --&gt;pagina di
 prova&lt;!-- raw HTML omitted --&gt; per testare le regex del tutorial. In alternativa è sempre possibile
 usare una IDE, praticamente tutte supportano le regular expressions.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Quando si tratta fare ricerche in blocchi di testo le <a href="http://it.wikipedia.org/wiki/Espressione_regolare"><strong>regular
+expression</strong></a> (regex) sono la soluzione ideale. Come programmatore studiare
+le regex è stata una delle cose migliori che ho fatto per migliorare la mia
+produttività.</p>
+<ol>
+<li>Valide in ogni linguaggio e indipendenti dalla piattaforma, le regex sono
+un investimento sempre valido. Java, JavaScript, Ruby, .Net, Python…
+le regex non cambiano.</li>
+<li>Rendono ricerca e sostituzione del testo <em>enormemente</em> più potenti</li>
+<li>Soddisfano pienamente il principio <a href="http://en.wikipedia.org/wiki/Pareto_principle#In_software">80/20</a>. Basta conoscerne il 20% per
+risolvere l'80% dei problemi.</li>
+</ol>
+<p>Ho preparato una <!-- raw HTML omitted -->pagina di
+prova<!-- raw HTML omitted --> per testare le regex del tutorial. In alternativa è sempre possibile
+usare una IDE, praticamente tutte supportano le regular expressions.</p>
+<h2 id="partiamo-dalla-cornice">Partiamo dalla [cornice]</h2>
+<p>La regex più semplice? Eccola:</p>
+<pre><code>bank
+</code></pre>
+<p>La quale cerca &ldquo;bank&rdquo;. Cambiamola leggermente, immaginiamo di voler cercare sia &ldquo;bank&rdquo; che &ldquo;tank&rdquo; nello stesso blocco di testo.</p>
+<pre><code>[bt]ank  // cerca sia bank che tank
+</code></pre>
+<p>La [cornice] rappresenta comunque 1 carattere. Stiamo ancora cercando una
+parola di 4 caratteri, ma il primo può essere &ldquo;b&rdquo; oppure &ldquo;t&rdquo;. I caratteri
+inclusi nelle parentesi [] sono legati da una relazione di tipo OR. La loro
+posizione è irrilevante, <code>[tb]ank</code> è semanticamente identico. Ecco altri esempi
+d’uso della [cornice]:</p>
+<pre><code>[abc]1              // trova a1, b1 o c1
+[cba]1              // trova a1, b1 o c1
+file[0123456789]    // trova file0,file1,file2 ... o file9
+file[0-9]           // trova file0,file1,file2 ... o file9
+[a-z]               // trova a, b, c oppure ... z
+</code></pre>
+<p>Avrai notato che abbiamo introdotto un nuovo operatore. Usando il carattere
+<code>-</code> definiamo un <em>range</em>. Il range ci permette di evitare costrutti
+assurdamente lunghi come questo: <code>[abcdefghijklmnopqrstuvwyz]</code>. E’ una
+scorciatoia.</p>
+<h2 id="proseguiamo-coi-quantificatori">Proseguiamo coi Quantificatori</h2>
+<p>Riprendiamo dall’esempio iniziale. Immaginiamo di voler trovare <em>tank</em>,
+<em>bank</em>, <em>tanks</em>, e <em>banks</em>. Potremmo provare in questo modo:</p>
+<pre><code>[bt]anks?
+</code></pre>
+<p>Abbiamo aggiunto il <em>quantificatore</em> <code>?</code> che agisce sul carattere
+che si trova direttamente alla sua sinistra. Significa <em>una occorrenza oppure
+nessuna</em>, quindi nel nostro caso stiamo dicendo &ldquo;cerca [bt]ank con una
+&rsquo;s&rsquo; finale o meno&rdquo;. Un quantificatore può essere affiancato a qualunque
+carattere e addirittura a una <code>[cornice]</code>. Dai una occhiata a questi esempi:</p>
+<pre><code>[bt]anks         // trova banks o tanks
+[bt]anks?        // trova bank, tank, banks oppure tanks
+[bt]?ank         // trova bank, tank oppure ank
+ab?c?            // trova a, ab, abc oppure ac
+</code></pre>
+<p>Riassumendo, quando usiamo un carattere senza quantificatore indichiamo che ne
+cerchiamo una singola occorrenza. Quando aggiungiamo un quantificatore cambia
+il numero di occorrenze che vogliamo trovare. Nella tabella seguente trovi
+l’elenco dei quantificatori disponibili:</p>
+<!-- raw HTML omitted -->
+<pre><code>&lt;th&gt;
+  significato
+&lt;/th&gt;
+
+&lt;th&gt;
+  regex
+&lt;/th&gt;
+
+&lt;th&gt;
+  esempio
+&lt;/th&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  zero o 1
+&lt;/td&gt;
+
+&lt;td&gt;
+  abc?
+&lt;/td&gt;
+
+&lt;td&gt;
+  ab, abc
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  zero o più
+&lt;/td&gt;
+
+&lt;td&gt;
+  abc*
+&lt;/td&gt;
+
+&lt;td&gt;
+  ab,abc,abcc,abccc,abcccc,… etc
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  uno o più
+&lt;/td&gt;
+
+&lt;td&gt;
+  abc+
+&lt;/td&gt;
+
+&lt;td&gt;
+  abc,abcc,abccc,abcccc,…etc
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  esattamente n volte
+&lt;/td&gt;
+
+&lt;td&gt;
+  abc{2}
+&lt;/td&gt;
+
+&lt;td&gt;
+  abcc
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  da n a m volte
+&lt;/td&gt;
+
+&lt;td&gt;
+  abc{2,3}
+&lt;/td&gt;
+
+&lt;td&gt;
+  abcc,abccc
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<h2 id="concludendo">Concludendo</h2>
+<p>Abbiamo appreso la sintassi base che ci consente di fare un pò di pratica.
+E’ una buona idea fare quale esperimento in una IDE oppure sulla <!-- raw HTML omitted -->pagina demo<!-- raw HTML omitted -->.</p>
+<p>La seconda parte di questa guida è ora <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/">pubblicata</a>.</p>
+<p>Questo articolo è una traduzione autorizzata di <a href="http://www.agillo.net/regex-primer-part-1/">Regex Primer: Part 1</a>.
+Ringrazio l’autore per il permesso accordatomi.</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

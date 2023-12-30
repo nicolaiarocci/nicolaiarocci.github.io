@@ -16,6 +16,13 @@
       <description>Addy Osmani ne ha combinata un’altra delle sue:
 MVVM (Model View ViewModel) è un pattern architetturale basato su MVC e MVP, che tenta di separare chiaramente lo sviluppo della interfaccia utente (UI) da quelle che sono business logic e comportamento dell’applicazione. A questo fine, molte implementazioni del pattern ricorrono a un uso dichiarativo dei data bindings, per consentire la separazione del lavoro sulle Viste (View) dagli altri strati (layer).
 MVVM consente creazione di UI e sviluppo del codice in parallelo, all’interno della stessa base di codice.</description>
+      <content:encoded><![CDATA[<p>Addy Osmani ne ha combinata un’altra delle sue:</p>
+<blockquote>
+<p>MVVM (Model View ViewModel) è un pattern architetturale basato su MVC e MVP, che tenta di separare chiaramente lo sviluppo della interfaccia utente (UI) da quelle che sono business logic e comportamento dell’applicazione. A questo fine, molte implementazioni del pattern ricorrono a un uso dichiarativo dei data bindings, per consentire la separazione del lavoro sulle Viste (View) dagli altri strati (layer).</p>
+<p>MVVM consente creazione di UI  e sviluppo del codice in parallelo, all’interno della stessa base di codice. Gli esperti UI scrivono bindings per il ViewModel all’interno del loro markup (HTML), mentre il Model e il ViewModel sono gestiti dagli sviluppatori che lavorano alla logica dell’applicazione.</p>
+</blockquote>
+<p><!-- raw HTML omitted -->Comprendere il MVVM – Guida per Sviluppatori JavaScript<!-- raw HTML omitted --></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Imparare HTML e CSS Online con Codecademy</title>
@@ -25,6 +32,14 @@ MVVM consente creazione di UI e sviluppo del codice in parallelo, all’interno 
       <description>Codecademy propone da ieri un corso gratuito e interattivo su HTML e CSS. Il corso, per principianti, si affianca a quello ormai collaudato (e recentemente ampliato) su JavaScript.
 Il meccanismo è quello della gamification, con tanto di punteggi e badge da conquistare man mano che si raggiungono obiettivi prefissati . Presto dovrebbe uscire anche un corso su Python.
 Compi i tuoi primi passi con HTML e CSS. Non è necessaria alcuna esperienza precedente — cominceremo dalle basi e in poco tempo ti ritroverai a lavorare alla tua homepage personale!</description>
+      <content:encoded><![CDATA[<p>Codecademy propone da ieri un corso gratuito e interattivo su <!-- raw HTML omitted -->HTML e CSS<!-- raw HTML omitted -->. Il corso, per principianti, si affianca a quello ormai collaudato (e recentemente ampliato) su JavaScript.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Il meccanismo è quello della <em>gamification</em>, con tanto di punteggi e badge da conquistare man mano che si raggiungono obiettivi prefissati . Presto dovrebbe uscire anche un corso su Python.</p>
+<blockquote>
+<p>Compi i tuoi primi passi con HTML e CSS. Non è necessaria alcuna esperienza precedente — cominceremo dalle basi e in poco tempo ti ritroverai a lavorare alla tua homepage personale!</p>
+</blockquote>
+]]></content:encoded>
     </item>
     <item>
       <title>Imparare a programmare online con Codecademy</title>
@@ -33,6 +48,13 @@ Compi i tuoi primi passi con HTML e CSS. Non è necessaria alcuna esperienza pre
       <guid>https://nicolaiarocci.com/imparare-a-programmare-online-con-codecademy/</guid>
       <description>Codecademy è una fantastica iniziativa che insegna a programmare online. Lanciata poco più di una settimana fa, ha già raccolto duecentomila utenti registrati. Brillante l’idea di integrare gli strumenti tipici del social network (badge, punteggi, seguire i progressi degli amici) con un interprete interattivo e un preciso feedback in tempo reale.
 Codecademy è il modo più semplice per imparare a programmare. E’ interattivo, divertente, e lo puoi fare con gli amici</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Codecademy<!-- raw HTML omitted --> è una fantastica iniziativa che insegna a programmare online. Lanciata poco più di una settimana fa, ha già raccolto duecentomila utenti registrati. Brillante l’idea di integrare gli strumenti tipici del social network (badge, punteggi, seguire i progressi degli amici) con un interprete interattivo e un preciso feedback in tempo reale.</p>
+<blockquote>
+<p>Codecademy è il modo più semplice per imparare a programmare. E’ interattivo, divertente, e lo puoi fare con gli amici</p>
+</blockquote>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+]]></content:encoded>
     </item>
     <item>
       <title>HTML e CSS di base per i Web Designer del futuro</title>
@@ -41,6 +63,14 @@ Codecademy è il modo più semplice per imparare a programmare. E’ interattivo
       <guid>https://nicolaiarocci.com/html-e-css-di-base-per-i-web-designer-del-futuro/</guid>
       <description>Don’t Fear the Internet è una ottima risorsa per Web Designer principianti. Attenzione ai dettagli, grande cura e ottimi contenuti sono il marchio distintivo di questo progetto di Jessica Hische e Russ Maschmeyer:
 Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? Hai un sito che mai messo insieme con Dreamweaver grazie a quell’UNICA lezione scolastica di web design? Il sito non ce l’hai nemmeno, perché sono due anni che aspetti che tuo cugino lo faccia per te?</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Don’t Fear the Internet<!-- raw HTML omitted --> è una ottima risorsa per Web Designer principianti. Attenzione ai dettagli, grande cura e ottimi contenuti sono il marchio distintivo di questo progetto di <!-- raw HTML omitted -->Jessica Hische<!-- raw HTML omitted --> e <!-- raw HTML omitted -->Russ Maschmeyer<!-- raw HTML omitted -->:</p>
+<blockquote>
+<p>Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? Hai un sito che mai messo insieme con Dreamweaver grazie a quell’UNICA lezione scolastica di web design? Il sito non ce l’hai nemmeno, perché sono due anni che aspetti che tuo cugino lo faccia per te? Bè, noi siamo qui per aiutarti.</p>
+</blockquote>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+]]></content:encoded>
     </item>
     <item>
       <title>Siti fluidi coi CSS Framework: Inuit.css</title>
@@ -48,6 +78,27 @@ Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? H
       <pubDate>Fri, 06 May 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/siti-fluidi-coi-css-framework-inuit-css/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Dopo l’articolo introduttivo sui &lt;a href=&#34;http://nicolaiarocci.com/costruire-siti-fluidi-coi-css-framework-tiny-fluid-grid/&#34;&gt;siti fluidi e i CSS Framework&lt;/a&gt; è giunta l’ora di dare una occhiata a un framework vero e proprio. Come dicevo prediligo strumenti agili, leggeri, specializzati e possibilmente fatti in casa. Se scelgo un framework quest’ultimo deve essere essenziale, leggero, flessibile. &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Inuit.css&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, ultimo nato nella numerosa e agguerrita famiglia dei Framework CSS, sembra nato apposta per fare di me un uomo felice.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Dopo l’articolo introduttivo sui <a href="http://nicolaiarocci.com/costruire-siti-fluidi-coi-css-framework-tiny-fluid-grid/">siti fluidi e i CSS Framework</a> è giunta l’ora di dare una occhiata a un framework vero e proprio. Come dicevo prediligo strumenti agili, leggeri, specializzati e possibilmente fatti in casa. Se scelgo un framework quest’ultimo deve essere essenziale, leggero, flessibile. <strong><!-- raw HTML omitted -->Inuit.css<!-- raw HTML omitted --></strong>, ultimo nato nella numerosa e agguerrita famiglia dei Framework CSS, sembra nato apposta per fare di me un uomo felice.</p>
+<h2 id="flessibilità-e-qualità-prima-di-tutto">Flessibilità e qualità prima di tutto</h2>
+<p>Inuit.css è pronto all’uso, se siete di corsa e non avete esigenze particolari potete usarlo così com’è. Quando serve è facile adattarlo al nostro progetto, soprattutto grazie all’alta qualità del <!-- raw HTML omitted -->codice sorgente<!-- raw HTML omitted -->, commentato molto bene. E’ proprio la cura che l’autore ha dedicato alla documentazione l’elemento chiave che ci consente di intervenire rapidamente, eliminando le parti superflue o ritoccando il codice ove necessario.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Qui sopra vedete uno <!-- raw HTML omitted -->snippet<!-- raw HTML omitted --> tratto dal foglio di stile originale. Notate come l’autore si sia preoccupato di fornire indicazioni su come organizzare la gerarchia dei font. Ben fatto!</p>
+<h2 id="la-potenza-è-nulla-senza-controllo">La potenza è nulla senza controllo</h2>
+<p>Difficilmente Inuit.css prende l’iniziativa, preferisce lasciarla al designer. Prendiamo gli elementi base di HTML5 e CSS3. Inuit.css li supporta ma li isola in classi dedicate che useremo all’occorrenza.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>La scelta del basso profilo è apprezzabile. Lascia il controllo nelle nostre mani, ma corre il rischio che – soprattutto al primo impatto – il framework sembri meno ricco rispetto ad altre soluzioni. In effetti non è sulla ricchezza che punta Inuit ma su flessibilità, estensibilità e… mobilità.</p>
+<h2 id="tablet-smartphone-e-non-solo">Tablet, smartphone e non solo</h2>
+<p><!-- raw HTML omitted -->Il supporto per l’attributo <!-- raw HTML omitted -->@media<!-- raw HTML omitted --> consente a Inuit di ridefinire dinamicamente gran parte delle impostazioni in base al dispositivo (tablet, smartphone, stampante) che consuma la pagina. Il Grid System adottato deriva dal capostipite 960 Grid System (vedi in proposito l’<!-- raw HTML omitted -->articolo precedente<!-- raw HTML omitted -->), supporta matrici (grid) a 12 e 16 colonne e implementa un ingegnoso marchingegno che evita l’inserimento della classica <code>class=end</code> nell’ultima colonna.</p>
+<p>A differenza della Tiny Fluid Grid vista la volta scrosa, Inuit è un Framework vero e proprio e supporta ben più della sola Grid. Sono presenti impostazioni predefinite e ben fatte per tutti gli elementi più comuni di una pagina HTML: header, paragrafi, liste numerate e non, tabelle, form, citazioni, link, immagini. Non manca una implementazione del <a href="http://nicolaiarocci.com/eric-meyer-aggiorna-il-suo-famoso-css-reset/" title="Eric Meyer Reset">Eric Meyer CSS Reset</a> e il supporto per la modalità debug che rende visibile la grid sullo sfondo. Una occhiata alla <!-- raw HTML omitted -->pagina demo<!-- raw HTML omitted --> e soprattutto al suo sorgente è sufficiente per rendersi conto di quanti sono gli stili che Inuit.css ci mette a disposizione.</p>
+<h2 id="div-idattachment_2410-stylewidth-490px-classwp-caption-aligncenter"><!-- raw HTML omitted --></h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="giovani-di-belle-speranze">Giovani di belle speranze</h2>
+<p>Inuit è il nuovo arrivato, ha solo una ventina di giorni ed è in revisione continua. E’ giovane come il suo autore, il ventenne Harry Roberts (l’età non tragga in inganno, Harry è la mente che si cela dietro <!-- raw HTML omitted -->CSS Wizardry<!-- raw HTML omitted -->). Come tutti i giovani di belle speranze Inuit guarda al futuro e se ne frega allegramente del passato: supporta Internet Explorer a partire dalla versione 7 <em>(update del 24.5: la release 1.5 introduce un supporto base per le grid in IE6)</em>.</p>
+<p>Dovrà sgomitare un bel pò per conquistarsi uno spazio in una nicchia già affollata da una concorrenza agguerrita. Ha tutte le carte in regola per sfondare, prova ne è il fatto che a pochi giorni dal lancio qualche sito <!-- raw HTML omitted -->qui<!-- raw HTML omitted --> e <!-- raw HTML omitted -->là<!-- raw HTML omitted --> ha già cominciato ad adottarlo.</p>
+<p>Se scegliete di usare Inuit nei vostri progetti fatemelo sapere. Chissà, potrebbero finire dritti dritti nella Web Gallery del sito ufficiale.</p>]]></content:encoded>
     </item>
     <item>
       <title>Programmazione, SEO, Startup – Il Meglio della Settimana #4</title>
@@ -69,6 +120,57 @@ Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? H
 &lt;/ol&gt;
 &lt;pre&gt;&lt;code&gt;La pazienza è la virtù dei forti, ma per molti è una pratica difficile da applicare. Ciò è vero soprattutto per chi visita siti web. Six Revision ci propone una decina di consigli per velocizzare le nostre pagine web.
 &lt;/code&gt;&lt;/pre&gt;</description>
+      <content:encoded><![CDATA[<ol>
+<li><strong><!-- raw HTML omitted --><a href="http://stevecheney.posterous.com/how-facebook-is-killing-your-authenticity">Facebook sta uccidendo la tua Autenticità</a></strong></li>
+</ol>
+<pre><code>Steve Cheney propone una riflessione su come Facebook condizioni ormai _l&amp;#8217;autenticità_ dei suoi utenti. Il timore che conoscenti e amici (alcuni non li incontriamo da anni, altri sono parenti stretti) vedano quel che facciamo online ci induce a comportarci in maniera diversa da quel che sarebbe il nostro istintivo sentire.
+</code></pre>
+<ol start="2">
+<li><a href="http://www.distilled.co.uk/excel-for-seo/"><strong>Tutorial: Microsoft Excel per il SEO</strong></a></li>
+</ol>
+<pre><code>Eccellente tutorial su come usare Excel per analizzare al meglio la quantità di dati che raccogliamo durante le nostre indagini SEO.
+</code></pre>
+<ol start="3">
+<li><a href="http://sixrevisions.com/web-development/decrease-webpage-load-times/"><strong>10 consigli per velocizzare il caricamento delle pagine Web</strong></a></li>
+</ol>
+<pre><code>La pazienza è la virtù dei forti, ma per molti è una pratica difficile da applicare. Ciò è vero soprattutto per chi visita siti web. Six Revision ci propone una decina di consigli per velocizzare le nostre pagine web.
+</code></pre>
+<ol start="4">
+<li>
+<p><a href="http://www.ibtimes.com/articles/120033/20110308/adobe-flash-html-5-wallaby-ios-iphone-ipad-ipad-2-ios-4-3-chrome-safari-windows-nitro-javascript-dre.htm"><strong>Adobe rilascia un convertitore da Flash a HTML5</strong></a></p>
+<p>E con questa Adobe ammette, sia pur implicitamente, la morte di Flash. Se mi segui da un pò la mia opinione <a href="http://nicolaiarocci.com/flash-adobe-e-una-pessima-idea/">la conosci già</a>. L’altro giorno al BE-Wizard 2011 il grande <strong>Avinash Kaushik</strong> ha dichiarato (ero in platea): “ogni volta che usi Flash su una pagina Web, un dolce cucciolo muore”.</p>
+</li>
+<li>
+<p><a href="http://www.html5rocks.com/tutorials/speed/html5/"><strong>Tutorial: Aumentare le prestazioni delle applicazioni HTML5</strong></a></p>
+</li>
+</ol>
+<pre><code>HTML5 ci offre splendidi strumenti per migliorare l&amp;#8217;aspetto delle applicazioni web. Animazioni ed effetti richiedono attenzione alle prestazioni. Ecco un ottimo e approfondito tutorial su come evitare il rischio di passare dalla padella alla brace.
+</code></pre>
+<ol start="6">
+<li><strong><a href="https://developer.apple.com/xcode/">Apple rilascia Xcode 4</a></strong></li>
+</ol>
+<pre><code>Xcode 4 è la nuova versione del framework Apple per la creazione di applicazioni Mac, iPhone, and iPad. Include la Xcode IDE, Instruments, il simulatore di iOS e le ultime versioni degli SDK per Mac OS X e iOS**.** 
+</code></pre>
+<ol start="7">
+<li><a href="http://mashable.com/2011/03/10/node-js/"><strong>Ecco perché tutti parlano di Node</strong></a></li>
+</ol>
+<pre><code>Al ventesimo piano di un grattacielo di San Francisco un gruppo di sviluppatori sta lavorando a una nuova tecnologia che sta cambiando (forse) il modo in cui le applicazioni web in real-time saranno costruite e distribuite. Tutti ne parlano. Ecco perché.
+</code></pre>
+<ol start="8">
+<li><a href="http://www.queness.com/post/7018/11-useful-online-tools-for-web-development"><strong>11 Tools Online per Programmatori</strong></a></li>
+</ol>
+<pre><code>I tools online sono ideali per sbrigare rapidamente piccoli lavoretti. Questo articolo ne presenta una selezione originale.
+</code></pre>
+<ol start="9">
+<li><a href="http://searchenginewatch.com/3641984"><strong>SEO: Massimizzare il CTR nelle ricerche organiche</strong></a></li>
+</ol>
+<pre><code>Non perdetevi questo articolo se lavorate in ambito SEO/SERP. _Enough said_.
+</code></pre>
+<ol start="10">
+<li><a href="http://mashable.com/2011/03/12/hello-bar-japan/"><strong>Hai un Blog o un sito web? Aiuta il Giappone con un semplice Banner</strong></a></li>
+</ol>
+<pre><code>Puoi dare una mano inserendo uno snippet di codice che mostra un banner che invita a partecipare alla raccolta fondi per il Giappone avviata dalla Croce Rossa.
+</code></pre>]]></content:encoded>
     </item>
     <item>
       <title>Impara Python in 10 minuti</title>
@@ -76,6 +178,414 @@ Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? H
       <pubDate>Thu, 10 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/impara-python-in-10-minuti/</guid>
       <description>E così vorresti imparare il linguaggio di programmazione Python. Probabilmente sei alla ricerca di un tutorial completo e allo stesso tempo conciso. Questa guida è un tentativo di insegnarti Python in 10 minuti. In effetti più che con una guida vera e propria hai a che fare con degli appunti che userai per partire col piede giusto. Naturalmente se davvero vuoi imparare bene dovrai anche esercitarti molto. Do per scontato che tu sappia già programmare, questo mi permetterà di concentrarmi sulle caratteristiche intrinseche del linguaggio.</description>
+      <content:encoded><![CDATA[<p>E così vorresti imparare il linguaggio di programmazione Python. Probabilmente
+sei alla ricerca di un tutorial completo e allo stesso tempo conciso. Questa
+guida è un tentativo di insegnarti Python in 10 minuti. In effetti più che con
+una guida vera e propria hai a che fare con degli appunti che userai per
+partire col piede giusto. Naturalmente se davvero vuoi imparare bene dovrai
+anche esercitarti molto. Do per scontato che tu sappia già programmare, questo
+mi permetterà di concentrarmi sulle caratteristiche intrinseche del linguaggio.
+Troverai le parole chiave <em>evidenziate</em> così potrai individuarle facilmente.
+<em>Fai attenzione</em> perché per brevità alcune cose verranno introdotte
+e commentate direttamente nel codice di esempio.</p>
+<h3 id="attribuzione">Attribuzione</h3>
+<p>Questo articolo è una traduzione autorizzata di <a href="http://www.korokithakis.net/tutorials/python">Learn Python in 10
+minutes</a>. Ringrazio l&rsquo;amico Stavros Korokithakis per il permesso
+di accordatomi.</p>
+<h2 id="caratteristiche">Caratteristiche</h2>
+<p>Python è un linguaggio fortemente e <em>dinamicamente tipizzato</em> (i tipi dati
+esistono e sono necessari ma non è necessario dichiararli esplicitamente),
+<em>case sensitive</em> (var e VAR sono due variabili diverse) e <em>object oriented</em>
+(tutto in Python è un oggetto).</p>
+<h2 id="come-ottenere-aiuto">Come ottenere aiuto</h2>
+<p>L&rsquo;interprete di Python fornisce già un valido sistema di aiuto. Per
+sapere come usare un oggetto basta digitare <code>help()</code>. Sono utili anche <code>dir</code>,
+che elenca gli attributi (metodi) disponibili per l&rsquo;oggetto,  e
+<code>.__doc__</code> che mostra la documentazione completa quando disponibile:</p>
+<pre><code>&gt;&gt;&gt; help(5)
+Help on int object:
+(etc etc)
+
+&gt;&gt;&gt; dir(5)
+['__abs__', '__add__', ...]
+
+&gt;&gt;&gt; abs.__doc__
+'abs(number) -&gt; number\n\nReturn the absolute value of the
+argument.'
+</code></pre>
+<h2 id="sintassi">Sintassi</h2>
+<p>In Python *non ci sono terminatori di riga obbligatori e i <em>blocchi sono
+specificati con l&rsquo; indentazione</em>. Indenta per cominciare un blocco e rimuovi
+l&rsquo;indentazione per concluderlo, tutto qui. Le istruzioni che richiedono un
+blocco indentato terminano con i due punti (<code>:</code>). I <em>commenti</em> cominciano col
+cancelletto (<code>#</code>) e sono a linea singola. Stringhe su più righe sono usate per
+i <em>commenti multi linea</em>. Le <em>assegnazioni</em> si compiono col simbolo di
+uguale (<code>=</code>). Per i <em>test di uguaglianza</em> si usa il doppo uguale (<code>==</code>).
+Puoi aumentare e diminuire un valore usando gli operatori <code>+=</code> e <code>-=</code> seguiti
+dall&rsquo;addendo. Ciò funziona con molti tipi di dati, stringhe incluse. Puoi
+assegnare e usare più variabili sulla stessa riga. Alcuni esempi:</p>
+<pre><code>&gt;&gt;&gt; myvar = 3
+&gt;&gt;&gt; myvar += 2
+&gt;&gt;&gt; myvar
+5
+
+&gt;&gt;&gt; myvar -= 1
+&gt;&gt;&gt; myvar
+4
+
+&quot;&quot;&quot;Questo è un commento su più righe.
+Le righe seguenti vengono concatenate.&quot;&quot;&quot;
+&gt;&gt;&gt; mystring = &quot;Hello&quot;
+&gt;&gt;&gt; mystring += &quot; world.&quot;
+&gt;&gt;&gt; print mystring
+Hello world.
+
+# Il codice seguente scambia due variabili in una sola riga.
+# Non ci sono errori di conversione di tipo perché
+# i nuovi valori non vengono assegnati. Vengono creati
+# nuovi oggetti ai quali le variabili fanno ora riferimento.
+&gt;&gt;&gt; myvar, mystring = mystring, myvar
+</code></pre>
+<h2 id="tipi-di-dati">Tipi di dati</h2>
+<p>Le strutture più significative in Python sono <em>liste, tuple e dizionari</em>. I Set
+sono integrati in Python a partire dalla versione 2.5 (per le versioni
+precedenti sono disponibili nella libreria <code>sets</code>). Le Liste sono simili ad
+array mono dimensionali ma è possibile creare liste che contengono altre liste.
+I dizionari sono array che contengono coppie di chiavi e valori (hash table)
+e le tuple sono oggetti immutabili mono dimensionali. In Python gli array
+possono essere di qualunque tipo, quindi puoi mischiare interi, stringhe, ecc
+nelle tue liste/dizionari e tuple. L&rsquo;indice del primo oggetto in qualunque tipo
+di array è sempre zero. Gli indici negativi sono ammessi e contano a partire
+dalla fine dell&rsquo;array, -1 indica l&rsquo;ultimo elemento dell&rsquo;array. Le variabili
+possono fare riferimento a funzioni.</p>
+<pre><code>&gt;&gt;&gt; esempio = [1, [&quot;un'altra&quot;, &quot;lista&quot;], (&quot;una&quot;, &quot;tupla&quot;)]
+&gt;&gt;&gt; mialista = [&quot;Elemento 1&quot;, 2, 3.14]
+&gt;&gt;&gt; mialista[0] = &quot;Ancora elemento 1&quot;
+&gt;&gt;&gt; mialista[-1] = 3.15
+&gt;&gt;&gt; miodizionario = {&quot;Key 1&quot;: &quot;Valore 1&quot;, 2: 3, &quot;pi&quot;: 3.14}
+&gt;&gt;&gt; miodizionario[&quot;pi&quot;] = 3.15
+&gt;&gt;&gt; miatupla = (1, 2, 3)
+&gt;&gt;&gt; miafunzione = len
+&gt;&gt;&gt; print miafunzione(mialista)
+3
+</code></pre>
+<p>Puoi ottenere un <em>range di array</em> usando i due punti (<code>:</code>). Non indicare
+l&rsquo;indice iniziale del range sottintende il primo elemento; non indicare
+l&rsquo;indice finale sottintende l&rsquo;ultimo elemento. Indici negativi contano
+a partire dall&rsquo;ultimo elemento (-1 è l&rsquo;ultimo elemento dell&rsquo;array). Quindi:</p>
+<pre><code>&gt;&gt;&gt; mialista = [&quot;Elemento 1&quot;, 2, 3.14]
+&gt;&gt;&gt; print mialista[:]
+['Elemento 1', 2, 3.1400000000000001]
+
+&gt;&gt;&gt; print mialista[0:2]
+['Elemento 1', 2]
+
+&gt;&gt;&gt; print mialista[-3:-1]
+['Elemento 1', 2]
+
+&gt;&gt;&gt; print mialista[1:]
+[2, 3.14]
+</code></pre>
+<h2 id="stringhe">Stringhe</h2>
+<p>Le stringhe in Python sono indicate *indifferentemente con la virgoletta
+singola (<code>'</code>) o doppia (<code>&quot;</code>) ed è consentito usare una notazione all&rsquo;interno
+di una stringa delimitata dall&rsquo;altra (<code>&quot;Egli disse 'ciao'.&quot;</code> è valida).
+Stringhe su più righe sono racchiuse in triple (o singole) virgolette (<code>&quot;&quot;&quot;</code>).
+Python *supporta Unicode, basta ricorrere alla sintassi <code>u&quot;Questa è una stringa unicode&quot;</code>. Per <em>inserire valori in una stringa</em> usa l&rsquo;operatore <code>%</code> (modulo)
+e una tupla. Ogni % viene sostituito da un elemento della tupla, da sinistra
+a destra, ed è consentito usare un dizionario per le sostituzioni.</p>
+<pre><code>&gt;&gt;&gt; &quot;Nome: %s\nNumero: %s\nStringa: %s&quot; % (miaclasse.nome, 3, 3 * &quot;-&quot;)
+Nome: Poromenos
+Numero: 3
+Stringa: ---
+
+strString = &quot;&quot;&quot;Questa è
+una stringa
+multi riga.&quot;&quot;&quot;
+
+# ATTENZIONE: Nota la s finale in &quot;%(key)s&quot;.
+&gt;&gt;&gt; print &quot;Questo %(verbo)s un %(nome)s.&quot; % {&quot;nome&quot;: &quot;test&quot;, &quot;verbo&quot;: &quot;è&quot;}
+Questo è un test.
+</code></pre>
+<h2 id="controllo-di-flusso">Controllo di flusso</h2>
+<p>Le istruzioni per il controllo di flusso sono <code>if</code>, <code>for</code>, e <code>while</code>. Non esiste il <code>select</code>; al suo posto si usa <code>if</code>. Il <code>for</code> si usa anche per enumerare i membri di una lista. Per ottenere un elenco di numeri si usa <code>range(numero)</code>.</p>
+<pre><code>rangelist = range(10)
+&gt;&gt;&gt; print rangelist
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+for number in rangelist:
+    # Verifica se numer è uno dei
+    # numeri nella tupla.
+    if number in (3, 4, 7, 9):
+        # &quot;Break&quot; termina un for senza
+        # eseguire la clausola &quot;else&quot;.
+        break
+    else:
+        # &quot;Continue&quot; prosegue con l'iterazione successiva
+        # del loop. Piuttosto inutile in questo caso,
+        # visto che siamo all'ultima istruzione del loop.
+        continue
+else:
+    # Questo &quot;else&quot; è opzionale ed è
+    # eseguito solo se il loop non è stato interrotto
+    # con &quot;break&quot;.
+    pass # Non fa nulla
+
+if rangelist[1] == 2:
+    print &quot;Il secondo elemento (le liste sono 0-based) è 2&quot;
+elif rangelist[1] == 3:
+    print &quot;Il secondo elemento (le liste sono 0-based) è 3&quot;
+else:
+    print &quot;Non saprei&quot;
+
+while rangelist[1] == 1:
+    pass
+</code></pre>
+<h2 id="funzioni">Funzioni</h2>
+<p>Le funzioni sono dichiarate con la la parola chiave <code>def</code>. Eventuali *argomenti
+opzionali vanno dichiarati dopo quelli obbligatori e devono avere un valore
+assegnato. Quando si chiamano funzioni passando *argomenti per nome
+è necessario passare anche il valore. Le funzioni possono restituire una tuple
+(lo spacchettamento delle tuple rende possibile la restituzione di *valori
+multipli). Le *lambda sono funzioni in linea. I parametri sono passati <em>per
+riferimento</em>, ma i tipi immutabili (tuple, interi, stringhe, ecc.) non possono
+essere modificati nella funzione. Questo succede perché <em>viene passata solo la
+posizione in memoria</em> dell&rsquo;elemento, e assegnare un altro oggetto alla
+variabile <em>comporta la perdita del riferimento</em> all&rsquo;oggetto precedente. Per
+esempio:</p>
+<pre><code># Equivalente a def f(x): return x + 1
+funzionevar = lambda x: x + 1
+&gt;&gt;&gt; print funzionevar(1)
+2
+
+# un_int e una_stringa sono opzionali, hanno valori di default
+# da usare se non vengono passati (2 e &quot;Una stringa&quot;, rispettivamente).
+def passing_example(una_lista, un_int=2, una_stringa=&quot;Una stringa&quot;):
+    una_lista.append(&quot;Nuovo elemento&quot;)
+    un_int = 4
+    return una_lista, un_int, una_string
+
+&gt;&gt;&gt; mia_lista = [1, 2, 3]
+&gt;&gt;&gt; mio_int = 10
+&gt;&gt;&gt; print passing_example(mia_lista, mio_int)
+([1, 2, 3, 'Nuovo elemento'], 4, &quot;Una stringa&quot;)
+
+&gt;&gt;&gt; mia_lista
+[1, 2, 3, 'Nuovo elemento']
+
+&gt;&gt;&gt; mio_int
+10
+</code></pre>
+<h2 id="classi">Classi</h2>
+<p>Python supporta la <em>ereditarietà multipla</em> delle classi. Le variabili
+e i metodi privati vengono dichiarati per convezione (non è una regola del
+linguaggio) precedendoli con due underscore (_). Possiamo assegnare <em>attributi
+(proprietà) arbitrari</em> alle istanze di una classe. Un esempio:</p>
+<pre><code>class MiaClasse:
+    comune = 10
+    def __init__(self):
+        self.miavariabile = 3
+    def miafunzione(self, arg1, arg2):
+        return self.miavariabile
+
+# Creiamo una istanza della classe
+&gt;&gt;&gt; istanza = MiaClasse()
+&gt;&gt;&gt; istanza.miafunzione(1, 2)
+3
+
+# Questa variabile è condivisa da tutte le istanze
+&gt;&gt;&gt; istanza2 = MiaClasse()
+&gt;&gt;&gt; istanza.comune
+10
+
+&gt;&gt;&gt; istanza2.comune
+10
+
+# Nota come qui usiamo il nome della classe
+# invece dell'istanza.
+&gt;&gt;&gt; MiaClasse.common = 30
+&gt;&gt;&gt; instanza.common
+30
+
+&gt;&gt;&gt; instanza2.common
+30
+
+# Questo non aggiornerà la variabile nella classe,
+# invece assegnerà un nuovo oggetto alla variabile
+# della prima istanza.
+&gt;&gt;&gt; istanza.common = 10
+&gt;&gt;&gt; istanza.common
+10
+
+&gt;&gt;&gt; istanza2.common
+30
+
+&gt;&gt;&gt; MiaClasse.common = 50
+
+# Il valore non è cambiato perché &quot;common&quot;
+# ora è una variabile dell'istanza.
+&gt;&gt;&gt; istanza.common
+10
+
+&gt;&gt;&gt; istanza2.common
+50
+
+# Questa classe eredita da MiaClasse. L'ereditarietà
+# multipla viene dichiarata così:
+# class AltraClasse(MiaClasse1, MiaClasse2, MiaClasseN)
+class AltraClasse(MiaClasse):
+    # L'argomento &quot;self&quot; è passato automaticamente
+    # e fa riferimento all'istanza della classe, quindi puoi impostare
+    # variabili di istanza come sopra, ma dall'interno della classe.
+    def __init__(self, arg1):
+        self.miavariabile = 3
+        print arg1
+
+&gt;&gt;&gt; istanza = AltraClasse(&quot;hello&quot;)
+hello
+
+&gt;&gt;&gt; istanza.miafunzione(1, 2)
+3
+
+# Questa classe non ha un membro (proprietà) .test member, ma
+# possiamo aggiungerne uno all'istanza quando vogliamo. Nota
+# che .test sarà un membro della sola istanza.
+&gt;&gt;&gt; istanza.test = 10
+&gt;&gt;&gt; istanza.test
+10
+</code></pre>
+<h2 id="eccezioni">Eccezioni</h2>
+<p>Le eccezioni in Python sono gestite con dei blocchi <code>try-except [nome_eccezione]</code>:</p>
+<pre><code>def una_funzione():
+    try:
+        # Divisione per zero causa una eccezione
+        10 / 0
+    except ZeroDivisionError:
+        print &quot;Oops, errore.&quot;
+    else:
+        # Non c'è stata eccezione, possiamo proseguire.
+        pass
+    finally:
+        # Questo codice viene eseguito quando il blocco
+        # try..except è già eseguito e tutte le eccezioni
+        # sono state gestite, anche se si verifica una nuova
+        # eccezione direttamente nel blocco.
+        print &quot;Abbiamo finito.&quot;
+
+&gt;&gt;&gt; una_funzione()
+Oops, errore.
+Abbiamo finito.
+</code></pre>
+<h2 id="importare-librerie">Importare librerie</h2>
+<p>Le librerie esterne si importano con <code>import [nomelibreria]</code>. Puoi anche usare la forma <code>[nomelibreria] import [nomefunzione]</code> per importare singole funzioni. Ecco un esempio:</p>
+<pre><code>import random
+from time import clock
+
+randomint = random.randint(1, 100)
+
+&gt;&gt;&gt; print randomint
+64
+</code></pre>
+<h2 id="input-e-output">Input e Output</h2>
+<p>Python vanta una vasta gamma di librerie per gestire input/output di files. In
+questo esempio vediamo come <em>serializzare</em> (convertire strutture dati in
+stringhe) usando la libreria <code>pickle</code>:</p>
+<pre><code>import pickle
+mialista = [&quot;Questo&quot;, &quot;è&quot;, 4, 13327]
+
+# Apre il file C:\binary.dat in scrittura. La lettera r
+# prima del nome file serve a evitare l'escaping
+# del backslash.
+miofile = file(r&quot;C:\binary.dat&quot;, &quot;w&quot;)
+
+pickle.dump(mialista, miofile)
+miofile.close()
+
+miofile = file(r&quot;C:\text.txt&quot;, &quot;w&quot;)
+miofile.write(&quot;Questa è una stringa di prova&quot;)
+miofile.close()
+
+miofile = file(r&quot;C:\text.txt&quot;)
+
+&gt;&gt;&gt; print miofile.read()
+'Questa è una stringa di prova'
+
+miofile.close()
+
+# Apre il file in lettura.
+miofile = file(r&quot;C:\binary.dat&quot;)
+listadafile = pickle.load(miofile)
+miofile.close()
+
+&gt;&gt;&gt; print listadafile
+['Questo', 'è', 4, 13327]
+</code></pre>
+<h2 id="varie-ed-eventuali">Varie ed eventuali</h2>
+<p>I *test possono essere concatenati. <code>1 &gt; a &lt; 3</code> verifica che a sia minore di  3
+e maggiore di 1. Puoi usare <code>del</code> per <em>cancellare variabili o elementi di
+array</em>. Le <em>comprensioni di lista</em> sono uno strumento potente per creare
+e manipolare le liste. Consistono in una espressione seguita da una clausola
+<code>for</code> seguita da zero o più clausole <code>if</code>. Quindi:</p>
+<pre><code>&gt;&gt;&gt; lst1 = [1, 2, 3]
+&gt;&gt;&gt; lst2 = [3, 4, 5]
+&gt;&gt;&gt; print [x * y for x in lst1 for y in lst2]
+[3, 4, 5, 6, 8, 10, 9, 12, 15]
+&gt;&gt;&gt; print [x for x in lst1 if 4 &gt; x &gt; 1]
+[2, 3]
+
+# Verifica se almeno un elemento ha una determinata
+# caratteristica.
+# &quot;any&quot; restituisce true se qualunque elemento nella
+# lista è vero.
+&gt;&gt;&gt; any([i % 3 for i in [3, 3, 4, 4, 3]])
+True
+# Funziona perché 4 % 3 = 1, e 1 in Python è true,
+# quindi any() restituisce True.
+
+# Verifica quanto elemento hanno una determinata
+# caratteristica.
+&gt;&gt;&gt; sum(1 for i in [3, 3, 4, 4, 3] if i == 4)
+2
+
+&gt;&gt;&gt; del lst1[0]
+&gt;&gt;&gt; print lst1
+[2, 3]
+
+&gt;&gt;&gt; del lst1
+</code></pre>
+<p>Le <em>variabili globali</em> vengono dichiarate all&rsquo;esterno delle funzioni
+senza dichiarazioni particolari, ma se desideri modificarle in una funzione
+devi dichiararle con la parola <code>global</code> all&rsquo;inizio della funzione,
+altrimenti Python assegnerà quell&rsquo;oggetto a una nuova variabile locale
+(presta attenzione, si tratta di un piccolo dettaglio che può metterti
+facilmente nei guai). Per esempio: numero = 5</p>
+<pre><code>def miafunz():
+    # Questo stamperà 5.
+    print numero
+
+def altrafunz():
+    # Questo solleva una eccezione perché la variabile
+    # non è stata ancora assegnata. Python crea un
+    # nuovo oggetto locale invece di accedere al globale
+    print numero
+    numero = 3
+
+def ancorafunz():
+    global numero
+    # Questo cambierà il valore alla variabile globale
+    numero = 3
+</code></pre>
+<h2 id="epilogo">Epilogo</h2>
+<p>Questa non intende essere una guida completa (e nemmeno parziale) a Python.
+Python ha una vasta gamma di librerie e molte, moltissime funzionalità che
+dovrai scoprire con altri mezzi, come <a href="http://it.diveintopython.net/">Dive Into Python</a> (tradotto in
+italiano) o l&rsquo;eccellente <a href="http://www.amazon.it/gp/product/0596158068/ref=as_li_ss_tl?ie=UTF8&amp;camp=3370&amp;creative=24114&amp;creativeASIN=0596158068&amp;linkCode=as2&amp;tag=nicoiaro-21">Learning Python di Mark Lutz</a>, libro che consiglio
+a chiunque voglia davvero imparare e capire Python.</p>
+<p>Mi auguro di averti aiutato nella transizione verso Python. Lasciami un
+commento se pensi che ci sia qualcosa da migliorare o se c&rsquo;é qualcos&rsquo;altro
+che vorresti approfondire.</p>
+<p>Sono <a href="http://twitter.com/nicolaiarocci">@nicolaiarocci</a> su Twitter.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Introduzione alle Regular Expression – Terza Parte</title>
@@ -84,6 +594,135 @@ Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? H
       <guid>https://nicolaiarocci.com/introduzione-alle-regular-expression-terza-parte/</guid>
       <description>Benvenuto alla terza e ultima parte della nostra Introduzione alle Regular Expression. Concluso il capitolo sarai in grado di affrontare la maggior parte dei problemi di ricerca nel testo. Se ancora non l&amp;rsquo;hai fatto ti consiglio di leggere la Prima Parte e la Seconda Parte. Ricorda che puoi usare la pagina di prova per testare le query della guida.
 Avidità Il problema della avidità degli operatori regex diventa evidente quando si comincia a lavorare su ricerche avanzate.</description>
+      <content:encoded><![CDATA[<p>Benvenuto alla terza e ultima parte della nostra <em>Introduzione alle Regular
+Expression</em>. Concluso il capitolo sarai  in grado di affrontare la maggior
+parte dei problemi di ricerca nel testo. Se ancora non l&rsquo;hai fatto ti
+consiglio di leggere la <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/">Prima Parte</a> e la <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/">Seconda Parte</a>. Ricorda che
+puoi usare la <!-- raw HTML omitted -->pagina di
+prova<!-- raw HTML omitted --> per testare le query della guida.</p>
+<h2 id="avidità">Avidità</h2>
+<p>Il problema della avidità degli operatori regex diventa evidente quando si
+comincia a lavorare su ricerche avanzate. Un caso tipico è il parsing di file
+XML o HTML.</p>
+<pre><code>&lt;p&gt;questo è un &lt;b&gt;paragrafo&lt;/b&gt;&lt;/p&gt;
+</code></pre>
+<p>Supponiamo di voler trovare tutti i tag usati.</p>
+<pre><code>&lt;.*&gt; # cerca tutti i tag
+</code></pre>
+<p>Il risultato della query non è quello che ci si potrebbe aspettare.
+L&rsquo;operatore <code>*</code> è <em>avido</em>, ovvero cerca di catturare più caratteri
+possibili. Una volta trovato il primo <code>&lt;</code> prosegue avidamente selezionando tutto
+fino all&rsquo;ultimo <code>&gt;</code>. In questo caso vogliamo che si fermi al primo <code>&gt;</code>, non
+all&rsquo;ultimo. E&rsquo; questa una distinzione importante, da comprendere
+a fondo. Possiamo disattivare il comportamento avido aggiungendo il carattere?</p>
+<pre><code>&lt;.*?&gt; # ora otteniamo quel che vogliamo (niente avidità)
+</code></pre>
+<p>Se desideriamo usare l&rsquo;operatore <code>+</code> (1 o più) al posto del <code>*</code> (zero o più),
+la nostra query diventa <code>&lt;.+?&gt;</code>.</p>
+<h2 id="confini">Confini</h2>
+<p>Nella <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/">seconda parte</a> del nostro tutorial abbiamo convalidato un numero
+telefonico nel formato 555-12345678</p>
+<pre><code>555-\d{8}   # 555- seguito da 8 cifre
+</code></pre>
+<p>Anche se tecnicamente corretta questa query non è perfetta. Se la testiamo con
+queste stringhe:</p>
+<pre><code>testoDavanti 555-12345678
+555-12345678 il mio telefono
+</code></pre>
+<p>scopriamo che vengono accettate perché la regola <code>555-\d{8}</code> è ancora valida.
+In realtà noi desideriamo accettare il solo il numero telefonico, niente
+altro. La soluzione richiede l&rsquo;uso degli operatori di confine:</p>
+<pre><code>^555-\d{8}$
+</code></pre>
+<p>I confini sono caratteri speciali perché non occupano spazio. Sono dei
+segnaposto che servono a delimitare il testo da cercare. Dopo l&rsquo;inizio
+<code>(^)</code> deve esserci il nostro numero di telefono; prima della fine <code>($)</code> deve
+esserci il nostro numero di telefono.</p>
+<!-- raw HTML omitted -->
+<pre><code>&lt;th&gt;
+  significato
+&lt;/th&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td style=&quot;vertical-align: top;&quot;&gt;
+  Inizio del testo. Sfortunatamente gli inventori di regex hanno scelto lo stesso carattere usato per la negazione. E&amp;#8217; importante riconoscerne il significato in base al contesto. Quando non è compreso tra [ e ] il carattere ^ è un confine e indica l&amp;#8217;inizio del testo.
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  fine del testo
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<p>Quindi</p>
+<pre><code>a   #  trova qualunque a
+^a  #  trova solo il testo che comincia per a
+a$  #  trova solo il testo che finisce per a
+</code></pre>
+<p>C&rsquo;è un altro confine, quello di parola <code>(\b)</code>. Vediamo un esempio. Vogliamo
+cercare le parole &ldquo;for&rdquo; e &ldquo;she&rdquo; nella nostra <!-- raw HTML omitted -->pagina di test<!-- raw HTML omitted -->.</p>
+<pre><code>(for|she)  # trova for e she
+</code></pre>
+<p>Non va male. Trova tutte le occorrenze di &ldquo;she&rdquo; e &ldquo;for&rdquo;, tuttavia viene
+selezionata anche la parola &ldquo;before&rdquo;. Non è il comportamento desiderato.
+Potremmo tentare cercando solo le occorrenze precedute e succedute da uno
+spazio.</p>
+<pre><code>[ ](for|she)[ ]  # cerca for o she
+</code></pre>
+<p>Va meglio. Non seleziona più before. Abbiamo però un nuovo problema. Nel testo
+c&rsquo;è la frase &ldquo;for she had plenty of time&rdquo;. La nostra regex non ha individuato
+la parola &ldquo;she&rdquo; contenuta nella frase. Per quale motivo?</p>
+<pre><code>for she had plenty of time
+</code></pre>
+<p>Con il &ldquo;for&rdquo; iniziale abbiamo già rintracciato lo spazio che precede &ldquo;she&rdquo;, che
+quindi viene escluso. Sono queste le situazioni un cui un confine di parola può
+risolvere il problema.</p>
+<pre><code>\b(for|she)\b  # trova she oppure for
+</code></pre>
+<p>Il confine <code>\b</code> definisce dove la parola comincia e finisce, proprio come
+succede con i confini visti prima. Abbiamo detto prima che i &ldquo;confini non
+occupano spazio&rdquo;. Nell&rsquo;esempio qui sopra cerchiamo esattamente
+&ldquo;for&rdquo; o &ldquo;she&rdquo;. Non cerchiamo la stringa <code>\b</code> e questa non occupa alcuno spazio
+durante la ricerca, a differenza di quel che è successo quando abbiamo tentato
+di usare la <code>[cornice]</code>. E&rsquo; un dettaglio importate perché con tutti gli
+altri operatori regex ciò che è nella query &ldquo;occupa spazio&rdquo; e non
+può essere trovato <em>di nuovo</em>.</p>
+<h2 id="il-finale-ricerca-e-sostituzione">Il Finale: Ricerca e Sostituzione</h2>
+<p>Ce l&rsquo;hai fatta! Sei arrivato in fondo. Congratulazioni. Il meglio arriva ora.
+Ricerca e sostituzione è senz&rsquo;altro il mio argomento preferito. Qui la pagina
+di test non ci può aiutare, occorre qualche tipo di editor oppure una IDE
+(Eclipse/Notepad++/Wordpad).</p>
+<p>Supponiamo di avere un file composto da 100 righe come queste</p>
+<pre><code>31-01-10_backup32
+24-01-10_backup1
+24-02-10_backup_mona
+11-03-09_backup_lisa
+</code></pre>
+<p>Vogliamo correggere le date portandole dal formato europeo a quello americano
+(da <code>gg-mm-aa</code> a <code>mm-gg-aaaa</code>).</p>
+<pre><code>\d{2}-\d{2}-\d{2}_backup.*  // trova le nostre righe
+</code></pre>
+<p>Per ogni riga desideriamo sostituire aree specifiche quindi ricorriamo
+all&rsquo;operatore di raggruppamento già visto nella <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/">seconda parte</a> di
+questa guida.</p>
+<pre><code>(\d{2})-(\d{2})-(\d{2})_backup(.*)  // ci siamo
+</code></pre>
+<p>A questo punto tutto quel che dobbiamo fare è sostituire le righe trovate con</p>
+<p><!-- raw HTML omitted -->{Gruppo2}<!-- raw HTML omitted -->–<!-- raw HTML omitted -->{Gruppo1}<!-- raw HTML omitted -->-20<!-- raw HTML omitted -->{Gruppo3}<!-- raw HTML omitted -->_backup<!-- raw HTML omitted -->{Gruppo4}<!-- raw HTML omitted --></p>
+<p>Il che si traduce nella seguente espressione di sostituzione</p>
+<pre><code>\2-\1-20\3_backup\4
+</code></pre>
+<p>Facile no? Niente più lavori ripetitivi. La mia regola è: se un testo richiede
+la modifica di più di cinque righe è giunta l&rsquo;ora di ricorrere alle
+regex. Potrebbe sembrare una esagerazione. Eppure un programmatore dovrebbe
+rifiutarsi per principio di ripetere manualmente un lavoro che può essere
+automatizzato.</p>
+<p>Buona fortuna.</p>
+<p>Questo articolo è una traduzione autorizzata di <a href="http://www.agillo.net/regex-primer-part-3/">Regex Primer: Part 3</a>.
+Ringrazio l&rsquo;autore per il permesso accordatomi.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Introduzione alle Regular Expression – Seconda Parte</title>
@@ -93,6 +732,173 @@ Avidità Il problema della avidità degli operatori regex diventa evidente quand
       <description>Questa è la seconda parte della serie Introduzione alle Regular Expression. Se non hai ancora letto la prima parte ti consiglio di farlo. Puoi usare la pagina demo per provare le query della guida.
 Negazione [^] Abbiamo già conosciuto la [cornice]. Una caratteristica importante di cui non abbiamo ancora parlato è la negazione. Supponiamo di voler cercare qualunque carattere eccetto la lettera a.
 [^a] # trova b,c,d,e,f,\n .... qualunque carattere eccetto &#39;a&#39; La negazione si applica a tutti i caratteri della cornice in cui compare l&amp;rsquo;operatore ˆ.</description>
+      <content:encoded><![CDATA[<p>Questa è la seconda parte della serie <em>Introduzione alle Regular Expression</em>.
+Se non hai ancora letto la <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/">prima parte</a> ti consiglio di farlo. Puoi usare
+la <!-- raw HTML omitted -->pagina demo<!-- raw HTML omitted --> per provare
+le query della guida.</p>
+<h2 id="negazione-">Negazione [^]</h2>
+<p>Abbiamo già conosciuto la <code>[cornice]</code>. Una caratteristica importante di cui non
+abbiamo ancora parlato è la negazione. Supponiamo di voler cercare qualunque
+carattere <em>eccetto la lettera a</em>.</p>
+<pre><code>[^a] # trova b,c,d,e,f,\n .... qualunque carattere eccetto 'a'
+</code></pre>
+<p>La negazione si applica a tutti i caratteri della cornice in cui compare
+l&rsquo;operatore <code>ˆ</code>. Non è possibile limitarla a solo alcuni.</p>
+<pre><code>[^0123456789] # trova qualunque carattere non numerico
+</code></pre>
+<h2 id="gli-alias">Gli Alias</h2>
+<p>Ora siamo pronti per affrontare qualche esempio realistico di regular
+expression. Uno degli usi più frequenti delle regex è la convalida di Stringhe.
+Proviamo a verificare la correttezza di un ipotetico numero telefonico da
+esprimere nel formato 555-12345678. Di norma divideremmo l&rsquo;input in due
+parti e proveremmo a convertirle in numeri. Ora tuttavia conosciamo le regex
+e possiamo sbrigarcela meglio.</p>
+<pre><code>555-[0-9]{7}
+</code></pre>
+<p>Fatto. Stiamo convalidando 555 seguito da un trattino seguito da 7 caratteri
+numerici. Possiamo essere addirittura più sintetici, vediamo come.</p>
+<p>I range <code>[0-9]</code> e <code>[a-z]</code>  sono talmente frequenti da saltar fuori continuamente,
+tanto che sono state create scorciatoie (alias) dedicate ai range più usati.
+Nel nostro caso ci torna utile <code>\d</code>, che sta per digit (carattere numerico)
+ed è semanticamente identico a <code>[0-9]</code>.</p>
+<pre><code>555-\d{7} # identico a 555-[0-9]{7}
+</code></pre>
+<p>Gli alias non sono certo indispensabili, puoi ottenere gli stessi risultati
+usando la cornice in modo esteso. Tuttavia sono molto comodi.</p>
+<!-- raw HTML omitted -->
+<pre><code>&lt;th&gt;
+  significato
+&lt;/th&gt;
+
+&lt;th&gt;
+  coorrisponde a
+&lt;/th&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  digit (numero)
+&lt;/td&gt;
+
+&lt;td&gt;
+  [0-9]
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  word (parola)
+&lt;/td&gt;
+
+&lt;td&gt;
+  [a-zA-Z0-9_]  Include il carattere underscore
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  spazio, tab o newline
+&lt;/td&gt;
+
+&lt;td&gt;
+  [ \t\r\n]
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  qualsiasi non numerico
+&lt;/td&gt;
+
+&lt;td&gt;
+  ^\d
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  quasiasi non alfanumerico
+&lt;/td&gt;
+
+&lt;td&gt;
+  ^\w
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  quasiasi ma non lo spazio
+&lt;/td&gt;
+
+&lt;td&gt;
+  ^\s
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<p><strong>Suggerimento:</strong> nota come ad ogni alias ne corrisponde uno dal significato
+opposto, tutto in maiuscolo. Impara i primi tre per conoscerli tutti e sei.</p>
+<h2 id="il-punto">Il Punto</h2>
+<p>Il punto è un alias un pò speciale. Ne parlo soprattutto perchè può capitare di
+notarlo nel codice scritto da altri. Il punto cerca tutto eccetto il new line
+(<code>\n</code>). Il problema è che il carattere new line non è lo stesso su tutte le
+piattaforme.</p>
+<pre><code>.   # trova tutti i caratteri
+.*  # equivalente a [^\n], trova tutti i paragrafi
+</code></pre>
+<p>Il punto spesso crea confusione. Consiglio di ricorrere a combinazioni di alias
+e cornici per ottenere gli stessi risultati senza rischiare errori.</p>
+<h2 id="escaping">Escaping</h2>
+<p>Capita a volte di dover cercare proprio il punto, oppure i caratteri [ o ].
+Poiché fanno parte della sintassi regex in questi casi è necessario riccorrere
+all&rsquo;escaping, ovvero precederli col carattere <code>\</code> che rappresenta
+l&rsquo;escape. Per esempio</p>
+<pre><code>\.    # cerca il punto invece che tutto quanto
+\*    # trova tutti gli asterischi
+\\    # trova tutti gli escape
+</code></pre>
+<h2 id="raggruppamenti-e-or">Raggruppamenti e OR</h2>
+<p>Torniamo alla convalida. Questa volta vogliamo verificare la validità di un
+indirizzo email. Prima di tutto stabiliamo le regole (semplificate) a cui una
+stringa deve attenersi per venire convalidata come indirizzo email: 1) il nome
+utente può contenere lettere, numeri, underscore e trattini ma deve cominciare
+con una lettera; 2) il dominio può contenere solo lettere seguite da un punto
+seguito da altre lettere. Quindi domain.fakecom è valido per noi</p>
+<pre><code>[a-z][\w-]*@[a-z]+\.[a-z]+
+</code></pre>
+<p>Presta attenzione all&rsquo;escaping del punto! Un&rsquo;altro dettaglio
+importante è il quantificatore <code>+</code> che abbiamo visto nel <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/">primo articolo</a> di
+questa serie. Nel dominio infatti vogliamo <em>almeno</em> una lettera, non zero
+o più.</p>
+<p>Supponiamo ora di voler aggiornare le regole in modo da convalidare solo
+i domini più importanti. Il nostro indirizzo email deve finire con com oppure
+net. Non possiamo risolvere questo problema con quel che abbiamo imparato
+finora. La nostra query regex dovrà ricorrere a due nuovi concetti,
+l&rsquo;operatore OR e i gruppi.</p>
+<pre><code>[a-z][\w-]*@[a-z]+\.(com|net)
+</code></pre>
+<p>Vediamo l&rsquo;OR all&rsquo;opera</p>
+<pre><code>com|net  #  trova com oppure net
+a|b|c    # lo stesso di [abc].
+</code></pre>
+<p>L&rsquo;aggiunta delle parentesi () si rende necessaria per chiarire che non
+vogliamo trovare <em>tutte</em> le occorrenze della parte di regex alla loro sinistra.
+Se volessimo &ldquo;Brad Pitt&rdquo; oppure &ldquo;Angelina Pitt&rdquo;</p>
+<pre><code>Brad|Angelina Pitt  # trova sia 'Brad' che 'Angelina Pitt'
+(Brad|Angelina) Pitt  # ora ci siamo!
+</code></pre>
+<p>Per un programmatore il concetto del raggruppamento (grouping) con le parentesi
+dovrebbe essere facilmente comprensibile. Di fatto possiamo combinarlo con
+altri operatori che già conosciamo</p>
+<pre><code>(dog)+   #  trova dog,dogdog,dogdogdog ...
+java(bean)?    #  trova java o javabean
+</code></pre>
+<h2 id="conclusione">Conclusione</h2>
+<p>Questo conclude la seconda parte della guida. La prossima e ultima parte verrà
+pubblicata tra qualche giorno. Nel frattempo raccomando di giocare con la <!-- raw HTML omitted -->pagina demo<!-- raw HTML omitted --> per fare un
+pò di pratica.</p>
+<p>E&rsquo; ora disponibile anche la <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-terza-parte/">terza parte</a> di questo tutorial.</p>
+<p>Questo articolo è una traduzione autorizzata di <a href="http://www.agillo.net/regex-primer-part-2/">Regex Primer: Part 2</a>. Ringrazio l&rsquo;autore per il permesso accordatomi.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Introduzione alle Regular Expression – Prima Parte</title>
@@ -114,6 +920,152 @@ risolvere l&#39;80% dei problemi.&lt;/li&gt;
 &lt;p&gt;Ho preparato una &lt;!-- raw HTML omitted --&gt;pagina di
 prova&lt;!-- raw HTML omitted --&gt; per testare le regex del tutorial. In alternativa è sempre possibile
 usare una IDE, praticamente tutte supportano le regular expressions.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Quando si tratta fare ricerche in blocchi di testo le <a href="http://it.wikipedia.org/wiki/Espressione_regolare"><strong>regular
+expression</strong></a> (regex) sono la soluzione ideale. Come programmatore studiare
+le regex è stata una delle cose migliori che ho fatto per migliorare la mia
+produttività.</p>
+<ol>
+<li>Valide in ogni linguaggio e indipendenti dalla piattaforma, le regex sono
+un investimento sempre valido. Java, JavaScript, Ruby, .Net, Python…
+le regex non cambiano.</li>
+<li>Rendono ricerca e sostituzione del testo <em>enormemente</em> più potenti</li>
+<li>Soddisfano pienamente il principio <a href="http://en.wikipedia.org/wiki/Pareto_principle#In_software">80/20</a>. Basta conoscerne il 20% per
+risolvere l'80% dei problemi.</li>
+</ol>
+<p>Ho preparato una <!-- raw HTML omitted -->pagina di
+prova<!-- raw HTML omitted --> per testare le regex del tutorial. In alternativa è sempre possibile
+usare una IDE, praticamente tutte supportano le regular expressions.</p>
+<h2 id="partiamo-dalla-cornice">Partiamo dalla [cornice]</h2>
+<p>La regex più semplice? Eccola:</p>
+<pre><code>bank
+</code></pre>
+<p>La quale cerca &ldquo;bank&rdquo;. Cambiamola leggermente, immaginiamo di voler cercare sia &ldquo;bank&rdquo; che &ldquo;tank&rdquo; nello stesso blocco di testo.</p>
+<pre><code>[bt]ank  // cerca sia bank che tank
+</code></pre>
+<p>La [cornice] rappresenta comunque 1 carattere. Stiamo ancora cercando una
+parola di 4 caratteri, ma il primo può essere &ldquo;b&rdquo; oppure &ldquo;t&rdquo;. I caratteri
+inclusi nelle parentesi [] sono legati da una relazione di tipo OR. La loro
+posizione è irrilevante, <code>[tb]ank</code> è semanticamente identico. Ecco altri esempi
+d’uso della [cornice]:</p>
+<pre><code>[abc]1              // trova a1, b1 o c1
+[cba]1              // trova a1, b1 o c1
+file[0123456789]    // trova file0,file1,file2 ... o file9
+file[0-9]           // trova file0,file1,file2 ... o file9
+[a-z]               // trova a, b, c oppure ... z
+</code></pre>
+<p>Avrai notato che abbiamo introdotto un nuovo operatore. Usando il carattere
+<code>-</code> definiamo un <em>range</em>. Il range ci permette di evitare costrutti
+assurdamente lunghi come questo: <code>[abcdefghijklmnopqrstuvwyz]</code>. E’ una
+scorciatoia.</p>
+<h2 id="proseguiamo-coi-quantificatori">Proseguiamo coi Quantificatori</h2>
+<p>Riprendiamo dall’esempio iniziale. Immaginiamo di voler trovare <em>tank</em>,
+<em>bank</em>, <em>tanks</em>, e <em>banks</em>. Potremmo provare in questo modo:</p>
+<pre><code>[bt]anks?
+</code></pre>
+<p>Abbiamo aggiunto il <em>quantificatore</em> <code>?</code> che agisce sul carattere
+che si trova direttamente alla sua sinistra. Significa <em>una occorrenza oppure
+nessuna</em>, quindi nel nostro caso stiamo dicendo &ldquo;cerca [bt]ank con una
+&rsquo;s&rsquo; finale o meno&rdquo;. Un quantificatore può essere affiancato a qualunque
+carattere e addirittura a una <code>[cornice]</code>. Dai una occhiata a questi esempi:</p>
+<pre><code>[bt]anks         // trova banks o tanks
+[bt]anks?        // trova bank, tank, banks oppure tanks
+[bt]?ank         // trova bank, tank oppure ank
+ab?c?            // trova a, ab, abc oppure ac
+</code></pre>
+<p>Riassumendo, quando usiamo un carattere senza quantificatore indichiamo che ne
+cerchiamo una singola occorrenza. Quando aggiungiamo un quantificatore cambia
+il numero di occorrenze che vogliamo trovare. Nella tabella seguente trovi
+l’elenco dei quantificatori disponibili:</p>
+<!-- raw HTML omitted -->
+<pre><code>&lt;th&gt;
+  significato
+&lt;/th&gt;
+
+&lt;th&gt;
+  regex
+&lt;/th&gt;
+
+&lt;th&gt;
+  esempio
+&lt;/th&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  zero o 1
+&lt;/td&gt;
+
+&lt;td&gt;
+  abc?
+&lt;/td&gt;
+
+&lt;td&gt;
+  ab, abc
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  zero o più
+&lt;/td&gt;
+
+&lt;td&gt;
+  abc*
+&lt;/td&gt;
+
+&lt;td&gt;
+  ab,abc,abcc,abccc,abcccc,… etc
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  uno o più
+&lt;/td&gt;
+
+&lt;td&gt;
+  abc+
+&lt;/td&gt;
+
+&lt;td&gt;
+  abc,abcc,abccc,abcccc,…etc
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  esattamente n volte
+&lt;/td&gt;
+
+&lt;td&gt;
+  abc{2}
+&lt;/td&gt;
+
+&lt;td&gt;
+  abcc
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<pre><code>&lt;td&gt;
+  da n a m volte
+&lt;/td&gt;
+
+&lt;td&gt;
+  abc{2,3}
+&lt;/td&gt;
+
+&lt;td&gt;
+  abcc,abccc
+&lt;/td&gt;
+</code></pre>
+<!-- raw HTML omitted -->
+<h2 id="concludendo">Concludendo</h2>
+<p>Abbiamo appreso la sintassi base che ci consente di fare un pò di pratica.
+E’ una buona idea fare quale esperimento in una IDE oppure sulla <!-- raw HTML omitted -->pagina demo<!-- raw HTML omitted -->.</p>
+<p>La seconda parte di questa guida è ora <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/">pubblicata</a>.</p>
+<p>Questo articolo è una traduzione autorizzata di <a href="http://www.agillo.net/regex-primer-part-1/">Regex Primer: Part 1</a>.
+Ringrazio l’autore per il permesso accordatomi.</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

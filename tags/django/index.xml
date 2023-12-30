@@ -14,6 +14,10 @@
       <pubDate>Wed, 31 Oct 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/la-documentazione-di-django-in-formato-epub/</guid>
       <description>Grazie al lavoro di Pedro Kroger la documentazione di Django è disponibile in formato ePub:</description>
+      <content:encoded><![CDATA[<p>Grazie al lavoro di Pedro Kroger la documentazione di Django è disponibile in formato ePub:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+]]></content:encoded>
     </item>
     <item>
       <title>Servire 500 milioni di utenti con Python e Django</title>
@@ -22,6 +26,16 @@
       <guid>https://nicolaiarocci.com/servire-500-milioni-di-utenti-al-mese-con-python-e-django/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;A &lt;!-- raw HTML omitted --&gt;PyCon 2011&lt;!-- raw HTML omitted --&gt;, la conferenza mondiale sul linguaggio Python che si è conclusa da poco ad Atlanta, gli ingegneri di &lt;!-- raw HTML omitted --&gt;DISQUS&lt;!-- raw HTML omitted --&gt; hanno presentato una interessante relazione sulla loro infrastruttura hardware e software. DISQUS è un servizio di gestione dei commenti adottato da centinaia di migliaia di siti nel mondo. Tra i clienti figurano nomi importanti come CNN, MTV, IGN, Engadget, Mashable e tanti altri. Nel mese di marzo 2011 il network DISQUS ha gestito &lt;strong&gt;500 milioni di visitatori unici&lt;/strong&gt;. Questi volumi sono gestiti da una azienda che vanta &lt;strong&gt;16 addetti, dei quali solo 8 (otto!) ingegneri software&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Come è possibile tutto ciò? Gran parte del merito va attribuito al metodo produttivo adottato da DISQUS: &lt;!-- raw HTML omitted --&gt;metodologia agile&lt;!-- raw HTML omitted --&gt;, hardware in affitto e facilmente scalabile, grande fiducia nella capacità dei propri talenti: ognuno degli otto ingegneri è anche product manager. Secondo DISQUS tutto questo è stato possibile anche e soprattutto grazie a una scelta che si è rivelata determinante: l’adozione del linguaggio &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Python&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; e del web framework &lt;!-- raw HTML omitted --&gt;Django&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->A <!-- raw HTML omitted -->PyCon 2011<!-- raw HTML omitted -->, la conferenza mondiale sul linguaggio Python che si è conclusa da poco ad Atlanta, gli ingegneri di <!-- raw HTML omitted -->DISQUS<!-- raw HTML omitted --> hanno presentato una interessante relazione sulla loro infrastruttura hardware e software. DISQUS è un servizio di gestione dei commenti adottato da centinaia di migliaia di siti nel mondo. Tra i clienti figurano nomi importanti come CNN, MTV, IGN, Engadget, Mashable e tanti altri. Nel mese di marzo 2011 il network DISQUS ha gestito <strong>500 milioni di visitatori unici</strong>. Questi volumi sono gestiti da una azienda che vanta <strong>16 addetti, dei quali solo 8 (otto!) ingegneri software</strong>.</p>
+<p>Come è possibile tutto ciò? Gran parte del merito va attribuito al metodo produttivo adottato da DISQUS: <!-- raw HTML omitted -->metodologia agile<!-- raw HTML omitted -->, hardware in affitto e facilmente scalabile, grande fiducia nella capacità dei propri talenti: ognuno degli otto ingegneri è anche product manager. Secondo DISQUS tutto questo è stato possibile anche e soprattutto grazie a una scelta che si è rivelata determinante: l’adozione del linguaggio <!-- raw HTML omitted --><!-- raw HTML omitted -->Python<!-- raw HTML omitted --><!-- raw HTML omitted --> e del web framework <!-- raw HTML omitted -->Django<!-- raw HTML omitted -->.</p>
+<h2 id="il-video-della-conferenza">Il video della conferenza</h2>
+<p>Fortunatamente gran parte dei contenuti di PyCon 2011 sono disponibili al pubblico sotto forma di registrazioni audio-video e di slideshow. In questo filmato possiamo seguire Jason Yan e David Cramer (due dei super-otto, quanto sono giovani!) nel corso della loro conferenza.</p>
+<!-- raw HTML omitted -->
+<h2 id="le-slides">Le slides</h2>
+<p>Se non avete tempo (o voglia) per seguire l’intera lezione potete sempre dare una occhiata a queste slides che spiegano in maniera concisa il processo di sviluppo e deployment e, soprattutto, pregi e difetti del lavoro con Python. Curioso come molti di loro abbiano cominciato da Django prima ancora di imparare Python! E’ un po’ la dimostrazione che prima viene il talento, poi il know-how.</p>
+<!-- raw HTML omitted -->
+<h2 id="una-questione-di-metodo">Una questione di metodo</h2>
+<p>Da molti Python è considerato un linguaggio inadatto a gestire siti con grande traffico o applicazioni molto impegnative sotto il profilo delle prestazioni. L’esperienza DISQUS dimostra platealmente il contrario. In un prossimo articolo mi riprometto di approfondire la questione Python/Prestazioni. Se qualcuno vuol dire la sua in proposito è il benvenuto (sia sotto forma di commento che di <em>guest post</em> eventualmente).</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

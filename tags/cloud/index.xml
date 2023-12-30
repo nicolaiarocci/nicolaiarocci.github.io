@@ -15,6 +15,12 @@
       <guid>https://nicolaiarocci.com/amazon-ec2-quanto-si-risparmia-con-le-reserved-instances-rispetto-alle-classiche-on-demand/</guid>
       <description>Amazon offre sconti significativi per chi sceglie le istanze riservate al posto di quelle on-demand. Dal punto di vista finanziario, e se avete intenzione di usare EC2 per almeno un anno, passare dalle istanze on-demand a quelle riservate potrebbe aver senso. Sborserete una cifra più alta inizialmente, ma il costo mensile si ridurrà sensibilmente.
 Per quanto io ne sappia il tool sviluppato da Mike Khristo è il primo che consente di confrontare direttamente, senza tanti giri di parole, il costo delle due soluzioni:</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Amazon offre sconti significativi per chi sceglie le istanze riservate al posto di quelle on-demand. Dal punto di vista finanziario, e se avete intenzione di usare EC2 per almeno un anno, passare dalle istanze on-demand a quelle riservate potrebbe aver senso. Sborserete una cifra più alta inizialmente, ma il costo mensile si ridurrà sensibilmente.</p>
+</blockquote>
+<p>Per quanto io ne sappia il tool sviluppato da Mike Khristo è il primo che consente di confrontare direttamente, senza tanti giri di parole, il costo delle due soluzioni:</p>
+<!-- raw HTML omitted -->
+]]></content:encoded>
     </item>
     <item>
       <title>SQL Server e il Cloud di Amazon EC2: vantaggi e svantaggi</title>
@@ -23,6 +29,13 @@ Per quanto io ne sappia il tool sviluppato da Mike Khristo è il primo che conse
       <guid>https://nicolaiarocci.com/sql-server-e-il-cloud-di-amazon-ec2-vantaggi-e-svantaggi/</guid>
       <description>Se state considerando l’opzione Cloud per il vostro SQL Server non lasciatevi sfuggire l’ultimo articolo di Jeremiah Peschka, Configuring SQL Server in Amazon EC2. A dispetto del titolo non si tratta di un tutorial, ma di una analisi accurata di vantaggi e svantaggi legati al deploy di un database SQL nel Cloud, a prescindere dalla piattaforma adottata.
 Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità. Nel cloud, anche la cacca profuma di rose.</description>
+      <content:encoded><![CDATA[<p>Se state considerando l’opzione Cloud per il vostro SQL Server non lasciatevi sfuggire l’ultimo articolo di Jeremiah Peschka, <!-- raw HTML omitted -->Configuring SQL Server in Amazon EC2<!-- raw HTML omitted -->. A dispetto del titolo non si tratta di un tutorial, ma di una analisi accurata di vantaggi e svantaggi legati al <em>deploy</em> di un database SQL nel Cloud, a prescindere dalla piattaforma adottata.</p>
+<blockquote>
+<p>Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità. Nel cloud, anche la cacca profuma di rose. In teoria queste affermazioni sono corrette, ma occorre darci dentro per trasformarle in realtà. Specialmente quando c’è un database nel mezzo.</p>
+</blockquote>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+]]></content:encoded>
     </item>
     <item>
       <title>Frammenti di Cloud Computing al Romagna Camp 2011</title>
@@ -31,6 +44,14 @@ Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità
       <guid>https://nicolaiarocci.com/frammenti-di-cloud-computing-al-romagna-camp-2011/</guid>
       <description>&lt;p&gt;Gran bella esperienza quella del &lt;!-- raw HTML omitted --&gt;Romagna Camp&lt;!-- raw HTML omitted --&gt;. Un mix perfetto di networking, lavoro e (tanto) divertimento. Chi c’era sa, chi non c’era faccia un giro sul tag &lt;!-- raw HTML omitted --&gt;#romagnacamp&lt;!-- raw HTML omitted --&gt; di Twitter e saprà.&lt;/p&gt;
 &lt;p&gt;Scopro con disappunto che SlideShare fa un pessimo servizio a Keynote, non rendendo né transizioni né animazioni e sostituendo i font come gli pare. Ecco dunque la mia presentazione, o piuttosto quel che ne rimane dopo l’upload*:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Gran bella esperienza quella del <!-- raw HTML omitted -->Romagna Camp<!-- raw HTML omitted -->. Un mix perfetto di networking, lavoro e (tanto) divertimento. Chi c’era sa, chi non c’era faccia un giro sul tag <!-- raw HTML omitted -->#romagnacamp<!-- raw HTML omitted --> di Twitter e saprà.</p>
+<p>Scopro con disappunto che SlideShare fa un pessimo servizio a Keynote, non rendendo né transizioni né animazioni e sostituendo i font come gli pare. Ecco dunque la mia presentazione, o piuttosto quel che ne rimane dopo l’upload*:</p>
+<p>Essendo l’ultimo speaker ho dovuto correre un po’ per recuperare tempo e non far deragliare il programma. Probabilmente si tratta di una cosa positiva perché almeno così non ho avuto il tempo di annoiare il pubblico. E’ andata peggio al povero</p>
+<p><!-- raw HTML omitted -->Fullo<!-- raw HTML omitted -->, a cui è toccato in sorte di raccontare HTML5 in dieci minuti!</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Nell’occasione ho approfittato della disponibilità di <!-- raw HTML omitted -->Luca Sartoni<!-- raw HTML omitted --> (che è anche un bravo fotografo) per <a href="http://nicolaiarocci.com/about/" title="Chi sono | Nicola Iarocci">rifarmi il look</a>. Grazie infine ad <!-- raw HTML omitted -->Alessandra<!-- raw HTML omitted -->, ottima organizzatrice di eventi e sorprendente <em><!-- raw HTML omitted -->social tanguera extraordinaire<!-- raw HTML omitted --></em>.</p>
+<p><em>(*) se per un attimo vi è sembrato che il tizio in copertina indossasse le Converse al contrario bé, allora sappiate che è proprio così.</em></p>]]></content:encoded>
     </item>
     <item>
       <title>Il Cloud Computing è davvero affidabile?</title>
@@ -41,6 +62,24 @@ Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità
 &lt;p&gt;Migliaia di aziende, enti pubblici e organizzazioni non governative internazionali che oggi usano la API dovranno trovare soluzioni alternative, probabilmente a pagamento. Almeno gli è stato concesso un po’ di tempo: Google garantisce un periodo di tre anni prima della sospensione del servizio.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Questa notizia induce ancora una volta alcune riflessioni circa l’affidabilità del &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Cloud Computing&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, modello di sviluppo verso il quale, volenti o nolenti, tutti noi siamo diretti.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->E’ di pochi giorni fa la <!-- raw HTML omitted -->notizia<!-- raw HTML omitted --> che alcuni servizi API gratuiti forniti da Google verranno chiusi. Tra questi spicca <strong><!-- raw HTML omitted -->Translate API<!-- raw HTML omitted --></strong>, la più apprezzata libreria gratuita per la traduzione automatica sul web. Basta una occhiata ai <!-- raw HTML omitted -->commenti <!-- raw HTML omitted -->per rendersi conto dello sconcerto generato dall’annuncio, per altro del tutto inatteso. Molti si dicono disposti a pagare pur di non rinunciare alla API, ma non è  questa l’idea di Google che in alternativa propone <!-- raw HTML omitted -->Google Translate Element<!-- raw HTML omitted -->, widget gratuito che certo non è una soluzione accettabile per applicazioni che attualmente integrano la API in maniera trasparente. Immagino che proprio qui stia il nocciolo della questione: una API non è visibile né apprezzabile dall’esterno, mentre un widget promuove il brand Google.</p>
+<p>Migliaia di aziende, enti pubblici e organizzazioni non governative internazionali che oggi usano la API dovranno trovare soluzioni alternative, probabilmente a pagamento. Almeno gli è stato concesso un po’ di tempo: Google garantisce un periodo di tre anni prima della sospensione del servizio.</p>
+<!-- raw HTML omitted -->
+<p>Questa notizia induce ancora una volta alcune riflessioni circa l’affidabilità del <strong><!-- raw HTML omitted -->Cloud Computing<!-- raw HTML omitted --></strong>, modello di sviluppo verso il quale, volenti o nolenti, tutti noi siamo diretti.</p>
+<p><!-- raw HTML omitted -->Stand-Alone Vs Cloud Computing<!-- raw HTML omitted --></p>
+<p>Le vecchie applicazioni stand alone funzionano sempre e comunque. Prima o poi il programmatore originale sparisce dalla circolazione; del codice sorgente (se disponibile) nessuno capisce più nulla, ma l’applicazione continua a girare. E se una delle librerie usate dall’applicazione (le vecchie .dll, per capirci) viene improvvisamente abbandonata dal produttore? Non ci sono problemi, l’installazione gira come prima.</p>
+<p>Nel dorato mondo <!-- raw HTML omitted -->PaaS<!-- raw HTML omitted --> le applicazioni smettono di funzionare non appena una singola API remota diventa inaccessibile. Non mi sembra una differenza da poco.</p>
+<h2 id="disservizi-e-sorprese">Disservizi e sorprese</h2>
+<p>Si potrebbe obiettare che appoggiarsi a una API gratuita per sviluppare un prodotto strategico non è una mossa intelligente e che comunque casi di disservizi come questo sono assai rari. In Aprile alcuni server Amazon AWS (la piattaforma cloud più usata al mondo) <!-- raw HTML omitted -->sono andati in corto circuito<!-- raw HTML omitted --> lasciando improvvisamente a piedi centinaia di fornitori di servizi e diversi milioni di loro utenti. Il disservizio, durato oltre ventiquattro ore, è avvenuto nonostante AWS sia un servizio a pagamento di altissimo livello che garantisce un livello di Service Level Agreement (SLA) superiore al 99%.</p>
+<p>Un caso diverso ma dalle stesse conseguenze  si è verificato proprio in casa Google poche settimane fa, quando <!-- raw HTML omitted -->Google App Engine<!-- raw HTML omitted --> è diventato a pagamento (almeno per alcuni livelli di utilizzo prima gratuiti), mettendo di fatto fuori mercato molti piccoli servizi gratuiti che avevano scelto la piattaforma cloud del gigante di Mountain View.</p>
+<h2 id="le-contromisure-necessarie">Le contromisure necessarie</h2>
+<p>Non per questo penso che il cloud computing vada evitato, ne sono anzi un sostenitore convinto, ma è importante per noi tutti <strong>comprendere a fondo i limiti e i rischi che questo nuovo paradigma porta con sé</strong>.</p>
+<p>Un paio di anni fa ho scritto <!-- raw HTML omitted -->un programma di backup remoto<!-- raw HTML omitted --> che si appoggia a <!-- raw HTML omitted -->Simple Storage Service<!-- raw HTML omitted --> (S3), uno dei servizi della piattaforma Amazon AWS. Il programma ha continuato a lavorare impunemente mentre il disastro si abbatteva sui server Amazon della East Coast perché, fin dall’inizio, era progettato per far fronte a evenienze come questa. Usa server multipli ridondanti dislocati su più aree geografiche, in modo che il crash di una singola server farm non lo mandi in tilt. E’ bene aspettarsi il peggio dai servizi cloud per essere pronti a gestire la crisi se (quando) verrà.</p>
+<p>Per quanto riguarda il modello di business, è necessario adottarne uno che garantisca margini sufficienti a compensare improvvisi aumenti delle tariffe, anche solo per il periodo necessario alla eventuale dislocazione. La tendenza generale del mercato è comunque rassicurante: in questi anni costi dei servizi cloud sono calati costantemente.</p>
+<h2 id="le-responsabilità-stanno-da-entrambe-le-parti">Le responsabilità stanno da entrambe le parti</h2>
+<p>E se domani mi si annunciasse che S3 è improvvisamente deprecato? Fortunatamente per me e per le migliaia di altri il servizio non è gratuito e assicura ad Amazon utili stellari, ma non è questo il punto. Il punto è che in ogni momento <em>potrebbe succedere</em>.</p>
+<p>I fornitori di servizi cloud hanno una grande responsabilità: garantire la continuità del loro servizio anche e soprattutto nel lungo periodo. Speriamo che ne siano coscienti. Noi programmatori e analisti dobbiamo tenere conto dei rischi che corriamo quando scegliamo di lavorare su piattaforme cloud, progettando i nostri prodotti di conseguenza.</p>
+<p><em>Aggiornamento. Venerdì 3 giugno Google ha ritoccato l’annuncio ufficiale. La chiusura è annullata e la Translate API verrà messa a pagamento.</em></p>]]></content:encoded>
     </item>
     <item>
       <title>Ecco Cloud9 IDE la Piattaforma per Programmare nel Cloud</title>
@@ -48,6 +87,113 @@ Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità
       <pubDate>Tue, 01 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/arriva-cloud9-ide-la-piattaforma-per-il-software-online/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Se crei applicazioni per il web non avrebbe senso svilupparle online? Con questa domanda e con uno slogan ben congegnato (&lt;em&gt;Il tuo codice sempre disponibile, ovunque tu sia&lt;/em&gt;) &lt;strong&gt;&lt;a href=&#34;http://cloud9ide.com/&#34;&gt;Cloud9 IDE&lt;/a&gt;&lt;/strong&gt; si presenta finalmente al pubblico. L’idea iniziale era una piattaforma online condivisa e open source per sviluppare codice JavaScript direttamente nel browser. Talento e ambizione hanno consentito di puntare più in alto e Cloud9 è diventata una piattaforma completa per la produzione di software &lt;em&gt;in the cloud&lt;/em&gt; (&lt;a href=&#34;http://en.wikipedia.org/wiki/Platform_as_a_service&#34;&gt;PaaS&lt;/a&gt;). Ma vediamo meglio di cosa si tratta.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Se crei applicazioni per il web non avrebbe senso svilupparle online? Con questa domanda e con uno slogan ben congegnato (<em>Il tuo codice sempre disponibile, ovunque tu sia</em>) <strong><a href="http://cloud9ide.com/">Cloud9 IDE</a></strong> si presenta finalmente al pubblico. L’idea iniziale era una piattaforma online condivisa e open source per sviluppare codice JavaScript direttamente nel browser. Talento e ambizione hanno consentito di puntare più in alto e Cloud9 è diventata una piattaforma completa per la produzione di software <em>in the cloud</em> (<a href="http://en.wikipedia.org/wiki/Platform_as_a_service">PaaS</a>). Ma vediamo meglio di cosa si tratta.</p>
+<p>Già un mese fa <a href="http://nicolaiarocci.com/il-futuro-del-codici-sorgente-e-online/">presentando il Progetto Orion</a> accennavo a Cloud9, allora in beta avanzata. Erano disponibili pochi dettagli e soprattutto mancavano i prezzi. Partiamo dalle caratteristiche salienti.</p>
+<h2 id="punti-di-forza">Punti di forza</h2>
+<p>Cloud9 si vanta di possedere il miglior editor online per linguaggi dinamici. In effetti l’editor è un progetto originale Mozilla (<a href="http://mozillalabs.com/skywriter/">Skywriter</a>), poi integrato in <a href="http://ace.ajax.org/">Ace</a>. Il codice viene convalidato in tempo reale ed è possibile fare debug e lanciare applicazioni direttamente dal browser. Molte le funzioni per la collaborazione: chat integrato, modifiche condivise in tempo reale, team management e, <em>dulcis in fundo</em>, integrazione completa con <a href="https://github.com/">GitHub</a> (una UI per GitHub è in lavorazione, al momento è disponibile la classica linea di comando). Vedere per credere:</p>
+<!-- raw HTML omitted -->
+<pre><code>      &lt;p class=&quot;wp-caption-text&quot;&gt;
+        Editor per linguaggi dinamici integrato nel browser
+      &lt;/p&gt;
+    &lt;/div&gt;&lt;/td&gt; 
+    
+    &lt;td&gt;
+      &lt;p&gt;
+        &lt;div id=&quot;attachment_1274&quot; style=&quot;width: 220px&quot; class=&quot;wp-caption alignright&quot;&gt;
+          &lt;a href=&quot;images/cloud9_2.png&quot; rel=&quot;lightbox[1208]&quot;&gt;&lt;img class=&quot;size-thumbnail wp-image-1274  &quot; title=&quot;Convalida del codice JavaScript in tempo reale&quot; src=&quot;http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/cloud9_2-150x100.png?w=150&quot; alt=&quot;&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+          
+          &lt;p class=&quot;wp-caption-text&quot;&gt;
+            Convalida del codice JavaScript in tempo reale
+          &lt;/p&gt;
+        &lt;/div&gt;&lt;/td&gt; &lt;/tr&gt; 
+        
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;p&gt;
+              &lt;div id=&quot;attachment_1275&quot; style=&quot;width: 220px&quot; class=&quot;wp-caption alignright&quot;&gt;
+                &lt;a href=&quot;http://i2.wp.com/nicolaiarocci.com/wp-content/uploads/cloud9_21.png&quot; rel=&quot;lightbox[1208]&quot;&gt;&lt;img class=&quot;size-thumbnail wp-image-1275   &quot; title=&quot;Chat intengrato in Cloud9&quot; src=&quot;images/cloud9_21-150x100.png?w=150&quot; alt=&quot;&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+                
+                &lt;p class=&quot;wp-caption-text&quot;&gt;
+                  Chat intengrato in Cloud9
+                &lt;/p&gt;
+              &lt;/div&gt;&lt;/td&gt; 
+              
+              &lt;td&gt;
+                &lt;p&gt;
+                  &lt;div id=&quot;attachment_1276&quot; style=&quot;width: 220px&quot; class=&quot;wp-caption alignright&quot;&gt;
+                    &lt;a href=&quot;http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/cloud9_4.png&quot; rel=&quot;lightbox[1208]&quot;&gt;&lt;img class=&quot;size-thumbnail wp-image-1276    &quot; title=&quot;Gruppi di lavoro&quot; src=&quot;http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/cloud9_4-150x100.png?w=150&quot; alt=&quot;&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+                    
+                    &lt;p class=&quot;wp-caption-text&quot;&gt;
+                      Gruppi di lavoro
+                    &lt;/p&gt;
+                  &lt;/div&gt;&lt;/td&gt; &lt;/tr&gt; 
+                  
+                  &lt;tr&gt;
+                    &lt;td&gt;
+                      &lt;p&gt;
+                        &lt;div id=&quot;attachment_1277&quot; style=&quot;width: 220px&quot; class=&quot;wp-caption alignright&quot;&gt;
+                          &lt;a href=&quot;images/cloud9_5.png&quot; rel=&quot;lightbox[1208]&quot;&gt;&lt;img class=&quot;size-thumbnail wp-image-1277  &quot; title=&quot;Run e Debug online&quot; src=&quot;http://i1.wp.com/nicolaiarocci.com/wp-content/uploads/cloud9_5-150x100.png?w=150&quot; alt=&quot;&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+                          
+                          &lt;p class=&quot;wp-caption-text&quot;&gt;
+                            Run e Debug online
+                          &lt;/p&gt;
+                        &lt;/div&gt;&lt;/td&gt; 
+                        
+                        &lt;td&gt;
+                          &lt;p&gt;
+                            &lt;div id=&quot;attachment_1278&quot; style=&quot;width: 220px&quot; class=&quot;wp-caption alignright&quot;&gt;
+                              &lt;a href=&quot;images/cloud9_6.png&quot; rel=&quot;lightbox[1208]&quot;&gt;&lt;img class=&quot;size-thumbnail wp-image-1278  &quot; title=&quot;Integrazione con GitHub&quot; src=&quot;http://i1.wp.com/nicolaiarocci.com/wp-content/uploads/cloud9_6-150x100.png?w=150&quot; alt=&quot;&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+                              
+                              &lt;p class=&quot;wp-caption-text&quot;&gt;
+                                Integrazione con GitHub
+                              &lt;/p&gt;
+                            &lt;/div&gt;&lt;/td&gt; &lt;/tr&gt; 
+                            
+                            &lt;tr&gt;
+                              &lt;td&gt;
+                                &lt;p&gt;
+                                  &lt;div id=&quot;attachment_1279&quot; style=&quot;width: 220px&quot; class=&quot;wp-caption alignright&quot;&gt;
+                                    &lt;a href=&quot;http://i2.wp.com/nicolaiarocci.com/wp-content/uploads/cloud9_7.png&quot; rel=&quot;lightbox[1208]&quot;&gt;&lt;img class=&quot;size-thumbnail wp-image-1279  &quot; title=&quot;Team Management&quot; src=&quot;images/cloud9_7-150x100.png?w=150&quot; alt=&quot;&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+                                    
+                                    &lt;p class=&quot;wp-caption-text&quot;&gt;
+                                      Team Management
+                                    &lt;/p&gt;
+                                  &lt;/div&gt;&lt;/td&gt; 
+                                  
+                                  &lt;td&gt;
+                                    &lt;p&gt;
+                                      &lt;div id=&quot;attachment_1280&quot; style=&quot;width: 220px&quot; class=&quot;wp-caption alignright&quot;&gt;
+                                        &lt;a href=&quot;images/cloud9_8.png&quot; rel=&quot;lightbox[1208]&quot;&gt;&lt;img class=&quot;size-thumbnail wp-image-1280  &quot; title=&quot;Accedi al codice ovunque tu sia&quot; src=&quot;http://i1.wp.com/nicolaiarocci.com/wp-content/uploads/cloud9_8-150x100.png?w=150&quot; alt=&quot;&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+                                        
+                                        &lt;p class=&quot;wp-caption-text&quot;&gt;
+                                          Accedi al codice ovunque tu sia
+                                        &lt;/p&gt;
+                                      &lt;/div&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; 
+                                      
+                                      &lt;h2&gt;
+                                        Linguaggi e Frameworks
+                                      &lt;/h2&gt;
+                                      
+                                      &lt;p&gt;
+                                        JavaScript naturalmente è supportato al 100%. Ruby anche, seppure parzialmente. Cloud9 mira a integrare tutti i linguaggi e i framework più diffusi. Per quanto riguarda i linguaggi della galassia Microsoft per ora nulla da fare (ma c&amp;#8217;è sempre &lt;strong&gt;&lt;a href=&quot;http://www.coderun.com/&quot;&gt;CodeRun&lt;/a&gt;&lt;/strong&gt;), anche se ho colto un (molto) blando accenno a un futuro supporto per Mono. Cloud9 supporterà il &lt;em&gt;one-click-deploy&lt;/em&gt; su altre piattaforme cloud e il mounting di drive locali per consentire l&amp;#8217;accesso ai files remoti da parte di applicazioni esterne. Insomma il menù è ricco e invitante, bisognerà vedere a che ritmo si succederanno le implementazioni.
+                                      &lt;/p&gt;
+                                      
+                                      &lt;h2&gt;
+                                        Piani tariffari
+                                      &lt;/h2&gt;
+                                      
+                                      &lt;p&gt;
+                                        Qui la faccenda si fa ancor più interessante e per certi versi sorprendente. I progetti open source possono accedere a Cloud9 gratuitamente. Quelli commerciali possono scegliere tra due piani tariffari, uno giornaliero (€0.33/giorno) e uno mensile (€39/mese). Il piano giornaliero mi incuriosisce parecchio. Se ho ben capito si pagano solo i giorni di uso effettivo, se così fosse si tratterebbe di una soluzione davvero valida oltre che originale. Ad ogni buon conto è previsto un periodo di prova di 30 giorni.
+                                      &lt;/p&gt;
+                                      
+                                      &lt;h2&gt;
+                                        Coraggio!
+                                      &lt;/h2&gt;
+                                      
+                                      &lt;p&gt;
+                                        Sono intrigato un bel pò, l&amp;#8217;avrete capito. Le titubanze sono legittime, per carità. Sicurezza e riservatezza sono aspetti importanti; queste piattaforme cloud potranno garantirle? Molti di noi hanno superato da tempo queste paure appoggiandosi (per progetti aperti e privati) a GitHub, Mercurial e altri servizi repository. E&amp;#8217; forse giunto il momento di cominciare a sporcarsi le mani. Prima o poi dovremo farci i conti comunque, non credete?
+                                      &lt;/p&gt;
+</code></pre>]]></content:encoded>
     </item>
     <item>
       <title>Programmazione, SEO, Startups – Il Meglio della Settimana #2</title>
@@ -55,6 +201,30 @@ Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità
       <pubDate>Mon, 28 Feb 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/programmazione-seo-startups-il-meglio-della-settimana-2/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Eccoci alla selezione delle notizie e i link che ho trovato più interessanti questa settimana. E’ stata una settimana ricca di avvenimenti e non è stato facile decidere cosa lasciare fuori. Andiamo a cominciare:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Eccoci alla selezione delle notizie e i link che ho trovato più interessanti questa settimana. E’ stata una settimana ricca di avvenimenti e non è stato facile decidere cosa lasciare fuori. Andiamo a cominciare:</p>
+<h2 id="like-button-facebook-cambia-le-regole">Like Button: Facebook cambia le regole</h2>
+<p>Questa settimana Facebook ha sorpreso tutti cambiando radicalmente il funzionamento del pulsante Mi Piace. Su <strong>BigThink</strong> Daniele Ghidoli è tra i primi ad accorgersene e a segnalare la novità. <a href="http://www.bigthink.it/like-button-facebook-cambia/">Leggi l’articolo su BigThink</a>.</p>
+<h2 id="google-migliora-l8217algoritmo-di-indicizzazione-del-web">Google migliora l’algoritmo di indicizzazione del web</h2>
+<p>Negli ultimi mesi le critiche sulla qualità ****delle ricerche Google si sono moltiplicate. Le famigerate <em>content farm</em> hanno conquistato le prime posizioni per molte ricerche sulle keyword più importanti. Il gigante di Mountain View annuncia a sorpresa la contromossa, ossia l’aggiornamento del suo algoritmo più importante. L’obiettivo è penalizzare i siti di scarsa qualità e migliorare il ranking di quelli con contenuti validi. <a href="http://googleblog.blogspot.com/2011/02/finding-more-high-quality-sites-in.html">Leggi l’annuncio sul blog ufficiale di Google</a>.</p>
+<h2 id="e8217-in-arrivo-una-nuova-bolla-delle-dot-com">E’ in arrivo una nuova Bolla delle Dot-Com?</h2>
+<p>Le incredibili valutazioni economiche di servizi come Twitter e Facebook inducono molti a sostenere che ci troviamo nel bel mezzo della seconda bolla delle Dot-Com, declinata questa volta ai social network. <strong>TagliaBlog</strong> pubblica la traduzione di un bell’articolo del Wall Street Journal che, prendendo spunto dalla situazione di Twitter, tenta di fare il punto della situazione. <a href="http://blog.tagliaerbe.com/2011/02/nuova-bolla-dot-com.html">Leggi l’articolo su TagliaBlog</a></p>
+<h2 id="come-un-tweet-sbagliato-può-portare-al-successo-commerciale-e-a-una-raccolta-di-sangue">Come un Tweet sbagliato può portare al successo commerciale (e a una raccolta di sangue)</h2>
+<p>Quando Gloria Huang si accorge di aver twittato per sbaglio la sua richiesta di birra fresca dall’account del datore di lavoro (la Croce Rossa) non immagina certo di scatenare una donazione di sangue di massa e il successo commerciale della sua birra preferita. <a href="http://money.cnn.com/2011/02/17/smallbusiness/dogfish_redcross/index.htm">Leggi questa storia sul sito della CNN</a></p>
+<h2 id="lo-stato-attuale-del-web-design-trends-2010">Lo stato attuale del Web Design: Trends 2010</h2>
+<p>Il Web Design sta vivendo un’epoca d’oro. Abbiamo a disposizione strumenti potenti (CSS3, HTML5, il font-embedding), migliaia di risorse gratuite e decine di vivaci comunità online. Ma quali sono le nuove tendenze? Quali le tecniche, i concetti e le idee che si stanno affermando? Questa settimana <strong>Smashing Magazine</strong> tenta di anticipare il Web Design del prossimo futuro. <a href="http://www.smashingmagazine.com/2010/05/04/web-design-trends-2010/">Leggi l’articolo di Smashing Magazine</a>.</p>
+<h2 id="diffondiamo-la-cultura-digitale-in-italia">Diffondiamo la Cultura Digitale in Italia</h2>
+<p>Interessante il progetto Cultura Digitale curato e ideato da Fabio Lalli e dagli Indigeni Digitali. “Si vuole creare un libro gratuito da distribuire on line e off line che parli della Cultura Digitale, di cosa significa per ognuno di noi”. Chiunque può contribuire pubblicando il proprio pensiero sul wall di Cultura Digitale. L’idea è ingegnosa e ben implementata. Funziona anche perché solletica l’ego di ognuno di noi e sfrutta abilmente i meccanismi virali propri del web 2.0. I contributi affluiscono copiosi.  <a href="http://culturadigitale.com/">Visita il sito di Cultura Digitale</a></p>
+<h2 id="mono-210">Mono 2.10</h2>
+<p>La versione 2.10 di Mono, la piattaforma open source e multi piattaforma alternativa al Microsoft NET Framework, è stata rilasciata questa settimana. Tra le novità aggiornamenti ai compilatori C# e VB, supporto a MVC3, F# e Native Client Google oltre alla soluzione di molti problemi conosciuti. <a href="http://www.mono-project.com/Release_Notes_Mono_2.10">Leggi le Release Notes ufficiali</a>.</p>
+<h2 id="python-32">Python 3.2</h2>
+<p>Questa è anche la settimana che ha visto l’uscita dell’ultima release del linguaggio Python, la 3.2. La documentazione ufficiale è stata aggiornata con un documento che illustra accuratamente le novità introdotte con questo aggiornamento. <a href="http://docs.python.org/dev/whatsnew/3.2.html">Leggi le novità su Python 3.2</a>.</p>
+<h2 id="google-cloud-connect">Google Cloud Connect</h2>
+<p>Google Cloud Connect è un plugin per Microsoft Office che consente di sincronizzare i documenti Office appoggiandosi alla piattaforma Google Docs. Rilasciato da Google, questo plugin rende semplice la collaborazione tra utenti che non vogliono o non possono rinunciare alla suite Microsoft. I documenti possono essere aggiornati sia offline che online. <a href="http://www.readwriteweb.com/enterprise/2011/02/google-releases-microsoft-offi.php">Leggi tutto su Google Cloud Connect</a>.</p>
+<h2 id="i-5-migliori-tool-gratuiti-per-sql-server">I 5 migliori tool gratuiti per SQL Server</h2>
+<p>Sei pigro e la tua azienda è al verde. Che fare? Brent Ozar, guru SQL Server e uno dei progettisti di Stack Overflow, propone cinque tools gratuiti per la gestione e manutenzione di SQL Server. <a href="http://www.brentozar.com/archive/2011/02/my-favorite-free-sql-server-downloads/">Leggi l’articolo sul sito di Brent Ozar</a>.</p>
+<h2 id="introduzione-alle-regular-expression">Introduzione alle Regular Expression</h2>
+<p>Concludo con una svergognata auto promozione. Introduzione alle Regular Expression è una serie in tre parti, attualmente in pubblicazione, che ha l’ambizione di consentire a chiunque di avvicinarsi alle Regular Expression. Le RegEx sono un strumento potente e spesso incompreso, utile non solo ai programmatori ma a chiunque abbia a che fare con le ricerche su testo. <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/">Leggi la prima parte della Introduzione alle Regular Expression.</a></p>
+<p>Vi è piaciuta questa selezione? Fatemi sapere che ne pensate con un bel commento qui sotto, lo apprezzerei molto. Alla prossima settimana!</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

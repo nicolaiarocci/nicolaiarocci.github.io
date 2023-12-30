@@ -15,6 +15,24 @@
       <guid>https://nicolaiarocci.com/im-a-microsoft-mvp-once-again/</guid>
       <description>I am happy and humbled to have been awarded the Microsoft MVP Award for the seventh consecutive year. July 1, the award assignation day, always comes with curiosity and a bit of trepidation.
 Being a member of the MVP community has been a very positive experience for me, especially in the years before COVID, when the MVP Summit, the main MVP event, was held in person in Seattle at the Microsoft HQ.</description>
+      <content:encoded><![CDATA[<p>I am happy and humbled to have been awarded the Microsoft MVP Award for the
+seventh consecutive year. July 1, the award assignation day, always comes with
+curiosity and a bit of trepidation.</p>
+<p>Being a member of the MVP community has been a very positive experience for me,
+especially in the years before COVID, when the MVP Summit, the main MVP event,
+was held in person in Seattle at the Microsoft HQ. That assembly of experienced
+developers from all over the world is an exhilarating experience. Smart guys
+and gals from different cultures gather to meet the people responsible for
+their daily drivers&rsquo; tools and technologies. There are countless networking
+possibilities, both with fellow MVPs and Microsoft personnel.</p>
+<p>For the last two years, the Summit has been an online event. I admit I&rsquo;ve had
+a hard time following the sessions as work and family tended to get in the way.
+The networking was, of course, next to zero. I miss the original MVP Summit. In
+the absence of it, even just meeting the Italian MVPs has been a rare
+occurrence. Hopefully, things will return to normal this year, although I&rsquo;m
+doubtful.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Look mum, I’m a MVP</title>
@@ -23,6 +41,11 @@ Being a member of the MVP community has been a very positive experience for me, 
       <guid>https://nicolaiarocci.com/look-mum-im-an-mvp/</guid>
       <description>A few hours ago I was notified that I have been awarded with the Microsoft MVP Award for Development Technologies.
 This came totally unexpected. Especially so considering that during the last few years I have been splitting my time between Microsoft and other open source technologies. My public work has mostly been on Python and MongoDB. Yes I also released .NET open source projects in the meantime (more are coming soon) and yes, I wrote a few articles here and on the MSDN Blog, attended Microsoft events and did interviews.</description>
+      <content:encoded><![CDATA[<p>A few hours ago I was notified that I have been awarded with the Microsoft MVP Award for Development Technologies.</p>
+<p>This came totally unexpected. Especially so considering that during the last few years I have been splitting my time between Microsoft and other open source technologies. My public work has mostly been on Python and MongoDB. Yes I also released .NET open source projects in the meantime (more are coming soon) and yes, I wrote a few articles here and on the MSDN Blog, attended Microsoft events and did interviews. But really, I did not expect these activities to have an impact. This is probably why only a couple minutes from learning about the award I was suffering Impostor Syndrome symptoms.</p>
+<p>Now however, as I ponder on the whole issue a little bit, I start to realise how this could probably make (at least some sort of) sense. New Microsoft has been eager to catalyse attention and interest from the open source community and, in a broader sense, from people not yet accustomed to the brand. In light of this, people who have been active in communities other than Microsoft’s and have also been exposed to different technologies, mindsets and approaches to common IT problems could indeed offer some value. Or at least that’s how I am reading it right now.</p>
+<p>So a new chapter is unfolding in my twenty-five years long love/hate relationship with Microsoft. It is my intent to live up to this award, for which I am very grateful.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>On my trip to Microsoft Build 2015</title>
@@ -30,6 +53,9 @@ This came totally unexpected. Especially so considering that during the last few
       <pubDate>Fri, 08 May 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/on-my-trip-to-microsoft-build-2015/</guid>
       <description>Last week I was in San Francisco for Build 2015, the annual conference event held by Microsoft and aimed toward software and web developers. Overall it has been a great experience. I especially enjoyed the opportunity to speak with Microsoft executives, Program Managers and developers about the new stuff they are cooking up and, in general, about that New Microsoft we all have been experiencing as of late (I have a guest post on MSDN Italy on that topic).</description>
+      <content:encoded><![CDATA[<p>Last week I was in San Francisco for Build 2015, the annual conference event held by Microsoft and aimed toward software and web developers. Overall it has been a great experience. I especially enjoyed the opportunity to speak with Microsoft executives, Program Managers and developers about the new stuff they are cooking up and, in general, about that New Microsoft we all have been experiencing as of late (I have a <a href="http://nicolaiarocci.com/i-wrote-a-thing-about-new-microsoft/">guest post</a> on MSDN Italy on that topic).</p>
+<p>In this week TecHeroes <a href="https://channel9.msdn.com/Shows/TecHeroes/TecHeroes-Build-2015-innovazione-e-cambiamento#0m05s">episode</a> I am interviewed along with my buddy <a href="http://www.matteocollina.com/#biography">Matteo Collina</a>. At about 1m 20s in the episode Matteo and I share a few considerations on Open Source projects and technologies that really caught our attention at the conference, and of course on Microsoft in general. It is all in Italian by the way.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>F# Vs C#</title>
@@ -37,6 +63,8 @@ This came totally unexpected. Especially so considering that during the last few
       <pubDate>Mon, 20 Apr 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/f-vs-c/</guid>
       <description>I have another guest post up at the official MSDN Team Blog. Titled F# Versus C#, it is an attempt at a gentle introduction to F# for the Italian C# developer.</description>
+      <content:encoded><![CDATA[<p>I have another guest post up at the official MSDN Team Blog. Titled <a href="http://blogs.msdn.com/b/italy/archive/2015/04/17/f-vs-c.aspx">F# Versus C#</a>, it is an attempt at a gentle introduction to F# for the Italian C# developer.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>I wrote a thing about New Microsoft</title>
@@ -44,6 +72,8 @@ This came totally unexpected. Especially so considering that during the last few
       <pubDate>Wed, 04 Mar 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/i-wrote-a-thing-about-new-microsoft/</guid>
       <description>I have a guest post up at the official Italian MSDN Team Blog. It’s about the new Microsoft I met last Wednesday at the Azure Open Day in Milan.</description>
+      <content:encoded><![CDATA[<p>I have a guest post up at the official Italian <a href="http://blogs.msdn.com/b/italy/archive/2015/03/03/guest-post-una-giornata-all-azure-open-day-in-compagnia-di-una-nuova-microsoft.aspx">MSDN Team Blog</a>. It’s about the new Microsoft I met last Wednesday at the Azure Open Day in Milan.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Microsoft’s New Running Shoes</title>
@@ -52,6 +82,11 @@ This came totally unexpected. Especially so considering that during the last few
       <guid>https://nicolaiarocci.com/microsofts-new-running-shoes/</guid>
       <description>When Ballmer famously said, “Linux is a cancer that attaches itself in an intellectual property sense to everything it touches,” it was fair to characterize Microsoft’s approach to open source as hostile. But over time, forces within Microsoft pushed to change this attitude. Many groups inside of Microsoft continue to see the customer and business value in fostering, rather than fighting, OSS.
 via Microsoft’s New Running Shoes.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>When Ballmer famously said, “Linux is a cancer that attaches itself in an intellectual property sense to everything it touches,” it was fair to characterize Microsoft’s approach to open source as hostile. But over time, forces within Microsoft pushed to change this attitude. Many groups inside of Microsoft continue to see the customer and business value in fostering, rather than fighting, OSS.</p>
+</blockquote>
+<p>via <a href="http://haacked.com/archive/2014/05/17/microsofts-new-running-shoes/">Microsoft’s New Running Shoes</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>ASP.NET MVC, Web API, ASP.NET Web Pages (Razor) sono Open Source</title>
@@ -61,6 +96,17 @@ via Microsoft’s New Running Shoes.</description>
       <description>Oggi Microsoft annuncia una svolta che ha del clamoroso:
 Sono felice di annunciare che oggi rilasciamo il codice sorgente di ASP.NET Web API e ASP.NET Web Pages (Razor) sotto una licenza open source (Apache 2.0), e che continueremo a migliorare la trasparenza di tutti i tre progetti ospitando il loro codice sorgente su CodePlex (usando il nuovo supporto per Git annunciato la settimana scorsa).
 Ma quel che più conta, e che per un’azienda corporate ‘vecchia maniera’ come Microsoft denota davvero un’evoluzione (rivoluzione) culturale:</description>
+      <content:encoded><![CDATA[<p>Oggi Microsoft annuncia una svolta che ha del clamoroso:</p>
+<blockquote>
+<p>Sono felice di annunciare che oggi rilasciamo il codice sorgente di ASP.NET Web API e ASP.NET Web Pages (Razor) sotto una licenza open source (Apache 2.0), e che continueremo a migliorare la trasparenza di tutti i tre progetti ospitando il loro codice sorgente su CodePlex (usando il nuovo supporto per Git annunciato la settimana scorsa).</p>
+</blockquote>
+<p>Ma quel che più conta, e che per un’azienda corporate ‘vecchia maniera’ come Microsoft denota davvero un’evoluzione (rivoluzione) culturale:</p>
+<blockquote>
+<p>Per la prima volta consentiremo agli sviluppatori esterni a Microsoft di proporre patches e contributi di codice, che il nostro team di sviluppo valuterà per la potenziale inclusione diretta nei prodotti.</p>
+</blockquote>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+]]></content:encoded>
     </item>
     <item>
       <title>Microsoft Silverlight e Adobe Flash verso la resa. Comincia l’era di Re HTML5</title>
@@ -76,6 +122,25 @@ Ma quel che più conta, e che per un’azienda corporate ‘vecchia maniera’ c
 &lt;p&gt;Questa novità ci permetterà di aumentare l’impegno su HTML5 continuando a innovare Flash nei settori in cui  può avere più impatto: advanced gaming e premium video.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Non so voi ma io in queste righe io leggo qualcosa di più del semplice abbandono della versione mobile di Flash. Ci vedo la ricollocazione di Flash in settori di nicchia e la contestuale adozione di HTML5 come soluzione universale per il Web. Una onorevole resa delle armi, insomma.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Silverlight 5 è in dirittura d’arrivo. L’ultimo aggiornamento del plug-in Microsoft sarà <em>ultimo</em> in tutti i sensi dato che <!-- raw HTML omitted -->a quanto pare<!-- raw HTML omitted --> non ne seguiranno altri. A sostenerlo è ZD-Net per bocca di Mary-Jo Foley, di solito sempre ben informata su quel che succede nei corridoi del gigante di Seattle.</p>
+<blockquote>
+<p>Diversi partner e clienti mi hanno detto di aver saputo da fonti Microsoft che Silverlight 5 è l’ultima versione di Silverlight che Microsoft rilascerà. Riferiscono di non sapere se verranno rilasciati Service Pack, né per quanto tempo Microsoft supporterà Silverlight 5</p>
+</blockquote>
+<p>Si tratta solo di voci ma la fonte è autorevole. Proprio l’altro giorno Adobe ha <!-- raw HTML omitted -->annunciato<!-- raw HTML omitted --> lo stop allo sviluppo di Flash Player Mobile per concentrarsi su HTML5. Il vice presidente Adobe Danny Winokur ha dichiarato</p>
+<blockquote>
+<p>Questa novità ci permetterà di aumentare l’impegno su HTML5 continuando a innovare Flash nei settori in cui  può avere più impatto: advanced gaming e premium video.</p>
+</blockquote>
+<p>Non so voi ma io in queste righe io leggo qualcosa di più del semplice abbandono della versione mobile di Flash. Ci vedo la ricollocazione di Flash in settori di nicchia e la contestuale adozione di HTML5 come soluzione universale per il Web. Una onorevole resa delle armi, insomma.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Solo la scorsa estate <a href="http://nicolaiarocci.com/windows-8-e-i-dubbi-sul-destino-di-silverlight/" title="Windows 8 e i dubbi sul destino di Silverlight">facevo presente</a> che sul futuro di Silverlight si stavano addensando nubi minacciose e tra le fonti citavo proprio la Foley. Sulla diatriba tra Flash e HTML5 ho già espresso la mia <a href="http://nicolaiarocci.com/flash-adobe-e-una-pessima-idea/" title="Adobe Flash è una pessima idea">opinione</a> sollevando anche qualche <!-- raw HTML omitted -->piccola polemica<!-- raw HTML omitted -->.</p>
+<p>Non mi sorprende la inevitabile convergenza verso HTML5. Mi colpisce piuttosto la forte accelerazione subita dal processo, una accelerazione dovuta in gran parte proprio all’iniziativa di quegli stessi brand (e gliene va reso merito) che fino all’altro giorno resistevano all’avvento di HTML5. Ufficialmente Microsoft non ha ancora cambiato posizione, ma è solo questione di tempo.</p>
+<p>Se il biennio 2010-11 è stato quello della battaglia per il web, il 2012 sarà senz’altro il primo del lungo e pacifico dominio di Re HTML5.</p>
+<h2 id="approfondimenti">Approfondimenti</h2>
+<ul>
+<li><a href="http://nicolaiarocci.com/flash-adobe-e-una-pessima-idea/" title="Adobe Flash è una pessima idea">Adobe Flash è una pessima idea</a></li>
+<li><a href="http://nicolaiarocci.com/windows-8-e-i-dubbi-sul-destino-di-silverlight/" title="Windws 8 e i dubbi sul destino di Silverlight">Windows 8 è i dubbi sul destino di Silverlight</a></li>
+</ul>]]></content:encoded>
     </item>
     <item>
       <title>Microsoft, mi tocca boicottare pure IE6countdown.com</title>
@@ -85,6 +150,14 @@ Ma quel che più conta, e che per un’azienda corporate ‘vecchia maniera’ c
       <description>&lt;p&gt;Col suo sito &lt;a href=&#34;http://www.ie6countdown.com/&#34;&gt;IE6countdown.com&lt;/a&gt; Microsoft riconosce finalmente che l’ormai decenne (2001) Internet Explorer 6 ha fatto il suo tempo. E’ ora di guardare avanti.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Il sito invita i web master di tutto il mondo a unirsi alla crociata per la distruzione della vetusta reliquia aggiungendo un banner alle loro home page. Il banner compare solo quando la pagina è aperta da IE6, spiegando al visitatore che il suo browser è obsoleto e di scarsa qualità (questo in effetti dimentica di dirlo) e suggerendo di aggiornarlo.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Col suo sito <a href="http://www.ie6countdown.com/">IE6countdown.com</a> Microsoft riconosce finalmente che l’ormai decenne (2001) Internet Explorer 6 ha fatto il suo tempo. E’ ora di guardare avanti.</p>
+<!-- raw HTML omitted -->
+<p>Il sito invita i web master di tutto il mondo a unirsi alla crociata per la distruzione della vetusta reliquia aggiungendo un banner alle loro home page. Il banner compare solo quando la pagina è aperta da IE6, spiegando al visitatore che il suo browser è obsoleto e di scarsa qualità (questo in effetti dimentica di dirlo) e suggerendo di aggiornarlo.</p>
+<!-- raw HTML omitted -->
+<p>E’ probabile che decine di migliaia di siti adotteranno il banner. E’ interesse comune che IE6 abbandoni le scene al più presto. Tutti vorremmo che le nostre pagine venissero visitate da browser moderni che supportano HTML5 e CSS3. Giusto?</p>
+<h2 id="piccolo-dettaglio-insignificante">Piccolo dettaglio insignificante</h2>
+<p>C’è però un dettaglio, prontamente segnalato da <a href="http://statichtml.com/2011/ie6-countdown-a-wolf-in-sheeps-clothing.html">Steve Webster</a>, che non quadra. Cliccando sul banner veniamo indirizzati al <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx">sito di Internet Explorer</a> dove siamo invitati a scaricare l’ultimo aggiornamento. Quando va bene chi oggi usa ancora IE6 sta su piattaforma Windows XP. E’ cosa nota che <a href="http://www.theregister.co.uk/2010/09/16/no_ie9_9_on_windows_xp/">Internet Explorer 9 non gira su sistemi precedenti a Vista SP2</a>. L’unica opzione di aggiornamento valida rimane…</p>
+<p>…Internet Explorer 8. Un browser vecchio di due anni che si trova sull’orlo dell’obsolescenza e non supporta affatto HTML5. Certo sempre meglio di IE6 ma c’è in giro di molto meglio, non trovate? Fate la cosa giusta e mettete mano al codice che trovate su IE6countdown.com. Fate puntare il vostro banner a <a href="http://google.com/chrome">Chrome</a>, <a href="http://www.getfirefox.com/">Firefox</a>, <a href="http://www.opera.com/">Opera</a> o <a href="http://www.apple.com/it/safari/">Safari</a>. Già che ci siete aggiungete il tag <em>alt</em> (se lo sono scordato) e sostituite l’immagine con una che non ricordi gli anni 90 del secolo scorso.</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

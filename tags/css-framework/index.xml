@@ -16,6 +16,14 @@
       <description>Twitter rilascia Bootstrap, il CSS Framework creato inizialmente per uso interno e ora disponibile al pubblico.
 It is a collection of CSS and HTML conventions. It uses some of the latest browser techniques to provide you with stylish typography, forms, buttons, tables, grids, navigation and everything else you need in a super tiny (only 6k with gzip) resource.
 A prima vista sembra molto ben fatto. Per tutte le informazioni e il download visitate la bella home page del progetto.</description>
+      <content:encoded><![CDATA[<p>Twitter rilascia Bootstrap, il CSS Framework creato inizialmente per uso interno e ora disponibile al pubblico.</p>
+<blockquote>
+<p>It is a collection of CSS and HTML conventions. It uses some of the latest browser techniques to provide you with stylish typography, forms, buttons, tables, grids, navigation and everything else you need in a super tiny (only 6k with gzip) resource.</p>
+</blockquote>
+<!-- raw HTML omitted -->
+<p>A prima vista sembra molto ben fatto. Per tutte le informazioni e il download visitate la bella <!-- raw HTML omitted -->home page<!-- raw HTML omitted --> del progetto.</p>
+<!-- raw HTML omitted -->
+]]></content:encoded>
     </item>
     <item>
       <title>Siti fluidi coi CSS Framework: Inuit.css</title>
@@ -23,6 +31,27 @@ A prima vista sembra molto ben fatto. Per tutte le informazioni e il download vi
       <pubDate>Fri, 06 May 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/siti-fluidi-coi-css-framework-inuit-css/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Dopo l’articolo introduttivo sui &lt;a href=&#34;http://nicolaiarocci.com/costruire-siti-fluidi-coi-css-framework-tiny-fluid-grid/&#34;&gt;siti fluidi e i CSS Framework&lt;/a&gt; è giunta l’ora di dare una occhiata a un framework vero e proprio. Come dicevo prediligo strumenti agili, leggeri, specializzati e possibilmente fatti in casa. Se scelgo un framework quest’ultimo deve essere essenziale, leggero, flessibile. &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Inuit.css&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, ultimo nato nella numerosa e agguerrita famiglia dei Framework CSS, sembra nato apposta per fare di me un uomo felice.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Dopo l’articolo introduttivo sui <a href="http://nicolaiarocci.com/costruire-siti-fluidi-coi-css-framework-tiny-fluid-grid/">siti fluidi e i CSS Framework</a> è giunta l’ora di dare una occhiata a un framework vero e proprio. Come dicevo prediligo strumenti agili, leggeri, specializzati e possibilmente fatti in casa. Se scelgo un framework quest’ultimo deve essere essenziale, leggero, flessibile. <strong><!-- raw HTML omitted -->Inuit.css<!-- raw HTML omitted --></strong>, ultimo nato nella numerosa e agguerrita famiglia dei Framework CSS, sembra nato apposta per fare di me un uomo felice.</p>
+<h2 id="flessibilità-e-qualità-prima-di-tutto">Flessibilità e qualità prima di tutto</h2>
+<p>Inuit.css è pronto all’uso, se siete di corsa e non avete esigenze particolari potete usarlo così com’è. Quando serve è facile adattarlo al nostro progetto, soprattutto grazie all’alta qualità del <!-- raw HTML omitted -->codice sorgente<!-- raw HTML omitted -->, commentato molto bene. E’ proprio la cura che l’autore ha dedicato alla documentazione l’elemento chiave che ci consente di intervenire rapidamente, eliminando le parti superflue o ritoccando il codice ove necessario.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Qui sopra vedete uno <!-- raw HTML omitted -->snippet<!-- raw HTML omitted --> tratto dal foglio di stile originale. Notate come l’autore si sia preoccupato di fornire indicazioni su come organizzare la gerarchia dei font. Ben fatto!</p>
+<h2 id="la-potenza-è-nulla-senza-controllo">La potenza è nulla senza controllo</h2>
+<p>Difficilmente Inuit.css prende l’iniziativa, preferisce lasciarla al designer. Prendiamo gli elementi base di HTML5 e CSS3. Inuit.css li supporta ma li isola in classi dedicate che useremo all’occorrenza.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>La scelta del basso profilo è apprezzabile. Lascia il controllo nelle nostre mani, ma corre il rischio che – soprattutto al primo impatto – il framework sembri meno ricco rispetto ad altre soluzioni. In effetti non è sulla ricchezza che punta Inuit ma su flessibilità, estensibilità e… mobilità.</p>
+<h2 id="tablet-smartphone-e-non-solo">Tablet, smartphone e non solo</h2>
+<p><!-- raw HTML omitted -->Il supporto per l’attributo <!-- raw HTML omitted -->@media<!-- raw HTML omitted --> consente a Inuit di ridefinire dinamicamente gran parte delle impostazioni in base al dispositivo (tablet, smartphone, stampante) che consuma la pagina. Il Grid System adottato deriva dal capostipite 960 Grid System (vedi in proposito l’<!-- raw HTML omitted -->articolo precedente<!-- raw HTML omitted -->), supporta matrici (grid) a 12 e 16 colonne e implementa un ingegnoso marchingegno che evita l’inserimento della classica <code>class=end</code> nell’ultima colonna.</p>
+<p>A differenza della Tiny Fluid Grid vista la volta scrosa, Inuit è un Framework vero e proprio e supporta ben più della sola Grid. Sono presenti impostazioni predefinite e ben fatte per tutti gli elementi più comuni di una pagina HTML: header, paragrafi, liste numerate e non, tabelle, form, citazioni, link, immagini. Non manca una implementazione del <a href="http://nicolaiarocci.com/eric-meyer-aggiorna-il-suo-famoso-css-reset/" title="Eric Meyer Reset">Eric Meyer CSS Reset</a> e il supporto per la modalità debug che rende visibile la grid sullo sfondo. Una occhiata alla <!-- raw HTML omitted -->pagina demo<!-- raw HTML omitted --> e soprattutto al suo sorgente è sufficiente per rendersi conto di quanti sono gli stili che Inuit.css ci mette a disposizione.</p>
+<h2 id="div-idattachment_2410-stylewidth-490px-classwp-caption-aligncenter"><!-- raw HTML omitted --></h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="giovani-di-belle-speranze">Giovani di belle speranze</h2>
+<p>Inuit è il nuovo arrivato, ha solo una ventina di giorni ed è in revisione continua. E’ giovane come il suo autore, il ventenne Harry Roberts (l’età non tragga in inganno, Harry è la mente che si cela dietro <!-- raw HTML omitted -->CSS Wizardry<!-- raw HTML omitted -->). Come tutti i giovani di belle speranze Inuit guarda al futuro e se ne frega allegramente del passato: supporta Internet Explorer a partire dalla versione 7 <em>(update del 24.5: la release 1.5 introduce un supporto base per le grid in IE6)</em>.</p>
+<p>Dovrà sgomitare un bel pò per conquistarsi uno spazio in una nicchia già affollata da una concorrenza agguerrita. Ha tutte le carte in regola per sfondare, prova ne è il fatto che a pochi giorni dal lancio qualche sito <!-- raw HTML omitted -->qui<!-- raw HTML omitted --> e <!-- raw HTML omitted -->là<!-- raw HTML omitted --> ha già cominciato ad adottarlo.</p>
+<p>Se scegliete di usare Inuit nei vostri progetti fatemelo sapere. Chissà, potrebbero finire dritti dritti nella Web Gallery del sito ufficiale.</p>]]></content:encoded>
     </item>
     <item>
       <title>Costruire siti fluidi coi CSS Framework: Tiny Fluid Grid</title>
@@ -32,6 +61,28 @@ A prima vista sembra molto ben fatto. Per tutte le informazioni e il download vi
       <description>&lt;p&gt;Fino a non molti anni fa la gamma di risoluzioni video disponibili alla gran parte degli utenti era piuttosto limitata, tanto che nel disegnare siti web non ci si preoccupava granché di questo aspetto. La diffusione di massa di monitor wide, netbooks, tablet e smartphone ha cambiato rapidamente le carte in tavola. Per raggiungere con efficienza il loro pubblico i siti odierni devono essere capaci di adattare il loro aspetto alla risoluzione del dispositivo usato dal visitatore. Devono, in una parola, essere &lt;em&gt;fluidi&lt;/em&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;il-grid-design-e-l8217era-dei-css-framework&#34;&gt;Il Grid Design e l’era dei CSS Framework&lt;/h2&gt;
 &lt;p&gt;L’avvento dei CSS Framework si deve (principalmente) alla necessità di soddisfare l’esigenza di fluidità. Il capostipite, se non in ordine cronologico senz’altro per l’influenza che ha avuto, è il &lt;!-- raw HTML omitted --&gt;960 Grid System&lt;!-- raw HTML omitted --&gt;. Altri prodotti famosi, per citarne solo un paio, sono &lt;!-- raw HTML omitted --&gt;Blueprint&lt;!-- raw HTML omitted --&gt; e &lt;!-- raw HTML omitted --&gt;Emastic&lt;!-- raw HTML omitted --&gt;. Questi framework hanno in comune l’obiettivo di velocizzare creazione, gestione e manutenzione dei fogli di stile ma se andiamo al nocciolo della questione ci accorgiamo che tutti si basano sul concetto chiave di &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Grid Design&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Fino a non molti anni fa la gamma di risoluzioni video disponibili alla gran parte degli utenti era piuttosto limitata, tanto che nel disegnare siti web non ci si preoccupava granché di questo aspetto. La diffusione di massa di monitor wide, netbooks, tablet e smartphone ha cambiato rapidamente le carte in tavola. Per raggiungere con efficienza il loro pubblico i siti odierni devono essere capaci di adattare il loro aspetto alla risoluzione del dispositivo usato dal visitatore. Devono, in una parola, essere <em>fluidi</em>.</p>
+<h2 id="il-grid-design-e-l8217era-dei-css-framework">Il Grid Design e l’era dei CSS Framework</h2>
+<p>L’avvento dei CSS Framework si deve (principalmente) alla necessità di soddisfare l’esigenza di fluidità. Il capostipite, se non in ordine cronologico senz’altro per l’influenza che ha avuto, è il <!-- raw HTML omitted -->960 Grid System<!-- raw HTML omitted -->. Altri prodotti famosi, per citarne solo un paio, sono <!-- raw HTML omitted -->Blueprint<!-- raw HTML omitted --> e <!-- raw HTML omitted -->Emastic<!-- raw HTML omitted -->. Questi framework hanno in comune l’obiettivo di velocizzare creazione, gestione e manutenzione dei fogli di stile ma se andiamo al nocciolo della questione ci accorgiamo che tutti si basano sul concetto chiave di <strong><!-- raw HTML omitted -->Grid Design<!-- raw HTML omitted --></strong>:</p>
+<blockquote>
+<p>Una griglia tipografica è una struttura bidimensionale composta da una serie di guide verticali e orizzontali intersecanti (matrice) usata per organizzare il contenuto della pagina. La griglia offre una traccia sulla quale il designer può organizzare testo e immagini in maniera ordinata e razionale (<!-- raw HTML omitted -->Wikipedia<!-- raw HTML omitted -->)</p>
+</blockquote>
+<p>Niente di nuovo, i tipografi hanno usato questa tecnica per secoli. Il Grid Design in declinazione web è fluido: le colonne (e gli spazi tra le colonne) che compongono la matrice sono capaci di adattarsi alla risoluzione dell schermo.</p>
+<p>Gran parte dei CSS Framework non si limitano a implementare versioni più o meno sofisticate del Grid System ma offrono una serie di servizi aggiuntivi nel tentativo di risparmiare al designer i compiti più ripetitivi e tediosi. Non sempre ci riescono. Ogni sito ha esigenze specifiche e ogni designer abitudini consolidate. E’ difficile che una soluzione standard sia l’ideale per ogni esigenza. Spesso preferisco la via di mezzo: strumenti agili che consentono di portare a casa rapidamente il risultato senza aggiungere (molto) più del necessario.</p>
+<p>In questa mini-serie di tre articoli prenderò in esame tre diverse soluzioni che implementano il Grid Design e che ci permettono di implementare, con diversi gradi di complessità (e numero di funzionalità), pagine web fluide.</p>
+<h2 id="tiny-fluid-grid">Tiny Fluid Grid</h2>
+<!-- raw HTML omitted -->
+<p>Se non altro amerete questa soluzione a causa del suo design: il sito è oggettivamente splendido. E facile da usare. In effetti <strong><!-- raw HTML omitted -->Tiny Fluid Grid<!-- raw HTML omitted --></strong> non è un CSS Framework vero e proprio ma una semplice soluzione interattiva che vi consente, agendo su tre semplici regolazioni (numero di colonne, spazio tra le colonne e larghezza dell’area client), di configurare online la vostra CSS grid. Il pulsante Preview offre una anteprima (anch’essa interattiva) della grid. L’unica altra opzione disponibile è il Download. Otterrete un archivio compresso che contiene due files: il foglio di stile <em>grid.css</em> e un <em>index.html</em> che contiene un esempio d’uso della grid appena creata:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Una occhiata al foglio di stile ci consente di capire la struttura della grid</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Una classe per ogni larghezza di colonna. Poiché larghezza e margini delle colonne sono espressi in percentuale la nostra grid si adatta alla risoluzione dello schermo, con i limiti imposti dagli attributi <code>min-width</code> e <code>max-width</code>. L’implementazione lato HTML è banale (tralascio le parti non rilevanti):</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>La nostra grid è contenuta in un div di classe “container”. Le colonne sono a loro volta dei div. Per ottenere più colonne nella stessa riga dobbiamo assicurarci che la somma dei numeri contenuti nel nome di ogni classe (<em>grid_x</em>) sia uguale al numero di colonne di cui è composta la grid. Nel nostro caso la seconda riga è composta da tre div <em>grid_4</em> (4×3=12); la terza riga da due colonne: grid_3 e grid_9 (3+9=12). Semplice no? Naturalmente possiamo ritoccare il foglio di stile come vogliamo, adattandolo alle nostre esigenze.</p>
+<p>Nel prossimo articolo della serie affronteremo un CSS Framework vero e proprio, anche questo snello e semplice da usare. Se ancora non l’avete fatto abbonatevi al <!-- raw HTML omitted -->feed RSS<!-- raw HTML omitted --> per non perdere la prossima puntata, oppure iscrivetevi alla mailing list (riquadro in alto a destra). Mi raccomando!</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

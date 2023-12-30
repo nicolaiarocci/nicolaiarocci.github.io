@@ -15,6 +15,12 @@
       <guid>https://nicolaiarocci.com/awesome-psql-tips/</guid>
       <description>Today I learned about psql-tips.org by Lætitia Avrot, an excellent repository of psql (the CLI tool, not the database itself) tips. I like how one randomized tip is playfully served on the home page while the complete list is always at hand.
 Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+      <content:encoded><![CDATA[<p>Today I learned about <a href="https://psql-tips.org">psql-tips.org</a> by Lætitia Avrot, an excellent
+repository of <code>psql</code> (the CLI tool, not the database itself) tips. I like how
+one randomized tip is playfully served on the home page while the <a href="https://psql-tips.org/psql_tips_all.html">complete
+list</a> is always at hand.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Automatic deletion of older records in Postgres</title>
@@ -23,6 +29,51 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
       <guid>https://nicolaiarocci.com/automatic-deletion-of-older-records-in-postgres/</guid>
       <description>We have a Postgres cluster with a database for each user. Each database has a table that records events, and we want this table to only record the last 15 days.
 If we were on MongoDB, we could use a capped collection, but we are in Postgres, which does not have equivalent functionality. In Postgres, you have to make do with something homemade. My first idea was to install a cron job in the system.</description>
+      <content:encoded><![CDATA[<p>We have a Postgres cluster with a database for each user. Each database has
+a table that records events, and we want this table to only record the last 15
+days.</p>
+<p>If we were on MongoDB, we could use a <a href="https://docs.mongodb.com/manual/core/capped-collections/">capped collection</a>, but we are in
+Postgres, which does not have equivalent functionality. In Postgres, you have
+to make do with something homemade. My first idea was to install a cron job in
+the system. It would execute daily, deleting older events in each user
+database.</p>
+<p>Before jumping in, I looked at what others do. One surprising popular approach
+appears to be using <a href="https://www.postgresql.org/docs/current/sql-createtrigger.html">triggers</a>: older ones are pruned when a new row is
+inserted in the table. For my use case, this seems unnecessarily taxing to the
+system. I&rsquo;m happy with running a single maintenance task late in the night when
+the system is underused. Two other solutions are <a href="https://www.pgadmin.org/docs/pgadmin4/latest/pgagent.html">pgAgent</a> or <a href="https://github.com/citusdata/pg_cron">pg_cron</a>.
+pgAgent is an external UI tool, so hard No to pgAgent from me. pg_cron
+essentially offers cron jobs baked into the database, which is good, but, like
+pg_Agent, it requires you to install the tool itself, create a Postgres
+extension, change Postgres configuration, optionally grant usage to a schema,
+etc. There&rsquo;s also <a href="https://www.postgresql.org/docs/current/ddl-partitioning.html">partitioning</a>, which seems way overboard for our use
+case. It seems that these approaches demand new dependencies and unnecessary
+work for something I can easily accomplish by leveraging what is already
+available, for free, in the system. So, it&rsquo;s good old Linux cron jobs for me.</p>
+<p>Because we run Postgres in Docker, a little more work is involved, but overall,
+the solution is pretty straightforward. Here is the script I came up with:</p>
+<pre><code>readonly CONTAINER=$(docker ps -q -f name=postgres)
+readonly USER=dbuser
+docker exec -i $CONTAINER \
+    psql -U $USER -d postgres -t \
+        -c &quot;select datname from pg_database where datname like 'cus_%'&quot; | \
+    xargs -n 1 -I&quot;{}&quot; docker exec -i $CONTAINER psql -U $USER -d {} -t \
+        -c &quot;delete from mytable where datetime &lt; now() - interval '15 days'&quot;
+</code></pre>
+<p>First, we find the id of the docker container (it runs in a swarm, so we don&rsquo;t
+have exact container names). We need it because we want to execute psql from
+within the container. The second row sets a Postgres user other than the
+default one. That&rsquo;s because we don&rsquo;t allow default user logins. Then comes the
+Linux pipeline. First, we execute a query that returns all user database names;
+then, we pipe those into the query that deletes obsolete rows. The query
+executes against each target database. The script is then installed as a cron
+job with something similar to:</p>
+<pre><code>0 4 * * * /home/user/dir/cleanup.sh
+</code></pre>
+<p>Which ensures the script runs daily at 4 am. For a weekend task, I&rsquo;m happy with
+the result.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>How to restore a single Postgres database from a pg_dumpall dump</title>
@@ -30,6 +81,44 @@ If we were on MongoDB, we could use a capped collection, but we are in Postgres,
       <pubDate>Wed, 25 Aug 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-restore-a-single-postgres-database-from-a-pg_dumpall-dump/</guid>
       <description>Today I learned how to restore a single Postgres database from a global dump generated with pg_dumpall. Now, pg_dumpall is handy when you want to back up an entire Postgres cluster. It will dump all databases and global objects in a single text file. In contrast, pg_dump, the go-to tool for Postgres backups, offers more control but only works with a single database and doesn&amp;rsquo;t dump global objects, such as the roles/users linked to the database.</description>
+      <content:encoded><![CDATA[<p>Today I learned how to restore a single Postgres database from a global dump
+generated with <a href="https://www.postgresql.org/docs/current/app-pg-dumpall.html"><code>pg_dumpall</code></a>. Now, <code>pg_dumpall</code> is handy when you want to back
+up an entire Postgres cluster. It will dump all databases and global objects in
+a single text file. In contrast, <a href="https://www.postgresql.org/docs/current/app-pgdump.html"><code>pg_dump</code></a>, the go-to tool for Postgres
+backups, offers more control but only works with a single database and doesn&rsquo;t
+dump global objects, such as the roles/users linked to the database.</p>
+<p>The problem with <code>pg_dumpall</code> comes when you want to restore just one database
+from the dump file. That&rsquo;s not supported out of the box, but it is achievable
+with some tinkering.</p>
+<p>The <code>pg_dumpall</code> dump is a plain text file that contains all the SQL commands
+needed to restore the cluster. All database instructions are there as well; we
+only need to extract them. Say we have one &ldquo;mydb&rdquo; database that we need to
+retrieve. Open the dump file and look for a string starting with &ldquo;connect
+mydb&rdquo;. That&rsquo;s where our database instructions begin. Then look for the first
+occurrence of &ldquo;PostgreSQL database dump complete&rdquo;. That&rsquo;s where the
+instructions end. <a href="https://stackoverflow.com/a/48866503/323269">This</a> script, which I have to say makes clever use of <code>sed</code>,
+will do just that for us:</p>
+<pre><code>#!/bin/bash
+[ $# -lt 2 ] &amp;&amp; { echo &quot;Usage: $0 &lt;postgresql dump&gt; &lt;dbname&gt;&quot;; exit 1; }
+sed  &quot;/connect.*$2/,\$!d&quot; $1 | sed &quot;/PostgreSQL database dump complete/,\$d&quot;
+</code></pre>
+<p>The output will be to STDOUT; we want to pipe it into a file. If we named the
+script <code>pg_extract.sh</code>, as I did, we&rsquo;d do:</p>
+<pre><code>./pg_extract.sh dumpall.sql mydb &gt;&gt; mydb.dump
+</code></pre>
+<p>Now we have the specific DB dump, and we can restore it like this:</p>
+<pre><code>psql (connection options) mydb &lt; mydb.dump
+</code></pre>
+<p>If the database still exists on the cluster, we first want to drop it, or we&rsquo;ll
+only get error messages:</p>
+<pre><code>psql (connection options) -d postgres -c &quot;DROP DATABASE IF EXISTS mydb&quot;
+psql (connection options) -d postgres -c &quot;CREATE DATABASE mydb&quot;
+</code></pre>
+<p><code>DROP DATABASE</code> will fail if there are active connections. Either
+<a href="https://stackoverflow.com/a/5408501/323269">force-drop</a> all active connections or tell your peers to leave the database
+alone. Merging the above passages in a script is an option.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Cleaning Up Your Postgres Database</title>
@@ -38,6 +127,24 @@ If we were on MongoDB, we could use a capped collection, but we are in Postgres,
       <guid>https://nicolaiarocci.com/cleaning-up-your-postgres-database/</guid>
       <description>I am an application/backend developer who has to quibble with databases more often than desired. I can get my way around Postgres pretty well, but I can always use a hint or two, especially when it comes to fine-tuning and performance.
 I stumbled upon Cleaning Up Your Postgres Databases. It offers useful advice on spotting performance bottlenecks in your Postgres database. Take the cache and index hit queries, for example.</description>
+      <content:encoded><![CDATA[<p>I am an application/backend developer who has to quibble with databases more
+often than desired. I can get my way around Postgres pretty well, but I can
+always use a hint or two, especially when it comes to fine-tuning and
+performance.</p>
+<p>I stumbled upon <a href="http://blog.crunchydata.com/blog/cleaning-up-your-postgres-database">Cleaning Up Your Postgres Databases</a>. It offers useful
+advice on spotting performance bottlenecks in your Postgres database. Take the
+cache and index hit queries, for example.</p>
+<blockquote>
+<p>The first thing you&rsquo;re going to want to look at is your cache hit ratio and
+index hit ratio. Your cache hit ratio is going to give the percentage of time
+your data is served from within memory vs. having to go to disk. Generally
+serving data from memory vs. disk is going to orders of magnitude faster,
+thus the more you can serve from memory the better. For a typical web
+application making a lot of short requests I&rsquo;m going to target &gt; 99% here.</p>
+</blockquote>
+<p>I will be trying them real soon. Like, today.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

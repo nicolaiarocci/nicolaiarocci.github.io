@@ -15,6 +15,31 @@
       <guid>https://nicolaiarocci.com/how-multifactor-authentication-is-breached/</guid>
       <description>Dan Goodin at Ars Tecnica, on multifactor authentication (2FA/MFA):
 Multifactor authentication (MFA) is a core defense that is among the most effective at preventing account takeovers. In addition to requiring that users provide a username and password, MFA ensures they must also use an additional factor—be it a fingerprint, physical security key, or one-time password—before they can access an account. Nothing in this article should be construed as saying MFA isn’t anything other than essential.</description>
+      <content:encoded><![CDATA[<p>Dan Goodin at Ars Tecnica, on multifactor authentication (2FA/MFA):</p>
+<blockquote>
+<p>Multifactor authentication (MFA) is a core defense that is among the most
+effective at preventing account takeovers. In addition to requiring that
+users provide a username and password, MFA ensures they must also use an
+additional factor—be it a fingerprint, physical security key, or one-time
+password—before they can access an account. Nothing in this article should be
+construed as saying MFA isn’t anything other than essential.</p>
+</blockquote>
+<blockquote>
+<p>That said, some forms of MFA are stronger than others, and recent events show
+that these weaker forms aren’t much of a hurdle for some hackers to clear. In
+the past few months, suspected script kiddies like the Lapsus$ data extortion
+gang and elite Russian-state threat actors (like Cozy Bear, the group behind
+the SolarWinds hack) have both successfully defeated the protection.</p>
+</blockquote>
+<p>More
+<a href="https://arstechnica.com/information-technology/2022/03/lapsus-and-solar-winds-hackers-both-use-the-same-old-trick-to-bypass-mfa/">here</a>.
+The article is solid. It first introduces the various forms of MFA, then
+explains the attack vectors used to bypass them (hint: they prey on distracted,
+busy, or otherwise unaware people - we&rsquo;ve all been there.) I appreciate their
+stressing that MFA is essential while raising awareness of the potential
+pitfalls.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

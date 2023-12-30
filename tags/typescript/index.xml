@@ -15,6 +15,11 @@
       <guid>https://nicolaiarocci.com/ancora-su-typescript/</guid>
       <description>A proposito di TypeScript vi segnalo Thoughts on TypeScript, il miglior articolo che ho letto finora sul nuovo nato in casa Microsoft.
 I’m happy that regular JavaScript can be written in TypeScript and still benefit from some of the type checking provided by the TypeScript compiler. That means writing TypeScript can actually help people learn JavaScript, which makes me happy.</description>
+      <content:encoded><![CDATA[<p>A proposito di TypeScript vi segnalo <!-- raw HTML omitted -->Thoughts on TypeScript<!-- raw HTML omitted -->, il miglior articolo che ho letto finora sul nuovo nato in casa Microsoft.</p>
+<blockquote>
+<p>I’m happy that regular JavaScript can be written in TypeScript and still benefit from some of the type checking provided by the TypeScript compiler. That means writing TypeScript can actually help people learn JavaScript, which makes me happy.</p>
+</blockquote>
+]]></content:encoded>
     </item>
     <item>
       <title>TypeScript: prime impressioni</title>
@@ -23,6 +28,9 @@ I’m happy that regular JavaScript can be written in TypeScript and still benef
       <guid>https://nicolaiarocci.com/typescript-prime-impressioni/</guid>
       <description>Ieri Microsoft ha annunciato TypeScript, nuovo linguaggio fortemente tipizzato il cui codice compilato è puro JavaScript. TypeScript aggiunge classi, controllo degli errori in compilazione, completamento del codice in fase di sviluppo, e tante altre cose interessanti.
 Miguel de Icaza, il cervello dietro Xamarin e la piattaforma Mono, ha sintentizzato le sue prime impressioni sul progetto. Interessanti anche i commenti di uno degli sviluppatori di Dart, progetto Google dal quale TypeScript ha senz’altro tratto ispirazione.</description>
+      <content:encoded><![CDATA[<p>Ieri Microsoft ha annunciato <!-- raw HTML omitted -->TypeScript<!-- raw HTML omitted -->,  nuovo linguaggio fortemente tipizzato il cui codice compilato è puro JavaScript. TypeScript aggiunge classi, controllo degli errori in compilazione, completamento del codice in fase di sviluppo, e tante altre cose interessanti.</p>
+<p>Miguel de Icaza, il cervello dietro Xamarin e la piattaforma Mono, ha sintentizzato le sue <!-- raw HTML omitted -->prime impressioni sul progetto<!-- raw HTML omitted -->. Interessanti anche i <!-- raw HTML omitted -->commenti di uno degli sviluppatori di Dart<!-- raw HTML omitted -->, progetto Google dal quale TypeScript ha senz’altro tratto ispirazione.</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

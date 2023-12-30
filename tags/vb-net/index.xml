@@ -15,6 +15,17 @@
       <guid>https://nicolaiarocci.com/programmazione-asincrona/</guid>
       <description>Un articolo sul Somasegar’s Weblog annuncia oggi il rilascio imminente di un nuovo modello di programmazione asincrona per C# and VB:
 Today, we are unveiling significant language and framework enhancements in C# and Visual Basic that enable developers to harness asynchrony, letting them retain the control flow from their synchronous code while developing responsive user interfaces and scalable web applications with greater ease. This CTP delivers a lightweight asynchronous development experience as close to the standard synchronous paradigms as possible, while providing an easy on-ramp to the world of concurrency</description>
+      <content:encoded><![CDATA[<p>Un articolo sul <!-- raw HTML omitted -->Somasegar’s Weblog<!-- raw HTML omitted --> annuncia oggi il rilascio imminente di un nuovo modello di programmazione asincrona per C# and VB:</p>
+<blockquote>
+<p>Today, we are unveiling significant language and framework enhancements in C# and Visual Basic that enable developers to harness asynchrony, letting them retain the control flow from their synchronous code while developing responsive user interfaces and scalable web applications with greater ease.   This CTP delivers a lightweight asynchronous development experience as close to the standard synchronous paradigms as possible, while providing an easy on-ramp to the world of concurrency</p>
+</blockquote>
+<p>Lo stesso Somasegar riconosce che finora sviluppare applicazioni asincrone complesse con la piattaforma .NET non è stato facile. Tempo fa l’ho sperimentato in prima persona. Lavoravo su <a href="http://gestionaleamica.com/Backup/">Amica Prodigy Backup</a>, una applicazione di backup remoto.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Il programma invia files di grandi dimensioni al servizio di cloud storage <a href="http://aws.amazon.com/s3/">S3</a> aggiornando l’interfaccia utente con lo stato del trasferimento e consentendo nel frattempo di operare liberamente con l’interfaccia. Devo ammettere che si è trattata di una sfida molto accattivante. Lavoravo per la prima volta su sistemi cloud e c’era molto da imparare. La parte più difficile fu naturalmente la gestione dei processi asincroni sul client, che era una applicazione WinForm scritta su .NET Framework.</p>
+<p>Una rapida occhiata al codice di esempio presente nell’articolo di Somasegar è meglio di mille parole. ‘The Old Way’ vs ‘The New Way’ ha un vincitore evidente, ed è la New Way. Mi piace molto il concetto della nuova keyword Await, è una soluzione così elegante! Come sempre in questi casi occorrerà scendere nei dettagli per verificare l’affidabilità di questa nuova soluzione.</p>
+<p>La  CTP è già disponibile per il <!-- raw HTML omitted -->download<!-- raw HTML omitted -->, attualmente solo per le versioni inglesi di Visual Studio 2010.</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

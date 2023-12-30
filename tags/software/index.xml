@@ -17,6 +17,16 @@
 More than 50 years ago, Douglas Engelbart gave the &amp;ldquo;mother of all demos&amp;rdquo; that transformed software forever. The computer world has been catching up with his vision ever since.
 More here
 Subscribe to the newsletter, the RSS feed, or follow @nicolaiarocci on Twitter</description>
+      <content:encoded><![CDATA[<p>As part of his captivating Hidden Heroes series, Steven Johnson publishes an
+account of the mother of all demos.</p>
+<blockquote>
+<p>More than 50 years ago, Douglas Engelbart gave the &ldquo;mother of all demos&rdquo; that
+transformed software forever. The computer world has been catching up with
+his vision ever since.</p>
+</blockquote>
+<p>More <a href="https://hiddenheroes.netguru.com/douglas-engelbart">here</a></p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Flux: il monitor diventa crepuscolare</title>
@@ -25,6 +35,15 @@ Subscribe to the newsletter, the RSS feed, or follow @nicolaiarocci on Twitter</
       <guid>https://nicolaiarocci.com/flux-il-monitor-diventa-crepuscolare/</guid>
       <description>&lt;p&gt;&lt;strong&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://stereopsis.com/flux/&#34;&gt;Flux&lt;/a&gt;&lt;/strong&gt; è una applicazione gratuita per &lt;strong&gt;Windows&lt;/strong&gt;, &lt;strong&gt;OSX&lt;/strong&gt; e &lt;strong&gt;Linux&lt;/strong&gt; che regola il colore dello schermo in base all’ora del giorno. Detta così può sembrare una sciocchezza, ma vi assicuro che se lavorate spesso nel cuore della notte questa è un’applicazione alla quale non dovreste rinunciare.&lt;/p&gt;
 &lt;p&gt;Avete mai notato che di notte, in una stanza poco illuminata, le persone che lavorano al computer sembrano circondate da un inquietante alone blu? Gli schermi per computer garantiscono una buona visione diurna vincendo la luce solare con colori brillanti e freddi (a dominante blu). Di notte, col buio o poca luce, tutto ciò affatica la vista. Mai capitato di alzarvi presto per scrivere codice o finire un articolo e dopo pochi minuti di lavoro ritrovarvi con gli occhi arrossati e irritati?&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong><!-- raw HTML omitted --><a href="http://stereopsis.com/flux/">Flux</a></strong> è una applicazione gratuita per <strong>Windows</strong>, <strong>OSX</strong> e <strong>Linux</strong> che regola il colore dello schermo in base all’ora del giorno. Detta così può sembrare una sciocchezza, ma vi assicuro che se lavorate spesso nel cuore della notte questa è un’applicazione alla quale non dovreste rinunciare.</p>
+<p>Avete mai notato che di notte, in una stanza poco illuminata, le persone che lavorano al computer sembrano circondate da un inquietante alone blu? Gli schermi per computer garantiscono una buona visione diurna vincendo la luce solare con colori brillanti e freddi (a dominante blu). Di notte, col buio o poca luce, tutto ciò affatica la vista. Mai capitato di alzarvi presto per scrivere codice o finire un articolo e dopo pochi minuti di lavoro ritrovarvi con gli occhi arrossati e irritati?</p>
+<p>Flux usa la vostra posizione geografica e l’orologio del computer per determinare le condizioni di luce in cui vi trovate, adattando di conseguenza i colori dello schermo. La prima esperienza con Flux può essere disarmante. Cala la notte e rimanete (molto) perplessi dall’aggiustamento che avviene. Concedete a cervello e occhi il tempo necessario ad abituarsi, dopo qualche minuto non ci farete più caso. Dopo un’ora provate a disattivare Flux usando l’opzione <em>Disable for an hour</em> e… godetevi la cottura rapida della vostra retina. Un esperimento doloroso che non vorrete più ripetere.</p>
+<!-- raw HTML omitted -->
+<h2 id="qualche-consiglio">Qualche consiglio</h2>
+<p>Flux determina la posizione geografica automaticamente, oppure potete impostarla a mano se (come capita al sottoscritto) il vostro provider vi colloca a 200km di distanza dalla posizione reale. Vi consiglio di impostare  una transizione oraria (<em>slow</em>), che renderà più graduale il passaggio dalle condizioni diurne a quelle notturne. In base ai vostri gusti e alle condizioni di luce in cui operate potete scegliere tra quattro colorazioni notturne: <em>Tungsten</em>, <em>Halogen</em>, <em>Fluorescent</em>, <em>Daylight</em>. Io mi trovo bene con <em>Fluorescent</em> ma vi consiglio di provarle tutte. Abilitate l’opzione per lanciare Flux all’avvio del sistema operativo, così diventerà parte integrante delle vostre abitudini. I vostri occhi vi ringrazieranno.</p>
+<h2 id="per-molti-ma-non-per-tutti">Per molti ma non per tutti</h2>
+<p>Se vi dedicate alla grafica Flux probabilmente non fa per voi, la resa dei colori non è il suo punto di forza. Flux è perfetta per chi scrive e naviga di notte. Sul <a href="http://stereopsis.com/flux/">sito ufficiale</a> sostengono che l’ottimizzazione notturna dei colori concilia il ritmo sonno-veglia. Non so se sia vero ma so per certo che da quando ho installato Flux, una settimana fa, non riesco più a lavorare di notte se questa utility non è attivata. Se la provate fatemi sapere cosa ne pensate!</p>
+<!-- raw HTML omitted -->]]></content:encoded>
     </item>
   </channel>
 </rss>

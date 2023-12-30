@@ -15,6 +15,30 @@
       <guid>https://nicolaiarocci.com/python-workload-now-officially-supported-in-visual-studio-2017/</guid>
       <description>Visual Studio 2017 just received an update (version 15.2). Among other nice things, this update brings full support for Python back into the official release of VS2017. As you might recall (see my old whiny post), previously Python was only available with Visual Studio 2017 Preview (a separate install).
 I just upgraded my copy of Visual Studio, added the Python Development Workload to it via the VS Installer, and finally (and very happily) uninstalled the whole Visual Studio Preview thingie.</description>
+      <content:encoded><![CDATA[<p>Visual Studio 2017 just received an update (<a href="https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes">version 15.2</a>). Among other
+nice things, this update brings full support for Python back into the official
+release of VS2017. As you might recall (see my <a href="https://nicolaiarocci.com/python-support-in-visual-studio-2017-or-the-lack-thereof/">old whiny post</a>), previously
+Python was only available with Visual Studio 2017 Preview (a separate install).</p>
+<p>I just upgraded my copy of Visual Studio, added the Python Development Workload
+to it via the VS Installer, and finally (and very happily) uninstalled the
+whole Visual Studio Preview thingie.  Alleluja!</p>
+<p>In case you are wondering what this is all about, well you should know that
+Python in Visual Studio is very powerful. The Release Notes provide a quick
+overview:</p>
+<blockquote>
+<p>We have enhanced the Python development workload in Visual Studio to maximize
+your productivity in Python. We offer improved IntelliSense, web development
+projects, Git, and VSTS integration to save you time and effort on everyday
+tasks. Use world class debugging (local, remote, cross-platform, and
+Python/native) and profiling tools to improve the quality and performance of
+your Python code.</p>
+</blockquote>
+<p>You can also check out my <a href="https://speakerdeck.com/nicola/python-on-windows-like-a-boss">Python on Windows Like a Boss</a> talk (although
+I guess it will kind of suck without the live demo), or jump over to the
+official <a href="https://www.visualstudio.com/vs/python">Python information page</a>.</p>
+<p><em>Join the <a href="http://eepurl.com/b-_Pzz">newsletter</a> to get an email alert when a new post surfaces on
+this site. If you want to get in touch, I am @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on twitter.</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>How to convert a PCL (Portable) project to NetStandard</title>
@@ -22,6 +46,67 @@ I just upgraded my copy of Visual Studio, added the Python Development Workload 
       <pubDate>Wed, 10 May 2017 09:47:05 +0200</pubDate>
       <guid>https://nicolaiarocci.com/how-to-convert-a-pcl-portable-project-to-netstandard/</guid>
       <description>I have been upgrading a few projects from their original PCL profiles (now deemed obsolete) to the Net Standard platform specification. It turned out to be a relatively straightforward process, but it does have its small hurdles, especially so if in the meantime you also want to transition to the new, streamlined, .csproj format as the migration will leave you with a now obsolete project.json project. In this article, I will cover upgrading a project from Portable Class Library to NetStandard.</description>
+      <content:encoded><![CDATA[<p>I have been upgrading a few projects from their original PCL profiles (now
+deemed obsolete) to the <a href="https://docs.microsoft.com/it-it/dotnet/articles/standard/library">Net Standard</a> platform specification. It turned out
+to be a relatively straightforward process, but it does have its small hurdles,
+especially so if in the meantime you also want to transition to the new,
+streamlined, <code>.csproj</code> format as the migration will leave you with a now
+obsolete <code>project.json</code> project. In this article, I will cover upgrading
+a project from Portable Class Library to NetStandard. In a follow-up post,
+I plan to write about the switch from <code>project.json</code> to the new <code>.csproj</code>
+format.</p>
+<p>So let us take the <a href="https://github.com/pyeve/Eve.NET/">Eve.NET</a> project as an example. It makes a good
+candidate because it is an open source project, so you can go and have a look
+at the source code <a href="https://github.com/pyeve/Eve.NET/tree/v0.2">before</a> and <a href="https://github.com/pyeve/Eve.NET/tree/netstandard">after</a> the switch from PCL to
+NetStandard.</p>
+<p>The first step was, of course, opening the project in Visual Studio 2017. If
+you are on an older VS version, you should upgrade. For many valid reasons
+indeed, among them the fact that Visual Studio 2017 comes with a built-in
+option to switch a project to NetStandard.</p>
+<p><img loading="lazy" src="/images/netstandard1.png" alt=""  />
+</p>
+<p>As you can see, before the upgrade Eve.NET was a Profile259 PCL project. As
+metioned, Visual Studio offers the option to switch to the .NET Platform
+Standard. By clicking the link, you get a fair warning that <em>you might not be
+able to use the same APIs when targeting NetStandard</em>. That makes sense
+because, as you probably know already, NetStandard is an API specification
+while a PCL essentially is the intersection (or lowest common denominator) of
+the APIs available on target platforms. PCL compatibility has never been the
+design goal of NetStandard.</p>
+<p>Generally speaking, NetStandard offers a wider range of APIs compared to most
+PCL profiles and, most importantly, is planned to go through a cycle of
+incremental upgrades of the API specification, each one denoted by a version
+number. We already went from 1.0 to 1.6, with 2.0 currently being developed.
+<a href="https://github.com/dotnet/standard/blob/master/docs/netstandard-20/README.md">NetStandard 2</a> will be a significant milestone, just give a look at the
+<a href="https://raw.githubusercontent.com/dotnet/standard/master/docs/versions/netstandard2.0_diff.md">impressive diff</a> between 1.6 and 2.0. A <em>lot</em> of open source projects are
+eagerly waiting on NetStandard 2 release (Q3 2017).</p>
+<p>Upon confirming the switch, you might get the following show-stopper (I did):</p>
+<p><img loading="lazy" src="/images/netstandard2.png" alt=""  />
+</p>
+<p>This dialog will pop up if your project never has opted-in for NuGet 3.0. If
+this is the case, you have to go back, uninstall all NuGet packages, then
+attempt the switch again. When the migration is complete, you will have to
+re-install the packages, provided that they are compatible with NetStandard. In
+Eve.NET case the only dependency is Json.NET, which supports NetStandard 1.3,
+which also means that Eve cannot support previous NetStandard versions.</p>
+<p>Now, if you give a look at the installed packages, you will find that you have
+a couple of new entries: <code>NETStandard.Library</code>, which is pretty
+self-explanatory, and <code>Microsoft.NETCore.Portable.Compatibility</code>. This one will
+only appear when you convert from a PCL: a brand new NetStandard project will
+not take a dependency on it. If you are not using any legacy code, like NET
+4.0-only, or Silverlight, you should be able to drop this dependency safely (I
+did with no consequences).</p>
+<p>The project is now NetStandard and ready to be used on all the platforms
+supporting your chosen version: NETCore, Windows, Xamarin, UWP, you name it.</p>
+<p>However, you will soon notice that the project has gained a <code>project.json</code>
+file. It is ok, it works just fine, but it is obsolete: with Visual Studio 2017
+project.json was abandoned for a new, streamlined and pretty darn powerful,
+<code>.csproj</code> project file. In the next article, I will show you how to move your
+project forward by dropping <code>project.json</code> and embracing the new project type
+(and other niceties, like dropping the <code>.nuspec</code> file in the process).</p>
+<p><em>Join the <a href="http://eepurl.com/b-_Pzz">newsletter</a> to get an email alert when a new post surfaces on
+this site. If you want to get in touch, I am @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on twitter.</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Python support in Visual Studio 2017 or the lack thereof</title>
@@ -30,6 +115,53 @@ I just upgraded my copy of Visual Studio, added the Python Development Workload 
       <guid>https://nicolaiarocci.com/python-support-in-visual-studio-2017-or-the-lack-thereof/</guid>
       <description>So yesterday Visual Studio 2017 was released. Big news. Lots of cool stuff. As I write this I am watching the live stream of the 2 days-long launch event. If you want to learn about Python support in VS2017 though, you have to dig deeper and head over to the Python Engineering blog at Microsoft.
 As expected, the official release is actually coming out with no support for Python. It will come in a few months.</description>
+      <content:encoded><![CDATA[<p>So yesterday Visual Studio 2017 was released. Big news. Lots of <a href="https://www.visualstudio.com/vs/whatsnew/">cool
+stuff</a>. As I write this I am watching the <a href="https://launch.visualstudio.com">live stream</a> of the
+2 days-long launch event. If you want to learn about Python support in VS2017
+though, you have to dig deeper and head over to the <a href="https://blogs.msdn.microsoft.com/pythonengineering/2017/03/07/python-support-in-vs2017/">Python Engineering</a>
+blog at Microsoft.</p>
+<p>As <a href="https://nicolaiarocci.com/python-workload-pulled-off-visual-studio-2017-rc3/">expected</a>, the official release is actually coming out with no support for
+Python. It will come in a few months. Bummer. In the meanwhile however you can go and grab the
+(also newly released) <a href="https://visualstudio.com/vs/preview?wt.mc_id=blogs_msdn_python">Visual Studio Preview</a>. This new kid on the block
+has the ability to be installed and used side-by-side with the official release
+and will be used - you guessed it - as an early preview of what’s coming next for Visual Studio.</p>
+<p>Two key things to note here:</p>
+<ul>
+<li>Everything that is in Visual Studio 2017 is also in Visual Studio Preview;</li>
+<li>They are two separate installations with separate workloads and settings.</li>
+</ul>
+<p>Now you might be thinking that two installs are overkill, and I concur. Because
+Preview includes all the official features, you might also think that you can
+probably get away with only installing Visual Studio Preview. That would work,
+but here is the catch: Visual Studio Preview has no support for paid product
+offerings. So if you are a Professional or Enterprise user well, you are out of
+luck.</p>
+<p>This is not ideal. Python pulled out of RC3 was understandable, although
+unsettling. Not included with the official release? Not pretty. For most
+people, I suspect, the gimmicks required to get Python to work with Visual
+Studio 2017 are unbearable. Personally, I will fallback to other solutions and
+wait until Python Workload gets merged back with the official offering.</p>
+<p>I am still convinced that in the long run Visual Studio with its Python
+Workload will become the best option to do Python on Windows (Visual Studio
+Code being the second best candidate). I mean, look at this beauty:</p>
+<p><img loading="lazy" src="/images/PythonVsPreview.png" alt=""  />
+</p>
+<p>Combined with the VsVim extension it makes Python coding on Windows almost as
+great as Vim+bash I&rsquo;ve been using so far, but within Visual Studio which I use
+for all my other coding (don&rsquo;t get me started on C# in Vim. That is material
+for another post maybe.) I am also totally sympathetic with the dev team.
+I have been in this business for longer than I care to admit and I do know
+these things happen. But still, there is no dobut that this unfortunate
+incident marks a serious setback.</p>
+<p>In less than one month I will be givin a talk at PyCon Italy. It is titled
+<a href="https://www.pycon.it/conference/talks/python-tools-for-visual-studio-ovvero-python-windows-like-a-boss-and-for-free">Python on Windows Like a Boss</a> and the heart of it was of course going be
+the Python Workload for Visual Studio 2017. With this turn of events I will
+probably end up going on stage with the previous version of the tool, and
+Visual Studio 2015.</p>
+<p>Or I will bite the bullet and install 35 gigs of mostly duplicated software.</p>
+<p><em>Join the <a href="http://eepurl.com/b-_Pzz">newsletter</a> to get an email alert when a new post surfaces on
+this site. If you want to get in touch, I am @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on twitter.</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Python Workload pulled off Visual Studio 2017 RC3</title>
@@ -38,6 +170,56 @@ As expected, the official release is actually coming out with no support for Pyt
       <guid>https://nicolaiarocci.com/python-workload-pulled-off-visual-studio-2017-rc3/</guid>
       <description>So how do you install the awesome Python Development Tools on the latest Visual Studio 2017 RC? That might seem a stupid question considering that the Data Science and Python Development workload has been available with every Release Candidate so far. You simply select the workload during the installation and you&amp;rsquo;re done, right? Not quite.
 I found out the hard way this morning as I wanted to install VS 2017 RC3 on my development machine and, to my surprise, I could not find Python Development anywhere on the workloads window (which itself is a huge improvement over the VS 2015 install experience, by the way).</description>
+      <content:encoded><![CDATA[<p>So how do you install the awesome <a href="https://www.visualstudio.com/vs/python/">Python Development Tools</a> on the latest
+Visual Studio 2017 RC? That might seem a stupid question considering that the
+Data Science and Python Development workload has been available with every
+Release Candidate so far. You simply select the workload during the
+installation and you&rsquo;re done, right? Not quite.</p>
+<p>I found out the hard way this morning as I wanted to install VS 2017 RC3 on my
+development machine and, to my surprise, I could not find Python Development
+anywhere on the workloads window (which itself is a huge improvement over the
+VS 2015 install experience, by the way). Easy, I thought, they moved it to some
+secondary &ldquo;optional workloads&rdquo; tab, but a quick scan did not reveal any of
+that.</p>
+<p>Concerned now, I turned to the <a href="https://www.google.com/?gfe_rd=cr&amp;ei=Lh2oWNCJENCv8wfrtaqYDA&amp;gws_rd=cr#q=python+tools+visual+studio+2017+rc3">Oracle of All Things</a> only to find that the
+Python Workload has been pulled off the Visual Studio 2017 RC3 (January 2017).
+It was actually reported in the <a href="https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes">release notes</a>:</p>
+<blockquote>
+<p>Removed the Data Science and Python Development workloads as some of the
+components weren’t meeting the release requirements, such as translation to
+non-English languages. They will be available soon as separate downloads.</p>
+</blockquote>
+<p>When I glanced over them I (and probably you too) did not notice this little
+paragraph. But wait, it&rsquo;s even worse than you would expect:</p>
+<blockquote>
+<p>Upgrading to current version will remove any previously installed Python and
+Data Science workloads/components.</p>
+</blockquote>
+<p>That&rsquo;s right. If you upgrade to RC3 you win a wipe out of your Python
+environment. Further research revelead an open <a href="https://github.com/Microsoft/PTVS/issues/2099">ticket</a> on GitHub.
+Apparently they are working on a way to install the Python and Data Science
+workloads on top of an existing VS 2017 install, but I would not hold my breath
+on it:</p>
+<blockquote>
+<p>Thanks everyone for the support and understanding. It&rsquo;s still not clear to us
+how we&rsquo;re going to be releasing Python support, but the plan is definitely to
+have something when VS 2017 releases next month.</p>
+</blockquote>
+<p>Since the official VS 2017 release is planned early next month it is very
+likely that we will just have to wait until then. In the meantime, you better
+have a VS 2015 sitting side by side with your brand new, mutilated, Visual
+Studio 2017. Or you switch to Visual Studio Code, which offers fantastic
+support for Python.</p>
+<p>Or you fallback to good ole trusted Vim, like I did.</p>
+<p>UPDATE (Feb 22, 2017). There&rsquo;s now an <a href="https://blogs.msdn.microsoft.com/pythonengineering/2017/02/22/python-in-vs2017/">official post</a> up at the Microsoft
+Python Engineering blog, by Steve Dower. Looks like using Python with Visual
+Studio 2017 will initially require a separate &ldquo;preview&rdquo; build of VS itself.
+Only months later Python support will be merged to the official bundle.</p>
+<p>UPDATE (Mar 8, 2017). I posted a <a href="https://nicolaiarocci.com/python-support-in-visual-studio-2017-or-the-lack-thereof/">follow-up article</a>, as VS2017 has finally
+been released.</p>
+<p><em>Join the <a href="http://eepurl.com/b-_Pzz">newsletter</a> to get an email alert when a new post surfaces on
+this site. If you want to get in touch, I am @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on twitter.</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Python Tools per Visual Studio 1.5</title>
@@ -47,6 +229,12 @@ I found out the hard way this morning as I wanted to install VS 2017 RC3 on my d
       <description>Seguo il progetto Python Tools per Visual Studio da molto tempo.
 Python Tools per Visual Studio è un plugin gratuito e open source che trasforma Visual Studio in una IDE per Python. Supporta CPython, IronPython, Intellisense, Debugging, Profiling, Editing, Browsing, REPL Multipli, IPython, Django e Cloud Computing con librerie client per Windows, Linux e OS X (Azure).
 La versione 1.5, rilasciata oggi, aggiunge supporto per Django, Azure, REPL debugging, Visual Studio 2012 e altro.</description>
+      <content:encoded><![CDATA[<p>Seguo il progetto Python Tools per Visual Studio da <a href="http://nicolaiarocci.com/?s=python+tools+visual+studio&amp;submit=Search" title="Python Tools per Visual Studio">molto tempo</a>.</p>
+<blockquote>
+<p>Python Tools per Visual Studio è un plugin gratuito e open source che trasforma Visual Studio in una IDE per Python. Supporta CPython, IronPython, Intellisense, Debugging, Profiling, Editing, Browsing, REPL Multipli, IPython, Django e Cloud Computing con librerie client per Windows, Linux e OS X (Azure).</p>
+</blockquote>
+<p>La <!-- raw HTML omitted -->versione 1.5<!-- raw HTML omitted -->, rilasciata oggi, aggiunge supporto per Django, Azure, REPL debugging, Visual Studio 2012 e altro.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Python Tools per Visual Studio per accedere a Kinect SDK ed Excel via Python</title>
@@ -55,6 +243,11 @@ La versione 1.5, rilasciata oggi, aggiunge supporto per Django, Azure, REPL debu
       <guid>https://nicolaiarocci.com/python-tools-per-visual-studio-per-accedere-a-kinect-sdk-ed-excel-via-python/</guid>
       <description>E’ uscita ieri la versione 1.1 Alpha dei Python Tools per Visual Studio, il plug-in open source per programmare in Python con Visual Studio 2010. Migliorie e molte nuove features per la IDE ma la novità più interessante sono senz’altro PyKinect e Pyvot, due librerie che consentono rispettivamente di lavorare col Kinect SDK e di interagire con Excel via Python.
 Per informazioni su Python Tools per Visual Studio date una occhiata a Programmare in Python con Visual Studio 2010 e Python Studio per Visual Studio 1.</description>
+      <content:encoded><![CDATA[<p>E’ uscita ieri la <!-- raw HTML omitted -->versione 1.1 Alpha<!-- raw HTML omitted --> dei Python Tools per Visual Studio, il plug-in open source per programmare in Python con Visual Studio 2010. Migliorie e molte nuove features per la IDE ma la novità più interessante sono senz’altro <!-- raw HTML omitted -->PyKinect<!-- raw HTML omitted --> e <!-- raw HTML omitted -->Pyvot<!-- raw HTML omitted -->, due librerie che consentono rispettivamente di lavorare col Kinect SDK e di interagire con Excel via Python.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Per informazioni su Python Tools per Visual Studio date una occhiata a <a href="http://nicolaiarocci.com/python-tools-per-visual-studio-2010/" title="Programmare in Python con Visual Studio 2010">Programmare in Python con Visual Studio 2010</a> e <a href="http://nicolaiarocci.com/python-tools-per-visual-studio-1-0/" title="Python Tools per Visual Studio 1.0">Python Studio per Visual Studio 1.0</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Python Tools per Visual Studio 2010 arriva la RC1</title>
@@ -62,6 +255,11 @@ Per informazioni su Python Tools per Visual Studio date una occhiata a Programm
       <pubDate>Tue, 12 Jul 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/python-tools-per-visual-studio-2010-arriva-la-rc1/</guid>
       <description>&lt;p&gt;Prosegue senza intoppi il cammino di &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Python Tools per Visual Studio&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, il progetto open source targato Microsoft che consente di programmare in Python con Visual Studio 2010. Dopo il &lt;a href=&#34;http://nicolaiarocci.com/python-tools-per-visual-studio-2010/&#34; title=&#34;Programmare in Python con Visual Studio 2010&#34;&gt;lancio ufficiale&lt;/a&gt; dello scorso marzo e la successiva &lt;a href=&#34;http://nicolaiarocci.com/python-tools-per-visual-studio-ecco-la-beta-2/&#34; title=&#34;Python Tools per Visual Studio 2010 Beta 2&#34;&gt;Beta 2&lt;/a&gt; di maggio, ieri è stata presentata la &lt;strong&gt;Release Candidate 1&lt;/strong&gt;.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Prosegue senza intoppi il cammino di <strong><!-- raw HTML omitted -->Python Tools per Visual Studio<!-- raw HTML omitted --></strong>, il progetto open source targato Microsoft che consente di programmare in Python con Visual Studio 2010. Dopo il <a href="http://nicolaiarocci.com/python-tools-per-visual-studio-2010/" title="Programmare in Python con Visual Studio 2010">lancio ufficiale</a> dello scorso marzo e la successiva <a href="http://nicolaiarocci.com/python-tools-per-visual-studio-ecco-la-beta-2/" title="Python Tools per Visual Studio 2010 Beta 2">Beta 2</a> di maggio, ieri è stata presentata la <strong>Release Candidate 1</strong>.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Oltre 200 i bug risolti e notevoli sono le novità introdotte, come per esempio il supporto per il refactoring. Consultate le <!-- raw HTML omitted -->release notes<!-- raw HTML omitted --> conoscere tutte le novità. Se volete saperne di più su questo interessante progetto vi invito a leggere <strong><a href="http://nicolaiarocci.com/python-tools-per-visual-studio-2010/" title="Programmare in Python con Visual Studio 2010">Programmare in Python con Visual Studio 2010</a></strong>,  la recensione che ho scritto in occasione del lancio.</p>
+<p><em>Aggiornamento del 2.8.2011: siamo arrivati alla RC2</em></p>]]></content:encoded>
     </item>
     <item>
       <title>Python Tools per Visual Studio ecco la Beta 2</title>
@@ -70,6 +268,10 @@ Per informazioni su Python Tools per Visual Studio date una occhiata a Programm
       <guid>https://nicolaiarocci.com/python-tools-per-visual-studio-ecco-la-beta-2/</guid>
       <description>&lt;p&gt;Microsoft ha rilasciato la seconda beta di &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Python Tools per Visual Studio&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, il suo progetto open source che offre agli sviluppatori la possibilità di scrivere codice Python, CPython e IronPython nell’ambiente IDE di Visual Studio 2010.&lt;/p&gt;
 &lt;p&gt;Il progetto è stato presentato al &lt;!-- raw HTML omitted --&gt;PyCon 2011&lt;!-- raw HTML omitted --&gt; dal &lt;!-- raw HTML omitted --&gt;Microsoft Technical Computing Group&lt;!-- raw HTML omitted --&gt; ed è davvero ben fatto. Per tutti gli approfondimenti vi rimando al mio articolo &lt;!-- raw HTML omitted --&gt;Programmare in Python con Visual Studio 2010&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Microsoft ha rilasciato la seconda beta di <strong><!-- raw HTML omitted -->Python Tools per Visual Studio<!-- raw HTML omitted --></strong>, il suo progetto open source che offre agli sviluppatori la possibilità di scrivere codice Python, CPython e IronPython nell’ambiente IDE di Visual Studio 2010.</p>
+<p>Il progetto è stato presentato al <!-- raw HTML omitted -->PyCon 2011<!-- raw HTML omitted --> dal <!-- raw HTML omitted -->Microsoft Technical Computing Group<!-- raw HTML omitted --> ed è davvero ben fatto. Per tutti gli approfondimenti vi rimando al mio articolo <!-- raw HTML omitted -->Programmare in Python con Visual Studio 2010<!-- raw HTML omitted -->.</p>
+<!-- raw HTML omitted -->
+<p>Questa nuova release porta in dote una serie di bug fix che rendono più stabile il progetto e nessuna nuova feature. A questo punto la Release Candidate 1, programmata inizialmente per il mese di maggio, subirà probabilmente un leggero slittamento. Immagino che dovremo aspettare almeno il prossimo mese.</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

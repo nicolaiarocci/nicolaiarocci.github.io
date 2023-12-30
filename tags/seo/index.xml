@@ -15,6 +15,12 @@
       <guid>https://nicolaiarocci.com/sopravvivere-a-google-panda-in-italia/</guid>
       <description>Finalmente anche in Italia qualcuno pubblica un articolo originale e convincente sulla recente comparsa del “famigerato” algoritmo Google Panda. Molti SEO in questi mesi si sono stracciati le vesti, lamentando un attacco diretto da parte di Google alla loro maestà.
 L’autore di Surviving (Google) Panda in Italia dipana per bene l’ingarbugliata sequenza di annunci e implementazioni culminate poi nel Panda Update. Non mancano alcuni consigli sensati (e tanto per cambiare originali) e una interessante conclusione che vi lascio leggere da soli.</description>
+      <content:encoded><![CDATA[<p>Finalmente anche in Italia qualcuno pubblica un articolo originale e convincente sulla recente comparsa del “famigerato” algoritmo Google Panda. Molti SEO in questi mesi si sono stracciati le vesti, lamentando un attacco diretto da parte di Google alla loro maestà.</p>
+<p>L’autore di <!-- raw HTML omitted -->Surviving (Google) Panda in Italia<!-- raw HTML omitted --> dipana per bene l’ingarbugliata sequenza di annunci e implementazioni culminate poi nel Panda Update. Non mancano alcuni consigli sensati (e tanto per cambiare originali) e una interessante conclusione che vi lascio leggere da soli. E bravo <!-- raw HTML omitted -->Stuart<!-- raw HTML omitted -->!</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p> </p>
+]]></content:encoded>
     </item>
     <item>
       <title>Google Shopping Italia è finalmente online</title>
@@ -23,6 +29,11 @@ L’autore di Surviving (Google) Panda in Italia dipana per bene l’ingarbugli
       <guid>https://nicolaiarocci.com/google-shopping-italia-e-finalmente-online/</guid>
       <description>A quanto pare da stamattina Google Shopping Italia, edizione nazionale del più vasto progetto Google Merchant Center, è operativo. Per provarlo andate su Google.it, eseguite una normale ricerca e cliccate sulla nuova opzione Shopping (oppure fate una ricerca diretta dalla home page di Google Shopping)
 Dato per imminente a febbraio, del nuovo canale e-commerce di Google non si erano più avute notizie, tanto che qualcuno cominciava a domandarsi che fine avesse fatto.</description>
+      <content:encoded><![CDATA[<p>A quanto pare da stamattina <strong><!-- raw HTML omitted -->Google Shopping Italia<!-- raw HTML omitted --></strong>, edizione nazionale del più vasto progetto <strong>Google Merchant Center</strong>,  è operativo. Per provarlo andate su Google.it, eseguite una normale ricerca e cliccate sulla nuova opzione Shopping (oppure fate una ricerca diretta dalla home page di <!-- raw HTML omitted -->Google Shopping<!-- raw HTML omitted -->)</p>
+<!-- raw HTML omitted -->
+<p>Dato per imminente <!-- raw HTML omitted -->a febbraio<!-- raw HTML omitted -->, del nuovo canale e-commerce di Google non si erano più avute notizie, tanto che qualcuno cominciava a domandarsi <!-- raw HTML omitted -->che fine avesse fatto<!-- raw HTML omitted -->.</p>
+<p>Per informazioni approfondite vi rimando <!-- raw HTML omitted -->all’articolo che scrissi a suo tempo<!-- raw HTML omitted -->, qui mi limito a segnalarvi il link per <!-- raw HTML omitted -->creare un account<!-- raw HTML omitted -->, registrare i prodotti e impostare il proprio negozio su Google Shopping.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Google Page Speed ora gira anche su Chrome</title>
@@ -30,6 +41,14 @@ Dato per imminente a febbraio, del nuovo canale e-commerce di Google non si er
       <pubDate>Wed, 23 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/google-page-speed-ora-gira-anche-su-chrome/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://code.google.com/speed/page-speed/&#34;&gt;Page Speed&lt;/a&gt; è un servizio Google per la ottimizzazione delle prestazioni delle pagine web. E’ molto apprezzato dagli sviluppatori di tutto il mondo che finora l’hanno usato su web server Apache oppure sotto forma di estensione per Firefox. Finalmente Google ha &lt;a href=&#34;http://googlewebmastercentral.blogspot.com/2011/03/page-speed-for-chrome-and-in-40.html&#34;&gt;annunciato&lt;/a&gt; l’estensione sperimentale &lt;!-- raw HTML omitted --&gt;Page Speed per Chrome&lt;!-- raw HTML omitted --&gt;, disponibile anche in italiano.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted --><a href="http://code.google.com/speed/page-speed/">Page Speed</a> è un servizio Google per la ottimizzazione delle prestazioni delle pagine web. E’ molto apprezzato dagli sviluppatori di tutto il mondo che finora l’hanno usato su web server Apache oppure sotto forma di estensione per Firefox. Finalmente Google ha <a href="http://googlewebmastercentral.blogspot.com/2011/03/page-speed-for-chrome-and-in-40.html">annunciato</a> l’estensione sperimentale <!-- raw HTML omitted -->Page Speed per Chrome<!-- raw HTML omitted -->, disponibile anche in italiano.</p>
+<h2 id="installazione">Installazione</h2>
+<p>Trattandosi di una estensione sperimentale l’installazione è più laboriosa del solito. Nella barra degli indirizzi digitate <code>about:flags</code> e premete invio. Abilitate l’opzione <code>API sperimentali di estensione</code> quindi scorrete fino in fondo alla pagina e cliccate sul pulsante <code>Riavvia adesso</code>. Dopo il riavvio sarà finalmente possibile <a href="https://clients2.google.com/service/update2/crx?response=redirect&amp;x=id%3Dgplegfbjlmmehdoakndmohflojccocli%26uc">scaricare l’estensione</a> e completare l’installazione. Per attivare Page Speed andate sulla pagina web che volete collaudare e aprite gli Strumenti per sviluppatori. Per maggiori informazioni consultate la <a href="http://code.google.com/intl/it-IT/speed/page-speed/docs/using_chrome.html">pagina ufficiale dell’estensione</a>.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="perché-la-velocità-del-tuo-sito-è-importante">Perché la velocità del tuo sito è importante</h2>
+<p>I siti veloci migliorano l’esperienza dell’utente e questo piace molto ai motori di ricerca, che già oggi misurano le prestazioni di ogni sito indicizzato. I risultati di queste misurazioni sono uno degli indicatori usati per determinare l’importanza dei siti web e quindi la loro <strong>posizione nei risultati delle SERP</strong>. Il fatto che Google stessa sia impegnata a fornire strumenti avanzati di ottimizzazione e misurazione la dice lunga su quanto questo indicatore sarà sempre più determinante nel prossimo futuro.</p>
+<p>Se non siete convinti considerate questo: solo qualche giorno fa anche Yahoo a rilasciato la <a href="https://chrome.google.com/extensions/detail/ninejjcohidippngpapiilnmkgllmakh">versione per Chrome</a> di <a href="http://developer.yahoo.com/yslow/">YSlow</a>, la sua sua estensione per la ottimizzazione delle pagine web. Se due indizi non fanno una prova, poco ci manca.</p>]]></content:encoded>
     </item>
     <item>
       <title>Programmazione, SEO, Startup – Il Meglio della Settimana #4</title>
@@ -51,6 +70,57 @@ Dato per imminente a febbraio, del nuovo canale e-commerce di Google non si er
 &lt;/ol&gt;
 &lt;pre&gt;&lt;code&gt;La pazienza è la virtù dei forti, ma per molti è una pratica difficile da applicare. Ciò è vero soprattutto per chi visita siti web. Six Revision ci propone una decina di consigli per velocizzare le nostre pagine web.
 &lt;/code&gt;&lt;/pre&gt;</description>
+      <content:encoded><![CDATA[<ol>
+<li><strong><!-- raw HTML omitted --><a href="http://stevecheney.posterous.com/how-facebook-is-killing-your-authenticity">Facebook sta uccidendo la tua Autenticità</a></strong></li>
+</ol>
+<pre><code>Steve Cheney propone una riflessione su come Facebook condizioni ormai _l&amp;#8217;autenticità_ dei suoi utenti. Il timore che conoscenti e amici (alcuni non li incontriamo da anni, altri sono parenti stretti) vedano quel che facciamo online ci induce a comportarci in maniera diversa da quel che sarebbe il nostro istintivo sentire.
+</code></pre>
+<ol start="2">
+<li><a href="http://www.distilled.co.uk/excel-for-seo/"><strong>Tutorial: Microsoft Excel per il SEO</strong></a></li>
+</ol>
+<pre><code>Eccellente tutorial su come usare Excel per analizzare al meglio la quantità di dati che raccogliamo durante le nostre indagini SEO.
+</code></pre>
+<ol start="3">
+<li><a href="http://sixrevisions.com/web-development/decrease-webpage-load-times/"><strong>10 consigli per velocizzare il caricamento delle pagine Web</strong></a></li>
+</ol>
+<pre><code>La pazienza è la virtù dei forti, ma per molti è una pratica difficile da applicare. Ciò è vero soprattutto per chi visita siti web. Six Revision ci propone una decina di consigli per velocizzare le nostre pagine web.
+</code></pre>
+<ol start="4">
+<li>
+<p><a href="http://www.ibtimes.com/articles/120033/20110308/adobe-flash-html-5-wallaby-ios-iphone-ipad-ipad-2-ios-4-3-chrome-safari-windows-nitro-javascript-dre.htm"><strong>Adobe rilascia un convertitore da Flash a HTML5</strong></a></p>
+<p>E con questa Adobe ammette, sia pur implicitamente, la morte di Flash. Se mi segui da un pò la mia opinione <a href="http://nicolaiarocci.com/flash-adobe-e-una-pessima-idea/">la conosci già</a>. L’altro giorno al BE-Wizard 2011 il grande <strong>Avinash Kaushik</strong> ha dichiarato (ero in platea): “ogni volta che usi Flash su una pagina Web, un dolce cucciolo muore”.</p>
+</li>
+<li>
+<p><a href="http://www.html5rocks.com/tutorials/speed/html5/"><strong>Tutorial: Aumentare le prestazioni delle applicazioni HTML5</strong></a></p>
+</li>
+</ol>
+<pre><code>HTML5 ci offre splendidi strumenti per migliorare l&amp;#8217;aspetto delle applicazioni web. Animazioni ed effetti richiedono attenzione alle prestazioni. Ecco un ottimo e approfondito tutorial su come evitare il rischio di passare dalla padella alla brace.
+</code></pre>
+<ol start="6">
+<li><strong><a href="https://developer.apple.com/xcode/">Apple rilascia Xcode 4</a></strong></li>
+</ol>
+<pre><code>Xcode 4 è la nuova versione del framework Apple per la creazione di applicazioni Mac, iPhone, and iPad. Include la Xcode IDE, Instruments, il simulatore di iOS e le ultime versioni degli SDK per Mac OS X e iOS**.** 
+</code></pre>
+<ol start="7">
+<li><a href="http://mashable.com/2011/03/10/node-js/"><strong>Ecco perché tutti parlano di Node</strong></a></li>
+</ol>
+<pre><code>Al ventesimo piano di un grattacielo di San Francisco un gruppo di sviluppatori sta lavorando a una nuova tecnologia che sta cambiando (forse) il modo in cui le applicazioni web in real-time saranno costruite e distribuite. Tutti ne parlano. Ecco perché.
+</code></pre>
+<ol start="8">
+<li><a href="http://www.queness.com/post/7018/11-useful-online-tools-for-web-development"><strong>11 Tools Online per Programmatori</strong></a></li>
+</ol>
+<pre><code>I tools online sono ideali per sbrigare rapidamente piccoli lavoretti. Questo articolo ne presenta una selezione originale.
+</code></pre>
+<ol start="9">
+<li><a href="http://searchenginewatch.com/3641984"><strong>SEO: Massimizzare il CTR nelle ricerche organiche</strong></a></li>
+</ol>
+<pre><code>Non perdetevi questo articolo se lavorate in ambito SEO/SERP. _Enough said_.
+</code></pre>
+<ol start="10">
+<li><a href="http://mashable.com/2011/03/12/hello-bar-japan/"><strong>Hai un Blog o un sito web? Aiuta il Giappone con un semplice Banner</strong></a></li>
+</ol>
+<pre><code>Puoi dare una mano inserendo uno snippet di codice che mostra un banner che invita a partecipare alla raccolta fondi per il Giappone avviata dalla Croce Rossa.
+</code></pre>]]></content:encoded>
     </item>
     <item>
       <title>Programmazione, SEO, Startup – Il Meglio della Settimana #3</title>
@@ -58,6 +128,70 @@ Dato per imminente a febbraio, del nuovo canale e-commerce di Google non si er
       <pubDate>Sun, 06 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/programmazione-seo-startup-il-meglio-della-settimana-3/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Settimana ricca di avvenimenti anche questa. SEO, Startup e applicazioni per Smartphone in primo piano ma non mancano altre chicche per buongustai. Al decimo posto una curiosità non ha nulla da spartire con gli argomenti trattati di solito, ma quelle foto dovevo segnalarvele. Ringrazio chi mi ha contattato via mail, Facebook e Twitter. A quanto pare la rubrica piace e farò il possibile per portarla avanti migliorando la qualità delle selezioni, come sempre assolutamente arbitrarie.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Settimana ricca di avvenimenti anche questa. SEO, Startup e applicazioni per Smartphone in primo piano ma non mancano altre chicche per buongustai. Al decimo posto una curiosità non ha nulla da spartire con gli argomenti trattati di solito, ma quelle foto dovevo segnalarvele. Ringrazio chi mi ha contattato via mail, Facebook e Twitter. A quanto pare la rubrica piace e farò il possibile per portarla avanti migliorando la qualità delle selezioni, come sempre assolutamente arbitrarie.</p>
+<ol>
+<li>
+<p><strong><a href="http://cdixon.org/2011/03/05/seo-is-no-longer-a-viable-marketing-strategy-for-startups/">SEO non è più una strategia valida per le Startup</a></strong></p>
+<p>Opinione fuori dal coro quella di Chris Dixon, CEO di Hunch e investitore seriale (Skype, Foursquare, Stack Overflow e altri). Chris sostiene che le Startup dovrebbero smetterla di puntare su SEO. Alla base del successo di molte Startup dell’ultimo decennio, l’industria SEO è cresciuta talmente che il mercato ne é saturo. Al punto che Google ormai fatica a distinguere i contenuti di qualità da quelli <em>SEO-optimized</em>. Nei commenti una discussione vivace alle quale partecipano investitori famosi e SEO guru internazionali.</p>
+</li>
+<li>
+<p><strong><a href="http://www.marioconcina.it/blog/mobile-development/analisi-sullo-sviluppo-di-applicazioni-per-smartphone.html">Analisi sullo sviluppo di applicazioni per Smartphone</a></strong></p>
+</li>
+</ol>
+<pre><code>Secondo molti lo sviluppo di applicazioni mobile è il futuro. Ma quale è la piattaforma sulla quale puntare investendo tempo e denaro? Mario Concina ci offre una bella panoramica su linguaggi, costi e pro e contro di ognuna delle piattaforme tecnologiche più importanti (iPhone, Android, Windows Mobile, Symbian, BlackBerry)
+</code></pre>
+<ol start="3">
+<li>**[<!-- raw HTML omitted -->Settimana ricca di avvenimenti anche questa. SEO, Startup e applicazioni per Smartphone in primo piano ma non mancano altre chicche per buongustai. Al decimo posto una curiosità non ha nulla da spartire con gli argomenti trattati di solito, ma quelle foto dovevo segnalarvele. Ringrazio chi mi ha contattato via mail, Facebook e Twitter. A quanto pare la rubrica piace e farò il possibile per portarla avanti migliorando la qualità delle selezioni, come sempre assolutamente arbitrarie.</li>
+</ol>
+<!-- raw HTML omitted -->
+<ol>
+<li><strong><a href="http://cdixon.org/2011/03/05/seo-is-no-longer-a-viable-marketing-strategy-for-startups/">SEO non è più una strategia valida per le Startup</a></strong></li>
+</ol>
+<pre><code>Opinione fuori dal coro quella di Chris Dixon, CEO di Hunch e investitore seriale (Skype, Foursquare, Stack Overflow e altri). Chris sostiene che le Startup dovrebbero smetterla di puntare su SEO. Alla base del successo di molte Startup dell&amp;#8217;ultimo decennio, l&amp;#8217;industria SEO è cresciuta talmente che il mercato ne é saturo. Al punto che Google ormai fatica a distinguere i contenuti di qualità da quelli _SEO-optimized_. Nei commenti una discussione vivace alle quale partecipano investitori famosi e SEO guru internazionali.
+</code></pre>
+<ol start="2">
+<li><strong><a href="http://www.marioconcina.it/blog/mobile-development/analisi-sullo-sviluppo-di-applicazioni-per-smartphone.html">Analisi sullo sviluppo di applicazioni per Smartphone</a></strong></li>
+</ol>
+<pre><code>Secondo molti lo sviluppo di applicazioni mobile è il futuro. Ma quale è la piattaforma sulla quale puntare investendo tempo e denaro? Mario Concina ci offre una bella panoramica su linguaggi, costi e pro e contro di ognuna delle piattaforme tecnologiche più importanti (iPhone, Android, Windows Mobile, Symbian, BlackBerry)
+</code></pre>
+<ol start="3">
+<li><strong>]<a href="http://www.pcworld.com/article/221159/5_new_ways_build_iphone_android_browser_apps.html">3</a></strong> Molte Startup lanciano in questi giorni prodotti e soluzioni che promettono di semplificare la creazione di applicazioni mobile. In questo articolo PC World ne presenta cinque. Alcune promettono la luna: creazione rapida di applicazioni mobile per tutti, programmatori e non.</li>
+<li><a href="http://www.attackofdesign.com/coder-who-cant-design-and-designers-who-cant-code/"><strong>Programmatori che non sono Designer, Designer che non sono Programmatori</strong></a></li>
+</ol>
+<pre><code>Il programmatore incapace di accoppiare due colori. Il designer inetto col codice. O ci riconosciamo in una di queste figure (io nella prima), o ne abbiamo incontrate nella nostra carriera. Questo breve articolo ne traccia il profilo.
+</code></pre>
+<ol start="5">
+<li><strong><a href="http://www.bigthink.it/facebook-e-i-nuovi-commenti-sincronizzati/">Facebook e i nuovi commenti sincronizzati</a></strong></li>
+</ol>
+<pre><code>Facebook è in gran spolvero di questi tempi. Solo quindici giorni fa aggiornava subdolamente il Like Button e questa settimana mette mano al plugin dei Commenti. La novità è destinata a influire pesantemente sulla penetrazione di Facebook nel &amp;#8216;resto della rete&amp;#8217;. Con la solita dovizia di particolari BigThink ci spiega gli aspetti pratici di questo aggiornamento.
+
+&lt;a style=&quot;font-weight: bold;&quot; href=&quot;http://www.bigthink.it/facebook-e-i-nuovi-commenti-sincronizzati/&quot;&gt;&lt;/a&gt;
+</code></pre>
+<ol start="6">
+<li><a href="http://startup.wikli.it/"><strong>Startup.Wikli.it</strong></a></li>
+</ol>
+<pre><code>Startup, web, acquisizioni e venture capital. Wikli seleziona e commenta le news tematiche più interessanti della settimana, le confeziona e te le fa trovare puntuali nella casella di posta ogni venerdì alle 8.00. Idea brillante e molto ben congegnata. Vi invito ad iscrivervi a questa innovativa mailing list. Non ve ne pentirete.
+</code></pre>
+<ol start="7">
+<li><a href="http://www.fabiolalli.com/2011/03/02/yeplike-startup-in-72-ore/"><strong>YepLike! Startup in 72 ore</strong></a></li>
+</ol>
+<pre><code>In preda a delirio febbricitante Fabio Lalli si inventa una idea da lanciare in 72 ore. Leggete il suo racconto. PS: nel frattempo le 72 ore sono trascorse, l&amp;#8217;applicazione è su iPhone e a quanto pare riscuote buon successo.
+</code></pre>
+<ol start="8">
+<li><a href="http://rgarg.posterous.com/20-software-development-best-practices"><strong>Venti consigli pratici per il programmatore</strong></a></li>
+</ol>
+<pre><code>Di post di questo tipo se ne trovano tanti in rete ma questo mi ha colpito perché contiene alcune chicche interessanti che denotano esperienza diretta da parte dell&amp;#8217;autore. Da non perdere se siete principianti. Se siete esperti vi riconoscerete senz&amp;#8217;altro in alcune di queste situazioni.
+</code></pre>
+<ol start="9">
+<li><a href="http://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read"><strong>Quale è il libro fondamentale che ogni programmatore dovrebbe leggere nella vita?</strong></a></li>
+</ol>
+<pre><code>Su Stack Overflow se ne è discusso a lungo. Il risultato è una selezione di alcuni tra i libri più importanti di sempre. Il fatto che il Kernighan &amp; Ritchie non sia il primo in classifica la dice lunga sulla mia vetustità. Sono un collezionista di prime edizioni, ammetto che vedere riuniti così tanti testi fondamentali mi ha fatto prudere le mani.
+</code></pre>
+<ol start="10">
+<li><a href="http://www.howtobearetronaut.com/2011/02/shackletons-antarctica-in-colour-1915/"><strong>Shackleton, L’Antartide a Colori – 1915</strong></a></li>
+</ol>
+<pre><code>Nel 1915 Shackleton e i suoi uomini furono costretti ad abbandonare la &amp;#8216;Endurance&amp;#8217;, inesorabilmente intrappolata dai ghiacci. Frank Hurley, il fotografo dela spedizione, riuscì miracolosamente a salvare le lastre fotografiche di quella spedizione. In questa magnifica galleria vediamo le foto (a colori) di quella spedizione
+</code></pre>]]></content:encoded>
     </item>
     <item>
       <title>Programmazione, SEO, Startups – Il Meglio della Settimana #1</title>
@@ -65,6 +199,65 @@ Dato per imminente a febbraio, del nuovo canale e-commerce di Google non si er
       <pubDate>Mon, 21 Feb 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/programmazione-seo-startups-il-meglio-della-settimana-1/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Vi propongo una scelta delle risorse più interessanti e curiose che ho scovato questa settimana in rete. Ce né per tutti i gusti: programmazione, SEO, Startups e curiosità. Andiamo a cominciare:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Vi propongo una scelta delle risorse più interessanti e curiose che ho scovato questa settimana in rete. Ce né per tutti i gusti: programmazione, SEO, Startups e curiosità. Andiamo a cominciare:</p>
+<ol>
+<li>
+<p><strong><a href="http://docs.python.org/dev/howto/pyporting.html">Da Python 2 a Python 3</a></strong></p>
+<p>Python 3 è il futuro, ma Python 2 è attualmente la versione più usata al mondo. Ora finalmente la documentazione ufficiale è arricchita da una bella guida alle migliori strategie per supportare entrambe le versioni di Python.</p>
+<p><a href="http://docs.python.org/dev/howto/pyporting.html"></a></p>
+</li>
+<li>
+<p><a href="http://blogs.nationalgeographic.com/blogs/news/breakingorbit/2011/01/400-volunteer-for-one-way-mars-trip.html"><strong>Per quale motivo 400 persone si sono offerte volontarie per una viaggio di sola andata verso Marte?</strong></a></p>
+</li>
+</ol>
+<pre><code>Il numero Ottobre-Novembre 2010 del _Journal of Cosmology_ contiene uno speciale di 55 pagine intitolato &amp;#8220;Missione Umana su Marte: Colonizzare il Pianeta Rosso&amp;#8221;. Secondo gli scienziati una missione di sola andata destinata a colonizzare Marte sarebbe possibile entro 20 anni. Cosa ha spinto ben quattrocento lettori a offrirsi come volontari per la missione?
+</code></pre>
+<ol start="3">
+<li><strong><a href="http://www.seomoz.org/blog/tweets-effect-rankings-unexpected-case-study">Il sorprendente effetto di un singolo Tweet sul Page Rank di Google</a></strong></li>
+</ol>
+<pre><code>Google ha ammesso recentemente che i link provenienti dai social network sono segnali usati nella valutazione dell&amp;#8217;importanza dei siti web. I ragazzi di SEOmoz (tra i migliori esperti SEO in circolazione) sono rimasti esterrefatti dagli effetti che un singolo tweet ha causato sul page rank della loro _Beginners Guide to SEO_.
+</code></pre>
+<ol start="4">
+<li><a href="http://www.lucasartoni.com/lavoro/open-letter-to-an-event-organizer"><strong>Lettera aperta a un organizzatore di eventi</strong></a></li>
+</ol>
+<pre><code>Per mestiere Luca Sartoni partecipa (come speaker, spettatore o organizzatore) a molte conferenze , seminari e workshops. In questa lettera elenca quelli che secondo lui sono i cinque errori commessi più spesso dagli organizzatori di eventi. E suggerisce come evitarli.
+</code></pre>
+<ol start="5">
+<li><a href="http://en.blog.wordpress.com/2011/02/17/how-is-wordpress-com-made/"><strong>Come si fa WordPress?</strong></a></li>
+</ol>
+<pre><code>A quanto pare WordPress, pur avendo una sede a San Francisco, è una realtà capillarmente distribuita. Gran parte dei dipendenti lavora da casa ed è disseminata per il mondo, coprendone quasi tutti i fusi orari. In questo articolo sul blog ufficiale dell&amp;#8217;azienda Scott Berkun racconta come si svolge una giornata di lavoro in una azienda di questo tipo.
+</code></pre>
+<ol start="6">
+<li><a href="http://www.allthingsdistributed.com/2011/02/website_amazon_s3.html"><strong>Come ospitare un intero sito (statico) su Amazon S3</strong></a></li>
+</ol>
+<pre><code>Da qualche tempo Werner Vogels, CTO di Amazon, ospita il suo sito direttamente su S3, la potente piattaforma di _cloud storage_ di Amazon. Una soluzione di questo tipo offre diversi vantaggi, primo fra tutti la scalabilità. In questo articolo Vogels ci spiega come raggiungere lo stesso risultato.
+</code></pre>
+<ol start="7">
+<li><a href="http://www.limedaring.com/im-a-designer-who-learned-django-and-launched-her-first-webapp-in-6-weeks/"><strong>Sono una Designer e ho lanciato la mia prima applicazione in 6 settimane</strong></a></li>
+</ol>
+<pre><code>Tracy è una designer che non sa quasi nulla di programmazione. Ha una idea su un sito innovativo e tenta senza successo di ottenere un finanziamento che le consenta di assumere un programmatore esperto. Cosa fare? Tracy si rimbocca le maniche e in sei settimane riesce a lanciare una variante (semplificata) della sua idea originale. In Python/Django, ovviamente.
+</code></pre>
+<ol start="8">
+<li><a href="http://sixrevisions.com/web-applications/new-facebook-page/"><strong>La Guida Definitiva al Design delle Pagine Facebook</strong></a></li>
+</ol>
+<pre><code>Facebook ha aggiornato le Pagine Fan introducendo parecchie novità significative. In questo articolo Six Revisions ci spiega quali sono e come sfruttarle al meglio.
+</code></pre>
+<ol start="9">
+<li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/"><strong>I filmati completi del Corso di Programmazione (Python) del MIT</strong></a></li>
+</ol>
+<pre><code>Ventiquattro filmati completi, di ottima qualità, per imparare a programmare direttamente dai professori del famoso MIT di Boston. Il materiale è di qualità eccellente.
+</code></pre>
+<ol start="10">
+<li><a href="http://www.cenedella.com/job-search/leonardo-da-vincis-resume/"><strong>Il curriculum vitae di Leonardo Da Vinci</strong></a></li>
+</ol>
+<pre><code>Prima di Mona Lisa, dell&amp;#8217;Ultima Cena e dell&amp;#8217;invenzione dell&amp;#8217;elicottero anche a Leonardo Da Vinci è toccato scrivere il suo bel curriculum. Nel 1482, a trent&amp;#8217;anni, Leonardo lo inviò a Ludovico il Moro, Duca di Milano. In questo splendido articolo possiamo vedere l&amp;#8217;originale e leggerne la trascrizione. Perché? Per imparare un paio di trucchetti che potrebbero tornarci utili.
+</code></pre>
+<ol start="11">
+<li><a href="http://mattoufoutu.rafale.org/ebooks/Doc_diverse/Cours%20Prog/Python/Books/Natural%20Language%20Processing%20with%20Python%20(2009).pdf"><strong>Processare il Linguaggio Naturale in Python</strong></a></li>
+</ol>
+<pre><code>L&amp;#8217;intero contenuto del libro _Natural Processing Language With Python_ in formato PDF, liberamente accessibile.
+</code></pre>
+<p>Queste sono solo alcune delle segnalazioni che giorno per giorno pubblico su Twitter. Se volete più notizie, spunti e link interessanti <a href="http://twitter.com/#!/nicolaiarocci">seguitemi anche su Twitter</a>!</p>]]></content:encoded>
     </item>
     <item>
       <title>TuoGuru – Il mercato italiano del Know How</title>
@@ -72,6 +265,22 @@ Dato per imminente a febbraio, del nuovo canale e-commerce di Google non si er
       <pubDate>Fri, 18 Feb 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/tuoguru-il-mercato-italiano-del-know-how/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Una interessante startup italiana muove i primi passi proprio in questi giorni. &lt;strong&gt;&lt;a href=&#34;http://tuoguru.com/&#34;&gt;TuoGuru&lt;/a&gt;&lt;/strong&gt; si presenta come il &lt;strong&gt;primo Marketplace Italiano del Know How&lt;/strong&gt;.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Una interessante startup italiana muove i primi passi proprio in questi giorni. <strong><a href="http://tuoguru.com/">TuoGuru</a></strong> si presenta come il <strong>primo Marketplace Italiano del Know How</strong>.</p>
+<h2 id="come-funziona">Come funziona</h2>
+<p>La registrazione è gratuita e comprende la fornitura di 12 crediti spendibili subito per pubblicare domande sul sito. Chi fornirà la risposta migliore si aggiudicherà il <strong>premio in denaro</strong> (2€, 5€, 10€, ecc.) messo in palio dall’autore della domanda. Le categorie disponibili in questo momento sono Grafica, Programmazione,  SEO &amp; Marketing, CMS, Social Media, Fisco e Contabilità, Software, Hardware, Dominio + Hosting. Altre verranno aggiunte nel tempo.</p>
+<!-- raw HTML omitted -->
+<h2 id="il-modello-di-business">Il modello di business</h2>
+<p>Avete letto bene. Su TuoGuru girano soldi! Esauriti i 12 crediti iniziali per porre domande dovrete acquistarne altri (oppure invitare amici sul sito). Al costo dei crediti dovrete poi aggiungere il premio da corrispondere nel caso qualcuno vi fornisca la risposta che cercate. Riassumendo:</p>
+<ol>
+<li>Il sito incassa vendendo crediti.</li>
+<li>Chi risponde ha la possibilità di guadagnare fornendo la risposta migliore.</li>
+<li>Chi fa domande compra la <em>possibilità</em> di ottenere risposte veloci, precise e attendibili.</li>
+</ol>
+<p>Di questi tempi potrebbe sembrare un controsenso pagare per ottenere risposte. Ci sono miriadi di forum e siti Q&amp;A gratuiti. La scommessa di un servizio come questo è infatti la nicchia, ovvero scommettere su coloro che pur di proseguire il lavoro e ottenere rapidamente una risposta qualificata non hanno problemi a investire una cifra tutto sommato modesta.</p>
+<h2 id="la-chiave-del-successo">La chiave del successo</h2>
+<p>In questi schemi il personaggio chiave è l’<strong>esperto</strong>, colui/colei che decide di investire il proprio tempo fornendo risposte di qualità sperando di guadagnarci qualcosa. Più risposte qualificate, rapide e attendibili arriveranno più è probabile che gli utenti decideranno di usare il servizio a pagamento. Rispondere alle domande è gratuito, consente di migliorare la propria fama (esiste un meccanismo di classifiche interne), può essere divertente e può dare una mano a far quadrare i conti a fine mese. Perché non provarci?</p>
+<h2 id="i-primi-passi">I primi passi</h2>
+<p>In due giorni dall’apertura al pubblico ci sono già più di <strong>500 utenti registrati</strong>. Le domande cominciano circolare e, soprattutto, le riposte fioccano. Bei segnali positivi. Questi ragazzi ci stanno provando seriamente e stanno lavorando bene. Si meritano un grosso <strong>in bocca al lupo</strong>!</p>]]></content:encoded>
     </item>
     <item>
       <title>Disponibile il programma completo di BE-Wizard 2011</title>
@@ -79,6 +288,20 @@ Dato per imminente a febbraio, del nuovo canale e-commerce di Google non si er
       <pubDate>Thu, 17 Feb 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/disponibile-il-programma-di-be-wizard-2011/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Sul sito ufficiale di &lt;strong&gt;BE-Wizard 2011&lt;/strong&gt; è disponibile il &lt;a href=&#34;http://admin.abc.sm/upload/2156/programma_be-wizard.pdf&#34;&gt;programma completo&lt;/a&gt; della due giorni SEO/Web Marketing che si terrà a San Marino i prossimi 11 e 12 marzo. Come scrivevo già &lt;a href=&#34;http://nicolaiarocci.com/be-wizard-2011-porta-in-italia-i-guru-di-seo-e-web-marketing/&#34;&gt;qualche tempo fa&lt;/a&gt; quest’anno BE-Wizard porta in italia i &lt;strong&gt;guru internazionali di SEO e Web Marketing&lt;/strong&gt;: Rand Fishkin (SEOmoz), Avinash Kaushik (Google), Marcus Tandler &amp;amp; Nils Döerje (Tandler &amp;amp; Döerje Partners), Tom Critchlow (Distilled) e altri.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Sul sito ufficiale di <strong>BE-Wizard 2011</strong> è disponibile il <a href="http://admin.abc.sm/upload/2156/programma_be-wizard.pdf">programma completo</a> della due giorni SEO/Web Marketing che si terrà a San Marino i prossimi 11 e 12 marzo. Come scrivevo già <a href="http://nicolaiarocci.com/be-wizard-2011-porta-in-italia-i-guru-di-seo-e-web-marketing/">qualche tempo fa</a> quest’anno BE-Wizard porta in italia i <strong>guru internazionali di SEO e Web Marketing</strong>: Rand Fishkin (SEOmoz), Avinash Kaushik (Google), Marcus Tandler &amp; Nils Döerje (Tandler &amp; Döerje Partners), Tom Critchlow (Distilled) e altri.</p>
+<h2 id="il-programma">Il Programma</h2>
+<p>Il programma è ricco di argomenti interessanti. Per solleticare il tuo appetito (ci sono ancora posti disponibili) ti propongo una selezione degli interventi che personalmente attendo con grande curiosità:</p>
+<ul>
+<li><strong>Google Ranking</strong>: novità e scoperte inedite su come Google classifica i risultati organici, alla luce delle ultime ricerche svolte da SEOmoz.org (Rand Fishkin)</li>
+<li><strong>Comunicare On-line con i Video</strong>. Video marketing: i fattori che determinano il successo di un video online e la diffusione virale. Video Analytics: misurare l’impatto dei propri video e calcolare il ritorno dell’investimento (Paolo Zanzottera)</li>
+<li><strong>Ranking e comportamento dell’utente</strong>: come perfezionare il ranking attraverso l’analisi di Click-Through e Bounce Rate (Marcus Tandler)</li>
+<li><strong>Come video, news e immagini hanno influito sulle tradizionali tecniche di posizionamento</strong>. Come applicare delle strategie ad hoc per la Universal Search (Neils Dörje)</li>
+<li><strong>Link building</strong>: Dieci strategie avanzate per una link popularity efficace (Marcus Tandler)</li>
+<li><strong>Ottimizzazione del Tasso di Conversione</strong>: come trasformare un sito locale in un “Conversion Funnel”, tracciare i dati e migliorare il tasso di conversione (Rand Fishkin)</li>
+</ul>
+<p>Per vedere l’elenco completo degli interventi consulta il <a href="http://admin.abc.sm/upload/2156/programma_be-wizard.pdf">programma ufficiale</a> sul sito ufficiale.</p>
+<h2 id="incontriamoci">Incontriamoci!</h2>
+<p>Ribadisco l’invito già fatto in passato. Se anche tu sarai presente fammelo sapere, magari organizziamo <strong>due chiacchiere</strong> davanti a un caffè o un aperitivo!</p>]]></content:encoded>
     </item>
     <item>
       <title>Google Testa Il Feedback Utente Come Segnale di Ranking</title>
@@ -87,6 +310,24 @@ Dato per imminente a febbraio, del nuovo canale e-commerce di Google non si er
       <guid>https://nicolaiarocci.com/google-testa-il-feedback-utente-come-segnale-di-ranking/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Google ha appena annunciato una estensione per &lt;strong&gt;&lt;a href=&#34;http://www.google.com/chrome?hl=it&#34;&gt;Chrome&lt;/a&gt;&lt;/strong&gt; che permette agli utenti del browser di escludere dai risultati delle ricerche i siti di scarsa qualità o poco interessanti.&lt;/p&gt;
 &lt;p&gt;Estensioni di questo tipo esistono da tempo ma questa si distingue per un motivo importante. Nel suo &lt;a href=&#34;http://googleblog.blogspot.com/2011/02/new-chrome-extension-block-sites-from.html&#34;&gt;annuncio&lt;/a&gt; &lt;strong&gt;Matt Cutts&lt;/strong&gt;, responsabile Google per i motori di ricerca, afferma che i siti bloccati da &lt;a href=&#34;https://chrome.google.com/webstore/detail/nolijncfnkgaikbjbdaogikpmpbdcdef&#34;&gt;&lt;strong&gt;Personal Blocklist&lt;/strong&gt;&lt;/a&gt; (questo il nome dell’estensione) verranno registrati in un database. In futuro Google potrebbe escludere questi siti dai risultati organici delle ricerche:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Google ha appena annunciato una estensione per <strong><a href="http://www.google.com/chrome?hl=it">Chrome</a></strong> che permette agli utenti del browser di escludere dai risultati delle ricerche i siti di scarsa qualità o poco interessanti.</p>
+<p>Estensioni di questo tipo esistono da tempo ma questa si distingue per un motivo importante. Nel suo <a href="http://googleblog.blogspot.com/2011/02/new-chrome-extension-block-sites-from.html">annuncio</a> <strong>Matt Cutts</strong>, responsabile Google per i motori di ricerca, afferma che i siti bloccati da <a href="https://chrome.google.com/webstore/detail/nolijncfnkgaikbjbdaogikpmpbdcdef"><strong>Personal Blocklist</strong></a> (questo il nome dell’estensione) verranno registrati in un database. In futuro Google potrebbe escludere questi siti dai risultati organici delle ricerche:</p>
+<blockquote>
+<p>One of the signals we’re exploring is explicit feedback from users. To that end, today we’re launching an early, experimental Chrome extension so people can block sites from their web search results. If installed, <strong>the extension also sends blocked site information to Google, and we will study the resulting feedback and explore using it as a potential ranking signal for our search results</strong>.</p>
+</blockquote>
+<p>Un sito bloccato da migliaia di utenti potrebbe indurre Google a classificarlo come <a href="http://en.wikipedia.org/wiki/Content_farm"><strong>content farm</strong></a> ed escluderlo dai risultati delle ricerche. E’ probabile (e auspicabile!) che, almeno in una prima fase, questi siti saranno sottoposti a uno scrutinio accurato prima di venire depennati.</p>
+<h2 id="web-20-all8217ennesima-potenza">Web 2.0 all’ennesima potenza</h2>
+<p>Finora Google ha sempre dichiarato di puntare fermamente a una soluzione algoritmica al problema della classificazione dei siti web. Con l’annuncio di oggi pare aprirsi una crepa in questa filosofia. Per la prima volta gli utenti potrebbero avere la possibilità di <strong>partecipare in maniera attiva</strong> alla selezione qualitativa dei risultati proposti da un motore da ricerca.</p>
+<h2 id="un-sistema-abusabile">Un sistema abusabile?</h2>
+<p>Probabilmente è presto per preoccuparsi di questo ma c’è da augurarsi, se mai ci si arriverà, che l’implementazione finale tenga ben conto del rischio di abusi. Una azienda con pochi scrupoli potrebbe pensare di investire quattrini sonanti in una campagna di discredito nei confronti di un concorrente. Certo non sarebbe semplice né economico, ma pur sempre fattibile.</p>
+<h2 id="che-ne-pensate">Che ne pensate?</h2>
+<p>Questa mi pare una innovazione interessante sia dal punto di vista pratico-funzionale che ‘sociale’, passatemi il termine.  Voi cosa ne pensate?</p>
+<h3 id="approfondimenti">Approfondimenti</h3>
+<ul>
+<li><a href="http://googleblog.blogspot.com/2011/02/new-chrome-extension-block-sites-from.html">Annuncio della nuova Estensione per Google Chrome</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/nolijncfnkgaikbjbdaogikpmpbdcdef">Pagina ufficiale di Personal Blocklist</a></li>
+<li><a href="http://www.seroundtable.com/google-personal-blocklist-12958.html">Dettagli sul funzionamento dell’estensione su Search Engine Roundtable</a></li>
+</ul>]]></content:encoded>
     </item>
     <item>
       <title>BE-Wizard 2011 porta in Italia i guru di SEO e Web Marketing</title>
@@ -94,6 +335,23 @@ Dato per imminente a febbraio, del nuovo canale e-commerce di Google non si er
       <pubDate>Wed, 19 Jan 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/be-wizard-2011-porta-in-italia-i-guru-di-seo-e-web-marketing/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.be-wizard.com&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;I giorni 11 e 12 marzo parteciperò a &lt;!-- raw HTML omitted --&gt;BE-Wizard 2011&lt;!-- raw HTML omitted --&gt;, evento SEO e Web Marketing dal programma molto ricco e interessante. Tra i relatori celebrità internazionali come &lt;a href=&#34;http://www.seomoz.org/team/randfish&#34;&gt;Rand Fishkin&lt;/a&gt; (SEOmoz), &lt;a href=&#34;http://www.kaushik.net/avinash/about&#34;&gt;Avinash Kaushik&lt;/a&gt; (Google), &lt;a href=&#34;http://www.tandlerdoerjepartner.com/&#34;&gt;Marcus Tandler &amp;amp; Nils Döerje&lt;/a&gt; (Tandler &amp;amp; Döerje Partners) e &lt;a href=&#34;http://www.distilled.co.uk/company/people/tom-critchlow.html&#34;&gt;Tom Critchlow&lt;/a&gt; (Distilled). Chi lavora nell’ambito SEO/SEM riconoscerà senz’altro questi nomi, Fishkin e Kaushik sono stelle di prima grandezza (di Kaushik raccomando senz’altro &lt;a href=&#34;http://www.webanalytics20.com/&#34;&gt;Web Analytics 2.0&lt;/a&gt;, uscito recentemente anche &lt;a href=&#34;http://www.amazon.it/Analytics-Misurare-successo-nellera-Internet/dp/882034498X/ref=sr_1_2?ie=UTF8&amp;amp;qid=1295446745&amp;amp;sr=8-2&#34;&gt;in italiano&lt;/a&gt;).&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><a href="http://www.be-wizard.com"><!-- raw HTML omitted --></a>I giorni 11 e 12 marzo parteciperò a <!-- raw HTML omitted -->BE-Wizard 2011<!-- raw HTML omitted -->, evento SEO e Web Marketing dal programma molto ricco e interessante. Tra i relatori celebrità internazionali come <a href="http://www.seomoz.org/team/randfish">Rand Fishkin</a> (SEOmoz), <a href="http://www.kaushik.net/avinash/about">Avinash Kaushik</a> (Google), <a href="http://www.tandlerdoerjepartner.com/">Marcus Tandler &amp; Nils Döerje</a> (Tandler &amp; Döerje Partners) e <a href="http://www.distilled.co.uk/company/people/tom-critchlow.html">Tom Critchlow</a> (Distilled). Chi lavora nell’ambito SEO/SEM riconoscerà senz’altro questi nomi, Fishkin e Kaushik sono stelle di prima grandezza (di Kaushik raccomando senz’altro <a href="http://www.webanalytics20.com/">Web Analytics 2.0</a>, uscito recentemente anche <a href="http://www.amazon.it/Analytics-Misurare-successo-nellera-Internet/dp/882034498X/ref=sr_1_2?ie=UTF8&amp;qid=1295446745&amp;sr=8-2">in italiano</a>).</p>
+<h2 id="il-programma">Il programma</h2>
+<p>Il <a href="http://www.be-wizard.com/ita-programma.php">programma</a> prevede le conferenze dei Big Speakers nella prima giornata e gli approfondimenti tecnici (E-Commerce o Turismo) nella seconda. Per quest’ultima è già disponibile l’elenco degli argomenti trattati mentre per la prima bisognerà attendere ancora qualche giorno. Qui riporto il programma della sessione E-Commerce, quella a cui parteciperò io:</p>
+<ul>
+<li>Introduzione agli strumenti per la promozione online</li>
+<li>E-commerce e diritto</li>
+<li>E-commerce con eBay e altri marketplaces</li>
+<li>Social Networks &amp; Web Analytics 2.0</li>
+<li>Case History Keyword Advertising</li>
+<li>Intervista/Testimonianza</li>
+<li>Case History e-mail marketing</li>
+<li>Case history SEO da “oltreoceano”</li>
+<li>Strategie SEO e SEM</li>
+</ul>
+<h2 id="incontriamoci">Incontriamoci!</h2>
+<p>Questi eventi in genere sono ottime occasioni per fare nuove conoscenze e scambiarsi opinioni ed esperienze. Se qualcuno dei lettori di questo sito prevede di partecipare me lo faccia sapere, magari organizziamo <strong>due chiacchiere</strong> davanti a un caffè o un aperitivo!</p>
+<p><em>Potrebbe sembrare il contrario, ma vi assicuro che n<!-- raw HTML omitted -->on sono coinvolto in alcun modo nella organizzazione o promozione di questo evento.<!-- raw HTML omitted --></em></p>]]></content:encoded>
     </item>
     <item>
       <title>Come aumentare del 250% la conversion rate del tuo sito</title>
@@ -104,6 +362,17 @@ Dato per imminente a febbraio, del nuovo canale e-commerce di Google non si er
 &lt;p&gt;Nel web marketing il &lt;strong&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Conversion_rate&#34;&gt;conversion rate&lt;/a&gt;&lt;/strong&gt; è la percentuale di visitatori unici che hanno effettuato l’operazione desiderata visitando il sito. L’azione desiderata potrebbe essere condurre vendite, effettuare acquisti, osservare una pagina chiave del sito, o altre azioni misurabili (fonte: &lt;em&gt;wikipedia&lt;/em&gt;)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;E’ possibile &lt;strong&gt;aumentare del 250% il conversione rate&lt;/strong&gt; grazie a una sola, banale modifica al sito? I signori di &lt;a href=&#34;http://www.kajabiapp.com/&#34;&gt;Kajabi&lt;/a&gt; sostengono di esserci riusciti nel corso di un esperimento durato una settimana. La loro home page è organizzata in modo da convogliare l’attenzione del visitatore su un unico, grande pulsante che invita il visitatore a consultare le tariffe del servizio offerto in abbonamento. Lasciando invariato il resto della pagina hanno ritoccato il contenuto del pulsante, registrando poi il numero di click ottenuti in un dato periodo di tempo. Il ciclo è stato ripetuto quattro volte, ogni volta con un testo diverso. Ecco come è andata:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Nel web marketing il <strong><a href="http://en.wikipedia.org/wiki/Conversion_rate">conversion rate</a></strong> è la percentuale di visitatori unici che hanno effettuato l’operazione desiderata visitando il sito. L’azione desiderata potrebbe essere condurre vendite, effettuare acquisti, osservare una pagina chiave del sito, o altre azioni misurabili (fonte: <em>wikipedia</em>)</p>
+</blockquote>
+<p>E’ possibile <strong>aumentare del 250% il conversione rate</strong> grazie a una sola, banale modifica al sito? I signori di <a href="http://www.kajabiapp.com/">Kajabi</a> sostengono di esserci riusciti nel corso di un esperimento durato una settimana. La loro home page è organizzata in modo da convogliare l’attenzione del visitatore su un unico, grande pulsante che invita il visitatore a consultare le tariffe del servizio offerto in abbonamento. Lasciando invariato il resto della pagina hanno ritoccato il contenuto del pulsante, registrando poi il numero di click ottenuti in un dato periodo di tempo. Il ciclo è stato ripetuto quattro volte, ogni volta con un testo diverso. Ecco come è andata:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="l8217importanza-del-giusto-messaggio">L’importanza del giusto messaggio</h2>
+<!-- raw HTML omitted -->
+<h2 id="un-pò-di-prudenza-non-guasta">Un pò di prudenza non guasta</h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->]]></content:encoded>
     </item>
   </channel>
 </rss>

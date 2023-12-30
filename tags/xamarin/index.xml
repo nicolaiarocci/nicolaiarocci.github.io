@@ -16,6 +16,12 @@
       <description>Moonlight, l’implementazione open-source di Silverlight per sistemi Linux, è stata abbandonata da Xamarin.
 Abbiamo abbandonato Moonlight (…) Il web non ha addotato Silverlight; non ha avuto il successo che mi aspettavo. Miguel de Icaza
 Un’altro chiodo sulla bara di Silverlight. Dei dubbi sul futuro della tecnologia Microsoft avevo già scritto in occasione della sua mancata adozione in Windows 8 e al momento dell’annuncio di Silverlight 5.</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Moonlight, l’implementazione open-source di Silverlight per sistemi Linux, è stata <!-- raw HTML omitted -->abbandonata da Xamarin<!-- raw HTML omitted -->.</p>
+<blockquote>
+<p>Abbiamo abbandonato Moonlight (…) Il web non ha addotato Silverlight; non ha avuto il successo che mi aspettavo. <strong>Miguel de Icaza</strong></p>
+</blockquote>
+<p>Un’altro chiodo sulla bara di Silverlight. Dei dubbi sul futuro della tecnologia Microsoft avevo già scritto in occasione della sua <a href="http://nicolaiarocci.com/windows-8-e-i-dubbi-sul-destino-di-silverlight/" title="Windows 8 e i dubbi sul destino di Silverlight">mancata adozione in Windows 8</a> e al momento dell’annuncio di <a href="http://nicolaiarocci.com/microsoft-silverlight-e-adobe-flash-verso-la-resa-comincia-lera-di-re-html5/" title="Silverlight 5 vs HTML5">Silverlight 5</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Mono 2.10.3 gira su OS X Lion (ed è vivo e vegeto)</title>
@@ -25,6 +31,10 @@ Un’altro chiodo sulla bara di Silverlight. Dei dubbi sul futuro della tecnolog
       <description>Xamarin, la compagnia che ha preso in mano il Progetto Mono dopo l’addio di Novell, ha appena rilasciato Mono 2.10.3. Ne da annuncio lo stesso Manuel de Icaza, storico deux-ex-machina del progetto e fondatore di Xamarin.
 Si tratta per lo più di una versione di manutenzione che risolve numerosi problemi, primo fra tutti l’instabilità di Mono sull’ultima versione di MacOS X Lion.
 L’importanza di questo aggiornamento va ben oltre le sue caratteristiche tecniche.</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Xamarin, la compagnia che <a href="http://nicolaiarocci.com/il-progetto-mono-salvato-in-extremis-dal-suo-fondatore/" title="Progetto Mono salvato dal suo fondatore">ha preso in mano il Progetto Mono</a> dopo l’addio di Novell, ha appena rilasciato Mono 2.10.3. Ne da annuncio lo stesso Manuel de Icaza, storico deux-ex-machina del progetto e fondatore di Xamarin.</p>
+<p>Si tratta per lo più di una versione di manutenzione che <!-- raw HTML omitted -->risolve numerosi problemi<!-- raw HTML omitted -->, primo fra tutti l’instabilità di Mono sull’ultima versione di MacOS X Lion.</p>
+<p>L’importanza di questo aggiornamento va ben oltre le sue caratteristiche tecniche. Il titolo stesso dell’<!-- raw HTML omitted -->annuncio<!-- raw HTML omitted --> (And We Are Back) parla chiaro: si tratta di un segnale di continuità importante che Xamarin lancia alla comunità mondiale di sviluppatori Mono. Per informazioni sul progetto e sulle sue vicissitudini recenti vi invito a leggere l’<a href="http://nicolaiarocci.com/il-progetto-mono-salvato-in-extremis-dal-suo-fondatore/" title="Il Progetto Mono salvato in extremis dal suo fondatore">articolo sul salvataggio di Mono</a> che ho scritto qualche tempo fa.</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

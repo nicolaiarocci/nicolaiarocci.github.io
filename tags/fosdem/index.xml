@@ -14,6 +14,9 @@
       <pubDate>Mon, 03 Feb 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/rest-apis-humans-fosdem/</guid>
       <description>Yesterday I gave a talk at FOSDEM 2014 in Brussels. The conference itself was amazing, with over 5000 attendees literally swarming and taking over the ULB Campus. I was stoked at how smoothly everything was going on despite the incredible number of simultaneous sessions and the number of attendees continuously flowing between buildings and conference rooms. Everybody involved, volunteers and attendees, has been very welcoming, charming and helpful. In short, I had a blast.</description>
+      <content:encoded><![CDATA[<p>Yesterday I gave a talk at FOSDEM 2014 in Brussels. The conference itself was amazing, with over 5000 attendees literally swarming and taking over the ULB Campus. I was stoked at how smoothly everything was going on despite the incredible number of simultaneous sessions and the number of attendees continuously flowing between buildings and conference rooms. Everybody involved, volunteers and attendees,  has been very welcoming, charming and helpful. In short, I had a blast.</p>
+<p>My <a href="https://speakerdeck.com/nicola/eve-rest-api-for-humans">REST APIs for Humans™</a> talk was given in a fully packed Python DevRoom, which granted a lot of smart questions both in the final QA session and later during the day. Thanks everybody for the great feedback!</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

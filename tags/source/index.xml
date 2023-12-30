@@ -15,6 +15,49 @@
       <guid>https://nicolaiarocci.com/sublime-text-2-un-anno-dopo/</guid>
       <description>&lt;p&gt;Proprio un anno fa &lt;!-- raw HTML omitted --&gt;presentavo Sublime Text 2&lt;!-- raw HTML omitted --&gt;. Dopo dodici mesi ho pensato di fare il punto della situazione. Si sono susseguiti una serie di aggiornamenti importanti, il prodotto è più maturo e devo dire che in questo periodo non mi ha affatto deluso: è ancora il mio editor di codice preferito. Nel frattempo &lt;!-- raw HTML omitted --&gt;Sublime Text 2&lt;!-- raw HTML omitted --&gt; è diventato &lt;em&gt;mainstream.&lt;/em&gt; Me ne sono reso conto in questi giorni, quando articoli, recensioni, trucchi e suggerimenti su Sublime Text 2 affioravano ripetutamente nel mio feed.&lt;/p&gt;
 &lt;p&gt;Vi propongo alcune delle caratteristiche che ne fanno, almeno per quanto riguarda il mio modo di lavorare, l’editor ideale.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Proprio un anno fa <!-- raw HTML omitted -->presentavo Sublime Text 2<!-- raw HTML omitted -->. Dopo dodici mesi ho pensato di fare il punto della situazione. Si sono susseguiti una serie di aggiornamenti importanti, il prodotto è più maturo e devo dire che in questo periodo non mi ha affatto deluso: è ancora il mio editor di codice preferito. Nel frattempo <!-- raw HTML omitted -->Sublime Text 2<!-- raw HTML omitted --> è diventato <em>mainstream.</em> Me ne sono reso conto in questi giorni, quando articoli, recensioni, trucchi e suggerimenti su Sublime Text 2 affioravano ripetutamente nel mio feed.</p>
+<p>Vi propongo alcune delle caratteristiche che ne fanno, almeno per quanto riguarda il mio modo di lavorare, l’editor ideale.</p>
+<h2 id="multi-piattaforma">Multi piattaforma</h2>
+<p>Sublime Text gira egualmente bene su OSX, Windows e Linux. Lavorando su Mac a casa e con Windows in ufficio per me è sempre stato difficile trovare un editor di codice di alta qualità da poter usare in entrambi gli ambienti. TextMate? Solo per Mac. Notepad++? Solo per Windows. Si lo so che Eclipse e altre IDE sofisticate sono multi piattaforma ma il fatto è che io le IDE non le sopporto più. Le ho usate per vent’anni, e tuttora sono vincolato a Visual Studio (un prodotto comunque eccellente) per gran parte del mio tempo. Da quando sono potuto tornare alle origini, ovvero ai semplici text editor, mi ci rifugio appena possibile.</p>
+<p>Bisognerebbe poi intendersi sul quel ‘semplici’ perché come vedremo Sublime Text e gli altri editor, moderni e non, sono semplici solo in apparenza.</p>
+<p>Una critica a Sublime Text 2 multi piattaforma mi sento di farla, e riguarda la non completa uniformità dei menu tra le diverse piattaforme. Per esempio le Preferenze sono  nel menu principale in OSX, mentre se ricordo bene in Windows stanno in ‘Tools’.</p>
+<h2 id="command-palette">Command Palette</h2>
+<p>Come dicevo Sublime Text 2 è ricco di funzionalità, la gran parte attivate da menu con gran lavoro di mouse. Esistono le scorciatoie di tastiera per i comandi più frequenti, ma Sublime ci mette a disposizione qualcosa di più, la Command Palette.</p>
+<p>Premete <code>Shift-Command-P</code> per ottenere l’apertura della Command Palette:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>La lista contiene i comandi disponibili in Sublime. Basta scrivere <em>anche solo una parte</em> del nome del comando per ottenerne la rapida selezione. Per attivarlo basta premere <code>Invio</code>. Si tratta di una soluzione davvero comoda, alla TextMate, che risparmia il mouse ed è ben implementata. Nell’immagine vedete come per installare un nuovo package mi basti premere una lettera (la ‘i’), anche se non è quella iniziale.</p>
+<h2 id="passaggio-rapido-da-un-file-all8217altro">Passaggio rapido da un file all’altro</h2>
+<p>Ogni file aperto è contenuto in una scheda. Possiamo passare da un file all’altro cliccando sulle schede oppure usando la tastiera per scorrerle in sequenza. Ma possiamo anche ricorrere al comando <code>Command-P</code> per aprire una palette di selezione file, la quale implementa la stessa modalità di ricerca già vista nella Command Palette:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Ciò che rende questa palette davvero utile è il fatto che man mano che scriviamo Sublime attiva (mette in primo piano) il file che soddisfa la nostra query. Dopo un paio di volte non potrete più tornare al mouse.</p>
+<h2 id="cursore-multiplo">Cursore multiplo</h2>
+<p>Immaginate di selezionare più aree del codice e trattarle come se fossero tutte sotto un unico cursore. Ebbene è possibile, ed impagabile. Potete vedere questa modalità all’opera nel breve <!-- raw HTML omitted -->screencast<!-- raw HTML omitted --> messo a disposizione dai ragazzi di NetTuts, io mi limito a spiegarvi le alternative per attivarla:</p>
+<ul>
+<li>Premere <code>Command</code> e cliccare nei punti in cui volete attivare il cursore multiplo</li>
+<li>Selezionare blocchi di testo e premere <code>Shift-Command-L</code></li>
+<li>Mettere il cursore sotto una parola e premere <code>Command-D</code> per selezionarne le occorrenze successive attivando il cursore per ognuna</li>
+<li>Selezionare una parola e premere <code>Control-Command-G</code> per selezionarne tutte le occorrenze attivando per ognuna il cursore</li>
+</ul>
+<h2 id="passaggio-rapido-a-funzioni-e-metodi">Passaggio rapido a funzioni e metodi</h2>
+<p>Oltre alle funzioni di ricerca classiche possiamo passare rapidamente da un metodo all’altro ricorrendo alla magica command palette vista prima. Basta <code>Command-R</code> per attivarla:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>In Visual Studio ho sempre odiato il passaggio tra funzioni/metodi/classi implementato col solo match delle lettere iniziali, e addirittura suddiviso in due combo diverse (una per gli oggetti, l’altra per i metodi). Qui siamo a tutto un’altro livello.</p>
+<h2 id="c8217è-vim-dentro">C’è Vim dentro</h2>
+<p>Chi è abituato a Vim non disperi: è possibile attivare la modalità ‘Vintage’ che attiva il key binding del famoso editor Unix. Magicamente abbiamo a disposizione Command e Insert mode e molti dei comandi di editing più comuni in Vim. Per informazioni consultate la pagina sul <!-- raw HTML omitted -->Vintage Mode<!-- raw HTML omitted --> della documentazione.</p>
+<h2 id="e-c8217è-pure-un-po8217-textmate">E c’è pure un po’ TextMate</h2>
+<p>Temi e bundle di TextMate funzionano in Sublime Text, basta metterli nel folder Packages. Se siete legati a TextMate valutate la possibilità di passare a Sublime, potrebbe valerne la pena.</p>
+<h2 id="package-control">Package Control</h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Sublime è ricco di estensioni (package) e consente di installare quelle TextMate. Il <!-- raw HTML omitted -->Package Control<!-- raw HTML omitted --> (da installare a parte) rende facile la loro gestione direttamente dalla Command Palette.</p>
+<h2 id="concludendo">Concludendo</h2>
+<p>Naturalmente non è tutto qui. Ampia scelta di temi custom e standard (io uso <!-- raw HTML omitted -->Monokai Soda<!-- raw HTML omitted -->), Plugin come se piovesse (tra i quali uso abitualmente quelli per Git e StackOverflow), modalità ‘distraction free’ e full screen, personalizzazione dei key binding, syntax highlighting di tutti i linguaggi più diffusi… ci sarebbe ancora tanto da dire.</p>
+<p>Ammetto che molte di queste caratteristiche non sono una esclusiva di Sublime Text 2, tuttavia quel che apprezzo in questo prodotto è la velocità e l’immediatezza con le quali queste sono utilizzabili. Cerco di usare il mouse il meno possibile e con Sublime riesco a fare tutto senza metterci mano, il che aumenta la mia produttività. Come ogni buon editor Sublime non interferisce con la scrittura del codice ma, quando serve, è pronto a dare una mano con una ricchezza di strumenti invidiabile.</p>
+<p>Spero di avervi convinto a dare una occhiata. Sublime Text 2 è a pagamento, anche se la modalità demo non è a tempo e si limita a proporre l’acquisto ogni tanto.</p>
+<p>Vi lascio con l’invito a dare un’occhiata al video di Andrey Tarantsov sul suo <!-- raw HTML omitted -->Workflow con Sublime Text<!-- raw HTML omitted -->. Ha riscosso molto successo quando l’ho segnalato su Twitter, e per un buon motivo.</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

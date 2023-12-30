@@ -15,6 +15,51 @@
       <guid>https://nicolaiarocci.com/battling-with-ssh-cron-jobs-and-macos-keyring/</guid>
       <description>So today, I was setting up a cronjob on my trusty MacBook Pro. The goal was to backup some folders from a remote Linux server via rsync. The script is simple. It goes something like this:
 rsync -avz -e &amp;quot;ssh -i ~/.ssh/my_rsa_keyfile&amp;quot; myuser@myserver:remotedir/ ~/localdir/ Launched by hand, it works seamlessly. Call it from a cron job via crontab, and I get a permission denied error. I then enabled ssh -v option to gather a little intel on what was actually going on.</description>
+      <content:encoded><![CDATA[<p>So today, I was setting up a cronjob on my trusty MacBook Pro. The goal was to
+backup some folders from a remote Linux server via rsync. The script is simple.
+It goes something like this:</p>
+<pre><code>rsync -avz -e &quot;ssh -i ~/.ssh/my_rsa_keyfile&quot; myuser@myserver:remotedir/ ~/localdir/
+</code></pre>
+<p>Launched by hand, it works seamlessly. Call it from a cron job via crontab, and
+I get a permission denied error. I then enabled ssh <code>-v</code> option to gather
+a little intel on what was actually going on. As it turns out, the exact
+error was:</p>
+<pre><code>`read_passphrase: can't open /dev/tty: Device not configured`
+</code></pre>
+<p>Quite puzzling. Long story short, the error message was misleading. It took me
+an embarrassingly long time to figure out what the real problem was. The
+identity file I was using has a passphrase, which is saved in macOS Keyring.
+When the <code>ssh -i</code> command is launched via cron, no Keyring is used. Not unless
+you explicitly instruct ssh to do. See, my <code>~/.ssh/config</code> file was something
+like this:</p>
+<pre><code>Host *
+    ServerAliveInterval 360
+    AddKeysToAgent yes
+
+[...]
+
+Host myserver
+    HostName 123.123.123.123
+    User myuser
+</code></pre>
+<p>See, in <code>myserver</code> section there was no <code>Usekeychain</code> option. Launching the
+script interactively worked because of <code>AddkeysToAgent</code> in the general section.
+It enables the ssh-agent for the current terminal session, for all hosts. But
+cron jobs, well, they don&rsquo;t run in the same session, and certainly don&rsquo;t run
+the agent. I could eval the agent in the script, of course, but the
+simplest solution was to update <code>myserver</code> section:</p>
+<pre><code>Host myserver
+    HostName 123.123.123.123
+    Usekeychain yes
+    User myuser
+</code></pre>
+<p>Now ssh knows it should use the keychain when resolving <code>myserver</code> RSA key,
+even when no agent is running. I am not sure why I did not have <code>Usekeychain</code>
+there; I do have it enabled for other hosts in the same file. As said, I wasted
+way too much time on this issue. At least, I hope my experience will be useful
+to someone else, or, more likely, to my future self in a few months or years.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Primi passi con SSH</title>
@@ -23,6 +68,11 @@ rsync -avz -e &amp;quot;ssh -i ~/.ssh/my_rsa_keyfile&amp;quot; myuser@myserver:r
       <guid>https://nicolaiarocci.com/primi-passi-con-ssh/</guid>
       <description>Se siete ai primi passi nello sviluppo di applicazioni web vi consiglio la lettura di SSH: What and How. Senza troppi fronzoli l’articolo spiega le basi di SSH mettendo bene in luce le possibilità offerte da questo importante strumento di lavoro.
 Ogni giorno molti sviluppatori web usano SSH (“Secure Shell”) per gestire i loro server, fare backup, lavorare in remoto e una miriade di altre cosette. Oggi vi spiego cos’è e da dove viene SSH e, soprattutto, vi insegno come configurarlo sul vostro server remoto o sulla vostra rete locale.</description>
+      <content:encoded><![CDATA[<p>Se siete ai primi passi nello sviluppo di applicazioni web vi consiglio la lettura di <!-- raw HTML omitted -->SSH: What and How<!-- raw HTML omitted -->. Senza troppi fronzoli l’articolo spiega le basi di SSH mettendo bene in luce le possibilità offerte da questo importante strumento di lavoro.</p>
+<blockquote>
+<p>Ogni giorno molti sviluppatori web usano SSH (“Secure Shell”) per gestire i loro server, fare backup, lavorare in remoto e una miriade di altre cosette. Oggi vi spiego cos’è e da dove viene SSH e, soprattutto, vi insegno come configurarlo sul vostro server remoto o sulla vostra rete locale. Cominciamo!</p>
+</blockquote>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

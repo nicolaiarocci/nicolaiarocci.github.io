@@ -16,6 +16,12 @@
       <description>Shit happens. Way more often than what most people think.
 It may seem surprising that a seemingly successful product could fail, but it happens all the time. Although we arguably found product/market fit, we couldn’t quite crack the business side of things.
 via Chris Hates Writing • Today my startup failed.</description>
+      <content:encoded><![CDATA[<p>Shit happens. Way more often than what most people think.</p>
+<blockquote>
+<p>It may seem surprising that a seemingly successful product could fail, but it happens all the time. Although we arguably found product/market fit, we couldn’t quite crack the business side of things.</p>
+</blockquote>
+<p>via <a href="http://chrishateswriting.com/post/74083032842/today-my-startup-failed">Chris Hates Writing • Today my startup failed</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Why Are All These Idiots More Successful Than You?</title>
@@ -23,6 +29,11 @@ via Chris Hates Writing • Today my startup failed.</description>
       <pubDate>Thu, 02 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/why-are-all-these-idiots-more-successful-than-you/</guid>
       <description>You’re so damn smart — I’ve told you how awesome I think you and the solutions you’ve built…they’re amazing. You have so many awesome things on your hard drive you built that it would blow the world away if only they knew. You created Facebook before there was Facebook and PayPal before there was PayPal. But recently I’ve heard you ask, “how can this junk software out there be so popular?</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>You’re so damn smart — I’ve told you how awesome I think you and the solutions you’ve built…they’re amazing. You have so many awesome things on your hard drive you built that it would blow the world away if only they knew. You created Facebook before there was Facebook and PayPal before there was PayPal. But recently I’ve heard you ask, “how can this junk software out there be so popular?”…why are all these idiots more successful than me?</p>
+</blockquote>
+<p>via <a href="http://marcgrabanski.com/success/?utm_source=buffer&amp;utm_campaign=Buffer&amp;utm_content=buffer7356d&amp;utm_medium=twitter">Why Are All These Idiots More Successful Than You?</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Programmazione, SEO, Startups – Il Meglio della Settimana #1</title>
@@ -30,6 +41,65 @@ via Chris Hates Writing • Today my startup failed.</description>
       <pubDate>Mon, 21 Feb 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/programmazione-seo-startups-il-meglio-della-settimana-1/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Vi propongo una scelta delle risorse più interessanti e curiose che ho scovato questa settimana in rete. Ce né per tutti i gusti: programmazione, SEO, Startups e curiosità. Andiamo a cominciare:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Vi propongo una scelta delle risorse più interessanti e curiose che ho scovato questa settimana in rete. Ce né per tutti i gusti: programmazione, SEO, Startups e curiosità. Andiamo a cominciare:</p>
+<ol>
+<li>
+<p><strong><a href="http://docs.python.org/dev/howto/pyporting.html">Da Python 2 a Python 3</a></strong></p>
+<p>Python 3 è il futuro, ma Python 2 è attualmente la versione più usata al mondo. Ora finalmente la documentazione ufficiale è arricchita da una bella guida alle migliori strategie per supportare entrambe le versioni di Python.</p>
+<p><a href="http://docs.python.org/dev/howto/pyporting.html"></a></p>
+</li>
+<li>
+<p><a href="http://blogs.nationalgeographic.com/blogs/news/breakingorbit/2011/01/400-volunteer-for-one-way-mars-trip.html"><strong>Per quale motivo 400 persone si sono offerte volontarie per una viaggio di sola andata verso Marte?</strong></a></p>
+</li>
+</ol>
+<pre><code>Il numero Ottobre-Novembre 2010 del _Journal of Cosmology_ contiene uno speciale di 55 pagine intitolato &amp;#8220;Missione Umana su Marte: Colonizzare il Pianeta Rosso&amp;#8221;. Secondo gli scienziati una missione di sola andata destinata a colonizzare Marte sarebbe possibile entro 20 anni. Cosa ha spinto ben quattrocento lettori a offrirsi come volontari per la missione?
+</code></pre>
+<ol start="3">
+<li><strong><a href="http://www.seomoz.org/blog/tweets-effect-rankings-unexpected-case-study">Il sorprendente effetto di un singolo Tweet sul Page Rank di Google</a></strong></li>
+</ol>
+<pre><code>Google ha ammesso recentemente che i link provenienti dai social network sono segnali usati nella valutazione dell&amp;#8217;importanza dei siti web. I ragazzi di SEOmoz (tra i migliori esperti SEO in circolazione) sono rimasti esterrefatti dagli effetti che un singolo tweet ha causato sul page rank della loro _Beginners Guide to SEO_.
+</code></pre>
+<ol start="4">
+<li><a href="http://www.lucasartoni.com/lavoro/open-letter-to-an-event-organizer"><strong>Lettera aperta a un organizzatore di eventi</strong></a></li>
+</ol>
+<pre><code>Per mestiere Luca Sartoni partecipa (come speaker, spettatore o organizzatore) a molte conferenze , seminari e workshops. In questa lettera elenca quelli che secondo lui sono i cinque errori commessi più spesso dagli organizzatori di eventi. E suggerisce come evitarli.
+</code></pre>
+<ol start="5">
+<li><a href="http://en.blog.wordpress.com/2011/02/17/how-is-wordpress-com-made/"><strong>Come si fa WordPress?</strong></a></li>
+</ol>
+<pre><code>A quanto pare WordPress, pur avendo una sede a San Francisco, è una realtà capillarmente distribuita. Gran parte dei dipendenti lavora da casa ed è disseminata per il mondo, coprendone quasi tutti i fusi orari. In questo articolo sul blog ufficiale dell&amp;#8217;azienda Scott Berkun racconta come si svolge una giornata di lavoro in una azienda di questo tipo.
+</code></pre>
+<ol start="6">
+<li><a href="http://www.allthingsdistributed.com/2011/02/website_amazon_s3.html"><strong>Come ospitare un intero sito (statico) su Amazon S3</strong></a></li>
+</ol>
+<pre><code>Da qualche tempo Werner Vogels, CTO di Amazon, ospita il suo sito direttamente su S3, la potente piattaforma di _cloud storage_ di Amazon. Una soluzione di questo tipo offre diversi vantaggi, primo fra tutti la scalabilità. In questo articolo Vogels ci spiega come raggiungere lo stesso risultato.
+</code></pre>
+<ol start="7">
+<li><a href="http://www.limedaring.com/im-a-designer-who-learned-django-and-launched-her-first-webapp-in-6-weeks/"><strong>Sono una Designer e ho lanciato la mia prima applicazione in 6 settimane</strong></a></li>
+</ol>
+<pre><code>Tracy è una designer che non sa quasi nulla di programmazione. Ha una idea su un sito innovativo e tenta senza successo di ottenere un finanziamento che le consenta di assumere un programmatore esperto. Cosa fare? Tracy si rimbocca le maniche e in sei settimane riesce a lanciare una variante (semplificata) della sua idea originale. In Python/Django, ovviamente.
+</code></pre>
+<ol start="8">
+<li><a href="http://sixrevisions.com/web-applications/new-facebook-page/"><strong>La Guida Definitiva al Design delle Pagine Facebook</strong></a></li>
+</ol>
+<pre><code>Facebook ha aggiornato le Pagine Fan introducendo parecchie novità significative. In questo articolo Six Revisions ci spiega quali sono e come sfruttarle al meglio.
+</code></pre>
+<ol start="9">
+<li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/"><strong>I filmati completi del Corso di Programmazione (Python) del MIT</strong></a></li>
+</ol>
+<pre><code>Ventiquattro filmati completi, di ottima qualità, per imparare a programmare direttamente dai professori del famoso MIT di Boston. Il materiale è di qualità eccellente.
+</code></pre>
+<ol start="10">
+<li><a href="http://www.cenedella.com/job-search/leonardo-da-vincis-resume/"><strong>Il curriculum vitae di Leonardo Da Vinci</strong></a></li>
+</ol>
+<pre><code>Prima di Mona Lisa, dell&amp;#8217;Ultima Cena e dell&amp;#8217;invenzione dell&amp;#8217;elicottero anche a Leonardo Da Vinci è toccato scrivere il suo bel curriculum. Nel 1482, a trent&amp;#8217;anni, Leonardo lo inviò a Ludovico il Moro, Duca di Milano. In questo splendido articolo possiamo vedere l&amp;#8217;originale e leggerne la trascrizione. Perché? Per imparare un paio di trucchetti che potrebbero tornarci utili.
+</code></pre>
+<ol start="11">
+<li><a href="http://mattoufoutu.rafale.org/ebooks/Doc_diverse/Cours%20Prog/Python/Books/Natural%20Language%20Processing%20with%20Python%20(2009).pdf"><strong>Processare il Linguaggio Naturale in Python</strong></a></li>
+</ol>
+<pre><code>L&amp;#8217;intero contenuto del libro _Natural Processing Language With Python_ in formato PDF, liberamente accessibile.
+</code></pre>
+<p>Queste sono solo alcune delle segnalazioni che giorno per giorno pubblico su Twitter. Se volete più notizie, spunti e link interessanti <a href="http://twitter.com/#!/nicolaiarocci">seguitemi anche su Twitter</a>!</p>]]></content:encoded>
     </item>
     <item>
       <title>TuoGuru – Il mercato italiano del Know How</title>
@@ -37,6 +107,22 @@ via Chris Hates Writing • Today my startup failed.</description>
       <pubDate>Fri, 18 Feb 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/tuoguru-il-mercato-italiano-del-know-how/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Una interessante startup italiana muove i primi passi proprio in questi giorni. &lt;strong&gt;&lt;a href=&#34;http://tuoguru.com/&#34;&gt;TuoGuru&lt;/a&gt;&lt;/strong&gt; si presenta come il &lt;strong&gt;primo Marketplace Italiano del Know How&lt;/strong&gt;.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Una interessante startup italiana muove i primi passi proprio in questi giorni. <strong><a href="http://tuoguru.com/">TuoGuru</a></strong> si presenta come il <strong>primo Marketplace Italiano del Know How</strong>.</p>
+<h2 id="come-funziona">Come funziona</h2>
+<p>La registrazione è gratuita e comprende la fornitura di 12 crediti spendibili subito per pubblicare domande sul sito. Chi fornirà la risposta migliore si aggiudicherà il <strong>premio in denaro</strong> (2€, 5€, 10€, ecc.) messo in palio dall’autore della domanda. Le categorie disponibili in questo momento sono Grafica, Programmazione,  SEO &amp; Marketing, CMS, Social Media, Fisco e Contabilità, Software, Hardware, Dominio + Hosting. Altre verranno aggiunte nel tempo.</p>
+<!-- raw HTML omitted -->
+<h2 id="il-modello-di-business">Il modello di business</h2>
+<p>Avete letto bene. Su TuoGuru girano soldi! Esauriti i 12 crediti iniziali per porre domande dovrete acquistarne altri (oppure invitare amici sul sito). Al costo dei crediti dovrete poi aggiungere il premio da corrispondere nel caso qualcuno vi fornisca la risposta che cercate. Riassumendo:</p>
+<ol>
+<li>Il sito incassa vendendo crediti.</li>
+<li>Chi risponde ha la possibilità di guadagnare fornendo la risposta migliore.</li>
+<li>Chi fa domande compra la <em>possibilità</em> di ottenere risposte veloci, precise e attendibili.</li>
+</ol>
+<p>Di questi tempi potrebbe sembrare un controsenso pagare per ottenere risposte. Ci sono miriadi di forum e siti Q&amp;A gratuiti. La scommessa di un servizio come questo è infatti la nicchia, ovvero scommettere su coloro che pur di proseguire il lavoro e ottenere rapidamente una risposta qualificata non hanno problemi a investire una cifra tutto sommato modesta.</p>
+<h2 id="la-chiave-del-successo">La chiave del successo</h2>
+<p>In questi schemi il personaggio chiave è l’<strong>esperto</strong>, colui/colei che decide di investire il proprio tempo fornendo risposte di qualità sperando di guadagnarci qualcosa. Più risposte qualificate, rapide e attendibili arriveranno più è probabile che gli utenti decideranno di usare il servizio a pagamento. Rispondere alle domande è gratuito, consente di migliorare la propria fama (esiste un meccanismo di classifiche interne), può essere divertente e può dare una mano a far quadrare i conti a fine mese. Perché non provarci?</p>
+<h2 id="i-primi-passi">I primi passi</h2>
+<p>In due giorni dall’apertura al pubblico ci sono già più di <strong>500 utenti registrati</strong>. Le domande cominciano circolare e, soprattutto, le riposte fioccano. Bei segnali positivi. Questi ragazzi ci stanno provando seriamente e stanno lavorando bene. Si meritano un grosso <strong>in bocca al lupo</strong>!</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

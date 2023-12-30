@@ -15,6 +15,11 @@
       <guid>https://nicolaiarocci.com/hand-dryers/</guid>
       <description>via
 Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+      <content:encoded><![CDATA[<p><img loading="lazy" src="/images/hand-dryers.png" alt="It seems like hand dryers take forever to heat up, but that&amp;rsquo;s because evaporation cools your skin, so the hot air feels good until the water is gone."  />
+
+<em><a href="https://botsin.space/@xkcdbot/109937567703546899">via</a></em></p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Python ti mette le ali</title>
@@ -22,6 +27,9 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
       <pubDate>Sat, 15 Dec 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/python-ti-mette-le-ali/</guid>
       <description> </description>
+      <content:encoded><![CDATA[<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+]]></content:encoded>
     </item>
   </channel>
 </rss>

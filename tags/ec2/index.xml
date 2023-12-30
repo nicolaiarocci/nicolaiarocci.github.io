@@ -15,6 +15,12 @@
       <guid>https://nicolaiarocci.com/amazon-ec2-quanto-si-risparmia-con-le-reserved-instances-rispetto-alle-classiche-on-demand/</guid>
       <description>Amazon offre sconti significativi per chi sceglie le istanze riservate al posto di quelle on-demand. Dal punto di vista finanziario, e se avete intenzione di usare EC2 per almeno un anno, passare dalle istanze on-demand a quelle riservate potrebbe aver senso. Sborserete una cifra più alta inizialmente, ma il costo mensile si ridurrà sensibilmente.
 Per quanto io ne sappia il tool sviluppato da Mike Khristo è il primo che consente di confrontare direttamente, senza tanti giri di parole, il costo delle due soluzioni:</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Amazon offre sconti significativi per chi sceglie le istanze riservate al posto di quelle on-demand. Dal punto di vista finanziario, e se avete intenzione di usare EC2 per almeno un anno, passare dalle istanze on-demand a quelle riservate potrebbe aver senso. Sborserete una cifra più alta inizialmente, ma il costo mensile si ridurrà sensibilmente.</p>
+</blockquote>
+<p>Per quanto io ne sappia il tool sviluppato da Mike Khristo è il primo che consente di confrontare direttamente, senza tanti giri di parole, il costo delle due soluzioni:</p>
+<!-- raw HTML omitted -->
+]]></content:encoded>
     </item>
   </channel>
 </rss>

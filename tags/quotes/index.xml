@@ -16,6 +16,18 @@
       <description>I always struggle a bit with I&amp;rsquo;m asked about the &amp;ldquo;hallucination problem&amp;rdquo; in LLMs. Because, in some sense, hallucination is all LLMs do. They are dream machines.
 We direct their dreams with prompts. The prompts start the dream, and based on the LLM&amp;rsquo;s hazy recollection of its training documents, most of the time the result goes someplace useful.
 It&amp;rsquo;s only when the dreams go into deemed factually incorrect territory that we label it a &amp;ldquo;hallucination&amp;rdquo;.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>I always struggle a bit with I&rsquo;m asked about the &ldquo;hallucination problem&rdquo; in LLMs. Because, in some sense, hallucination is all LLMs do. They are dream machines.</p>
+</blockquote>
+<blockquote>
+<p>We direct their dreams with prompts. The prompts start the dream, and based on the LLM&rsquo;s hazy recollection of its training documents, most of the time the result goes someplace useful.</p>
+</blockquote>
+<blockquote>
+<p>It&rsquo;s only when the dreams go into deemed factually incorrect territory that we label it a &ldquo;hallucination&rdquo;. It looks like a bug, but it&rsquo;s just the LLM doing what it always does.</p>
+</blockquote>
+<p>&ndash; <a href="https://twitter.com/karpathy/status/1733299213503787018">Andrej Karpathy</a></p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Quoting Donald Knuth</title>
@@ -26,6 +38,37 @@ It&amp;rsquo;s only when the dreams go into deemed factually incorrect territory
 Some remarkable quotes:
 Of course these are extremely impressive responses, sometimes astonishingly so; thus I totally understand why you and others have been paying attention to it.
 The most immediate impression is the quality of the wordsmithing. It&amp;rsquo;s way better than 99% of copy that people actually write.</description>
+      <content:encoded><![CDATA[<p>Donald Knuth challenged ChatGPT-4 with 20 questions and then submitted the results and his comments to Stephen Wolfram. The
+<a href="https://cs.stanford.edu/~knuth/chatGPT20.txt">whole thing</a> is fascinating in many ways and worth reading.</p>
+<p>Some remarkable quotes:</p>
+<blockquote>
+<p>Of course these are extremely impressive responses, sometimes astonishingly so; thus I totally understand why you and
+others have been paying attention to it.</p>
+</blockquote>
+<blockquote>
+<p>The most immediate impression is the quality of the wordsmithing. It&rsquo;s way better than 99% of copy that people
+actually write. It&rsquo;s definitely not like a Markov model that uses the most predictable way to continue what&rsquo;s already
+been said. On the other hand there are surprising lapses there too, as typical of any large system.</p>
+</blockquote>
+<blockquote>
+<p>Answer #10 reads as though it&rsquo;s the best answer yet. But it&rsquo;s almost totally wrong!</p>
+</blockquote>
+<blockquote>
+<p>It&rsquo;s amazing how the confident tone lends credibility to all of that made-up nonsense. Almost impossible for anybody
+without knowledge of the book to believe that those &ldquo;facts&rdquo; aren&rsquo;t authorititative and well researched.</p>
+</blockquote>
+<blockquote>
+<p>I find it fascinating that novelists galore have written for decades about scenarios that might occur after a
+&ldquo;singularity&rdquo; in which superintelligent machines exist. But as far as I know, not a single novelist has realized that
+such a singularity would almost surely be preceded by a world in which machines are 0.01% intelligent (say), and in
+which millions of real people would be able to interact with them freely at essentially no cost.</p>
+</blockquote>
+<blockquote>
+<p>I myself shall certainly continue to leave such research to others, and to devote my time to developing concepts that
+are authentic and trustworthy. And I hope you do the same.</p>
+</blockquote>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Quoting Cicero</title>
@@ -35,6 +78,17 @@ The most immediate impression is the quality of the wordsmithing. It&amp;rsquo;s
       <description>Not to know what happened before one was born is always to be a child.
 I found this Cicero quote on Lapham&amp;rsquo;s Quarterly&amp;rsquo;s about page. A little research dug out the supposedly original version found in Orator Ad M. Brutum (46 BC). It goes like this:
 To be ignorant of what occurred before you were born is to remain always a child. For what is the worth of human life, unless it is woven into the life of our ancestors by the records of history?</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Not to know what happened before one was born is always to be a child.</p>
+</blockquote>
+<p>I found this Cicero quote on <em>Lapham&rsquo;s Quarterly</em>&rsquo;s <a href="https://www.laphamsquarterly.org/about">about page</a>. A little <a href="https://en.wikiquote.org/wiki/Cicero">research</a> dug out the supposedly
+original version found in <em>Orator Ad M. Brutum</em> (46 BC). It goes like this:</p>
+<blockquote>
+<p>To be ignorant of what occurred before you were born is to remain always a child. For what is the worth of human life,
+unless it is woven into the life of our ancestors by the records of history?</p>
+</blockquote>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Quoting John Carmack</title>
@@ -46,6 +100,17 @@ Software is just a tool to help accomplish something for people &amp;ndash; many
 I have often fallen into the over-focusing trap in my career. The whole thread is well worth reading:
 (via)
 Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+      <content:encoded><![CDATA[<p>John Carmack, while advising on the advent of AI and its influence on the Software Engineering profession:</p>
+<blockquote>
+<p>Software is just a tool to help accomplish something for people &ndash; many programmers never understood that. Keep your
+eyes on the delivered value, and don&rsquo;t over-focus on the specifics of the tools.</p>
+</blockquote>
+<p>I have often fallen into the over-focusing trap in my career. The whole thread is well worth reading:</p>
+<p><img loading="lazy" src="/images/quoting-john-carmack.jpg" alt="Quoting John Carmack"  />
+</p>
+<p>(<a href="https://twitter.com/ID_AA_Carmack/status/1637087219591659520"><em>via</em></a>)</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Quoting Italo Calvino</title>
@@ -54,6 +119,13 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
       <guid>https://nicolaiarocci.com/quoting-italo-calvino/</guid>
       <description>Quoting the last paragraph from Italo Calvino&amp;rsquo;s Invisible Cities:
 The inferno of the living is not something that will be; if there is one, it is what is already here, the inferno where we live every day, that we form by being together. There are two ways to escape suffering it. The first is easy for many: accept the inferno and become such a part of it that you can no longer see it.</description>
+      <content:encoded><![CDATA[<p>Quoting the last paragraph from Italo Calvino&rsquo;s <em>Invisible Cities</em>:</p>
+<blockquote>
+<p>The inferno of the living is not something that will be; if there is one, it is what is already here, the inferno where we live every day, that we form by being together. There are two ways to escape suffering it. The first is easy for many: accept the inferno and become such a part of it that you can no longer see it. The second is risky and demands constant vigilance and apprehension: seek and learn to recognize who and what, in the midst of inferno, are not inferno, then make them endure, give them space.</p>
+</blockquote>
+<p>My <em>Invisible Cities</em> review is available <a href="/book-review-invisible-cities/">here</a>.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Quoting Solzhenitsyn</title>
@@ -62,6 +134,14 @@ The inferno of the living is not something that will be; if there is one, it is 
       <guid>https://nicolaiarocci.com/quoting-solzhenitsyn/</guid>
       <description>The simple step of a courageous individual is not to take part in the lie. &amp;ndash;Aleksandr Solzhenitsyn
 Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>The simple step of a courageous individual is not to take part in the lie.<!-- raw HTML omitted -->
+&ndash;Aleksandr Solzhenitsyn</p>
+</blockquote>
+<p><img loading="lazy" src="/images/solzhenitsyn.jpg" alt="Sepia-toned photo of Aleksandr Solzhenitsyn in middle age, hairline receeded, bearded, in an open-collar shirt, a tired expression on his face."  />
+</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Quoting David Foster Wallace</title>
@@ -69,6 +149,34 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
       <pubDate>Thu, 31 Mar 2022 06:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/quoting-david-foster-wallace/</guid>
       <description>Because here’s something else that’s true. In the day-to-day trenches of adult life, there is actually no such thing as atheism. There is no such thing as not worshipping. Everybody worships. The only choice we get is what to worship. And an outstanding reason for choosing some sort of God or spiritual-type thing to worship-be it J.C. or Allah, be it Yahweh or the Wiccan mother-goddess or the Four Noble Truths or some infrangible set of ethical principles-is that pretty much anything else you worship will eat you alive.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Because here’s something else that’s true. In the day-to-day trenches of
+adult life, there is actually no such thing as atheism. There is no such
+thing as not worshipping. Everybody worships. The only choice we get is what
+to worship. And an outstanding reason for choosing some sort of God or
+spiritual-type thing to worship-be it J.C. or Allah, be it Yahweh or the
+Wiccan mother-goddess or the Four Noble Truths or some infrangible set of
+ethical principles-is that pretty much anything else you worship will eat you
+alive. If you worship money and things-if they are where you tap real meaning
+in life-then you will never have enough. Never feel you have enough. It’s the
+truth.</p>
+</blockquote>
+<blockquote>
+<p>Worship your own body and beauty and sexual allure and you will always feel
+ugly, and when time and age start showing, you will die a million deaths
+before they finally plant you. On one level, we all know this stuff
+already-it’s been codified as myths, proverbs, clichés, bromides, epigrams,
+parables: the skeleton of every great story. The trick is keeping the truth
+up-front in daily consciousness. Worship power-you will feel weak and afraid,
+and you will need ever more power over others to keep the fear at bay.
+Worship your intellect, being seen as smart-you will end up feeling stupid,
+a fraud, always on the verge of being found out. And so on.</p>
+</blockquote>
+<blockquote>
+<p>&ndash;David Foster Wallace in &ldquo;<a href="https://web.archive.org/web/20080213082423/http://www.marginalia.org/dfw_kenyon_commencement.html">This is Water</a>&rdquo; (<a href="https://macwright.com/2022/03/29/recently.html">via</a>)</p>
+</blockquote>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

@@ -17,6 +17,26 @@
 As with all Eve extensions, once installed with
 $ pip install eve-sqlalchemy using Eve-SQLAlchemy is very simple:
 from eve import Eve from eve_sqlalchemy import SQL app = Eve(data=SQL) app.run() On a fresh virtualenv (of course you are using virtualenvs, right?) the install will also setup Eve and all its dependencies for you.</description>
+      <content:encoded><![CDATA[<p>Powered by SQLAlchemy and good intentions, <a href="https://github.com/RedTurtle/eve-sqlalchemy">Eve-SQLAlchemy</a> is an official <a href="http://python-eve.org">Eve</a> extension which allows to effortlessly build and deploy highly customizable, fully featured RESTful Web Services with SQL backends.</p>
+<p>As with all Eve extensions, once installed with</p>
+<pre><code>$ pip install eve-sqlalchemy
+</code></pre>
+<p>using Eve-SQLAlchemy is very simple:</p>
+<pre><code>from eve import Eve
+from eve_sqlalchemy import SQL
+
+app = Eve(data=SQL)
+app.run()
+</code></pre>
+<p>On a fresh virtualenv (of course you are using virtualenvs, right?) the install will also setup Eve and all its dependencies for you. For a complete tutorial you can visit the Eve-SQLAlchemy <a href="http://eve-sqlalchemy.readthedocs.org/">Support Website</a>.</p>
+<p>If you have been following the Eve development you probably know that the original plan was to release SQL support within the Eve core, alongside with the native MongoDB layer. In fact, in a <a href="http://nicolaiarocci.com/open-source-and-code-responsibility/">long rant</a> on open source and code responsibility I took the chance to outline the path forward.</p>
+<p>However, if you check the discussion which spread in the comments below that post you can see how both my friend and fellow MongoDB Master <a href="http://www.flaper87.com/">Flavio</a> and the main contributor to the sqlalchemy branch <a href="https://github.com/amleczko">Andrew</a> were suggesting that a plugin system for data layers might be more appropriate. Not coincidentally that was easy to accomplish since the Eve data layer system was designed precisely with that goal in mind, right from the start.</p>
+<p>So, to make a long story short, in agreement with Andrew who volountereed for the task, we changed plans. He refactored the sqlalchemy branch into a separate repository… and then the official Eve SQL extension was born. This approach also allows the extension and Eve to develop asynchronously which is ideal for a faster release cycle.</p>
+<p>I like this setup so much that, if in time it shows to be as good as I think it will be, I will probably want to experiment with taking the MongoDB layer out of Eve core too. So with Eve 0.6 MongoDB support would still be preinstalled along with core (so nothing changes as first time user experience) but, being a separate package, users could easily switch to a different driver as they need, still keeping their Eve setup as light as possible.</p>
+<p>So if you are willing to help with the development of a mature SQL driver please feel free to join Andrew and other contributors. Your help is more than welcome. Allow me thank them all individually, for the work they’ve been doing on the SQL code is absolutely amazing: Andrew Mleczko, Tomasz Jezierski (Tefnet), Bruce Frederiksen, Jacopo Sabbatini and Peter Zinng.</p>
+<p>Get <a href="https://pypi.python.org/pypi/Eve-SQLAlchemy/0.1">Eve-SQLAlchemy v0.1</a> while it’s hot!</p>
+<p>If you want to get in touch, I am <a href="http://twitter.com/nicolaiarocci">@nicolaiarocci</a> on Twitter.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Cancellare tutte le Tabelle da un Database SQL Server</title>
@@ -24,6 +44,13 @@ from eve import Eve from eve_sqlalchemy import SQL app = Eve(data=SQL) app.run()
       <pubDate>Wed, 09 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/cancellare-tutte-le-tabelle-da-un-database-sql-server/</guid>
       <description>&lt;p&gt;In rari casi può capitare la necessità di cancellare tutto, ma proprio tutto, da un database SQL Server. &lt;strong&gt;Tabelle&lt;/strong&gt;, &lt;strong&gt;Stored Procedure&lt;/strong&gt;, &lt;strong&gt;Funzioni&lt;/strong&gt;, &lt;strong&gt;Viste&lt;/strong&gt;, &lt;strong&gt;Relazioni&lt;/strong&gt; e &lt;strong&gt;Chiavi Primarie&lt;/strong&gt;. A questo punto tanto varrebbe cancellare il database e ricrearlo, direte voi. Vero, ma non sempre si dispone delle autorizzazioni per farlo. Nel mio caso si tratta di un database ospitato su un server remoto e condiviso. Posso creare e cancellare quel che voglio all’interno del database, ma non posso rinominare o cancellare il db stesso.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>In rari casi può capitare la necessità di cancellare tutto, ma proprio tutto, da un database SQL Server. <strong>Tabelle</strong>, <strong>Stored Procedure</strong>, <strong>Funzioni</strong>, <strong>Viste</strong>, <strong>Relazioni</strong> e <strong>Chiavi Primarie</strong>. A questo punto tanto varrebbe cancellare il database e ricrearlo, direte voi. Vero, ma non sempre si dispone delle autorizzazioni per farlo. Nel mio caso si tratta di un database ospitato su un server remoto e condiviso. Posso creare e cancellare quel che voglio all’interno del database, ma non posso rinominare o cancellare il db stesso.</p>
+<p>Ecco una <a href="http://stackoverflow.com/questions/536350/sql-server-2005-drop-all-the-tables-stored-procedures-triggers-constriants-an">comoda routine</a> che fa al caso nostro. Dopo averla eseguita vi troverete il database completamente vuoto, come se fosse stato appena creato.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Anche questa routine (come <a href="http://nicolaiarocci.com/come-rimuovere-tutte-le-stored-procedure-da-un-database-sql/">quella vista ieri che cancella le sole Stored Procedure</a>) accede alla tabella di sistema <code>sys.objects</code> per reperire lo schema del database. Cambia però la tecnica di accesso alle informazioni. Invece di usare un cursore qui selezioniamo il primo record utile per poi inoltrarci in un ciclo di cancellazioni ripetute. Il ciclo termina quando non ci sono più record che soddisfano i parametri di ricerca. Per evitare problemi coi vincoli relazionali è importante cancellare prima le relazioni e solo dopo le tabelle.</p>
+<h2 id="nota-bene">Nota Bene</h2>
+<p>Probabilmente c’è una ottima ragione per cui non disponete dei diritti di cancellazione del database. Prima di lanciare questo codice chiedetevi almeno dieci volte se 1) state sul database giusto, 2) siete coscienti delle conseguenze di quel che state per fare e 3) disponete di un backup dei dati. In ogni caso se perdete dati preziosi <strong>non venite a lamentarvi dal sottoscritto! 😉</strong></p>]]></content:encoded>
     </item>
     <item>
       <title>Come rimuovere tutte le Stored Procedure da un database SQL Server?</title>
@@ -31,6 +58,10 @@ from eve import Eve from eve_sqlalchemy import SQL app = Eve(data=SQL) app.run()
       <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/come-rimuovere-tutte-le-stored-procedure-da-un-database-sql/</guid>
       <description>&lt;p&gt;In questi giorni sto lavorando sui database &lt;strong&gt;SQL Server&lt;/strong&gt; che fanno da back-end ai nostri web services e ne approfitto per fare un po’ manutenzione straordinaria. __Stamattina mi è capitato di dover cancellare tutte le &lt;strong&gt;Stored Procedure&lt;/strong&gt; di un database e ho &lt;a href=&#34;http://www.devasp.net/net/articles/display/309.html&#34;&gt;scovato&lt;/a&gt; questa routine che mi ha fatto risparmiare un mucchio di tempo&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>In questi giorni sto lavorando sui database <strong>SQL Server</strong> che fanno da back-end ai nostri web services e ne approfitto per fare un po’ manutenzione straordinaria. __Stamattina mi è capitato di dover cancellare tutte le <strong>Stored Procedure</strong> di un database e ho <a href="http://www.devasp.net/net/articles/display/309.html">scovato</a> questa routine che mi ha fatto risparmiare un mucchio di tempo</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>La tecnica è quella di sfruttare la tabella di sistema <em>sys.objects</em> che elenca tutti gli oggetti contenuti nel database. Le Stored Procedure hanno tutte type = ‘P’ per cui è facile individuarle. A questo punto ci sono due possibilità: memorizzarne i nomi in una tabella temporanea per poi lanciare un loop che le cancelli una per una, oppure usare un cursore ed eseguire le cancellazioni con la funzione EXEC. La nostra routine usa il secondo approccio, senz’altro più performante.</p>]]></content:encoded>
     </item>
     <item>
       <title>Il meglio di Stack Overflow in una collana di eBook gratuiti</title>
@@ -38,6 +69,112 @@ from eve import Eve from eve_sqlalchemy import SQL app = Eve(data=SQL) app.run()
       <pubDate>Wed, 02 Feb 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/il-meglio-di-stack-overflow-una-collana-di-ebook-gratuiti/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://stackoverflow.com/&#34;&gt;&lt;strong&gt;Stack Overflow&lt;/strong&gt;&lt;/a&gt; è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera &lt;strong&gt;minera di informazioni&lt;/strong&gt; &lt;strong&gt;preziose&lt;/strong&gt; e  meriterebbe maggiore attenzione…&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…</p>
+<h2 id="gli-ebooks-di-stack-overflow">Gli eBooks di Stack Overflow</h2>
+<h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1-"><!-- raw HTML omitted --></h2>
+<p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
+<ul>
+<li>JAVA (26M)</li>
+<li>C# (24M), C++ (21M), C (11M)</li>
+<li>NET (21M)</li>
+<li>PYTHON (20M), DJANGO (1.6M)</li>
+<li>JAVASCRIPT (15M)</li>
+<li>PHP (9.6M)</li>
+<li>IPHONE (7.3M)</li>
+<li>HTML (6.0M), HTML 5 (3.0M)</li>
+<li>CSS (5.7M)</li>
+<li>JQUERY (5.5M)</li>
+<li>ASP.NET (4.8M)</li>
+<li>DATABASE (4.8M)</li>
+<li>RUBY (3.1M), RUBY ON RAILS (1.9M)</li>
+<li>ANDROID (2.7M)</li>
+<li>MY SQL (2.5M), ORACLE (662K), SQL SERVER (2.8M), SQL (5.1M)</li>
+<li>AJAX (2.1M)</li>
+<li>COCOA (1.5M), OBJECTIVE-C (3.1M)</li>
+<li>VB.NET (1.5M)</li>
+<li>SILVERLIGHT (1.1M)</li>
+<li>FLASH (509K)</li>
+</ul>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…<!-- raw HTML omitted --></p>
+<h2 id="gli-ebooks-di-stack-overflow-1">Gli eBooks di Stack Overflow</h2>
+<h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1--1"><!-- raw HTML omitted --></h2>
+<p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
+<ul>
+<li>JAVA (26M)</li>
+<li>C# (24M), C++ (21M), C (11M)</li>
+<li>NET (21M)</li>
+<li>PYTHON (20M), DJANGO (1.6M)</li>
+<li>JAVASCRIPT (15M)</li>
+<li>PHP (9.6M)</li>
+<li>IPHONE (7.3M)</li>
+<li>HTML (6.0M), HTML 5 (3.0M)</li>
+<li>CSS (5.7M)</li>
+<li>JQUERY (5.5M)</li>
+<li>ASP.NET (4.8M)</li>
+<li>DATABASE (4.8M)</li>
+<li>RUBY (3.1M), RUBY ON RAILS (1.9M)</li>
+<li>ANDROID (2.7M)</li>
+<li>MY SQL (2.5M), ORACLE (662K), SQL SERVER (2.8M), SQL (5.1M)</li>
+<li>AJAX (2.1M)</li>
+<li>COCOA (1.5M), OBJECTIVE-C (3.1M)</li>
+<li>VB.NET (1.5M)</li>
+<li>SILVERLIGHT (1.1M)</li>
+<li>FLASH (509K)</li>
+</ul>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con]<a href="http://www.amazon.com/dp/B002Y27P3M/?tag=gocous-20&amp;hvadid=5729120357&amp;ref=pd_sl_blgu0nkyl_b">7</a> e credo con altri lettori di eBook. Ricordo che è possibile leggere i libri per Kindle con l’applicazione <strong>gratuita</strong> disponibile per <a href="http://www.amazon.com/gp/feature.html/ref=kcp_pc_mkt_lnd?docId=1000426311">PC</a>, <a href="http://www.amazon.com/gp/feature.html/ref=kcp_mac_mkt_lnd?docId=1000464931">Mac</a>, [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…<!-- raw HTML omitted --></p>
+<h2 id="gli-ebooks-di-stack-overflow-2">Gli eBooks di Stack Overflow</h2>
+<h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1--2"><!-- raw HTML omitted --></h2>
+<p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
+<ul>
+<li>JAVA (26M)</li>
+<li>C# (24M), C++ (21M), C (11M)</li>
+<li>NET (21M)</li>
+<li>PYTHON (20M), DJANGO (1.6M)</li>
+<li>JAVASCRIPT (15M)</li>
+<li>PHP (9.6M)</li>
+<li>IPHONE (7.3M)</li>
+<li>HTML (6.0M), HTML 5 (3.0M)</li>
+<li>CSS (5.7M)</li>
+<li>JQUERY (5.5M)</li>
+<li>ASP.NET (4.8M)</li>
+<li>DATABASE (4.8M)</li>
+<li>RUBY (3.1M), RUBY ON RAILS (1.9M)</li>
+<li>ANDROID (2.7M)</li>
+<li>MY SQL (2.5M), ORACLE (662K), SQL SERVER (2.8M), SQL (5.1M)</li>
+<li>AJAX (2.1M)</li>
+<li>COCOA (1.5M), OBJECTIVE-C (3.1M)</li>
+<li>VB.NET (1.5M)</li>
+<li>SILVERLIGHT (1.1M)</li>
+<li>FLASH (509K)</li>
+</ul>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…<!-- raw HTML omitted --></p>
+<h2 id="gli-ebooks-di-stack-overflow-3">Gli eBooks di Stack Overflow</h2>
+<h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1--3"><!-- raw HTML omitted --></h2>
+<p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
+<ul>
+<li>JAVA (26M)</li>
+<li>C# (24M), C++ (21M), C (11M)</li>
+<li>NET (21M)</li>
+<li>PYTHON (20M), DJANGO (1.6M)</li>
+<li>JAVASCRIPT (15M)</li>
+<li>PHP (9.6M)</li>
+<li>IPHONE (7.3M)</li>
+<li>HTML (6.0M), HTML 5 (3.0M)</li>
+<li>CSS (5.7M)</li>
+<li>JQUERY (5.5M)</li>
+<li>ASP.NET (4.8M)</li>
+<li>DATABASE (4.8M)</li>
+<li>RUBY (3.1M), RUBY ON RAILS (1.9M)</li>
+<li>ANDROID (2.7M)</li>
+<li>MY SQL (2.5M), ORACLE (662K), SQL SERVER (2.8M), SQL (5.1M)</li>
+<li>AJAX (2.1M)</li>
+<li>COCOA (1.5M), OBJECTIVE-C (3.1M)</li>
+<li>VB.NET (1.5M)</li>
+<li>SILVERLIGHT (1.1M)</li>
+<li>FLASH (509K)</li>
+</ul>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con]<a href="http://www.amazon.com/dp/B002Y27P3M/?tag=gocous-20&amp;hvadid=5729120357&amp;ref=pd_sl_blgu0nkyl_b">7</a> e credo con altri lettori di eBook. Ricordo che è possibile leggere i libri per Kindle con l’applicazione <strong>gratuita</strong> disponibile per <a href="http://www.amazon.com/gp/feature.html/ref=kcp_pc_mkt_lnd?docId=1000426311">PC</a>, <a href="http://www.amazon.com/gp/feature.html/ref=kcp_mac_mkt_lnd?docId=1000464931">Mac</a>,]<a href="http://www.amazon.com/gp/feature.html/ref=kcp_iphone_mkt_lnd?docId=1000301301">10</a> e <a href="http://www.amazon.com/gp/feature.html?ie=UTF8&amp;docId=165849822">Android</a>.</p>
+<p><strong>Buona lettura!</strong></p>]]></content:encoded>
     </item>
   </channel>
 </rss>

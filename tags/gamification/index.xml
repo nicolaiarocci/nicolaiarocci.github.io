@@ -14,6 +14,70 @@
       <pubDate>Tue, 20 Apr 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/i-am-a-mars-helicopter-contributor/</guid>
       <description>As I was browsing my RSS feed this morning, I came across a [new blog][1] from Nat Friedman over at GitHub. The piece was titled &amp;ldquo;Open source goes to Mars&amp;rdquo;, and, of course, it caught my interest. In the article, Nat announced a Mars 2020 Helicopter Mission badge added to GitHub profiles contributing to open-source projects and libraries used by Ingenuity. Some time ago, like many others, I was granted the Arctic Code Vault badge, so I am familiar with the concept.</description>
+      <content:encoded><![CDATA[<p><img loading="lazy" src="/images/mars-achievement.webp#right" alt="The Mars Helicopter Contributor badge"  />
+
+As I was browsing my RSS feed this morning, I came across a [new blog][1] from
+Nat Friedman over at GitHub. The piece was titled &ldquo;Open source goes to Mars&rdquo;,
+and, of course, it caught my interest. In the article, Nat announced a Mars
+2020 Helicopter Mission badge added to GitHub profiles contributing to
+open-source projects and libraries used by Ingenuity. Some time ago, like many
+others, I was granted the Arctic Code Vault badge, so I am familiar with the
+concept. I quickly dismissed the information as &ldquo;nice, not gonna get it&rdquo; and
+moved along.</p>
+<p>Later during the day, I got a mail from an Eve contributor. In between other
+things, he briefly congratulated me on my new GitHub badge. I went to check my
+profile, only to find that, indeed, I am a Mars Helicopter Contributor. I was
+bewildered. To my knowledge, I never worked on something even remotely related
+to the Ingenuity mission.</p>
+<p>Years ago, I received a package from a software team at a private space agency
+whose name I cannot tell. They sent me a lot of cool swag and a hand-written
+letter signed by all team members. In it, I learned that they had been using
+one of my open-source projects with success. They added that I should take
+pride, as my work was used in one of their renowned space ships projects. The
+package was their way to express gratitude. If you&rsquo;ve attended any of my talks
+in the past, you probably know this story. You might have seen me wearing one
+of their t-shirts too. I knew my work was used in many places; I certainly did
+not expect it was contributing to a space ship program.</p>
+<p>So when I reached for my profile page on GitHub today, I was confused, yes, but
+not wholly unprepared. And indeed, there it is, the new, shiny Mars Helicopter
+Contributor badge. A quick investigation revealed that I earned it as a Flask
+contributor. To be honest, I don&rsquo;t even remember contributing to it<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. I know
+I&rsquo;ve used it extensively, of course, as [Eve][4] inherits from and builds on it.</p>
+<p><img loading="lazy" src="/images/mars-profile-badge.png" alt="The Mars Helicopter Contributor badge"  />
+</p>
+<p>So, what to make of all of this? I am happy, of course. I have a badge of
+honor to show off to my kids later this evening. I appreciate the intent:</p>
+<blockquote>
+<p>“Many of the people who are getting a badge probably have no idea their
+software is being used to fly a helicopter on another planet,” says GitHub
+Senior Director of Developer Relations Martin Woodward. “We wanted to make
+sure everyone was recognized for their contributions to this incredible human
+achievement.” (<a href="https://github.com/readme/nasa-ingenuity-helicopter">source</a>)</p>
+</blockquote>
+<p>These badges surely help raise awareness of open-source relevance in the
+modern-day world. I am grateful for it. I have to say, however, that I am not
+a fan of the current gamification process going on at GitHub. I cringed when
+I saw the &ldquo;How do you feel today&rdquo; box in my profile page a while ago<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. This
+Achievements feature looks good on the surface. Still, it leans itself to be
+leveraged in many different, even subtle ways. Let&rsquo;s hope for the best.</p>
+<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>A quick <code>git shortlog -sne</code> on the flask repo confirms the rumors.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>It seems gone now?
+[4]: <a href="https://github.com/pyeve/">https://github.com/pyeve/</a>
+[1]: <a href="https://github.blog/2021-04-19-open-source-goes-to-mars/">https://github.blog/2021-04-19-open-source-goes-to-mars/</a>
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

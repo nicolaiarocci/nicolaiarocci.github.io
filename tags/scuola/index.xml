@@ -14,6 +14,19 @@
       <pubDate>Tue, 27 Dec 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/internet-non-solo-per-gioco/</guid>
       <description>&lt;p&gt;In questo periodo sono impegnato come docente nel progetto “Internet non (solo) per gioco”. Si tratta di una serie di lezioni tenute al liceo. L’obiettivo è sensibilizzare i ragazzi circa il ruolo che la rete può svolgere nello sviluppo delle loro abilità personali e professionali. La settimana scorsa si è conclusa la prima parte, quella più teorica, e approfitto della pausa festiva per proporvi le slide e raccontarvi come è andata.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>In questo periodo sono impegnato come docente nel progetto “Internet non (solo) per gioco”. Si tratta di una serie di lezioni tenute al liceo. L’obiettivo è sensibilizzare i ragazzi circa il ruolo che la rete può svolgere nello sviluppo delle loro abilità personali e professionali. La settimana scorsa si è conclusa la prima parte, quella più teorica, e approfitto della pausa festiva per proporvi le slide e raccontarvi come è andata.</p>
+<h2 id="identità-reale-virtuale-o-digitale">Identità Reale, Virtuale o Digitale?</h2>
+<p>Nella prima lezione ho affrontato il tema del rapporto tra le attività svolte in rete (identità digitale) e quelle offline (identità reale). E’ un legame ben più stretto di quanto generalmente si pensi:</p>
+<p>Nella corso dell’esercitazione pratica ho mostrato ai ragazzi come spesso sia facile aggirare i meccanismi che più o meno coscientemente erigono a protezione dei loro profili Facebook. Ho fatto anche notare come alcuni di loro siano già stati ‘profilati’ dalla rete, a prescindere dalla loro attività su Facebook.</p>
+<h2 id="a-proposito-di-facebook">A proposito di Facebook</h2>
+<p>Non mi ha sorpreso constatare come per praticamente ognuno di loro non ci sia rete al di fuori di Facebook. Semplicemente, per i giovani e giovanissimi di oggi Facebook <em>è</em> la rete.</p>
+<h2 id="personal-branding-per-studenti-e-non-solo">Personal Branding per Studenti e non solo</h2>
+<p>Preso atto che ciò che facciamo in rete può avere (avrà) conseguenze nella vita di tutti i giorni, ecco che allora possiamo prendere in mano l’iniziativa e sfruttare tutto questo a nostro vantaggio:</p>
+<h2 id="un-primo-bilancio">Un primo bilancio</h2>
+<p>Questa esperienza si sta rivelando anche più coinvolgente del previsto. Una cosa è parlare a un pubblico di adulti e colleghi, come mi capita di fare ogni tanto. Un’altra è relazionarsi con giovani studenti. Mi piace parlare a questi ragazzi, suscitare in loro curiosità oppure stupirli con qualche trucchetto.</p>
+<p>E’ sorprendente rilevare come siano veramente “innocenti” nei confronti della rete. Per la maggior parte non sembrano conoscerne le potenzialità, né tantomeno i rischi. La usano quotidianamente, ma non la conoscono. Tuttavia ne subiscono il fascino e mi pare di percepire in loro un forte interesse per gli argomenti che stiamo trattando.</p>
+<h2 id="cosa-ci-aspetta">Cosa ci aspetta</h2>
+<p>Le prossime lezioni saranno più pratiche. Ci saranno meno slide. Cominceremo a sporcarci le mani costruendo siti e interagendo con gli strumenti web più disparati. Alla fine del percorso i ragazzi conosceranno meglio la rete e molti di quegli strumenti che oggi ignorano. Mi auguro che in seguito vorranno e sapranno usarli con consapevolezza, divertimento, profitto personale e, perché no, professionale.</p>]]></content:encoded>
     </item>
     <item>
       <title>Python nella scuola italiana. Si può.</title>
@@ -22,6 +35,29 @@
       <guid>https://nicolaiarocci.com/python-nella-scuola-italiana-si-puo/</guid>
       <description>&lt;p&gt;Mia moglie è docente nel liceo artistico della nostra città. L’anno scorso era coinvolta in un progetto che vedeva studenti e professori impegnati nella progettazione di un monumento da installare nella sede dell’Autorità Portuale.&lt;/p&gt;
 &lt;p&gt;Il soggetto scelto dal team erano le onde del mare e ben presto si pose il problema di rappresentarle realisticamente. Un insegnate di Matematica suggerì di ricorrere alla teoria dei &lt;!-- raw HTML omitted --&gt;frattali&lt;!-- raw HTML omitted --&gt;. Idea brillante che offriva l’opportunità di un approfondimento didattico piuttosto insolito per un liceo artistico.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Mia moglie è docente nel liceo artistico della nostra città. L’anno scorso era coinvolta in un progetto che vedeva studenti e professori impegnati nella progettazione di un monumento da installare nella sede dell’Autorità Portuale.</p>
+<p>Il soggetto scelto dal team erano le onde del mare e ben presto si pose il problema di rappresentarle realisticamente. Un insegnate di Matematica suggerì di ricorrere alla teoria dei <!-- raw HTML omitted -->frattali<!-- raw HTML omitted -->. Idea brillante che offriva l’opportunità di un approfondimento didattico piuttosto insolito per un liceo artistico.</p>
+<p>Le competenze informatiche del nostro intraprendente professore risalivano credo ai tempi dell’università, e i ragazzi erano a digiuno di qualunque nozione tecnica. Nel corso della discussione mia moglie, più che altro per associazione d’idee, buttò lì una frase:</p>
+<blockquote>
+<p>mio marito è un gran sostenitore del linguaggio Python, dice sempre che è l’ideale per imparare e che dovrebbero insegnarlo nelle scuole</p>
+</blockquote>
+<p>La cosa sembrava finita lì senonché dopo qualche giorno il professore irruppe in sala insegnanti, puntò dritto su mia moglie e l’apostrofò così:</p>
+<blockquote>
+<p>ho scritto questo programmino in Python, non è che tuo marito può darci una occhiata perché sai funziona, ma non disegna proprio il frattale che serve a noi – ci va vicino</p>
+</blockquote>
+<p>Immaginate la mia sorpresa quando la sera, a casa, mia moglie mi raccontò tutta la faccenda. La mia prima reazione è stata quella di correre al computer per dare un’occhiata al codice:</p>
+<!-- raw HTML omitted -->
+<p>Mi sono subito reso conto che si trattava di una implementazione parziale della <!-- raw HTML omitted -->Curva (o fiocco) di Koch<!-- raw HTML omitted -->, una delle prime curve frattali documentate e anche una delle più famose. Una volta corretto il problema l’output restituito dal programma è stato questo:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Non male davvero. Per ammissione dello stesso autore sappiamo che il codice era in parte scopiazzato (in rete si trovano implementazioni della curva di Koch in tutti i linguaggi), ma non è questo il punto.</p>
+<p>Il fatto è che un professore di uno sperduto liceo artistico (artistico!) italiano ha:</p>
+<ol>
+<li>adottato Python per una lezione in classe</li>
+<li>dimostrato che nella scuola ci sono anche (molti) docenti intraprendenti, appassionati e competenti</li>
+</ol>
+<p>Qualche mese più tardi un’altra docente, che mi chiedeva consiglio su come approcciare la programmazione in classe, ha rifiutato categoricamente la mia proposta di Python perché “non l’aveva mai sentito nominare”. Scelse invece il linguaggio C perché “molto più affermato”.</p>
+<p>Senz’altro, anche se nutro seri dubbi sul fatto che la sua scelta sia la migliore da un punto di vista didattico. Dubito, per esempio, che dopo un giorno o due lei e i suoi studenti sarebbero stati in grado di scrivere un’implementazione C della curva di Koch.</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

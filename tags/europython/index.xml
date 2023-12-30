@@ -15,6 +15,13 @@
       <guid>https://nicolaiarocci.com/sviluppare-una-restful-web-api-con-python-flask-e-mongodb/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;La scorsa settimana a &lt;!-- raw HTML omitted --&gt;EuroPython 2012&lt;!-- raw HTML omitted --&gt; ho tenuto un talk intitolato &lt;!-- raw HTML omitted --&gt;Sviluppare una RESTful Web API con Python, Flask e MongoDB&lt;!-- raw HTML omitted --&gt;. Mi ha fatto piacere riscontrare forte interesse sia per gli aspetti teorici dell’architettura REST che per la loro implementazione pratica con strumenti quali Flask e MongoDB. In entrambe le sessioni inglese e italiana mi sono state rivolte molte domande, sia in occasione delle Q&amp;amp;A plenarie che nei successivi colloqui informali. Parecchi anche i commenti ed i suggerimenti, davvero utili ed apprezzati (a quanto pare non sono l’unico che, forte di un background .NET, ha compiuto o sta per compiere il salto verso Python e il mondo open source).&lt;/p&gt;
 &lt;p&gt;Soprattutto ho rilevato una forte curiosità su MongoDB, un database non-relazionale verso il quale sembra prevalere un atteggiamento  di generale timidezza: “vorrei ma non oso”, insomma. Per quanto riguarda Flask direi che ormai, nel vasto firmamento dei micro web framework, è una stella che brilla di luce propria.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->La scorsa settimana a <!-- raw HTML omitted -->EuroPython 2012<!-- raw HTML omitted --> ho tenuto un talk intitolato <!-- raw HTML omitted -->Sviluppare una RESTful Web API con Python, Flask e MongoDB<!-- raw HTML omitted -->. Mi ha fatto piacere riscontrare forte interesse sia per gli aspetti teorici dell’architettura REST che per la loro implementazione pratica con strumenti quali Flask e MongoDB. In entrambe le sessioni inglese e italiana mi sono state rivolte molte domande, sia in occasione delle Q&amp;A plenarie che nei successivi colloqui informali. Parecchi anche i commenti ed i suggerimenti, davvero utili ed apprezzati (a quanto pare non sono l’unico che, forte di un background .NET, ha compiuto o sta per compiere il salto verso Python e il mondo open source).</p>
+<p>Soprattutto ho rilevato una forte curiosità su MongoDB, un database non-relazionale verso il quale sembra prevalere un atteggiamento  di generale timidezza: “vorrei ma non oso”, insomma. Per quanto riguarda Flask direi che ormai, nel vasto firmamento dei micro web framework, è una stella che brilla di luce propria.</p>
+<p>Per quanto riguarda le registrazioni video potete andare su YouTube o sulla pagina ufficiale di EuroPython (<!-- raw HTML omitted -->english track<!-- raw HTML omitted --> e <!-- raw HTML omitted -->italian track<!-- raw HTML omitted -->). Ammetto di essere più soddisfatto della versione inglese nella quale – complice anche l’esperienza italiana del giorno prima – credo di essere stato più sintetico ed efficace. Qui mi limito a proporvi le slide:</p>
+<h2 id="ringraziamenti">Ringraziamenti</h2>
+<p>Un immenso grazie ai ragazzi dello staff di EuroPython che veramente hanno fatto di tutto per rendere questa manifestazione un evento straordinario – e ci sono riusciti  (una settimana di talk su cinque tracce parallele, sprint, hands-on, corsi, cibo di ottima qualità e credo oltre 800 partecipanti).</p>
+<p>Vi racconto un episodio giusto per darvi l’idea di quanto questi ragazzi, tutti volontari, si diano da fare e ci mettano passione vera. Nella sessione italiana ho ‘sforato’ (capita anche ai migliori, mi dicono!) e così mi son trovato a sorvolare su un certo numero di slide. Ebbene il mio talk manager e il suo assistente mi hanno proposto di loro iniziativa di tenere una sessione pomeridiana straordinaria per consentirmi di portare a termine la mia relazione. Non capita tutti i giorni, credetemi. Per mia fortuna gran parte delle persone che avevano assistito alla sessione mattutina sono poi tornate per quella del pomeriggio, altrimenti sai che figura!</p>
+<p>Se siete pythonisti o vorreste diventarlo non perdetevi la prossima edizione di questo evento internazionale che, con tutta probabilità, si terrà di nuovo a Firenze l’anno prossimo.</p>]]></content:encoded>
     </item>
     <item>
       <title>Guido van Rossum a EuroPython 2012</title>
@@ -23,6 +30,15 @@
       <guid>https://nicolaiarocci.com/guido-van-rossum-a-europython-2012/</guid>
       <description>Partenza col botto per EuroPython 2012. I keynote introduttivi saranno tenuti nientemeno che dal creatore stesso del linguaggio, Guido Van Rossum, e da Alex Martelli. Ieri è stato annunciato il programma ufficiale e a quanto pare mi spetta l’inaugurazione della italian track martedì 3 luglio. Il giorno successivo sarò impegnato, ancora di prima mattina, con la versione in lingua inglese del mio talk:
 Sviluppare una RESTful Web API con Python, Flask e MongoDB</description>
+      <content:encoded><![CDATA[<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Partenza col botto per <!-- raw HTML omitted -->EuroPython 2012<!-- raw HTML omitted -->. I keynote introduttivi saranno tenuti nientemeno che dal creatore stesso del linguaggio, Guido Van Rossum, e da Alex Martelli. Ieri è stato annunciato il <!-- raw HTML omitted -->programma ufficiale<!-- raw HTML omitted --> e a quanto pare mi spetta l’inaugurazione della italian track martedì 3 luglio. Il giorno successivo sarò impegnato, ancora di prima mattina, con la versione in lingua inglese del mio talk:</p>
+<blockquote>
+<p><!-- raw HTML omitted -->Sviluppare una RESTful Web API con Python, Flask e MongoDB<!-- raw HTML omitted --></p>
+<p>Nel corso dell’ultimo anno abbiamo lavorato all’implementazione Python di una RESTful Web API completa. Abbiamo imparato un bel po’ di cose sui best pattern REST e, naturalmente, abbiamo messo alla prova le ben note capacità web di Python, rilasciando nel frattempo un paio di progetti Open Source. Nel corso del mio intervento condividerò quel che abbiamo imparato. Prenderemo in considerazione il problematico design di una REST API ‘pura’. Vedremo che cosa offre Python in questo campo e scenderemo infine nel dettaglio, dando una occhiata al codice che abbiamo scritto. Alcune tecnologie/stack che tratteremo sono (in nessun ordine particolare): Flask, PyMongo, MongoDB, REST, JSON, XML, Heroku. Lo sapevi? Che ti piaccia o no, c’è una REST API nel tuo futuro.</p>
+</blockquote>
+<p>Scorrendo la lista degli speaker scopro che anche Amin Roacher, autore di Flask, e Ross Lawley di 10Gen (MongoDB) saranno della partita. Insomma ammetto che un po’ d’ansia da prestazione comincia ad affiorare. Sarà una bella sfida, e non vedo l’ora di affrontarla. Conto molto sul vostro supporto e incoraggiamento: ne avrò bisogno 😉</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Speaker a EuroPython 2012</title>
@@ -31,6 +47,12 @@ Sviluppare una RESTful Web API con Python, Flask e MongoDB</description>
       <guid>https://nicolaiarocci.com/speaker-a-europython-2012/</guid>
       <description>EuroPython è la conferenza europea di riferimento per il linguaggio Python. Si terrà anche quest’anno a Firenze, dal 2 al 8 luglio. Sono in programma molti interventi davvero interessanti, cosa che rende ancor più soprendente il fatto che i miei talk siano stati votati così tanto.
 Date un’occhiata al sito ufficiale per saperne di più sulla conferenza (in questo momento è ancora possibile approfittare dell’offerta early bird per l’acquisto dei biglietti); maggiori informazioni sui miei interventi tra qualche tempo, quando sarà ufficializzato il calendario dei talk.</description>
+      <content:encoded><![CDATA[<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>EuroPython è la conferenza europea di riferimento per il linguaggio Python. Si terrà anche quest’anno a Firenze, dal 2 al 8 luglio. Sono in programma molti interventi davvero interessanti, cosa che rende ancor più soprendente il fatto che i miei talk siano stati votati così tanto.</p>
+<!-- raw HTML omitted -->
+<p>Date un’occhiata al <!-- raw HTML omitted -->sito ufficiale<!-- raw HTML omitted --> per saperne di più sulla conferenza (in questo momento è ancora possibile approfittare dell’offerta <em>early bird</em> per l’acquisto dei biglietti); maggiori informazioni sui miei interventi tra qualche tempo, quando sarà ufficializzato il calendario dei talk.</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

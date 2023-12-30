@@ -15,6 +15,17 @@
       <guid>https://nicolaiarocci.com/monolith-vs-microservices/</guid>
       <description>I spent the last couple days in Paris with a bunch of smart architects and developers who are about to deal with a complex Monolithic-to-Microservices architecture transition.
 On my flight back to Italy I jotted down a few thoughts on the topic and then, this morning, the first thing that comes up on my newsfeed is Monolith First by Martin Fowler. Stunning, because the essay content totally resonates with my own notes, so much that it would perfectly serve as a recap for them.</description>
+      <content:encoded><![CDATA[<p>I spent the last couple days in Paris with a bunch of smart architects and developers who are about to deal with a complex Monolithic-to-Microservices architecture transition.</p>
+<p>On my flight back to Italy I jotted down a few thoughts on the topic and then, this morning, the first thing that comes up on my newsfeed is <a href="http://martinfowler.com/bliki/MonolithFirst.html">Monolith First</a> by Martin Fowler. Stunning, because the essay content totally resonates with my own notes, so much that it would perfectly serve as a recap for them.</p>
+<blockquote>
+<p>Going directly to a microservices architecture is risky, so consider building a monolithic system first. Split to microservices when, and if, you need it.</p>
+</blockquote>
+<p>And also, perhaps more importantly:</p>
+<blockquote>
+<p>A more common approach is to start with a monolith and gradually peel off microservices at the edges. Such an approach can leave a substantial monolith at the heart of the microservices architecture, but with most new development occurring in the microservices while the monolith is relatively quiescent.</p>
+</blockquote>
+<p>I find it fascinating that there is a chance that my notes and the essay were written (by astral coincidence?) in the very same minutes.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Why Microservices Matter</title>
@@ -23,6 +34,11 @@ On my flight back to Italy I jotted down a few thoughts on the topic and then, t
       <guid>https://nicolaiarocci.com/microservices-matter/</guid>
       <description>In spite of being a marketing spin and link bait, Heroku article on microservices does a pretty good job at explaining why microservices matter and, at a very high level, what challenges they pose.
 However, microservices aren’t a silver bullet, and they won’t make a sluggish IT organization fast. While individual services become more robust and less complex, the overall system takes on the many challenges of distributed systems at the network level.</description>
+      <content:encoded><![CDATA[<p>In spite of being a marketing spin and link bait, Heroku <a href="https://blog.heroku.com/archives/2015/1/20/why_microservices_matter">article on microservices</a> does a pretty good job at explaining why microservices matter and, at a very high level, what challenges they pose.</p>
+<blockquote>
+<p>However, microservices aren’t a silver bullet, and they won’t make a sluggish IT organization fast. While individual services become more robust and less complex, the overall system takes on the many challenges of distributed systems at the network level. Despite their challenges, they’re here to stay because they map better than anything else to the software landscape of the future: parallel development, platform-as-a-service deployment, and ubiquitous use.</p>
+</blockquote>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

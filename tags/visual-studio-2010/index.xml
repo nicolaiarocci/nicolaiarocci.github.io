@@ -14,6 +14,11 @@
       <pubDate>Tue, 12 Jul 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/python-tools-per-visual-studio-2010-arriva-la-rc1/</guid>
       <description>&lt;p&gt;Prosegue senza intoppi il cammino di &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Python Tools per Visual Studio&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, il progetto open source targato Microsoft che consente di programmare in Python con Visual Studio 2010. Dopo il &lt;a href=&#34;http://nicolaiarocci.com/python-tools-per-visual-studio-2010/&#34; title=&#34;Programmare in Python con Visual Studio 2010&#34;&gt;lancio ufficiale&lt;/a&gt; dello scorso marzo e la successiva &lt;a href=&#34;http://nicolaiarocci.com/python-tools-per-visual-studio-ecco-la-beta-2/&#34; title=&#34;Python Tools per Visual Studio 2010 Beta 2&#34;&gt;Beta 2&lt;/a&gt; di maggio, ieri è stata presentata la &lt;strong&gt;Release Candidate 1&lt;/strong&gt;.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Prosegue senza intoppi il cammino di <strong><!-- raw HTML omitted -->Python Tools per Visual Studio<!-- raw HTML omitted --></strong>, il progetto open source targato Microsoft che consente di programmare in Python con Visual Studio 2010. Dopo il <a href="http://nicolaiarocci.com/python-tools-per-visual-studio-2010/" title="Programmare in Python con Visual Studio 2010">lancio ufficiale</a> dello scorso marzo e la successiva <a href="http://nicolaiarocci.com/python-tools-per-visual-studio-ecco-la-beta-2/" title="Python Tools per Visual Studio 2010 Beta 2">Beta 2</a> di maggio, ieri è stata presentata la <strong>Release Candidate 1</strong>.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Oltre 200 i bug risolti e notevoli sono le novità introdotte, come per esempio il supporto per il refactoring. Consultate le <!-- raw HTML omitted -->release notes<!-- raw HTML omitted --> conoscere tutte le novità. Se volete saperne di più su questo interessante progetto vi invito a leggere <strong><a href="http://nicolaiarocci.com/python-tools-per-visual-studio-2010/" title="Programmare in Python con Visual Studio 2010">Programmare in Python con Visual Studio 2010</a></strong>,  la recensione che ho scritto in occasione del lancio.</p>
+<p><em>Aggiornamento del 2.8.2011: siamo arrivati alla RC2</em></p>]]></content:encoded>
     </item>
     <item>
       <title>Programmare in Python con Visual Studio 2010</title>
@@ -22,6 +27,30 @@
       <guid>https://nicolaiarocci.com/python-tools-per-visual-studio-2010/</guid>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://pytools.codeplex.com/&#34;&gt;Python Tools per Visual Studio&lt;/a&gt;&lt;/strong&gt; è un plugin gratuito e open source che consente di programmare in Python usando la IDE Microsoft. Nel corso della lunga gestazione di Visual Studio 2010 si era rumoreggiato di un possibile supporto nativo per il linguaggio Python. Qualcosa di vero doveva esserci visto che il progetto è appena stato presentato al &lt;a href=&#34;http://us.pycon.org/2011/home/&#34;&gt;&lt;strong&gt;PyCon 2011&lt;/strong&gt;&lt;/a&gt;, la più importante conferenza Python al mondo, nientemeno che dal &lt;a href=&#34;http://www.microsoft.com/hpc&#34;&gt;Microsoft Technical Computing Group&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;</description>
+      <content:encoded><![CDATA[<p><strong><a href="http://pytools.codeplex.com/">Python Tools per Visual Studio</a></strong> è un plugin gratuito e open source che consente di programmare in Python usando la IDE Microsoft. Nel corso della lunga gestazione di Visual Studio 2010 si era rumoreggiato di un possibile supporto nativo per il linguaggio Python. Qualcosa di vero doveva esserci visto che il progetto è appena stato presentato al <a href="http://us.pycon.org/2011/home/"><strong>PyCon 2011</strong></a>, la più importante conferenza Python al mondo, nientemeno che dal <a href="http://www.microsoft.com/hpc">Microsoft Technical Computing Group</a>.</p>
+<!-- raw HTML omitted -->
+<h2 id="progetti-e-soluzioni">Progetti e Soluzioni</h2>
+<p>Python Tools è perfettamente integrato nel sistema a progetti tipico di Visual Studio. I file di progetto Python hanno estensione <code>.pyproj</code> e supportano parecchi tipi di applicazione (Console, WPF, MPI, WinForms, ecc.)</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="editor">Editor</h2>
+<p>Python Tools supporta gran parte delle caratteristiche che hanno reso famoso l’editor di Visual Studio: evidenziazione degli elementi del linguaggio (syntax color highlighting), riconoscimento di classi e funzioni, navigazione dei metodi nella barra di navigazione, suggerimenti al passaggio del mouse, ricerca di definizioni e occorrenze, IntelliSense.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="debugger">Debugger</h2>
+<p>Il potente debugger di Visual Studio è utilizzabile con Python. Valutazione di espressioni (anche nella finestra interattiva), ispezione delle variabili, impostazione dell’istruzione successiva, uscita ed entrata da cicli di codice e/o funzioni (step in, step out).</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="object-browser">Object Browser</h2>
+<p>Python Tools supporta l’uso del Object Browser di Visual Studio 2010. Per ogni modulo è disponibile l’elenco delle classi e, per ogni classe, delle funzioni definite. Il pannello sinistro mostra i moduli e le classi mentre quello destro elenca gli attributi della classe selezionata.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Visto chi l’ha realizzato non stupisce che Python Tools per Visual Studio offra anche funzionalità avanzate quali il Profiling (solo su Visual Studio 2010 Ultimate), <a href="http://pytools.codeplex.com/wikipage?title=Detailed%20Walk-thu%20Guide%20-%20HPC%20and%20Cloud%20Features&amp;referringTitle=Home">cluster computing e cloud computing</a>. Clustering e scaling sono già implementati mentre per il supporto di Windows Azure bisognerà aspettare il prossimo aggiornamento. Già disponibili i <a href="http://pytools.codeplex.com/wikipage?title=NumPy%20and%20SciPy%20for%20.Net">port per .NET delle librerie NumPy e SciPy</a>.</p>
+<p>Python Tools per Visual Studio non è una distruzione completa di Python. E comunque necessario installare <a href="http://www.python.it/">CPython</a> o <a href="http://ironpython.codeplex.com/">IronPython</a>. Questa è una buona notizia perché potrai lavorare sia nel modo tradizionale (magari con colleghi abituati ad altre IDE) sia con Visual Studio.</p>
+<h2 id="una-grande-opportunità">Una grande opportunità</h2>
+<p>Se vieni dal mondo .NET e sei incuriosito dal linguaggio Python (dovresti esserlo!) questa è la tua occasione. Puoi lavorare con Python senza rinunciare al tuo ambiente preferito e puoi concentrarti sulle caratteristiche del linguaggio risparmiandoti l’apprendimento di una nuova IDE. A dire il vero anche IronPython dispone di un suo plugin per VisualStudio ma ora hai l’opportunità di lavorare con CPython, il Python originale.</p>
+<p>Per muovere i primi passi comincia con <!-- raw HTML omitted -->Impara Python in 10 minuti<!-- raw HTML omitted -->, guida rapida per il programmatore proveniente da altri linguaggi.</p>
+<!-- raw HTML omitted -->]]></content:encoded>
     </item>
   </channel>
 </rss>

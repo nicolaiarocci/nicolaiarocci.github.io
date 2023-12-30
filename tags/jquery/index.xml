@@ -16,6 +16,28 @@
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Lanciata da pochi giorni, &lt;a href=&#34;http://tempojs.com/&#34;&gt;&lt;!-- raw HTML omitted --&gt;Lanciata da pochi giorni,&lt;/a&gt; è una piccola (4Kb) e brillante libreria JavaScript che ci mette a disposizione un &lt;em&gt;rendering engine&lt;/em&gt; JSON controllabile con puro codice HTML. La separazione tra HTML e JavaScript rende più facile il lavoro con contenuti AJAX, aumenta la leggibilità del codice e ne facilita la manutenzione. Tempo è compatibile con tutti i browser (IE6 incluso), si integra alla perfezione con jQuery ed è davvero facile da usare.&lt;/p&gt;
 &lt;h2 id=&#34;json&#34;&gt;JSON&lt;/h2&gt;
 &lt;p&gt;JSON è un formato di scambio dati sempre più diffuso. Un flusso di dati JSON è relativamente compatto (soprattutto rispetto al suo rivale XML) ed è facile da interpretare sia per un umano che per un computer. Ormai tutte le Web API più usate (Facebook, Twitter, ecc.) supportano ampiamente JSON. Ecco un esempio di array JSON:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Lanciata da pochi giorni, <a href="http://tempojs.com/"><!-- raw HTML omitted -->Lanciata da pochi giorni,</a> è una piccola (4Kb) e brillante libreria JavaScript che ci mette a disposizione un <em>rendering engine</em> JSON controllabile con puro codice HTML. La separazione tra HTML e JavaScript rende più facile il lavoro con contenuti AJAX, aumenta la leggibilità del codice e ne facilita la manutenzione. Tempo è compatibile con tutti i browser (IE6 incluso), si integra alla perfezione con jQuery ed è davvero facile da usare.</p>
+<h2 id="json">JSON</h2>
+<p>JSON è un formato di scambio dati sempre più diffuso. Un flusso di dati JSON è relativamente compatto (soprattutto rispetto al suo rivale XML) ed è facile da interpretare sia per un umano che per un computer. Ormai tutte le Web API più usate (Facebook, Twitter, ecc.) supportano ampiamente JSON. Ecco un esempio di array JSON:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="javascript">JavaScript</h2>
+<p>Dopo aver <a href="https://github.com/twigkit/tempo/zipball/master">scaricato</a> la libreria includiamola nella nostra pagina:</p>
+<!-- raw HTML omitted -->
+<h3 id="tempoprepareelement">Tempo.prepare(element)</h3>
+<p>Tempo.Prepare() cerca uno o più data-template in un contenitore HTML, li mette in cache e li rimuove dalla pagina (verranno sostituiti dai dati in fase di rendering). Restituisce infine una istanza specializzata del <em>renderer</em> che, grazie alle indicazioni contenute nei data-template, sa già come mostrare i dati. Se stiamo usando jQuery possiamo passare direttamente l’oggetto jQuery.</p>
+<h3 id="rendererrenderdata">renderer.render(data)</h3>
+<p>Il metodo <em>render</em> si applica alla instanza del renderer restituita da Tempo.prepare(). Accetta come argomento i dati JSON e li mostra finalmente nella nostra pagina HTML.</p>
+<!-- raw HTML omitted -->
+<h2 id="html">HTML</h2>
+<h3 id="span-stylefont-size-13px-font-weight-normaltempo-riconosce-come-template-qualunque-tag-con-attributo-emdata-template-emche-siacontenuto-nell8217elemento-html-da-noi-indicato-indichiamo-i-campi-dell8217array-json-col-nome-racchiuso-tra-doppie-parentesi-span"><!-- raw HTML omitted -->Tempo riconosce come template qualunque tag con attributo <!-- raw HTML omitted -->data-template <!-- raw HTML omitted -->che sia contenuto nell’elemento HTML da noi indicato. Indichiamo i campi dell’array JSON col nome racchiuso tra doppie parentesi {{}}<!-- raw HTML omitted --></h3>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>il codice viene reso con:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Per le funzionalità avanzate (condizioni se-allora, data-template nidificati, supporto jQuery e gestione callbacks ed eventi) vi rimando alla <a href="http://tempojs.com/">pagina ufficiale</a> della libreria, dalla quale peraltro ho tratto gran parte di questo esempio. Vi trovate anche un <a href="http://tempojs.com/examples/twitter">esempio funzionante</a> di rendering di un flusso proveniente da Twitter e recuperato via jQuery.</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

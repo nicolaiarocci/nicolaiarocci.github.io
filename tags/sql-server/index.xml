@@ -15,6 +15,13 @@
       <guid>https://nicolaiarocci.com/sql-server-e-il-cloud-di-amazon-ec2-vantaggi-e-svantaggi/</guid>
       <description>Se state considerando l’opzione Cloud per il vostro SQL Server non lasciatevi sfuggire l’ultimo articolo di Jeremiah Peschka, Configuring SQL Server in Amazon EC2. A dispetto del titolo non si tratta di un tutorial, ma di una analisi accurata di vantaggi e svantaggi legati al deploy di un database SQL nel Cloud, a prescindere dalla piattaforma adottata.
 Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità. Nel cloud, anche la cacca profuma di rose.</description>
+      <content:encoded><![CDATA[<p>Se state considerando l’opzione Cloud per il vostro SQL Server non lasciatevi sfuggire l’ultimo articolo di Jeremiah Peschka, <!-- raw HTML omitted -->Configuring SQL Server in Amazon EC2<!-- raw HTML omitted -->. A dispetto del titolo non si tratta di un tutorial, ma di una analisi accurata di vantaggi e svantaggi legati al <em>deploy</em> di un database SQL nel Cloud, a prescindere dalla piattaforma adottata.</p>
+<blockquote>
+<p>Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità. Nel cloud, anche la cacca profuma di rose. In teoria queste affermazioni sono corrette, ma occorre darci dentro per trasformarle in realtà. Specialmente quando c’è un database nel mezzo.</p>
+</blockquote>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+]]></content:encoded>
     </item>
     <item>
       <title>Cancellare tutte le Tabelle da un Database SQL Server</title>
@@ -22,6 +29,13 @@ Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità
       <pubDate>Wed, 09 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/cancellare-tutte-le-tabelle-da-un-database-sql-server/</guid>
       <description>&lt;p&gt;In rari casi può capitare la necessità di cancellare tutto, ma proprio tutto, da un database SQL Server. &lt;strong&gt;Tabelle&lt;/strong&gt;, &lt;strong&gt;Stored Procedure&lt;/strong&gt;, &lt;strong&gt;Funzioni&lt;/strong&gt;, &lt;strong&gt;Viste&lt;/strong&gt;, &lt;strong&gt;Relazioni&lt;/strong&gt; e &lt;strong&gt;Chiavi Primarie&lt;/strong&gt;. A questo punto tanto varrebbe cancellare il database e ricrearlo, direte voi. Vero, ma non sempre si dispone delle autorizzazioni per farlo. Nel mio caso si tratta di un database ospitato su un server remoto e condiviso. Posso creare e cancellare quel che voglio all’interno del database, ma non posso rinominare o cancellare il db stesso.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>In rari casi può capitare la necessità di cancellare tutto, ma proprio tutto, da un database SQL Server. <strong>Tabelle</strong>, <strong>Stored Procedure</strong>, <strong>Funzioni</strong>, <strong>Viste</strong>, <strong>Relazioni</strong> e <strong>Chiavi Primarie</strong>. A questo punto tanto varrebbe cancellare il database e ricrearlo, direte voi. Vero, ma non sempre si dispone delle autorizzazioni per farlo. Nel mio caso si tratta di un database ospitato su un server remoto e condiviso. Posso creare e cancellare quel che voglio all’interno del database, ma non posso rinominare o cancellare il db stesso.</p>
+<p>Ecco una <a href="http://stackoverflow.com/questions/536350/sql-server-2005-drop-all-the-tables-stored-procedures-triggers-constriants-an">comoda routine</a> che fa al caso nostro. Dopo averla eseguita vi troverete il database completamente vuoto, come se fosse stato appena creato.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Anche questa routine (come <a href="http://nicolaiarocci.com/come-rimuovere-tutte-le-stored-procedure-da-un-database-sql/">quella vista ieri che cancella le sole Stored Procedure</a>) accede alla tabella di sistema <code>sys.objects</code> per reperire lo schema del database. Cambia però la tecnica di accesso alle informazioni. Invece di usare un cursore qui selezioniamo il primo record utile per poi inoltrarci in un ciclo di cancellazioni ripetute. Il ciclo termina quando non ci sono più record che soddisfano i parametri di ricerca. Per evitare problemi coi vincoli relazionali è importante cancellare prima le relazioni e solo dopo le tabelle.</p>
+<h2 id="nota-bene">Nota Bene</h2>
+<p>Probabilmente c’è una ottima ragione per cui non disponete dei diritti di cancellazione del database. Prima di lanciare questo codice chiedetevi almeno dieci volte se 1) state sul database giusto, 2) siete coscienti delle conseguenze di quel che state per fare e 3) disponete di un backup dei dati. In ogni caso se perdete dati preziosi <strong>non venite a lamentarvi dal sottoscritto! 😉</strong></p>]]></content:encoded>
     </item>
     <item>
       <title>Come rimuovere tutte le Stored Procedure da un database SQL Server?</title>
@@ -29,6 +43,10 @@ Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità
       <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/come-rimuovere-tutte-le-stored-procedure-da-un-database-sql/</guid>
       <description>&lt;p&gt;In questi giorni sto lavorando sui database &lt;strong&gt;SQL Server&lt;/strong&gt; che fanno da back-end ai nostri web services e ne approfitto per fare un po’ manutenzione straordinaria. __Stamattina mi è capitato di dover cancellare tutte le &lt;strong&gt;Stored Procedure&lt;/strong&gt; di un database e ho &lt;a href=&#34;http://www.devasp.net/net/articles/display/309.html&#34;&gt;scovato&lt;/a&gt; questa routine che mi ha fatto risparmiare un mucchio di tempo&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>In questi giorni sto lavorando sui database <strong>SQL Server</strong> che fanno da back-end ai nostri web services e ne approfitto per fare un po’ manutenzione straordinaria. __Stamattina mi è capitato di dover cancellare tutte le <strong>Stored Procedure</strong> di un database e ho <a href="http://www.devasp.net/net/articles/display/309.html">scovato</a> questa routine che mi ha fatto risparmiare un mucchio di tempo</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>La tecnica è quella di sfruttare la tabella di sistema <em>sys.objects</em> che elenca tutti gli oggetti contenuti nel database. Le Stored Procedure hanno tutte type = ‘P’ per cui è facile individuarle. A questo punto ci sono due possibilità: memorizzarne i nomi in una tabella temporanea per poi lanciare un loop che le cancelli una per una, oppure usare un cursore ed eseguire le cancellazioni con la funzione EXEC. La nostra routine usa il secondo approccio, senz’altro più performante.</p>]]></content:encoded>
     </item>
     <item>
       <title>Programmazione, SEO, Startups – Il Meglio della Settimana #2</title>
@@ -36,6 +54,30 @@ Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità
       <pubDate>Mon, 28 Feb 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/programmazione-seo-startups-il-meglio-della-settimana-2/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Eccoci alla selezione delle notizie e i link che ho trovato più interessanti questa settimana. E’ stata una settimana ricca di avvenimenti e non è stato facile decidere cosa lasciare fuori. Andiamo a cominciare:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Eccoci alla selezione delle notizie e i link che ho trovato più interessanti questa settimana. E’ stata una settimana ricca di avvenimenti e non è stato facile decidere cosa lasciare fuori. Andiamo a cominciare:</p>
+<h2 id="like-button-facebook-cambia-le-regole">Like Button: Facebook cambia le regole</h2>
+<p>Questa settimana Facebook ha sorpreso tutti cambiando radicalmente il funzionamento del pulsante Mi Piace. Su <strong>BigThink</strong> Daniele Ghidoli è tra i primi ad accorgersene e a segnalare la novità. <a href="http://www.bigthink.it/like-button-facebook-cambia/">Leggi l’articolo su BigThink</a>.</p>
+<h2 id="google-migliora-l8217algoritmo-di-indicizzazione-del-web">Google migliora l’algoritmo di indicizzazione del web</h2>
+<p>Negli ultimi mesi le critiche sulla qualità ****delle ricerche Google si sono moltiplicate. Le famigerate <em>content farm</em> hanno conquistato le prime posizioni per molte ricerche sulle keyword più importanti. Il gigante di Mountain View annuncia a sorpresa la contromossa, ossia l’aggiornamento del suo algoritmo più importante. L’obiettivo è penalizzare i siti di scarsa qualità e migliorare il ranking di quelli con contenuti validi. <a href="http://googleblog.blogspot.com/2011/02/finding-more-high-quality-sites-in.html">Leggi l’annuncio sul blog ufficiale di Google</a>.</p>
+<h2 id="e8217-in-arrivo-una-nuova-bolla-delle-dot-com">E’ in arrivo una nuova Bolla delle Dot-Com?</h2>
+<p>Le incredibili valutazioni economiche di servizi come Twitter e Facebook inducono molti a sostenere che ci troviamo nel bel mezzo della seconda bolla delle Dot-Com, declinata questa volta ai social network. <strong>TagliaBlog</strong> pubblica la traduzione di un bell’articolo del Wall Street Journal che, prendendo spunto dalla situazione di Twitter, tenta di fare il punto della situazione. <a href="http://blog.tagliaerbe.com/2011/02/nuova-bolla-dot-com.html">Leggi l’articolo su TagliaBlog</a></p>
+<h2 id="come-un-tweet-sbagliato-può-portare-al-successo-commerciale-e-a-una-raccolta-di-sangue">Come un Tweet sbagliato può portare al successo commerciale (e a una raccolta di sangue)</h2>
+<p>Quando Gloria Huang si accorge di aver twittato per sbaglio la sua richiesta di birra fresca dall’account del datore di lavoro (la Croce Rossa) non immagina certo di scatenare una donazione di sangue di massa e il successo commerciale della sua birra preferita. <a href="http://money.cnn.com/2011/02/17/smallbusiness/dogfish_redcross/index.htm">Leggi questa storia sul sito della CNN</a></p>
+<h2 id="lo-stato-attuale-del-web-design-trends-2010">Lo stato attuale del Web Design: Trends 2010</h2>
+<p>Il Web Design sta vivendo un’epoca d’oro. Abbiamo a disposizione strumenti potenti (CSS3, HTML5, il font-embedding), migliaia di risorse gratuite e decine di vivaci comunità online. Ma quali sono le nuove tendenze? Quali le tecniche, i concetti e le idee che si stanno affermando? Questa settimana <strong>Smashing Magazine</strong> tenta di anticipare il Web Design del prossimo futuro. <a href="http://www.smashingmagazine.com/2010/05/04/web-design-trends-2010/">Leggi l’articolo di Smashing Magazine</a>.</p>
+<h2 id="diffondiamo-la-cultura-digitale-in-italia">Diffondiamo la Cultura Digitale in Italia</h2>
+<p>Interessante il progetto Cultura Digitale curato e ideato da Fabio Lalli e dagli Indigeni Digitali. “Si vuole creare un libro gratuito da distribuire on line e off line che parli della Cultura Digitale, di cosa significa per ognuno di noi”. Chiunque può contribuire pubblicando il proprio pensiero sul wall di Cultura Digitale. L’idea è ingegnosa e ben implementata. Funziona anche perché solletica l’ego di ognuno di noi e sfrutta abilmente i meccanismi virali propri del web 2.0. I contributi affluiscono copiosi.  <a href="http://culturadigitale.com/">Visita il sito di Cultura Digitale</a></p>
+<h2 id="mono-210">Mono 2.10</h2>
+<p>La versione 2.10 di Mono, la piattaforma open source e multi piattaforma alternativa al Microsoft NET Framework, è stata rilasciata questa settimana. Tra le novità aggiornamenti ai compilatori C# e VB, supporto a MVC3, F# e Native Client Google oltre alla soluzione di molti problemi conosciuti. <a href="http://www.mono-project.com/Release_Notes_Mono_2.10">Leggi le Release Notes ufficiali</a>.</p>
+<h2 id="python-32">Python 3.2</h2>
+<p>Questa è anche la settimana che ha visto l’uscita dell’ultima release del linguaggio Python, la 3.2. La documentazione ufficiale è stata aggiornata con un documento che illustra accuratamente le novità introdotte con questo aggiornamento. <a href="http://docs.python.org/dev/whatsnew/3.2.html">Leggi le novità su Python 3.2</a>.</p>
+<h2 id="google-cloud-connect">Google Cloud Connect</h2>
+<p>Google Cloud Connect è un plugin per Microsoft Office che consente di sincronizzare i documenti Office appoggiandosi alla piattaforma Google Docs. Rilasciato da Google, questo plugin rende semplice la collaborazione tra utenti che non vogliono o non possono rinunciare alla suite Microsoft. I documenti possono essere aggiornati sia offline che online. <a href="http://www.readwriteweb.com/enterprise/2011/02/google-releases-microsoft-offi.php">Leggi tutto su Google Cloud Connect</a>.</p>
+<h2 id="i-5-migliori-tool-gratuiti-per-sql-server">I 5 migliori tool gratuiti per SQL Server</h2>
+<p>Sei pigro e la tua azienda è al verde. Che fare? Brent Ozar, guru SQL Server e uno dei progettisti di Stack Overflow, propone cinque tools gratuiti per la gestione e manutenzione di SQL Server. <a href="http://www.brentozar.com/archive/2011/02/my-favorite-free-sql-server-downloads/">Leggi l’articolo sul sito di Brent Ozar</a>.</p>
+<h2 id="introduzione-alle-regular-expression">Introduzione alle Regular Expression</h2>
+<p>Concludo con una svergognata auto promozione. Introduzione alle Regular Expression è una serie in tre parti, attualmente in pubblicazione, che ha l’ambizione di consentire a chiunque di avvicinarsi alle Regular Expression. Le RegEx sono un strumento potente e spesso incompreso, utile non solo ai programmatori ma a chiunque abbia a che fare con le ricerche su testo. <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/">Leggi la prima parte della Introduzione alle Regular Expression.</a></p>
+<p>Vi è piaciuta questa selezione? Fatemi sapere che ne pensate con un bel commento qui sotto, lo apprezzerei molto. Alla prossima settimana!</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

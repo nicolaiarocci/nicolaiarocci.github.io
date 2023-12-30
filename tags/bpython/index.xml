@@ -15,6 +15,32 @@
       <guid>https://nicolaiarocci.com/python-decimal.getcontext-does-not-work-with-bpython/</guid>
       <description>I have been working on a side project for which I&amp;rsquo;m using bpython, a &amp;ldquo;fancy interface to the Python interpreter.&amp;rdquo; If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax highlighting, readline-like autocomplete, a &amp;ldquo;rewind&amp;rdquo; function to pop the last line of code from memory, auto-indentation and more.
 Anyway, today I found a bug in bpython, and that&amp;rsquo;s that Python&amp;rsquo;s decimal.getcontext() does not work with it.</description>
+      <content:encoded><![CDATA[<p>I have been working on a side project for which I&rsquo;m using <a href="https://bpython-interpreter.org">bpython</a>, a &ldquo;fancy interface to the Python interpreter.&rdquo;
+If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax
+highlighting, readline-like autocomplete, a &ldquo;rewind&rdquo; function to pop the last line of code from memory, auto-indentation
+and more.</p>
+<p>Anyway, today I found a bug in bpython, and that&rsquo;s that Python&rsquo;s <code>decimal.getcontext()</code> does not work with it.</p>
+<pre tabindex="0"><code>bpython version 0.24 on top of Python 3.11.3
+&gt;&gt;&gt; import decimal
+&gt;&gt;&gt; decimal.getcontext().prec = 6
+&gt;&gt;&gt; decimal.Decimal(1) / decimal.Decimal(7)
+Decimal(&#39;0.1428571428571428571428571429&#39;)
+</code></pre><p>If you run the same lines in the standard Python REPL, what you get instead is:</p>
+<pre tabindex="0"><code>bpython version 0.24 on top of Python 3.11.3
+&gt;&gt;&gt; import decimal
+&gt;&gt;&gt; decimal.getcontext().prec = 6
+&gt;&gt;&gt; decimal.Decimal(1) / decimal.Decimal(7)
+Decimal(&#39;0.142857&#39;)
+</code></pre><p>Further experimenting revealed that, as a workaround, setting <code>DefaultContext</code> works as expected:</p>
+<pre tabindex="0"><code>bpython version 0.24 on top of Python 3.11.3
+&gt;&gt;&gt; decimal.DefaultContext.prec = 6
+&gt;&gt;&gt; decimal.Decimal(1) / decimal.Decimal(7)
+Decimal(&#39;0.142857&#39;)
+</code></pre><p>I suspect this has something to do with threads, as <code>decimal.getcontext</code> targets the current thread while
+<code>DefaultContext</code> is global. I went to the bpython repository only to find that a ticket was already opened in 2021. I
+<a href="https://github.com/bpython/bpython/issues/918#issuecomment-1578911204">added</a> my <code>DefaultContext</code> observation there.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

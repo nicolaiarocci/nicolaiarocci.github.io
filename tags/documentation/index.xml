@@ -15,6 +15,45 @@
       <guid>https://nicolaiarocci.com/how-to-write-good-software-documentation/</guid>
       <description>There is a secret that needs to be understood in order to write good software documentation: there isn’t one thing called documentation, there are four. They are: tutorials, how-to guides, technical reference and explanation. They represent four different purposes or functions, and require four different approaches to their creation. Understanding the implications of this will help improve most documentation - often immensely.
 I dig Daniele Procida&amp;rsquo;s take on writing good software documentation.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>There is a secret that needs to be understood in order to write good software
+documentation: there isn’t one thing called documentation, there are four.
+They are: tutorials, how-to guides, technical reference and explanation. They
+represent four different purposes or functions, and require four different
+approaches to their creation. Understanding the implications of this will
+help improve most documentation - often immensely.</p>
+</blockquote>
+<p>I dig Daniele Procida&rsquo;s take on <a href="https://documentation.divio.com/">writing good software documentation</a>. It
+just makes sense. The system is simple, comprehensive, and, crucial,
+universally-applicable. The &ldquo;four different functions&rdquo; scheme works equally
+well if you are writing for a technical-savvy audience or the general public,
+which is excellent. The users I&rsquo;m writing for are software developers, in some
+cases, and desktop or web application users in others.</p>
+<p>I also like how he goes deep into explaining how and why each function has
+a different goal, should be isolated and written differently from others.</p>
+<blockquote>
+<p>Each of them requires a <strong>distinct mode of writing</strong>. People working with
+software need these four different kinds of documentation at different times,
+in different circumstances - so software usually needs them all, and they
+should all be integrated into your documentation. And documentation needs to
+be explicitly structured around them, and they all must be kept separate and
+distinct from each other.</p>
+</blockquote>
+<p>Last but not least, the framework itself serves as a guide for the author.</p>
+<blockquote>
+<p>This division makes it obvious to both author and reader what material, and
+what kind of material, goes where. It tells the author <strong>how to write</strong>, and
+<strong>what to write</strong>, and <strong>where to write it</strong>. It saves the author from
+wasting a great deal of time trying to wrestle the information they want to
+impart into a shape that makes sense, because each of these kinds of
+documentation has only one job.</p>
+</blockquote>
+<p>I wish I had this resource at hand when I was writing the docs for <a href="/opensource/">my open
+source projects</a>. I think will adopt this framework on the next occasion,
+which will be very soon.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow
+@<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

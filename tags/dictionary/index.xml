@@ -15,6 +15,44 @@
       <guid>https://nicolaiarocci.com/youre-probably-using-the-wrong-dictionary/</guid>
       <description>In 2014, James Somers sat down to write a beautiful, entertaining lament about the state of today’s dictionaries and an argument in favor of the adoption of Noah Webster’s 1913 edition.
 I don&amp;rsquo;t want you to conclude that it&amp;rsquo;s just a matter of aesthetics. Yes, Webster&amp;rsquo;s definitions are prettier. But they are also better. They&amp;rsquo;re so much better that to use another dictionary is to keep yourself forever at arm&amp;rsquo;s length from the actual language.</description>
+      <content:encoded><![CDATA[<p>In 2014, James Somers sat down to write a beautiful, entertaining lament about
+the state of today’s dictionaries and an argument in favor of the adoption of
+Noah Webster’s 1913 edition.</p>
+<blockquote>
+<p>I don&rsquo;t want you to conclude that it&rsquo;s just a matter of aesthetics. Yes,
+Webster&rsquo;s definitions are prettier. But they are also better. They&rsquo;re so much
+better that to use another dictionary is to keep yourself forever at arm&rsquo;s
+length from the actual language.</p>
+</blockquote>
+<blockquote>
+<p>Recall that the New Oxford, for the word &ldquo;fustian,&rdquo; gives &ldquo;pompous or
+pretentious speech or writing.&rdquo; I said earlier that that wasn&rsquo;t even really
+correct. Here, then, is Webster&rsquo;s definition: &ldquo;An inflated style of writing;
+a kind of writing in which high-sounding words are used, above the dignity of
+the thoughts or subject; bombast.&rdquo; Do you see the difference? What makes
+fustian fustian is not just that the language is pompous—it&rsquo;s that this
+pomposity is above the dignity of the thoughts or subject. It&rsquo;s using fancy
+language where fancy language isn&rsquo;t called for. It&rsquo;s a subtle difference, but
+that&rsquo;s the whole point: English is an awfully subtle instrument. A dictionary
+that ignores these little shades is dangerous; in fact in those cases it&rsquo;s
+worse than useless. It&rsquo;s misleading, deflating. It divests those words of their
+worth and purpose.</p>
+</blockquote>
+<p>You can read it all <a href="http://jsomers.net/blog/dictionary">here</a>. It&rsquo;s worth your
+time..</p>
+<p>Not happy with the essay alone, he also added instructions on installing
+Webster&rsquo;s on a Mac. Unfortunately, I could not get them to work on Catalina:
+the DictUnifier app would crash as soon as I dragged the [dictionary file][4]
+on it. A little research revealed that DictUnifier has a [problem with
+Catalina][2]. The suggested workarounds did not work for me. In the process,
+I learned that DictUnifier has gone unmaintained. Thankfully, a couple of years
+ago a good soul released [DictConv][3], a &ldquo;Node.js version of DictUnifier&rdquo;.
+DictConv did the trick. Webster&rsquo;s 1913 is now happily residing in my macOS
+Dictionary.</p>
+<p><img loading="lazy" src="/images/webster1913.png" alt="Webster&amp;rsquo;s 1913"  />
+
+<em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

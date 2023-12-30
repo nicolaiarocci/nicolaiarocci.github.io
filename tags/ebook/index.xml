@@ -16,6 +16,12 @@
       <description>This is a very good ebook, and is free for reading online.
 This book is for new developers, experienced developers, and everyone in between who wants to master Unix and Linux commands. This book was designed to showcase some of the most useful commands that a developer can know to help them in their daily tasks.
 via Softcover | Conquering the Command Line.</description>
+      <content:encoded><![CDATA[<p>This is a very good ebook, and is free for reading online.</p>
+<blockquote>
+<p>This book is for new developers, experienced developers, and everyone in between who wants to master Unix and Linux commands. This book was designed to showcase some of the most useful commands that a developer can know to help them in their daily tasks.</p>
+</blockquote>
+<p>via <a href="http://conqueringthecommandline.com/book/frontmatter#preface">Softcover | Conquering the Command Line</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Aggiornato il Piccolo Libro di MongoDB</title>
@@ -23,6 +29,8 @@ via Softcover | Conquering the Command Line.</description>
       <pubDate>Sat, 24 Nov 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/aggiornato-il-piccolo-libro-di-mongodb/</guid>
       <description>Finalmente ho trovato il tempo per aggiornare Il Piccolo Libro di MongoDB. Grazie ai contributi di Andrea Rabbaglietti e Michele Zonca sono stati corretti molti errori sparsi qui e là nel testo. Ho approfittato dell’occasione per ritoccare il formato grafico allineandolo alla versione più recente dell’edizione inglese. Se avete già scaricato il libro vi consiglio di rifarlo: la nuova edizione è decisamente più leggibile.</description>
+      <content:encoded><![CDATA[<p>Finalmente ho trovato il tempo per aggiornare <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB">Il Piccolo Libro di MongoDB</a>. Grazie ai contributi di Andrea Rabbaglietti e Michele Zonca sono stati corretti molti errori sparsi qui e là nel testo. Ho approfittato dell’occasione per ritoccare il formato grafico allineandolo alla versione più recente dell’edizione inglese. Se avete già scaricato il libro vi consiglio di rifarlo: la nuova edizione è decisamente più leggibile.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Pybooks – Le migliori risorse gratuite su Python</title>
@@ -30,6 +38,8 @@ via Softcover | Conquering the Command Line.</description>
       <pubDate>Tue, 04 Sep 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/pybooks-le-migliori-risorse-gratuite-su-python/</guid>
       <description>PyBooks è un’ottima selezione di risorse gratuite su Python e dintorni. I migliori libri gratuiti su Python sono inclusi, così come alcuni validi tutorial sulle librerie e i framework più diffusi. Il progetto è curato dalle stesse persone che stanno dietro JSBooks, la raccolta di libri JavaScript di cui ho scritto qualche giorno fa. Anche in questo caso è possibile contribuire attivamente segnalando nuove interessanti risorse.</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->PyBooks<!-- raw HTML omitted --> è un’ottima selezione di risorse gratuite su Python e dintorni. I migliori libri gratuiti su Python sono inclusi, così come alcuni validi tutorial sulle librerie e i framework più diffusi. Il progetto è curato dalle stesse persone che stanno dietro JSBooks, la raccolta di libri JavaScript di cui ho scritto <a href="http://nicolaiarocci.com/jsbooks-libri-open-source-su-javascript/" title="JSBooks">qualche giorno fa</a>. Anche in questo caso è possibile contribuire attivamente segnalando nuove interessanti risorse.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>JSBooks – Libri Open Source su JavaScript</title>
@@ -37,6 +47,8 @@ via Softcover | Conquering the Command Line.</description>
       <pubDate>Thu, 30 Aug 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/jsbooks-libri-open-source-su-javascript/</guid>
       <description>JSBooks Free JavaScript Books è una valida selezione di risorse gratuite su JavaScript. Si tratta di libri e guide gratuite per programmatori di ogni livello, dal principiante al veterano. Il catalogo include titoli su jQuery, Backbone, design patterns, Node, CoffeeScript, qualcosa su HTML5 e addirittura un libro su MongoDB (si tratta una mia vecchia conoscenza). Alcuni suggerimenti sono davvero di ottima qualità. Il progetto è open source e chiunque può contribuire segnalando nuove interessanti risorse via GitHub.</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->JSBooks Free JavaScript Books<!-- raw HTML omitted --> è una valida selezione di risorse gratuite su JavaScript. Si tratta di libri e guide gratuite per programmatori di ogni livello, dal principiante al veterano. Il catalogo include titoli su jQuery, Backbone, design patterns, Node, CoffeeScript, qualcosa su HTML5 e addirittura un libro su MongoDB (si tratta una mia <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro su MongoDB">vecchia conoscenza</a>). Alcuni suggerimenti sono davvero di ottima qualità. Il progetto è open source e chiunque può contribuire segnalando nuove interessanti risorse via GitHub.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Primo importante aggiornamento del Piccolo Libro di MongoDB</title>
@@ -44,6 +56,8 @@ via Softcover | Conquering the Command Line.</description>
       <pubDate>Thu, 08 Mar 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/primo-importante-aggiornamento-del-piccolo-libro-di-mongodb/</guid>
       <description>Se avete già scaricato il Piccolo Libro di MongoDB vi consiglio di aggiornarlo con la versione odierna. E’ stato aggiunto un capitolo (MapReduce) misteriosamente assente nella prima edizione. Grazie a Walter Tommasi per la preziosa segnalazione, e a Git per averne consentito il recupero in extremis.</description>
+      <content:encoded><![CDATA[<p>Se avete già scaricato il <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB">Piccolo Libro di MongoDB</a> vi consiglio di aggiornarlo con la versione odierna. E’ stato aggiunto un capitolo (MapReduce) misteriosamente assente nella prima edizione. Grazie a Walter Tommasi per la preziosa segnalazione, e a <a href="http://nicolaiarocci.com/branching-di-successo-per-git/" title="Branching di successo per Git">Git</a> per averne consentito il recupero in extremis.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>E’ uscito il Piccolo Libro di MongoDB</title>
@@ -51,6 +65,8 @@ via Softcover | Conquering the Command Line.</description>
       <pubDate>Tue, 21 Feb 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/e-uscito-il-piccolo-libro-di-mongodb/</guid>
       <description>Il Piccolo Libro di MongoDB, edizione italiana di The Little MongoDB Book, è finalmente disponibile online. C’è voluto un bel po’ di lavoro, e sono certo i primi lettori scoveranno una serie di errori raccapriccianti, ma vi invito comunque a leggerlo e farmi sapere cosa ne pensate.</description>
+      <content:encoded><![CDATA[<p><a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB, Edizione Italiana">Il Piccolo Libro di MongoDB</a>, edizione italiana di The Little MongoDB Book, è finalmente <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB">disponibile online</a>. C’è voluto un bel po’ di lavoro, e sono certo i primi lettori scoveranno una serie di errori raccapriccianti, ma vi invito comunque a leggerlo e farmi sapere cosa ne pensate.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Programmazione, SEO, Startups – Il Meglio della Settimana #1</title>
@@ -58,6 +74,65 @@ via Softcover | Conquering the Command Line.</description>
       <pubDate>Mon, 21 Feb 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/programmazione-seo-startups-il-meglio-della-settimana-1/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Vi propongo una scelta delle risorse più interessanti e curiose che ho scovato questa settimana in rete. Ce né per tutti i gusti: programmazione, SEO, Startups e curiosità. Andiamo a cominciare:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Vi propongo una scelta delle risorse più interessanti e curiose che ho scovato questa settimana in rete. Ce né per tutti i gusti: programmazione, SEO, Startups e curiosità. Andiamo a cominciare:</p>
+<ol>
+<li>
+<p><strong><a href="http://docs.python.org/dev/howto/pyporting.html">Da Python 2 a Python 3</a></strong></p>
+<p>Python 3 è il futuro, ma Python 2 è attualmente la versione più usata al mondo. Ora finalmente la documentazione ufficiale è arricchita da una bella guida alle migliori strategie per supportare entrambe le versioni di Python.</p>
+<p><a href="http://docs.python.org/dev/howto/pyporting.html"></a></p>
+</li>
+<li>
+<p><a href="http://blogs.nationalgeographic.com/blogs/news/breakingorbit/2011/01/400-volunteer-for-one-way-mars-trip.html"><strong>Per quale motivo 400 persone si sono offerte volontarie per una viaggio di sola andata verso Marte?</strong></a></p>
+</li>
+</ol>
+<pre><code>Il numero Ottobre-Novembre 2010 del _Journal of Cosmology_ contiene uno speciale di 55 pagine intitolato &amp;#8220;Missione Umana su Marte: Colonizzare il Pianeta Rosso&amp;#8221;. Secondo gli scienziati una missione di sola andata destinata a colonizzare Marte sarebbe possibile entro 20 anni. Cosa ha spinto ben quattrocento lettori a offrirsi come volontari per la missione?
+</code></pre>
+<ol start="3">
+<li><strong><a href="http://www.seomoz.org/blog/tweets-effect-rankings-unexpected-case-study">Il sorprendente effetto di un singolo Tweet sul Page Rank di Google</a></strong></li>
+</ol>
+<pre><code>Google ha ammesso recentemente che i link provenienti dai social network sono segnali usati nella valutazione dell&amp;#8217;importanza dei siti web. I ragazzi di SEOmoz (tra i migliori esperti SEO in circolazione) sono rimasti esterrefatti dagli effetti che un singolo tweet ha causato sul page rank della loro _Beginners Guide to SEO_.
+</code></pre>
+<ol start="4">
+<li><a href="http://www.lucasartoni.com/lavoro/open-letter-to-an-event-organizer"><strong>Lettera aperta a un organizzatore di eventi</strong></a></li>
+</ol>
+<pre><code>Per mestiere Luca Sartoni partecipa (come speaker, spettatore o organizzatore) a molte conferenze , seminari e workshops. In questa lettera elenca quelli che secondo lui sono i cinque errori commessi più spesso dagli organizzatori di eventi. E suggerisce come evitarli.
+</code></pre>
+<ol start="5">
+<li><a href="http://en.blog.wordpress.com/2011/02/17/how-is-wordpress-com-made/"><strong>Come si fa WordPress?</strong></a></li>
+</ol>
+<pre><code>A quanto pare WordPress, pur avendo una sede a San Francisco, è una realtà capillarmente distribuita. Gran parte dei dipendenti lavora da casa ed è disseminata per il mondo, coprendone quasi tutti i fusi orari. In questo articolo sul blog ufficiale dell&amp;#8217;azienda Scott Berkun racconta come si svolge una giornata di lavoro in una azienda di questo tipo.
+</code></pre>
+<ol start="6">
+<li><a href="http://www.allthingsdistributed.com/2011/02/website_amazon_s3.html"><strong>Come ospitare un intero sito (statico) su Amazon S3</strong></a></li>
+</ol>
+<pre><code>Da qualche tempo Werner Vogels, CTO di Amazon, ospita il suo sito direttamente su S3, la potente piattaforma di _cloud storage_ di Amazon. Una soluzione di questo tipo offre diversi vantaggi, primo fra tutti la scalabilità. In questo articolo Vogels ci spiega come raggiungere lo stesso risultato.
+</code></pre>
+<ol start="7">
+<li><a href="http://www.limedaring.com/im-a-designer-who-learned-django-and-launched-her-first-webapp-in-6-weeks/"><strong>Sono una Designer e ho lanciato la mia prima applicazione in 6 settimane</strong></a></li>
+</ol>
+<pre><code>Tracy è una designer che non sa quasi nulla di programmazione. Ha una idea su un sito innovativo e tenta senza successo di ottenere un finanziamento che le consenta di assumere un programmatore esperto. Cosa fare? Tracy si rimbocca le maniche e in sei settimane riesce a lanciare una variante (semplificata) della sua idea originale. In Python/Django, ovviamente.
+</code></pre>
+<ol start="8">
+<li><a href="http://sixrevisions.com/web-applications/new-facebook-page/"><strong>La Guida Definitiva al Design delle Pagine Facebook</strong></a></li>
+</ol>
+<pre><code>Facebook ha aggiornato le Pagine Fan introducendo parecchie novità significative. In questo articolo Six Revisions ci spiega quali sono e come sfruttarle al meglio.
+</code></pre>
+<ol start="9">
+<li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/"><strong>I filmati completi del Corso di Programmazione (Python) del MIT</strong></a></li>
+</ol>
+<pre><code>Ventiquattro filmati completi, di ottima qualità, per imparare a programmare direttamente dai professori del famoso MIT di Boston. Il materiale è di qualità eccellente.
+</code></pre>
+<ol start="10">
+<li><a href="http://www.cenedella.com/job-search/leonardo-da-vincis-resume/"><strong>Il curriculum vitae di Leonardo Da Vinci</strong></a></li>
+</ol>
+<pre><code>Prima di Mona Lisa, dell&amp;#8217;Ultima Cena e dell&amp;#8217;invenzione dell&amp;#8217;elicottero anche a Leonardo Da Vinci è toccato scrivere il suo bel curriculum. Nel 1482, a trent&amp;#8217;anni, Leonardo lo inviò a Ludovico il Moro, Duca di Milano. In questo splendido articolo possiamo vedere l&amp;#8217;originale e leggerne la trascrizione. Perché? Per imparare un paio di trucchetti che potrebbero tornarci utili.
+</code></pre>
+<ol start="11">
+<li><a href="http://mattoufoutu.rafale.org/ebooks/Doc_diverse/Cours%20Prog/Python/Books/Natural%20Language%20Processing%20with%20Python%20(2009).pdf"><strong>Processare il Linguaggio Naturale in Python</strong></a></li>
+</ol>
+<pre><code>L&amp;#8217;intero contenuto del libro _Natural Processing Language With Python_ in formato PDF, liberamente accessibile.
+</code></pre>
+<p>Queste sono solo alcune delle segnalazioni che giorno per giorno pubblico su Twitter. Se volete più notizie, spunti e link interessanti <a href="http://twitter.com/#!/nicolaiarocci">seguitemi anche su Twitter</a>!</p>]]></content:encoded>
     </item>
     <item>
       <title>Il meglio di Stack Overflow in una collana di eBook gratuiti</title>
@@ -65,6 +140,112 @@ via Softcover | Conquering the Command Line.</description>
       <pubDate>Wed, 02 Feb 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/il-meglio-di-stack-overflow-una-collana-di-ebook-gratuiti/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://stackoverflow.com/&#34;&gt;&lt;strong&gt;Stack Overflow&lt;/strong&gt;&lt;/a&gt; è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera &lt;strong&gt;minera di informazioni&lt;/strong&gt; &lt;strong&gt;preziose&lt;/strong&gt; e  meriterebbe maggiore attenzione…&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…</p>
+<h2 id="gli-ebooks-di-stack-overflow">Gli eBooks di Stack Overflow</h2>
+<h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1-"><!-- raw HTML omitted --></h2>
+<p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
+<ul>
+<li>JAVA (26M)</li>
+<li>C# (24M), C++ (21M), C (11M)</li>
+<li>NET (21M)</li>
+<li>PYTHON (20M), DJANGO (1.6M)</li>
+<li>JAVASCRIPT (15M)</li>
+<li>PHP (9.6M)</li>
+<li>IPHONE (7.3M)</li>
+<li>HTML (6.0M), HTML 5 (3.0M)</li>
+<li>CSS (5.7M)</li>
+<li>JQUERY (5.5M)</li>
+<li>ASP.NET (4.8M)</li>
+<li>DATABASE (4.8M)</li>
+<li>RUBY (3.1M), RUBY ON RAILS (1.9M)</li>
+<li>ANDROID (2.7M)</li>
+<li>MY SQL (2.5M), ORACLE (662K), SQL SERVER (2.8M), SQL (5.1M)</li>
+<li>AJAX (2.1M)</li>
+<li>COCOA (1.5M), OBJECTIVE-C (3.1M)</li>
+<li>VB.NET (1.5M)</li>
+<li>SILVERLIGHT (1.1M)</li>
+<li>FLASH (509K)</li>
+</ul>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…<!-- raw HTML omitted --></p>
+<h2 id="gli-ebooks-di-stack-overflow-1">Gli eBooks di Stack Overflow</h2>
+<h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1--1"><!-- raw HTML omitted --></h2>
+<p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
+<ul>
+<li>JAVA (26M)</li>
+<li>C# (24M), C++ (21M), C (11M)</li>
+<li>NET (21M)</li>
+<li>PYTHON (20M), DJANGO (1.6M)</li>
+<li>JAVASCRIPT (15M)</li>
+<li>PHP (9.6M)</li>
+<li>IPHONE (7.3M)</li>
+<li>HTML (6.0M), HTML 5 (3.0M)</li>
+<li>CSS (5.7M)</li>
+<li>JQUERY (5.5M)</li>
+<li>ASP.NET (4.8M)</li>
+<li>DATABASE (4.8M)</li>
+<li>RUBY (3.1M), RUBY ON RAILS (1.9M)</li>
+<li>ANDROID (2.7M)</li>
+<li>MY SQL (2.5M), ORACLE (662K), SQL SERVER (2.8M), SQL (5.1M)</li>
+<li>AJAX (2.1M)</li>
+<li>COCOA (1.5M), OBJECTIVE-C (3.1M)</li>
+<li>VB.NET (1.5M)</li>
+<li>SILVERLIGHT (1.1M)</li>
+<li>FLASH (509K)</li>
+</ul>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con]<a href="http://www.amazon.com/dp/B002Y27P3M/?tag=gocous-20&amp;hvadid=5729120357&amp;ref=pd_sl_blgu0nkyl_b">7</a> e credo con altri lettori di eBook. Ricordo che è possibile leggere i libri per Kindle con l’applicazione <strong>gratuita</strong> disponibile per <a href="http://www.amazon.com/gp/feature.html/ref=kcp_pc_mkt_lnd?docId=1000426311">PC</a>, <a href="http://www.amazon.com/gp/feature.html/ref=kcp_mac_mkt_lnd?docId=1000464931">Mac</a>, [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…<!-- raw HTML omitted --></p>
+<h2 id="gli-ebooks-di-stack-overflow-2">Gli eBooks di Stack Overflow</h2>
+<h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1--2"><!-- raw HTML omitted --></h2>
+<p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
+<ul>
+<li>JAVA (26M)</li>
+<li>C# (24M), C++ (21M), C (11M)</li>
+<li>NET (21M)</li>
+<li>PYTHON (20M), DJANGO (1.6M)</li>
+<li>JAVASCRIPT (15M)</li>
+<li>PHP (9.6M)</li>
+<li>IPHONE (7.3M)</li>
+<li>HTML (6.0M), HTML 5 (3.0M)</li>
+<li>CSS (5.7M)</li>
+<li>JQUERY (5.5M)</li>
+<li>ASP.NET (4.8M)</li>
+<li>DATABASE (4.8M)</li>
+<li>RUBY (3.1M), RUBY ON RAILS (1.9M)</li>
+<li>ANDROID (2.7M)</li>
+<li>MY SQL (2.5M), ORACLE (662K), SQL SERVER (2.8M), SQL (5.1M)</li>
+<li>AJAX (2.1M)</li>
+<li>COCOA (1.5M), OBJECTIVE-C (3.1M)</li>
+<li>VB.NET (1.5M)</li>
+<li>SILVERLIGHT (1.1M)</li>
+<li>FLASH (509K)</li>
+</ul>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…<!-- raw HTML omitted --></p>
+<h2 id="gli-ebooks-di-stack-overflow-3">Gli eBooks di Stack Overflow</h2>
+<h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1--3"><!-- raw HTML omitted --></h2>
+<p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
+<ul>
+<li>JAVA (26M)</li>
+<li>C# (24M), C++ (21M), C (11M)</li>
+<li>NET (21M)</li>
+<li>PYTHON (20M), DJANGO (1.6M)</li>
+<li>JAVASCRIPT (15M)</li>
+<li>PHP (9.6M)</li>
+<li>IPHONE (7.3M)</li>
+<li>HTML (6.0M), HTML 5 (3.0M)</li>
+<li>CSS (5.7M)</li>
+<li>JQUERY (5.5M)</li>
+<li>ASP.NET (4.8M)</li>
+<li>DATABASE (4.8M)</li>
+<li>RUBY (3.1M), RUBY ON RAILS (1.9M)</li>
+<li>ANDROID (2.7M)</li>
+<li>MY SQL (2.5M), ORACLE (662K), SQL SERVER (2.8M), SQL (5.1M)</li>
+<li>AJAX (2.1M)</li>
+<li>COCOA (1.5M), OBJECTIVE-C (3.1M)</li>
+<li>VB.NET (1.5M)</li>
+<li>SILVERLIGHT (1.1M)</li>
+<li>FLASH (509K)</li>
+</ul>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con]<a href="http://www.amazon.com/dp/B002Y27P3M/?tag=gocous-20&amp;hvadid=5729120357&amp;ref=pd_sl_blgu0nkyl_b">7</a> e credo con altri lettori di eBook. Ricordo che è possibile leggere i libri per Kindle con l’applicazione <strong>gratuita</strong> disponibile per <a href="http://www.amazon.com/gp/feature.html/ref=kcp_pc_mkt_lnd?docId=1000426311">PC</a>, <a href="http://www.amazon.com/gp/feature.html/ref=kcp_mac_mkt_lnd?docId=1000464931">Mac</a>,]<a href="http://www.amazon.com/gp/feature.html/ref=kcp_iphone_mkt_lnd?docId=1000301301">10</a> e <a href="http://www.amazon.com/gp/feature.html?ie=UTF8&amp;docId=165849822">Android</a>.</p>
+<p><strong>Buona lettura!</strong></p>]]></content:encoded>
     </item>
   </channel>
 </rss>

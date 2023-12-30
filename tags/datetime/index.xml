@@ -15,6 +15,36 @@
       <guid>https://nicolaiarocci.com/decodificare-le-date-in-un-flusso-json-python/</guid>
       <description>JSON-Datetime permette di decodificare i valori [cci lang=”python” theme=”default”]datetime[/cci] normalmente espressi come stringhe in un flusso JSON. E’ davvero molto semplice, e fa parte della suite strumenti open source che sto sviluppando nel contesto del più ampio progetto RESTful Web API.
 Del problema della decodifica delle stringhe JSON in valori datetime ho già scritto in passato. Allora proponevo una soluzione algoritmica; ora vi presento un prodotto finito che potete usare nei vostri progetti.</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->JSON-Datetime<!-- raw HTML omitted --> permette di decodificare i valori [cci lang=”python” theme=”default”]datetime[/cci] normalmente espressi come stringhe in un flusso JSON. E’ davvero molto semplice, e fa parte della suite strumenti open source che sto sviluppando nel contesto del più ampio progetto <a href="http://nicolaiarocci.com/sviluppare-una-restful-web-api-con-python-flask-e-mongodb/" title="Sviluppare una RESTful Web API">RESTful Web API</a>.</p>
+<p>Del problema della decodifica delle stringhe JSON in valori datetime ho <a href="http://nicolaiarocci.com/convertire-una-data-json-in-un-oggetto-datetime-python/" title="Convertire una data JSON in un oggetto Python datetime">già scritto in passato</a>. Allora proponevo una soluzione algoritmica; ora vi presento un prodotto finito che potete usare nei vostri progetti.</p>
+<h2 id="il-problema">Il problema</h2>
+<p>Lo standard JSON (<!-- raw HTML omitted -->RFC 4627<!-- raw HTML omitted -->) non supporta valori di tipo data/ora. In un flusso JSON le date vengono rappresentate come semplici stringhe che i decoder Python interpretano come tali:</p>
+<pre><code>import simplejson as json
+
+&gt;&gt;&gt;test = '{&quot;name&quot;: &quot;John Doe&quot;, &quot;born&quot;: &quot;Thu, 1 Mar 2012 10:00:49 UTC&quot;}'
+&gt;&gt;&gt;json.loads(test)
+{'name': 'John Doe', 'born': 'Thu, 1 Mar 2012 10:00:49 
+</code></pre>
+<p>Nell’esempio precedente il campo <code>born</code> è una stringa nel JSON, e tale rimane dopo la decodifica in un dizionario Python.</p>
+<h2 id="la-soluzione">La soluzione</h2>
+<p>JSON-Datetime è un semplice wrapper attorno al metodo <code>loads</code> di <!-- raw HTML omitted -->simplejson<!-- raw HTML omitted -->. Ecco che succede quando usiamo JSON-Datetime al posto di simplejson:</p>
+<pre><code>&gt;&gt;&gt; import jsondatetime as json
+&gt;&gt;&gt; test = '{&quot;name&quot;: &quot;John Doe&quot;, &quot;born&quot;: &quot;Thu, 1 Mar 2012 10:00:49 UTC&quot;}'
+
+&gt;&gt;&gt; json.loads(test)
+{'name': 'John Doe', 'born': datetime.datetime(2012, 3, 1, 10, 0 ,49)}
+</code></pre>
+<p>Ora <code>born</code> assume il valore corretto. Affinché vengano riconosciute, le date contenute nel JSON devono corrispondere a un formato <code>strptime()</code> valido indicato con l’argomento <code>datetime_format</code>. Nell’esempio precedente, poiché l’argomento è assente, viene usato il valore di default <code>'%a, %d %b %Y %H:%M:%S UTC'</code>, corrispondente allo standard RFC 1123 (ex 822). Nell’esempio che segue usiamo un formato personalizzato:</p>
+<pre><code>&gt;&gt;&gt; import jsondatetime as json
+&gt;&gt;&gt; test = '{&quot;name&quot;: &quot;John Doe&quot;, &quot;born&quot;: &quot;Thu, 1 Mar 2012&quot;}'
+
+&gt;&gt;&gt; json.loads(test, datetime_format=&quot;%a, %d %b %Y&quot;;)
+{'name': 'John Doe', 'born': datetime.datetime(2012, 3, 1)}
+</code></pre>
+<p>JSON-Datetime è un semplice wrapper che ci lascia liberi di usare tutti gli argomenti standard previsti per <code>loads</code>, <code>object_hook</code> incluso. Ciò significa che questa soluzione (al contrario di quella proposta in precedenza) ci lascia liberi di applicare qualsivoglia parser al nostro flusso JSON.</p>
+<h2 id="installazione-e-sorgenti">Installazione e sorgenti</h2>
+<p>Per l’installazione basta il classico <code>pip install json-datetime</code>. Il codice è disponibile su <!-- raw HTML omitted -->GitHub<!-- raw HTML omitted -->.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Convertire una data JSON in un oggetto datetime Python</title>
@@ -24,6 +54,57 @@ Del problema della decodifica delle stringhe JSON in valori datetime ho già scr
       <description>Abbiamo una stringa JSON che contiene una data:
 fonte = &#39;{&amp;quot;ragione_sociale&amp;quot;: &amp;quot;CIR 2000&amp;quot;, &amp;quot;aggiornato_il&amp;quot;: &amp;quot;Wed, 06 Jun 2012 14:19:53 UTC&amp;quot;}&#39; Vediamo che succede se la convertiamo in un dizionario Python:
 import simplejson as json json.loads(fonte) {&#39;aggiornato_il&#39;: &#39;Wed, 06 Jun 2012 14:19:53 UTC &#39;, &#39;ragione_sociale&#39;: &#39;CIR 2000&#39;} Facile, vero? C’è però un piccolo problema: aggiornato_il è ancora una stringa mentre a noi, per poterlo elaborare comodamente, serve un campo datetime.datetime. Come mai il pur potente modulo simplejson non converte correttamente la nostra data?</description>
+      <content:encoded><![CDATA[<p>Abbiamo una stringa JSON che contiene una data:</p>
+<pre><code>fonte = '{&quot;ragione_sociale&quot;: &quot;CIR 2000&quot;, &quot;aggiornato_il&quot;: &quot;Wed, 06 Jun 2012 14:19:53 UTC&quot;}'
+</code></pre>
+<p>Vediamo che succede se la convertiamo in un dizionario Python:</p>
+<pre><code>import simplejson as json
+
+json.loads(fonte)
+{'aggiornato_il': 'Wed, 06 Jun 2012 14:19:53 UTC ', 'ragione_sociale': 'CIR 2000'}
+</code></pre>
+<p>Facile, vero? C’è però un piccolo problema: <code>aggiornato_il</code> è ancora una stringa mentre a noi, per poterlo elaborare comodamente, serve un campo <code>datetime.datetime</code>. Come mai il pur potente modulo <code>simplejson</code> non converte correttamente la nostra data?</p>
+<h2 id="il-problema">Il problema</h2>
+<p>Il fatto è che il JSON originale non fa nulla per informarci del fatto che il campo <code>aggiornato_il</code> esprime in realtà una data. La radice del problema sta nello standard JSON il quale non contempla la dichiarazione esplicita dei tipi di dati. In effetti la stessa questione si pone nella conversione di un numero non intero: va considerato un float, oppure un decimal? In quest’ultimo caso <code>simplejson</code> ci viene in aiuto con il parametro parse_float:</p>
+<pre><code>import simplejson as json
+
+json.loads('1.1', parse_float=decimal.Decimal)
+Decimal('1.1')
+</code></pre>
+<p>Purtroppo, per il motivo visto prima, non esiste un equivalente per le date.</p>
+<h2 id="la-soluzione-classica">La soluzione classica</h2>
+<p>In questi casi la prassi comune è rendere esplicito, già all’interno della stringa JSON, il formato del campo. Qualcosa del genere:</p>
+<pre><code>{&quot;aggiornato_il&quot;: &quot;$date: Wed, 06 Jun 2012 14:19:53 UTC&quot;}
+</code></pre>
+<p>Così facendo possiamo in seguito manipolare il dizionario restituito dal metodo <code>loads</code>: intercettare la direttiva <code>$date</code> e sostituire finalmente la stringa con una data. Una soluzione più raffinata è quella di sfruttare l’opzione <code>object_hook</code> che consente di invocare una nostra funzione ad ogni chiamata del metodo <code>loads</code>.</p>
+<h2 id="la-mia-soluzione">La mia soluzione</h2>
+<p>Nel mio caso il provider JSON è esterno, e non desidero obbligarlo a pre-processare le stringhe JSON inserendo clausole $date arbitrarie solo per soddisfare le esigenze della mia applicazione. Sfruttando l’opzione object_hook già accennata ho ottenuto una soluzione del tutto trasparente:</p>
+<pre><code>fonte = '{&quot;aggiornato_il&quot;: &quot;Thu, 1 Mar 2012 10:00:49 UTC&quot;}'
+dct = json.loads(fonte, object_hook=datetime_parser)
+dct
+{u'aggiornato_il': datetime.datetime(2012, 3, 1, 10, 0, 49)}
+
+
+def datetime_parser(dct):
+    for k, v in dct.items():
+        if isinstance(v, basestring) and re.search(&quot; UTC&quot;, v):
+            try:
+                dct[k] = datetime.datetime.strptime(v, DATE_FORMAT)
+            except:
+                pass
+    return dct
+</code></pre>
+<p>La funzione <code>datetime_parser</code> esamina gli elementi della stringa JSON. In caso di corrispondenza alla espressione regolare indicata in <code>re.search</code> tentiamo una conversione diretta al formato <code>datetime</code>. Data la specificità della espressione regolare la conversione dovrebbe avere successo. Il blocco <code>try... except</code> ci permette di ignorare un eventuale errore: in questo caso infatti presumiamo che si tratti di una stringa vera e propria e non, malgrado la somiglianza, di una data. L’unico vincolo imposto al provider JSON è l’adozione di un formato standard per rappresentare le date. Nel mio caso è il seguente:</p>
+<pre><code>DATE_FORMAT = '%a, %d %b %Y %H:%M:%S UTC'
+</code></pre>
+<p>Per approfondimenti vi consiglio:</p>
+<ul>
+<li><!-- raw HTML omitted -->JSON econdoer and decoder<!-- raw HTML omitted --></li>
+<li><a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/" title="Introduzione alle Regular Expression">Introduzione alle Regular Expression</a></li>
+</ul>
+<p>Per completezza c’è da aggiungere che l’adozione di un <!-- raw HTML omitted -->json schema<!-- raw HTML omitted --> consentirebbe la specifica dei tipi di dati JSON. Quest’ultima soluzione però, data la sua complessità, non è applicabile nel mio e in molti altri casi.</p>
+<p>PS: ne ho scritto anche su <!-- raw HTML omitted -->Stack Overflow<!-- raw HTML omitted -->.</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

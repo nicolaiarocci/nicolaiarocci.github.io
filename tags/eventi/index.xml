@@ -15,6 +15,9 @@
       <guid>https://nicolaiarocci.com/mongodb-user-group/</guid>
       <description>Domani sarò al primo meeting romagnolo del #MUG MongoDB User Group organizzato da 10Gen (azienda dietro a MongoDB), Byte-Code e Ideato.
 Parlerò di MongoDB usato come backend per una REST WEB API. L’evento si svolgerà in serata a Cesena, è gratuito, e ci sono ancora posti disponibili. Se ci siete passate a salutarmi.</description>
+      <content:encoded><![CDATA[<p>Domani sarò al primo meeting romagnolo del #MUG MongoDB User Group organizzato da 10Gen (azienda dietro a MongoDB), Byte-Code e Ideato.</p>
+<p><!-- raw HTML omitted -->Parlerò di MongoDB usato come backend per una REST WEB API. <!-- raw HTML omitted -->L’evento si svolgerà in serata a Cesena, è gratuito, e ci sono ancora <a href="http://www.eventbrite.com/event/6297117849">posti disponibili</a>. Se ci siete passate a salutarmi.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Gestione degli Eventi in Python</title>
@@ -23,6 +26,26 @@ Parlerò di MongoDB usato come backend per una REST WEB API. L’evento si svol
       <guid>https://nicolaiarocci.com/gestione-degli-eventi-in-python/</guid>
       <description>&lt;p&gt;Gli eventi sono molto usati nelle GUI e nelle implementazioni del modello MVC (Model, View, Controller). Un’altra applicazione tipica è nei protocolli di comunicazione, laddove layer di basso livello devono informare quelli più alti quando ci sono dati in ingresso o in uscita.&lt;/p&gt;
 &lt;p&gt;Il linguaggio C# dispone da sempre di una soluzione elegante al problema della gestione degli eventi: il delegato EventHandler. &lt;a href=&#34;https://github.com/nicolaiarocci/events&#34; title=&#34;Events: Bringing the elegance of C# EventHandler to Python&#34;&gt;Events&lt;/a&gt; è una mia implementazione Python del EventHandler C#. In pratica si tratta di una classe molto leggera che incapsula il cuore del meccanismo di sottoscrizione e gestione degli eventi, e tenta di farlo in maniera “naturale”, sembrando parte integrante del linguaggio Python.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Gli eventi sono molto usati nelle GUI e nelle implementazioni del modello MVC (Model, View, Controller). Un’altra applicazione tipica è nei protocolli di comunicazione, laddove layer di basso livello devono informare quelli più alti quando ci sono dati in ingresso o in uscita.</p>
+<p>Il linguaggio C# dispone da sempre di una soluzione elegante al problema della gestione degli eventi: il delegato EventHandler. <a href="https://github.com/nicolaiarocci/events" title="Events: Bringing the elegance of C# EventHandler to Python">Events</a> è una mia implementazione Python del EventHandler C#. In pratica si tratta di una classe molto leggera che incapsula il cuore del meccanismo di sottoscrizione e gestione degli eventi, e tenta di farlo in maniera “naturale”, sembrando parte integrante del linguaggio Python.</p>
+<h2 id="come-usare-events">Come usare Events</h2>
+<p>Tecnicamente un evento è qualcosa a cui è possibile “attaccare” una o più funzioni di callback. Prima di tutto creiamo una funzione di callback che verrà invocata allo scatenarsi dell’evento a cui siamo interessati:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Poi ‘iscriviamo’ la nostra funzione all’evento:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Notate come l’evento sia al tempo stesso dichiarato e sottoscritto, in un’unico passaggio. Più funzioni possono sottoscrivere lo stesso evento. Quando si scatena un evento tutte le funzioni ad esso collegate vengono invocate in sequenza. Per scatenare l’evento ci basta eseguire una chiamata all’evento stesso:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="un-esempio-di-modello-model-view-controller">Un esempio di modello Model-View-Controller</h2>
+<p>In genere nell’implementazione di uno schema MVC l’istanza della classe Events farà parte di un Modello, come in questo esempio:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Oggetti View e Controller ne sono i tipici  sottoscrittori:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>E’ inoltre possibile vincolare il nome degli eventi e fare l’introspezione delle sole due classi che costituiscono Events. La <a href="http://events.readthedocs.org/" title="Events">documentazione</a> include gli esempi e le istruzioni per l’installazione; il <a href="https://github.com/nicolaiarocci/events" title="Events on GitHub">codice sorgente</a> è a disposizione su GitHub. Buon divertimento!</p>]]></content:encoded>
     </item>
     <item>
       <title>Una mattinata con MongoDB</title>
@@ -30,6 +53,8 @@ Parlerò di MongoDB usato come backend per una REST WEB API. L’evento si svol
       <pubDate>Wed, 10 Oct 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/una-mattinata-con-mongodb/</guid>
       <description>Il prossimo 24 ottobre sarò a Milano per A Morning with MongoDB, evento ufficiale 10gen nel corso del quale racconterò la mia esperienza nell’integrazione di MongoDB in una Web REST API. Partecipazione e registrazione sono gratuite: cosa aspettate?</description>
+      <content:encoded><![CDATA[<p>Il prossimo 24 ottobre sarò a Milano per <!-- raw HTML omitted -->A Morning with MongoDB<!-- raw HTML omitted -->, evento ufficiale 10gen nel corso del quale racconterò la mia esperienza nell’integrazione di MongoDB in una Web REST API. Partecipazione e <!-- raw HTML omitted -->registrazione<!-- raw HTML omitted --> sono gratuite: cosa aspettate?</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Il filmato del mio intervento al Ravenna CNA BarCamp</title>
@@ -37,6 +62,8 @@ Parlerò di MongoDB usato come backend per una REST WEB API. L’evento si svol
       <pubDate>Thu, 31 May 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/il-mio-intervento-al-cna-barcamp-video/</guid>
       <description>Il filmato del mio recente intervento al Ravenna CNA BarCamp è online. L’articolo originale è stato aggiornato e ora include sia le slide che il video. In alternativa c’è sempre YouTube.</description>
+      <content:encoded><![CDATA[<p>Il filmato del mio recente intervento al Ravenna CNA BarCamp è online. L’<a href="http://nicolaiarocci.com/offline-online-superare-la-crisi-anche-grazie-alla-rete/" title="Offline / Online: superare la crisi anche grazie alla rete">articolo originale</a> è stato aggiornato e ora include sia le slide che il video. In alternativa c’è sempre <!-- raw HTML omitted -->YouTube<!-- raw HTML omitted -->.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>WhyMCA Mobile Developer Conference 2012</title>
@@ -44,6 +71,8 @@ Parlerò di MongoDB usato come backend per una REST WEB API. L’evento si svol
       <pubDate>Wed, 09 May 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/whymca-mobile-developer-conference-2012/</guid>
       <description>Parteciperò alla WhyMCA Mobile Developer Conference a Bologna il 24 e 25 maggio. Il programma mi sembra piuttosto interessante. Se pensate di venire fatemelo sapere che vediamo di incotrarci.</description>
+      <content:encoded><![CDATA[<p>Parteciperò alla <!-- raw HTML omitted -->WhyMCA Mobile Developer Conference<!-- raw HTML omitted --> a Bologna il 24 e 25 maggio. Il programma mi sembra piuttosto interessante. Se pensate di venire <a href="http://nicolaiarocci.com/contatti/" title="Contatti">fatemelo sapere</a> che vediamo di incotrarci.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Offline / Online: superare la crisi anche grazie alla rete</title>
@@ -51,6 +80,14 @@ Parlerò di MongoDB usato come backend per una REST WEB API. L’evento si svol
       <pubDate>Mon, 23 Apr 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/offline-online-superare-la-crisi-anche-grazie-alla-rete/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;La scorsa settimana ho partecipato come relatore alla prima edizione del &lt;!-- raw HTML omitted --&gt;Ravenna CNA Barcamp&lt;!-- raw HTML omitted --&gt; sulla cultura d’impresa 2.0. &lt;!-- raw HTML omitted --&gt;Offline / Online&lt;!-- raw HTML omitted --&gt; è il racconto di una esperienza vissuta sul campo; un case study su come il mercato del software si è evoluto nel corso degli anni passando dalla classica filiera lunga sul territorio, tipica degli anni ’90 e della prima metà dei 2000, alla vendita online dei giorni nostri. La crisi economica degli ultimi anni si è innestata in un processo evolutivo già in atto e inarrestabile, perlomeno per quanto riguarda il nostro settore:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->La scorsa settimana ho partecipato come relatore alla prima edizione del <!-- raw HTML omitted -->Ravenna CNA Barcamp<!-- raw HTML omitted --> sulla cultura d’impresa 2.0. <!-- raw HTML omitted -->Offline / Online<!-- raw HTML omitted --> è il racconto di una esperienza vissuta sul campo; un case study su come il mercato del software si è evoluto nel corso degli anni passando dalla classica filiera lunga sul territorio, tipica degli anni ’90 e della prima metà dei 2000, alla vendita online dei giorni nostri. La crisi economica degli ultimi anni si è innestata in un processo evolutivo già in atto e inarrestabile, perlomeno per quanto riguarda il nostro settore:</p>
+<p>Non sono molto soddisfatto della mia relazione: troppo da dire nel poco tempo a disposizione. Mi auguro di aver comunicato bene almeno un paio di cose:</p>
+<ul>
+<li>Ciò che oggi funziona alla grande domani potrebbe non funzionare affatto. Siate pronti a rimettere in discussione voi stessi e il vostro modello di business in qualunque momento.</li>
+<li>Non fatevi ingannare dai fatturati milionari sbandierati ovunque ai quattro venti. Ciò che conta davvero è quel che vi rimane in tasca.</li>
+</ul>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>Per una città come Ravenna questo BarCamp è una novità benvenuta e necessaria, come dimostrano gli stessi numeri ottenuti: 170 presenze in sala, 400 spettatori collegati alla diretta streaming, 26 relatori. Complimenti alla CNA per averci creduto accettando una sfida dai risultati non scontati. Grazie di cuore e complimenti vivissimi a <!-- raw HTML omitted -->Lidia Marongiu<!-- raw HTML omitted -->, che ha organizzato e diretto l’evento con tenacia e grande professionalità.</p>]]></content:encoded>
     </item>
     <item>
       <title>Guido van Rossum a EuroPython 2012</title>
@@ -59,6 +96,15 @@ Parlerò di MongoDB usato come backend per una REST WEB API. L’evento si svol
       <guid>https://nicolaiarocci.com/guido-van-rossum-a-europython-2012/</guid>
       <description>Partenza col botto per EuroPython 2012. I keynote introduttivi saranno tenuti nientemeno che dal creatore stesso del linguaggio, Guido Van Rossum, e da Alex Martelli. Ieri è stato annunciato il programma ufficiale e a quanto pare mi spetta l’inaugurazione della italian track martedì 3 luglio. Il giorno successivo sarò impegnato, ancora di prima mattina, con la versione in lingua inglese del mio talk:
 Sviluppare una RESTful Web API con Python, Flask e MongoDB</description>
+      <content:encoded><![CDATA[<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Partenza col botto per <!-- raw HTML omitted -->EuroPython 2012<!-- raw HTML omitted -->. I keynote introduttivi saranno tenuti nientemeno che dal creatore stesso del linguaggio, Guido Van Rossum, e da Alex Martelli. Ieri è stato annunciato il <!-- raw HTML omitted -->programma ufficiale<!-- raw HTML omitted --> e a quanto pare mi spetta l’inaugurazione della italian track martedì 3 luglio. Il giorno successivo sarò impegnato, ancora di prima mattina, con la versione in lingua inglese del mio talk:</p>
+<blockquote>
+<p><!-- raw HTML omitted -->Sviluppare una RESTful Web API con Python, Flask e MongoDB<!-- raw HTML omitted --></p>
+<p>Nel corso dell’ultimo anno abbiamo lavorato all’implementazione Python di una RESTful Web API completa. Abbiamo imparato un bel po’ di cose sui best pattern REST e, naturalmente, abbiamo messo alla prova le ben note capacità web di Python, rilasciando nel frattempo un paio di progetti Open Source. Nel corso del mio intervento condividerò quel che abbiamo imparato. Prenderemo in considerazione il problematico design di una REST API ‘pura’. Vedremo che cosa offre Python in questo campo e scenderemo infine nel dettaglio, dando una occhiata al codice che abbiamo scritto. Alcune tecnologie/stack che tratteremo sono (in nessun ordine particolare): Flask, PyMongo, MongoDB, REST, JSON, XML, Heroku. Lo sapevi? Che ti piaccia o no, c’è una REST API nel tuo futuro.</p>
+</blockquote>
+<p>Scorrendo la lista degli speaker scopro che anche Amin Roacher, autore di Flask, e Ross Lawley di 10Gen (MongoDB) saranno della partita. Insomma ammetto che un po’ d’ansia da prestazione comincia ad affiorare. Sarà una bella sfida, e non vedo l’ora di affrontarla. Conto molto sul vostro supporto e incoraggiamento: ne avrò bisogno 😉</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Il mio intervento al KnowCamp 2011: Fuga dalla Comfort Zone</title>
@@ -68,6 +114,15 @@ Sviluppare una RESTful Web API con Python, Flask e MongoDB</description>
       <description>&lt;p&gt;Da qualche giorno sono disponibili le slide e la registrazione video del mio intervento al &lt;!-- raw HTML omitted --&gt;KnowCamp 2011&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;p&gt;La diretta è stata seguita da oltre 1200 spettatori mentre in sala erano presenti circa 150 persone: un bel successo.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Da qualche giorno sono disponibili le slide e la registrazione video del mio intervento al <!-- raw HTML omitted -->KnowCamp 2011<!-- raw HTML omitted -->.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>La diretta è stata seguita da oltre 1200 spettatori mentre in sala erano presenti circa 150 persone: un bel successo.</p>
+<p>Per quanto riguarda le slide, visto che si trattava di un intervento di tipo <!-- raw HTML omitted -->Ignite<!-- raw HTML omitted --> ho preferito impostarle come semplice supporto al parlato (un paio sono addirittura ‘mute’):</p>
+<h2 id="ringraziamenti">Ringraziamenti</h2>
+<p>Grazie a <!-- raw HTML omitted -->Nicola Ballotta<!-- raw HTML omitted --> e tutti i ragazzi dello staff del KnowCamp, a <!-- raw HTML omitted -->Nicola Mattina<!-- raw HTML omitted --> e <!-- raw HTML omitted -->Gianluca Diegoli<!-- raw HTML omitted --> moderatori di Ignite Session e User Panel e un saluto affettuoso ai compagni di scorribande alimentari e non (voi sapete). Grazie al pubblico che mi ha dedicato cinque minuti del suo tempo.</p>
+<p>Infine un grazie grande come una casa ai tanti che personalmente o via twitter/facebook oppure citandomi nei loro articoli online mi hanno comunicato il loro apprezzamento. Ripropongo uno dei riscontri che più mi hanno colpito perché testimonia che i contenuti proposti stanno attecchendo. Cosa può desiderare di più un <!-- raw HTML omitted -->umile<!-- raw HTML omitted --> relatore?</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->]]></content:encoded>
     </item>
     <item>
       <title>Web Designer e Programmatori Front End si incontrano a From The Front 2011</title>
@@ -75,6 +130,10 @@ Sviluppare una RESTful Web API con Python, Flask e MongoDB</description>
       <pubDate>Fri, 23 Sep 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/web-designer-e-programmatori-front-end-si-incontrano-a-from-the-front-2011/</guid>
       <description>Giovedì 29 Settembre sarò a Cesena per partecipare a From The Front 2011, conferenza-evento di una giornata dedicata a programmatori front end e web designer. Il programma dei talk pomeridiani è interessante, vi consiglio di dare una occhiata anche perché il costo di iscrizione è pari a zero irrisorio. Se venite battete un colpo: è una buona occasione per incontrarsi di persona (magari al party che seguirà l’evento).</description>
+      <content:encoded><![CDATA[<p>Giovedì 29 Settembre sarò a Cesena per partecipare a <!-- raw HTML omitted -->From The Front 2011<!-- raw HTML omitted -->, conferenza-evento di una giornata dedicata a programmatori front end e web designer. Il programma dei talk pomeridiani è interessante, vi consiglio di dare una occhiata anche perché il costo di iscrizione è <!-- raw HTML omitted -->pari a zero<!-- raw HTML omitted --> irrisorio. Se venite battete un colpo: è una buona occasione per incontrarsi di persona (magari al party che seguirà l’evento).</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+]]></content:encoded>
     </item>
     <item>
       <title>Quattro passi tra le nuvole al Romagna Camp 2011</title>
@@ -83,6 +142,12 @@ Sviluppare una RESTful Web API con Python, Flask e MongoDB</description>
       <guid>https://nicolaiarocci.com/quattro-passi-tra-le-nuvole-al-romagna-camp-2011/</guid>
       <description>“Quattro passi tra le nuvole (e non scordate il paracadute)” è il titolo del mio intervento al Romagna Camp 2011. Racconterò la mia esperienza nella fornitura di servizi cloud alle small business italiane. In questi giorni di ferie ho cominciato buttare giù qualche appunto e abbozzare le prime slide. La sfida è condensare tutto quel che c’è da dire in quindici minuti.
 Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 settembre) sono in calendario una cena, 16 speech e 7 ignite.</description>
+      <content:encoded><![CDATA[<p>“Quattro passi tra le nuvole (e non scordate il paracadute)” è il titolo del mio intervento al <!-- raw HTML omitted -->Romagna Camp 2011<!-- raw HTML omitted -->. Racconterò la mia esperienza nella fornitura di servizi cloud alle small business italiane. In questi giorni di ferie ho cominciato buttare giù qualche appunto e abbozzare le prime slide. La sfida è condensare tutto quel che c’è da dire in quindici minuti.</p>
+<!-- raw HTML omitted -->
+<p>Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 settembre) sono in calendario <!-- raw HTML omitted -->una cena<!-- raw HTML omitted -->, <!-- raw HTML omitted -->16 speech<!-- raw HTML omitted --> e <!-- raw HTML omitted -->7 ignite<!-- raw HTML omitted -->. Gli iscritti sono già più di 200 tra imprenditori, web marketer, agenzie web, freelance e sviluppatori.</p>
+<p>Le <!-- raw HTML omitted -->iscrizioni <!-- raw HTML omitted -->sono ancora aperte, fateci un pensierino perché credo ne valga la pena. Se ci siete passate a salutarmi, mi raccomando. Sono quello con gli occhiali, la barba e il sorriso ebete.</p>
+<p><em>Aggiornamento del 12.9.2011: <a href="http://nicolaiarocci.com/frammenti-di-cloud-computing-al-romagna-camp-2011/" title="Frammenti di Cloud Computing al Romagna Camp 2011">qui</a> trovate le slide del mio intervento.</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Qualche riflessione sull’esperienza del Co-Working</title>
@@ -94,6 +159,20 @@ Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 sett
 &lt;p&gt;Mentre tornavo in auto, riflettevo di quanta tristezza in questi anni ho visto transitare in molti uffici in cui aleggia quel senso di prigione, in cui le persone si sentono agli arresti domiciliari, mangiano solo con colleghi che odiano, con cui parlano di un lavoro o di un capo che altrettanto odiano, in cui la produttività e la creatività, apparentemente garantite dallo svolgersi in ambiente controllato e da orari stringenti, in realtà siano minime. Anzi, proprio quel sistema che in passato era stato creato per controllare il lavoratore, come se fosse un animale d’allevamento, ora è la causa dell’inefficienza e del disinteresse.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Nella intervista semi-seria che trovate qui sotto (mescolata a quelle degli amici) dichiaro che consiglierei senz’altro l’esperienza ai miei dipendenti. Confermo. I miei splendidi ragazzi lavorerebbero felicemente anche (forse soprattutto) sul cucuzzolo di una montagna, ma sulla efficacia del co-working ad ampio spettro qualche perplessità l’avrei.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Faccio subito mie le riflessioni di <!-- raw HTML omitted -->Gianluca Diegoli<!-- raw HTML omitted --> sul primo esperimento di co-working in spiaggia, a cui ho partecipato pure io:</p>
+<blockquote>
+<p>Mentre tornavo in auto, riflettevo di quanta tristezza in questi anni ho visto transitare in molti uffici in cui aleggia quel senso di prigione, in cui le persone si sentono agli arresti domiciliari, mangiano solo con colleghi che odiano, con cui parlano di un lavoro o di un capo che altrettanto odiano, in cui la produttività e la creatività, apparentemente garantite dallo svolgersi in ambiente controllato e da orari stringenti, in realtà siano minime. Anzi, proprio quel sistema che in passato era stato creato per controllare il lavoratore, come se fosse un animale d’allevamento, ora è la causa dell’inefficienza e del disinteresse.</p>
+</blockquote>
+<p>Nella intervista semi-seria che trovate qui sotto (mescolata a quelle degli amici) dichiaro che consiglierei senz’altro l’esperienza ai miei dipendenti. Confermo. I miei splendidi ragazzi lavorerebbero felicemente anche (forse soprattutto) sul cucuzzolo di una montagna, ma sulla efficacia del co-working ad ampio spettro qualche perplessità l’avrei.</p>
+<h2 id="co-working-per-tutti">Co-Working per tutti?</h2>
+<p>Le persone che odiano il lavoro e/o i loro colleghi, quelle a cui allude Gianluca nel corso del suo ragionamento, come reagirebbero immerse in un ambiente più ludico e ricreativo di quello abituale? Le tensioni si smorzerebbero e la produttività ne guadagnerebbe oppure, al contrario, approfitterebbero della situazione per rilassarsi fin troppo, cedendo alle inevitabili distrazioni? In fin dei conti l’esperimento <strong><!-- raw HTML omitted -->Cowo on the Beach<!-- raw HTML omitted --></strong> ha avuto successo anche e soprattutto, credo, perché i partecipanti sono tutte persone fortemente motivate, innamorate del proprio lavoro (e credetemi, a parte le battute ognuno di noi ha <em>effettivamente</em> lavorato nel corso della giornata!).</p>
+<p>Ogni ambiente di lavoro è unico e distino, quindi non penso che esista una risposta assoluta, ma questa è una domanda che ogni datore di lavoro si porrebbe senz’altro. L’argomento mi sta particolarmente a cuore perché proprio in queste settimane stiamo valutando la possibilità di sperimentare in azienda metodi di lavoro alternativi a quelli tradizionali, come per esempio il telelavoro.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h2 id="sulla-efficacia-dei-piccoli-eventi">Sulla efficacia dei piccoli eventi</h2>
+<p>Nel <!-- raw HTML omitted -->suo articolo<!-- raw HTML omitted --> Gianluca accenna al fatto che il tempo incerto ha scoraggiato alcuni di quelli che si erano iscritti all’evento. E’ un peccato in effetti, anche perché la giornata tutto sommato è stata bella (abbiamo fatto anche il bagno!). A tavola mi dicevo però che non tutto il male vien per nuocere. Il gruppo ristretto ha consentito a tutti partecipare attivamente alla stessa discussione. Una tavolata di molte persone avrebbe portato alla creazione dei mini-conciliaboli tipici degli eventi di più ampio respiro, con conseguente frammentazione della discussione. E’ più facile che si creino intimità e senso di unità quando il gruppo è ridotto.</p>
+<p>Con questo non voglio dire che sono contento delle assenze: si partecipa a un evento proprio per conoscere nuove persone interessanti. Senz’altro però la formula “cowobeach” è interessante anche perché  è diversa nei numeri. Non si tratta di uno dei soliti eventi che puntano alla partecipazione di massa.</p>
+<p><!-- raw HTML omitted -->Nota a margine per i geek che mi leggono<!-- raw HTML omitted --></p>
+<p>L’81% dei notebook impiegati al #cowobeach erano dei <strong>Mac Book</strong>. Io probabilmente rappresentavo il caso più singolare: in realtà scrivevo ed eseguivo codice sulla mia postazione Windows in ufficio, collegato dalla spiaggia via TeamViewer. Fa impressione constatare come in pochi anni l’adozione dei Mac da parte dei professionisti del settore sia aumentata.</p>]]></content:encoded>
     </item>
     <item>
       <title>Domani si lavora in spiaggia! Vieni al #cowobeach</title>
@@ -102,6 +181,15 @@ Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 sett
       <guid>https://nicolaiarocci.com/domani-si-lavora-in-spiaggia-vieni-al-cowobeach/</guid>
       <description>Se siete in Romagna e dintorni forse potete ancora farci un pensierino: domani venite a lavorare in spiaggia! Cowo on the beach è una bella iniziativa organizzata da Alessandra Farabegoli su suggerimento di Gianluca Diegoli. Di cosa si tratta? Semplice:
 Giornata di temporary coworking on the beach: ci troviamo la mattina al Boca Barranca, il wifi c’è ed è gratuito, la mattina si lavora, poi bagno in mare, pranzo, di nuovo lavoro e.</description>
+      <content:encoded><![CDATA[<p>Se siete in Romagna e dintorni forse potete ancora farci un pensierino: domani venite a lavorare in spiaggia! <strong><!-- raw HTML omitted -->Cowo on the beach<!-- raw HTML omitted --></strong> è una bella iniziativa organizzata da <!-- raw HTML omitted -->Alessandra Farabegoli<!-- raw HTML omitted --> su suggerimento di <!-- raw HTML omitted -->Gianluca Diegoli<!-- raw HTML omitted -->. Di cosa si tratta? Semplice:</p>
+<blockquote>
+<p>Giornata di temporary coworking on the beach: ci troviamo la mattina al Boca Barranca, il wifi c’è ed è gratuito, la mattina si lavora, poi bagno in mare, pranzo, di nuovo lavoro e.. aperitivo! Un anticipo del RomagnaCamp che si terrà, sempre al Boca Barranca, dal 9 all’11 settembre</p>
+</blockquote>
+<p>Alessandra ha appena pubblicato un <!-- raw HTML omitted -->aggiornamento<!-- raw HTML omitted --> con tanto di previsioni del tempo (non male dai) e suo programma di lavoro. Il mio è semplice: scrivere (poco) codice all’aria aperta e fare conoscenza con <!-- raw HTML omitted -->tanta bella gente<!-- raw HTML omitted -->.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Se decidete di venire, anche all’ultimo momento, <!-- raw HTML omitted -->iscrivetevi<!-- raw HTML omitted --> comunque! A domani!</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Programmazione, SEO, Startups – Il Meglio della Settimana #1</title>
@@ -109,6 +197,65 @@ Giornata di temporary coworking on the beach: ci troviamo la mattina al Boca Bar
       <pubDate>Mon, 21 Feb 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/programmazione-seo-startups-il-meglio-della-settimana-1/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Vi propongo una scelta delle risorse più interessanti e curiose che ho scovato questa settimana in rete. Ce né per tutti i gusti: programmazione, SEO, Startups e curiosità. Andiamo a cominciare:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Vi propongo una scelta delle risorse più interessanti e curiose che ho scovato questa settimana in rete. Ce né per tutti i gusti: programmazione, SEO, Startups e curiosità. Andiamo a cominciare:</p>
+<ol>
+<li>
+<p><strong><a href="http://docs.python.org/dev/howto/pyporting.html">Da Python 2 a Python 3</a></strong></p>
+<p>Python 3 è il futuro, ma Python 2 è attualmente la versione più usata al mondo. Ora finalmente la documentazione ufficiale è arricchita da una bella guida alle migliori strategie per supportare entrambe le versioni di Python.</p>
+<p><a href="http://docs.python.org/dev/howto/pyporting.html"></a></p>
+</li>
+<li>
+<p><a href="http://blogs.nationalgeographic.com/blogs/news/breakingorbit/2011/01/400-volunteer-for-one-way-mars-trip.html"><strong>Per quale motivo 400 persone si sono offerte volontarie per una viaggio di sola andata verso Marte?</strong></a></p>
+</li>
+</ol>
+<pre><code>Il numero Ottobre-Novembre 2010 del _Journal of Cosmology_ contiene uno speciale di 55 pagine intitolato &amp;#8220;Missione Umana su Marte: Colonizzare il Pianeta Rosso&amp;#8221;. Secondo gli scienziati una missione di sola andata destinata a colonizzare Marte sarebbe possibile entro 20 anni. Cosa ha spinto ben quattrocento lettori a offrirsi come volontari per la missione?
+</code></pre>
+<ol start="3">
+<li><strong><a href="http://www.seomoz.org/blog/tweets-effect-rankings-unexpected-case-study">Il sorprendente effetto di un singolo Tweet sul Page Rank di Google</a></strong></li>
+</ol>
+<pre><code>Google ha ammesso recentemente che i link provenienti dai social network sono segnali usati nella valutazione dell&amp;#8217;importanza dei siti web. I ragazzi di SEOmoz (tra i migliori esperti SEO in circolazione) sono rimasti esterrefatti dagli effetti che un singolo tweet ha causato sul page rank della loro _Beginners Guide to SEO_.
+</code></pre>
+<ol start="4">
+<li><a href="http://www.lucasartoni.com/lavoro/open-letter-to-an-event-organizer"><strong>Lettera aperta a un organizzatore di eventi</strong></a></li>
+</ol>
+<pre><code>Per mestiere Luca Sartoni partecipa (come speaker, spettatore o organizzatore) a molte conferenze , seminari e workshops. In questa lettera elenca quelli che secondo lui sono i cinque errori commessi più spesso dagli organizzatori di eventi. E suggerisce come evitarli.
+</code></pre>
+<ol start="5">
+<li><a href="http://en.blog.wordpress.com/2011/02/17/how-is-wordpress-com-made/"><strong>Come si fa WordPress?</strong></a></li>
+</ol>
+<pre><code>A quanto pare WordPress, pur avendo una sede a San Francisco, è una realtà capillarmente distribuita. Gran parte dei dipendenti lavora da casa ed è disseminata per il mondo, coprendone quasi tutti i fusi orari. In questo articolo sul blog ufficiale dell&amp;#8217;azienda Scott Berkun racconta come si svolge una giornata di lavoro in una azienda di questo tipo.
+</code></pre>
+<ol start="6">
+<li><a href="http://www.allthingsdistributed.com/2011/02/website_amazon_s3.html"><strong>Come ospitare un intero sito (statico) su Amazon S3</strong></a></li>
+</ol>
+<pre><code>Da qualche tempo Werner Vogels, CTO di Amazon, ospita il suo sito direttamente su S3, la potente piattaforma di _cloud storage_ di Amazon. Una soluzione di questo tipo offre diversi vantaggi, primo fra tutti la scalabilità. In questo articolo Vogels ci spiega come raggiungere lo stesso risultato.
+</code></pre>
+<ol start="7">
+<li><a href="http://www.limedaring.com/im-a-designer-who-learned-django-and-launched-her-first-webapp-in-6-weeks/"><strong>Sono una Designer e ho lanciato la mia prima applicazione in 6 settimane</strong></a></li>
+</ol>
+<pre><code>Tracy è una designer che non sa quasi nulla di programmazione. Ha una idea su un sito innovativo e tenta senza successo di ottenere un finanziamento che le consenta di assumere un programmatore esperto. Cosa fare? Tracy si rimbocca le maniche e in sei settimane riesce a lanciare una variante (semplificata) della sua idea originale. In Python/Django, ovviamente.
+</code></pre>
+<ol start="8">
+<li><a href="http://sixrevisions.com/web-applications/new-facebook-page/"><strong>La Guida Definitiva al Design delle Pagine Facebook</strong></a></li>
+</ol>
+<pre><code>Facebook ha aggiornato le Pagine Fan introducendo parecchie novità significative. In questo articolo Six Revisions ci spiega quali sono e come sfruttarle al meglio.
+</code></pre>
+<ol start="9">
+<li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/"><strong>I filmati completi del Corso di Programmazione (Python) del MIT</strong></a></li>
+</ol>
+<pre><code>Ventiquattro filmati completi, di ottima qualità, per imparare a programmare direttamente dai professori del famoso MIT di Boston. Il materiale è di qualità eccellente.
+</code></pre>
+<ol start="10">
+<li><a href="http://www.cenedella.com/job-search/leonardo-da-vincis-resume/"><strong>Il curriculum vitae di Leonardo Da Vinci</strong></a></li>
+</ol>
+<pre><code>Prima di Mona Lisa, dell&amp;#8217;Ultima Cena e dell&amp;#8217;invenzione dell&amp;#8217;elicottero anche a Leonardo Da Vinci è toccato scrivere il suo bel curriculum. Nel 1482, a trent&amp;#8217;anni, Leonardo lo inviò a Ludovico il Moro, Duca di Milano. In questo splendido articolo possiamo vedere l&amp;#8217;originale e leggerne la trascrizione. Perché? Per imparare un paio di trucchetti che potrebbero tornarci utili.
+</code></pre>
+<ol start="11">
+<li><a href="http://mattoufoutu.rafale.org/ebooks/Doc_diverse/Cours%20Prog/Python/Books/Natural%20Language%20Processing%20with%20Python%20(2009).pdf"><strong>Processare il Linguaggio Naturale in Python</strong></a></li>
+</ol>
+<pre><code>L&amp;#8217;intero contenuto del libro _Natural Processing Language With Python_ in formato PDF, liberamente accessibile.
+</code></pre>
+<p>Queste sono solo alcune delle segnalazioni che giorno per giorno pubblico su Twitter. Se volete più notizie, spunti e link interessanti <a href="http://twitter.com/#!/nicolaiarocci">seguitemi anche su Twitter</a>!</p>]]></content:encoded>
     </item>
     <item>
       <title>Disponibile il programma completo di BE-Wizard 2011</title>
@@ -116,6 +263,20 @@ Giornata di temporary coworking on the beach: ci troviamo la mattina al Boca Bar
       <pubDate>Thu, 17 Feb 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/disponibile-il-programma-di-be-wizard-2011/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Sul sito ufficiale di &lt;strong&gt;BE-Wizard 2011&lt;/strong&gt; è disponibile il &lt;a href=&#34;http://admin.abc.sm/upload/2156/programma_be-wizard.pdf&#34;&gt;programma completo&lt;/a&gt; della due giorni SEO/Web Marketing che si terrà a San Marino i prossimi 11 e 12 marzo. Come scrivevo già &lt;a href=&#34;http://nicolaiarocci.com/be-wizard-2011-porta-in-italia-i-guru-di-seo-e-web-marketing/&#34;&gt;qualche tempo fa&lt;/a&gt; quest’anno BE-Wizard porta in italia i &lt;strong&gt;guru internazionali di SEO e Web Marketing&lt;/strong&gt;: Rand Fishkin (SEOmoz), Avinash Kaushik (Google), Marcus Tandler &amp;amp; Nils Döerje (Tandler &amp;amp; Döerje Partners), Tom Critchlow (Distilled) e altri.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Sul sito ufficiale di <strong>BE-Wizard 2011</strong> è disponibile il <a href="http://admin.abc.sm/upload/2156/programma_be-wizard.pdf">programma completo</a> della due giorni SEO/Web Marketing che si terrà a San Marino i prossimi 11 e 12 marzo. Come scrivevo già <a href="http://nicolaiarocci.com/be-wizard-2011-porta-in-italia-i-guru-di-seo-e-web-marketing/">qualche tempo fa</a> quest’anno BE-Wizard porta in italia i <strong>guru internazionali di SEO e Web Marketing</strong>: Rand Fishkin (SEOmoz), Avinash Kaushik (Google), Marcus Tandler &amp; Nils Döerje (Tandler &amp; Döerje Partners), Tom Critchlow (Distilled) e altri.</p>
+<h2 id="il-programma">Il Programma</h2>
+<p>Il programma è ricco di argomenti interessanti. Per solleticare il tuo appetito (ci sono ancora posti disponibili) ti propongo una selezione degli interventi che personalmente attendo con grande curiosità:</p>
+<ul>
+<li><strong>Google Ranking</strong>: novità e scoperte inedite su come Google classifica i risultati organici, alla luce delle ultime ricerche svolte da SEOmoz.org (Rand Fishkin)</li>
+<li><strong>Comunicare On-line con i Video</strong>. Video marketing: i fattori che determinano il successo di un video online e la diffusione virale. Video Analytics: misurare l’impatto dei propri video e calcolare il ritorno dell’investimento (Paolo Zanzottera)</li>
+<li><strong>Ranking e comportamento dell’utente</strong>: come perfezionare il ranking attraverso l’analisi di Click-Through e Bounce Rate (Marcus Tandler)</li>
+<li><strong>Come video, news e immagini hanno influito sulle tradizionali tecniche di posizionamento</strong>. Come applicare delle strategie ad hoc per la Universal Search (Neils Dörje)</li>
+<li><strong>Link building</strong>: Dieci strategie avanzate per una link popularity efficace (Marcus Tandler)</li>
+<li><strong>Ottimizzazione del Tasso di Conversione</strong>: come trasformare un sito locale in un “Conversion Funnel”, tracciare i dati e migliorare il tasso di conversione (Rand Fishkin)</li>
+</ul>
+<p>Per vedere l’elenco completo degli interventi consulta il <a href="http://admin.abc.sm/upload/2156/programma_be-wizard.pdf">programma ufficiale</a> sul sito ufficiale.</p>
+<h2 id="incontriamoci">Incontriamoci!</h2>
+<p>Ribadisco l’invito già fatto in passato. Se anche tu sarai presente fammelo sapere, magari organizziamo <strong>due chiacchiere</strong> davanti a un caffè o un aperitivo!</p>]]></content:encoded>
     </item>
     <item>
       <title>BE-Wizard 2011 porta in Italia i guru di SEO e Web Marketing</title>
@@ -123,6 +284,23 @@ Giornata di temporary coworking on the beach: ci troviamo la mattina al Boca Bar
       <pubDate>Wed, 19 Jan 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/be-wizard-2011-porta-in-italia-i-guru-di-seo-e-web-marketing/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.be-wizard.com&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;I giorni 11 e 12 marzo parteciperò a &lt;!-- raw HTML omitted --&gt;BE-Wizard 2011&lt;!-- raw HTML omitted --&gt;, evento SEO e Web Marketing dal programma molto ricco e interessante. Tra i relatori celebrità internazionali come &lt;a href=&#34;http://www.seomoz.org/team/randfish&#34;&gt;Rand Fishkin&lt;/a&gt; (SEOmoz), &lt;a href=&#34;http://www.kaushik.net/avinash/about&#34;&gt;Avinash Kaushik&lt;/a&gt; (Google), &lt;a href=&#34;http://www.tandlerdoerjepartner.com/&#34;&gt;Marcus Tandler &amp;amp; Nils Döerje&lt;/a&gt; (Tandler &amp;amp; Döerje Partners) e &lt;a href=&#34;http://www.distilled.co.uk/company/people/tom-critchlow.html&#34;&gt;Tom Critchlow&lt;/a&gt; (Distilled). Chi lavora nell’ambito SEO/SEM riconoscerà senz’altro questi nomi, Fishkin e Kaushik sono stelle di prima grandezza (di Kaushik raccomando senz’altro &lt;a href=&#34;http://www.webanalytics20.com/&#34;&gt;Web Analytics 2.0&lt;/a&gt;, uscito recentemente anche &lt;a href=&#34;http://www.amazon.it/Analytics-Misurare-successo-nellera-Internet/dp/882034498X/ref=sr_1_2?ie=UTF8&amp;amp;qid=1295446745&amp;amp;sr=8-2&#34;&gt;in italiano&lt;/a&gt;).&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><a href="http://www.be-wizard.com"><!-- raw HTML omitted --></a>I giorni 11 e 12 marzo parteciperò a <!-- raw HTML omitted -->BE-Wizard 2011<!-- raw HTML omitted -->, evento SEO e Web Marketing dal programma molto ricco e interessante. Tra i relatori celebrità internazionali come <a href="http://www.seomoz.org/team/randfish">Rand Fishkin</a> (SEOmoz), <a href="http://www.kaushik.net/avinash/about">Avinash Kaushik</a> (Google), <a href="http://www.tandlerdoerjepartner.com/">Marcus Tandler &amp; Nils Döerje</a> (Tandler &amp; Döerje Partners) e <a href="http://www.distilled.co.uk/company/people/tom-critchlow.html">Tom Critchlow</a> (Distilled). Chi lavora nell’ambito SEO/SEM riconoscerà senz’altro questi nomi, Fishkin e Kaushik sono stelle di prima grandezza (di Kaushik raccomando senz’altro <a href="http://www.webanalytics20.com/">Web Analytics 2.0</a>, uscito recentemente anche <a href="http://www.amazon.it/Analytics-Misurare-successo-nellera-Internet/dp/882034498X/ref=sr_1_2?ie=UTF8&amp;qid=1295446745&amp;sr=8-2">in italiano</a>).</p>
+<h2 id="il-programma">Il programma</h2>
+<p>Il <a href="http://www.be-wizard.com/ita-programma.php">programma</a> prevede le conferenze dei Big Speakers nella prima giornata e gli approfondimenti tecnici (E-Commerce o Turismo) nella seconda. Per quest’ultima è già disponibile l’elenco degli argomenti trattati mentre per la prima bisognerà attendere ancora qualche giorno. Qui riporto il programma della sessione E-Commerce, quella a cui parteciperò io:</p>
+<ul>
+<li>Introduzione agli strumenti per la promozione online</li>
+<li>E-commerce e diritto</li>
+<li>E-commerce con eBay e altri marketplaces</li>
+<li>Social Networks &amp; Web Analytics 2.0</li>
+<li>Case History Keyword Advertising</li>
+<li>Intervista/Testimonianza</li>
+<li>Case History e-mail marketing</li>
+<li>Case history SEO da “oltreoceano”</li>
+<li>Strategie SEO e SEM</li>
+</ul>
+<h2 id="incontriamoci">Incontriamoci!</h2>
+<p>Questi eventi in genere sono ottime occasioni per fare nuove conoscenze e scambiarsi opinioni ed esperienze. Se qualcuno dei lettori di questo sito prevede di partecipare me lo faccia sapere, magari organizziamo <strong>due chiacchiere</strong> davanti a un caffè o un aperitivo!</p>
+<p><em>Potrebbe sembrare il contrario, ma vi assicuro che n<!-- raw HTML omitted -->on sono coinvolto in alcun modo nella organizzazione o promozione di questo evento.<!-- raw HTML omitted --></em></p>]]></content:encoded>
     </item>
   </channel>
 </rss>

@@ -22,6 +22,25 @@
 &lt;p&gt;Questa novità ci permetterà di aumentare l’impegno su HTML5 continuando a innovare Flash nei settori in cui  può avere più impatto: advanced gaming e premium video.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Non so voi ma io in queste righe io leggo qualcosa di più del semplice abbandono della versione mobile di Flash. Ci vedo la ricollocazione di Flash in settori di nicchia e la contestuale adozione di HTML5 come soluzione universale per il Web. Una onorevole resa delle armi, insomma.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Silverlight 5 è in dirittura d’arrivo. L’ultimo aggiornamento del plug-in Microsoft sarà <em>ultimo</em> in tutti i sensi dato che <!-- raw HTML omitted -->a quanto pare<!-- raw HTML omitted --> non ne seguiranno altri. A sostenerlo è ZD-Net per bocca di Mary-Jo Foley, di solito sempre ben informata su quel che succede nei corridoi del gigante di Seattle.</p>
+<blockquote>
+<p>Diversi partner e clienti mi hanno detto di aver saputo da fonti Microsoft che Silverlight 5 è l’ultima versione di Silverlight che Microsoft rilascerà. Riferiscono di non sapere se verranno rilasciati Service Pack, né per quanto tempo Microsoft supporterà Silverlight 5</p>
+</blockquote>
+<p>Si tratta solo di voci ma la fonte è autorevole. Proprio l’altro giorno Adobe ha <!-- raw HTML omitted -->annunciato<!-- raw HTML omitted --> lo stop allo sviluppo di Flash Player Mobile per concentrarsi su HTML5. Il vice presidente Adobe Danny Winokur ha dichiarato</p>
+<blockquote>
+<p>Questa novità ci permetterà di aumentare l’impegno su HTML5 continuando a innovare Flash nei settori in cui  può avere più impatto: advanced gaming e premium video.</p>
+</blockquote>
+<p>Non so voi ma io in queste righe io leggo qualcosa di più del semplice abbandono della versione mobile di Flash. Ci vedo la ricollocazione di Flash in settori di nicchia e la contestuale adozione di HTML5 come soluzione universale per il Web. Una onorevole resa delle armi, insomma.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Solo la scorsa estate <a href="http://nicolaiarocci.com/windows-8-e-i-dubbi-sul-destino-di-silverlight/" title="Windows 8 e i dubbi sul destino di Silverlight">facevo presente</a> che sul futuro di Silverlight si stavano addensando nubi minacciose e tra le fonti citavo proprio la Foley. Sulla diatriba tra Flash e HTML5 ho già espresso la mia <a href="http://nicolaiarocci.com/flash-adobe-e-una-pessima-idea/" title="Adobe Flash è una pessima idea">opinione</a> sollevando anche qualche <!-- raw HTML omitted -->piccola polemica<!-- raw HTML omitted -->.</p>
+<p>Non mi sorprende la inevitabile convergenza verso HTML5. Mi colpisce piuttosto la forte accelerazione subita dal processo, una accelerazione dovuta in gran parte proprio all’iniziativa di quegli stessi brand (e gliene va reso merito) che fino all’altro giorno resistevano all’avvento di HTML5. Ufficialmente Microsoft non ha ancora cambiato posizione, ma è solo questione di tempo.</p>
+<p>Se il biennio 2010-11 è stato quello della battaglia per il web, il 2012 sarà senz’altro il primo del lungo e pacifico dominio di Re HTML5.</p>
+<h2 id="approfondimenti">Approfondimenti</h2>
+<ul>
+<li><a href="http://nicolaiarocci.com/flash-adobe-e-una-pessima-idea/" title="Adobe Flash è una pessima idea">Adobe Flash è una pessima idea</a></li>
+<li><a href="http://nicolaiarocci.com/windows-8-e-i-dubbi-sul-destino-di-silverlight/" title="Windws 8 e i dubbi sul destino di Silverlight">Windows 8 è i dubbi sul destino di Silverlight</a></li>
+</ul>]]></content:encoded>
     </item>
     <item>
       <title>Windows 8 e i dubbi sul destino di Silverlight</title>
@@ -32,6 +51,30 @@
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;</description>
+      <content:encoded><![CDATA[<p>Con un <!-- raw HTML omitted -->filmato di 10 minuti<!-- raw HTML omitted --> Microsoft ha presentato in anteprima il nuovo Windows 8. A molti non è sfuggita l’enfasi su HTML5 e JavaScript, annunciate come le tecnologie con le quali costruire le nuove accattivanti applicazioni per Windows 8. Il fatto che non si faccia cenno a Silverlight, WPF o .NET sta causando un bel po’ di preoccupazione.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<blockquote>
+<p>You all saw a very small technology demo of Windows 8, and a brief press release. We’re all being quiet right now because we can’t comment on this. It’s not because we don’t care, aren’t listening, have given up, or are agreeing or disagreeing with you on something. All I can say for now is to please wait until September. If we say more before then, that will be great, but there are no promises (and I’m not aware of any plans) to say more right now. I’m very sorry that there’s nothing else to share at the moment. I know that answer is terrible, but it’s all that we can say right now. Seriously.</p>
+</blockquote>
+<p>Quindi bocche cucite, almeno fino a Settembre. In seguito Brown interviene ancora, tirato per la giacchetta dai molti che hanno interpretato le sue parole nelle maniere più disparate:</p>
+<blockquote>
+<p>This whole thing has blown way out of proportion. Base your information on our primary sources (like our press release), not on third party speculation. That’s not to minimize how everyone feels, but keep in mind that Windows 8 itself is still a ways off from retail, and even much further away from internal IT adoption. The 8 weeks until //build/ is a pretty small amount of time to wait in comparison.</p>
+<p>Take some vacation time this summer, and look forward to the //build/ conference. Stop speculating based on just a small demo of some very cool new technology. Tell your management to do the same: if they’re basing your project work for the next X years on the results of a quick demo for an unreleased operating system, then they are doing you and your company a real disservice.</p>
+</blockquote>
+<p>Windows 8 è ben lontano dall’essere pronto, e quel che si è visto nel filmato è solo la prima di una serie di anteprime. Inutile fare speculazioni basate su una demo di pochi minuti. Questa estate godetevi le vacanza, ne riparleremo al vostro ritorno. Dite ai vostri manager di fare lo stesso. <strong>Se stanno pianificando il lavoro dei prossimi anni basandosi solo su una breve anteprima di un sistema operativo non ancora pronto, allora stanno facendo un grave errore</strong>.</p>
+<h2 id="non-è-mica-la-prima-volta">Non è mica la prima volta</h2>
+<p>Niente da obiettare da parte mia. Mi limito a rilevare che non è la prima volta che il futuro delle piattaforme Microsoft viene messo in discussione anche dallo stesso personale Microsoft. Leggendaria la gaffe di <!-- raw HTML omitted -->Bob Muglia<!-- raw HTML omitted -->, Vice President for Server and Tools Businesses (mica cotica) riportata fedelmente da <!-- raw HTML omitted -->Mary Jo Foley<!-- raw HTML omitted -->:</p>
+<blockquote>
+<p>“Silverlight is our development platform for Windows Phone,” he said. Silverlight also has some “sweet spots” in media and line-of-business applications, he said.</p>
+<p>But when it comes to touting Silverlight as Microsoft’s vehicle for delivering a cross-platform runtime, “<strong>our strategy has shifted</strong>,” Muglia told me.</p>
+<p>Silverlight will continue to be a cross-platform solution, working on a variety of operating system/browser platforms, going forward, he said. “But <strong>HTML is the only true cross platform solution for everything</strong>, including (Apple’s) iOS platform,” Muglia said.</p>
+</blockquote>
+<p>All’epoca fu necessario un comunicato congiunto di Steve Ballmer (CEO Microsoft) e del penitente Bob Muglia per acquietare la tempesta scatenata da queste parole. Sarà un caso che recentemente Muglia abbia annunciato il trasloco ad altri lidi?</p>
+<p>Il fatto è che le tante aziende che hanno investito molto e – ahimé – esclusivamente sulle piattaforme Microsoft ora guardano con terrore a uno scenario, per quanto improbabile, che non veda Silverlight, WPF e .NET in cima all’agenda della casa madre.</p>
+<h2 id="img-classalignright-titlehtml5-logo-srchttpi2wpcomnicolaiaroccicomwp-contentuploadshtml5-logopngresize1282c150-althtml5-logo-data-recalc-dims1-il-futuro-del-web-è-silverlight"><!-- raw HTML omitted -->Il futuro del Web è Silverlight?</h2>
+<p>Personalmente non ho dubbi sul fatto che il futuro delle piattaforme tecnologiche Microsoft sarà garantito. La domanda cruciale che ogni programmatore dovrebbe porsi è un’altra. Il futuro del web è Silverlight? In soldoni, su cosa vale la pena investire tempo, risorse e denaro? Temo la risposta non sia quella che i programmatori Silverlight vorrebbero sentire.</p>]]></content:encoded>
     </item>
     <item>
       <title>Eclipse Foundation lancia la beta pubblica di OrionHub</title>
@@ -40,6 +83,9 @@
       <guid>https://nicolaiarocci.com/eclipse-foundation-lancia-la-beta-pubblica-di-orionhub/</guid>
       <description>Eclipse Foundation ha avviato il beta testing di OrionHub, una implementazione hosted del suo Progetto Orion. Orion è una piattaforma di sviluppo aperta dedicata allo sviluppo per il web, dentro il web. La IDE Orion gira nel browser e fornisce un completo ambiente di produzione per progetti JavaScript, HTML e CSS. Il risultato è ottenuto grazie a un plugin lato client sviluppato in HTML5.
 Per un approfondimento dai una occhiata a Il futuro del codice sorgente è online?</description>
+      <content:encoded><![CDATA[<p><a href="http://www.eclipse.org/">Eclipse Foundation</a> ha avviato il beta testing di <a href="http://www.eclipse.org/orion/"><strong>OrionHub</strong></a>, una implementazione hosted del suo Progetto Orion. Orion è una piattaforma di sviluppo aperta dedicata allo sviluppo per il web, dentro il web. La IDE Orion gira nel browser e fornisce un completo ambiente di produzione per progetti JavaScript, HTML e CSS. Il risultato è ottenuto grazie a un plugin lato client sviluppato in HTML5.</p>
+<p>Per un approfondimento dai una occhiata a <!-- raw HTML omitted -->Il futuro del codice sorgente è online?<!-- raw HTML omitted -->, la panoramica sul Progetto Orion e sulle IDE Online che ho pubblicato qualche tempo fa.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Programmazione, SEO, Startup – Il Meglio della Settimana #4</title>
@@ -61,6 +107,57 @@ Per un approfondimento dai una occhiata a Il futuro del codice sorgente è onlin
 &lt;/ol&gt;
 &lt;pre&gt;&lt;code&gt;La pazienza è la virtù dei forti, ma per molti è una pratica difficile da applicare. Ciò è vero soprattutto per chi visita siti web. Six Revision ci propone una decina di consigli per velocizzare le nostre pagine web.
 &lt;/code&gt;&lt;/pre&gt;</description>
+      <content:encoded><![CDATA[<ol>
+<li><strong><!-- raw HTML omitted --><a href="http://stevecheney.posterous.com/how-facebook-is-killing-your-authenticity">Facebook sta uccidendo la tua Autenticità</a></strong></li>
+</ol>
+<pre><code>Steve Cheney propone una riflessione su come Facebook condizioni ormai _l&amp;#8217;autenticità_ dei suoi utenti. Il timore che conoscenti e amici (alcuni non li incontriamo da anni, altri sono parenti stretti) vedano quel che facciamo online ci induce a comportarci in maniera diversa da quel che sarebbe il nostro istintivo sentire.
+</code></pre>
+<ol start="2">
+<li><a href="http://www.distilled.co.uk/excel-for-seo/"><strong>Tutorial: Microsoft Excel per il SEO</strong></a></li>
+</ol>
+<pre><code>Eccellente tutorial su come usare Excel per analizzare al meglio la quantità di dati che raccogliamo durante le nostre indagini SEO.
+</code></pre>
+<ol start="3">
+<li><a href="http://sixrevisions.com/web-development/decrease-webpage-load-times/"><strong>10 consigli per velocizzare il caricamento delle pagine Web</strong></a></li>
+</ol>
+<pre><code>La pazienza è la virtù dei forti, ma per molti è una pratica difficile da applicare. Ciò è vero soprattutto per chi visita siti web. Six Revision ci propone una decina di consigli per velocizzare le nostre pagine web.
+</code></pre>
+<ol start="4">
+<li>
+<p><a href="http://www.ibtimes.com/articles/120033/20110308/adobe-flash-html-5-wallaby-ios-iphone-ipad-ipad-2-ios-4-3-chrome-safari-windows-nitro-javascript-dre.htm"><strong>Adobe rilascia un convertitore da Flash a HTML5</strong></a></p>
+<p>E con questa Adobe ammette, sia pur implicitamente, la morte di Flash. Se mi segui da un pò la mia opinione <a href="http://nicolaiarocci.com/flash-adobe-e-una-pessima-idea/">la conosci già</a>. L’altro giorno al BE-Wizard 2011 il grande <strong>Avinash Kaushik</strong> ha dichiarato (ero in platea): “ogni volta che usi Flash su una pagina Web, un dolce cucciolo muore”.</p>
+</li>
+<li>
+<p><a href="http://www.html5rocks.com/tutorials/speed/html5/"><strong>Tutorial: Aumentare le prestazioni delle applicazioni HTML5</strong></a></p>
+</li>
+</ol>
+<pre><code>HTML5 ci offre splendidi strumenti per migliorare l&amp;#8217;aspetto delle applicazioni web. Animazioni ed effetti richiedono attenzione alle prestazioni. Ecco un ottimo e approfondito tutorial su come evitare il rischio di passare dalla padella alla brace.
+</code></pre>
+<ol start="6">
+<li><strong><a href="https://developer.apple.com/xcode/">Apple rilascia Xcode 4</a></strong></li>
+</ol>
+<pre><code>Xcode 4 è la nuova versione del framework Apple per la creazione di applicazioni Mac, iPhone, and iPad. Include la Xcode IDE, Instruments, il simulatore di iOS e le ultime versioni degli SDK per Mac OS X e iOS**.** 
+</code></pre>
+<ol start="7">
+<li><a href="http://mashable.com/2011/03/10/node-js/"><strong>Ecco perché tutti parlano di Node</strong></a></li>
+</ol>
+<pre><code>Al ventesimo piano di un grattacielo di San Francisco un gruppo di sviluppatori sta lavorando a una nuova tecnologia che sta cambiando (forse) il modo in cui le applicazioni web in real-time saranno costruite e distribuite. Tutti ne parlano. Ecco perché.
+</code></pre>
+<ol start="8">
+<li><a href="http://www.queness.com/post/7018/11-useful-online-tools-for-web-development"><strong>11 Tools Online per Programmatori</strong></a></li>
+</ol>
+<pre><code>I tools online sono ideali per sbrigare rapidamente piccoli lavoretti. Questo articolo ne presenta una selezione originale.
+</code></pre>
+<ol start="9">
+<li><a href="http://searchenginewatch.com/3641984"><strong>SEO: Massimizzare il CTR nelle ricerche organiche</strong></a></li>
+</ol>
+<pre><code>Non perdetevi questo articolo se lavorate in ambito SEO/SERP. _Enough said_.
+</code></pre>
+<ol start="10">
+<li><a href="http://mashable.com/2011/03/12/hello-bar-japan/"><strong>Hai un Blog o un sito web? Aiuta il Giappone con un semplice Banner</strong></a></li>
+</ol>
+<pre><code>Puoi dare una mano inserendo uno snippet di codice che mostra un banner che invita a partecipare alla raccolta fondi per il Giappone avviata dalla Croce Rossa.
+</code></pre>]]></content:encoded>
     </item>
   </channel>
 </rss>

@@ -15,6 +15,10 @@
       <guid>https://nicolaiarocci.com/my-talk-at-percona-live-2015/</guid>
       <description>The slides of my talk at Percona Live 2015 (Amsterdam) are online. It was titled “MongoDB and REST APIs a Match Made in Heaven” and it was meant as an introduction to Mongo, REST principles and the Eve python framework.
 Overall it has been a pleasant experience, although I found that splitting 300 attendees through seven concurrent tracks ultimately led to too much fragmentation. People often found themselves with 2-3 interesting talks all happening simultaneously, and just had to pick one.</description>
+      <content:encoded><![CDATA[<p>The slides of my talk at Percona Live 2015 (Amsterdam) are <a href="https://speakerdeck.com/nicola/mongodb-and-rest-apis-a-match-made-in-heaven">online</a>. It was titled “MongoDB and REST APIs a Match Made in Heaven” and it was meant as an introduction to Mongo, REST principles and the Eve python framework.</p>
+<p>Overall it has been a pleasant experience, although I found that splitting 300 attendees through seven concurrent tracks ultimately led to too much fragmentation. People often found themselves with 2-3 interesting talks all happening simultaneously, and just had to pick one.</p>
+<p>I could only stay one day so I missed all side events, speakers dinner included, which was a bummer.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>The Little MongoDB Book 2nd Italian Edition</title>
@@ -22,6 +26,8 @@ Overall it has been a pleasant experience, although I found that splitting 300 a
       <pubDate>Mon, 04 May 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/the-little-mongodb-book-2nd-italian-edition/</guid>
       <description>The second edition of the Little MongoDB Book Italian Edition is finally up. It is aligned to MongoDB 2.6 and includes a much needed introduction to the Aggregation Frameworks. Enjoy.</description>
+      <content:encoded><![CDATA[<p>The second edition of the <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/">Little MongoDB Book Italian Edition</a> is finally up. It is aligned to MongoDB 2.6 and includes a much needed introduction to the Aggregation Frameworks. Enjoy.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>MongoDB and REST API go for a picnic (video and slides)</title>
@@ -30,6 +36,9 @@ Overall it has been a pleasant experience, although I found that splitting 300 a
       <guid>https://nicolaiarocci.com/mongodb-rest-api-go-picnic-video-slides/</guid>
       <description>I had the opportunity to give my RESTful WeB APIs and MongoDB Go For A Picnic talk at both MongoTorino and NoSQL Day. The folks at PUG Friuli where so nice to record all the NoSQL Day sessions, so here you have it: the full length video of yours truly speaking to a fully packed room crowded with 120 very attentive attendees.
 Unfortunately audio is horrible and while all MongoTorino talks were in english, NoSQL Day was an italian-only event.</description>
+      <content:encoded><![CDATA[<p>I had the opportunity to give my <a href="https://speakerdeck.com/nicola/restful-web-api-and-mongodb-go-for-a-pic-nic">RESTful WeB APIs and MongoDB Go For A Picnic</a> talk at both <a href="http://www.mongotorino.org/">MongoTorino</a> and <a href="http://2013.nosqlday.it/">NoSQL Day</a>. The folks at PUG Friuli where so nice to record all the NoSQL Day sessions, so here you have it: the full length <a href="http://vimeo.com/79662146">video of yours truly speaking</a> to a fully packed room crowded with 120 very attentive attendees.</p>
+<p>Unfortunately audio is horrible and while all MongoTorino talks were in english, NoSQL Day was an italian-only event. The slide deck is in english however, and is available on both <a href="https://speakerdeck.com/nicola/restful-web-api-and-mongodb-go-for-a-pic-nic">SpeakerDeck</a> and <a href="http://www.slideshare.net/nicolaiarocci/rest-web-api-with-mongodb">SlideShare</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>My interview on being a MongoDB Master</title>
@@ -39,6 +48,16 @@ Unfortunately audio is horrible and while all MongoTorino talks were in english,
       <description>So I’ve been interviewed by Laura Czajkowski on my experience and role as a MongoDB Master. The interview actually covers more angles than that and I guess that, if you really don’t have anything better to do, you might even want to check it out.
 How did you get involved in open source?
 I’ve been an avid developer delivering desktop applications in the .NET/MSSQL closed source ecosystem for so many years that open source wasn’t even on my radar.</description>
+      <content:encoded><![CDATA[<p>So I’ve been interviewed by Laura Czajkowski on my experience and role as a MongoDB Master. The interview actually covers more angles than that and I guess that, if you <em>really</em> don’t have anything better to do, you might even want to check it out.</p>
+<blockquote>
+<p><strong>How did you get involved in open source?</strong></p>
+<p>I’ve been an avid developer delivering desktop applications in the .NET/MSSQL closed source ecosystem for so many years that open source wasn’t even on my radar.</p>
+<p>Then a few years ago, like everybody else, we found that we needed to get involved with the mobile world. That’s when I thought that it was time to finally to get out of my comfort zone and start looking out of my walled garden. In fact, while historically there always have been little alternative to the Microsoft/.NET/SQL ecosystem for building business Windows applications, now we were about to address a completely different beast.</p>
+<p>First step in any mobile strategy is building a proper web infrastructure, like one or more web APIs, remote servers, etc. While .NET was well suited for the task, I knew that there were other valid, robust and mature alternatives out there and that I had to learn more about them before picking any choice.</p>
+<p>My involvement with open source, the whole Python language, MongoDB and the NoSQL movement is the direct consequence of that learning process.</p>
+</blockquote>
+<p><!-- raw HTML omitted -->Meeting the EMEA MongoDB Masters – Nicola Iarocci<!-- raw HTML omitted --></p>
+]]></content:encoded>
     </item>
     <item>
       <title>MongoDB Masters Summit 2013</title>
@@ -46,6 +65,8 @@ I’ve been an avid developer delivering desktop applications in the .NET/MSSQL 
       <pubDate>Tue, 25 Jun 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/mongodb-masters-summit-2013/</guid>
       <description>I’m just back from the MongoDB Masters Summit hosted by 10Gen in New York City. In just a couple days I was given the opportunity to meet and share knowledge (and fun!) with amazingly talented minds coming from all over the world. I’m back with literally dozen new ideas opportunities and concepts, on which I’ll need to elaborate a little bit. While I cannot comment on the many things the smart minds at 10Gen are working on, rest assured that the future of MongoDB is looking great and brighter than ever.</description>
+      <content:encoded><![CDATA[<p>I’m just back from the <!-- raw HTML omitted -->MongoDB Masters<!-- raw HTML omitted --> Summit hosted by 10Gen in New York City. In just a couple days I was given the opportunity to meet and share knowledge (and fun!) with amazingly talented minds coming from all over the world. I’m back with literally dozen new ideas opportunities and concepts, on which I’ll need to elaborate a little bit. While I cannot comment on the many things the smart minds at 10Gen are working on, rest assured that the future of MongoDB is looking great and brighter than ever.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>MongoDB User Group a Cesena</title>
@@ -54,6 +75,9 @@ I’ve been an avid developer delivering desktop applications in the .NET/MSSQL 
       <guid>https://nicolaiarocci.com/mongodb-user-group/</guid>
       <description>Domani sarò al primo meeting romagnolo del #MUG MongoDB User Group organizzato da 10Gen (azienda dietro a MongoDB), Byte-Code e Ideato.
 Parlerò di MongoDB usato come backend per una REST WEB API. L’evento si svolgerà in serata a Cesena, è gratuito, e ci sono ancora posti disponibili. Se ci siete passate a salutarmi.</description>
+      <content:encoded><![CDATA[<p>Domani sarò al primo meeting romagnolo del #MUG MongoDB User Group organizzato da 10Gen (azienda dietro a MongoDB), Byte-Code e Ideato.</p>
+<p><!-- raw HTML omitted -->Parlerò di MongoDB usato come backend per una REST WEB API. <!-- raw HTML omitted -->L’evento si svolgerà in serata a Cesena, è gratuito, e ci sono ancora <a href="http://www.eventbrite.com/event/6297117849">posti disponibili</a>. Se ci siete passate a salutarmi.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Aggiornato il Piccolo Libro di MongoDB</title>
@@ -61,6 +85,8 @@ Parlerò di MongoDB usato come backend per una REST WEB API. L’evento si svol
       <pubDate>Sat, 24 Nov 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/aggiornato-il-piccolo-libro-di-mongodb/</guid>
       <description>Finalmente ho trovato il tempo per aggiornare Il Piccolo Libro di MongoDB. Grazie ai contributi di Andrea Rabbaglietti e Michele Zonca sono stati corretti molti errori sparsi qui e là nel testo. Ho approfittato dell’occasione per ritoccare il formato grafico allineandolo alla versione più recente dell’edizione inglese. Se avete già scaricato il libro vi consiglio di rifarlo: la nuova edizione è decisamente più leggibile.</description>
+      <content:encoded><![CDATA[<p>Finalmente ho trovato il tempo per aggiornare <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB">Il Piccolo Libro di MongoDB</a>. Grazie ai contributi di Andrea Rabbaglietti e Michele Zonca sono stati corretti molti errori sparsi qui e là nel testo. Ho approfittato dell’occasione per ritoccare il formato grafico allineandolo alla versione più recente dell’edizione inglese. Se avete già scaricato il libro vi consiglio di rifarlo: la nuova edizione è decisamente più leggibile.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Come evitare i trabocchetti di MongoDB</title>
@@ -68,6 +94,8 @@ Parlerò di MongoDB usato come backend per una REST WEB API. L’evento si svol
       <pubDate>Sat, 17 Nov 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/come-evitare-i-trabocchetti-di-mongodb/</guid>
       <description>E niente, è un articolo così importante che mi sono procurato dall’autore il permesso di curarne la traduzione. Solo che non trovo il tempo per farla la traduzione, quindi vi passo direttamente l’originale. In MongoDB Gotchas &amp;amp; How To Avoid Them Russel Smith raccoglie una decina di preziosi consigli che non potete assolutamente perdervi se state pensando di usare MongoDB in produzione.</description>
+      <content:encoded><![CDATA[<p>E niente, è un articolo così importante che mi sono procurato dall’autore il permesso di curarne la traduzione. Solo che non trovo il tempo per farla la traduzione, quindi vi passo direttamente l’originale. In <!-- raw HTML omitted -->MongoDB Gotchas &amp; How To Avoid Them<!-- raw HTML omitted --> Russel Smith raccoglie una decina di preziosi consigli che non potete assolutamente perdervi se state pensando di usare MongoDB in produzione.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>REST API con MongoDB</title>
@@ -76,6 +104,9 @@ Parlerò di MongoDB usato come backend per una REST WEB API. L’evento si svol
       <guid>https://nicolaiarocci.com/rest-api-con-mongodb/</guid>
       <description>Le slide che ho presentato a ‘A Morning with MongoDB‘ (24 ottobre, Milano) sono disponibili online. Gran parte degli interventi erano di tipo divulgativo ed inizialmente ero preoccupato che i miei contenuti fossero troppo tecnici. In realtà in sala c’erano davvero tanti programmatori, quindi tutto è andato bene.
 A margine dell’evento molte le domande su Eve, la REST API open source a cui sto lavorando e che conto di rilasciare entro fine anno: bene!</description>
+      <content:encoded><![CDATA[<p>Le slide che ho presentato a ‘<!-- raw HTML omitted -->A Morning with MongoDB<!-- raw HTML omitted -->‘ (24 ottobre, Milano) sono disponibili online. Gran parte degli interventi erano di tipo divulgativo ed inizialmente ero preoccupato che i miei contenuti fossero troppo tecnici. In realtà in sala c’erano davvero tanti programmatori, quindi tutto è andato bene.</p>
+<p>A margine dell’evento molte le domande su <!-- raw HTML omitted -->Eve<!-- raw HTML omitted -->, la REST API open source a cui sto lavorando e che conto di rilasciare entro fine anno: bene! Grazie a tutti i partecipanti ed a 10Gen per avermi invitato.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Una mattinata con MongoDB</title>
@@ -83,6 +114,8 @@ A margine dell’evento molte le domande su Eve, la REST API open source a cui s
       <pubDate>Wed, 10 Oct 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/una-mattinata-con-mongodb/</guid>
       <description>Il prossimo 24 ottobre sarò a Milano per A Morning with MongoDB, evento ufficiale 10gen nel corso del quale racconterò la mia esperienza nell’integrazione di MongoDB in una Web REST API. Partecipazione e registrazione sono gratuite: cosa aspettate?</description>
+      <content:encoded><![CDATA[<p>Il prossimo 24 ottobre sarò a Milano per <!-- raw HTML omitted -->A Morning with MongoDB<!-- raw HTML omitted -->, evento ufficiale 10gen nel corso del quale racconterò la mia esperienza nell’integrazione di MongoDB in una Web REST API. Partecipazione e <!-- raw HTML omitted -->registrazione<!-- raw HTML omitted --> sono gratuite: cosa aspettate?</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Ottimizzare le prestazioni di MongoDB</title>
@@ -90,6 +123,8 @@ A margine dell’evento molte le domande su Eve, la REST API open source a cui s
       <pubDate>Thu, 27 Sep 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/ottimizzare-le-prestazioni-di-mongodb/</guid>
       <description>MongoDB Schema Design at Scale è un’eccellente articolo cu come ottimizzare database MongoDB sottoposti a pesanti carichi di lavoro, soprattutto in scrittura. Il messaggio, forte e chiaro, è sempre lo stesso: prima di agire studia per bene il tuo database engine; comprendine i vantaggi e soprattutto i punti deboli.</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->MongoDB Schema Design at Scale<!-- raw HTML omitted --> è un’eccellente articolo cu come ottimizzare database MongoDB sottoposti a pesanti carichi di lavoro, soprattutto in scrittura. Il messaggio, forte e chiaro, è sempre lo stesso: prima di agire studia per bene il tuo database engine; comprendine i vantaggi e soprattutto i punti deboli.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Sviluppare una RESTful Web API con Python, Flask e MongoDB</title>
@@ -98,6 +133,13 @@ A margine dell’evento molte le domande su Eve, la REST API open source a cui s
       <guid>https://nicolaiarocci.com/sviluppare-una-restful-web-api-con-python-flask-e-mongodb/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;La scorsa settimana a &lt;!-- raw HTML omitted --&gt;EuroPython 2012&lt;!-- raw HTML omitted --&gt; ho tenuto un talk intitolato &lt;!-- raw HTML omitted --&gt;Sviluppare una RESTful Web API con Python, Flask e MongoDB&lt;!-- raw HTML omitted --&gt;. Mi ha fatto piacere riscontrare forte interesse sia per gli aspetti teorici dell’architettura REST che per la loro implementazione pratica con strumenti quali Flask e MongoDB. In entrambe le sessioni inglese e italiana mi sono state rivolte molte domande, sia in occasione delle Q&amp;amp;A plenarie che nei successivi colloqui informali. Parecchi anche i commenti ed i suggerimenti, davvero utili ed apprezzati (a quanto pare non sono l’unico che, forte di un background .NET, ha compiuto o sta per compiere il salto verso Python e il mondo open source).&lt;/p&gt;
 &lt;p&gt;Soprattutto ho rilevato una forte curiosità su MongoDB, un database non-relazionale verso il quale sembra prevalere un atteggiamento  di generale timidezza: “vorrei ma non oso”, insomma. Per quanto riguarda Flask direi che ormai, nel vasto firmamento dei micro web framework, è una stella che brilla di luce propria.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->La scorsa settimana a <!-- raw HTML omitted -->EuroPython 2012<!-- raw HTML omitted --> ho tenuto un talk intitolato <!-- raw HTML omitted -->Sviluppare una RESTful Web API con Python, Flask e MongoDB<!-- raw HTML omitted -->. Mi ha fatto piacere riscontrare forte interesse sia per gli aspetti teorici dell’architettura REST che per la loro implementazione pratica con strumenti quali Flask e MongoDB. In entrambe le sessioni inglese e italiana mi sono state rivolte molte domande, sia in occasione delle Q&amp;A plenarie che nei successivi colloqui informali. Parecchi anche i commenti ed i suggerimenti, davvero utili ed apprezzati (a quanto pare non sono l’unico che, forte di un background .NET, ha compiuto o sta per compiere il salto verso Python e il mondo open source).</p>
+<p>Soprattutto ho rilevato una forte curiosità su MongoDB, un database non-relazionale verso il quale sembra prevalere un atteggiamento  di generale timidezza: “vorrei ma non oso”, insomma. Per quanto riguarda Flask direi che ormai, nel vasto firmamento dei micro web framework, è una stella che brilla di luce propria.</p>
+<p>Per quanto riguarda le registrazioni video potete andare su YouTube o sulla pagina ufficiale di EuroPython (<!-- raw HTML omitted -->english track<!-- raw HTML omitted --> e <!-- raw HTML omitted -->italian track<!-- raw HTML omitted -->). Ammetto di essere più soddisfatto della versione inglese nella quale – complice anche l’esperienza italiana del giorno prima – credo di essere stato più sintetico ed efficace. Qui mi limito a proporvi le slide:</p>
+<h2 id="ringraziamenti">Ringraziamenti</h2>
+<p>Un immenso grazie ai ragazzi dello staff di EuroPython che veramente hanno fatto di tutto per rendere questa manifestazione un evento straordinario – e ci sono riusciti  (una settimana di talk su cinque tracce parallele, sprint, hands-on, corsi, cibo di ottima qualità e credo oltre 800 partecipanti).</p>
+<p>Vi racconto un episodio giusto per darvi l’idea di quanto questi ragazzi, tutti volontari, si diano da fare e ci mettano passione vera. Nella sessione italiana ho ‘sforato’ (capita anche ai migliori, mi dicono!) e così mi son trovato a sorvolare su un certo numero di slide. Ebbene il mio talk manager e il suo assistente mi hanno proposto di loro iniziativa di tenere una sessione pomeridiana straordinaria per consentirmi di portare a termine la mia relazione. Non capita tutti i giorni, credetemi. Per mia fortuna gran parte delle persone che avevano assistito alla sessione mattutina sono poi tornate per quella del pomeriggio, altrimenti sai che figura!</p>
+<p>Se siete pythonisti o vorreste diventarlo non perdetevi la prossima edizione di questo evento internazionale che, con tutta probabilità, si terrà di nuovo a Firenze l’anno prossimo.</p>]]></content:encoded>
     </item>
     <item>
       <title>Primo importante aggiornamento del Piccolo Libro di MongoDB</title>
@@ -105,6 +147,8 @@ A margine dell’evento molte le domande su Eve, la REST API open source a cui s
       <pubDate>Thu, 08 Mar 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/primo-importante-aggiornamento-del-piccolo-libro-di-mongodb/</guid>
       <description>Se avete già scaricato il Piccolo Libro di MongoDB vi consiglio di aggiornarlo con la versione odierna. E’ stato aggiunto un capitolo (MapReduce) misteriosamente assente nella prima edizione. Grazie a Walter Tommasi per la preziosa segnalazione, e a Git per averne consentito il recupero in extremis.</description>
+      <content:encoded><![CDATA[<p>Se avete già scaricato il <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB">Piccolo Libro di MongoDB</a> vi consiglio di aggiornarlo con la versione odierna. E’ stato aggiunto un capitolo (MapReduce) misteriosamente assente nella prima edizione. Grazie a Walter Tommasi per la preziosa segnalazione, e a <a href="http://nicolaiarocci.com/branching-di-successo-per-git/" title="Branching di successo per Git">Git</a> per averne consentito il recupero in extremis.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>E’ uscito il Piccolo Libro di MongoDB</title>
@@ -112,6 +156,8 @@ A margine dell’evento molte le domande su Eve, la REST API open source a cui s
       <pubDate>Tue, 21 Feb 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/e-uscito-il-piccolo-libro-di-mongodb/</guid>
       <description>Il Piccolo Libro di MongoDB, edizione italiana di The Little MongoDB Book, è finalmente disponibile online. C’è voluto un bel po’ di lavoro, e sono certo i primi lettori scoveranno una serie di errori raccapriccianti, ma vi invito comunque a leggerlo e farmi sapere cosa ne pensate.</description>
+      <content:encoded><![CDATA[<p><a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB, Edizione Italiana">Il Piccolo Libro di MongoDB</a>, edizione italiana di The Little MongoDB Book, è finalmente <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB">disponibile online</a>. C’è voluto un bel po’ di lavoro, e sono certo i primi lettori scoveranno una serie di errori raccapriccianti, ma vi invito comunque a leggerlo e farmi sapere cosa ne pensate.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Il Piccolo Libro di MongoDB</title>
@@ -121,6 +167,12 @@ A margine dell’evento molte le domande su Eve, la REST API open source a cui s
       <description>&lt;p&gt;&lt;em&gt;Update: il &lt;a href=&#34;http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/&#34; title=&#34;Il Piccolo Libro di MongoDB, Edizione Italiana&#34;&gt;Piccolo Libro di MongoDB, Edizione Italiana&lt;/a&gt; è ora disponibile online.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Ho cominciato a lavorare alla traduzione autorizzata dell’ottimo &lt;!-- raw HTML omitted --&gt;The Little MongoDB Book&lt;!-- raw HTML omitted --&gt; di Karl Seguin. Ho scovato il libro di Karl mentre raccoglievo la documentazione per un nuovo progetto super-segreto (!) a cui sto lavorando. Lo ritengo un’ottima introduzione al mondo &lt;!-- raw HTML omitted --&gt;NoSQL&lt;!-- raw HTML omitted --&gt; in generale e naturalmente al fantastico &lt;!-- raw HTML omitted --&gt;MongoDB&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
 &lt;p&gt;Il titolo italiano sarà Il Piccolo Libro di MongoDB. La traduzione prosegue costante ma a piccoli passi perché purtroppo o per fortuna di tempo libero ne ho poco. Al momento sono tradotti più o meno grossolanamente l’introduzione e il primo capitolo. Mi farebbe comodo un po’ di aiuto, in particolare per quanto riguarda la revisione del testo. Se qualcuno vuol dare una mano è il benvenuto: potete fare delle &lt;em&gt;pull request&lt;/em&gt; direttamente su &lt;!-- raw HTML omitted --&gt;GitHub&lt;!-- raw HTML omitted --&gt; (metodo preferibile), oppure mandarmi le correzioni via mail. In cambio vi prometto una menzione d’onore e l’eterna gratitudine dei futuri cultori italiani di MongoDB!&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><em>Update: il <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB, Edizione Italiana">Piccolo Libro di MongoDB, Edizione Italiana</a> è ora disponibile online.</em></p>
+<p>Ho cominciato a lavorare alla traduzione autorizzata dell’ottimo <!-- raw HTML omitted -->The Little MongoDB Book<!-- raw HTML omitted --> di Karl Seguin. Ho scovato il libro di Karl mentre raccoglievo la documentazione per un nuovo progetto super-segreto (!) a cui sto lavorando. Lo ritengo un’ottima introduzione al mondo <!-- raw HTML omitted -->NoSQL<!-- raw HTML omitted --> in generale e naturalmente al fantastico <!-- raw HTML omitted -->MongoDB<!-- raw HTML omitted -->.</p>
+<p>Il titolo italiano sarà Il Piccolo Libro di MongoDB. La traduzione prosegue costante ma a piccoli passi perché purtroppo o per fortuna di tempo libero ne ho poco. Al momento sono tradotti più o meno grossolanamente l’introduzione e il primo capitolo. Mi farebbe comodo un po’ di aiuto, in particolare per quanto riguarda la revisione del testo. Se qualcuno vuol dare una mano è il benvenuto: potete fare delle <em>pull request</em> direttamente su <!-- raw HTML omitted -->GitHub<!-- raw HTML omitted --> (metodo preferibile), oppure mandarmi le correzioni via mail. In cambio vi prometto una menzione d’onore e l’eterna gratitudine dei futuri cultori italiani di MongoDB!</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>A lavori ultimati rilascerò il Piccolo Libro di MongoDB nei formati PDF, ePub, .mobi e probabilmente HTML. Se avete commenti o suggerimenti in proposito fatemelo sapere!</p>]]></content:encoded>
     </item>
     <item>
       <title>Chess@home è una Intelligenza Artificiale Distribuita per gli Scacchi</title>
@@ -130,6 +182,14 @@ A margine dell’evento molte le domande su Eve, la REST API open source a cui s
       <description>&lt;p&gt;Il progetto &lt;!-- raw HTML omitted --&gt;Chess@home&lt;!-- raw HTML omitted --&gt; è il vincitore del recente &lt;!-- raw HTML omitted --&gt;Node Knockout&lt;!-- raw HTML omitted --&gt;, ed una volta tanto si tratta di qualcosa di davvero innovativo e intrigante. Obiettivo: la creazione della più potente Intelligenza Artificiale per il gioco degli Scacchi al mondo, generata nientemeno che dai browser attivi sulla rete.&lt;/p&gt;
 &lt;p&gt;L’elaborazione collaborativa distribuita è diventata famosa grazie a progetti come &lt;!-- raw HTML omitted --&gt;SETI@home&lt;!-- raw HTML omitted --&gt; e &lt;!-- raw HTML omitted --&gt;Folding@home&lt;!-- raw HTML omitted --&gt;. Semplificando molto potremmo dire che questo tipo di applicazione prevede che un piccolo programma venga installato e fatto girare su decine di migliaia di computer volontari. La capacita elaborativa del progetto è data dalla somma delle elaborazioni individuali.&lt;/p&gt;
 &lt;p&gt;La novità di Chess@Home consiste nell’idea di ricorrere a codice JavaScript che gira nel browser, dunque senza alcuna necessità di client dedicati. Appositi widget presenti nelle pagine dei siti aderenti innestano l’elaborazione sul computer del visitatore, potenzialmente decuplicando il numero di nodi che partecipano all’elaborazione (più visitatori accedono alla stessa pagina contemporaneamente).&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Il progetto <!-- raw HTML omitted -->Chess@home<!-- raw HTML omitted --> è il vincitore del recente <!-- raw HTML omitted -->Node Knockout<!-- raw HTML omitted -->, ed una volta tanto si tratta di qualcosa di davvero innovativo e intrigante. Obiettivo: la creazione della più potente Intelligenza Artificiale per il gioco degli Scacchi al mondo, generata nientemeno che dai browser attivi sulla rete.</p>
+<p>L’elaborazione collaborativa distribuita è diventata famosa grazie a progetti come <!-- raw HTML omitted -->SETI@home<!-- raw HTML omitted --> e <!-- raw HTML omitted -->Folding@home<!-- raw HTML omitted -->. Semplificando molto potremmo dire che questo tipo di applicazione prevede che un piccolo programma venga installato e fatto girare su decine di migliaia di computer volontari. La capacita elaborativa del progetto è data dalla somma delle elaborazioni individuali.</p>
+<p>La novità di Chess@Home consiste nell’idea di ricorrere a codice JavaScript che gira nel browser, dunque senza alcuna necessità di client dedicati. Appositi widget presenti nelle pagine dei siti aderenti innestano l’elaborazione sul computer del visitatore, potenzialmente decuplicando il numero di nodi che partecipano all’elaborazione (più visitatori accedono alla stessa pagina contemporaneamente).</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>E’ facile intravedere complicazioni etiche ma occorre tenere conto del fatto che il progetto, messo in piedi in sole 48 ore, è nato soprattutto come esperimento per testare il limite delle tecnologie impiegate (Node.JS, MongoDB, JavaScript). Vi consiglio caldamente l’articolo di uno degli ideatori, <!-- raw HTML omitted -->Sylvain Zimmer<!-- raw HTML omitted -->, che descrive genesi e dettagli tecnici del progetto.</p>
+<p>Già oggi potete giocare la vostra prima partita a scacchi contro la rete. Il mio cuore di nerd (che in anni ahimè troppo lontani ha fatto girare impunemente il client SETI per mesi e mesi) tifa per voi.</p>
+<p><em>PS: domani al Romagna Camp 2011 terrò una relazione dal titolo “Quattro passi fra le nuvole (e non scordate il paracadute)”. Per saperne di più date una occhiata <a href="http://nicolaiarocci.com/quattro-passi-tra-le-nuvole-al-romagna-camp-2011/" title="Quattro passi fra le nuvole">qui</a>.</em></p>]]></content:encoded>
     </item>
   </channel>
 </rss>

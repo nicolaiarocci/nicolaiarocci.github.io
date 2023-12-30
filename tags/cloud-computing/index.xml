@@ -15,6 +15,13 @@
       <guid>https://nicolaiarocci.com/sql-server-e-il-cloud-di-amazon-ec2-vantaggi-e-svantaggi/</guid>
       <description>Se state considerando l’opzione Cloud per il vostro SQL Server non lasciatevi sfuggire l’ultimo articolo di Jeremiah Peschka, Configuring SQL Server in Amazon EC2. A dispetto del titolo non si tratta di un tutorial, ma di una analisi accurata di vantaggi e svantaggi legati al deploy di un database SQL nel Cloud, a prescindere dalla piattaforma adottata.
 Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità. Nel cloud, anche la cacca profuma di rose.</description>
+      <content:encoded><![CDATA[<p>Se state considerando l’opzione Cloud per il vostro SQL Server non lasciatevi sfuggire l’ultimo articolo di Jeremiah Peschka, <!-- raw HTML omitted -->Configuring SQL Server in Amazon EC2<!-- raw HTML omitted -->. A dispetto del titolo non si tratta di un tutorial, ma di una analisi accurata di vantaggi e svantaggi legati al <em>deploy</em> di un database SQL nel Cloud, a prescindere dalla piattaforma adottata.</p>
+<blockquote>
+<p>Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità. Nel cloud, anche la cacca profuma di rose. In teoria queste affermazioni sono corrette, ma occorre darci dentro per trasformarle in realtà. Specialmente quando c’è un database nel mezzo.</p>
+</blockquote>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+]]></content:encoded>
     </item>
     <item>
       <title>Frammenti di Cloud Computing al Romagna Camp 2011</title>
@@ -23,6 +30,14 @@ Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità
       <guid>https://nicolaiarocci.com/frammenti-di-cloud-computing-al-romagna-camp-2011/</guid>
       <description>&lt;p&gt;Gran bella esperienza quella del &lt;!-- raw HTML omitted --&gt;Romagna Camp&lt;!-- raw HTML omitted --&gt;. Un mix perfetto di networking, lavoro e (tanto) divertimento. Chi c’era sa, chi non c’era faccia un giro sul tag &lt;!-- raw HTML omitted --&gt;#romagnacamp&lt;!-- raw HTML omitted --&gt; di Twitter e saprà.&lt;/p&gt;
 &lt;p&gt;Scopro con disappunto che SlideShare fa un pessimo servizio a Keynote, non rendendo né transizioni né animazioni e sostituendo i font come gli pare. Ecco dunque la mia presentazione, o piuttosto quel che ne rimane dopo l’upload*:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Gran bella esperienza quella del <!-- raw HTML omitted -->Romagna Camp<!-- raw HTML omitted -->. Un mix perfetto di networking, lavoro e (tanto) divertimento. Chi c’era sa, chi non c’era faccia un giro sul tag <!-- raw HTML omitted -->#romagnacamp<!-- raw HTML omitted --> di Twitter e saprà.</p>
+<p>Scopro con disappunto che SlideShare fa un pessimo servizio a Keynote, non rendendo né transizioni né animazioni e sostituendo i font come gli pare. Ecco dunque la mia presentazione, o piuttosto quel che ne rimane dopo l’upload*:</p>
+<p>Essendo l’ultimo speaker ho dovuto correre un po’ per recuperare tempo e non far deragliare il programma. Probabilmente si tratta di una cosa positiva perché almeno così non ho avuto il tempo di annoiare il pubblico. E’ andata peggio al povero</p>
+<p><!-- raw HTML omitted -->Fullo<!-- raw HTML omitted -->, a cui è toccato in sorte di raccontare HTML5 in dieci minuti!</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Nell’occasione ho approfittato della disponibilità di <!-- raw HTML omitted -->Luca Sartoni<!-- raw HTML omitted --> (che è anche un bravo fotografo) per <a href="http://nicolaiarocci.com/about/" title="Chi sono | Nicola Iarocci">rifarmi il look</a>. Grazie infine ad <!-- raw HTML omitted -->Alessandra<!-- raw HTML omitted -->, ottima organizzatrice di eventi e sorprendente <em><!-- raw HTML omitted -->social tanguera extraordinaire<!-- raw HTML omitted --></em>.</p>
+<p><em>(*) se per un attimo vi è sembrato che il tizio in copertina indossasse le Converse al contrario bé, allora sappiate che è proprio così.</em></p>]]></content:encoded>
     </item>
     <item>
       <title>Il Cloud Computing è davvero affidabile?</title>
@@ -33,6 +48,24 @@ Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità
 &lt;p&gt;Migliaia di aziende, enti pubblici e organizzazioni non governative internazionali che oggi usano la API dovranno trovare soluzioni alternative, probabilmente a pagamento. Almeno gli è stato concesso un po’ di tempo: Google garantisce un periodo di tre anni prima della sospensione del servizio.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Questa notizia induce ancora una volta alcune riflessioni circa l’affidabilità del &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Cloud Computing&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt;, modello di sviluppo verso il quale, volenti o nolenti, tutti noi siamo diretti.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->E’ di pochi giorni fa la <!-- raw HTML omitted -->notizia<!-- raw HTML omitted --> che alcuni servizi API gratuiti forniti da Google verranno chiusi. Tra questi spicca <strong><!-- raw HTML omitted -->Translate API<!-- raw HTML omitted --></strong>, la più apprezzata libreria gratuita per la traduzione automatica sul web. Basta una occhiata ai <!-- raw HTML omitted -->commenti <!-- raw HTML omitted -->per rendersi conto dello sconcerto generato dall’annuncio, per altro del tutto inatteso. Molti si dicono disposti a pagare pur di non rinunciare alla API, ma non è  questa l’idea di Google che in alternativa propone <!-- raw HTML omitted -->Google Translate Element<!-- raw HTML omitted -->, widget gratuito che certo non è una soluzione accettabile per applicazioni che attualmente integrano la API in maniera trasparente. Immagino che proprio qui stia il nocciolo della questione: una API non è visibile né apprezzabile dall’esterno, mentre un widget promuove il brand Google.</p>
+<p>Migliaia di aziende, enti pubblici e organizzazioni non governative internazionali che oggi usano la API dovranno trovare soluzioni alternative, probabilmente a pagamento. Almeno gli è stato concesso un po’ di tempo: Google garantisce un periodo di tre anni prima della sospensione del servizio.</p>
+<!-- raw HTML omitted -->
+<p>Questa notizia induce ancora una volta alcune riflessioni circa l’affidabilità del <strong><!-- raw HTML omitted -->Cloud Computing<!-- raw HTML omitted --></strong>, modello di sviluppo verso il quale, volenti o nolenti, tutti noi siamo diretti.</p>
+<p><!-- raw HTML omitted -->Stand-Alone Vs Cloud Computing<!-- raw HTML omitted --></p>
+<p>Le vecchie applicazioni stand alone funzionano sempre e comunque. Prima o poi il programmatore originale sparisce dalla circolazione; del codice sorgente (se disponibile) nessuno capisce più nulla, ma l’applicazione continua a girare. E se una delle librerie usate dall’applicazione (le vecchie .dll, per capirci) viene improvvisamente abbandonata dal produttore? Non ci sono problemi, l’installazione gira come prima.</p>
+<p>Nel dorato mondo <!-- raw HTML omitted -->PaaS<!-- raw HTML omitted --> le applicazioni smettono di funzionare non appena una singola API remota diventa inaccessibile. Non mi sembra una differenza da poco.</p>
+<h2 id="disservizi-e-sorprese">Disservizi e sorprese</h2>
+<p>Si potrebbe obiettare che appoggiarsi a una API gratuita per sviluppare un prodotto strategico non è una mossa intelligente e che comunque casi di disservizi come questo sono assai rari. In Aprile alcuni server Amazon AWS (la piattaforma cloud più usata al mondo) <!-- raw HTML omitted -->sono andati in corto circuito<!-- raw HTML omitted --> lasciando improvvisamente a piedi centinaia di fornitori di servizi e diversi milioni di loro utenti. Il disservizio, durato oltre ventiquattro ore, è avvenuto nonostante AWS sia un servizio a pagamento di altissimo livello che garantisce un livello di Service Level Agreement (SLA) superiore al 99%.</p>
+<p>Un caso diverso ma dalle stesse conseguenze  si è verificato proprio in casa Google poche settimane fa, quando <!-- raw HTML omitted -->Google App Engine<!-- raw HTML omitted --> è diventato a pagamento (almeno per alcuni livelli di utilizzo prima gratuiti), mettendo di fatto fuori mercato molti piccoli servizi gratuiti che avevano scelto la piattaforma cloud del gigante di Mountain View.</p>
+<h2 id="le-contromisure-necessarie">Le contromisure necessarie</h2>
+<p>Non per questo penso che il cloud computing vada evitato, ne sono anzi un sostenitore convinto, ma è importante per noi tutti <strong>comprendere a fondo i limiti e i rischi che questo nuovo paradigma porta con sé</strong>.</p>
+<p>Un paio di anni fa ho scritto <!-- raw HTML omitted -->un programma di backup remoto<!-- raw HTML omitted --> che si appoggia a <!-- raw HTML omitted -->Simple Storage Service<!-- raw HTML omitted --> (S3), uno dei servizi della piattaforma Amazon AWS. Il programma ha continuato a lavorare impunemente mentre il disastro si abbatteva sui server Amazon della East Coast perché, fin dall’inizio, era progettato per far fronte a evenienze come questa. Usa server multipli ridondanti dislocati su più aree geografiche, in modo che il crash di una singola server farm non lo mandi in tilt. E’ bene aspettarsi il peggio dai servizi cloud per essere pronti a gestire la crisi se (quando) verrà.</p>
+<p>Per quanto riguarda il modello di business, è necessario adottarne uno che garantisca margini sufficienti a compensare improvvisi aumenti delle tariffe, anche solo per il periodo necessario alla eventuale dislocazione. La tendenza generale del mercato è comunque rassicurante: in questi anni costi dei servizi cloud sono calati costantemente.</p>
+<h2 id="le-responsabilità-stanno-da-entrambe-le-parti">Le responsabilità stanno da entrambe le parti</h2>
+<p>E se domani mi si annunciasse che S3 è improvvisamente deprecato? Fortunatamente per me e per le migliaia di altri il servizio non è gratuito e assicura ad Amazon utili stellari, ma non è questo il punto. Il punto è che in ogni momento <em>potrebbe succedere</em>.</p>
+<p>I fornitori di servizi cloud hanno una grande responsabilità: garantire la continuità del loro servizio anche e soprattutto nel lungo periodo. Speriamo che ne siano coscienti. Noi programmatori e analisti dobbiamo tenere conto dei rischi che corriamo quando scegliamo di lavorare su piattaforme cloud, progettando i nostri prodotti di conseguenza.</p>
+<p><em>Aggiornamento. Venerdì 3 giugno Google ha ritoccato l’annuncio ufficiale. La chiusura è annullata e la Translate API verrà messa a pagamento.</em></p>]]></content:encoded>
     </item>
     <item>
       <title>Programmazione, SEO, Startups – Il Meglio della Settimana #1</title>
@@ -40,6 +73,65 @@ Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità
       <pubDate>Mon, 21 Feb 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/programmazione-seo-startups-il-meglio-della-settimana-1/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Vi propongo una scelta delle risorse più interessanti e curiose che ho scovato questa settimana in rete. Ce né per tutti i gusti: programmazione, SEO, Startups e curiosità. Andiamo a cominciare:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Vi propongo una scelta delle risorse più interessanti e curiose che ho scovato questa settimana in rete. Ce né per tutti i gusti: programmazione, SEO, Startups e curiosità. Andiamo a cominciare:</p>
+<ol>
+<li>
+<p><strong><a href="http://docs.python.org/dev/howto/pyporting.html">Da Python 2 a Python 3</a></strong></p>
+<p>Python 3 è il futuro, ma Python 2 è attualmente la versione più usata al mondo. Ora finalmente la documentazione ufficiale è arricchita da una bella guida alle migliori strategie per supportare entrambe le versioni di Python.</p>
+<p><a href="http://docs.python.org/dev/howto/pyporting.html"></a></p>
+</li>
+<li>
+<p><a href="http://blogs.nationalgeographic.com/blogs/news/breakingorbit/2011/01/400-volunteer-for-one-way-mars-trip.html"><strong>Per quale motivo 400 persone si sono offerte volontarie per una viaggio di sola andata verso Marte?</strong></a></p>
+</li>
+</ol>
+<pre><code>Il numero Ottobre-Novembre 2010 del _Journal of Cosmology_ contiene uno speciale di 55 pagine intitolato &amp;#8220;Missione Umana su Marte: Colonizzare il Pianeta Rosso&amp;#8221;. Secondo gli scienziati una missione di sola andata destinata a colonizzare Marte sarebbe possibile entro 20 anni. Cosa ha spinto ben quattrocento lettori a offrirsi come volontari per la missione?
+</code></pre>
+<ol start="3">
+<li><strong><a href="http://www.seomoz.org/blog/tweets-effect-rankings-unexpected-case-study">Il sorprendente effetto di un singolo Tweet sul Page Rank di Google</a></strong></li>
+</ol>
+<pre><code>Google ha ammesso recentemente che i link provenienti dai social network sono segnali usati nella valutazione dell&amp;#8217;importanza dei siti web. I ragazzi di SEOmoz (tra i migliori esperti SEO in circolazione) sono rimasti esterrefatti dagli effetti che un singolo tweet ha causato sul page rank della loro _Beginners Guide to SEO_.
+</code></pre>
+<ol start="4">
+<li><a href="http://www.lucasartoni.com/lavoro/open-letter-to-an-event-organizer"><strong>Lettera aperta a un organizzatore di eventi</strong></a></li>
+</ol>
+<pre><code>Per mestiere Luca Sartoni partecipa (come speaker, spettatore o organizzatore) a molte conferenze , seminari e workshops. In questa lettera elenca quelli che secondo lui sono i cinque errori commessi più spesso dagli organizzatori di eventi. E suggerisce come evitarli.
+</code></pre>
+<ol start="5">
+<li><a href="http://en.blog.wordpress.com/2011/02/17/how-is-wordpress-com-made/"><strong>Come si fa WordPress?</strong></a></li>
+</ol>
+<pre><code>A quanto pare WordPress, pur avendo una sede a San Francisco, è una realtà capillarmente distribuita. Gran parte dei dipendenti lavora da casa ed è disseminata per il mondo, coprendone quasi tutti i fusi orari. In questo articolo sul blog ufficiale dell&amp;#8217;azienda Scott Berkun racconta come si svolge una giornata di lavoro in una azienda di questo tipo.
+</code></pre>
+<ol start="6">
+<li><a href="http://www.allthingsdistributed.com/2011/02/website_amazon_s3.html"><strong>Come ospitare un intero sito (statico) su Amazon S3</strong></a></li>
+</ol>
+<pre><code>Da qualche tempo Werner Vogels, CTO di Amazon, ospita il suo sito direttamente su S3, la potente piattaforma di _cloud storage_ di Amazon. Una soluzione di questo tipo offre diversi vantaggi, primo fra tutti la scalabilità. In questo articolo Vogels ci spiega come raggiungere lo stesso risultato.
+</code></pre>
+<ol start="7">
+<li><a href="http://www.limedaring.com/im-a-designer-who-learned-django-and-launched-her-first-webapp-in-6-weeks/"><strong>Sono una Designer e ho lanciato la mia prima applicazione in 6 settimane</strong></a></li>
+</ol>
+<pre><code>Tracy è una designer che non sa quasi nulla di programmazione. Ha una idea su un sito innovativo e tenta senza successo di ottenere un finanziamento che le consenta di assumere un programmatore esperto. Cosa fare? Tracy si rimbocca le maniche e in sei settimane riesce a lanciare una variante (semplificata) della sua idea originale. In Python/Django, ovviamente.
+</code></pre>
+<ol start="8">
+<li><a href="http://sixrevisions.com/web-applications/new-facebook-page/"><strong>La Guida Definitiva al Design delle Pagine Facebook</strong></a></li>
+</ol>
+<pre><code>Facebook ha aggiornato le Pagine Fan introducendo parecchie novità significative. In questo articolo Six Revisions ci spiega quali sono e come sfruttarle al meglio.
+</code></pre>
+<ol start="9">
+<li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/"><strong>I filmati completi del Corso di Programmazione (Python) del MIT</strong></a></li>
+</ol>
+<pre><code>Ventiquattro filmati completi, di ottima qualità, per imparare a programmare direttamente dai professori del famoso MIT di Boston. Il materiale è di qualità eccellente.
+</code></pre>
+<ol start="10">
+<li><a href="http://www.cenedella.com/job-search/leonardo-da-vincis-resume/"><strong>Il curriculum vitae di Leonardo Da Vinci</strong></a></li>
+</ol>
+<pre><code>Prima di Mona Lisa, dell&amp;#8217;Ultima Cena e dell&amp;#8217;invenzione dell&amp;#8217;elicottero anche a Leonardo Da Vinci è toccato scrivere il suo bel curriculum. Nel 1482, a trent&amp;#8217;anni, Leonardo lo inviò a Ludovico il Moro, Duca di Milano. In questo splendido articolo possiamo vedere l&amp;#8217;originale e leggerne la trascrizione. Perché? Per imparare un paio di trucchetti che potrebbero tornarci utili.
+</code></pre>
+<ol start="11">
+<li><a href="http://mattoufoutu.rafale.org/ebooks/Doc_diverse/Cours%20Prog/Python/Books/Natural%20Language%20Processing%20with%20Python%20(2009).pdf"><strong>Processare il Linguaggio Naturale in Python</strong></a></li>
+</ol>
+<pre><code>L&amp;#8217;intero contenuto del libro _Natural Processing Language With Python_ in formato PDF, liberamente accessibile.
+</code></pre>
+<p>Queste sono solo alcune delle segnalazioni che giorno per giorno pubblico su Twitter. Se volete più notizie, spunti e link interessanti <a href="http://twitter.com/#!/nicolaiarocci">seguitemi anche su Twitter</a>!</p>]]></content:encoded>
     </item>
     <item>
       <title>SourceKit – Scrivere codice in Google Chrome e salvarlo su DropBox</title>
@@ -48,6 +140,11 @@ Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità
       <guid>https://nicolaiarocci.com/sourcekit-chrome-dropbox/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/iieeldjdihkpoapgipfkeoddjckopgjg&#34;&gt;&lt;strong&gt;SourceKit&lt;/strong&gt;&lt;/a&gt; è una applicazione per Google Chrome che permette di scrivere codice direttamente nel browser usando &lt;a href=&#34;https://www.dropbox.com/&#34;&gt;DropBox&lt;/a&gt; come disco dati/repository. Un &lt;a href=&#34;http://macromates.com/&#34;&gt;TextMate&lt;/a&gt; &lt;em&gt;in the cloud&lt;/em&gt; insomma.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;</description>
+      <content:encoded><![CDATA[<p><a href="https://chrome.google.com/webstore/detail/iieeldjdihkpoapgipfkeoddjckopgjg"><strong>SourceKit</strong></a> è una applicazione per Google Chrome che permette di scrivere codice direttamente nel browser usando <a href="https://www.dropbox.com/">DropBox</a> come disco dati/repository. Un <a href="http://macromates.com/">TextMate</a> <em>in the cloud</em> insomma.</p>
+<!-- raw HTML omitted -->
+<p>Se avete installato DropBox su ognuno dei vostri computer (un Mac a casa e un PC al lavoro per esempio) il risultato sarà quello di lavorare nel </p>
+<p><em>cloud</em> mantenendo però copie locali, sincronizzate, dei vostri sorgenti. Potrete spostarvi da un computer all’altro e riprendere la scrittura del codice come se niente fosse. L’editor integrato è Mozilla Skywriter (ora <a href="http://ace.ajax.org/">Ace</a>) e supporta parecchi linguaggi: C/C++, C#, Ruby, Python, PHP, HTML, JavaScript, Java.</p>
+<p>Proprio l’altro giorno raccontando del progetto <strong>Orion Eclipse</strong> mi (e <em>vi</em>) chiedevo <a href="http://nicolaiarocci.com/il-futuro-del-codici-sorgente-e-online/">se il futuro del codice sorgente non sia online</a>. SourceKit ci da la possibilità di provare subito “l’effetto che fa”, come diceva una vecchia pubblicità. Provare per credere!</p>]]></content:encoded>
     </item>
     <item>
       <title>Il futuro del codice sorgente è online?</title>
@@ -57,6 +154,112 @@ Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità
       <description>&lt;p&gt;Gli ambienti di sviluppo (IDE) online sono una delle opportunità più originali che il &lt;a href=&#34;http://it.wikipedia.org/wiki/Cloud_computing&#34;&gt;cloud computing&lt;/a&gt; mette a disposizione dei programmatori web. In generale si tratta di editor di codice, debugger e strumenti per il controllo di versione da usare nel browser web senza bisogno di installare alcun software sul client. Per il momento le soluzioni disponibili offrono funzionalità limitate che tuttavia lasciano intravedere le possibilità che questi strumenti metteranno a nostra disposizione.&lt;/p&gt;
 &lt;h2 id=&#34;il-progetto-orion&#34;&gt;Il Progetto Orion&lt;/h2&gt;
 &lt;p&gt;Semplici editor di codice sorgente sono disponibili online già da tempo, ma progetti come &lt;strong&gt;Orion&lt;/strong&gt; portano il concetto di programmazione online a un livello superiore. &lt;a href=&#34;http://dev.eclipse.org/blogs/mike/2011/01/11/introducing-orion/&#34;&gt;Annunciato pochi giorni fa&lt;/a&gt; dal team di sviluppo di &lt;strong&gt;Eclipse&lt;/strong&gt;, una IDE Open Source molto diffusa e apprezzata, il progetto Orion è qualcosa di nuovo:&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Gli ambienti di sviluppo (IDE) online sono una delle opportunità più originali che il <a href="http://it.wikipedia.org/wiki/Cloud_computing">cloud computing</a> mette a disposizione dei programmatori web. In generale si tratta di editor di codice, debugger e strumenti per il controllo di versione da usare nel browser web senza bisogno di installare alcun software sul client. Per il momento le soluzioni disponibili offrono funzionalità limitate che tuttavia lasciano intravedere le possibilità che questi strumenti metteranno a nostra disposizione.</p>
+<h2 id="il-progetto-orion">Il Progetto Orion</h2>
+<p>Semplici editor di codice sorgente sono disponibili online già da tempo, ma progetti come <strong>Orion</strong> portano il concetto di programmazione online a un livello superiore. <a href="http://dev.eclipse.org/blogs/mike/2011/01/11/introducing-orion/">Annunciato pochi giorni fa</a> dal team di sviluppo di <strong>Eclipse</strong>, una IDE Open Source molto diffusa e apprezzata, il progetto Orion è qualcosa di nuovo:</p>
+<blockquote>
+<p>E’ una piattaforma di sviluppo aperta focalizzata totalmente allo sviluppo per il web, dentro il web. I tools sono scritti in JavaScript e girano nel browser. A differenza di altri tentativi di realizzare strumenti di sviluppo integrati nel browser, Orion non è una IDE che gira in una singola scheda del browser. I links funzionano e possono essere condivisi. Puoi aprire files in schede diverse e grande cura è stata messa nel fornire una ottima web experience durante lo sviluppo del codice</p>
+</blockquote>
+<!-- raw HTML omitted -->
+<pre><code>  &lt;p class=&quot;wp-caption-text&quot;&gt;
+    Codice JavaScript sviluppato direttamente in Google Chrome - Progetto Orion/Eclipse
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+  Orion supporta JavaScript e presto funzionerà anche con PHP, HTML, CSS e Java.
+&lt;/p&gt;
+
+&lt;h2&gt;
+  Cloud9 e gli altri
+&lt;/h2&gt;
+
+&lt;p&gt;
+  &lt;img class=&quot;alignleft&quot; title=&quot;Cloud9 IDE&quot; src=&quot;images/2011/01/cloud9ide.png?resize=147%2C150&quot; alt=&quot;Cloud9 IDE&quot; data-recalc-dims=&quot;1&quot; /&gt;Anche &lt;strong&gt;Mozilla&lt;/strong&gt; lavora da tempo (2008) a qualcosa di simile. &lt;a href=&quot;http://mozillalabs.com/skywriter/&quot;&gt;Skywriter&lt;/a&gt;, semplice editor online ora integrato in &lt;a href=&quot;http://ace.ajax.org/&quot;&gt;Ace&lt;/a&gt;, è alla base della piattaforma &lt;a style=&quot;font-weight: bold;&quot; href=&quot;http://cloud9ide.com/&quot;&gt;Cloud9 IDE&lt;/a&gt;. Attualmente in beta, Cloud9 è una IDE JavaScript integrata in Google Chrome che promette prestazioni uguali a quelle offerte da editor e IDE tradizionali, integrazione tra codice sorgente locale e remoto, debugging e deployment integrati.
+&lt;/p&gt;
+
+&lt;p&gt;
+  Altro brillante esempio è &lt;strong&gt;&lt;a href=&quot;http://www.coderun.com/&quot;&gt;CodeRun&lt;/a&gt;&lt;/strong&gt;, IDE online già funzionante e gratuita dedicata soprattutto a sviluppatori ASP.NET, Silverlight e WPF. Il mondo IDE insomma è in gran fermento.
+&lt;/p&gt;
+
+&lt;h2&gt;
+  Vantaggi e svantaggi di sviluppare nel cloud
+&lt;/h2&gt;
+
+&lt;p&gt;
+  Immaginate un &lt;a href=&quot;http://docs.google.com/&quot;&gt;Google Documents&lt;/a&gt; per programmatori. Oggi possiamo creare online fogli di calcolo, testi e presentazioni; domani potremo sviluppare i nostri programmi nel browser. Ma quali sono i vantaggi e gli svantaggi di affidarsi a un ambiente di sviluppo online? Gli stessi offerti da un ambiente di produttività come Google Documents.
+&lt;/p&gt;
+
+&lt;h3&gt;
+  Accessibilità
+&lt;/h3&gt;
+
+&lt;p&gt;
+  Possiamo accedere al nostro ambiente di lavoro da qualunque località nel mondo. Bastano un accesso internet e un browser per metterci al lavoro. Siamo a Bangkok e abbiamo un paio di ore a disposizione? Entriamo in un internet cafe e pochi minuti dopo stiamo scrivendo codice o revisionando il lavoro dei colleghi. Il che ci porta al prossimo punto.
+&lt;/p&gt;
+
+&lt;h3&gt;
+  Collaborazione e condivisione semplificate
+&lt;/h3&gt;
+
+&lt;p&gt;
+  Nei progetti più importanti è spesso necessario installare strumenti di gestione e controllo dei team di sviluppo. Il codice sorgente memorizzato su un server remoto e accessibile a chiunque rende collaborazione e condivisione del codice più semplice. Tutte le cloud IDE promettono il supporto per team di sviluppo.
+&lt;/p&gt;
+
+&lt;h3&gt;
+  Indipendenza dalla piattaforma hardware
+&lt;/h3&gt;
+
+&lt;p&gt;
+  Con le cloud IDE scriviamo codice in un web browser. Compilazione, linking e debugging sono processi svolti su una macchina remota che (si suppone) offrirà prestazioni adeguate al compito. Trovarsi momentaneamente su un computer poco performante non sarà un problema. Sviluppare su computers diversi (Mac a casa e PC in ufficio, per esempio) non comporterà differenze sostanziali.
+&lt;/p&gt;
+
+&lt;h3&gt;
+  Riservatezza
+&lt;/h3&gt;
+
+&lt;p&gt;
+  Il nostro codice sarà memorizzato su un dispositivo sul quale non potremo esercitare un controllo assoluto. Difficilmente avremo garanzia di totale riservatezza. Applicazioni particolarmente delicate non potranno probabilmente essere sviluppate &lt;em&gt;sulle nuovole &lt;/em&gt;anche se servizi di successo come &lt;strong&gt;&lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; &lt;/strong&gt;offrono supporto a progetti open source e privati garantendo a questi ultimi la riservatezza necessaria.
+&lt;/p&gt;
+
+&lt;h3&gt;
+  Sicurezza
+&lt;/h3&gt;
+
+&lt;p&gt;
+  Che succede se il mio codice sorgente viene perduto in seguito a un guasto hardware del sistema remoto che lo ospita? L&amp;#8217;affidabilità è senz&amp;#8217;altro un aspetto delicato e costituisce uno dei deterrenti all&amp;#8217;adozione dei sistemi di cloud computing in generale. Affidare i nostri codici a terzi non ci impedirebbe di conservarne copie locali. Come già successo per i sistemi di &lt;a href=&quot;http://it.wikipedia.org/wiki/Cloud-storage&quot;&gt;cloud storage&lt;/a&gt;, i servizi di cloud development dovranno offrire elevati standard di sicurezza e affidabilità.
+&lt;/p&gt;
+
+&lt;h2&gt;
+  Conclusioni
+&lt;/h2&gt;
+
+&lt;p&gt;
+  Lo sviluppo di applicazioni &lt;em&gt;sulle nuvole&lt;/em&gt; è senz&amp;#8217;altro una prospettiva affascinante che presto sarà di attualità. Non sono poche le perplessità degli sviluppatori, soprattutto negli ambienti &lt;em&gt;enterprise&lt;/em&gt; o nei settori nei quali la riservatezza è un elemento determinante. Le applicazioni web saranno le prime implementate con queste tecnologie, per le altre bisognerà probabilmente attendere a lungo.
+&lt;/p&gt;
+
+&lt;h4&gt;
+  Approfondimenti
+&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;http://dev.eclipse.org/blogs/mike/2011/01/11/introducing-orion/&quot;&gt;Introducing Orion&lt;/a&gt;, di Mike Milinkovich
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;http://borisoneclipse.blogspot.com/2011/01/orion.html&quot;&gt;Orion&lt;/a&gt;, di Boris Bukowski
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;http://jaxenter.com/eclipse-orion-the-new-ide-paradigm-33431.html&quot;&gt;Eclipse Orion: The New IDE Paradigm&lt;/a&gt;, intervista a B. Bukowski
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;http://www.i-programmer.info/news/90-tools/1872-mozilla-and-eclipse-take-programming-into-the-cloud.html&quot;&gt;Mozilla and Eclipse take programming into the cloud&lt;/a&gt;, di Mike James
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;http://dotnet.dzone.com/articles/online-ides-%E2%80%93-perspectives&quot;&gt;Online IDEs – perspectives?&lt;/a&gt; Di Den Delimarsky
+  &lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>]]></content:encoded>
     </item>
   </channel>
 </rss>

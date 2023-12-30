@@ -15,6 +15,13 @@
       <guid>https://nicolaiarocci.com/dei-vizi-dei-programmatori-2-la-fretta/</guid>
       <description>&lt;h2 id=&#34;8220per-risolvere-il-problema-mi-bastano-un-paio-di-minuti8221&#34;&gt;“Per risolvere il problema mi bastano un paio di minuti”&lt;/h2&gt;
 &lt;p&gt;La tentazione della scorciatoia. E’ difficile resisterle, prima o poi ci caschiamo tutti. In alcuni casi isolati vale la pena scegliere la strada più veloce, ma non è certo questa la via maestra. E’ pericolosa e in genere causa più problemi di quelli che risolve. Una scorciatoia può farti risparmiare qualche ora ma i danni causati possono costarti mesi di lavoro.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="8220per-risolvere-il-problema-mi-bastano-un-paio-di-minuti8221">“Per risolvere il problema mi bastano un paio di minuti”</h2>
+<p>La tentazione della scorciatoia. E’ difficile resisterle, prima o poi ci caschiamo tutti. In alcuni casi isolati vale la pena scegliere la strada più veloce, ma non è certo questa la via maestra. E’ pericolosa e in genere causa più problemi di quelli che risolve. Una scorciatoia può farti risparmiare qualche ora ma i danni causati possono costarti mesi di lavoro.</p>
+<!-- raw HTML omitted -->
+<p>La fretta, cattiva consigliera, è addirittura diabolica quando applicata alla pratica che tutti noi programmatori odiamo di più: <strong>la soluzione di bug</strong>. Nella mia carriera ricordo distintamente le circostanze in cui, risolvendo frettolosamente bug, ho generato mostri.</p>
+<p>Non fidatevi di voi stessi quando svolgete attività delicate o “risolvete” bug nel vostro codice o in quello degli altri. Assicuratevi che qualcuno verifichi quel che state facendo o, se non è possibile, fate in modo di testare e ritestare (possibilmente con l’aiuto di altri) quel che state combinando. Gli <!-- raw HTML omitted -->unit test<!-- raw HTML omitted --> sono i vostri migliori alleati. Se proprio dovete prendere una scorciatoia fate in modo che il vostro capo la avvalli (copritevi le spalle).</p>
+<h3 id="nota-a-margine">Nota a margine</h3>
+<p>Se avvertite un leggero formicolio alle punte delle dita mentre digitate codice fermatevi e meditate su quel che state facendo. Il vostro <strong>sesto senso di programmatore</strong> vi sta dicendo che c’è qualcosa che non va. E’ una capacità che si acquisisce col tempo e soprattutto con l’esperienza. Se non vi è ancora capitato fidatevi, prima o poi la svilupperete anche voi: è un potente alleato di ogni programmatore. Non scherzo! 😉</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

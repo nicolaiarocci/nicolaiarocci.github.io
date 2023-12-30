@@ -14,6 +14,61 @@
       <pubDate>Fri, 30 Jul 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-remove-a-file-from-git-history/</guid>
       <description>Today I learned how to remove a file from a git repository while also cleaning it from the history. When you delete it with git rm or git rm --cached, tracks remain in the commit history (the reflog). That might not be a big deal, but if the file has sensitive contents that you want to disappear from version control entirely, then you also want it cleaned from the reflog. That&amp;rsquo;s when git filter-branch comes to the rescue.</description>
+      <content:encoded><![CDATA[<p>Today I learned how to remove a file from a git repository while also cleaning
+it from the history. When you delete it with <code>git rm</code> or <code>git rm --cached</code>,
+tracks remain in the commit history (the reflog). That might not be a big deal,
+but if the file has sensitive contents that you want to disappear from version
+control entirely, then you also want it cleaned from the reflog. That&rsquo;s when
+<a href="https://git-scm.com/docs/git-filter-branch"><code>git filter-branch</code></a> comes to the rescue.</p>
+<p>To be on the safe side, I first cloned the repository to a test directory:</p>
+<pre><code>$ git clone &lt;REPOSITORY&gt; test
+$ cd test
+</code></pre>
+<p>Once into the test directory, this is the command that saved the day:</p>
+<pre><code># make sure you insert the whole file path, relative to the repository root
+$ git filter-branch --force --index-filter \
+  &quot;git rm --cached --ignore-unmatch PATH-TO-THE-FILE&quot; \
+  --prune-empty --tag-name-filter cat -- --all
+</code></pre>
+<p>The command above will go through the history, find all commits where the file
+is involved, and alter them to eliminate the file. Yes, history changes,
+so a force-push will be required at the end.</p>
+<p>To test that the file has indeed been removed, I used <code>git blame</code>:</p>
+<pre><code>$ git blame PATH-TO-THE-FILE
+fatal: no such path 'PATH-TO-THE-FILE' in HEAD
+</code></pre>
+<p>If the file needs to stay in the local directory, you can add it to
+<code>.gitignore</code>:</p>
+<pre><code>$ echo &quot;PATH-TO-THE-FILE&quot; &gt;&gt; .gitignore
+$ git add .gitignore
+$ git commit -m &quot;add FILE to .gitignore&quot;
+</code></pre>
+<p>Once everything was ready, I went back to the original clone directory,
+replayed all the above, then force-pushed back to the remote:</p>
+<pre><code>$ git push origin --force --all
+</code></pre>
+<p>If you have remote tags, those need to be force-pushed as well:</p>
+<pre><code>$ git push origin --force --tags
+</code></pre>
+<p>In my case, the repository is private with no forks, so the changing
+history was not a big deal for the few colleagues with access to it. Of
+course, any other existing clone will need to be updated<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>In so many years with git, this is the very first time I had to do something
+similar. Typically, you don&rsquo;t commit sensitive data to version control, but we
+all make mistakes every once in a while, don&rsquo;t we?</p>
+<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Keep in mind, eventual stashed changes will be lost after <code>git filter-branch</code>. Make sure you unstash before issuing the command.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
     </item>
     <item>
       <title>Git Worktree vs Git Savepoints</title>
@@ -22,6 +77,66 @@
       <guid>https://nicolaiarocci.com/git-worktree-vs-git-savepoints/</guid>
       <description>The official Git documentation presents the following example as a valid use-case for the worktree command:
 You are in the middle of a refactoring session and your boss comes in and demands that you fix something immediately. You might typically use git-stash1 to store your changes away temporarily. However, your working tree is in such a state of disarray (with new, moved, and removed files and other bits and pieces strewn around) that you don&amp;rsquo;t want to risk disturbing any of it.</description>
+      <content:encoded><![CDATA[<p>The official Git documentation presents the following example as a valid
+use-case for the <code>worktree</code> command:</p>
+<blockquote>
+<p>You are in the middle of a refactoring session and your boss comes in and
+demands that you fix something immediately. You might typically use
+git-stash<a href="https://git-scm.com/docs/git-worktree">1</a> to store your changes away temporarily. However, your working
+tree is in such a state of disarray (with new, moved, and removed files and
+other bits and pieces strewn around) that you don&rsquo;t want to risk disturbing
+any of it. (<a href="https://git-scm.com/docs/git-worktree">source</a>)</p>
+</blockquote>
+<p>If you don&rsquo;t know about <code>worktree</code>, you should check it out. It is a handy,
+powerful yet little known command. I don&rsquo;t use it, however. It will check out
+a new branch to a new directory, and I don&rsquo;t like that. I prefer to keep the
+simple, default 1:1 relationship between the repository and the file system.
+Managing multiple working trees seems like an unnecessary complication when
+similar results can be achieved with a few aliases.</p>
+<p>Indeed, for the use-case above, my workflow revolves around three git-aliases.
+Over the years, I collected many. Most of them (like the ones mentioned here)
+are not my doing. I stumbled upon them somewhere, tinkered as needed, and then
+incorporated them into my daily workflow.</p>
+<h2 id="git-save"><code>git save</code></h2>
+<p>This adds all changes, including untracked files, to the staging area and then
+commits with a <code>SAVEPOINT</code> message. When an emergency hits and I need to
+quickly switch context, I&rsquo;ll just <code>git save</code> and check out to a new branch to
+do whatever I am tasked to do. When I&rsquo;m done, I&rsquo;ll switch back to my original
+branch, <code>git undo</code>(see below), and resume work. It&rsquo;s easily configured with:</p>
+<pre><code>$ git config --global alias.save '!git add -A &amp;&amp; git commit -m &quot;SAVEPOINT&quot;'
+</code></pre>
+<h2 id="git-wip"><code>git wip</code></h2>
+<p><code>wip</code> is similar to <code>save</code>. It stages all tracked changes and then commits with
+a <code>WIP</code> message. So yes, it offers the same features as above but leaves
+untracked files unstaged, a significant difference. Like above, when done with
+the extra work, I&rsquo;ll switch back, <code>git undo</code>, and resume. Set it up with:</p>
+<pre><code>$ git config --global alias.wip '!git add -u &amp;&amp; git commit -m &quot;WIP&quot;'
+</code></pre>
+<h2 id="git-undo"><code>git undo</code></h2>
+<p>This alias allows me to quickly resume work after a <code>save</code> or <code>wip</code>. It undoes
+the last commit but keeps its changes, with files unstaged. It can also be used
+in other circumstances (for those, however, I have a functionally identical
+<code>r1</code> alias at hand). Configure with:</p>
+<pre><code>$ git config —-global alias.undo 'reset HEAD^ —-mixed'
+</code></pre>
+<h2 id="git-wipe"><code>git wipe</code></h2>
+<p>This is a special, use-with-caution one. It adds changes in the working tree to
+a <code>WIPE SAVEPOINT</code> commit, then it wipes the commit. At that point, the working
+tree is clean, but I can still go back to that work if the need arises (via
+reflog). Seldom used, this <code>wipe</code> comes in handy when I have some experimental
+code that is not going into production and yet, I want to keep it around. Set
+it up with:</p>
+<pre><code>$ git config --global alias.wipe \
+    '!git add -A &amp;&amp; git commit -qm &quot;WIPE SAVEPOINT&quot; &amp;&amp; git reset HEAD~1 --hard'
+</code></pre>
+<p>If you are not familiar with the git reflog, you might want to stay clear from
+<code>wipe</code>, though.</p>
+<p>One advantage of this workflow is that saved changes will stay with their
+relevant branch. When you get back to it, <code>git log</code> will hint at what happened
+when you left. Assuming it is a private branch, you might even decide to push
+it for backup before starting the hotfix work.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Sublime Text 2 un anno dopo</title>
@@ -30,6 +145,49 @@ You are in the middle of a refactoring session and your boss comes in and demand
       <guid>https://nicolaiarocci.com/sublime-text-2-un-anno-dopo/</guid>
       <description>&lt;p&gt;Proprio un anno fa &lt;!-- raw HTML omitted --&gt;presentavo Sublime Text 2&lt;!-- raw HTML omitted --&gt;. Dopo dodici mesi ho pensato di fare il punto della situazione. Si sono susseguiti una serie di aggiornamenti importanti, il prodotto è più maturo e devo dire che in questo periodo non mi ha affatto deluso: è ancora il mio editor di codice preferito. Nel frattempo &lt;!-- raw HTML omitted --&gt;Sublime Text 2&lt;!-- raw HTML omitted --&gt; è diventato &lt;em&gt;mainstream.&lt;/em&gt; Me ne sono reso conto in questi giorni, quando articoli, recensioni, trucchi e suggerimenti su Sublime Text 2 affioravano ripetutamente nel mio feed.&lt;/p&gt;
 &lt;p&gt;Vi propongo alcune delle caratteristiche che ne fanno, almeno per quanto riguarda il mio modo di lavorare, l’editor ideale.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Proprio un anno fa <!-- raw HTML omitted -->presentavo Sublime Text 2<!-- raw HTML omitted -->. Dopo dodici mesi ho pensato di fare il punto della situazione. Si sono susseguiti una serie di aggiornamenti importanti, il prodotto è più maturo e devo dire che in questo periodo non mi ha affatto deluso: è ancora il mio editor di codice preferito. Nel frattempo <!-- raw HTML omitted -->Sublime Text 2<!-- raw HTML omitted --> è diventato <em>mainstream.</em> Me ne sono reso conto in questi giorni, quando articoli, recensioni, trucchi e suggerimenti su Sublime Text 2 affioravano ripetutamente nel mio feed.</p>
+<p>Vi propongo alcune delle caratteristiche che ne fanno, almeno per quanto riguarda il mio modo di lavorare, l’editor ideale.</p>
+<h2 id="multi-piattaforma">Multi piattaforma</h2>
+<p>Sublime Text gira egualmente bene su OSX, Windows e Linux. Lavorando su Mac a casa e con Windows in ufficio per me è sempre stato difficile trovare un editor di codice di alta qualità da poter usare in entrambi gli ambienti. TextMate? Solo per Mac. Notepad++? Solo per Windows. Si lo so che Eclipse e altre IDE sofisticate sono multi piattaforma ma il fatto è che io le IDE non le sopporto più. Le ho usate per vent’anni, e tuttora sono vincolato a Visual Studio (un prodotto comunque eccellente) per gran parte del mio tempo. Da quando sono potuto tornare alle origini, ovvero ai semplici text editor, mi ci rifugio appena possibile.</p>
+<p>Bisognerebbe poi intendersi sul quel ‘semplici’ perché come vedremo Sublime Text e gli altri editor, moderni e non, sono semplici solo in apparenza.</p>
+<p>Una critica a Sublime Text 2 multi piattaforma mi sento di farla, e riguarda la non completa uniformità dei menu tra le diverse piattaforme. Per esempio le Preferenze sono  nel menu principale in OSX, mentre se ricordo bene in Windows stanno in ‘Tools’.</p>
+<h2 id="command-palette">Command Palette</h2>
+<p>Come dicevo Sublime Text 2 è ricco di funzionalità, la gran parte attivate da menu con gran lavoro di mouse. Esistono le scorciatoie di tastiera per i comandi più frequenti, ma Sublime ci mette a disposizione qualcosa di più, la Command Palette.</p>
+<p>Premete <code>Shift-Command-P</code> per ottenere l’apertura della Command Palette:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>La lista contiene i comandi disponibili in Sublime. Basta scrivere <em>anche solo una parte</em> del nome del comando per ottenerne la rapida selezione. Per attivarlo basta premere <code>Invio</code>. Si tratta di una soluzione davvero comoda, alla TextMate, che risparmia il mouse ed è ben implementata. Nell’immagine vedete come per installare un nuovo package mi basti premere una lettera (la ‘i’), anche se non è quella iniziale.</p>
+<h2 id="passaggio-rapido-da-un-file-all8217altro">Passaggio rapido da un file all’altro</h2>
+<p>Ogni file aperto è contenuto in una scheda. Possiamo passare da un file all’altro cliccando sulle schede oppure usando la tastiera per scorrerle in sequenza. Ma possiamo anche ricorrere al comando <code>Command-P</code> per aprire una palette di selezione file, la quale implementa la stessa modalità di ricerca già vista nella Command Palette:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Ciò che rende questa palette davvero utile è il fatto che man mano che scriviamo Sublime attiva (mette in primo piano) il file che soddisfa la nostra query. Dopo un paio di volte non potrete più tornare al mouse.</p>
+<h2 id="cursore-multiplo">Cursore multiplo</h2>
+<p>Immaginate di selezionare più aree del codice e trattarle come se fossero tutte sotto un unico cursore. Ebbene è possibile, ed impagabile. Potete vedere questa modalità all’opera nel breve <!-- raw HTML omitted -->screencast<!-- raw HTML omitted --> messo a disposizione dai ragazzi di NetTuts, io mi limito a spiegarvi le alternative per attivarla:</p>
+<ul>
+<li>Premere <code>Command</code> e cliccare nei punti in cui volete attivare il cursore multiplo</li>
+<li>Selezionare blocchi di testo e premere <code>Shift-Command-L</code></li>
+<li>Mettere il cursore sotto una parola e premere <code>Command-D</code> per selezionarne le occorrenze successive attivando il cursore per ognuna</li>
+<li>Selezionare una parola e premere <code>Control-Command-G</code> per selezionarne tutte le occorrenze attivando per ognuna il cursore</li>
+</ul>
+<h2 id="passaggio-rapido-a-funzioni-e-metodi">Passaggio rapido a funzioni e metodi</h2>
+<p>Oltre alle funzioni di ricerca classiche possiamo passare rapidamente da un metodo all’altro ricorrendo alla magica command palette vista prima. Basta <code>Command-R</code> per attivarla:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>In Visual Studio ho sempre odiato il passaggio tra funzioni/metodi/classi implementato col solo match delle lettere iniziali, e addirittura suddiviso in due combo diverse (una per gli oggetti, l’altra per i metodi). Qui siamo a tutto un’altro livello.</p>
+<h2 id="c8217è-vim-dentro">C’è Vim dentro</h2>
+<p>Chi è abituato a Vim non disperi: è possibile attivare la modalità ‘Vintage’ che attiva il key binding del famoso editor Unix. Magicamente abbiamo a disposizione Command e Insert mode e molti dei comandi di editing più comuni in Vim. Per informazioni consultate la pagina sul <!-- raw HTML omitted -->Vintage Mode<!-- raw HTML omitted --> della documentazione.</p>
+<h2 id="e-c8217è-pure-un-po8217-textmate">E c’è pure un po’ TextMate</h2>
+<p>Temi e bundle di TextMate funzionano in Sublime Text, basta metterli nel folder Packages. Se siete legati a TextMate valutate la possibilità di passare a Sublime, potrebbe valerne la pena.</p>
+<h2 id="package-control">Package Control</h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Sublime è ricco di estensioni (package) e consente di installare quelle TextMate. Il <!-- raw HTML omitted -->Package Control<!-- raw HTML omitted --> (da installare a parte) rende facile la loro gestione direttamente dalla Command Palette.</p>
+<h2 id="concludendo">Concludendo</h2>
+<p>Naturalmente non è tutto qui. Ampia scelta di temi custom e standard (io uso <!-- raw HTML omitted -->Monokai Soda<!-- raw HTML omitted -->), Plugin come se piovesse (tra i quali uso abitualmente quelli per Git e StackOverflow), modalità ‘distraction free’ e full screen, personalizzazione dei key binding, syntax highlighting di tutti i linguaggi più diffusi… ci sarebbe ancora tanto da dire.</p>
+<p>Ammetto che molte di queste caratteristiche non sono una esclusiva di Sublime Text 2, tuttavia quel che apprezzo in questo prodotto è la velocità e l’immediatezza con le quali queste sono utilizzabili. Cerco di usare il mouse il meno possibile e con Sublime riesco a fare tutto senza metterci mano, il che aumenta la mia produttività. Come ogni buon editor Sublime non interferisce con la scrittura del codice ma, quando serve, è pronto a dare una mano con una ricchezza di strumenti invidiabile.</p>
+<p>Spero di avervi convinto a dare una occhiata. Sublime Text 2 è a pagamento, anche se la modalità demo non è a tempo e si limita a proporre l’acquisto ogni tanto.</p>
+<p>Vi lascio con l’invito a dare un’occhiata al video di Andrey Tarantsov sul suo <!-- raw HTML omitted -->Workflow con Sublime Text<!-- raw HTML omitted -->. Ha riscosso molto successo quando l’ho segnalato su Twitter, e per un buon motivo.</p>]]></content:encoded>
     </item>
     <item>
       <title>Programmazione, SEO, Startup – Il Meglio della Settimana #4</title>
@@ -51,6 +209,57 @@ You are in the middle of a refactoring session and your boss comes in and demand
 &lt;/ol&gt;
 &lt;pre&gt;&lt;code&gt;La pazienza è la virtù dei forti, ma per molti è una pratica difficile da applicare. Ciò è vero soprattutto per chi visita siti web. Six Revision ci propone una decina di consigli per velocizzare le nostre pagine web.
 &lt;/code&gt;&lt;/pre&gt;</description>
+      <content:encoded><![CDATA[<ol>
+<li><strong><!-- raw HTML omitted --><a href="http://stevecheney.posterous.com/how-facebook-is-killing-your-authenticity">Facebook sta uccidendo la tua Autenticità</a></strong></li>
+</ol>
+<pre><code>Steve Cheney propone una riflessione su come Facebook condizioni ormai _l&amp;#8217;autenticità_ dei suoi utenti. Il timore che conoscenti e amici (alcuni non li incontriamo da anni, altri sono parenti stretti) vedano quel che facciamo online ci induce a comportarci in maniera diversa da quel che sarebbe il nostro istintivo sentire.
+</code></pre>
+<ol start="2">
+<li><a href="http://www.distilled.co.uk/excel-for-seo/"><strong>Tutorial: Microsoft Excel per il SEO</strong></a></li>
+</ol>
+<pre><code>Eccellente tutorial su come usare Excel per analizzare al meglio la quantità di dati che raccogliamo durante le nostre indagini SEO.
+</code></pre>
+<ol start="3">
+<li><a href="http://sixrevisions.com/web-development/decrease-webpage-load-times/"><strong>10 consigli per velocizzare il caricamento delle pagine Web</strong></a></li>
+</ol>
+<pre><code>La pazienza è la virtù dei forti, ma per molti è una pratica difficile da applicare. Ciò è vero soprattutto per chi visita siti web. Six Revision ci propone una decina di consigli per velocizzare le nostre pagine web.
+</code></pre>
+<ol start="4">
+<li>
+<p><a href="http://www.ibtimes.com/articles/120033/20110308/adobe-flash-html-5-wallaby-ios-iphone-ipad-ipad-2-ios-4-3-chrome-safari-windows-nitro-javascript-dre.htm"><strong>Adobe rilascia un convertitore da Flash a HTML5</strong></a></p>
+<p>E con questa Adobe ammette, sia pur implicitamente, la morte di Flash. Se mi segui da un pò la mia opinione <a href="http://nicolaiarocci.com/flash-adobe-e-una-pessima-idea/">la conosci già</a>. L’altro giorno al BE-Wizard 2011 il grande <strong>Avinash Kaushik</strong> ha dichiarato (ero in platea): “ogni volta che usi Flash su una pagina Web, un dolce cucciolo muore”.</p>
+</li>
+<li>
+<p><a href="http://www.html5rocks.com/tutorials/speed/html5/"><strong>Tutorial: Aumentare le prestazioni delle applicazioni HTML5</strong></a></p>
+</li>
+</ol>
+<pre><code>HTML5 ci offre splendidi strumenti per migliorare l&amp;#8217;aspetto delle applicazioni web. Animazioni ed effetti richiedono attenzione alle prestazioni. Ecco un ottimo e approfondito tutorial su come evitare il rischio di passare dalla padella alla brace.
+</code></pre>
+<ol start="6">
+<li><strong><a href="https://developer.apple.com/xcode/">Apple rilascia Xcode 4</a></strong></li>
+</ol>
+<pre><code>Xcode 4 è la nuova versione del framework Apple per la creazione di applicazioni Mac, iPhone, and iPad. Include la Xcode IDE, Instruments, il simulatore di iOS e le ultime versioni degli SDK per Mac OS X e iOS**.** 
+</code></pre>
+<ol start="7">
+<li><a href="http://mashable.com/2011/03/10/node-js/"><strong>Ecco perché tutti parlano di Node</strong></a></li>
+</ol>
+<pre><code>Al ventesimo piano di un grattacielo di San Francisco un gruppo di sviluppatori sta lavorando a una nuova tecnologia che sta cambiando (forse) il modo in cui le applicazioni web in real-time saranno costruite e distribuite. Tutti ne parlano. Ecco perché.
+</code></pre>
+<ol start="8">
+<li><a href="http://www.queness.com/post/7018/11-useful-online-tools-for-web-development"><strong>11 Tools Online per Programmatori</strong></a></li>
+</ol>
+<pre><code>I tools online sono ideali per sbrigare rapidamente piccoli lavoretti. Questo articolo ne presenta una selezione originale.
+</code></pre>
+<ol start="9">
+<li><a href="http://searchenginewatch.com/3641984"><strong>SEO: Massimizzare il CTR nelle ricerche organiche</strong></a></li>
+</ol>
+<pre><code>Non perdetevi questo articolo se lavorate in ambito SEO/SERP. _Enough said_.
+</code></pre>
+<ol start="10">
+<li><a href="http://mashable.com/2011/03/12/hello-bar-japan/"><strong>Hai un Blog o un sito web? Aiuta il Giappone con un semplice Banner</strong></a></li>
+</ol>
+<pre><code>Puoi dare una mano inserendo uno snippet di codice che mostra un banner che invita a partecipare alla raccolta fondi per il Giappone avviata dalla Croce Rossa.
+</code></pre>]]></content:encoded>
     </item>
   </channel>
 </rss>

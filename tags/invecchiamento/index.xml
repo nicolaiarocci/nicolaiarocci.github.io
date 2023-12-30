@@ -16,6 +16,32 @@
       <description>&lt;p&gt;Man mano che partecipo ai vari eventi in giro per l’Italia mi capita sempre più spesso di ritrovarmi a essere, tra i partecipanti, uno dei più anziani. L’altro giorno al &lt;!-- raw HTML omitted --&gt;Cowo on the Beach&lt;!-- raw HTML omitted --&gt; distanziavo tutti di almeno una decade. Mi sono detto che i veterani non amano frequentare gli eventi pubblici, non tanto quanto li apprezzavano da giovani, e mi sono messo l’anima in pace.&lt;/p&gt;
 &lt;p&gt;Fino a stamattina, quando un bell’articolo di &lt;!-- raw HTML omitted --&gt;Peter Knego&lt;!-- raw HTML omitted --&gt; mi ha svelato la scomoda verità (che inconsciamente rifiutavo di considerare). &lt;strong&gt;I programmatori oltre i trent’anni, per non dire dei quaranta, sono merce rara&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Partendo dai dati pubblici messi a disposizione da &lt;!-- raw HTML omitted --&gt;StackOverflow&lt;!-- raw HTML omitted --&gt; e relativi a un campione di ben 37.400 programmatori, Peter ha indagato sul rapporto tra età, reputazione e quantità di programmatori ancora attivi. Ne è uscita una serie di grafici davvero interessante.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Man mano che partecipo ai vari eventi in giro per l’Italia mi capita sempre più spesso di ritrovarmi a essere, tra i partecipanti, uno dei più anziani. L’altro giorno al <!-- raw HTML omitted -->Cowo on the Beach<!-- raw HTML omitted --> distanziavo tutti di almeno una decade. Mi sono detto che i veterani non amano frequentare gli eventi pubblici, non tanto quanto li apprezzavano da giovani, e mi sono messo l’anima in pace.</p>
+<p>Fino a stamattina, quando un bell’articolo di <!-- raw HTML omitted -->Peter Knego<!-- raw HTML omitted --> mi ha svelato la scomoda verità (che inconsciamente rifiutavo di considerare). <strong>I programmatori oltre i trent’anni, per non dire dei quaranta, sono merce rara</strong>.</p>
+<p>Partendo dai dati pubblici messi a disposizione da <!-- raw HTML omitted -->StackOverflow<!-- raw HTML omitted --> e relativi a un campione di ben 37.400 programmatori, Peter ha indagato sul rapporto tra età, reputazione e quantità di programmatori ancora attivi. Ne è uscita una serie di grafici davvero interessante.</p>
+<h2 id="quantità-di-programmatori-per-fasce-di-età">Quantità di Programmatori per fasce di Età</h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>La distribuzione per età (in blu nel grafico) è stata una bella sorpresa. E’ risaputo che col passare degli anni gran parte dei programmatori tende a cambiare carriera, di solito progredendo verso ruoli manageriali. E’ l’entità della riduzione che, almeno dal mio punto di vista, è stupefacente. Il picco si raggiunge a soli 27 anni, dopo di ché il numero dei programmatori si dimezza ogni 6 o 7 anni.</p>
+<h2 id="età-e-reputazione-dei-programmatori">Età e Reputazione dei Programmatori</h2>
+<p>Osservate come nel grafico precedente la reputazione dei programmatori su Stack Overflow (in rosso) tenda ad aumentare con l’età. Si tratta quasi di una progressione lineare. L’andamento è meglio comprensibile se diamo una occhiata a quest’altro grafico:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>I programmatori veterani pongono meno domande su Stack Overflow, ma rispondono molto più frequentemente dei loro colleghi più giovani. Un quarantenne risponde mediamente il doppio delle volte di un collega ventenne.</p>
+<h2 id="i-veterani-sono-davvero-più-abili-dei-giovani">I veterani sono davvero più abili dei giovani?</h2>
+<p>A questo punto Peter si è posto una domanda intrigante: la qualità delle risposte migliora con l’età? I veterani forniscono le risposte migliori? Il meccanismo di premiazione delle domande e delle risposte utilizzato da StackOverflow ha permesso a Peter di elaborare l’andamento dei voti positivi ottenuti, suddivisi  per età :</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Il grafico dimostra che la qualità media delle risposte non migliora significativamente in rapporto all’età dei programmatori. A quanto pare i veterani migliorano la loro reputazione soprattutto fornendo più risposte, piuttosto che migliorandone la qualità.</p>
+<p>Riassumendo:</p>
+<ul>
+<li>Il numero di programmatori cala significativamente con l’età. L’apice è attorno ai 27 anni, poi si verifica un crollo costante.</li>
+<li>I programmatori quarantenni rispondono al doppio e pongono metà delle domande dei colleghi ventenni. I veterani insegnano e i giovani imparano, come dovrebbe essere.</li>
+<li>La qualità delle risposte non migliora significativamente col passare degli anni.</li>
+<li>I veterani migliorano la loro reputazione soprattutto perché sono molto più attivi dei loro giovani colleghi.</li>
+</ul>
+<p>Ci sarebbe molto da dire a proposito di questi dati. Per esempio si potrebbe ipotizzare che i veterani abbiano semplicemente più tempo a loro disposizione per rispondere ai quesiti posti dai colleghi, ma quel che balza all’occhio qui è senz’altro il calo del numero di programmatori man mano che l’età avanza.</p>
+<p>Per quanto mi riguarda, a 41 anni suonati, mi trovo già al di là del guado. La cosa è ancor più imbarazzante visto e considerato che non credo né mi aspetto di cambiare mestiere nei prossimi anni. E voi, miei cari lettori, a che punto del percorso vi trovate ora? Io ora spengo tutto e me ne vado in piscina a fare il ragazzino. Tiè.</p>]]></content:encoded>
     </item>
   </channel>
 </rss>

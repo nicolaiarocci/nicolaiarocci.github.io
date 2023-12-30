@@ -14,6 +14,30 @@
       <pubDate>Thu, 19 May 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/perche-le-web-startup-non-amano-net-framework/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Sul blog aziendale di Expensify il CEO &lt;strong&gt;David Barrett&lt;/strong&gt; ha &lt;!-- raw HTML omitted --&gt;raccontato&lt;!-- raw HTML omitted --&gt; perché la sua azienda non assume programmatori Microsoft .NET Framework. In poche ore il suo articolo ha fatto il giro del mondo scatenando un gran putiferio. Gli sviluppatori .NET si sono lanciati in una difesa accorata della piattaforma Microsoft mentre molti commentatori e blogger hanno sposato le tesi di Barrett. Gli oltre 500 commenti danno un’idea ben precisa del fervore suscitato dall’articolo. Non intendo dilungarmi sui contenuti, mi interessa piuttosto approfondire una questione sollevata indirettamente dal pezzo di Barrett.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Sul blog aziendale di Expensify il CEO <strong>David Barrett</strong> ha <!-- raw HTML omitted -->raccontato<!-- raw HTML omitted --> perché la sua azienda non assume programmatori Microsoft .NET Framework. In poche ore il suo articolo ha fatto il giro del mondo scatenando un gran putiferio. Gli sviluppatori .NET si sono lanciati in una difesa accorata della piattaforma Microsoft mentre molti commentatori e blogger hanno sposato le tesi di Barrett. Gli oltre 500 commenti danno un’idea ben precisa del fervore suscitato dall’articolo. Non intendo dilungarmi sui contenuti, mi interessa piuttosto approfondire una questione sollevata indirettamente dal pezzo di Barrett.</p>
+<h2 id="perché-così-poche-startup-scelgono-net-framework">Perché così poche Startup scelgono .NET Framework?</h2>
+<p>Guardando all’intero ecosistema delle Startup internet<!-- raw HTML omitted -->,<!-- raw HTML omitted --> è facile riscontrare che ben poche adottano il .NET Framework. Ci sono eccezioni importanti e significative, come per esempio Stack Overflow, ma le tecnologie dominanti sono altre: Ruby on Rails, PHP e Python su tutte. <strong>Ian Muir</strong>, Senior Developer di Piehead, in un suo <!-- raw HTML omitted -->interessante articolo<!-- raw HTML omitted --> tenta di individuare le ragioni che fanno di .NET Framework una scelta poco apprezzata dal vivace e  dinamico mondo delle Startup.</p>
+<h3 id="il-costo-della-piattaforma-microsoft">Il costo della piattaforma Microsoft</h3>
+<p>Se per le grandi aziende le voci di spesa davvero rilevanti sono stipendi, hardware, infrastrutture, banda e dati, per le nostre Startup il problema è innanzi tutto partire. Ruby on Rails, PHP, Python e i loro fratelli sono soluzioni <!-- raw HTML omitted -->FOSS<!-- raw HTML omitted --> (gratuite e open source) che permettono di lavorare a costo zero mentre l’ambiente .NET è al contrario un closed-source a pagamento.</p>
+<!-- raw HTML omitted -->
+<p>Muir ricorda che già da qualche anno Microsoft ha lanciato il programma <strong><!-- raw HTML omitted -->BizSpark<!-- raw HTML omitted --></strong> che tra le altre cose elimina gran parte dei costi di adozione del .NET Framework. La differenza di spesa insomma non sarebbe così significativa. Peccato che BizSpark sia pressochè sconosciuto.</p>
+<p>Ci sono soluzioni alternative. <!-- raw HTML omitted -->Showcase Lane<!-- raw HTML omitted --> per esempio è sviluppato interamente in ASP.NET MVC, ma gira sotto <!-- raw HTML omitted -->Mono<!-- raw HTML omitted -->. Se vi interessa questo approccio <!-- raw HTML omitted -->qui<!-- raw HTML omitted --> potete leggere tutti i dettagli in proposito.</p>
+<h3 id="difficoltà-nella-applicazione-della-metodologia-agile">Difficoltà nella applicazione della Metodologia Agile</h3>
+<p>Inutile negarlo, questi sono gli anni della <strong><!-- raw HTML omitted -->metodologia agile<!-- raw HTML omitted --></strong>. I giovani imprenditori rilasciano i loro prodotti il più velocemente possibile, spesso in versioni beta appena funzionanti, che implementano a malapena le funzionalità di base. Ruby, Python, PHP e soci dispongono di strumenti mirati per lo sviluppo e il deploy rapido delle applicazioni, qualcosa che in parte manca al mondo .NET. Nel suo articolo Muir sostiene che in realtà non c’è una gran differenza nei tempi di sviluppo.</p>
+<!-- raw HTML omitted -->
+<p>Concordo con Muir anche se dimentica un dettaglio importante. Molti startupper sono programmatori alle prime armi, spesso ricchi di idee da lanciare rapidamente, ma poveri di capacità tecniche. E’ in questo scenario che linguaggi e tecnologie come Python e Ruby brillano di luce propria rispetto a un ambiente monolitico e piuttosto sofisticato come il .NET Framework. La <!-- raw HTML omitted -->curva di apprendimento<!-- raw HTML omitted --> vincente è quella dei linguaggi open source.</p>
+<h3 id="net-è-roba-da-enterprise-e-comunque-microsoft-va-boicottata">.NET è roba da Enterprise (e comunque Microsoft va boicottata)</h3>
+<p>Muir sostiene che le startup non usano .NET per motivi culturali più che tecnologici. Voce di popolo vorrebbe che Microsoft sia apprezzata dalle enterprise mentre PHP e Ruby sarebbero l’ideale per le piccole (e sfigate) startup. Questa percezione diffusa influenzerebbe i giovani imprenditori inducendoli ad adottare una piattaforma senza chiedersi quale sia lo strumento migliore per soddisfare le loro necessità.</p>
+<p>Le cose stanno anche peggio di così. Specialmente nel mondo giovanile Microsoft è considerata il colosso pachidermico e monopolistico da boicottare in ogni modo. L’immagine non è il punto di forza di Microsoft.</p>
+<h4 id="startup-e-enterprise-mondi-diversi">Startup e Enterprise, mondi diversi</h4>
+<p>Gran parte delle startup incoraggiano i loro programmatori a imparare un ampio spettro di tecnologie piuttosto che specializzarsi su argomenti (linguaggi) singoli. Per le startup è la scelta giusta poiché dispongono di pochi programmatori e devono rimanere agili e pronte al cambiamento. Le grandi aziende al contrario hanno una cultura ingegneristica e sono organizzate in grandi team, nei quali ogni soggetto tende a essere molto specializzato. Sono differenze importanti che rendono difficile per un programmatore il passaggio da una realtà all’altra.</p>
+<h2 id="ampliare-la-propria-prospettiva">Ampliare la propria prospettiva</h2>
+<p>Secondo Muir quelli elencati sopra sono i fattori che più di altri condizionano la scelta della piattaforma da adottare. All’inizio della loro carriera i programmatori scelgono un percorso che in seguito diventa difficile cambiare. Il datore di lavoro dovrebbe impegnarsi in prima persona affinché i programmatori mantengano un attegiamento agnostico rispetto alle piattaforme tecnologiche, e siano sempre pronti ad abbracciare nuovi paradigmi e tecnologie.</p>
+<!-- raw HTML omitted -->
+<p>Su questo punto Muir ha ragione da vendere. In tanti anni di lavoro ho provato sulla mia pelle quanto reale sia il rischio confinarsi nel proprio piccolo mondo. Impegnati nella soluzione dei problemi quotidiani scordiamo che è utile fermarsi ogni tanto e guardarsi intorno. Aggiornarsi su cosa avviene al di fuori del proprio ramo di <em>expertise,</em> consente di sviluppare una migliore visione d’insieme osservando le cose da una prospettiva più ampia.</p>
+<h2 id="le-persone-contano-più-della-piattaforma">Le persone contano più della piattaforma</h2>
+<p>Perché dunque le Startup non amano .NET Framework? Come abbiamo visto la risposta è tanto tecnica quanto culturale. Qualunque sia la tecnologia adottata, ciò che conta sono le persone che prendete a bordo. Se volete i migliori programmatori su piazza non selezionate specialisti PHP o .NET Framework. Cercate piuttosto persone con esperienze e conoscenze diverse, curiose, che abbiano voglia di imparare e siano pronte a rimettersi in gioco quando serve. Le persone giuste sono quelle capaci di prendere decisioni importanti senza lasciarsi condizionare (solo) dalle competenze già acquisite.</p>
+<p><em>Post Scriptum. E se persone con queste caratteristiche non riuscite a trovarle o peggio, non potete permettervele? Non scendete a compromessi. Piuttosto, fate da soli.</em></p>]]></content:encoded>
     </item>
     <item>
       <title>Vuoi lavorare in una Startup italiana?</title>
@@ -22,6 +46,16 @@
       <guid>https://nicolaiarocci.com/vuoi-lavorare-in-una-startup-italiana/</guid>
       <description>&lt;p&gt;&lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Italian Startup Scene&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt; è un &lt;em&gt;“gruppo di ritrovo degli startupper italiani. Imprenditori, investitori, bloggers, sviluppatori e chiunque abbia un interesse per startups e venture capital”&lt;/em&gt;. Si tratta di una risorsa da non perdere se vi interessate alla scena startup italiana, che esiste ed è viva e vegeta malgrado molti (senza aver mai guardato al di là del proprio steccato) sostengano il contrario o non facciano altro che guardare alla remota Silicon Valley.&lt;/p&gt;
 &lt;p&gt;Fondata da alcuni degli startupper più affermati e frequentata da quasi 2.000 utenti, molti dei quali attivamente coinvolti in progetti di startup, ISS è il posto ideale per chiedere &lt;strong&gt;consigli&lt;/strong&gt;, proporre e &lt;strong&gt;discutere idee&lt;/strong&gt;, &lt;strong&gt;cercare collaborazioni&lt;/strong&gt; e chissà, &lt;strong&gt;trovare finanziamenti&lt;/strong&gt; per i vostri progetti.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong><!-- raw HTML omitted -->Italian Startup Scene<!-- raw HTML omitted --></strong> è un <em>“gruppo di ritrovo degli startupper italiani. Imprenditori, investitori, bloggers, sviluppatori e chiunque abbia un interesse per startups e venture capital”</em>. Si tratta di una risorsa da non perdere se vi interessate alla scena startup italiana, che esiste ed è viva e vegeta malgrado molti (senza aver mai guardato al di là del proprio steccato) sostengano il contrario o non facciano altro che guardare alla remota Silicon Valley.</p>
+<p>Fondata da alcuni degli startupper più affermati e frequentata da quasi 2.000 utenti, molti dei quali attivamente coinvolti in progetti di startup, ISS è il posto ideale per chiedere <strong>consigli</strong>, proporre e <strong>discutere idee</strong>, <strong>cercare collaborazioni</strong> e chissà, <strong>trovare finanziamenti</strong> per i vostri progetti.</p>
+<p>Italian Startup Scene è organizzata come <!-- raw HTML omitted -->Gruppo Facebook<!-- raw HTML omitted --> – in effetti si tratta dell’unica risorsa Facebook che frequento assiduamente. La lettura del gruppo è libera ma dovete iscrivervi per partecipare alle discussioni che sono molte, interessanti e pertinenti – astenersi perditempo! In queste settimane stanno nascendo i sotto gruppi regionali che servono ad agevolare conoscenze e scambi di informazioni tra gli utenti che vivono vicini.</p>
+<!-- raw HTML omitted -->
+<h2 id="lavorare-per-una-startup-italiana">Lavorare per una Startup italiana</h2>
+<p>Ma il progetto ISS di cui voglio parlarvi, anche perché è nato un po’ in sordina e credo meriti maggiore attenzione, è <!-- raw HTML omitted -->Jobs for Geeks<!-- raw HTML omitted -->. Si tratta di una bella bacheca interattiva dove le startup italiane propongono impieghi di ogni genere: programmatori, designer, esperti commerciali, managers e testers. A sottolineare lo spirito originale di ISS è presente anche il panel per la ricerca di soci fondatori. Nel momento in cui scrivo il panel <!-- raw HTML omitted -->Programmatori<!-- raw HTML omitted --> conta 9 posizioni disponibili.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Trattandosi quasi sempre di startup che operano nel campo delle tecnologie e della rete è facile trovare disponibilità per ogni tipo di collaborazione: part-time, freelance, remote. Non si tratta di offerte di lavoro canoniche neanche dal punto di vista della retribuzione. In tipico stile startup c’è chi cerca, per esempio, un .NET Developer che partecipi a un progetto senz’altro interessante ma attenzione, <em>“Niente retribuzione, per ora, tanto affetto e tanta simpatia :)”</em></p>
+<p>Niente male davvero.</p>]]></content:encoded>
     </item>
     <item>
       <title>Programmazione, SEO, Startup – Il Meglio della Settimana #3</title>
@@ -29,6 +63,70 @@
       <pubDate>Sun, 06 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/programmazione-seo-startup-il-meglio-della-settimana-3/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Settimana ricca di avvenimenti anche questa. SEO, Startup e applicazioni per Smartphone in primo piano ma non mancano altre chicche per buongustai. Al decimo posto una curiosità non ha nulla da spartire con gli argomenti trattati di solito, ma quelle foto dovevo segnalarvele. Ringrazio chi mi ha contattato via mail, Facebook e Twitter. A quanto pare la rubrica piace e farò il possibile per portarla avanti migliorando la qualità delle selezioni, come sempre assolutamente arbitrarie.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Settimana ricca di avvenimenti anche questa. SEO, Startup e applicazioni per Smartphone in primo piano ma non mancano altre chicche per buongustai. Al decimo posto una curiosità non ha nulla da spartire con gli argomenti trattati di solito, ma quelle foto dovevo segnalarvele. Ringrazio chi mi ha contattato via mail, Facebook e Twitter. A quanto pare la rubrica piace e farò il possibile per portarla avanti migliorando la qualità delle selezioni, come sempre assolutamente arbitrarie.</p>
+<ol>
+<li>
+<p><strong><a href="http://cdixon.org/2011/03/05/seo-is-no-longer-a-viable-marketing-strategy-for-startups/">SEO non è più una strategia valida per le Startup</a></strong></p>
+<p>Opinione fuori dal coro quella di Chris Dixon, CEO di Hunch e investitore seriale (Skype, Foursquare, Stack Overflow e altri). Chris sostiene che le Startup dovrebbero smetterla di puntare su SEO. Alla base del successo di molte Startup dell’ultimo decennio, l’industria SEO è cresciuta talmente che il mercato ne é saturo. Al punto che Google ormai fatica a distinguere i contenuti di qualità da quelli <em>SEO-optimized</em>. Nei commenti una discussione vivace alle quale partecipano investitori famosi e SEO guru internazionali.</p>
+</li>
+<li>
+<p><strong><a href="http://www.marioconcina.it/blog/mobile-development/analisi-sullo-sviluppo-di-applicazioni-per-smartphone.html">Analisi sullo sviluppo di applicazioni per Smartphone</a></strong></p>
+</li>
+</ol>
+<pre><code>Secondo molti lo sviluppo di applicazioni mobile è il futuro. Ma quale è la piattaforma sulla quale puntare investendo tempo e denaro? Mario Concina ci offre una bella panoramica su linguaggi, costi e pro e contro di ognuna delle piattaforme tecnologiche più importanti (iPhone, Android, Windows Mobile, Symbian, BlackBerry)
+</code></pre>
+<ol start="3">
+<li>**[<!-- raw HTML omitted -->Settimana ricca di avvenimenti anche questa. SEO, Startup e applicazioni per Smartphone in primo piano ma non mancano altre chicche per buongustai. Al decimo posto una curiosità non ha nulla da spartire con gli argomenti trattati di solito, ma quelle foto dovevo segnalarvele. Ringrazio chi mi ha contattato via mail, Facebook e Twitter. A quanto pare la rubrica piace e farò il possibile per portarla avanti migliorando la qualità delle selezioni, come sempre assolutamente arbitrarie.</li>
+</ol>
+<!-- raw HTML omitted -->
+<ol>
+<li><strong><a href="http://cdixon.org/2011/03/05/seo-is-no-longer-a-viable-marketing-strategy-for-startups/">SEO non è più una strategia valida per le Startup</a></strong></li>
+</ol>
+<pre><code>Opinione fuori dal coro quella di Chris Dixon, CEO di Hunch e investitore seriale (Skype, Foursquare, Stack Overflow e altri). Chris sostiene che le Startup dovrebbero smetterla di puntare su SEO. Alla base del successo di molte Startup dell&amp;#8217;ultimo decennio, l&amp;#8217;industria SEO è cresciuta talmente che il mercato ne é saturo. Al punto che Google ormai fatica a distinguere i contenuti di qualità da quelli _SEO-optimized_. Nei commenti una discussione vivace alle quale partecipano investitori famosi e SEO guru internazionali.
+</code></pre>
+<ol start="2">
+<li><strong><a href="http://www.marioconcina.it/blog/mobile-development/analisi-sullo-sviluppo-di-applicazioni-per-smartphone.html">Analisi sullo sviluppo di applicazioni per Smartphone</a></strong></li>
+</ol>
+<pre><code>Secondo molti lo sviluppo di applicazioni mobile è il futuro. Ma quale è la piattaforma sulla quale puntare investendo tempo e denaro? Mario Concina ci offre una bella panoramica su linguaggi, costi e pro e contro di ognuna delle piattaforme tecnologiche più importanti (iPhone, Android, Windows Mobile, Symbian, BlackBerry)
+</code></pre>
+<ol start="3">
+<li><strong>]<a href="http://www.pcworld.com/article/221159/5_new_ways_build_iphone_android_browser_apps.html">3</a></strong> Molte Startup lanciano in questi giorni prodotti e soluzioni che promettono di semplificare la creazione di applicazioni mobile. In questo articolo PC World ne presenta cinque. Alcune promettono la luna: creazione rapida di applicazioni mobile per tutti, programmatori e non.</li>
+<li><a href="http://www.attackofdesign.com/coder-who-cant-design-and-designers-who-cant-code/"><strong>Programmatori che non sono Designer, Designer che non sono Programmatori</strong></a></li>
+</ol>
+<pre><code>Il programmatore incapace di accoppiare due colori. Il designer inetto col codice. O ci riconosciamo in una di queste figure (io nella prima), o ne abbiamo incontrate nella nostra carriera. Questo breve articolo ne traccia il profilo.
+</code></pre>
+<ol start="5">
+<li><strong><a href="http://www.bigthink.it/facebook-e-i-nuovi-commenti-sincronizzati/">Facebook e i nuovi commenti sincronizzati</a></strong></li>
+</ol>
+<pre><code>Facebook è in gran spolvero di questi tempi. Solo quindici giorni fa aggiornava subdolamente il Like Button e questa settimana mette mano al plugin dei Commenti. La novità è destinata a influire pesantemente sulla penetrazione di Facebook nel &amp;#8216;resto della rete&amp;#8217;. Con la solita dovizia di particolari BigThink ci spiega gli aspetti pratici di questo aggiornamento.
+
+&lt;a style=&quot;font-weight: bold;&quot; href=&quot;http://www.bigthink.it/facebook-e-i-nuovi-commenti-sincronizzati/&quot;&gt;&lt;/a&gt;
+</code></pre>
+<ol start="6">
+<li><a href="http://startup.wikli.it/"><strong>Startup.Wikli.it</strong></a></li>
+</ol>
+<pre><code>Startup, web, acquisizioni e venture capital. Wikli seleziona e commenta le news tematiche più interessanti della settimana, le confeziona e te le fa trovare puntuali nella casella di posta ogni venerdì alle 8.00. Idea brillante e molto ben congegnata. Vi invito ad iscrivervi a questa innovativa mailing list. Non ve ne pentirete.
+</code></pre>
+<ol start="7">
+<li><a href="http://www.fabiolalli.com/2011/03/02/yeplike-startup-in-72-ore/"><strong>YepLike! Startup in 72 ore</strong></a></li>
+</ol>
+<pre><code>In preda a delirio febbricitante Fabio Lalli si inventa una idea da lanciare in 72 ore. Leggete il suo racconto. PS: nel frattempo le 72 ore sono trascorse, l&amp;#8217;applicazione è su iPhone e a quanto pare riscuote buon successo.
+</code></pre>
+<ol start="8">
+<li><a href="http://rgarg.posterous.com/20-software-development-best-practices"><strong>Venti consigli pratici per il programmatore</strong></a></li>
+</ol>
+<pre><code>Di post di questo tipo se ne trovano tanti in rete ma questo mi ha colpito perché contiene alcune chicche interessanti che denotano esperienza diretta da parte dell&amp;#8217;autore. Da non perdere se siete principianti. Se siete esperti vi riconoscerete senz&amp;#8217;altro in alcune di queste situazioni.
+</code></pre>
+<ol start="9">
+<li><a href="http://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read"><strong>Quale è il libro fondamentale che ogni programmatore dovrebbe leggere nella vita?</strong></a></li>
+</ol>
+<pre><code>Su Stack Overflow se ne è discusso a lungo. Il risultato è una selezione di alcuni tra i libri più importanti di sempre. Il fatto che il Kernighan &amp; Ritchie non sia il primo in classifica la dice lunga sulla mia vetustità. Sono un collezionista di prime edizioni, ammetto che vedere riuniti così tanti testi fondamentali mi ha fatto prudere le mani.
+</code></pre>
+<ol start="10">
+<li><a href="http://www.howtobearetronaut.com/2011/02/shackletons-antarctica-in-colour-1915/"><strong>Shackleton, L’Antartide a Colori – 1915</strong></a></li>
+</ol>
+<pre><code>Nel 1915 Shackleton e i suoi uomini furono costretti ad abbandonare la &amp;#8216;Endurance&amp;#8217;, inesorabilmente intrappolata dai ghiacci. Frank Hurley, il fotografo dela spedizione, riuscì miracolosamente a salvare le lastre fotografiche di quella spedizione. In questa magnifica galleria vediamo le foto (a colori) di quella spedizione
+</code></pre>]]></content:encoded>
     </item>
   </channel>
 </rss>

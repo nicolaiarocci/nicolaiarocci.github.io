@@ -17,6 +17,26 @@
 Learn in public, it gives superpowers1. Also, in recent years, adopting POSSE was the best thing I did for my personal development.
 Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter
 I should do better. Post more TILs, for example.</description>
+      <content:encoded><![CDATA[<p>Today I searched the internet for something, and the first result I got from
+<a href="https://duckduckgo.com/">@duckduckgo</a> was a note I wrote months ago to my future self; how meta is
+that.</p>
+<p><img loading="lazy" src="/images/duckduckgo-search.png" alt=""  />
+</p>
+<p><a href="https://www.swyx.io/learn-in-public/">Learn in public</a>, it gives superpowers<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Also, in recent years, adopting
+<a href="https://indieweb.org/POSSE">POSSE</a> was the best thing I did for my personal development.</p>
+<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I should do better. Post more <a href="/tags/til/">TILs</a>, for example.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

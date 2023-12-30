@@ -15,6 +15,20 @@
       <guid>https://nicolaiarocci.com/flask-2.0/</guid>
       <description>Flask 2.0 has just been released. Along with it come many other major satellite releases: Werkzeug 2.0, Jinja 3.0, Click 8.0, ItsDangerous 2.0, and MarkupSafe 2.0.
 Across all projects, Python 3.6+ is now required, and comprehensive type annotations are supported. At a glance, I&amp;rsquo;d say that the biggest news is async views in Flask 2. Work has also been done around Werkzeug Request and Response classes to allow for better sync and async in the future (it&amp;rsquo;s not a public API yet.</description>
+      <content:encoded><![CDATA[<p>Flask 2.0 has just been released. Along with it come many other major satellite
+releases: Werkzeug 2.0, Jinja 3.0, Click 8.0, ItsDangerous 2.0, and MarkupSafe
+2.0.</p>
+<p>Across all projects, Python 3.6+ is now required, and comprehensive type
+annotations are supported. At a glance, I&rsquo;d say that the biggest news is async
+views in Flask 2. Work has also been done around Werkzeug <code>Request</code> and
+<code>Response</code> classes to allow for better sync and async in the future (it&rsquo;s not
+a public API yet.) Jinja, Click and ItsDangerous come with a lot of new
+niceties. Details are available on the <a href="https://palletsprojects.com/blog/flask-2-0-released/">Pallets website</a>.</p>
+<p>Flask is, of course, the giant on which shoulders the whole <a href="https://python-eve.org">Eve</a> project rests.
+To say that the Pallets team has been working hard at the forge is an
+understatement—huge congrats to all of them.</p>
+<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+]]></content:encoded>
     </item>
     <item>
       <title>How about a Sentinel for your Flask Application?</title>
@@ -24,6 +38,49 @@ Across all projects, Python 3.6+ is now required, and comprehensive type annotat
       <description>Flask-Sentinel is a OAuth2 Server implementation of the Resource Owner Password Credentials Grant pattern described in Section 1.3.3 of RFC 6749. It is powered by Flask-Oauthlib, Redis and MongoDB and is bundled as a Flask extension so it can be used to add OAuth2 capabilities to an existing application.
 So what is the Resource Owner Password Credentials Grant pattern? According to the official RFC:
 The resource owner password credentials (i.e., username and password) can be used directly as an authorization grant to obtain an access token.</description>
+      <content:encoded><![CDATA[<p><a href="https://github.com/nicolaiarocci/flask-sentinel">Flask-Sentinel</a> is a OAuth2 Server implementation of the Resource Owner Password Credentials Grant pattern described in <a href="http://tools.ietf.org/html/rfc6749#section-1.3.3">Section 1.3.3 of RFC 6749</a>. It is powered by Flask-Oauthlib, Redis and MongoDB and is bundled as a Flask extension so it can be used to add OAuth2 capabilities to an existing application.</p>
+<p>So what is the Resource Owner Password Credentials Grant pattern? According to the official RFC:</p>
+<blockquote>
+<p>The resource owner password credentials (i.e., username and password) can be used directly as an authorization grant to obtain an access token. The credentials should only be used when there is a high degree of trust between the resource owner and the client (e.g., the client is part of the device operating system or a highly privileged application).</p>
+</blockquote>
+<p>A typical use case would be when the remote API maintainer controls the client application. Say that you have a REST API being consumed by your own iOS, Android, WinPhone, desktop or web applications. Users register to your service by creating their accounts. Then, they consume the service using your applications.</p>
+<blockquote>
+<p>Even though this grant type requires direct client access to the resource owner credentials, the resource owner credentials are used for a single request and are exchanged for an access token. This grant type can eliminate the need for the client to store the resource owner credentials for future use, by exchanging the credentials with a long-lived access token or refresh token.</p>
+</blockquote>
+<p>So let’s get back at the proprietary client scenario. The user has just installed the application on his/her device. On first run he/she is asked to provide his/her username and password. These are sent to the OAuth2 server through a SSL/TLS encrypted channel. If the user is registered for the service and the client id, which has also been sent along with the user credentials, is recognised, then the server sends back a valid access token. Otherwise responds with a <code>401 Unhautorized</code>.</p>
+<p>From now on the application will only be using the access token for all requests until, eventually, the token expires. If that happens, the cycle repeats. Please note that in this scenario the client does not need to (and probably should not) store the username and/or password on the local cache. The User Credentials pattern usually relies on long lived tokens so asking again for username and password is not a big deal (you could also opt for permanent, revokable tokens.)</p>
+<p>Flask-Sentinel provides two endpoints: one for token creation which defaults to <code>/oauth/token</code> and is consumed by clients, and another for users and clients management, accessible at <code>/oauth/management</code>:</p>
+<!-- raw HTML omitted -->
+<p>Note that the password is hashed and salted on the server, so no plain password is stored on either sides of the channel.</p>
+<p>Only existing users and recognised clients will be provided an access token. A typical token request would be as follows:</p>
+<pre><code>$ curl -k -X POST -d \
+  &quot;client_id=9qFbZD4udTzFVYo0u5UzkZX9iuzbdcJDRAquTfRk&amp;
+   grant_type=password&amp;
+   username=jonas&amp;
+   password=pass&quot; \
+   &lt;api_url&gt;/oauth/token
+</code></pre>
+<p>And the response would be like so:</p>
+<pre><code>{
+    &quot;access_token&quot;: &quot;NYODXSR8KalTPnWUib47t5E8Pi8mo4&quot;, 
+    &quot;token_type&quot;: &quot;Bearer&quot;, 
+    &quot;refresh_token&quot;: &quot;s6L6OPL2bnKSRSbgQM3g0wbFkJB4ML&quot;, 
+    &quot;scope&quot;: &quot;&quot;
+}
+</code></pre>
+<p>The client can now use the access token to access protected API endpoints:</p>
+<pre><code>$ curl -k -H \
+  &quot;Authorization:Bearer NYODXSR8KalTPnWUib47t5E8Pi8mo4&quot; \
+  &lt;api_url&gt;/endpoint
+
+200 OK
+</code></pre>
+<p>There are a number of configuration options of course, for example you can change the url of token and management endpoints, set token expiration, setup database connection, stuff like that. Redis is used to store active access tokens, allows for optimal performance.</p>
+<p>While you can use Flask-Sentinel to extend an existing API, you might want to instance it as a stand-alone Flask application to optimize for scalability. You would end up with a distributed network of three different (micro)services: the OAuth2 server, the resouces API with protected endpoints as needed, and the Redis instance bridging the two. Check out the <a href="https://github.com/nicolaiarocci/flask-sentinel">project page</a> on GitHub for details.</p>
+<p>Of course Flask-Sentinel integrates seamlessly with any <a href="http://python-eve.org">Eve</a> powered REST API. Check out the <a href="https://github.com/nicolaiarocci/eve-oauth2">Eve-OAuth2</a> sample, a fork of the original Eve-Demo project with a couple protected endpoints and a static HTML page, also protected.</p>
+<p>The project is very new and lacks a few little things, but I suspect it is already usable even at this stage. Enjoy!</p>
+<p>If you want to get in touch, I am <a href="http://twitter.com/nicolaiarocci">@nicolaiarocci</a> on Twitter.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Python and Flask Are Ridiculously Powerful</title>
@@ -32,6 +89,11 @@ The resource owner password credentials (i.e., username and password) can be use
       <guid>https://nicolaiarocci.com/python-and-flask-are-ridiculously-powerful/</guid>
       <description>As a developer, I sometimes forget the power I yield. It’s easy to forget that, when something doesn’t work the way I’d like, I have the power to change it.
 via Python and Flask Are Ridiculously Powerful.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>As a developer, I sometimes forget the power I yield. It’s easy to forget that, when something doesn’t work the way I’d like, I have the power to change it.</p>
+</blockquote>
+<p>via <a href="http://jeffknupp.com/blog/2014/01/18/python-and-flask-are-ridiculously-powerful/">Python and Flask Are Ridiculously Powerful</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Flask-MimeRender v0.1.2</title>
@@ -39,6 +101,8 @@ via Python and Flask Are Ridiculously Powerful.</description>
       <pubDate>Thu, 19 Jul 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/flask-mimerender-v0-1-2/</guid>
       <description>Grazie al contributo di Bruno Ripa, la versione 0.1.2 di Flask-MimeRender pubblicata oggi introduce il supporto per codici di stato HTTP arbitrari. Ho colto l’occasione per uniformare il codice sorgente alle direttive PEP8 e per sistemare alcuni dettagli del package PyPI. Vi ricordo che potete contribuire voi stessi al progetto, direttamente su GitHub.</description>
+      <content:encoded><![CDATA[<p>Grazie al contributo di <a href="http://twitter.com/brunoripa">Bruno Ripa</a>, la versione 0.1.2 di <a href="http://nicolaiarocci.com/come-implementare-un-web-service-rest-che-adatta-le-risposte-al-mime-media-type-delle-richieste-http/" title="Flask-MimeRender">Flask-MimeRender</a> pubblicata oggi introduce il supporto per codici di stato HTTP arbitrari. Ho colto l’occasione per uniformare il codice sorgente alle direttive PEP8 e per sistemare alcuni dettagli del <a href="http://nicolaiarocci.com/flask-mimerender-e-nel-python-package-index-pypi/" title="Flask-MimeRender su PyPI">package PyPI</a>. Vi ricordo che potete contribuire voi stessi al progetto, direttamente su <!-- raw HTML omitted -->GitHub<!-- raw HTML omitted -->.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Sviluppare una RESTful Web API con Python, Flask e MongoDB</title>
@@ -47,6 +111,13 @@ via Python and Flask Are Ridiculously Powerful.</description>
       <guid>https://nicolaiarocci.com/sviluppare-una-restful-web-api-con-python-flask-e-mongodb/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;La scorsa settimana a &lt;!-- raw HTML omitted --&gt;EuroPython 2012&lt;!-- raw HTML omitted --&gt; ho tenuto un talk intitolato &lt;!-- raw HTML omitted --&gt;Sviluppare una RESTful Web API con Python, Flask e MongoDB&lt;!-- raw HTML omitted --&gt;. Mi ha fatto piacere riscontrare forte interesse sia per gli aspetti teorici dell’architettura REST che per la loro implementazione pratica con strumenti quali Flask e MongoDB. In entrambe le sessioni inglese e italiana mi sono state rivolte molte domande, sia in occasione delle Q&amp;amp;A plenarie che nei successivi colloqui informali. Parecchi anche i commenti ed i suggerimenti, davvero utili ed apprezzati (a quanto pare non sono l’unico che, forte di un background .NET, ha compiuto o sta per compiere il salto verso Python e il mondo open source).&lt;/p&gt;
 &lt;p&gt;Soprattutto ho rilevato una forte curiosità su MongoDB, un database non-relazionale verso il quale sembra prevalere un atteggiamento  di generale timidezza: “vorrei ma non oso”, insomma. Per quanto riguarda Flask direi che ormai, nel vasto firmamento dei micro web framework, è una stella che brilla di luce propria.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><!-- raw HTML omitted -->La scorsa settimana a <!-- raw HTML omitted -->EuroPython 2012<!-- raw HTML omitted --> ho tenuto un talk intitolato <!-- raw HTML omitted -->Sviluppare una RESTful Web API con Python, Flask e MongoDB<!-- raw HTML omitted -->. Mi ha fatto piacere riscontrare forte interesse sia per gli aspetti teorici dell’architettura REST che per la loro implementazione pratica con strumenti quali Flask e MongoDB. In entrambe le sessioni inglese e italiana mi sono state rivolte molte domande, sia in occasione delle Q&amp;A plenarie che nei successivi colloqui informali. Parecchi anche i commenti ed i suggerimenti, davvero utili ed apprezzati (a quanto pare non sono l’unico che, forte di un background .NET, ha compiuto o sta per compiere il salto verso Python e il mondo open source).</p>
+<p>Soprattutto ho rilevato una forte curiosità su MongoDB, un database non-relazionale verso il quale sembra prevalere un atteggiamento  di generale timidezza: “vorrei ma non oso”, insomma. Per quanto riguarda Flask direi che ormai, nel vasto firmamento dei micro web framework, è una stella che brilla di luce propria.</p>
+<p>Per quanto riguarda le registrazioni video potete andare su YouTube o sulla pagina ufficiale di EuroPython (<!-- raw HTML omitted -->english track<!-- raw HTML omitted --> e <!-- raw HTML omitted -->italian track<!-- raw HTML omitted -->). Ammetto di essere più soddisfatto della versione inglese nella quale – complice anche l’esperienza italiana del giorno prima – credo di essere stato più sintetico ed efficace. Qui mi limito a proporvi le slide:</p>
+<h2 id="ringraziamenti">Ringraziamenti</h2>
+<p>Un immenso grazie ai ragazzi dello staff di EuroPython che veramente hanno fatto di tutto per rendere questa manifestazione un evento straordinario – e ci sono riusciti  (una settimana di talk su cinque tracce parallele, sprint, hands-on, corsi, cibo di ottima qualità e credo oltre 800 partecipanti).</p>
+<p>Vi racconto un episodio giusto per darvi l’idea di quanto questi ragazzi, tutti volontari, si diano da fare e ci mettano passione vera. Nella sessione italiana ho ‘sforato’ (capita anche ai migliori, mi dicono!) e così mi son trovato a sorvolare su un certo numero di slide. Ebbene il mio talk manager e il suo assistente mi hanno proposto di loro iniziativa di tenere una sessione pomeridiana straordinaria per consentirmi di portare a termine la mia relazione. Non capita tutti i giorni, credetemi. Per mia fortuna gran parte delle persone che avevano assistito alla sessione mattutina sono poi tornate per quella del pomeriggio, altrimenti sai che figura!</p>
+<p>Se siete pythonisti o vorreste diventarlo non perdetevi la prossima edizione di questo evento internazionale che, con tutta probabilità, si terrà di nuovo a Firenze l’anno prossimo.</p>]]></content:encoded>
     </item>
     <item>
       <title>Flask MimeRender nel Python Package Index (PyPI)</title>
@@ -56,6 +127,13 @@ via Python and Flask Are Ridiculously Powerful.</description>
       <description>Un appunto veloce per segnalare che Flask MimeRender, il mio strumento RESTful per il rendering basato sul MIME Media-Type delle richieste HTTP (JSON, XML, HTML, ecc.), è ora presente su PyPI, il Python Package Index ufficiale.
 Tutto ciò significa che l’installazione di Flask MimeRender su Windows, OSX e Linux è diventato più semplice:
 Codice sorgente e istruzioni sono a vostra disposizione su GitHub, mentre per spiegazione approfondita ed esempio d’uso vi rimando al mio articolo precedente: Una REST API che adatta le sue risposte al MIME Media-Type delle richieste HTTP.</description>
+      <content:encoded><![CDATA[<p>Un appunto veloce per segnalare che <!-- raw HTML omitted -->Flask MimeRender<!-- raw HTML omitted -->, il mio strumento RESTful per il rendering basato sul MIME Media-Type delle richieste HTTP (JSON, XML, HTML, ecc.), è ora presente su <!-- raw HTML omitted -->PyPI<!-- raw HTML omitted -->, il Python Package Index ufficiale.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Tutto ciò significa che l’installazione di Flask MimeRender su Windows, OSX e Linux è diventato più semplice:</p>
+<!-- raw HTML omitted -->
+<p>Codice sorgente e istruzioni sono a vostra disposizione su <!-- raw HTML omitted -->GitHub<!-- raw HTML omitted -->, mentre per spiegazione approfondita ed esempio d’uso vi rimando al mio articolo precedente: <a href="http://nicolaiarocci.com/come-implementare-un-web-service-rest-che-adatta-le-risposte-al-mime-media-type-delle-richieste-http/" title="Una REST API che adatta le sue risposte al MIME Media-Type delle richieste HTTP">Una REST API che adatta le sue risposte al MIME Media-Type delle richieste HTTP</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Una REST API che adatta le sue risposte al MIME Media-Type delle richieste HTTP</title>
@@ -65,6 +143,17 @@ Codice sorgente e istruzioni sono a vostra disposizione su GitHub, mentre per sp
       <description>&lt;p&gt;Da qualche tempo sto lavorando alla implementazione di una REST API. In linea generale e semplificando, una &lt;!-- raw HTML omitted --&gt;API&lt;!-- raw HTML omitted --&gt; è un servizio che espone alcune funzionalità, è accessibile via internet più o meno liberamente ed è, infine, utilizzabile non solo da persone fisiche ma anche e soprattutto da altre applicazioni. Un esempio di API è quella di Facebook, che consente a chiunque di creare applicazioni che interagiscono con gli utenti e le pagine Facebook. Già, se non ci fosse la API non esisterebbero i terribili giochini Facebook…&lt;/p&gt;
 &lt;p&gt;Una delle specifiche &lt;!-- raw HTML omitted --&gt;REST&lt;!-- raw HTML omitted --&gt; più importanti vuole che un servizio RESTful sia in grado di fornire dati in più formati, in modo tale da soddisfare il maggior numero possibile di utenti/applicazioni. Immaginiamo un servizio che fornisce i risultati delle partite del campionato di calcio. Supponiamo che arrivino tre richieste successive per lo stesso risultato: la prima potrebbe chiedere una risposta in formato XML, la seconda in JSON e la terza in HTML. Il  nostro servizio deve rispondere a tutte e tre le richieste, adattando il flusso di dati della risposta al formato di ognuna.&lt;/p&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;Nel mio caso la API che sto implementando supporta XML, JSON, HTML e testo puro. E’ scritta in Python (ma va!) e si appoggia all’eccellente &lt;!-- raw HTML omitted --&gt;Flask&lt;!-- raw HTML omitted --&gt; micro web framework. Per risolvere in maniera elegante il problema delle risposte multi-formato ho deciso di usare i &lt;!-- raw HTML omitted --&gt;decorator&lt;!-- raw HTML omitted --&gt;, una delle caratteristiche più interessanti di Python. Dopo un po’ di lavoro in proprio ho scoperto che qualcuno aveva già risolto il problema, per giunta con la stessa tecnica. &lt;!-- raw HTML omitted --&gt;MimeRender&lt;!-- raw HTML omitted --&gt; di Martin Blech è un’ottima soluzione, solo che è specifica per web.py (un altro web framework). La mia soluzione non disponeva di alcune opzioni interessanti che MimeRender include; ho deciso allora di scrivere un port di MimeRender per Flask, e di metterlo a disposizione del pubblico.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Da qualche tempo sto lavorando alla implementazione di una REST API. In linea generale e semplificando, una <!-- raw HTML omitted -->API<!-- raw HTML omitted --> è un servizio che espone alcune funzionalità, è accessibile via internet più o meno liberamente ed è, infine, utilizzabile non solo da persone fisiche ma anche e soprattutto da altre applicazioni. Un esempio di API è quella di Facebook, che consente a chiunque di creare applicazioni che interagiscono con gli utenti e le pagine Facebook. Già, se non ci fosse la API non esisterebbero i terribili giochini Facebook…</p>
+<p>Una delle specifiche <!-- raw HTML omitted -->REST<!-- raw HTML omitted --> più importanti vuole che un servizio RESTful sia in grado di fornire dati in più formati, in modo tale da soddisfare il maggior numero possibile di utenti/applicazioni. Immaginiamo un servizio che fornisce i risultati delle partite del campionato di calcio. Supponiamo che arrivino tre richieste successive per lo stesso risultato: la prima potrebbe chiedere una risposta in formato XML, la seconda in JSON e la terza in HTML. Il  nostro servizio deve rispondere a tutte e tre le richieste, adattando il flusso di dati della risposta al formato di ognuna.</p>
+<p><!-- raw HTML omitted -->Nel mio caso la API che sto implementando supporta XML, JSON, HTML e testo puro. E’ scritta in Python (ma va!) e si appoggia all’eccellente <!-- raw HTML omitted -->Flask<!-- raw HTML omitted --> micro web framework. Per risolvere in maniera elegante il problema delle risposte multi-formato ho deciso di usare i <!-- raw HTML omitted -->decorator<!-- raw HTML omitted -->, una delle caratteristiche più interessanti di Python. Dopo un po’ di lavoro in proprio ho scoperto che qualcuno aveva già risolto il problema, per giunta con la stessa tecnica. <!-- raw HTML omitted -->MimeRender<!-- raw HTML omitted --> di Martin Blech è un’ottima soluzione, solo che è specifica per web.py (un altro web framework). La mia soluzione non disponeva di alcune opzioni interessanti che MimeRender include; ho deciso allora di scrivere un port di MimeRender per Flask, e di metterlo a disposizione del pubblico.</p>
+<h2 id="istruzioni-per-l8217uso">Istruzioni per l’uso</h2>
+<p>Prima di tutto è necessario fornire le funzioni da usare per il rendering, una per ogni formato che intendiamo supportare:</p>
+<!-- raw HTML omitted -->
+<p>Quindi decoriamo la nostra funzione, definendo per lei la mappa delle funzioni di rendering:</p>
+<!-- raw HTML omitted -->
+<p>Tutto qui! In caso di richiesta GET la funzione <code>index</code> restituisce un dizionario, il quale verrà reso da MimeRender come XML, JSON o quant’altro, a seconda del Content-Type specificato nella richiesta HTTP:</p>
+<!-- raw HTML omitted -->
+<p>Su <!-- raw HTML omitted -->github <!-- raw HTML omitted -->trovate l’esempio completo nonché il codice sorgente del renderer, che potete scaricare liberamente.</p>]]></content:encoded>
     </item>
   </channel>
 </rss>
