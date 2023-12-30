@@ -6,21 +6,29 @@
     <description>Recent content in Tags on Nicola Iarocci</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Dec 2023 15:51:02 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 30 Dec 2023 10:08:07 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>books</title>
-      <link>https://nicolaiarocci.com/tags/books/</link>
-      <pubDate>Fri, 29 Dec 2023 15:51:02 +0100</pubDate>
-      <guid>https://nicolaiarocci.com/tags/books/</guid>
+      <title>movies</title>
+      <link>https://nicolaiarocci.com/tags/movies/</link>
+      <pubDate>Sat, 30 Dec 2023 10:08:07 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/tags/movies/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>reviews</title>
       <link>https://nicolaiarocci.com/tags/reviews/</link>
-      <pubDate>Fri, 29 Dec 2023 15:51:02 +0100</pubDate>
+      <pubDate>Sat, 30 Dec 2023 10:08:07 +0100</pubDate>
       <guid>https://nicolaiarocci.com/tags/reviews/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>books</title>
+      <link>https://nicolaiarocci.com/tags/books/</link>
+      <pubDate>Fri, 29 Dec 2023 15:51:02 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/tags/books/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
