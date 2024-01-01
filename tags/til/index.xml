@@ -52,7 +52,7 @@ verbose than others, but my favorite is resorting to a custom StringWriter:</p>
 </code></pre><p>The whole .NET framework has seen fantastic performance improvements, top-class multi-platform support, and remarkable
 streamlining, but some baffling pitfalls are still hidden in some of its less obvious parts. StringWriter not supporting
 UTF-8 out-of-the-box is one of them.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -84,7 +84,7 @@ property:</p>
 don&rsquo;t need, but their base implementation is similar to mine (they use deferred execution as well).</p>
 <p>By the way, years after its open-sourcing, I still get thrills when I realize I can always look at, let alone contribute
 to, the .NET source code.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -124,7 +124,7 @@ reasonably safe. Are there better ways? Please let me know.</p>
 <p>Thanks to Sebastian on Mastodon for <a href="https://fosstodon.org/@DarkMetatron@rollenspiel.social/110939139075153024">pointing out</a> that I should limit the sudoer to just rsync itself. I updated the post accordingly. By the way, this is why I love posting TILs in public.
 [rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
 [m]: <a href="https://fosstodon.org/@nicola">https://fosstodon.org/@nicola</a>
-[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -149,7 +149,7 @@ both versions 8 Preview and 7 became immediately available. I suspect that <code
 from .NET canonical location to the Homebrew cellar, which magically solved the SDK visibility problem.</p>
 <p>TL; DR. Homebrew recipes don&rsquo;t play nicely with .NET canonical installer. To make all my SDK versions visible to .NET,
 I had to forego the Homebrew installation, which did not uninstall the SDK itself, but simply unlinked it.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -183,7 +183,7 @@ Decimal(&#39;0.142857&#39;)
 </code></pre><p>I suspect this has something to do with threads, as <code>decimal.getcontext</code> targets the current thread while
 <code>DefaultContext</code> is global. I went to the bpython repository only to find that a ticket was already opened in 2021. I
 <a href="https://github.com/bpython/bpython/issues/918#issuecomment-1578911204">added</a> my <code>DefaultContext</code> observation there.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -219,7 +219,7 @@ End: 13/05/2023, 15:04:27
 OS Version: Version 13.3.1 (a) (Build 22E772610a)
 </code></pre><p>It supports Apple&rsquo;s Private Relay, offers some configuration options and allows setting up your own server. More info
 <a href="https://cyberhost.uk/the-hidden-macos-speedtest-tool-networkquality/">here</a>.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -262,7 +262,7 @@ any task that requires the use of multiple sources of information from a common 
 <p>The brilliant comic that opens the article is the perfect TL;DR for the Watchmakers parable.</p>
 <p><img loading="lazy" src="/images/ProgrammerInterrupted.png" alt="This is why you shouldn&amp;rsquo;t interrupt a programmer"  />
 </p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -275,7 +275,7 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
       <content:encoded><![CDATA[<p><img loading="lazy" src="/images/hand-dryers.png" alt="It seems like hand dryers take forever to heat up, but that&amp;rsquo;s because evaporation cools your skin, so the hot air feels good until the water is gone."  />
 
 <em><a href="https://botsin.space/@xkcdbot/109937567703546899">via</a></em></p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -289,7 +289,7 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
 repository of <code>psql</code> (the CLI tool, not the database itself) tips. I like how
 one randomized tip is playfully served on the home page while the <a href="https://psql-tips.org/psql_tips_all.html">complete
 list</a> is always at hand.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -352,7 +352,7 @@ polluting your code. What&rsquo;s also nice about PolySharp, is that it isn&rsqu
 dependency for your library; it only needs to be there at compile time.</p>
 <p>Do you know what&rsquo;s funny? After all, I took a different route; no <code>init</code>
 keyword is used anymore in my library, but that&rsquo;s for another story.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -500,7 +500,7 @@ Prodan and his contributors. As mentioned in <a href="/my-top-7-new-features-in-
 rate-limiting backend. I might adopt it in the future.</p>
 <p>Complete documentation for ASP.NET Core 7 rate-limiting middleware is available
 <a href="https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit?view=aspnetcore-7.0">here</a>.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -544,7 +544,7 @@ of fun with it, but today, for once, I choose the known path of safety over the
 unknown, exhilarating course of uncertainty.</p>
 <p><img loading="lazy" src="/images/ju-jitsu.jpeg" alt=""  />
 </p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -572,7 +572,7 @@ unsolicited calls still caught my attention and muting the phone helped
 only a little.</p>
 <p>The Silence Unknown Callers option has probably always been there, unbeknownst
 to me. It&rsquo;s a godsend. Now my iPhone doesn&rsquo;t even try to ring anymore.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -596,7 +596,7 @@ not fired. It avoids unnecessary spam when routine maintenance goes off on your
 stack.</p>
 <p>I find <a href="https://bitbucket.org/quaideman/dem">DEM</a> a useful little tool for lightweight, simple deployments where
 you&rsquo;re not employing heavy weaponry, like k8s.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -616,7 +616,7 @@ pathname&rdquo; feature.</p>
 </p>
 <p>I spotted this trick on <a href="https://www.jamieonkeys.dev/posts/keyboard-shortcuts/">Jamie Smith&rsquo;s website</a>, where other handy shortcuts
 (and the pretty gif above) reside.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -663,7 +663,7 @@ our past, without which it wouldn&rsquo;t exist in the first place.</p>
 <p>Source: <a href="https://en.wikipedia.org/wiki/Harald_Bluetooth#Name">Harald Bluetooth, Wikipedia</a>.
 [rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
 [tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
-[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:3">
 <p>Source: <a href="https://en.wikipedia.org/wiki/Bluetooth#History">Bluetooth history, Wikipedia</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
@@ -722,7 +722,7 @@ job with something similar to:</p>
 </code></pre>
 <p>Which ensures the script runs daily at 4 am. For a weekend task, I&rsquo;m happy with
 the result.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -786,7 +786,7 @@ limitation check. You can disable it:</p>
 <p>Personally, I did not need to alter the registry, and I got <em>very</em> old VMs to
 upgrade. At the time of this writing, Windows 11 installation is at 94% and
 I am confident it will be successful.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -844,7 +844,7 @@ of things. Mission accomplished, I guess, but I am sure there are other, better
 ways around this problem. If you happen to know one, please let me know about
 it (keep in mind, we don&rsquo;t use alternative orchestrators, just the built-in
 &lsquo;swarm&rsquo; thing.)</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -871,7 +871,7 @@ that.</p>
 <p>I should do better. Post more <a href="/tags/til/">TILs</a>, for example.
 [rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
 [tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
-[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -909,7 +909,7 @@ author illustrates the differences between the two styles, then argues that
 <p>In my rendition I moved the period after the end mark. Different languages, different rules.
 [rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
 [tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
-[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -953,7 +953,7 @@ works on all platforms: Linux, macOS, and Windows.  That&rsquo;s a lot of tinker
 for a small task that required no effort in the past. However, it makes sense
 as .NET is now cross-platform, and we want to reduce the app&rsquo;s footprint as
 much as possible.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -998,7 +998,7 @@ psql (connection options) -d postgres -c &quot;CREATE DATABASE mydb&quot;
 <p><code>DROP DATABASE</code> will fail if there are active connections. Either
 <a href="https://stackoverflow.com/a/5408501/323269">force-drop</a> all active connections or tell your peers to leave the database
 alone. Merging the above passages in a script is an option.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1057,7 +1057,7 @@ all make mistakes every once in a while, don&rsquo;t we?</p>
 <p>Keep in mind, eventual stashed changes will be lost after <code>git filter-branch</code>. Make sure you unstash before issuing the command.
 [rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
 [tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
-[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -1098,7 +1098,7 @@ commands.</p>
 [6]: <a href="https://duck.co/ia/dev">https://duck.co/ia/dev</a>
 [rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
 [tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
-[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a></p>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1156,7 +1156,7 @@ expanded and amended, something often not very apparent. Not to me, at least.</p
 <p>The point I want to make here, I think, is that nothing is set in stone. Today&rsquo;s
 little event shows how my knowledge becomes stagnant over time. Setting apart
 the time to learn new things is good, but acquired ones need sharping too.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1182,7 +1182,7 @@ pleasantly surprised by its rich feature-set and the elegant and
 straightforward design, which makes getting on-board super easy. It&rsquo;s built on
 top of the excellent MimeKit, after all, and authored by the very same author
 Jeffrey Stedfast.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1230,7 +1230,7 @@ Overflow, where else):</p>
 !.gitignore
 </code></pre>
 <p>I should probably adopt the #tirl tag, as in &ldquo;Today I Re-Learned.&rdquo;</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1283,7 +1283,7 @@ even when no agent is running. I am not sure why I did not have <code>Usekeychai
 there; I do have it enabled for other hosts in the same file. As said, I wasted
 way too much time on this issue. At least, I hope my experience will be useful
 to someone else, or, more likely, to my future self in a few months or years.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1304,7 +1304,7 @@ to 15GB. (<a href="https://stephenreescarter.net/how-to-shrink-a-wsl2-virtual-di
 reclaiming disk space is a significant pain. I would expect <code>optimize-vhd</code> to
 achieve the goal with WSL2, but it&rsquo;s nice to know there are alternatives, like
 Stephen&rsquo;s above</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1330,7 +1330,7 @@ thus the more you can serve from memory the better. For a typical web
 application making a lot of short requests I&rsquo;m going to target &gt; 99% here.</p>
 </blockquote>
 <p>I will be trying them real soon. Like, today.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1374,7 +1374,7 @@ Kestrel running behind nginx. As pointed out at the link above, if you&rsquo;re
 running behind IIS, then the limit is disabled, and the usual <em>web.config</em>
 limit applies.</p>
 <p>For future reference, <a href="https://github.com/dotnet/aspnetcore/blob/main/src/Servers/Kestrel/Core/src/KestrelServerLimits.cs">here</a> are the current Kestrel limits.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
   </channel>

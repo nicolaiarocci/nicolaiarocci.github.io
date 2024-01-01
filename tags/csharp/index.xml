@@ -52,7 +52,7 @@ verbose than others, but my favorite is resorting to a custom StringWriter:</p>
 </code></pre><p>The whole .NET framework has seen fantastic performance improvements, top-class multi-platform support, and remarkable
 streamlining, but some baffling pitfalls are still hidden in some of its less obvious parts. StringWriter not supporting
 UTF-8 out-of-the-box is one of them.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -84,7 +84,7 @@ property:</p>
 don&rsquo;t need, but their base implementation is similar to mine (they use deferred execution as well).</p>
 <p>By the way, years after its open-sourcing, I still get thrills when I realize I can always look at, let alone contribute
 to, the .NET source code.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -106,7 +106,7 @@ both versions 8 Preview and 7 became immediately available. I suspect that <code
 from .NET canonical location to the Homebrew cellar, which magically solved the SDK visibility problem.</p>
 <p>TL; DR. Homebrew recipes don&rsquo;t play nicely with .NET canonical installer. To make all my SDK versions visible to .NET,
 I had to forego the Homebrew installation, which did not uninstall the SDK itself, but simply unlinked it.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -223,7 +223,7 @@ return {
 }
 </code></pre><p>It overrides the <code>on_attach</code> event to pass an LSP-digestible list of semantic tokens. And voilà, C# files are now loaded seamlessly.</p>
 <p>I&rsquo;m not done yet. I&rsquo;m having another <a href="https://github.com/OmniSharp/omnisharp-roslyn/issues/2510">weird issue</a> with <em>.editorconfig</em> files. I&rsquo;m still triaging it, and will report back when (if) I sort it out.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -380,7 +380,7 @@ one can keep relying on the canonical MVC approach. The sentiment was that
 Minimal APIs are mostly targeted to newcomers, which is probably true<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. As
 someone coming from the Python REST ecosystem, I dig them a lot. They evolve
 rapidly and I&rsquo;m sure we&rsquo;ll soon see them in action in complex, real scenarios.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -442,7 +442,7 @@ seems a bit clumsy. Someone suggested adopting <code>notnull</code> instead:</p>
 </code></pre>
 <p>I like this suggestion. I wouldn&rsquo;t want <code>notnull</code> on the left of the parameter
 name. To the right? Count me in.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
   </channel>

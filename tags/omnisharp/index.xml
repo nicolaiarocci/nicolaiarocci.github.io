@@ -123,7 +123,7 @@ return {
 }
 </code></pre><p>It overrides the <code>on_attach</code> event to pass an LSP-digestible list of semantic tokens. And voilà, C# files are now loaded seamlessly.</p>
 <p>I&rsquo;m not done yet. I&rsquo;m having another <a href="https://github.com/OmniSharp/omnisharp-roslyn/issues/2510">weird issue</a> with <em>.editorconfig</em> files. I&rsquo;m still triaging it, and will report back when (if) I sort it out.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
   </channel>

@@ -69,7 +69,7 @@ polluting your code. What&rsquo;s also nice about PolySharp, is that it isn&rsqu
 dependency for your library; it only needs to be there at compile time.</p>
 <p>Do you know what&rsquo;s funny? After all, I took a different route; no <code>init</code>
 keyword is used anymore in my library, but that&rsquo;s for another story.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
   </channel>

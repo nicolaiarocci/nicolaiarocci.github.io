@@ -19,7 +19,7 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
       <content:encoded><![CDATA[<p><a href="https://fatturaelettronicaopensource.org/docs">Fattura Elettronica</a> for .NET v3.4.11 was released on NuGet today. The Fattura Elettronica project allows for the
 fixes a missing validation point. See the <a href="https://fatturaelettronicaopensource.org/docs/changelog.html#v-3411">changelog</a> for details (Italian). validation and de/serialization of
 electronic invoices following the Italian Revenue Agency standards. This release</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -32,7 +32,7 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
       <content:encoded><![CDATA[<p><a href="https://fatturaelettronicaopensource.org/docs">Fattura Elettronica</a> for .NET v3.4.10 was released on NuGet today. The Fattura Elettronica project allows for the
 validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. This release
 adds a missing validation point. See the <a href="https://fatturaelettronicaopensource.org/docs/changelog.html#v-3410">changelog</a> for details (Italian).</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -46,7 +46,7 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
 validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. As with the
 previous one, this release also addresses a small undocumented behavior in validating the invoice. See the <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/396">relevant
 ticket</a> for the details.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -62,7 +62,7 @@ the validation and de/serialization of electronic invoices adhering to the canon
 often the case, there are subtle differences between the theoretical implementation defined in the official specs and
 the actual validation implemented by the same Agency that released said specs. See the <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/394">relevant ticket</a> for the
 details.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -80,7 +80,7 @@ thousand mark.</p>
 <p>Be aware that this release anticipates support for <a href="https://www.agenziaentrate.gov.it/portale/web/guest/specifiche-tecniche-versione-1.7.1">v1.7.1</a> of the
 specification going into effect on October 1, 2022. For more information, see
 the appropriate <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/376">ticket</a> and the <a href="https://fatturaelettronicaopensource.org/docs/changelog.html#v-34">changelog</a>.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>

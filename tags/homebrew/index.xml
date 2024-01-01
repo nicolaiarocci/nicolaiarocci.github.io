@@ -25,7 +25,7 @@ revealed the issue. <code>brew uninstall docfx</code> finally set the updated, d
 is now merrily churning websites.</p>
 <p>A similar issue emerged <a href="/homebrew-and-dotnet-8-preview-dont-like-each-other/">between Homebrew and .NET 8 Preview</a> only a few days ago. Lesson learned I&rsquo;m not installing
 dotnet tools via Homebrew anymore. Or maybe, I might stay clear of Homebrew altogether.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -47,7 +47,7 @@ both versions 8 Preview and 7 became immediately available. I suspect that <code
 from .NET canonical location to the Homebrew cellar, which magically solved the SDK visibility problem.</p>
 <p>TL; DR. Homebrew recipes don&rsquo;t play nicely with .NET canonical installer. To make all my SDK versions visible to .NET,
 I had to forego the Homebrew installation, which did not uninstall the SDK itself, but simply unlinked it.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -85,7 +85,7 @@ religiously running manual cleanups (I concede that an un-maintained brew cache
 can grow to <em>very</em> sizable dimensions).</p>
 <p>Homebrew is still an essential tool; just not so enjoyable anymore. It&rsquo;s not
 like we have a valid alternative at hand, anyway.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
   </channel>

@@ -24,7 +24,7 @@ several moving parts. Now that the final release is out, it will be interesting 
 knowledge. I suspect that of the many reasons I challenge myself to speak publicly, enriching my knowledge is prevalent.
 As the adage goes, for learning a subject, nothing beats explaining it in front of a knowledgeable audience.</p>
 <p>If you will attend the conference (you should!), remember to meet me and say hi!</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -70,7 +70,7 @@ verbose than others, but my favorite is resorting to a custom StringWriter:</p>
 </code></pre><p>The whole .NET framework has seen fantastic performance improvements, top-class multi-platform support, and remarkable
 streamlining, but some baffling pitfalls are still hidden in some of its less obvious parts. StringWriter not supporting
 UTF-8 out-of-the-box is one of them.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -83,7 +83,7 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
       <content:encoded><![CDATA[<p><a href="https://fatturaelettronicaopensource.org/docs">Fattura Elettronica</a> for .NET v3.4.11 was released on NuGet today. The Fattura Elettronica project allows for the
 fixes a missing validation point. See the <a href="https://fatturaelettronicaopensource.org/docs/changelog.html#v-3411">changelog</a> for details (Italian). validation and de/serialization of
 electronic invoices following the Italian Revenue Agency standards. This release</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -115,7 +115,7 @@ property:</p>
 don&rsquo;t need, but their base implementation is similar to mine (they use deferred execution as well).</p>
 <p>By the way, years after its open-sourcing, I still get thrills when I realize I can always look at, let alone contribute
 to, the .NET source code.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -128,7 +128,7 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
       <content:encoded><![CDATA[<p><a href="https://fatturaelettronicaopensource.org/docs">Fattura Elettronica</a> for .NET v3.4.10 was released on NuGet today. The Fattura Elettronica project allows for the
 validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. This release
 adds a missing validation point. See the <a href="https://fatturaelettronicaopensource.org/docs/changelog.html#v-3410">changelog</a> for details (Italian).</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -150,7 +150,7 @@ for someone like me. Besides my everyday work, I kept doing the things I loved:<
 <p>Then, one day, someone nominated me for the award. I was surprised, baffled and thankful, and I did not expect to pass
 the selection process. I was genuinely shocked when I received the first award. Being in the MVP program has been a
 happy and rewarding ride, and I&rsquo;m glad the journey continues for another year.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -169,7 +169,7 @@ revealed the issue. <code>brew uninstall docfx</code> finally set the updated, d
 is now merrily churning websites.</p>
 <p>A similar issue emerged <a href="/homebrew-and-dotnet-8-preview-dont-like-each-other/">between Homebrew and .NET 8 Preview</a> only a few days ago. Lesson learned I&rsquo;m not installing
 dotnet tools via Homebrew anymore. Or maybe, I might stay clear of Homebrew altogether.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -191,7 +191,7 @@ both versions 8 Preview and 7 became immediately available. I suspect that <code
 from .NET canonical location to the Homebrew cellar, which magically solved the SDK visibility problem.</p>
 <p>TL; DR. Homebrew recipes don&rsquo;t play nicely with .NET canonical installer. To make all my SDK versions visible to .NET,
 I had to forego the Homebrew installation, which did not uninstall the SDK itself, but simply unlinked it.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -219,7 +219,7 @@ workflow a lot as I do, this is pure bliss.</p>
 <p>Interestingly, this marks only the first step in a series of upcoming MSBuild UX improvements: <em>&ldquo;We hope to use this
 logger as the foundation for a new batch of UX improvements for MSBuild, including aspects like progress reporting and
 structured errors in the future.&rdquo;</em> Color me excited.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -233,7 +233,7 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
 validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. As with the
 previous one, this release also addresses a small undocumented behavior in validating the invoice. See the <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/396">relevant
 ticket</a> for the details.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -249,7 +249,7 @@ the validation and de/serialization of electronic invoices adhering to the canon
 often the case, there are subtle differences between the theoretical implementation defined in the official specs and
 the actual validation implemented by the same Agency that released said specs. See the <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/394">relevant ticket</a> for the
 details.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -264,7 +264,7 @@ YouTube channel, Steve introduces an experimental new .NET package that allows t
 .NET runtime that will safely run code in a sandbox.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -327,7 +327,7 @@ polluting your code. What&rsquo;s also nice about PolySharp, is that it isn&rsqu
 dependency for your library; it only needs to be there at compile time.</p>
 <p>Do you know what&rsquo;s funny? After all, I took a different route; no <code>init</code>
 keyword is used anymore in my library, but that&rsquo;s for another story.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -357,7 +357,7 @@ he&rsquo;s got approval for that, which means the project is a little more than 
 an experiment at this point.</p>
 <p>Blazor weakness so far has been more with the tooling than the features. Should
 Blazor United come with some solid tooling, it will be a huge hit.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -505,7 +505,7 @@ Prodan and his contributors. As mentioned in <a href="/my-top-7-new-features-in-
 rate-limiting backend. I might adopt it in the future.</p>
 <p>Complete documentation for ASP.NET Core 7 rate-limiting middleware is available
 <a href="https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit?view=aspnetcore-7.0">here</a>.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -527,7 +527,7 @@ good while to come out of the trenches, but better late than never, I&rsquo;d sa
 <p><img loading="lazy" src="/images/uiux-newui-thumb.png" alt=""  />
 </p>
 <p>The full list of updates is available on their <a href="https://www.jetbrains.com/rider/whatsnew/2022-3/">What&rsquo;s New</a> page.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -684,7 +684,7 @@ one can keep relying on the canonical MVC approach. The sentiment was that
 Minimal APIs are mostly targeted to newcomers, which is probably true<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. As
 someone coming from the Python REST ecosystem, I dig them a lot. They evolve
 rapidly and I&rsquo;m sure we&rsquo;ll soon see them in action in complex, real scenarios.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -713,7 +713,7 @@ thousand mark.</p>
 <p>Be aware that this release anticipates support for <a href="https://www.agenziaentrate.gov.it/portale/web/guest/specifiche-tecniche-versione-1.7.1">v1.7.1</a> of the
 specification going into effect on October 1, 2022. For more information, see
 the appropriate <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/376">ticket</a> and the <a href="https://fatturaelettronicaopensource.org/docs/changelog.html#v-34">changelog</a>.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -739,7 +739,7 @@ The networking was, of course, next to zero. I miss the original MVP Summit. In
 the absence of it, even just meeting the Italian MVPs has been a rare
 occurrence. Hopefully, things will return to normal this year, although I&rsquo;m
 doubtful.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -769,7 +769,7 @@ CFPs. If you happen to know one, please let me know.</p>
 <p>A couple weeks later I also presented at <a href="https://www.meetup.com/it-IT/DevRomagna/events/284626987/">DevRomagna</a>, the local meetup I run.
 [rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
 [tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
-[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -823,7 +823,7 @@ seems a bit clumsy. Someone suggested adopting <code>notnull</code> instead:</p>
 </code></pre>
 <p>I like this suggestion. I wouldn&rsquo;t want <code>notnull</code> on the left of the parameter
 name. To the right? Count me in.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1027,7 +1027,7 @@ something we will be doing in the upcoming weeks.</p>
 <p>My initial ramblings on Minimal APIs are available <a href="/will-.net-6-minimal-apis-turn-heads/">here</a>.
 [rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
 [tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
-[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -1092,7 +1092,7 @@ earsly as next week.</p>
 [7]: <a href="https://github.com/dotnet-foundation/Home/discussions/40">https://github.com/dotnet-foundation/Home/discussions/40</a>
 [rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
 [tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
-[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -1131,7 +1131,7 @@ advantages, remarkable [performance gains][2] included.</p>
 <p>The Core tag was dropped in NET5, and it was a good move. The reason why the insist on using it with ASP.NET eludes me.
 [rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
 [tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
-[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2">
 <p><a href="https://nicolaiarocci.com/will-.net-6-minimal-apis-turn-heads/">Will .NET 6 Mininal APIs turn heads?</a> collects my thoughts on the subject.
@@ -1174,7 +1174,7 @@ for .NET 6.</p>
 </blockquote>
 <p>There are <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-7/">a</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-6/">ton</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-5/">of</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-4/">new</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-3/">things</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-2/">coming</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-1/">up</a>,
 too, of course.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1215,7 +1215,7 @@ works on all platforms: Linux, macOS, and Windows.  That&rsquo;s a lot of tinker
 for a small task that required no effort in the past. However, it makes sense
 as .NET is now cross-platform, and we want to reduce the app&rsquo;s footprint as
 much as possible.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1282,7 +1282,7 @@ efforts being made in this area. Will it be enough to attract new crowds? It is
 a hard bet, but I sure hope so because C# and F# are great languages, and NET
 6 is modern, robust,  feature-rich, and powerful enough to go at war, and with
 no fear.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -1325,7 +1325,7 @@ touching on a few tangent topics.</p>
 <p>The recording is in Italian and is available below here.</p>
 <p><!-- raw HTML omitted -->Listen to &ldquo;Python, Eve, open source
 e fattura elettronica. Con Nicola Iarocci&rdquo; on Spreaker.<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1383,7 +1383,7 @@ expanded and amended, something often not very apparent. Not to me, at least.</p
 <p>The point I want to make here, I think, is that nothing is set in stone. Today&rsquo;s
 little event shows how my knowledge becomes stagnant over time. Setting apart
 the time to learn new things is good, but acquired ones need sharping too.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1409,7 +1409,7 @@ pleasantly surprised by its rich feature-set and the elegant and
 straightforward design, which makes getting on-board super easy. It&rsquo;s built on
 top of the excellent MimeKit, after all, and authored by the very same author
 Jeffrey Stedfast.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
   </channel>

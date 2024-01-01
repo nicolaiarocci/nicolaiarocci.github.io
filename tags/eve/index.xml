@@ -21,7 +21,7 @@ on a per-resource basis thanks to the new <code>pagination_limit</code> setting.
 while the changelog is available <a href="https://docs.python-eve.org/en/stable/changelog.html#version-v2-1-0">here</a>—special thanks to <a href="https://github.com/thepieterdc">Pieter De Clercq</a> and <a href="https://github.com/smeng9">smeng9</a> for the help with this release.</p>
 <p><img loading="lazy" src="/images/eve-2.1.0.png" alt="Eve 2.1.0 on PyPI"  />
 </p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -37,7 +37,7 @@ on PyPI and includes a relevant security fix so you might want to update ASAP.</
 <li><a href="https://pypi.org/project/Eve/2.0.4/">Package info</a></li>
 <li><a href="https://docs.python-eve.org/en/stable/">Docs</a></li>
 </ul>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -51,7 +51,7 @@ Subscribe to the newsletter, the RSS feed, or follow @nicolaiarocci on Twitter</
 in which ETag generation failed if <code>uuidRepresentation</code> was not set in
 <code>MONGO_OPTIONS</code>. See <a href="https://github.com/pyeve/eve/issues/1486">issue #1486</a> for details. Many thanks
 <a href="https://github.com/tgm-git">@tgm</a> for reporting and then contributing the fix.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -69,7 +69,7 @@ think you can help wiht that, <a href="https://github.com/pyeve/eve/issues/1485"
 available <a href="https://docs.python-eve.org/en/stable/changelog.html">here</a>.</p>
 <p><img loading="lazy" src="/images/eve-2.0.1.png" alt=""  />
 </p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -90,7 +90,7 @@ mature and stable enough for most use cases. I consider it done in terms
 of features, and it is now in &lsquo;maintenance mode&rsquo;.</p>
 <p><img loading="lazy" src="/images/eve2.png" alt="Eve 2.0"  />
 </p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -106,7 +106,7 @@ a few issues and adds support for <a href="https://github.com/rs/eve-auth-jwt">e
 Romero</a> for his contributions to this release.</p>
 <p><img loading="lazy" src="/images/eve-swagger-0.2.png" alt="Eve-Swagger 0.2"  />
 </p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -123,7 +123,7 @@ It would be nice if you guys and gals, users of Eve, would give it a spin
 before the release.</p>
 <p>I know. I <a href="/is-eve-still-maintained/">recently</a> stated that Eve was in maintenance mode. All of
 those considerations still apply, but what can I say? I want Eve 2 out.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -174,7 +174,7 @@ to the next level.</p>
 <p>For some rationale behind the campaign, see <a href="http://nicolaiarocci.com/eve-and-cerberus-funding-campaign/">this post</a> from 2017.
 [rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
 [tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
-[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2">
 <p>I must admit, this failure hit me hard.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>

@@ -40,7 +40,7 @@ Decimal(&#39;0.142857&#39;)
 </code></pre><p>I suspect this has something to do with threads, as <code>decimal.getcontext</code> targets the current thread while
 <code>DefaultContext</code> is global. I went to the bpython repository only to find that a ticket was already opened in 2021. I
 <a href="https://github.com/bpython/bpython/issues/918#issuecomment-1578911204">added</a> my <code>DefaultContext</code> observation there.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
   </channel>

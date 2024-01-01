@@ -25,7 +25,7 @@ revealed the issue. <code>brew uninstall docfx</code> finally set the updated, d
 is now merrily churning websites.</p>
 <p>A similar issue emerged <a href="/homebrew-and-dotnet-8-preview-dont-like-each-other/">between Homebrew and .NET 8 Preview</a> only a few days ago. Lesson learned I&rsquo;m not installing
 dotnet tools via Homebrew anymore. Or maybe, I might stay clear of Homebrew altogether.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
   </channel>

@@ -20,7 +20,7 @@ Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description
 validation package for Python. This release officially supports Python 3.10 and 3.11, fixes a few issues, and proudly
 displays a new documentation theme which I dig, and I hope you&rsquo;ll do the same. As usual, see the <a href="https://docs.python-cerberus.org/changelog.html#version-1-3-5">changelog</a> for
 details.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -42,7 +42,7 @@ callback functions (event handlers) can be attached - a process referred to as s
 this mechanism to Python. It originated as a side experiment (I was a C# transfugee then) that I later adopted as an
 <a href="https://github.com/pyeve/eve">Eve</a> dependency. It slowly got some traction besides my projects. Read more on the project&rsquo;s <a href="https://github.com/pyeve/events">GitHub
 page</a>.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -76,7 +76,7 @@ Decimal(&#39;0.142857&#39;)
 </code></pre><p>I suspect this has something to do with threads, as <code>decimal.getcontext</code> targets the current thread while
 <code>DefaultContext</code> is global. I went to the bpython repository only to find that a ticket was already opened in 2021. I
 <a href="https://github.com/bpython/bpython/issues/918#issuecomment-1578911204">added</a> my <code>DefaultContext</code> observation there.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -91,7 +91,7 @@ on a per-resource basis thanks to the new <code>pagination_limit</code> setting.
 while the changelog is available <a href="https://docs.python-eve.org/en/stable/changelog.html#version-v2-1-0">here</a>—special thanks to <a href="https://github.com/thepieterdc">Pieter De Clercq</a> and <a href="https://github.com/smeng9">smeng9</a> for the help with this release.</p>
 <p><img loading="lazy" src="/images/eve-2.1.0.png" alt="Eve 2.1.0 on PyPI"  />
 </p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -138,7 +138,7 @@ languages in general, make sure to read it.<sup id="fnref:1"><a href="#fn:1" cla
 <p>In the same vein, another outstanding reading would be <a href="https://dl.acm.org/doi/pdf/10.1145/3386325">The Early History of F#</a>.
 [rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
 [tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
-[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -157,7 +157,7 @@ on PyPI and includes a relevant security fix so you might want to update ASAP.</
 <li><a href="https://pypi.org/project/Eve/2.0.4/">Package info</a></li>
 <li><a href="https://docs.python-eve.org/en/stable/">Docs</a></li>
 </ul>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -171,7 +171,7 @@ Subscribe to the newsletter, the RSS feed, or follow @nicolaiarocci on Twitter</
 in which ETag generation failed if <code>uuidRepresentation</code> was not set in
 <code>MONGO_OPTIONS</code>. See <a href="https://github.com/pyeve/eve/issues/1486">issue #1486</a> for details. Many thanks
 <a href="https://github.com/tgm-git">@tgm</a> for reporting and then contributing the fix.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -195,7 +195,7 @@ not fired. It avoids unnecessary spam when routine maintenance goes off on your
 stack.</p>
 <p>I find <a href="https://bitbucket.org/quaideman/dem">DEM</a> a useful little tool for lightweight, simple deployments where
 you&rsquo;re not employing heavy weaponry, like k8s.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -213,7 +213,7 @@ think you can help wiht that, <a href="https://github.com/pyeve/eve/issues/1485"
 available <a href="https://docs.python-eve.org/en/stable/changelog.html">here</a>.</p>
 <p><img loading="lazy" src="/images/eve-2.0.1.png" alt=""  />
 </p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -264,7 +264,7 @@ authentication (vetting solves a different problem).</p>
 [4]: <a href="https://store.google.com/product/titan_security_key">https://store.google.com/product/titan_security_key</a>
 [rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
 [tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
-[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -288,7 +288,7 @@ mature and stable enough for most use cases. I consider it done in terms
 of features, and it is now in &lsquo;maintenance mode&rsquo;.</p>
 <p><img loading="lazy" src="/images/eve2.png" alt="Eve 2.0"  />
 </p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -304,7 +304,7 @@ a few issues and adds support for <a href="https://github.com/rs/eve-auth-jwt">e
 Romero</a> for his contributions to this release.</p>
 <p><img loading="lazy" src="/images/eve-swagger-0.2.png" alt="Eve-Swagger 0.2"  />
 </p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -321,7 +321,7 @@ It would be nice if you guys and gals, users of Eve, would give it a spin
 before the release.</p>
 <p>I know. I <a href="/is-eve-still-maintained/">recently</a> stated that Eve was in maintenance mode. All of
 those considerations still apply, but what can I say? I want Eve 2 out.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -372,7 +372,7 @@ to the next level.</p>
 <p>For some rationale behind the campaign, see <a href="http://nicolaiarocci.com/eve-and-cerberus-funding-campaign/">this post</a> from 2017.
 [rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
 [tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
-[nl]: <a href="https://nicolaiarocci.substack.com">https://nicolaiarocci.substack.com</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2">
 <p>I must admit, this failure hit me hard.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
@@ -397,7 +397,7 @@ touching on a few tangent topics.</p>
 <p>The recording is in Italian and is available below here.</p>
 <p><!-- raw HTML omitted -->Listen to &ldquo;Python, Eve, open source
 e fattura elettronica. Con Nicola Iarocci&rdquo; on Spreaker.<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -419,7 +419,7 @@ niceties. Details are available on the <a href="https://palletsprojects.com/blog
 <p>Flask is, of course, the giant on which shoulders the whole <a href="https://python-eve.org">Eve</a> project rests.
 To say that the Pallets team has been working hard at the forge is an
 understatement—huge congrats to all of them.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -448,7 +448,7 @@ you were using unpinned versions of redis. This time, my gratitude goes to Adria
 </li>
 </ul>
 <p>Enjoy.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -506,7 +506,7 @@ a few other things over from F#/ML. I understand that like 85% of the software
 development crowd is into object-oriented languages, but look, it&rsquo;s going to
 exceptionally hard to successfully and seamlessly move features from apples to
 oranges.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -539,7 +539,7 @@ anything! You didn’t change anything… but Homebrew did.</p>
 <p>Homebrew is the culprit. If you have been affected (and if you have done any
 length of serious Python work, you have), then go <a href="https://justinmayer.com/posts/homebrew-python-is-not-for-you/">read</a> Justin&rsquo;s piece. He
 explains the whys and then goes into the hows you solve the problem for good.</p>
-<p><em>Subscribe to the <a href="https://nicolaiarocci.substack.com">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
