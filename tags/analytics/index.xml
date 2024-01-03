@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>analytics on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/analytics/</link>
+    <description>Recent content in analytics on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
+    <lastBuildDate>Wed, 03 Jan 2024 14:27:38 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New website, finally with no analytics</title>
+      <link>https://nicolaiarocci.com/new-website-finally-with-no-analytics/</link>
+      <pubDate>Wed, 03 Jan 2024 14:27:38 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/new-website-finally-with-no-analytics/</guid>
+      <description>During the Christmas/New Year break, I achieved my goal of updating my website with a new theme. I loved Casper, the previous one I ran for a very long time, but it has not been updated in years and looks abandoned. I wanted new features like fuzzy search, archive and tags pages, cover images, table of contents, title anchors, and more. Also, the old theme kept me anchored to an ancient Hugo version, something I felt uncomfortable with.</description>
+      <content:encoded><![CDATA[<p>During the Christmas/New Year break, I achieved my goal of updating my website
+with a new theme. I loved
+<a href="https://github.com/vjeantet/hugo-theme-casper">Casper</a>, the previous one I ran
+for a very long time, but it has not been updated in years and looks abandoned.
+I wanted new features like <a href="/search/">fuzzy search</a>, <a href="/archives/">archive</a> and
+<a href="/tags/">tags</a> pages, <a href="/the-wilderness-of-poggio-montironi/">cover images</a>,
+<a href="/books-i-have-read/">table of contents</a>, title anchors, and more. Also, the
+old theme kept me anchored to an ancient Hugo version, something I felt
+uncomfortable with. There are still a few loose parts, but I&rsquo;m confident I made
+the right call by switching to
+<a href="https://github.com/adityatelange/hugo-PaperMod">PaperMod</a>; it offers all the
+needed features (and plenty more), and it&rsquo;s frequently updated, which allows me
+to <a href="https://github.com/adityatelange/hugo-PaperMod/issues/1367">open tickets</a>
+and offer improvements confidently.</p>
+<p>I also dropped web analytics. I&rsquo;ve not counted visits or any other metric for
+years; I realized I&rsquo;m not interested and certainly don&rsquo;t need metrics for
+motivation. Besides, I hate Google Analytics UX so much that I always wanted to
+replace it, but never got around to doing that. Besides, from my small
+experiments, web metrics are unreliable. Just today, Manuel Moreale&rsquo;s <a href="https://manuelmoreale.com/answers-to-my-analytics-inquiry">little
+analytics experiment</a>
+surfaced on my RSS reader:</p>
+<blockquote>
+<p>[&hellip;] we were discussing the discrepancy between log numbers and the ones
+coming out of the various analytics platforms and were noticing how they all
+spit out different data. Which to me makes no sense. Still, it&rsquo;s an interesting
+topic and I decided to run a little experiment to gather more info on the
+subject.</p>
+</blockquote>
+<p>His article is worth reading. He ran four different GA-alternative analytics
+platforms on his website for a short period and obtained unpredictable and
+differentiated results. His conclusions corroborate my impression: trust web
+analytics sparingly, if at all.  They might make sense on professional websites
+(and I&rsquo;d like to argue against that, too, but maybe in another post), but for
+blogs? They do not serve any useful purpose other than slowing down the whole
+thing.</p>
+<p><em>Subscribe to my <a href="https://buttondown.email/nicolaiarocci">newsletter</a> or the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>. Follow me on <a href="https://fosstodon.org/@nicola">Mastodon</a> or <a href="https://x.com/nicolaiarocci">X</a>.</em></p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
