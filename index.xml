@@ -650,11 +650,11 @@ engagements. Want me to talk at your event? <a href="mailto:info@nicolaiarocci.c
       <guid>https://nicolaiarocci.com/opensource/</guid>
       <description>You can follow my open source activity on this website or GitHub.
 Here is a partial list of open source projects I authored:
-C# / .NET FatturaElettronica.NET. Validation and de/serialization of electronic invoices adhering to the standard defined by the Italian “Agenzia delle Entrate”. Python Eve. Effortlessly build and deploy highly customizable, fully featured RESTful Web Services. Powered by Flask, MongoDB and good intentions.
+C# FatturaElettronica.NET. Validation and de/serialization of electronic invoices adhering to the standard defined by the Italian “Agenzia delle Entrate”. Python Eve. Effortlessly build and deploy highly customizable, fully featured RESTful Web Services. Powered by Flask, MongoDB and good intentions.
 Cerberus. Lightweight and extensible data validation library for Python.</description>
       <content:encoded><![CDATA[<p>You can follow my open source activity on <a href="/tags/open-source/">this website</a> or <a href="https://github.com/nicolaiarocci/">GitHub</a>.</p>
 <p>Here is a partial list of open source projects I authored:</p>
-<h3 id="c--net">C# / .NET</h3>
+<h3 id="c">C#</h3>
 <ul>
 <li><a href="https://github.com/FatturaElettronicaPA/FatturaElettronicaPA" title="FatturaElettronicaPA"><strong>FatturaElettronica.NET</strong></a>. Validation and de/serialization of electronic invoices adhering to the standard defined by the Italian “Agenzia delle Entrate”.</li>
 </ul>
