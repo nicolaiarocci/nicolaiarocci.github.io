@@ -25,10 +25,9 @@ views in Flask 2. Work has also been done around Werkzeug <code>Request</code> a
 <code>Response</code> classes to allow for better sync and async in the future (it&rsquo;s not
 a public API yet.) Jinja, Click and ItsDangerous come with a lot of new
 niceties. Details are available on the <a href="https://palletsprojects.com/blog/flask-2-0-released/">Pallets website</a>.</p>
-<p>Flask is, of course, the giant on which shoulders the whole <a href="https://python-eve.org">Eve</a> project rests.
+<p>Flask is, of course, the giant on which shoulders the whole [Eve][1] project rests.
 To say that the Pallets team has been working hard at the forge is an
 understatement—huge congrats to all of them.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>

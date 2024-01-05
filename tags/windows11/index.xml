@@ -29,10 +29,10 @@ Not so much its documentation and online support.  At some point, I landed in
 the Parallels forums, a vast ocean of scarcely useful threads from which
 I usually try to stay the hell away. The Parallels personnel there has
 a long-standing tendency to copy &amp; paste ready-made and irrelevant solutions.
-Users are left to their own, and, luckily, one of them posted the <a href="https://forum.parallels.com/threads/process-for-converting-from-legacy-to-uefi-in-prep-for-win-11.354888/">perfect
-solution</a> to my Legacy-to-UEFI BIOS migration problem. I am reposting it
-here, with minor edits, for future reference (my future self <a href="https://nicolaiarocci.com/learn-in-public/">will be
-grateful</a>):</p>
+Users are left to their own, and, luckily, one of them posted the [perfect
+solution][1] to my Legacy-to-UEFI BIOS migration problem. I am reposting it
+here, with minor edits, for future reference (my future self [will be
+grateful][2]):</p>
 <ol>
 <li>Back up your VM</li>
 <li>Boot into your Windows 10 VM as usual</li>
@@ -70,7 +70,6 @@ limitation check. You can disable it:</p>
 <p>Personally, I did not need to alter the registry, and I got <em>very</em> old VMs to
 upgrade. At the time of this writing, Windows 11 installation is at 94% and
 I am confident it will be successful.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
   </channel>

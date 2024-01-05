@@ -24,7 +24,6 @@ Once you have clarity in your own mind, you&rsquo;re much more able to explain i
 to others.</p>
 </blockquote>
 <p>More <a href="https://brooker.co.za/blog/2022/11/08/writing.html">here</a>.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -32,10 +31,10 @@ to others.</p>
       <link>https://nicolaiarocci.com/on-programming-and-writing/</link>
       <pubDate>Tue, 25 May 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-programming-and-writing/</guid>
-      <description>My brilliant friend Salvatore Sanfilippo (otherwise known as antirez of Redis fame) has an interesting write-up on his website. How similar is programming to prose writing? After getting his own feet wet with novel writing, he is convinced that the two activities share many common traits.
+      <description>My brilliant friend Salvatore Sanfilippo (otherwise known as antirez of Redis fame) has an interesting write-up on [his website][1]. How similar is programming to prose writing? After getting his own feet wet with novel writing, he is convinced that the two activities share many common traits.
 One year ago I paused my programming life and started writing a novel, with the illusion that my new activity was deeply different than the previous one.</description>
       <content:encoded><![CDATA[<p>My brilliant friend Salvatore Sanfilippo (otherwise known as antirez of Redis
-fame) has an interesting write-up on <a href="http://antirez.com/news/135">his website</a>. How similar is
+fame) has an interesting write-up on [his website][1]. How similar is
 programming to prose writing? After getting his own feet wet with novel
 writing, he is convinced that the two activities share many common traits.</p>
 <blockquote>
@@ -60,19 +59,10 @@ creation, and even if the original core was just a tiny faction of the future
 mass the system would eventually assume.</p>
 </blockquote>
 <p>I suspect that his line of reasoning might be influenced by some sort
-of confirmation bias<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.  We are inclined to notice similarities between our
+of confirmation bias[^2].  We are inclined to notice similarities between our
 own activities, especially so when we perform them passionately. While common
 patterns emerge naturally, differences, even remarkable ones, tend to go
 unnoticed.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>The term <em>confirmation bias</em> is probably misused in this context. I am sure there is a better definition; it just eludes me and my own ignorance.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
 ]]></content:encoded>
     </item>
   </channel>

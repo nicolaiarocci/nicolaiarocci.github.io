@@ -14,12 +14,12 @@
       <link>https://nicolaiarocci.com/on-implementing-the-asp.net-core-7-rate-limiting-middleware/</link>
       <pubDate>Fri, 23 Dec 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-implementing-the-asp.net-core-7-rate-limiting-middleware/</guid>
-      <description>Today, my last self-assigned duty before the Christmas break was to migrate our in-house rate-limiting implementation (based on the AspNetCoreRateLimiting third-party package) to the new, shiny rate-limiting middleware introduced by ASP.NET Core 7. While the process was relatively straightforward, I stumbled upon a few quirks I want to annotate here.
+      <description>Today, my last self-assigned duty before the Christmas break was to migrate our in-house rate-limiting implementation (based on the [AspNetCoreRateLimiting][1] third-party package) to the new, shiny [rate-limiting middleware][2] introduced by ASP.NET Core 7. While the process was relatively straightforward, I stumbled upon a few quirks I want to annotate here.
 Our use case is simple. We use what the ASP.NET Core 7 documentation defines as a &amp;ldquo;fixed window limiter.&amp;rdquo; It uses a specified time window to limit requests.</description>
       <content:encoded><![CDATA[<p>Today, my last self-assigned duty before the Christmas break was to migrate
 our in-house rate-limiting implementation (based on the
-<a href="https://github.com/stefanprodan/AspNetCoreRateLimit">AspNetCoreRateLimiting</a> third-party package) to the new, shiny
-<a href="https://devblogs.microsoft.com/dotnet/announcing-rate-limiting-for-dotnet/">rate-limiting middleware</a> introduced by ASP.NET Core 7. While the process
+[AspNetCoreRateLimiting][1] third-party package) to the new, shiny
+[rate-limiting middleware][2] introduced by ASP.NET Core 7. While the process
 was relatively straightforward, I stumbled upon a few quirks I want to annotate
 here.</p>
 <p>Our use case is simple. We use what the ASP.NET Core 7 documentation defines as
@@ -149,12 +149,11 @@ The code below is updated to address both issues above:</p>
     }
 </code></pre><p>And that&rsquo;s all there is to it. I dropped the AspNetCoreRateLimiting dependency.
 That is one great piece of software, and I am grateful to its author Stefan
-Prodan and his contributors. As mentioned in <a href="/my-top-7-new-features-in-.net-7/">My Top 7 New Features in .NET
-7</a>, they recently released a package that allows using Redis as a
+Prodan and his contributors. As mentioned in [My Top 7 New Features in .NET
+7][3], they recently released a package that allows using Redis as a
 rate-limiting backend. I might adopt it in the future.</p>
 <p>Complete documentation for ASP.NET Core 7 rate-limiting middleware is available
-<a href="https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit?view=aspnetcore-7.0">here</a>.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+[here][4].</p>
 ]]></content:encoded>
     </item>
   </channel>

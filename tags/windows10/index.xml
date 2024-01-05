@@ -15,13 +15,13 @@
       <pubDate>Sun, 14 Feb 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/troubles-with-virtualbox-and-the-windows-subsystem-for-linux/</guid>
       <description>Today I learned the hard way: don&amp;rsquo;t you dare running a vanilla install of VirtualBox together with Windows Subsystem for Linux v2 (WSL2). It won&amp;rsquo;t work. That&amp;rsquo;s because WSL2 uses Hyper-V under the hood, which is incompatible with VirtualBox.
-According to the official documentation for VirtualBox v6.0:
+According to the [official documentation][1] for VirtualBox v6.0:
 Oracle VM VirtualBox can be used on a Windows host where Hyper-V is running. This is an experimental feature. No configuration is required. Oracle VM VirtualBox detects Hyper-V automatically and uses Hyper-V as the virtualization engine for the host system.</description>
       <content:encoded><![CDATA[<p>Today I learned the hard way: don&rsquo;t you dare running a vanilla install of
 VirtualBox together with Windows Subsystem for Linux v2 (WSL2). It won&rsquo;t work.
 That&rsquo;s because WSL2 uses Hyper-V under the hood, which is incompatible with
 VirtualBox.</p>
-<p>According to the <a href="https://docs.oracle.com/en/virtualization/virtualbox/6.0/admin/hyperv-support.html">official documentation</a> for VirtualBox v6.0:</p>
+<p>According to the [official documentation][1] for VirtualBox v6.0:</p>
 <blockquote>
 <p>Oracle VM VirtualBox can be used on a Windows host where Hyper-V is running.
 <strong>This is an experimental feature</strong>. No configuration is required. Oracle VM
@@ -52,12 +52,11 @@ not run in a VM. Also, converting back and forth between WSL1 and WLS2 is dead
 simple. I did not go this route because, well, I like the performance that
 comes with WSL2. I also plan to use VirtualBox only rarely, when I need to test
 new versions of our desktop application&rsquo;s installation procedure.</p>
-<p>This is all not ideal, of course. The situation is evolving. <a href="https://github.com/MicrosoftDocs/WSL/issues/536">This ticket</a>
+<p>This is all not ideal, of course. The situation is evolving. [This ticket][2]
 on the WSL documentation repository is probably the place to watch for updates.</p>
 <p>Hopefully, soon, once the currently &ldquo;immature API&rdquo; stabilizes, I will be able
 to come back to this article, edit it, and note that now everything works as
 expected.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
   </channel>

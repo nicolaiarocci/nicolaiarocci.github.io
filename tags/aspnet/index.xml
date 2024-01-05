@@ -15,19 +15,19 @@
       <pubDate>Sun, 14 Nov 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/my-asp.net-5-migration-to-.net-6/</guid>
       <description>I spent the last few days migrating our ASP.NET REST services, MVC web applications and Blazor server apps to .NET 6. Overall the process was pretty straightforward. The few issues I went through were easy to solve and well documented. Things got more involved with the EF Core 6 transition, especially with the Npgsql Entity Framework Core Provider.
-The official ASP.NET Core 5.0 to 6.0 migration guide was my first stop.</description>
+The official [ASP.NET Core 5.0 to 6.0 migration guide][1] was my first stop.</description>
       <content:encoded><![CDATA[<p>I spent the last few days migrating our ASP.NET REST services, MVC web
 applications and Blazor server apps to .NET 6. Overall the process was pretty
 straightforward. The few issues I went through were easy to solve and well
 documented. Things got more involved with the EF Core 6 transition, especially
 with the Npgsql Entity Framework Core Provider.</p>
-<p>The official <a href="https://docs.microsoft.com/en-us/aspnet/core/migration/50-to-60">ASP.NET Core 5.0 to 6.0 migration guide</a> was my first stop. It
+<p>The official [ASP.NET Core 5.0 to 6.0 migration guide][1] was my first stop. It
 offers the perfect entry point, rich with in-depth links. At this stage, I am
 not interested in switching to the new .NET 6 minimal hosting model (aka
 Minimal APIs). I think it&rsquo;s a significant improvement, and we will likely adopt
 it for new projects, but our production projects aren&rsquo;t going to be refactored
 right away. Should minimal APIs also prove to be remarkably performant, we&rsquo;ll
-reconsider them<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+reconsider them[^11].</p>
 <p>The first step was updating the target framework moniker to <code>net6.0</code>.</p>
 <pre><code>&lt;Project Sdk=&quot;Microsoft.NET.Sdk.Web&quot;&gt;
   &lt;PropertyGroup&gt;
@@ -61,7 +61,7 @@ warnings, either at compile or runtime. Let&rsquo;s go through them one by one.<
 &lsquo;JsonSerializer.Serialize(TValue, JsonSerializerOptions?)&rsquo; and
 &lsquo;JsonSerializer.Serialize(TValue, JsonTypeInfo)&rsquo;&quot;</p>
 </blockquote>
-<p>In .NET 6, the <code>Sytem.Text.Json.JsonSerializer</code> <a href="https://docs.microsoft.com/en-us/dotnet/core/compatibility/serialization/6.0/jsonserializer-source-generator-overloads">acquired two new overloads</a> that
+<p>In .NET 6, the <code>Sytem.Text.Json.JsonSerializer</code> [acquired two new overloads][2] that
 support pre-generated type information via source-generators. Previously, you
 could write code that passed <code>null</code> (or <code>default</code>) as the value for the
 <code>JsonSeralizerOptions</code> parameter:</p>
@@ -82,7 +82,7 @@ target:</p>
 <blockquote>
 <p>SYSLIB0023: RNGCryptoServiceProvider is obsolete</p>
 </blockquote>
-<p>As it turns out, <code>RNGCryptoServiceProvider</code> is <a href="https://docs.microsoft.com/en-us/dotnet/fundamentals/syslib-diagnostics/syslib0023">marked as obsolete in .NET 6</a>. The
+<p>As it turns out, <code>RNGCryptoServiceProvider</code> is [marked as obsolete in .NET 6][3]. The
 new preferred way to generate a random number is using one of the
 <code>RandomNunmberGenerator</code> static methods.</p>
 <pre><code>  // old
@@ -107,7 +107,7 @@ use DbContext.GetService&lt;IDesignTimeModel&gt;().Model.</p>
 </blockquote>
 <p>If, like me, you happen to have a custom <code>IModelCacheKeyFactory</code>
 implementation, you will likely get this error at runtime. Starting with EF
-Core 6, <a href="https://github.com/dotnet/EntityFramework.Docs/pull/3305/files">you must implement</a> the new overload of the <code>Create</code> method that
+Core 6, [you must implement][4] the new overload of the <code>Create</code> method that
 handles design-time model caching.</p>
 <pre><code>// old
 public class DynamicModelCacheKeyFactoryDesignTimeSupport : IModelCacheKeyFactory
@@ -141,10 +141,10 @@ causing nested dependent&rsquo;s values to be lost. Add a required property to
 create instances with null values for other properties or mark the incoming
 navigation as required to always create an instance.</p>
 </blockquote>
-<p>The message above is a consequence of a <a href="https://docs.microsoft.com/en-us/ef/core/what-is-new/ef-core-6.0/breaking-changes#high-impact-changes">high-impact breaking change</a> introduced
+<p>The message above is a consequence of a [high-impact breaking change][5] introduced
 in EF Core 6.0. In the past, you could have models with nested optional dependents
 sharing the same table, each with no required properties. In such
-circumstances, data loss could occur (see the <a href="https://docs.microsoft.com/en-us/ef/core/what-is-new/ef-core-6.0/breaking-changes#high-impact-changes">documentation</a> for details
+circumstances, data loss could occur (see the [documentation][5] for details
 and examples). My solution was to mark at least one property of dependent
 models with the <code>RequiredAttribute</code> (which, in every single case, was the right
 thing to do anyway)</p>
@@ -157,12 +157,12 @@ thing to do anyway)</p>
 stable version of the <code>EFCore.NamingConventions</code> package. At the time of this
 writing, <code>v6.0</code> of the package has not been released, but there is a pre-release
 available that includes the missing implementation. Switch to <code>v6.0.0-rc.1</code> and
-you&rsquo;ll be fine (ticket is <a href="https://github.com/efcore/EFCore.NamingConventions/issues/108">here</a>). I&rsquo;m sure the new stable release will be
+you&rsquo;ll be fine (ticket is [here][6]). I&rsquo;m sure the new stable release will be
 out by the time you read this.</p>
 <p><em>Update: EFCore.NamingConventions v6 has now been released.</em></p>
 <h3 id="the-npgsql-timestamps-breaking-change">The Npgsql timestamps breaking change</h3>
 <p>While the above situations were quick to fix, the new, updated Npgsql provider
-offers a different threat level. There&rsquo;s <a href="https://www.npgsql.org/efcore/release-notes/6.0.html#major-changes-to-timestamp-mapping">one significant breaking change</a>
+offers a different threat level. There&rsquo;s [one significant breaking change][7]
 that impacts <code>DateTime</code> fields (timestamps). As the documentation suggests, it is
 possible to opt out of this change to preserve backward compatibility, but
 I decided to take the plunge and embrace it. The short version is that
@@ -171,7 +171,7 @@ Postgres&rsquo;s <code>timestamp</code> fields (&rsquo;timestamps without timezo
 with Npgsql, <code>DateTime</code> properties must be treated as UTC by setting the <code>Kind</code>
 property to <code>DateTimeKind.UTC</code>. When you run the migration tool, a migration is
 created to accomodate the change, which can impact existing data. Make sure you
-read the <a href="https://www.npgsql.org/efcore/release-notes/6.0.html#migrating-columns-from-timestamp-to-timestamptz">detailed notes</a> to assess the impact on your data. I let the
+read the [detailed notes][8] to assess the impact on your data. I let the
 migration run, then updated models configuration by setting a custom
 <code>DateTimeUtcValueConverter</code> for DateTime properties:</p>
 <pre><code>// custom DateTime converter
@@ -197,23 +197,11 @@ property at the application level to ensure that values are correctly handled.</
 6.0 migration can be more involved, while the Npgsql 6 migration requires some
 attention but, remember, you can always opt-out of the delicate timestamps
 change. Was the upgrade worth it? I think so for a few reasons. First, .NET
-6 is LTS, while .NET 5 will be out of support in six months. Second, .<a href="https://devblogs.microsoft.com/dotnet/announcing-net-6">NET 6 is
-the fastest yet</a>, with a remarkable margin (EF Core 6 alone is <a href="https://docs.microsoft.com/en-us/ef/core/what-is-new/ef-core-6.0/whatsnew#improved-performance-on-techempower-fortunes">70%
-faster</a>.) While the primary migration is done, there are a lot of changes
+6 is LTS, while .NET 5 will be out of support in six months. Second, .[NET 6 is
+the fastest yet][9], with a remarkable margin (EF Core 6 alone is [70%
+faster][10].) While the primary migration is done, there are a lot of changes
 and new features that are worth considering for our codebase, which is
 something we will be doing in the upcoming weeks.</p>
-<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>My initial ramblings on Minimal APIs are available <a href="/will-.net-6-minimal-apis-turn-heads/">here</a>.
-[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
-[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
-[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -221,12 +209,12 @@ something we will be doing in the upcoming weeks.</p>
       <link>https://nicolaiarocci.com/asp.net-6-migration-cheatsheet-and-faq/</link>
       <pubDate>Thu, 23 Sep 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/asp.net-6-migration-cheatsheet-and-faq/</guid>
-      <description>David Fowler has a very informative gist up on GitHub. It&amp;rsquo;s titled [Migration to ASP.NET Core. NET6][3] and it&amp;rsquo;s filled with details, recipes and FAQs on migrating an ASP.NET Core 5 web app to ASP.NET Core 61. The focus is on the new, streamlined hosting model, also known as Minimal APIs2. To be clear, You don&amp;rsquo;t have to move to the new model. As the FAQ section emphasizes:
+      <description>David Fowler has a very informative gist up on GitHub. It&amp;rsquo;s titled [Migration to ASP.NET Core. NET6][3] and it&amp;rsquo;s filled with details, recipes and FAQs on migrating an ASP.NET Core 5 web app to ASP.NET Core 6[^4]. The focus is on the new, streamlined hosting model, also known as Minimal APIs[^1]. To be clear, You don&amp;rsquo;t have to move to the new model. As the FAQ section emphasizes:
 Do I have to migrate to the new hosting model</description>
       <content:encoded><![CDATA[<p>David Fowler has a very informative gist up on GitHub. It&rsquo;s titled [Migration
 to ASP.NET Core. NET6][3] and it&rsquo;s filled with details, recipes and FAQs on
-migrating an ASP.NET Core 5 web app to ASP.NET Core 6<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. The focus is on the
-new, streamlined hosting model, also known as Minimal APIs<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. To be clear,
+migrating an ASP.NET Core 5 web app to ASP.NET Core 6[^4]. The focus is on the
+new, streamlined hosting model, also known as Minimal APIs[^1]. To be clear,
 You don&rsquo;t <em>have</em> to move to the new model. As the FAQ section emphasizes:</p>
 <blockquote>
 <p>Do I have to migrate to the new hosting model</p>
@@ -241,23 +229,6 @@ but I&rsquo;m sure that David will be ready to do so if required.</p>
 They are all ASP.NET 5, currently in beta, but before release we&rsquo;re likely to
 upgrade them to NET6. NET6 is LTS, NET5 isn&rsquo;t, and offers significant
 advantages, remarkable [performance gains][2] included.</p>
-<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>The Core tag was dropped in NET5, and it was a good move. The reason why the insist on using it with ASP.NET eludes me.
-[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
-[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
-[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:2">
-<p><a href="https://nicolaiarocci.com/will-.net-6-minimal-apis-turn-heads/">Will .NET 6 Mininal APIs turn heads?</a> collects my thoughts on the subject.
-[2]: <a href="https://nicolaiarocci.com/performance-improvements-in-.net6/">https://nicolaiarocci.com/performance-improvements-in-.net6/</a>
-[3]: <a href="https://gist.github.com/davidfowl/0e0372c3c1d895c3ce195ba983b1e03d">https://gist.github.com/davidfowl/0e0372c3c1d895c3ce195ba983b1e03d</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
 ]]></content:encoded>
     </item>
   </channel>

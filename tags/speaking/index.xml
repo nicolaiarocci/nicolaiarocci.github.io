@@ -14,17 +14,16 @@
       <link>https://nicolaiarocci.com/i-am-speaking-at-the-dotnet-conference-italia-2023/</link>
       <pubDate>Thu, 23 Nov 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/i-am-speaking-at-the-dotnet-conference-italia-2023/</guid>
-      <description>In a few days, on Monday, December 4, at 10 a.m., I will present at the .NET Conference Italia 2023, which will be held at the Microsoft House in Milan. My session is titled &amp;ldquo;C#12 What&amp;rsquo;s new and interesting&amp;rdquo; and is part of a rich agenda focused on the recent release of .NET 8.
-I presented on the same subject at a DevRomagna meetup a few months ago when C# 12 was in preview and still had several moving parts.</description>
+      <description>In a few days, on Monday, December 4, at 10 a.m., I will present at the .NET Conference Italia 2023, which will be held at the Microsoft House in Milan. My session is titled &amp;ldquo;C#12 What&amp;rsquo;s new and interesting&amp;rdquo; and is part of a [rich agenda][1] focused on the recent release of .NET 8.
+I presented on the same subject at a [DevRomagna][2] meetup a few months ago when C# 12 was in preview and still had several moving parts.</description>
       <content:encoded><![CDATA[<p>In a few days, on Monday, December 4, at 10 a.m., I will present at the .NET Conference Italia 2023, which will be held
-at the Microsoft House in Milan. My session is titled &ldquo;C#12 What&rsquo;s new and interesting&rdquo; and is part of a <a href="https://dotnetconference.it/e/3281/dotNET-Conference-Italia-2023">rich agenda</a>
+at the Microsoft House in Milan. My session is titled &ldquo;C#12 What&rsquo;s new and interesting&rdquo; and is part of a [rich agenda][1]
 focused on the recent release of .NET 8.</p>
-<p>I presented on the same subject at a <a href="https://www.meetup.com/it-IT/devromagna/">DevRomagna</a> meetup a few months ago when C# 12 was in preview and still had
+<p>I presented on the same subject at a [DevRomagna][2] meetup a few months ago when C# 12 was in preview and still had
 several moving parts. Now that the final release is out, it will be interesting to return to the topic to consolidate my
 knowledge. I suspect that of the many reasons I challenge myself to speak publicly, enriching my knowledge is prevalent.
 As the adage goes, for learning a subject, nothing beats explaining it in front of a knowledgeable audience.</p>
 <p>If you will attend the conference (you should!), remember to meet me and say hi!</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -32,11 +31,11 @@ As the adage goes, for learning a subject, nothing beats explaining it in front 
       <link>https://nicolaiarocci.com/i-am-speaking-at-webday-2023/</link>
       <pubDate>Mon, 13 Mar 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/i-am-speaking-at-webday-2023/</guid>
-      <description>On Thursday, I will be speaking in Milan at WebDay 2023. Mine is a hands-on session on building a reliable and continuous end-to-end testing environment for web apps using Microsoft Playwright. If you attended my introductory Playwright session at WPC last year, Thursday&amp;rsquo;s session would be the ideal follow-up to that one, as I only briefly touched on CI deployments there.
+      <description>On Thursday, I will be speaking in Milan at [WebDay 2023][1]. Mine is a hands-on session on building a reliable and continuous end-to-end testing environment for web apps using Microsoft Playwright. If you attended my [introductory Playwright session at WPC][2] last year, Thursday&amp;rsquo;s session would be the ideal follow-up to that one, as I only briefly touched on CI deployments there.
 Drawing from my experience doing the whole thing in production, I&amp;rsquo;ll essentially be live testing a Blazor app, then take the entire thing to remote CI via GitHub Actions.</description>
-      <content:encoded><![CDATA[<p>On Thursday, I will be speaking in Milan at <a href="https://www.webdayconf.it/">WebDay 2023</a>. Mine is a hands-on session on building a reliable and
-continuous end-to-end testing environment for web apps using Microsoft Playwright. If you attended my <a href="https://nicolaiarocci.com/my-session-at-wpc-2022/">introductory
-Playwright session at WPC</a> last year, Thursday&rsquo;s session would be the ideal follow-up to that one, as I
+      <content:encoded><![CDATA[<p>On Thursday, I will be speaking in Milan at [WebDay 2023][1]. Mine is a hands-on session on building a reliable and
+continuous end-to-end testing environment for web apps using Microsoft Playwright. If you attended my [introductory
+Playwright session at WPC][2] last year, Thursday&rsquo;s session would be the ideal follow-up to that one, as I
 only briefly touched on CI deployments there.</p>
 <p>Drawing from my experience doing the whole thing in production, I&rsquo;ll essentially be live testing a Blazor app, then take
 the entire thing to remote CI via GitHub Actions. In the process, I&rsquo;ll show some of the issues we faced, share how we
@@ -44,7 +43,6 @@ solved them, and offer some practices we adopted.</p>
 <p>WebDay 2023 will be a hybrid event, with over 380 in-person attendees and almost 1300 registered for live streaming.
 After the exhilarating experience of being back on an actual stage at WPC a few months ago, I&rsquo;m excited to speak once
 again in front of a real crowd.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -52,9 +50,9 @@ again in front of a real crowd.</p>
       <link>https://nicolaiarocci.com/on-the-state-of-developer-conferences/</link>
       <pubDate>Thu, 23 Feb 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-the-state-of-developer-conferences/</guid>
-      <description>Brian Rinaldi has an insightful post on his blog about the current state of developer conferences, where &amp;lsquo;current state&amp;rsquo; means post-COVID pandemic. Brian is well-positioned to reason about this space as a long-time conference organizer. I appreciate that he also takes the time to explain how the developer conference business works. The core of his blog is about post-pandemic conference attendance, which has plunged.
+      <description>Brian Rinaldi has an insightful post on [his blog][1] about the current state of developer conferences, where &amp;lsquo;current state&amp;rsquo; means post-COVID pandemic. Brian is well-positioned to reason about this space as a long-time conference organizer. I appreciate that he also takes the time to explain how the developer conference business works. The core of his blog is about post-pandemic conference attendance, which has plunged.
 independent, in-person developer conferences are hurting. Based on my own observation as well as talks with organizers and sponsors that I have come to know over the years, the average independent in-person event is still down 30-40% from pre-pandemic attendance levels.</description>
-      <content:encoded><![CDATA[<p>Brian Rinaldi has an insightful post on <a href="https://remotesynthesis.com/blog/developer-conferences/">his blog</a> about the current state of
+      <content:encoded><![CDATA[<p>Brian Rinaldi has an insightful post on [his blog][1] about the current state of
 developer conferences, where &lsquo;current state&rsquo; means post-COVID pandemic. Brian
 is well-positioned to reason about this space as a long-time conference
 organizer. I appreciate that he also takes the time to explain how the
@@ -82,11 +80,11 @@ low attendance during the pandemic, and they still do today. When available,
 recordings partially compensate, but only in audience terms. The problem is
 online events are not conferences. &lsquo;Conference&rsquo; originates from the late Latin
 &ldquo;conferentia,&rdquo; itself a derivative of &ldquo;conferre,&rdquo; a synonym for the collation
-of &ldquo;bring together&rdquo;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. A conference is a meeting to discuss some topics. The
+of &ldquo;bring together&rdquo;[^4]. A conference is a meeting to discuss some topics. The
 get-together element is missing in online events, and networking is next to
 impossible (live chats and &lsquo;virtual after-parties&rsquo; are just poor palliatives.)
 In my book, hybrid events are even worse, as live streaming and recordings
-discourage live attendance (at the <a href="https://www.meetup.com/it-IT/DevRomagna">DevRomagna meetups</a>, we often get asked
+discourage live attendance (at the [DevRomagna meetups][2], we often get asked
 if live streaming or recordings will be available, and the answer is no -
 either we do live streaming - and we sometimes do - or we do an in-person
 event, but never a mix of the two.)</p>
@@ -95,19 +93,7 @@ attendance will ever get back to old numbers. I am afraid a good portion of
 those who were regulars became disaffected, and gaining their attention back is
 a hard gamble. YouTube and Twitch, I think, are phenomenal competitors, and the
 pandemic hiatus threw a ton of fresh new viewers at them.</p>
-<p>PS: Coincidentally, we&rsquo;re running an in-person meetup at DevRomagna <a href="https://nicolaiarocci.com/heading-to-go-a-look-at-building-a-video-encoder-meetup/">today</a>.</p>
-<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or [follow me on Mastodon][m]</em></p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>According to <a href="https://www.treccani.it/vocabolario/ricerca/conferenza/">Treccani</a>
-[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
-[m]: <a href="https://fosstodon.org/@nicola">https://fosstodon.org/@nicola</a>
-[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
+<p>PS: Coincidentally, we&rsquo;re running an in-person meetup at DevRomagna [today][3].</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -115,9 +101,9 @@ pandemic hiatus threw a ton of fresh new viewers at them.</p>
       <link>https://nicolaiarocci.com/my-session-at-wpc-2022/</link>
       <pubDate>Wed, 19 Oct 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/my-session-at-wpc-2022/</guid>
-      <description>Yesterday I was at WPC 2022, &amp;ldquo;the most important Italian conference on Microsoft technologies&amp;rdquo;, where I presented a one-hour session titled &amp;ldquo;Reliable end-to-end testing for modern web apps with Microsoft Playwright.&amp;rdquo;
+      <description>Yesterday I was at [WPC 2022][1], &amp;ldquo;the most important Italian conference on Microsoft technologies&amp;rdquo;, where I presented a one-hour session titled &amp;ldquo;Reliable end-to-end testing for modern web apps with Microsoft Playwright.&amp;rdquo;
 Attendance was great and there was a lot of excitement up in the air; it was evident that people were happy to meet and interact in person again. After the forced two years hiatus, it was great to be back at a big on-site conference, let alone speak at it.</description>
-      <content:encoded><![CDATA[<p>Yesterday I was at <a href="https://www.wpc2022.it/">WPC 2022</a>, &ldquo;the most important Italian conference on
+      <content:encoded><![CDATA[<p>Yesterday I was at [WPC 2022][1], &ldquo;the most important Italian conference on
 Microsoft technologies&rdquo;, where I presented a one-hour session titled &ldquo;Reliable
 end-to-end testing for modern web apps with Microsoft Playwright.&rdquo;</p>
 <p>Attendance was great and there was a lot of excitement up in the air; it was
@@ -129,7 +115,7 @@ smiling and questioning attendees, which felt fantastic.</p>
 </p>
 <p>I think I&rsquo;m satisfied with my delivery, although I managed to screw up a few
 things, most notably showing my Twitter password live (that was a funny
-moment)<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. I also forgot to mention a couple of things.</p>
+moment)[^2]. I also forgot to mention a couple of things.</p>
 <ul>
 <li>I demoed CLI usage on Bash, but the kind people working on Playwright also
 provide full Powershell support; the website defaults to Powershell for their
@@ -164,18 +150,6 @@ website with a few variations and additions.
 </p>
 <p>I had fun performing again in front of a real, live crowd. Perhaps the induced
 break, unexpected and undesirable for many reasons, did me good.</p>
-<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>Having two-factor authentication up made it all less stressful.
-[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
-[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
-[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -183,10 +157,10 @@ break, unexpected and undesirable for many reasons, did me good.</p>
       <link>https://nicolaiarocci.com/my-playwright-session-at-webday-2022/</link>
       <pubDate>Fri, 01 Apr 2022 06:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/my-playwright-session-at-webday-2022/</guid>
-      <description>If you understand Italian, the recording of my Playwright session at UGIdotNET&amp;rsquo;s WebDay 2022 is now available on YouTube1. Playwright is a phenomenal cross-browser, cross-platform, cross-language, single-API, mobile-friendly front-end testing tool.
+      <description>If you understand Italian, the recording of my Playwright session at UGIdotNET&amp;rsquo;s [WebDay 2022][1] is now available on YouTube[^2]. Playwright is a phenomenal cross-browser, cross-platform, cross-language, single-API, mobile-friendly front-end testing tool.
 I&amp;rsquo;m looking forward to giving the same session in English sooner or later, but I should first win my laziness and start looking for exciting events with open CFPs. If you happen to know one, please let me know.</description>
       <content:encoded><![CDATA[<p>If you understand Italian, the recording of my Playwright session at
-UGIdotNET&rsquo;s <a href="https://www.ugidotnet.org/e/2840/Web-Day-2022">WebDay 2022</a> is now available on YouTube<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Playwright is
+UGIdotNET&rsquo;s [WebDay 2022][1] is now available on YouTube[^2]. Playwright is
 a phenomenal cross-browser, cross-platform, cross-language, single-API,
 mobile-friendly front-end testing tool.</p>
 <p>I&rsquo;m looking forward to giving the same session in English sooner or later, but
@@ -197,18 +171,6 @@ CFPs. If you happen to know one, please let me know.</p>
   <iframe src="https://www.youtube.com/embed/BaY9WIHUwFc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
-<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>A couple weeks later I also presented at <a href="https://www.meetup.com/it-IT/DevRomagna/events/284626987/">DevRomagna</a>, the local meetup I run.
-[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
-[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
-[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -224,7 +186,7 @@ themselves with the free and open-source movement gather in Brussels from all
 over the world. And I mean thousands of them. According to Wikipedia, since
 2011, the meeting hosts about 4,000 visitors every year. It&rsquo;s huge, and it&rsquo;s
 a one of its kind.</p>
-<p>In 2021, FOSDEM was held online. I already <a href="/upcoming-speaking-engagements-with-ramblings/">mentioned</a> how I miss live events. In
+<p>In 2021, FOSDEM was held online. I already [mentioned][1] how I miss live events. In
 that post, I also wrote:</p>
 <blockquote>
 <p>Any conference junkie will tell you that she/he attends for the people first,
@@ -234,7 +196,7 @@ stuff happens in the corridors, usually during breaks.</p>
 <p>At that FOSDEM seven years ago, I experienced one of those corridor moments. It
 did not really happen in a corridor, however.</p>
 <p>I was at the Delirium Cafe one night, with my good friend (and exceptionally
-skilled Pythonista) <a href="https://www.amazon.com/Alessandro-Molina/e/B07F8CTSHW?ref_=dbs_p_ebk_r00_abau_000000">Alessandro Molina</a> at my side. Many other conference
+skilled Pythonista) [Alessandro Molina][2] at my side. Many other conference
 attendees were there, and we were all having fun doing what nerds do when they
 gather for a night in the pub. We were sitting at this big round table, me,
 Alessandro, and three other guys I did not know yet. We all started chatting,
@@ -254,21 +216,6 @@ laugh. The next round was on me.</p>
 conferences worth it.</p>
 <p>PS. I had all the hints—the brilliant guy from Switzerland who knows PyPy like
 the back of his hand. Someone wasn&rsquo;t so smart on that night.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
-<figure>
-    <img loading="lazy" src="/images/fosdem2014_python_room.jpg"
-         alt="The Python room at FOSDEM 2014"/> <figcaption>
-            <p><em>The Python room at FOSDEM 2014</em></p>
-        </figcaption>
-</figure>
-
-<figure>
-    <img loading="lazy" src="/images/fosdem2014.jpg"
-         alt="With Alessandrio at FOSDEM 2014"/> <figcaption>
-            <p><em>With Alessandro at FOSDEM 2014</em></p>
-        </figcaption>
-</figure>
-
 ]]></content:encoded>
     </item>
     <item>
@@ -276,11 +223,11 @@ the back of his hand. Someone wasn&rsquo;t so smart on that night.</p>
       <link>https://nicolaiarocci.com/upcoming-speaking-engagements-with-ramblings/</link>
       <pubDate>Fri, 29 Jan 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/upcoming-speaking-engagements-with-ramblings/</guid>
-      <description>I am presenting at two different events in February next month. Given the current COVID situation, that is entirely unexpected. In 2020 I only gave four talks, three of which were virtual. I am not holding my breath for 2021. Conferences are going virtual all year-long. Next year too, most likely.
+      <description>I am presenting at two different events in February next month. Given the current COVID situation, that is entirely unexpected. In 2020 I only gave [four talks][3], three of which were virtual. I am not holding my breath for 2021. Conferences are going virtual all year-long. Next year too, most likely.
 There are some clear advantages in going virtual, but the final result is a net negative. Any conference junkie will tell you that she/he attends for the people first, and only then for the sessions themselves.</description>
       <content:encoded><![CDATA[<p>I am presenting at two different events in February next month. Given the
-current COVID situation, that is entirely unexpected. In 2020 I only gave <a href="/speaking">four
-talks</a>, three of which were virtual. I am not holding my breath for 2021.
+current COVID situation, that is entirely unexpected. In 2020 I only gave [four
+talks][3], three of which were virtual. I am not holding my breath for 2021.
 Conferences are going virtual all year-long. Next year too, most likely.</p>
 <p>There are some clear advantages in going virtual, but the final result is a net
 negative. Any conference junkie will tell you that she/he attends for the
@@ -312,12 +259,11 @@ now that we&rsquo;re forced to go virtual. Remember to always have a word of
 gratitude for your fellow organizer. She/he deserves that.</p>
 <p>Alright, enough with the rambling. Here&rsquo;s where I&rsquo;m presenting next month:</p>
 <ul>
-<li><strong>Python REST APIs for Humans</strong> at <a href="https://codegen2021.azurewebsites.net/">CloudGen 2021</a></li>
-<li><strong>Introduction to F# and functional languages</strong> at <a href="https://scottishsummit.com/">Scottish Summit 2021</a></li>
+<li><strong>Python REST APIs for Humans</strong> at [CloudGen 2021][1]</li>
+<li><strong>Introduction to F# and functional languages</strong> at [Scottish Summit 2021][2]</li>
 </ul>
 <p>One significant advantage of virtual conferences is that anybody can take part
 no matter where she/he lives on the planet. So, maybe you will fancy join us?</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a> or the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>

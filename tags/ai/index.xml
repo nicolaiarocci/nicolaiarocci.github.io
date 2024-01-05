@@ -28,7 +28,6 @@ the 1950s. Here&rsquo;s my attempt to round up the highlights in one place!</p>
 <p>The links contained within the post are also valuable. You may know Simon&rsquo;s
 website if you are interested in LLMs and AI. If you don&rsquo;t, I suggest you start
 following him, preferably via his RSS feed like real hackers do.</p>
-<p><em>Subscribe to my <a href="https://buttondown.email/nicolaiarocci">newsletter</a> or the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>. Follow me on <a href="https://fosstodon.org/@nicola">Mastodon</a> or <a href="https://x.com/nicolaiarocci">X</a>.</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -49,7 +48,6 @@ It&amp;rsquo;s only when the dreams go into deemed factually incorrect territory
 <p>It&rsquo;s only when the dreams go into deemed factually incorrect territory that we label it a &ldquo;hallucination&rdquo;. It looks like a bug, but it&rsquo;s just the LLM doing what it always does.</p>
 </blockquote>
 <p>&ndash; <a href="https://twitter.com/karpathy/status/1733299213503787018">Andrej Karpathy</a></p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -69,7 +67,6 @@ system style&rdquo; is not too far off from what will emerge soon. The final seg
 (jailbreaking, prompt injection, data poisoning) is also super interesting.</p>
 <p>On his website, Karpathy also has a promising <a href="https://karpathy.ai/zero-to-hero.html">zero-to-hero video series</a>, &ldquo;a
 course on building neural networks from scratch, in code.&rdquo;</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -77,9 +74,9 @@ course on building neural networks from scratch, in code.&rdquo;</p>
       <link>https://nicolaiarocci.com/ai-curated-minimalist-news/</link>
       <pubDate>Wed, 03 May 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/ai-curated-minimalist-news/</guid>
-      <description>Minimalist News is the first LLM project that excites me but in a nervous way. Quoting the About page:
+      <description>[Minimalist News][1] is the first LLM project that excites me but in a nervous way. Quoting the About page:
 We only publish significant news. To find them we use AI (ChatGPT-4) to read and analyze 1000 top news every day. For each article it estimates magnitude, scale, potential and credibility. Then we combine these estimates to get the final Significance score from 0 to 10. And now the best part: We&amp;rsquo;ll only send you the news scored 6.</description>
-      <content:encoded><![CDATA[<p><a href="https://www.newsminimalist.com">Minimalist News</a> is the first LLM project that excites me but in a nervous way. Quoting the About page:</p>
+      <content:encoded><![CDATA[<p>[Minimalist News][1] is the first LLM project that excites me but in a nervous way. Quoting the About page:</p>
 <blockquote>
 <p>We only publish significant news. To find them we use AI (ChatGPT-4) to read and analyze 1000 top news every day. For
 each article it estimates magnitude, scale, potential and credibility. Then we combine these estimates to get the
@@ -89,7 +86,6 @@ be sure that you haven&rsquo;t missed anything important.</p>
 </blockquote>
 <p>The concept is brilliant and well executed, but I can&rsquo;t help but feel uncomfortable at the notion of an AI curating news
 for me. Yet, this is the best use case for LLM/AI I&rsquo;ve seen until now.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -109,7 +105,6 @@ knowledge that they differ profoundly from how humans reason and use language. T
 limitations on what these programs can do, encoding them with ineradicable defects.</p>
 </blockquote>
 <p>More <a href="https://archive.is/AgWkn">here</a>.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -138,7 +133,6 @@ of its existence.</p>
 <p>Why? Because it had never been written.</p>
 </blockquote>
 <p>More <a href="https://www.theguardian.com/commentisfree/2023/apr/06/ai-chatgpt-guardian-technology-risks-fake-article">here</a>.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -149,8 +143,7 @@ of its existence.</p>
       <description>John Carmack, while advising on the advent of AI and its influence on the Software Engineering profession:
 Software is just a tool to help accomplish something for people &amp;ndash; many programmers never understood that. Keep your eyes on the delivered value, and don&amp;rsquo;t over-focus on the specifics of the tools.
 I have often fallen into the over-focusing trap in my career. The whole thread is well worth reading:
-(via)
-Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
+(via)</description>
       <content:encoded><![CDATA[<p>John Carmack, while advising on the advent of AI and its influence on the Software Engineering profession:</p>
 <blockquote>
 <p>Software is just a tool to help accomplish something for people &ndash; many programmers never understood that. Keep your
@@ -160,7 +153,6 @@ eyes on the delivered value, and don&rsquo;t over-focus on the specifics of the 
 <p><img loading="lazy" src="/images/quoting-john-carmack.jpg" alt="Quoting John Carmack"  />
 </p>
 <p>(<a href="https://twitter.com/ID_AA_Carmack/status/1637087219591659520"><em>via</em></a>)</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>

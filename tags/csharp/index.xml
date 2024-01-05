@@ -52,7 +52,6 @@ verbose than others, but my favorite is resorting to a custom StringWriter:</p>
 </code></pre><p>The whole .NET framework has seen fantastic performance improvements, top-class multi-platform support, and remarkable
 streamlining, but some baffling pitfalls are still hidden in some of its less obvious parts. StringWriter not supporting
 UTF-8 out-of-the-box is one of them.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -61,11 +60,11 @@ UTF-8 out-of-the-box is one of them.</p>
       <pubDate>Wed, 25 Oct 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/linq-distinctby-on-a-property-for-dotnet-standard-and-old-dotnet-versions/</guid>
       <description>Today I learned how to implement a custom Enumerable.DistinctBy extension method that returns distinct elements from a sequence according to a specified key selector function.
-.NET 6 and its successors have the method built in within LINQ, but I needed it in a .NET Standard 2.0 class library, so I was out of luck. My implementation is simple, not different from others I found online, and should also work fine with old .</description>
+.NET 6 and its successors have the method [built in][1] within LINQ, but I needed it in a .NET Standard 2.0 class library, so I was out of luck. My implementation is simple, not different from [others][2] I found online, and should also work fine with old .</description>
       <content:encoded><![CDATA[<p>Today I learned how to implement a custom <code>Enumerable.DistinctBy</code> extension method that returns distinct elements from a
 sequence according to a specified key selector function.</p>
-<p>.NET 6 and its successors have the method <a href="https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.distinctby?view=net-6.0">built in</a> within LINQ, but I needed it in a .NET Standard 2.0 class
-library, so I was out of luck. My implementation is simple, not different from <a href="https://stackoverflow.com/a/489421/323269">others</a> I found online, and should
+<p>.NET 6 and its successors have the method [built in][1] within LINQ, but I needed it in a .NET Standard 2.0 class
+library, so I was out of luck. My implementation is simple, not different from [others][2] I found online, and should
 also work fine with old .NET releases. Here it is:</p>
 <pre tabindex="0"><code>    public static IEnumerable&lt;TSource&gt; DistinctBy&lt;TSource, TKey&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; keySelector)
     {
@@ -80,11 +79,10 @@ also work fine with old .NET releases. Here it is:</p>
 </code></pre><p>In the following usage example, I will get back all unique objects from the original sequence, distinct by their Name
 property:</p>
 <pre tabindex="0"><code>    var uniques = mySequenceOfObjects.DistinctBy(x =&gt; x.Name);
-</code></pre><p>I later went to check the <a href="https://github.com/dotnet/runtime/blob/e0409d44bd8d1fd0be1d66fbb52bd609be18f388/src/libraries/System.Linq/src/System/Linq/Distinct.cs#L62">official .NET 6+ implementation</a>. They support an optional equality comparer , which I
+</code></pre><p>I later went to check the [official .NET 6+ implementation][3]. They support an optional equality comparer , which I
 don&rsquo;t need, but their base implementation is similar to mine (they use deferred execution as well).</p>
 <p>By the way, years after its open-sourcing, I still get thrills when I realize I can always look at, let alone contribute
 to, the .NET source code.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -92,9 +90,9 @@ to, the .NET source code.</p>
       <link>https://nicolaiarocci.com/homebrew-and-dotnet-8-preview-dont-like-each-other/</link>
       <pubDate>Tue, 13 Jun 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/homebrew-and-dotnet-8-preview-dont-like-each-other/</guid>
-      <description>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&amp;rsquo;m working on a C# 12 presentation for our local developer meetup, and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As version 7 was initially installed with Homebrew, I also wanted to install version 8 Preview with Homebrew, but that recipe was unavailable. Not perfectly happy with that, I fell back to the stand-alone installer, expecting problems.</description>
-      <content:encoded><![CDATA[<p>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&rsquo;m working on a <a href="https://www.meetup.com/it-IT/devromagna/events/293340671/">C# 12 presentation
-for our local developer meetup</a>, and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As
+      <description>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&amp;rsquo;m working on a [C# 12 presentation for our local developer meetup][1], and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As version 7 was initially installed with Homebrew, I also wanted to install version 8 Preview with Homebrew, but that recipe was unavailable. Not perfectly happy with that, I fell back to the stand-alone installer, expecting problems.</description>
+      <content:encoded><![CDATA[<p>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&rsquo;m working on a [C# 12 presentation
+for our local developer meetup][1], and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As
 version 7 was initially installed with Homebrew, I also wanted to install version 8 Preview with Homebrew, but that
 recipe was unavailable. Not perfectly happy with that, I fell back to the stand-alone installer, expecting
 problems.</p>
@@ -106,7 +104,6 @@ both versions 8 Preview and 7 became immediately available. I suspect that <code
 from .NET canonical location to the Homebrew cellar, which magically solved the SDK visibility problem.</p>
 <p>TL; DR. Homebrew recipes don&rsquo;t play nicely with .NET canonical installer. To make all my SDK versions visible to .NET,
 I had to forego the Homebrew installation, which did not uninstall the SDK itself, but simply unlinked it.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -114,8 +111,8 @@ I had to forego the Homebrew installation, which did not uninstall the SDK itsel
       <link>https://nicolaiarocci.com/making-csharp-and-omnisharp-play-well-with-neovim/</link>
       <pubDate>Fri, 03 Mar 2023 08:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/making-csharp-and-omnisharp-play-well-with-neovim/</guid>
-      <description>I&amp;rsquo;ve recently moved away from my custom Neovim configuration to embrace LazyVim. LazyVim is a Neovim setup with sane default settings for options, autocmds, and keymaps. It boldly aims to transform Neovim into a full-fledged IDE that is easy to extend and customize. It comes with a wealth of plugins pre-configured and ready to use, and it is also blazing fast. Elijah Manor has a fantastic introductory video on YouTube; I suggest you take the time to look at it.</description>
-      <content:encoded><![CDATA[<p>I&rsquo;ve recently moved away from my custom Neovim configuration to embrace <a href="https://www.lazyvim.org/">LazyVim</a>. LazyVim is a Neovim setup with sane
+      <description>I&amp;rsquo;ve recently moved away from my custom Neovim configuration to embrace [LazyVim][1]. LazyVim is a Neovim setup with sane default settings for options, autocmds, and keymaps. It boldly aims to transform Neovim into a full-fledged IDE that is easy to extend and customize. It comes with a wealth of plugins pre-configured and ready to use, and it is also blazing fast. Elijah Manor has a fantastic introductory video on YouTube; I suggest you take the time to look at it.</description>
+      <content:encoded><![CDATA[<p>I&rsquo;ve recently moved away from my custom Neovim configuration to embrace [LazyVim][1]. LazyVim is a Neovim setup with sane
 default settings for options, autocmds, and keymaps. It boldly aims to transform Neovim into a full-fledged IDE that is
 easy to extend and customize. It comes with a wealth of plugins pre-configured and ready to use, and it is also blazing
 fast. Elijah Manor has a fantastic introductory video on YouTube; I suggest you take the time to look at it.</p>
@@ -132,8 +129,8 @@ I loaded:</p>
 <pre tabindex="0"><code>Error executing vim.schedule lua callbaack: /usr/share/[...]/semantic_tokens.lua:342:E5248: Invalid character in group name.
 </code></pre><p>A little investigation revealed that semantic tokens provided by
 OmniSharp don&rsquo;t conform to the LSP specification, which triggers the error. I cloned the <em>omnisharp-roslyn</em> repo and dug
-into the code hoping I could offer a quick fix. As it turns out, however, the issue is actually with <a href="https://github.com/dotnet/roslyn/blob/3cca4fdc3b125995bfd32b3a02b5d5c2d2b82504/src/Workspaces/Core/Portable/Classification/ClassificationTypeNames.cs#L97">Roslyn
-itself</a>, not OmniSharp. There are tickets on both the <a href="https://github.com/neovim/neovim/issues/21391">Neovim</a> and the <a href="https://github.com/OmniSharp/omnisharp-roslyn/issues/2483">OmniSharp</a> repositories, but I fear
+into the code hoping I could offer a quick fix. As it turns out, however, the issue is actually with [Roslyn
+itself][4], not OmniSharp. There are tickets on both the [Neovim][2] and the [OmniSharp][3] repositories, but I fear
 they&rsquo;ll stagnate there as non-relevant (<em>note to self</em>: maybe report the problem to the Roslyn folks? Alternatively,
 propose a patched semantic provider to the <em>omnisharp-roslyn</em> maintainers.)</p>
 <p>Anyway, a quick, hacky, and not future-proof fix is to customize Neovim (LazyVim) configuration like this:</p>
@@ -222,8 +219,7 @@ return {
   end,
 }
 </code></pre><p>It overrides the <code>on_attach</code> event to pass an LSP-digestible list of semantic tokens. And voilà, C# files are now loaded seamlessly.</p>
-<p>I&rsquo;m not done yet. I&rsquo;m having another <a href="https://github.com/OmniSharp/omnisharp-roslyn/issues/2510">weird issue</a> with <em>.editorconfig</em> files. I&rsquo;m still triaging it, and will report back when (if) I sort it out.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+<p>I&rsquo;m not done yet. I&rsquo;m having another [weird issue][5] with <em>.editorconfig</em> files. I&rsquo;m still triaging it, and will report back when (if) I sort it out.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -231,21 +227,21 @@ return {
       <link>https://nicolaiarocci.com/my-top-7-new-features-in-.net-7/</link>
       <pubDate>Sun, 04 Dec 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/my-top-7-new-features-in-.net-7/</guid>
-      <description>The other day we did a .NET 7 Spotlight event at this month&amp;rsquo;s DevRomagna meetup. The speakers were Ugo Lattanzi and me. In my session, I chose to talk about my top 7 new features in .NET 7 (pun intended.) What follows is a mix of my preparation notes and what I ended up really saying1.
+      <description>The other day we did a [.NET 7 Spotlight][12] event at this month&amp;rsquo;s [DevRomagna][13] meetup. The speakers were [Ugo Lattanzi][14] and me. In my session, I chose to talk about my top 7 new features in .NET 7 (pun intended.) What follows is a mix of my preparation notes and what I ended up really saying[^17].
 1. Performance Since the initial release of &amp;ldquo;new dotnet&amp;rdquo; (.NET Core), performance has always been a critical goal for the .</description>
-      <content:encoded><![CDATA[<p>The other day we did a <a href="https://www.meetup.com/it-IT/devromagna/events/289709131/">.NET 7 Spotlight</a> event at this month&rsquo;s
-<a href="https://www.meetup.com/it-IT/devromagna/">DevRomagna</a> meetup. The speakers were <a href="https://twitter.com/imperugo">Ugo Lattanzi</a> and me. In my
+      <content:encoded><![CDATA[<p>The other day we did a [.NET 7 Spotlight][12] event at this month&rsquo;s
+[DevRomagna][13] meetup. The speakers were [Ugo Lattanzi][14] and me. In my
 session, I chose to talk about my top 7 new features in .NET 7 (pun intended.)
 What follows is a mix of my preparation notes and what I ended up really
-saying<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+saying[^17].</p>
 <h2 id="1-performance">1. Performance</h2>
 <p>Since the initial release of &ldquo;new dotnet&rdquo; (.NET Core), performance has always
 been a critical goal for the .NET team. Starting with .NET 5, performance gains
 have been skyrocketing. .NET 6 was <em>a lot</em> faster than 5, and now, well, I&rsquo;m
 surprised by the remarkable performance improvements in .NET 7. Stephen Toub
-posted a remarkably long (255 printed pages!) <a href="https://devblogs.microsoft.com/dotnet/performance_improvements_in_net_7">in-depth analysis of the
-performance improvements in .NET 7</a>. one That was followed by articles
-dedicated to <a href="https://devblogs.microsoft.com/dotnet/performance-improvements-in-aspnet-core-7/">ASP.NET Core 7</a> and <a href="https://devblogs.microsoft.com/dotnet/dotnet-7-performance-improvements-in-dotnet-maui/">MAUI 7</a> performance gains. At .NETConf
+posted a remarkably long (255 printed pages!) [in-depth analysis of the
+performance improvements in .NET 7][1]. one That was followed by articles
+dedicated to [ASP.NET Core 7][2] and [MAUI 7][3] performance gains. At .NETConf
 2022, a particular slide caught everyone&rsquo;s attention.</p>
 <p><img loading="lazy" src="/images/dotnetconf22.png" alt=""  />
 </p>
@@ -254,7 +250,7 @@ updated version. I&rsquo;m more impressed with the gRPC graph than the big &ldqu
 faster than Node&rdquo; one. Being faster than Node doesn&rsquo;t break the news these days,
 but being quicker than Go, C++ and Rust? That&rsquo;s one bold statement you have
 right there.</p>
-<p>An <a href="https://dusted.codes/how-fast-is-really-aspnet-core">exciting article</a> surfaced a while ago on this specific topic. In it,
+<p>An [exciting article][4] surfaced a while ago on this specific topic. In it,
 Dustin Moris Gorski presents an in-depth analysis of the ASP.NET Core 7 code
 used for the TechEmpower Framework Benchmark referenced in the above slide. The
 results are&hellip; fascinating. That code is undoubtedly <em>not</em> what mere mortals
@@ -262,10 +258,10 @@ tend to run in their production systems. It is super-performance-optimized,
 often ditching canonical, built-in, and wildly adopted features in favor of
 low-level, high-performance and precisely hand-crafted alternatives. Dustin&rsquo;s
 article is a masterpiece for several reasons; I suggest you invest your time
-<a href="https://dusted.codes/how-fast-is-really-aspnet-core">reading it</a>.</p>
+[reading it][4].</p>
 <p>But yeah, despite this glitch, the takeaway is that .NET 7 is speedy, faster
 than previous versions, and on par with, if not (far?) superior to, most stacks
-and frameworks. The <a href="https://devblogs.microsoft.com/dotnet/performance_improvements_in_net_7">Stephen Toub&rsquo;s article</a> is a testament to the massive
+and frameworks. The [Stephen Toub&rsquo;s article][1] is a testament to the massive
 work done and the achievements obtained.</p>
 <p>Most importantely, we get most of these speed benefits for free, just by
 upgrading to .NET 7. And the good new is, the upgrade is as easy as changing
@@ -275,7 +271,7 @@ Microsoft dependencies to v7.0.0.</p>
 <p>As a consequence of the C# release cycle alignment to that of.NET itself (which
 is much faster), recent versions of C# see fewer features announcements than in
 the past. A good thing in my opinion. Of the several appreciable new features
-coming with C# 11, a remarkable one is the <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/required"><code>required</code> modifier</a>.</p>
+coming with C# 11, a remarkable one is the [<code>required</code> modifier][15].</p>
 <p>When you enable nullable checks in a project, non-nullable string properties
 are flagged with warning that they should be initialized with a non-null value
 when exiting the constructor:</p>
@@ -297,8 +293,8 @@ will compile) to an error (which won&rsquo;t compile). Once you start using this
 feature, it feels so obvious and natural that you wonder why it wasn&rsquo;t there
 right from start.</p>
 <h2 id="3-c-11-raw-string-literals">3. C# 11 raw string literals</h2>
-<p>In C# 11, wrapping a string with triple-double-quotes makes it a <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-11.0/raw-string-literal">raw
-literal</a>. Its main benefits are that no escaping of double-quotes is
+<p>In C# 11, wrapping a string with triple-double-quotes makes it a [raw
+literal][5]. Its main benefits are that no escaping of double-quotes is
 necessary, and newlines are allowed within the string.</p>
 <pre tabindex="0"><code>var xml = &#34;&#34;&#34;
           &lt;element attr=&#34;content&#34;&gt;
@@ -331,7 +327,7 @@ prints as:</p>
 </code></pre><p>In hindsight, like the <code>required</code> modifier, raw string literals appear as
 obvious.</p>
 <h2 id="4-built-in-container-support">4. Built-in container support</h2>
-<p>.NET 7 has <a href="https://devblogs.microsoft.com/dotnet/announcing-builtin-container-support-for-the-dotnet-sdk/">built-in container support</a>, meaning that <code>dotnet publish</code> can
+<p>.NET 7 has [built-in container support][6], meaning that <code>dotnet publish</code> can
 now output to a container image instead of a directory. We control image names,
 tags, and other settings (like the base image) via dedicated <code>.csproj</code> tags. Two
 requirements:</p>
@@ -348,7 +344,7 @@ All my projects deploy to docker containers and are already migrated to .NET 7.
 I&rsquo;m currently using Dockerfiles, but I&rsquo;ll be experimenting with this
 alternative in the coming weeks, both with builds and remote CI builds.</p>
 <h2 id="5-native-aot">5. Native AOT</h2>
-<p><a href="https://learn.microsoft.com/en-us/dotnet/core/deploying/native-aot/">Native AOT</a> produces a standalone executable in the target platform&rsquo;s file
+<p>[Native AOT][7] produces a standalone executable in the target platform&rsquo;s file
 format, with no external dependencies. It&rsquo;s native, with no IL or JIT involved,
 and provides fast startup time and a small, self-contained deployment.</p>
 <p>In my demo, I just needed to add a <code>&lt;PublishAot&gt;true&lt;/PublishAot&gt;</code> tag to the
@@ -366,32 +362,20 @@ parts after me, took charge of showing these.</p>
 <p>I briefly mentioned that rate-limiting and output caching are key features in
 mature production systems. Until today, we had to bake them in-house or rely on
 third-party packages. I&rsquo;ve been using LazyCache and AspNetCoreRateLimit myself.
-The latter <a href="https://github.com/stefanprodan/AspNetCoreRateLimit/issues/382">recently acknowledged</a> the arrival of rate-limiting in .NET 7 and
+The latter [recently acknowledged][8] the arrival of rate-limiting in .NET 7 and
 embraced it in a new package that offers Redis as a rate-limiting backend.
-<a href="https://devblogs.microsoft.com/dotnet/announcing-rate-limiting-for-dotnet/">Rate-limiting</a> and <a href="https://learn.microsoft.com/en-us/aspnet/core/performance/caching/output?view=aspnetcore-7.0">output caching</a> are now part of the ASP.NET Core
+[Rate-limiting][9] and [output caching][10] are now part of the ASP.NET Core
 framework, and that&rsquo;s where they belong.</p>
 <h2 id="8-minimal-apis-group-routes">8. Minimal APIs group routes</h2>
-<p>I know I said 7. I don&rsquo;t use minimal APIs in production yet, but <a href="https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-7.0#route-groups">group
-routing</a> is beautiful and something I&rsquo;ll be employing on the first
+<p>I know I said 7. I don&rsquo;t use minimal APIs in production yet, but [group
+routing][11] is beautiful and something I&rsquo;ll be employing on the first
 occasion. During the meetup, an interesting (and much-expected) discussion
 ensued on the usefulness of minimal APIs. Veterans of many battles don&rsquo;t deem
 them necessary, especially in real-world use cases, which is actually accurate:
 one can keep relying on the canonical MVC approach. The sentiment was that
-Minimal APIs are mostly targeted to newcomers, which is probably true<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. As
+Minimal APIs are mostly targeted to newcomers, which is probably true[^16]. As
 someone coming from the Python REST ecosystem, I dig them a lot. They evolve
 rapidly and I&rsquo;m sure we&rsquo;ll soon see them in action in complex, real scenarios.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>To Caesar what is Caesar&rsquo;s, short on time, I recycled both the idea and the materials from James Montemagno&rsquo;s <a href="https://www.youtube.com/watch?v=0BvCzZ9P7UY">excellent video</a> on the same the topic.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:2">
-<p>Back when Minimal APIs were about to debut, I wrote <em><a href="https://nicolaiarocci.com/will-.net-6-minimal-apis-turn-heads?">Will .NET 6 Minimal APIs turn heads?</a></em>, with some musings on their effectiveness and target audience.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -399,11 +383,11 @@ rapidly and I&rsquo;m sure we&rsquo;ll soon see them in action in complex, real 
       <link>https://nicolaiarocci.com/paramter-null-checking-added-to-csharp-11-preview/</link>
       <pubDate>Sun, 27 Feb 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/paramter-null-checking-added-to-csharp-11-preview/</guid>
-      <description>The first preview of C# 11 is out, and well, I think I like what I see. I dig the new List patterns and am a fan of allowing newlines in the &amp;ldquo;holes&amp;rdquo; of interpolated strings. Parameter null-checking is a bit contentious, and it&amp;rsquo;s good that they are releasing it in preview one and asking for feedback.
+      <description>The [first preview][1] of C# 11 is out, and well, I think I like what I see. I dig the new [List patterns][2] and am a fan of [allowing newlines in the &amp;ldquo;holes&amp;rdquo; of interpolated strings][3]. [Parameter null-checking][4] is a bit contentious, and it&amp;rsquo;s good that they are releasing it in preview one and asking for feedback.
 In a nutshell, they want to spare us a lot of boilerplate. Code like this:</description>
-      <content:encoded><![CDATA[<p>The <a href="https://devblogs.microsoft.com/dotnet/early-peek-at-csharp-11-features/">first preview</a> of C# 11 is out, and well, I think I like what I see.
-I dig the new <a href="https://devblogs.microsoft.com/dotnet/early-peek-at-csharp-11-features/#c-11-preview-list-patterns">List patterns</a> and am a fan of <a href="https://devblogs.microsoft.com/dotnet/early-peek-at-csharp-11-features/#c-11-preview-allow-newlines-in-the-holes-of-interpolated-strings">allowing newlines in the
-&ldquo;holes&rdquo; of interpolated strings</a>. <a href="https://devblogs.microsoft.com/dotnet/early-peek-at-csharp-11-features/#c-11-preview-parameter-null-checking">Parameter null-checking</a> is a bit
+      <content:encoded><![CDATA[<p>The [first preview][1] of C# 11 is out, and well, I think I like what I see.
+I dig the new [List patterns][2] and am a fan of [allowing newlines in the
+&ldquo;holes&rdquo; of interpolated strings][3]. [Parameter null-checking][4] is a bit
 contentious, and it&rsquo;s good that they are releasing it in preview one and asking
 for feedback.</p>
 <p>In a nutshell, they want to spare us a lot of boilerplate. Code like this:</p>
@@ -442,7 +426,6 @@ seems a bit clumsy. Someone suggested adopting <code>notnull</code> instead:</p>
 </code></pre>
 <p>I like this suggestion. I wouldn&rsquo;t want <code>notnull</code> on the left of the parameter
 name. To the right? Count me in.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
   </channel>

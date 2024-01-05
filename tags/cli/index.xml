@@ -14,11 +14,11 @@
       <link>https://nicolaiarocci.com/if-you-know-your-user-is-asking-for-help-show-them-the-damn-help/</link>
       <pubDate>Wed, 13 Apr 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/if-you-know-your-user-is-asking-for-help-show-them-the-damn-help/</guid>
-      <description>One of my pet peeves has always been the many different, sometimes very original ways in which CLI tools handle help requests. POSIX sets the canon: -h or --help is how we ask for help. But no, some tools1 want to be original at the worst moment: when their users are struggling, looking for guidance.
+      <description>One of my pet peeves has always been the many different, sometimes very original ways in which CLI tools handle help requests. POSIX sets the canon: -h or --help is how we ask for help. But no, some tools[^1] want to be original at the worst moment: when their users are struggling, looking for guidance.
 It&amp;rsquo;s somewhat consolatory to learn that I&amp;rsquo;m not alone in this fight. The other day I landed on Clayton Craft&amp;rsquo;s blog.</description>
       <content:encoded><![CDATA[<p>One of my pet peeves has always been the many different, sometimes very
 original ways in which CLI tools handle help requests. POSIX sets the canon:
-<code>-h</code> or <code>--help</code> is how we ask for help. But no, some tools<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> want to be
+<code>-h</code> or <code>--help</code> is how we ask for help. But no, some tools[^1] want to be
 original at the worst moment: when their users are struggling, looking for
 guidance.</p>
 <p>It&rsquo;s somewhat consolatory to learn that I&rsquo;m not alone in this fight. The other
@@ -31,19 +31,6 @@ ask for help. Better yet, support a more &ldquo;common&rdquo; way to allow users
 for help if your app doesn&rsquo;t already.</p>
 </blockquote>
 <p>I agree wholeheartedly.</p>
-<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>I&rsquo;m looking at you, NuGet.
-[2]: <a href="https://blog.craftyguy.net/cmdline-help/">https://blog.craftyguy.net/cmdline-help/</a>
-[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
-[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
-[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
 ]]></content:encoded>
     </item>
     <item>

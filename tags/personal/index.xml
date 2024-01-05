@@ -14,9 +14,9 @@
       <link>https://nicolaiarocci.com/half-century-of-service/</link>
       <pubDate>Mon, 29 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/half-century-of-service/</guid>
-      <description>Phil and Jeremy both turned 50 this year. They took the opportunity to write some half-century notes. Having turned 50 myself and inspired by them, I thought I would do the same.
+      <description>[Phil][1] and [Jeremy][2] both turned 50 this year. They took the opportunity to write some half-century notes. Having turned 50 myself and inspired by them, I thought I would do the same.
 0-10 I see the light 50 years ago in Molise, a southern region of Italy that also happens to be the smallest and less known. One year later, my brother joins the family. Our parents are from a small village in Molise heights.</description>
-      <content:encoded><![CDATA[<p><a href="https://www.gyford.com/phil/writing/2021/03/18/half-century-notes/">Phil</a> and <a href="https://adactio.com/journal/17974">Jeremy</a> both turned 50 this year. They took the opportunity
+      <content:encoded><![CDATA[<p>[Phil][1] and [Jeremy][2] both turned 50 this year. They took the opportunity
 to write some half-century notes. Having turned 50 myself and inspired by them,
 I thought I would do the same.</p>
 <h3 id="0-10">0-10</h3>
@@ -58,7 +58,7 @@ come up with this weird idea that we could start a software company.
 I enthusiastically agree. It&rsquo;s the early 90s, I am 21, and the world is my
 oyster. We begin with courses, then pivot to what we were set to do: writing
 computer programs and selling them. The original Lorien BBS from the 80s moves
-into new offices and becomes Phoenix BBS, a fully-fledged FidoNet node<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+into new offices and becomes Phoenix BBS, a fully-fledged FidoNet node[^3].</p>
 <p>MS-DOS is dominating the market. We bet on Windows 3.1 and start writing
 software for it. One week I spend at my desk, hacking code; the next week,
 I load my car&rsquo;s trunk with my software and travel around Italy, proposing my
@@ -97,21 +97,21 @@ software distributors like us, making direct deals with franchising chains and
 malls. Professional accounting applications are not attractive to malls and
 franchises, as they are all about consumers. Our infrastructure, built to
 accommodate for high volumes thanks to distribution deals, is now an incumbent.
-Struggling to survive, we pivot into selling our software online<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. That&rsquo;s
+Struggling to survive, we pivot into selling our software online[^4]. That&rsquo;s
 when the world economic crisis of 2008 hits the streets.</p>
 <h3 id="40-50">40-50</h3>
 <p>We barely survive, not without scratches and pain. We&rsquo;re essentially back where
 we started. Only a handful of us, revenues significantly reduced. Expenses,
 however, are also dramatically reduced. In 2012 we are all remote workers. Our
 premises (that we own) are rented. Somehow in the process, or maybe because of
-the process, I start open-sourcing some of my work<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. That leads to
+the process, I start open-sourcing some of my work[^6]. That leads to
 a surprising and somewhat winding path where I emerge as an open-source author,
 conference speaker, consultant, and teacher. Somehow I am awarded the MongoDB
 Master and then Microsoft MVP awards. All of this is very rewarding personally
 and emotionally and is much needed after all the struggle. The smaller and
 agile company structure allows us to keep going. I drop running in favor of
 body-weight training (I think it is now called calisthenics). I finally get
-myself a motorcycle<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>; I always dreamed of owning one. Kids have grown.
+myself a motorcycle[^5]; I always dreamed of owning one. Kids have grown.
 Marco, our first son, is currently studying in France at the university, and
 the girls are in their teenage years, doing what teenagers do.</p>
 <p>Like I think everyone else, looking back, I often question some choices I made
@@ -129,27 +129,6 @@ computers. More or less of the same? Possibly. Thankfully, I still love my
 profession. I can&rsquo;t wait to see how our kids pursue their path in life. We will
 be accompanying them from a distance and when necessary. The world is their
 oyster.</p>
-<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>I wrote a little about my time as a BBS Sysop, see <a href="https://nicolaiarocci.com/a-trip-down-memory-lane-fidonet-and-usenet/">here</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:2">
-<p>In 2021 I gave a talk about our switch to the online market. Both <a href="https://speakerdeck.com/nicola/online">slides</a> and <a href="https://www.youtube.com/watch?v=Al2VAa3jdm4">video</a> are available (Italian).&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:3">
-<p>See my <a href="/opensource/">Open Source</a> page. Also, I have a presentation titled <a href="https://speakerdeck.com/nicola/my-story-with-python-and-open-source">My Story With Open Source</a>. I presented it at <a href="/speaking/">several conferences</a>.
-[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
-[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
-[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:4">
-<p>A Triumph Bonneville T120. I also ended up founding and running the Italian branch of the <a href="https://tomccitalia.org">Triumph Owners Motorcycle Club</a>.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
 ]]></content:encoded>
     </item>
   </channel>

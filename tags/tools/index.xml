@@ -14,13 +14,13 @@
       <link>https://nicolaiarocci.com/how-to-remove-a-file-from-git-history/</link>
       <pubDate>Fri, 30 Jul 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-remove-a-file-from-git-history/</guid>
-      <description>Today I learned how to remove a file from a git repository while also cleaning it from the history. When you delete it with git rm or git rm --cached, tracks remain in the commit history (the reflog). That might not be a big deal, but if the file has sensitive contents that you want to disappear from version control entirely, then you also want it cleaned from the reflog. That&amp;rsquo;s when git filter-branch comes to the rescue.</description>
+      <description>Today I learned how to remove a file from a git repository while also cleaning it from the history. When you delete it with git rm or git rm --cached, tracks remain in the commit history (the reflog). That might not be a big deal, but if the file has sensitive contents that you want to disappear from version control entirely, then you also want it cleaned from the reflog. That&amp;rsquo;s when [git filter-branch][1] comes to the rescue.</description>
       <content:encoded><![CDATA[<p>Today I learned how to remove a file from a git repository while also cleaning
 it from the history. When you delete it with <code>git rm</code> or <code>git rm --cached</code>,
 tracks remain in the commit history (the reflog). That might not be a big deal,
 but if the file has sensitive contents that you want to disappear from version
 control entirely, then you also want it cleaned from the reflog. That&rsquo;s when
-<a href="https://git-scm.com/docs/git-filter-branch"><code>git filter-branch</code></a> comes to the rescue.</p>
+[<code>git filter-branch</code>][1] comes to the rescue.</p>
 <p>To be on the safe side, I first cloned the repository to a test directory:</p>
 <pre><code>$ git clone &lt;REPOSITORY&gt; test
 $ cd test
@@ -53,22 +53,10 @@ replayed all the above, then force-pushed back to the remote:</p>
 </code></pre>
 <p>In my case, the repository is private with no forks, so the changing
 history was not a big deal for the few colleagues with access to it. Of
-course, any other existing clone will need to be updated<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+course, any other existing clone will need to be updated[^2].</p>
 <p>In so many years with git, this is the very first time I had to do something
 similar. Typically, you don&rsquo;t commit sensitive data to version control, but we
 all make mistakes every once in a while, don&rsquo;t we?</p>
-<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>Keep in mind, eventual stashed changes will be lost after <code>git filter-branch</code>. Make sure you unstash before issuing the command.
-[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
-[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
-[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -77,16 +65,16 @@ all make mistakes every once in a while, don&rsquo;t we?</p>
       <pubDate>Thu, 29 Apr 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/git-worktree-vs-git-savepoints/</guid>
       <description>The official Git documentation presents the following example as a valid use-case for the worktree command:
-You are in the middle of a refactoring session and your boss comes in and demands that you fix something immediately. You might typically use git-stash1 to store your changes away temporarily. However, your working tree is in such a state of disarray (with new, moved, and removed files and other bits and pieces strewn around) that you don&amp;rsquo;t want to risk disturbing any of it.</description>
+You are in the middle of a refactoring session and your boss comes in and demands that you fix something immediately. You might typically use git-stash[1] to store your changes away temporarily. However, your working tree is in such a state of disarray (with new, moved, and removed files and other bits and pieces strewn around) that you don&amp;rsquo;t want to risk disturbing any of it.</description>
       <content:encoded><![CDATA[<p>The official Git documentation presents the following example as a valid
 use-case for the <code>worktree</code> command:</p>
 <blockquote>
 <p>You are in the middle of a refactoring session and your boss comes in and
 demands that you fix something immediately. You might typically use
-git-stash<a href="https://git-scm.com/docs/git-worktree">1</a> to store your changes away temporarily. However, your working
+git-stash[1] to store your changes away temporarily. However, your working
 tree is in such a state of disarray (with new, moved, and removed files and
 other bits and pieces strewn around) that you don&rsquo;t want to risk disturbing
-any of it. (<a href="https://git-scm.com/docs/git-worktree">source</a>)</p>
+any of it. ([source][1])</p>
 </blockquote>
 <p>If you don&rsquo;t know about <code>worktree</code>, you should check it out. It is a handy,
 powerful yet little known command. I don&rsquo;t use it, however. It will check out
@@ -136,7 +124,6 @@ it up with:</p>
 relevant branch. When you get back to it, <code>git log</code> will hint at what happened
 when you left. Assuming it is a private branch, you might even decide to push
 it for backup before starting the hotfix work.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
     <item>

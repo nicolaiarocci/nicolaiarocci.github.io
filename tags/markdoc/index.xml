@@ -14,19 +14,19 @@
       <link>https://nicolaiarocci.com/stripe-releases-markdoc-and-thats-a-good-thing/</link>
       <pubDate>Fri, 13 May 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/stripe-releases-markdoc-and-thats-a-good-thing/</guid>
-      <description>Stripe docs are a marvel, and every developer who&amp;rsquo;s had to deal with them knows it. After years of painful PayPal interactions, I remember the amazement and the feverish grin on my face the first time I landed on their API reference. Stripe API is beautifully designed, but it&amp;rsquo;s the combination of good design and excellent documentation that paved Stripe&amp;rsquo;s fulgid success.
-A few days ago, they unexpectedly released MarkDoc, the &amp;ldquo;powerful, flexible, Markdown-based authoring framework&amp;rdquo; they use internally to build their documentation.</description>
-      <content:encoded><![CDATA[<p><a href="https://stripe.com/docs">Stripe docs</a> are a marvel, and every developer who&rsquo;s had to deal with them knows
+      <description>[Stripe docs][1] are a marvel, and every developer who&amp;rsquo;s had to deal with them knows it. After years of painful PayPal interactions, I remember the amazement and the feverish grin on my face the first time I landed on their API reference. Stripe API is beautifully designed, but it&amp;rsquo;s the combination of good design and excellent documentation that paved Stripe&amp;rsquo;s fulgid success.
+A few days ago, they unexpectedly released [MarkDoc][2], the &amp;ldquo;powerful, flexible, Markdown-based authoring framework&amp;rdquo; they use internally to build their documentation.</description>
+      <content:encoded><![CDATA[<p>[Stripe docs][1] are a marvel, and every developer who&rsquo;s had to deal with them knows
 it. After years of painful PayPal interactions, I remember the amazement and
 the feverish grin on my face the first time I landed on their API reference.
 Stripe API is beautifully designed, but it&rsquo;s the combination of good design and
 excellent documentation that paved Stripe&rsquo;s fulgid success.</p>
-<p>A few days ago, they unexpectedly released <a href="https://markdoc.io/">MarkDoc</a>, the &ldquo;powerful,
+<p>A few days ago, they unexpectedly released [MarkDoc][2], the &ldquo;powerful,
 flexible, Markdown-based authoring framework&rdquo; they use internally to build
 their documentation. I skimmed through it only rapidly and, unsurprisingly, got
 a great first impression.</p>
-<p>Fabrizio Ferri Benedetti, who <a href="https://passo.uno/about">knows better than me about docs</a>, published
-a solid first-glance <a href="https://passo.uno/markdoc-review/">review of MarkDoc</a> that I think is worth reading.
+<p>Fabrizio Ferri Benedetti, who [knows better than me about docs][3], published
+a solid first-glance [review of MarkDoc][4] that I think is worth reading.
 Spoiler alert, I&rsquo;m quoting below his excellent closing thoughts.</p>
 <blockquote>
 <p>The secret to Stripe docs does not lie in superior tooling or magical markup
@@ -36,9 +36,8 @@ happen. This is the kind of magic that happens when you provide enough
 technical resources to your technical writers and trust them to do the right
 thing.</p>
 </blockquote>
-<p><em>Update</em>: MarkDoc even received <a href="https://daringfireball.net/linked/2022/05/19/markdoc">John Gruber&rsquo;s endorsement</a>. That&rsquo;s quite an
+<p><em>Update</em>: MarkDoc even received [John Gruber&rsquo;s endorsement][5]. That&rsquo;s quite an
 achievement as Gruber is renowned for dismissing most Markdown extensions.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
   </channel>

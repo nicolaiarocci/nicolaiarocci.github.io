@@ -14,12 +14,10 @@
       <link>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.11/</link>
       <pubDate>Fri, 27 Oct 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.11/</guid>
-      <description>Fattura Elettronica for .NET v3.4.11 was released on NuGet today. The Fattura Elettronica project allows for the fixes a missing validation point. See the changelog for details (Italian). validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. This release
-Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
-      <content:encoded><![CDATA[<p><a href="https://fatturaelettronicaopensource.org/docs">Fattura Elettronica</a> for .NET v3.4.11 was released on NuGet today. The Fattura Elettronica project allows for the
-fixes a missing validation point. See the <a href="https://fatturaelettronicaopensource.org/docs/changelog.html#v-3411">changelog</a> for details (Italian). validation and de/serialization of
+      <description>[Fattura Elettronica][2] for .NET v3.4.11 was released on NuGet today. The Fattura Elettronica project allows for the fixes a missing validation point. See the [changelog][1] for details (Italian). validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. This release</description>
+      <content:encoded><![CDATA[<p>[Fattura Elettronica][2] for .NET v3.4.11 was released on NuGet today. The Fattura Elettronica project allows for the
+fixes a missing validation point. See the [changelog][1] for details (Italian). validation and de/serialization of
 electronic invoices following the Italian Revenue Agency standards. This release</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -27,12 +25,10 @@ electronic invoices following the Italian Revenue Agency standards. This release
       <link>https://nicolaiarocci.com/fattura-elettronica-for-dotnet-v3.4.10/</link>
       <pubDate>Thu, 03 Aug 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/fattura-elettronica-for-dotnet-v3.4.10/</guid>
-      <description>Fattura Elettronica for .NET v3.4.10 was released on NuGet today. The Fattura Elettronica project allows for the validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. This release adds a missing validation point. See the changelog for details (Italian).
-Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
-      <content:encoded><![CDATA[<p><a href="https://fatturaelettronicaopensource.org/docs">Fattura Elettronica</a> for .NET v3.4.10 was released on NuGet today. The Fattura Elettronica project allows for the
+      <description>[Fattura Elettronica][2] for .NET v3.4.10 was released on NuGet today. The Fattura Elettronica project allows for the validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. This release adds a missing validation point. See the [changelog][1] for details (Italian).</description>
+      <content:encoded><![CDATA[<p>[Fattura Elettronica][2] for .NET v3.4.10 was released on NuGet today. The Fattura Elettronica project allows for the
 validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. This release
-adds a missing validation point. See the <a href="https://fatturaelettronicaopensource.org/docs/changelog.html#v-3410">changelog</a> for details (Italian).</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+adds a missing validation point. See the [changelog][1] for details (Italian).</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -40,13 +36,11 @@ adds a missing validation point. See the <a href="https://fatturaelettronicaopen
       <link>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.8/</link>
       <pubDate>Tue, 02 May 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.8/</guid>
-      <description>Fattura Elettronica for .NET v3.4.8 was released on NuGet today. The Fattura Elettronica project allows for the validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. As with the previous one, this release also addresses a small undocumented behavior in validating the invoice. See the relevant ticket for the details.
-Subscribe to the newsletter, the RSS feed, or follow me on Mastodon</description>
-      <content:encoded><![CDATA[<p>Fattura Elettronica for .NET v3.4.8 was <a href="https://www.nuget.org/packages/FatturaElettronica/3.4.8">released</a> on NuGet today. The <a href="https://fatturaelettronicaopensource.org/">Fattura Elettronica</a> project allows for the
+      <description>Fattura Elettronica for .NET v3.4.8 was [released][1] on NuGet today. The [Fattura Elettronica][2] project allows for the validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. As with the previous one, this release also addresses a small undocumented behavior in validating the invoice. See the [relevant ticket][3] for the details.</description>
+      <content:encoded><![CDATA[<p>Fattura Elettronica for .NET v3.4.8 was [released][1] on NuGet today. The [Fattura Elettronica][2] project allows for the
 validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. As with the
-previous one, this release also addresses a small undocumented behavior in validating the invoice. See the <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/396">relevant
-ticket</a> for the details.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
+previous one, this release also addresses a small undocumented behavior in validating the invoice. See the [relevant
+ticket][3] for the details.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -54,15 +48,14 @@ ticket</a> for the details.</p>
       <link>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.7/</link>
       <pubDate>Wed, 05 Apr 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.7/</guid>
-      <description>Fattura Elettronica for .NET v3.4.7 was released on NuGet today. The Fattura Elettronica project allows for the validation and de/serialization of electronic invoices adhering to the canon defined by the Italian Revenue Agency.
+      <description>Fattura Elettronica for .NET v3.4.7 was [released][1] on NuGet today. The [Fattura Elettronica project][2] allows for the validation and de/serialization of electronic invoices adhering to the canon defined by the Italian Revenue Agency.
 This release refines how the one-cent tolerance is accounted for in validation checks of types 00421 and 00423. As is often the case, there are subtle differences between the theoretical implementation defined in the official specs and the actual validation implemented by the same Agency that released said specs.</description>
-      <content:encoded><![CDATA[<p>Fattura Elettronica for .NET v3.4.7 was <a href="https://www.nuget.org/packages/FatturaElettronica/3.4.7">released</a> on NuGet today. The <a href="https://fatturaelettronicaopensource.org">Fattura Elettronica project</a> allows for
+      <content:encoded><![CDATA[<p>Fattura Elettronica for .NET v3.4.7 was [released][1] on NuGet today. The [Fattura Elettronica project][2] allows for
 the validation and de/serialization of electronic invoices adhering to the canon defined by the Italian Revenue Agency.</p>
 <p>This release refines how the one-cent tolerance is accounted for in validation checks of types 00421 and 00423. As is
 often the case, there are subtle differences between the theoretical implementation defined in the official specs and
-the actual validation implemented by the same Agency that released said specs. See the <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/394">relevant ticket</a> for the
+the actual validation implemented by the same Agency that released said specs. See the [relevant ticket][3] for the
 details.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or <a href="https://fosstodon.org/@nicola">follow me on Mastodon</a></em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -70,17 +63,16 @@ details.</p>
       <link>https://nicolaiarocci.com/fatturaelettronica-v3.4-released/</link>
       <pubDate>Fri, 09 Sep 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/fatturaelettronica-v3.4-released/</guid>
-      <description>Today I released v3.4 of FatturaElettronica, a .NET open source project that allows validation and de/serialization of electronic invoices adhering to the standard defined by the Italian &amp;ldquo;Agenzia delle Entrate&amp;rdquo;. It&amp;rsquo;s doing very well for such a niche project, with downloads now well beyond the one hundred thousand mark.
-Be aware that this release anticipates support for v1.7.1 of the specification going into effect on October 1, 2022. For more information, see the appropriate ticket and the changelog.</description>
-      <content:encoded><![CDATA[<p>Today I released v3.4 of <a href="https://fatturaelettronicaopensource.org/">FatturaElettronica</a>, a .NET open source project
+      <description>Today I released v3.4 of [FatturaElettronica][1], a .NET open source project that allows validation and de/serialization of electronic invoices adhering to the standard defined by the Italian &amp;ldquo;Agenzia delle Entrate&amp;rdquo;. It&amp;rsquo;s doing very well for such a niche project, with downloads now well beyond the one hundred thousand mark.
+Be aware that this release anticipates support for [v1.7.1][2] of the specification going into effect on October 1, 2022. For more information, see the appropriate [ticket][3] and the [changelog][4].</description>
+      <content:encoded><![CDATA[<p>Today I released v3.4 of [FatturaElettronica][1], a .NET open source project
 that allows validation and de/serialization of electronic invoices adhering to
 the standard defined by the Italian &ldquo;Agenzia delle Entrate&rdquo;. It&rsquo;s doing very
 well for such a niche project, with downloads now well beyond the one hundred
 thousand mark.</p>
-<p>Be aware that this release anticipates support for <a href="https://www.agenziaentrate.gov.it/portale/web/guest/specifiche-tecniche-versione-1.7.1">v1.7.1</a> of the
+<p>Be aware that this release anticipates support for [v1.7.1][2] of the
 specification going into effect on October 1, 2022. For more information, see
-the appropriate <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/376">ticket</a> and the <a href="https://fatturaelettronicaopensource.org/docs/changelog.html#v-34">changelog</a>.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
+the appropriate [ticket][3] and the [changelog][4].</p>
 ]]></content:encoded>
     </item>
     <item>

@@ -15,7 +15,7 @@
       <pubDate>Sun, 18 Apr 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/adding-is-favoured-over-subtracting-in-problem-solving-and-software-systems/</guid>
       <description>Consider the 10x10 grids of green and white boxes below. How would you make them symmetrical? Most people would add green boxes to the emptier half of the grid rather than remove them from the fuller half. Even when the latter would have been more efficient.
-The case, along with a similar problem revolving around the stability of a peculiar lego structure, is reported by an intriguing Nature article on the topic of psychology and human behaviour.</description>
+The case, along with a similar problem revolving around the stability of a peculiar lego structure, is reported by an [intriguing Nature article][1] on the topic of psychology and human behaviour.</description>
       <content:encoded><![CDATA[<p>Consider the 10x10 grids of green and white boxes below. How would you
 make them symmetrical? Most people would add green boxes to the emptier half of
 the grid rather than remove them from the fuller half. <em>Even when the latter
@@ -23,7 +23,7 @@ would have been more efficient</em>.</p>
 <p><img loading="lazy" src="/images/asymmetrical-grid.jpg" alt=""  />
 </p>
 <p>The case, along with a similar problem revolving around the stability of
-a peculiar lego structure, is reported by an <a href="https://www.nature.com/articles/d41586-021-00592-0">intriguing Nature article</a> on
+a peculiar lego structure, is reported by an [intriguing Nature article][1] on
 the topic of psychology and human behaviour. The paper linked to the piece
 demonstrates that people consistently consider changes that add components over
 those that subtract them.</p>
@@ -37,14 +37,13 @@ be equally effective to get rid of a cluttering coffee table.  [&hellip;] On
 a grander scale, the favouring of additive solutions by individual
 decision-makers might contribute to problematic societal phenomena, such as
 the increasing expansion of formal organizations4 and the near-universal but
-environmentally unsustainable quest for economic growth. (<a href="https://www.nature.com/articles/d41586-021-00592-0">source</a>)</p>
+environmentally unsustainable quest for economic growth. ([source][1])</p>
 </blockquote>
 <p>Is the innate tendency to favour additive solutions contributing to the entropy
 of the software systems we build? And if so, isn&rsquo;t over-engineering, the
 scarecrow of software systems,  its most apparent consequence? I&rsquo;m in no way an
 expert in human behaviour and its implications in software engineering. Still,
 my bet is on a hard yes on both questions.</p>
-<p><em>Subscribe to the <a href="https://buttondown.email/nicolaiarocci">newsletter</a>, the <a href="https://nicolaiarocci.com/index.xml">RSS feed</a>, or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter</em></p>
 ]]></content:encoded>
     </item>
   </channel>

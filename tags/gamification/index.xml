@@ -42,7 +42,7 @@ not expect it was contributing to a space ship program.</p>
 <p>So when I reached for my profile page on GitHub today, I was confused, yes, but
 not wholly unprepared. And indeed, there it is, the new, shiny Mars Helicopter
 Contributor badge. A quick investigation revealed that I earned it as a Flask
-contributor. To be honest, I don&rsquo;t even remember contributing to it<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. I know
+contributor. To be honest, I don&rsquo;t even remember contributing to it[^2]. I know
 I&rsquo;ve used it extensively, of course, as [Eve][4] inherits from and builds on it.</p>
 <p><img loading="lazy" src="/images/mars-profile-badge.png" alt="The Mars Helicopter Contributor badge"  />
 </p>
@@ -58,26 +58,9 @@ achievement.” (<a href="https://github.com/readme/nasa-ingenuity-helicopter">s
 <p>These badges surely help raise awareness of open-source relevance in the
 modern-day world. I am grateful for it. I have to say, however, that I am not
 a fan of the current gamification process going on at GitHub. I cringed when
-I saw the &ldquo;How do you feel today&rdquo; box in my profile page a while ago<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. This
+I saw the &ldquo;How do you feel today&rdquo; box in my profile page a while ago[^3]. This
 Achievements feature looks good on the surface. Still, it leans itself to be
 leveraged in many different, even subtle ways. Let&rsquo;s hope for the best.</p>
-<p><em>Subscribe to the [newsletter][nl], the [RSS feed][rss], or follow @[nicolaiarocci][tw] on Twitter</em></p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>A quick <code>git shortlog -sne</code> on the flask repo confirms the rumors.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:2">
-<p>It seems gone now?
-[4]: <a href="https://github.com/pyeve/">https://github.com/pyeve/</a>
-[1]: <a href="https://github.blog/2021-04-19-open-source-goes-to-mars/">https://github.blog/2021-04-19-open-source-goes-to-mars/</a>
-[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
-[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
-[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
 ]]></content:encoded>
     </item>
   </channel>
