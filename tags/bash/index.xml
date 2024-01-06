@@ -7,8 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Wed, 23 Aug 2023 07:05:25 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jan 2024 09:34:16 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use bash to recursively search and replace a string in all directory files</title>
+      <link>https://nicolaiarocci.com/how-to-use-bash-to-recursively-search-and-replace-a-string-in-all-directory-files/</link>
+      <pubDate>Sat, 06 Jan 2024 09:34:16 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/how-to-use-bash-to-recursively-search-and-replace-a-string-in-all-directory-files/</guid>
+      <description>Another achievement I unlocked with the recent website update is the newsletter switch from Substack to a fantastic and independent provider, Buttondown. That required updating all the &amp;ldquo;subscribe to my newsletter&amp;rdquo; links. We&amp;rsquo;re talking 5K posts, all saved as individual files in the same directory. The bash command that did that for me is:
+find content/post/*.md -type f -exec \ sed -i .bak &amp;#39;s|https://nicolaiarocci.substack.com|https://buttondown.email/nicolaiarocci|g&amp;#39; {} + It is pretty straightforward. find looks for all markdown files in the content/post/ directory.</description>
+      <content:encoded><![CDATA[<p>Another achievement I unlocked with the <a href="/new-website-finally-with-no-analytics/">recent website
+update</a> is the newsletter switch from Substack to
+a fantastic and independent provider,
+<a href="https://buttondown.email/refer/nicolaiarocci">Buttondown</a>. That required
+updating all the &ldquo;subscribe to my newsletter&rdquo; links. We&rsquo;re talking 5K posts, all
+saved as individual files in the same directory. The bash command that did that
+for me is:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>find content/post/*.md -type f -exec <span style="font-weight:bold;font-style:italic">\
+</span></span></span><span style="display:flex;"><span><span style="font-weight:bold;font-style:italic"></span>    sed -i .bak <span style="font-style:italic">&#39;s|https://nicolaiarocci.substack.com|https://buttondown.email/nicolaiarocci|g&#39;</span> {} +
+</span></span></code></pre></div><p>It is pretty straightforward. <code>find</code> looks for all markdown files in the
+<code>content/post/</code> directory. On each file, <code>sed</code> performs a search-and-replace
+action. Notice that I use <code>|</code> instead of the standard <code>/</code> as a separator for the
+search-and-replace pattern , and that&rsquo;s because the pattern itself has <code>/</code>s in
+the URLs so I need to differentiate. Also, on macOS, the <code>-i</code> parameter requires
+a backup file argument (&quot;*.bak&quot;) to make a backup copy before the update. This
+argument is unnecessary in newer sed versions and will perform an in-place
+update if not provided.</p>
+<p>Later, I realized I would be better off if I removed the call to action from my
+posts and added it to the footer template instead. That way, I&rsquo;d only have one
+place to edit or update it in the future, and my RSS feed (and newsletter
+updates,  as they draw from the RSS feed) would be clean of unnecessary spam. In
+hindsight, this a move I could&rsquo;ve made many years ago (2010?) when I installed
+Hugo for the first time, but hey, better late than never. But how could I delete
+calls to action from all my 5K posts? With a variation of the above command, of
+course:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>find content/post/*.md -type f -exec sed -i .bak <span style="font-style:italic">&#39;/*Subscribe to.*$/,$d&#39;</span> {} +
+</span></span></code></pre></div><p>It is the same logic as above, but we&rsquo;re replacing the matched string with a
+&ldquo;delete all lines till the end of the file&rdquo; pattern this time. I must admit that
+this one was trickier to pull off and required a discrete amount of trial and
+error.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>rsync with a different user</title>
       <link>https://nicolaiarocci.com/rsync-with-a-different-user/</link>
@@ -26,15 +65,15 @@ the default remote-shell&rsquo;s path (e.g. &ndash;rsync-path=/usr/local/bin/rsy
 </blockquote>
 <p>The example caught my attention. I could perhaps leverage this option to perform a user switch before executing rsync
 (now performed on the remote machine). As further research confirmed, it [can be done][2]:</p>
-<pre tabindex="0"><code>rsync --rsync-path &#39;sudo -u backup rsync&#39; -a --delete host:source destination
-</code></pre><p>It didn&rsquo;t work immediately because my user was not a sudoer, but that was an easy fix:</p>
-<pre tabindex="0"><code>cat &gt; /etc/sudoers.d/myuser &lt;&lt; EOF
-myuser ALL=(ALL) NOPASSWD:/usr/bin/rsync
-EOF
-</code></pre><p>As you can see, not only must the user be a sudoer, but it also needs to be able to sudo with no password. One last
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>rsync --rsync-path &#39;sudo -u backup rsync&#39; -a --delete host:source destination
+</span></span></code></pre></div><p>It didn&rsquo;t work immediately because my user was not a sudoer, but that was an easy fix:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>cat &gt; /etc/sudoers.d/myuser &lt;&lt; EOF
+</span></span><span style="display:flex;"><span>myuser ALL=(ALL) NOPASSWD:/usr/bin/rsync
+</span></span><span style="display:flex;"><span>EOF
+</span></span></code></pre></div><p>As you can see, not only must the user be a sudoer, but it also needs to be able to sudo with no password. One last
 minor issue was that &lsquo;backup&rsquo;, being a service user, had no shell access. That was another easy fix:</p>
-<pre tabindex="0"><code>sudo usermod -s /bin/bash backup
-</code></pre><p>Now my rsync-with-a-different-user command works like a charm. I do have some mild security concerns, though. My user is
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo usermod -s /bin/bash backup
+</span></span></code></pre></div><p>Now my rsync-with-a-different-user command works like a charm. I do have some mild security concerns, though. My user is
 a sudoer (can only sudo rsync, though[^3]), and &lsquo;backup&rsquo; now has shell access. As password logins are turned off, and
 SSH keys-only access is allowed to the machine (and I&rsquo;m the only person holding those keys), everything&rsquo;s still
 reasonably safe. Are there better ways? Please let me know.</p>

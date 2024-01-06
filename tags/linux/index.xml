@@ -26,15 +26,15 @@ the default remote-shell&rsquo;s path (e.g. &ndash;rsync-path=/usr/local/bin/rsy
 </blockquote>
 <p>The example caught my attention. I could perhaps leverage this option to perform a user switch before executing rsync
 (now performed on the remote machine). As further research confirmed, it [can be done][2]:</p>
-<pre tabindex="0"><code>rsync --rsync-path &#39;sudo -u backup rsync&#39; -a --delete host:source destination
-</code></pre><p>It didn&rsquo;t work immediately because my user was not a sudoer, but that was an easy fix:</p>
-<pre tabindex="0"><code>cat &gt; /etc/sudoers.d/myuser &lt;&lt; EOF
-myuser ALL=(ALL) NOPASSWD:/usr/bin/rsync
-EOF
-</code></pre><p>As you can see, not only must the user be a sudoer, but it also needs to be able to sudo with no password. One last
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>rsync --rsync-path &#39;sudo -u backup rsync&#39; -a --delete host:source destination
+</span></span></code></pre></div><p>It didn&rsquo;t work immediately because my user was not a sudoer, but that was an easy fix:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>cat &gt; /etc/sudoers.d/myuser &lt;&lt; EOF
+</span></span><span style="display:flex;"><span>myuser ALL=(ALL) NOPASSWD:/usr/bin/rsync
+</span></span><span style="display:flex;"><span>EOF
+</span></span></code></pre></div><p>As you can see, not only must the user be a sudoer, but it also needs to be able to sudo with no password. One last
 minor issue was that &lsquo;backup&rsquo;, being a service user, had no shell access. That was another easy fix:</p>
-<pre tabindex="0"><code>sudo usermod -s /bin/bash backup
-</code></pre><p>Now my rsync-with-a-different-user command works like a charm. I do have some mild security concerns, though. My user is
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo usermod -s /bin/bash backup
+</span></span></code></pre></div><p>Now my rsync-with-a-different-user command works like a charm. I do have some mild security concerns, though. My user is
 a sudoer (can only sudo rsync, though[^3]), and &lsquo;backup&rsquo; now has shell access. As password logins are turned off, and
 SSH keys-only access is allowed to the machine (and I&rsquo;m the only person holding those keys), everything&rsquo;s still
 reasonably safe. Are there better ways? Please let me know.</p>

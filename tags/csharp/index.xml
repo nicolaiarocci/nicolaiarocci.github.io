@@ -19,37 +19,37 @@ await using var sw = new StringWriter(); await using var w = XmlWriter.Create(sw
 &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-16&amp;#34;?&amp;gt;&amp;lt;... There&amp;rsquo;s nothing inherently wrong with UTF-16, but XML is usually UTF-8, so one must do something about it.</description>
       <content:encoded><![CDATA[<p>Today, I (re)learned how to serialize an XML to a UTF-8 string. Like all the other times I did this, I got backstabbed
 by StringWriter, which only supports UTF-16. A simple code snippet like this:</p>
-<pre tabindex="0"><code>    await using var sw = new StringWriter();
-    await using var w = XmlWriter.Create(sw, new() { Async = true });
-    ...
-    await w.FlushAsync();
-    return sw.ToString();
-</code></pre><p>Will emit this output:</p>
-<pre tabindex="0"><code>    &lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-16&#34;?&gt;&lt;...
-</code></pre><p>There&rsquo;s nothing inherently wrong with UTF-16, but XML is usually UTF-8, so one must do something about it. StringWriter
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> sw = new StringWriter();
+</span></span><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> w = XmlWriter.Create(sw, new() { Async = true });
+</span></span><span style="display:flex;"><span>    ...
+</span></span><span style="display:flex;"><span>    await w.FlushAsync();
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> sw.ToString();
+</span></span></code></pre></div><p>Will emit this output:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    &lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-16&#34;?&gt;&lt;...
+</span></span></code></pre></div><p>There&rsquo;s nothing inherently wrong with UTF-16, but XML is usually UTF-8, so one must do something about it. StringWriter
 exposes an <code>Encoding</code> property, but it is read-only for unknown reasons. One might think that given that the XmlWriter
 allows setting its own <code>Encoding</code> value, something like this would work:</p>
-<pre tabindex="0"><code>    await using var sw = new StringWriter();
-    await using var w = XmlWriter.Create(sw, 
-        new() { Async = true , Encoding = Encoding.UTF8});
-    ...
-    await w.FlushAsync();
-    return sw.ToString();
-</code></pre><p>But it doesn’t. Over time, I’ve seen a few different ways to get out of this dead end, some more performant and or less
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> sw = new StringWriter();
+</span></span><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> w = XmlWriter.Create(sw, 
+</span></span><span style="display:flex;"><span>        new() { Async = true , Encoding = Encoding.UTF8});
+</span></span><span style="display:flex;"><span>    ...
+</span></span><span style="display:flex;"><span>    await w.FlushAsync();
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> sw.ToString();
+</span></span></code></pre></div><p>But it doesn’t. Over time, I’ve seen a few different ways to get out of this dead end, some more performant and or less
 verbose than others, but my favorite is resorting to a custom StringWriter:</p>
-<pre tabindex="0"><code>    public class Utf8StringWriter : StringWriter
-    {
-        public override Encoding Encoding =&gt; Encoding.UTF8;
-    }
-</code></pre><p>Armed with this, it is trivial, as it should have been from the get-go, to obtain the desired output:</p>
-<pre tabindex="0"><code>    await using var sw = new Utf8StringWriter();
-    await using var w = XmlWriter.Create(sw, new() { Async = true });
-    ...
-    await w.FlushAsync();
-    return sw.ToString();
-
-    // returns  &lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;&lt;...
-</code></pre><p>The whole .NET framework has seen fantastic performance improvements, top-class multi-platform support, and remarkable
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    public class Utf8StringWriter : StringWriter
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        public override Encoding Encoding =&gt; Encoding.UTF8;
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>Armed with this, it is trivial, as it should have been from the get-go, to obtain the desired output:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> sw = new Utf8StringWriter();
+</span></span><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> w = XmlWriter.Create(sw, new() { Async = true });
+</span></span><span style="display:flex;"><span>    ...
+</span></span><span style="display:flex;"><span>    await w.FlushAsync();
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> sw.ToString();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    // returns  &lt;<span style="">?</span>xml version=<span style="font-style:italic">&#34;1.0&#34;</span> encoding=<span style="font-style:italic">&#34;utf-8&#34;</span><span style="">?</span>&gt;&lt;...
+</span></span></code></pre></div><p>The whole .NET framework has seen fantastic performance improvements, top-class multi-platform support, and remarkable
 streamlining, but some baffling pitfalls are still hidden in some of its less obvious parts. StringWriter not supporting
 UTF-8 out-of-the-box is one of them.</p>
 ]]></content:encoded>
@@ -66,20 +66,20 @@ sequence according to a specified key selector function.</p>
 <p>.NET 6 and its successors have the method [built in][1] within LINQ, but I needed it in a .NET Standard 2.0 class
 library, so I was out of luck. My implementation is simple, not different from [others][2] I found online, and should
 also work fine with old .NET releases. Here it is:</p>
-<pre tabindex="0"><code>    public static IEnumerable&lt;TSource&gt; DistinctBy&lt;TSource, TKey&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; keySelector)
-    {
-        var keys = new HashSet&lt;TKey&gt;();
-        foreach (var element in source)
-        {
-            if (keys.Contains(keySelector(element))) continue;
-            keys.Add(keySelector(element));
-            yield return element;
-        }
-    }
-</code></pre><p>In the following usage example, I will get back all unique objects from the original sequence, distinct by their Name
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    public <span style="font-weight:bold">static</span> IEnumerable&lt;TSource&gt; DistinctBy&lt;TSource, TKey&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; keySelector)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">var</span> keys = new HashSet&lt;TKey&gt;();
+</span></span><span style="display:flex;"><span>        foreach (<span style="font-weight:bold">var</span> element <span style="font-weight:bold">in</span> source)
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="font-weight:bold">if</span> (keys.Contains(keySelector(element))) <span style="font-weight:bold">continue</span>;
+</span></span><span style="display:flex;"><span>            keys.Add(keySelector(element));
+</span></span><span style="display:flex;"><span>            yield <span style="font-weight:bold">return</span> element;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>In the following usage example, I will get back all unique objects from the original sequence, distinct by their Name
 property:</p>
-<pre tabindex="0"><code>    var uniques = mySequenceOfObjects.DistinctBy(x =&gt; x.Name);
-</code></pre><p>I later went to check the [official .NET 6+ implementation][3]. They support an optional equality comparer , which I
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    <span style="font-weight:bold">var</span> uniques = mySequenceOfObjects.DistinctBy(x =&gt; x.Name);
+</span></span></code></pre></div><p>I later went to check the [official .NET 6+ implementation][3]. They support an optional equality comparer , which I
 don&rsquo;t need, but their base implementation is similar to mine (they use deferred execution as well).</p>
 <p>By the way, years after its open-sourcing, I still get thrills when I realize I can always look at, let alone contribute
 to, the .NET source code.</p>
@@ -126,99 +126,99 @@ So far I&rsquo;m delighted with the result. In the process, I learned about seve
 <h3 id="neovim-trouble-with-c-and-omnisharp">Neovim trouble with C# and OmniSharp</h3>
 <p>When I upgraded my old-<em>ish</em> Neovim (I am using nightly builds now), I started getting a weird error on every <code>.cs</code> file
 I loaded:</p>
-<pre tabindex="0"><code>Error executing vim.schedule lua callbaack: /usr/share/[...]/semantic_tokens.lua:342:E5248: Invalid character in group name.
-</code></pre><p>A little investigation revealed that semantic tokens provided by
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Error executing vim.schedule lua callbaack: /usr/share/[...]/semantic_tokens.lua:342:E5248: Invalid character in group name.
+</span></span></code></pre></div><p>A little investigation revealed that semantic tokens provided by
 OmniSharp don&rsquo;t conform to the LSP specification, which triggers the error. I cloned the <em>omnisharp-roslyn</em> repo and dug
 into the code hoping I could offer a quick fix. As it turns out, however, the issue is actually with [Roslyn
 itself][4], not OmniSharp. There are tickets on both the [Neovim][2] and the [OmniSharp][3] repositories, but I fear
 they&rsquo;ll stagnate there as non-relevant (<em>note to self</em>: maybe report the problem to the Roslyn folks? Alternatively,
 propose a patched semantic provider to the <em>omnisharp-roslyn</em> maintainers.)</p>
 <p>Anyway, a quick, hacky, and not future-proof fix is to customize Neovim (LazyVim) configuration like this:</p>
-<pre tabindex="0"><code>-- ~/.config/nvim/lua/plugins/omnisharp.lua (create if needed)
-return {
-  &#34;OmniSharp/omnisharp-vim&#34;,
-  init = function()
-    require(&#34;lazyvim.util&#34;).on_attach(function(client, _)
-      if client.name == &#34;omnisharp&#34; then
-        client.server_capabilities.semanticTokensProvider = {
-          full = vim.empty_dict(),
-          legend = {
-            tokenModifiers = { &#34;static_symbol&#34; },
-            tokenTypes = {
-              &#34;comment&#34;,
-              &#34;excluded_code&#34;,
-              &#34;identifier&#34;,
-              &#34;keyword&#34;,
-              &#34;keyword_control&#34;,
-              &#34;number&#34;,
-              &#34;operator&#34;,
-              &#34;operator_overloaded&#34;,
-              &#34;preprocessor_keyword&#34;,
-              &#34;string&#34;,
-              &#34;whitespace&#34;,
-              &#34;text&#34;,
-              &#34;static_symbol&#34;,
-              &#34;preprocessor_text&#34;,
-              &#34;punctuation&#34;,
-              &#34;string_verbatim&#34;,
-              &#34;string_escape_character&#34;,
-              &#34;class_name&#34;,
-              &#34;delegate_name&#34;,
-              &#34;enum_name&#34;,
-              &#34;interface_name&#34;,
-              &#34;module_name&#34;,
-              &#34;struct_name&#34;,
-              &#34;type_parameter_name&#34;,
-              &#34;field_name&#34;,
-              &#34;enum_member_name&#34;,
-              &#34;constant_name&#34;,
-              &#34;local_name&#34;,
-              &#34;parameter_name&#34;,
-              &#34;method_name&#34;,
-              &#34;extension_method_name&#34;,
-              &#34;property_name&#34;,
-              &#34;event_name&#34;,
-              &#34;namespace_name&#34;,
-              &#34;label_name&#34;,
-              &#34;xml_doc_comment_attribute_name&#34;,
-              &#34;xml_doc_comment_attribute_quotes&#34;,
-              &#34;xml_doc_comment_attribute_value&#34;,
-              &#34;xml_doc_comment_cdata_section&#34;,
-              &#34;xml_doc_comment_comment&#34;,
-              &#34;xml_doc_comment_delimiter&#34;,
-              &#34;xml_doc_comment_entity_reference&#34;,
-              &#34;xml_doc_comment_name&#34;,
-              &#34;xml_doc_comment_processing_instruction&#34;,
-              &#34;xml_doc_comment_text&#34;,
-              &#34;xml_literal_attribute_name&#34;,
-              &#34;xml_literal_attribute_quotes&#34;,
-              &#34;xml_literal_attribute_value&#34;,
-              &#34;xml_literal_cdata_section&#34;,
-              &#34;xml_literal_comment&#34;,
-              &#34;xml_literal_delimiter&#34;,
-              &#34;xml_literal_embedded_expression&#34;,
-              &#34;xml_literal_entity_reference&#34;,
-              &#34;xml_literal_name&#34;,
-              &#34;xml_literal_processing_instruction&#34;,
-              &#34;xml_literal_text&#34;,
-              &#34;regex_comment&#34;,
-              &#34;regex_character_class&#34;,
-              &#34;regex_anchor&#34;,
-              &#34;regex_quantifier&#34;,
-              &#34;regex_grouping&#34;,
-              &#34;regex_alternation&#34;,
-              &#34;regex_text&#34;,
-              &#34;regex_self_escaped_character&#34;,
-              &#34;regex_other_escape&#34;,
-            },
-          },
-          range = true,
-        }
-      end
-    end)
-  end,
-}
-</code></pre><p>It overrides the <code>on_attach</code> event to pass an LSP-digestible list of semantic tokens. And voilà, C# files are now loaded seamlessly.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>-- ~/.config/nvim/lua/plugins/omnisharp.lua (create <span style="font-weight:bold">if</span> needed)
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">return</span> {
+</span></span><span style="display:flex;"><span>  <span style="font-style:italic">&#34;OmniSharp/omnisharp-vim&#34;</span>,
+</span></span><span style="display:flex;"><span>  init = function()
+</span></span><span style="display:flex;"><span>    require(<span style="font-style:italic">&#34;lazyvim.util&#34;</span>).on_attach(function(client, _)
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold">if</span> client.name == <span style="font-style:italic">&#34;omnisharp&#34;</span> then
+</span></span><span style="display:flex;"><span>        client.server_capabilities.semanticTokensProvider = {
+</span></span><span style="display:flex;"><span>          full = vim.empty_dict(),
+</span></span><span style="display:flex;"><span>          legend = {
+</span></span><span style="display:flex;"><span>            tokenModifiers = { <span style="font-style:italic">&#34;static_symbol&#34;</span> },
+</span></span><span style="display:flex;"><span>            tokenTypes = {
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;comment&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;excluded_code&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;identifier&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;keyword&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;keyword_control&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;number&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;operator&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;operator_overloaded&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;preprocessor_keyword&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;string&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;whitespace&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;text&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;static_symbol&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;preprocessor_text&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;punctuation&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;string_verbatim&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;string_escape_character&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;class_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;delegate_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;enum_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;interface_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;module_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;struct_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;type_parameter_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;field_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;enum_member_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;constant_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;local_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;parameter_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;method_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;extension_method_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;property_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;event_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;namespace_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;label_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_attribute_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_attribute_quotes&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_attribute_value&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_cdata_section&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_comment&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_delimiter&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_entity_reference&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_processing_instruction&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_text&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_attribute_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_attribute_quotes&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_attribute_value&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_cdata_section&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_comment&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_delimiter&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_embedded_expression&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_entity_reference&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_processing_instruction&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_text&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_comment&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_character_class&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_anchor&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_quantifier&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_grouping&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_alternation&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_text&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_self_escaped_character&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_other_escape&#34;</span>,
+</span></span><span style="display:flex;"><span>            },
+</span></span><span style="display:flex;"><span>          },
+</span></span><span style="display:flex;"><span>          range = true,
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>      end
+</span></span><span style="display:flex;"><span>    end)
+</span></span><span style="display:flex;"><span>  end,
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>It overrides the <code>on_attach</code> event to pass an LSP-digestible list of semantic tokens. And voilà, C# files are now loaded seamlessly.</p>
 <p>I&rsquo;m not done yet. I&rsquo;m having another [weird issue][5] with <em>.editorconfig</em> files. I&rsquo;m still triaging it, and will report back when (if) I sort it out.</p>
 ]]></content:encoded>
     </item>
@@ -296,35 +296,35 @@ right from start.</p>
 <p>In C# 11, wrapping a string with triple-double-quotes makes it a [raw
 literal][5]. Its main benefits are that no escaping of double-quotes is
 necessary, and newlines are allowed within the string.</p>
-<pre tabindex="0"><code>var xml = &#34;&#34;&#34;
-          &lt;element attr=&#34;content&#34;&gt;
-            &lt;body&gt;
-            &lt;/body&gt;
-          &lt;/element&gt;
-          &#34;&#34;&#34;;
-</code></pre><p>The code looks natural, and no runtime costs for specialized string
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">var</span> xml = <span style="font-style:italic">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">          &lt;element attr=&#34;content&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">            &lt;body&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">            &lt;/body&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">          &lt;/element&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">          &#34;&#34;&#34;</span>;
+</span></span></code></pre></div><p>The code looks natural, and no runtime costs for specialized string
 manipulation are required. One caveat is that string literals naturally remove
 the indentation when producing the final literal value. The snippet above
 prints as:</p>
-<pre tabindex="0"><code>&lt;element attr=&#34;content&#34;&gt;
-  &lt;body&gt;
-  &lt;/body&gt;
-&lt;/element&gt;
-</code></pre><p>We can disable indentation removal like so:</p>
-<pre tabindex="0"><code>var xml = &#34;&#34;&#34;
-          &lt;element attr=&#34;content&#34;&gt;
-            &lt;body&gt;
-            &lt;/body&gt;
-          &lt;/element&gt;
-&#34;&#34;&#34;;
-</code></pre><p>String interpolation is also supported:</p>
-<pre tabindex="0"><code>var json = $$&#34;&#34;&#34;
-             {
-                &#34;summary&#34;: &#34;text&#34;,
-                &#34;length&#34; : {{value.Length}},
-             };
-             &#34;&#34;&#34;
-</code></pre><p>In hindsight, like the <code>required</code> modifier, raw string literals appear as
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&lt;element attr=&#34;content&#34;&gt;
+</span></span><span style="display:flex;"><span>  &lt;body&gt;
+</span></span><span style="display:flex;"><span>  &lt;/body&gt;
+</span></span><span style="display:flex;"><span>&lt;/element&gt;
+</span></span></code></pre></div><p>We can disable indentation removal like so:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">var</span> xml = <span style="font-style:italic">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">          &lt;element attr=&#34;content&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">            &lt;body&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">            &lt;/body&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">          &lt;/element&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">&#34;&#34;&#34;</span>;
+</span></span></code></pre></div><p>String interpolation is also supported:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">var</span> json = $$<span style="font-style:italic">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">             {
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">                &#34;summary&#34;: &#34;text&#34;,
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">                &#34;length&#34; : {{value.Length}},
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">             };
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">             &#34;&#34;&#34;</span>
+</span></span></code></pre></div><p>In hindsight, like the <code>required</code> modifier, raw string literals appear as
 obvious.</p>
 <h2 id="4-built-in-container-support">4. Built-in container support</h2>
 <p>.NET 7 has [built-in container support][6], meaning that <code>dotnet publish</code> can
@@ -338,8 +338,8 @@ a package reference.</li>
 </ul>
 <p>In my demo, I had a small console application that I published to a docker
 image by simply issuing the following command:</p>
-<pre tabindex="0"><code>$ dotnet publish --os linux --arch x64 /t:PublishContainer -c Release
-</code></pre><p>I did not mention a Dockerfile, and that&rsquo;s because it is not needed anymore.
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ dotnet publish --os linux --arch x64 /t:PublishContainer -c Release
+</span></span></code></pre></div><p>I did not mention a Dockerfile, and that&rsquo;s because it is not needed anymore.
 All my projects deploy to docker containers and are already migrated to .NET 7.
 I&rsquo;m currently using Dockerfiles, but I&rsquo;ll be experimenting with this
 alternative in the coming weeks, both with builds and remote CI builds.</p>
@@ -351,8 +351,8 @@ and provides fast startup time and a small, self-contained deployment.</p>
 <code>.csproj</code>, and then the <code>dotnet publish -c Release</code> command produced a
 single-file, macOS native executable. You can set the destination platform at
 build-time like so:</p>
-<pre tabindex="0"><code>$ dotnet publish -r win-x64 -c Release
-</code></pre><p>Native AOT will be determinant in a number of use cases, like
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ dotnet publish -r win-x64 -c Release
+</span></span></code></pre></div><p>Native AOT will be determinant in a number of use cases, like
 multi-cloud-deployments, lambda functions, and, in general, hyper-scale
 services. ASP.NET Core is currently not supported, so we&rsquo;re limited to console
 apps.</p>

@@ -28,24 +28,24 @@ response ([source][1]).</p>
 <p>This will be a breaking change if your endpoint is expected to handle large
 uploads. The solution is simple, just decorate your MVC action or controller
 with the <code>RequestSizeLimit</code> attribute, like so:</p>
-<pre tabindex="0"><code>    [HttpPost]
-    [RequestSizeLimit(100_000_000)]
-    public IActionResult MyAction([FromBody] MyViewModel data)
-    {
-</code></pre><p><code>DisableRequestSizeLimit</code> can be used to make request size unlimited. This
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    [HttpPost]
+</span></span><span style="display:flex;"><span>    [RequestSizeLimit(100_000_000)]
+</span></span><span style="display:flex;"><span>    public IActionResult MyAction([FromBody] MyViewModel data)
+</span></span><span style="display:flex;"><span>    {
+</span></span></code></pre></div><p><code>DisableRequestSizeLimit</code> can be used to make request size unlimited. This
 effectively restores pre-2.0.0 behavior for just the attributed action or
 controller. You can also change or disable the limit programmatically, either
 on a per-request basis or globally (see the instructions at this [link][1].)</p>
 <p>In my case, however, disabling the request limit was not enough. Because my
 endpoint is expecting an <code>IFormFile</code> argument, I also had to set the
 <code>RequestFormLimits</code> attribute:</p>
-<pre tabindex="0"><code>    [HttpPost]
-    [DisableRequestSizeLimit,
-    RequestFormLimits(MultipartBodyLengthLimit = int.MaxValue, 
-        ValueLengthLimit = int.MaxValue)]
-    public async Task&lt;ActionResult&gt; BulkAdd(string schema, IFormFile file)
-    {
-</code></pre><p>Please note that all of this happened on a .NET 5 Linux application with
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    [HttpPost]
+</span></span><span style="display:flex;"><span>    [DisableRequestSizeLimit,
+</span></span><span style="display:flex;"><span>    RequestFormLimits(MultipartBodyLengthLimit = int.MaxValue, 
+</span></span><span style="display:flex;"><span>        ValueLengthLimit = int.MaxValue)]
+</span></span><span style="display:flex;"><span>    public async Task&lt;ActionResult&gt; BulkAdd(string schema, IFormFile file)
+</span></span><span style="display:flex;"><span>    {
+</span></span></code></pre></div><p>Please note that all of this happened on a .NET 5 Linux application with
 Kestrel running behind nginx. As pointed out at the link above, if you&rsquo;re
 running behind IIS, then the limit is disabled, and the usual <em>web.config</em>
 limit applies.</p>

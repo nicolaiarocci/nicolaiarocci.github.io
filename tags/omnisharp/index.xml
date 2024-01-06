@@ -29,99 +29,99 @@ So far I&rsquo;m delighted with the result. In the process, I learned about seve
 <h3 id="neovim-trouble-with-c-and-omnisharp">Neovim trouble with C# and OmniSharp</h3>
 <p>When I upgraded my old-<em>ish</em> Neovim (I am using nightly builds now), I started getting a weird error on every <code>.cs</code> file
 I loaded:</p>
-<pre tabindex="0"><code>Error executing vim.schedule lua callbaack: /usr/share/[...]/semantic_tokens.lua:342:E5248: Invalid character in group name.
-</code></pre><p>A little investigation revealed that semantic tokens provided by
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Error executing vim.schedule lua callbaack: /usr/share/[...]/semantic_tokens.lua:342:E5248: Invalid character in group name.
+</span></span></code></pre></div><p>A little investigation revealed that semantic tokens provided by
 OmniSharp don&rsquo;t conform to the LSP specification, which triggers the error. I cloned the <em>omnisharp-roslyn</em> repo and dug
 into the code hoping I could offer a quick fix. As it turns out, however, the issue is actually with [Roslyn
 itself][4], not OmniSharp. There are tickets on both the [Neovim][2] and the [OmniSharp][3] repositories, but I fear
 they&rsquo;ll stagnate there as non-relevant (<em>note to self</em>: maybe report the problem to the Roslyn folks? Alternatively,
 propose a patched semantic provider to the <em>omnisharp-roslyn</em> maintainers.)</p>
 <p>Anyway, a quick, hacky, and not future-proof fix is to customize Neovim (LazyVim) configuration like this:</p>
-<pre tabindex="0"><code>-- ~/.config/nvim/lua/plugins/omnisharp.lua (create if needed)
-return {
-  &#34;OmniSharp/omnisharp-vim&#34;,
-  init = function()
-    require(&#34;lazyvim.util&#34;).on_attach(function(client, _)
-      if client.name == &#34;omnisharp&#34; then
-        client.server_capabilities.semanticTokensProvider = {
-          full = vim.empty_dict(),
-          legend = {
-            tokenModifiers = { &#34;static_symbol&#34; },
-            tokenTypes = {
-              &#34;comment&#34;,
-              &#34;excluded_code&#34;,
-              &#34;identifier&#34;,
-              &#34;keyword&#34;,
-              &#34;keyword_control&#34;,
-              &#34;number&#34;,
-              &#34;operator&#34;,
-              &#34;operator_overloaded&#34;,
-              &#34;preprocessor_keyword&#34;,
-              &#34;string&#34;,
-              &#34;whitespace&#34;,
-              &#34;text&#34;,
-              &#34;static_symbol&#34;,
-              &#34;preprocessor_text&#34;,
-              &#34;punctuation&#34;,
-              &#34;string_verbatim&#34;,
-              &#34;string_escape_character&#34;,
-              &#34;class_name&#34;,
-              &#34;delegate_name&#34;,
-              &#34;enum_name&#34;,
-              &#34;interface_name&#34;,
-              &#34;module_name&#34;,
-              &#34;struct_name&#34;,
-              &#34;type_parameter_name&#34;,
-              &#34;field_name&#34;,
-              &#34;enum_member_name&#34;,
-              &#34;constant_name&#34;,
-              &#34;local_name&#34;,
-              &#34;parameter_name&#34;,
-              &#34;method_name&#34;,
-              &#34;extension_method_name&#34;,
-              &#34;property_name&#34;,
-              &#34;event_name&#34;,
-              &#34;namespace_name&#34;,
-              &#34;label_name&#34;,
-              &#34;xml_doc_comment_attribute_name&#34;,
-              &#34;xml_doc_comment_attribute_quotes&#34;,
-              &#34;xml_doc_comment_attribute_value&#34;,
-              &#34;xml_doc_comment_cdata_section&#34;,
-              &#34;xml_doc_comment_comment&#34;,
-              &#34;xml_doc_comment_delimiter&#34;,
-              &#34;xml_doc_comment_entity_reference&#34;,
-              &#34;xml_doc_comment_name&#34;,
-              &#34;xml_doc_comment_processing_instruction&#34;,
-              &#34;xml_doc_comment_text&#34;,
-              &#34;xml_literal_attribute_name&#34;,
-              &#34;xml_literal_attribute_quotes&#34;,
-              &#34;xml_literal_attribute_value&#34;,
-              &#34;xml_literal_cdata_section&#34;,
-              &#34;xml_literal_comment&#34;,
-              &#34;xml_literal_delimiter&#34;,
-              &#34;xml_literal_embedded_expression&#34;,
-              &#34;xml_literal_entity_reference&#34;,
-              &#34;xml_literal_name&#34;,
-              &#34;xml_literal_processing_instruction&#34;,
-              &#34;xml_literal_text&#34;,
-              &#34;regex_comment&#34;,
-              &#34;regex_character_class&#34;,
-              &#34;regex_anchor&#34;,
-              &#34;regex_quantifier&#34;,
-              &#34;regex_grouping&#34;,
-              &#34;regex_alternation&#34;,
-              &#34;regex_text&#34;,
-              &#34;regex_self_escaped_character&#34;,
-              &#34;regex_other_escape&#34;,
-            },
-          },
-          range = true,
-        }
-      end
-    end)
-  end,
-}
-</code></pre><p>It overrides the <code>on_attach</code> event to pass an LSP-digestible list of semantic tokens. And voilà, C# files are now loaded seamlessly.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>-- ~/.config/nvim/lua/plugins/omnisharp.lua (create <span style="font-weight:bold">if</span> needed)
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">return</span> {
+</span></span><span style="display:flex;"><span>  <span style="font-style:italic">&#34;OmniSharp/omnisharp-vim&#34;</span>,
+</span></span><span style="display:flex;"><span>  init = function()
+</span></span><span style="display:flex;"><span>    require(<span style="font-style:italic">&#34;lazyvim.util&#34;</span>).on_attach(function(client, _)
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold">if</span> client.name == <span style="font-style:italic">&#34;omnisharp&#34;</span> then
+</span></span><span style="display:flex;"><span>        client.server_capabilities.semanticTokensProvider = {
+</span></span><span style="display:flex;"><span>          full = vim.empty_dict(),
+</span></span><span style="display:flex;"><span>          legend = {
+</span></span><span style="display:flex;"><span>            tokenModifiers = { <span style="font-style:italic">&#34;static_symbol&#34;</span> },
+</span></span><span style="display:flex;"><span>            tokenTypes = {
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;comment&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;excluded_code&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;identifier&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;keyword&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;keyword_control&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;number&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;operator&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;operator_overloaded&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;preprocessor_keyword&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;string&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;whitespace&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;text&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;static_symbol&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;preprocessor_text&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;punctuation&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;string_verbatim&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;string_escape_character&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;class_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;delegate_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;enum_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;interface_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;module_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;struct_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;type_parameter_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;field_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;enum_member_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;constant_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;local_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;parameter_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;method_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;extension_method_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;property_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;event_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;namespace_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;label_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_attribute_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_attribute_quotes&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_attribute_value&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_cdata_section&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_comment&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_delimiter&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_entity_reference&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_processing_instruction&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_text&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_attribute_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_attribute_quotes&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_attribute_value&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_cdata_section&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_comment&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_delimiter&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_embedded_expression&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_entity_reference&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_processing_instruction&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_text&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_comment&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_character_class&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_anchor&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_quantifier&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_grouping&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_alternation&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_text&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_self_escaped_character&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_other_escape&#34;</span>,
+</span></span><span style="display:flex;"><span>            },
+</span></span><span style="display:flex;"><span>          },
+</span></span><span style="display:flex;"><span>          range = true,
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>      end
+</span></span><span style="display:flex;"><span>    end)
+</span></span><span style="display:flex;"><span>  end,
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>It overrides the <code>on_attach</code> event to pass an LSP-digestible list of semantic tokens. And voilà, C# files are now loaded seamlessly.</p>
 <p>I&rsquo;m not done yet. I&rsquo;m having another [weird issue][5] with <em>.editorconfig</em> files. I&rsquo;m still triaging it, and will report back when (if) I sort it out.</p>
 ]]></content:encoded>
     </item>

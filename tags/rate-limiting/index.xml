@@ -27,76 +27,76 @@ a &ldquo;fixed window limiter.&rdquo; It uses a specified time window to limit r
 When the time window expires, a new time window starts, and the request limit
 is reset. Consider the following code (for convenience, I&rsquo;m using an extension
 method):</p>
-<pre tabindex="0"><code>public static void ConfigureRateLimit(this IServiceCollection services)
-{
-    services.AddRateLimiter(x =&gt; 
-        x.AddFixedWindowLimiter(
-                policyName: &#34;fixed&#34;, options =&gt;
-                {
-                    options.PermitLimit 1;
-                    options.Window = TimeSpan.FromSeconds(10);
-                    options.QueueLimit 1;
-                }));
-}
-</code></pre><p>It sets a window of 10 seconds. Within that window, a maximum of one request is
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>public static void ConfigureRateLimit(this IServiceCollection services)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    services.AddRateLimiter(x =&gt; 
+</span></span><span style="display:flex;"><span>        x.AddFixedWindowLimiter(
+</span></span><span style="display:flex;"><span>                policyName: &#34;fixed&#34;, options =&gt;
+</span></span><span style="display:flex;"><span>                {
+</span></span><span style="display:flex;"><span>                    options.PermitLimit 1;
+</span></span><span style="display:flex;"><span>                    options.Window = TimeSpan.FromSeconds(10);
+</span></span><span style="display:flex;"><span>                    options.QueueLimit 1;
+</span></span><span style="display:flex;"><span>                }));
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>It sets a window of 10 seconds. Within that window, a maximum of one request is
 allowed. Exceeding requests will be queued and served at window reset. Notice
 that we defined &ldquo;fixed&rdquo; as the policy name.</p>
 <p>Once our policy is configured, we must instrument the app instance to use the
 rate limiter, then we call <code>RequireRateLimiting</code> on our endpoints:</p>
-<pre tabindex="0"><code>app.UseRouting();  // I&#39;m mentioning this line for good reason, see below
-app.UseRateLimiter();
-app.UseEndpoints(endpoints =&gt; { endpoints.MapControllers()
-    .RequireRateLimiting(&#34;fixed&#34;); });
-</code></pre><p>Nothing else is needed, really, for such a simple scenario. We could be more
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>app.UseRouting();  // I&#39;m mentioning this line for good reason, see below
+</span></span><span style="display:flex;"><span>app.UseRateLimiter();
+</span></span><span style="display:flex;"><span>app.UseEndpoints(endpoints =&gt; { endpoints.MapControllers()
+</span></span><span style="display:flex;"><span>    .RequireRateLimiting(&#34;fixed&#34;); });
+</span></span></code></pre></div><p>Nothing else is needed, really, for such a simple scenario. We could be more
 sophisticated. We could opt for more advanced options, like a &ldquo;sliding windows
 limiter&rdquo; or a &ldquo;bucket token limiter&rdquo;; we could apply rate limiting only to
 specific endpoints or controllers or mix and match these options. I chose to
 ditch hard-coded settings and read them from the configuration file. My
 <em>appsettings.json</em> contains the following (with different vaues):</p>
-<pre tabindex="0"><code>  &#34;RateLimiter&#34;: {
-    &#34;PermitLimit&#34;: 1
-    &#34;Window&#34;: 10,
-    &#34;QueueLimit&#34;: 1
-  }
-</code></pre><p>The <code>RateLimiter</code> class maps the json structure:</p>
-<pre tabindex="0"><code>public class RateLimiter
-{
-    public int PermitLimit { get; set; }
-    public int Window { get; set; }
-    public int QueueLimit { get; set; }
-}
-</code></pre><p>The updated code looks like this:</p>
-<pre tabindex="0"><code>public static void ConfigureRateLimit(this IServiceCollection services, 
-    IConfiguration configuration)
-{
-    var rateLimiter = new RateLimiter();
-    configuration.GetSection(&#34;RateLimiter&#34;).Bind(rateLimiter);
-    
-    services.AddRateLimiter(x =&gt; 
-        x.AddFixedWindowLimiter(
-                policyName: &#34;fixed&#34;, options =&gt;
-                {
-                    options.PermitLimit = rateLimiter.PermitLimit;
-                    options.Window = TimeSpan.FromSeconds(rateLimiter.Window);
-                    options.QueueLimit = rateLimiter.QueueLimit;
-                }));
-}
-</code></pre><p>I wish I could say it all worked splendidly on the first try. The API was
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>  &#34;RateLimiter&#34;: {
+</span></span><span style="display:flex;"><span>    &#34;PermitLimit&#34;: 1
+</span></span><span style="display:flex;"><span>    &#34;Window&#34;: 10,
+</span></span><span style="display:flex;"><span>    &#34;QueueLimit&#34;: 1
+</span></span><span style="display:flex;"><span>  }
+</span></span></code></pre></div><p>The <code>RateLimiter</code> class maps the json structure:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>public class RateLimiter
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    public int PermitLimit { get; set; }
+</span></span><span style="display:flex;"><span>    public int Window { get; set; }
+</span></span><span style="display:flex;"><span>    public int QueueLimit { get; set; }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>The updated code looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>public <span style="font-weight:bold">static</span> void ConfigureRateLimit(this IServiceCollection services, 
+</span></span><span style="display:flex;"><span>    IConfiguration configuration)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">var</span> rateLimiter = new RateLimiter();
+</span></span><span style="display:flex;"><span>    configuration.GetSection(<span style="font-style:italic">&#34;RateLimiter&#34;</span>).Bind(rateLimiter);
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    services.AddRateLimiter(x =&gt; 
+</span></span><span style="display:flex;"><span>        x.AddFixedWindowLimiter(
+</span></span><span style="display:flex;"><span>                policyName: <span style="font-style:italic">&#34;fixed&#34;</span>, options =&gt;
+</span></span><span style="display:flex;"><span>                {
+</span></span><span style="display:flex;"><span>                    options.PermitLimit = rateLimiter.PermitLimit;
+</span></span><span style="display:flex;"><span>                    options.Window = TimeSpan.FromSeconds(rateLimiter.Window);
+</span></span><span style="display:flex;"><span>                    options.QueueLimit = rateLimiter.QueueLimit;
+</span></span><span style="display:flex;"><span>                }));
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>I wish I could say it all worked splendidly on the first try. The API was
 running fine, but it was not rate-limited. It looked like the middleware was
 not being invoked, or it somehow failed miserably and silently. After an
 embarrassingly long time, I figured out the problem: <code>UseRateLimiter</code>
 <em>must</em> be called after <code>UseRouting</code>.</p>
 <p>Before:</p>
-<pre tabindex="0"><code>app.UseRateLimiter();
-app.UseRouting();
-app.UseEndpoints(endpoints =&gt; { endpoints
-    .MapControllers().RequireRateLimiting(&#34;fixed&#34;); });
-</code></pre><p>After:</p>
-<pre tabindex="0"><code>app.UseRouting();
-app.UseRateLimiter();
-app.UseEndpoints(endpoints =&gt; { endpoints.MapControllers()
-    .RequireRateLimiting(&#34;fixed&#34;); });
-</code></pre><p>Simply switching two lines saved the day. I looked high and low but could not
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>app.UseRateLimiter();
+</span></span><span style="display:flex;"><span>app.UseRouting();
+</span></span><span style="display:flex;"><span>app.UseEndpoints(endpoints =&gt; { endpoints
+</span></span><span style="display:flex;"><span>    .MapControllers().RequireRateLimiting(&#34;fixed&#34;); });
+</span></span></code></pre></div><p>After:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>app.UseRouting();
+</span></span><span style="display:flex;"><span>app.UseRateLimiter();
+</span></span><span style="display:flex;"><span>app.UseEndpoints(endpoints =&gt; { endpoints.MapControllers()
+</span></span><span style="display:flex;"><span>    .RequireRateLimiting(&#34;fixed&#34;); });
+</span></span></code></pre></div><p>Simply switching two lines saved the day. I looked high and low but could not
 find any reference to this requirement. If intended, it should be mentioned in
 the documentation. If it is a bug, it should be fixed (and I should
 probably open at ticket about it.)</p>
@@ -116,38 +116,38 @@ mandatory to instruct clients on what to do next.</li>
 <p>Luckily, the rate-limiting middleware allows for ample customization. On
 defining our policy, we can attach a custom function to the <code>OnRejected</code> event.
 The code below is updated to address both issues above:</p>
-<pre tabindex="0"><code>public static class ServicesConfiguration
-{
-    public static void ConfigureRateLimit(this IServiceCollection services, 
-        IConfiguration configuration) {
-
-        var rateLimiter = new RateLimiter();
-        configuration.GetSection(&#34;RateLimiter&#34;).Bind(rateLimiter);
-        
-        services.AddRateLimiter(x =&gt; 
-            x.AddFixedWindowLimiter(
-                    policyName: &#34;fixed&#34;, options =&gt; {
-                        options.PermitLimit = rateLimiter.PermitLimit;
-                        options.Window = TimeSpan.FromSeconds(rateLimiter.Window);
-                        options.QueueLimit = rateLimiter.QueueLimit;
-                    })
-
-                // new code here:
-                .OnRejected = (context, _) =&gt; {
-
-                // inject Retry-After header (too much line wrapping, I know)
-                if (context.Lease.TryGetMetadata(MetadataName.RetryAfter, 
-                    out var retryAfter)) {
-                    context.HttpContext.Response.Headers.RetryAfter =
-                        ((int) retryAfter.TotalSeconds).ToString();
-                }
-                // return a different status code
-                context.HttpContext.Response.StatusCode = 
-                    StatusCodes.Status429TooManyRequests;
-                return new();
-            });
-    }
-</code></pre><p>And that&rsquo;s all there is to it. I dropped the AspNetCoreRateLimiting dependency.
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>public <span style="font-weight:bold">static</span> <span style="font-weight:bold">class</span> ServicesConfiguration
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    public <span style="font-weight:bold">static</span> void ConfigureRateLimit(this IServiceCollection services, 
+</span></span><span style="display:flex;"><span>        IConfiguration configuration) {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">var</span> rateLimiter = new RateLimiter();
+</span></span><span style="display:flex;"><span>        configuration.GetSection(<span style="font-style:italic">&#34;RateLimiter&#34;</span>).Bind(rateLimiter);
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        services.AddRateLimiter(x =&gt; 
+</span></span><span style="display:flex;"><span>            x.AddFixedWindowLimiter(
+</span></span><span style="display:flex;"><span>                    policyName: <span style="font-style:italic">&#34;fixed&#34;</span>, options =&gt; {
+</span></span><span style="display:flex;"><span>                        options.PermitLimit = rateLimiter.PermitLimit;
+</span></span><span style="display:flex;"><span>                        options.Window = TimeSpan.FromSeconds(rateLimiter.Window);
+</span></span><span style="display:flex;"><span>                        options.QueueLimit = rateLimiter.QueueLimit;
+</span></span><span style="display:flex;"><span>                    })
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                // new code here:
+</span></span><span style="display:flex;"><span>                .OnRejected = (context, _) =&gt; {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                // inject Retry-After header (too much line wrapping, I know)
+</span></span><span style="display:flex;"><span>                <span style="font-weight:bold">if</span> (context.Lease.TryGetMetadata(MetadataName.RetryAfter, 
+</span></span><span style="display:flex;"><span>                    out <span style="font-weight:bold">var</span> retryAfter)) {
+</span></span><span style="display:flex;"><span>                    context.HttpContext.Response.Headers.RetryAfter =
+</span></span><span style="display:flex;"><span>                        ((<span style="font-weight:bold">int</span>) retryAfter.TotalSeconds).ToString();
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>                // <span style="font-weight:bold">return</span> a different status code
+</span></span><span style="display:flex;"><span>                context.HttpContext.Response.StatusCode = 
+</span></span><span style="display:flex;"><span>                    StatusCodes.Status429TooManyRequests;
+</span></span><span style="display:flex;"><span>                <span style="font-weight:bold">return</span> new();
+</span></span><span style="display:flex;"><span>            });
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>And that&rsquo;s all there is to it. I dropped the AspNetCoreRateLimiting dependency.
 That is one great piece of software, and I am grateful to its author Stefan
 Prodan and his contributors. As mentioned in [My Top 7 New Features in .NET
 7][3], they recently released a package that allows using Redis as a

@@ -7,8 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Thu, 09 Nov 2023 07:05:25 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jan 2024 09:34:16 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use bash to recursively search and replace a string in all directory files</title>
+      <link>https://nicolaiarocci.com/how-to-use-bash-to-recursively-search-and-replace-a-string-in-all-directory-files/</link>
+      <pubDate>Sat, 06 Jan 2024 09:34:16 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/how-to-use-bash-to-recursively-search-and-replace-a-string-in-all-directory-files/</guid>
+      <description>Another achievement I unlocked with the recent website update is the newsletter switch from Substack to a fantastic and independent provider, Buttondown. That required updating all the &amp;ldquo;subscribe to my newsletter&amp;rdquo; links. We&amp;rsquo;re talking 5K posts, all saved as individual files in the same directory. The bash command that did that for me is:
+find content/post/*.md -type f -exec \ sed -i .bak &amp;#39;s|https://nicolaiarocci.substack.com|https://buttondown.email/nicolaiarocci|g&amp;#39; {} + It is pretty straightforward. find looks for all markdown files in the content/post/ directory.</description>
+      <content:encoded><![CDATA[<p>Another achievement I unlocked with the <a href="/new-website-finally-with-no-analytics/">recent website
+update</a> is the newsletter switch from Substack to
+a fantastic and independent provider,
+<a href="https://buttondown.email/refer/nicolaiarocci">Buttondown</a>. That required
+updating all the &ldquo;subscribe to my newsletter&rdquo; links. We&rsquo;re talking 5K posts, all
+saved as individual files in the same directory. The bash command that did that
+for me is:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>find content/post/*.md -type f -exec <span style="font-weight:bold;font-style:italic">\
+</span></span></span><span style="display:flex;"><span><span style="font-weight:bold;font-style:italic"></span>    sed -i .bak <span style="font-style:italic">&#39;s|https://nicolaiarocci.substack.com|https://buttondown.email/nicolaiarocci|g&#39;</span> {} +
+</span></span></code></pre></div><p>It is pretty straightforward. <code>find</code> looks for all markdown files in the
+<code>content/post/</code> directory. On each file, <code>sed</code> performs a search-and-replace
+action. Notice that I use <code>|</code> instead of the standard <code>/</code> as a separator for the
+search-and-replace pattern , and that&rsquo;s because the pattern itself has <code>/</code>s in
+the URLs so I need to differentiate. Also, on macOS, the <code>-i</code> parameter requires
+a backup file argument (&quot;*.bak&quot;) to make a backup copy before the update. This
+argument is unnecessary in newer sed versions and will perform an in-place
+update if not provided.</p>
+<p>Later, I realized I would be better off if I removed the call to action from my
+posts and added it to the footer template instead. That way, I&rsquo;d only have one
+place to edit or update it in the future, and my RSS feed (and newsletter
+updates,  as they draw from the RSS feed) would be clean of unnecessary spam. In
+hindsight, this a move I could&rsquo;ve made many years ago (2010?) when I installed
+Hugo for the first time, but hey, better late than never. But how could I delete
+calls to action from all my 5K posts? With a variation of the above command, of
+course:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>find content/post/*.md -type f -exec sed -i .bak <span style="font-style:italic">&#39;/*Subscribe to.*$/,$d&#39;</span> {} +
+</span></span></code></pre></div><p>It is the same logic as above, but we&rsquo;re replacing the matched string with a
+&ldquo;delete all lines till the end of the file&rdquo; pattern this time. I must admit that
+this one was trickier to pull off and required a discrete amount of trial and
+error.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>How to use XmlWriter along with StringWriter to properly serialize a UTF-8 string</title>
       <link>https://nicolaiarocci.com/how-to-use-xmlwriter-along-with-stringwriter-to-properly-serialize-a-utf-8-string/</link>
@@ -19,37 +58,37 @@ await using var sw = new StringWriter(); await using var w = XmlWriter.Create(sw
 &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-16&amp;#34;?&amp;gt;&amp;lt;... There&amp;rsquo;s nothing inherently wrong with UTF-16, but XML is usually UTF-8, so one must do something about it.</description>
       <content:encoded><![CDATA[<p>Today, I (re)learned how to serialize an XML to a UTF-8 string. Like all the other times I did this, I got backstabbed
 by StringWriter, which only supports UTF-16. A simple code snippet like this:</p>
-<pre tabindex="0"><code>    await using var sw = new StringWriter();
-    await using var w = XmlWriter.Create(sw, new() { Async = true });
-    ...
-    await w.FlushAsync();
-    return sw.ToString();
-</code></pre><p>Will emit this output:</p>
-<pre tabindex="0"><code>    &lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-16&#34;?&gt;&lt;...
-</code></pre><p>There&rsquo;s nothing inherently wrong with UTF-16, but XML is usually UTF-8, so one must do something about it. StringWriter
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> sw = new StringWriter();
+</span></span><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> w = XmlWriter.Create(sw, new() { Async = true });
+</span></span><span style="display:flex;"><span>    ...
+</span></span><span style="display:flex;"><span>    await w.FlushAsync();
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> sw.ToString();
+</span></span></code></pre></div><p>Will emit this output:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    &lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-16&#34;?&gt;&lt;...
+</span></span></code></pre></div><p>There&rsquo;s nothing inherently wrong with UTF-16, but XML is usually UTF-8, so one must do something about it. StringWriter
 exposes an <code>Encoding</code> property, but it is read-only for unknown reasons. One might think that given that the XmlWriter
 allows setting its own <code>Encoding</code> value, something like this would work:</p>
-<pre tabindex="0"><code>    await using var sw = new StringWriter();
-    await using var w = XmlWriter.Create(sw, 
-        new() { Async = true , Encoding = Encoding.UTF8});
-    ...
-    await w.FlushAsync();
-    return sw.ToString();
-</code></pre><p>But it doesn’t. Over time, I’ve seen a few different ways to get out of this dead end, some more performant and or less
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> sw = new StringWriter();
+</span></span><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> w = XmlWriter.Create(sw, 
+</span></span><span style="display:flex;"><span>        new() { Async = true , Encoding = Encoding.UTF8});
+</span></span><span style="display:flex;"><span>    ...
+</span></span><span style="display:flex;"><span>    await w.FlushAsync();
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> sw.ToString();
+</span></span></code></pre></div><p>But it doesn’t. Over time, I’ve seen a few different ways to get out of this dead end, some more performant and or less
 verbose than others, but my favorite is resorting to a custom StringWriter:</p>
-<pre tabindex="0"><code>    public class Utf8StringWriter : StringWriter
-    {
-        public override Encoding Encoding =&gt; Encoding.UTF8;
-    }
-</code></pre><p>Armed with this, it is trivial, as it should have been from the get-go, to obtain the desired output:</p>
-<pre tabindex="0"><code>    await using var sw = new Utf8StringWriter();
-    await using var w = XmlWriter.Create(sw, new() { Async = true });
-    ...
-    await w.FlushAsync();
-    return sw.ToString();
-
-    // returns  &lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;&lt;...
-</code></pre><p>The whole .NET framework has seen fantastic performance improvements, top-class multi-platform support, and remarkable
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    public class Utf8StringWriter : StringWriter
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        public override Encoding Encoding =&gt; Encoding.UTF8;
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>Armed with this, it is trivial, as it should have been from the get-go, to obtain the desired output:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> sw = new Utf8StringWriter();
+</span></span><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> w = XmlWriter.Create(sw, new() { Async = true });
+</span></span><span style="display:flex;"><span>    ...
+</span></span><span style="display:flex;"><span>    await w.FlushAsync();
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> sw.ToString();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    // returns  &lt;<span style="">?</span>xml version=<span style="font-style:italic">&#34;1.0&#34;</span> encoding=<span style="font-style:italic">&#34;utf-8&#34;</span><span style="">?</span>&gt;&lt;...
+</span></span></code></pre></div><p>The whole .NET framework has seen fantastic performance improvements, top-class multi-platform support, and remarkable
 streamlining, but some baffling pitfalls are still hidden in some of its less obvious parts. StringWriter not supporting
 UTF-8 out-of-the-box is one of them.</p>
 ]]></content:encoded>
@@ -66,20 +105,20 @@ sequence according to a specified key selector function.</p>
 <p>.NET 6 and its successors have the method [built in][1] within LINQ, but I needed it in a .NET Standard 2.0 class
 library, so I was out of luck. My implementation is simple, not different from [others][2] I found online, and should
 also work fine with old .NET releases. Here it is:</p>
-<pre tabindex="0"><code>    public static IEnumerable&lt;TSource&gt; DistinctBy&lt;TSource, TKey&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; keySelector)
-    {
-        var keys = new HashSet&lt;TKey&gt;();
-        foreach (var element in source)
-        {
-            if (keys.Contains(keySelector(element))) continue;
-            keys.Add(keySelector(element));
-            yield return element;
-        }
-    }
-</code></pre><p>In the following usage example, I will get back all unique objects from the original sequence, distinct by their Name
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    public <span style="font-weight:bold">static</span> IEnumerable&lt;TSource&gt; DistinctBy&lt;TSource, TKey&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; keySelector)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">var</span> keys = new HashSet&lt;TKey&gt;();
+</span></span><span style="display:flex;"><span>        foreach (<span style="font-weight:bold">var</span> element <span style="font-weight:bold">in</span> source)
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="font-weight:bold">if</span> (keys.Contains(keySelector(element))) <span style="font-weight:bold">continue</span>;
+</span></span><span style="display:flex;"><span>            keys.Add(keySelector(element));
+</span></span><span style="display:flex;"><span>            yield <span style="font-weight:bold">return</span> element;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>In the following usage example, I will get back all unique objects from the original sequence, distinct by their Name
 property:</p>
-<pre tabindex="0"><code>    var uniques = mySequenceOfObjects.DistinctBy(x =&gt; x.Name);
-</code></pre><p>I later went to check the [official .NET 6+ implementation][3]. They support an optional equality comparer , which I
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    <span style="font-weight:bold">var</span> uniques = mySequenceOfObjects.DistinctBy(x =&gt; x.Name);
+</span></span></code></pre></div><p>I later went to check the [official .NET 6+ implementation][3]. They support an optional equality comparer , which I
 don&rsquo;t need, but their base implementation is similar to mine (they use deferred execution as well).</p>
 <p>By the way, years after its open-sourcing, I still get thrills when I realize I can always look at, let alone contribute
 to, the .NET source code.</p>
@@ -102,15 +141,15 @@ the default remote-shell&rsquo;s path (e.g. &ndash;rsync-path=/usr/local/bin/rsy
 </blockquote>
 <p>The example caught my attention. I could perhaps leverage this option to perform a user switch before executing rsync
 (now performed on the remote machine). As further research confirmed, it [can be done][2]:</p>
-<pre tabindex="0"><code>rsync --rsync-path &#39;sudo -u backup rsync&#39; -a --delete host:source destination
-</code></pre><p>It didn&rsquo;t work immediately because my user was not a sudoer, but that was an easy fix:</p>
-<pre tabindex="0"><code>cat &gt; /etc/sudoers.d/myuser &lt;&lt; EOF
-myuser ALL=(ALL) NOPASSWD:/usr/bin/rsync
-EOF
-</code></pre><p>As you can see, not only must the user be a sudoer, but it also needs to be able to sudo with no password. One last
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>rsync --rsync-path &#39;sudo -u backup rsync&#39; -a --delete host:source destination
+</span></span></code></pre></div><p>It didn&rsquo;t work immediately because my user was not a sudoer, but that was an easy fix:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>cat &gt; /etc/sudoers.d/myuser &lt;&lt; EOF
+</span></span><span style="display:flex;"><span>myuser ALL=(ALL) NOPASSWD:/usr/bin/rsync
+</span></span><span style="display:flex;"><span>EOF
+</span></span></code></pre></div><p>As you can see, not only must the user be a sudoer, but it also needs to be able to sudo with no password. One last
 minor issue was that &lsquo;backup&rsquo;, being a service user, had no shell access. That was another easy fix:</p>
-<pre tabindex="0"><code>sudo usermod -s /bin/bash backup
-</code></pre><p>Now my rsync-with-a-different-user command works like a charm. I do have some mild security concerns, though. My user is
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo usermod -s /bin/bash backup
+</span></span></code></pre></div><p>Now my rsync-with-a-different-user command works like a charm. I do have some mild security concerns, though. My user is
 a sudoer (can only sudo rsync, though[^3]), and &lsquo;backup&rsquo; now has shell access. As password logins are turned off, and
 SSH keys-only access is allowed to the machine (and I&rsquo;m the only person holding those keys), everything&rsquo;s still
 reasonably safe. Are there better ways? Please let me know.</p>
@@ -149,23 +188,23 @@ If you use the Python REPL often, you should check it out. It offers unique feat
 highlighting, readline-like autocomplete, a &ldquo;rewind&rdquo; function to pop the last line of code from memory, auto-indentation
 and more.</p>
 <p>Anyway, today I found a bug in bpython, and that&rsquo;s that Python&rsquo;s <code>decimal.getcontext()</code> does not work with it.</p>
-<pre tabindex="0"><code>bpython version 0.24 on top of Python 3.11.3
-&gt;&gt;&gt; import decimal
-&gt;&gt;&gt; decimal.getcontext().prec = 6
-&gt;&gt;&gt; decimal.Decimal(1) / decimal.Decimal(7)
-Decimal(&#39;0.1428571428571428571428571429&#39;)
-</code></pre><p>If you run the same lines in the standard Python REPL, what you get instead is:</p>
-<pre tabindex="0"><code>bpython version 0.24 on top of Python 3.11.3
-&gt;&gt;&gt; import decimal
-&gt;&gt;&gt; decimal.getcontext().prec = 6
-&gt;&gt;&gt; decimal.Decimal(1) / decimal.Decimal(7)
-Decimal(&#39;0.142857&#39;)
-</code></pre><p>Further experimenting revealed that, as a workaround, setting <code>DefaultContext</code> works as expected:</p>
-<pre tabindex="0"><code>bpython version 0.24 on top of Python 3.11.3
-&gt;&gt;&gt; decimal.DefaultContext.prec = 6
-&gt;&gt;&gt; decimal.Decimal(1) / decimal.Decimal(7)
-Decimal(&#39;0.142857&#39;)
-</code></pre><p>I suspect this has something to do with threads, as <code>decimal.getcontext</code> targets the current thread while
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>bpython version 0.24 on top of Python 3.11.3
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt; import decimal
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt; decimal.getcontext().prec = 6
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt; decimal.Decimal(1) / decimal.Decimal(7)
+</span></span><span style="display:flex;"><span>Decimal(&#39;0.1428571428571428571428571429&#39;)
+</span></span></code></pre></div><p>If you run the same lines in the standard Python REPL, what you get instead is:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>bpython version 0.24 on top of Python 3.11.3
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt; import decimal
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt; decimal.getcontext().prec = 6
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt; decimal.Decimal(1) / decimal.Decimal(7)
+</span></span><span style="display:flex;"><span>Decimal(&#39;0.142857&#39;)
+</span></span></code></pre></div><p>Further experimenting revealed that, as a workaround, setting <code>DefaultContext</code> works as expected:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>bpython version 0.24 on top of Python 3.11.3
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt; decimal.DefaultContext.prec = 6
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt; decimal.Decimal(1) / decimal.Decimal(7)
+</span></span><span style="display:flex;"><span>Decimal(&#39;0.142857&#39;)
+</span></span></code></pre></div><p>I suspect this has something to do with threads, as <code>decimal.getcontext</code> targets the current thread while
 <code>DefaultContext</code> is global. I went to the bpython repository only to find that a ticket was already opened in 2021. I
 [added][2] my <code>DefaultContext</code> observation there.</p>
 ]]></content:encoded>
@@ -186,22 +225,22 @@ networkQuality -v Example output:
 measure network performance.</p>
 </blockquote>
 <p>Usage:</p>
-<pre tabindex="0"><code>networkQuality -v
-</code></pre><p>Example output:</p>
-<pre tabindex="0"><code>==== SUMMARY ====
-Uplink capacity: 44.448 Mbps (Accuracy: High)
-Downlink capacity: 162.135 Mbps (Accuracy: High)
-Responsiveness: Low (73 RPM) (Accuracy: High)
-Idle Latency: 50.125 milliseconds (Accuracy: High)
-Interface: en0
-Uplink bytes transferred: 69.921 MB
-Downlink bytes transferred: 278.340 MB
-Uplink Flow count: 16
-Downlink Flow count: 12
-Start: 13/05/2023, 15:04:13
-End: 13/05/2023, 15:04:27
-OS Version: Version 13.3.1 (a) (Build 22E772610a)
-</code></pre><p>It supports Apple&rsquo;s Private Relay, offers some configuration options and allows setting up your own server. More info
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>networkQuality -v
+</span></span></code></pre></div><p>Example output:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>==== SUMMARY ====
+</span></span><span style="display:flex;"><span>Uplink capacity: 44.448 Mbps (Accuracy: High)
+</span></span><span style="display:flex;"><span>Downlink capacity: 162.135 Mbps (Accuracy: High)
+</span></span><span style="display:flex;"><span>Responsiveness: Low (73 RPM) (Accuracy: High)
+</span></span><span style="display:flex;"><span>Idle Latency: 50.125 milliseconds (Accuracy: High)
+</span></span><span style="display:flex;"><span>Interface: en0
+</span></span><span style="display:flex;"><span>Uplink bytes transferred: 69.921 MB
+</span></span><span style="display:flex;"><span>Downlink bytes transferred: 278.340 MB
+</span></span><span style="display:flex;"><span>Uplink Flow count: 16
+</span></span><span style="display:flex;"><span>Downlink Flow count: 12
+</span></span><span style="display:flex;"><span>Start: 13/05/2023, 15:04:13
+</span></span><span style="display:flex;"><span>End: 13/05/2023, 15:04:27
+</span></span><span style="display:flex;"><span>OS Version: Version 13.3.1 (a) (Build 22E772610a)
+</span></span></code></pre></div><p>It supports Apple&rsquo;s Private Relay, offers some configuration options and allows setting up your own server. More info
 <a href="https://cyberhost.uk/the-hidden-macos-speedtest-tool-networkquality/">here</a>.</p>
 ]]></content:encoded>
     </item>
@@ -288,32 +327,32 @@ init-only setter assigns a value to the property or the indexer element
 the object is initialized, it can&rsquo;t be changed again.</p>
 </blockquote>
 <p>Consider the following class:</p>
-<pre tabindex="0"><code>    public class Person
-    {
-        public string FirstName { get; init; }
-    }
-</code></pre><p>You can initialize it like this:</p>
-<pre tabindex="0"><code>    var person = new Person { FirstName = &#34;John&#34; };
-</code></pre><p>But this will fail:</p>
-<pre tabindex="0"><code>    var person = new Person();
-    person.FirstName = &#34;John&#34;;  //Not allowed
-</code></pre><p>For my project, which is a .NET Standard 2.0 library, I thought this approach
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    public class Person
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        public string FirstName { get; init; }
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>You can initialize it like this:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    <span style="font-weight:bold">var</span> person = new Person { FirstName = <span style="font-style:italic">&#34;John&#34;</span> };
+</span></span></code></pre></div><p>But this will fail:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    <span style="font-weight:bold">var</span> person = new Person();
+</span></span><span style="display:flex;"><span>    person.FirstName = <span style="font-style:italic">&#34;John&#34;</span>;  //Not allowed
+</span></span></code></pre></div><p>For my project, which is a .NET Standard 2.0 library, I thought this approach
 might be preferable to a parameter-enforced class constructor alternative.</p>
 <p>To my surprise, however, when I tried the above, I got the following error:</p>
-<pre tabindex="0"><code>The predefined type &#39;System.Runtime.CompilerServices.IsExternalInit&#39; must be
-defined or imported in order to declare init-only setter
-</code></pre><p>As it [turns out][1], The <code>IsExternalInit</code> type is only included in the net5.0
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>The predefined type &#39;System.Runtime.CompilerServices.IsExternalInit&#39; must be
+</span></span><span style="display:flex;"><span>defined or imported in order to declare init-only setter
+</span></span></code></pre></div><p>As it [turns out][1], The <code>IsExternalInit</code> type is only included in the net5.0
 (and subsequent) target frameworks, so one cannot use it right away in a
 NetStandard 2.0 (or 2.1, for that matter) library.</p>
 <p>In the dotnet world, when I encounter <em>&ldquo;type is not defined in version X&rdquo;</em>
 scenario, I know I can get around the issue by making up the type on my own. A
 quick lookup confirmed that this was the case, and the workaround is to add
 the following somewhere in my source code:</p>
-<pre tabindex="0"><code>    namespace System.Runtime.CompilerServices
-    {
-        internal static class IsExternalInit {}
-    }
-</code></pre><p>And presto, the <code>init</code> keyword is now fully available to my library.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    namespace System.Runtime.CompilerServices
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        internal static class IsExternalInit {}
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>And presto, the <code>init</code> keyword is now fully available to my library.</p>
 <p>While researching this matter, I stumbled into [PolySharp][2],  a lovely
 package that takes this workaround approach to new heights. What is it?</p>
 <blockquote>
@@ -350,76 +389,76 @@ a &ldquo;fixed window limiter.&rdquo; It uses a specified time window to limit r
 When the time window expires, a new time window starts, and the request limit
 is reset. Consider the following code (for convenience, I&rsquo;m using an extension
 method):</p>
-<pre tabindex="0"><code>public static void ConfigureRateLimit(this IServiceCollection services)
-{
-    services.AddRateLimiter(x =&gt; 
-        x.AddFixedWindowLimiter(
-                policyName: &#34;fixed&#34;, options =&gt;
-                {
-                    options.PermitLimit 1;
-                    options.Window = TimeSpan.FromSeconds(10);
-                    options.QueueLimit 1;
-                }));
-}
-</code></pre><p>It sets a window of 10 seconds. Within that window, a maximum of one request is
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>public static void ConfigureRateLimit(this IServiceCollection services)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    services.AddRateLimiter(x =&gt; 
+</span></span><span style="display:flex;"><span>        x.AddFixedWindowLimiter(
+</span></span><span style="display:flex;"><span>                policyName: &#34;fixed&#34;, options =&gt;
+</span></span><span style="display:flex;"><span>                {
+</span></span><span style="display:flex;"><span>                    options.PermitLimit 1;
+</span></span><span style="display:flex;"><span>                    options.Window = TimeSpan.FromSeconds(10);
+</span></span><span style="display:flex;"><span>                    options.QueueLimit 1;
+</span></span><span style="display:flex;"><span>                }));
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>It sets a window of 10 seconds. Within that window, a maximum of one request is
 allowed. Exceeding requests will be queued and served at window reset. Notice
 that we defined &ldquo;fixed&rdquo; as the policy name.</p>
 <p>Once our policy is configured, we must instrument the app instance to use the
 rate limiter, then we call <code>RequireRateLimiting</code> on our endpoints:</p>
-<pre tabindex="0"><code>app.UseRouting();  // I&#39;m mentioning this line for good reason, see below
-app.UseRateLimiter();
-app.UseEndpoints(endpoints =&gt; { endpoints.MapControllers()
-    .RequireRateLimiting(&#34;fixed&#34;); });
-</code></pre><p>Nothing else is needed, really, for such a simple scenario. We could be more
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>app.UseRouting();  // I&#39;m mentioning this line for good reason, see below
+</span></span><span style="display:flex;"><span>app.UseRateLimiter();
+</span></span><span style="display:flex;"><span>app.UseEndpoints(endpoints =&gt; { endpoints.MapControllers()
+</span></span><span style="display:flex;"><span>    .RequireRateLimiting(&#34;fixed&#34;); });
+</span></span></code></pre></div><p>Nothing else is needed, really, for such a simple scenario. We could be more
 sophisticated. We could opt for more advanced options, like a &ldquo;sliding windows
 limiter&rdquo; or a &ldquo;bucket token limiter&rdquo;; we could apply rate limiting only to
 specific endpoints or controllers or mix and match these options. I chose to
 ditch hard-coded settings and read them from the configuration file. My
 <em>appsettings.json</em> contains the following (with different vaues):</p>
-<pre tabindex="0"><code>  &#34;RateLimiter&#34;: {
-    &#34;PermitLimit&#34;: 1
-    &#34;Window&#34;: 10,
-    &#34;QueueLimit&#34;: 1
-  }
-</code></pre><p>The <code>RateLimiter</code> class maps the json structure:</p>
-<pre tabindex="0"><code>public class RateLimiter
-{
-    public int PermitLimit { get; set; }
-    public int Window { get; set; }
-    public int QueueLimit { get; set; }
-}
-</code></pre><p>The updated code looks like this:</p>
-<pre tabindex="0"><code>public static void ConfigureRateLimit(this IServiceCollection services, 
-    IConfiguration configuration)
-{
-    var rateLimiter = new RateLimiter();
-    configuration.GetSection(&#34;RateLimiter&#34;).Bind(rateLimiter);
-    
-    services.AddRateLimiter(x =&gt; 
-        x.AddFixedWindowLimiter(
-                policyName: &#34;fixed&#34;, options =&gt;
-                {
-                    options.PermitLimit = rateLimiter.PermitLimit;
-                    options.Window = TimeSpan.FromSeconds(rateLimiter.Window);
-                    options.QueueLimit = rateLimiter.QueueLimit;
-                }));
-}
-</code></pre><p>I wish I could say it all worked splendidly on the first try. The API was
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>  &#34;RateLimiter&#34;: {
+</span></span><span style="display:flex;"><span>    &#34;PermitLimit&#34;: 1
+</span></span><span style="display:flex;"><span>    &#34;Window&#34;: 10,
+</span></span><span style="display:flex;"><span>    &#34;QueueLimit&#34;: 1
+</span></span><span style="display:flex;"><span>  }
+</span></span></code></pre></div><p>The <code>RateLimiter</code> class maps the json structure:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>public class RateLimiter
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    public int PermitLimit { get; set; }
+</span></span><span style="display:flex;"><span>    public int Window { get; set; }
+</span></span><span style="display:flex;"><span>    public int QueueLimit { get; set; }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>The updated code looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>public <span style="font-weight:bold">static</span> void ConfigureRateLimit(this IServiceCollection services, 
+</span></span><span style="display:flex;"><span>    IConfiguration configuration)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">var</span> rateLimiter = new RateLimiter();
+</span></span><span style="display:flex;"><span>    configuration.GetSection(<span style="font-style:italic">&#34;RateLimiter&#34;</span>).Bind(rateLimiter);
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    services.AddRateLimiter(x =&gt; 
+</span></span><span style="display:flex;"><span>        x.AddFixedWindowLimiter(
+</span></span><span style="display:flex;"><span>                policyName: <span style="font-style:italic">&#34;fixed&#34;</span>, options =&gt;
+</span></span><span style="display:flex;"><span>                {
+</span></span><span style="display:flex;"><span>                    options.PermitLimit = rateLimiter.PermitLimit;
+</span></span><span style="display:flex;"><span>                    options.Window = TimeSpan.FromSeconds(rateLimiter.Window);
+</span></span><span style="display:flex;"><span>                    options.QueueLimit = rateLimiter.QueueLimit;
+</span></span><span style="display:flex;"><span>                }));
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>I wish I could say it all worked splendidly on the first try. The API was
 running fine, but it was not rate-limited. It looked like the middleware was
 not being invoked, or it somehow failed miserably and silently. After an
 embarrassingly long time, I figured out the problem: <code>UseRateLimiter</code>
 <em>must</em> be called after <code>UseRouting</code>.</p>
 <p>Before:</p>
-<pre tabindex="0"><code>app.UseRateLimiter();
-app.UseRouting();
-app.UseEndpoints(endpoints =&gt; { endpoints
-    .MapControllers().RequireRateLimiting(&#34;fixed&#34;); });
-</code></pre><p>After:</p>
-<pre tabindex="0"><code>app.UseRouting();
-app.UseRateLimiter();
-app.UseEndpoints(endpoints =&gt; { endpoints.MapControllers()
-    .RequireRateLimiting(&#34;fixed&#34;); });
-</code></pre><p>Simply switching two lines saved the day. I looked high and low but could not
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>app.UseRateLimiter();
+</span></span><span style="display:flex;"><span>app.UseRouting();
+</span></span><span style="display:flex;"><span>app.UseEndpoints(endpoints =&gt; { endpoints
+</span></span><span style="display:flex;"><span>    .MapControllers().RequireRateLimiting(&#34;fixed&#34;); });
+</span></span></code></pre></div><p>After:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>app.UseRouting();
+</span></span><span style="display:flex;"><span>app.UseRateLimiter();
+</span></span><span style="display:flex;"><span>app.UseEndpoints(endpoints =&gt; { endpoints.MapControllers()
+</span></span><span style="display:flex;"><span>    .RequireRateLimiting(&#34;fixed&#34;); });
+</span></span></code></pre></div><p>Simply switching two lines saved the day. I looked high and low but could not
 find any reference to this requirement. If intended, it should be mentioned in
 the documentation. If it is a bug, it should be fixed (and I should
 probably open at ticket about it.)</p>
@@ -439,38 +478,38 @@ mandatory to instruct clients on what to do next.</li>
 <p>Luckily, the rate-limiting middleware allows for ample customization. On
 defining our policy, we can attach a custom function to the <code>OnRejected</code> event.
 The code below is updated to address both issues above:</p>
-<pre tabindex="0"><code>public static class ServicesConfiguration
-{
-    public static void ConfigureRateLimit(this IServiceCollection services, 
-        IConfiguration configuration) {
-
-        var rateLimiter = new RateLimiter();
-        configuration.GetSection(&#34;RateLimiter&#34;).Bind(rateLimiter);
-        
-        services.AddRateLimiter(x =&gt; 
-            x.AddFixedWindowLimiter(
-                    policyName: &#34;fixed&#34;, options =&gt; {
-                        options.PermitLimit = rateLimiter.PermitLimit;
-                        options.Window = TimeSpan.FromSeconds(rateLimiter.Window);
-                        options.QueueLimit = rateLimiter.QueueLimit;
-                    })
-
-                // new code here:
-                .OnRejected = (context, _) =&gt; {
-
-                // inject Retry-After header (too much line wrapping, I know)
-                if (context.Lease.TryGetMetadata(MetadataName.RetryAfter, 
-                    out var retryAfter)) {
-                    context.HttpContext.Response.Headers.RetryAfter =
-                        ((int) retryAfter.TotalSeconds).ToString();
-                }
-                // return a different status code
-                context.HttpContext.Response.StatusCode = 
-                    StatusCodes.Status429TooManyRequests;
-                return new();
-            });
-    }
-</code></pre><p>And that&rsquo;s all there is to it. I dropped the AspNetCoreRateLimiting dependency.
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>public <span style="font-weight:bold">static</span> <span style="font-weight:bold">class</span> ServicesConfiguration
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    public <span style="font-weight:bold">static</span> void ConfigureRateLimit(this IServiceCollection services, 
+</span></span><span style="display:flex;"><span>        IConfiguration configuration) {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">var</span> rateLimiter = new RateLimiter();
+</span></span><span style="display:flex;"><span>        configuration.GetSection(<span style="font-style:italic">&#34;RateLimiter&#34;</span>).Bind(rateLimiter);
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        services.AddRateLimiter(x =&gt; 
+</span></span><span style="display:flex;"><span>            x.AddFixedWindowLimiter(
+</span></span><span style="display:flex;"><span>                    policyName: <span style="font-style:italic">&#34;fixed&#34;</span>, options =&gt; {
+</span></span><span style="display:flex;"><span>                        options.PermitLimit = rateLimiter.PermitLimit;
+</span></span><span style="display:flex;"><span>                        options.Window = TimeSpan.FromSeconds(rateLimiter.Window);
+</span></span><span style="display:flex;"><span>                        options.QueueLimit = rateLimiter.QueueLimit;
+</span></span><span style="display:flex;"><span>                    })
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                // new code here:
+</span></span><span style="display:flex;"><span>                .OnRejected = (context, _) =&gt; {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                // inject Retry-After header (too much line wrapping, I know)
+</span></span><span style="display:flex;"><span>                <span style="font-weight:bold">if</span> (context.Lease.TryGetMetadata(MetadataName.RetryAfter, 
+</span></span><span style="display:flex;"><span>                    out <span style="font-weight:bold">var</span> retryAfter)) {
+</span></span><span style="display:flex;"><span>                    context.HttpContext.Response.Headers.RetryAfter =
+</span></span><span style="display:flex;"><span>                        ((<span style="font-weight:bold">int</span>) retryAfter.TotalSeconds).ToString();
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>                // <span style="font-weight:bold">return</span> a different status code
+</span></span><span style="display:flex;"><span>                context.HttpContext.Response.StatusCode = 
+</span></span><span style="display:flex;"><span>                    StatusCodes.Status429TooManyRequests;
+</span></span><span style="display:flex;"><span>                <span style="font-weight:bold">return</span> new();
+</span></span><span style="display:flex;"><span>            });
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>And that&rsquo;s all there is to it. I dropped the AspNetCoreRateLimiting dependency.
 That is one great piece of software, and I am grateful to its author Stefan
 Prodan and his contributors. As mentioned in [My Top 7 New Features in .NET
 7][3], they recently released a package that allows using Redis as a
@@ -1026,21 +1065,21 @@ a dictionary of strings, <code>null</code> is returned on a missing key. That is
 ok in most cases. Howewer, if your logic requires a custom default value
 instead, then you are out of luck. You have to set it yourself on <code>TryGetValue</code>
 failure. A typical implementation would be:</p>
-<pre tabindex="0"><code>    var result = MyDictionary.TryGetValue(&#34;key&#34;, var out value) 
-        ? value
-        : &#34;not found&#34;;
-</code></pre><p>It is a minor annoyance but still a hassle. Our solution has always been
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    <span style="font-weight:bold">var</span> result = MyDictionary.TryGetValue(<span style="font-style:italic">&#34;key&#34;</span>, <span style="font-weight:bold">var</span> out value) 
+</span></span><span style="display:flex;"><span>        <span style="">?</span> value
+</span></span><span style="display:flex;"><span>        : <span style="font-style:italic">&#34;not found&#34;</span>;
+</span></span></code></pre></div><p>It is a minor annoyance but still a hassle. Our solution has always been
 a homemade <code>GetValueOrDefault</code> extension method, something like this:</p>
-<pre tabindex="0"><code>    public static TValue GetValueOrDefault&lt;TKey, TValue&gt; 
-        (this IDictionary&lt;TKey, TValue&gt; dictionary, TKey key, TValue defaultValue)
-    {
-        return dictionary.TryGetValue(key, var out value) 
-            ? value
-            : defaultValue;
-    }
-</code></pre><p>Usage:</p>
-<pre tabindex="0"><code>    var result = MyDictionary.GetValueOrDefault(&#34;key&#34;, &#34;not found&#34;);
-</code></pre><p>We&rsquo;ve been using it since forever, and we are still using it even in recent
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    public <span style="font-weight:bold">static</span> TValue GetValueOrDefault&lt;TKey, TValue&gt; 
+</span></span><span style="display:flex;"><span>        (this IDictionary&lt;TKey, TValue&gt; dictionary, TKey key, TValue defaultValue)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">return</span> dictionary.TryGetValue(key, <span style="font-weight:bold">var</span> out value) 
+</span></span><span style="display:flex;"><span>            <span style="">?</span> value
+</span></span><span style="display:flex;"><span>            : defaultValue;
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>Usage:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    <span style="font-weight:bold">var</span> result = MyDictionary.GetValueOrDefault(<span style="font-style:italic">&#34;key&#34;</span>, <span style="font-style:italic">&#34;not found&#34;</span>);
+</span></span></code></pre></div><p>We&rsquo;ve been using it since forever, and we are still using it even in recent
 projects.</p>
 <p>Today, as I was looking at something only tangentially related, I learned that
 our extension method is obsolete, and it&rsquo;s been for a while. NetStandard
@@ -1247,24 +1286,24 @@ response ([source][1]).</p>
 <p>This will be a breaking change if your endpoint is expected to handle large
 uploads. The solution is simple, just decorate your MVC action or controller
 with the <code>RequestSizeLimit</code> attribute, like so:</p>
-<pre tabindex="0"><code>    [HttpPost]
-    [RequestSizeLimit(100_000_000)]
-    public IActionResult MyAction([FromBody] MyViewModel data)
-    {
-</code></pre><p><code>DisableRequestSizeLimit</code> can be used to make request size unlimited. This
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    [HttpPost]
+</span></span><span style="display:flex;"><span>    [RequestSizeLimit(100_000_000)]
+</span></span><span style="display:flex;"><span>    public IActionResult MyAction([FromBody] MyViewModel data)
+</span></span><span style="display:flex;"><span>    {
+</span></span></code></pre></div><p><code>DisableRequestSizeLimit</code> can be used to make request size unlimited. This
 effectively restores pre-2.0.0 behavior for just the attributed action or
 controller. You can also change or disable the limit programmatically, either
 on a per-request basis or globally (see the instructions at this [link][1].)</p>
 <p>In my case, however, disabling the request limit was not enough. Because my
 endpoint is expecting an <code>IFormFile</code> argument, I also had to set the
 <code>RequestFormLimits</code> attribute:</p>
-<pre tabindex="0"><code>    [HttpPost]
-    [DisableRequestSizeLimit,
-    RequestFormLimits(MultipartBodyLengthLimit = int.MaxValue, 
-        ValueLengthLimit = int.MaxValue)]
-    public async Task&lt;ActionResult&gt; BulkAdd(string schema, IFormFile file)
-    {
-</code></pre><p>Please note that all of this happened on a .NET 5 Linux application with
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    [HttpPost]
+</span></span><span style="display:flex;"><span>    [DisableRequestSizeLimit,
+</span></span><span style="display:flex;"><span>    RequestFormLimits(MultipartBodyLengthLimit = int.MaxValue, 
+</span></span><span style="display:flex;"><span>        ValueLengthLimit = int.MaxValue)]
+</span></span><span style="display:flex;"><span>    public async Task&lt;ActionResult&gt; BulkAdd(string schema, IFormFile file)
+</span></span><span style="display:flex;"><span>    {
+</span></span></code></pre></div><p>Please note that all of this happened on a .NET 5 Linux application with
 Kestrel running behind nginx. As pointed out at the link above, if you&rsquo;re
 running behind IIS, then the limit is disabled, and the usual <em>web.config</em>
 limit applies.</p>

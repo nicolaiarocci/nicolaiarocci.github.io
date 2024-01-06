@@ -25,22 +25,22 @@ networkQuality -v Example output:
 measure network performance.</p>
 </blockquote>
 <p>Usage:</p>
-<pre tabindex="0"><code>networkQuality -v
-</code></pre><p>Example output:</p>
-<pre tabindex="0"><code>==== SUMMARY ====
-Uplink capacity: 44.448 Mbps (Accuracy: High)
-Downlink capacity: 162.135 Mbps (Accuracy: High)
-Responsiveness: Low (73 RPM) (Accuracy: High)
-Idle Latency: 50.125 milliseconds (Accuracy: High)
-Interface: en0
-Uplink bytes transferred: 69.921 MB
-Downlink bytes transferred: 278.340 MB
-Uplink Flow count: 16
-Downlink Flow count: 12
-Start: 13/05/2023, 15:04:13
-End: 13/05/2023, 15:04:27
-OS Version: Version 13.3.1 (a) (Build 22E772610a)
-</code></pre><p>It supports Apple&rsquo;s Private Relay, offers some configuration options and allows setting up your own server. More info
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>networkQuality -v
+</span></span></code></pre></div><p>Example output:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>==== SUMMARY ====
+</span></span><span style="display:flex;"><span>Uplink capacity: 44.448 Mbps (Accuracy: High)
+</span></span><span style="display:flex;"><span>Downlink capacity: 162.135 Mbps (Accuracy: High)
+</span></span><span style="display:flex;"><span>Responsiveness: Low (73 RPM) (Accuracy: High)
+</span></span><span style="display:flex;"><span>Idle Latency: 50.125 milliseconds (Accuracy: High)
+</span></span><span style="display:flex;"><span>Interface: en0
+</span></span><span style="display:flex;"><span>Uplink bytes transferred: 69.921 MB
+</span></span><span style="display:flex;"><span>Downlink bytes transferred: 278.340 MB
+</span></span><span style="display:flex;"><span>Uplink Flow count: 16
+</span></span><span style="display:flex;"><span>Downlink Flow count: 12
+</span></span><span style="display:flex;"><span>Start: 13/05/2023, 15:04:13
+</span></span><span style="display:flex;"><span>End: 13/05/2023, 15:04:27
+</span></span><span style="display:flex;"><span>OS Version: Version 13.3.1 (a) (Build 22E772610a)
+</span></span></code></pre></div><p>It supports Apple&rsquo;s Private Relay, offers some configuration options and allows setting up your own server. More info
 <a href="https://cyberhost.uk/the-hidden-macos-speedtest-tool-networkquality/">here</a>.</p>
 ]]></content:encoded>
     </item>

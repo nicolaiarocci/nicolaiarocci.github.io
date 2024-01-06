@@ -36,37 +36,37 @@ await using var sw = new StringWriter(); await using var w = XmlWriter.Create(sw
 &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-16&amp;#34;?&amp;gt;&amp;lt;... There&amp;rsquo;s nothing inherently wrong with UTF-16, but XML is usually UTF-8, so one must do something about it.</description>
       <content:encoded><![CDATA[<p>Today, I (re)learned how to serialize an XML to a UTF-8 string. Like all the other times I did this, I got backstabbed
 by StringWriter, which only supports UTF-16. A simple code snippet like this:</p>
-<pre tabindex="0"><code>    await using var sw = new StringWriter();
-    await using var w = XmlWriter.Create(sw, new() { Async = true });
-    ...
-    await w.FlushAsync();
-    return sw.ToString();
-</code></pre><p>Will emit this output:</p>
-<pre tabindex="0"><code>    &lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-16&#34;?&gt;&lt;...
-</code></pre><p>There&rsquo;s nothing inherently wrong with UTF-16, but XML is usually UTF-8, so one must do something about it. StringWriter
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> sw = new StringWriter();
+</span></span><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> w = XmlWriter.Create(sw, new() { Async = true });
+</span></span><span style="display:flex;"><span>    ...
+</span></span><span style="display:flex;"><span>    await w.FlushAsync();
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> sw.ToString();
+</span></span></code></pre></div><p>Will emit this output:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    &lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-16&#34;?&gt;&lt;...
+</span></span></code></pre></div><p>There&rsquo;s nothing inherently wrong with UTF-16, but XML is usually UTF-8, so one must do something about it. StringWriter
 exposes an <code>Encoding</code> property, but it is read-only for unknown reasons. One might think that given that the XmlWriter
 allows setting its own <code>Encoding</code> value, something like this would work:</p>
-<pre tabindex="0"><code>    await using var sw = new StringWriter();
-    await using var w = XmlWriter.Create(sw, 
-        new() { Async = true , Encoding = Encoding.UTF8});
-    ...
-    await w.FlushAsync();
-    return sw.ToString();
-</code></pre><p>But it doesn’t. Over time, I’ve seen a few different ways to get out of this dead end, some more performant and or less
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> sw = new StringWriter();
+</span></span><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> w = XmlWriter.Create(sw, 
+</span></span><span style="display:flex;"><span>        new() { Async = true , Encoding = Encoding.UTF8});
+</span></span><span style="display:flex;"><span>    ...
+</span></span><span style="display:flex;"><span>    await w.FlushAsync();
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> sw.ToString();
+</span></span></code></pre></div><p>But it doesn’t. Over time, I’ve seen a few different ways to get out of this dead end, some more performant and or less
 verbose than others, but my favorite is resorting to a custom StringWriter:</p>
-<pre tabindex="0"><code>    public class Utf8StringWriter : StringWriter
-    {
-        public override Encoding Encoding =&gt; Encoding.UTF8;
-    }
-</code></pre><p>Armed with this, it is trivial, as it should have been from the get-go, to obtain the desired output:</p>
-<pre tabindex="0"><code>    await using var sw = new Utf8StringWriter();
-    await using var w = XmlWriter.Create(sw, new() { Async = true });
-    ...
-    await w.FlushAsync();
-    return sw.ToString();
-
-    // returns  &lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;&lt;...
-</code></pre><p>The whole .NET framework has seen fantastic performance improvements, top-class multi-platform support, and remarkable
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    public class Utf8StringWriter : StringWriter
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        public override Encoding Encoding =&gt; Encoding.UTF8;
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>Armed with this, it is trivial, as it should have been from the get-go, to obtain the desired output:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> sw = new Utf8StringWriter();
+</span></span><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> w = XmlWriter.Create(sw, new() { Async = true });
+</span></span><span style="display:flex;"><span>    ...
+</span></span><span style="display:flex;"><span>    await w.FlushAsync();
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> sw.ToString();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    // returns  &lt;<span style="">?</span>xml version=<span style="font-style:italic">&#34;1.0&#34;</span> encoding=<span style="font-style:italic">&#34;utf-8&#34;</span><span style="">?</span>&gt;&lt;...
+</span></span></code></pre></div><p>The whole .NET framework has seen fantastic performance improvements, top-class multi-platform support, and remarkable
 streamlining, but some baffling pitfalls are still hidden in some of its less obvious parts. StringWriter not supporting
 UTF-8 out-of-the-box is one of them.</p>
 ]]></content:encoded>
@@ -94,20 +94,20 @@ sequence according to a specified key selector function.</p>
 <p>.NET 6 and its successors have the method [built in][1] within LINQ, but I needed it in a .NET Standard 2.0 class
 library, so I was out of luck. My implementation is simple, not different from [others][2] I found online, and should
 also work fine with old .NET releases. Here it is:</p>
-<pre tabindex="0"><code>    public static IEnumerable&lt;TSource&gt; DistinctBy&lt;TSource, TKey&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; keySelector)
-    {
-        var keys = new HashSet&lt;TKey&gt;();
-        foreach (var element in source)
-        {
-            if (keys.Contains(keySelector(element))) continue;
-            keys.Add(keySelector(element));
-            yield return element;
-        }
-    }
-</code></pre><p>In the following usage example, I will get back all unique objects from the original sequence, distinct by their Name
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    public <span style="font-weight:bold">static</span> IEnumerable&lt;TSource&gt; DistinctBy&lt;TSource, TKey&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; keySelector)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">var</span> keys = new HashSet&lt;TKey&gt;();
+</span></span><span style="display:flex;"><span>        foreach (<span style="font-weight:bold">var</span> element <span style="font-weight:bold">in</span> source)
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="font-weight:bold">if</span> (keys.Contains(keySelector(element))) <span style="font-weight:bold">continue</span>;
+</span></span><span style="display:flex;"><span>            keys.Add(keySelector(element));
+</span></span><span style="display:flex;"><span>            yield <span style="font-weight:bold">return</span> element;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>In the following usage example, I will get back all unique objects from the original sequence, distinct by their Name
 property:</p>
-<pre tabindex="0"><code>    var uniques = mySequenceOfObjects.DistinctBy(x =&gt; x.Name);
-</code></pre><p>I later went to check the [official .NET 6+ implementation][3]. They support an optional equality comparer , which I
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    <span style="font-weight:bold">var</span> uniques = mySequenceOfObjects.DistinctBy(x =&gt; x.Name);
+</span></span></code></pre></div><p>I later went to check the [official .NET 6+ implementation][3]. They support an optional equality comparer , which I
 don&rsquo;t need, but their base implementation is similar to mine (they use deferred execution as well).</p>
 <p>By the way, years after its open-sourcing, I still get thrills when I realize I can always look at, let alone contribute
 to, the .NET source code.</p>
@@ -269,32 +269,32 @@ init-only setter assigns a value to the property or the indexer element
 the object is initialized, it can&rsquo;t be changed again.</p>
 </blockquote>
 <p>Consider the following class:</p>
-<pre tabindex="0"><code>    public class Person
-    {
-        public string FirstName { get; init; }
-    }
-</code></pre><p>You can initialize it like this:</p>
-<pre tabindex="0"><code>    var person = new Person { FirstName = &#34;John&#34; };
-</code></pre><p>But this will fail:</p>
-<pre tabindex="0"><code>    var person = new Person();
-    person.FirstName = &#34;John&#34;;  //Not allowed
-</code></pre><p>For my project, which is a .NET Standard 2.0 library, I thought this approach
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    public class Person
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        public string FirstName { get; init; }
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>You can initialize it like this:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    <span style="font-weight:bold">var</span> person = new Person { FirstName = <span style="font-style:italic">&#34;John&#34;</span> };
+</span></span></code></pre></div><p>But this will fail:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    <span style="font-weight:bold">var</span> person = new Person();
+</span></span><span style="display:flex;"><span>    person.FirstName = <span style="font-style:italic">&#34;John&#34;</span>;  //Not allowed
+</span></span></code></pre></div><p>For my project, which is a .NET Standard 2.0 library, I thought this approach
 might be preferable to a parameter-enforced class constructor alternative.</p>
 <p>To my surprise, however, when I tried the above, I got the following error:</p>
-<pre tabindex="0"><code>The predefined type &#39;System.Runtime.CompilerServices.IsExternalInit&#39; must be
-defined or imported in order to declare init-only setter
-</code></pre><p>As it [turns out][1], The <code>IsExternalInit</code> type is only included in the net5.0
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>The predefined type &#39;System.Runtime.CompilerServices.IsExternalInit&#39; must be
+</span></span><span style="display:flex;"><span>defined or imported in order to declare init-only setter
+</span></span></code></pre></div><p>As it [turns out][1], The <code>IsExternalInit</code> type is only included in the net5.0
 (and subsequent) target frameworks, so one cannot use it right away in a
 NetStandard 2.0 (or 2.1, for that matter) library.</p>
 <p>In the dotnet world, when I encounter <em>&ldquo;type is not defined in version X&rdquo;</em>
 scenario, I know I can get around the issue by making up the type on my own. A
 quick lookup confirmed that this was the case, and the workaround is to add
 the following somewhere in my source code:</p>
-<pre tabindex="0"><code>    namespace System.Runtime.CompilerServices
-    {
-        internal static class IsExternalInit {}
-    }
-</code></pre><p>And presto, the <code>init</code> keyword is now fully available to my library.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    namespace System.Runtime.CompilerServices
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        internal static class IsExternalInit {}
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>And presto, the <code>init</code> keyword is now fully available to my library.</p>
 <p>While researching this matter, I stumbled into [PolySharp][2],  a lovely
 package that takes this workaround approach to new heights. What is it?</p>
 <blockquote>
@@ -360,76 +360,76 @@ a &ldquo;fixed window limiter.&rdquo; It uses a specified time window to limit r
 When the time window expires, a new time window starts, and the request limit
 is reset. Consider the following code (for convenience, I&rsquo;m using an extension
 method):</p>
-<pre tabindex="0"><code>public static void ConfigureRateLimit(this IServiceCollection services)
-{
-    services.AddRateLimiter(x =&gt; 
-        x.AddFixedWindowLimiter(
-                policyName: &#34;fixed&#34;, options =&gt;
-                {
-                    options.PermitLimit 1;
-                    options.Window = TimeSpan.FromSeconds(10);
-                    options.QueueLimit 1;
-                }));
-}
-</code></pre><p>It sets a window of 10 seconds. Within that window, a maximum of one request is
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>public static void ConfigureRateLimit(this IServiceCollection services)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    services.AddRateLimiter(x =&gt; 
+</span></span><span style="display:flex;"><span>        x.AddFixedWindowLimiter(
+</span></span><span style="display:flex;"><span>                policyName: &#34;fixed&#34;, options =&gt;
+</span></span><span style="display:flex;"><span>                {
+</span></span><span style="display:flex;"><span>                    options.PermitLimit 1;
+</span></span><span style="display:flex;"><span>                    options.Window = TimeSpan.FromSeconds(10);
+</span></span><span style="display:flex;"><span>                    options.QueueLimit 1;
+</span></span><span style="display:flex;"><span>                }));
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>It sets a window of 10 seconds. Within that window, a maximum of one request is
 allowed. Exceeding requests will be queued and served at window reset. Notice
 that we defined &ldquo;fixed&rdquo; as the policy name.</p>
 <p>Once our policy is configured, we must instrument the app instance to use the
 rate limiter, then we call <code>RequireRateLimiting</code> on our endpoints:</p>
-<pre tabindex="0"><code>app.UseRouting();  // I&#39;m mentioning this line for good reason, see below
-app.UseRateLimiter();
-app.UseEndpoints(endpoints =&gt; { endpoints.MapControllers()
-    .RequireRateLimiting(&#34;fixed&#34;); });
-</code></pre><p>Nothing else is needed, really, for such a simple scenario. We could be more
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>app.UseRouting();  // I&#39;m mentioning this line for good reason, see below
+</span></span><span style="display:flex;"><span>app.UseRateLimiter();
+</span></span><span style="display:flex;"><span>app.UseEndpoints(endpoints =&gt; { endpoints.MapControllers()
+</span></span><span style="display:flex;"><span>    .RequireRateLimiting(&#34;fixed&#34;); });
+</span></span></code></pre></div><p>Nothing else is needed, really, for such a simple scenario. We could be more
 sophisticated. We could opt for more advanced options, like a &ldquo;sliding windows
 limiter&rdquo; or a &ldquo;bucket token limiter&rdquo;; we could apply rate limiting only to
 specific endpoints or controllers or mix and match these options. I chose to
 ditch hard-coded settings and read them from the configuration file. My
 <em>appsettings.json</em> contains the following (with different vaues):</p>
-<pre tabindex="0"><code>  &#34;RateLimiter&#34;: {
-    &#34;PermitLimit&#34;: 1
-    &#34;Window&#34;: 10,
-    &#34;QueueLimit&#34;: 1
-  }
-</code></pre><p>The <code>RateLimiter</code> class maps the json structure:</p>
-<pre tabindex="0"><code>public class RateLimiter
-{
-    public int PermitLimit { get; set; }
-    public int Window { get; set; }
-    public int QueueLimit { get; set; }
-}
-</code></pre><p>The updated code looks like this:</p>
-<pre tabindex="0"><code>public static void ConfigureRateLimit(this IServiceCollection services, 
-    IConfiguration configuration)
-{
-    var rateLimiter = new RateLimiter();
-    configuration.GetSection(&#34;RateLimiter&#34;).Bind(rateLimiter);
-    
-    services.AddRateLimiter(x =&gt; 
-        x.AddFixedWindowLimiter(
-                policyName: &#34;fixed&#34;, options =&gt;
-                {
-                    options.PermitLimit = rateLimiter.PermitLimit;
-                    options.Window = TimeSpan.FromSeconds(rateLimiter.Window);
-                    options.QueueLimit = rateLimiter.QueueLimit;
-                }));
-}
-</code></pre><p>I wish I could say it all worked splendidly on the first try. The API was
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>  &#34;RateLimiter&#34;: {
+</span></span><span style="display:flex;"><span>    &#34;PermitLimit&#34;: 1
+</span></span><span style="display:flex;"><span>    &#34;Window&#34;: 10,
+</span></span><span style="display:flex;"><span>    &#34;QueueLimit&#34;: 1
+</span></span><span style="display:flex;"><span>  }
+</span></span></code></pre></div><p>The <code>RateLimiter</code> class maps the json structure:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>public class RateLimiter
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    public int PermitLimit { get; set; }
+</span></span><span style="display:flex;"><span>    public int Window { get; set; }
+</span></span><span style="display:flex;"><span>    public int QueueLimit { get; set; }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>The updated code looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>public <span style="font-weight:bold">static</span> void ConfigureRateLimit(this IServiceCollection services, 
+</span></span><span style="display:flex;"><span>    IConfiguration configuration)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">var</span> rateLimiter = new RateLimiter();
+</span></span><span style="display:flex;"><span>    configuration.GetSection(<span style="font-style:italic">&#34;RateLimiter&#34;</span>).Bind(rateLimiter);
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    services.AddRateLimiter(x =&gt; 
+</span></span><span style="display:flex;"><span>        x.AddFixedWindowLimiter(
+</span></span><span style="display:flex;"><span>                policyName: <span style="font-style:italic">&#34;fixed&#34;</span>, options =&gt;
+</span></span><span style="display:flex;"><span>                {
+</span></span><span style="display:flex;"><span>                    options.PermitLimit = rateLimiter.PermitLimit;
+</span></span><span style="display:flex;"><span>                    options.Window = TimeSpan.FromSeconds(rateLimiter.Window);
+</span></span><span style="display:flex;"><span>                    options.QueueLimit = rateLimiter.QueueLimit;
+</span></span><span style="display:flex;"><span>                }));
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>I wish I could say it all worked splendidly on the first try. The API was
 running fine, but it was not rate-limited. It looked like the middleware was
 not being invoked, or it somehow failed miserably and silently. After an
 embarrassingly long time, I figured out the problem: <code>UseRateLimiter</code>
 <em>must</em> be called after <code>UseRouting</code>.</p>
 <p>Before:</p>
-<pre tabindex="0"><code>app.UseRateLimiter();
-app.UseRouting();
-app.UseEndpoints(endpoints =&gt; { endpoints
-    .MapControllers().RequireRateLimiting(&#34;fixed&#34;); });
-</code></pre><p>After:</p>
-<pre tabindex="0"><code>app.UseRouting();
-app.UseRateLimiter();
-app.UseEndpoints(endpoints =&gt; { endpoints.MapControllers()
-    .RequireRateLimiting(&#34;fixed&#34;); });
-</code></pre><p>Simply switching two lines saved the day. I looked high and low but could not
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>app.UseRateLimiter();
+</span></span><span style="display:flex;"><span>app.UseRouting();
+</span></span><span style="display:flex;"><span>app.UseEndpoints(endpoints =&gt; { endpoints
+</span></span><span style="display:flex;"><span>    .MapControllers().RequireRateLimiting(&#34;fixed&#34;); });
+</span></span></code></pre></div><p>After:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>app.UseRouting();
+</span></span><span style="display:flex;"><span>app.UseRateLimiter();
+</span></span><span style="display:flex;"><span>app.UseEndpoints(endpoints =&gt; { endpoints.MapControllers()
+</span></span><span style="display:flex;"><span>    .RequireRateLimiting(&#34;fixed&#34;); });
+</span></span></code></pre></div><p>Simply switching two lines saved the day. I looked high and low but could not
 find any reference to this requirement. If intended, it should be mentioned in
 the documentation. If it is a bug, it should be fixed (and I should
 probably open at ticket about it.)</p>
@@ -449,38 +449,38 @@ mandatory to instruct clients on what to do next.</li>
 <p>Luckily, the rate-limiting middleware allows for ample customization. On
 defining our policy, we can attach a custom function to the <code>OnRejected</code> event.
 The code below is updated to address both issues above:</p>
-<pre tabindex="0"><code>public static class ServicesConfiguration
-{
-    public static void ConfigureRateLimit(this IServiceCollection services, 
-        IConfiguration configuration) {
-
-        var rateLimiter = new RateLimiter();
-        configuration.GetSection(&#34;RateLimiter&#34;).Bind(rateLimiter);
-        
-        services.AddRateLimiter(x =&gt; 
-            x.AddFixedWindowLimiter(
-                    policyName: &#34;fixed&#34;, options =&gt; {
-                        options.PermitLimit = rateLimiter.PermitLimit;
-                        options.Window = TimeSpan.FromSeconds(rateLimiter.Window);
-                        options.QueueLimit = rateLimiter.QueueLimit;
-                    })
-
-                // new code here:
-                .OnRejected = (context, _) =&gt; {
-
-                // inject Retry-After header (too much line wrapping, I know)
-                if (context.Lease.TryGetMetadata(MetadataName.RetryAfter, 
-                    out var retryAfter)) {
-                    context.HttpContext.Response.Headers.RetryAfter =
-                        ((int) retryAfter.TotalSeconds).ToString();
-                }
-                // return a different status code
-                context.HttpContext.Response.StatusCode = 
-                    StatusCodes.Status429TooManyRequests;
-                return new();
-            });
-    }
-</code></pre><p>And that&rsquo;s all there is to it. I dropped the AspNetCoreRateLimiting dependency.
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>public <span style="font-weight:bold">static</span> <span style="font-weight:bold">class</span> ServicesConfiguration
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    public <span style="font-weight:bold">static</span> void ConfigureRateLimit(this IServiceCollection services, 
+</span></span><span style="display:flex;"><span>        IConfiguration configuration) {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">var</span> rateLimiter = new RateLimiter();
+</span></span><span style="display:flex;"><span>        configuration.GetSection(<span style="font-style:italic">&#34;RateLimiter&#34;</span>).Bind(rateLimiter);
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        services.AddRateLimiter(x =&gt; 
+</span></span><span style="display:flex;"><span>            x.AddFixedWindowLimiter(
+</span></span><span style="display:flex;"><span>                    policyName: <span style="font-style:italic">&#34;fixed&#34;</span>, options =&gt; {
+</span></span><span style="display:flex;"><span>                        options.PermitLimit = rateLimiter.PermitLimit;
+</span></span><span style="display:flex;"><span>                        options.Window = TimeSpan.FromSeconds(rateLimiter.Window);
+</span></span><span style="display:flex;"><span>                        options.QueueLimit = rateLimiter.QueueLimit;
+</span></span><span style="display:flex;"><span>                    })
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                // new code here:
+</span></span><span style="display:flex;"><span>                .OnRejected = (context, _) =&gt; {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                // inject Retry-After header (too much line wrapping, I know)
+</span></span><span style="display:flex;"><span>                <span style="font-weight:bold">if</span> (context.Lease.TryGetMetadata(MetadataName.RetryAfter, 
+</span></span><span style="display:flex;"><span>                    out <span style="font-weight:bold">var</span> retryAfter)) {
+</span></span><span style="display:flex;"><span>                    context.HttpContext.Response.Headers.RetryAfter =
+</span></span><span style="display:flex;"><span>                        ((<span style="font-weight:bold">int</span>) retryAfter.TotalSeconds).ToString();
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>                // <span style="font-weight:bold">return</span> a different status code
+</span></span><span style="display:flex;"><span>                context.HttpContext.Response.StatusCode = 
+</span></span><span style="display:flex;"><span>                    StatusCodes.Status429TooManyRequests;
+</span></span><span style="display:flex;"><span>                <span style="font-weight:bold">return</span> new();
+</span></span><span style="display:flex;"><span>            });
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>And that&rsquo;s all there is to it. I dropped the AspNetCoreRateLimiting dependency.
 That is one great piece of software, and I am grateful to its author Stefan
 Prodan and his contributors. As mentioned in [My Top 7 New Features in .NET
 7][3], they recently released a package that allows using Redis as a
@@ -584,35 +584,35 @@ right from start.</p>
 <p>In C# 11, wrapping a string with triple-double-quotes makes it a [raw
 literal][5]. Its main benefits are that no escaping of double-quotes is
 necessary, and newlines are allowed within the string.</p>
-<pre tabindex="0"><code>var xml = &#34;&#34;&#34;
-          &lt;element attr=&#34;content&#34;&gt;
-            &lt;body&gt;
-            &lt;/body&gt;
-          &lt;/element&gt;
-          &#34;&#34;&#34;;
-</code></pre><p>The code looks natural, and no runtime costs for specialized string
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">var</span> xml = <span style="font-style:italic">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">          &lt;element attr=&#34;content&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">            &lt;body&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">            &lt;/body&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">          &lt;/element&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">          &#34;&#34;&#34;</span>;
+</span></span></code></pre></div><p>The code looks natural, and no runtime costs for specialized string
 manipulation are required. One caveat is that string literals naturally remove
 the indentation when producing the final literal value. The snippet above
 prints as:</p>
-<pre tabindex="0"><code>&lt;element attr=&#34;content&#34;&gt;
-  &lt;body&gt;
-  &lt;/body&gt;
-&lt;/element&gt;
-</code></pre><p>We can disable indentation removal like so:</p>
-<pre tabindex="0"><code>var xml = &#34;&#34;&#34;
-          &lt;element attr=&#34;content&#34;&gt;
-            &lt;body&gt;
-            &lt;/body&gt;
-          &lt;/element&gt;
-&#34;&#34;&#34;;
-</code></pre><p>String interpolation is also supported:</p>
-<pre tabindex="0"><code>var json = $$&#34;&#34;&#34;
-             {
-                &#34;summary&#34;: &#34;text&#34;,
-                &#34;length&#34; : {{value.Length}},
-             };
-             &#34;&#34;&#34;
-</code></pre><p>In hindsight, like the <code>required</code> modifier, raw string literals appear as
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&lt;element attr=&#34;content&#34;&gt;
+</span></span><span style="display:flex;"><span>  &lt;body&gt;
+</span></span><span style="display:flex;"><span>  &lt;/body&gt;
+</span></span><span style="display:flex;"><span>&lt;/element&gt;
+</span></span></code></pre></div><p>We can disable indentation removal like so:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">var</span> xml = <span style="font-style:italic">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">          &lt;element attr=&#34;content&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">            &lt;body&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">            &lt;/body&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">          &lt;/element&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">&#34;&#34;&#34;</span>;
+</span></span></code></pre></div><p>String interpolation is also supported:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">var</span> json = $$<span style="font-style:italic">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">             {
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">                &#34;summary&#34;: &#34;text&#34;,
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">                &#34;length&#34; : {{value.Length}},
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">             };
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">             &#34;&#34;&#34;</span>
+</span></span></code></pre></div><p>In hindsight, like the <code>required</code> modifier, raw string literals appear as
 obvious.</p>
 <h2 id="4-built-in-container-support">4. Built-in container support</h2>
 <p>.NET 7 has [built-in container support][6], meaning that <code>dotnet publish</code> can
@@ -626,8 +626,8 @@ a package reference.</li>
 </ul>
 <p>In my demo, I had a small console application that I published to a docker
 image by simply issuing the following command:</p>
-<pre tabindex="0"><code>$ dotnet publish --os linux --arch x64 /t:PublishContainer -c Release
-</code></pre><p>I did not mention a Dockerfile, and that&rsquo;s because it is not needed anymore.
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ dotnet publish --os linux --arch x64 /t:PublishContainer -c Release
+</span></span></code></pre></div><p>I did not mention a Dockerfile, and that&rsquo;s because it is not needed anymore.
 All my projects deploy to docker containers and are already migrated to .NET 7.
 I&rsquo;m currently using Dockerfiles, but I&rsquo;ll be experimenting with this
 alternative in the coming weeks, both with builds and remote CI builds.</p>
@@ -639,8 +639,8 @@ and provides fast startup time and a small, self-contained deployment.</p>
 <code>.csproj</code>, and then the <code>dotnet publish -c Release</code> command produced a
 single-file, macOS native executable. You can set the destination platform at
 build-time like so:</p>
-<pre tabindex="0"><code>$ dotnet publish -r win-x64 -c Release
-</code></pre><p>Native AOT will be determinant in a number of use cases, like
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ dotnet publish -r win-x64 -c Release
+</span></span></code></pre></div><p>Native AOT will be determinant in a number of use cases, like
 multi-cloud-deployments, lambda functions, and, in general, hyper-scale
 services. ASP.NET Core is currently not supported, so we&rsquo;re limited to console
 apps.</p>
@@ -1234,21 +1234,21 @@ a dictionary of strings, <code>null</code> is returned on a missing key. That is
 ok in most cases. Howewer, if your logic requires a custom default value
 instead, then you are out of luck. You have to set it yourself on <code>TryGetValue</code>
 failure. A typical implementation would be:</p>
-<pre tabindex="0"><code>    var result = MyDictionary.TryGetValue(&#34;key&#34;, var out value) 
-        ? value
-        : &#34;not found&#34;;
-</code></pre><p>It is a minor annoyance but still a hassle. Our solution has always been
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    <span style="font-weight:bold">var</span> result = MyDictionary.TryGetValue(<span style="font-style:italic">&#34;key&#34;</span>, <span style="font-weight:bold">var</span> out value) 
+</span></span><span style="display:flex;"><span>        <span style="">?</span> value
+</span></span><span style="display:flex;"><span>        : <span style="font-style:italic">&#34;not found&#34;</span>;
+</span></span></code></pre></div><p>It is a minor annoyance but still a hassle. Our solution has always been
 a homemade <code>GetValueOrDefault</code> extension method, something like this:</p>
-<pre tabindex="0"><code>    public static TValue GetValueOrDefault&lt;TKey, TValue&gt; 
-        (this IDictionary&lt;TKey, TValue&gt; dictionary, TKey key, TValue defaultValue)
-    {
-        return dictionary.TryGetValue(key, var out value) 
-            ? value
-            : defaultValue;
-    }
-</code></pre><p>Usage:</p>
-<pre tabindex="0"><code>    var result = MyDictionary.GetValueOrDefault(&#34;key&#34;, &#34;not found&#34;);
-</code></pre><p>We&rsquo;ve been using it since forever, and we are still using it even in recent
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    public <span style="font-weight:bold">static</span> TValue GetValueOrDefault&lt;TKey, TValue&gt; 
+</span></span><span style="display:flex;"><span>        (this IDictionary&lt;TKey, TValue&gt; dictionary, TKey key, TValue defaultValue)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">return</span> dictionary.TryGetValue(key, <span style="font-weight:bold">var</span> out value) 
+</span></span><span style="display:flex;"><span>            <span style="">?</span> value
+</span></span><span style="display:flex;"><span>            : defaultValue;
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>Usage:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    <span style="font-weight:bold">var</span> result = MyDictionary.GetValueOrDefault(<span style="font-style:italic">&#34;key&#34;</span>, <span style="font-style:italic">&#34;not found&#34;</span>);
+</span></span></code></pre></div><p>We&rsquo;ve been using it since forever, and we are still using it even in recent
 projects.</p>
 <p>Today, as I was looking at something only tangentially related, I learned that
 our extension method is obsolete, and it&rsquo;s been for a while. NetStandard

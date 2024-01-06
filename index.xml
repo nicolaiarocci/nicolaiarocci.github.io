@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Fri, 05 Jan 2024 12:08:08 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jan 2024 09:34:16 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccolo Libro di MongoDB</title>
@@ -722,6 +722,45 @@ go &ndash; T.S. Eliot</p>
 ]]></content:encoded>
     </item>
     <item>
+      <title>How to use bash to recursively search and replace a string in all directory files</title>
+      <link>https://nicolaiarocci.com/how-to-use-bash-to-recursively-search-and-replace-a-string-in-all-directory-files/</link>
+      <pubDate>Sat, 06 Jan 2024 09:34:16 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/how-to-use-bash-to-recursively-search-and-replace-a-string-in-all-directory-files/</guid>
+      <description>Another achievement I unlocked with the recent website update is the newsletter switch from Substack to a fantastic and independent provider, Buttondown. That required updating all the &amp;ldquo;subscribe to my newsletter&amp;rdquo; links. We&amp;rsquo;re talking 5K posts, all saved as individual files in the same directory. The bash command that did that for me is:
+find content/post/*.md -type f -exec \ sed -i .bak &amp;#39;s|https://nicolaiarocci.substack.com|https://buttondown.email/nicolaiarocci|g&amp;#39; {} + It is pretty straightforward. find looks for all markdown files in the content/post/ directory.</description>
+      <content:encoded><![CDATA[<p>Another achievement I unlocked with the <a href="/new-website-finally-with-no-analytics/">recent website
+update</a> is the newsletter switch from Substack to
+a fantastic and independent provider,
+<a href="https://buttondown.email/refer/nicolaiarocci">Buttondown</a>. That required
+updating all the &ldquo;subscribe to my newsletter&rdquo; links. We&rsquo;re talking 5K posts, all
+saved as individual files in the same directory. The bash command that did that
+for me is:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>find content/post/*.md -type f -exec <span style="font-weight:bold;font-style:italic">\
+</span></span></span><span style="display:flex;"><span><span style="font-weight:bold;font-style:italic"></span>    sed -i .bak <span style="font-style:italic">&#39;s|https://nicolaiarocci.substack.com|https://buttondown.email/nicolaiarocci|g&#39;</span> {} +
+</span></span></code></pre></div><p>It is pretty straightforward. <code>find</code> looks for all markdown files in the
+<code>content/post/</code> directory. On each file, <code>sed</code> performs a search-and-replace
+action. Notice that I use <code>|</code> instead of the standard <code>/</code> as a separator for the
+search-and-replace pattern , and that&rsquo;s because the pattern itself has <code>/</code>s in
+the URLs so I need to differentiate. Also, on macOS, the <code>-i</code> parameter requires
+a backup file argument (&quot;*.bak&quot;) to make a backup copy before the update. This
+argument is unnecessary in newer sed versions and will perform an in-place
+update if not provided.</p>
+<p>Later, I realized I would be better off if I removed the call to action from my
+posts and added it to the footer template instead. That way, I&rsquo;d only have one
+place to edit or update it in the future, and my RSS feed (and newsletter
+updates,  as they draw from the RSS feed) would be clean of unnecessary spam. In
+hindsight, this a move I could&rsquo;ve made many years ago (2010?) when I installed
+Hugo for the first time, but hey, better late than never. But how could I delete
+calls to action from all my 5K posts? With a variation of the above command, of
+course:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>find content/post/*.md -type f -exec sed -i .bak <span style="font-style:italic">&#39;/*Subscribe to.*$/,$d&#39;</span> {} +
+</span></span></code></pre></div><p>It is the same logic as above, but we&rsquo;re replacing the matched string with a
+&ldquo;delete all lines till the end of the file&rdquo; pattern this time. I must admit that
+this one was trickier to pull off and required a discrete amount of trial and
+error.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Quoting Jason Fried</title>
       <link>https://nicolaiarocci.com/quoting-jason-fried/</link>
       <pubDate>Fri, 05 Jan 2024 12:08:08 +0100</pubDate>
@@ -1295,37 +1334,37 @@ await using var sw = new StringWriter(); await using var w = XmlWriter.Create(sw
 &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-16&amp;#34;?&amp;gt;&amp;lt;... There&amp;rsquo;s nothing inherently wrong with UTF-16, but XML is usually UTF-8, so one must do something about it.</description>
       <content:encoded><![CDATA[<p>Today, I (re)learned how to serialize an XML to a UTF-8 string. Like all the other times I did this, I got backstabbed
 by StringWriter, which only supports UTF-16. A simple code snippet like this:</p>
-<pre tabindex="0"><code>    await using var sw = new StringWriter();
-    await using var w = XmlWriter.Create(sw, new() { Async = true });
-    ...
-    await w.FlushAsync();
-    return sw.ToString();
-</code></pre><p>Will emit this output:</p>
-<pre tabindex="0"><code>    &lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-16&#34;?&gt;&lt;...
-</code></pre><p>There&rsquo;s nothing inherently wrong with UTF-16, but XML is usually UTF-8, so one must do something about it. StringWriter
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> sw = new StringWriter();
+</span></span><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> w = XmlWriter.Create(sw, new() { Async = true });
+</span></span><span style="display:flex;"><span>    ...
+</span></span><span style="display:flex;"><span>    await w.FlushAsync();
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> sw.ToString();
+</span></span></code></pre></div><p>Will emit this output:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    &lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-16&#34;?&gt;&lt;...
+</span></span></code></pre></div><p>There&rsquo;s nothing inherently wrong with UTF-16, but XML is usually UTF-8, so one must do something about it. StringWriter
 exposes an <code>Encoding</code> property, but it is read-only for unknown reasons. One might think that given that the XmlWriter
 allows setting its own <code>Encoding</code> value, something like this would work:</p>
-<pre tabindex="0"><code>    await using var sw = new StringWriter();
-    await using var w = XmlWriter.Create(sw, 
-        new() { Async = true , Encoding = Encoding.UTF8});
-    ...
-    await w.FlushAsync();
-    return sw.ToString();
-</code></pre><p>But it doesn’t. Over time, I’ve seen a few different ways to get out of this dead end, some more performant and or less
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> sw = new StringWriter();
+</span></span><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> w = XmlWriter.Create(sw, 
+</span></span><span style="display:flex;"><span>        new() { Async = true , Encoding = Encoding.UTF8});
+</span></span><span style="display:flex;"><span>    ...
+</span></span><span style="display:flex;"><span>    await w.FlushAsync();
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> sw.ToString();
+</span></span></code></pre></div><p>But it doesn’t. Over time, I’ve seen a few different ways to get out of this dead end, some more performant and or less
 verbose than others, but my favorite is resorting to a custom StringWriter:</p>
-<pre tabindex="0"><code>    public class Utf8StringWriter : StringWriter
-    {
-        public override Encoding Encoding =&gt; Encoding.UTF8;
-    }
-</code></pre><p>Armed with this, it is trivial, as it should have been from the get-go, to obtain the desired output:</p>
-<pre tabindex="0"><code>    await using var sw = new Utf8StringWriter();
-    await using var w = XmlWriter.Create(sw, new() { Async = true });
-    ...
-    await w.FlushAsync();
-    return sw.ToString();
-
-    // returns  &lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;&lt;...
-</code></pre><p>The whole .NET framework has seen fantastic performance improvements, top-class multi-platform support, and remarkable
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    public class Utf8StringWriter : StringWriter
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        public override Encoding Encoding =&gt; Encoding.UTF8;
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>Armed with this, it is trivial, as it should have been from the get-go, to obtain the desired output:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> sw = new Utf8StringWriter();
+</span></span><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> w = XmlWriter.Create(sw, new() { Async = true });
+</span></span><span style="display:flex;"><span>    ...
+</span></span><span style="display:flex;"><span>    await w.FlushAsync();
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">return</span> sw.ToString();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    // returns  &lt;<span style="">?</span>xml version=<span style="font-style:italic">&#34;1.0&#34;</span> encoding=<span style="font-style:italic">&#34;utf-8&#34;</span><span style="">?</span>&gt;&lt;...
+</span></span></code></pre></div><p>The whole .NET framework has seen fantastic performance improvements, top-class multi-platform support, and remarkable
 streamlining, but some baffling pitfalls are still hidden in some of its less obvious parts. StringWriter not supporting
 UTF-8 out-of-the-box is one of them.</p>
 ]]></content:encoded>
@@ -1353,20 +1392,20 @@ sequence according to a specified key selector function.</p>
 <p>.NET 6 and its successors have the method [built in][1] within LINQ, but I needed it in a .NET Standard 2.0 class
 library, so I was out of luck. My implementation is simple, not different from [others][2] I found online, and should
 also work fine with old .NET releases. Here it is:</p>
-<pre tabindex="0"><code>    public static IEnumerable&lt;TSource&gt; DistinctBy&lt;TSource, TKey&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; keySelector)
-    {
-        var keys = new HashSet&lt;TKey&gt;();
-        foreach (var element in source)
-        {
-            if (keys.Contains(keySelector(element))) continue;
-            keys.Add(keySelector(element));
-            yield return element;
-        }
-    }
-</code></pre><p>In the following usage example, I will get back all unique objects from the original sequence, distinct by their Name
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    public <span style="font-weight:bold">static</span> IEnumerable&lt;TSource&gt; DistinctBy&lt;TSource, TKey&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; keySelector)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">var</span> keys = new HashSet&lt;TKey&gt;();
+</span></span><span style="display:flex;"><span>        foreach (<span style="font-weight:bold">var</span> element <span style="font-weight:bold">in</span> source)
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="font-weight:bold">if</span> (keys.Contains(keySelector(element))) <span style="font-weight:bold">continue</span>;
+</span></span><span style="display:flex;"><span>            keys.Add(keySelector(element));
+</span></span><span style="display:flex;"><span>            yield <span style="font-weight:bold">return</span> element;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>In the following usage example, I will get back all unique objects from the original sequence, distinct by their Name
 property:</p>
-<pre tabindex="0"><code>    var uniques = mySequenceOfObjects.DistinctBy(x =&gt; x.Name);
-</code></pre><p>I later went to check the [official .NET 6+ implementation][3]. They support an optional equality comparer , which I
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    <span style="font-weight:bold">var</span> uniques = mySequenceOfObjects.DistinctBy(x =&gt; x.Name);
+</span></span></code></pre></div><p>I later went to check the [official .NET 6+ implementation][3]. They support an optional equality comparer , which I
 don&rsquo;t need, but their base implementation is similar to mine (they use deferred execution as well).</p>
 <p>By the way, years after its open-sourcing, I still get thrills when I realize I can always look at, let alone contribute
 to, the .NET source code.</p>
@@ -1449,15 +1488,15 @@ the default remote-shell&rsquo;s path (e.g. &ndash;rsync-path=/usr/local/bin/rsy
 </blockquote>
 <p>The example caught my attention. I could perhaps leverage this option to perform a user switch before executing rsync
 (now performed on the remote machine). As further research confirmed, it [can be done][2]:</p>
-<pre tabindex="0"><code>rsync --rsync-path &#39;sudo -u backup rsync&#39; -a --delete host:source destination
-</code></pre><p>It didn&rsquo;t work immediately because my user was not a sudoer, but that was an easy fix:</p>
-<pre tabindex="0"><code>cat &gt; /etc/sudoers.d/myuser &lt;&lt; EOF
-myuser ALL=(ALL) NOPASSWD:/usr/bin/rsync
-EOF
-</code></pre><p>As you can see, not only must the user be a sudoer, but it also needs to be able to sudo with no password. One last
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>rsync --rsync-path &#39;sudo -u backup rsync&#39; -a --delete host:source destination
+</span></span></code></pre></div><p>It didn&rsquo;t work immediately because my user was not a sudoer, but that was an easy fix:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>cat &gt; /etc/sudoers.d/myuser &lt;&lt; EOF
+</span></span><span style="display:flex;"><span>myuser ALL=(ALL) NOPASSWD:/usr/bin/rsync
+</span></span><span style="display:flex;"><span>EOF
+</span></span></code></pre></div><p>As you can see, not only must the user be a sudoer, but it also needs to be able to sudo with no password. One last
 minor issue was that &lsquo;backup&rsquo;, being a service user, had no shell access. That was another easy fix:</p>
-<pre tabindex="0"><code>sudo usermod -s /bin/bash backup
-</code></pre><p>Now my rsync-with-a-different-user command works like a charm. I do have some mild security concerns, though. My user is
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo usermod -s /bin/bash backup
+</span></span></code></pre></div><p>Now my rsync-with-a-different-user command works like a charm. I do have some mild security concerns, though. My user is
 a sudoer (can only sudo rsync, though[^3]), and &lsquo;backup&rsquo; now has shell access. As password logins are turned off, and
 SSH keys-only access is allowed to the machine (and I&rsquo;m the only person holding those keys), everything&rsquo;s still
 reasonably safe. Are there better ways? Please let me know.</p>
@@ -1536,11 +1575,11 @@ events = Events(tuple(f&amp;#34;on_{i}&amp;#34; for i in range(5))) for i in ran
       <content:encoded><![CDATA[<p>Today I released <a href="https://pypi.org/project/Events/0.5/">Events 0.5</a>. Thanks to <a href="https://github.com/CaileanMParker">Cailean
 Parker</a>&rsquo;s contribution, we added support for the <code>__getitem__</code> dunder (aka Python
 magic method.) This allows the calling of events from strings, thus enabling dynamic events. For instance:</p>
-<pre tabindex="0"><code>events = Events(tuple(f&#34;on_{i}&#34; for i in range(5)))
-
-for i in range(5):
-    events[f&#34;on_{i}&#34;](i)
-</code></pre><p>The C# language provides a handy way to declare, subscribe to and fire events. In C#, an event is a &ldquo;slot&rdquo; to which
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>events = Events(tuple(f&#34;on_{i}&#34; for i in range(5)))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>for i in range(5):
+</span></span><span style="display:flex;"><span>    events[f&#34;on_{i}&#34;](i)
+</span></span></code></pre></div><p>The C# language provides a handy way to declare, subscribe to and fire events. In C#, an event is a &ldquo;slot&rdquo; to which
 callback functions (event handlers) can be attached - a process referred to as subscribing to an event. <em>Events</em> adds
 this mechanism to Python. It originated as a side experiment (I was a C# transfugee then) that I later adopted as an
 <a href="https://github.com/pyeve/eve">Eve</a> dependency. It slowly got some traction besides my projects. Read more on the project&rsquo;s <a href="https://github.com/pyeve/events">GitHub
@@ -1619,23 +1658,23 @@ If you use the Python REPL often, you should check it out. It offers unique feat
 highlighting, readline-like autocomplete, a &ldquo;rewind&rdquo; function to pop the last line of code from memory, auto-indentation
 and more.</p>
 <p>Anyway, today I found a bug in bpython, and that&rsquo;s that Python&rsquo;s <code>decimal.getcontext()</code> does not work with it.</p>
-<pre tabindex="0"><code>bpython version 0.24 on top of Python 3.11.3
-&gt;&gt;&gt; import decimal
-&gt;&gt;&gt; decimal.getcontext().prec = 6
-&gt;&gt;&gt; decimal.Decimal(1) / decimal.Decimal(7)
-Decimal(&#39;0.1428571428571428571428571429&#39;)
-</code></pre><p>If you run the same lines in the standard Python REPL, what you get instead is:</p>
-<pre tabindex="0"><code>bpython version 0.24 on top of Python 3.11.3
-&gt;&gt;&gt; import decimal
-&gt;&gt;&gt; decimal.getcontext().prec = 6
-&gt;&gt;&gt; decimal.Decimal(1) / decimal.Decimal(7)
-Decimal(&#39;0.142857&#39;)
-</code></pre><p>Further experimenting revealed that, as a workaround, setting <code>DefaultContext</code> works as expected:</p>
-<pre tabindex="0"><code>bpython version 0.24 on top of Python 3.11.3
-&gt;&gt;&gt; decimal.DefaultContext.prec = 6
-&gt;&gt;&gt; decimal.Decimal(1) / decimal.Decimal(7)
-Decimal(&#39;0.142857&#39;)
-</code></pre><p>I suspect this has something to do with threads, as <code>decimal.getcontext</code> targets the current thread while
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>bpython version 0.24 on top of Python 3.11.3
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt; import decimal
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt; decimal.getcontext().prec = 6
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt; decimal.Decimal(1) / decimal.Decimal(7)
+</span></span><span style="display:flex;"><span>Decimal(&#39;0.1428571428571428571428571429&#39;)
+</span></span></code></pre></div><p>If you run the same lines in the standard Python REPL, what you get instead is:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>bpython version 0.24 on top of Python 3.11.3
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt; import decimal
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt; decimal.getcontext().prec = 6
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt; decimal.Decimal(1) / decimal.Decimal(7)
+</span></span><span style="display:flex;"><span>Decimal(&#39;0.142857&#39;)
+</span></span></code></pre></div><p>Further experimenting revealed that, as a workaround, setting <code>DefaultContext</code> works as expected:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>bpython version 0.24 on top of Python 3.11.3
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt; decimal.DefaultContext.prec = 6
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt; decimal.Decimal(1) / decimal.Decimal(7)
+</span></span><span style="display:flex;"><span>Decimal(&#39;0.142857&#39;)
+</span></span></code></pre></div><p>I suspect this has something to do with threads, as <code>decimal.getcontext</code> targets the current thread while
 <code>DefaultContext</code> is global. I went to the bpython repository only to find that a ticket was already opened in 2021. I
 [added][2] my <code>DefaultContext</code> observation there.</p>
 ]]></content:encoded>
@@ -1783,22 +1822,22 @@ networkQuality -v Example output:
 measure network performance.</p>
 </blockquote>
 <p>Usage:</p>
-<pre tabindex="0"><code>networkQuality -v
-</code></pre><p>Example output:</p>
-<pre tabindex="0"><code>==== SUMMARY ====
-Uplink capacity: 44.448 Mbps (Accuracy: High)
-Downlink capacity: 162.135 Mbps (Accuracy: High)
-Responsiveness: Low (73 RPM) (Accuracy: High)
-Idle Latency: 50.125 milliseconds (Accuracy: High)
-Interface: en0
-Uplink bytes transferred: 69.921 MB
-Downlink bytes transferred: 278.340 MB
-Uplink Flow count: 16
-Downlink Flow count: 12
-Start: 13/05/2023, 15:04:13
-End: 13/05/2023, 15:04:27
-OS Version: Version 13.3.1 (a) (Build 22E772610a)
-</code></pre><p>It supports Apple&rsquo;s Private Relay, offers some configuration options and allows setting up your own server. More info
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>networkQuality -v
+</span></span></code></pre></div><p>Example output:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>==== SUMMARY ====
+</span></span><span style="display:flex;"><span>Uplink capacity: 44.448 Mbps (Accuracy: High)
+</span></span><span style="display:flex;"><span>Downlink capacity: 162.135 Mbps (Accuracy: High)
+</span></span><span style="display:flex;"><span>Responsiveness: Low (73 RPM) (Accuracy: High)
+</span></span><span style="display:flex;"><span>Idle Latency: 50.125 milliseconds (Accuracy: High)
+</span></span><span style="display:flex;"><span>Interface: en0
+</span></span><span style="display:flex;"><span>Uplink bytes transferred: 69.921 MB
+</span></span><span style="display:flex;"><span>Downlink bytes transferred: 278.340 MB
+</span></span><span style="display:flex;"><span>Uplink Flow count: 16
+</span></span><span style="display:flex;"><span>Downlink Flow count: 12
+</span></span><span style="display:flex;"><span>Start: 13/05/2023, 15:04:13
+</span></span><span style="display:flex;"><span>End: 13/05/2023, 15:04:27
+</span></span><span style="display:flex;"><span>OS Version: Version 13.3.1 (a) (Build 22E772610a)
+</span></span></code></pre></div><p>It supports Apple&rsquo;s Private Relay, offers some configuration options and allows setting up your own server. More info
 <a href="https://cyberhost.uk/the-hidden-macos-speedtest-tool-networkquality/">here</a>.</p>
 ]]></content:encoded>
     </item>
@@ -2331,99 +2370,99 @@ So far I&rsquo;m delighted with the result. In the process, I learned about seve
 <h3 id="neovim-trouble-with-c-and-omnisharp">Neovim trouble with C# and OmniSharp</h3>
 <p>When I upgraded my old-<em>ish</em> Neovim (I am using nightly builds now), I started getting a weird error on every <code>.cs</code> file
 I loaded:</p>
-<pre tabindex="0"><code>Error executing vim.schedule lua callbaack: /usr/share/[...]/semantic_tokens.lua:342:E5248: Invalid character in group name.
-</code></pre><p>A little investigation revealed that semantic tokens provided by
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Error executing vim.schedule lua callbaack: /usr/share/[...]/semantic_tokens.lua:342:E5248: Invalid character in group name.
+</span></span></code></pre></div><p>A little investigation revealed that semantic tokens provided by
 OmniSharp don&rsquo;t conform to the LSP specification, which triggers the error. I cloned the <em>omnisharp-roslyn</em> repo and dug
 into the code hoping I could offer a quick fix. As it turns out, however, the issue is actually with [Roslyn
 itself][4], not OmniSharp. There are tickets on both the [Neovim][2] and the [OmniSharp][3] repositories, but I fear
 they&rsquo;ll stagnate there as non-relevant (<em>note to self</em>: maybe report the problem to the Roslyn folks? Alternatively,
 propose a patched semantic provider to the <em>omnisharp-roslyn</em> maintainers.)</p>
 <p>Anyway, a quick, hacky, and not future-proof fix is to customize Neovim (LazyVim) configuration like this:</p>
-<pre tabindex="0"><code>-- ~/.config/nvim/lua/plugins/omnisharp.lua (create if needed)
-return {
-  &#34;OmniSharp/omnisharp-vim&#34;,
-  init = function()
-    require(&#34;lazyvim.util&#34;).on_attach(function(client, _)
-      if client.name == &#34;omnisharp&#34; then
-        client.server_capabilities.semanticTokensProvider = {
-          full = vim.empty_dict(),
-          legend = {
-            tokenModifiers = { &#34;static_symbol&#34; },
-            tokenTypes = {
-              &#34;comment&#34;,
-              &#34;excluded_code&#34;,
-              &#34;identifier&#34;,
-              &#34;keyword&#34;,
-              &#34;keyword_control&#34;,
-              &#34;number&#34;,
-              &#34;operator&#34;,
-              &#34;operator_overloaded&#34;,
-              &#34;preprocessor_keyword&#34;,
-              &#34;string&#34;,
-              &#34;whitespace&#34;,
-              &#34;text&#34;,
-              &#34;static_symbol&#34;,
-              &#34;preprocessor_text&#34;,
-              &#34;punctuation&#34;,
-              &#34;string_verbatim&#34;,
-              &#34;string_escape_character&#34;,
-              &#34;class_name&#34;,
-              &#34;delegate_name&#34;,
-              &#34;enum_name&#34;,
-              &#34;interface_name&#34;,
-              &#34;module_name&#34;,
-              &#34;struct_name&#34;,
-              &#34;type_parameter_name&#34;,
-              &#34;field_name&#34;,
-              &#34;enum_member_name&#34;,
-              &#34;constant_name&#34;,
-              &#34;local_name&#34;,
-              &#34;parameter_name&#34;,
-              &#34;method_name&#34;,
-              &#34;extension_method_name&#34;,
-              &#34;property_name&#34;,
-              &#34;event_name&#34;,
-              &#34;namespace_name&#34;,
-              &#34;label_name&#34;,
-              &#34;xml_doc_comment_attribute_name&#34;,
-              &#34;xml_doc_comment_attribute_quotes&#34;,
-              &#34;xml_doc_comment_attribute_value&#34;,
-              &#34;xml_doc_comment_cdata_section&#34;,
-              &#34;xml_doc_comment_comment&#34;,
-              &#34;xml_doc_comment_delimiter&#34;,
-              &#34;xml_doc_comment_entity_reference&#34;,
-              &#34;xml_doc_comment_name&#34;,
-              &#34;xml_doc_comment_processing_instruction&#34;,
-              &#34;xml_doc_comment_text&#34;,
-              &#34;xml_literal_attribute_name&#34;,
-              &#34;xml_literal_attribute_quotes&#34;,
-              &#34;xml_literal_attribute_value&#34;,
-              &#34;xml_literal_cdata_section&#34;,
-              &#34;xml_literal_comment&#34;,
-              &#34;xml_literal_delimiter&#34;,
-              &#34;xml_literal_embedded_expression&#34;,
-              &#34;xml_literal_entity_reference&#34;,
-              &#34;xml_literal_name&#34;,
-              &#34;xml_literal_processing_instruction&#34;,
-              &#34;xml_literal_text&#34;,
-              &#34;regex_comment&#34;,
-              &#34;regex_character_class&#34;,
-              &#34;regex_anchor&#34;,
-              &#34;regex_quantifier&#34;,
-              &#34;regex_grouping&#34;,
-              &#34;regex_alternation&#34;,
-              &#34;regex_text&#34;,
-              &#34;regex_self_escaped_character&#34;,
-              &#34;regex_other_escape&#34;,
-            },
-          },
-          range = true,
-        }
-      end
-    end)
-  end,
-}
-</code></pre><p>It overrides the <code>on_attach</code> event to pass an LSP-digestible list of semantic tokens. And voilà, C# files are now loaded seamlessly.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>-- ~/.config/nvim/lua/plugins/omnisharp.lua (create <span style="font-weight:bold">if</span> needed)
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">return</span> {
+</span></span><span style="display:flex;"><span>  <span style="font-style:italic">&#34;OmniSharp/omnisharp-vim&#34;</span>,
+</span></span><span style="display:flex;"><span>  init = function()
+</span></span><span style="display:flex;"><span>    require(<span style="font-style:italic">&#34;lazyvim.util&#34;</span>).on_attach(function(client, _)
+</span></span><span style="display:flex;"><span>      <span style="font-weight:bold">if</span> client.name == <span style="font-style:italic">&#34;omnisharp&#34;</span> then
+</span></span><span style="display:flex;"><span>        client.server_capabilities.semanticTokensProvider = {
+</span></span><span style="display:flex;"><span>          full = vim.empty_dict(),
+</span></span><span style="display:flex;"><span>          legend = {
+</span></span><span style="display:flex;"><span>            tokenModifiers = { <span style="font-style:italic">&#34;static_symbol&#34;</span> },
+</span></span><span style="display:flex;"><span>            tokenTypes = {
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;comment&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;excluded_code&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;identifier&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;keyword&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;keyword_control&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;number&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;operator&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;operator_overloaded&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;preprocessor_keyword&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;string&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;whitespace&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;text&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;static_symbol&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;preprocessor_text&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;punctuation&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;string_verbatim&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;string_escape_character&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;class_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;delegate_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;enum_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;interface_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;module_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;struct_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;type_parameter_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;field_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;enum_member_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;constant_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;local_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;parameter_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;method_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;extension_method_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;property_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;event_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;namespace_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;label_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_attribute_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_attribute_quotes&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_attribute_value&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_cdata_section&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_comment&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_delimiter&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_entity_reference&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_processing_instruction&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_doc_comment_text&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_attribute_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_attribute_quotes&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_attribute_value&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_cdata_section&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_comment&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_delimiter&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_embedded_expression&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_entity_reference&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_name&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_processing_instruction&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;xml_literal_text&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_comment&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_character_class&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_anchor&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_quantifier&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_grouping&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_alternation&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_text&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_self_escaped_character&#34;</span>,
+</span></span><span style="display:flex;"><span>              <span style="font-style:italic">&#34;regex_other_escape&#34;</span>,
+</span></span><span style="display:flex;"><span>            },
+</span></span><span style="display:flex;"><span>          },
+</span></span><span style="display:flex;"><span>          range = true,
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>      end
+</span></span><span style="display:flex;"><span>    end)
+</span></span><span style="display:flex;"><span>  end,
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>It overrides the <code>on_attach</code> event to pass an LSP-digestible list of semantic tokens. And voilà, C# files are now loaded seamlessly.</p>
 <p>I&rsquo;m not done yet. I&rsquo;m having another [weird issue][5] with <em>.editorconfig</em> files. I&rsquo;m still triaging it, and will report back when (if) I sort it out.</p>
 ]]></content:encoded>
     </item>
@@ -2732,32 +2771,32 @@ init-only setter assigns a value to the property or the indexer element
 the object is initialized, it can&rsquo;t be changed again.</p>
 </blockquote>
 <p>Consider the following class:</p>
-<pre tabindex="0"><code>    public class Person
-    {
-        public string FirstName { get; init; }
-    }
-</code></pre><p>You can initialize it like this:</p>
-<pre tabindex="0"><code>    var person = new Person { FirstName = &#34;John&#34; };
-</code></pre><p>But this will fail:</p>
-<pre tabindex="0"><code>    var person = new Person();
-    person.FirstName = &#34;John&#34;;  //Not allowed
-</code></pre><p>For my project, which is a .NET Standard 2.0 library, I thought this approach
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    public class Person
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        public string FirstName { get; init; }
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>You can initialize it like this:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    <span style="font-weight:bold">var</span> person = new Person { FirstName = <span style="font-style:italic">&#34;John&#34;</span> };
+</span></span></code></pre></div><p>But this will fail:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    <span style="font-weight:bold">var</span> person = new Person();
+</span></span><span style="display:flex;"><span>    person.FirstName = <span style="font-style:italic">&#34;John&#34;</span>;  //Not allowed
+</span></span></code></pre></div><p>For my project, which is a .NET Standard 2.0 library, I thought this approach
 might be preferable to a parameter-enforced class constructor alternative.</p>
 <p>To my surprise, however, when I tried the above, I got the following error:</p>
-<pre tabindex="0"><code>The predefined type &#39;System.Runtime.CompilerServices.IsExternalInit&#39; must be
-defined or imported in order to declare init-only setter
-</code></pre><p>As it [turns out][1], The <code>IsExternalInit</code> type is only included in the net5.0
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>The predefined type &#39;System.Runtime.CompilerServices.IsExternalInit&#39; must be
+</span></span><span style="display:flex;"><span>defined or imported in order to declare init-only setter
+</span></span></code></pre></div><p>As it [turns out][1], The <code>IsExternalInit</code> type is only included in the net5.0
 (and subsequent) target frameworks, so one cannot use it right away in a
 NetStandard 2.0 (or 2.1, for that matter) library.</p>
 <p>In the dotnet world, when I encounter <em>&ldquo;type is not defined in version X&rdquo;</em>
 scenario, I know I can get around the issue by making up the type on my own. A
 quick lookup confirmed that this was the case, and the workaround is to add
 the following somewhere in my source code:</p>
-<pre tabindex="0"><code>    namespace System.Runtime.CompilerServices
-    {
-        internal static class IsExternalInit {}
-    }
-</code></pre><p>And presto, the <code>init</code> keyword is now fully available to my library.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    namespace System.Runtime.CompilerServices
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        internal static class IsExternalInit {}
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>And presto, the <code>init</code> keyword is now fully available to my library.</p>
 <p>While researching this matter, I stumbled into [PolySharp][2],  a lovely
 package that takes this workaround approach to new heights. What is it?</p>
 <blockquote>
@@ -3087,76 +3126,76 @@ a &ldquo;fixed window limiter.&rdquo; It uses a specified time window to limit r
 When the time window expires, a new time window starts, and the request limit
 is reset. Consider the following code (for convenience, I&rsquo;m using an extension
 method):</p>
-<pre tabindex="0"><code>public static void ConfigureRateLimit(this IServiceCollection services)
-{
-    services.AddRateLimiter(x =&gt; 
-        x.AddFixedWindowLimiter(
-                policyName: &#34;fixed&#34;, options =&gt;
-                {
-                    options.PermitLimit 1;
-                    options.Window = TimeSpan.FromSeconds(10);
-                    options.QueueLimit 1;
-                }));
-}
-</code></pre><p>It sets a window of 10 seconds. Within that window, a maximum of one request is
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>public static void ConfigureRateLimit(this IServiceCollection services)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    services.AddRateLimiter(x =&gt; 
+</span></span><span style="display:flex;"><span>        x.AddFixedWindowLimiter(
+</span></span><span style="display:flex;"><span>                policyName: &#34;fixed&#34;, options =&gt;
+</span></span><span style="display:flex;"><span>                {
+</span></span><span style="display:flex;"><span>                    options.PermitLimit 1;
+</span></span><span style="display:flex;"><span>                    options.Window = TimeSpan.FromSeconds(10);
+</span></span><span style="display:flex;"><span>                    options.QueueLimit 1;
+</span></span><span style="display:flex;"><span>                }));
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>It sets a window of 10 seconds. Within that window, a maximum of one request is
 allowed. Exceeding requests will be queued and served at window reset. Notice
 that we defined &ldquo;fixed&rdquo; as the policy name.</p>
 <p>Once our policy is configured, we must instrument the app instance to use the
 rate limiter, then we call <code>RequireRateLimiting</code> on our endpoints:</p>
-<pre tabindex="0"><code>app.UseRouting();  // I&#39;m mentioning this line for good reason, see below
-app.UseRateLimiter();
-app.UseEndpoints(endpoints =&gt; { endpoints.MapControllers()
-    .RequireRateLimiting(&#34;fixed&#34;); });
-</code></pre><p>Nothing else is needed, really, for such a simple scenario. We could be more
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>app.UseRouting();  // I&#39;m mentioning this line for good reason, see below
+</span></span><span style="display:flex;"><span>app.UseRateLimiter();
+</span></span><span style="display:flex;"><span>app.UseEndpoints(endpoints =&gt; { endpoints.MapControllers()
+</span></span><span style="display:flex;"><span>    .RequireRateLimiting(&#34;fixed&#34;); });
+</span></span></code></pre></div><p>Nothing else is needed, really, for such a simple scenario. We could be more
 sophisticated. We could opt for more advanced options, like a &ldquo;sliding windows
 limiter&rdquo; or a &ldquo;bucket token limiter&rdquo;; we could apply rate limiting only to
 specific endpoints or controllers or mix and match these options. I chose to
 ditch hard-coded settings and read them from the configuration file. My
 <em>appsettings.json</em> contains the following (with different vaues):</p>
-<pre tabindex="0"><code>  &#34;RateLimiter&#34;: {
-    &#34;PermitLimit&#34;: 1
-    &#34;Window&#34;: 10,
-    &#34;QueueLimit&#34;: 1
-  }
-</code></pre><p>The <code>RateLimiter</code> class maps the json structure:</p>
-<pre tabindex="0"><code>public class RateLimiter
-{
-    public int PermitLimit { get; set; }
-    public int Window { get; set; }
-    public int QueueLimit { get; set; }
-}
-</code></pre><p>The updated code looks like this:</p>
-<pre tabindex="0"><code>public static void ConfigureRateLimit(this IServiceCollection services, 
-    IConfiguration configuration)
-{
-    var rateLimiter = new RateLimiter();
-    configuration.GetSection(&#34;RateLimiter&#34;).Bind(rateLimiter);
-    
-    services.AddRateLimiter(x =&gt; 
-        x.AddFixedWindowLimiter(
-                policyName: &#34;fixed&#34;, options =&gt;
-                {
-                    options.PermitLimit = rateLimiter.PermitLimit;
-                    options.Window = TimeSpan.FromSeconds(rateLimiter.Window);
-                    options.QueueLimit = rateLimiter.QueueLimit;
-                }));
-}
-</code></pre><p>I wish I could say it all worked splendidly on the first try. The API was
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>  &#34;RateLimiter&#34;: {
+</span></span><span style="display:flex;"><span>    &#34;PermitLimit&#34;: 1
+</span></span><span style="display:flex;"><span>    &#34;Window&#34;: 10,
+</span></span><span style="display:flex;"><span>    &#34;QueueLimit&#34;: 1
+</span></span><span style="display:flex;"><span>  }
+</span></span></code></pre></div><p>The <code>RateLimiter</code> class maps the json structure:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>public class RateLimiter
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    public int PermitLimit { get; set; }
+</span></span><span style="display:flex;"><span>    public int Window { get; set; }
+</span></span><span style="display:flex;"><span>    public int QueueLimit { get; set; }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>The updated code looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>public <span style="font-weight:bold">static</span> void ConfigureRateLimit(this IServiceCollection services, 
+</span></span><span style="display:flex;"><span>    IConfiguration configuration)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">var</span> rateLimiter = new RateLimiter();
+</span></span><span style="display:flex;"><span>    configuration.GetSection(<span style="font-style:italic">&#34;RateLimiter&#34;</span>).Bind(rateLimiter);
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    services.AddRateLimiter(x =&gt; 
+</span></span><span style="display:flex;"><span>        x.AddFixedWindowLimiter(
+</span></span><span style="display:flex;"><span>                policyName: <span style="font-style:italic">&#34;fixed&#34;</span>, options =&gt;
+</span></span><span style="display:flex;"><span>                {
+</span></span><span style="display:flex;"><span>                    options.PermitLimit = rateLimiter.PermitLimit;
+</span></span><span style="display:flex;"><span>                    options.Window = TimeSpan.FromSeconds(rateLimiter.Window);
+</span></span><span style="display:flex;"><span>                    options.QueueLimit = rateLimiter.QueueLimit;
+</span></span><span style="display:flex;"><span>                }));
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>I wish I could say it all worked splendidly on the first try. The API was
 running fine, but it was not rate-limited. It looked like the middleware was
 not being invoked, or it somehow failed miserably and silently. After an
 embarrassingly long time, I figured out the problem: <code>UseRateLimiter</code>
 <em>must</em> be called after <code>UseRouting</code>.</p>
 <p>Before:</p>
-<pre tabindex="0"><code>app.UseRateLimiter();
-app.UseRouting();
-app.UseEndpoints(endpoints =&gt; { endpoints
-    .MapControllers().RequireRateLimiting(&#34;fixed&#34;); });
-</code></pre><p>After:</p>
-<pre tabindex="0"><code>app.UseRouting();
-app.UseRateLimiter();
-app.UseEndpoints(endpoints =&gt; { endpoints.MapControllers()
-    .RequireRateLimiting(&#34;fixed&#34;); });
-</code></pre><p>Simply switching two lines saved the day. I looked high and low but could not
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>app.UseRateLimiter();
+</span></span><span style="display:flex;"><span>app.UseRouting();
+</span></span><span style="display:flex;"><span>app.UseEndpoints(endpoints =&gt; { endpoints
+</span></span><span style="display:flex;"><span>    .MapControllers().RequireRateLimiting(&#34;fixed&#34;); });
+</span></span></code></pre></div><p>After:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>app.UseRouting();
+</span></span><span style="display:flex;"><span>app.UseRateLimiter();
+</span></span><span style="display:flex;"><span>app.UseEndpoints(endpoints =&gt; { endpoints.MapControllers()
+</span></span><span style="display:flex;"><span>    .RequireRateLimiting(&#34;fixed&#34;); });
+</span></span></code></pre></div><p>Simply switching two lines saved the day. I looked high and low but could not
 find any reference to this requirement. If intended, it should be mentioned in
 the documentation. If it is a bug, it should be fixed (and I should
 probably open at ticket about it.)</p>
@@ -3176,38 +3215,38 @@ mandatory to instruct clients on what to do next.</li>
 <p>Luckily, the rate-limiting middleware allows for ample customization. On
 defining our policy, we can attach a custom function to the <code>OnRejected</code> event.
 The code below is updated to address both issues above:</p>
-<pre tabindex="0"><code>public static class ServicesConfiguration
-{
-    public static void ConfigureRateLimit(this IServiceCollection services, 
-        IConfiguration configuration) {
-
-        var rateLimiter = new RateLimiter();
-        configuration.GetSection(&#34;RateLimiter&#34;).Bind(rateLimiter);
-        
-        services.AddRateLimiter(x =&gt; 
-            x.AddFixedWindowLimiter(
-                    policyName: &#34;fixed&#34;, options =&gt; {
-                        options.PermitLimit = rateLimiter.PermitLimit;
-                        options.Window = TimeSpan.FromSeconds(rateLimiter.Window);
-                        options.QueueLimit = rateLimiter.QueueLimit;
-                    })
-
-                // new code here:
-                .OnRejected = (context, _) =&gt; {
-
-                // inject Retry-After header (too much line wrapping, I know)
-                if (context.Lease.TryGetMetadata(MetadataName.RetryAfter, 
-                    out var retryAfter)) {
-                    context.HttpContext.Response.Headers.RetryAfter =
-                        ((int) retryAfter.TotalSeconds).ToString();
-                }
-                // return a different status code
-                context.HttpContext.Response.StatusCode = 
-                    StatusCodes.Status429TooManyRequests;
-                return new();
-            });
-    }
-</code></pre><p>And that&rsquo;s all there is to it. I dropped the AspNetCoreRateLimiting dependency.
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>public <span style="font-weight:bold">static</span> <span style="font-weight:bold">class</span> ServicesConfiguration
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    public <span style="font-weight:bold">static</span> void ConfigureRateLimit(this IServiceCollection services, 
+</span></span><span style="display:flex;"><span>        IConfiguration configuration) {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">var</span> rateLimiter = new RateLimiter();
+</span></span><span style="display:flex;"><span>        configuration.GetSection(<span style="font-style:italic">&#34;RateLimiter&#34;</span>).Bind(rateLimiter);
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        services.AddRateLimiter(x =&gt; 
+</span></span><span style="display:flex;"><span>            x.AddFixedWindowLimiter(
+</span></span><span style="display:flex;"><span>                    policyName: <span style="font-style:italic">&#34;fixed&#34;</span>, options =&gt; {
+</span></span><span style="display:flex;"><span>                        options.PermitLimit = rateLimiter.PermitLimit;
+</span></span><span style="display:flex;"><span>                        options.Window = TimeSpan.FromSeconds(rateLimiter.Window);
+</span></span><span style="display:flex;"><span>                        options.QueueLimit = rateLimiter.QueueLimit;
+</span></span><span style="display:flex;"><span>                    })
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                // new code here:
+</span></span><span style="display:flex;"><span>                .OnRejected = (context, _) =&gt; {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                // inject Retry-After header (too much line wrapping, I know)
+</span></span><span style="display:flex;"><span>                <span style="font-weight:bold">if</span> (context.Lease.TryGetMetadata(MetadataName.RetryAfter, 
+</span></span><span style="display:flex;"><span>                    out <span style="font-weight:bold">var</span> retryAfter)) {
+</span></span><span style="display:flex;"><span>                    context.HttpContext.Response.Headers.RetryAfter =
+</span></span><span style="display:flex;"><span>                        ((<span style="font-weight:bold">int</span>) retryAfter.TotalSeconds).ToString();
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>                // <span style="font-weight:bold">return</span> a different status code
+</span></span><span style="display:flex;"><span>                context.HttpContext.Response.StatusCode = 
+</span></span><span style="display:flex;"><span>                    StatusCodes.Status429TooManyRequests;
+</span></span><span style="display:flex;"><span>                <span style="font-weight:bold">return</span> new();
+</span></span><span style="display:flex;"><span>            });
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>And that&rsquo;s all there is to it. I dropped the AspNetCoreRateLimiting dependency.
 That is one great piece of software, and I am grateful to its author Stefan
 Prodan and his contributors. As mentioned in [My Top 7 New Features in .NET
 7][3], they recently released a package that allows using Redis as a
@@ -3494,35 +3533,35 @@ right from start.</p>
 <p>In C# 11, wrapping a string with triple-double-quotes makes it a [raw
 literal][5]. Its main benefits are that no escaping of double-quotes is
 necessary, and newlines are allowed within the string.</p>
-<pre tabindex="0"><code>var xml = &#34;&#34;&#34;
-          &lt;element attr=&#34;content&#34;&gt;
-            &lt;body&gt;
-            &lt;/body&gt;
-          &lt;/element&gt;
-          &#34;&#34;&#34;;
-</code></pre><p>The code looks natural, and no runtime costs for specialized string
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">var</span> xml = <span style="font-style:italic">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">          &lt;element attr=&#34;content&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">            &lt;body&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">            &lt;/body&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">          &lt;/element&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">          &#34;&#34;&#34;</span>;
+</span></span></code></pre></div><p>The code looks natural, and no runtime costs for specialized string
 manipulation are required. One caveat is that string literals naturally remove
 the indentation when producing the final literal value. The snippet above
 prints as:</p>
-<pre tabindex="0"><code>&lt;element attr=&#34;content&#34;&gt;
-  &lt;body&gt;
-  &lt;/body&gt;
-&lt;/element&gt;
-</code></pre><p>We can disable indentation removal like so:</p>
-<pre tabindex="0"><code>var xml = &#34;&#34;&#34;
-          &lt;element attr=&#34;content&#34;&gt;
-            &lt;body&gt;
-            &lt;/body&gt;
-          &lt;/element&gt;
-&#34;&#34;&#34;;
-</code></pre><p>String interpolation is also supported:</p>
-<pre tabindex="0"><code>var json = $$&#34;&#34;&#34;
-             {
-                &#34;summary&#34;: &#34;text&#34;,
-                &#34;length&#34; : {{value.Length}},
-             };
-             &#34;&#34;&#34;
-</code></pre><p>In hindsight, like the <code>required</code> modifier, raw string literals appear as
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&lt;element attr=&#34;content&#34;&gt;
+</span></span><span style="display:flex;"><span>  &lt;body&gt;
+</span></span><span style="display:flex;"><span>  &lt;/body&gt;
+</span></span><span style="display:flex;"><span>&lt;/element&gt;
+</span></span></code></pre></div><p>We can disable indentation removal like so:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">var</span> xml = <span style="font-style:italic">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">          &lt;element attr=&#34;content&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">            &lt;body&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">            &lt;/body&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">          &lt;/element&gt;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">&#34;&#34;&#34;</span>;
+</span></span></code></pre></div><p>String interpolation is also supported:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">var</span> json = $$<span style="font-style:italic">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">             {
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">                &#34;summary&#34;: &#34;text&#34;,
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">                &#34;length&#34; : {{value.Length}},
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">             };
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">             &#34;&#34;&#34;</span>
+</span></span></code></pre></div><p>In hindsight, like the <code>required</code> modifier, raw string literals appear as
 obvious.</p>
 <h2 id="4-built-in-container-support">4. Built-in container support</h2>
 <p>.NET 7 has [built-in container support][6], meaning that <code>dotnet publish</code> can
@@ -3536,8 +3575,8 @@ a package reference.</li>
 </ul>
 <p>In my demo, I had a small console application that I published to a docker
 image by simply issuing the following command:</p>
-<pre tabindex="0"><code>$ dotnet publish --os linux --arch x64 /t:PublishContainer -c Release
-</code></pre><p>I did not mention a Dockerfile, and that&rsquo;s because it is not needed anymore.
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ dotnet publish --os linux --arch x64 /t:PublishContainer -c Release
+</span></span></code></pre></div><p>I did not mention a Dockerfile, and that&rsquo;s because it is not needed anymore.
 All my projects deploy to docker containers and are already migrated to .NET 7.
 I&rsquo;m currently using Dockerfiles, but I&rsquo;ll be experimenting with this
 alternative in the coming weeks, both with builds and remote CI builds.</p>
@@ -3549,8 +3588,8 @@ and provides fast startup time and a small, self-contained deployment.</p>
 <code>.csproj</code>, and then the <code>dotnet publish -c Release</code> command produced a
 single-file, macOS native executable. You can set the destination platform at
 build-time like so:</p>
-<pre tabindex="0"><code>$ dotnet publish -r win-x64 -c Release
-</code></pre><p>Native AOT will be determinant in a number of use cases, like
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ dotnet publish -r win-x64 -c Release
+</span></span></code></pre></div><p>Native AOT will be determinant in a number of use cases, like
 multi-cloud-deployments, lambda functions, and, in general, hyper-scale
 services. ASP.NET Core is currently not supported, so we&rsquo;re limited to console
 apps.</p>
@@ -8204,21 +8243,21 @@ a dictionary of strings, <code>null</code> is returned on a missing key. That is
 ok in most cases. Howewer, if your logic requires a custom default value
 instead, then you are out of luck. You have to set it yourself on <code>TryGetValue</code>
 failure. A typical implementation would be:</p>
-<pre tabindex="0"><code>    var result = MyDictionary.TryGetValue(&#34;key&#34;, var out value) 
-        ? value
-        : &#34;not found&#34;;
-</code></pre><p>It is a minor annoyance but still a hassle. Our solution has always been
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    <span style="font-weight:bold">var</span> result = MyDictionary.TryGetValue(<span style="font-style:italic">&#34;key&#34;</span>, <span style="font-weight:bold">var</span> out value) 
+</span></span><span style="display:flex;"><span>        <span style="">?</span> value
+</span></span><span style="display:flex;"><span>        : <span style="font-style:italic">&#34;not found&#34;</span>;
+</span></span></code></pre></div><p>It is a minor annoyance but still a hassle. Our solution has always been
 a homemade <code>GetValueOrDefault</code> extension method, something like this:</p>
-<pre tabindex="0"><code>    public static TValue GetValueOrDefault&lt;TKey, TValue&gt; 
-        (this IDictionary&lt;TKey, TValue&gt; dictionary, TKey key, TValue defaultValue)
-    {
-        return dictionary.TryGetValue(key, var out value) 
-            ? value
-            : defaultValue;
-    }
-</code></pre><p>Usage:</p>
-<pre tabindex="0"><code>    var result = MyDictionary.GetValueOrDefault(&#34;key&#34;, &#34;not found&#34;);
-</code></pre><p>We&rsquo;ve been using it since forever, and we are still using it even in recent
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    public <span style="font-weight:bold">static</span> TValue GetValueOrDefault&lt;TKey, TValue&gt; 
+</span></span><span style="display:flex;"><span>        (this IDictionary&lt;TKey, TValue&gt; dictionary, TKey key, TValue defaultValue)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">return</span> dictionary.TryGetValue(key, <span style="font-weight:bold">var</span> out value) 
+</span></span><span style="display:flex;"><span>            <span style="">?</span> value
+</span></span><span style="display:flex;"><span>            : defaultValue;
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>Usage:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    <span style="font-weight:bold">var</span> result = MyDictionary.GetValueOrDefault(<span style="font-style:italic">&#34;key&#34;</span>, <span style="font-style:italic">&#34;not found&#34;</span>);
+</span></span></code></pre></div><p>We&rsquo;ve been using it since forever, and we are still using it even in recent
 projects.</p>
 <p>Today, as I was looking at something only tangentially related, I learned that
 our extension method is obsolete, and it&rsquo;s been for a while. NetStandard
@@ -9839,24 +9878,24 @@ response ([source][1]).</p>
 <p>This will be a breaking change if your endpoint is expected to handle large
 uploads. The solution is simple, just decorate your MVC action or controller
 with the <code>RequestSizeLimit</code> attribute, like so:</p>
-<pre tabindex="0"><code>    [HttpPost]
-    [RequestSizeLimit(100_000_000)]
-    public IActionResult MyAction([FromBody] MyViewModel data)
-    {
-</code></pre><p><code>DisableRequestSizeLimit</code> can be used to make request size unlimited. This
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    [HttpPost]
+</span></span><span style="display:flex;"><span>    [RequestSizeLimit(100_000_000)]
+</span></span><span style="display:flex;"><span>    public IActionResult MyAction([FromBody] MyViewModel data)
+</span></span><span style="display:flex;"><span>    {
+</span></span></code></pre></div><p><code>DisableRequestSizeLimit</code> can be used to make request size unlimited. This
 effectively restores pre-2.0.0 behavior for just the attributed action or
 controller. You can also change or disable the limit programmatically, either
 on a per-request basis or globally (see the instructions at this [link][1].)</p>
 <p>In my case, however, disabling the request limit was not enough. Because my
 endpoint is expecting an <code>IFormFile</code> argument, I also had to set the
 <code>RequestFormLimits</code> attribute:</p>
-<pre tabindex="0"><code>    [HttpPost]
-    [DisableRequestSizeLimit,
-    RequestFormLimits(MultipartBodyLengthLimit = int.MaxValue, 
-        ValueLengthLimit = int.MaxValue)]
-    public async Task&lt;ActionResult&gt; BulkAdd(string schema, IFormFile file)
-    {
-</code></pre><p>Please note that all of this happened on a .NET 5 Linux application with
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    [HttpPost]
+</span></span><span style="display:flex;"><span>    [DisableRequestSizeLimit,
+</span></span><span style="display:flex;"><span>    RequestFormLimits(MultipartBodyLengthLimit = int.MaxValue, 
+</span></span><span style="display:flex;"><span>        ValueLengthLimit = int.MaxValue)]
+</span></span><span style="display:flex;"><span>    public async Task&lt;ActionResult&gt; BulkAdd(string schema, IFormFile file)
+</span></span><span style="display:flex;"><span>    {
+</span></span></code></pre></div><p>Please note that all of this happened on a .NET 5 Linux application with
 Kestrel running behind nginx. As pointed out at the link above, if you&rsquo;re
 running behind IIS, then the limit is disabled, and the usual <em>web.config</em>
 limit applies.</p>
@@ -10783,19 +10822,19 @@ functions (event handlers) can be attached to - a process referred to as
 the core to C# event subscription and firing, to make it feel like a natural
 part of the Python language. Not surprisingly, Events is dubbed <em>Python Event
 Handling, the C# Style.</em></p>
-<pre tabindex="0"><code>&gt;&gt;&gt; def something_changed(reason):
-...     print &#34;something changed because %s&#34; % reason
-...
-
-&gt;&gt;&gt; from events import Events
-&gt;&gt;&gt; events = Events()
-&gt;&gt;&gt; events.on_change += something_changed
-</code></pre><p>Multiple callback functions can subscribe to the same event. When the event
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&gt;&gt;&gt; def something_changed(reason):
+</span></span><span style="display:flex;"><span>...     print &#34;something changed because %s&#34; % reason
+</span></span><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt; from events import Events
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt; events = Events()
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt; events.on_change += something_changed
+</span></span></code></pre></div><p>Multiple callback functions can subscribe to the same event. When the event
 fires, all attached event handlers are invoked in sequence. To fire the event,
 perform a call on the slot:</p>
-<pre tabindex="0"><code>&gt;&gt;&gt; events.on_change(&#39;it had to happen&#39;)
-&#39;something changed because it had to happen&#39;
-</code></pre><p>Intrigued? I sure hope so. Check out the <a href="https://github.com/pyeve/events/">Events repository</a> on GitHub.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&gt;&gt;&gt; events.on_change(&#39;it had to happen&#39;)
+</span></span><span style="display:flex;"><span>&#39;something changed because it had to happen&#39;
+</span></span></code></pre></div><p>Intrigued? I sure hope so. Check out the <a href="https://github.com/pyeve/events/">Events repository</a> on GitHub.</p>
 <p><em>Enjoyed this post? Subscribe to the <a href="http://eepurl.com/b-_Pzz">newsletter</a> or follow @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter.</em></p>
 ]]></content:encoded>
     </item>
@@ -11506,18 +11545,18 @@ package also hits v0.4.</p>
 <p>The main new feature is the <code>FromJson()</code> extension method which allows, you
 guessed it, for deserialization of a JSON stream into a <code>Fattura</code> class
 instance:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c#" data-lang="c#"><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="kt">var</span> <span class="n">fattura</span> <span class="p">=</span> <span class="n">Fattura</span><span class="p">.</span><span class="n">CreateInstance</span><span class="p">(</span><span class="n">Instance</span><span class="p">.</span><span class="n">Privati</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="n">fattura</span><span class="p">.</span><span class="n">FromJson</span><span class="p">(</span><span class="k">new</span> <span class="n">JsonTextReader</span><span class="p">(</span><span class="k">new</span> <span class="n">StringReader</span><span class="p">(</span><span class="n">json</span><span class="p">)));</span>
-</span></span><span class="line"><span class="cl">    <span class="c1">// or, if FatturaElettronica.Extensions v0.4 is being used:</span>
-</span></span><span class="line"><span class="cl">    <span class="n">fattura</span><span class="p">.</span><span class="n">FromJson</span><span class="p">(</span><span class="n">json</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1">// Invoice is now ready for inspection.</span>
-</span></span><span class="line"><span class="cl">    <span class="k">foreach</span> <span class="p">(</span><span class="kt">var</span> <span class="n">documento</span> <span class="k">in</span> <span class="n">fattura</span><span class="p">.</span><span class="n">Body</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="kt">var</span> <span class="n">dati</span> <span class="p">=</span> <span class="n">documento</span><span class="p">.</span><span class="n">DatiGenerali</span><span class="p">.</span><span class="n">DatiGeneraliDocumento</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">$&#34;fatt. num. {dati.Numero} del {dati.Data}&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c#" data-lang="c#"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="">var</span> fattura = Fattura.CreateInstance(Instance.Privati);
+</span></span><span style="display:flex;"><span>    fattura.FromJson(<span style="font-weight:bold">new</span> JsonTextReader(<span style="font-weight:bold">new</span> StringReader(json)));
+</span></span><span style="display:flex;"><span>    <span style="font-style:italic">// or, if FatturaElettronica.Extensions v0.4 is being used:</span>
+</span></span><span style="display:flex;"><span>    fattura.FromJson(json);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="font-style:italic">// Invoice is now ready for inspection.</span>
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">foreach</span> (<span style="">var</span> documento <span style="font-weight:bold">in</span> fattura.Body)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="">var</span> dati = documento.DatiGenerali.DatiGeneraliDocumento;
+</span></span><span style="display:flex;"><span>        Console.WriteLine(<span style="font-style:italic">$&#34;fatt. num. {dati.Numero} del {dati.Data}&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
 </span></span></code></pre></div><p>I should probably mention that FatturaElettronica.Core 0.4 is also out, and
 that that is the actual place where all the new juice comes from, courtesy of
 <a href="https://github.com/emazv72">Emanuele Zavallone</a>. You don&rsquo;t have to directly install Core, it will be
@@ -11563,33 +11602,33 @@ estende <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET">F
 standard fattura elettronica già firmato digitalmente (estensione .p7m), lo
 legge, verifica che le firme siano valide, quindi lo carica in un oggetto
 <code>FatturaElettronica</code> che lo rappresenta interamente:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c#" data-lang="c#"><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">using</span> <span class="nn">FatturaElettronica</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">using</span> <span class="nn">FatturaElettronica.Extensions</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">using</span> <span class="nn">FatturaElettronica.Impostazioni</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">namespace</span> <span class="nn">DemoApp</span>
-</span></span><span class="line"><span class="cl">    <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="k">class</span> <span class="nc">Program</span>
-</span></span><span class="line"><span class="cl">        <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="kd">static</span> <span class="k">void</span> <span class="n">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">            <span class="p">{</span>
-</span></span><span class="line"><span class="cl">                <span class="kt">var</span> <span class="n">fattura</span> <span class="p">=</span> <span class="n">Fattura</span><span class="p">.</span><span class="n">CreateInstance</span><span class="p">(</span><span class="n">Instance</span><span class="p">.</span><span class="n">Privati</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">                <span class="c1">// lettura da file con firma digitale</span>
-</span></span><span class="line"><span class="cl">                <span class="n">fattura</span><span class="p">.</span><span class="n">ReadXmlSigned</span><span class="p">(</span><span class="s">&#34;IT02182030391_31.xml.p7m&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">                <span class="c1">// la fattura è ora pronta per l&#39;uso</span>
-</span></span><span class="line"><span class="cl">                <span class="k">foreach</span> <span class="p">(</span><span class="kt">var</span> <span class="n">documento</span> <span class="k">in</span> <span class="n">fattura</span><span class="p">.</span><span class="n">Body</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">                <span class="p">{</span>
-</span></span><span class="line"><span class="cl">                    <span class="kt">var</span> <span class="n">dati</span> <span class="p">=</span> <span class="n">documento</span><span class="p">.</span><span class="n">DatiGenerali</span><span class="p">.</span><span class="n">DatiGeneraliDocumento</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">                    <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">$&#34;fatt. num. {dati.Numero} del {dati.Data}&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">                <span class="p">}</span>
-</span></span><span class="line"><span class="cl">            <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c#" data-lang="c#"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">using</span> <span style="font-weight:bold">System</span>;
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">using</span> <span style="font-weight:bold">FatturaElettronica</span>;
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">using</span> <span style="font-weight:bold">FatturaElettronica.Extensions</span>;
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">using</span> <span style="font-weight:bold">FatturaElettronica.Impostazioni</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">namespace</span> <span style="font-weight:bold">DemoApp</span>
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">class</span> <span style="font-weight:bold">Program</span>
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="font-weight:bold">static</span> <span style="font-weight:bold">void</span> Main(<span style="">string</span>[] args)
+</span></span><span style="display:flex;"><span>            {
+</span></span><span style="display:flex;"><span>                <span style="">var</span> fattura = Fattura.CreateInstance(Instance.Privati);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                <span style="font-style:italic">// lettura da file con firma digitale</span>
+</span></span><span style="display:flex;"><span>                fattura.ReadXmlSigned(<span style="font-style:italic">&#34;IT02182030391_31.xml.p7m&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                <span style="font-style:italic">// la fattura è ora pronta per l&#39;uso</span>
+</span></span><span style="display:flex;"><span>                <span style="font-weight:bold">foreach</span> (<span style="">var</span> documento <span style="font-weight:bold">in</span> fattura.Body)
+</span></span><span style="display:flex;"><span>                {
+</span></span><span style="display:flex;"><span>                    <span style="">var</span> dati = documento.DatiGenerali.DatiGeneraliDocumento;
+</span></span><span style="display:flex;"><span>                    Console.WriteLine(<span style="font-style:italic">$&#34;fatt. num. {dati.Numero} del {dati.Data}&#34;</span>);
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
 </span></span></code></pre></div><p>Come già per il fratello maggiore, Extensions è rilasciato con <a href="http://github.com/FatturaElettronica/FatturaElettronica.Extensions/blob/master/LICENSE">licenza open
 source BSD</a>. Il package è già <a href="https://www.nuget.org/packages/FatturaElettronica.Extensions/">disponibile su nuget</a> ed
 è NetStandard 2.0, quindi compatibile con un gran numero di piattaforme.</p>
