@@ -19,10 +19,10 @@
       <link>https://nicolaiarocci.com/cerberus-v1.3.5-released/</link>
       <pubDate>Thu, 10 Aug 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/cerberus-v1.3.5-released/</guid>
-      <description>Thanks to [funkyfuture][1]&amp;rsquo;s tireless work, yesterday we released [version 1.3.5][2] of [Cerberus][3], the data validation package for Python. This release officially supports Python 3.10 and 3.11, fixes a few issues, and proudly displays a new documentation theme which I dig, and I hope you&amp;rsquo;ll do the same. As usual, see the [changelog][4] for details.</description>
-      <content:encoded><![CDATA[<p>Thanks to [funkyfuture][1]&rsquo;s tireless work, yesterday we released [version 1.3.5][2] of [Cerberus][3], the data
+      <description>Thanks to funkyfuture&amp;rsquo;s tireless work, yesterday we released version 1.3.5 of Cerberus, the data validation package for Python. This release officially supports Python 3.10 and 3.11, fixes a few issues, and proudly displays a new documentation theme which I dig, and I hope you&amp;rsquo;ll do the same. As usual, see the changelog for details.</description>
+      <content:encoded><![CDATA[<p>Thanks to <a href="https://github.com/funkyfuture">funkyfuture</a>&rsquo;s tireless work, yesterday we released <a href="https://pypi.org/project/Cerberus/1.3.5/">version 1.3.5</a> of <a href="https://docs.python-cerberus.org">Cerberus</a>, the data
 validation package for Python. This release officially supports Python 3.10 and 3.11, fixes a few issues, and proudly
-displays a new documentation theme which I dig, and I hope you&rsquo;ll do the same. As usual, see the [changelog][4] for
+displays a new documentation theme which I dig, and I hope you&rsquo;ll do the same. As usual, see the <a href="https://docs.python-cerberus.org/changelog.html#version-1-3-5">changelog</a> for
 details.</p>
 ]]></content:encoded>
     </item>
@@ -52,9 +52,9 @@ page</a>.</p>
       <link>https://nicolaiarocci.com/python-decimal.getcontext-does-not-work-with-bpython/</link>
       <pubDate>Tue, 06 Jun 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/python-decimal.getcontext-does-not-work-with-bpython/</guid>
-      <description>I have been working on a side project for which I&amp;rsquo;m using [bpython][1], a &amp;ldquo;fancy interface to the Python interpreter.&amp;rdquo; If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax highlighting, readline-like autocomplete, a &amp;ldquo;rewind&amp;rdquo; function to pop the last line of code from memory, auto-indentation and more.
+      <description>I have been working on a side project for which I&amp;rsquo;m using bpython, a &amp;ldquo;fancy interface to the Python interpreter.&amp;rdquo; If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax highlighting, readline-like autocomplete, a &amp;ldquo;rewind&amp;rdquo; function to pop the last line of code from memory, auto-indentation and more.
 Anyway, today I found a bug in bpython, and that&amp;rsquo;s that Python&amp;rsquo;s decimal.getcontext() does not work with it.</description>
-      <content:encoded><![CDATA[<p>I have been working on a side project for which I&rsquo;m using [bpython][1], a &ldquo;fancy interface to the Python interpreter.&rdquo;
+      <content:encoded><![CDATA[<p>I have been working on a side project for which I&rsquo;m using <a href="https://bpython-interpreter.org">bpython</a>, a &ldquo;fancy interface to the Python interpreter.&rdquo;
 If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax
 highlighting, readline-like autocomplete, a &ldquo;rewind&rdquo; function to pop the last line of code from memory, auto-indentation
 and more.</p>
@@ -77,7 +77,7 @@ and more.</p>
 </span></span><span style="display:flex;"><span>Decimal(&#39;0.142857&#39;)
 </span></span></code></pre></div><p>I suspect this has something to do with threads, as <code>decimal.getcontext</code> targets the current thread while
 <code>DefaultContext</code> is global. I went to the bpython repository only to find that a ticket was already opened in 2021. I
-[added][2] my <code>DefaultContext</code> observation there.</p>
+<a href="https://github.com/bpython/bpython/issues/918#issuecomment-1578911204">added</a> my <code>DefaultContext</code> observation there.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -85,10 +85,10 @@ and more.</p>
       <link>https://nicolaiarocci.com/eve-2.1.0-has-just-been-released/</link>
       <pubDate>Tue, 14 Mar 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/eve-2.1.0-has-just-been-released/</guid>
-      <description>Today I released Eve v2.1, which comes with official Flask 2.2+ support and the ability to modify the pagination limit on a per-resource basis thanks to the new pagination_limit setting. You can find the release on [PyPI][1], while the changelog is available [here][2]—special thanks to [Pieter De Clercq][3] and [smeng9][4] for the help with this release.</description>
+      <description>Today I released Eve v2.1, which comes with official Flask 2.2+ support and the ability to modify the pagination limit on a per-resource basis thanks to the new pagination_limit setting. You can find the release on PyPI, while the changelog is available here—special thanks to Pieter De Clercq and smeng9 for the help with this release.</description>
       <content:encoded><![CDATA[<p>Today I released Eve v2.1, which comes with official Flask 2.2+ support and the ability to modify the pagination limit
-on a per-resource basis thanks to the new <code>pagination_limit</code> setting. You can find the release on [PyPI][1],
-while the changelog is available [here][2]—special thanks to [Pieter De Clercq][3] and [smeng9][4] for the help with this release.</p>
+on a per-resource basis thanks to the new <code>pagination_limit</code> setting. You can find the release on <a href="https://pypi.org/project/Eve/2.1.0/">PyPI</a>,
+while the changelog is available <a href="https://docs.python-eve.org/en/stable/changelog.html#version-v2-1-0">here</a>—special thanks to <a href="https://github.com/thepieterdc">Pieter De Clercq</a> and <a href="https://github.com/smeng9">smeng9</a> for the help with this release.</p>
 <p><img loading="lazy" src="/images/eve-2.1.0.png" alt="Eve 2.1.0 on PyPI"  />
 </p>
 ]]></content:encoded>
@@ -98,10 +98,10 @@ while the changelog is available [here][2]—special thanks to [Pieter De Clercq
       <link>https://nicolaiarocci.com/the-origins-of-python/</link>
       <pubDate>Sat, 26 Nov 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-origins-of-python/</guid>
-      <description>Yesterday the creator of the Python language, Guido van Rossum, [tweeted][1] about [The Origins of Python][2], an essay by his mentor, Lambert Meertens.
+      <description>Yesterday the creator of the Python language, Guido van Rossum, tweeted about The Origins of Python, an essay by his mentor, Lambert Meertens.
 &amp;ldquo;On Sunday, June 21, 1970, in an office building on Great Portland Street in London, a teletype sprang to life. Under the heading &amp;ldquo;HAPPY FAMILIES,&amp;rdquo; the machine rattled out a sequence of English sentences, such as &amp;ldquo;THE DOG SITS ON THE BABY&amp;rdquo; and &amp;ldquo;UNCLE TED PLAYS WITH SISTER.</description>
-      <content:encoded><![CDATA[<p>Yesterday the creator of the Python language, Guido van Rossum, [tweeted][1]
-about [The Origins of Python][2], an essay by his mentor, Lambert Meertens.</p>
+      <content:encoded><![CDATA[<p>Yesterday the creator of the Python language, Guido van Rossum, <a href="https://twitter.com/gvanrossum/status/1596268474518876160">tweeted</a>
+about <a href="https://inference-review.com/article/the-origins-of-python">The Origins of Python</a>, an essay by his mentor, Lambert Meertens.</p>
 <blockquote>
 <p>&ldquo;On Sunday, June 21, 1970, in an office building on Great Portland Street in
 London, a teletype sprang to life. Under the heading &ldquo;HAPPY FAMILIES,&rdquo; the
@@ -128,7 +128,18 @@ since an inconspicuous public release in 1991. As far apart as these events
 are, both in time and geography, an arc of history connects them.&rdquo;</p>
 </blockquote>
 <p>It is a magnificent article. If you&rsquo;re passionate about Python, and programming
-languages in general, make sure to read it.[^3]</p>
+languages in general, make sure to read it.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>In the same vein, another outstanding reading would be <a href="https://dl.acm.org/doi/pdf/10.1145/3386325">The Early History of F#</a>.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -151,10 +162,10 @@ on PyPI and includes a relevant security fix so you might want to update ASAP.</
       <link>https://nicolaiarocci.com/eve-2.0.2-released/</link>
       <pubDate>Fri, 23 Sep 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/eve-2.0.2-released/</guid>
-      <description>Eve 2.0.2 was [just released today][1]. It fixes a problem introduced with v2.0 in which ETag generation failed if uuidRepresentation was not set in MONGO_OPTIONS. See [issue #1486][2] for details. Many thanks @tgm for reporting and then contributing the fix.</description>
-      <content:encoded><![CDATA[<p>Eve 2.0.2 was [just released today][1]. It fixes a problem introduced with v2.0
+      <description>Eve 2.0.2 was just released today. It fixes a problem introduced with v2.0 in which ETag generation failed if uuidRepresentation was not set in MONGO_OPTIONS. See issue #1486 for details. Many thanks @tgm for reporting and then contributing the fix.</description>
+      <content:encoded><![CDATA[<p>Eve 2.0.2 was <a href="https://pypi.org/project/Eve/2.0.2/">just released today</a>. It fixes a problem introduced with v2.0
 in which ETag generation failed if <code>uuidRepresentation</code> was not set in
-<code>MONGO_OPTIONS</code>. See [issue #1486][2] for details. Many thanks
+<code>MONGO_OPTIONS</code>. See <a href="https://github.com/pyeve/eve/issues/1486">issue #1486</a> for details. Many thanks
 <a href="https://github.com/tgm-git">@tgm</a> for reporting and then contributing the fix.</p>
 ]]></content:encoded>
     </item>
@@ -165,19 +176,19 @@ in which ETag generation failed if <code>uuidRepresentation</code> was not set i
       <guid>https://nicolaiarocci.com/the-docker-event-monitor/</guid>
       <description>How to get alerted when a docker container goes down, or (many) other things happen to it</description>
       <content:encoded><![CDATA[<p>I added a new tool to my amateurish DevOps toolbox. Developed in the open by
-Tom Williams, the [Docker Event Monitor is][1] a &ldquo;tiny container that monitors
+Tom Williams, the <a href="https://bitbucket.org/quaideman/dem">Docker Event Monitor is</a> a &ldquo;tiny container that monitors
 the local Docker event system in real-time and sends notifications to various
 integrations for event types that match the configuration. For example, you can
 trigger an alert when a container is stopped, killed, runs out of memory or
 health status change.&rdquo;</p>
-<p>At its core sits a simple [python script][2] that monitors the <code>docker.sock</code>
+<p>At its core sits a simple <a href="https://bitbucket.org/quaideman/dem/src/master/app/main.py">python script</a> that monitors the <code>docker.sock</code>
 file for noticeable changes. The code is straightforward and looks safe to
 me. It only took a few minutes to set DEM up so that our <code>alerts</code> channel on
 Slack gets notified of any health status changes. Some handy options are
 included; my favorite is <code>silence</code> to set a time window during which alerts are
 not fired. It avoids unnecessary spam when routine maintenance goes off on your
 stack.</p>
-<p>I find [DEM][1] a useful little tool for lightweight, simple deployments where
+<p>I find <a href="https://bitbucket.org/quaideman/dem">DEM</a> a useful little tool for lightweight, simple deployments where
 you&rsquo;re not employing heavy weaponry, like k8s.</p>
 ]]></content:encoded>
     </item>
@@ -186,13 +197,13 @@ you&rsquo;re not employing heavy weaponry, like k8s.</p>
       <link>https://nicolaiarocci.com/eve-2.0.1-released/</link>
       <pubDate>Wed, 07 Sep 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/eve-2.0.1-released/</guid>
-      <description>Today I released [Eve 2.0.1][1], which contains an essential fix if you&amp;rsquo;re using MONGO_URI to connect to your MongoDB instance. See the [relevant ticket][2] for details. I&amp;rsquo;ve also pinned Flask dependency to v2.1, as v2.2 brings some breaking changes that, you guessed it, break our CI runs. If you think you can help wiht that, [please do so][3]. The complete changelog is available [here][4].</description>
-      <content:encoded><![CDATA[<p>Today I released [Eve 2.0.1][1], which contains an essential fix if you&rsquo;re
-using <code>MONGO_URI</code> to connect to your MongoDB instance. See the [relevant
-ticket][2] for details. I&rsquo;ve also pinned Flask dependency to v2.1, as v2.2
+      <description>Today I released Eve 2.0.1, which contains an essential fix if you&amp;rsquo;re using MONGO_URI to connect to your MongoDB instance. See the relevant ticket for details. I&amp;rsquo;ve also pinned Flask dependency to v2.1, as v2.2 brings some breaking changes that, you guessed it, break our CI runs. If you think you can help wiht that, please do so. The complete changelog is available here.</description>
+      <content:encoded><![CDATA[<p>Today I released <a href="https://pypi.org/project/Eve/2.0.1/">Eve 2.0.1</a>, which contains an essential fix if you&rsquo;re
+using <code>MONGO_URI</code> to connect to your MongoDB instance. See the <a href="https://github.com/pyeve/eve/issues/1478">relevant
+ticket</a> for details. I&rsquo;ve also pinned Flask dependency to v2.1, as v2.2
 brings some breaking changes that, you guessed it, break our CI runs. If you
-think you can help wiht that, [please do so][3]. The complete changelog is
-available [here][4].</p>
+think you can help wiht that, <a href="https://github.com/pyeve/eve/issues/1485">please do so</a>. The complete changelog is
+available <a href="https://docs.python-eve.org/en/stable/changelog.html">here</a>.</p>
 <p><img loading="lazy" src="/images/eve-2.0.1.png" alt=""  />
 </p>
 ]]></content:encoded>
@@ -203,13 +214,13 @@ available [here][4].</p>
       <pubDate>Mon, 18 Jul 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/a-project-you-maintain-has-been-designated-as-critical/</guid>
       <description>Last week, I got a mail from PyPI, the Python package index. They informed me that one of my open source projects had been designated as &amp;lsquo;critical,&amp;rsquo; and I was therefore required to enable two-factor authentication. If I didn&amp;rsquo;t oblige, I would soon lose the ability to add new releases or modify the project.
-The project in question was [Cerberus][1]. The &amp;lsquo;critical&amp;rsquo; designation happens when a project has been in the top 1% of downloads over the prior six months.</description>
+The project in question was Cerberus. The &amp;lsquo;critical&amp;rsquo; designation happens when a project has been in the top 1% of downloads over the prior six months.</description>
       <content:encoded><![CDATA[<p>Last week, I got a mail from PyPI, the Python package index. They informed me
 that one of my open source projects had been designated as &lsquo;critical,&rsquo; and
 I was therefore required to enable two-factor authentication. If I didn&rsquo;t
 oblige, I would soon lose the ability to add new releases or modify the
 project.</p>
-<p>The project in question was [Cerberus][1]. The &lsquo;critical&rsquo; designation happens
+<p>The project in question was <a href="https://python-cerberus.org/">Cerberus</a>. The &lsquo;critical&rsquo; designation happens
 when a project has been in the top 1% of downloads over the prior six months.
 Given that there are currently 388K packages on the Python Package Index,
 I must admit that having one of my projects in the top 1% does feel good.</p>
@@ -218,11 +229,11 @@ package if I didn&rsquo;t take action. I understand the motivation behind this m
 which is to improve the general security of the Python ecosystem. Still, the
 imposition from above didn&rsquo;t feel quite right to me. After reading about the
 rationale for the new requirement, I surrendered, went on PyPI and activated
-2FA[^3]. In hindsight, I should have done that long ago, as I already use 2FA
+2FA<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. In hindsight, I should have done that long ago, as I already use 2FA
 on many other services.</p>
 <p>A couple of days later, I was relieved to learn that my initial
 &ldquo;1984-dictatorship-alert&rdquo; ring bell wasn&rsquo;t the only one to go off. On that day,
-[Armin Ronacher&rsquo;s thoughts][2] on this very topic made the headlines on Hacker
+<a href="https://lucumr.pocoo.org/2022/7/9/congratulations/">Armin Ronacher&rsquo;s thoughts</a> on this very topic made the headlines on Hacker
 News:</p>
 <blockquote>
 <p>The message to me as a maintainer is quite clear: once a project achieved
@@ -236,6 +247,18 @@ wouldn&rsquo;t be in the index best interest to put further restrictions in plac
 <p>I think Armin&rsquo;s post is worth reading. I share some of his concerns, although
 I don&rsquo;t consider &lsquo;users vetting,&rsquo; as he suggests, a suitable alternative for
 authentication (vetting solves a different problem).</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>It did help that the Python Software Foundation provided a limited number of [Titan Security Keys][4] to critical project maintainers. I could redeem two for free, and I have to say they are a joy to use.
+[4]: <a href="https://store.google.com/product/titan_security_key">https://store.google.com/product/titan_security_key</a>
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -243,15 +266,15 @@ authentication (vetting solves a different problem).</p>
       <link>https://nicolaiarocci.com/eve-2.0-released/</link>
       <pubDate>Wed, 08 Jun 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/eve-2.0-released/</guid>
-      <description>It&amp;rsquo;s been a long time coming, but I&amp;rsquo;m glad to announce that Eve 2 has finally been released today. This release drops support for Python 2, Python 3.5 and Python 3.6 hence the major version bump. Other than that, expect some fixes, a new uuidRepresentation setting for MONGO_OPTIONS, and an alignment to the latest Werkzeug/PyMongo idiosyncrasies. The full changelog is available on the [project website][1].
+      <description>It&amp;rsquo;s been a long time coming, but I&amp;rsquo;m glad to announce that Eve 2 has finally been released today. This release drops support for Python 2, Python 3.5 and Python 3.6 hence the major version bump. Other than that, expect some fixes, a new uuidRepresentation setting for MONGO_OPTIONS, and an alignment to the latest Werkzeug/PyMongo idiosyncrasies. The full changelog is available on the project website.
 The Eve project has been out for ten years.</description>
       <content:encoded><![CDATA[<p>It&rsquo;s been a long time coming, but I&rsquo;m glad to announce that Eve 2 has finally
 been released today. This release drops support for Python 2, Python 3.5 and
 Python 3.6 hence the major version bump. Other than that, expect some fixes,
 a new <code>uuidRepresentation</code> setting for <code>MONGO_OPTIONS</code>, and an alignment to the
 latest Werkzeug/PyMongo idiosyncrasies. The full changelog is available on the
-[project website][1].</p>
-<p>The Eve project has been out for ten years. As said [elsewhere][2], I believe it&rsquo;s
+<a href="https://docs.python-eve.org/en/stable/changelog.html#version-v2-0">project website</a>.</p>
+<p>The Eve project has been out for ten years. As said <a href="/is-eve-still-maintained/">elsewhere</a>, I believe it&rsquo;s
 mature and stable enough for most use cases. I consider it done in terms
 of features, and it is now in &lsquo;maintenance mode&rsquo;.</p>
 <p><img loading="lazy" src="/images/eve2.png" alt="Eve 2.0"  />
@@ -263,11 +286,11 @@ of features, and it is now in &lsquo;maintenance mode&rsquo;.</p>
       <link>https://nicolaiarocci.com/eve-swagger-v0.2-released/</link>
       <pubDate>Tue, 17 May 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/eve-swagger-v0.2-released/</guid>
-      <description>I just released [Eve-Swagger v0.2][1] on PyPI. Eve-Swagger is a Swagger/OpenAPI extension for [Eve][2] powered RESTful APIs. This maintenance release addresses a few issues and adds support for [eve-auth-jwt][4]. Many thanks to [Roberto Romero][3] for his contributions to this release.</description>
-      <content:encoded><![CDATA[<p>I just released [Eve-Swagger v0.2][1] on PyPI. Eve-Swagger is a Swagger/OpenAPI
-extension for [Eve][2] powered RESTful APIs. This maintenance release addresses
-a few issues and adds support for [eve-auth-jwt][4]. Many thanks to [Roberto
-Romero][3] for his contributions to this release.</p>
+      <description>I just released Eve-Swagger v0.2 on PyPI. Eve-Swagger is a Swagger/OpenAPI extension for Eve powered RESTful APIs. This maintenance release addresses a few issues and adds support for eve-auth-jwt. Many thanks to Roberto Romero for his contributions to this release.</description>
+      <content:encoded><![CDATA[<p>I just released <a href="https://pypi.org/project/Eve-Swagger/">Eve-Swagger v0.2</a> on PyPI. Eve-Swagger is a Swagger/OpenAPI
+extension for <a href="https://python-eve.org">Eve</a> powered RESTful APIs. This maintenance release addresses
+a few issues and adds support for <a href="https://github.com/rs/eve-auth-jwt">eve-auth-jwt</a>. Many thanks to <a href="https://github.com/sildur">Roberto
+Romero</a> for his contributions to this release.</p>
 <p><img loading="lazy" src="/images/eve-swagger-0.2.png" alt="Eve-Swagger 0.2"  />
 </p>
 ]]></content:encoded>
@@ -277,14 +300,14 @@ Romero][3] for his contributions to this release.</p>
       <link>https://nicolaiarocci.com/work-in-progress-on-eve-2.0/</link>
       <pubDate>Sun, 13 Feb 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/work-in-progress-on-eve-2.0/</guid>
-      <description>I&amp;rsquo;ve been back at the forge working on Eve 2.0. Version 2 will support Python 3.7+ and drop Python 2.7, 3.5 and 3.6. It will bring support for PyMongo 4+ as well, along with several other minor fixes and improvements ([changelog][1]). It would be nice if you guys and gals, users of Eve, would give it a spin before the release.
-I know. I [recently][3] stated that Eve was in maintenance mode.</description>
+      <description>I&amp;rsquo;ve been back at the forge working on Eve 2.0. Version 2 will support Python 3.7+ and drop Python 2.7, 3.5 and 3.6. It will bring support for PyMongo 4+ as well, along with several other minor fixes and improvements (changelog). It would be nice if you guys and gals, users of Eve, would give it a spin before the release.
+I know. I recently stated that Eve was in maintenance mode.</description>
       <content:encoded><![CDATA[<p>I&rsquo;ve been back at the forge working on Eve 2.0. Version 2 will support Python
 3.7+ and drop Python 2.7, 3.5 and 3.6. It will bring support for PyMongo 4+ as
-well, along with several other minor fixes and improvements ([changelog][1]).
+well, along with several other minor fixes and improvements (<a href="https://docs.python-eve.org/en/latest/changelog.html">changelog</a>).
 It would be nice if you guys and gals, users of Eve, would give it a spin
 before the release.</p>
-<p>I know. I [recently][3] stated that Eve was in maintenance mode. All of
+<p>I know. I <a href="/is-eve-still-maintained/">recently</a> stated that Eve was in maintenance mode. All of
 those considerations still apply, but what can I say? I want Eve 2 out.</p>
 ]]></content:encoded>
     </item>
@@ -312,10 +335,10 @@ it. I don&rsquo;t actively develop new features anymore. Still, I am more than
 willing to code-review and merge relevant pull requests, especially so if they
 are bug fixes or improvements over existing features.</p>
 <p>Long story short, after many years of development, the <a href="https://docs.python-eve.org/en/stable/funding.html">funding
-campaign</a>[^2] that would have
+campaign</a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> that would have
 allowed me to keep working on the project failed miserably. People are using
 the framework worldwide, probably making a profit out of it, but they are not
-interested in investing in it[^1]. The good news is that the framework is, I think,
+interested in investing in it<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. The good news is that the framework is, I think,
 stable and mature enough to meet most needs.</p>
 <p>With <a href="https://python-cerberus.org">Cerberus</a>, I was lucky enough to find
 a worthy, skilled  maintainer in the person of
@@ -328,6 +351,20 @@ latest version of Cerberus</a>.</p>
 <p>I had so <a href="https://www.patreon.com/nicolaiarocci">many things</a> planned for Eve.
 Hopefully someone will join the ranks, maybe take the helm, and help bring it
 to the next level.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>For some rationale behind the campaign, see <a href="http://nicolaiarocci.com/eve-and-cerberus-funding-campaign/">this post</a> from 2017.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>I must admit, this failure hit me hard.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -335,10 +372,10 @@ to the next level.</p>
       <link>https://nicolaiarocci.com/my-dotnetpodcast-interview/</link>
       <pubDate>Tue, 06 Jul 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/my-dotnetpodcast-interview/</guid>
-      <description>Today I was interviewed by [Mauro Servienti][2] on the [DotNetPodcast][1]. The theme was my experience as an open-source maintainer on both the Python and C# stacks. We also discussed the ongoing evolution of the dotNET ecosystem, touching on a few tangent topics.
+      <description>Today I was interviewed by Mauro Servienti on the DotNetPodcast. The theme was my experience as an open-source maintainer on both the Python and C# stacks. We also discussed the ongoing evolution of the dotNET ecosystem, touching on a few tangent topics.
 The recording is in Italian and is available below here.
 Listen to &amp;ldquo;Python, Eve, open source e fattura elettronica. Con Nicola Iarocci&amp;rdquo; on Spreaker.</description>
-      <content:encoded><![CDATA[<p>Today I was interviewed by [Mauro Servienti][2] on the [DotNetPodcast][1]. The
+      <content:encoded><![CDATA[<p>Today I was interviewed by <a href="https://twitter.com/mauroservienti">Mauro Servienti</a> on the <a href="https://www.spreaker.com/show/dotnetpodcast">DotNetPodcast</a>. The
 theme was my experience as an open-source maintainer on both the Python and C#
 stacks. We also discussed the ongoing evolution of the dotNET ecosystem,
 touching on a few tangent topics.</p>
@@ -363,7 +400,7 @@ views in Flask 2. Work has also been done around Werkzeug <code>Request</code> a
 <code>Response</code> classes to allow for better sync and async in the future (it&rsquo;s not
 a public API yet.) Jinja, Click and ItsDangerous come with a lot of new
 niceties. Details are available on the <a href="https://palletsprojects.com/blog/flask-2-0-released/">Pallets website</a>.</p>
-<p>Flask is, of course, the giant on which shoulders the whole [Eve][1] project rests.
+<p>Flask is, of course, the giant on which shoulders the whole <a href="https://python-eve.org">Eve</a> project rests.
 To say that the Pallets team has been working hard at the forge is an
 understatement—huge congrats to all of them.</p>
 ]]></content:encoded>
@@ -401,13 +438,13 @@ you were using unpinned versions of redis. This time, my gratitude goes to Adria
       <link>https://nicolaiarocci.com/musings-on-pythons-pattern-matching/</link>
       <pubDate>Tue, 23 Feb 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/musings-on-pythons-pattern-matching/</guid>
-      <description>Pattern Matching [is coming][1] to Python, and I am not sure I like it. Don&amp;rsquo;t get me wrong, I love pattern matching. I use it all the time in F#. I am sure that once it lands in the language, it will be wildly adopted.
-So what&amp;rsquo;s the problem with Python&amp;rsquo;s pattern matching? The community, some core developers included, has expressed [several concerns][2]. The Python Steering Council has acknowledged them and is willing to look into improvements should they be proposed.</description>
-      <content:encoded><![CDATA[<p>Pattern Matching [is coming][1] to Python, and I am not sure I like it. Don&rsquo;t get me
+      <description>Pattern Matching is coming to Python, and I am not sure I like it. Don&amp;rsquo;t get me wrong, I love pattern matching. I use it all the time in F#. I am sure that once it lands in the language, it will be wildly adopted.
+So what&amp;rsquo;s the problem with Python&amp;rsquo;s pattern matching? The community, some core developers included, has expressed several concerns. The Python Steering Council has acknowledged them and is willing to look into improvements should they be proposed.</description>
+      <content:encoded><![CDATA[<p>Pattern Matching <a href="https://lwn.net/Articles/845480/">is coming</a> to Python, and I am not sure I like it. Don&rsquo;t get me
 wrong, I love pattern matching. I use it all the time in F#. I am sure that
 once it lands in the language, it will be wildly adopted.</p>
 <p>So what&rsquo;s the problem with Python&rsquo;s pattern matching? The community, some core
-developers included, has expressed [several concerns][2]. The Python Steering
+developers included, has expressed <a href="https://discuss.python.org/t/gauging-sentiment-on-pattern-matching/5770">several concerns</a>. The Python Steering
 Council has acknowledged them and is willing to look into improvements should
 they be proposed. I am not going into the details here. You can look them up
 yourself. Let&rsquo;s just say that there are a few gotchas, like the requirement to
@@ -417,13 +454,13 @@ capture variables instead (doh!) The lack of local scope bites hard here.</p>
 ought to be a reason why every language on the planet is trying to adopt it. Is
 it pythonic? I doubt it. With all its corner cases and the odd syntax, I think
 that the current design adds quite a bit of complexity to the language. As
-someone [noted][6], core dev Larry Hastings puts it well:</p>
+someone <a href="https://news.ycombinator.com/item?id=26083779">noted</a>, core dev Larry Hastings puts it well:</p>
 <blockquote>
 <p>I dislike the syntax and semantics expressed in PEP 634. I see the match
 statement as a DSL contrived to look like Python and to be used inside of
 Python, but with very different semantics. When you enter a PEP 634 match
 statement, the rules of the language change completely, and code that looks
-like existing Python code does something surprisingly very different ([source][3])</p>
+like existing Python code does something surprisingly very different (<a href="https://discuss.python.org/t/gauging-sentiment-on-pattern-matching/5770/21">source</a>)</p>
 </blockquote>
 <p>I especially agree with this sentiment, and I am still quoting Hastings:</p>
 <blockquote>
@@ -440,7 +477,7 @@ been going on for a while. As my friend Alessandro Molina mentioned just today:<
 <p>I have been thinking about how Python has been moving away from its own Zen
 since the time of &ldquo;async&rdquo; keyword. Convenience rarely values added
 complexity. Never been a big fan of adding keywords that will be misused by
-the majority to deal with the vertical needs of a minority ([source][4])</p>
+the majority to deal with the vertical needs of a minority (<a href="https://twitter.com/__amol__/status/1364205630928617473">source</a>)</p>
 </blockquote>
 <p>He was referring to group exceptions, not pattern matching. Still, his tweet
 struck a nerve as I was busy writing down these thoughts.</p>
@@ -469,8 +506,8 @@ dyld: Library not loaded: @executable_path/../.Python
 <p>I never really took the time to look into it. When this happens, because I am
 in a rush (and because I am a lazy old fart), I shrug it off, recreate the
 virtual environment on the spot, and get back to work.</p>
-<p>My friend Justin Mayer knows better. The other day, he posted a [short
-insightful article][1] about this very same issue:</p>
+<p>My friend Justin Mayer knows better. The other day, he posted a <a href="https://justinmayer.com/posts/homebrew-python-is-not-for-you/">short
+insightful article</a> about this very same issue:</p>
 <blockquote>
 <p>Perhaps you heard stories about why you shouldn’t use the system-bundled
 Python, so instead you use Homebrew to install Python and then use its
@@ -481,7 +518,7 @@ environment… no longer exists. But how can that be? You didn’t change
 anything! You didn’t change anything… but Homebrew did.</p>
 </blockquote>
 <p>Homebrew is the culprit. If you have been affected (and if you have done any
-length of serious Python work, you have), then go [read][1] Justin&rsquo;s piece. He
+length of serious Python work, you have), then go <a href="https://justinmayer.com/posts/homebrew-python-is-not-for-you/">read</a> Justin&rsquo;s piece. He
 explains the whys and then goes into the hows you solve the problem for good.</p>
 ]]></content:encoded>
     </item>

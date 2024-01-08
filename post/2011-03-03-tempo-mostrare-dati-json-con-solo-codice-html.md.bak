@@ -1,0 +1,71 @@
+---
+title: 'TEMPO: mostrare dati JSON con solo codice HTML'
+author: Nicola Iarocci
+date: 2011-03-03
+url: /tempo-mostrare-dati-json-con-solo-codice-html/
+dsq_thread_id:
+  - 2041241662
+categories:
+  - Programming
+tags:
+  - html
+  - javascript
+  - jquery
+  - json
+  - programmazione
+---
+<img class="alignright size-full wp-image-1311" title="JSON" src="http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/json.gif?fit=192%2C119" alt="" srcset="http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/json.gif?w=192 192w, http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/json.gif?resize=150%2C92 150w" sizes="(max-width: 192px) 100vw, 192px" data-recalc-dims="1" />Lanciata da pochi giorni, [<img class="alignright size-full wp-image-1311" title="JSON" src="http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/json.gif?fit=192%2C119" alt="" srcset="http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/json.gif?w=192 192w, http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/json.gif?resize=150%2C92 150w" sizes="(max-width: 192px) 100vw, 192px" data-recalc-dims="1" />Lanciata da pochi giorni,][1] è una piccola (4Kb) e brillante libreria JavaScript che ci mette a disposizione un _rendering engine_ JSON controllabile con puro codice HTML. La separazione tra HTML e JavaScript rende più facile il lavoro con contenuti AJAX, aumenta la leggibilità del codice e ne facilita la manutenzione. Tempo è compatibile con tutti i browser (IE6 incluso), si integra alla perfezione con jQuery ed è davvero facile da usare.
+
+## JSON
+
+JSON è un formato di scambio dati sempre più diffuso. Un flusso di dati JSON è relativamente compatto (soprattutto rispetto al suo rivale XML) ed è facile da interpretare sia per un umano che per un computer. Ormai tutte le Web API più usate (Facebook, Twitter, ecc.) supportano ampiamente JSON. Ecco un esempio di array JSON:<!--more-->
+
+<pre class="brush:js">var data = [
+	{'name':{'first':'Leonard','last':'Marx'},'nickname':'Chico','born':'March 21, 1887','actor': true,'solo_endeavours':[{'title':'Papa Romani'}]},
+	{'name':{'first':'Adolph','last':'Marx'},'nickname':'Harpo','born':'November 23, 1888','actor':true,'solo_endeavours':[{'title':'Too Many Kisses','rating':'favourite'},{'title':'Stage Door Canteen'}]},
+	{'name':{'first':'Julius Henry','last':'Marx'},'nickname':'Groucho','born': 'October 2, 1890','actor':true,'solo_endeavours':[{'title':'Copacabana'},{'title':'Mr. Music','rating':'favourite'},{'title':'Double Dynamite'}]},
+	{'name':{'first':'Milton','last':'Marx'},'nickname':'Gummo','born':'October 23, 1892'},
+	{'name':{'first':'Herbert','last':'Marx'},'nickname':'Zeppo','born':'February 25, 1901','actor':true,'solo_endeavours':[{'title':'A Kiss in the Dark'}]}
+];</pre>
+
+## JavaScript
+
+Dopo aver [scaricato][2] la libreria includiamola nella nostra pagina:
+
+<pre class="brush:js">&lt;script src="js/tempo.js" type="text/javascript"&gt;&lt;/script&gt;</pre>
+
+### Tempo.prepare(element)
+
+Tempo.Prepare() cerca uno o più data-template in un contenitore HTML, li mette in cache e li rimuove dalla pagina (verranno sostituiti dai dati in fase di rendering). Restituisce infine una istanza specializzata del _renderer_ che, grazie alle indicazioni contenute nei data-template, sa già come mostrare i dati. Se stiamo usando jQuery possiamo passare direttamente l&#8217;oggetto jQuery.
+
+### renderer.render(data)
+
+Il metodo _render_ si applica alla instanza del renderer restituita da Tempo.prepare(). Accetta come argomento i dati JSON e li mostra finalmente nella nostra pagina HTML.
+
+<pre class="brush:js">Tempo.prepare('marx-brothers').render(data);</pre>
+
+## HTML
+
+### <span style="font-size: 13px; font-weight: normal;">Tempo riconosce come template qualunque tag con attributo <em>data-template </em>che sia contenuto nell&#8217;elemento HTML da noi indicato. Indichiamo i campi dell&#8217;array JSON col nome racchiuso tra doppie parentesi {{}}</span>
+
+ <span style="font-size: 13px; font-weight: normal;"></span>
+
+<pre class="brush:js">&lt;ol id="marx-brothers"&gt;
+	&lt;li data-template&gt;{{nickname}} {{name.last}}&lt;/li&gt;
+&lt;/ol&gt;</pre>
+
+il codice viene reso con:
+
+<pre class="brush:plain">&lt;ol id="marx-brothers1"&gt;
+	&lt;li&gt;Chico Marx&lt;/li&gt;
+	&lt;li&gt;Harpo Marx&lt;/li&gt;
+	&lt;li&gt;Groucho Marx&lt;/li&gt;
+	&lt;li&gt;Gummo Marx&lt;/li&gt;
+	&lt;li&gt;Zeppo Marx&lt;/li&gt;
+&lt;/ol&gt;</pre>
+
+Per le funzionalità avanzate (condizioni se-allora, data-template nidificati, supporto jQuery e gestione callbacks ed eventi) vi rimando alla [pagina ufficiale][1] della libreria, dalla quale peraltro ho tratto gran parte di questo esempio. Vi trovate anche un [esempio funzionante][3] di rendering di un flusso proveniente da Twitter e recuperato via jQuery.
+
+ [1]: http://tempojs.com/
+ [2]: https://github.com/twigkit/tempo/zipball/master
+ [3]: http://tempojs.com/examples/twitter

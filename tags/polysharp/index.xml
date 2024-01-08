@@ -19,12 +19,12 @@
       <link>https://nicolaiarocci.com/making-the-latest-csharp-language-features-available-in-older-dotnet-versions/</link>
       <pubDate>Sat, 04 Feb 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/making-the-latest-csharp-language-features-available-in-older-dotnet-versions/</guid>
-      <description>In a C# library I&amp;rsquo;ve been working on, I wanted to use C# 9.0&amp;rsquo;s init keyword. Quoting the [documentation][3]:
+      <description>In a C# library I&amp;rsquo;ve been working on, I wanted to use C# 9.0&amp;rsquo;s init keyword. Quoting the documentation:
 The init keyword defines an accessor method in a property or indexer. An init-only setter assigns a value to the property or the indexer element only during object construction. This enforces immutability so that once the object is initialized, it can&amp;rsquo;t be changed again.
 Consider the following class:
 public class Person { public string FirstName { get; init; } } You can initialize it like this:</description>
       <content:encoded><![CDATA[<p>In a C# library I&rsquo;ve been working on, I wanted to use C# 9.0&rsquo;s <code>init</code> keyword.
-Quoting the [documentation][3]:</p>
+Quoting the <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/init">documentation</a>:</p>
 <blockquote>
 <p>The init keyword defines an accessor method in a property or indexer. An
 init-only setter assigns a value to the property or the indexer element
@@ -46,7 +46,7 @@ might be preferable to a parameter-enforced class constructor alternative.</p>
 <p>To my surprise, however, when I tried the above, I got the following error:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>The predefined type &#39;System.Runtime.CompilerServices.IsExternalInit&#39; must be
 </span></span><span style="display:flex;"><span>defined or imported in order to declare init-only setter
-</span></span></code></pre></div><p>As it [turns out][1], The <code>IsExternalInit</code> type is only included in the net5.0
+</span></span></code></pre></div><p>As it <a href="https://developercommunity.visualstudio.com/t/error-cs0518-predefined-type-systemruntimecompiler/1244809#TPIN-N1249582">turns out</a>, The <code>IsExternalInit</code> type is only included in the net5.0
 (and subsequent) target frameworks, so one cannot use it right away in a
 NetStandard 2.0 (or 2.1, for that matter) library.</p>
 <p>In the dotnet world, when I encounter <em>&ldquo;type is not defined in version X&rdquo;</em>
@@ -58,7 +58,7 @@ the following somewhere in my source code:</p>
 </span></span><span style="display:flex;"><span>        internal static class IsExternalInit {}
 </span></span><span style="display:flex;"><span>    }
 </span></span></code></pre></div><p>And presto, the <code>init</code> keyword is now fully available to my library.</p>
-<p>While researching this matter, I stumbled into [PolySharp][2],  a lovely
+<p>While researching this matter, I stumbled into <a href="https://github.com/Sergio0694/PolySharp">PolySharp</a>,  a lovely
 package that takes this workaround approach to new heights. What is it?</p>
 <blockquote>
 <p>PolySharp provides generated, source-only polyfills for C# language features,

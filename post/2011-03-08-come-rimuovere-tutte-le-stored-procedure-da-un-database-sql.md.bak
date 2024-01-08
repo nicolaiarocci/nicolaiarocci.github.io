@@ -1,0 +1,35 @@
+---
+title: Come rimuovere tutte le Stored Procedure da un database SQL Server?
+author: Nicola Iarocci
+date: 2011-03-08
+url: /come-rimuovere-tutte-le-stored-procedure-da-un-database-sql/
+dsq_thread_id:
+  - 2058366457
+categories:
+  - Guide
+  - Programming
+tags:
+  - programmazione
+  - sql
+  - sql server
+  - stored procedure
+---
+In questi giorni sto lavorando sui database **SQL Server** che fanno da back-end ai nostri web services e ne approfitto per fare un po&#8217; manutenzione straordinaria. __Stamattina mi è capitato di dover cancellare tutte le **Stored Procedure** di un database e ho [scovato][1] questa routine che mi ha fatto risparmiare un mucchio di tempo<!--more-->
+
+<pre class="brush:sql">declare @procName varchar(500)
+declare cur cursor 
+
+for select [name] from sys.objects where type = 'p'
+open cur
+fetch next from cur into @procName
+while @@fetch_status = 0
+begin
+    exec('drop procedure ' + @procName)
+    fetch next from cur into @procName
+end
+close cur
+deallocate cur</pre>
+
+La tecnica è quella di sfruttare la tabella di sistema _sys.objects_ che elenca tutti gli oggetti contenuti nel database. Le Stored Procedure hanno tutte type = &#8216;P&#8217; per cui è facile individuarle. A questo punto ci sono due possibilità: memorizzarne i nomi in una tabella temporanea per poi lanciare un loop che le cancelli una per una, oppure usare un cursore ed eseguire le cancellazioni con la funzione EXEC. La nostra routine usa il secondo approccio, senz&#8217;altro più performante.
+
+ [1]: http://www.devasp.net/net/articles/display/309.html

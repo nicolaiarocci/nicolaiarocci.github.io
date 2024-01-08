@@ -1,0 +1,79 @@
+---
+title: Il Formato Valuta in ASP.NET quando il sito è all’estero
+author: Nicola Iarocci
+date: 2011-03-28
+url: /il-formato-valuta-in-asp-net-quando-il-sito-e-allestero/
+dsq_thread_id:
+  - 2017455390
+categories:
+  - Guide
+  - Programming
+tags:
+  - .net
+  - asp.net
+  - programmazione
+  - web
+---
+Una settimana fa abbiamo lanciato il nuovo sito del [Gestionale Amica][1], il nostro prodotto di punta. E&#8217; scritto in **ASP.NET** ed è dotato di un sistema di e-commerce sviluppato su misura. Carrello della spesa, checkout, pagamenti con carta di credito, tracciamento ordini, profilo utenti&#8230; un lavoro del quale sono piuttosto orgoglioso. Man mano che il giorno del debutto si avvicinava cresceva l&#8217;eccitazione; ero impaziente di vederlo funzionare questo gioiellino. Finalmente il 21 marzo è arrivato e con la primavera è sbocciato il nuovo sito. Come è andata? Bene! A parte un piccolo dettaglio. Il mio gioiellino vendeva in Dollari ($) anziché in Euro (€)
+
+<p style="text-align: center;">
+  <img class="size-full wp-image-1766 aligncenter" title="Currency" src="http://i2.wp.com/nicolaiarocci.com/wp-content/uploads/currency.jpg?fit=459%2C261" alt="" srcset="http://i2.wp.com/nicolaiarocci.com/wp-content/uploads/currency.jpg?w=459 459w, http://i2.wp.com/nicolaiarocci.com/wp-content/uploads/currency.jpg?resize=150%2C85 150w, http://i2.wp.com/nicolaiarocci.com/wp-content/uploads/currency.jpg?resize=300%2C170 300w" sizes="(max-width: 459px) 100vw, 459px" data-recalc-dims="1" />
+</p>
+
+<!--more-->
+
+## Come è potuto succedere?
+
+In fatto di localizzazione una pagina ASP.NET non è diversa da una normale applicazione WinForms. In assenza di indicazioni diverse il .NET Framework **rappresenta le valute in base alle impostazioni internazionali del computer che lo ospita**. Durante sviluppo e collaudo non abbiamo avuto problemi perché lavoravamo su server aziendali locali. Tuttavia il server di produzione è americano, ed è così che pubblicando il sito ci siamo regalati un bel cambiamento di valuta, il tutto senza toccare una linea di codice.
+
+<pre class="brush:csharp">protected void Page_Load(object sender, EventArgs e)
+{
+    decimal importo = 1567.50m;
+    string str = String.Format("{0:C}", importo);
+    Response.Write(str);
+}</pre>
+
+Restituisce **€1.567,50** in Italia e **$1,567.50** negli Stati Uniti. Probabilmente a questo punto vi starete dicendo due cose:
+
+  1. Ma perché hai pubblicato un sito in italiano, per un pubblico italiano, negli Stati Uniti?
+  2. Te lo dovevi aspettare, cosa volevi che succedesse? Qualunque sviluppatore con un minimo di esperienza sa queste cose.
+
+A proposito del primo punto ci sarebbe da scrivere un articolo intero (e magari lo farò). Basti sapere per ora che, malgrado le apparenze, ci sono (anche) buone ragioni per pubblicare siti italiani all&#8217;estero. Sul secondo punto naturalmente avreste ragione. Il fatto è che, nel grande schema delle cose, sono proprio i piccoli dettagli quelli che possono sfuggire. Per fortuna porre rimedio è stato semplice e indolore. Vediamo.
+
+## E&#8217; tutta questione di Culture
+
+In ogni pagina ASP.NET è possibile impostare il valore delle proprietà [**Culture**][2] e [**UICulture**][3]. <code inline="True" theme="default">Culture</code> determina l&#8217;output delle funzioni influenzate dalla cultura: date, numeri, valute, orari. <code inline="True" theme="default">UICulture</code> istruisce la pagina su quali risorse culturali caricare.
+
+### Impostare Culture e UICulture per tutto il sito
+
+Intervenendo direttamente nel file Web.Config possiamo dire a ASP.NET quale è la cultura da usare in tutto il sito. In questo modo non dovremo preoccuparci di intervenire su ogni in pagina.
+
+<pre class="brush:xml">&lt;configuration&gt;
+   &lt;system.web&gt;
+      &lt;globalization culture=”it-IT” uiCulture=”it-IT” /&gt;
+   &lt;/system.web&gt;
+&lt;/configuration&gt;</pre>
+
+Attenzione alle maiuscole. <code inline="True" theme="default">uiCulture</code> va bene; <code inline="True" theme="default">uiculture</code> non va bene. Non sprecate mezz&#8217;ora per una sciocchezza del genere, l&#8217;ho già fatto io per voi.
+
+### Impostare Culture e UICulture per una pagina
+
+Per modificare Culture e UICulture di una singola pagina è necessario impostare i corrispondenti attributi della direttiva [@ Page][4]
+
+<pre class="brush:vb">&lt;%@ Page UICulture="it" Culture="it-IT" %&gt;</pre>
+
+Questa tecnica può naturalmente venire usata in abbinamento alla precedente anche se devo dire che non mi viene in mente un motivo, uno scenario valido in cui ciò potrebbe essere utile.
+
+### Adattare l&#8217;output alla lingua del browser
+
+Per adattare la cultura al linguaggio del browser che visita la pagina basta impostare **UICulture** e **Culture** su **auto** (non l&#8217;ho testato personalmente). E&#8217; anche possibile cambiare la cultura dinamicamente via codice. Se volete sapere come fare consultate la [documentazione ufficiale][5].
+
+## Dimenticavo&#8230;
+
+C&#8217;è un&#8217;altra cosuccia che non ha funzionato perfettamente al momento del debutto. Immaginate la sorpresa del cliente che, ordinando un prodotto da €499 + IVA, si è visto proporre l&#8217;addebito su carta di credito per **€1 (uno)** IVA inclusa. Ma questa è un&#8217;altra storia&#8230;
+
+ [1]: http://gestionaleamica.com "Gestionale Amica"
+ [2]: http://msdn.microsoft.com/en-us/library/system.web.ui.page.culture(v=VS.85).aspx
+ [3]: http://msdn.microsoft.com/en-us/library/system.web.ui.page.uiculture(v=VS.85).aspx
+ [4]: http://msdn.microsoft.com/it-it/library/ydy4x04a(v=VS.85).aspx
+ [5]: http://msdn.microsoft.com/en-us/library/syy068tk.aspx

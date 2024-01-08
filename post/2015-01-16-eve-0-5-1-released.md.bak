@@ -1,0 +1,15 @@
+---
+title: Eve 0.5.1 Released
+author: Nicola Iarocci
+date: 2015-01-16
+url: /eve-0-5-1-released/
+categories:
+  - Programming
+tags:
+  - eve
+  - python
+---
+[Eve 0.5.1][1] was just released with a [couple fixes][2] to 0.5 (which was released earlier this week.) Don&#8217;t be surprised. Going forward I&#8217;m striving for a much faster release cycle, especially so when it comes to fixes.
+
+ [1]: https://pypi.python.org/pypi/Eve
+ [2]: http://python-eve.org/changelog#version-0-5-1

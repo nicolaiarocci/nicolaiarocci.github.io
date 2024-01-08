@@ -1,0 +1,68 @@
+---
+title: Gestione degli Eventi in Python
+author: Nicola Iarocci
+date: 2013-03-14
+url: /gestione-degli-eventi-in-python/
+gr_overridden:
+  - 1
+gr_options:
+  - 'a:3:{s:13:"enable-ribbon";s:4:"Show";s:10:"github-url";s:39:"https://github.com/nicolaiarocci/events";s:11:"ribbon-type";i:5;}'
+dsq_thread_id:
+  - 2040951354
+categories:
+  - Programming
+tags:
+  - c
+  - eventi
+  - github
+  - open source
+  - python
+---
+Gli eventi sono molto usati nelle GUI e nelle implementazioni del modello MVC (Model, View, Controller). Un&#8217;altra applicazione tipica è nei protocolli di comunicazione, laddove layer di basso livello devono informare quelli più alti quando ci sono dati in ingresso o in uscita.
+
+Il linguaggio C# dispone da sempre di una soluzione elegante al problema della gestione degli eventi: il delegato EventHandler. [Events][1] è una mia implementazione Python del EventHandler C#. In pratica si tratta di una classe molto leggera che incapsula il cuore del meccanismo di sottoscrizione e gestione degli eventi, e tenta di farlo in maniera &#8220;naturale&#8221;, sembrando parte integrante del linguaggio Python. <!--more-->
+
+## Come usare Events
+
+Tecnicamente un evento è qualcosa a cui è possibile &#8220;attaccare&#8221; una o più funzioni di callback. Prima di tutto creiamo una funzione di callback che verrà invocata allo scatenarsi dell&#8217;evento a cui siamo interessati:
+
+<pre class="brush:py">&gt;&gt;&gt; def something_changed(ragione):
+...     print 'qualcosa è cambiato perché %s' % ragione
+...</pre>
+
+Poi &#8216;iscriviamo&#8217; la nostra funzione all&#8217;evento:
+
+<pre class="brush:py">&gt;&gt;&gt; from events import Events
+&gt;&gt;&gt; events = Events()
+&gt;&gt;&gt; events.on_change += something_changed</pre>
+
+Notate come l&#8217;evento sia al tempo stesso dichiarato e sottoscritto, in un&#8217;unico passaggio. Più funzioni possono sottoscrivere lo stesso evento. Quando si scatena un evento tutte le funzioni ad esso collegate vengono invocate in sequenza. Per scatenare l&#8217;evento ci basta eseguire una chiamata all&#8217;evento stesso:
+
+<pre class="brush:py">&gt;&gt;&gt; events.on_change('doveva succedere')
+'qualcosa è cambiato perché doveva succedere'</pre>
+
+## Un esempio di modello Model-View-Controller
+
+In genere nell&#8217;implementazione di uno schema MVC l&#8217;istanza della classe Events farà parte di un Modello, come in questo esempio:
+
+<pre class="brush:py">class MyModel(object):
+    def __init__(self):
+        self.events = Events()
+        ...</pre>
+
+Oggetti View e Controller ne sono i tipici  sottoscrittori:
+
+<pre class="brush:py">class MyModelView(SomeWidget):
+    def __init__(self, model):
+        self.model = model
+        model.events.on_change += self.display_value
+        ...
+
+    def display_value(self):
+        pass</pre>
+
+E&#8217; inoltre possibile vincolare il nome degli eventi e fare l&#8217;introspezione delle sole due classi che costituiscono Events. La [documentazione][2] include gli esempi e le istruzioni per l&#8217;installazione; il [codice sorgente][3] è a disposizione su GitHub. Buon divertimento!
+
+ [1]: https://github.com/nicolaiarocci/events "Events: Bringing the elegance of C# EventHandler to Python"
+ [2]: http://events.readthedocs.org/ "Events"
+ [3]: https://github.com/nicolaiarocci/events "Events on GitHub"

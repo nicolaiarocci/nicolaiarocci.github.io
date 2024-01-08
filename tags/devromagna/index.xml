@@ -19,12 +19,12 @@
       <link>https://nicolaiarocci.com/web-performance-meetup-at-devromagna/</link>
       <pubDate>Wed, 22 Mar 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/web-performance-meetup-at-devromagna/</guid>
-      <description>I know this is coming in a bit late; apologies, but&amp;hellip; We&amp;rsquo;re doing a Web Performance meetup at [DevRomagna][1] today. Andrea &amp;lsquo;Verlok&amp;rsquo; Verlicchi, a Google Developer Expert specialing in web performance, will share his extensive experience in web performance and provide practical, high-impact, and easily applicable tips on improving performance in 2023.
-Info and signup [here][1].</description>
-      <content:encoded><![CDATA[<p>I know this is coming in a bit late; apologies, but&hellip; We&rsquo;re doing a Web Performance meetup at [DevRomagna][1] today. Andrea
+      <description>I know this is coming in a bit late; apologies, but&amp;hellip; We&amp;rsquo;re doing a Web Performance meetup at DevRomagna today. Andrea &amp;lsquo;Verlok&amp;rsquo; Verlicchi, a Google Developer Expert specialing in web performance, will share his extensive experience in web performance and provide practical, high-impact, and easily applicable tips on improving performance in 2023.
+Info and signup here.</description>
+      <content:encoded><![CDATA[<p>I know this is coming in a bit late; apologies, but&hellip; We&rsquo;re doing a Web Performance meetup at <a href="https://www.meetup.com/it-IT/devromagna/events/291862771/">DevRomagna</a> today. Andrea
 &lsquo;Verlok&rsquo; Verlicchi, a Google Developer Expert specialing in web performance, will share his extensive experience in web
 performance and provide practical, high-impact, and easily applicable tips on improving performance in 2023.</p>
-<p>Info and signup [here][1].</p>
+<p>Info and signup <a href="https://www.meetup.com/it-IT/devromagna/events/291862771/">here</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -32,9 +32,9 @@ performance and provide practical, high-impact, and easily applicable tips on im
       <link>https://nicolaiarocci.com/heading-to-go-a-look-at-building-a-video-encoder-meetup/</link>
       <pubDate>Wed, 08 Feb 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/heading-to-go-a-look-at-building-a-video-encoder-meetup/</guid>
-      <description>We&amp;rsquo;re doing a [DevRomagna meetup][1] this month, and I think it will be a super-interesting one. It&amp;rsquo;s titled Heading to Go: A Look at Building a Video Encoder and the presenter will be Daniel Enrico Botta, a C# software engineer who recently switched to Go for his video encoding projects. Here&amp;rsquo;s the abstract:
+      <description>We&amp;rsquo;re doing a DevRomagna meetup this month, and I think it will be a super-interesting one. It&amp;rsquo;s titled Heading to Go: A Look at Building a Video Encoder and the presenter will be Daniel Enrico Botta, a C# software engineer who recently switched to Go for his video encoding projects. Here&amp;rsquo;s the abstract:
 This talk will discuss the experience of moving from C# to Go for a video coding project. The pros and cons of using Go, a modern and efficient programming language, and how it compares to other languages will be shown.</description>
-      <content:encoded><![CDATA[<p>We&rsquo;re doing a [DevRomagna meetup][1] this month, and I think it will be a
+      <content:encoded><![CDATA[<p>We&rsquo;re doing a <a href="https://www.meetup.com/it-IT/devromagna/events/291027334/">DevRomagna meetup</a> this month, and I think it will be a
 super-interesting one. It&rsquo;s titled <em>Heading to Go: A Look at Building a Video
 Encoder</em> and the presenter will be Daniel Enrico Botta, a C# software engineer
 who recently switched to Go for his video encoding projects. Here&rsquo;s the abstract:</p>
@@ -54,7 +54,7 @@ Leaving the safe path to adventure into unknown territory is a safe way to
 broaden knowledge and improve self-confidence, or at least it was for me when I
 added Python to my tool belt. In surprising and unexpected ways, most of the
 new expertise also proved invaluable in my C# &amp; F# work.</p>
-<p>The session will be held in person, in Italian. So if you&rsquo;re interested, j[oin us][1]!</p>
+<p>The session will be held in person, in Italian. So if you&rsquo;re interested, j<a href="https://www.meetup.com/it-IT/devromagna/events/291027334/">oin us</a>!</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -62,13 +62,13 @@ new expertise also proved invaluable in my C# &amp; F# work.</p>
       <link>https://nicolaiarocci.com/in-person-vs.-online-events/</link>
       <pubDate>Sun, 01 May 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/in-person-vs.-online-events/</guid>
-      <description>Last week, thanks to [Andrea Verlicchi][1][^7]&amp;rsquo;s effort, we ran the first in-person [DevRomagna][2] event since 2019. We did some meetups during the pandemic, some in 2020 and a couple in 2022, but they were all online.
-In theory, online meetups and DevRomagna are a match made in heaven. The [Romagna region][3] consists of small same-size towns scattered in the vast countryside. To accommodate this, and in an attempt to encourage varied participation, DevRomagna has always been a roaming meetup.</description>
-      <content:encoded><![CDATA[<p>Last week, thanks to [Andrea Verlicchi][1][^7]&rsquo;s effort, we ran the first
-in-person [DevRomagna][2] event since 2019. We did some meetups during the
+      <description>Last week, thanks to Andrea Verlicchi1&amp;rsquo;s effort, we ran the first in-person DevRomagna event since 2019. We did some meetups during the pandemic, some in 2020 and a couple in 2022, but they were all online.
+In theory, online meetups and DevRomagna are a match made in heaven. The Romagna region consists of small same-size towns scattered in the vast countryside. To accommodate this, and in an attempt to encourage varied participation, DevRomagna has always been a roaming meetup.</description>
+      <content:encoded><![CDATA[<p>Last week, thanks to <a href="https://twitter.com/verlok">Andrea Verlicchi</a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>&rsquo;s effort, we ran the first
+in-person <a href="https://www.meetup.com/it-IT/DevRomagna/">DevRomagna</a> event since 2019. We did some meetups during the
 pandemic, some in 2020 and a couple in 2022, but they were all online.</p>
 <p>In theory, online meetups and DevRomagna are a match made in heaven. The
-[Romagna region][3] consists of small same-size towns scattered in the vast
+<a href="https://en.wikipedia.org/wiki/Romagna">Romagna region</a> consists of small same-size towns scattered in the vast
 countryside. To accommodate this, and in an attempt to encourage varied
 participation, DevRomagna has always been a roaming meetup. We might be in one
 place one month, and then, next month, we will likely move to another town.
@@ -76,15 +76,15 @@ With online meetups, attendance doesn&rsquo;t have to commit to a commute saving
 time and money and allowing everyone to participate in events that would
 otherwise be too far away.</p>
 <p>But there&rsquo;s value in commitment. The other day, we gathered in a new cozy
-venue ([Ca&rsquo; Vaina][4][^6], a municipality-run youth center and coworking space)
-where my friend [Gabriele Santomaggio][5] talked about Kubernetes, service mesh
+venue (<a href="https://www.facebook.com/centro.vaina">Ca&rsquo; Vaina</a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, a municipality-run youth center and coworking space)
+where my friend <a href="https://twitter.com/gsantomaggio">Gabriele Santomaggio</a> talked about Kubernetes, service mesh
 and isolation techniques he and his colleagues adopt at Vmware. After the talk,
 some of us went for dinner in a nearby pizzeria. The pizza was good, and the
 craft beer was great. We talked about many things like our jobs, our favorite
 developer tools and languages, and all the nerdy stuff you&rsquo;d imagine.
 Suggestions for new original presentations were thrown around, which is always
 good. Most importantly, I got to know new people, including Ugo, a fellow
-[Microsoft MVP][8] from my area whom I somehow managed not to meet in all these
+<a href="https://mvp.microsoft.com/">Microsoft MVP</a> from my area whom I somehow managed not to meet in all these
 years. With Ugo, we are now planning a few hopefully engaging dotnet-centered
 events.</p>
 <p>All in all, it was a pleasant, fruitful evening spent with like-minded
@@ -103,6 +103,20 @@ being, whenever possible, DevRomagna will stay true to its roots and remain
 a live event. There might be exceptions, like if we have a foreign or far-away
 guest or can&rsquo;t find a proper venue.</p>
 <p>We&rsquo;re a local meetup, and &ldquo;local&rdquo; hardly conjugates with &ldquo;online.&rdquo;</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Andrea is a DevRomagna co-organizer now. I am happy to have him onboard.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Sorry for the Facebook link. I couldn&rsquo;t find a better reference.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
   </channel>

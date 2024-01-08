@@ -34,10 +34,10 @@ Not so much its documentation and online support.  At some point, I landed in
 the Parallels forums, a vast ocean of scarcely useful threads from which
 I usually try to stay the hell away. The Parallels personnel there has
 a long-standing tendency to copy &amp; paste ready-made and irrelevant solutions.
-Users are left to their own, and, luckily, one of them posted the [perfect
-solution][1] to my Legacy-to-UEFI BIOS migration problem. I am reposting it
-here, with minor edits, for future reference (my future self [will be
-grateful][2]):</p>
+Users are left to their own, and, luckily, one of them posted the <a href="https://forum.parallels.com/threads/process-for-converting-from-legacy-to-uefi-in-prep-for-win-11.354888/">perfect
+solution</a> to my Legacy-to-UEFI BIOS migration problem. I am reposting it
+here, with minor edits, for future reference (my future self <a href="https://nicolaiarocci.com/learn-in-public/">will be
+grateful</a>):</p>
 <ol>
 <li>Back up your VM</li>
 <li>Boot into your Windows 10 VM as usual</li>

@@ -19,10 +19,10 @@
       <link>https://nicolaiarocci.com/cerberus-v1.3.5-released/</link>
       <pubDate>Thu, 10 Aug 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/cerberus-v1.3.5-released/</guid>
-      <description>Thanks to [funkyfuture][1]&amp;rsquo;s tireless work, yesterday we released [version 1.3.5][2] of [Cerberus][3], the data validation package for Python. This release officially supports Python 3.10 and 3.11, fixes a few issues, and proudly displays a new documentation theme which I dig, and I hope you&amp;rsquo;ll do the same. As usual, see the [changelog][4] for details.</description>
-      <content:encoded><![CDATA[<p>Thanks to [funkyfuture][1]&rsquo;s tireless work, yesterday we released [version 1.3.5][2] of [Cerberus][3], the data
+      <description>Thanks to funkyfuture&amp;rsquo;s tireless work, yesterday we released version 1.3.5 of Cerberus, the data validation package for Python. This release officially supports Python 3.10 and 3.11, fixes a few issues, and proudly displays a new documentation theme which I dig, and I hope you&amp;rsquo;ll do the same. As usual, see the changelog for details.</description>
+      <content:encoded><![CDATA[<p>Thanks to <a href="https://github.com/funkyfuture">funkyfuture</a>&rsquo;s tireless work, yesterday we released <a href="https://pypi.org/project/Cerberus/1.3.5/">version 1.3.5</a> of <a href="https://docs.python-cerberus.org">Cerberus</a>, the data
 validation package for Python. This release officially supports Python 3.10 and 3.11, fixes a few issues, and proudly
-displays a new documentation theme which I dig, and I hope you&rsquo;ll do the same. As usual, see the [changelog][4] for
+displays a new documentation theme which I dig, and I hope you&rsquo;ll do the same. As usual, see the <a href="https://docs.python-cerberus.org/changelog.html#version-1-3-5">changelog</a> for
 details.</p>
 ]]></content:encoded>
     </item>
@@ -32,13 +32,13 @@ details.</p>
       <pubDate>Mon, 18 Jul 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/a-project-you-maintain-has-been-designated-as-critical/</guid>
       <description>Last week, I got a mail from PyPI, the Python package index. They informed me that one of my open source projects had been designated as &amp;lsquo;critical,&amp;rsquo; and I was therefore required to enable two-factor authentication. If I didn&amp;rsquo;t oblige, I would soon lose the ability to add new releases or modify the project.
-The project in question was [Cerberus][1]. The &amp;lsquo;critical&amp;rsquo; designation happens when a project has been in the top 1% of downloads over the prior six months.</description>
+The project in question was Cerberus. The &amp;lsquo;critical&amp;rsquo; designation happens when a project has been in the top 1% of downloads over the prior six months.</description>
       <content:encoded><![CDATA[<p>Last week, I got a mail from PyPI, the Python package index. They informed me
 that one of my open source projects had been designated as &lsquo;critical,&rsquo; and
 I was therefore required to enable two-factor authentication. If I didn&rsquo;t
 oblige, I would soon lose the ability to add new releases or modify the
 project.</p>
-<p>The project in question was [Cerberus][1]. The &lsquo;critical&rsquo; designation happens
+<p>The project in question was <a href="https://python-cerberus.org/">Cerberus</a>. The &lsquo;critical&rsquo; designation happens
 when a project has been in the top 1% of downloads over the prior six months.
 Given that there are currently 388K packages on the Python Package Index,
 I must admit that having one of my projects in the top 1% does feel good.</p>
@@ -47,11 +47,11 @@ package if I didn&rsquo;t take action. I understand the motivation behind this m
 which is to improve the general security of the Python ecosystem. Still, the
 imposition from above didn&rsquo;t feel quite right to me. After reading about the
 rationale for the new requirement, I surrendered, went on PyPI and activated
-2FA[^3]. In hindsight, I should have done that long ago, as I already use 2FA
+2FA<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. In hindsight, I should have done that long ago, as I already use 2FA
 on many other services.</p>
 <p>A couple of days later, I was relieved to learn that my initial
 &ldquo;1984-dictatorship-alert&rdquo; ring bell wasn&rsquo;t the only one to go off. On that day,
-[Armin Ronacher&rsquo;s thoughts][2] on this very topic made the headlines on Hacker
+<a href="https://lucumr.pocoo.org/2022/7/9/congratulations/">Armin Ronacher&rsquo;s thoughts</a> on this very topic made the headlines on Hacker
 News:</p>
 <blockquote>
 <p>The message to me as a maintainer is quite clear: once a project achieved
@@ -65,6 +65,18 @@ wouldn&rsquo;t be in the index best interest to put further restrictions in plac
 <p>I think Armin&rsquo;s post is worth reading. I share some of his concerns, although
 I don&rsquo;t consider &lsquo;users vetting,&rsquo; as he suggests, a suitable alternative for
 authentication (vetting solves a different problem).</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>It did help that the Python Software Foundation provided a limited number of [Titan Security Keys][4] to critical project maintainers. I could redeem two for free, and I have to say they are a joy to use.
+[4]: <a href="https://store.google.com/product/titan_security_key">https://store.google.com/product/titan_security_key</a>
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>

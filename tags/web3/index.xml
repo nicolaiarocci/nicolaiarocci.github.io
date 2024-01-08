@@ -19,10 +19,10 @@
       <link>https://nicolaiarocci.com/moxie-on-web3/</link>
       <pubDate>Sat, 08 Jan 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/moxie-on-web3/</guid>
-      <description>An excellent article on Web3 has [just appeared][1] on Moxie Marlinspike&amp;rsquo;s website. Being Moxie[^2], he&amp;rsquo;s not just speculating and rambling about stuff. In an attempt to learn more about the so-called Web3 and the technologies around it, he went all-in and built a couple of dApps himself. Then, he produced an NFT and put it up for sale. What he found is, well, to put it mildly, fascinating.
+      <description>An excellent article on Web3 has just appeared on Moxie Marlinspike&amp;rsquo;s website. Being Moxie1, he&amp;rsquo;s not just speculating and rambling about stuff. In an attempt to learn more about the so-called Web3 and the technologies around it, he went all-in and built a couple of dApps himself. Then, he produced an NFT and put it up for sale. What he found is, well, to put it mildly, fascinating.
 Some of his insights on technology are also interesting.</description>
-      <content:encoded><![CDATA[<p>An excellent article on Web3 has [just appeared][1] on Moxie Marlinspike&rsquo;s
-website. Being Moxie[^2], he&rsquo;s not just speculating and rambling about stuff.
+      <content:encoded><![CDATA[<p>An excellent article on Web3 has <a href="https://moxie.org/2022/01/07/web3-first-impressions.html">just appeared</a> on Moxie Marlinspike&rsquo;s
+website. Being Moxie<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, he&rsquo;s not just speculating and rambling about stuff.
 In an attempt to learn more about the so-called Web3 and the technologies
 around it, he went all-in and built a couple of dApps himself. Then, he
 produced an NFT and put it up for sale. What he found is, well, to put it
@@ -55,6 +55,17 @@ rather than what we may consider our broader goals.</p>
 when the craze started. After a few experiments, I tagged it all as a nerds
 game and moved away. Moxie&rsquo;s article served me well in catching up on the whole
 scene. Can&rsquo;t say I&rsquo;m thrilled by what I see.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>On Moxie himself, see the New Yorker article I featured <a href="https://nicolaiarocci.com/on-the-ceo-and-founder-of-signal/">a while ago</a>.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
   </channel>

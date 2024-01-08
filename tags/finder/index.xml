@@ -21,7 +21,7 @@
       <guid>https://nicolaiarocci.com/how-to-copy-a-files-path-in-macos-finder/</guid>
       <description>No matter how long I&amp;rsquo;ve possessed a Mac and how hard I try, there will always be a helpful keyboard shortcut hidden somewhere that I don&amp;rsquo;t know about.
 Today I learned about holding the Option key while clicking on the Copy command in Finder. It activates the super-useful (and super-secret) &amp;ldquo;copy as pathname&amp;rdquo; feature.
-I spotted this trick on [Jamie Smith&amp;rsquo;s website][1], where other handy shortcuts (and the pretty gif above) reside.</description>
+I spotted this trick on Jamie Smith&amp;rsquo;s website, where other handy shortcuts (and the pretty gif above) reside.</description>
       <content:encoded><![CDATA[<p>No matter how long I&rsquo;ve possessed a Mac and how hard I try, there will always
 be a helpful keyboard shortcut hidden somewhere that I don&rsquo;t know about.</p>
 <p>Today I learned about holding the <code>Option</code> key while clicking on the Copy
@@ -29,7 +29,7 @@ command in Finder. It activates the super-useful (and super-secret) &ldquo;copy 
 pathname&rdquo; feature.</p>
 <p><img loading="lazy" src="/images/finder-menu-option.gif" alt="Credits: Jamie Smith"  />
 </p>
-<p>I spotted this trick on [Jamie Smith&rsquo;s website][1], where other handy shortcuts
+<p>I spotted this trick on <a href="https://www.jamieonkeys.dev/posts/keyboard-shortcuts/">Jamie Smith&rsquo;s website</a>, where other handy shortcuts
 (and the pretty gif above) reside.</p>
 ]]></content:encoded>
     </item>

@@ -65,11 +65,11 @@ UTF-8 out-of-the-box is one of them.</p>
       <pubDate>Wed, 25 Oct 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/linq-distinctby-on-a-property-for-dotnet-standard-and-old-dotnet-versions/</guid>
       <description>Today I learned how to implement a custom Enumerable.DistinctBy extension method that returns distinct elements from a sequence according to a specified key selector function.
-.NET 6 and its successors have the method [built in][1] within LINQ, but I needed it in a .NET Standard 2.0 class library, so I was out of luck. My implementation is simple, not different from [others][2] I found online, and should also work fine with old .</description>
+.NET 6 and its successors have the method built in within LINQ, but I needed it in a .NET Standard 2.0 class library, so I was out of luck. My implementation is simple, not different from others I found online, and should also work fine with old .</description>
       <content:encoded><![CDATA[<p>Today I learned how to implement a custom <code>Enumerable.DistinctBy</code> extension method that returns distinct elements from a
 sequence according to a specified key selector function.</p>
-<p>.NET 6 and its successors have the method [built in][1] within LINQ, but I needed it in a .NET Standard 2.0 class
-library, so I was out of luck. My implementation is simple, not different from [others][2] I found online, and should
+<p>.NET 6 and its successors have the method <a href="https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.distinctby?view=net-6.0">built in</a> within LINQ, but I needed it in a .NET Standard 2.0 class
+library, so I was out of luck. My implementation is simple, not different from <a href="https://stackoverflow.com/a/489421/323269">others</a> I found online, and should
 also work fine with old .NET releases. Here it is:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    public <span style="font-weight:bold">static</span> IEnumerable&lt;TSource&gt; DistinctBy&lt;TSource, TKey&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; keySelector)
 </span></span><span style="display:flex;"><span>    {
@@ -84,7 +84,7 @@ also work fine with old .NET releases. Here it is:</p>
 </span></span></code></pre></div><p>In the following usage example, I will get back all unique objects from the original sequence, distinct by their Name
 property:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    <span style="font-weight:bold">var</span> uniques = mySequenceOfObjects.DistinctBy(x =&gt; x.Name);
-</span></span></code></pre></div><p>I later went to check the [official .NET 6+ implementation][3]. They support an optional equality comparer , which I
+</span></span></code></pre></div><p>I later went to check the <a href="https://github.com/dotnet/runtime/blob/e0409d44bd8d1fd0be1d66fbb52bd609be18f388/src/libraries/System.Linq/src/System/Linq/Distinct.cs#L62">official .NET 6+ implementation</a>. They support an optional equality comparer , which I
 don&rsquo;t need, but their base implementation is similar to mine (they use deferred execution as well).</p>
 <p>By the way, years after its open-sourcing, I still get thrills when I realize I can always look at, let alone contribute
 to, the .NET source code.</p>
@@ -116,16 +116,16 @@ happy and rewarding ride, and I&rsquo;m glad the journey continues for another y
       <link>https://nicolaiarocci.com/homebrew-and-docfx-dont-like-each-other-too/</link>
       <pubDate>Tue, 20 Jun 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/homebrew-and-docfx-dont-like-each-other-too/</guid>
-      <description>Another day another Homebrew incompatibility emerges, this time with [docfx][2], the technical documentation building tool of reference in .NET space. I&amp;rsquo;ve been using docfx for years to build the [FatturaElettronica.NET][3] website, and it&amp;rsquo;s always been working without a glitch. Lately, however, my builds have been failing with strange errors I was too lazy to diagnose until today when I decided to grasp the nettle and sort the whole thing out.</description>
-      <content:encoded><![CDATA[<p>Another day another Homebrew incompatibility emerges, this time with [docfx][2], the technical documentation building
-tool of reference in .NET space. I&rsquo;ve been using docfx for years to build the [FatturaElettronica.NET][3] website, and it&rsquo;s
+      <description>Another day another Homebrew incompatibility emerges, this time with docfx, the technical documentation building tool of reference in .NET space. I&amp;rsquo;ve been using docfx for years to build the FatturaElettronica.NET website, and it&amp;rsquo;s always been working without a glitch. Lately, however, my builds have been failing with strange errors I was too lazy to diagnose until today when I decided to grasp the nettle and sort the whole thing out.</description>
+      <content:encoded><![CDATA[<p>Another day another Homebrew incompatibility emerges, this time with <a href="https://dotnet.github.io/docfx/index.html">docfx</a>, the technical documentation building
+tool of reference in .NET space. I&rsquo;ve been using docfx for years to build the <a href="https://fatturaelettronicaopensource.org">FatturaElettronica.NET</a> website, and it&rsquo;s
 always been working without a glitch. Lately, however, my builds have been failing with strange errors I was too lazy to
 diagnose until today when I decided to grasp the nettle and sort the whole thing out.</p>
 <p>It took me an embarrassing time to realize that, while successful, my docfx updates (<code>dotnet tool update -g docfx</code>) were
 being ignored. An old, Homebrew-installed version of docfx was being executed at my launches —a simple <code>which docfx</code>
 revealed the issue. <code>brew uninstall docfx</code> finally set the updated, dotnet-installed version free of its chains, and it
 is now merrily churning websites.</p>
-<p>A similar issue emerged [between Homebrew and .NET 8 Preview][1] only a few days ago. Lesson learned I&rsquo;m not installing
+<p>A similar issue emerged <a href="/homebrew-and-dotnet-8-preview-dont-like-each-other/">between Homebrew and .NET 8 Preview</a> only a few days ago. Lesson learned I&rsquo;m not installing
 dotnet tools via Homebrew anymore. Or maybe, I might stay clear of Homebrew altogether.</p>
 ]]></content:encoded>
     </item>
@@ -134,9 +134,9 @@ dotnet tools via Homebrew anymore. Or maybe, I might stay clear of Homebrew alto
       <link>https://nicolaiarocci.com/homebrew-and-dotnet-8-preview-dont-like-each-other/</link>
       <pubDate>Tue, 13 Jun 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/homebrew-and-dotnet-8-preview-dont-like-each-other/</guid>
-      <description>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&amp;rsquo;m working on a [C# 12 presentation for our local developer meetup][1], and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As version 7 was initially installed with Homebrew, I also wanted to install version 8 Preview with Homebrew, but that recipe was unavailable. Not perfectly happy with that, I fell back to the stand-alone installer, expecting problems.</description>
-      <content:encoded><![CDATA[<p>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&rsquo;m working on a [C# 12 presentation
-for our local developer meetup][1], and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As
+      <description>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&amp;rsquo;m working on a C# 12 presentation for our local developer meetup, and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As version 7 was initially installed with Homebrew, I also wanted to install version 8 Preview with Homebrew, but that recipe was unavailable. Not perfectly happy with that, I fell back to the stand-alone installer, expecting problems.</description>
+      <content:encoded><![CDATA[<p>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&rsquo;m working on a <a href="https://www.meetup.com/it-IT/devromagna/events/293340671/">C# 12 presentation
+for our local developer meetup</a>, and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As
 version 7 was initially installed with Homebrew, I also wanted to install version 8 Preview with Homebrew, but that
 recipe was unavailable. Not perfectly happy with that, I fell back to the stand-alone installer, expecting
 problems.</p>
@@ -155,9 +155,9 @@ I had to forego the Homebrew installation, which did not uninstall the SDK itsel
       <link>https://nicolaiarocci.com/python-decimal.getcontext-does-not-work-with-bpython/</link>
       <pubDate>Tue, 06 Jun 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/python-decimal.getcontext-does-not-work-with-bpython/</guid>
-      <description>I have been working on a side project for which I&amp;rsquo;m using [bpython][1], a &amp;ldquo;fancy interface to the Python interpreter.&amp;rdquo; If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax highlighting, readline-like autocomplete, a &amp;ldquo;rewind&amp;rdquo; function to pop the last line of code from memory, auto-indentation and more.
+      <description>I have been working on a side project for which I&amp;rsquo;m using bpython, a &amp;ldquo;fancy interface to the Python interpreter.&amp;rdquo; If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax highlighting, readline-like autocomplete, a &amp;ldquo;rewind&amp;rdquo; function to pop the last line of code from memory, auto-indentation and more.
 Anyway, today I found a bug in bpython, and that&amp;rsquo;s that Python&amp;rsquo;s decimal.getcontext() does not work with it.</description>
-      <content:encoded><![CDATA[<p>I have been working on a side project for which I&rsquo;m using [bpython][1], a &ldquo;fancy interface to the Python interpreter.&rdquo;
+      <content:encoded><![CDATA[<p>I have been working on a side project for which I&rsquo;m using <a href="https://bpython-interpreter.org">bpython</a>, a &ldquo;fancy interface to the Python interpreter.&rdquo;
 If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax
 highlighting, readline-like autocomplete, a &ldquo;rewind&rdquo; function to pop the last line of code from memory, auto-indentation
 and more.</p>
@@ -180,7 +180,7 @@ and more.</p>
 </span></span><span style="display:flex;"><span>Decimal(&#39;0.142857&#39;)
 </span></span></code></pre></div><p>I suspect this has something to do with threads, as <code>decimal.getcontext</code> targets the current thread while
 <code>DefaultContext</code> is global. I went to the bpython repository only to find that a ticket was already opened in 2021. I
-[added][2] my <code>DefaultContext</code> observation there.</p>
+<a href="https://github.com/bpython/bpython/issues/918#issuecomment-1578911204">added</a> my <code>DefaultContext</code> observation there.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -188,9 +188,9 @@ and more.</p>
       <link>https://nicolaiarocci.com/a-new-modern-msbuild-terminal-logger-is-coming-with-dotnet-8/</link>
       <pubDate>Sat, 20 May 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/a-new-modern-msbuild-terminal-logger-is-coming-with-dotnet-8/</guid>
-      <description>The [latest .NET 8 Preview][1] is out, and I love that they&amp;rsquo;re finally changing how MSBuild logs are printed to the terminal. The new Terminal Logger ditches the infamous &amp;ldquo;wall of text&amp;rdquo; that is a nightmare to parse in favor of a cleaner, leaner, and more organized output.
+      <description>The latest .NET 8 Preview is out, and I love that they&amp;rsquo;re finally changing how MSBuild logs are printed to the terminal. The new Terminal Logger ditches the infamous &amp;ldquo;wall of text&amp;rdquo; that is a nightmare to parse in favor of a cleaner, leaner, and more organized output.
 Once enabled, the new logger shows you the restore phase, followed by the build phase. During each phase, the currently-building projects are at the bottom of the terminal, and each building project tells you both the MSBuild Target currently being built, as well as the amount of time spent on that target.</description>
-      <content:encoded><![CDATA[<p>The [latest .NET 8 Preview][1] is out, and I love that they&rsquo;re finally changing how MSBuild logs are printed to the terminal.
+      <content:encoded><![CDATA[<p>The <a href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-8-preview-4/">latest .NET 8 Preview</a> is out, and I love that they&rsquo;re finally changing how MSBuild logs are printed to the terminal.
 The new Terminal Logger ditches the infamous &ldquo;wall of text&rdquo; that is a nightmare to parse in favor of a cleaner, leaner,
 and more organized output.</p>
 <blockquote>
@@ -227,7 +227,7 @@ presentation for Codemotion (I think), I fired a quick email asking permission t
 green light landed seconds later. Salvatore is the epitome of kindness and helpfulness.</p>
 <p>As if his pronounced computer skills were not enough, with his latest sci-fi novel Wohpe (on my reading list), he proves
 to be endowed with the most diverse capabilities.</p>
-<p>Anyway, [here&rsquo;s the antirez &amp; Redis story][1] I mentioned. Worth reading it.</p>
+<p>Anyway, <a href="https://blog.brachiosoft.com/redis-en">here&rsquo;s the antirez &amp; Redis story</a> I mentioned. Worth reading it.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -235,9 +235,9 @@ to be endowed with the most diverse capabilities.</p>
       <link>https://nicolaiarocci.com/the-real-cost-of-interruption/</link>
       <pubDate>Fri, 07 Apr 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-real-cost-of-interruption/</guid>
-      <description>I&amp;rsquo;m just back from reading [Programmer Interrupted: The Real Cost of Interruption and Context Switching][1], an interesting short piece in which I learned about at least two new things.
+      <description>I&amp;rsquo;m just back from reading Programmer Interrupted: The Real Cost of Interruption and Context Switching, an interesting short piece in which I learned about at least two new things.
 First, The Parable of the Two Watchmakers, introduced by Nobel Prize winner Herbert Simon, describes the complex relationship between sub-systems and their larger wholes. In the context of the article, it helps explain, even for non-programmers, the cost of an interruption. It also hints at a possible mitigation technique:</description>
-      <content:encoded><![CDATA[<p>I&rsquo;m just back from reading [Programmer Interrupted: The Real Cost of Interruption and Context Switching][1], an interesting
+      <content:encoded><![CDATA[<p>I&rsquo;m just back from reading <a href="https://contextkeeper.io/blog/the-real-cost-of-an-interruption-and-context-switching/">Programmer Interrupted: The Real Cost of Interruption and Context Switching</a>, an interesting
 short piece in which I learned about at least two new things.</p>
 <p>First, <em>The Parable of the Two Watchmakers</em>, introduced by Nobel Prize winner Herbert Simon, describes the complex
 relationship between sub-systems and their larger wholes. In the context of the article, it helps explain, even for
@@ -277,8 +277,8 @@ any task that requires the use of multiple sources of information from a common 
       <link>https://nicolaiarocci.com/running-dotnet-code-in-an-isolated-sandbox/</link>
       <pubDate>Thu, 23 Mar 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/running-dotnet-code-in-an-isolated-sandbox/</guid>
-      <description>Steve Sanderson is experimenting [again][1], and when Steve plays with his toys, I pay attention. In a new video on his YouTube channel, Steve introduces an experimental new .NET package that allows the creation of isolated instances of the .NET runtime that will safely run code in a sandbox.</description>
-      <content:encoded><![CDATA[<p>Steve Sanderson is experimenting [again][1], and when Steve plays with his toys, I pay attention. In a new video on his
+      <description>Steve Sanderson is experimenting again, and when Steve plays with his toys, I pay attention. In a new video on his YouTube channel, Steve introduces an experimental new .NET package that allows the creation of isolated instances of the .NET runtime that will safely run code in a sandbox.</description>
+      <content:encoded><![CDATA[<p>Steve Sanderson is experimenting <a href="/a-quick-preview-of-the-blazor-united-prototype-for-.net8/">again</a>, and when Steve plays with his toys, I pay attention. In a new video on his
 YouTube channel, Steve introduces an experimental new .NET package that allows the creation of isolated instances of the
 .NET runtime that will safely run code in a sandbox.</p>
 <!-- raw HTML omitted -->
@@ -290,8 +290,8 @@ YouTube channel, Steve introduces an experimental new .NET package that allows t
       <link>https://nicolaiarocci.com/making-csharp-and-omnisharp-play-well-with-neovim/</link>
       <pubDate>Fri, 03 Mar 2023 08:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/making-csharp-and-omnisharp-play-well-with-neovim/</guid>
-      <description>I&amp;rsquo;ve recently moved away from my custom Neovim configuration to embrace [LazyVim][1]. LazyVim is a Neovim setup with sane default settings for options, autocmds, and keymaps. It boldly aims to transform Neovim into a full-fledged IDE that is easy to extend and customize. It comes with a wealth of plugins pre-configured and ready to use, and it is also blazing fast. Elijah Manor has a fantastic introductory video on YouTube; I suggest you take the time to look at it.</description>
-      <content:encoded><![CDATA[<p>I&rsquo;ve recently moved away from my custom Neovim configuration to embrace [LazyVim][1]. LazyVim is a Neovim setup with sane
+      <description>I&amp;rsquo;ve recently moved away from my custom Neovim configuration to embrace LazyVim. LazyVim is a Neovim setup with sane default settings for options, autocmds, and keymaps. It boldly aims to transform Neovim into a full-fledged IDE that is easy to extend and customize. It comes with a wealth of plugins pre-configured and ready to use, and it is also blazing fast. Elijah Manor has a fantastic introductory video on YouTube; I suggest you take the time to look at it.</description>
+      <content:encoded><![CDATA[<p>I&rsquo;ve recently moved away from my custom Neovim configuration to embrace <a href="https://www.lazyvim.org/">LazyVim</a>. LazyVim is a Neovim setup with sane
 default settings for options, autocmds, and keymaps. It boldly aims to transform Neovim into a full-fledged IDE that is
 easy to extend and customize. It comes with a wealth of plugins pre-configured and ready to use, and it is also blazing
 fast. Elijah Manor has a fantastic introductory video on YouTube; I suggest you take the time to look at it.</p>
@@ -308,8 +308,8 @@ I loaded:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Error executing vim.schedule lua callbaack: /usr/share/[...]/semantic_tokens.lua:342:E5248: Invalid character in group name.
 </span></span></code></pre></div><p>A little investigation revealed that semantic tokens provided by
 OmniSharp don&rsquo;t conform to the LSP specification, which triggers the error. I cloned the <em>omnisharp-roslyn</em> repo and dug
-into the code hoping I could offer a quick fix. As it turns out, however, the issue is actually with [Roslyn
-itself][4], not OmniSharp. There are tickets on both the [Neovim][2] and the [OmniSharp][3] repositories, but I fear
+into the code hoping I could offer a quick fix. As it turns out, however, the issue is actually with <a href="https://github.com/dotnet/roslyn/blob/3cca4fdc3b125995bfd32b3a02b5d5c2d2b82504/src/Workspaces/Core/Portable/Classification/ClassificationTypeNames.cs#L97">Roslyn
+itself</a>, not OmniSharp. There are tickets on both the <a href="https://github.com/neovim/neovim/issues/21391">Neovim</a> and the <a href="https://github.com/OmniSharp/omnisharp-roslyn/issues/2483">OmniSharp</a> repositories, but I fear
 they&rsquo;ll stagnate there as non-relevant (<em>note to self</em>: maybe report the problem to the Roslyn folks? Alternatively,
 propose a patched semantic provider to the <em>omnisharp-roslyn</em> maintainers.)</p>
 <p>Anyway, a quick, hacky, and not future-proof fix is to customize Neovim (LazyVim) configuration like this:</p>
@@ -398,7 +398,7 @@ propose a patched semantic provider to the <em>omnisharp-roslyn</em> maintainers
 </span></span><span style="display:flex;"><span>  end,
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>It overrides the <code>on_attach</code> event to pass an LSP-digestible list of semantic tokens. And voilà, C# files are now loaded seamlessly.</p>
-<p>I&rsquo;m not done yet. I&rsquo;m having another [weird issue][5] with <em>.editorconfig</em> files. I&rsquo;m still triaging it, and will report back when (if) I sort it out.</p>
+<p>I&rsquo;m not done yet. I&rsquo;m having another <a href="https://github.com/OmniSharp/omnisharp-roslyn/issues/2510">weird issue</a> with <em>.editorconfig</em> files. I&rsquo;m still triaging it, and will report back when (if) I sort it out.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -406,12 +406,12 @@ propose a patched semantic provider to the <em>omnisharp-roslyn</em> maintainers
       <link>https://nicolaiarocci.com/making-the-latest-csharp-language-features-available-in-older-dotnet-versions/</link>
       <pubDate>Sat, 04 Feb 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/making-the-latest-csharp-language-features-available-in-older-dotnet-versions/</guid>
-      <description>In a C# library I&amp;rsquo;ve been working on, I wanted to use C# 9.0&amp;rsquo;s init keyword. Quoting the [documentation][3]:
+      <description>In a C# library I&amp;rsquo;ve been working on, I wanted to use C# 9.0&amp;rsquo;s init keyword. Quoting the documentation:
 The init keyword defines an accessor method in a property or indexer. An init-only setter assigns a value to the property or the indexer element only during object construction. This enforces immutability so that once the object is initialized, it can&amp;rsquo;t be changed again.
 Consider the following class:
 public class Person { public string FirstName { get; init; } } You can initialize it like this:</description>
       <content:encoded><![CDATA[<p>In a C# library I&rsquo;ve been working on, I wanted to use C# 9.0&rsquo;s <code>init</code> keyword.
-Quoting the [documentation][3]:</p>
+Quoting the <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/init">documentation</a>:</p>
 <blockquote>
 <p>The init keyword defines an accessor method in a property or indexer. An
 init-only setter assigns a value to the property or the indexer element
@@ -433,7 +433,7 @@ might be preferable to a parameter-enforced class constructor alternative.</p>
 <p>To my surprise, however, when I tried the above, I got the following error:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>The predefined type &#39;System.Runtime.CompilerServices.IsExternalInit&#39; must be
 </span></span><span style="display:flex;"><span>defined or imported in order to declare init-only setter
-</span></span></code></pre></div><p>As it [turns out][1], The <code>IsExternalInit</code> type is only included in the net5.0
+</span></span></code></pre></div><p>As it <a href="https://developercommunity.visualstudio.com/t/error-cs0518-predefined-type-systemruntimecompiler/1244809#TPIN-N1249582">turns out</a>, The <code>IsExternalInit</code> type is only included in the net5.0
 (and subsequent) target frameworks, so one cannot use it right away in a
 NetStandard 2.0 (or 2.1, for that matter) library.</p>
 <p>In the dotnet world, when I encounter <em>&ldquo;type is not defined in version X&rdquo;</em>
@@ -445,7 +445,7 @@ the following somewhere in my source code:</p>
 </span></span><span style="display:flex;"><span>        internal static class IsExternalInit {}
 </span></span><span style="display:flex;"><span>    }
 </span></span></code></pre></div><p>And presto, the <code>init</code> keyword is now fully available to my library.</p>
-<p>While researching this matter, I stumbled into [PolySharp][2],  a lovely
+<p>While researching this matter, I stumbled into <a href="https://github.com/Sergio0694/PolySharp">PolySharp</a>,  a lovely
 package that takes this workaround approach to new heights. What is it?</p>
 <blockquote>
 <p>PolySharp provides generated, source-only polyfills for C# language features,
@@ -497,12 +497,12 @@ Blazor United come with some solid tooling, it will be a huge hit.</p>
       <link>https://nicolaiarocci.com/on-implementing-the-asp.net-core-7-rate-limiting-middleware/</link>
       <pubDate>Fri, 23 Dec 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-implementing-the-asp.net-core-7-rate-limiting-middleware/</guid>
-      <description>Today, my last self-assigned duty before the Christmas break was to migrate our in-house rate-limiting implementation (based on the [AspNetCoreRateLimiting][1] third-party package) to the new, shiny [rate-limiting middleware][2] introduced by ASP.NET Core 7. While the process was relatively straightforward, I stumbled upon a few quirks I want to annotate here.
+      <description>Today, my last self-assigned duty before the Christmas break was to migrate our in-house rate-limiting implementation (based on the AspNetCoreRateLimiting third-party package) to the new, shiny rate-limiting middleware introduced by ASP.NET Core 7. While the process was relatively straightforward, I stumbled upon a few quirks I want to annotate here.
 Our use case is simple. We use what the ASP.NET Core 7 documentation defines as a &amp;ldquo;fixed window limiter.&amp;rdquo; It uses a specified time window to limit requests.</description>
       <content:encoded><![CDATA[<p>Today, my last self-assigned duty before the Christmas break was to migrate
 our in-house rate-limiting implementation (based on the
-[AspNetCoreRateLimiting][1] third-party package) to the new, shiny
-[rate-limiting middleware][2] introduced by ASP.NET Core 7. While the process
+<a href="https://github.com/stefanprodan/AspNetCoreRateLimit">AspNetCoreRateLimiting</a> third-party package) to the new, shiny
+<a href="https://devblogs.microsoft.com/dotnet/announcing-rate-limiting-for-dotnet/">rate-limiting middleware</a> introduced by ASP.NET Core 7. While the process
 was relatively straightforward, I stumbled upon a few quirks I want to annotate
 here.</p>
 <p>Our use case is simple. We use what the ASP.NET Core 7 documentation defines as
@@ -632,11 +632,11 @@ The code below is updated to address both issues above:</p>
 </span></span><span style="display:flex;"><span>    }
 </span></span></code></pre></div><p>And that&rsquo;s all there is to it. I dropped the AspNetCoreRateLimiting dependency.
 That is one great piece of software, and I am grateful to its author Stefan
-Prodan and his contributors. As mentioned in [My Top 7 New Features in .NET
-7][3], they recently released a package that allows using Redis as a
+Prodan and his contributors. As mentioned in <a href="/my-top-7-new-features-in-.net-7/">My Top 7 New Features in .NET
+7</a>, they recently released a package that allows using Redis as a
 rate-limiting backend. I might adopt it in the future.</p>
 <p>Complete documentation for ASP.NET Core 7 rate-limiting middleware is available
-[here][4].</p>
+<a href="https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit?view=aspnetcore-7.0">here</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -665,21 +665,21 @@ good while to come out of the trenches, but better late than never, I&rsquo;d sa
       <link>https://nicolaiarocci.com/my-top-7-new-features-in-.net-7/</link>
       <pubDate>Sun, 04 Dec 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/my-top-7-new-features-in-.net-7/</guid>
-      <description>The other day we did a [.NET 7 Spotlight][12] event at this month&amp;rsquo;s [DevRomagna][13] meetup. The speakers were [Ugo Lattanzi][14] and me. In my session, I chose to talk about my top 7 new features in .NET 7 (pun intended.) What follows is a mix of my preparation notes and what I ended up really saying[^17].
+      <description>The other day we did a .NET 7 Spotlight event at this month&amp;rsquo;s DevRomagna meetup. The speakers were Ugo Lattanzi and me. In my session, I chose to talk about my top 7 new features in .NET 7 (pun intended.) What follows is a mix of my preparation notes and what I ended up really saying1.
 1. Performance Since the initial release of &amp;ldquo;new dotnet&amp;rdquo; (.NET Core), performance has always been a critical goal for the .</description>
-      <content:encoded><![CDATA[<p>The other day we did a [.NET 7 Spotlight][12] event at this month&rsquo;s
-[DevRomagna][13] meetup. The speakers were [Ugo Lattanzi][14] and me. In my
+      <content:encoded><![CDATA[<p>The other day we did a <a href="https://www.meetup.com/it-IT/devromagna/events/289709131/">.NET 7 Spotlight</a> event at this month&rsquo;s
+<a href="https://www.meetup.com/it-IT/devromagna/">DevRomagna</a> meetup. The speakers were <a href="https://twitter.com/imperugo">Ugo Lattanzi</a> and me. In my
 session, I chose to talk about my top 7 new features in .NET 7 (pun intended.)
 What follows is a mix of my preparation notes and what I ended up really
-saying[^17].</p>
+saying<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
 <h2 id="1-performance">1. Performance</h2>
 <p>Since the initial release of &ldquo;new dotnet&rdquo; (.NET Core), performance has always
 been a critical goal for the .NET team. Starting with .NET 5, performance gains
 have been skyrocketing. .NET 6 was <em>a lot</em> faster than 5, and now, well, I&rsquo;m
 surprised by the remarkable performance improvements in .NET 7. Stephen Toub
-posted a remarkably long (255 printed pages!) [in-depth analysis of the
-performance improvements in .NET 7][1]. one That was followed by articles
-dedicated to [ASP.NET Core 7][2] and [MAUI 7][3] performance gains. At .NETConf
+posted a remarkably long (255 printed pages!) <a href="https://devblogs.microsoft.com/dotnet/performance_improvements_in_net_7">in-depth analysis of the
+performance improvements in .NET 7</a>. one That was followed by articles
+dedicated to <a href="https://devblogs.microsoft.com/dotnet/performance-improvements-in-aspnet-core-7/">ASP.NET Core 7</a> and <a href="https://devblogs.microsoft.com/dotnet/dotnet-7-performance-improvements-in-dotnet-maui/">MAUI 7</a> performance gains. At .NETConf
 2022, a particular slide caught everyone&rsquo;s attention.</p>
 <p><img loading="lazy" src="/images/dotnetconf22.png" alt=""  />
 </p>
@@ -688,7 +688,7 @@ updated version. I&rsquo;m more impressed with the gRPC graph than the big &ldqu
 faster than Node&rdquo; one. Being faster than Node doesn&rsquo;t break the news these days,
 but being quicker than Go, C++ and Rust? That&rsquo;s one bold statement you have
 right there.</p>
-<p>An [exciting article][4] surfaced a while ago on this specific topic. In it,
+<p>An <a href="https://dusted.codes/how-fast-is-really-aspnet-core">exciting article</a> surfaced a while ago on this specific topic. In it,
 Dustin Moris Gorski presents an in-depth analysis of the ASP.NET Core 7 code
 used for the TechEmpower Framework Benchmark referenced in the above slide. The
 results are&hellip; fascinating. That code is undoubtedly <em>not</em> what mere mortals
@@ -696,10 +696,10 @@ tend to run in their production systems. It is super-performance-optimized,
 often ditching canonical, built-in, and wildly adopted features in favor of
 low-level, high-performance and precisely hand-crafted alternatives. Dustin&rsquo;s
 article is a masterpiece for several reasons; I suggest you invest your time
-[reading it][4].</p>
+<a href="https://dusted.codes/how-fast-is-really-aspnet-core">reading it</a>.</p>
 <p>But yeah, despite this glitch, the takeaway is that .NET 7 is speedy, faster
 than previous versions, and on par with, if not (far?) superior to, most stacks
-and frameworks. The [Stephen Toub&rsquo;s article][1] is a testament to the massive
+and frameworks. The <a href="https://devblogs.microsoft.com/dotnet/performance_improvements_in_net_7">Stephen Toub&rsquo;s article</a> is a testament to the massive
 work done and the achievements obtained.</p>
 <p>Most importantely, we get most of these speed benefits for free, just by
 upgrading to .NET 7. And the good new is, the upgrade is as easy as changing
@@ -709,7 +709,7 @@ Microsoft dependencies to v7.0.0.</p>
 <p>As a consequence of the C# release cycle alignment to that of.NET itself (which
 is much faster), recent versions of C# see fewer features announcements than in
 the past. A good thing in my opinion. Of the several appreciable new features
-coming with C# 11, a remarkable one is the [<code>required</code> modifier][15].</p>
+coming with C# 11, a remarkable one is the <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/required"><code>required</code> modifier</a>.</p>
 <p>When you enable nullable checks in a project, non-nullable string properties
 are flagged with warning that they should be initialized with a non-null value
 when exiting the constructor:</p>
@@ -731,8 +731,8 @@ will compile) to an error (which won&rsquo;t compile). Once you start using this
 feature, it feels so obvious and natural that you wonder why it wasn&rsquo;t there
 right from start.</p>
 <h2 id="3-c-11-raw-string-literals">3. C# 11 raw string literals</h2>
-<p>In C# 11, wrapping a string with triple-double-quotes makes it a [raw
-literal][5]. Its main benefits are that no escaping of double-quotes is
+<p>In C# 11, wrapping a string with triple-double-quotes makes it a <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-11.0/raw-string-literal">raw
+literal</a>. Its main benefits are that no escaping of double-quotes is
 necessary, and newlines are allowed within the string.</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="font-weight:bold">var</span> xml = <span style="font-style:italic">&#34;&#34;&#34;
 </span></span></span><span style="display:flex;"><span><span style="font-style:italic">          &lt;element attr=&#34;content&#34;&gt;
@@ -765,7 +765,7 @@ prints as:</p>
 </span></span></code></pre></div><p>In hindsight, like the <code>required</code> modifier, raw string literals appear as
 obvious.</p>
 <h2 id="4-built-in-container-support">4. Built-in container support</h2>
-<p>.NET 7 has [built-in container support][6], meaning that <code>dotnet publish</code> can
+<p>.NET 7 has <a href="https://devblogs.microsoft.com/dotnet/announcing-builtin-container-support-for-the-dotnet-sdk/">built-in container support</a>, meaning that <code>dotnet publish</code> can
 now output to a container image instead of a directory. We control image names,
 tags, and other settings (like the base image) via dedicated <code>.csproj</code> tags. Two
 requirements:</p>
@@ -782,7 +782,7 @@ All my projects deploy to docker containers and are already migrated to .NET 7.
 I&rsquo;m currently using Dockerfiles, but I&rsquo;ll be experimenting with this
 alternative in the coming weeks, both with builds and remote CI builds.</p>
 <h2 id="5-native-aot">5. Native AOT</h2>
-<p>[Native AOT][7] produces a standalone executable in the target platform&rsquo;s file
+<p><a href="https://learn.microsoft.com/en-us/dotnet/core/deploying/native-aot/">Native AOT</a> produces a standalone executable in the target platform&rsquo;s file
 format, with no external dependencies. It&rsquo;s native, with no IL or JIT involved,
 and provides fast startup time and a small, self-contained deployment.</p>
 <p>In my demo, I just needed to add a <code>&lt;PublishAot&gt;true&lt;/PublishAot&gt;</code> tag to the
@@ -800,20 +800,31 @@ parts after me, took charge of showing these.</p>
 <p>I briefly mentioned that rate-limiting and output caching are key features in
 mature production systems. Until today, we had to bake them in-house or rely on
 third-party packages. I&rsquo;ve been using LazyCache and AspNetCoreRateLimit myself.
-The latter [recently acknowledged][8] the arrival of rate-limiting in .NET 7 and
+The latter <a href="https://github.com/stefanprodan/AspNetCoreRateLimit/issues/382">recently acknowledged</a> the arrival of rate-limiting in .NET 7 and
 embraced it in a new package that offers Redis as a rate-limiting backend.
-[Rate-limiting][9] and [output caching][10] are now part of the ASP.NET Core
+<a href="https://devblogs.microsoft.com/dotnet/announcing-rate-limiting-for-dotnet/">Rate-limiting</a> and <a href="https://learn.microsoft.com/en-us/aspnet/core/performance/caching/output?view=aspnetcore-7.0">output caching</a> are now part of the ASP.NET Core
 framework, and that&rsquo;s where they belong.</p>
 <h2 id="8-minimal-apis-group-routes">8. Minimal APIs group routes</h2>
-<p>I know I said 7. I don&rsquo;t use minimal APIs in production yet, but [group
-routing][11] is beautiful and something I&rsquo;ll be employing on the first
+<p>I know I said 7. I don&rsquo;t use minimal APIs in production yet, but <a href="https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-7.0#route-groups">group
+routing</a> is beautiful and something I&rsquo;ll be employing on the first
 occasion. During the meetup, an interesting (and much-expected) discussion
 ensued on the usefulness of minimal APIs. Veterans of many battles don&rsquo;t deem
 them necessary, especially in real-world use cases, which is actually accurate:
 one can keep relying on the canonical MVC approach. The sentiment was that
-Minimal APIs are mostly targeted to newcomers, which is probably true[^16]. As
+Minimal APIs are mostly targeted to newcomers, which is probably true<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. As
 someone coming from the Python REST ecosystem, I dig them a lot. They evolve
 rapidly and I&rsquo;m sure we&rsquo;ll soon see them in action in complex, real scenarios.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>To Caesar what is Caesar&rsquo;s, short on time, I recycled both the idea and the materials from James Montemagno&rsquo;s <a href="https://www.youtube.com/watch?v=0BvCzZ9P7UY">excellent video</a> on the same the topic.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Back when Minimal APIs were about to debut, I wrote <em><a href="https://nicolaiarocci.com/will-.net-6-minimal-apis-turn-heads?">Will .NET 6 Minimal APIs turn heads?</a></em>, with some musings on their effectiveness and target audience.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -821,10 +832,10 @@ rapidly and I&rsquo;m sure we&rsquo;ll soon see them in action in complex, real 
       <link>https://nicolaiarocci.com/the-origins-of-python/</link>
       <pubDate>Sat, 26 Nov 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-origins-of-python/</guid>
-      <description>Yesterday the creator of the Python language, Guido van Rossum, [tweeted][1] about [The Origins of Python][2], an essay by his mentor, Lambert Meertens.
+      <description>Yesterday the creator of the Python language, Guido van Rossum, tweeted about The Origins of Python, an essay by his mentor, Lambert Meertens.
 &amp;ldquo;On Sunday, June 21, 1970, in an office building on Great Portland Street in London, a teletype sprang to life. Under the heading &amp;ldquo;HAPPY FAMILIES,&amp;rdquo; the machine rattled out a sequence of English sentences, such as &amp;ldquo;THE DOG SITS ON THE BABY&amp;rdquo; and &amp;ldquo;UNCLE TED PLAYS WITH SISTER.</description>
-      <content:encoded><![CDATA[<p>Yesterday the creator of the Python language, Guido van Rossum, [tweeted][1]
-about [The Origins of Python][2], an essay by his mentor, Lambert Meertens.</p>
+      <content:encoded><![CDATA[<p>Yesterday the creator of the Python language, Guido van Rossum, <a href="https://twitter.com/gvanrossum/status/1596268474518876160">tweeted</a>
+about <a href="https://inference-review.com/article/the-origins-of-python">The Origins of Python</a>, an essay by his mentor, Lambert Meertens.</p>
 <blockquote>
 <p>&ldquo;On Sunday, June 21, 1970, in an office building on Great Portland Street in
 London, a teletype sprang to life. Under the heading &ldquo;HAPPY FAMILIES,&rdquo; the
@@ -851,7 +862,18 @@ since an inconspicuous public release in 1991. As far apart as these events
 are, both in time and geography, an arc of history connects them.&rdquo;</p>
 </blockquote>
 <p>It is a magnificent article. If you&rsquo;re passionate about Python, and programming
-languages in general, make sure to read it.[^3]</p>
+languages in general, make sure to read it.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>In the same vein, another outstanding reading would be <a href="https://dl.acm.org/doi/pdf/10.1145/3386325">The Early History of F#</a>.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -878,7 +900,7 @@ that you can “only hire the best”, direct some of that effort towards
 building a system that produces great results out of a wider spectrum of
 individual performance.</p>
 </blockquote>
-<p>But what does he mean by a <em>system designed for quality</em>? Read it all [here][1].</p>
+<p>But what does he mean by a <em>system designed for quality</em>? Read it all <a href="https://jacobian.org/2022/sep/9/quality-is-systemic/">here</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -886,10 +908,10 @@ individual performance.</p>
       <link>https://nicolaiarocci.com/my-playwright-session-at-webday-2022/</link>
       <pubDate>Fri, 01 Apr 2022 06:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/my-playwright-session-at-webday-2022/</guid>
-      <description>If you understand Italian, the recording of my Playwright session at UGIdotNET&amp;rsquo;s [WebDay 2022][1] is now available on YouTube[^2]. Playwright is a phenomenal cross-browser, cross-platform, cross-language, single-API, mobile-friendly front-end testing tool.
+      <description>If you understand Italian, the recording of my Playwright session at UGIdotNET&amp;rsquo;s WebDay 2022 is now available on YouTube1. Playwright is a phenomenal cross-browser, cross-platform, cross-language, single-API, mobile-friendly front-end testing tool.
 I&amp;rsquo;m looking forward to giving the same session in English sooner or later, but I should first win my laziness and start looking for exciting events with open CFPs. If you happen to know one, please let me know.</description>
       <content:encoded><![CDATA[<p>If you understand Italian, the recording of my Playwright session at
-UGIdotNET&rsquo;s [WebDay 2022][1] is now available on YouTube[^2]. Playwright is
+UGIdotNET&rsquo;s <a href="https://www.ugidotnet.org/e/2840/Web-Day-2022">WebDay 2022</a> is now available on YouTube<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Playwright is
 a phenomenal cross-browser, cross-platform, cross-language, single-API,
 mobile-friendly front-end testing tool.</p>
 <p>I&rsquo;m looking forward to giving the same session in English sooner or later, but
@@ -900,6 +922,17 @@ CFPs. If you happen to know one, please let me know.</p>
   <iframe src="https://www.youtube.com/embed/BaY9WIHUwFc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>A couple weeks later I also presented at <a href="https://www.meetup.com/it-IT/DevRomagna/events/284626987/">DevRomagna</a>, the local meetup I run.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -915,12 +948,23 @@ problems, and we will solve them. Some customers will complain, and those will
 be the most vocal. The vast majority of them will appreciate the effort, enjoy
 the features, and stay silent. That&rsquo;s how it works. We&rsquo;ll do just fine.</p>
 <p>As you can imagine, it&rsquo;s a working weekend for me. While hacking in the early
-morning, I listened to [The Mildlife Very Fantastic Playlist][1] when a curious
-tune caught my attention[^2]. I glanced over to Spotify, and my eyes fell on
+morning, I listened to <a href="https://open.spotify.com/playlist/1WjnPw3PbQJOsEpEgJsz5f?si=53a83f9c31484310">The Mildlife Very Fantastic Playlist</a> when a curious
+tune caught my attention<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. I glanced over to Spotify, and my eyes fell on
 the most appropriate CD cover for launch day ever.</p>
 <p><img loading="lazy" src="/images/laidback-keepsmiling.jpg" alt="Laid Back&amp;hellip;Keep Smiling"  />
 </p>
 <p>Whatever happens tomorrow, lay back and keep smiling.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Track #8, <em>Fly Away / Walking in the Sunshine</em>
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -929,19 +973,19 @@ the most appropriate CD cover for launch day ever.</p>
       <pubDate>Sun, 14 Nov 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/my-asp.net-5-migration-to-.net-6/</guid>
       <description>I spent the last few days migrating our ASP.NET REST services, MVC web applications and Blazor server apps to .NET 6. Overall the process was pretty straightforward. The few issues I went through were easy to solve and well documented. Things got more involved with the EF Core 6 transition, especially with the Npgsql Entity Framework Core Provider.
-The official [ASP.NET Core 5.0 to 6.0 migration guide][1] was my first stop.</description>
+The official ASP.NET Core 5.0 to 6.0 migration guide was my first stop.</description>
       <content:encoded><![CDATA[<p>I spent the last few days migrating our ASP.NET REST services, MVC web
 applications and Blazor server apps to .NET 6. Overall the process was pretty
 straightforward. The few issues I went through were easy to solve and well
 documented. Things got more involved with the EF Core 6 transition, especially
 with the Npgsql Entity Framework Core Provider.</p>
-<p>The official [ASP.NET Core 5.0 to 6.0 migration guide][1] was my first stop. It
+<p>The official <a href="https://docs.microsoft.com/en-us/aspnet/core/migration/50-to-60">ASP.NET Core 5.0 to 6.0 migration guide</a> was my first stop. It
 offers the perfect entry point, rich with in-depth links. At this stage, I am
 not interested in switching to the new .NET 6 minimal hosting model (aka
 Minimal APIs). I think it&rsquo;s a significant improvement, and we will likely adopt
 it for new projects, but our production projects aren&rsquo;t going to be refactored
 right away. Should minimal APIs also prove to be remarkably performant, we&rsquo;ll
-reconsider them[^11].</p>
+reconsider them<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
 <p>The first step was updating the target framework moniker to <code>net6.0</code>.</p>
 <pre><code>&lt;Project Sdk=&quot;Microsoft.NET.Sdk.Web&quot;&gt;
   &lt;PropertyGroup&gt;
@@ -975,7 +1019,7 @@ warnings, either at compile or runtime. Let&rsquo;s go through them one by one.<
 &lsquo;JsonSerializer.Serialize(TValue, JsonSerializerOptions?)&rsquo; and
 &lsquo;JsonSerializer.Serialize(TValue, JsonTypeInfo)&rsquo;&quot;</p>
 </blockquote>
-<p>In .NET 6, the <code>Sytem.Text.Json.JsonSerializer</code> [acquired two new overloads][2] that
+<p>In .NET 6, the <code>Sytem.Text.Json.JsonSerializer</code> <a href="https://docs.microsoft.com/en-us/dotnet/core/compatibility/serialization/6.0/jsonserializer-source-generator-overloads">acquired two new overloads</a> that
 support pre-generated type information via source-generators. Previously, you
 could write code that passed <code>null</code> (or <code>default</code>) as the value for the
 <code>JsonSeralizerOptions</code> parameter:</p>
@@ -996,7 +1040,7 @@ target:</p>
 <blockquote>
 <p>SYSLIB0023: RNGCryptoServiceProvider is obsolete</p>
 </blockquote>
-<p>As it turns out, <code>RNGCryptoServiceProvider</code> is [marked as obsolete in .NET 6][3]. The
+<p>As it turns out, <code>RNGCryptoServiceProvider</code> is <a href="https://docs.microsoft.com/en-us/dotnet/fundamentals/syslib-diagnostics/syslib0023">marked as obsolete in .NET 6</a>. The
 new preferred way to generate a random number is using one of the
 <code>RandomNunmberGenerator</code> static methods.</p>
 <pre><code>  // old
@@ -1021,7 +1065,7 @@ use DbContext.GetService&lt;IDesignTimeModel&gt;().Model.</p>
 </blockquote>
 <p>If, like me, you happen to have a custom <code>IModelCacheKeyFactory</code>
 implementation, you will likely get this error at runtime. Starting with EF
-Core 6, [you must implement][4] the new overload of the <code>Create</code> method that
+Core 6, <a href="https://github.com/dotnet/EntityFramework.Docs/pull/3305/files">you must implement</a> the new overload of the <code>Create</code> method that
 handles design-time model caching.</p>
 <pre><code>// old
 public class DynamicModelCacheKeyFactoryDesignTimeSupport : IModelCacheKeyFactory
@@ -1055,10 +1099,10 @@ causing nested dependent&rsquo;s values to be lost. Add a required property to
 create instances with null values for other properties or mark the incoming
 navigation as required to always create an instance.</p>
 </blockquote>
-<p>The message above is a consequence of a [high-impact breaking change][5] introduced
+<p>The message above is a consequence of a <a href="https://docs.microsoft.com/en-us/ef/core/what-is-new/ef-core-6.0/breaking-changes#high-impact-changes">high-impact breaking change</a> introduced
 in EF Core 6.0. In the past, you could have models with nested optional dependents
 sharing the same table, each with no required properties. In such
-circumstances, data loss could occur (see the [documentation][5] for details
+circumstances, data loss could occur (see the <a href="https://docs.microsoft.com/en-us/ef/core/what-is-new/ef-core-6.0/breaking-changes#high-impact-changes">documentation</a> for details
 and examples). My solution was to mark at least one property of dependent
 models with the <code>RequiredAttribute</code> (which, in every single case, was the right
 thing to do anyway)</p>
@@ -1071,12 +1115,12 @@ thing to do anyway)</p>
 stable version of the <code>EFCore.NamingConventions</code> package. At the time of this
 writing, <code>v6.0</code> of the package has not been released, but there is a pre-release
 available that includes the missing implementation. Switch to <code>v6.0.0-rc.1</code> and
-you&rsquo;ll be fine (ticket is [here][6]). I&rsquo;m sure the new stable release will be
+you&rsquo;ll be fine (ticket is <a href="https://github.com/efcore/EFCore.NamingConventions/issues/108">here</a>). I&rsquo;m sure the new stable release will be
 out by the time you read this.</p>
 <p><em>Update: EFCore.NamingConventions v6 has now been released.</em></p>
 <h3 id="the-npgsql-timestamps-breaking-change">The Npgsql timestamps breaking change</h3>
 <p>While the above situations were quick to fix, the new, updated Npgsql provider
-offers a different threat level. There&rsquo;s [one significant breaking change][7]
+offers a different threat level. There&rsquo;s <a href="https://www.npgsql.org/efcore/release-notes/6.0.html#major-changes-to-timestamp-mapping">one significant breaking change</a>
 that impacts <code>DateTime</code> fields (timestamps). As the documentation suggests, it is
 possible to opt out of this change to preserve backward compatibility, but
 I decided to take the plunge and embrace it. The short version is that
@@ -1085,7 +1129,7 @@ Postgres&rsquo;s <code>timestamp</code> fields (&rsquo;timestamps without timezo
 with Npgsql, <code>DateTime</code> properties must be treated as UTC by setting the <code>Kind</code>
 property to <code>DateTimeKind.UTC</code>. When you run the migration tool, a migration is
 created to accomodate the change, which can impact existing data. Make sure you
-read the [detailed notes][8] to assess the impact on your data. I let the
+read the <a href="https://www.npgsql.org/efcore/release-notes/6.0.html#migrating-columns-from-timestamp-to-timestamptz">detailed notes</a> to assess the impact on your data. I let the
 migration run, then updated models configuration by setting a custom
 <code>DateTimeUtcValueConverter</code> for DateTime properties:</p>
 <pre><code>// custom DateTime converter
@@ -1111,11 +1155,22 @@ property at the application level to ensure that values are correctly handled.</
 6.0 migration can be more involved, while the Npgsql 6 migration requires some
 attention but, remember, you can always opt-out of the delicate timestamps
 change. Was the upgrade worth it? I think so for a few reasons. First, .NET
-6 is LTS, while .NET 5 will be out of support in six months. Second, .[NET 6 is
-the fastest yet][9], with a remarkable margin (EF Core 6 alone is [70%
-faster][10].) While the primary migration is done, there are a lot of changes
+6 is LTS, while .NET 5 will be out of support in six months. Second, .<a href="https://devblogs.microsoft.com/dotnet/announcing-net-6">NET 6 is
+the fastest yet</a>, with a remarkable margin (EF Core 6 alone is <a href="https://docs.microsoft.com/en-us/ef/core/what-is-new/ef-core-6.0/whatsnew#improved-performance-on-techempower-fortunes">70%
+faster</a>.) While the primary migration is done, there are a lot of changes
 and new features that are worth considering for our codebase, which is
 something we will be doing in the upcoming weeks.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>My initial ramblings on Minimal APIs are available <a href="/will-.net-6-minimal-apis-turn-heads/">here</a>.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -1123,12 +1178,12 @@ something we will be doing in the upcoming weeks.</p>
       <link>https://nicolaiarocci.com/asp.net-6-migration-cheatsheet-and-faq/</link>
       <pubDate>Thu, 23 Sep 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/asp.net-6-migration-cheatsheet-and-faq/</guid>
-      <description>David Fowler has a very informative gist up on GitHub. It&amp;rsquo;s titled [Migration to ASP.NET Core. NET6][3] and it&amp;rsquo;s filled with details, recipes and FAQs on migrating an ASP.NET Core 5 web app to ASP.NET Core 6[^4]. The focus is on the new, streamlined hosting model, also known as Minimal APIs[^1]. To be clear, You don&amp;rsquo;t have to move to the new model. As the FAQ section emphasizes:
+      <description>David Fowler has a very informative gist up on GitHub. It&amp;rsquo;s titled [Migration to ASP.NET Core. NET6][3] and it&amp;rsquo;s filled with details, recipes and FAQs on migrating an ASP.NET Core 5 web app to ASP.NET Core 61. The focus is on the new, streamlined hosting model, also known as Minimal APIs2. To be clear, You don&amp;rsquo;t have to move to the new model. As the FAQ section emphasizes:
 Do I have to migrate to the new hosting model</description>
       <content:encoded><![CDATA[<p>David Fowler has a very informative gist up on GitHub. It&rsquo;s titled [Migration
 to ASP.NET Core. NET6][3] and it&rsquo;s filled with details, recipes and FAQs on
-migrating an ASP.NET Core 5 web app to ASP.NET Core 6[^4]. The focus is on the
-new, streamlined hosting model, also known as Minimal APIs[^1]. To be clear,
+migrating an ASP.NET Core 5 web app to ASP.NET Core 6<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. The focus is on the
+new, streamlined hosting model, also known as Minimal APIs<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. To be clear,
 You don&rsquo;t <em>have</em> to move to the new model. As the FAQ section emphasizes:</p>
 <blockquote>
 <p>Do I have to migrate to the new hosting model</p>
@@ -1143,6 +1198,22 @@ but I&rsquo;m sure that David will be ready to do so if required.</p>
 They are all ASP.NET 5, currently in beta, but before release we&rsquo;re likely to
 upgrade them to NET6. NET6 is LTS, NET5 isn&rsquo;t, and offers significant
 advantages, remarkable [performance gains][2] included.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The Core tag was dropped in NET5, and it was a good move. The reason why the insist on using it with ASP.NET eludes me.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://nicolaiarocci.com/will-.net-6-minimal-apis-turn-heads/">Will .NET 6 Mininal APIs turn heads?</a> collects my thoughts on the subject.
+[2]: <a href="https://nicolaiarocci.com/performance-improvements-in-.net6/">https://nicolaiarocci.com/performance-improvements-in-.net6/</a>
+[3]: <a href="https://gist.github.com/davidfowl/0e0372c3c1d895c3ce195ba983b1e03d">https://gist.github.com/davidfowl/0e0372c3c1d895c3ce195ba983b1e03d</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -1150,12 +1221,12 @@ advantages, remarkable [performance gains][2] included.</p>
       <link>https://nicolaiarocci.com/performance-improvements-in-.net6/</link>
       <pubDate>Fri, 03 Sep 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/performance-improvements-in-.net6/</guid>
-      <description>I&amp;rsquo;m pretty psyched about the upcoming .NET6 release. I&amp;rsquo;ve already [touched][1] on ASP.NET 6 Minimal APIs. Continuing on the long-established tradition, the team has also worked hard on the performance side of things. File IO, for example, is seeing [impressive gains][2]:
+      <description>I&amp;rsquo;m pretty psyched about the upcoming .NET6 release. I&amp;rsquo;ve already touched on ASP.NET 6 Minimal APIs. Continuing on the long-established tradition, the team has also worked hard on the performance side of things. File IO, for example, is seeing impressive gains:
 For .NET 6, we have made FileStream much faster and more reliable, thanks to an almost entire re-write. For same cases, the async implementation is now a few times faster!</description>
-      <content:encoded><![CDATA[<p>I&rsquo;m pretty psyched about the upcoming .NET6 release. I&rsquo;ve already [touched][1]
+      <content:encoded><![CDATA[<p>I&rsquo;m pretty psyched about the upcoming .NET6 release. I&rsquo;ve already <a href="https://nicolaiarocci.com/will-.net-6-minimal-apis-turn-heads/">touched</a>
 on ASP.NET 6 Minimal APIs. Continuing on the long-established tradition, the
 team has also worked hard on the performance side of things. File IO, for
-example, is seeing [impressive gains][2]:</p>
+example, is seeing <a href="https://devblogs.microsoft.com/dotnet/file-io-improvements-in-dotnet-6/">impressive gains</a>:</p>
 <blockquote>
 <p>For .NET 6, we have made FileStream much faster and more reliable, thanks to
 an almost entire re-write. For same cases, the async implementation is now
@@ -1166,8 +1237,8 @@ stronger, faster!</p>
 </blockquote>
 <p>If you have the time, make sure you read the whole blog post. Learning about
 the low-level details on how they achieved such (pretty phenomenal) results is
-fascinating. They&rsquo;re not stopping at file IO either. In another [lengthy blog
-post][3], they had to add a table of contents, or we would get lost in the myriad
+fascinating. They&rsquo;re not stopping at file IO either. In another <a href="https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-6/#is-that-all">lengthy blog
+post</a>, they had to add a table of contents, or we would get lost in the myriad
 of improvements.</p>
 <blockquote>
 <p>Don’t worry, I don’t cover all of them here, but grab a large mug of your
@@ -1175,7 +1246,7 @@ favorite hot beverage, and settle in: this post takes a rip-roarin’ tour
 through ~400 PRs that, all together, significantly improve .NET performance
 for .NET 6.</p>
 </blockquote>
-<p>There are [a][4] [ton][5] [of][6] [new][7] [things][8] [coming][9] [up][10],
+<p>There are <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-7/">a</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-6/">ton</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-5/">of</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-4/">new</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-3/">things</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-2/">coming</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-1/">up</a>,
 too, of course.</p>
 ]]></content:encoded>
     </item>
@@ -1224,15 +1295,15 @@ much as possible.</p>
       <link>https://nicolaiarocci.com/on-github-copilot/</link>
       <pubDate>Sat, 24 Jul 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-github-copilot/</guid>
-      <description>Like everyone else on the planet, I&amp;rsquo;ve been following [GitHub Copilot][1] since its launch. It is an impressive achievement and a remarkable milestone for the deep learning industry, that&amp;rsquo;s for sure. We are obviously at the early stages in deep learning applied to software development, and it is somewhat unsettling to ponder what the future might hold in this field.
-Like many others, however, I worry about code quality issues and the risk of license infringements[^2].</description>
-      <content:encoded><![CDATA[<p>Like everyone else on the planet, I&rsquo;ve been following [GitHub Copilot][1] since
+      <description>Like everyone else on the planet, I&amp;rsquo;ve been following GitHub Copilot since its launch. It is an impressive achievement and a remarkable milestone for the deep learning industry, that&amp;rsquo;s for sure. We are obviously at the early stages in deep learning applied to software development, and it is somewhat unsettling to ponder what the future might hold in this field.
+Like many others, however, I worry about code quality issues and the risk of license infringements1.</description>
+      <content:encoded><![CDATA[<p>Like everyone else on the planet, I&rsquo;ve been following <a href="https://copilot.github.com/">GitHub Copilot</a> since
 its launch. It is an impressive achievement and a remarkable milestone for the
 deep learning industry, that&rsquo;s for sure. We are obviously at the early stages
 in deep learning applied to software development, and it is somewhat unsettling
 to ponder what the future might hold in this field.</p>
 <p>Like many others, however, I worry about code quality issues and the risk of
-license infringements[^2]. I am also concerned that the advent of Copilot-like
+license infringements<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. I am also concerned that the advent of Copilot-like
 tools might fundamentally change the software developer experience, if not the
 software developer role as a whole, and for the worst.</p>
 <p>I wrote down some notes preparing for an in-depth Copilot article, but then
@@ -1278,8 +1349,24 @@ utterly convinced that deep understanding is important. But increasingly,
 I feel like I&rsquo;m swimming upstream. It seems like most people in our industry
 care far more about &ldquo;how to do&rdquo; rather than &ldquo;how does it work&rdquo;.</p>
 </blockquote>
-<p>Copilot is great and feels like magic[^5]. And precisely for that reason, at my
+<p>Copilot is great and feels like magic<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. And precisely for that reason, at my
 company, we&rsquo;re not going to adopt it.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>For example, see Armin Ronacher&rsquo;s  on Copilot <a href="https://twitter.com/mitsuhiko/status/1410886329924194309">regurgitating famous, GPL-license code</a>.
+[3]: <a href="https://www.fast.ai/2021/07/19/copilot/">https://www.fast.ai/2021/07/19/copilot/</a>
+[4]: <a href="https://ericsink.com/entries/depth.html">https://ericsink.com/entries/depth.html</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Any sufficiently advanced technology is indistinguishable from magic <em>&ndash;Arthur C. Clark</em>
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -1287,18 +1374,18 @@ company, we&rsquo;re not going to adopt it.</p>
       <link>https://nicolaiarocci.com/will-.net-6-minimal-apis-turn-heads/</link>
       <pubDate>Wed, 14 Jul 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/will-.net-6-minimal-apis-turn-heads/</guid>
-      <description>I am pretty excited about the [Minimal APIs][3] feature that is coming with .NET 6. Three lines of code will be enough to build a fully functional REST microservice[^2]:
-var app = WebApplication.Create(args); app.MapGet(&amp;quot;/&amp;quot;, () =&amp;gt; &amp;quot;Hello World!&amp;quot;); await app.RunAsync(); If you&amp;rsquo;re a seasoned ASP.NET MVC/WebApi developer, the snippet caught your attention because, pre-.NET 6, achieving the same result will have you messing with a lot of extra cruft[^4]. I suspect, however, that this feature is not primarily targeted at existing .</description>
+      <description>I am pretty excited about the [Minimal APIs][3] feature that is coming with .NET 6. Three lines of code will be enough to build a fully functional REST microservice1:
+var app = WebApplication.Create(args); app.MapGet(&amp;quot;/&amp;quot;, () =&amp;gt; &amp;quot;Hello World!&amp;quot;); await app.RunAsync(); If you&amp;rsquo;re a seasoned ASP.NET MVC/WebApi developer, the snippet caught your attention because, pre-.NET 6, achieving the same result will have you messing with a lot of extra cruft2. I suspect, however, that this feature is not primarily targeted at existing .</description>
       <content:encoded><![CDATA[<p>I am pretty excited about the [Minimal APIs][3] feature that is coming with
 .NET 6. Three lines of code will be enough to build a fully functional REST
-microservice[^2]:</p>
+microservice<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>:</p>
 <pre><code>var app = WebApplication.Create(args);
 app.MapGet(&quot;/&quot;, () =&gt; &quot;Hello World!&quot;);
 await app.RunAsync();
 </code></pre>
 <p>If you&rsquo;re a seasoned ASP.NET MVC/WebApi developer, the snippet caught your
 attention because, pre-.NET 6, achieving the same result will have you messing
-with a lot of extra cruft[^4]. I suspect, however, that this feature is not
+with a lot of extra cruft<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. I suspect, however, that this feature is not
 primarily targeted at existing .NET developers. Developers new and old looking
 at .NET for the first time, or those like me returning after a long break;
 these are, I think, the designated audience.</p>
@@ -1307,7 +1394,7 @@ REST APIs, and back then, the options available in .NET were, to put it mildly,
 cumbersome. Admittedly, there were other reasons for switching, like .NET not
 being cross-platform - I wanted to run my APIs on Linux - and general
 dissatisfaction with the Microsoft ecosystem. Long story short, I went with
-Python. Check out this snippet from Flask&rsquo;s renowned [Quickstart][1]:</p>
+Python. Check out this snippet from Flask&rsquo;s renowned <a href="https://flask.palletsprojects.com/en/2.0.x/quickstart/#a-minimal-application">Quickstart</a>:</p>
 <pre><code>app = Flask(__name__)
 
 @app.route(&quot;/&quot;)
@@ -1315,16 +1402,16 @@ def hello_world():
     return &quot;&lt;p&gt;Hello, World!&lt;/p&gt;&quot;
 </code></pre>
 <p>Launched with the compelling motto &lsquo;web development, one drop at a time&rsquo; and
-presented as a &lsquo;micro&rsquo; web framework, Flask immediately caught my attention[^5].
+presented as a &lsquo;micro&rsquo; web framework, Flask immediately caught my attention<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.
 Cruft-free and elegant APIs are not a Flask (or Python, for the matter)
 exclusive. A Node code snippet for a REST API would be similar. Now, with NET
 6 Minimal APIs, we&rsquo;re finally matching the industry standard for code clarity
-and simplicity. Moreover, .NET has better performance[^6] and strongly typed
+and simplicity. Moreover, .NET has better performance<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> and strongly typed
 languages that offer excellent type inference (F# reigns supreme there, with C#
 catching up nicely.) I&rsquo;d dare to say that the C# snippet is a winner. I mean,
 look at that inline lambda, with no casts!</p>
 <p>Minimal APIs typical use-case is everyone&rsquo;s favourite, microservices. I do not
-doubt the delivery[^7][^8]. The challenge, I think, is the actual adoption rate.
+doubt the delivery<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup><sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>. The challenge, I think, is the actual adoption rate.
 Whether veterans will adopt them or not (over time, they will) is relatively
 significant, I guess. The critical question is, will Minimal APIs succeed in
 attracting new developers to .NET?</p>
@@ -1346,6 +1433,30 @@ efforts being made in this area. Will it be enough to attract new crowds? It is
 a hard bet, but I sure hope so because C# and F# are great languages, and NET
 6 is modern, robust,  feature-rich, and powerful enough to go at war, and with
 no fear.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>You will still be able to scale up to (or start right away with) a fully-functional WebApi/MVC application, with all its classes and controllers.
+[3]: <a href="https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-6-preview-4/#introducing-minimal-apis">https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-6-preview-4/#introducing-minimal-apis</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Mind you. The dev team isn&rsquo;t just adding a layer of abstraction on top of the existing code. Quoting fellow MVP <a href="https://www.telerik.com/blogs/low-ceremony-high-value-tour-minimal-apis-dotnet-6">Dave Brock</a> &ldquo;With minimal APIs, the goal is to move out core API-building capabilities—the ones that only exist in MVC today—and allow them to be used outside of MVC. When extracting these components away to a new paradigm, you can rely on middleware-like performance.&rdquo;&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Long story short, besides lazily maintaining my Python open source <a href="/opensource">projects</a>, I am mostly back to C# these days.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Sure, all benchmarks should be taken with a grain of salt, but <a href="https://www.techempower.com/benchmarks/#section=data-r20&amp;hw=ph&amp;test=plaintext">check this out</a>. ASPCORE ranks at #2; Flask and Node #338 and #173 respectively. And NET 6 is expected to still improve on performance.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>For examples of real-life-scenarios, see Damian Edwards&rsquo; <a href="https://github.com/DamianEdwards/MinimalApiPlayground/blob/main/src/MinimalApiPlayground/Program.cs">Minimal APIs playground</a>.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>Cool. As I am writing this, NET 6 Preview 6 is released, which adds <a href="https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-6-preview-6/#configure-swagger-ui-with-minimal-apis">OpenAPI (Swagger UI) support</a> to Minimal APIs.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -1354,7 +1465,7 @@ no fear.</p>
       <pubDate>Fri, 11 Jun 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/custom-default-values-for-not-existing-dictionary-items-and-a-lesson-learned/</guid>
       <description>When dealing with dictionaries, a typical problem is when an operation attempts to retrieve an element using a key that does not exist in the dictionary. In .NET, a KeyNotFoundException is raised, and that&amp;rsquo;s the desired behaviour in most circumstances. Sometimes, however, you know that your program will frequently try to retrieve keys that do not exist. In such cases, it is more efficient to use the TryGetValue method:
-This method returns the value associated with the specified key, if the key is found; otherwise, the default value for the type of the value parameter is returned ([source][1])</description>
+This method returns the value associated with the specified key, if the key is found; otherwise, the default value for the type of the value parameter is returned (source)</description>
       <content:encoded><![CDATA[<p>When dealing with dictionaries, a typical problem is when an operation attempts
 to retrieve an element using a key that does not exist in the dictionary. In
 .NET, a <code>KeyNotFoundException</code> is raised, and that&rsquo;s the desired behaviour in
@@ -1364,7 +1475,7 @@ efficient to use the <code>TryGetValue</code> method:</p>
 <blockquote>
 <p>This method returns the value associated with the specified key, if the key
 is found; otherwise, the default value for the type of the value parameter is
-returned ([source][1])</p>
+returned (<a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2.trygetvalue?view=net-5.0">source</a>)</p>
 </blockquote>
 <p>The devil hides in details. <code>TryGetValue</code> returns the default value for the
 type of the <code>value</code> parameter. So, if you use <code>TryGetValue</code> to look into
@@ -1391,7 +1502,7 @@ projects.</p>
 <p>Today, as I was looking at something only tangentially related, I learned that
 our extension method is obsolete, and it&rsquo;s been for a while. NetStandard
 2.1 and NetCore 2 added a new extension method to the official API. It&rsquo;s
-called, you guessed it, [<code>GetValueOrDefault</code>][2]. It extends
+called, you guessed it, <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.collectionextensions.getvalueordefault?view=net-5.0"><code>GetValueOrDefault</code></a>. It extends
 <code>ÌReadOnlyDictionary&lt;TKey, TValue&gt;</code>, so it applies to all generic dictionaries,
 which is cool.</p>
 <p>We could continue with our extension method. It has the advantage of working
@@ -1410,10 +1521,10 @@ the time to learn new things is good, but acquired ones need sharping too.</p>
       <link>https://nicolaiarocci.com/on-programming-and-writing/</link>
       <pubDate>Tue, 25 May 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-programming-and-writing/</guid>
-      <description>My brilliant friend Salvatore Sanfilippo (otherwise known as antirez of Redis fame) has an interesting write-up on [his website][1]. How similar is programming to prose writing? After getting his own feet wet with novel writing, he is convinced that the two activities share many common traits.
+      <description>My brilliant friend Salvatore Sanfilippo (otherwise known as antirez of Redis fame) has an interesting write-up on his website. How similar is programming to prose writing? After getting his own feet wet with novel writing, he is convinced that the two activities share many common traits.
 One year ago I paused my programming life and started writing a novel, with the illusion that my new activity was deeply different than the previous one.</description>
       <content:encoded><![CDATA[<p>My brilliant friend Salvatore Sanfilippo (otherwise known as antirez of Redis
-fame) has an interesting write-up on [his website][1]. How similar is
+fame) has an interesting write-up on <a href="http://antirez.com/news/135">his website</a>. How similar is
 programming to prose writing? After getting his own feet wet with novel
 writing, he is convinced that the two activities share many common traits.</p>
 <blockquote>
@@ -1438,10 +1549,18 @@ creation, and even if the original core was just a tiny faction of the future
 mass the system would eventually assume.</p>
 </blockquote>
 <p>I suspect that his line of reasoning might be influenced by some sort
-of confirmation bias[^2].  We are inclined to notice similarities between our
+of confirmation bias<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.  We are inclined to notice similarities between our
 own activities, especially so when we perform them passionately. While common
 patterns emerge naturally, differences, even remarkable ones, tend to go
 unnoticed.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The term <em>confirmation bias</em> is probably misused in this context. I am sure there is a better definition; it just eludes me and my own ignorance.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -1460,7 +1579,7 @@ views in Flask 2. Work has also been done around Werkzeug <code>Request</code> a
 <code>Response</code> classes to allow for better sync and async in the future (it&rsquo;s not
 a public API yet.) Jinja, Click and ItsDangerous come with a lot of new
 niceties. Details are available on the <a href="https://palletsprojects.com/blog/flask-2-0-released/">Pallets website</a>.</p>
-<p>Flask is, of course, the giant on which shoulders the whole [Eve][1] project rests.
+<p>Flask is, of course, the giant on which shoulders the whole <a href="https://python-eve.org">Eve</a> project rests.
 To say that the Pallets team has been working hard at the forge is an
 understatement—huge congrats to all of them.</p>
 ]]></content:encoded>
@@ -1471,7 +1590,7 @@ understatement—huge congrats to all of them.</p>
       <pubDate>Tue, 04 May 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/dotnet-smtpclient-should-not-be-used/</guid>
       <description>I am very late to the party, but today I learned that the good old dotnet SmptClient is considered obsolete and should not be used. Quoting the documentation:
-We don&amp;rsquo;t recommend using the SmtpClient class for new development because SmtpClient doesn&amp;rsquo;t support many modern protocols. Use MailKit or other libraries instead. ([source][1])
+We don&amp;rsquo;t recommend using the SmtpClient class for new development because SmtpClient doesn&amp;rsquo;t support many modern protocols. Use MailKit or other libraries instead. (source)
 Interestingly, Microsoft is recommending a third-party open-source library as an alternative. I hope we&amp;rsquo;ll see more of that in the future.</description>
       <content:encoded><![CDATA[<p>I am very late to the party, but today I learned that the good old dotnet
 <code>SmptClient</code> is considered obsolete and should not be used. Quoting the
@@ -1479,11 +1598,11 @@ documentation:</p>
 <blockquote>
 <p>We don&rsquo;t recommend using the SmtpClient class for new development because
 SmtpClient doesn&rsquo;t support many modern protocols. Use MailKit or other
-libraries instead. ([source][1])</p>
+libraries instead. (<a href="https://docs.microsoft.com/en-us/dotnet/api/system.net.mail.smtpclient?view=net-5.0&amp;viewFallbackFrom=netcore-5.0#remarks">source</a>)</p>
 </blockquote>
 <p>Interestingly, Microsoft is recommending a third-party open-source library as an
 alternative. I hope we&rsquo;ll see more of that in the future.</p>
-<p>I just finished integrating [MailKit][2] in our backend. I must say that I&rsquo;m
+<p>I just finished integrating <a href="https://github.com/jstedfast/MailKit">MailKit</a> in our backend. I must say that I&rsquo;m
 pleasantly surprised by its rich feature-set and the elegant and
 straightforward design, which makes getting on-board super easy. It&rsquo;s built on
 top of the excellent MimeKit, after all, and authored by the very same author
@@ -1534,9 +1653,9 @@ can spread if not contained with social distancing.</p>
 doesn&rsquo;t constraint herself to the standard, well-established routine. Instead,
 she keeps her students engaged and challenges them. At the same time, she takes
 the chance to educate them on the current sanitary emergency. Giulia tells me
-that her teacher was inspired by a March 2020 Washington Post article: <em>[Why
+that her teacher was inspired by a March 2020 Washington Post article: <em><a href="https://www.washingtonpost.com/graphics/2020/world/corona-simulator/">Why
 outbreaks like coronavirus spread exponentially, and how to &ldquo;flatten the
-curve.&rdquo;][1]</em> That&rsquo;s excellent work. It includes several animated simulations,
+curve.&rdquo;</a></em> That&rsquo;s excellent work. It includes several animated simulations,
 Giulia&rsquo;s assignment being one of them.</p>
 ]]></content:encoded>
     </item>
@@ -1546,7 +1665,7 @@ Giulia&rsquo;s assignment being one of them.</p>
       <pubDate>Sat, 27 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/get-better-at-programming-by-learning-how-things-work/</guid>
       <description>When we talk about getting better at programming, we often talk about testing, writing reusable code, design patterns, and readability. All of those things are important. But in this blog post, I want to talk about a different way to get better at programming: learning how the systems you’re using work! This is the main way I approach getting better at programming.
-Once again, Julia Evans has great sensible advice up on [her site][1].</description>
+Once again, Julia Evans has great sensible advice up on her site.</description>
       <content:encoded><![CDATA[<blockquote>
 <p>When we talk about getting better at programming, we often talk about
 testing, writing reusable code, design patterns, and readability. All of
@@ -1554,7 +1673,7 @@ those things are important. But in this blog post, I want to talk about
 a different way to get better at programming: learning how the systems you’re
 using work! This is the main way I approach getting better at programming.</p>
 </blockquote>
-<p>Once again, Julia Evans has great sensible advice up on [her site][1].</p>
+<p>Once again, Julia Evans has great sensible advice up on <a href="https://jvns.ca/blog/learn-how-things-work/">her site</a>.</p>
 <p>I appreciate her note on how today we work with so many complex systems that it
 is next to impossible to understand all of them.  The experienced developer
 comes at peace with that, acknowledges ignorance, and, more importantly,
@@ -1571,8 +1690,8 @@ it.</p>
       <link>https://nicolaiarocci.com/write-libraries-not-services-not-so-fast/</link>
       <pubDate>Thu, 25 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/write-libraries-not-services-not-so-fast/</guid>
-      <description>[Write libraries instead of services][1] is an interesting article I read a while ago. I cannot get it off my head. In an attempt to clear up my mind, I decided to sit down and write about it. I have been writing libraries for a good part of my life. Most of my earlier dev-work resides on thousands of computers in the form of libraries. More recently, I have been writing and deploying remote services.</description>
-      <content:encoded><![CDATA[<p>[Write libraries instead of services][1] is an interesting article I read
+      <description>Write libraries instead of services is an interesting article I read a while ago. I cannot get it off my head. In an attempt to clear up my mind, I decided to sit down and write about it. I have been writing libraries for a good part of my life. Most of my earlier dev-work resides on thousands of computers in the form of libraries. More recently, I have been writing and deploying remote services.</description>
+      <content:encoded><![CDATA[<p><a href="http://catern.com/services.html">Write libraries instead of services</a> is an interesting article I read
 a while ago. I cannot get it off my head. In an attempt to clear up my mind,
 I decided to sit down and write about it. I have been writing libraries for
 a good part of my life. Most of my earlier dev-work resides on thousands of
@@ -1614,7 +1733,7 @@ development, maintenance, distribution, documentation, etc.  Maybe the
 article&rsquo;s author has the luxury of not having to deal with support himself.
 Still, there&rsquo;s someone else at his company who has to do that.</p>
 <p>A service, on the other hand, represents a single point of failure. If it goes
-down, all users are immediately affected[^2]. By contrast, a nasty bug in your
+down, all users are immediately affected<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. By contrast, a nasty bug in your
 library will only affect the unlucky users on that version. Now, <em>this</em> makes
 a significant advantage for distributed libraries.</p>
 <p>Your service, however, will talk to all languages via REST, GraphQL, or any
@@ -1630,6 +1749,14 @@ support it). Others, quite frankly, I don&rsquo;t understand.</p>
 <p>Many factors influence the choice between service and library, use case and
 prevailing circumstances being the main ones. I am not even sure they are
 comparable, as they tend to solve different problems.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I know first hand. We&rsquo;ve recently been impacted by a catastrophic event that happened to one of our providers. Our services went down and, with them, a good part of our users. How we overcame the situation and what we learned in the process would probably be worth telling, maybe in a future article.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -1637,10 +1764,10 @@ comparable, as they tend to solve different problems.</p>
       <link>https://nicolaiarocci.com/semantic-versioning-will-not-save-you/</link>
       <pubDate>Thu, 04 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/semantic-versioning-will-not-save-you/</guid>
-      <description>The always brilliant Hynek recently posted [Semantic Versioning Will Not Save You][1]. Primarily targeted at consumers of SemVer-versioned packages, it is full of insightful advice.
+      <description>The always brilliant Hynek recently posted Semantic Versioning Will Not Save You. Primarily targeted at consumers of SemVer-versioned packages, it is full of insightful advice.
 From my perspective as an open-source maintainer, I can tell you that versioning is hard. Judging when a new release is going to break backward compatibility is not as simple as it might seem on the surface, and Hynek does a great job explaining why. Sometimes it is also hard for me to tell if a change in a codebase classifies as a new feature, small improvement, or fix—subtle differences.</description>
-      <content:encoded><![CDATA[<p>The always brilliant Hynek recently posted [Semantic Versioning Will Not Save
-You][1]. Primarily targeted at <em>consumers</em> of SemVer-versioned packages, it is
+      <content:encoded><![CDATA[<p>The always brilliant Hynek recently posted <a href="https://hynek.me/articles/semver-will-not-save-you/">Semantic Versioning Will Not Save
+You</a>. Primarily targeted at <em>consumers</em> of SemVer-versioned packages, it is
 full of insightful advice.</p>
 <p>From my perspective as an open-source maintainer, I can tell you that
 versioning is hard. Judging when a new release is going to break backward
@@ -1651,13 +1778,13 @@ fix—subtle differences. In the context of SemVer, it matters a lot because
 version numbers have a meaning. Consumers will likely decide whether to upgrade
 or not based on that meaning.</p>
 <p>Admittedly, and precisely because I did not feel comfortable giving guarantees,
-the [Eve][1] project has been [0-versioned][3] for seven years. Seven years!
+the <a href="https://hynek.me/articles/semver-will-not-save-you/">Eve</a> project has been <a href="https://0ver.org/">0-versioned</a> for seven years. Seven years!
 I wanted it to be mature, battle-tested and stable; only then would I feel
 comfortable going 1.0. In Eve&rsquo;s case, 1.0 means not only &ldquo;stable&rdquo; but also
 &ldquo;done.&rdquo; All major features are in, and they are stable. I am not alone, of
 course. Flask, the web-framework on which Eve builds, has been 0-versioned for
 many years too. I&rsquo;ve also been on the receiving hand of SemVer-related issues,
-check the Eve backlog. The same happened with my other projects ([Cerberus][4]
+check the Eve backlog. The same happened with my other projects (<a href="https://python-cerberus.org">Cerberus</a>
 is the exception as it has no dependencies.)</p>
 <p>Hynek&rsquo;s point, I think, is that SemVer is a just convention. At each new
 release, a semantic-versioned package expresses the maintainer&rsquo;s intention, but
@@ -1678,9 +1805,9 @@ protecting your project from dependency hell.</p>
       <link>https://nicolaiarocci.com/reverse-engineering-an-obfuscated-codebase-and-fixing-it-in-the-process/</link>
       <pubDate>Tue, 02 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/reverse-engineering-an-obfuscated-codebase-and-fixing-it-in-the-process/</guid>
-      <description>Today&amp;rsquo;s mandatory reading is [How I cut GTA Online loading times by 70%][1].
+      <description>Today&amp;rsquo;s mandatory reading is How I cut GTA Online loading times by 70%.
 As someone who&amp;rsquo;s been fighting the protection/obfuscation cat &amp;amp; mouse game for twenty+ years, let me tell you one thing. The way this guy reverse-engineered parts of the GTA5 codebase and then proceeded to single-handly triage and fix a long-standing (7+ years) performance issue is simply mindblowing. All he had to work with were heavily obfuscated dlls. This also shows how we, the protectors, are always playing a losing game.</description>
-      <content:encoded><![CDATA[<p>Today&rsquo;s mandatory reading is [How I cut GTA Online loading times by 70%][1].</p>
+      <content:encoded><![CDATA[<p>Today&rsquo;s mandatory reading is <a href="https://nee.lv/2021/02/28/How-I-cut-GTA-Online-loading-times-by-70/">How I cut GTA Online loading times by 70%</a>.</p>
 <p>As someone who&rsquo;s been fighting the protection/obfuscation cat &amp; mouse game for
 twenty+ years, let me tell you one thing. The way this guy reverse-engineered
 parts of the GTA5 codebase and then proceeded to single-handly triage and fix
@@ -1693,7 +1820,7 @@ has replaced most instructions with gibberish. Not to worry, we simply need
 to dump the game&rsquo;s memory while it&rsquo;s executing the part we want to look at.
 The instructions have to be de-obfuscated before running one way or another.</p>
 </blockquote>
-<p>Make sure you read this [stuff][1].</p>
+<p>Make sure you read this <a href="https://nee.lv/2021/02/28/How-I-cut-GTA-Online-loading-times-by-70/">stuff</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1701,13 +1828,13 @@ The instructions have to be de-obfuscated before running one way or another.</p>
       <link>https://nicolaiarocci.com/musings-on-pythons-pattern-matching/</link>
       <pubDate>Tue, 23 Feb 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/musings-on-pythons-pattern-matching/</guid>
-      <description>Pattern Matching [is coming][1] to Python, and I am not sure I like it. Don&amp;rsquo;t get me wrong, I love pattern matching. I use it all the time in F#. I am sure that once it lands in the language, it will be wildly adopted.
-So what&amp;rsquo;s the problem with Python&amp;rsquo;s pattern matching? The community, some core developers included, has expressed [several concerns][2]. The Python Steering Council has acknowledged them and is willing to look into improvements should they be proposed.</description>
-      <content:encoded><![CDATA[<p>Pattern Matching [is coming][1] to Python, and I am not sure I like it. Don&rsquo;t get me
+      <description>Pattern Matching is coming to Python, and I am not sure I like it. Don&amp;rsquo;t get me wrong, I love pattern matching. I use it all the time in F#. I am sure that once it lands in the language, it will be wildly adopted.
+So what&amp;rsquo;s the problem with Python&amp;rsquo;s pattern matching? The community, some core developers included, has expressed several concerns. The Python Steering Council has acknowledged them and is willing to look into improvements should they be proposed.</description>
+      <content:encoded><![CDATA[<p>Pattern Matching <a href="https://lwn.net/Articles/845480/">is coming</a> to Python, and I am not sure I like it. Don&rsquo;t get me
 wrong, I love pattern matching. I use it all the time in F#. I am sure that
 once it lands in the language, it will be wildly adopted.</p>
 <p>So what&rsquo;s the problem with Python&rsquo;s pattern matching? The community, some core
-developers included, has expressed [several concerns][2]. The Python Steering
+developers included, has expressed <a href="https://discuss.python.org/t/gauging-sentiment-on-pattern-matching/5770">several concerns</a>. The Python Steering
 Council has acknowledged them and is willing to look into improvements should
 they be proposed. I am not going into the details here. You can look them up
 yourself. Let&rsquo;s just say that there are a few gotchas, like the requirement to
@@ -1717,13 +1844,13 @@ capture variables instead (doh!) The lack of local scope bites hard here.</p>
 ought to be a reason why every language on the planet is trying to adopt it. Is
 it pythonic? I doubt it. With all its corner cases and the odd syntax, I think
 that the current design adds quite a bit of complexity to the language. As
-someone [noted][6], core dev Larry Hastings puts it well:</p>
+someone <a href="https://news.ycombinator.com/item?id=26083779">noted</a>, core dev Larry Hastings puts it well:</p>
 <blockquote>
 <p>I dislike the syntax and semantics expressed in PEP 634. I see the match
 statement as a DSL contrived to look like Python and to be used inside of
 Python, but with very different semantics. When you enter a PEP 634 match
 statement, the rules of the language change completely, and code that looks
-like existing Python code does something surprisingly very different ([source][3])</p>
+like existing Python code does something surprisingly very different (<a href="https://discuss.python.org/t/gauging-sentiment-on-pattern-matching/5770/21">source</a>)</p>
 </blockquote>
 <p>I especially agree with this sentiment, and I am still quoting Hastings:</p>
 <blockquote>
@@ -1740,7 +1867,7 @@ been going on for a while. As my friend Alessandro Molina mentioned just today:<
 <p>I have been thinking about how Python has been moving away from its own Zen
 since the time of &ldquo;async&rdquo; keyword. Convenience rarely values added
 complexity. Never been a big fan of adding keywords that will be misused by
-the majority to deal with the vertical needs of a minority ([source][4])</p>
+the majority to deal with the vertical needs of a minority (<a href="https://twitter.com/__amol__/status/1364205630928617473">source</a>)</p>
 </blockquote>
 <p>He was referring to group exceptions, not pattern matching. Still, his tweet
 struck a nerve as I was busy writing down these thoughts.</p>
@@ -1758,9 +1885,9 @@ oranges.</p>
       <link>https://nicolaiarocci.com/what-i-listen-to-while-programming/</link>
       <pubDate>Fri, 12 Feb 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/what-i-listen-to-while-programming/</guid>
-      <description>What music do you listen to while programming?[^6] For me, it&amp;rsquo;s usually jazz, classical, electronic, lots of it, or nothing. There are some specialized websites and podcasts I sometimes recur to, like [Music for Programming][1]. Several Spotify playlists I dig a lot, [Every Day I&amp;rsquo;m Nerdin&amp;rsquo;][2] being one of them. What can I say? I am musically omnivore.
+      <description>What music do you listen to while programming?1 For me, it&amp;rsquo;s usually jazz, classical, electronic, lots of it, or nothing. There are some specialized websites and podcasts I sometimes recur to, like [Music for Programming][1]. Several Spotify playlists I dig a lot, [Every Day I&amp;rsquo;m Nerdin&amp;rsquo;][2] being one of them. What can I say? I am musically omnivore.
 However, I recently discovered something different: the [Field Recordings podcast][3]. &amp;ldquo;A podcast where audio-makers stand silently in fields (or things that could be broadly interpreted as fields).</description>
-      <content:encoded><![CDATA[<p>What music do you listen to while programming?[^6] For me, it&rsquo;s usually jazz,
+      <content:encoded><![CDATA[<p>What music do you listen to while programming?<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> For me, it&rsquo;s usually jazz,
 classical, electronic, lots of it, or nothing. There are some specialized
 websites and podcasts I sometimes recur to, like [Music for Programming][1].
 Several Spotify playlists I dig a lot, [Every Day I&rsquo;m Nerdin&rsquo;][2] being one of
@@ -1785,6 +1912,22 @@ own little atmosphere and weather inside!&rdquo;</p>
 teleported here, right by my side. I can almost feel its warmth. Indeed,
 there&rsquo;s something cathartic about listening to these sound fragments from all
 over the world.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>As I write this, news of the passing of Chick Corea hit me. Today his <em>Plays</em> album is on repeat.
+[5]: <a href="https://fieldrecordings.xyz/2021/01/12/inside-the-log-burner-devoran-cornwall-in-january-2021-by-chris-attaway/">https://fieldrecordings.xyz/2021/01/12/inside-the-log-burner-devoran-cornwall-in-january-2021-by-chris-attaway/</a>
+[4]: <a href="https://fieldrecordings.xyz/2020/12/14/the-sound-of-2020/">https://fieldrecordings.xyz/2020/12/14/the-sound-of-2020/</a>
+[3]: <a href="https://fieldrecordings.xyz/">https://fieldrecordings.xyz/</a>
+[2]: <a href="https://open.spotify.com/playlist/1itC2kKqIqun8OU05J5G8v?si=iYtyuKAfT4ejArv1aaT4FQ">https://open.spotify.com/playlist/1itC2kKqIqun8OU05J5G8v?si=iYtyuKAfT4ejArv1aaT4FQ</a>
+[1]: <a href="http://www.musicforprogramming.net/">http://www.musicforprogramming.net/</a>
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -1803,8 +1946,8 @@ dyld: Library not loaded: @executable_path/../.Python
 <p>I never really took the time to look into it. When this happens, because I am
 in a rush (and because I am a lazy old fart), I shrug it off, recreate the
 virtual environment on the spot, and get back to work.</p>
-<p>My friend Justin Mayer knows better. The other day, he posted a [short
-insightful article][1] about this very same issue:</p>
+<p>My friend Justin Mayer knows better. The other day, he posted a <a href="https://justinmayer.com/posts/homebrew-python-is-not-for-you/">short
+insightful article</a> about this very same issue:</p>
 <blockquote>
 <p>Perhaps you heard stories about why you shouldn’t use the system-bundled
 Python, so instead you use Homebrew to install Python and then use its
@@ -1815,7 +1958,7 @@ environment… no longer exists. But how can that be? You didn’t change
 anything! You didn’t change anything… but Homebrew did.</p>
 </blockquote>
 <p>Homebrew is the culprit. If you have been affected (and if you have done any
-length of serious Python work, you have), then go [read][1] Justin&rsquo;s piece. He
+length of serious Python work, you have), then go <a href="https://justinmayer.com/posts/homebrew-python-is-not-for-you/">read</a> Justin&rsquo;s piece. He
 explains the whys and then goes into the hows you solve the problem for good.</p>
 ]]></content:encoded>
     </item>
@@ -1824,9 +1967,9 @@ explains the whys and then goes into the hows you solve the problem for good.</p
       <link>https://nicolaiarocci.com/strong-opinions-on-software-development/</link>
       <pubDate>Wed, 03 Feb 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/strong-opinions-on-software-development/</guid>
-      <description>After six years in the field, Chris has [shared][1] his strong opinions on software development practices, languages, and methodologies. I like his attitude. Willingness to continuously put one&amp;rsquo;s personal views under scrutiny, eventually adapting or even changing them as needed, is not a common trait. Not in our field. While I generally agree with most of his opinions, I feel the urge to comment on a few of them.
+      <description>After six years in the field, Chris has shared his strong opinions on software development practices, languages, and methodologies. I like his attitude. Willingness to continuously put one&amp;rsquo;s personal views under scrutiny, eventually adapting or even changing them as needed, is not a common trait. Not in our field. While I generally agree with most of his opinions, I feel the urge to comment on a few of them.
 Typed languages are better when you&amp;rsquo;re working on a team of people with various experience levels</description>
-      <content:encoded><![CDATA[<p>After six years in the field, Chris has [shared][1] his strong opinions on
+      <content:encoded><![CDATA[<p>After six years in the field, Chris has <a href="https://chriskiehl.com/article/thoughts-after-6-years">shared</a> his strong opinions on
 software development practices, languages, and methodologies. I like his
 attitude. Willingness to continuously put one&rsquo;s personal views under scrutiny,
 eventually adapting or even changing them as needed, is not a common trait. Not
@@ -1914,7 +2057,7 @@ existence of different workflows.</p>
 </blockquote>
 <p>Ouch. This hurts.</p>
 <p>I am not sure I would have had so many well-formed opinions only six years in.
-Read them all on [Chris&rsquo; website][1].</p>
+Read them all on <a href="https://chriskiehl.com/article/thoughts-after-6-years">Chris&rsquo; website</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1922,11 +2065,11 @@ Read them all on [Chris&rsquo; website][1].</p>
       <link>https://nicolaiarocci.com/the-unreasonable-effectiveness-of-simple-html/</link>
       <pubDate>Thu, 28 Jan 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-unreasonable-effectiveness-of-simple-html/</guid>
-      <description>We&amp;rsquo;ve seen other articles pointing the finger at unnecessarily bloated websites. Terence Eden&amp;rsquo;s [On the unreasonable effectiveness of simple HTML][1] deserves mention, I think, for two reasons. First, the delivery is incredibly effective. Second, it is effective because of the storytelling.
+      <description>We&amp;rsquo;ve seen other articles pointing the finger at unnecessarily bloated websites. Terence Eden&amp;rsquo;s On the unreasonable effectiveness of simple HTML deserves mention, I think, for two reasons. First, the delivery is incredibly effective. Second, it is effective because of the storytelling.
 By enveloping the message into an original short, touching story, he achieves two goals. First, he captures the reader&amp;rsquo;s attention; second, he makes the experience memorable. Please, go and read it; I&amp;rsquo;ll wait here.</description>
       <content:encoded><![CDATA[<p>We&rsquo;ve seen other articles pointing the finger at unnecessarily bloated
-websites. Terence Eden&rsquo;s <em>[On the unreasonable effectiveness of simple
-HTML][1]</em> deserves mention, I think, for two reasons. First, the delivery is
+websites. Terence Eden&rsquo;s <em><a href="https://shkspr.mobi/blog/2021/01/the-unreasonable-effectiveness-of-simple-html/">On the unreasonable effectiveness of simple
+HTML</a></em> deserves mention, I think, for two reasons. First, the delivery is
 incredibly effective. Second, it is effective because of the storytelling.</p>
 <p>By enveloping the message into an original short, touching story, he achieves
 two goals. First, he captures the reader&rsquo;s attention; second, he makes the
@@ -1959,11 +2102,11 @@ a cannon to kill a mosquito.</p>
       <link>https://nicolaiarocci.com/on-the-short-tormented-life-of-phil-katz/</link>
       <pubDate>Fri, 22 Jan 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-the-short-tormented-life-of-phil-katz/</guid>
-      <description>Bless the Internet Archive and its Wayback Machine. With it, we can go back in time and read [The short, tormented life of computer genius Phil Katz][1], an unusually detailed and accurate article published in the April 14, 2000 issue of the Milwaukee Journal Sentinel.
+      <description>Bless the Internet Archive and its Wayback Machine. With it, we can go back in time and read The short, tormented life of computer genius Phil Katz, an unusually detailed and accurate article published in the April 14, 2000 issue of the Milwaukee Journal Sentinel.
 When he was found dead April 14, Phil Katz was slumped against a nightstand in a south side hotel, cradling an empty bottle of peppermint schnapps.</description>
       <content:encoded><![CDATA[<p>Bless the Internet Archive and its Wayback Machine. With it, we can go back in
-time and read [The short, tormented life of computer genius Phil
-Katz][1], an unusually detailed and accurate article published in the April 14,
+time and read <a href="https://web.archive.org/web/20000829071343/http://www2.jsonline.com/news/state/may00/katz21052000a.asp">The short, tormented life of computer genius Phil
+Katz</a>, an unusually detailed and accurate article published in the April 14,
 2000 issue of the Milwaukee Journal Sentinel.</p>
 <blockquote>
 <p>When he was found dead April 14, Phil Katz was slumped against a nightstand
@@ -1974,8 +2117,8 @@ chronic alcoholism. He was alone, estranged long ago from his family and
 a virtual stranger to employees of his own company, PKWare Inc. He was 37.</p>
 </blockquote>
 <p>In the late 80s, when the culmination of Katz&rsquo;s work on compression algorithms,
-PKZIP, emerged as the clear winner of the so-called &ldquo;compressors war,&rdquo; [I was
-running my own little BBS][2], Lorien, which later evolved into Phoenix BBS,
+PKZIP, emerged as the clear winner of the so-called &ldquo;compressors war,&rdquo; <a href="http://nicolaiarocci.com/a-trip-down-memory-lane-fidonet-and-usenet/">I was
+running my own little BBS</a>, Lorien, which later evolved into Phoenix BBS,
 a fully-fledged FidoNet node. When Lorien went first online in 1987, most if
 not all downloadables were in ARC format. Three years later, in 1990, when
 Phoenix emerged from Lorien&rsquo;s ashes, ZIP archives ruled the world. Fast forward

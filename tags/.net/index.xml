@@ -20,7 +20,7 @@
       <pubDate>Fri, 26 Feb 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-increase-upload-file-size-in-asp.net-core/</guid>
       <description>Today I learned the hard way that since ASP.NET Core 2.0, the request body has acquired a default size limit at 30MB (~28.6 MiB).
-If the request body size exceeds the configured max request body size limit, the call to Request.Body.ReadAsync will throw an IOException. If this exception is uncaught, Kestrel will respond with a 413 Payload Too Large response and HttpSys will respond with a generic 500 Internal Server Error response ([source][1]).</description>
+If the request body size exceeds the configured max request body size limit, the call to Request.Body.ReadAsync will throw an IOException. If this exception is uncaught, Kestrel will respond with a 413 Payload Too Large response and HttpSys will respond with a generic 500 Internal Server Error response (source).</description>
       <content:encoded><![CDATA[<p>Today I learned the hard way that since ASP.NET Core 2.0, the request body has
 acquired a default size limit at 30MB (~28.6 MiB).</p>
 <blockquote>
@@ -28,7 +28,7 @@ acquired a default size limit at 30MB (~28.6 MiB).</p>
 the call to Request.Body.ReadAsync will throw an IOException. If this
 exception is uncaught, Kestrel will respond with a 413 Payload Too Large
 response and HttpSys will respond with a generic 500 Internal Server Error
-response ([source][1]).</p>
+response (<a href="https://github.com/aspnet/Announcements/issues/267">source</a>).</p>
 </blockquote>
 <p>This will be a breaking change if your endpoint is expected to handle large
 uploads. The solution is simple, just decorate your MVC action or controller
@@ -40,7 +40,7 @@ with the <code>RequestSizeLimit</code> attribute, like so:</p>
 </span></span></code></pre></div><p><code>DisableRequestSizeLimit</code> can be used to make request size unlimited. This
 effectively restores pre-2.0.0 behavior for just the attributed action or
 controller. You can also change or disable the limit programmatically, either
-on a per-request basis or globally (see the instructions at this [link][1].)</p>
+on a per-request basis or globally (see the instructions at this <a href="https://github.com/aspnet/Announcements/issues/267">link</a>.)</p>
 <p>In my case, however, disabling the request limit was not enough. Because my
 endpoint is expecting an <code>IFormFile</code> argument, I also had to set the
 <code>RequestFormLimits</code> attribute:</p>
@@ -54,7 +54,7 @@ endpoint is expecting an <code>IFormFile</code> argument, I also had to set the
 Kestrel running behind nginx. As pointed out at the link above, if you&rsquo;re
 running behind IIS, then the limit is disabled, and the usual <em>web.config</em>
 limit applies.</p>
-<p>For future reference, [here][2] are the current Kestrel limits.</p>
+<p>For future reference, <a href="https://github.com/dotnet/aspnetcore/blob/main/src/Servers/Kestrel/Core/src/KestrelServerLimits.cs">here</a> are the current Kestrel limits.</p>
 ]]></content:encoded>
     </item>
     <item>

@@ -46,7 +46,7 @@ hindsight, this a move I could&rsquo;ve made many years ago (2010?) when I insta
 Hugo for the first time, but hey, better late than never. But how could I delete
 calls to action from all my 5K posts? With a variation of the above command, of
 course:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>find content/post/*.md -type f -exec sed -i .bak <span style="font-style:italic">&#39;/*Subscribe to.*$/,$d&#39;</span> {} +
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>find content/post/*.md -type f -exec sed -i .bak <span style="">&#39;</span>/
 </span></span></code></pre></div><p>It is the same logic as above, but we&rsquo;re replacing the matched string with a
 &ldquo;delete all lines till the end of the file&rdquo; pattern this time. I must admit that
 this one was trickier to pull off and required a discrete amount of trial and
@@ -104,11 +104,11 @@ UTF-8 out-of-the-box is one of them.</p>
       <pubDate>Wed, 25 Oct 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/linq-distinctby-on-a-property-for-dotnet-standard-and-old-dotnet-versions/</guid>
       <description>Today I learned how to implement a custom Enumerable.DistinctBy extension method that returns distinct elements from a sequence according to a specified key selector function.
-.NET 6 and its successors have the method [built in][1] within LINQ, but I needed it in a .NET Standard 2.0 class library, so I was out of luck. My implementation is simple, not different from [others][2] I found online, and should also work fine with old .</description>
+.NET 6 and its successors have the method built in within LINQ, but I needed it in a .NET Standard 2.0 class library, so I was out of luck. My implementation is simple, not different from others I found online, and should also work fine with old .</description>
       <content:encoded><![CDATA[<p>Today I learned how to implement a custom <code>Enumerable.DistinctBy</code> extension method that returns distinct elements from a
 sequence according to a specified key selector function.</p>
-<p>.NET 6 and its successors have the method [built in][1] within LINQ, but I needed it in a .NET Standard 2.0 class
-library, so I was out of luck. My implementation is simple, not different from [others][2] I found online, and should
+<p>.NET 6 and its successors have the method <a href="https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.distinctby?view=net-6.0">built in</a> within LINQ, but I needed it in a .NET Standard 2.0 class
+library, so I was out of luck. My implementation is simple, not different from <a href="https://stackoverflow.com/a/489421/323269">others</a> I found online, and should
 also work fine with old .NET releases. Here it is:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    public <span style="font-weight:bold">static</span> IEnumerable&lt;TSource&gt; DistinctBy&lt;TSource, TKey&gt;(this IEnumerable&lt;TSource&gt; source, Func&lt;TSource, TKey&gt; keySelector)
 </span></span><span style="display:flex;"><span>    {
@@ -123,7 +123,7 @@ also work fine with old .NET releases. Here it is:</p>
 </span></span></code></pre></div><p>In the following usage example, I will get back all unique objects from the original sequence, distinct by their Name
 property:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    <span style="font-weight:bold">var</span> uniques = mySequenceOfObjects.DistinctBy(x =&gt; x.Name);
-</span></span></code></pre></div><p>I later went to check the [official .NET 6+ implementation][3]. They support an optional equality comparer , which I
+</span></span></code></pre></div><p>I later went to check the <a href="https://github.com/dotnet/runtime/blob/e0409d44bd8d1fd0be1d66fbb52bd609be18f388/src/libraries/System.Linq/src/System/Linq/Distinct.cs#L62">official .NET 6+ implementation</a>. They support an optional equality comparer , which I
 don&rsquo;t need, but their base implementation is similar to mine (they use deferred execution as well).</p>
 <p>By the way, years after its open-sourcing, I still get thrills when I realize I can always look at, let alone contribute
 to, the .NET source code.</p>
@@ -135,17 +135,17 @@ to, the .NET source code.</p>
       <pubDate>Wed, 23 Aug 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/rsync-with-a-different-user/</guid>
       <description>Today I learned how to rsync with a user different than the one connected to the remote. Why would one want to do such a thing? The data I need to download from that server is owned by &amp;lsquo;backup,&amp;rsquo; a different, service-only user. I wanted to avoid going the change-permissions slippery route and allow my user direct access to the data.
-Looking at the rsync documentation, I learned about the nifty --rsync-path=PROGRAM [option][1]:</description>
+Looking at the rsync documentation, I learned about the nifty --rsync-path=PROGRAM option:</description>
       <content:encoded><![CDATA[<p>Today I learned how to rsync with a user different than the one connected to the remote. Why would one want to do such a
 thing? The data I need to download from that server is owned by &lsquo;backup,&rsquo; a different, service-only user. I wanted to
 avoid going the change-permissions slippery route and allow my user direct access to the data.</p>
-<p>Looking at the rsync documentation, I learned about the nifty <code>--rsync-path=PROGRAM</code> [option][1]:</p>
+<p>Looking at the rsync documentation, I learned about the nifty <code>--rsync-path=PROGRAM</code> <a href="https://download.samba.org/pub/rsync/rsync.1#opt--rsync-path">option</a>:</p>
 <blockquote>
 <p>Use this to specify what program is to be run on the remote machine to start-up rsync. Often used when rsync is not in
 the default remote-shell&rsquo;s path (e.g. &ndash;rsync-path=/usr/local/bin/rsync).</p>
 </blockquote>
 <p>The example caught my attention. I could perhaps leverage this option to perform a user switch before executing rsync
-(now performed on the remote machine). As further research confirmed, it [can be done][2]:</p>
+(now performed on the remote machine). As further research confirmed, it <a href="https://unix.stackexchange.com/a/546296">can be done</a>:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>rsync --rsync-path &#39;sudo -u backup rsync&#39; -a --delete host:source destination
 </span></span></code></pre></div><p>It didn&rsquo;t work immediately because my user was not a sudoer, but that was an easy fix:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>cat &gt; /etc/sudoers.d/myuser &lt;&lt; EOF
@@ -155,9 +155,20 @@ the default remote-shell&rsquo;s path (e.g. &ndash;rsync-path=/usr/local/bin/rsy
 minor issue was that &lsquo;backup&rsquo;, being a service user, had no shell access. That was another easy fix:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>sudo usermod -s /bin/bash backup
 </span></span></code></pre></div><p>Now my rsync-with-a-different-user command works like a charm. I do have some mild security concerns, though. My user is
-a sudoer (can only sudo rsync, though[^3]), and &lsquo;backup&rsquo; now has shell access. As password logins are turned off, and
+a sudoer (can only sudo rsync, though<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>), and &lsquo;backup&rsquo; now has shell access. As password logins are turned off, and
 SSH keys-only access is allowed to the machine (and I&rsquo;m the only person holding those keys), everything&rsquo;s still
 reasonably safe. Are there better ways? Please let me know.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Thanks to Sebastian on Mastodon for <a href="https://fosstodon.org/@DarkMetatron@rollenspiel.social/110939139075153024">pointing out</a> that I should limit the sudoer to just rsync itself. I updated the post accordingly. By the way, this is why I love posting TILs in public.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[m]: <a href="https://fosstodon.org/@nicola">https://fosstodon.org/@nicola</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -165,9 +176,9 @@ reasonably safe. Are there better ways? Please let me know.</p>
       <link>https://nicolaiarocci.com/homebrew-and-dotnet-8-preview-dont-like-each-other/</link>
       <pubDate>Tue, 13 Jun 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/homebrew-and-dotnet-8-preview-dont-like-each-other/</guid>
-      <description>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&amp;rsquo;m working on a [C# 12 presentation for our local developer meetup][1], and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As version 7 was initially installed with Homebrew, I also wanted to install version 8 Preview with Homebrew, but that recipe was unavailable. Not perfectly happy with that, I fell back to the stand-alone installer, expecting problems.</description>
-      <content:encoded><![CDATA[<p>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&rsquo;m working on a [C# 12 presentation
-for our local developer meetup][1], and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As
+      <description>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&amp;rsquo;m working on a C# 12 presentation for our local developer meetup, and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As version 7 was initially installed with Homebrew, I also wanted to install version 8 Preview with Homebrew, but that recipe was unavailable. Not perfectly happy with that, I fell back to the stand-alone installer, expecting problems.</description>
+      <content:encoded><![CDATA[<p>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&rsquo;m working on a <a href="https://www.meetup.com/it-IT/devromagna/events/293340671/">C# 12 presentation
+for our local developer meetup</a>, and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As
 version 7 was initially installed with Homebrew, I also wanted to install version 8 Preview with Homebrew, but that
 recipe was unavailable. Not perfectly happy with that, I fell back to the stand-alone installer, expecting
 problems.</p>
@@ -186,9 +197,9 @@ I had to forego the Homebrew installation, which did not uninstall the SDK itsel
       <link>https://nicolaiarocci.com/python-decimal.getcontext-does-not-work-with-bpython/</link>
       <pubDate>Tue, 06 Jun 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/python-decimal.getcontext-does-not-work-with-bpython/</guid>
-      <description>I have been working on a side project for which I&amp;rsquo;m using [bpython][1], a &amp;ldquo;fancy interface to the Python interpreter.&amp;rdquo; If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax highlighting, readline-like autocomplete, a &amp;ldquo;rewind&amp;rdquo; function to pop the last line of code from memory, auto-indentation and more.
+      <description>I have been working on a side project for which I&amp;rsquo;m using bpython, a &amp;ldquo;fancy interface to the Python interpreter.&amp;rdquo; If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax highlighting, readline-like autocomplete, a &amp;ldquo;rewind&amp;rdquo; function to pop the last line of code from memory, auto-indentation and more.
 Anyway, today I found a bug in bpython, and that&amp;rsquo;s that Python&amp;rsquo;s decimal.getcontext() does not work with it.</description>
-      <content:encoded><![CDATA[<p>I have been working on a side project for which I&rsquo;m using [bpython][1], a &ldquo;fancy interface to the Python interpreter.&rdquo;
+      <content:encoded><![CDATA[<p>I have been working on a side project for which I&rsquo;m using <a href="https://bpython-interpreter.org">bpython</a>, a &ldquo;fancy interface to the Python interpreter.&rdquo;
 If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax
 highlighting, readline-like autocomplete, a &ldquo;rewind&rdquo; function to pop the last line of code from memory, auto-indentation
 and more.</p>
@@ -211,7 +222,7 @@ and more.</p>
 </span></span><span style="display:flex;"><span>Decimal(&#39;0.142857&#39;)
 </span></span></code></pre></div><p>I suspect this has something to do with threads, as <code>decimal.getcontext</code> targets the current thread while
 <code>DefaultContext</code> is global. I went to the bpython repository only to find that a ticket was already opened in 2021. I
-[added][2] my <code>DefaultContext</code> observation there.</p>
+<a href="https://github.com/bpython/bpython/issues/918#issuecomment-1578911204">added</a> my <code>DefaultContext</code> observation there.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -254,9 +265,9 @@ measure network performance.</p>
       <link>https://nicolaiarocci.com/the-real-cost-of-interruption/</link>
       <pubDate>Fri, 07 Apr 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-real-cost-of-interruption/</guid>
-      <description>I&amp;rsquo;m just back from reading [Programmer Interrupted: The Real Cost of Interruption and Context Switching][1], an interesting short piece in which I learned about at least two new things.
+      <description>I&amp;rsquo;m just back from reading Programmer Interrupted: The Real Cost of Interruption and Context Switching, an interesting short piece in which I learned about at least two new things.
 First, The Parable of the Two Watchmakers, introduced by Nobel Prize winner Herbert Simon, describes the complex relationship between sub-systems and their larger wholes. In the context of the article, it helps explain, even for non-programmers, the cost of an interruption. It also hints at a possible mitigation technique:</description>
-      <content:encoded><![CDATA[<p>I&rsquo;m just back from reading [Programmer Interrupted: The Real Cost of Interruption and Context Switching][1], an interesting
+      <content:encoded><![CDATA[<p>I&rsquo;m just back from reading <a href="https://contextkeeper.io/blog/the-real-cost-of-an-interruption-and-context-switching/">Programmer Interrupted: The Real Cost of Interruption and Context Switching</a>, an interesting
 short piece in which I learned about at least two new things.</p>
 <p>First, <em>The Parable of the Two Watchmakers</em>, introduced by Nobel Prize winner Herbert Simon, describes the complex
 relationship between sub-systems and their larger wholes. In the context of the article, it helps explain, even for
@@ -307,11 +318,11 @@ any task that requires the use of multiple sources of information from a common 
       <link>https://nicolaiarocci.com/awesome-psql-tips/</link>
       <pubDate>Thu, 23 Feb 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/awesome-psql-tips/</guid>
-      <description>Today I learned about [psql-tips.org][1] by Lætitia Avrot, an excellent repository of psql (the CLI tool, not the database itself) tips. I like how one randomized tip is playfully served on the home page while the [complete list][2] is always at hand.</description>
-      <content:encoded><![CDATA[<p>Today I learned about [psql-tips.org][1] by Lætitia Avrot, an excellent
+      <description>Today I learned about psql-tips.org by Lætitia Avrot, an excellent repository of psql (the CLI tool, not the database itself) tips. I like how one randomized tip is playfully served on the home page while the complete list is always at hand.</description>
+      <content:encoded><![CDATA[<p>Today I learned about <a href="https://psql-tips.org">psql-tips.org</a> by Lætitia Avrot, an excellent
 repository of <code>psql</code> (the CLI tool, not the database itself) tips. I like how
-one randomized tip is playfully served on the home page while the [complete
-list][2] is always at hand.</p>
+one randomized tip is playfully served on the home page while the <a href="https://psql-tips.org/psql_tips_all.html">complete
+list</a> is always at hand.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -319,12 +330,12 @@ list][2] is always at hand.</p>
       <link>https://nicolaiarocci.com/making-the-latest-csharp-language-features-available-in-older-dotnet-versions/</link>
       <pubDate>Sat, 04 Feb 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/making-the-latest-csharp-language-features-available-in-older-dotnet-versions/</guid>
-      <description>In a C# library I&amp;rsquo;ve been working on, I wanted to use C# 9.0&amp;rsquo;s init keyword. Quoting the [documentation][3]:
+      <description>In a C# library I&amp;rsquo;ve been working on, I wanted to use C# 9.0&amp;rsquo;s init keyword. Quoting the documentation:
 The init keyword defines an accessor method in a property or indexer. An init-only setter assigns a value to the property or the indexer element only during object construction. This enforces immutability so that once the object is initialized, it can&amp;rsquo;t be changed again.
 Consider the following class:
 public class Person { public string FirstName { get; init; } } You can initialize it like this:</description>
       <content:encoded><![CDATA[<p>In a C# library I&rsquo;ve been working on, I wanted to use C# 9.0&rsquo;s <code>init</code> keyword.
-Quoting the [documentation][3]:</p>
+Quoting the <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/init">documentation</a>:</p>
 <blockquote>
 <p>The init keyword defines an accessor method in a property or indexer. An
 init-only setter assigns a value to the property or the indexer element
@@ -346,7 +357,7 @@ might be preferable to a parameter-enforced class constructor alternative.</p>
 <p>To my surprise, however, when I tried the above, I got the following error:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>The predefined type &#39;System.Runtime.CompilerServices.IsExternalInit&#39; must be
 </span></span><span style="display:flex;"><span>defined or imported in order to declare init-only setter
-</span></span></code></pre></div><p>As it [turns out][1], The <code>IsExternalInit</code> type is only included in the net5.0
+</span></span></code></pre></div><p>As it <a href="https://developercommunity.visualstudio.com/t/error-cs0518-predefined-type-systemruntimecompiler/1244809#TPIN-N1249582">turns out</a>, The <code>IsExternalInit</code> type is only included in the net5.0
 (and subsequent) target frameworks, so one cannot use it right away in a
 NetStandard 2.0 (or 2.1, for that matter) library.</p>
 <p>In the dotnet world, when I encounter <em>&ldquo;type is not defined in version X&rdquo;</em>
@@ -358,7 +369,7 @@ the following somewhere in my source code:</p>
 </span></span><span style="display:flex;"><span>        internal static class IsExternalInit {}
 </span></span><span style="display:flex;"><span>    }
 </span></span></code></pre></div><p>And presto, the <code>init</code> keyword is now fully available to my library.</p>
-<p>While researching this matter, I stumbled into [PolySharp][2],  a lovely
+<p>While researching this matter, I stumbled into <a href="https://github.com/Sergio0694/PolySharp">PolySharp</a>,  a lovely
 package that takes this workaround approach to new heights. What is it?</p>
 <blockquote>
 <p>PolySharp provides generated, source-only polyfills for C# language features,
@@ -381,12 +392,12 @@ keyword is used anymore in my library, but that&rsquo;s for another story.</p>
       <link>https://nicolaiarocci.com/on-implementing-the-asp.net-core-7-rate-limiting-middleware/</link>
       <pubDate>Fri, 23 Dec 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-implementing-the-asp.net-core-7-rate-limiting-middleware/</guid>
-      <description>Today, my last self-assigned duty before the Christmas break was to migrate our in-house rate-limiting implementation (based on the [AspNetCoreRateLimiting][1] third-party package) to the new, shiny [rate-limiting middleware][2] introduced by ASP.NET Core 7. While the process was relatively straightforward, I stumbled upon a few quirks I want to annotate here.
+      <description>Today, my last self-assigned duty before the Christmas break was to migrate our in-house rate-limiting implementation (based on the AspNetCoreRateLimiting third-party package) to the new, shiny rate-limiting middleware introduced by ASP.NET Core 7. While the process was relatively straightforward, I stumbled upon a few quirks I want to annotate here.
 Our use case is simple. We use what the ASP.NET Core 7 documentation defines as a &amp;ldquo;fixed window limiter.&amp;rdquo; It uses a specified time window to limit requests.</description>
       <content:encoded><![CDATA[<p>Today, my last self-assigned duty before the Christmas break was to migrate
 our in-house rate-limiting implementation (based on the
-[AspNetCoreRateLimiting][1] third-party package) to the new, shiny
-[rate-limiting middleware][2] introduced by ASP.NET Core 7. While the process
+<a href="https://github.com/stefanprodan/AspNetCoreRateLimit">AspNetCoreRateLimiting</a> third-party package) to the new, shiny
+<a href="https://devblogs.microsoft.com/dotnet/announcing-rate-limiting-for-dotnet/">rate-limiting middleware</a> introduced by ASP.NET Core 7. While the process
 was relatively straightforward, I stumbled upon a few quirks I want to annotate
 here.</p>
 <p>Our use case is simple. We use what the ASP.NET Core 7 documentation defines as
@@ -516,11 +527,11 @@ The code below is updated to address both issues above:</p>
 </span></span><span style="display:flex;"><span>    }
 </span></span></code></pre></div><p>And that&rsquo;s all there is to it. I dropped the AspNetCoreRateLimiting dependency.
 That is one great piece of software, and I am grateful to its author Stefan
-Prodan and his contributors. As mentioned in [My Top 7 New Features in .NET
-7][3], they recently released a package that allows using Redis as a
+Prodan and his contributors. As mentioned in <a href="/my-top-7-new-features-in-.net-7/">My Top 7 New Features in .NET
+7</a>, they recently released a package that allows using Redis as a
 rate-limiting backend. I might adopt it in the future.</p>
 <p>Complete documentation for ASP.NET Core 7 rate-limiting middleware is available
-[here][4].</p>
+<a href="https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit?view=aspnetcore-7.0">here</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -600,19 +611,19 @@ to me. It&rsquo;s a godsend. Now my iPhone doesn&rsquo;t even try to ring anymor
       <guid>https://nicolaiarocci.com/the-docker-event-monitor/</guid>
       <description>How to get alerted when a docker container goes down, or (many) other things happen to it</description>
       <content:encoded><![CDATA[<p>I added a new tool to my amateurish DevOps toolbox. Developed in the open by
-Tom Williams, the [Docker Event Monitor is][1] a &ldquo;tiny container that monitors
+Tom Williams, the <a href="https://bitbucket.org/quaideman/dem">Docker Event Monitor is</a> a &ldquo;tiny container that monitors
 the local Docker event system in real-time and sends notifications to various
 integrations for event types that match the configuration. For example, you can
 trigger an alert when a container is stopped, killed, runs out of memory or
 health status change.&rdquo;</p>
-<p>At its core sits a simple [python script][2] that monitors the <code>docker.sock</code>
+<p>At its core sits a simple <a href="https://bitbucket.org/quaideman/dem/src/master/app/main.py">python script</a> that monitors the <code>docker.sock</code>
 file for noticeable changes. The code is straightforward and looks safe to
 me. It only took a few minutes to set DEM up so that our <code>alerts</code> channel on
 Slack gets notified of any health status changes. Some handy options are
 included; my favorite is <code>silence</code> to set a time window during which alerts are
 not fired. It avoids unnecessary spam when routine maintenance goes off on your
 stack.</p>
-<p>I find [DEM][1] a useful little tool for lightweight, simple deployments where
+<p>I find <a href="https://bitbucket.org/quaideman/dem">DEM</a> a useful little tool for lightweight, simple deployments where
 you&rsquo;re not employing heavy weaponry, like k8s.</p>
 ]]></content:encoded>
     </item>
@@ -623,7 +634,7 @@ you&rsquo;re not employing heavy weaponry, like k8s.</p>
       <guid>https://nicolaiarocci.com/how-to-copy-a-files-path-in-macos-finder/</guid>
       <description>No matter how long I&amp;rsquo;ve possessed a Mac and how hard I try, there will always be a helpful keyboard shortcut hidden somewhere that I don&amp;rsquo;t know about.
 Today I learned about holding the Option key while clicking on the Copy command in Finder. It activates the super-useful (and super-secret) &amp;ldquo;copy as pathname&amp;rdquo; feature.
-I spotted this trick on [Jamie Smith&amp;rsquo;s website][1], where other handy shortcuts (and the pretty gif above) reside.</description>
+I spotted this trick on Jamie Smith&amp;rsquo;s website, where other handy shortcuts (and the pretty gif above) reside.</description>
       <content:encoded><![CDATA[<p>No matter how long I&rsquo;ve possessed a Mac and how hard I try, there will always
 be a helpful keyboard shortcut hidden somewhere that I don&rsquo;t know about.</p>
 <p>Today I learned about holding the <code>Option</code> key while clicking on the Copy
@@ -631,7 +642,7 @@ command in Finder. It activates the super-useful (and super-secret) &ldquo;copy 
 pathname&rdquo; feature.</p>
 <p><img loading="lazy" src="/images/finder-menu-option.gif" alt="Credits: Jamie Smith"  />
 </p>
-<p>I spotted this trick on [Jamie Smith&rsquo;s website][1], where other handy shortcuts
+<p>I spotted this trick on <a href="https://www.jamieonkeys.dev/posts/keyboard-shortcuts/">Jamie Smith&rsquo;s website</a>, where other handy shortcuts
 (and the pretty gif above) reside.</p>
 ]]></content:encoded>
     </item>
@@ -650,12 +661,12 @@ was nicknamed &ldquo;Bluetooth&rdquo;, and, in 1997, the Bluetooth wireless spec
 design was named after him. The choice was based on an analogy that the
 technology would unite devices the way Harald united the tribes of Denmark into
 a single kingdom. Furthermore, the Bluetooth logo consists of the two
-Scandinavian runes for his initials, H (ᚼ) and B (ᛒ)[^2]</p>
+Scandinavian runes for his initials, H (ᚼ) and B (ᛒ)<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>The traditional explanation for his byname is that Harald must have had
 a conspicuous bad tooth that appeared &ldquo;blue&rdquo; (i.e. &ldquo;black&rdquo;, as blár &ldquo;blue&rdquo;
 meant &ldquo;blue-black&rdquo;, or &ldquo;dark-coloured&rdquo;). Another explanation is that he was
 called &ldquo;blue thane&rdquo; (or &ldquo;dark thane&rdquo;) in England (with Anglo-Saxon thegn
-corrupted to tan when the name came back into Old Norse).[^3]</p>
+corrupted to tan when the name came back into Old Norse).<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <p>Another interesting tidbit is that, according to Bluetooth&rsquo;s official website,
 Bluetooth was only intended as a placeholder until marketing could come up with
 something cool. Later, when it came time to select a serious name, Bluetooth
@@ -665,9 +676,26 @@ of thousands of hits throughout the internet. A full trademark search on
 RadioWire couldn&rsquo;t be completed in time for launch, making Bluetooth the only
 choice. The name caught on fast, and before it could be changed, it spread
 throughout the industry, becoming synonymous with short-range wireless
-technology[^4].</p>
+technology<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
 <p>I&rsquo;m a sucker for stories like this in which technology pays proper tribute to
 our past, without which it wouldn&rsquo;t exist in the first place.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Source: <a href="https://en.wikipedia.org/wiki/Harald_Bluetooth#Bluetooth_technology">Harald Bluetooth, Wikipedia</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Source: <a href="https://en.wikipedia.org/wiki/Harald_Bluetooth#Name">Harald Bluetooth, Wikipedia</a>.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Source: <a href="https://en.wikipedia.org/wiki/Bluetooth#History">Bluetooth history, Wikipedia</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -676,25 +704,25 @@ our past, without which it wouldn&rsquo;t exist in the first place.</p>
       <pubDate>Sun, 16 Jan 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/automatic-deletion-of-older-records-in-postgres/</guid>
       <description>We have a Postgres cluster with a database for each user. Each database has a table that records events, and we want this table to only record the last 15 days.
-If we were on MongoDB, we could use a [capped collection][1], but we are in Postgres, which does not have equivalent functionality. In Postgres, you have to make do with something homemade. My first idea was to install a cron job in the system.</description>
+If we were on MongoDB, we could use a capped collection, but we are in Postgres, which does not have equivalent functionality. In Postgres, you have to make do with something homemade. My first idea was to install a cron job in the system.</description>
       <content:encoded><![CDATA[<p>We have a Postgres cluster with a database for each user. Each database has
 a table that records events, and we want this table to only record the last 15
 days.</p>
-<p>If we were on MongoDB, we could use a [capped collection][1], but we are in
+<p>If we were on MongoDB, we could use a <a href="https://docs.mongodb.com/manual/core/capped-collections/">capped collection</a>, but we are in
 Postgres, which does not have equivalent functionality. In Postgres, you have
 to make do with something homemade. My first idea was to install a cron job in
 the system. It would execute daily, deleting older events in each user
 database.</p>
 <p>Before jumping in, I looked at what others do. One surprising popular approach
-appears to be using [triggers][2]: older ones are pruned when a new row is
+appears to be using <a href="https://www.postgresql.org/docs/current/sql-createtrigger.html">triggers</a>: older ones are pruned when a new row is
 inserted in the table. For my use case, this seems unnecessarily taxing to the
 system. I&rsquo;m happy with running a single maintenance task late in the night when
-the system is underused. Two other solutions are [pgAgent][3] or [pg_cron][4].
+the system is underused. Two other solutions are <a href="https://www.pgadmin.org/docs/pgadmin4/latest/pgagent.html">pgAgent</a> or <a href="https://github.com/citusdata/pg_cron">pg_cron</a>.
 pgAgent is an external UI tool, so hard No to pgAgent from me. pg_cron
 essentially offers cron jobs baked into the database, which is good, but, like
 pg_Agent, it requires you to install the tool itself, create a Postgres
 extension, change Postgres configuration, optionally grant usage to a schema,
-etc. There&rsquo;s also [partitioning][5], which seems way overboard for our use
+etc. There&rsquo;s also <a href="https://www.postgresql.org/docs/current/ddl-partitioning.html">partitioning</a>, which seems way overboard for our use
 case. It seems that these approaches demand new dependencies and unnecessary
 work for something I can easily accomplish by leveraging what is already
 available, for free, in the system. So, it&rsquo;s good old Linux cron jobs for me.</p>
@@ -742,10 +770,10 @@ Not so much its documentation and online support.  At some point, I landed in
 the Parallels forums, a vast ocean of scarcely useful threads from which
 I usually try to stay the hell away. The Parallels personnel there has
 a long-standing tendency to copy &amp; paste ready-made and irrelevant solutions.
-Users are left to their own, and, luckily, one of them posted the [perfect
-solution][1] to my Legacy-to-UEFI BIOS migration problem. I am reposting it
-here, with minor edits, for future reference (my future self [will be
-grateful][2]):</p>
+Users are left to their own, and, luckily, one of them posted the <a href="https://forum.parallels.com/threads/process-for-converting-from-legacy-to-uefi-in-prep-for-win-11.354888/">perfect
+solution</a> to my Legacy-to-UEFI BIOS migration problem. I am reposting it
+here, with minor edits, for future reference (my future self <a href="https://nicolaiarocci.com/learn-in-public/">will be
+grateful</a>):</p>
 <ol>
 <li>Back up your VM</li>
 <li>Boot into your Windows 10 VM as usual</li>
@@ -791,16 +819,16 @@ I am confident it will be successful.</p>
       <pubDate>Sun, 21 Nov 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-automatically-pull-and-deploy-updated-docker-images/</guid>
       <description>We want our test and production stacks to be automatically updated every time something new is pushed to the test or release branch. CI builds the docker image on successful test runs, then stores it in our private registry. But how do you automatically pull and deploy those updated images?
-I looked into the [Watchtower][1] project, which is interesting. You add Watchtower to the stack, and it will diligently check for new versions of the images used by the containers in the stack, pulling, building and deploying as needed while the stack is up and running.</description>
+I looked into the Watchtower project, which is interesting. You add Watchtower to the stack, and it will diligently check for new versions of the images used by the containers in the stack, pulling, building and deploying as needed while the stack is up and running.</description>
       <content:encoded><![CDATA[<p>We want our test and production stacks to be automatically updated every time
 something new is pushed to the <code>test</code> or <code>release</code> branch. CI builds the docker
 image on successful test runs, then stores it in our private registry. But how
 do you automatically pull and deploy those updated images?</p>
-<p>I looked into the [Watchtower][1] project, which is interesting. You add
+<p>I looked into the <a href="https://containrrr.dev/watchtower/">Watchtower</a> project, which is interesting. You add
 Watchtower to the stack, and it will diligently check for new versions of the
 images used by the containers in the stack, pulling, building and deploying as
 needed while the stack is up and running. In my experiments, however, I had
-[little luck][2] in making it talk with our private registry. Also, I&rsquo;m not too
+<a href="https://github.com/containrrr/watchtower/issues/1113">little luck</a> in making it talk with our private registry. Also, I&rsquo;m not too
 fond of polluting my stack with foreign containers. I want my docker stack to
 be simple, tidy, clean, and single-tasked.</p>
 <p>I ended up doing something super simple. A cronjob routinely invokes a script
@@ -826,7 +854,7 @@ fi
 </code></pre>
 <p>I expected <code>docker pull</code> to return <code>1</code> on successful pulls; it turns out it
 always returns <code>0</code>, so I&rsquo;m checking its output for confirmation (I got the hint
-[here][3]).</p>
+<a href="https://stackoverflow.com/a/51628017/323269">here</a>).</p>
 <p>You might be wondering why we don&rsquo;t directly execute <code>docker stack up</code> in our
 cronjob. It updates the stack resolving new images by default. The problem is
 that, in our experience, it also briefly stops the services. Not an issue if
@@ -847,15 +875,27 @@ it (keep in mind, we don&rsquo;t use alternative orchestrators, just the built-i
       <link>https://nicolaiarocci.com/learn-in-public/</link>
       <pubDate>Tue, 16 Nov 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/learn-in-public/</guid>
-      <description>Today I searched the internet for something, and the first result I got from [@duckduckgo][2] was a note I wrote months ago to my future self; how meta is that.
-[Learn in public][1], it gives superpowers[^4]. Also, in recent years, adopting [POSSE][3] was the best thing I did for my personal development.</description>
+      <description>Today I searched the internet for something, and the first result I got from @duckduckgo was a note I wrote months ago to my future self; how meta is that.
+Learn in public, it gives superpowers1. Also, in recent years, adopting POSSE was the best thing I did for my personal development.
+I should do better. Post more TILs, for example. [rss]: https://nicolaiarocci.com/index.xml [tw]: http://twitter.com/nicolaiarocci [nl]: https://buttondown.email/nicolaiarocci&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
       <content:encoded><![CDATA[<p>Today I searched the internet for something, and the first result I got from
-[@duckduckgo][2] was a note I wrote months ago to my future self; how meta is
+<a href="https://duckduckgo.com/">@duckduckgo</a> was a note I wrote months ago to my future self; how meta is
 that.</p>
 <p><img loading="lazy" src="/images/duckduckgo-search.png" alt=""  />
 </p>
-<p>[Learn in public][1], it gives superpowers[^4]. Also, in recent years, adopting
-[POSSE][3] was the best thing I did for my personal development.</p>
+<p><a href="https://www.swyx.io/learn-in-public/">Learn in public</a>, it gives superpowers<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Also, in recent years, adopting
+<a href="https://indieweb.org/POSSE">POSSE</a> was the best thing I did for my personal development.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I should do better. Post more <a href="/tags/til/">TILs</a>, for example.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -863,13 +903,13 @@ that.</p>
       <link>https://nicolaiarocci.com/the-american-style-of-quotation-mark-punctuation-makes-no-sense/</link>
       <pubDate>Thu, 16 Sep 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-american-style-of-quotation-mark-punctuation-makes-no-sense/</guid>
-      <description>Years ago, I [translated][2] an essay by Terry Windling, [On Tolkien and Fairie-Stories][1], from American English to Italian. I remember arguing with the author about her use of periods in quotations. Each quotation would end with a period before the closing mark. I was puzzled. We don&amp;rsquo;t do that in Italy. More importantly, I read many English texts where the period was left outside the quotation itself. She insisted that her style was correct[^4].</description>
-      <content:encoded><![CDATA[<p>Years ago, I [translated][2] an essay by Terry Windling, [On Tolkien and
-Fairie-Stories][1], from American English to Italian. I remember arguing with
+      <description>Years ago, I translated an essay by Terry Windling, On Tolkien and Fairie-Stories, from American English to Italian. I remember arguing with the author about her use of periods in quotations. Each quotation would end with a period before the closing mark. I was puzzled. We don&amp;rsquo;t do that in Italy. More importantly, I read many English texts where the period was left outside the quotation itself. She insisted that her style was correct1.</description>
+      <content:encoded><![CDATA[<p>Years ago, I <a href="http://www.endore.it/Arretrati/9/Articoli/SuTolkienELeFiabe.pdf">translated</a> an essay by Terry Windling, <a href="https://accademia.tolkieniana.net/tesi/endicott/tlkefiabeng.html">On Tolkien and
+Fairie-Stories</a>, from American English to Italian. I remember arguing with
 the author about her use of periods in quotations. Each quotation would end
 with a period before the closing mark. I was puzzled. We don&rsquo;t do that in
 Italy. More importantly, I read many English texts where the period was left
-outside the quotation itself. She insisted that her style was correct[^4].</p>
+outside the quotation itself. She insisted that her style was correct<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
 <p>Today I learn that, in English, there are in fact two different and conflicting
 quotation mark punctuation styles: American and British.</p>
 <blockquote>
@@ -879,9 +919,20 @@ marks [&hellip;] In the British style, however, you put periods and commas outsi
 the quotation marks, unless they are part of a complete sentence that is
 fully contained between the quotation marks:</p>
 </blockquote>
-<p>In [The American Style of Quotation Mark Punctuation Makes No Sense][3] the
+<p>In <a href="https://www.erichgrunewald.com/posts/the-american-style-of-quotation-mark-punctuation-makes-no-sense">The American Style of Quotation Mark Punctuation Makes No Sense</a> the
 author illustrates the differences between the two styles, then argues that
 &ldquo;the British approach makes more sense, so use that one.&rdquo; Whoops.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>In my rendition I moved the period after the end mark. Different languages, different rules.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -929,11 +980,11 @@ much as possible.</p>
       <link>https://nicolaiarocci.com/how-to-restore-a-single-postgres-database-from-a-pg_dumpall-dump/</link>
       <pubDate>Wed, 25 Aug 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-restore-a-single-postgres-database-from-a-pg_dumpall-dump/</guid>
-      <description>Today I learned how to restore a single Postgres database from a global dump generated with [pg_dumpall][1]. Now, pg_dumpall is handy when you want to back up an entire Postgres cluster. It will dump all databases and global objects in a single text file. In contrast, [pg_dump][2], the go-to tool for Postgres backups, offers more control but only works with a single database and doesn&amp;rsquo;t dump global objects, such as the roles/users linked to the database.</description>
+      <description>Today I learned how to restore a single Postgres database from a global dump generated with pg_dumpall. Now, pg_dumpall is handy when you want to back up an entire Postgres cluster. It will dump all databases and global objects in a single text file. In contrast, pg_dump, the go-to tool for Postgres backups, offers more control but only works with a single database and doesn&amp;rsquo;t dump global objects, such as the roles/users linked to the database.</description>
       <content:encoded><![CDATA[<p>Today I learned how to restore a single Postgres database from a global dump
-generated with [<code>pg_dumpall</code>][1]. Now, <code>pg_dumpall</code> is handy when you want to back
+generated with <a href="https://www.postgresql.org/docs/current/app-pg-dumpall.html"><code>pg_dumpall</code></a>. Now, <code>pg_dumpall</code> is handy when you want to back
 up an entire Postgres cluster. It will dump all databases and global objects in
-a single text file. In contrast, [<code>pg_dump</code>][2], the go-to tool for Postgres
+a single text file. In contrast, <a href="https://www.postgresql.org/docs/current/app-pgdump.html"><code>pg_dump</code></a>, the go-to tool for Postgres
 backups, offers more control but only works with a single database and doesn&rsquo;t
 dump global objects, such as the roles/users linked to the database.</p>
 <p>The problem with <code>pg_dumpall</code> comes when you want to restore just one database
@@ -945,7 +996,7 @@ only need to extract them. Say we have one &ldquo;mydb&rdquo; database that we n
 retrieve. Open the dump file and look for a string starting with &ldquo;connect
 mydb&rdquo;. That&rsquo;s where our database instructions begin. Then look for the first
 occurrence of &ldquo;PostgreSQL database dump complete&rdquo;. That&rsquo;s where the
-instructions end. [This][3] script, which I have to say makes clever use of <code>sed</code>,
+instructions end. <a href="https://stackoverflow.com/a/48866503/323269">This</a> script, which I have to say makes clever use of <code>sed</code>,
 will do just that for us:</p>
 <pre><code>#!/bin/bash
 [ $# -lt 2 ] &amp;&amp; { echo &quot;Usage: $0 &lt;postgresql dump&gt; &lt;dbname&gt;&quot;; exit 1; }
@@ -964,7 +1015,7 @@ only get error messages:</p>
 psql (connection options) -d postgres -c &quot;CREATE DATABASE mydb&quot;
 </code></pre>
 <p><code>DROP DATABASE</code> will fail if there are active connections. Either
-[force-drop][4] all active connections or tell your peers to leave the database
+<a href="https://stackoverflow.com/a/5408501/323269">force-drop</a> all active connections or tell your peers to leave the database
 alone. Merging the above passages in a script is an option.</p>
 ]]></content:encoded>
     </item>
@@ -973,13 +1024,13 @@ alone. Merging the above passages in a script is an option.</p>
       <link>https://nicolaiarocci.com/how-to-remove-a-file-from-git-history/</link>
       <pubDate>Fri, 30 Jul 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-remove-a-file-from-git-history/</guid>
-      <description>Today I learned how to remove a file from a git repository while also cleaning it from the history. When you delete it with git rm or git rm --cached, tracks remain in the commit history (the reflog). That might not be a big deal, but if the file has sensitive contents that you want to disappear from version control entirely, then you also want it cleaned from the reflog. That&amp;rsquo;s when [git filter-branch][1] comes to the rescue.</description>
+      <description>Today I learned how to remove a file from a git repository while also cleaning it from the history. When you delete it with git rm or git rm --cached, tracks remain in the commit history (the reflog). That might not be a big deal, but if the file has sensitive contents that you want to disappear from version control entirely, then you also want it cleaned from the reflog. That&amp;rsquo;s when git filter-branch comes to the rescue.</description>
       <content:encoded><![CDATA[<p>Today I learned how to remove a file from a git repository while also cleaning
 it from the history. When you delete it with <code>git rm</code> or <code>git rm --cached</code>,
 tracks remain in the commit history (the reflog). That might not be a big deal,
 but if the file has sensitive contents that you want to disappear from version
 control entirely, then you also want it cleaned from the reflog. That&rsquo;s when
-[<code>git filter-branch</code>][1] comes to the rescue.</p>
+<a href="https://git-scm.com/docs/git-filter-branch"><code>git filter-branch</code></a> comes to the rescue.</p>
 <p>To be on the safe side, I first cloned the repository to a test directory:</p>
 <pre><code>$ git clone &lt;REPOSITORY&gt; test
 $ cd test
@@ -1012,10 +1063,21 @@ replayed all the above, then force-pushed back to the remote:</p>
 </code></pre>
 <p>In my case, the repository is private with no forks, so the changing
 history was not a big deal for the few colleagues with access to it. Of
-course, any other existing clone will need to be updated[^2].</p>
+course, any other existing clone will need to be updated<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
 <p>In so many years with git, this is the very first time I had to do something
 similar. Typically, you don&rsquo;t commit sensitive data to version control, but we
 all make mistakes every once in a while, don&rsquo;t we?</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Keep in mind, eventual stashed changes will be lost after <code>git filter-branch</code>. Make sure you unstash before issuing the command.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -1023,24 +1085,24 @@ all make mistakes every once in a while, don&rsquo;t we?</p>
       <link>https://nicolaiarocci.com/yet-another-reason-to-use-duckduckgo/</link>
       <pubDate>Fri, 16 Jul 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/yet-another-reason-to-use-duckduckgo/</guid>
-      <description>I couldn&amp;rsquo;t recall a [tmux][5] command, so I quickly reached for my trusted default search engine DuckDuckGo. I typed &amp;ldquo;tmux cheat sheet&amp;rdquo; because, well, once I found an excellent one which I wanted to summon again. To my surprise, the [search result][1] included an in-page cheat sheet—a good one too.
-It isn&amp;rsquo;t the first time that DuckDuckGo surprises me like that. Need a new GUID? [Search for it][2].
+      <description>I couldn&amp;rsquo;t recall a tmux command, so I quickly reached for my trusted default search engine DuckDuckGo. I typed &amp;ldquo;tmux cheat sheet&amp;rdquo; because, well, once I found an excellent one which I wanted to summon again. To my surprise, the search result included an in-page cheat sheet—a good one too.
+It isn&amp;rsquo;t the first time that DuckDuckGo surprises me like that. Need a new GUID? Search for it.
 Need a quick QR code?</description>
-      <content:encoded><![CDATA[<p>I couldn&rsquo;t recall a [tmux][5] command, so I quickly reached for my trusted default
+      <content:encoded><![CDATA[<p>I couldn&rsquo;t recall a <a href="https://github.com/tmux/tmux">tmux</a> command, so I quickly reached for my trusted default
 search engine DuckDuckGo. I typed &ldquo;tmux cheat sheet&rdquo; because, well, once
 I found an excellent one which I wanted to summon again. To my surprise, the
-[search result][1] included an in-page cheat sheet—a good one too.</p>
+<a href="https://duckduckgo.com/?t=ffab&amp;q=tmux+cheat+sheet&amp;atb=v224-1&amp;ia=cheatsheet">search result</a> included an in-page cheat sheet—a good one too.</p>
 <p><img loading="lazy" src="/images/duckduckgo-tmux.png" alt="DuckDuckGo provides an in-page tmux cheat sheet"  />
 </p>
 <p>It isn&rsquo;t the first time that DuckDuckGo surprises me like that. Need a new
-GUID? [Search for it][2].</p>
+GUID? <a href="https://duckduckgo.com/?q=new+guid&amp;t=ffab&amp;atb=v224-1&amp;ia=answer">Search for it</a>.</p>
 <p><img loading="lazy" src="/images/duckduckgo-guid.png" alt="DuckDuckGo comes with an in-page guid generation feature"  />
 </p>
-<p>Need a quick QR code? [Of course][3].</p>
+<p>Need a quick QR code? <a href="https://duckduckgo.com/?q=qrcode+for+https%3A%2F%2Fnicolaiarocci.com&amp;t=ffab&amp;atb=v224-1&amp;ia=answer">Of course</a>.</p>
 <p><img loading="lazy" src="/images/duckduckgo-qrcode.png" alt="DuckDuckGo comes with an in-page QR code generation feature"  />
 </p>
-<p>DuckDuckGo should be everyone&rsquo;s default browser for many [valid reasons][4], and
-in-page results for frequent searches (or [Istant Answers][6] as they call them)
+<p>DuckDuckGo should be everyone&rsquo;s default browser for many <a href="https://duckduckgo.com/spread">valid reasons</a>, and
+in-page results for frequent searches (or <a href="https://duck.co/ia/dev">Istant Answers</a> as they call them)
 sure isn&rsquo;t the most prominent one, but it is handy to have around. It is also of
 some comfort to see that I&rsquo;m obviously not the only one forgetting tmux
 commands.</p>
@@ -1052,7 +1114,7 @@ commands.</p>
       <pubDate>Fri, 11 Jun 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/custom-default-values-for-not-existing-dictionary-items-and-a-lesson-learned/</guid>
       <description>When dealing with dictionaries, a typical problem is when an operation attempts to retrieve an element using a key that does not exist in the dictionary. In .NET, a KeyNotFoundException is raised, and that&amp;rsquo;s the desired behaviour in most circumstances. Sometimes, however, you know that your program will frequently try to retrieve keys that do not exist. In such cases, it is more efficient to use the TryGetValue method:
-This method returns the value associated with the specified key, if the key is found; otherwise, the default value for the type of the value parameter is returned ([source][1])</description>
+This method returns the value associated with the specified key, if the key is found; otherwise, the default value for the type of the value parameter is returned (source)</description>
       <content:encoded><![CDATA[<p>When dealing with dictionaries, a typical problem is when an operation attempts
 to retrieve an element using a key that does not exist in the dictionary. In
 .NET, a <code>KeyNotFoundException</code> is raised, and that&rsquo;s the desired behaviour in
@@ -1062,7 +1124,7 @@ efficient to use the <code>TryGetValue</code> method:</p>
 <blockquote>
 <p>This method returns the value associated with the specified key, if the key
 is found; otherwise, the default value for the type of the value parameter is
-returned ([source][1])</p>
+returned (<a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2.trygetvalue?view=net-5.0">source</a>)</p>
 </blockquote>
 <p>The devil hides in details. <code>TryGetValue</code> returns the default value for the
 type of the <code>value</code> parameter. So, if you use <code>TryGetValue</code> to look into
@@ -1089,7 +1151,7 @@ projects.</p>
 <p>Today, as I was looking at something only tangentially related, I learned that
 our extension method is obsolete, and it&rsquo;s been for a while. NetStandard
 2.1 and NetCore 2 added a new extension method to the official API. It&rsquo;s
-called, you guessed it, [<code>GetValueOrDefault</code>][2]. It extends
+called, you guessed it, <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.collectionextensions.getvalueordefault?view=net-5.0"><code>GetValueOrDefault</code></a>. It extends
 <code>ÌReadOnlyDictionary&lt;TKey, TValue&gt;</code>, so it applies to all generic dictionaries,
 which is cool.</p>
 <p>We could continue with our extension method. It has the advantage of working
@@ -1109,7 +1171,7 @@ the time to learn new things is good, but acquired ones need sharping too.</p>
       <pubDate>Tue, 04 May 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/dotnet-smtpclient-should-not-be-used/</guid>
       <description>I am very late to the party, but today I learned that the good old dotnet SmptClient is considered obsolete and should not be used. Quoting the documentation:
-We don&amp;rsquo;t recommend using the SmtpClient class for new development because SmtpClient doesn&amp;rsquo;t support many modern protocols. Use MailKit or other libraries instead. ([source][1])
+We don&amp;rsquo;t recommend using the SmtpClient class for new development because SmtpClient doesn&amp;rsquo;t support many modern protocols. Use MailKit or other libraries instead. (source)
 Interestingly, Microsoft is recommending a third-party open-source library as an alternative. I hope we&amp;rsquo;ll see more of that in the future.</description>
       <content:encoded><![CDATA[<p>I am very late to the party, but today I learned that the good old dotnet
 <code>SmptClient</code> is considered obsolete and should not be used. Quoting the
@@ -1117,11 +1179,11 @@ documentation:</p>
 <blockquote>
 <p>We don&rsquo;t recommend using the SmtpClient class for new development because
 SmtpClient doesn&rsquo;t support many modern protocols. Use MailKit or other
-libraries instead. ([source][1])</p>
+libraries instead. (<a href="https://docs.microsoft.com/en-us/dotnet/api/system.net.mail.smtpclient?view=net-5.0&amp;viewFallbackFrom=netcore-5.0#remarks">source</a>)</p>
 </blockquote>
 <p>Interestingly, Microsoft is recommending a third-party open-source library as an
 alternative. I hope we&rsquo;ll see more of that in the future.</p>
-<p>I just finished integrating [MailKit][2] in our backend. I must say that I&rsquo;m
+<p>I just finished integrating <a href="https://github.com/jstedfast/MailKit">MailKit</a> in our backend. I must say that I&rsquo;m
 pleasantly surprised by its rich feature-set and the elegant and
 straightforward design, which makes getting on-board super easy. It&rsquo;s built on
 top of the excellent MimeKit, after all, and authored by the very same author
@@ -1148,7 +1210,7 @@ You can say <code>git add &lt;dir&gt;</code> and it will add the files in there.
 need a directory to exist in checkouts you should create a file in it</strong>.
 .gitignore works well for this purpose; you can leave it empty or fill in
 the names of files you do not expect to show up in the directory.
-([source][1])</p>
+(<a href="https://git.wiki.kernel.org/index.php/GitFaq#Can_I_add_empty_directories.3F">source</a>)</p>
 </blockquote>
 <p>The same answer offers a workaround: just save an empty .gitignore file into
 the directory. At that point, <code>git status</code> shows the file as untracked. We can
@@ -1165,7 +1227,7 @@ immediately grasp what&rsquo;s going on (an alternative would be a README.md fil
 with an explanation.)</p>
 <p>Of course, if the dir is meant to fill-up over time, but we still want to
 ignore its future contents in version control, then .gitignore is the right
-tool for the job. Something like this would work (I [dug it up][2] on Stack
+tool for the job. Something like this would work (I <a href="https://stackoverflow.com/questions/115983/how-can-i-add-an-empty-directory-to-a-git-repository">dug it up</a> on Stack
 Overflow, where else):</p>
 <pre><code># Ignore everything in this directory
 *
@@ -1253,12 +1315,12 @@ Stephen&rsquo;s above</p>
       <pubDate>Tue, 09 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/cleaning-up-your-postgres-database/</guid>
       <description>I am an application/backend developer who has to quibble with databases more often than desired. I can get my way around Postgres pretty well, but I can always use a hint or two, especially when it comes to fine-tuning and performance.
-I stumbled upon [Cleaning Up Your Postgres Databases][1]. It offers useful advice on spotting performance bottlenecks in your Postgres database. Take the cache and index hit queries, for example.</description>
+I stumbled upon Cleaning Up Your Postgres Databases. It offers useful advice on spotting performance bottlenecks in your Postgres database. Take the cache and index hit queries, for example.</description>
       <content:encoded><![CDATA[<p>I am an application/backend developer who has to quibble with databases more
 often than desired. I can get my way around Postgres pretty well, but I can
 always use a hint or two, especially when it comes to fine-tuning and
 performance.</p>
-<p>I stumbled upon [Cleaning Up Your Postgres Databases][1]. It offers useful
+<p>I stumbled upon <a href="http://blog.crunchydata.com/blog/cleaning-up-your-postgres-database">Cleaning Up Your Postgres Databases</a>. It offers useful
 advice on spotting performance bottlenecks in your Postgres database. Take the
 cache and index hit queries, for example.</p>
 <blockquote>
@@ -1278,7 +1340,7 @@ application making a lot of short requests I&rsquo;m going to target &gt; 99% he
       <pubDate>Fri, 26 Feb 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-increase-upload-file-size-in-asp.net-core/</guid>
       <description>Today I learned the hard way that since ASP.NET Core 2.0, the request body has acquired a default size limit at 30MB (~28.6 MiB).
-If the request body size exceeds the configured max request body size limit, the call to Request.Body.ReadAsync will throw an IOException. If this exception is uncaught, Kestrel will respond with a 413 Payload Too Large response and HttpSys will respond with a generic 500 Internal Server Error response ([source][1]).</description>
+If the request body size exceeds the configured max request body size limit, the call to Request.Body.ReadAsync will throw an IOException. If this exception is uncaught, Kestrel will respond with a 413 Payload Too Large response and HttpSys will respond with a generic 500 Internal Server Error response (source).</description>
       <content:encoded><![CDATA[<p>Today I learned the hard way that since ASP.NET Core 2.0, the request body has
 acquired a default size limit at 30MB (~28.6 MiB).</p>
 <blockquote>
@@ -1286,7 +1348,7 @@ acquired a default size limit at 30MB (~28.6 MiB).</p>
 the call to Request.Body.ReadAsync will throw an IOException. If this
 exception is uncaught, Kestrel will respond with a 413 Payload Too Large
 response and HttpSys will respond with a generic 500 Internal Server Error
-response ([source][1]).</p>
+response (<a href="https://github.com/aspnet/Announcements/issues/267">source</a>).</p>
 </blockquote>
 <p>This will be a breaking change if your endpoint is expected to handle large
 uploads. The solution is simple, just decorate your MVC action or controller
@@ -1298,7 +1360,7 @@ with the <code>RequestSizeLimit</code> attribute, like so:</p>
 </span></span></code></pre></div><p><code>DisableRequestSizeLimit</code> can be used to make request size unlimited. This
 effectively restores pre-2.0.0 behavior for just the attributed action or
 controller. You can also change or disable the limit programmatically, either
-on a per-request basis or globally (see the instructions at this [link][1].)</p>
+on a per-request basis or globally (see the instructions at this <a href="https://github.com/aspnet/Announcements/issues/267">link</a>.)</p>
 <p>In my case, however, disabling the request limit was not enough. Because my
 endpoint is expecting an <code>IFormFile</code> argument, I also had to set the
 <code>RequestFormLimits</code> attribute:</p>
@@ -1312,7 +1374,7 @@ endpoint is expecting an <code>IFormFile</code> argument, I also had to set the
 Kestrel running behind nginx. As pointed out at the link above, if you&rsquo;re
 running behind IIS, then the limit is disabled, and the usual <em>web.config</em>
 limit applies.</p>
-<p>For future reference, [here][2] are the current Kestrel limits.</p>
+<p>For future reference, <a href="https://github.com/dotnet/aspnetcore/blob/main/src/Servers/Kestrel/Core/src/KestrelServerLimits.cs">here</a> are the current Kestrel limits.</p>
 ]]></content:encoded>
     </item>
   </channel>

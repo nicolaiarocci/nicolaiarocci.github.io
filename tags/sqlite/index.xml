@@ -20,14 +20,14 @@
       <pubDate>Sat, 17 Apr 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/sqlite-is-the-only-database-you-will-ever-need-in-most-cases/</guid>
       <description>The name SQLite is a nice name, but the &amp;ldquo;lite&amp;rdquo; part is misleading, it sounds like it is only useful for tiny things - which is very wrong. SQLite should be named AwesomeSQL, because that is what it is. SQLite is probably the only database you will ever need in most cases
-Yeah. [This article][1] resonates with me. SQLite is the de-facto standard engine for embedded systems. But it should also be the go-to database for all those websites and services that don&amp;rsquo;t need to scale to multiple machines.</description>
+Yeah. This article resonates with me. SQLite is the de-facto standard engine for embedded systems. But it should also be the go-to database for all those websites and services that don&amp;rsquo;t need to scale to multiple machines.</description>
       <content:encoded><![CDATA[<blockquote>
 <p>The name SQLite is a nice name, but the &ldquo;lite&rdquo; part is misleading, it sounds
 like it is only useful for tiny things - which is very wrong. SQLite should
 be named AwesomeSQL, because that is what it is. SQLite is probably the only
 database you will ever need in most cases</p>
 </blockquote>
-<p>Yeah. [This article][1] resonates with me. SQLite is the de-facto standard
+<p>Yeah. <a href="https://unixsheikh.com/articles/sqlite-the-only-database-you-will-ever-need-in-most-cases.html">This article</a> resonates with me. SQLite is the de-facto standard
 engine for embedded systems. But it should also be the go-to database for all
 those websites and services that don&rsquo;t need to scale to multiple machines.
 Which, in the real world, happens way more frequently than we all imagine.</p>

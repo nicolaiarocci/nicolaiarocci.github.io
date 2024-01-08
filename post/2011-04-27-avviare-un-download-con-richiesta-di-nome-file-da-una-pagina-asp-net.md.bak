@@ -1,0 +1,49 @@
+---
+title: Avviare un Download con richiesta di nome file da una pagina ASP.NET
+author: Nicola Iarocci
+date: 2011-04-27
+url: /avviare-un-download-con-richiesta-di-nome-file-da-una-pagina-asp-net/
+dsq_thread_id:
+  - 2017455334
+categories:
+  - Guide
+  - Programming
+tags:
+  - asp.net
+  - download
+  - pdf
+  - response.transmitfile()
+  - web
+---
+<img class="size-thumbnail wp-image-2251 alignright" title="Download" src="http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/Download-150x150.png?fit=150%2C150" alt="" srcset="images/Download.png?resize=150%2C150 150w, http://i1.wp.com/nicolaiarocci.com/wp-content/uploads/Download.png?resize=90%2C90 90w, http://i1.wp.com/nicolaiarocci.com/wp-content/uploads/Download.png?w=256 256w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" />Normalmente quando un visitatore clicca su un link che punta a un file, quest&#8217;ultimo viene mostrato nel browser e non viene avviato alcun download. Questo succede perché il browser determina il tipo di contenuto in base alla estensione del file. Quando clicchiamo su un file con estensione jpg il browser sa che si tratta di una immagine e la mostra direttamente. Lo stesso avviene per i file pdf e così via.
+
+Può capitare che questo comportamento non sia quello desiderato. Oggi <a title="Gestionale Amica" href="http://gestionaleamica.com" target="_blank">al lavoro</a> ho implementato una funzionalità interessante: il download della versione PDF di una pagina web. Il pdf viene costruito dinamicamente nel momento stesso in cui il visitatore clicca un link. Questo accorgimento libera il webmaster dalla tediosa (e facilmente dimenticabile) necessità di rigenerare il pdf ad ogni minimo ritocco della pagina.
+
+<div id="attachment_2230" style="width: 460px" class="wp-caption aligncenter">
+  <a href="http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/PDFSchedeProdotto.png" rel="lightbox[2229]"><img class="size-full wp-image-2230" title="Generazione dinamica del PDF della pagina web" src="http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/PDFSchedeProdotto.png?fit=450%2C181" alt="Generazione dinamica del PDF della pagina web" srcset="http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/PDFSchedeProdotto.png?w=623 623w, http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/PDFSchedeProdotto.png?resize=150%2C60 150w, http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/PDFSchedeProdotto.png?resize=300%2C120 300w, http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/PDFSchedeProdotto.png?resize=500%2C200 500w" sizes="(max-width: 450px) 100vw, 450px" data-recalc-dims="1" /></a>
+  
+  <p class="wp-caption-text">
+    Il visitatore clicca sul link e ottiene il PDF della pagina che sta guardando
+  </p>
+</div>
+
+Volevo che cliccando sul link si avviasse automaticamente il download, così da &#8216;costringere&#8217; l&#8217;utente a interagire col PDF in un secondo tempo rispetto all&#8217;esperienza di navigazione. Se scarichi un PDF è per stamparlo o consultarlo con calma o magari passarlo a un collega, no? <!--more-->
+
+Costringere l&#8217;utente a usare il menu contestuale del browser (_Salva link con nome.._) non è certo la scelta ideale dal punto di vista dell&#8217;esperienza utente, tanto più che in questo caso il link non è statico e invoca codice JavaScript. Per ottenere il risultato desiderato dobbiamo inviare direttamente il file all&#8217;utente. [cci\_asp theme=&#8221;standard&#8221;]Response.TransmitFile()[/cci\_asp] è il metodo che invia il file dall&#8217;applicazione ASP.NET al client, ma prima dobbiamo preoccuparci di aggiungere un paio di header al nostro messaggio di output:
+
+<pre class="brush:vb">Public Sub SendFile(ByVal filename As String)
+        'Author: Nicola Iarocci http://nicolaiarocci.com
+        Response.Buffer = True
+        Response.Charset = ""
+        Response.Cache.SetCacheability(HttpCacheability.NoCache)
+        Response.ContentType = "application/pdf"
+        Response.AddHeader("content-disposition", "attachment;filename=" & Path.GetFileName(filename))
+        Response.TransmitFile(filename)
+        Response.End()
+    End Sub</pre>
+
+E&#8217; importante fornire il ContentType corretto altrimenti il browser non sarà sempre in grado di gestire i contenuti del file. Internet Explorer per esempio offre l&#8217;opzione di aprire direttamente il file (verrà scaricato nella cache). Nel nostro caso se l&#8217;utente sceglie l&#8217;apertura diretta IE lancerà Acrobat Reader perché ContentType è _application/pdf_.
+
+Altro accorgimento è la chiamata al metodo Path.GetFileName() in riga 7. Non sarebbe necessario se non fosse che _taluni broswer arcaici e superati_ (ogni riferimento a IE è naturalmente voluto) non sono in grado di gestire intelligentemente il filename e, quando propongono il nome del file da salvare, riproducono l&#8217;intero path del file sul server. Questo comportamento tra l&#8217;altro è pericoloso perché espone l&#8217;intera struttura  del sito, dalla radice al folder che contiene la pagina, al visitatore.
+
+Se la routine deve essere usata in un modulo e non direttamente in una pagina aspx ricordate di sostituire Response con HttpContect.Current.Response. Buon lavoro!

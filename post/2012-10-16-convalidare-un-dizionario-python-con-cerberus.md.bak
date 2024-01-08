@@ -1,0 +1,25 @@
+---
+title: Convalidare un dizionario Python con Cerberus
+author: Nicola Iarocci
+date: 2012-10-16
+url: /convalidare-un-dizionario-python-con-cerberus/
+dsq_thread_id:
+  - 2037560265
+categories:
+  - Programming
+tags:
+  - cerberus
+  - open source
+  - python
+---
+Da qualche giorno ho rilasciato <a title="Cerberus" href="https://github.com/nicolaiarocci/cerberus" target="_blank">Cerberus</a>, uno strumento per la convalida dei dizionari Python. Gli passate un dizionario, lui lo confronta con uno schema di convalida e, se c&#8217;è qualcosa che non va (per esempio una chiave sconosciuta, oppure un valore di tipo sbagliato), ve lo segnala.
+
+<pre class="brush:py">&gt;&gt;&gt; v = Validator({'name': {'type': 'string'}})
+&gt;&gt;&gt; v.validate({'name': 'john doe'})
+True</pre>
+
+Sono due le caratteristiche che rendono Cerberus interessante: è facilmente estensibile (la <a title="Cerberus Docs" href="http://cerberus.readthedocs.org/" target="_blank">documentazione</a> include un esempio di estensione del sistema di convalida), e non si blocca sollevando un&#8217;eccezione al primo problema riscontrato: gli errori, quando presenti, sono tutti riportati in una lista a fine convalida.
+
+Cerberus è un progetto open source tutt&#8217;ora in pieno sviluppo, al quale è possibile partecipare. E&#8217; alla base del sistema di convalida impiegato dalla nostra REST API, ma può e dovrebbe vivere di vita propria &#8211; per esempio nei vostri progetti. A proposito, la stessa RESTful Web API, [quella di cui ho parlato a EuroPython][1], sarà rilasciata come progetto open source. Stay tuned.
+
+ [1]: http://nicolaiarocci.com/sviluppare-una-restful-web-api-con-python-flask-e-mongodb/ "Sviluppare una RESTful Web API con Python"

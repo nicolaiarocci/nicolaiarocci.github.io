@@ -1,0 +1,75 @@
+---
+title: 'Siti fluidi coi CSS Framework: Inuit.css'
+author: Nicola Iarocci
+date: 2011-05-06
+url: /siti-fluidi-coi-css-framework-inuit-css/
+dsq_thread_id:
+  - 2017455014
+categories:
+  - Guide
+  - Programming
+tags:
+  - css
+  - css framework
+  - grid system
+  - inuitcss
+  - tutorial
+  - web design
+---
+<img class="alignright size-thumbnail wp-image-2329" title="Logo di Inuit.css" src="http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/InuitCSS-150x69.jpg?fit=150%2C69" alt="Logo di Inuit.css" srcset="images/InuitCSS.jpg?resize=150%2C69 150w, http://i1.wp.com/nicolaiarocci.com/wp-content/uploads/InuitCSS.jpg?w=280 280w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" />Dopo l&#8217;articolo introduttivo sui [siti fluidi e i CSS Framework][1] è giunta l&#8217;ora di dare una occhiata a un framework vero e proprio. Come dicevo prediligo strumenti agili, leggeri, specializzati e possibilmente fatti in casa. Se scelgo un framework quest&#8217;ultimo deve essere essenziale, leggero, flessibile. **<a title="Inuit.css" href="http://csswizardry.com/inuitcss/" target="_blank">Inuit.css</a>**, ultimo nato nella numerosa e agguerrita famiglia dei Framework CSS, sembra nato apposta per fare di me un uomo felice.<!--more-->
+
+## Flessibilità e qualità prima di tutto
+
+Inuit.css è pronto all’uso, se siete di corsa e non avete esigenze particolari potete usarlo così com&#8217;è. Quando serve è facile adattarlo al nostro progetto, soprattutto grazie all&#8217;alta qualità del <a title="Inuit.css source code" href="https://github.com/csswizardry/inuit.css/blob/master/css/inuit.css" target="_blank">codice sorgente</a>, commentato molto bene. E&#8217; proprio la cura che l&#8217;autore ha dedicato alla documentazione l&#8217;elemento chiave che ci consente di intervenire rapidamente, eliminando le parti superflue o ritoccando il codice ove necessario.
+
+<pre class="brush:css">/*------------------------------------*\
+	MAIN
+\*------------------------------------*/
+html{
+	overflow-y:scroll; /* Force scrollbars 100% of the time */
+	font-size:100%; /* Use 16px as per http://www.wilsonminer.com/posts/2008/oct/20/relative-readability/ */
+	font-family:Calibri, "Helvetica Neue", Arial, sans-serif; /* Swap these two lines around to switch between serif and sans */
+	font-family:Cambria, Georgia, "Times New Roman", serif; /* Swap these two lines around to switch between serif and sans */
+	line-height:1.5;
+	background:url(../img/css/baseline.gif) 0 4px #fff;
+	color:#333;</pre>
+
+Qui sopra vedete uno <a title="Snippet" href="http://it.wikipedia.org/wiki/Snippet" target="_blank">snippet</a> tratto dal foglio di stile originale. Notate come l&#8217;autore si sia preoccupato di fornire indicazioni su come organizzare la gerarchia dei font. Ben fatto!
+
+## La potenza è nulla senza controllo
+
+Difficilmente Inuit.css prende l&#8217;iniziativa, preferisce lasciarla al designer. Prendiamo gli elementi base di HTML5 e CSS3. Inuit.css li supporta ma li isola in classi dedicate che useremo all’occorrenza.
+
+<pre class="brush:css">/*
+These are here, but use them sensibly
+*/
+.round			{ -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; }
+.round &gt; .round	{ -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; }
+.letterpress	{ text-shadow:0 -1px 0 rgba(0,0,0,0.75), 0 1px 0 rgba(255,255,255,0.25); } /* Colours may need adjustment */</pre>
+
+La scelta del basso profilo è apprezzabile. Lascia il controllo nelle nostre mani, ma corre il rischio che &#8211; soprattutto al primo impatto &#8211; il framework sembri meno ricco rispetto ad altre soluzioni. In effetti non è sulla ricchezza che punta Inuit ma su flessibilità, estensibilità e&#8230; mobilità.
+
+## Tablet, smartphone e non solo
+
+<img class="alignright size-full wp-image-2348" title="iPhone e iPad" src="http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/iphone-ipad.jpg?fit=100%2C100" alt="iPhone e iPad" srcset="http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/iphone-ipad.jpg?w=100 100w, http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/iphone-ipad.jpg?resize=90%2C90 90w" sizes="(max-width: 100px) 100vw, 100px" data-recalc-dims="1" />Il supporto per l’attributo <a title="Attributo @media" href="http://css.html.it/guide/lezione/17/lattributo-media/" target="_blank">@media</a> consente a Inuit di ridefinire dinamicamente gran parte delle impostazioni in base al dispositivo (tablet, smartphone, stampante) che consuma la pagina. Il Grid System adottato deriva dal capostipite 960 Grid System (vedi in proposito l&#8217;<a title="Costruire siti fluidi coi CSS Framework" href="http://nicolaiarocci.com/costruire-siti-fluidi-coi-css-framework-tiny-fluid-grid/" target="_blank">articolo precedente</a>), supporta matrici (grid) a 12 e 16 colonne e implementa un ingegnoso marchingegno che evita l&#8217;inserimento della classica `class=end` nell’ultima colonna.
+
+A differenza della Tiny Fluid Grid vista la volta scrosa, Inuit è un Framework vero e proprio e supporta ben più della sola Grid. Sono presenti impostazioni predefinite e ben fatte per tutti gli elementi più comuni di una pagina HTML: header, paragrafi, liste numerate e non, tabelle, form, citazioni, link, immagini. Non manca una implementazione del [Eric Meyer CSS Reset][2] e il supporto per la modalità debug che rende visibile la grid sullo sfondo. Una occhiata alla <a title="Pagina demo di Inuit.css" href="http://csswizardry.com/inuitcss/inuit.css/example.html" target="_blank">pagina demo</a> e soprattutto al suo sorgente è sufficiente per rendersi conto di quanti sono gli stili che Inuit.css ci mette a disposizione.
+
+## <div id="attachment_2410" style="width: 490px" class="wp-caption aligncenter">
+  <img class="size-full wp-image-2410" title="Inuit.css - La Homepage" src="images/InuitCSS-Homepage1.jpg?fit=480%2C247" alt="Inuit.css - La Homepage" srcset="http://i1.wp.com/nicolaiarocci.com/wp-content/uploads/InuitCSS-Homepage1.jpg?w=480 480w, http://i1.wp.com/nicolaiarocci.com/wp-content/uploads/InuitCSS-Homepage1.jpg?resize=150%2C77 150w, http://i1.wp.com/nicolaiarocci.com/wp-content/uploads/InuitCSS-Homepage1.jpg?resize=300%2C154 300w" sizes="(max-width: 480px) 100vw, 480px" data-recalc-dims="1" />
+  
+  <p class="wp-caption-text">
+    La home page di Inuit.css. Il download è di soli 109kb.
+  </p>
+</div></h2> 
+
+## Giovani di belle speranze
+
+Inuit è il nuovo arrivato, ha solo una ventina di giorni ed è in revisione continua. E&#8217; giovane come il suo autore, il ventenne Harry Roberts (l&#8217;età non tragga in inganno, Harry è la mente che si cela dietro <a title="CSS Wizardry" href="http://csswizardry.com/" target="_blank">CSS Wizardry</a>). Come tutti i giovani di belle speranze Inuit guarda al futuro e se ne frega allegramente del passato: supporta Internet Explorer a partire dalla versione 7 _(update del 24.5: la release 1.5 introduce un supporto base per le grid in IE6)_.
+
+Dovrà sgomitare un bel pò per conquistarsi uno spazio in una nicchia già affollata da una concorrenza agguerrita. Ha tutte le carte in regola per sfondare, prova ne è il fatto che a pochi giorni dal lancio qualche sito <a title="TV Shows 2" href="http://tvshowsapp.com/" target="_blank">qui</a> e <a title="One Page Website" href="http://www.one-page-website.co.uk/" target="_blank">là</a> ha già cominciato ad adottarlo.
+
+Se scegliete di usare Inuit nei vostri progetti fatemelo sapere. Chissà, potrebbero finire dritti dritti nella Web Gallery del sito ufficiale.
+
+ [1]: http://nicolaiarocci.com/costruire-siti-fluidi-coi-css-framework-tiny-fluid-grid/
+ [2]: http://nicolaiarocci.com/eric-meyer-aggiorna-il-suo-famoso-css-reset/ "Eric Meyer Reset"

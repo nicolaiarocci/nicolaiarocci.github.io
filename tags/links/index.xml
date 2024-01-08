@@ -163,12 +163,12 @@ need to step back and tell the origin story of one of the most recognisable char
       <link>https://nicolaiarocci.com/quoting-donald-knuth/</link>
       <pubDate>Fri, 26 May 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/quoting-donald-knuth/</guid>
-      <description>Donald Knuth challenged ChatGPT-4 with 20 questions and then submitted the results and his comments to Stephen Wolfram. The [whole thing][1] is fascinating in many ways and worth reading.
+      <description>Donald Knuth challenged ChatGPT-4 with 20 questions and then submitted the results and his comments to Stephen Wolfram. The whole thing is fascinating in many ways and worth reading.
 Some remarkable quotes:
 Of course these are extremely impressive responses, sometimes astonishingly so; thus I totally understand why you and others have been paying attention to it.
 The most immediate impression is the quality of the wordsmithing. It&amp;rsquo;s way better than 99% of copy that people actually write.</description>
       <content:encoded><![CDATA[<p>Donald Knuth challenged ChatGPT-4 with 20 questions and then submitted the results and his comments to Stephen Wolfram. The
-[whole thing][1] is fascinating in many ways and worth reading.</p>
+<a href="https://cs.stanford.edu/~knuth/chatGPT20.txt">whole thing</a> is fascinating in many ways and worth reading.</p>
 <p>Some remarkable quotes:</p>
 <blockquote>
 <p>Of course these are extremely impressive responses, sometimes astonishingly so; thus I totally understand why you and
@@ -204,7 +204,7 @@ are authentic and trustworthy. And I hope you do the same.</p>
       <pubDate>Thu, 18 May 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/tiny-electronic-desktop-sculptures/</guid>
       <description>Adorable, functional, often internet-connected desktop bots like those below are hand-crafted by Mohit Bhoite in San Francisco, California.
-It pleasantly surprised me that they&amp;rsquo;re built as a purely artistic expression. All sculptures (as Mohit rightfully refers to them) are unique and not for sale. Check them all out on [his website][1] ([via][2]).</description>
+It pleasantly surprised me that they&amp;rsquo;re built as a purely artistic expression. All sculptures (as Mohit rightfully refers to them) are unique and not for sale. Check them all out on his website (via).</description>
       <content:encoded><![CDATA[<p>Adorable, functional, often internet-connected desktop bots like those below are hand-crafted by Mohit Bhoite in San
 Francisco, California.</p>
 <p><img loading="lazy" src="/images/bhoite-sculptures-01.jpg" alt=""  />
@@ -212,7 +212,7 @@ Francisco, California.</p>
 <img loading="lazy" src="/images/bhoite-sculptures-02.jpg" alt=""  />
 
 It pleasantly surprised me that they&rsquo;re built as a purely artistic expression. All sculptures (as Mohit rightfully refers
-to them) are unique and not for sale. Check them all out on [his website][1] <em>([via][2])</em>.</p>
+to them) are unique and not for sale. Check them all out on <a href="https://www.bhoite.com">his website</a> <em>(<a href="https://kottke.org/23/05/tiny-electronic-desktop-sculptures">via</a>)</em>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -267,7 +267,7 @@ presentation for Codemotion (I think), I fired a quick email asking permission t
 green light landed seconds later. Salvatore is the epitome of kindness and helpfulness.</p>
 <p>As if his pronounced computer skills were not enough, with his latest sci-fi novel Wohpe (on my reading list), he proves
 to be endowed with the most diverse capabilities.</p>
-<p>Anyway, [here&rsquo;s the antirez &amp; Redis story][1] I mentioned. Worth reading it.</p>
+<p>Anyway, <a href="https://blog.brachiosoft.com/redis-en">here&rsquo;s the antirez &amp; Redis story</a> I mentioned. Worth reading it.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -275,9 +275,9 @@ to be endowed with the most diverse capabilities.</p>
       <link>https://nicolaiarocci.com/ai-curated-minimalist-news/</link>
       <pubDate>Wed, 03 May 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/ai-curated-minimalist-news/</guid>
-      <description>[Minimalist News][1] is the first LLM project that excites me but in a nervous way. Quoting the About page:
+      <description>Minimalist News is the first LLM project that excites me but in a nervous way. Quoting the About page:
 We only publish significant news. To find them we use AI (ChatGPT-4) to read and analyze 1000 top news every day. For each article it estimates magnitude, scale, potential and credibility. Then we combine these estimates to get the final Significance score from 0 to 10. And now the best part: We&amp;rsquo;ll only send you the news scored 6.</description>
-      <content:encoded><![CDATA[<p>[Minimalist News][1] is the first LLM project that excites me but in a nervous way. Quoting the About page:</p>
+      <content:encoded><![CDATA[<p><a href="https://www.newsminimalist.com">Minimalist News</a> is the first LLM project that excites me but in a nervous way. Quoting the About page:</p>
 <blockquote>
 <p>We only publish significant news. To find them we use AI (ChatGPT-4) to read and analyze 1000 top news every day. For
 each article it estimates magnitude, scale, potential and credibility. Then we combine these estimates to get the
@@ -334,22 +334,33 @@ the status quo—musically, stylistically, politically, ideologically.</p>
       <link>https://nicolaiarocci.com/the-end-of-computer-magazines-in-america-and-elsewhere/</link>
       <pubDate>Wed, 19 Apr 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-end-of-computer-magazines-in-america-and-elsewhere/</guid>
-      <description>In the mid-to-late 80s, my excitement used to culminate by the end of the month when BYTE&amp;rsquo;s new issue would hit the newsstands[^2]. In my small Italian hometown, only one, sometimes two, newsstands would sometime get a copy (BYTE was published in the US and copies sent abroad were scarce; only major, close-to-the-train-station stands had a chance to receive it). I wasn&amp;rsquo;t the only kid in town interested in that elusive one issue; I had an anonymous competitor.</description>
+      <description>In the mid-to-late 80s, my excitement used to culminate by the end of the month when BYTE&amp;rsquo;s new issue would hit the newsstands1. In my small Italian hometown, only one, sometimes two, newsstands would sometime get a copy (BYTE was published in the US and copies sent abroad were scarce; only major, close-to-the-train-station stands had a chance to receive it). I wasn&amp;rsquo;t the only kid in town interested in that elusive one issue; I had an anonymous competitor.</description>
       <content:encoded><![CDATA[<p>In the mid-to-late 80s, my excitement used to culminate by the end of the month when BYTE&rsquo;s new issue would hit the
-newsstands[^2]. In my small Italian hometown, only one, sometimes two, newsstands would sometime get a copy (BYTE was
+newsstands<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. In my small Italian hometown, only one, sometimes two, newsstands would sometime get a copy (BYTE was
 published in the US and copies sent abroad were scarce; only major, close-to-the-train-station stands had a chance to
 receive it). I wasn&rsquo;t the only kid in town interested in that elusive one issue; I had an anonymous competitor. The race
 was on every third week of the month, give or take. You see, the thing is, back then, computer magazines were the only
 source of reliable, precious information on everything hardware and software. I could barely read English at that age.
 Yet, I spent whole afternoons stubbornly reading the magazine cover to cover, probably understanding only fifty percent
 of its content. Rather than at school, I learned most of my English by reading computer magazines.</p>
-<p>This morning, these memories were brought back to me while reading [The End of Computer Magazines in America][1] by Harry
+<p>This morning, these memories were brought back to me while reading <a href="https://www.technologizer.com/2023/04/15/the-end-of-computer-magazines-in-america">The End of Computer Magazines in America</a> by Harry
 McCracken. He was involved with the computer magazine industry in its golden age, so the article has exciting insights.
 I also appreciated the several former colleagues and competitors who commented, helping frame the period. Computer
 magazines are dead indeed, and it&rsquo;s a bittersweet sensation. Quoting McCracken&rsquo;s closing words:</p>
 <blockquote>
 <p>I do remain grateful that computer magazines existed. Their time has passed—but what a time it was.</p>
 </blockquote>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>This is a story I probably already mentioned on this site, but hey, it&rsquo;s my site; I can afford to repeat myself.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[m]: <a href="https://fosstodon.org/@nicola">https://fosstodon.org/@nicola</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -376,9 +387,9 @@ limitations on what these programs can do, encoding them with ineradicable defec
       <link>https://nicolaiarocci.com/the-real-cost-of-interruption/</link>
       <pubDate>Fri, 07 Apr 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-real-cost-of-interruption/</guid>
-      <description>I&amp;rsquo;m just back from reading [Programmer Interrupted: The Real Cost of Interruption and Context Switching][1], an interesting short piece in which I learned about at least two new things.
+      <description>I&amp;rsquo;m just back from reading Programmer Interrupted: The Real Cost of Interruption and Context Switching, an interesting short piece in which I learned about at least two new things.
 First, The Parable of the Two Watchmakers, introduced by Nobel Prize winner Herbert Simon, describes the complex relationship between sub-systems and their larger wholes. In the context of the article, it helps explain, even for non-programmers, the cost of an interruption. It also hints at a possible mitigation technique:</description>
-      <content:encoded><![CDATA[<p>I&rsquo;m just back from reading [Programmer Interrupted: The Real Cost of Interruption and Context Switching][1], an interesting
+      <content:encoded><![CDATA[<p>I&rsquo;m just back from reading <a href="https://contextkeeper.io/blog/the-real-cost-of-an-interruption-and-context-switching/">Programmer Interrupted: The Real Cost of Interruption and Context Switching</a>, an interesting
 short piece in which I learned about at least two new things.</p>
 <p>First, <em>The Parable of the Two Watchmakers</em>, introduced by Nobel Prize winner Herbert Simon, describes the complex
 relationship between sub-systems and their larger wholes. In the context of the article, it helps explain, even for
@@ -457,7 +468,7 @@ mind is still exploding from from all the inevitable innovation and legal contro
 (Large Language Model) technologies will provoke in the coming months and years. Software development for this kind of
 use case will never be the same again.</p>
 </blockquote>
-<p>The whole gaming session&rsquo;s transcript is available [here][1].</p>
+<p>The whole gaming session&rsquo;s transcript is available <a href="https://obie.medium.com/my-kids-and-i-just-played-d-d-with-chatgpt4-as-the-dm-43258e72b2c6">here</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -465,11 +476,11 @@ use case will never be the same again.</p>
       <link>https://nicolaiarocci.com/awesome-psql-tips/</link>
       <pubDate>Thu, 23 Feb 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/awesome-psql-tips/</guid>
-      <description>Today I learned about [psql-tips.org][1] by Lætitia Avrot, an excellent repository of psql (the CLI tool, not the database itself) tips. I like how one randomized tip is playfully served on the home page while the [complete list][2] is always at hand.</description>
-      <content:encoded><![CDATA[<p>Today I learned about [psql-tips.org][1] by Lætitia Avrot, an excellent
+      <description>Today I learned about psql-tips.org by Lætitia Avrot, an excellent repository of psql (the CLI tool, not the database itself) tips. I like how one randomized tip is playfully served on the home page while the complete list is always at hand.</description>
+      <content:encoded><![CDATA[<p>Today I learned about <a href="https://psql-tips.org">psql-tips.org</a> by Lætitia Avrot, an excellent
 repository of <code>psql</code> (the CLI tool, not the database itself) tips. I like how
-one randomized tip is playfully served on the home page while the [complete
-list][2] is always at hand.</p>
+one randomized tip is playfully served on the home page while the <a href="https://psql-tips.org/psql_tips_all.html">complete
+list</a> is always at hand.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -477,9 +488,9 @@ list][2] is always at hand.</p>
       <link>https://nicolaiarocci.com/on-the-state-of-developer-conferences/</link>
       <pubDate>Thu, 23 Feb 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-the-state-of-developer-conferences/</guid>
-      <description>Brian Rinaldi has an insightful post on [his blog][1] about the current state of developer conferences, where &amp;lsquo;current state&amp;rsquo; means post-COVID pandemic. Brian is well-positioned to reason about this space as a long-time conference organizer. I appreciate that he also takes the time to explain how the developer conference business works. The core of his blog is about post-pandemic conference attendance, which has plunged.
+      <description>Brian Rinaldi has an insightful post on his blog about the current state of developer conferences, where &amp;lsquo;current state&amp;rsquo; means post-COVID pandemic. Brian is well-positioned to reason about this space as a long-time conference organizer. I appreciate that he also takes the time to explain how the developer conference business works. The core of his blog is about post-pandemic conference attendance, which has plunged.
 independent, in-person developer conferences are hurting. Based on my own observation as well as talks with organizers and sponsors that I have come to know over the years, the average independent in-person event is still down 30-40% from pre-pandemic attendance levels.</description>
-      <content:encoded><![CDATA[<p>Brian Rinaldi has an insightful post on [his blog][1] about the current state of
+      <content:encoded><![CDATA[<p>Brian Rinaldi has an insightful post on <a href="https://remotesynthesis.com/blog/developer-conferences/">his blog</a> about the current state of
 developer conferences, where &lsquo;current state&rsquo; means post-COVID pandemic. Brian
 is well-positioned to reason about this space as a long-time conference
 organizer. I appreciate that he also takes the time to explain how the
@@ -507,11 +518,11 @@ low attendance during the pandemic, and they still do today. When available,
 recordings partially compensate, but only in audience terms. The problem is
 online events are not conferences. &lsquo;Conference&rsquo; originates from the late Latin
 &ldquo;conferentia,&rdquo; itself a derivative of &ldquo;conferre,&rdquo; a synonym for the collation
-of &ldquo;bring together&rdquo;[^4]. A conference is a meeting to discuss some topics. The
+of &ldquo;bring together&rdquo;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. A conference is a meeting to discuss some topics. The
 get-together element is missing in online events, and networking is next to
 impossible (live chats and &lsquo;virtual after-parties&rsquo; are just poor palliatives.)
 In my book, hybrid events are even worse, as live streaming and recordings
-discourage live attendance (at the [DevRomagna meetups][2], we often get asked
+discourage live attendance (at the <a href="https://www.meetup.com/it-IT/DevRomagna">DevRomagna meetups</a>, we often get asked
 if live streaming or recordings will be available, and the answer is no -
 either we do live streaming - and we sometimes do - or we do an in-person
 event, but never a mix of the two.)</p>
@@ -520,7 +531,18 @@ attendance will ever get back to old numbers. I am afraid a good portion of
 those who were regulars became disaffected, and gaining their attention back is
 a hard gamble. YouTube and Twitch, I think, are phenomenal competitors, and the
 pandemic hiatus threw a ton of fresh new viewers at them.</p>
-<p>PS: Coincidentally, we&rsquo;re running an in-person meetup at DevRomagna [today][3].</p>
+<p>PS: Coincidentally, we&rsquo;re running an in-person meetup at DevRomagna <a href="https://nicolaiarocci.com/heading-to-go-a-look-at-building-a-video-encoder-meetup/">today</a>.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>According to <a href="https://www.treccani.it/vocabolario/ricerca/conferenza/">Treccani</a>
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[m]: <a href="https://fosstodon.org/@nicola">https://fosstodon.org/@nicola</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -530,7 +552,7 @@ pandemic hiatus threw a ton of fresh new viewers at them.</p>
       <guid>https://nicolaiarocci.com/the-best-time-to-own-a-domain/</guid>
       <description>Jim Nielsen:
 That is why owning a domain (and publishing your content there) is like planting a tree: it’s value that starts small and grows. The best time to own a domain and publish your content there was 20 years ago. The second best time is today.
-More [here][1].</description>
+More here.</description>
       <content:encoded><![CDATA[<p>Jim Nielsen:</p>
 <blockquote>
 <p>That is why owning a domain (and publishing your content there) is like
@@ -538,7 +560,7 @@ planting a tree: it’s value that starts small and grows. The best time to own
 a domain and publish your content there was 20 years ago. The second best
 time is today.</p>
 </blockquote>
-<p>More [here][1].</p>
+<p>More <a href="https://blog.jim-nielsen.com/2023/best-time-to-own-a-domain/">here</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -562,14 +584,14 @@ album, <em>Your Mother Should Know: Brad Mehldau Plays the Beatles</em>.</p>
       <link>https://nicolaiarocci.com/flammarion-engraving/</link>
       <pubDate>Thu, 02 Feb 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/flammarion-engraving/</guid>
-      <description>I was reading [iA&amp;rsquo;s grumpy writing about GPT][1] (with which I sympathize) when my attention was captured by the image they added to their post. It was so fascinating that I had to research it.
-As it turns out, this is the [Flammarion engraving][2], a famous wood engraving by an unknown artist, so named because its first documented appearance is in Camille Flammarion&amp;rsquo;s 1888 book L&amp;rsquo;atmosphère: météorologie populaire (&amp;ldquo;The Atmosphere: Popular Meteorology&amp;rdquo;).</description>
-      <content:encoded><![CDATA[<p>I was reading [iA&rsquo;s grumpy writing about GPT][1] (with which I sympathize)
+      <description>I was reading iA&amp;rsquo;s grumpy writing about GPT (with which I sympathize) when my attention was captured by the image they added to their post. It was so fascinating that I had to research it.
+As it turns out, this is the Flammarion engraving, a famous wood engraving by an unknown artist, so named because its first documented appearance is in Camille Flammarion&amp;rsquo;s 1888 book L&amp;rsquo;atmosphère: météorologie populaire (&amp;ldquo;The Atmosphere: Popular Meteorology&amp;rdquo;).</description>
+      <content:encoded><![CDATA[<p>I was reading <a href="https://ia.net/topics/the-end-of-writing-ia-on-ai">iA&rsquo;s grumpy writing about GPT</a> (with which I sympathize)
 when my attention was captured by the image they added to their post. It was so
 fascinating that I had to research it.</p>
 <p><img loading="lazy" src="/images/Flammarion.jpg" alt="Flammarion engraving"  />
 </p>
-<p>As it turns out, this is the [Flammarion engraving][2], a famous wood engraving by
+<p>As it turns out, this is the <a href="https://en.wikipedia.org/wiki/Flammarion_engraving">Flammarion engraving</a>, a famous wood engraving by
 an unknown artist, so named because its first documented appearance is in
 Camille Flammarion&rsquo;s 1888 book <em>L&rsquo;atmosphère: météorologie populaire</em> (&ldquo;The
 Atmosphere: Popular Meteorology&rdquo;).</p>
@@ -621,7 +643,7 @@ window. He wanted to display the most exciting books by the front door. Even
 more impressive, he let the people working in the stores make these
 decisions. This is James Daunt&rsquo;s superpower: He loves books.</p>
 </blockquote>
-<p>The [whole piece][1] is worth reading. Of all the libraries in my hometown,
+<p>The <a href="https://tedgioia.substack.com/p/what-can-we-learn-from-barnes-and">whole piece</a> is worth reading. Of all the libraries in my hometown,
 there&rsquo;s only one (not a franchise) doing the same, and I genuinely enjoy
 walking up to their window to spot new titles. I appreciate that the owners
 take their time to pick worthy books and that I get to contemplate their
@@ -644,10 +666,10 @@ I&rsquo;m probably one of the few who hadn&rsquo;t yet listened to it. So this m
 hit the play button and was blown away by it. Unsurprisingly, I guess, as the
 speech was met with universal acclaim.</p>
 <p>I suspect my being an adult father of three kids played a role, as I was
-nodding all the time, often feeling emotional about it. Anyway, [here&rsquo;s the
-YouTube recording][1] I&rsquo;m talking about, and [here&rsquo;s a transcription][2] I dug
+nodding all the time, often feeling emotional about it. Anyway, <a href="https://youtu.be/DCbGM4mqEVw">here&rsquo;s the
+YouTube recording</a> I&rsquo;m talking about, and <a href="https://web.archive.org/web/20080213082423/http://www.marginalia.org/dfw_kenyon_commencement.html">here&rsquo;s a transcription</a> I dug
 out of the Internet Archive.</p>
-<p>Spoiler warning, I&rsquo;m now going to quote [Wikipedia][3], where I found a good
+<p>Spoiler warning, I&rsquo;m now going to quote <a href="https://en.wikipedia.org/wiki/This_Is_Water">Wikipedia</a>, where I found a good
 summarization of the themes covered:</p>
 <blockquote>
 <p>The speech covers subjects including the difficulty of empathy, the
@@ -745,7 +767,7 @@ to others.</p>
       <link>https://nicolaiarocci.com/jetbrains-has-left-russia/</link>
       <pubDate>Wed, 07 Dec 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/jetbrains-has-left-russia/</guid>
-      <description>While it has been a very challenging and difficult time for the company, it cannot even remotely be compared with the horrendous situation that the people of Ukraine are facing on a daily basis, caused by the war. Once again, we condemn this aggression, and have and will continue to stand by the people of Ukraine, including our colleagues and their families. More [here][1].
+      <description>While it has been a very challenging and difficult time for the company, it cannot even remotely be compared with the horrendous situation that the people of Ukraine are facing on a daily basis, caused by the war. Once again, we condemn this aggression, and have and will continue to stand by the people of Ukraine, including our colleagues and their families. More here.
 I&amp;rsquo;m using JetBrains products when I&amp;rsquo;m not in (neo)vim.</description>
       <content:encoded><![CDATA[<blockquote>
 <p>While it has been a very challenging and difficult time for the company, it
@@ -754,14 +776,14 @@ people of Ukraine are facing on a daily basis, caused by the war. Once again,
 we condemn this aggression, and have and will continue to stand by the people
 of Ukraine, including our colleagues and their families. </p>
 </blockquote>
-<p>More [here][1].</p>
+<p>More <a href="https://blog.jetbrains.com/blog/2022/12/06/update-on-jetbrains-statement-on-ukraine/">here</a>.</p>
 <p>I&rsquo;m using JetBrains products when I&rsquo;m not in (neo)vim. For C#, Rider is
 fantastic, and so is PyCharm for Python. The company is incredible, too, as
 today&rsquo;s bold move demonstrates. They moved 800 employees, got visas, new
 locations and apartments, everything. Huge respect.</p>
-<p>I&rsquo;m lucky enough to have been awarded their [Open Source License][2] for many
+<p>I&rsquo;m lucky enough to have been awarded their <a href="https://www.jetbrains.com/community/opensource/#support">Open Source License</a> for many
 years, so I&rsquo;m biased, but look, now I&rsquo;m even proud of supporting their products
-<em>([via][3])</em>.</p>
+<em>(<a href="https://social.telemetrydeck.com/@daniel/109472601034214313">via</a>)</em>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -779,12 +801,12 @@ code was used as a basis of the first game of the series. Yet in terms of
 wider influence, the battles first fought out on the vibrant sands of Arrakis
 continue to echo through modern videogaming.</p>
 </blockquote>
-<p>More [here][1], with beautiful illustrations to boost</p>
+<p>More <a href="https://readonlymemory.vg/the-making-of-dune-ii/">here</a>, with beautiful illustrations to boost</p>
 <p>Dune II is one of the few video game boxes I keep. It&rsquo;s comfortably resting in
-the library behind me, along with [other jewels][3] from the distant past.</p>
+the library behind me, along with <a href="/system-shock-is-back-home/">other jewels</a> from the distant past.</p>
 <p><img loading="lazy" src="/images/dune2.jpg" alt="My Dune II box"  />
 </p>
-<p>Reading the <em>Making of Dune II</em> took me down memory lane (<em>[via][2]</em>).</p>
+<p>Reading the <em>Making of Dune II</em> took me down memory lane (<em><a href="https://news.ycombinator.com/item?id=33869118">via</a></em>).</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -808,7 +830,7 @@ engagement, and engagement drives ad impressions.</p>
 <p>I have been on Mastodon for a few weeks now, and wow, what a breath of fresh
 air. I&rsquo;m only syndicating to Twitter (and have been for a while, as you might
 have noticed) while I&rsquo;m active and engaged on Masto. I know this is breaking my
-[POSSE][1] stance so much that I&rsquo;ve set up my own Masto instance so I could own my
+<a href="https://indieweb.org/POSSE">POSSE</a> stance so much that I&rsquo;ve set up my own Masto instance so I could own my
 content over there like I do with this website. I never switched from fosstodon
 (which is an instance I like a lot), though. I&rsquo;ll wait a little bit and then
 decide on the move.</p>
@@ -827,10 +849,10 @@ IMHO), I am confident it will.</p>
       <link>https://nicolaiarocci.com/the-origins-of-python/</link>
       <pubDate>Sat, 26 Nov 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-origins-of-python/</guid>
-      <description>Yesterday the creator of the Python language, Guido van Rossum, [tweeted][1] about [The Origins of Python][2], an essay by his mentor, Lambert Meertens.
+      <description>Yesterday the creator of the Python language, Guido van Rossum, tweeted about The Origins of Python, an essay by his mentor, Lambert Meertens.
 &amp;ldquo;On Sunday, June 21, 1970, in an office building on Great Portland Street in London, a teletype sprang to life. Under the heading &amp;ldquo;HAPPY FAMILIES,&amp;rdquo; the machine rattled out a sequence of English sentences, such as &amp;ldquo;THE DOG SITS ON THE BABY&amp;rdquo; and &amp;ldquo;UNCLE TED PLAYS WITH SISTER.</description>
-      <content:encoded><![CDATA[<p>Yesterday the creator of the Python language, Guido van Rossum, [tweeted][1]
-about [The Origins of Python][2], an essay by his mentor, Lambert Meertens.</p>
+      <content:encoded><![CDATA[<p>Yesterday the creator of the Python language, Guido van Rossum, <a href="https://twitter.com/gvanrossum/status/1596268474518876160">tweeted</a>
+about <a href="https://inference-review.com/article/the-origins-of-python">The Origins of Python</a>, an essay by his mentor, Lambert Meertens.</p>
 <blockquote>
 <p>&ldquo;On Sunday, June 21, 1970, in an office building on Great Portland Street in
 London, a teletype sprang to life. Under the heading &ldquo;HAPPY FAMILIES,&rdquo; the
@@ -857,7 +879,18 @@ since an inconspicuous public release in 1991. As far apart as these events
 are, both in time and geography, an arc of history connects them.&rdquo;</p>
 </blockquote>
 <p>It is a magnificent article. If you&rsquo;re passionate about Python, and programming
-languages in general, make sure to read it.[^3]</p>
+languages in general, make sure to read it.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>In the same vein, another outstanding reading would be <a href="https://dl.acm.org/doi/pdf/10.1145/3386325">The Early History of F#</a>.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -865,10 +898,10 @@ languages in general, make sure to read it.[^3]</p>
       <link>https://nicolaiarocci.com/castle-rock-climb-in-antarctica/</link>
       <pubDate>Fri, 18 Nov 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/castle-rock-climb-in-antarctica/</guid>
-      <description>There&amp;rsquo;s regular hiking, and then there&amp;rsquo;s Antarctica hiking. Check out [brr&amp;rsquo;s report of a Sunday&amp;rsquo;s hike][1] from McMurdo&amp;rsquo;s base up to the tip of Castle Rock, with spectacular views of Mount Erebus and the surroundings.
+      <description>There&amp;rsquo;s regular hiking, and then there&amp;rsquo;s Antarctica hiking. Check out brr&amp;rsquo;s report of a Sunday&amp;rsquo;s hike from McMurdo&amp;rsquo;s base up to the tip of Castle Rock, with spectacular views of Mount Erebus and the surroundings.
 brr&amp;rsquo;s Antarticta blog is a recent addition to my RSS feed collection. It&amp;rsquo;s always interesting to follow people living and working in the most remote parts of the world.</description>
-      <content:encoded><![CDATA[<p>There&rsquo;s regular hiking, and then there&rsquo;s Antarctica hiking. Check out [brr&rsquo;s
-report of a Sunday&rsquo;s hike][1] from McMurdo&rsquo;s base up to the tip of Castle
+      <content:encoded><![CDATA[<p>There&rsquo;s regular hiking, and then there&rsquo;s Antarctica hiking. Check out <a href="https://brr.fyi/posts/castle-rock-climb">brr&rsquo;s
+report of a Sunday&rsquo;s hike</a> from McMurdo&rsquo;s base up to the tip of Castle
 Rock, with spectacular views of Mount Erebus and the surroundings.</p>
 <p>brr&rsquo;s Antarticta blog is a recent addition to my RSS feed collection. It&rsquo;s
 always interesting to follow people living and working in the most remote parts
@@ -1030,7 +1063,7 @@ that you can “only hire the best”, direct some of that effort towards
 building a system that produces great results out of a wider spectrum of
 individual performance.</p>
 </blockquote>
-<p>But what does he mean by a <em>system designed for quality</em>? Read it all [here][1].</p>
+<p>But what does he mean by a <em>system designed for quality</em>? Read it all <a href="https://jacobian.org/2022/sep/9/quality-is-systemic/">here</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1038,11 +1071,11 @@ individual performance.</p>
       <link>https://nicolaiarocci.com/the-women-who-built-grunge/</link>
       <pubDate>Sun, 04 Sep 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-women-who-built-grunge/</guid>
-      <description>This week the &amp;ldquo;Sunday Morning Reading Award&amp;rdquo; goes to [Lisa Whittington-Hill][1], for her The Women Who Built Grunge on Longreads:
+      <description>This week the &amp;ldquo;Sunday Morning Reading Award&amp;rdquo; goes to Lisa Whittington-Hill, for her The Women Who Built Grunge on Longreads:
 Bands like L7 and Heavens to Betsy were instrumental to the birth of the grunge scene, but for decades were treated like novelties and sex objects. Thirty years later, it’s time to reassess their legacy.
 More here.</description>
-      <content:encoded><![CDATA[<p>This week the &ldquo;Sunday Morning Reading Award&rdquo; goes to [Lisa
-Whittington-Hill][1], for her <em>The Women Who Built Grunge</em> on Longreads:</p>
+      <content:encoded><![CDATA[<p>This week the &ldquo;Sunday Morning Reading Award&rdquo; goes to <a href="https://twitter.com/nerdygirly">Lisa
+Whittington-Hill</a>, for her <em>The Women Who Built Grunge</em> on Longreads:</p>
 <blockquote>
 <p>Bands like L7 and Heavens to Betsy were instrumental to the birth of the
 grunge scene, but for decades were treated like novelties and sex objects.
@@ -1056,22 +1089,22 @@ Thirty years later, it’s time to reassess their legacy.</p>
       <link>https://nicolaiarocci.com/g.k.-chesterton-on-fairy-tales-actually/</link>
       <pubDate>Fri, 02 Sep 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/g.k.-chesterton-on-fairy-tales-actually/</guid>
-      <description>[Robin Rendle][1] quoting Neil Gaiman, who is quoting G.K. Chesterton:
+      <description>Robin Rendle quoting Neil Gaiman, who is quoting G.K. Chesterton:
 Fairy tales, as G.K. Chesterton once said, are more than true. Not because they tell us that dragons exist, but because they tell us that dragons can be defeated.
-I read [somewhere][2] that he based the Gilbert character from The Sandman on Chesterton, so it&amp;rsquo;s no surprise to find Gaiman quoting Chesterton in Smoke and Mirrors.
+I read somewhere that he based the Gilbert character from The Sandman on Chesterton, so it&amp;rsquo;s no surprise to find Gaiman quoting Chesterton in Smoke and Mirrors.
 Wanting to find the work in which the quote first appeared, I did a little research only to discover that G.</description>
-      <content:encoded><![CDATA[<p>[Robin Rendle][1] quoting Neil Gaiman, who is quoting G.K. Chesterton:</p>
+      <content:encoded><![CDATA[<p><a href="https://www.robinrendle.com/notes/fairy-tales/">Robin Rendle</a> quoting Neil Gaiman, who is quoting G.K. Chesterton:</p>
 <blockquote>
 <p>Fairy tales, as G.K. Chesterton once said, are more than true. Not because
 they tell us that dragons exist, but because they tell us that dragons can be
 defeated.</p>
 </blockquote>
-<p>I read [somewhere][2] that he based the Gilbert character from <em>The Sandman</em>
+<p>I read <a href="https://en.wikipedia.org/wiki/G._K._Chesterton#Literary">somewhere</a> that he based the Gilbert character from <em>The Sandman</em>
 on Chesterton, so it&rsquo;s no surprise to find Gaiman quoting Chesterton in <em>Smoke
 and Mirrors</em>.</p>
 <p>Wanting to find the work in which the quote first appeared, I did
 a little research only to discover that G.K. Chesterton never actually wrote
-it. According to [E.M. Goldsmith][3][^4], Gaiman&rsquo;s is a rework of the following
+it. According to <a href="https://alleysiande.com/random-thoughts/gk-chesterton-an-actual-quote">E.M. Goldsmith</a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, Gaiman&rsquo;s is a rework of the following
 original quote:</p>
 <blockquote>
 <p>Fairy Tales then, are not responsible for producing in children fear, or any
@@ -1086,7 +1119,7 @@ a series of clear pictures of <strong>the idea that these limitless terrors had
 a limit, that these shapeless enemies have enemies in the knights of God,
 that there is something in the universe more mystical than darkness, and
 stronger than strong fear.</strong> &ndash;Tremendous Trifles (1909), XVII: &ldquo;The Red
-Angel&rdquo;[^6]</p>
+Angel&rdquo;<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 </blockquote>
 <p>An excellently simplified, actualized and de-Christianized rework, I&rsquo;d say.  On
 the subject of fairy tales, E.M. Goldsmith has another quote that is worth
@@ -1099,9 +1132,26 @@ other words, when we step into the family we step into a fairy-tale.&quot;
 –Heretics, CW, I, p.143 G.K. Chesterton.</p>
 </blockquote>
 <p>What great of a writer Chesterton was. No wonder Jorge Luis Borges and J.R.R.
-Tolkien were some of his great estimators. On Chesterton, Borges supposedly[^5]
+Tolkien were some of his great estimators. On Chesterton, Borges supposedly<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>
 said: &ldquo;Literature is one of the forms of happiness; perhaps no writer has given
 me as many happy hours as Chesterton.&rdquo;</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Along with many others on the Internet, E.M. Goldsmith attributes the simplified quote to the popular TV show <em>Criminal Minds</em>. It&rsquo;d be interesting to find who quoted who here.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Further digging unearthed <em>The Red Angel</em> <a href="http://www.online-literature.com/chesterton/tremendous-trifles/17/">original text</a>.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>G.K. Chesterton&rsquo;s <a href="https://it.wikipedia.org/wiki/Gilbert_Keith_Chesterton#Posterit%C3%A0_e_influenza_culturale">page</a> on the Italian edition of Wikipedia; suspiciously flagged with a citation-needed note.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -1127,10 +1177,10 @@ his vision ever since.</p>
       <link>https://nicolaiarocci.com/a-stunning-visualization-of-john-coltranes-giant-steps-solo/</link>
       <pubDate>Tue, 30 Aug 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/a-stunning-visualization-of-john-coltranes-giant-steps-solo/</guid>
-      <description>Open Culture [shared][1] a &amp;ldquo;jaw-dropping visualization of John Coltrane&amp;rsquo;s &amp;lsquo;Giant Steps&amp;rsquo; solo.&amp;rdquo;
+      <description>Open Culture shared a &amp;ldquo;jaw-dropping visualization of John Coltrane&amp;rsquo;s &amp;lsquo;Giant Steps&amp;rsquo; solo.&amp;rdquo;
 Indeed, it is stunning, beautiful and valuable. A visualization like this makes music much more accessible. Quoting Open Culture:
 Coltrane’s complexity is daunting for the most accomplished musicians. How much more so for non-musicians? It can seem like “you need a doctorate of music to go anywhere near his recordings,” Nicholson writes. But “nothing could be further from the truth.</description>
-      <content:encoded><![CDATA[<p>Open Culture [shared][1] a &ldquo;jaw-dropping visualization of John Coltrane&rsquo;s &lsquo;Giant
+      <content:encoded><![CDATA[<p>Open Culture <a href="https://www.openculture.com/2022/08/watch-a-jaw-dropping-visualization-of-john-coltranes-giant-steps-solo.html">shared</a> a &ldquo;jaw-dropping visualization of John Coltrane&rsquo;s &lsquo;Giant
 Steps&rsquo; solo.&rdquo;</p>
 <p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -1153,7 +1203,7 @@ to us now.”</p>
 <p>I suddenly want all my music visualized like this.</p>
 <p>My nerdiness alarm immediately went off, and I wanted to know more, so I dug
 a little. Open Culture presentation is remarkable, but what&rsquo;s mind-boggling is
-the author&rsquo;s [in-depth article][2] on the fractal structure of the solo. It&rsquo;s
+the author&rsquo;s <a href="https://medium.com/@harlan.j.brothers/giants-steps-the-fractal-structure-of-coltranes-iconic-solo-706ee8c8e79e">in-depth article</a> on the fractal structure of the solo. It&rsquo;s
 all about fractals, baby!</p>
 ]]></content:encoded>
     </item>
@@ -1162,10 +1212,10 @@ all about fractals, baby!</p>
       <link>https://nicolaiarocci.com/the-indictment-against-sparta/</link>
       <pubDate>Wed, 24 Aug 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-indictment-against-sparta/</guid>
-      <description>[Bret Devereaux][1] has long been my go-to source for all things ancient and military history. One thing I somehow missed reading from his incredibly resourceful website is the [This Isn&amp;rsquo;t Sparta][2] series. He recently published a three-year-anniversary series retrospective which promptly surfaced on my RSS feed, giving me a chance to catch up over the holidays. The whole thing is a very long read, with some installments more engaging than others but overall very enjoyable, eye-opening, and information dense.</description>
-      <content:encoded><![CDATA[<p>[Bret Devereaux][1] has long been my go-to source for all things ancient and
+      <description>Bret Devereaux has long been my go-to source for all things ancient and military history. One thing I somehow missed reading from his incredibly resourceful website is the This Isn&amp;rsquo;t Sparta series. He recently published a three-year-anniversary series retrospective which promptly surfaced on my RSS feed, giving me a chance to catch up over the holidays. The whole thing is a very long read, with some installments more engaging than others but overall very enjoyable, eye-opening, and information dense.</description>
+      <content:encoded><![CDATA[<p><a href="https://acoup.blog/">Bret Devereaux</a> has long been my go-to source for all things ancient and
 military history. One thing I somehow missed reading from his incredibly
-resourceful website is the [This Isn&rsquo;t Sparta][2] series. He recently published
+resourceful website is the <a href="https://acoup.blog/2019/08/16/collections-this-isnt-sparta-part-i-spartan-school/">This Isn&rsquo;t Sparta</a> series. He recently published
 a three-year-anniversary series retrospective which promptly surfaced on my
 RSS feed, giving me a chance to catch up over the holidays. The whole thing is
 a very long read, with some installments more engaging than others but overall
@@ -1192,12 +1242,12 @@ most fun would have been spoiled.</p>
       <link>https://nicolaiarocci.com/becoming-the-emperor/</link>
       <pubDate>Wed, 18 May 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/becoming-the-emperor/</guid>
-      <description>Today, probably not just by coincidence, I came across [Becoming the Emperor][1], an excellent New Yorker piece from 2005 on Memoirs of Hadrian, Yourcenar&amp;rsquo;s other works, and her peculiar career and life trajectory. Having just read the Memoirs, I was glad to see several of [my reading impressions][2] confirmed. I found the New Yorker article to be spot-on on Yourcenar&amp;rsquo;s prose and theme:
+      <description>Today, probably not just by coincidence, I came across Becoming the Emperor, an excellent New Yorker piece from 2005 on Memoirs of Hadrian, Yourcenar&amp;rsquo;s other works, and her peculiar career and life trajectory. Having just read the Memoirs, I was glad to see several of my reading impressions confirmed. I found the New Yorker article to be spot-on on Yourcenar&amp;rsquo;s prose and theme:
 Actually, some of Yourcenar’s prose is marmoreal, but not so that you can’t get through it.</description>
-      <content:encoded><![CDATA[<p>Today, probably not just by coincidence, I came across [Becoming the Emperor][1], an
+      <content:encoded><![CDATA[<p>Today, probably not just by coincidence, I came across <a href="https://www.newyorker.com/magazine/2005/02/14/becoming-the-emperor">Becoming the Emperor</a>, an
 excellent New Yorker piece from 2005 on Memoirs of Hadrian, Yourcenar&rsquo;s other
 works, and her peculiar career and life trajectory. Having just read the
-Memoirs, I was glad to see several of [my reading impressions][2] confirmed.
+Memoirs, I was glad to see several of <a href="https://nicolaiarocci.com/book-review-memoirs-of-hadrian/">my reading impressions</a> confirmed.
 I found the New Yorker article to be spot-on on Yourcenar&rsquo;s prose and theme:</p>
 <blockquote>
 <p>Actually, some of Yourcenar’s prose is marmoreal, but not so that you can’t
@@ -1229,19 +1279,19 @@ protagonists were men.</p>
       <link>https://nicolaiarocci.com/stripe-releases-markdoc-and-thats-a-good-thing/</link>
       <pubDate>Fri, 13 May 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/stripe-releases-markdoc-and-thats-a-good-thing/</guid>
-      <description>[Stripe docs][1] are a marvel, and every developer who&amp;rsquo;s had to deal with them knows it. After years of painful PayPal interactions, I remember the amazement and the feverish grin on my face the first time I landed on their API reference. Stripe API is beautifully designed, but it&amp;rsquo;s the combination of good design and excellent documentation that paved Stripe&amp;rsquo;s fulgid success.
-A few days ago, they unexpectedly released [MarkDoc][2], the &amp;ldquo;powerful, flexible, Markdown-based authoring framework&amp;rdquo; they use internally to build their documentation.</description>
-      <content:encoded><![CDATA[<p>[Stripe docs][1] are a marvel, and every developer who&rsquo;s had to deal with them knows
+      <description>Stripe docs are a marvel, and every developer who&amp;rsquo;s had to deal with them knows it. After years of painful PayPal interactions, I remember the amazement and the feverish grin on my face the first time I landed on their API reference. Stripe API is beautifully designed, but it&amp;rsquo;s the combination of good design and excellent documentation that paved Stripe&amp;rsquo;s fulgid success.
+A few days ago, they unexpectedly released MarkDoc, the &amp;ldquo;powerful, flexible, Markdown-based authoring framework&amp;rdquo; they use internally to build their documentation.</description>
+      <content:encoded><![CDATA[<p><a href="https://stripe.com/docs">Stripe docs</a> are a marvel, and every developer who&rsquo;s had to deal with them knows
 it. After years of painful PayPal interactions, I remember the amazement and
 the feverish grin on my face the first time I landed on their API reference.
 Stripe API is beautifully designed, but it&rsquo;s the combination of good design and
 excellent documentation that paved Stripe&rsquo;s fulgid success.</p>
-<p>A few days ago, they unexpectedly released [MarkDoc][2], the &ldquo;powerful,
+<p>A few days ago, they unexpectedly released <a href="https://markdoc.io/">MarkDoc</a>, the &ldquo;powerful,
 flexible, Markdown-based authoring framework&rdquo; they use internally to build
 their documentation. I skimmed through it only rapidly and, unsurprisingly, got
 a great first impression.</p>
-<p>Fabrizio Ferri Benedetti, who [knows better than me about docs][3], published
-a solid first-glance [review of MarkDoc][4] that I think is worth reading.
+<p>Fabrizio Ferri Benedetti, who <a href="https://passo.uno/about">knows better than me about docs</a>, published
+a solid first-glance <a href="https://passo.uno/markdoc-review/">review of MarkDoc</a> that I think is worth reading.
 Spoiler alert, I&rsquo;m quoting below his excellent closing thoughts.</p>
 <blockquote>
 <p>The secret to Stripe docs does not lie in superior tooling or magical markup
@@ -1251,7 +1301,7 @@ happen. This is the kind of magic that happens when you provide enough
 technical resources to your technical writers and trust them to do the right
 thing.</p>
 </blockquote>
-<p><em>Update</em>: MarkDoc even received [John Gruber&rsquo;s endorsement][5]. That&rsquo;s quite an
+<p><em>Update</em>: MarkDoc even received <a href="https://daringfireball.net/linked/2022/05/19/markdoc">John Gruber&rsquo;s endorsement</a>. That&rsquo;s quite an
 achievement as Gruber is renowned for dismissing most Markdown extensions.</p>
 ]]></content:encoded>
     </item>
@@ -1260,11 +1310,11 @@ achievement as Gruber is renowned for dismissing most Markdown extensions.</p>
       <link>https://nicolaiarocci.com/if-you-know-your-user-is-asking-for-help-show-them-the-damn-help/</link>
       <pubDate>Wed, 13 Apr 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/if-you-know-your-user-is-asking-for-help-show-them-the-damn-help/</guid>
-      <description>One of my pet peeves has always been the many different, sometimes very original ways in which CLI tools handle help requests. POSIX sets the canon: -h or --help is how we ask for help. But no, some tools[^1] want to be original at the worst moment: when their users are struggling, looking for guidance.
+      <description>One of my pet peeves has always been the many different, sometimes very original ways in which CLI tools handle help requests. POSIX sets the canon: -h or --help is how we ask for help. But no, some tools1 want to be original at the worst moment: when their users are struggling, looking for guidance.
 It&amp;rsquo;s somewhat consolatory to learn that I&amp;rsquo;m not alone in this fight. The other day I landed on Clayton Craft&amp;rsquo;s blog.</description>
       <content:encoded><![CDATA[<p>One of my pet peeves has always been the many different, sometimes very
 original ways in which CLI tools handle help requests. POSIX sets the canon:
-<code>-h</code> or <code>--help</code> is how we ask for help. But no, some tools[^1] want to be
+<code>-h</code> or <code>--help</code> is how we ask for help. But no, some tools<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> want to be
 original at the worst moment: when their users are struggling, looking for
 guidance.</p>
 <p>It&rsquo;s somewhat consolatory to learn that I&rsquo;m not alone in this fight. The other
@@ -1277,6 +1327,18 @@ ask for help. Better yet, support a more &ldquo;common&rdquo; way to allow users
 for help if your app doesn&rsquo;t already.</p>
 </blockquote>
 <p>I agree wholeheartedly.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I&rsquo;m looking at you, NuGet.
+[2]: <a href="https://blog.craftyguy.net/cmdline-help/">https://blog.craftyguy.net/cmdline-help/</a>
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -1284,17 +1346,17 @@ for help if your app doesn&rsquo;t already.</p>
       <link>https://nicolaiarocci.com/neuromancer-and-the-birth-of-cyberpunk/</link>
       <pubDate>Thu, 07 Apr 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/neuromancer-and-the-birth-of-cyberpunk/</guid>
-      <description>I went back to my library to check the year of my original Neuromancer edition. It&amp;rsquo;s 1993. For some context, I was 23 back then, with my software company founded only a couple of years earlier. The World Wide Web was at its very early stages. I distinctly remember getting out of that book dazed and confused. Characters were two-dimensional at best. There was a certain lack of exposition. The recurring streams of consciousness were complex for me to follow[^3].</description>
+      <description>I went back to my library to check the year of my original Neuromancer edition. It&amp;rsquo;s 1993. For some context, I was 23 back then, with my software company founded only a couple of years earlier. The World Wide Web was at its very early stages. I distinctly remember getting out of that book dazed and confused. Characters were two-dimensional at best. There was a certain lack of exposition. The recurring streams of consciousness were complex for me to follow1.</description>
       <content:encoded><![CDATA[<p>I went back to my library to check the year of my original <em>Neuromancer</em> edition.
 It&rsquo;s 1993. For some context, I was 23 back then, with my software company
 founded only a couple of years earlier. The World Wide Web was at its very
 early stages. I distinctly remember getting out of that book dazed and
 confused. Characters were two-dimensional at best. There was a certain lack of
 exposition. The recurring streams of consciousness were complex for me to
-follow[^3]. I knew I had something powerful and innovative in my hands; I was
-fascinated, but Gibson&rsquo;s writing, I think, put me off[^2].</p>
-<p>These musings were recently conjured by reading <em>[Neuromancer. The Birth of
-Cyberpunk][1]</em>, a fine, splendidly illustrated short essay on Gibson&rsquo;s
+follow<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. I knew I had something powerful and innovative in my hands; I was
+fascinated, but Gibson&rsquo;s writing, I think, put me off<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>These musings were recently conjured by reading <em><a href="https://sabukaru.online/articles/how-neuromancer-birthed-cyberpunk">Neuromancer. The Birth of
+Cyberpunk</a></em>, a fine, splendidly illustrated short essay on Gibson&rsquo;s
 influence, published by Sabukaru Online (which feed I promptly added to my RSS
 reader.).</p>
 <blockquote>
@@ -1305,6 +1367,20 @@ exponentially and internet universes creep into reality. Instead of two
 separate realms, there’s a ripple and blur.</p>
 </blockquote>
 <p>I might re-read the novel. I&rsquo;m curious about my opinion as a senior reader.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Not surprisingly, I&rsquo;m having a hard time following the <em>Ulysses</em> too.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>At the time, I didn&rsquo;t know that <em>Neuromancer</em> was Gibson&rsquo;s first novel.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -1367,11 +1443,11 @@ pitfalls.</p>
       <link>https://nicolaiarocci.com/endurance-shackletons-lost-ship-found-in-antarctic/</link>
       <pubDate>Wed, 09 Mar 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/endurance-shackletons-lost-ship-found-in-antarctic/</guid>
-      <description>A few months ago I started [my review of Lansing&amp;rsquo;s Endurance: Shackleton&amp;rsquo;s Incredible Voyage][1] with these words:
+      <description>A few months ago I started my review of Lansing&amp;rsquo;s Endurance: Shackleton&amp;rsquo;s Incredible Voyage with these words:
 Of all the stories of maritime adventures I’ve read, that of the Endurance, masterfully told by Alfred Lansing in this book, is the most incredible and shocking.
 And I meant that. As the book&amp;rsquo;s title suggests, that story is simply unbelievable, yet true. Imagine my astonishment this morning at the news that the Endurance was found in the depths of the Antarctic.</description>
-      <content:encoded><![CDATA[<p>A few months ago I started [my review of Lansing&rsquo;s <em>Endurance: Shackleton&rsquo;s
-Incredible Voyage</em>][1] with these words:</p>
+      <content:encoded><![CDATA[<p>A few months ago I started <a href="/book-review-endurance-shackletons-incredible-voyage/">my review of Lansing&rsquo;s <em>Endurance: Shackleton&rsquo;s
+Incredible Voyage</em></a> with these words:</p>
 <blockquote>
 <p>Of all the stories of maritime adventures I’ve read, that of the Endurance,
 masterfully told by Alfred Lansing in this book, is the most incredible and
@@ -1386,7 +1462,7 @@ shipwrecks 107 years after it sank. The Endurance, the lost vessel of
 Antarctic explorer Sir Ernest Shackleton, was found at the weekend at the
 bottom of the Weddell Sea.</p>
 </blockquote>
-<p>More [here][2], along with incredible footage.</p>
+<p>More <a href="https://www.bbc.com/news/science-environment-60662541">here</a>, along with incredible footage.</p>
 <p><img loading="lazy" src="/images/endurance.png" alt=""  />
 </p>
 ]]></content:encoded>
@@ -1413,7 +1489,7 @@ encountered a company with such callous disregard for their users&rsquo; data.</
 like [Tom does][2].</p>
 </blockquote>
 <p>One of the many reasons I don&rsquo;t write my reviews on Goodreads and host them on
-my website instead is precisely the risk of losing them all one day[^1]. The same
+my website instead is precisely the risk of losing them all one day<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. The same
 with Twitter. I have been on Twitter since 2009 and was very active there.
 I [witnessed][6] the BBS era. Since then, I&rsquo;ve seen oh-so-many &ldquo;too big to fail&rdquo;
 services coming and going, I could fill a book.</p>
@@ -1423,13 +1499,31 @@ not worth sharing in the first place.</p>
 <p>Posting on Goodreads or Twitter grants more visibility, that&rsquo;s for sure.
 I understand that clicking a link to leave the platform is an effort that not
 everyone is willing to make. I&rsquo;m probably losing followers on Twitter and
-&lsquo;friends&rsquo; on Goodreads. That&rsquo;s fine[^5]. Those remaining are likely to be more
+&lsquo;friends&rsquo; on Goodreads. That&rsquo;s fine<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. Those remaining are likely to be more
 interested in my content and, ultimately, in me as a person.</p>
 <p>Most of the stuff I write here is meant for myself anyway. If what I write
 happens to also be interesting for other readers, that&rsquo;s cool, but it&rsquo;s not the
 primary goal. I feel much better now that I own my content. The switch from
 social media content production to [POSSE][4] was beneficial and is something
 I advise everyone to do.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Other compelling reasons are not being okay with platforms profiling me or profiting from my content.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Besides, I wish more and more people would fall back to RSS for their content consumption. That&rsquo;s how I discover and collect content. Weblogs, YouTube channels, news and science sites, programming resources, and even top Twitter profiles all get digested by my RSS reader.
+[2]: <a href="https://macwright.com/reading/">https://macwright.com/reading/</a>
+[3]: <a href="https://www.somebits.com/weblog/tech/bad/goodreads-lost-all-my-data.html">https://www.somebits.com/weblog/tech/bad/goodreads-lost-all-my-data.html</a>
+[4]: <a href="https://indieweb.org/POSSE">https://indieweb.org/POSSE</a>
+[6]: /a-trip-down-memory-lane-fidonet-and-usenet/
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -1482,9 +1576,9 @@ Dictionary.</p>
       <link>https://nicolaiarocci.com/jonny-greenwood-pretended-to-play-the-keyboard-when-he-first-joined-radiohead/</link>
       <pubDate>Mon, 21 Feb 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/jonny-greenwood-pretended-to-play-the-keyboard-when-he-first-joined-radiohead/</guid>
-      <description>Kottke [reports][1] this juicy excerpt from Jonny Greenwood&amp;rsquo;s interview at npr:
+      <description>Kottke reports this juicy excerpt from Jonny Greenwood&amp;rsquo;s interview at npr:
 Thom [Yorke]&amp;rsquo;s band had a keyboard player — [whom] I think they didn&amp;rsquo;t get on with because he played his keyboard so loud. And so when I got the chance to play with them, the first thing I did was make sure my keyboard was turned off &amp;hellip; I must have done months of rehearsals with them with this keyboard, and they didn&amp;rsquo;t know that I&amp;rsquo;d already turned it off.</description>
-      <content:encoded><![CDATA[<p>Kottke [reports][1] this juicy excerpt from Jonny Greenwood&rsquo;s interview at npr:</p>
+      <content:encoded><![CDATA[<p>Kottke <a href="https://kottke.org/22/02/jonny-greenwood-pretended-to-play-the-keyboard-when-he-first-joined-radiohead">reports</a> this juicy excerpt from Jonny Greenwood&rsquo;s interview at npr:</p>
 <blockquote>
 <p>Thom [Yorke]&rsquo;s band had a keyboard player — [whom] I think they didn&rsquo;t get on
 with because he played his keyboard so loud. And so when I got the chance to
@@ -1544,7 +1638,7 @@ clearly dying. The long answer is that most of the web has become too
 inauthentic to trust.</p>
 </blockquote>
 <p>More <a href="https://dkb.io/post/google-search-is-dying">here</a>.</p>
-<p>I [switched to DuckDuckGo][2] a long time ago, and you probably should too.</p>
+<p>I <a href="https://nicolaiarocci.com/yet-another-reason-to-use-duckduckgo/">switched to DuckDuckGo</a> a long time ago, and you probably should too.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1552,9 +1646,9 @@ inauthentic to trust.</p>
       <link>https://nicolaiarocci.com/a-historian-perspective-on-blockchain-technology/</link>
       <pubDate>Mon, 07 Feb 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/a-historian-perspective-on-blockchain-technology/</guid>
-      <description>One of my recent discoveries is [A Collection of Unmitigated Pedantry][1] by Bret Devereaux, an historian who&amp;rsquo;s been posting great content over the years. His Fireside Fridays, for example, provide intriguing musings on varied topics. In this week instalment, professor Devereaux takes on the different applications of blockchain technology as seen from a historian&amp;rsquo;s perspective.
+      <description>One of my recent discoveries is A Collection of Unmitigated Pedantry by Bret Devereaux, an historian who&amp;rsquo;s been posting great content over the years. His Fireside Fridays, for example, provide intriguing musings on varied topics. In this week instalment, professor Devereaux takes on the different applications of blockchain technology as seen from a historian&amp;rsquo;s perspective.
 Really, this is less about the technologies themselves and more about the nature of states.</description>
-      <content:encoded><![CDATA[<p>One of my recent discoveries is [A Collection of Unmitigated Pedantry][1] by
+      <content:encoded><![CDATA[<p>One of my recent discoveries is <a href="https://acoup.blog/">A Collection of Unmitigated Pedantry</a> by
 Bret Devereaux, an historian who&rsquo;s been posting great content over the years.
 His Fireside Fridays, for example, provide intriguing musings on varied topics.
 In this week instalment, professor Devereaux takes on the different
@@ -1572,7 +1666,7 @@ banking institutions or society at large. And here is a space where
 a historian’s expertise is valuable and also almost completely lacking among
 blockchain enthusiasts.</p>
 </blockquote>
-<p>More [here][2].</p>
+<p>More <a href="https://acoup.blog/2022/02/04/fireside-friday-february-4-2022/">here</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1606,7 +1700,7 @@ shouting, “Stop! You can’t get any child better than me.”</p>
 <p>My wife was forty-eight and I was forty-seven, and we started inventing these
 stories as a form of play. It also soothed some hurt part of us.</p>
 </blockquote>
-<p>More [here][1].</p>
+<p>More <a href="https://www.newyorker.com/magazine/2022/01/31/a-passage-to-parenthood">here</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1615,7 +1709,7 @@ stories as a form of play. It also soothed some hurt part of us.</p>
       <pubDate>Thu, 20 Jan 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/is-old-music-killing-new-music/</guid>
       <description>I had a hunch that old songs were taking over music streaming platforms—but even I was shocked when I saw the most recent numbers. According to MRC Data, old songs now represent 70% of the US music market. Those who make a living from new music—especially that endangered species known as the working musician—have to look at these figures with fear and trembling. But the news gets worse.
-I can&amp;rsquo;t say I can relate as my kids of ages 21, 18, and 16 do their best to stay clear from the music I like, but anyways, Ted Gioia&amp;rsquo;s [latest piece][1] on recent music trends is super-interesting.</description>
+I can&amp;rsquo;t say I can relate as my kids of ages 21, 18, and 16 do their best to stay clear from the music I like, but anyways, Ted Gioia&amp;rsquo;s latest piece on recent music trends is super-interesting.</description>
       <content:encoded><![CDATA[<blockquote>
 <p>I had a hunch that old songs were taking over music streaming platforms—but
 even I was shocked when I saw the most recent numbers. According to MRC Data,
@@ -1625,7 +1719,7 @@ musician—have to look at these figures with fear and trembling. But the news
 gets worse.</p>
 </blockquote>
 <p>I can&rsquo;t say I can relate as my kids of ages 21, 18, and 16 do their best to
-stay clear from the music I like, but anyways, Ted Gioia&rsquo;s [latest piece][1] on
+stay clear from the music I like, but anyways, Ted Gioia&rsquo;s <a href="https://tedgioia.substack.com/p/is-old-music-killing-new-music">latest piece</a> on
 recent music trends is super-interesting.</p>
 ]]></content:encoded>
     </item>
@@ -1634,9 +1728,9 @@ recent music trends is super-interesting.</p>
       <link>https://nicolaiarocci.com/go-james-webb/</link>
       <pubDate>Mon, 10 Jan 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/go-james-webb/</guid>
-      <description>It&amp;rsquo;s now old news that the [James Webb Telescope][3] was successfully launched on Christmas Day. But last Saturday marked another historic moment for this incredible human artifact:
+      <description>It&amp;rsquo;s now old news that the James Webb Telescope was successfully launched on Christmas Day. But last Saturday marked another historic moment for this incredible human artifact:
 After a quarter-century of effort by tens of thousands of people, more than $10 billion in taxpayer funding, and some 350 deployment mechanisms that had to go just so, the James Webb Space Telescope fully unfurled its wings. The massive spacecraft completed its final deployments, and, by God, the process went smoothly.</description>
-      <content:encoded><![CDATA[<p>It&rsquo;s now old news that the [James Webb Telescope][3] was successfully launched
+      <content:encoded><![CDATA[<p>It&rsquo;s now old news that the <a href="https://www.jwst.nasa.gov/index.html">James Webb Telescope</a> was successfully launched
 on Christmas Day. But last Saturday marked another historic moment for this
 incredible human artifact:</p>
 <blockquote>
@@ -1647,12 +1741,12 @@ massive spacecraft completed its final deployments, and, by God, the process
 went smoothly.</p>
 </blockquote>
 <p>Ars Technica&rsquo;s Eric Berger has long been my go-to pusher for space-related
-stuff. [His report][1] on Saturday&rsquo;s milestone is accurate and to the point as
-usual. Today he has [another article][2] on ESA Arianne 5&rsquo;s fundamental
+stuff. <a href="https://arstechnica.com/science/2022/01/remarkably-nasa-has-completed-deployment-of-the-webb-space-telescope/">His report</a> on Saturday&rsquo;s milestone is accurate and to the point as
+usual. Today he has <a href="https://arstechnica.com/science/2022/01/all-hail-the-ariane-5-rocket-which-doubled-the-webb-telescopes-lifetime/">another article</a> on ESA Arianne 5&rsquo;s fundamental
 contribution to the mission. I love how modern, successful space missions are
 almost always the result of no-bullshit joint efforts by multiple international
 actors.</p>
-<p><em>Update:</em> The James Webb Telescope [has reached its final destination][4].</p>
+<p><em>Update:</em> The James Webb Telescope <a href="https://www.npr.org/2022/01/24/1075437484/james-webb-telescope-final-destination">has reached its final destination</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1660,10 +1754,10 @@ actors.</p>
       <link>https://nicolaiarocci.com/moxie-on-web3/</link>
       <pubDate>Sat, 08 Jan 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/moxie-on-web3/</guid>
-      <description>An excellent article on Web3 has [just appeared][1] on Moxie Marlinspike&amp;rsquo;s website. Being Moxie[^2], he&amp;rsquo;s not just speculating and rambling about stuff. In an attempt to learn more about the so-called Web3 and the technologies around it, he went all-in and built a couple of dApps himself. Then, he produced an NFT and put it up for sale. What he found is, well, to put it mildly, fascinating.
+      <description>An excellent article on Web3 has just appeared on Moxie Marlinspike&amp;rsquo;s website. Being Moxie1, he&amp;rsquo;s not just speculating and rambling about stuff. In an attempt to learn more about the so-called Web3 and the technologies around it, he went all-in and built a couple of dApps himself. Then, he produced an NFT and put it up for sale. What he found is, well, to put it mildly, fascinating.
 Some of his insights on technology are also interesting.</description>
-      <content:encoded><![CDATA[<p>An excellent article on Web3 has [just appeared][1] on Moxie Marlinspike&rsquo;s
-website. Being Moxie[^2], he&rsquo;s not just speculating and rambling about stuff.
+      <content:encoded><![CDATA[<p>An excellent article on Web3 has <a href="https://moxie.org/2022/01/07/web3-first-impressions.html">just appeared</a> on Moxie Marlinspike&rsquo;s
+website. Being Moxie<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, he&rsquo;s not just speculating and rambling about stuff.
 In an attempt to learn more about the so-called Web3 and the technologies
 around it, he went all-in and built a couple of dApps himself. Then, he
 produced an NFT and put it up for sale. What he found is, well, to put it
@@ -1696,6 +1790,17 @@ rather than what we may consider our broader goals.</p>
 when the craze started. After a few experiments, I tagged it all as a nerds
 game and moved away. Moxie&rsquo;s article served me well in catching up on the whole
 scene. Can&rsquo;t say I&rsquo;m thrilled by what I see.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>On Moxie himself, see the New Yorker article I featured <a href="https://nicolaiarocci.com/on-the-ceo-and-founder-of-signal/">a while ago</a>.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -1703,8 +1808,8 @@ scene. Can&rsquo;t say I&rsquo;m thrilled by what I see.</p>
       <link>https://nicolaiarocci.com/system-shock-is-back-home/</link>
       <pubDate>Mon, 27 Dec 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/system-shock-is-back-home/</guid>
-      <description>When The Digital Antiquarian released his [System Shock retrospective][1] earlier this year, I was in awe. System Shock was one of my favorite games back in the day, and yes, in the quarrel between id Software&amp;rsquo;s DOOM and Looking Glass&amp;rsquo;s System Shock, I was siding with the latter. I was so much more for immersion and storyline than shoot &amp;rsquo;em-ups. The Antiquarian article is excellent. If you&amp;rsquo;re into gaming history or, really, into computer&amp;rsquo;s history, I urge you to read it all.</description>
-      <content:encoded><![CDATA[<p>When The Digital Antiquarian released his [System Shock retrospective][1]
+      <description>When The Digital Antiquarian released his System Shock retrospective earlier this year, I was in awe. System Shock was one of my favorite games back in the day, and yes, in the quarrel between id Software&amp;rsquo;s DOOM and Looking Glass&amp;rsquo;s System Shock, I was siding with the latter. I was so much more for immersion and storyline than shoot &amp;rsquo;em-ups. The Antiquarian article is excellent. If you&amp;rsquo;re into gaming history or, really, into computer&amp;rsquo;s history, I urge you to read it all.</description>
+      <content:encoded><![CDATA[<p>When The Digital Antiquarian released his <a href="https://www.filfre.net/2021/03/system-shock/">System Shock retrospective</a>
 earlier this year, I was in awe. System Shock was one of my favorite games back
 in the day, and yes, in the quarrel between id Software&rsquo;s DOOM and Looking
 Glass&rsquo;s System Shock, I was siding with the latter. I was so much more for
@@ -1731,9 +1836,20 @@ put aside for me. They contained old things from when I lived with them. I went
 to check on them. You never know; there might be some memorabilia like the
 comics or the books I used to read. Imagine my surprise when the original
 System Shock box surfaced out of the first box. Oh, joy! Best Dad&rsquo;s Christmas
-present ever[^2].</p>
+present ever<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
 <p><img loading="lazy" src="/images/system-shock-box.JPG#center" alt="System Shock Box"  />
 </p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The original price tag is still there.  In 1994, the damn thing cost a whopping 139.900 Italian Lire (€72). Pirating was wild in those days, and I won&rsquo;t negate that most of my mojo came from dark channels back then, but when a worthy game appeared, I was ready to pay homage to the authors.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -1741,21 +1857,37 @@ present ever[^2].</p>
       <link>https://nicolaiarocci.com/a-big-nail-in-the-coffin-of-mysql/</link>
       <pubDate>Thu, 09 Dec 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/a-big-nail-in-the-coffin-of-mysql/</guid>
-      <description>After five years in Oracle&amp;rsquo;s MySQL team, Steinar H. Gunderson resigned a few days ago. On the same day, he dropped the bomb on his [blog][1]:
-let me point out something that I&amp;rsquo;ve been saying both internally and externally for the last five years (although never on a stage—which explains why I&amp;rsquo;ve been staying away from stages talking about MySQL): MySQL is a pretty poor database, and you should strongly consider using Postgres instead[^2].</description>
+      <description>After five years in Oracle&amp;rsquo;s MySQL team, Steinar H. Gunderson resigned a few days ago. On the same day, he dropped the bomb on his blog:
+let me point out something that I&amp;rsquo;ve been saying both internally and externally for the last five years (although never on a stage—which explains why I&amp;rsquo;ve been staying away from stages talking about MySQL): MySQL is a pretty poor database, and you should strongly consider using Postgres instead1.</description>
       <content:encoded><![CDATA[<p>After five years in Oracle&rsquo;s MySQL team, Steinar H. Gunderson resigned a few
-days ago. On the same day, he dropped the bomb on his [blog][1]:</p>
+days ago. On the same day, he dropped the bomb on his <a href="https://blog.sesse.net/blog/tech/2021-12-05-16-41_leaving_mysql">blog</a>:</p>
 <blockquote>
 <p>let me point out something that I&rsquo;ve been saying both internally and
 externally for the last five years (although never on a stage—which explains
 why I&rsquo;ve been staying away from stages talking about MySQL): <strong>MySQL is
 a pretty poor database, and you should strongly consider using Postgres
-instead</strong>[^2].</p>
+instead</strong><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
 </blockquote>
 <p>As [@brandur][3] appropriately puts it, in the world of software engineering,
 it rarely gets more definitive than that. And authoritative, I might add, given
 both the role he covered at Oracle and his overall [track record][5]. The whole
-short post is worth reading[^4].</p>
+short post is worth reading<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Emphasis is mine.
+[3]: <a href="https://twitter.com/brandur/status/1467916216018903044">https://twitter.com/brandur/status/1467916216018903044</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Spoiler: he&rsquo;s not nice to MariaDB either.
+[5]: <a href="https://www.sesse.net/">https://www.sesse.net/</a>
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -1763,11 +1895,11 @@ short post is worth reading[^4].</p>
       <link>https://nicolaiarocci.com/on-the-incredible-opportunities-offered-by-starship/</link>
       <pubDate>Wed, 08 Dec 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-the-incredible-opportunities-offered-by-starship/</guid>
-      <description>Space-junkie me is back, this time reading about the innumerable opportunities that SpaceX&amp;rsquo;s Starship will offer once it becomes operational, hopefully no later than this year or the next. In his [Science Upside for Starship][1], the exceptionally knowledgeable Casey Handmer makes a case for Starship relevance in the future of space exploration by listing an astounding number of reasonable use-cases for the vessel.
+      <description>Space-junkie me is back, this time reading about the innumerable opportunities that SpaceX&amp;rsquo;s Starship will offer once it becomes operational, hopefully no later than this year or the next. In his Science Upside for Starship, the exceptionally knowledgeable Casey Handmer makes a case for Starship relevance in the future of space exploration by listing an astounding number of reasonable use-cases for the vessel.
 I think it is relatively straightforward to think of cool things to do with SpaceX Starships, so recent posts have focused on trying to understand the more mixed consequences for incumbent industrial organizations that are not ideally positioned to exploit the coming advances.</description>
       <content:encoded><![CDATA[<p>Space-junkie me is back, this time reading about the innumerable opportunities
 that SpaceX&rsquo;s Starship will offer once it becomes operational, hopefully no
-later than this year or the next. In his [Science Upside for Starship][1], the
+later than this year or the next. In his <a href="https://caseyhandmer.wordpress.com/2021/11/17/science-upside-for-starship/">Science Upside for Starship</a>, the
 exceptionally knowledgeable Casey Handmer makes a case for Starship relevance
 in the future of space exploration by listing an astounding number of
 reasonable use-cases for the vessel.</p>
@@ -1780,7 +1912,7 @@ exercise to enumerate all the ways in which Starship and related technologies
 can help execute bold, ambitious missions of scientific discovery.</p>
 </blockquote>
 <p>It&rsquo;s long-form, yes, but well worth it. Oh, and while you&rsquo;re at it, you might
-as well read [Starship is Still Not Understood][2], Casey&rsquo;s previous article on the
+as well read <a href="https://caseyhandmer.wordpress.com/2021/10/28/starship-is-still-not-understood/">Starship is Still Not Understood</a>, Casey&rsquo;s previous article on the
 topic.</p>
 ]]></content:encoded>
     </item>
@@ -1789,9 +1921,9 @@ topic.</p>
       <link>https://nicolaiarocci.com/chet-baker-born-to-be-cool/</link>
       <pubDate>Mon, 29 Nov 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/chet-baker-born-to-be-cool/</guid>
-      <description>A great piece of writing on jazz has recently been posted on The Smart Set. In [Born to be cool][1], Matthew Duffus writes about jazz trumpeter Chet Baker, reporting about his troubled life, musical prowess, influence, and legacy. Some facts are well known, like the reception and then the competition with trumpet legends such as Miles Davis and Dizzy Gillespie; other tidbits are less known (to me at least). On Baker legacy:</description>
+      <description>A great piece of writing on jazz has recently been posted on The Smart Set. In Born to be cool, Matthew Duffus writes about jazz trumpeter Chet Baker, reporting about his troubled life, musical prowess, influence, and legacy. Some facts are well known, like the reception and then the competition with trumpet legends such as Miles Davis and Dizzy Gillespie; other tidbits are less known (to me at least). On Baker legacy:</description>
       <content:encoded><![CDATA[<p>A great piece of writing on jazz has recently been posted on The Smart Set. In
-[Born to be cool][1], Matthew Duffus writes about jazz trumpeter Chet Baker,
+<a href="https://www.thesmartset.com/born-to-be-cool/">Born to be cool</a>, Matthew Duffus writes about jazz trumpeter Chet Baker,
 reporting about his troubled life, musical prowess, influence, and legacy. Some
 facts are well known, like the reception and then the competition with trumpet
 legends such as Miles Davis and Dizzy Gillespie; other tidbits are less known
@@ -1833,8 +1965,8 @@ opening (and often closing soon after) everywhere in my town. Bialetti&rsquo;s M
 coffee pots have always been around my life. Not disposable, for they are
 pretty expensive even here in Italy, but common, everyday kitchen gadgets?
 Absolutely.</p>
-<p>So it was interesting to read Atlas Obscura&rsquo;s [The Humble Brilliance of Italy&rsquo;s
-Moka Coffee Pot][1] to learn more about Moka&rsquo;s roots, history (with the ups and
+<p>So it was interesting to read Atlas Obscura&rsquo;s <a href="https://www.atlasobscura.com/articles/make-coffee-moka-pot">The Humble Brilliance of Italy&rsquo;s
+Moka Coffee Pot</a> to learn more about Moka&rsquo;s roots, history (with the ups and
 downs), and design relevance. Of all this stuff, I was only marginally aware.</p>
 <blockquote>
 <p>The Moka pot is a symbol of Italy: of postwar ingenuity and global culinary
@@ -1853,11 +1985,11 @@ too late, in only the past few years. Get one while you can.</p>
       <link>https://nicolaiarocci.com/the-posthuman-dog/</link>
       <pubDate>Sat, 06 Nov 2021 08:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-posthuman-dog/</guid>
-      <description>Flo, our dog, spent her whole fifteen-years long life with us. Many, many times after she passed away, I wondered if she lived a happy dog life or not. In [The posthuman dog][1] (Aeon), Jessica Pierce poses a fascinating question that somehow helps find answers to my troubling question:
+      <description>Flo, our dog, spent her whole fifteen-years long life with us. Many, many times after she passed away, I wondered if she lived a happy dog life or not. In The posthuman dog (Aeon), Jessica Pierce poses a fascinating question that somehow helps find answers to my troubling question:
 If humans were to disappear from the face of the Earth, what might dogs become? And would they be better off without us?</description>
       <content:encoded><![CDATA[<p>Flo, our dog, spent her whole fifteen-years long life with us. Many, many times
-after she passed away, I wondered if she lived a happy dog life or not. In [The
-posthuman dog][1] (Aeon), Jessica Pierce poses a fascinating question that
+after she passed away, I wondered if she lived a happy dog life or not. In <a href="https://aeon.co/essays/who-could-dogs-become-without-humans-in-their-lives">The
+posthuman dog</a> (Aeon), Jessica Pierce poses a fascinating question that
 somehow helps find answers to my troubling question:</p>
 <blockquote>
 <p>If humans were to disappear from the face of the Earth, what might dogs
@@ -1872,14 +2004,14 @@ my guilt.</p>
       <link>https://nicolaiarocci.com/the-word-for-web-is-forest/</link>
       <pubDate>Thu, 30 Sep 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-word-for-web-is-forest/</guid>
-      <description>When I read Entangled Life: How Fungi Make Our Worlds, Change Our Minds &amp;amp; Shape Our Futures by Merlin Sheldrake[^3], I was stunned by the scale and importance of the mycorrhizal network that lies beneath the surface of any given forest in the world. The &amp;ldquo;wood wide web&amp;rdquo;, as scientists started to call it, sounded like the perfect metaphor for such an incredibly efficient, symbiotic relation between fungi and trees.</description>
+      <description>When I read Entangled Life: How Fungi Make Our Worlds, Change Our Minds &amp;amp; Shape Our Futures by Merlin Sheldrake1, I was stunned by the scale and importance of the mycorrhizal network that lies beneath the surface of any given forest in the world. The &amp;ldquo;wood wide web&amp;rdquo;, as scientists started to call it, sounded like the perfect metaphor for such an incredibly efficient, symbiotic relation between fungi and trees.</description>
       <content:encoded><![CDATA[<p>When I read <em>Entangled Life: How Fungi Make Our Worlds, Change Our Minds
-&amp; Shape Our Futures</em> by Merlin Sheldrake[^3], I was stunned by the scale and
+&amp; Shape Our Futures</em> by Merlin Sheldrake<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, I was stunned by the scale and
 importance of the mycorrhizal network that lies beneath the surface of any
 given forest in the world. The &ldquo;wood wide web&rdquo;, as scientists started to call
 it, sounded like the perfect metaphor for such an incredibly efficient,
 symbiotic relation between fungi and trees.</p>
-<p>In [The Word for Web is Forest][1][^2], Claire L. Evans brilliantly reverses the
+<p>In <a href="https://newpublic.org/article/1572/the-word-for-web-is-fores://newpublic.org/article/1572/the-word-for-web-is-forest">The Word for Web is Forest</a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, Claire L. Evans brilliantly reverses the
 perspective. If the wood wide web metaphor holds, we can see the world wide web
 as a live, intermingled network of interconnected, initially decentralized and
 perhaps symbiotic entities. The issues we face in the modern web are not
@@ -1915,11 +2047,25 @@ a field of commercial timber.</p>
 <p>Evans then proceeds to suggest that we should probably strive to imitate
 mycorrhizal networks and (re?)build decentralized networks, with &ldquo;Mother nodes
 &ndash; sites in the network bearing a responsibility of care.&rdquo; I&rsquo;ll stop here. Read
-the [article][1] now, there is a lot to absorb. She doesn&rsquo;t go into the details
+the <a href="https://newpublic.org/article/1572/the-word-for-web-is-fores://newpublic.org/article/1572/the-word-for-web-is-forest">article</a> now, there is a lot to absorb. She doesn&rsquo;t go into the details
 of her proposed solution, but offers us an original, courageous and pregnant
 point of view to consider.</p>
 <p><img loading="lazy" src="/images/entangled_life.jpg#center" alt="Entangled life"  />
 </p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><em>Entangled Life</em> is a great read. It also features one of the most beautiful book covers of the modern age.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>The just-recently published magazine hosting the article, <a href="https://newpublic.org/">New_Public</a>, appears as a promising source of future content.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -1938,8 +2084,8 @@ have an nginx playground website where you can just paste in an nginx config
 and test it out. And then I realized it might actually be pretty easy to
 build, so got excited and started coding and I built it.</p>
 </blockquote>
-<p>The playground is available [here][1]. Make sure you also read [Julia&rsquo;s
-introduction][2] to the tool. In there, she recounts why and, more importantly,
+<p>The playground is available <a href="https://nginx-playground.wizardzines.com/">here</a>. Make sure you also read <a href="https://jvns.ca/blog/2021/09/24/new-tool--an-nginx-playground/">Julia&rsquo;s
+introduction</a> to the tool. In there, she recounts why and, more importantly,
 how she built it.</p>
 ]]></content:encoded>
     </item>
@@ -1948,13 +2094,13 @@ how she built it.</p>
       <link>https://nicolaiarocci.com/what-getting-old-really-feels-like/</link>
       <pubDate>Sun, 26 Sep 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/what-getting-old-really-feels-like/</guid>
-      <description>In a new study published in Ageing and Society, researchers Sam Carr and Chao Fang spent over 130 hours interviewing older people to understand what it&amp;rsquo;s like to get old and cope with loneliness. The Conversation UK features their report, appropriately titled [Loneliness, loss and regret: what getting old really feels like][1].
+      <description>In a new study published in Ageing and Society, researchers Sam Carr and Chao Fang spent over 130 hours interviewing older people to understand what it&amp;rsquo;s like to get old and cope with loneliness. The Conversation UK features their report, appropriately titled Loneliness, loss and regret: what getting old really feels like.
 We found that ageing brings about a series of inevitable losses that deeply challenge people’s sense of connection to the world around them.</description>
       <content:encoded><![CDATA[<p>In a new study published in Ageing and Society, researchers Sam Carr and Chao
 Fang spent over 130 hours interviewing older people to understand what it&rsquo;s
 like to get old and cope with loneliness. The Conversation UK features their
-report, appropriately titled [Loneliness, loss and regret: what getting old really
-feels like][1].</p>
+report, appropriately titled <a href="https://theconversation.com/loneliness-loss-and-regret-what-getting-old-really-feels-like-new-study-157731">Loneliness, loss and regret: what getting old really
+feels like</a>.</p>
 <blockquote>
 <p>We found that ageing brings about a series of inevitable losses that deeply
 challenge people’s sense of connection to the world around them. Loneliness
@@ -1975,12 +2121,12 @@ this.</p>
       <link>https://nicolaiarocci.com/asp.net-6-migration-cheatsheet-and-faq/</link>
       <pubDate>Thu, 23 Sep 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/asp.net-6-migration-cheatsheet-and-faq/</guid>
-      <description>David Fowler has a very informative gist up on GitHub. It&amp;rsquo;s titled [Migration to ASP.NET Core. NET6][3] and it&amp;rsquo;s filled with details, recipes and FAQs on migrating an ASP.NET Core 5 web app to ASP.NET Core 6[^4]. The focus is on the new, streamlined hosting model, also known as Minimal APIs[^1]. To be clear, You don&amp;rsquo;t have to move to the new model. As the FAQ section emphasizes:
+      <description>David Fowler has a very informative gist up on GitHub. It&amp;rsquo;s titled [Migration to ASP.NET Core. NET6][3] and it&amp;rsquo;s filled with details, recipes and FAQs on migrating an ASP.NET Core 5 web app to ASP.NET Core 61. The focus is on the new, streamlined hosting model, also known as Minimal APIs2. To be clear, You don&amp;rsquo;t have to move to the new model. As the FAQ section emphasizes:
 Do I have to migrate to the new hosting model</description>
       <content:encoded><![CDATA[<p>David Fowler has a very informative gist up on GitHub. It&rsquo;s titled [Migration
 to ASP.NET Core. NET6][3] and it&rsquo;s filled with details, recipes and FAQs on
-migrating an ASP.NET Core 5 web app to ASP.NET Core 6[^4]. The focus is on the
-new, streamlined hosting model, also known as Minimal APIs[^1]. To be clear,
+migrating an ASP.NET Core 5 web app to ASP.NET Core 6<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. The focus is on the
+new, streamlined hosting model, also known as Minimal APIs<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. To be clear,
 You don&rsquo;t <em>have</em> to move to the new model. As the FAQ section emphasizes:</p>
 <blockquote>
 <p>Do I have to migrate to the new hosting model</p>
@@ -1995,6 +2141,22 @@ but I&rsquo;m sure that David will be ready to do so if required.</p>
 They are all ASP.NET 5, currently in beta, but before release we&rsquo;re likely to
 upgrade them to NET6. NET6 is LTS, NET5 isn&rsquo;t, and offers significant
 advantages, remarkable [performance gains][2] included.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The Core tag was dropped in NET5, and it was a good move. The reason why the insist on using it with ASP.NET eludes me.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://nicolaiarocci.com/will-.net-6-minimal-apis-turn-heads/">Will .NET 6 Mininal APIs turn heads?</a> collects my thoughts on the subject.
+[2]: <a href="https://nicolaiarocci.com/performance-improvements-in-.net6/">https://nicolaiarocci.com/performance-improvements-in-.net6/</a>
+[3]: <a href="https://gist.github.com/davidfowl/0e0372c3c1d895c3ce195ba983b1e03d">https://gist.github.com/davidfowl/0e0372c3c1d895c3ce195ba983b1e03d</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -2002,13 +2164,13 @@ advantages, remarkable [performance gains][2] included.</p>
       <link>https://nicolaiarocci.com/the-american-style-of-quotation-mark-punctuation-makes-no-sense/</link>
       <pubDate>Thu, 16 Sep 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-american-style-of-quotation-mark-punctuation-makes-no-sense/</guid>
-      <description>Years ago, I [translated][2] an essay by Terry Windling, [On Tolkien and Fairie-Stories][1], from American English to Italian. I remember arguing with the author about her use of periods in quotations. Each quotation would end with a period before the closing mark. I was puzzled. We don&amp;rsquo;t do that in Italy. More importantly, I read many English texts where the period was left outside the quotation itself. She insisted that her style was correct[^4].</description>
-      <content:encoded><![CDATA[<p>Years ago, I [translated][2] an essay by Terry Windling, [On Tolkien and
-Fairie-Stories][1], from American English to Italian. I remember arguing with
+      <description>Years ago, I translated an essay by Terry Windling, On Tolkien and Fairie-Stories, from American English to Italian. I remember arguing with the author about her use of periods in quotations. Each quotation would end with a period before the closing mark. I was puzzled. We don&amp;rsquo;t do that in Italy. More importantly, I read many English texts where the period was left outside the quotation itself. She insisted that her style was correct1.</description>
+      <content:encoded><![CDATA[<p>Years ago, I <a href="http://www.endore.it/Arretrati/9/Articoli/SuTolkienELeFiabe.pdf">translated</a> an essay by Terry Windling, <a href="https://accademia.tolkieniana.net/tesi/endicott/tlkefiabeng.html">On Tolkien and
+Fairie-Stories</a>, from American English to Italian. I remember arguing with
 the author about her use of periods in quotations. Each quotation would end
 with a period before the closing mark. I was puzzled. We don&rsquo;t do that in
 Italy. More importantly, I read many English texts where the period was left
-outside the quotation itself. She insisted that her style was correct[^4].</p>
+outside the quotation itself. She insisted that her style was correct<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
 <p>Today I learn that, in English, there are in fact two different and conflicting
 quotation mark punctuation styles: American and British.</p>
 <blockquote>
@@ -2018,9 +2180,20 @@ marks [&hellip;] In the British style, however, you put periods and commas outsi
 the quotation marks, unless they are part of a complete sentence that is
 fully contained between the quotation marks:</p>
 </blockquote>
-<p>In [The American Style of Quotation Mark Punctuation Makes No Sense][3] the
+<p>In <a href="https://www.erichgrunewald.com/posts/the-american-style-of-quotation-mark-punctuation-makes-no-sense">The American Style of Quotation Mark Punctuation Makes No Sense</a> the
 author illustrates the differences between the two styles, then argues that
 &ldquo;the British approach makes more sense, so use that one.&rdquo; Whoops.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>In my rendition I moved the period after the end mark. Different languages, different rules.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -2053,9 +2226,9 @@ experience.</p>
       <link>https://nicolaiarocci.com/get-the-fucking-vaccine-already-you-fucking-fucks/</link>
       <pubDate>Sat, 04 Sep 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/get-the-fucking-vaccine-already-you-fucking-fucks/</guid>
-      <description>Wendy Molyneux, [writing unabashedly][1] for McSweeney&amp;rsquo;s, summarizes all I have to say on the COVID vaccine and never dared to say:
+      <description>Wendy Molyneux, writing unabashedly for McSweeney&amp;rsquo;s, summarizes all I have to say on the COVID vaccine and never dared to say:
 You think vaccines don’t fucking work? Oh, fuck off into the trash, you attention-seeking fuckworm-faced shitbutt. This isn’t even a point worth discussing, you fuck-o-rama fuck-stival of ignorance. Vaccines got rid of smallpox and polio and all the other disgusting diseases that used to kill off little fucks like you en masse.</description>
-      <content:encoded><![CDATA[<p>Wendy Molyneux, [writing unabashedly][1] for McSweeney&rsquo;s, summarizes all I have
+      <content:encoded><![CDATA[<p>Wendy Molyneux, <a href="https://www.mcsweeneys.net/articles/oh-my-fucking-god-get-the-fucking-vaccine-already-you-fucking-fucks">writing unabashedly</a> for McSweeney&rsquo;s, summarizes all I have
 to say on the COVID vaccine and never dared to say:</p>
 <blockquote>
 <p>You think vaccines don’t fucking work? Oh, fuck off into the trash, you
@@ -2075,12 +2248,12 @@ Fuck you. Get vaccinated.</p>
       <link>https://nicolaiarocci.com/performance-improvements-in-.net6/</link>
       <pubDate>Fri, 03 Sep 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/performance-improvements-in-.net6/</guid>
-      <description>I&amp;rsquo;m pretty psyched about the upcoming .NET6 release. I&amp;rsquo;ve already [touched][1] on ASP.NET 6 Minimal APIs. Continuing on the long-established tradition, the team has also worked hard on the performance side of things. File IO, for example, is seeing [impressive gains][2]:
+      <description>I&amp;rsquo;m pretty psyched about the upcoming .NET6 release. I&amp;rsquo;ve already touched on ASP.NET 6 Minimal APIs. Continuing on the long-established tradition, the team has also worked hard on the performance side of things. File IO, for example, is seeing impressive gains:
 For .NET 6, we have made FileStream much faster and more reliable, thanks to an almost entire re-write. For same cases, the async implementation is now a few times faster!</description>
-      <content:encoded><![CDATA[<p>I&rsquo;m pretty psyched about the upcoming .NET6 release. I&rsquo;ve already [touched][1]
+      <content:encoded><![CDATA[<p>I&rsquo;m pretty psyched about the upcoming .NET6 release. I&rsquo;ve already <a href="https://nicolaiarocci.com/will-.net-6-minimal-apis-turn-heads/">touched</a>
 on ASP.NET 6 Minimal APIs. Continuing on the long-established tradition, the
 team has also worked hard on the performance side of things. File IO, for
-example, is seeing [impressive gains][2]:</p>
+example, is seeing <a href="https://devblogs.microsoft.com/dotnet/file-io-improvements-in-dotnet-6/">impressive gains</a>:</p>
 <blockquote>
 <p>For .NET 6, we have made FileStream much faster and more reliable, thanks to
 an almost entire re-write. For same cases, the async implementation is now
@@ -2091,8 +2264,8 @@ stronger, faster!</p>
 </blockquote>
 <p>If you have the time, make sure you read the whole blog post. Learning about
 the low-level details on how they achieved such (pretty phenomenal) results is
-fascinating. They&rsquo;re not stopping at file IO either. In another [lengthy blog
-post][3], they had to add a table of contents, or we would get lost in the myriad
+fascinating. They&rsquo;re not stopping at file IO either. In another <a href="https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-6/#is-that-all">lengthy blog
+post</a>, they had to add a table of contents, or we would get lost in the myriad
 of improvements.</p>
 <blockquote>
 <p>Don’t worry, I don’t cover all of them here, but grab a large mug of your
@@ -2100,7 +2273,7 @@ favorite hot beverage, and settle in: this post takes a rip-roarin’ tour
 through ~400 PRs that, all together, significantly improve .NET performance
 for .NET 6.</p>
 </blockquote>
-<p>There are [a][4] [ton][5] [of][6] [new][7] [things][8] [coming][9] [up][10],
+<p>There are <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-7/">a</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-6/">ton</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-5/">of</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-4/">new</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-3/">things</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-2/">coming</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-1/">up</a>,
 too, of course.</p>
 ]]></content:encoded>
     </item>
@@ -2109,11 +2282,11 @@ too, of course.</p>
       <link>https://nicolaiarocci.com/travel-is-no-cure-for-the-mind/</link>
       <pubDate>Mon, 23 Aug 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/travel-is-no-cure-for-the-mind/</guid>
-      <description>I stumbled upon a personal growth article this weekend, and that&amp;rsquo;s odd because I tend to stay clear from such things. Yet I found it quite relevant, so much that I thought I would [share it][1] (the delivery is also amusing, which is something new for this kind of content).
+      <description>I stumbled upon a personal growth article this weekend, and that&amp;rsquo;s odd because I tend to stay clear from such things. Yet I found it quite relevant, so much that I thought I would share it (the delivery is also amusing, which is something new for this kind of content).
 It’s just another day… and you’re just doing what you need to do. You’re getting things done, and the day moves forward in this continuous sequence of checklists, actions, and respites.</description>
       <content:encoded><![CDATA[<p>I stumbled upon a personal growth article this weekend, and that&rsquo;s odd because
 I tend to stay clear from such things. Yet I found it quite relevant, so much
-that I thought I would [share it][1] (the delivery is also amusing, which is
+that I thought I would <a href="https://medium.com/personal-growth/travel-is-no-cure-for-the-mind-e449d3109d71">share it</a> (the delivery is also amusing, which is
 something new for this kind of content).</p>
 <blockquote>
 <p>It’s just another day… and you’re just doing what you need to do. You’re
@@ -2146,7 +2319,7 @@ awesomeness.</p>
       <pubDate>Tue, 03 Aug 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/finlands-intriguing-take-on-the-homelessness-problem/</guid>
       <description>In Finland, the number of homeless people has fallen sharply. The reason: The country applies the “Housing First” concept. Those affected by homelessness receive a small apartment and counselling – without any preconditions. 4 out of 5 people affected thus make their way back into a stable life. And: All this is cheaper than accepting homelessness.
-Finland&amp;rsquo;s [take on the homelessness problem][1] is remarkable and gives hope. I live in a small town where the problem is not as apparent as in, say, San Francisco.</description>
+Finland&amp;rsquo;s take on the homelessness problem is remarkable and gives hope. I live in a small town where the problem is not as apparent as in, say, San Francisco.</description>
       <content:encoded><![CDATA[<blockquote>
 <p>In Finland, the number of homeless people has fallen sharply. The reason: The
 country applies the “Housing First” concept. Those affected by homelessness
@@ -2154,7 +2327,7 @@ receive a small apartment and counselling – without any preconditions. 4 out
 of 5 people affected thus make their way back into a stable life. And: All
 this is cheaper than accepting homelessness.</p>
 </blockquote>
-<p>Finland&rsquo;s [take on the homelessness problem][1] is remarkable and gives hope.
+<p>Finland&rsquo;s <a href="https://scoop.me/housing-first-finland-homelessness/">take on the homelessness problem</a> is remarkable and gives hope.
 I live in a small town where the problem is not as apparent as in, say, San
 Francisco. Whenever I think back to my short time in San Francisco, I shudder
 at the terrifying homelessness situation I met there. There, in San Francisco,
@@ -2166,15 +2339,15 @@ I realized the magnitude of &ldquo;true liberalism&rdquo;&rsquo;s failure.</p>
       <link>https://nicolaiarocci.com/on-github-copilot/</link>
       <pubDate>Sat, 24 Jul 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-github-copilot/</guid>
-      <description>Like everyone else on the planet, I&amp;rsquo;ve been following [GitHub Copilot][1] since its launch. It is an impressive achievement and a remarkable milestone for the deep learning industry, that&amp;rsquo;s for sure. We are obviously at the early stages in deep learning applied to software development, and it is somewhat unsettling to ponder what the future might hold in this field.
-Like many others, however, I worry about code quality issues and the risk of license infringements[^2].</description>
-      <content:encoded><![CDATA[<p>Like everyone else on the planet, I&rsquo;ve been following [GitHub Copilot][1] since
+      <description>Like everyone else on the planet, I&amp;rsquo;ve been following GitHub Copilot since its launch. It is an impressive achievement and a remarkable milestone for the deep learning industry, that&amp;rsquo;s for sure. We are obviously at the early stages in deep learning applied to software development, and it is somewhat unsettling to ponder what the future might hold in this field.
+Like many others, however, I worry about code quality issues and the risk of license infringements1.</description>
+      <content:encoded><![CDATA[<p>Like everyone else on the planet, I&rsquo;ve been following <a href="https://copilot.github.com/">GitHub Copilot</a> since
 its launch. It is an impressive achievement and a remarkable milestone for the
 deep learning industry, that&rsquo;s for sure. We are obviously at the early stages
 in deep learning applied to software development, and it is somewhat unsettling
 to ponder what the future might hold in this field.</p>
 <p>Like many others, however, I worry about code quality issues and the risk of
-license infringements[^2]. I am also concerned that the advent of Copilot-like
+license infringements<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. I am also concerned that the advent of Copilot-like
 tools might fundamentally change the software developer experience, if not the
 software developer role as a whole, and for the worst.</p>
 <p>I wrote down some notes preparing for an in-depth Copilot article, but then
@@ -2220,8 +2393,24 @@ utterly convinced that deep understanding is important. But increasingly,
 I feel like I&rsquo;m swimming upstream. It seems like most people in our industry
 care far more about &ldquo;how to do&rdquo; rather than &ldquo;how does it work&rdquo;.</p>
 </blockquote>
-<p>Copilot is great and feels like magic[^5]. And precisely for that reason, at my
+<p>Copilot is great and feels like magic<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. And precisely for that reason, at my
 company, we&rsquo;re not going to adopt it.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>For example, see Armin Ronacher&rsquo;s  on Copilot <a href="https://twitter.com/mitsuhiko/status/1410886329924194309">regurgitating famous, GPL-license code</a>.
+[3]: <a href="https://www.fast.ai/2021/07/19/copilot/">https://www.fast.ai/2021/07/19/copilot/</a>
+[4]: <a href="https://ericsink.com/entries/depth.html">https://ericsink.com/entries/depth.html</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Any sufficiently advanced technology is indistinguishable from magic <em>&ndash;Arthur C. Clark</em>
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -2229,11 +2418,11 @@ company, we&rsquo;re not going to adopt it.</p>
       <link>https://nicolaiarocci.com/the-internet-is-rotting/</link>
       <pubDate>Sat, 17 Jul 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-internet-is-rotting/</guid>
-      <description>Terrific piece by Jonathan Zittrain, on The Atlantic, on [link rot and digital preservation][1]. I love how well documented and informative it is. Yet, it remains perfectly approachable for both the non-knowledgeable reader and the technically savvy.
+      <description>Terrific piece by Jonathan Zittrain, on The Atlantic, on link rot and digital preservation. I love how well documented and informative it is. Yet, it remains perfectly approachable for both the non-knowledgeable reader and the technically savvy.
 Too much has been lost already. The glue that holds humanity’s knowledge together is coming undone.
 We need more content like this.</description>
-      <content:encoded><![CDATA[<p>Terrific piece by Jonathan Zittrain, on The Atlantic, on [link rot and digital
-preservation][1]. I love how well documented and informative it is. Yet, it
+      <content:encoded><![CDATA[<p>Terrific piece by Jonathan Zittrain, on The Atlantic, on <a href="https://www.theatlantic.com/technology/archive/2021/06/the-internet-is-a-collective-hallucination/619320/">link rot and digital
+preservation</a>. I love how well documented and informative it is. Yet, it
 remains perfectly approachable for both the non-knowledgeable reader and the
 technically savvy.</p>
 <blockquote>
@@ -2248,11 +2437,11 @@ together is coming undone.</p>
       <link>https://nicolaiarocci.com/prousts-madeleine-was-originally-a-slice-of-toast/</link>
       <pubDate>Thu, 15 Jul 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/prousts-madeleine-was-originally-a-slice-of-toast/</guid>
-      <description>A long-sought first draft of Marcel Proust&amp;rsquo;s &amp;lsquo;In Search of Lost Time&amp;rsquo; surfaced a few years ago. Its fascinating story and intriguing news are revealed in a Tablet article titled [Proust&amp;rsquo;s Madeleine Was Originally a Slice Toast][1].
+      <description>A long-sought first draft of Marcel Proust&amp;rsquo;s &amp;lsquo;In Search of Lost Time&amp;rsquo; surfaced a few years ago. Its fascinating story and intriguing news are revealed in a Tablet article titled Proust&amp;rsquo;s Madeleine Was Originally a Slice Toast.
 Being the Tablet &amp;ldquo;a daily online magazine of Jewish news, ideas, and culture&amp;rdquo;, it makes sense that a good part of the article focuses on Proust&amp;rsquo;s ambivalence about his Jewishness. Still, there are many other interesting tidbits to be learned.</description>
       <content:encoded><![CDATA[<p>A long-sought first draft of Marcel Proust&rsquo;s &lsquo;In Search of Lost Time&rsquo; surfaced
 a few years ago. Its fascinating story and intriguing news are revealed in
-a Tablet article titled [Proust&rsquo;s Madeleine Was Originally a Slice Toast][1].</p>
+a Tablet article titled <a href="https://www.tabletmag.com/sections/arts-letters/articles/proust-madeleine-antisemitism-jewishness">Proust&rsquo;s Madeleine Was Originally a Slice Toast</a>.</p>
 <p>Being the Tablet &ldquo;a daily online magazine of Jewish news, ideas, and culture&rdquo;,
 it makes sense that a good part of the article focuses on Proust&rsquo;s ambivalence
 about his Jewishness. Still, there are many other interesting tidbits to be
@@ -2278,9 +2467,9 @@ who &ldquo;though only five-and-a-half years-old, was of a rather violent nature
       <link>https://nicolaiarocci.com/a-beginners-guide-to-miles-davis/</link>
       <pubDate>Sun, 27 Jun 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/a-beginners-guide-to-miles-davis/</guid>
-      <description>Sam Enright assembled a friendly [Beginner&amp;rsquo;s Guide to Miles Davis][1]. If you&amp;rsquo;ve always been curious about jazz but never really managed to get into it, then this resource might serve as a good starting point. I cannot say I&amp;rsquo;m one hundred per cent aligned with his choices, but we&amp;rsquo;re close. One remarkable statement I concur with is this one:
+      <description>Sam Enright assembled a friendly Beginner&amp;rsquo;s Guide to Miles Davis. If you&amp;rsquo;ve always been curious about jazz but never really managed to get into it, then this resource might serve as a good starting point. I cannot say I&amp;rsquo;m one hundred per cent aligned with his choices, but we&amp;rsquo;re close. One remarkable statement I concur with is this one:
 Jazz is so interesting to me because of its fusion of intricate underlying structure with improvisation and spontaneity.</description>
-      <content:encoded><![CDATA[<p>Sam Enright assembled a friendly [Beginner&rsquo;s Guide to Miles Davis][1]. If
+      <content:encoded><![CDATA[<p>Sam Enright assembled a friendly <a href="https://samenright.com/2021/06/06/a-beginners-guide-to-miles-davis/">Beginner&rsquo;s Guide to Miles Davis</a>. If
 you&rsquo;ve always been curious about jazz but never really managed to get into it,
 then this resource might serve as a good starting point. I cannot say I&rsquo;m one
 hundred per cent aligned with his choices, but we&rsquo;re close. One remarkable
@@ -2307,14 +2496,14 @@ move you, I am sorry, you&rsquo;re probably not a jazz person.</p>
       <link>https://nicolaiarocci.com/linus-torvalds-addresses-an-anti-vaxxer/</link>
       <pubDate>Mon, 14 Jun 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/linus-torvalds-addresses-an-anti-vaxxer/</guid>
-      <description>Linus Torvalds&amp;rsquo; [reply to an anti-vaxxer][1] on the Linux kernel list is a must-read. Pre-2018, Linus would have destroyed the poor chump. He&amp;rsquo;s discouraging further discussion (Kernel list is not the place for that) while providing crystal clear and detailed mRNA vaccine information, all without renouncing to an opening salvo of his good-ole, grumpy style.
-As John Gruber [affirms][2], this is one rant we can all get behind.</description>
-      <content:encoded><![CDATA[<p>Linus Torvalds&rsquo; [reply to an anti-vaxxer][1] on the Linux kernel list is
+      <description>Linus Torvalds&amp;rsquo; reply to an anti-vaxxer on the Linux kernel list is a must-read. Pre-2018, Linus would have destroyed the poor chump. He&amp;rsquo;s discouraging further discussion (Kernel list is not the place for that) while providing crystal clear and detailed mRNA vaccine information, all without renouncing to an opening salvo of his good-ole, grumpy style.
+As John Gruber affirms, this is one rant we can all get behind.</description>
+      <content:encoded><![CDATA[<p>Linus Torvalds&rsquo; <a href="https://lore.kernel.org/ksummit/CAHk-=wiB6FJknDC5PMfpkg4gZrbSuC3d391VyReM4Wb0+JYXXA@mail.gmail.com/">reply to an anti-vaxxer</a> on the Linux kernel list is
 a must-read. Pre-2018, Linus would have destroyed the poor chump. He&rsquo;s
 discouraging further discussion (Kernel list is not the place for that) while
 providing crystal clear and detailed mRNA vaccine information, all without
 renouncing to an opening salvo of his good-ole, grumpy style.</p>
-<p>As John Gruber [affirms][2], this is one rant we can all get behind.</p>
+<p>As John Gruber <a href="https://daringfireball.net/linked/2021/06/10/linus-torvalds">affirms</a>, this is one rant we can all get behind.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -2322,10 +2511,10 @@ renouncing to an opening salvo of his good-ole, grumpy style.</p>
       <link>https://nicolaiarocci.com/open-source-what-happens-when-the-free-lunch-ends/</link>
       <pubDate>Fri, 04 Jun 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/open-source-what-happens-when-the-free-lunch-ends/</guid>
-      <description>The article I&amp;rsquo;m linking today is authored by Aaron Stannard and focuses on [the drama currently going on in the .NET Open Source ecosystem][4]. We&amp;rsquo;ve all been there. A dependency we took aeons ago goes unmaintained or changes its licensing model. Why does this happen? Because at some point, projects need to become sustainable or else they fail.
+      <description>The article I&amp;rsquo;m linking today is authored by Aaron Stannard and focuses on the drama currently going on in the .NET Open Source ecosystem. We&amp;rsquo;ve all been there. A dependency we took aeons ago goes unmaintained or changes its licensing model. Why does this happen? Because at some point, projects need to become sustainable or else they fail.
 [&amp;hellip;] it&amp;rsquo;s inexpensive for maintainers to support a small number of users with relatively similar demands - but once a project achieves critical mass and the demand on the maintainers exceeds their desire to supply, something will have to give.</description>
-      <content:encoded><![CDATA[<p>The article I&rsquo;m linking today is authored by Aaron Stannard and focuses on [the
-drama currently going on in the .NET Open Source ecosystem][4]. We&rsquo;ve all been
+      <content:encoded><![CDATA[<p>The article I&rsquo;m linking today is authored by Aaron Stannard and focuses on <a href="https://aaronstannard.com/dotnetoss-free-lunch-ends/">the
+drama currently going on in the .NET Open Source ecosystem</a>. We&rsquo;ve all been
 there. A dependency we took aeons ago goes unmaintained or changes its
 licensing model. Why does this happen? Because at some point, projects need to
 become sustainable or else they fail.</p>
@@ -2377,12 +2566,12 @@ certainly not less.</p>
       <link>https://nicolaiarocci.com/trade-wars-2002-and-its-connection-to-eve-online/</link>
       <pubDate>Sat, 29 May 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/trade-wars-2002-and-its-connection-to-eve-online/</guid>
-      <description>Trade Wars 2002 was a great 1991 online game I hosted on one of my BBSes [back in the day][1]. Not sure if it was Lorien or Phoenix BBS; it might have been the latter given the game&amp;rsquo;s release date. I totally forgot TW2002 until yesterday when I spotted this [1991: Trade Wars 2002][2] article on the 50 Years of Text Games newsletter.
+      <description>Trade Wars 2002 was a great 1991 online game I hosted on one of my BBSes back in the day. Not sure if it was Lorien or Phoenix BBS; it might have been the latter given the game&amp;rsquo;s release date. I totally forgot TW2002 until yesterday when I spotted this 1991: Trade Wars 2002 article on the 50 Years of Text Games newsletter.
 I humbly confess that, until yesterday, I never made the obvious connection between TW2002 and Eve Online.</description>
-      <content:encoded><![CDATA[<p>Trade Wars 2002 was a  great 1991 online game I hosted on one of my BBSes [back
-in the day][1]. Not sure if it was Lorien or Phoenix BBS; it might have been
+      <content:encoded><![CDATA[<p>Trade Wars 2002 was a  great 1991 online game I hosted on one of my BBSes <a href="https://nicolaiarocci.com/a-trip-down-memory-lane-fidonet-and-usenet/">back
+in the day</a>. Not sure if it was Lorien or Phoenix BBS; it might have been
 the latter given the game&rsquo;s release date. I totally forgot TW2002 until
-yesterday when I spotted this [1991: Trade Wars 2002][2] article on the <em>50
+yesterday when I spotted this <a href="https://if50.substack.com/p/1991-trade-wars-2002">1991: Trade Wars 2002</a> article on the <em>50
 Years of Text Games</em> newsletter.</p>
 <p><img loading="lazy" src="/images/trade-wars-2002.png" alt="Trade Wards 2002"  />
 </p>
@@ -2420,7 +2609,7 @@ goods and coordinate against law-abiding Federation forces.</p>
 </blockquote>
 <p>Eve was (probably still is) a fantastic concept. I was Jexter the Caldari. With
 my friend Fist, we founded a small roleplaying space-pirate group known as
-Jokers. Back in our time, I think [we made the news][3].</p>
+Jokers. Back in our time, I think <a href="https://oldforums.eveonline.com/?a=topic&amp;threadID=356966">we made the news</a>.</p>
 <p><img loading="lazy" src="/images/eve-online-space-station.png" alt="Eve&amp;rsquo;s Online 2009 Space Station"  />
 </p>
 <p>But what we found always missing was space station interaction. Besides
@@ -2435,10 +2624,10 @@ could have kept me in the game for far longer.</p>
       <link>https://nicolaiarocci.com/on-programming-and-writing/</link>
       <pubDate>Tue, 25 May 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-programming-and-writing/</guid>
-      <description>My brilliant friend Salvatore Sanfilippo (otherwise known as antirez of Redis fame) has an interesting write-up on [his website][1]. How similar is programming to prose writing? After getting his own feet wet with novel writing, he is convinced that the two activities share many common traits.
+      <description>My brilliant friend Salvatore Sanfilippo (otherwise known as antirez of Redis fame) has an interesting write-up on his website. How similar is programming to prose writing? After getting his own feet wet with novel writing, he is convinced that the two activities share many common traits.
 One year ago I paused my programming life and started writing a novel, with the illusion that my new activity was deeply different than the previous one.</description>
       <content:encoded><![CDATA[<p>My brilliant friend Salvatore Sanfilippo (otherwise known as antirez of Redis
-fame) has an interesting write-up on [his website][1]. How similar is
+fame) has an interesting write-up on <a href="http://antirez.com/news/135">his website</a>. How similar is
 programming to prose writing? After getting his own feet wet with novel
 writing, he is convinced that the two activities share many common traits.</p>
 <blockquote>
@@ -2463,10 +2652,18 @@ creation, and even if the original core was just a tiny faction of the future
 mass the system would eventually assume.</p>
 </blockquote>
 <p>I suspect that his line of reasoning might be influenced by some sort
-of confirmation bias[^2].  We are inclined to notice similarities between our
+of confirmation bias<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.  We are inclined to notice similarities between our
 own activities, especially so when we perform them passionately. While common
 patterns emerge naturally, differences, even remarkable ones, tend to go
 unnoticed.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The term <em>confirmation bias</em> is probably misused in this context. I am sure there is a better definition; it just eludes me and my own ignorance.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -2474,11 +2671,11 @@ unnoticed.</p>
       <link>https://nicolaiarocci.com/the-grim-secret-of-nordic-happiness/</link>
       <pubDate>Wed, 12 May 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-grim-secret-of-nordic-happiness/</guid>
-      <description>For decades Scandinavian countries have been renowned for their educational systems, low levels of corruption, sustainable economy, social justice, overall quality of life. According to [Jukka Savolainen on Slate][1], the reason why Finns have now been dominating the World Happiness Report four years in a row has little to do with these factors and more with their life expectations.
+      <description>For decades Scandinavian countries have been renowned for their educational systems, low levels of corruption, sustainable economy, social justice, overall quality of life. According to Jukka Savolainen on Slate, the reason why Finns have now been dominating the World Happiness Report four years in a row has little to do with these factors and more with their life expectations.
 Savolainen perspective is interesting because he is a Finn living in the US.</description>
       <content:encoded><![CDATA[<p>For decades Scandinavian countries have been renowned for their educational
 systems, low levels of corruption, sustainable economy, social justice, overall
-quality of life. According to [Jukka Savolainen on Slate][1], the reason why
+quality of life. According to <a href="https://slate.com/news-and-politics/2021/04/finland-happiness-lagom-hygge.html">Jukka Savolainen on Slate</a>, the reason why
 Finns have now been dominating the World Happiness Report four years in a row
 has little to do with these factors and more with their life expectations.</p>
 <p>Savolainen perspective is interesting because he is a Finn living in the US. He
@@ -2535,7 +2732,7 @@ a must-see.</p>
       <pubDate>Sun, 18 Apr 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/adding-is-favoured-over-subtracting-in-problem-solving-and-software-systems/</guid>
       <description>Consider the 10x10 grids of green and white boxes below. How would you make them symmetrical? Most people would add green boxes to the emptier half of the grid rather than remove them from the fuller half. Even when the latter would have been more efficient.
-The case, along with a similar problem revolving around the stability of a peculiar lego structure, is reported by an [intriguing Nature article][1] on the topic of psychology and human behaviour.</description>
+The case, along with a similar problem revolving around the stability of a peculiar lego structure, is reported by an intriguing Nature article on the topic of psychology and human behaviour.</description>
       <content:encoded><![CDATA[<p>Consider the 10x10 grids of green and white boxes below. How would you
 make them symmetrical? Most people would add green boxes to the emptier half of
 the grid rather than remove them from the fuller half. <em>Even when the latter
@@ -2543,7 +2740,7 @@ would have been more efficient</em>.</p>
 <p><img loading="lazy" src="/images/asymmetrical-grid.jpg" alt=""  />
 </p>
 <p>The case, along with a similar problem revolving around the stability of
-a peculiar lego structure, is reported by an [intriguing Nature article][1] on
+a peculiar lego structure, is reported by an <a href="https://www.nature.com/articles/d41586-021-00592-0">intriguing Nature article</a> on
 the topic of psychology and human behaviour. The paper linked to the piece
 demonstrates that people consistently consider changes that add components over
 those that subtract them.</p>
@@ -2557,7 +2754,7 @@ be equally effective to get rid of a cluttering coffee table.  [&hellip;] On
 a grander scale, the favouring of additive solutions by individual
 decision-makers might contribute to problematic societal phenomena, such as
 the increasing expansion of formal organizations4 and the near-universal but
-environmentally unsustainable quest for economic growth. ([source][1])</p>
+environmentally unsustainable quest for economic growth. (<a href="https://www.nature.com/articles/d41586-021-00592-0">source</a>)</p>
 </blockquote>
 <p>Is the innate tendency to favour additive solutions contributing to the entropy
 of the software systems we build? And if so, isn&rsquo;t over-engineering, the
@@ -2572,14 +2769,14 @@ my bet is on a hard yes on both questions.</p>
       <pubDate>Sat, 17 Apr 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/sqlite-is-the-only-database-you-will-ever-need-in-most-cases/</guid>
       <description>The name SQLite is a nice name, but the &amp;ldquo;lite&amp;rdquo; part is misleading, it sounds like it is only useful for tiny things - which is very wrong. SQLite should be named AwesomeSQL, because that is what it is. SQLite is probably the only database you will ever need in most cases
-Yeah. [This article][1] resonates with me. SQLite is the de-facto standard engine for embedded systems. But it should also be the go-to database for all those websites and services that don&amp;rsquo;t need to scale to multiple machines.</description>
+Yeah. This article resonates with me. SQLite is the de-facto standard engine for embedded systems. But it should also be the go-to database for all those websites and services that don&amp;rsquo;t need to scale to multiple machines.</description>
       <content:encoded><![CDATA[<blockquote>
 <p>The name SQLite is a nice name, but the &ldquo;lite&rdquo; part is misleading, it sounds
 like it is only useful for tiny things - which is very wrong. SQLite should
 be named AwesomeSQL, because that is what it is. SQLite is probably the only
 database you will ever need in most cases</p>
 </blockquote>
-<p>Yeah. [This article][1] resonates with me. SQLite is the de-facto standard
+<p>Yeah. <a href="https://unixsheikh.com/articles/sqlite-the-only-database-you-will-ever-need-in-most-cases.html">This article</a> resonates with me. SQLite is the de-facto standard
 engine for embedded systems. But it should also be the go-to database for all
 those websites and services that don&rsquo;t need to scale to multiple machines.
 Which, in the real world, happens way more frequently than we all imagine.</p>
@@ -2615,7 +2812,7 @@ bible of jazz is a complicated one. It’s a story about what happens when an
 insurgent, improvisational art form like Jazz gets codified and becomes
 something that you can learn from a book.</p>
 </blockquote>
-<p>The whole story, both as text or podcast, is available [here][1].</p>
+<p>The whole story, both as text or podcast, is available <a href="https://99percentinvisible.org/episode/the-real-book/">here</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -2632,8 +2829,8 @@ tidy like that the whole workday. It must feel so good.</p>
 <p>I try to keep my windows well arranged. The typical setup might be two windows,
 from two different apps, tiled side by side. Maybe the browser, or Postman, on
 the right, and my favourite editor on the left. Stuff like that.</p>
-<p>[Hookshot][1] is excellent for doing just that. I discovered this tiny little
-app a few weeks ago, thanks to [Robin Rendle][2]. Before, I was using Moom,
+<p><a href="https://hookshot.app/">Hookshot</a> is excellent for doing just that. I discovered this tiny little
+app a few weeks ago, thanks to <a href="https://www.robinrendle.com/notes/hookshot">Robin Rendle</a>. Before, I was using Moom,
 which is also good. I like Hookshot&rsquo;s dead-simple keyboard shortcuts. Once the
 single modifier key combo <em>Control+Command</em> clicks, you&rsquo;re done. Rearranging
 windows becomes a no-brainer. In a way, the experience reminds me of Vim and
@@ -2647,7 +2844,7 @@ I purchased the license right away.</p>
       <pubDate>Thu, 01 Apr 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-hitchhikers-guide-to-online-anonymity/</guid>
       <description>This is a maintained technical guide that aims to provide introduction to various online tracking techniques, online id verification techniques and guidance to creating and maintaining (truly) anonymous online identities including social media accounts safely and legally. No pre-requisites besides English reading are required.
-At a glance, I suspect most people will be tempted to dismiss [The Hitchhiker&amp;rsquo;s Guide to Online Anonymity][1] as borderline paranoia. But make no mistake, it is a great resource.</description>
+At a glance, I suspect most people will be tempted to dismiss The Hitchhiker&amp;rsquo;s Guide to Online Anonymity as borderline paranoia. But make no mistake, it is a great resource.</description>
       <content:encoded><![CDATA[<blockquote>
 <p>This is a maintained technical guide that aims to provide introduction to
 various online tracking techniques, online id verification techniques and
@@ -2655,8 +2852,8 @@ guidance to creating and maintaining (truly) anonymous online identities
 including social media accounts safely and legally. No pre-requisites besides
 English reading are required.</p>
 </blockquote>
-<p>At a glance, I suspect most people will be tempted to dismiss [The Hitchhiker&rsquo;s
-Guide to Online Anonymity][1] as borderline paranoia. But make no mistake, it
+<p>At a glance, I suspect most people will be tempted to dismiss <a href="https://anonymousplanet.org/index.html">The Hitchhiker&rsquo;s
+Guide to Online Anonymity</a> as borderline paranoia. But make no mistake, it
 is a great resource. Granted, not everyone on the Internet is interested in
 anonymous identities (I am not) or concerned about NSA or the Mossad hunting
 them down. People have different threat levels.</p>
@@ -2673,7 +2870,7 @@ chocked-full of links to valuable resources.</p>
       <pubDate>Sat, 27 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/get-better-at-programming-by-learning-how-things-work/</guid>
       <description>When we talk about getting better at programming, we often talk about testing, writing reusable code, design patterns, and readability. All of those things are important. But in this blog post, I want to talk about a different way to get better at programming: learning how the systems you’re using work! This is the main way I approach getting better at programming.
-Once again, Julia Evans has great sensible advice up on [her site][1].</description>
+Once again, Julia Evans has great sensible advice up on her site.</description>
       <content:encoded><![CDATA[<blockquote>
 <p>When we talk about getting better at programming, we often talk about
 testing, writing reusable code, design patterns, and readability. All of
@@ -2681,7 +2878,7 @@ those things are important. But in this blog post, I want to talk about
 a different way to get better at programming: learning how the systems you’re
 using work! This is the main way I approach getting better at programming.</p>
 </blockquote>
-<p>Once again, Julia Evans has great sensible advice up on [her site][1].</p>
+<p>Once again, Julia Evans has great sensible advice up on <a href="https://jvns.ca/blog/learn-how-things-work/">her site</a>.</p>
 <p>I appreciate her note on how today we work with so many complex systems that it
 is next to impossible to understand all of them.  The experienced developer
 comes at peace with that, acknowledges ignorance, and, more importantly,
@@ -2698,8 +2895,8 @@ it.</p>
       <link>https://nicolaiarocci.com/write-libraries-not-services-not-so-fast/</link>
       <pubDate>Thu, 25 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/write-libraries-not-services-not-so-fast/</guid>
-      <description>[Write libraries instead of services][1] is an interesting article I read a while ago. I cannot get it off my head. In an attempt to clear up my mind, I decided to sit down and write about it. I have been writing libraries for a good part of my life. Most of my earlier dev-work resides on thousands of computers in the form of libraries. More recently, I have been writing and deploying remote services.</description>
-      <content:encoded><![CDATA[<p>[Write libraries instead of services][1] is an interesting article I read
+      <description>Write libraries instead of services is an interesting article I read a while ago. I cannot get it off my head. In an attempt to clear up my mind, I decided to sit down and write about it. I have been writing libraries for a good part of my life. Most of my earlier dev-work resides on thousands of computers in the form of libraries. More recently, I have been writing and deploying remote services.</description>
+      <content:encoded><![CDATA[<p><a href="http://catern.com/services.html">Write libraries instead of services</a> is an interesting article I read
 a while ago. I cannot get it off my head. In an attempt to clear up my mind,
 I decided to sit down and write about it. I have been writing libraries for
 a good part of my life. Most of my earlier dev-work resides on thousands of
@@ -2741,7 +2938,7 @@ development, maintenance, distribution, documentation, etc.  Maybe the
 article&rsquo;s author has the luxury of not having to deal with support himself.
 Still, there&rsquo;s someone else at his company who has to do that.</p>
 <p>A service, on the other hand, represents a single point of failure. If it goes
-down, all users are immediately affected[^2]. By contrast, a nasty bug in your
+down, all users are immediately affected<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. By contrast, a nasty bug in your
 library will only affect the unlucky users on that version. Now, <em>this</em> makes
 a significant advantage for distributed libraries.</p>
 <p>Your service, however, will talk to all languages via REST, GraphQL, or any
@@ -2757,6 +2954,14 @@ support it). Others, quite frankly, I don&rsquo;t understand.</p>
 <p>Many factors influence the choice between service and library, use case and
 prevailing circumstances being the main ones. I am not even sure they are
 comparable, as they tend to solve different problems.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I know first hand. We&rsquo;ve recently been impacted by a catastrophic event that happened to one of our providers. Our services went down and, with them, a good part of our users. How we overcame the situation and what we learned in the process would probably be worth telling, maybe in a future article.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -2775,7 +2980,7 @@ better, faster, stronger&rdquo;, yes, but hardly a revolution.</p>
 <p>My pusher of digital memorabilia is Jimmy Maher, also known as [The Digital
 Antiquarian][5]. One month ago, he wrote a [fantastic article][3] on Origin&rsquo;s
 Ultima VIII Pagan. Then, just the other day, he doubled down with a [terrific
-piece][4] on Looking Glass&rsquo; System Shock. Both are games I played fervidly[^1].</p>
+piece][4] on Looking Glass&rsquo; System Shock. Both are games I played fervidly<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
 <p>Maher is not kind to Pagan:</p>
 <blockquote>
 <p>But then, for the eighth game in the mainline Ultima series, Origin decided
@@ -2807,13 +3012,27 @@ but truth nevertheless — of the world it drops you into.</p>
 </blockquote>
 <p>I have always been a System Shock guy more than a DOOM person. I really like
 how Maher compares the two games and the software companies that produced them,
-more or less in the same time-span[^2].</p>
+more or less in the same time-span<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
 <p>In Maher&rsquo;s reconstructions, what I find to be more appealing is not the games
 themselves with their mechanics but rather the history behind them. How the
 dev-team conceived and then developed their projects.</p>
 <p>After so many years, I am thankful to Maher for bringing these two games back
 to memory. Now, I am impatiently waiting for his Ultima Online installment.
 I know it <em>must</em> be on his list, right?</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>In my library, I keep the original Pagan box as a relic, along with Ultima VII Serpent Island and a few other titles from around that age:  Spectrum Holobyte&rsquo;s Falcon 3.0, Command and Conquer, Dune II Battle for Arrakis, Ultima Online: Charter Edition, and a few others.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>By the way, if you haven&rsquo;t already, I strongly advise you to read <em>Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture</em> by David Kushner.
+[3]: <a href="https://www.filfre.net/2021/02/ultima-viii-or-how-to-destroy-a-gaming-franchise-in-one-easy-step/">https://www.filfre.net/2021/02/ultima-viii-or-how-to-destroy-a-gaming-franchise-in-one-easy-step/</a>
+[4]: <a href="https://www.filfre.net/2021/03/system-shock/">https://www.filfre.net/2021/03/system-shock/</a>
+[5]: <a href="https://www.filfre.net/">https://www.filfre.net/</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -2822,7 +3041,7 @@ I know it <em>must</em> be on his list, right?</p>
       <pubDate>Tue, 16 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-write-good-software-documentation/</guid>
       <description>There is a secret that needs to be understood in order to write good software documentation: there isn’t one thing called documentation, there are four. They are: tutorials, how-to guides, technical reference and explanation. They represent four different purposes or functions, and require four different approaches to their creation. Understanding the implications of this will help improve most documentation - often immensely.
-I dig Daniele Procida&amp;rsquo;s take on [writing good software documentation][1].</description>
+I dig Daniele Procida&amp;rsquo;s take on writing good software documentation.</description>
       <content:encoded><![CDATA[<blockquote>
 <p>There is a secret that needs to be understood in order to write good software
 documentation: there isn’t one thing called documentation, there are four.
@@ -2831,7 +3050,7 @@ represent four different purposes or functions, and require four different
 approaches to their creation. Understanding the implications of this will
 help improve most documentation - often immensely.</p>
 </blockquote>
-<p>I dig Daniele Procida&rsquo;s take on [writing good software documentation][1]. It
+<p>I dig Daniele Procida&rsquo;s take on <a href="https://documentation.divio.com/">writing good software documentation</a>. It
 just makes sense. The system is simple, comprehensive, and, crucial,
 universally-applicable. The &ldquo;four different functions&rdquo; scheme works equally
 well if you are writing for a technical-savvy audience or the general public,
@@ -2856,9 +3075,10 @@ wasting a great deal of time trying to wrestle the information they want to
 impart into a shape that makes sense, because each of these kinds of
 documentation has only one job.</p>
 </blockquote>
-<p>I wish I had this resource at hand when I was writing the docs for [my open
-source projects][2]. I think will adopt this framework on the next occasion,
+<p>I wish I had this resource at hand when I was writing the docs for <a href="/opensource/">my open
+source projects</a>. I think will adopt this framework on the next occasion,
 which will be very soon.</p>
+<p>@<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter*</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -2886,9 +3106,9 @@ Stephen&rsquo;s above</p>
       <link>https://nicolaiarocci.com/you-have-to-write-as-though-your-parents-are-dead/</link>
       <pubDate>Fri, 12 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/you-have-to-write-as-though-your-parents-are-dead/</guid>
-      <description>The Literary Hub has a great short [interview][1] with Ian McEwan.
+      <description>The Literary Hub has a great short interview with Ian McEwan.
 What’s the best writing advice you’ve ever received? When I was living in London at the start of my career in the mid-1970s, I became friends with Philip Roth, who took an avuncular interest in my work. Where many others thought my writing was wild and weird, he thought I wasn’t being wild enough. He once came to my apartment and spread the typescript of my first novel (The Cement Garden) over the floor.</description>
-      <content:encoded><![CDATA[<p>The Literary Hub has a great short [interview][1] with Ian McEwan.</p>
+      <content:encoded><![CDATA[<p>The Literary Hub has a great short <a href="https://lithub.com/ian-mcewan-on-bach-philip-roth-and-living-an-episodic-life/">interview</a> with Ian McEwan.</p>
 <blockquote>
 <p><strong>What’s the best writing advice you’ve ever received?</strong>
 When I was living in London at the start of my career in the mid-1970s,
@@ -2940,12 +3160,12 @@ blank sheet that is you turns dog-eared.</p>
       <pubDate>Tue, 09 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/cleaning-up-your-postgres-database/</guid>
       <description>I am an application/backend developer who has to quibble with databases more often than desired. I can get my way around Postgres pretty well, but I can always use a hint or two, especially when it comes to fine-tuning and performance.
-I stumbled upon [Cleaning Up Your Postgres Databases][1]. It offers useful advice on spotting performance bottlenecks in your Postgres database. Take the cache and index hit queries, for example.</description>
+I stumbled upon Cleaning Up Your Postgres Databases. It offers useful advice on spotting performance bottlenecks in your Postgres database. Take the cache and index hit queries, for example.</description>
       <content:encoded><![CDATA[<p>I am an application/backend developer who has to quibble with databases more
 often than desired. I can get my way around Postgres pretty well, but I can
 always use a hint or two, especially when it comes to fine-tuning and
 performance.</p>
-<p>I stumbled upon [Cleaning Up Your Postgres Databases][1]. It offers useful
+<p>I stumbled upon <a href="http://blog.crunchydata.com/blog/cleaning-up-your-postgres-database">Cleaning Up Your Postgres Databases</a>. It offers useful
 advice on spotting performance bottlenecks in your Postgres database. Take the
 cache and index hit queries, for example.</p>
 <blockquote>
@@ -2964,10 +3184,10 @@ application making a lot of short requests I&rsquo;m going to target &gt; 99% he
       <link>https://nicolaiarocci.com/semantic-versioning-will-not-save-you/</link>
       <pubDate>Thu, 04 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/semantic-versioning-will-not-save-you/</guid>
-      <description>The always brilliant Hynek recently posted [Semantic Versioning Will Not Save You][1]. Primarily targeted at consumers of SemVer-versioned packages, it is full of insightful advice.
+      <description>The always brilliant Hynek recently posted Semantic Versioning Will Not Save You. Primarily targeted at consumers of SemVer-versioned packages, it is full of insightful advice.
 From my perspective as an open-source maintainer, I can tell you that versioning is hard. Judging when a new release is going to break backward compatibility is not as simple as it might seem on the surface, and Hynek does a great job explaining why. Sometimes it is also hard for me to tell if a change in a codebase classifies as a new feature, small improvement, or fix—subtle differences.</description>
-      <content:encoded><![CDATA[<p>The always brilliant Hynek recently posted [Semantic Versioning Will Not Save
-You][1]. Primarily targeted at <em>consumers</em> of SemVer-versioned packages, it is
+      <content:encoded><![CDATA[<p>The always brilliant Hynek recently posted <a href="https://hynek.me/articles/semver-will-not-save-you/">Semantic Versioning Will Not Save
+You</a>. Primarily targeted at <em>consumers</em> of SemVer-versioned packages, it is
 full of insightful advice.</p>
 <p>From my perspective as an open-source maintainer, I can tell you that
 versioning is hard. Judging when a new release is going to break backward
@@ -2978,13 +3198,13 @@ fix—subtle differences. In the context of SemVer, it matters a lot because
 version numbers have a meaning. Consumers will likely decide whether to upgrade
 or not based on that meaning.</p>
 <p>Admittedly, and precisely because I did not feel comfortable giving guarantees,
-the [Eve][1] project has been [0-versioned][3] for seven years. Seven years!
+the <a href="https://hynek.me/articles/semver-will-not-save-you/">Eve</a> project has been <a href="https://0ver.org/">0-versioned</a> for seven years. Seven years!
 I wanted it to be mature, battle-tested and stable; only then would I feel
 comfortable going 1.0. In Eve&rsquo;s case, 1.0 means not only &ldquo;stable&rdquo; but also
 &ldquo;done.&rdquo; All major features are in, and they are stable. I am not alone, of
 course. Flask, the web-framework on which Eve builds, has been 0-versioned for
 many years too. I&rsquo;ve also been on the receiving hand of SemVer-related issues,
-check the Eve backlog. The same happened with my other projects ([Cerberus][4]
+check the Eve backlog. The same happened with my other projects (<a href="https://python-cerberus.org">Cerberus</a>
 is the exception as it has no dependencies.)</p>
 <p>Hynek&rsquo;s point, I think, is that SemVer is a just convention. At each new
 release, a semantic-versioned package expresses the maintainer&rsquo;s intention, but
@@ -3005,9 +3225,9 @@ protecting your project from dependency hell.</p>
       <link>https://nicolaiarocci.com/reverse-engineering-an-obfuscated-codebase-and-fixing-it-in-the-process/</link>
       <pubDate>Tue, 02 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/reverse-engineering-an-obfuscated-codebase-and-fixing-it-in-the-process/</guid>
-      <description>Today&amp;rsquo;s mandatory reading is [How I cut GTA Online loading times by 70%][1].
+      <description>Today&amp;rsquo;s mandatory reading is How I cut GTA Online loading times by 70%.
 As someone who&amp;rsquo;s been fighting the protection/obfuscation cat &amp;amp; mouse game for twenty+ years, let me tell you one thing. The way this guy reverse-engineered parts of the GTA5 codebase and then proceeded to single-handly triage and fix a long-standing (7+ years) performance issue is simply mindblowing. All he had to work with were heavily obfuscated dlls. This also shows how we, the protectors, are always playing a losing game.</description>
-      <content:encoded><![CDATA[<p>Today&rsquo;s mandatory reading is [How I cut GTA Online loading times by 70%][1].</p>
+      <content:encoded><![CDATA[<p>Today&rsquo;s mandatory reading is <a href="https://nee.lv/2021/02/28/How-I-cut-GTA-Online-loading-times-by-70/">How I cut GTA Online loading times by 70%</a>.</p>
 <p>As someone who&rsquo;s been fighting the protection/obfuscation cat &amp; mouse game for
 twenty+ years, let me tell you one thing. The way this guy reverse-engineered
 parts of the GTA5 codebase and then proceeded to single-handly triage and fix
@@ -3020,7 +3240,7 @@ has replaced most instructions with gibberish. Not to worry, we simply need
 to dump the game&rsquo;s memory while it&rsquo;s executing the part we want to look at.
 The instructions have to be de-obfuscated before running one way or another.</p>
 </blockquote>
-<p>Make sure you read this [stuff][1].</p>
+<p>Make sure you read this <a href="https://nee.lv/2021/02/28/How-I-cut-GTA-Online-loading-times-by-70/">stuff</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -3028,10 +3248,10 @@ The instructions have to be de-obfuscated before running one way or another.</p>
       <link>https://nicolaiarocci.com/on-the-ceo-and-founder-of-signal/</link>
       <pubDate>Mon, 01 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-the-ceo-and-founder-of-signal/</guid>
-      <description>Last weekend&amp;rsquo;s reading list also included [Taking Back Our Privacy][1], yet another[^2] New Yorker piece but this time signed by Anna Wiener. This article is a long-read on Moxie Marlinspike, co-founder and CEO of Signal. Moxie is a childhood nickname. That alone signals (pun intended) an original personality. I mean, how many times have you heard of a CEO going by his childhood nickname?
+      <description>Last weekend&amp;rsquo;s reading list also included Taking Back Our Privacy, yet another1 New Yorker piece but this time signed by Anna Wiener. This article is a long-read on Moxie Marlinspike, co-founder and CEO of Signal. Moxie is a childhood nickname. That alone signals (pun intended) an original personality. I mean, how many times have you heard of a CEO going by his childhood nickname?
 Indeed the personal story of Marlinspike, along with that of the ascent of Signal, is fascinating.</description>
-      <content:encoded><![CDATA[<p>Last weekend&rsquo;s reading list also included [Taking Back Our Privacy][1], yet
-another[^2] New Yorker piece but this time signed by Anna Wiener. This article is
+      <content:encoded><![CDATA[<p>Last weekend&rsquo;s reading list also included <a href="https://www.newyorker.com/magazine/2020/10/26/taking-back-our-privacy">Taking Back Our Privacy</a>, yet
+another<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> New Yorker piece but this time signed by Anna Wiener. This article is
 a long-read on Moxie Marlinspike, co-founder and CEO of Signal. Moxie is
 a childhood nickname. That alone signals (pun intended) an original
 personality. I mean, how many times have you heard of a CEO going by his
@@ -3057,6 +3277,17 @@ loan.</p>
 He is not your average startup co-founder, not by any mean. He kind stands at
 the interconnection between activism, ethical hacking, and anarchy, and yet
 he&rsquo;s the CEO of a booming startup.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>See <a href="/the-activists-who-embrace-nuclear-power/">The Activists Who Embrace Nuclear Power</a>
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -3064,10 +3295,10 @@ he&rsquo;s the CEO of a booming startup.</p>
       <link>https://nicolaiarocci.com/the-activists-who-embrace-nuclear-power/</link>
       <pubDate>Sun, 28 Feb 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-activists-who-embrace-nuclear-power/</guid>
-      <description>Today, my Sunday long-reading list included New Yorker&amp;rsquo;s [The Activists Who Embrace Nuclear Power][1] by Rebecca Tuhus-Dubrow. Can nuclear power possibly be a viable solution for climate change? Twenty or even ten years ago, my answer would have been a big fat No. Today? Not so sure anymore.
+      <description>Today, my Sunday long-reading list included New Yorker&amp;rsquo;s The Activists Who Embrace Nuclear Power by Rebecca Tuhus-Dubrow. Can nuclear power possibly be a viable solution for climate change? Twenty or even ten years ago, my answer would have been a big fat No. Today? Not so sure anymore.
 Today, the looming disruptions of climate change have altered the risk calculus around nuclear energy. James Hansen, the NASA scientist credited with first bringing global warming to public attention, in 1988, has long advocated a vast expansion of nuclear power to replace fossil fuels.</description>
-      <content:encoded><![CDATA[<p>Today, my Sunday long-reading list included New Yorker&rsquo;s [The Activists Who
-Embrace Nuclear Power][1] by Rebecca Tuhus-Dubrow. Can nuclear power possibly
+      <content:encoded><![CDATA[<p>Today, my Sunday long-reading list included New Yorker&rsquo;s <a href="https://www.newyorker.com/tech/annals-of-technology/the-activists-who-embrace-nuclear-power">The Activists Who
+Embrace Nuclear Power</a> by Rebecca Tuhus-Dubrow. Can nuclear power possibly
 be a viable solution for climate change? Twenty or even ten years ago, my
 answer would have been a big fat No. Today? Not so sure anymore.</p>
 <blockquote>
@@ -3080,7 +3311,7 @@ have recognized that abruptly closing existing reactors would lead to a spike
 in emissions.</p>
 </blockquote>
 <p>I am surprised that the author, who clearly researched the topic well, did not
-mention Bill Gates&rsquo; [Mini-Reactors][2] approach to the problem. It might have
+mention Bill Gates&rsquo; <a href="https://www.forbes.com/sites/scottcarpenter/2020/08/31/bill-gates-nuclear-firm-says-new-reactor-can-backstop-grid-with-molten-salt-storage/">Mini-Reactors</a> approach to the problem. It might have
 been a deliberate choice, as at some point, she does note that &ldquo;scientists are
 working on smaller, more nimble nuclear reactors.&rdquo;</p>
 ]]></content:encoded>
@@ -3090,8 +3321,8 @@ working on smaller, more nimble nuclear reactors.&rdquo;</p>
       <link>https://nicolaiarocci.com/five-minutes-to-make-you-love-classical-music/</link>
       <pubDate>Thu, 25 Feb 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/five-minutes-to-make-you-love-classical-music/</guid>
-      <description>I already [mentioned][3] what background music (or sounds) I like when I am coding. In that list, I included classical music. I know classical is not exactly a favorite. Not in my field, at least. I suspect the vast majority of people disregard it in advance, not really knowing what they&amp;rsquo;re missing out on, just because, well, you know, it&amp;rsquo;s dinosaurs stuff. If you are among them, you should reconsider and repent your sins.</description>
-      <content:encoded><![CDATA[<p>I already [mentioned][3] what background music (or sounds) I like when I am
+      <description>I already mentioned what background music (or sounds) I like when I am coding. In that list, I included classical music. I know classical is not exactly a favorite. Not in my field, at least. I suspect the vast majority of people disregard it in advance, not really knowing what they&amp;rsquo;re missing out on, just because, well, you know, it&amp;rsquo;s dinosaurs stuff. If you are among them, you should reconsider and repent your sins.</description>
+      <content:encoded><![CDATA[<p>I already <a href="/what-i-listen-to-while-programming">mentioned</a> what background music (or sounds) I like when I am
 coding. In that list, I included classical music. I know classical is not
 exactly a favorite. Not in my field, at least. I suspect the vast majority of
 people disregard it in advance, not really knowing what they&rsquo;re missing out on,
@@ -3099,7 +3330,7 @@ just because, well, you know, it&rsquo;s dinosaurs stuff. If you are among them,
 should reconsider and repent your sins. But have no worries, and rejoice, for
 I am here to save your soul.</p>
 <p>Zachary Woolfe, The New York Times&rsquo;s classical music editor, has been working
-on [Five Minutes To Make You Love Classical Music][2]. This remarkable project aims
+on <a href="https://www.nytimes.com/interactive/2020/arts/music/five-minutes-love-music.html">Five Minutes To Make You Love Classical Music</a>. This remarkable project aims
 at &ldquo;hooking readers on classical music, five minutes at a time.&rdquo;</p>
 <blockquote>
 <p>Once a month online, about 15 musicians, pop-culture figures and Times
@@ -3107,7 +3338,7 @@ writers and editors each select the piece they would play for a friend tied
 to a theme, be it an instrument, composer, genre or voice type. The series
 aims to make classical music accessible to readers as a Top 40 track [&hellip;].
 You don&rsquo;t need to know the difference between a cadenza and a concerto. &ldquo;It&rsquo;s
-about pure pleasure and exploration.&rdquo; ([source][1])</p>
+about pure pleasure and exploration.&rdquo; (<a href="https://www.nytimes.com/2021/02/03/insider/five-minutes-love-classical-music.html">source</a>)</p>
 </blockquote>
 <p>I find this project interesting for many reasons, the main one being the
 variance of choices and themes. Picks are often excellent and not obvious. This
@@ -3118,7 +3349,7 @@ about Cecilia Bartoli for Baroque music?</p>
 <p>Mind you, I am not a classical music expert. I just try and like to listen to
 good music, regardless of the genre. I am probably the ideal target for
 a project like this, which explains why I keep coming back. My favorite?
-Probably [Five Minutes That Will Make You Love the Cello][4], although I am
+Probably <a href="https://www.nytimes.com/2020/06/03/arts/music/five-minutes-classical-music-cello.html">Five Minutes That Will Make You Love the Cello</a>, although I am
 having a hard time accepting that Bach&rsquo;s Suite No. 1 is not included in the
 selection (Suite No. 5 is, though.)</p>
 <p>Official NYT playlists for the series are available on Spotify and, I presume,
@@ -3175,8 +3406,8 @@ dyld: Library not loaded: @executable_path/../.Python
 <p>I never really took the time to look into it. When this happens, because I am
 in a rush (and because I am a lazy old fart), I shrug it off, recreate the
 virtual environment on the spot, and get back to work.</p>
-<p>My friend Justin Mayer knows better. The other day, he posted a [short
-insightful article][1] about this very same issue:</p>
+<p>My friend Justin Mayer knows better. The other day, he posted a <a href="https://justinmayer.com/posts/homebrew-python-is-not-for-you/">short
+insightful article</a> about this very same issue:</p>
 <blockquote>
 <p>Perhaps you heard stories about why you shouldn’t use the system-bundled
 Python, so instead you use Homebrew to install Python and then use its
@@ -3187,7 +3418,7 @@ environment… no longer exists. But how can that be? You didn’t change
 anything! You didn’t change anything… but Homebrew did.</p>
 </blockquote>
 <p>Homebrew is the culprit. If you have been affected (and if you have done any
-length of serious Python work, you have), then go [read][1] Justin&rsquo;s piece. He
+length of serious Python work, you have), then go <a href="https://justinmayer.com/posts/homebrew-python-is-not-for-you/">read</a> Justin&rsquo;s piece. He
 explains the whys and then goes into the hows you solve the problem for good.</p>
 ]]></content:encoded>
     </item>
@@ -3196,9 +3427,9 @@ explains the whys and then goes into the hows you solve the problem for good.</p
       <link>https://nicolaiarocci.com/strong-opinions-on-software-development/</link>
       <pubDate>Wed, 03 Feb 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/strong-opinions-on-software-development/</guid>
-      <description>After six years in the field, Chris has [shared][1] his strong opinions on software development practices, languages, and methodologies. I like his attitude. Willingness to continuously put one&amp;rsquo;s personal views under scrutiny, eventually adapting or even changing them as needed, is not a common trait. Not in our field. While I generally agree with most of his opinions, I feel the urge to comment on a few of them.
+      <description>After six years in the field, Chris has shared his strong opinions on software development practices, languages, and methodologies. I like his attitude. Willingness to continuously put one&amp;rsquo;s personal views under scrutiny, eventually adapting or even changing them as needed, is not a common trait. Not in our field. While I generally agree with most of his opinions, I feel the urge to comment on a few of them.
 Typed languages are better when you&amp;rsquo;re working on a team of people with various experience levels</description>
-      <content:encoded><![CDATA[<p>After six years in the field, Chris has [shared][1] his strong opinions on
+      <content:encoded><![CDATA[<p>After six years in the field, Chris has <a href="https://chriskiehl.com/article/thoughts-after-6-years">shared</a> his strong opinions on
 software development practices, languages, and methodologies. I like his
 attitude. Willingness to continuously put one&rsquo;s personal views under scrutiny,
 eventually adapting or even changing them as needed, is not a common trait. Not
@@ -3286,7 +3517,7 @@ existence of different workflows.</p>
 </blockquote>
 <p>Ouch. This hurts.</p>
 <p>I am not sure I would have had so many well-formed opinions only six years in.
-Read them all on [Chris&rsquo; website][1].</p>
+Read them all on <a href="https://chriskiehl.com/article/thoughts-after-6-years">Chris&rsquo; website</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -3326,7 +3557,7 @@ over the slogans, what does that actually mean? Tech is entering its second
 <p>I find this work to be worth studying. It draws a detailed, informed picture of
 what happened in technology and the economy these last years. It also offers
 insights, with some foresight, into what might come next.</p>
-<p>Find the presentation at [ben-evans.com][1]</p>
+<p>Find the presentation at <a href="https://www.ben-evans.com/presentations">ben-evans.com</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -3334,11 +3565,11 @@ insights, with some foresight, into what might come next.</p>
       <link>https://nicolaiarocci.com/the-unreasonable-effectiveness-of-simple-html/</link>
       <pubDate>Thu, 28 Jan 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-unreasonable-effectiveness-of-simple-html/</guid>
-      <description>We&amp;rsquo;ve seen other articles pointing the finger at unnecessarily bloated websites. Terence Eden&amp;rsquo;s [On the unreasonable effectiveness of simple HTML][1] deserves mention, I think, for two reasons. First, the delivery is incredibly effective. Second, it is effective because of the storytelling.
+      <description>We&amp;rsquo;ve seen other articles pointing the finger at unnecessarily bloated websites. Terence Eden&amp;rsquo;s On the unreasonable effectiveness of simple HTML deserves mention, I think, for two reasons. First, the delivery is incredibly effective. Second, it is effective because of the storytelling.
 By enveloping the message into an original short, touching story, he achieves two goals. First, he captures the reader&amp;rsquo;s attention; second, he makes the experience memorable. Please, go and read it; I&amp;rsquo;ll wait here.</description>
       <content:encoded><![CDATA[<p>We&rsquo;ve seen other articles pointing the finger at unnecessarily bloated
-websites. Terence Eden&rsquo;s <em>[On the unreasonable effectiveness of simple
-HTML][1]</em> deserves mention, I think, for two reasons. First, the delivery is
+websites. Terence Eden&rsquo;s <em><a href="https://shkspr.mobi/blog/2021/01/the-unreasonable-effectiveness-of-simple-html/">On the unreasonable effectiveness of simple
+HTML</a></em> deserves mention, I think, for two reasons. First, the delivery is
 incredibly effective. Second, it is effective because of the storytelling.</p>
 <p>By enveloping the message into an original short, touching story, he achieves
 two goals. First, he captures the reader&rsquo;s attention; second, he makes the
@@ -3371,11 +3602,11 @@ a cannon to kill a mosquito.</p>
       <link>https://nicolaiarocci.com/on-the-short-tormented-life-of-phil-katz/</link>
       <pubDate>Fri, 22 Jan 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-the-short-tormented-life-of-phil-katz/</guid>
-      <description>Bless the Internet Archive and its Wayback Machine. With it, we can go back in time and read [The short, tormented life of computer genius Phil Katz][1], an unusually detailed and accurate article published in the April 14, 2000 issue of the Milwaukee Journal Sentinel.
+      <description>Bless the Internet Archive and its Wayback Machine. With it, we can go back in time and read The short, tormented life of computer genius Phil Katz, an unusually detailed and accurate article published in the April 14, 2000 issue of the Milwaukee Journal Sentinel.
 When he was found dead April 14, Phil Katz was slumped against a nightstand in a south side hotel, cradling an empty bottle of peppermint schnapps.</description>
       <content:encoded><![CDATA[<p>Bless the Internet Archive and its Wayback Machine. With it, we can go back in
-time and read [The short, tormented life of computer genius Phil
-Katz][1], an unusually detailed and accurate article published in the April 14,
+time and read <a href="https://web.archive.org/web/20000829071343/http://www2.jsonline.com/news/state/may00/katz21052000a.asp">The short, tormented life of computer genius Phil
+Katz</a>, an unusually detailed and accurate article published in the April 14,
 2000 issue of the Milwaukee Journal Sentinel.</p>
 <blockquote>
 <p>When he was found dead April 14, Phil Katz was slumped against a nightstand
@@ -3386,8 +3617,8 @@ chronic alcoholism. He was alone, estranged long ago from his family and
 a virtual stranger to employees of his own company, PKWare Inc. He was 37.</p>
 </blockquote>
 <p>In the late 80s, when the culmination of Katz&rsquo;s work on compression algorithms,
-PKZIP, emerged as the clear winner of the so-called &ldquo;compressors war,&rdquo; [I was
-running my own little BBS][2], Lorien, which later evolved into Phoenix BBS,
+PKZIP, emerged as the clear winner of the so-called &ldquo;compressors war,&rdquo; <a href="http://nicolaiarocci.com/a-trip-down-memory-lane-fidonet-and-usenet/">I was
+running my own little BBS</a>, Lorien, which later evolved into Phoenix BBS,
 a fully-fledged FidoNet node. When Lorien went first online in 1987, most if
 not all downloadables were in ARC format. Three years later, in 1990, when
 Phoenix emerged from Lorien&rsquo;s ashes, ZIP archives ruled the world. Fast forward

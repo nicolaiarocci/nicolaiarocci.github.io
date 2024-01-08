@@ -1,0 +1,71 @@
+---
+title: Inserire un marchio nelle immagini via JavaScript
+author: Nicola Iarocci
+date: 2011-04-05
+url: /il-marchio-nelle-immagini-via-javascript/
+dsq_thread_id:
+  - 2041627593
+categories:
+  - Guide
+  - Programming
+tags:
+  - html
+  - immagini
+  - javascript
+  - watermark
+  - watermark.js
+---
+**[Watermark.js][1]** è una libreria JavaScript che aggiunge un <a href="http://it.wikipedia.org/wiki/Watermark_(informatica)" target="_blank">watermark</a> (letteralmente _filigrana_, ovvero un logo o un marchio) alle immagini presenti sulle pagine web. Contrassegnare le immagini in modo permanente è utile a proteggerle dalla copia oppure, al contrario, ad approfittare della loro riproduzione per diffondere un marchio ([brand awareness][2]). Usare watermark.js è semplice, vediamo quanto.
+
+<div id="attachment_2000" style="width: 490px" class="wp-caption aligncenter">
+  <img class="size-full wp-image-2000" title="Watermark" src="http://i2.wp.com/nicolaiarocci.com/wp-content/uploads/watermarked.png?fit=480%2C315" alt="Watermark" srcset="http://i2.wp.com/nicolaiarocci.com/wp-content/uploads/watermarked.png?w=480 480w, http://i2.wp.com/nicolaiarocci.com/wp-content/uploads/watermarked.png?resize=150%2C98 150w, http://i2.wp.com/nicolaiarocci.com/wp-content/uploads/watermarked.png?resize=300%2C196 300w, http://i2.wp.com/nicolaiarocci.com/wp-content/uploads/watermarked.png?resize=457%2C300 457w" sizes="(max-width: 480px) 100vw, 480px" data-recalc-dims="1" />
+  
+  <p class="wp-caption-text">
+    Inseriamo dinamicamente il nostro brand nelle immagini del sito
+  </p>
+</div>
+
+## Come usare watermark.js
+
+La libreria innesta il marchio nelle immagini marcate con la classe CSS &#8220;watermark&#8221;. Se il nome della classe non piace è possibile cambiarlo. Se il nostro watermark è in formato JPG la libreria aggiunge per noi un livello di trasparenza, altrimenti possiamo fornirle i più idonei formati PNG e GIF.
+
+<!--more-->Prima di tutto inseriamo il riferimento allo script. E&#8217; consigliabile inserirlo in fondo alla pagina, subito prima della chiusura del tag 
+
+`body`
+
+<pre class="brush:js">&lt;script src="../watermark.js"&gt;&lt;/script&gt;</pre>
+
+Al caricamento della pagina chiamamo il metodo `wmark.init`
+
+<pre class="brush:js">&lt;script&gt;
+    var load = false;
+    window.onload = function() {
+        if (!load) {
+            wmark.init({
+                /* configurazione */
+                "position": "top-right", // default "bottom-right"
+                "opacity": 50, // default 50
+                "className": "watermark", // default "watermark"
+                "path": "http://www.patrick-wied.at/static/watermarkjs/demos/img/watermark.png"
+                });
+            load = true;
+        }
+    }
+&lt;/script&gt;</pre>
+
+La variabile `load` agisce come un flag e serve a evitare che il codice venga eseguito ad ogni postback. Infine aggiorniamo i tag HTML delle immagini a cui vogliamo aggiungere il nostro watermark
+
+<pre class="brush:xml">&lt;img src="img/test1.jpg" class="watermark" /&gt;</pre>
+
+E questo è tutto.
+
+Sul <a href="http://www.patrick-wied.at/static/watermarkjs/" target="_blank">sito ufficiale</a> sono disponibili un paio di demo funzionanti. La <a href="http://www.patrick-wied.at/static/watermarkjs/demos/demo2.html" target="_blank">seconda</a> mostra un uso senz&#8217;altro originale della libreria: l&#8217;inserimento di <a href="http://www.patrick-wied.at/static/watermarkjs/demos/demo2.html" target="_blank">Codici QR</a> nelle immagini. Trattandosi di un progetto open source è possibile scaricare anche il <a href="https://github.com/pa7/watermark.js" target="_blank">codice sorgente</a> di watermark.js.
+
+## Non tutto è oro quel che luccica
+
+Essendo implementata lato client, la protezione delle immagini non è certo garantita al cento per cento. Dobbiamo decidere cosa è più importante, l&#8217;inviolabilità delle nostre immagini o la comodità di non doverle ritoccare prima di inviarle al server. Altro fattore da non trascurare è il calo di prestazioni. Il codice JavaScript deve caricare il watermark e inserirlo nell&#8217;immagine originale. Il tempo di caricamento potrebbe risentirne, soprattutto nel caso di pagine ricche di immagini.
+
+Watermark.js è un progetto interessante e ingegnoso che va usato tenendo ben presente i suoi pregi e tutte le possibili controindicazioni.
+
+ [1]: http://www.patrick-wied.at/static/watermarkjs/
+ [2]: http://en.wikipedia.org/wiki/Brand_awareness

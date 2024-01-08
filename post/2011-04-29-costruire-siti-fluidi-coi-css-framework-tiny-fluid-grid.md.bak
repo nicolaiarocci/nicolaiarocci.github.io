@@ -1,0 +1,123 @@
+---
+title: 'Costruire siti fluidi coi CSS Framework: Tiny Fluid Grid'
+author: Nicola Iarocci
+date: 2011-04-29
+url: /costruire-siti-fluidi-coi-css-framework-tiny-fluid-grid/
+dsq_thread_id:
+  - 2042216178
+categories:
+  - Guide
+  - Programming
+tags:
+  - css
+  - css framework
+  - grid design
+  - grid system
+  - tiny fluid grid
+  - web design
+---
+Fino a non molti anni fa la gamma di risoluzioni video disponibili alla gran parte degli utenti era piuttosto limitata, tanto che nel disegnare siti web non ci si preoccupava granché di questo aspetto. La diffusione di massa di monitor wide, netbooks, tablet e smartphone ha cambiato rapidamente le carte in tavola. Per raggiungere con efficienza il loro pubblico i siti odierni devono essere capaci di adattare il loro aspetto alla risoluzione del dispositivo usato dal visitatore. Devono, in una parola, essere _fluidi_.
+
+## Il Grid Design e l&#8217;era dei CSS Framework
+
+L&#8217;avvento dei CSS Framework si deve (principalmente) alla necessità di soddisfare l&#8217;esigenza di fluidità. Il capostipite, se non in ordine cronologico senz&#8217;altro per l&#8217;influenza che ha avuto, è il <a title="960 Grid System" href="http://960.gs/" target="_blank">960 Grid System</a>. Altri prodotti famosi, per citarne solo un paio, sono <a href="http://www.blueprintcss.org/" target="_blank">Blueprint</a> e <a href="http://code.google.com/p/emastic/" target="_blank">Emastic</a>. Questi framework hanno in comune l&#8217;obiettivo di velocizzare creazione, gestione e manutenzione dei fogli di stile ma se andiamo al nocciolo della questione ci accorgiamo che tutti si basano sul concetto chiave di **<a href="http://en.wikipedia.org/wiki/Grid_(page_layout)" target="_blank">Grid Design</a>**:<!--more-->
+
+> Una griglia tipografica è una struttura bidimensionale composta da una serie di guide verticali e orizzontali intersecanti (matrice) usata per organizzare il contenuto della pagina. La griglia offre una traccia sulla quale il designer può organizzare testo e immagini in maniera ordinata e razionale (<a href="http://en.wikipedia.org/wiki/Grid_(page_layout)" target="_blank">Wikipedia</a>)
+
+Niente di nuovo, i tipografi hanno usato questa tecnica per secoli. Il Grid Design in declinazione web è fluido: le colonne (e gli spazi tra le colonne) che compongono la matrice sono capaci di adattarsi alla risoluzione dell schermo.
+
+Gran parte dei CSS Framework non si limitano a implementare versioni più o meno sofisticate del Grid System ma offrono una serie di servizi aggiuntivi nel tentativo di risparmiare al designer i compiti più ripetitivi e tediosi. Non sempre ci riescono. Ogni sito ha esigenze specifiche e ogni designer abitudini consolidate. E&#8217; difficile che una soluzione standard sia l&#8217;ideale per ogni esigenza. Spesso preferisco la via di mezzo: strumenti agili che consentono di portare a casa rapidamente il risultato senza aggiungere (molto) più del necessario.
+
+In questa mini-serie di tre articoli prenderò in esame tre diverse soluzioni che implementano il Grid Design e che ci permettono di implementare, con diversi gradi di complessità (e numero di funzionalità), pagine web fluide.
+
+## Tiny Fluid Grid
+
+<img class="aligncenter size-full wp-image-2277" title="Tiny Fluid Grid" src="http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/TinyFluidGrid.png?fit=480%2C340" alt="Tiny Fluid Grid" srcset="http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/TinyFluidGrid.png?w=480 480w, http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/TinyFluidGrid.png?resize=150%2C106 150w, http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/TinyFluidGrid.png?resize=300%2C212 300w, http://i0.wp.com/nicolaiarocci.com/wp-content/uploads/TinyFluidGrid.png?resize=423%2C300 423w" sizes="(max-width: 480px) 100vw, 480px" data-recalc-dims="1" />
+
+Se non altro amerete questa soluzione a causa del suo design: il sito è oggettivamente splendido. E facile da usare. In effetti **<a title="Tiny Fluid Grid" href="http://www.tinyfluidgrid.com/" target="_blank">Tiny Fluid Grid</a>** non è un CSS Framework vero e proprio ma una semplice soluzione interattiva che vi consente, agendo su tre semplici regolazioni (numero di colonne, spazio tra le colonne e larghezza dell&#8217;area client), di configurare online la vostra CSS grid. Il pulsante Preview offre una anteprima (anch&#8217;essa interattiva) della grid. L&#8217;unica altra opzione disponibile è il Download. Otterrete un archivio compresso che contiene due files: il foglio di stile _grid.css_ e un _index.html_ che contiene un esempio d&#8217;uso della grid appena creata:
+
+<div id="attachment_2286" style="width: 490px" class="wp-caption aligncenter">
+  <img class="size-full wp-image-2286" title="Tiny Fluid Grid - Esempio" src="http://i2.wp.com/nicolaiarocci.com/wp-content/uploads/TinyFluidGridExample.png?fit=480%2C132" alt="Tiny Fluid Grid - Esempio" srcset="http://i2.wp.com/nicolaiarocci.com/wp-content/uploads/TinyFluidGridExample.png?w=480 480w, http://i2.wp.com/nicolaiarocci.com/wp-content/uploads/TinyFluidGridExample.png?resize=150%2C41 150w, http://i2.wp.com/nicolaiarocci.com/wp-content/uploads/TinyFluidGridExample.png?resize=300%2C82 300w" sizes="(max-width: 480px) 100vw, 480px" data-recalc-dims="1" />
+  
+  <p class="wp-caption-text">
+    Index.html contiene un esempio della vostra Tiny Fluid Gruid
+  </p>
+</div>
+
+Una occhiata al foglio di stile ci consente di capire la struttura della grid
+
+<pre class="brush:css">/*
+ & Columns : 12
+ & Gutter %: 20%
+ & MinWidth: 960px
+ & MaxWidth: 1080px
+ */
+.grid_1 { width: 6.6666666666667%; }
+.grid_2 { width: 15%; }
+.grid_3 { width: 23.333333333333%; }
+.grid_4 { width: 31.666666666667%; }
+.grid_5 { width: 40%; }
+.grid_6 { width: 48.333333333333%; }
+.grid_7 { width: 56.666666666667%; }
+.grid_8 { width: 65%; }
+.grid_9 { width: 73.333333333333%; }
+.grid_10 { width: 81.666666666667%; }
+.grid_11 { width: 90%; }
+.grid_12 { width: 98.333333333333%; }
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	margin-left: 0.83333333333333%;
+	margin-right: 0.83333333333333%;
+	float: left;
+	display: block;
+}
+
+.alpha{margin-left:0px;}
+.omega{margin-right:0px;}
+
+.container{
+	min-width: 960px;
+	max-width: 1080px;
+	margin: auto;
+}
+...</pre>
+
+Una classe per ogni larghezza di colonna. Poiché larghezza e margini delle colonne sono espressi in percentuale la nostra grid si adatta alla risoluzione dello schermo, con i limiti imposti dagli attributi `min-width` e `max-width`. L&#8217;implementazione lato HTML è banale (tralascio le parti non rilevanti):
+
+<pre class="brush:xml">&lt;div class="container clearfix"&gt;
+		&lt;div class="grid_12"&gt;
+			&lt;h1&gt;12&lt;/h1&gt;
+		&lt;/div&gt; 
+
+		&lt;div class="grid_4"&gt;
+			&lt;h1&gt;4&lt;/h1&gt;
+		&lt;/div&gt;
+		&lt;div class="grid_4"&gt;
+			&lt;h1&gt;4&lt;/h1&gt;
+		&lt;/div&gt;
+		&lt;div class="grid_4"&gt;
+			&lt;h1&gt;4&lt;/h1&gt;
+		&lt;/div&gt; 
+
+		&lt;div class="grid_3"&gt;
+			&lt;h1&gt;3&lt;/h1&gt;
+		&lt;/div&gt;
+		&lt;div class="grid_9"&gt;
+			&lt;h1&gt;9&lt;/h1&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;</pre>
+
+La nostra grid è contenuta in un div di classe &#8220;container&#8221;. Le colonne sono a loro volta dei div. Per ottenere più colonne nella stessa riga dobbiamo assicurarci che la somma dei numeri contenuti nel nome di ogni classe (_grid_x_) sia uguale al numero di colonne di cui è composta la grid. Nel nostro caso la seconda riga è composta da tre div _grid_4_ (4&#215;3=12); la terza riga da due colonne: grid\_3 e grid\_9 (3+9=12). Semplice no? Naturalmente possiamo ritoccare il foglio di stile come vogliamo, adattandolo alle nostre esigenze.
+
+Nel prossimo articolo della serie affronteremo un CSS Framework vero e proprio, anche questo snello e semplice da usare. Se ancora non l&#8217;avete fatto abbonatevi al <a href="http://nicolaiarocci.com/feed/" target="_blank">feed RSS</a> per non perdere la prossima puntata, oppure iscrivetevi alla mailing list (riquadro in alto a destra). Mi raccomando!

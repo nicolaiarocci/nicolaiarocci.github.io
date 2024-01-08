@@ -19,8 +19,8 @@
       <link>https://nicolaiarocci.com/write-libraries-not-services-not-so-fast/</link>
       <pubDate>Thu, 25 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/write-libraries-not-services-not-so-fast/</guid>
-      <description>[Write libraries instead of services][1] is an interesting article I read a while ago. I cannot get it off my head. In an attempt to clear up my mind, I decided to sit down and write about it. I have been writing libraries for a good part of my life. Most of my earlier dev-work resides on thousands of computers in the form of libraries. More recently, I have been writing and deploying remote services.</description>
-      <content:encoded><![CDATA[<p>[Write libraries instead of services][1] is an interesting article I read
+      <description>Write libraries instead of services is an interesting article I read a while ago. I cannot get it off my head. In an attempt to clear up my mind, I decided to sit down and write about it. I have been writing libraries for a good part of my life. Most of my earlier dev-work resides on thousands of computers in the form of libraries. More recently, I have been writing and deploying remote services.</description>
+      <content:encoded><![CDATA[<p><a href="http://catern.com/services.html">Write libraries instead of services</a> is an interesting article I read
 a while ago. I cannot get it off my head. In an attempt to clear up my mind,
 I decided to sit down and write about it. I have been writing libraries for
 a good part of my life. Most of my earlier dev-work resides on thousands of
@@ -62,7 +62,7 @@ development, maintenance, distribution, documentation, etc.  Maybe the
 article&rsquo;s author has the luxury of not having to deal with support himself.
 Still, there&rsquo;s someone else at his company who has to do that.</p>
 <p>A service, on the other hand, represents a single point of failure. If it goes
-down, all users are immediately affected[^2]. By contrast, a nasty bug in your
+down, all users are immediately affected<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. By contrast, a nasty bug in your
 library will only affect the unlucky users on that version. Now, <em>this</em> makes
 a significant advantage for distributed libraries.</p>
 <p>Your service, however, will talk to all languages via REST, GraphQL, or any
@@ -78,6 +78,14 @@ support it). Others, quite frankly, I don&rsquo;t understand.</p>
 <p>Many factors influence the choice between service and library, use case and
 prevailing circumstances being the main ones. I am not even sure they are
 comparable, as they tend to solve different problems.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I know first hand. We&rsquo;ve recently been impacted by a catastrophic event that happened to one of our providers. Our services went down and, with them, a good part of our users. How we overcame the situation and what we learned in the process would probably be worth telling, maybe in a future article.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
   </channel>

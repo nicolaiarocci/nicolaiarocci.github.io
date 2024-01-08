@@ -21,19 +21,19 @@
       <guid>https://nicolaiarocci.com/the-docker-event-monitor/</guid>
       <description>How to get alerted when a docker container goes down, or (many) other things happen to it</description>
       <content:encoded><![CDATA[<p>I added a new tool to my amateurish DevOps toolbox. Developed in the open by
-Tom Williams, the [Docker Event Monitor is][1] a &ldquo;tiny container that monitors
+Tom Williams, the <a href="https://bitbucket.org/quaideman/dem">Docker Event Monitor is</a> a &ldquo;tiny container that monitors
 the local Docker event system in real-time and sends notifications to various
 integrations for event types that match the configuration. For example, you can
 trigger an alert when a container is stopped, killed, runs out of memory or
 health status change.&rdquo;</p>
-<p>At its core sits a simple [python script][2] that monitors the <code>docker.sock</code>
+<p>At its core sits a simple <a href="https://bitbucket.org/quaideman/dem/src/master/app/main.py">python script</a> that monitors the <code>docker.sock</code>
 file for noticeable changes. The code is straightforward and looks safe to
 me. It only took a few minutes to set DEM up so that our <code>alerts</code> channel on
 Slack gets notified of any health status changes. Some handy options are
 included; my favorite is <code>silence</code> to set a time window during which alerts are
 not fired. It avoids unnecessary spam when routine maintenance goes off on your
 stack.</p>
-<p>I find [DEM][1] a useful little tool for lightweight, simple deployments where
+<p>I find <a href="https://bitbucket.org/quaideman/dem">DEM</a> a useful little tool for lightweight, simple deployments where
 you&rsquo;re not employing heavy weaponry, like k8s.</p>
 ]]></content:encoded>
     </item>
@@ -43,16 +43,16 @@ you&rsquo;re not employing heavy weaponry, like k8s.</p>
       <pubDate>Sun, 21 Nov 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-automatically-pull-and-deploy-updated-docker-images/</guid>
       <description>We want our test and production stacks to be automatically updated every time something new is pushed to the test or release branch. CI builds the docker image on successful test runs, then stores it in our private registry. But how do you automatically pull and deploy those updated images?
-I looked into the [Watchtower][1] project, which is interesting. You add Watchtower to the stack, and it will diligently check for new versions of the images used by the containers in the stack, pulling, building and deploying as needed while the stack is up and running.</description>
+I looked into the Watchtower project, which is interesting. You add Watchtower to the stack, and it will diligently check for new versions of the images used by the containers in the stack, pulling, building and deploying as needed while the stack is up and running.</description>
       <content:encoded><![CDATA[<p>We want our test and production stacks to be automatically updated every time
 something new is pushed to the <code>test</code> or <code>release</code> branch. CI builds the docker
 image on successful test runs, then stores it in our private registry. But how
 do you automatically pull and deploy those updated images?</p>
-<p>I looked into the [Watchtower][1] project, which is interesting. You add
+<p>I looked into the <a href="https://containrrr.dev/watchtower/">Watchtower</a> project, which is interesting. You add
 Watchtower to the stack, and it will diligently check for new versions of the
 images used by the containers in the stack, pulling, building and deploying as
 needed while the stack is up and running. In my experiments, however, I had
-[little luck][2] in making it talk with our private registry. Also, I&rsquo;m not too
+<a href="https://github.com/containrrr/watchtower/issues/1113">little luck</a> in making it talk with our private registry. Also, I&rsquo;m not too
 fond of polluting my stack with foreign containers. I want my docker stack to
 be simple, tidy, clean, and single-tasked.</p>
 <p>I ended up doing something super simple. A cronjob routinely invokes a script
@@ -78,7 +78,7 @@ fi
 </code></pre>
 <p>I expected <code>docker pull</code> to return <code>1</code> on successful pulls; it turns out it
 always returns <code>0</code>, so I&rsquo;m checking its output for confirmation (I got the hint
-[here][3]).</p>
+<a href="https://stackoverflow.com/a/51628017/323269">here</a>).</p>
 <p>You might be wondering why we don&rsquo;t directly execute <code>docker stack up</code> in our
 cronjob. It updates the stack resolving new images by default. The problem is
 that, in our experience, it also briefly stops the services. Not an issue if

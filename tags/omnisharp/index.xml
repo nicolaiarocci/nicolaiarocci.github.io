@@ -19,8 +19,8 @@
       <link>https://nicolaiarocci.com/making-csharp-and-omnisharp-play-well-with-neovim/</link>
       <pubDate>Fri, 03 Mar 2023 08:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/making-csharp-and-omnisharp-play-well-with-neovim/</guid>
-      <description>I&amp;rsquo;ve recently moved away from my custom Neovim configuration to embrace [LazyVim][1]. LazyVim is a Neovim setup with sane default settings for options, autocmds, and keymaps. It boldly aims to transform Neovim into a full-fledged IDE that is easy to extend and customize. It comes with a wealth of plugins pre-configured and ready to use, and it is also blazing fast. Elijah Manor has a fantastic introductory video on YouTube; I suggest you take the time to look at it.</description>
-      <content:encoded><![CDATA[<p>I&rsquo;ve recently moved away from my custom Neovim configuration to embrace [LazyVim][1]. LazyVim is a Neovim setup with sane
+      <description>I&amp;rsquo;ve recently moved away from my custom Neovim configuration to embrace LazyVim. LazyVim is a Neovim setup with sane default settings for options, autocmds, and keymaps. It boldly aims to transform Neovim into a full-fledged IDE that is easy to extend and customize. It comes with a wealth of plugins pre-configured and ready to use, and it is also blazing fast. Elijah Manor has a fantastic introductory video on YouTube; I suggest you take the time to look at it.</description>
+      <content:encoded><![CDATA[<p>I&rsquo;ve recently moved away from my custom Neovim configuration to embrace <a href="https://www.lazyvim.org/">LazyVim</a>. LazyVim is a Neovim setup with sane
 default settings for options, autocmds, and keymaps. It boldly aims to transform Neovim into a full-fledged IDE that is
 easy to extend and customize. It comes with a wealth of plugins pre-configured and ready to use, and it is also blazing
 fast. Elijah Manor has a fantastic introductory video on YouTube; I suggest you take the time to look at it.</p>
@@ -37,8 +37,8 @@ I loaded:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Error executing vim.schedule lua callbaack: /usr/share/[...]/semantic_tokens.lua:342:E5248: Invalid character in group name.
 </span></span></code></pre></div><p>A little investigation revealed that semantic tokens provided by
 OmniSharp don&rsquo;t conform to the LSP specification, which triggers the error. I cloned the <em>omnisharp-roslyn</em> repo and dug
-into the code hoping I could offer a quick fix. As it turns out, however, the issue is actually with [Roslyn
-itself][4], not OmniSharp. There are tickets on both the [Neovim][2] and the [OmniSharp][3] repositories, but I fear
+into the code hoping I could offer a quick fix. As it turns out, however, the issue is actually with <a href="https://github.com/dotnet/roslyn/blob/3cca4fdc3b125995bfd32b3a02b5d5c2d2b82504/src/Workspaces/Core/Portable/Classification/ClassificationTypeNames.cs#L97">Roslyn
+itself</a>, not OmniSharp. There are tickets on both the <a href="https://github.com/neovim/neovim/issues/21391">Neovim</a> and the <a href="https://github.com/OmniSharp/omnisharp-roslyn/issues/2483">OmniSharp</a> repositories, but I fear
 they&rsquo;ll stagnate there as non-relevant (<em>note to self</em>: maybe report the problem to the Roslyn folks? Alternatively,
 propose a patched semantic provider to the <em>omnisharp-roslyn</em> maintainers.)</p>
 <p>Anyway, a quick, hacky, and not future-proof fix is to customize Neovim (LazyVim) configuration like this:</p>
@@ -127,7 +127,7 @@ propose a patched semantic provider to the <em>omnisharp-roslyn</em> maintainers
 </span></span><span style="display:flex;"><span>  end,
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>It overrides the <code>on_attach</code> event to pass an LSP-digestible list of semantic tokens. And voilà, C# files are now loaded seamlessly.</p>
-<p>I&rsquo;m not done yet. I&rsquo;m having another [weird issue][5] with <em>.editorconfig</em> files. I&rsquo;m still triaging it, and will report back when (if) I sort it out.</p>
+<p>I&rsquo;m not done yet. I&rsquo;m having another <a href="https://github.com/OmniSharp/omnisharp-roslyn/issues/2510">weird issue</a> with <em>.editorconfig</em> files. I&rsquo;m still triaging it, and will report back when (if) I sort it out.</p>
 ]]></content:encoded>
     </item>
   </channel>

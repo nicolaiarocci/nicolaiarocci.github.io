@@ -1,0 +1,18 @@
+---
+title: 'F# Vs C#'
+author: Nicola Iarocci
+date: 2015-04-20
+url: /f-vs-c/
+dsq_thread_id:
+  - 3697111156
+categories:
+  - Programming
+tags:
+  - c
+  - 'f#'
+  - microsoft
+  - msdn
+---
+I have another guest post up at the official MSDN Team Blog. Titled [F# Versus C#][1], it is an attempt at a gentle introduction to F# for the Italian C# developer.
+
+ [1]: http://blogs.msdn.com/b/italy/archive/2015/04/17/f-vs-c.aspx

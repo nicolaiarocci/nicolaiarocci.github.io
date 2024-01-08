@@ -19,15 +19,15 @@
       <link>https://nicolaiarocci.com/on-github-copilot/</link>
       <pubDate>Sat, 24 Jul 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-github-copilot/</guid>
-      <description>Like everyone else on the planet, I&amp;rsquo;ve been following [GitHub Copilot][1] since its launch. It is an impressive achievement and a remarkable milestone for the deep learning industry, that&amp;rsquo;s for sure. We are obviously at the early stages in deep learning applied to software development, and it is somewhat unsettling to ponder what the future might hold in this field.
-Like many others, however, I worry about code quality issues and the risk of license infringements[^2].</description>
-      <content:encoded><![CDATA[<p>Like everyone else on the planet, I&rsquo;ve been following [GitHub Copilot][1] since
+      <description>Like everyone else on the planet, I&amp;rsquo;ve been following GitHub Copilot since its launch. It is an impressive achievement and a remarkable milestone for the deep learning industry, that&amp;rsquo;s for sure. We are obviously at the early stages in deep learning applied to software development, and it is somewhat unsettling to ponder what the future might hold in this field.
+Like many others, however, I worry about code quality issues and the risk of license infringements1.</description>
+      <content:encoded><![CDATA[<p>Like everyone else on the planet, I&rsquo;ve been following <a href="https://copilot.github.com/">GitHub Copilot</a> since
 its launch. It is an impressive achievement and a remarkable milestone for the
 deep learning industry, that&rsquo;s for sure. We are obviously at the early stages
 in deep learning applied to software development, and it is somewhat unsettling
 to ponder what the future might hold in this field.</p>
 <p>Like many others, however, I worry about code quality issues and the risk of
-license infringements[^2]. I am also concerned that the advent of Copilot-like
+license infringements<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. I am also concerned that the advent of Copilot-like
 tools might fundamentally change the software developer experience, if not the
 software developer role as a whole, and for the worst.</p>
 <p>I wrote down some notes preparing for an in-depth Copilot article, but then
@@ -73,8 +73,24 @@ utterly convinced that deep understanding is important. But increasingly,
 I feel like I&rsquo;m swimming upstream. It seems like most people in our industry
 care far more about &ldquo;how to do&rdquo; rather than &ldquo;how does it work&rdquo;.</p>
 </blockquote>
-<p>Copilot is great and feels like magic[^5]. And precisely for that reason, at my
+<p>Copilot is great and feels like magic<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. And precisely for that reason, at my
 company, we&rsquo;re not going to adopt it.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>For example, see Armin Ronacher&rsquo;s  on Copilot <a href="https://twitter.com/mitsuhiko/status/1410886329924194309">regurgitating famous, GPL-license code</a>.
+[3]: <a href="https://www.fast.ai/2021/07/19/copilot/">https://www.fast.ai/2021/07/19/copilot/</a>
+[4]: <a href="https://ericsink.com/entries/depth.html">https://ericsink.com/entries/depth.html</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Any sufficiently advanced technology is indistinguishable from magic <em>&ndash;Arthur C. Clark</em>
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -110,7 +126,7 @@ not expect it was contributing to a space ship program.</p>
 <p>So when I reached for my profile page on GitHub today, I was confused, yes, but
 not wholly unprepared. And indeed, there it is, the new, shiny Mars Helicopter
 Contributor badge. A quick investigation revealed that I earned it as a Flask
-contributor. To be honest, I don&rsquo;t even remember contributing to it[^2]. I know
+contributor. To be honest, I don&rsquo;t even remember contributing to it<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. I know
 I&rsquo;ve used it extensively, of course, as [Eve][4] inherits from and builds on it.</p>
 <p><img loading="lazy" src="/images/mars-profile-badge.png" alt="The Mars Helicopter Contributor badge"  />
 </p>
@@ -126,9 +142,25 @@ achievement.” (<a href="https://github.com/readme/nasa-ingenuity-helicopter">s
 <p>These badges surely help raise awareness of open-source relevance in the
 modern-day world. I am grateful for it. I have to say, however, that I am not
 a fan of the current gamification process going on at GitHub. I cringed when
-I saw the &ldquo;How do you feel today&rdquo; box in my profile page a while ago[^3]. This
+I saw the &ldquo;How do you feel today&rdquo; box in my profile page a while ago<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. This
 Achievements feature looks good on the surface. Still, it leans itself to be
 leveraged in many different, even subtle ways. Let&rsquo;s hope for the best.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>A quick <code>git shortlog -sne</code> on the flask repo confirms the rumors.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>It seems gone now?
+[4]: <a href="https://github.com/pyeve/">https://github.com/pyeve/</a>
+[1]: <a href="https://github.blog/2021-04-19-open-source-goes-to-mars/">https://github.blog/2021-04-19-open-source-goes-to-mars/</a>
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>

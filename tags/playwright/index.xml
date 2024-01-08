@@ -19,10 +19,10 @@
       <link>https://nicolaiarocci.com/my-playwright-session-at-webday-2022/</link>
       <pubDate>Fri, 01 Apr 2022 06:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/my-playwright-session-at-webday-2022/</guid>
-      <description>If you understand Italian, the recording of my Playwright session at UGIdotNET&amp;rsquo;s [WebDay 2022][1] is now available on YouTube[^2]. Playwright is a phenomenal cross-browser, cross-platform, cross-language, single-API, mobile-friendly front-end testing tool.
+      <description>If you understand Italian, the recording of my Playwright session at UGIdotNET&amp;rsquo;s WebDay 2022 is now available on YouTube1. Playwright is a phenomenal cross-browser, cross-platform, cross-language, single-API, mobile-friendly front-end testing tool.
 I&amp;rsquo;m looking forward to giving the same session in English sooner or later, but I should first win my laziness and start looking for exciting events with open CFPs. If you happen to know one, please let me know.</description>
       <content:encoded><![CDATA[<p>If you understand Italian, the recording of my Playwright session at
-UGIdotNET&rsquo;s [WebDay 2022][1] is now available on YouTube[^2]. Playwright is
+UGIdotNET&rsquo;s <a href="https://www.ugidotnet.org/e/2840/Web-Day-2022">WebDay 2022</a> is now available on YouTube<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Playwright is
 a phenomenal cross-browser, cross-platform, cross-language, single-API,
 mobile-friendly front-end testing tool.</p>
 <p>I&rsquo;m looking forward to giving the same session in English sooner or later, but
@@ -33,6 +33,17 @@ CFPs. If you happen to know one, please let me know.</p>
   <iframe src="https://www.youtube.com/embed/BaY9WIHUwFc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>A couple weeks later I also presented at <a href="https://www.meetup.com/it-IT/DevRomagna/events/284626987/">DevRomagna</a>, the local meetup I run.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
   </channel>

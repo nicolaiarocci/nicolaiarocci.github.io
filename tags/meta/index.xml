@@ -19,15 +19,27 @@
       <link>https://nicolaiarocci.com/learn-in-public/</link>
       <pubDate>Tue, 16 Nov 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/learn-in-public/</guid>
-      <description>Today I searched the internet for something, and the first result I got from [@duckduckgo][2] was a note I wrote months ago to my future self; how meta is that.
-[Learn in public][1], it gives superpowers[^4]. Also, in recent years, adopting [POSSE][3] was the best thing I did for my personal development.</description>
+      <description>Today I searched the internet for something, and the first result I got from @duckduckgo was a note I wrote months ago to my future self; how meta is that.
+Learn in public, it gives superpowers1. Also, in recent years, adopting POSSE was the best thing I did for my personal development.
+I should do better. Post more TILs, for example. [rss]: https://nicolaiarocci.com/index.xml [tw]: http://twitter.com/nicolaiarocci [nl]: https://buttondown.email/nicolaiarocci&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
       <content:encoded><![CDATA[<p>Today I searched the internet for something, and the first result I got from
-[@duckduckgo][2] was a note I wrote months ago to my future self; how meta is
+<a href="https://duckduckgo.com/">@duckduckgo</a> was a note I wrote months ago to my future self; how meta is
 that.</p>
 <p><img loading="lazy" src="/images/duckduckgo-search.png" alt=""  />
 </p>
-<p>[Learn in public][1], it gives superpowers[^4]. Also, in recent years, adopting
-[POSSE][3] was the best thing I did for my personal development.</p>
+<p><a href="https://www.swyx.io/learn-in-public/">Learn in public</a>, it gives superpowers<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Also, in recent years, adopting
+<a href="https://indieweb.org/POSSE">POSSE</a> was the best thing I did for my personal development.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I should do better. Post more <a href="/tags/til/">TILs</a>, for example.
+[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
+[tw]: <a href="http://twitter.com/nicolaiarocci">http://twitter.com/nicolaiarocci</a>
+[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
   </channel>

@@ -19,11 +19,11 @@
       <link>https://nicolaiarocci.com/awesome-psql-tips/</link>
       <pubDate>Thu, 23 Feb 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/awesome-psql-tips/</guid>
-      <description>Today I learned about [psql-tips.org][1] by Lætitia Avrot, an excellent repository of psql (the CLI tool, not the database itself) tips. I like how one randomized tip is playfully served on the home page while the [complete list][2] is always at hand.</description>
-      <content:encoded><![CDATA[<p>Today I learned about [psql-tips.org][1] by Lætitia Avrot, an excellent
+      <description>Today I learned about psql-tips.org by Lætitia Avrot, an excellent repository of psql (the CLI tool, not the database itself) tips. I like how one randomized tip is playfully served on the home page while the complete list is always at hand.</description>
+      <content:encoded><![CDATA[<p>Today I learned about <a href="https://psql-tips.org">psql-tips.org</a> by Lætitia Avrot, an excellent
 repository of <code>psql</code> (the CLI tool, not the database itself) tips. I like how
-one randomized tip is playfully served on the home page while the [complete
-list][2] is always at hand.</p>
+one randomized tip is playfully served on the home page while the <a href="https://psql-tips.org/psql_tips_all.html">complete
+list</a> is always at hand.</p>
 ]]></content:encoded>
     </item>
   </channel>

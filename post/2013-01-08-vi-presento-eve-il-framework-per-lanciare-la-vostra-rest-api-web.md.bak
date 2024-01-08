@@ -1,0 +1,43 @@
+---
+title: Vi presento Eve il framework per le REST API Web
+author: Nicola Iarocci
+date: 2013-01-08
+url: /vi-presento-eve-il-framework-per-lanciare-la-vostra-rest-api-web/
+gr_overridden:
+  - 1
+gr_options:
+  - 'a:3:{s:13:"enable-ribbon";s:4:"Show";s:10:"github-url";s:36:"https://github.com/nicolaiarocci/eve";s:11:"ribbon-type";i:5;}'
+dsq_thread_id:
+  - 2017455472
+categories:
+  - Programming
+tags:
+  - eve
+  - programmazione
+  - python
+  - rest api
+---
+Lo scorso anno abbiamo lavorato duro per costruirci una RESTful Web API su misura, flessibile e completa. In corso d&#8217;opera abbiamo imparato molto sulle migliori pratiche REST, mettendo anche alla frusta le rinomate capacità Web del linguaggio Python.
+
+Ad EuroPython 2012 ho poi [raccontato la nostra esperienza][1] e condiviso ciò che avevamo imparato. In quell&#8217;occasione mi sono reso conto di quanto l&#8217;argomento fosse d&#8217;attualità, tanto che da quel 4 luglio le slide che avevo preparato (le trovate su <a title="Developing RESTful Web APIs with Python, Flask and MongoDB" href="https://speakerdeck.com/nicola/developing-restful-web-apis-with-python-flask-and-mongodb" target="_blank">Speaker Deck</a> o <a title="Developing RESTful Web APIs with Python, Flask and MongoDB" href="http://www.slideshare.net/nicolaiarocci/developing-restful-web-apis-with-python-flask-and-mongodb" target="_blank">Slideshare</a>) ed i video su YouTube (<a title="YouTube - Sviluppare una RESTful Web API con Python, Flask e MongoDB" href="http://www.youtube.com/watch?v=Q6EKaBd7jmY" target="_blank">italiano</a>; <a title="YouTube - Developing RESTful Web APIs with Python, Flask and MongoDB" href="http://www.youtube.com/watch?v=qh9fN2iHaCQ" target="_blank">inglese</a>) hanno totalizzato 30mila visite. Da allora ricevo continue richieste di chiarimenti, suggerimenti, approfondimenti, consigli. Soprattutto, mi si chiedono esempi di codice. In fin dei conti prima o poi qualunque sviluppatore web si trova, volente o nolente, a fare i conti con una REST API.
+
+Così ho pensato che avrei potuto prendere il nostro codice proprietario (nome interno Adam), sistemarlo un po&#8217; in modo che si adattasse ai casi d&#8217;uso più comuni, e rilasciarlo come progetto open source. Be&#8217; c&#8217;è voluto un bel po&#8217; di lavoro, ben più di quello inizialmente preventivato, ma ora ci siamo. Il progetto è finalmente disponibile, e naturalmente si chiama <a title="Eve. A REST Web API framework that's as dangerous as you want it to be." href="http://python-eve.org" target="_blank">Eve</a>.
+
+<a href="http://python-eve.org"><img class="aligncenter size-medium wp-image-5709" style="border: 0px;" src="http://i2.wp.com/nicolaiarocci.com/wp-content/uploads/eve_logo-300x95.png?fit=300%2C95" alt="eve_logo" srcset="images/eve_logo.png?resize=300%2C95 300w, http://i1.wp.com/nicolaiarocci.com/wp-content/uploads/eve_logo.png?resize=150%2C47 150w, http://i1.wp.com/nicolaiarocci.com/wp-content/uploads/eve_logo.png?resize=1024%2C325 1024w, http://i1.wp.com/nicolaiarocci.com/wp-content/uploads/eve_logo.png?resize=500%2C158 500w, http://i1.wp.com/nicolaiarocci.com/wp-content/uploads/eve_logo.png?w=1093 1093w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+
+Costruire e lanciare una API con Eve è semplice. Servono tre cose; un database, un file di configurazione, uno script di lancio. MongoDB è già supportato; sviluppare estensioni per altri database SQL/NoSQL non dovrebbe essere troppo complicato. Le personalizzazioni della vostra API sono salvate in un modulo standard Python. Lo script di esecuzione è in genere davvero semplice:
+
+<pre class="brush:py">from eve import Eve
+
+app = Eve()
+app.run()</pre>
+
+Le API basate su Eve supportano l&#8217;intero range di operazioni CRUD (Create, Read, Update, Delete). Ogni end-point è personalizzabile e supporta filtri, paginazione e ordinamenti. Per massima accessibilità i client possono chiedere che le risposte pervengano in JSON oppure XML. Sono supportati gli inserimenti multipli, le direttive di caching per i client, il versioning e&#8230; tante altre cosette.
+
+Non mi dilungo oltre poiché su <a title="A REST Web API framework that's as dangerous as you want it to be" href="https://github.com/nicolaiarocci/eve" target="_blank">GitHub</a> trovate tutto quel che serve: documentazione (al momento piuttosto scarna), codice e progetti satellite. In particolare date un&#8217;occhiata a <a title="Eve Demo" href="https://github.com/nicolaiarocci/eve-demo" target="_blank">Eve-Demo</a>, una API funzionante messa su in pochi minuti grazie a Eve. Potete consultarla direttamente, via cURL per esempio, o anche <a title="Eve Demo" href="http://eve-demo.herokuapp.com/people/" target="_blank">via browser</a> (in questo caso vi beccherete del XML in risposta, mentre via cURL o altro potrete scegliere JSON). Il README di eve-demo include una serie completa di esempi relativi alle varie operazioni di lettura, inserimento, cancellazione, aggiornamento.
+
+C&#8217;è ancora tanto da fare affinché Eve diventi il framework completo, stabile e maturo che ho in mente ma credo che il progetto ora sia pronto per una anteprima pubblica. In ogni caso sono lieto di dare finalmente risposta alle richieste di questi mesi: ora avete il codice; usatelo come volete. Spero anche e soprattutto di raccogliere critiche, consigli e suggerimenti; magari a qualcuno verrà anche voglia di collaborare!
+
+PS: Buon 2013!
+
+ [1]: http://nicolaiarocci.com/sviluppare-una-restful-web-api-con-python-flask-e-mongodb/

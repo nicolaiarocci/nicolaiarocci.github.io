@@ -104,9 +104,9 @@ course on building neural networks from scratch, in code.&rdquo;</p>
       <link>https://nicolaiarocci.com/ai-curated-minimalist-news/</link>
       <pubDate>Wed, 03 May 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/ai-curated-minimalist-news/</guid>
-      <description>[Minimalist News][1] is the first LLM project that excites me but in a nervous way. Quoting the About page:
+      <description>Minimalist News is the first LLM project that excites me but in a nervous way. Quoting the About page:
 We only publish significant news. To find them we use AI (ChatGPT-4) to read and analyze 1000 top news every day. For each article it estimates magnitude, scale, potential and credibility. Then we combine these estimates to get the final Significance score from 0 to 10. And now the best part: We&amp;rsquo;ll only send you the news scored 6.</description>
-      <content:encoded><![CDATA[<p>[Minimalist News][1] is the first LLM project that excites me but in a nervous way. Quoting the About page:</p>
+      <content:encoded><![CDATA[<p><a href="https://www.newsminimalist.com">Minimalist News</a> is the first LLM project that excites me but in a nervous way. Quoting the About page:</p>
 <blockquote>
 <p>We only publish significant news. To find them we use AI (ChatGPT-4) to read and analyze 1000 top news every day. For
 each article it estimates magnitude, scale, potential and credibility. Then we combine these estimates to get the

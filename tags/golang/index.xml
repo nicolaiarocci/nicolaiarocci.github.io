@@ -19,9 +19,9 @@
       <link>https://nicolaiarocci.com/heading-to-go-a-look-at-building-a-video-encoder-meetup/</link>
       <pubDate>Wed, 08 Feb 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/heading-to-go-a-look-at-building-a-video-encoder-meetup/</guid>
-      <description>We&amp;rsquo;re doing a [DevRomagna meetup][1] this month, and I think it will be a super-interesting one. It&amp;rsquo;s titled Heading to Go: A Look at Building a Video Encoder and the presenter will be Daniel Enrico Botta, a C# software engineer who recently switched to Go for his video encoding projects. Here&amp;rsquo;s the abstract:
+      <description>We&amp;rsquo;re doing a DevRomagna meetup this month, and I think it will be a super-interesting one. It&amp;rsquo;s titled Heading to Go: A Look at Building a Video Encoder and the presenter will be Daniel Enrico Botta, a C# software engineer who recently switched to Go for his video encoding projects. Here&amp;rsquo;s the abstract:
 This talk will discuss the experience of moving from C# to Go for a video coding project. The pros and cons of using Go, a modern and efficient programming language, and how it compares to other languages will be shown.</description>
-      <content:encoded><![CDATA[<p>We&rsquo;re doing a [DevRomagna meetup][1] this month, and I think it will be a
+      <content:encoded><![CDATA[<p>We&rsquo;re doing a <a href="https://www.meetup.com/it-IT/devromagna/events/291027334/">DevRomagna meetup</a> this month, and I think it will be a
 super-interesting one. It&rsquo;s titled <em>Heading to Go: A Look at Building a Video
 Encoder</em> and the presenter will be Daniel Enrico Botta, a C# software engineer
 who recently switched to Go for his video encoding projects. Here&rsquo;s the abstract:</p>
@@ -41,7 +41,7 @@ Leaving the safe path to adventure into unknown territory is a safe way to
 broaden knowledge and improve self-confidence, or at least it was for me when I
 added Python to my tool belt. In surprising and unexpected ways, most of the
 new expertise also proved invaluable in my C# &amp; F# work.</p>
-<p>The session will be held in person, in Italian. So if you&rsquo;re interested, j[oin us][1]!</p>
+<p>The session will be held in person, in Italian. So if you&rsquo;re interested, j<a href="https://www.meetup.com/it-IT/devromagna/events/291027334/">oin us</a>!</p>
 ]]></content:encoded>
     </item>
   </channel>

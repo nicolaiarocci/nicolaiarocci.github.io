@@ -19,9 +19,9 @@
       <link>https://nicolaiarocci.com/python-decimal.getcontext-does-not-work-with-bpython/</link>
       <pubDate>Tue, 06 Jun 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/python-decimal.getcontext-does-not-work-with-bpython/</guid>
-      <description>I have been working on a side project for which I&amp;rsquo;m using [bpython][1], a &amp;ldquo;fancy interface to the Python interpreter.&amp;rdquo; If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax highlighting, readline-like autocomplete, a &amp;ldquo;rewind&amp;rdquo; function to pop the last line of code from memory, auto-indentation and more.
+      <description>I have been working on a side project for which I&amp;rsquo;m using bpython, a &amp;ldquo;fancy interface to the Python interpreter.&amp;rdquo; If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax highlighting, readline-like autocomplete, a &amp;ldquo;rewind&amp;rdquo; function to pop the last line of code from memory, auto-indentation and more.
 Anyway, today I found a bug in bpython, and that&amp;rsquo;s that Python&amp;rsquo;s decimal.getcontext() does not work with it.</description>
-      <content:encoded><![CDATA[<p>I have been working on a side project for which I&rsquo;m using [bpython][1], a &ldquo;fancy interface to the Python interpreter.&rdquo;
+      <content:encoded><![CDATA[<p>I have been working on a side project for which I&rsquo;m using <a href="https://bpython-interpreter.org">bpython</a>, a &ldquo;fancy interface to the Python interpreter.&rdquo;
 If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax
 highlighting, readline-like autocomplete, a &ldquo;rewind&rdquo; function to pop the last line of code from memory, auto-indentation
 and more.</p>
@@ -44,7 +44,7 @@ and more.</p>
 </span></span><span style="display:flex;"><span>Decimal(&#39;0.142857&#39;)
 </span></span></code></pre></div><p>I suspect this has something to do with threads, as <code>decimal.getcontext</code> targets the current thread while
 <code>DefaultContext</code> is global. I went to the bpython repository only to find that a ticket was already opened in 2021. I
-[added][2] my <code>DefaultContext</code> observation there.</p>
+<a href="https://github.com/bpython/bpython/issues/918#issuecomment-1578911204">added</a> my <code>DefaultContext</code> observation there.</p>
 ]]></content:encoded>
     </item>
   </channel>
