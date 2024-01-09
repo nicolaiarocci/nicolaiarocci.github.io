@@ -732,14 +732,14 @@ go &ndash; T.S. Eliot</p>
       <pubDate>Tue, 09 Jan 2024 09:19:48 +0100</pubDate>
       <guid>https://nicolaiarocci.com/pg_rman-a-backup-and-restore-management-tool-for-postgresql/</guid>
       <description>The goal of the pg_rman project is to provide a method for online backup and PITR that is as easy as pg_dump. Also, it maintains a backup catalog per database cluster. Users can maintain old backups including archive logs with one command.
-We&amp;rsquo;ve always been doing our Postgres backups the rudimentary way, via pg_dumpall, which works and is purely logical (one can restore across different Postgres versions), but pg_rman maintains a catalog and has point-in-time recovery.</description>
+We&amp;rsquo;ve always been doing our Postgres backups the rudimentary way via pg_dumpall, which works and is purely logical (one can restore across different Postgres versions), but pg_rman maintains a catalog and has point-in-time recovery.</description>
       <content:encoded><![CDATA[<blockquote>
 <p>The goal of the pg_rman project is to provide a method for online backup and
 PITR that is as easy as pg_dump. Also, it maintains a backup catalog per
 database cluster. Users can maintain old backups including archive logs with one
 command.</p>
 </blockquote>
-<p>We&rsquo;ve always been doing our Postgres backups the rudimentary way, via
+<p>We&rsquo;ve always been doing our Postgres backups the rudimentary way via
 <code>pg_dumpall</code>, which works and is purely logical (one can restore across different
 Postgres versions), but <code>pg_rman</code> maintains a catalog and has point-in-time
 recovery.</p>
