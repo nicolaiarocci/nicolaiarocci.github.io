@@ -12,7 +12,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Wed, 17 Jan 2024 17:36:24 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jan 2024 08:40:38 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccolo Libro di MongoDB</title>
@@ -728,22 +728,6 @@ go &ndash; T.S. Eliot</p>
 <li><a href="http://www.goodreads.com/user/show/4665453-nicola">GoodReads</a></li>
 <li><a href="mailto:nicola@nicolaiarocci.com">Mail</a></li>
 </ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Books I read in 2024</title>
-      <link>https://nicolaiarocci.com/books-i-read-in-2024/</link>
-      <pubDate>Wed, 17 Jan 2024 17:36:24 +0100</pubDate>
-      <guid>https://nicolaiarocci.com/books-i-read-in-2024/</guid>
-      <description>(intro)
-The Question of Palestine, by E.W. Said (La Questione Palestinese, il Saggiatore)
-★★★★☆
-I was interested in learning about Israeli-Palestinian history from the beginning, and I wanted it told from the perspective of an Arab-Palestinian scholar and critic. In the West, we grow with Western and pro-Israeli narratives, and it is super-hard to get access to the Palestinian narration. The Palestinian Question turned out to be the ideal text. &amp;ldquo;The tragedy of being a victim of victims.</description>
-      <content:encoded><![CDATA[<p>(intro)</p>
-<h3 id="the-question-of-palestine-by-ew-said">The Question of Palestine, by E.W. Said</h3>
-<p><em>(La Questione Palestinese, il Saggiatore)</em></p>
-<p>★★★★☆</p>
-<p>I was interested in learning about Israeli-Palestinian history from the beginning, and I wanted it told from the perspective of an Arab-Palestinian scholar and critic. In the West, we grow with Western and pro-Israeli narratives, and it is super-hard to get access to the Palestinian narration. The Palestinian Question turned out to be the ideal text. &ldquo;The tragedy of being a victim of victims.&rdquo;</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -12912,16 +12896,6 @@ this site. If you want to get in touch, I am @<a href="http://twitter.com/nicola
 ]]></content:encoded>
     </item>
     <item>
-      <title>How to convert a project.json project to the new .csproj format</title>
-      <link>https://nicolaiarocci.com/how-to-convert-a-project.json-project-to-the-new-.csproj-format/</link>
-      <pubDate>Wed, 10 May 2017 09:50:21 +0200</pubDate>
-      <guid>https://nicolaiarocci.com/how-to-convert-a-project.json-project-to-the-new-.csproj-format/</guid>
-      <description>Join the newsletter to get an email alert when a new post surfaces on this site. If you want to get in touch, I am @nicolaiarocci on twitter.</description>
-      <content:encoded><![CDATA[<p><em>Join the <a href="http://eepurl.com/b-_Pzz">newsletter</a> to get an email alert when a new post surfaces on
-this site. If you want to get in touch, I am @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on twitter.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>How to convert a PCL (Portable) project to NetStandard</title>
       <link>https://nicolaiarocci.com/how-to-convert-a-pcl-portable-project-to-netstandard/</link>
       <pubDate>Wed, 10 May 2017 09:47:05 +0200</pubDate>
@@ -13081,50 +13055,6 @@ the Python Workload for Visual Studio 2017. With this turn of events I will
 probably end up going on stage with the previous version of the tool, and
 Visual Studio 2015.</p>
 <p>Or I will bite the bullet and install 35 gigs of mostly duplicated software.</p>
-<p><em>Join the <a href="http://eepurl.com/b-_Pzz">newsletter</a> to get an email alert when a new post surfaces on
-this site. If you want to get in touch, I am @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on twitter.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Eve and Cerberus are now collaboratively funded projects</title>
-      <link>https://nicolaiarocci.com/eve-and-cerberus-are-now-collaboratively-funded-projects/</link>
-      <pubDate>Sun, 05 Mar 2017 10:10:29 +0100</pubDate>
-      <guid>https://nicolaiarocci.com/eve-and-cerberus-are-now-collaboratively-funded-projects/</guid>
-      <description>I finally took the plunge and made Eve and Cerberus collaboratively funded projects. Even if only mildly successful, this initiative will have a huge impact on them, as I will be able to dedicate them at least some of my working time.
-So far (five years and counting) I have almost exclusively been working on Eve and Cerberus in my free time. However maintaining, supporting, and developing new features to projects of this scope takes a considerable amount of time.</description>
-      <content:encoded><![CDATA[<p>I finally took the plunge and made <a href="http://python-eve.org">Eve</a> and <a href="http://python-cerberus.org">Cerberus</a> collaboratively
-funded projects. Even if only mildly successful, this initiative will have
-a huge impact on them, as I will be able to dedicate them at least some of my
-working time.</p>
-<p>So far (five years and counting) I have almost exclusively been working on
-Eve and Cerberus in my free time. However maintaining, supporting, and
-developing new features to projects of this scope takes a considerable amount
-of time. And there is so much I would like to do. On my radar there are new
-Client SDKs (Python, JavaScript), OpenAPI support, an overhaul of both the
-documentation and the test suite. Eve-Swagger and Flask-Sentinel could and
-should receive important improvements.</p>
-<p>I believe that it is in the commercial best-interest for users of these projects
-to invest in its ongoing development. Signing up, users will directly
-contribute to faster releases, more features, and higher quality software. More
-time will be invested in documentation, issue triage, and community support.
-Essentially, by signing up they safeguard the future development of the
-framework.</p>
-<p>Quoting the Django REST framework which, along with Vue.js, showed me the path:</p>
-<blockquote>
-<p>Collaboratively funded software can offer outstanding returns on investment,
-by encouraging users to collectively share the cost of development
-(<a href="https://fund.django-rest-framework.org/topics/funding/">source</a>).</p>
-</blockquote>
-<p>If you run a business and is using Eve or Cerberus in a revenue-generating
-product, it would make business sense to sponsor their development: it ensures
-the projects that your product relies on stays healthy and actively maintained.
-It can also help your exposure in the Eve community and makes it easier to
-attract Eve developers.</p>
-<p>Individual users are also welcome to make a recurring pledge if the projects
-helped you in either work or personal projects. Alternatively, consider
-donating as a sign of appreciation - like buying me coffee once in a while :)</p>
-<p>In order to make the campaign as reasonable and affordable as possible, I set
-up a bunch of goals and rewards, <a href="https://www.patreon.com/nicolaiarocci">check it out on Patreon</a>.</p>
 <p><em>Join the <a href="http://eepurl.com/b-_Pzz">newsletter</a> to get an email alert when a new post surfaces on
 this site. If you want to get in touch, I am @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on twitter.</em></p>
 ]]></content:encoded>

@@ -14,28 +14,19 @@
     <loc>https://nicolaiarocci.com/about/</loc>
     <lastmod>2010-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nicolaiarocci.com/tags/books/</loc>
-    <lastmod>2024-01-17T17:36:24+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/books-i-read-in-2024/</loc>
-    <lastmod>2024-01-17T17:36:24+01:00</lastmod>
-  </url><url>
     <loc>https://nicolaiarocci.com/</loc>
-    <lastmod>2024-01-17T17:36:24+01:00</lastmod>
+    <lastmod>2024-01-15T08:40:38+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/post/</loc>
-    <lastmod>2024-01-17T17:36:24+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/reviews/</loc>
-    <lastmod>2024-01-17T17:36:24+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/</loc>
-    <lastmod>2024-01-17T17:36:24+01:00</lastmod>
+    <lastmod>2024-01-15T08:40:38+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/quotes/</loc>
     <lastmod>2024-01-15T08:40:38+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/quoting-guillermo-del-toro/</loc>
+    <lastmod>2024-01-15T08:40:38+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/</loc>
     <lastmod>2024-01-15T08:40:38+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/links/</loc>
@@ -89,6 +80,9 @@
     <loc>https://nicolaiarocci.com/tags/movies/</loc>
     <lastmod>2024-01-07T16:15:10+01:00</lastmod>
   </url><url>
+    <loc>https://nicolaiarocci.com/tags/reviews/</loc>
+    <lastmod>2024-01-07T16:15:10+01:00</lastmod>
+  </url><url>
     <loc>https://nicolaiarocci.com/tags/ai/</loc>
     <lastmod>2024-01-07T10:57:43+01:00</lastmod>
   </url><url>
@@ -136,6 +130,9 @@
   </url><url>
     <loc>https://nicolaiarocci.com/movie-review-the-vast-of-the-night/</loc>
     <lastmod>2023-12-30T10:08:07+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/books/</loc>
+    <lastmod>2023-12-29T15:51:02+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/books-i-read-in-2023/</loc>
     <lastmod>2023-12-29T15:51:02+01:00</lastmod>
@@ -1583,9 +1580,6 @@
     <loc>https://nicolaiarocci.com/tags/visual-studio/</loc>
     <lastmod>2017-05-11T16:16:06+02:00</lastmod>
   </url><url>
-    <loc>https://nicolaiarocci.com/how-to-convert-a-project.json-project-to-the-new-.csproj-format/</loc>
-    <lastmod>2017-05-10T09:50:21+02:00</lastmod>
-  </url><url>
     <loc>https://nicolaiarocci.com/how-to-convert-a-pcl-portable-project-to-netstandard/</loc>
     <lastmod>2017-05-10T09:47:05+02:00</lastmod>
   </url><url>
@@ -1597,9 +1591,6 @@
   </url><url>
     <loc>https://nicolaiarocci.com/python-support-in-visual-studio-2017-or-the-lack-thereof/</loc>
     <lastmod>2017-03-08T10:41:17+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/eve-and-cerberus-are-now-collaboratively-funded-projects/</loc>
-    <lastmod>2017-03-05T10:10:29+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/appveyor/</loc>
     <lastmod>2017-02-25T16:48:09+01:00</lastmod>
