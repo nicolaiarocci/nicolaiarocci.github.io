@@ -35,7 +35,7 @@ even web apps that use client authentication
 </blockquote>
 <p>In a nutshell:</p>
 <ol>
-<li>The client requests a single-use authorization code to an authentication server. In doing that, it includes a <code>code_challenge</code> with the request.</li>
+<li>The client requests a single-use authorization code to an authorization server. In doing that, it includes a <code>code_challenge</code> with the request.</li>
 <li>The server responds with the authorization code if the client is recognized and authorized.</li>
 <li>The client requests an access token in exchange for the authorization code. It includes the <code>code_verifier</code> used to generate the original <code>code_challenge</code>;</li>
 <li>The server confirms that the verifier is the same one used to generate the code challenge; hence, the client is the same.</li>
