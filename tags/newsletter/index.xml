@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>newsletter on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/newsletter/</link>
+    <description>Recent content in newsletter on Nicola Iarocci</description>
+    <image>
+      <title>Nicola Iarocci</title>
+      <url>https://nicolaiarocci.com/images/avatar.png</url>
+      <link>https://nicolaiarocci.com/images/avatar.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
+    <lastBuildDate>Fri, 19 Jan 2024 15:32:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/newsletter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I&#39;m leaving Substack</title>
+      <link>https://nicolaiarocci.com/im-leaving-substack/</link>
+      <pubDate>Fri, 19 Jan 2024 15:32:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/im-leaving-substack/</guid>
+      <description>If you are one of the few following me on Substack, I have news: I&amp;rsquo;m leaving Substack and moving to a different platform. I left a couple of weeks ago; my latest posts are not on Substack and you can find them on my website (the source of all my content), or you can subscribe to the new newsletter or the RSS feed like hackers do.
+If you&amp;rsquo;re an old-time Substack subscriber, you already know because I transferred all the active subscriptions to the new platform.</description>
+      <content:encoded><![CDATA[<p>If you are one of the few following me on Substack, I have news: I&rsquo;m
+leaving Substack and moving to a <a href="https://buttondown.email/refer/nicolaiarocci">different
+platform</a>. I left a couple of
+weeks ago; my latest posts are not on Substack and you can find them on <a href="https://nicolaiarocci.com">my
+website</a> (the source of all my content), or you can
+subscribe to the <a href="https://buttondown.email/nicolaiarocci">new newsletter</a> or the
+<a href="https://nicolaiarocci.com/index.xml">RSS feed</a> like hackers do.</p>
+<p>If you&rsquo;re an old-time Substack subscriber, you already know because I
+transferred all the active subscriptions to the new platform. I&rsquo;m writing for
+the occasional passerby looking for fresh content.</p>
+<p>Why I left Substack? Two reasons:</p>
+<ol>
+<li>
+<p>It&rsquo;s <a href="https://badnewsletter.substack.com/p/all-the-garbage-i-found-on-substack">full of
+garbage</a>,
+has a <a href="https://www.theatlantic.com/ideas/archive/2023/11/substack-extremism-nazi-white-supremacy-newsletters/676156/">nazi
+problem</a>,
+and it is monetizing on all this stuff. I don&rsquo;t want to be associated in any
+possible way with an enterprise like this, and I certainly don&rsquo;t want to offer
+them visibility, no matter how little.</p>
+</li>
+<li>
+<p>Substack does not support RSS-alimented campaigns, so I had to copy &amp; paste
+every single post from my website manually. That is tiring and error-prone.</p>
+</li>
+</ol>
+<p>Because of point 2, Substack was not my platform from the get-go. I knew, but I
+was willing, as an experiment, to put in some extra work in exchange for the
+visibility.</p>
+<p>I&rsquo;m not willing to compromise on 1.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

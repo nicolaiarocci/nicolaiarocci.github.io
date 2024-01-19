@@ -12,7 +12,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Wed, 17 Jan 2024 18:28:14 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jan 2024 15:32:25 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccolo Libro di MongoDB</title>
@@ -728,6 +728,45 @@ go &ndash; T.S. Eliot</p>
 <li><a href="http://www.goodreads.com/user/show/4665453-nicola">GoodReads</a></li>
 <li><a href="mailto:nicola@nicolaiarocci.com">Mail</a></li>
 </ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>I&#39;m leaving Substack</title>
+      <link>https://nicolaiarocci.com/im-leaving-substack/</link>
+      <pubDate>Fri, 19 Jan 2024 15:32:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/im-leaving-substack/</guid>
+      <description>If you are one of the few following me on Substack, I have news: I&amp;rsquo;m leaving Substack and moving to a different platform. I left a couple of weeks ago; my latest posts are not on Substack and you can find them on my website (the source of all my content), or you can subscribe to the new newsletter or the RSS feed like hackers do.
+If you&amp;rsquo;re an old-time Substack subscriber, you already know because I transferred all the active subscriptions to the new platform.</description>
+      <content:encoded><![CDATA[<p>If you are one of the few following me on Substack, I have news: I&rsquo;m
+leaving Substack and moving to a <a href="https://buttondown.email/refer/nicolaiarocci">different
+platform</a>. I left a couple of
+weeks ago; my latest posts are not on Substack and you can find them on <a href="https://nicolaiarocci.com">my
+website</a> (the source of all my content), or you can
+subscribe to the <a href="https://buttondown.email/nicolaiarocci">new newsletter</a> or the
+<a href="https://nicolaiarocci.com/index.xml">RSS feed</a> like hackers do.</p>
+<p>If you&rsquo;re an old-time Substack subscriber, you already know because I
+transferred all the active subscriptions to the new platform. I&rsquo;m writing for
+the occasional passerby looking for fresh content.</p>
+<p>Why I left Substack? Two reasons:</p>
+<ol>
+<li>
+<p>It&rsquo;s <a href="https://badnewsletter.substack.com/p/all-the-garbage-i-found-on-substack">full of
+garbage</a>,
+has a <a href="https://www.theatlantic.com/ideas/archive/2023/11/substack-extremism-nazi-white-supremacy-newsletters/676156/">nazi
+problem</a>,
+and it is monetizing on all this stuff. I don&rsquo;t want to be associated in any
+possible way with an enterprise like this, and I certainly don&rsquo;t want to offer
+them visibility, no matter how little.</p>
+</li>
+<li>
+<p>Substack does not support RSS-alimented campaigns, so I had to copy &amp; paste
+every single post from my website manually. That is tiring and error-prone.</p>
+</li>
+</ol>
+<p>Because of point 2, Substack was not my platform from the get-go. I knew, but I
+was willing, as an experiment, to put in some extra work in exchange for the
+visibility.</p>
+<p>I&rsquo;m not willing to compromise on 1.</p>
 ]]></content:encoded>
     </item>
     <item>
