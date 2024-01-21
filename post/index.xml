@@ -12,8 +12,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Sun, 21 Jan 2024 12:27:26 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jan 2024 16:35:07 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My grandpa was a Nazi</title>
+      <link>https://nicolaiarocci.com/my-grandpa-was-a-nazi/</link>
+      <pubDate>Sun, 21 Jan 2024 16:35:07 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/my-grandpa-was-a-nazi/</guid>
+      <description>Powerful and cautionary story.
+I wondered for many years, how all of this could have happened. How people like my grandpa turned into monsters and people around him watched or turned into monsters with him. The last years made this very clear.
+More here.</description>
+      <content:encoded><![CDATA[<p>Powerful and cautionary story.</p>
+<blockquote>
+<p>I wondered for many years, how all of this could have happened. How people
+like my grandpa turned into monsters and people around him watched or turned
+into monsters with him. The last years made this very clear.</p>
+</blockquote>
+<p>More <a href="https://bastianallgeier.com/notes/grandpa">here</a>.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Linus Torvalds on the impact of LLMs and AI on programming</title>
       <link>https://nicolaiarocci.com/linus-torvalds-on-the-impact-of-llms-and-ai-on-programming/</link>

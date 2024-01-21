@@ -12,21 +12,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Sun, 21 Jan 2024 12:27:26 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jan 2024 16:35:07 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>links</title>
+      <link>https://nicolaiarocci.com/tags/links/</link>
+      <pubDate>Sun, 21 Jan 2024 16:35:07 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/tags/links/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
     <item>
       <title>ai</title>
       <link>https://nicolaiarocci.com/tags/ai/</link>
       <pubDate>Sun, 21 Jan 2024 12:27:26 +0100</pubDate>
       <guid>https://nicolaiarocci.com/tags/ai/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>links</title>
-      <link>https://nicolaiarocci.com/tags/links/</link>
-      <pubDate>Sun, 21 Jan 2024 12:27:26 +0100</pubDate>
-      <guid>https://nicolaiarocci.com/tags/links/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
