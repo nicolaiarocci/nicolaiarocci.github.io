@@ -14,6 +14,27 @@
     <loc>https://nicolaiarocci.com/about/</loc>
     <lastmod>2010-11-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://nicolaiarocci.com/tags/docker/</loc>
+    <lastmod>2024-01-26T09:31:47+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/dotnet/</loc>
+    <lastmod>2024-01-26T09:31:47+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/fixing-the-failed-to-create-coreclr-error-0x80070008-error-when-starting-a-dotnet-docker-container/</loc>
+    <lastmod>2024-01-26T09:31:47+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/</loc>
+    <lastmod>2024-01-26T09:31:47+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/post/</loc>
+    <lastmod>2024-01-26T09:31:47+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/</loc>
+    <lastmod>2024-01-26T09:31:47+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/til/</loc>
+    <lastmod>2024-01-26T09:31:47+01:00</lastmod>
+  </url><url>
     <loc>https://nicolaiarocci.com/tags/bash/</loc>
     <lastmod>2024-01-25T14:37:42+01:00</lastmod>
   </url><url>
@@ -24,18 +45,6 @@
     <lastmod>2024-01-25T14:37:42+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/linux/</loc>
-    <lastmod>2024-01-25T14:37:42+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/</loc>
-    <lastmod>2024-01-25T14:37:42+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/post/</loc>
-    <lastmod>2024-01-25T14:37:42+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/</loc>
-    <lastmod>2024-01-25T14:37:42+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/til/</loc>
     <lastmod>2024-01-25T14:37:42+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/links/</loc>
@@ -69,9 +78,6 @@
     <lastmod>2024-01-19T15:32:25+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/csharp/</loc>
-    <lastmod>2024-01-17T18:28:14+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/dotnet/</loc>
     <lastmod>2024-01-17T18:28:14+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/how-to-implement-pkce-code-challenge-in-csharp/</loc>
@@ -736,9 +742,6 @@
   </url><url>
     <loc>https://nicolaiarocci.com/fatturaelettronica-v3.4-released/</loc>
     <lastmod>2022-09-09T07:05:25+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/docker/</loc>
-    <lastmod>2022-09-08T07:05:25+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/the-docker-event-monitor/</loc>
     <lastmod>2022-09-08T07:05:25+01:00</lastmod>
