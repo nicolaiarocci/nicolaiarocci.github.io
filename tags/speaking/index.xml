@@ -7,8 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Thu, 23 Nov 2023 07:05:25 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jan 2024 15:39:31 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/speaking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Video of my C#12 session at .NET Conference Italia 2023</title>
+      <link>https://nicolaiarocci.com/video-of-my-csharp-12-session-at-dotnet-conference-italia-2023/</link>
+      <pubDate>Fri, 26 Jan 2024 15:39:31 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/video-of-my-csharp-12-session-at-dotnet-conference-italia-2023/</guid>
+      <description>The video and slides of my C# 12 session at .NET Conference Italia 2023 is finally available online. Unfortunately it&amp;rsquo;s just my voice and my laptop screen, and that&amp;rsquo;s too bad because the location was as cool as it can get, and the room was packed.
+It is in Italian1 and you need to login in order to see it (sorry, I don&amp;rsquo;t have control over it.)
+I also submitted to several international conferences; let&amp;rsquo;s see what happens.</description>
+      <content:encoded><![CDATA[<p>The video and slides of my C# 12 session at .NET Conference Italia 2023 is
+finally <a href="https://www.ugidotnet.org/e/sessione/3295/C-12-Cosa-c-e-di-nuovo-e-interessante">available
+online</a>.
+Unfortunately it&rsquo;s just my voice and my laptop screen, and that&rsquo;s too bad
+because the location was as cool as it can get, and the room was packed.</p>
+<p>It is in Italian<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> and you need to login in order to see it (sorry, I
+don&rsquo;t have control over it.)</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I also submitted to several international conferences; let&rsquo;s see what
+happens. Since the COVID hiatus, I&rsquo;ve had no luck with international events.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+    </item>
     <item>
       <title>I am speaking at the .NET Conference Italia 2023</title>
       <link>https://nicolaiarocci.com/i-am-speaking-at-the-dotnet-conference-italia-2023/</link>
@@ -24,6 +50,7 @@ several moving parts. Now that the final release is out, it will be interesting 
 knowledge. I suspect that of the many reasons I challenge myself to speak publicly, enriching my knowledge is prevalent.
 As the adage goes, for learning a subject, nothing beats explaining it in front of a knowledgeable audience.</p>
 <p>If you will attend the conference (you should!), remember to meet me and say hi!</p>
+<p><em>Update:</em> the session is now <a href="/video-of-my-csharp-12-session-at-dotnet-conference-italia-2023/">available online</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
