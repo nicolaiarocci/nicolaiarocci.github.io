@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Wed, 31 Jan 2024 15:21:11 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 02 Feb 2024 08:54:30 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccolo Libro di MongoDB</title>
@@ -723,6 +723,44 @@ go &ndash; T.S. Eliot</p>
 <li><a href="http://www.goodreads.com/user/show/4665453-nicola">GoodReads</a></li>
 <li><a href="mailto:nicola@nicolaiarocci.com">Mail</a></li>
 </ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Being autistic</title>
+      <link>https://nicolaiarocci.com/being-autistic/</link>
+      <pubDate>Fri, 02 Feb 2024 08:54:30 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/being-autistic/</guid>
+      <description>A lot of the things described by David in his post resonate with me.
+As far as I’ve been able to figure out so far, the things my mind is best at are details and systems. It‘s part of what makes me a good programmer: I can hold a lot of detail in my head about how a system fits together, I can mess around with it more easily than most people, and I can pick up on details other people might miss, such as potential bugs.</description>
+      <content:encoded><![CDATA[<p>A lot of the things described by David in <a href="https://dhwthompson.com/2018/being-autistic">his
+post</a> resonate with me.</p>
+<blockquote>
+<p>As far as I’ve been able to figure out so far, the things my mind is best at
+are details and systems. It‘s part of what makes me a good programmer: I can
+hold a lot of detail in my head about how a system fits together, I can mess
+around with it more easily than most people, and I can pick up on details other
+people might miss, such as potential bugs. A lot of the things I enjoy (and seem
+to be pretty good at) are those where there’s an underlying system to figure out
+and master – computer games, martial arts, even cooking.</p>
+</blockquote>
+<blockquote>
+<p>Then there’s a few things my mind struggles to handle. Most of them revolve
+around people.</p>
+</blockquote>
+<blockquote>
+<p>I’m not always great at figuring out what someone else is thinking, or
+feeling, or even dropping hints about. I can take educated guesses, for sure,
+but I don’t necessarily get it right. It also takes a lot of work to keep track
+of all the social cues going on whenever there’s a conversation happening, and
+all the social conventions most people seem to follow without even thinking. I
+can think of several times when someone has asked me how my weekend went, and
+it’s completely slipped my mind that the appropriate response is to ask them
+about theirs too. It’s not that I don’t care; it’s that I’m having to
+concentrate so much on the rest of the social cues that I take longer to catch
+up with how the conversation is supposed to go.</p>
+</blockquote>
+<p>It took some balls to write his next one, <em><a href="https://dhwthompson.com/2018/my-brain-and-how-to-help-it">My brain, and how you can help
+me</a></em>. Respect.</p>
 ]]></content:encoded>
     </item>
     <item>
