@@ -745,8 +745,17 @@ covered!</p>
 <p>You can run it from the website or
 <a href="https://github.com/franekmagiera/just-tell-me">locally</a> on the command line,
 with your OpenAPI key and the LLM model of choice. I have not looked at the
-code, but I understand it leverages the video transcripts to do its magic. I&rsquo;ve
+code, but I understand it leverages the video transcript to do its magic<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. I&rsquo;ve
 been using it for a while, and it&rsquo;s been good.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I&rsquo;ve now looked at the code and the actual ChatGPT prompt is <em>&ldquo;You will be provided with video captions. Summarize the video in one paragraph&rdquo;</em>
+(<a href="https://github.com/franekmagiera/just-tell-me/blob/04be5af4de743ca99d4480a9576830416ec3415e/app/src/get-captions-summary.ts#L23">link</a>).&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
