@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Thu, 08 Feb 2024 09:25:30 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 08 Feb 2024 17:40:23 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccolo Libro di MongoDB</title>
@@ -724,6 +724,31 @@ go &ndash; T.S. Eliot</p>
 <li><a href="http://www.goodreads.com/user/show/4665453-nicola">GoodReads</a></li>
 <li><a href="mailto:nicola@nicolaiarocci.com">Mail</a></li>
 </ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Ethan Mollick&#39;s first impressions on Gemini Advanced</title>
+      <link>https://nicolaiarocci.com/ethan-mollicks-first-impressions-on-gemini-advanced/</link>
+      <pubDate>Thu, 08 Feb 2024 17:40:23 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/ethan-mollicks-first-impressions-on-gemini-advanced/</guid>
+      <description>Ethan Mollick, one of my few LLM/AI sources, just dropped his first impressions on Gemini Advanced, released today, but which he&amp;rsquo;s been testing for a month in early access.
+Let me start with the headline: Gemini Advanced is clearly a GPT-4 class model. The statistics show this, but so does a month of our informal testing. And this is a big deal because OpenAI’s GPT-4 (the paid version of ChatGPT/Microsoft Copilot) has been the dominant AI for well over a year, and no other model has come particularly close.</description>
+      <content:encoded><![CDATA[<p>Ethan Mollick, one of my few <a href="/some-hints-about-what-the-next-year-of-ai-looks-like/">LLM/AI
+sources</a>, just dropped
+his first impressions on Gemini Advanced, released today, but which he&rsquo;s been
+testing for a month in early access.</p>
+<blockquote>
+<p>Let me start with the headline: Gemini Advanced is clearly a GPT-4 class
+model. The statistics show this, but so does a month of our informal testing.
+And this is a big deal because OpenAI’s GPT-4 (the paid version of
+ChatGPT/Microsoft Copilot) has been the dominant AI for well over a year, and no
+other model has come particularly close. Prior to Gemini, we only had one
+advanced AI model to look at, and it is hard drawing conclusions with a dataset
+of one. Now there are two, and we can learn a few things.</p>
+</blockquote>
+<p>Things are getting hotter in the LLM space, and competition is always good.</p>
+<p>Full article
+<a href="https://www.oneusefulthing.org/p/google-gemini-advanced-tasting-notes">here</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
