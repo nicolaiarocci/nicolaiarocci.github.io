@@ -743,7 +743,7 @@ project, usually in a dedicated directory, and publish it on a dedicated site
 through GitHub Pages. But today was different as I <a href="https://github.com/adityatelange/hugo-PaperMod/pull/1419">opened a pull
 request</a> for PaperMod,
 the Hugo theme I use on this website. Someone asked if I could update the
-documentation, too. Right, too bad it&rsquo;s impossible to do that.</p>
+documentation too. Right, too bad it&rsquo;s impossible to do that.</p>
 <p>The first ticket on this <a href="https://github.com/isaacs/github/issues/846">goes back to
 2016</a>. This limitation makes GitHub
 wikis impractical for any team project (maybe 90% of those on the platform),
