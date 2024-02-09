@@ -20,7 +20,7 @@ I don&amp;rsquo;t use wikis in my projects; I prefer documentation to stay with 
 pull requests</a>. You can
 clone and edit a wiki locally but not return your change to the original
 repository.</p>
-<p>I don&rsquo;t use wikis in my projects; I prefer documentation to stay with the
+<p>I don&rsquo;t use wikis in <a href="/opensource/">my projects</a>; I prefer documentation to stay with the
 project, usually in a dedicated directory, and publish it on a dedicated site
 through GitHub Pages. But today was different as I <a href="https://github.com/adityatelange/hugo-PaperMod/pull/1419">opened a pull
 request</a> for PaperMod,
