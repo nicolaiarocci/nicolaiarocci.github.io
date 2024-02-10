@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/categories/</link>
@@ -15,7 +15,6 @@
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/categories/programming/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Events</title>
@@ -23,7 +22,6 @@
       <pubDate>Fri, 11 Mar 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/categories/events/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Suggested Readings</title>
@@ -31,7 +29,6 @@
       <pubDate>Sun, 15 Mar 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/categories/suggested-readings/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Guide</title>
@@ -39,7 +36,6 @@
       <pubDate>Fri, 03 May 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/categories/guide/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Formazione</title>
@@ -47,7 +43,6 @@
       <pubDate>Mon, 23 Apr 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/categories/formazione/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
   </channel>
 </rss>
