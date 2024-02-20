@@ -7,8 +7,38 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Fri, 09 Feb 2024 15:58:54 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 20 Feb 2024 11:48:42 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Default ASP NET Core 8 port changed from 80 to 8080</title>
+      <link>https://nicolaiarocci.com/default-asp-net-core-8-port-changed-from-80-to-8080/</link>
+      <pubDate>Tue, 20 Feb 2024 11:48:42 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/default-asp-net-core-8-port-changed-from-80-to-8080/</guid>
+      <description>Today, I learned the hard way that the default port for ASP.NET Core 8 container images has been updated from port 80 to 8080, quite a remarkable breaking change.
+We upgraded our web application from .NET 7 and let the CI pipeline do its work. Finally, we checked the application in the browser to ensure everything was okay, but unfortunately, we got a 502 Bad Gateway error. The Nginx logs revealed that the app was rejecting connections, which was unexpected because we didn&amp;rsquo;t make any changes there.</description>
+      <content:encoded><![CDATA[<p>Today, I learned the hard way that the default port for ASP.NET Core 8 container
+images has been updated from port 80 to 8080, quite a remarkable breaking
+change.</p>
+<p>We upgraded our web application from .NET 7 and let the CI pipeline do its work.
+Finally, we checked the application in the browser to ensure everything was
+okay, but unfortunately, we got a 502 Bad Gateway error. The Nginx logs revealed
+that the app was rejecting connections, which was unexpected because we didn&rsquo;t
+make any changes there. Further investigation showed that the web app listened
+on port 8080 while Nginx was reverse-proxied to 80. So that was the problem. But
+why did the port change?</p>
+<blockquote>
+<p>The change to the port number was made because of the need to provide a good
+usability experience when switching to a non-root user. Running as a non-root
+user requires the use of a non-privileged port in some environments. Since port
+80, the previous default port, is a privileged port, the default was updated to
+port 8080, which is a non-privileged port. <em>(<a href="https://learn.microsoft.com/en-us/dotnet/core/compatibility/containers/8.0/aspnet-port#reason-for-change">source</a>)</em></p>
+</blockquote>
+<p>It all makes sense now. In hindsight, it was our mistake. We should have
+explicitly declared the port in our launch settings anyway. As the <a href="https://en.wikipedia.org/wiki/Zen_of_Python">Python
+Zen</a> says, &ldquo;Explicit is better than
+implicit.&rdquo;</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>GitHub Wikis don&#39;t allow edits or pull requests</title>
       <link>https://nicolaiarocci.com/github-wikis-dont-allow-edits-or-pull-requests/</link>
