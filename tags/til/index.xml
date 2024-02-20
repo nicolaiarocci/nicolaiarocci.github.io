@@ -31,7 +31,7 @@ why did the port change?</p>
 usability experience when switching to a non-root user. Running as a non-root
 user requires the use of a non-privileged port in some environments. Since port
 80, the previous default port, is a privileged port, the default was updated to
-port 8080, which is a non-privileged port. <em>(<a href="https://learn.microsoft.com/en-us/dotnet/core/compatibility/containers/8.0/aspnet-port#reason-for-change">source</a>)</em></p>
+port 8080, which is a non-privileged port <em>(<a href="https://learn.microsoft.com/en-us/dotnet/core/compatibility/containers/8.0/aspnet-port#reason-for-change">source</a>)</em></p>
 </blockquote>
 <p>It all makes sense now. In hindsight, it was our mistake. We should have
 explicitly declared the port in our launch settings anyway. As the <a href="https://en.wikipedia.org/wiki/Zen_of_Python">Python
