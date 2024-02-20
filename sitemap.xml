@@ -14,6 +14,27 @@
     <loc>https://nicolaiarocci.com/about/</loc>
     <lastmod>2010-11-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://nicolaiarocci.com/tags/aspnet/</loc>
+    <lastmod>2024-02-20T11:48:42+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/default-asp-net-core-8-port-changed-from-80-to-8080/</loc>
+    <lastmod>2024-02-20T11:48:42+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/docker/</loc>
+    <lastmod>2024-02-20T11:48:42+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/dotnet/</loc>
+    <lastmod>2024-02-20T11:48:42+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/</loc>
+    <lastmod>2024-02-20T11:48:42+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/post/</loc>
+    <lastmod>2024-02-20T11:48:42+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/</loc>
+    <lastmod>2024-02-20T11:48:42+01:00</lastmod>
+  </url><url>
     <loc>https://nicolaiarocci.com/tags/apennine-mountains/</loc>
     <lastmod>2024-02-19T10:02:48+01:00</lastmod>
   </url><url>
@@ -21,15 +42,6 @@
     <lastmod>2024-02-19T10:02:48+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/monte-tiravento/</loc>
-    <lastmod>2024-02-19T10:02:48+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/</loc>
-    <lastmod>2024-02-19T10:02:48+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/post/</loc>
-    <lastmod>2024-02-19T10:02:48+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/</loc>
     <lastmod>2024-02-19T10:02:48+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/links/</loc>
@@ -152,9 +164,6 @@
     <loc>https://nicolaiarocci.com/tags/csharp/</loc>
     <lastmod>2024-01-26T15:39:31+01:00</lastmod>
   </url><url>
-    <loc>https://nicolaiarocci.com/tags/dotnet/</loc>
-    <lastmod>2024-01-26T15:39:31+01:00</lastmod>
-  </url><url>
     <loc>https://nicolaiarocci.com/tags/speaking/</loc>
     <lastmod>2024-01-26T15:39:31+01:00</lastmod>
   </url><url>
@@ -169,9 +178,6 @@
   </url><url>
     <loc>https://nicolaiarocci.com/tags/personal/</loc>
     <lastmod>2024-01-26T15:01:38+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/docker/</loc>
-    <lastmod>2024-01-26T09:31:47+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/fixing-the-failed-to-create-coreclr-error-0x80070008-error-when-starting-a-dotnet-docker-container/</loc>
     <lastmod>2024-01-26T09:31:47+01:00</lastmod>
@@ -1165,9 +1171,6 @@
   </url><url>
     <loc>https://nicolaiarocci.com/tags/meta/</loc>
     <lastmod>2021-11-16T07:05:25+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/aspnet/</loc>
-    <lastmod>2021-11-14T07:05:25+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/my-asp.net-5-migration-to-.net-6/</loc>
     <lastmod>2021-11-14T07:05:25+01:00</lastmod>
