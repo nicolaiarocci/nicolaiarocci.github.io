@@ -15,18 +15,27 @@
     <lastmod>2010-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/</loc>
-    <lastmod>2024-02-20T14:54:06+01:00</lastmod>
+    <lastmod>2024-02-22T17:35:40+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/post/</loc>
-    <lastmod>2024-02-20T14:54:06+01:00</lastmod>
+    <lastmod>2024-02-22T17:35:40+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/sqlite/</loc>
+    <lastmod>2024-02-22T17:35:40+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/sqlite-foreign-key-constraints-are-disabled-by-default/</loc>
+    <lastmod>2024-02-22T17:35:40+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/</loc>
+    <lastmod>2024-02-22T17:35:40+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/til/</loc>
+    <lastmod>2024-02-22T17:35:40+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/quotes/</loc>
     <lastmod>2024-02-20T14:54:06+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/quoting-ethan-mollick/</loc>
-    <lastmod>2024-02-20T14:54:06+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/</loc>
     <lastmod>2024-02-20T14:54:06+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/default-asp-net-core-8-port-changed-from-80-to-8080/</loc>
@@ -36,9 +45,6 @@
     <lastmod>2024-02-20T11:48:42+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/dotnet/</loc>
-    <lastmod>2024-02-20T11:48:42+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/til/</loc>
     <lastmod>2024-02-20T11:48:42+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/apennine-mountains/</loc>
@@ -1447,9 +1453,6 @@
   </url><url>
     <loc>https://nicolaiarocci.com/tags/over-engineering/</loc>
     <lastmod>2021-04-18T07:05:25+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/sqlite/</loc>
-    <lastmod>2021-04-17T07:05:25+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/sqlite-is-the-only-database-you-will-ever-need-in-most-cases/</loc>
     <lastmod>2021-04-17T07:05:25+01:00</lastmod>
