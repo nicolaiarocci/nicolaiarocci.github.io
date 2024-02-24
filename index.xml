@@ -697,35 +697,27 @@ Cerberus. Lightweight and extensible data validation library for Python.</descri
       <link>https://nicolaiarocci.com/about/</link>
       <pubDate>Mon, 22 Nov 2010 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/about/</guid>
-      <description>Hello, my name is Nicola and this is my personal website. Here I keep memories and thoughts. Every once in a while I even post some technical stuff.
+      <description>Hello there! My name is Nicola, and this is my website. I use it to store my memories and thoughts, share exciting resources, and post technical content. I follow the POSSE methodology, meaning I share my content on this website first and only later, eventually, on social media or other platforms.
 I&amp;rsquo;m a coder at heart author of several open source projects, a Microsoft MVP, conference speaker, teacher and consultant. I live in Ravenna, Italy, where I lead the development of Amica 20, a hybrid (cloud and on-premise) accounting app for Italian small businesses.</description>
-      <content:encoded><![CDATA[<p>Hello, my name is Nicola and this is my personal website. Here I keep memories
-and thoughts. Every once in a while I even post some technical stuff.</p>
-<p>I&rsquo;m a coder at heart author of several <a href="http://nicolaiarocci.com/opensource/">open source projects</a>, a <a href="https://mvp.microsoft.com/en-us/PublicProfile/5001717">Microsoft
-MVP</a>, <a href="/speaking">conference speaker</a>, teacher and consultant. I live in Ravenna,
+      <content:encoded><![CDATA[<p>Hello there! My name is Nicola, and this is my website. I use it to store my
+memories and thoughts, share exciting resources, and post technical content. I
+follow the <a href="https://indieweb.org/POSSE">POSSE</a> methodology, meaning I share my
+content on this website first and only later, eventually, on social media or
+other platforms.</p>
+<p>I&rsquo;m a coder at heart author of several <a href="http://nicolaiarocci.com/opensource/">open source projects</a>, a <a href="https://mvp.microsoft.com/en-US/mvp/profile/a6892d61-aea0-e511-8114-c4346bac0abc">Microsoft
+MVP</a>, <a href="/speaking/">conference speaker</a>, teacher and consultant. I live in Ravenna,
 Italy, where I lead the development of <a href="http://gestionaleamica.com/">Amica 20</a>, a hybrid (cloud and
 on-premise) accounting app for Italian small businesses. I also the creator and
-organizer of <a href="http://devromagna.org">DevRomagna</a>, the local developer community.</p>
+organizer of <a href="http://meetup.com/it-IT/devromagna/">DevRomagna</a>, the developer community in my area.</p>
 <p>I am a former runner, climber and swimmer now keeping myself busy with
-bodyweight training. I love reading <a href="http://nicolaiarocci.com/books-i-have-read/">good books</a>, hiking in the wilderness
-and riding my Triumph Bonneville. My all time favourite quote:</p>
-<blockquote>
-<p>Only those who will risk going too far can possibly find out how far one can
-go &ndash; T.S. Eliot</p>
-</blockquote>
-<h3 id="newsletter">Newsletter</h3>
-<p>The content I publish on my website, only via mail. Never miss an update.</p>
-<ul>
-<li><a href="https://nicolaiarocci.substack.com">Nicola&rsquo;s Newsletter</a></li>
-</ul>
-<h3 id="find-me-on">Find me on</h3>
-<ul>
-<li><a href="https://twitter.com/nicolaiarocci">Twitter</a> (you should follow me)</li>
-<li><a href="https://github.com/nicolaiarocci">GitHub</a></li>
-<li><a href="http://www.linkedin.com/in/nicolaiarocci">LinkedIn</a></li>
-<li><a href="http://www.goodreads.com/user/show/4665453-nicola">GoodReads</a></li>
-<li><a href="mailto:nicola@nicolaiarocci.com">Mail</a></li>
-</ul>
+bodyweight training (I think it&rsquo;s called calisthenics these days). I love
+reading <a href="http://nicolaiarocci.com/books-i-have-read/">good books</a>, hiking in the wilderness and riding my Triumph
+Bonneville. My all time favourite quote: <em>&ldquo;Only those who will risk going too
+far can possibly find out how far one can go (T.S. Eliot)&rdquo;</em></p>
+<p>Stay updated by subscribing to this website’s <a href="/index.xml">RSS feed</a> or joining
+<em><a href="https://buttondown.email/nicolaiarocci">Ramblings of a Software Craftsman</a></em>,
+my mailing list.</p>
+<p>Find me on <a href="https://fosstodon.org/@nicola">Mastodon</a>, <a href="https://x.com/nicolaiarocci">Twitter/X</a>, <a href="https://github.com/nicolaiarocci">GitHub</a>, <a href="http://www.linkedin.com/in/nicolaiarocci">LinkedIn</a>, or get in touch via <a href="mailto:nicola@nicolaiarocci.com">email</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
