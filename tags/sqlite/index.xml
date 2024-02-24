@@ -30,7 +30,7 @@ so must be enabled separately for each database connection.</p>
 <p>The quick fix was to add <code>&quot;foreign keys=true;&quot;</code> to our connection string.
 Alternatively, the application can also use a <code>PRAGMA foreign keys = ON;</code>
 statement to activate them once the connection is established, but it doesn&rsquo;t
-make sense, as we need constraints active throughout the connection&rsquo;s life.</p>
+make sense, as we need constraints active throughout the connection&rsquo;s lifecycle.</p>
 ]]></content:encoded>
     </item>
     <item>

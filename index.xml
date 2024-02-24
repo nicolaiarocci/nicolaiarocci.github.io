@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Thu, 22 Feb 2024 17:35:40 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 24 Feb 2024 09:35:43 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccolo Libro di MongoDB</title>
@@ -729,6 +729,18 @@ go &ndash; T.S. Eliot</p>
 ]]></content:encoded>
     </item>
     <item>
+      <title>Quoting Ran Prieur</title>
+      <link>https://nicolaiarocci.com/quoting-ran-prieur/</link>
+      <pubDate>Sat, 24 Feb 2024 09:35:43 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/quoting-ran-prieur/</guid>
+      <description>There&amp;rsquo;s a common belief that suffering is necessary for pleasure, or that evil is necessary for good, like the change of the seasons. It&amp;rsquo;s one of those ideas that sounds like wisdom, but when you think about it, it&amp;rsquo;s not actually true. There are some people who are happy all the time, and other people who are miserable all the time. I think suffering and evil are like taking a wrong turn on a journey.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>There&rsquo;s a common belief that suffering is necessary for pleasure, or that evil is necessary for good, like the change of the seasons. It&rsquo;s one of those ideas that sounds like wisdom, but when you think about it, it&rsquo;s not actually true. There are some people who are happy all the time, and other people who are miserable all the time. I think suffering and evil are like taking a wrong turn on a journey. Taking a wrong turn sometimes happens, and some good can come of it. But it&rsquo;s never necessary.</p>
+</blockquote>
+<p>&ndash; <a href="http://ranprieur.com">Ran Prieur</a></p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>SQLite foreign key constraints are disabled by default</title>
       <link>https://nicolaiarocci.com/sqlite-foreign-key-constraints-are-disabled-by-default/</link>
       <pubDate>Thu, 22 Feb 2024 17:35:40 +0100</pubDate>
@@ -749,7 +761,7 @@ so must be enabled separately for each database connection.</p>
 <p>The quick fix was to add <code>&quot;foreign keys=true;&quot;</code> to our connection string.
 Alternatively, the application can also use a <code>PRAGMA foreign keys = ON;</code>
 statement to activate them once the connection is established, but it doesn&rsquo;t
-make sense, as we need constraints active throughout the connection&rsquo;s life.</p>
+make sense, as we need constraints active throughout the connection&rsquo;s lifecycle.</p>
 ]]></content:encoded>
     </item>
     <item>
