@@ -7,8 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Mon, 26 Feb 2024 15:34:07 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 27 Feb 2024 14:46:43 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>books</title>
+      <link>https://nicolaiarocci.com/tags/books/</link>
+      <pubDate>Tue, 27 Feb 2024 14:46:43 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/tags/books/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>comics</title>
+      <link>https://nicolaiarocci.com/tags/comics/</link>
+      <pubDate>Tue, 27 Feb 2024 14:46:43 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/tags/comics/</guid>
+      <description></description>
+    </item>
     <item>
       <title>ai</title>
       <link>https://nicolaiarocci.com/tags/ai/</link>
@@ -119,13 +133,6 @@
       <link>https://nicolaiarocci.com/tags/llm/</link>
       <pubDate>Fri, 16 Feb 2024 18:16:15 +0100</pubDate>
       <guid>https://nicolaiarocci.com/tags/llm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>books</title>
-      <link>https://nicolaiarocci.com/tags/books/</link>
-      <pubDate>Thu, 15 Feb 2024 15:42:49 +0100</pubDate>
-      <guid>https://nicolaiarocci.com/tags/books/</guid>
       <description></description>
     </item>
     <item>
@@ -2086,13 +2093,6 @@
       <link>https://nicolaiarocci.com/tags/backbone/</link>
       <pubDate>Mon, 25 Feb 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/tags/backbone/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>comics</title>
-      <link>https://nicolaiarocci.com/tags/comics/</link>
-      <pubDate>Sat, 15 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>https://nicolaiarocci.com/tags/comics/</guid>
       <description></description>
     </item>
     <item>
