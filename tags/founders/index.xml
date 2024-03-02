@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>founders on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/founders/</link>
+    <description>Recent content in founders on Nicola Iarocci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
+    <lastBuildDate>Sat, 02 Mar 2024 10:58:26 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/founders/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On founders doing customer support</title>
+      <link>https://nicolaiarocci.com/on-founders-doing-customer-support/</link>
+      <pubDate>Sat, 02 Mar 2024 10:58:26 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/on-founders-doing-customer-support/</guid>
+      <description>I just came across this tweet by Aaron Levie:
+The best founders I know — no matter their company’s scale — thrive on doing customer support directly. There’s literally no better way to understand the pulse of your customer base, what features to build next, or where systems are breaking down. It’s always upside.
+It profoundly resonates with me. For context, we&amp;rsquo;ve been a small company in the market since 1991, making us quite the rare bird (we have seen so many companies come and go that it is unbelievable).</description>
+      <content:encoded><![CDATA[<p>I just came across this tweet by <a href="https://twitter.com/levie/status/1763356362858430501">Aaron Levie</a>:</p>
+<blockquote>
+<p>The best founders I know — no matter their company’s scale — thrive on doing
+customer support directly. There’s literally no better way to understand the
+pulse of your customer base, what features to build next, or where systems are
+breaking down. It’s always upside.</p>
+</blockquote>
+<p>It profoundly resonates with me. For context, we&rsquo;ve been a small company in the
+market since 1991, making us quite the rare bird (we have seen so many companies
+come and go that it is unbelievable).</p>
+<p>My untiring co-founder, Stefano, still does customer support daily, while I
+chime in occasionally when needed. Every Friday at 2.30 pm, our dev and support
+teams have a joint call to assess what&rsquo;s going on on the frontline, to get the
+pulse and to check if there are new and unexpected issues the customers are
+experiencing with our products. This call is complimentary to the live chat that
+both teams share daily. This continuous feedback cycle and the resulting quick
+release cycle have been the key that allowed us to stay relevant and endure for
+such a long time.</p>
+<p>Of course, founders doing customer support delays other fundamental
+activities, and sometimes that&rsquo;s stressful, but it is worth it.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
