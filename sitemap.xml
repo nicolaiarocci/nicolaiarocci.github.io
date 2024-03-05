@@ -14,19 +14,31 @@
     <loc>https://nicolaiarocci.com/about/</loc>
     <lastmod>2010-11-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://nicolaiarocci.com/tags/aspnet-core/</loc>
+    <lastmod>2024-03-05T10:36:21+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/dotnet/</loc>
+    <lastmod>2024-03-05T10:36:21+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/i-am-presenting-on-oauth2-at-two-conferences-this-month/</loc>
+    <lastmod>2024-03-05T10:36:21+01:00</lastmod>
+  </url><url>
     <loc>https://nicolaiarocci.com/</loc>
-    <lastmod>2024-03-04T08:30:43+01:00</lastmod>
+    <lastmod>2024-03-05T10:36:21+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/post/</loc>
+    <lastmod>2024-03-05T10:36:21+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/speaking/</loc>
+    <lastmod>2024-03-05T10:36:21+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/</loc>
+    <lastmod>2024-03-05T10:36:21+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/photos/</loc>
     <lastmod>2024-03-04T08:30:43+01:00</lastmod>
   </url><url>
-    <loc>https://nicolaiarocci.com/post/</loc>
-    <lastmod>2024-03-04T08:30:43+01:00</lastmod>
-  </url><url>
     <loc>https://nicolaiarocci.com/saturday-beach-walk/</loc>
-    <lastmod>2024-03-04T08:30:43+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/</loc>
     <lastmod>2024-03-04T08:30:43+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/walks/</loc>
@@ -102,9 +114,6 @@
     <lastmod>2024-02-20T11:48:42+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/docker/</loc>
-    <lastmod>2024-02-20T11:48:42+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/dotnet/</loc>
     <lastmod>2024-02-20T11:48:42+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/apennine-mountains/</loc>
@@ -225,9 +234,6 @@
     <lastmod>2024-01-29T09:44:15+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/csharp/</loc>
-    <lastmod>2024-01-26T15:39:31+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/speaking/</loc>
     <lastmod>2024-01-26T15:39:31+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/video-of-my-csharp-12-session-at-dotnet-conference-italia-2023/</loc>

@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Mon, 04 Mar 2024 08:30:43 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 05 Mar 2024 10:36:21 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccolo Libro di MongoDB</title>
@@ -718,6 +718,28 @@ far can possibly find out how far one can go (T.S. Eliot)&rdquo;</em></p>
 <em><a href="https://buttondown.email/nicolaiarocci">Ramblings of a Software Craftsman</a></em>,
 my newsletter.</p>
 <p>Find me on <a href="https://fosstodon.org/@nicola">Mastodon</a>, <a href="https://x.com/nicolaiarocci">Twitter/X</a>, <a href="https://github.com/nicolaiarocci">GitHub</a>, <a href="http://www.linkedin.com/in/nicolaiarocci">LinkedIn</a>, or get in touch via <a href="mailto:nicola@nicolaiarocci.com">email</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>I am presenting on OAuth2 at two conferences this month</title>
+      <link>https://nicolaiarocci.com/i-am-presenting-on-oauth2-at-two-conferences-this-month/</link>
+      <pubDate>Tue, 05 Mar 2024 10:36:21 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/i-am-presenting-on-oauth2-at-two-conferences-this-month/</guid>
+      <description>I am speaking about OAuth2 and Open ID Connect with ASP.NET Core 8 at Rome .NET Conference 2024 on March 22 and then, less than a week later, at WebDay 2024 in Milan.
+I am always particularly excited when I can present the stuff I&amp;rsquo;m currently working on. Being forced to share as I learn encourages me to go deeper into the topic to reinforce my comprehension and better explain it to the audience—a win-win situation.</description>
+      <content:encoded><![CDATA[<p>I am speaking about OAuth2 and Open ID Connect with ASP.NET Core 8 at <a href="https://www.dotnetconf.it">Rome .NET
+Conference 2024</a> on March 22 and then, less than a
+week later, at <a href="https://www.webdayconf.it">WebDay 2024</a> in Milan.</p>
+<p>I am always particularly excited when I can present the stuff I&rsquo;m currently
+working on. Being forced to share as I learn encourages me to go deeper into the
+topic to reinforce my comprehension and better explain it to the audience—a
+win-win situation.</p>
+<p>While the ROme conference is free, if you are considering <a href="https://www.webdayconf.it">WebDay in
+Milan</a> (you should), feel free to use my speaker
+coupon P-SPEAKER10 for a 20% discount.  If you come to any, don&rsquo;t be shy and
+come to say Hi!</p>
+<p><img loading="lazy" src="/images/dotnet-conference-rome-2024.jpeg" alt=""  />
+</p>
 ]]></content:encoded>
     </item>
     <item>
