@@ -818,7 +818,7 @@ crontab file, modified and saved it, only to the following error:</p>
 </span></span><span style="display:flex;"><span>crontab: edits left in /tmp/crontab.hgmsOH/crontab
 </span></span></code></pre></div><p>Puzzled, I checked whether my user permissions were all right, if the disk was
 full, and several other things. Long story short, the fix was this one:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>chattr -i /var/spool/cron/crontabs/&lt;user&gt;
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo chattr -i /var/spool/cron/crontabs/&lt;user&gt;
 </span></span><span style="display:flex;"><span>sudo chown &lt;user&gt;:crontab /var/spool/cron/crontabs/&lt;user&gt;
 </span></span></code></pre></div><p>Somehow, the user&rsquo;s crontab file had become immutable.</p>
 ]]></content:encoded>
