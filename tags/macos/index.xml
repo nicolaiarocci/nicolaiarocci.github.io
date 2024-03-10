@@ -7,8 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Mon, 15 May 2023 07:05:25 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 10 Mar 2024 15:57:16 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Voice dictation on iOS and macOS is underestimated</title>
+      <link>https://nicolaiarocci.com/voice-dictation-on-ios-and-macos-is-underestimated/</link>
+      <pubDate>Sun, 10 Mar 2024 15:57:16 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/voice-dictation-on-ios-and-macos-is-underestimated/</guid>
+      <description>Most people likely already know and use the voice dictation feature in iOS and macOS all day, but I&amp;rsquo;ve only now seen the light.
+Yesterday, I discovered I could dictate text notes to my iPhone, even offline. It works with Obsidian, WhatsApp, and any other app where I need to enter text, like the Safari search box. I suck at entering text on the phone. I also hate WhatsApp audio messages, but I often recur to them as, again, I suck at typing text on the phone.</description>
+      <content:encoded><![CDATA[<p>Most people likely already know and use the voice dictation feature in iOS and
+macOS all day, but I&rsquo;ve only now seen the light.</p>
+<p>Yesterday, I discovered I could dictate text notes to my iPhone, even offline.
+It works with Obsidian, WhatsApp, and any other app where I need to enter text,
+like the Safari search box. I suck at entering text on the phone. I also hate
+WhatsApp audio messages, but I often recur to them as, again, I suck at typing
+text on the phone. I can instead dictate those messages, and they will render as
+text as if I typed them; what a revelation!</p>
+<p>It&rsquo;s not entirely a discovery; I knew I could do that and did it occasionally,
+primarily for quick lookups.  However, I underestimated how good and valuable
+the feature is.</p>
+<p>This morning, I discovered the obvious: I can do the same on the Mac. The
+MacBook keyboard has a microphone function key, and guess what? It&rsquo;s for voice
+dictation, and it works seamlessly. I can even start typing on the keyboard,
+switch to dictation on the fly, and then go back to typing without interruption.
+It works offline and has built-in multi-language support, just like iOS. Voice
+dictation will likely change how I take notes, send messages, and perform other
+tasks. Take notes, for example; until today, I rarely write them down when away
+from the keyboard.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>macOS networkQuality tool</title>
       <link>https://nicolaiarocci.com/macos-networkquality-tool/</link>
