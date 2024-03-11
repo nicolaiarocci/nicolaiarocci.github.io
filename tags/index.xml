@@ -7,8 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Sun, 10 Mar 2024 15:57:16 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 11 Mar 2024 17:36:25 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>music</title>
+      <link>https://nicolaiarocci.com/tags/music/</link>
+      <pubDate>Mon, 11 Mar 2024 17:36:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/tags/music/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>reviews</title>
+      <link>https://nicolaiarocci.com/tags/reviews/</link>
+      <pubDate>Mon, 11 Mar 2024 17:36:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/tags/reviews/</guid>
+      <description></description>
+    </item>
     <item>
       <title>iOS</title>
       <link>https://nicolaiarocci.com/tags/ios/</link>
@@ -91,20 +105,6 @@
       <link>https://nicolaiarocci.com/tags/founders/</link>
       <pubDate>Sat, 02 Mar 2024 10:58:26 +0100</pubDate>
       <guid>https://nicolaiarocci.com/tags/founders/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>music</title>
-      <link>https://nicolaiarocci.com/tags/music/</link>
-      <pubDate>Thu, 29 Feb 2024 10:44:26 +0100</pubDate>
-      <guid>https://nicolaiarocci.com/tags/music/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>reviews</title>
-      <link>https://nicolaiarocci.com/tags/reviews/</link>
-      <pubDate>Thu, 29 Feb 2024 10:44:26 +0100</pubDate>
-      <guid>https://nicolaiarocci.com/tags/reviews/</guid>
       <description></description>
     </item>
     <item>
