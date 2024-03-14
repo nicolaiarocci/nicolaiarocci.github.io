@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Wed, 13 Mar 2024 08:38:43 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 14 Mar 2024 15:58:04 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccolo Libro di MongoDB</title>
@@ -721,16 +721,28 @@ my newsletter.</p>
 ]]></content:encoded>
     </item>
     <item>
+      <title>Quoting Frank Herbert</title>
+      <link>https://nicolaiarocci.com/quoting-frank-herbert/</link>
+      <pubDate>Thu, 14 Mar 2024 15:58:04 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/quoting-frank-herbert/</guid>
+      <description>I wrote the Dune series because I had this idea that charismatic leaders ought to come with a warning label on their forehead: &amp;ldquo;May be dangerous to your health.&amp;rdquo; One of the most dangerous presidents we had in this century was John Kennedy because people said &amp;ldquo;Yes Sir Mr. Charismatic Leader what do we do next?&amp;rdquo; and we wound up in Vietnam. And I think probably the most valuable president of this century was Richard Nixon.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>I wrote the Dune series because I had this idea that charismatic leaders ought to come with a warning label on their forehead: &ldquo;May be dangerous to your health.&rdquo; One of the most dangerous presidents we had in this century was John Kennedy because people said &ldquo;Yes Sir Mr. Charismatic Leader what do we do next?&rdquo; and we wound up in Vietnam. And I think probably the most valuable president of this century was Richard Nixon. Because he taught us to distrust government and he did it by example.</p>
+</blockquote>
+<p>&ndash; <a href="https://theaugustry.com/frank-herbert-ucla-speech-transcript-17-4-1985/">Frank Herbert</a></p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Quoting Lars Wirzenius</title>
       <link>https://nicolaiarocci.com/quoting-lars-wirzenius/</link>
       <pubDate>Wed, 13 Mar 2024 08:38:43 +0100</pubDate>
       <guid>https://nicolaiarocci.com/quoting-lars-wirzenius/</guid>
       <description>Take care of yourself. Sleep. Eat. Exercise. Rest. Relax. Take care of other people, as best you can. People are important. Software is just fun.
-&amp;ndash;Lars Wirzenius, in his noteworthy 40 years of programming</description>
+&amp;ndash; Lars Wirzenius, in his noteworthy 40 years of programming</description>
       <content:encoded><![CDATA[<blockquote>
 <p>Take care of yourself. Sleep. Eat. Exercise. Rest. Relax. Take care of other people, as best you can. People are important. Software is just fun.</p>
 </blockquote>
-<p>&ndash;Lars Wirzenius, in his noteworthy <a href="https://liw.fi/40/"><em>40 years of programming</em></a></p>
+<p>&ndash; Lars Wirzenius, in his noteworthy <a href="https://liw.fi/40/"><em>40 years of programming</em></a></p>
 ]]></content:encoded>
     </item>
     <item>
