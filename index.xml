@@ -560,9 +560,14 @@ Emmanuel Carrère</li>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/speaking/</guid>
       <description>I speak at conferences and meetups. Here is a list of my most recent engagements. Want me to talk at your event? Get in touch!
-2023 .NET Conference Italia 2023, Milan: C# 12 What&amp;rsquo;s new and interesting WebDay 2023, Milan: End-to-end testing with Microsoft Playwright DevRomagna Meetup, .NET 7 Spotlight 2022 WPC 2022, Milan: Reliable end-to-end testing for modern web apps DevRomagna: Modern Web Testing with Microsoft Playwright WebDay 2022: Reliable end-to-end testing for modern web apps 2021 DotNetPodcast: My Open Source experience (Italian) Scottish Summit 2021: Introduction to F# and functional programming CodeGen 2021: Python REST APIs for Humans 2020 Sharif University of Technology, Tehran: Open Source Workshop The Python Show #7: My Story with Open Source Python Conf++ 2020, Moscow: Cerberus or Data Validation for Humans Modena Tech Summit 2020: Introduction to F# and functional programming 2019 PiterPy 2019, St.</description>
+2024 WebDay 2024, Milan: Oauth2 e Open ID Connect con ASP.NET Core 8 .NET Rome Conference 2024: Oauth2 e Open ID Connect con ASP.NET Core 8 2023 .NET Conference Italia 2023, Milan: C# 12 What&amp;rsquo;s new and interesting WebDay 2023, Milan: End-to-end testing with Microsoft Playwright DevRomagna Meetup, .</description>
       <content:encoded><![CDATA[<p>I speak at conferences and meetups. Here is a list of my most recent
 engagements. Want me to talk at your event? <a href="mailto:info@nicolaiarocci.com">Get in touch</a>!</p>
+<h3 id="2024">2024</h3>
+<ul>
+<li>WebDay 2024, Milan: <a href="https://www.webdayconf.it/e/3328/Web-Day-2024">Oauth2 e Open ID Connect con ASP.NET Core 8</a></li>
+<li>.NET Rome Conference 2024: <a href="https://www.dotnetconf.it/agenda">Oauth2 e Open ID Connect con ASP.NET Core 8</a></li>
+</ul>
 <h3 id="2023">2023</h3>
 <ul>
 <li>.NET Conference Italia 2023, Milan: <a href="https://www.dotnetconference.it/e/sessione/3295/C-12-Cosa-c-e-di-nuovo-e-interessante">C# 12 What&rsquo;s new and interesting</a></li>
