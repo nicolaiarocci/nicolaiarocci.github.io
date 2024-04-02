@@ -30,8 +30,8 @@ ability to run an arbitrary command on the target system without logging in:
 unauthenticated, targeted remote code execution.</p>
 </blockquote>
 <p>As the excellent <a href="https://research.swtch.com/xz-timeline">timeline of the xz open-source
-attack</a> quoted above correctly remarks,
-this will likely remembered as the first known supply chain attack on widely
+attack</a> quoted above remarks,
+this will likely be remembered as the first known supply chain attack on widely
 used open-source software. This story screams a nation-state-level hacking
 attempt to me.</p>
 <p>As an open-source maintainer with limited bandwidth, I know very well how
