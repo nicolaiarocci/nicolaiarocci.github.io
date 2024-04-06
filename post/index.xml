@@ -7,8 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Tue, 02 Apr 2024 15:30:03 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 06 Apr 2024 08:00:41 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quoting snakeyjake</title>
+      <link>https://nicolaiarocci.com/quoting-snakeyjake/</link>
+      <pubDate>Sat, 06 Apr 2024 08:00:41 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/quoting-snakeyjake/</guid>
+      <description>I wish I was morally bankrupt enough to be a productivity guru. I could, like, charge $50k to stand behind a podium in a hotel ballroom and spout nonsense at desperate people in an attempt to get them to buy my book and planners. It would be awesome.
+&amp;ndash; snakeyjacke</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>I wish I was morally bankrupt enough to be a productivity guru. I could, like,
+charge $50k to stand behind a podium in a hotel ballroom and spout nonsense at
+desperate people in an attempt to get them to buy my book and planners. It would
+be awesome.</p>
+</blockquote>
+<p>&ndash; <a href="https://news.ycombinator.com/item?id=39950195">snakeyjacke</a></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Timeline of the XZ open source attack</title>
       <link>https://nicolaiarocci.com/timeline-of-the-xz-open-source-attack/</link>
