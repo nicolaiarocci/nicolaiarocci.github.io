@@ -7,8 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Tue, 05 Mar 2024 10:36:21 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 11 Apr 2024 11:46:48 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/speaking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I speak at conferences</title>
+      <link>https://nicolaiarocci.com/why-i-speak-at-conferences/</link>
+      <pubDate>Thu, 11 Apr 2024 11:46:48 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/why-i-speak-at-conferences/</guid>
+      <description>Among the essential reasons I continue to make presentations at various conferences is that the preparation required to deliver good content forces me to learn a topic throughout. I always talk about the stuff I am working on: the commitment to explaining what I am learning in public forces me to a higher level of knowledge.
+In the past few weeks, I have spoken about OAuth2 at two different conferences, and OAuth2 has been precisely the subject of my work for the past few months, and it still is now.</description>
+      <content:encoded><![CDATA[<p>Among the essential reasons I continue to make presentations at various conferences is that the preparation required to deliver good content forces me to learn a topic throughout. I always talk about the stuff I am working on: the commitment to explaining what I am learning in public forces me to a higher level of knowledge.</p>
+<p>In the past few weeks, I have spoken about OAuth2 at <a href="https://nicolaiarocci.com/i-am-presenting-on-oauth2-at-two-conferences-this-month/">two different conferences</a>, and OAuth2 has been precisely the subject of my work for the past few months, and it still is now. It goes like this: I study and implement things, and while doing that, I say to myself, hey, this could be an exciting topic for other devs, too. I let the idea cool down for a few days, and then, if it still seems good, I start looking for a fitting call for papers. Magic happens if the proposal is accepted: I am forced to turn from a superficial connoisseur to someone close to a field expert. That&rsquo;s the level of competence to aim for if one wants to talk publicly, especially on a technical topic.</p>
+<p>Something new happened yesterday. As I was writing the OAuth2 documentation for the next iteration of our APIs, I realized I could reuse some of the material from my live sessions. In the talk, it made sense to dedicate a few minutes to explain the <a href="https://datatracker.ietf.org/doc/html/rfc6749#section-4.1">OAuth2 Authorization Code Flow</a>, so I used <a href="https://obsidian.md/canvas">Obsidian Canvas</a> to draw two diagrams, one with a high-level view of the flow while the other would zoom into the details. I could now take the first one, streamline and simplify it, and then include it in our official documentation. And that&rsquo;s what I did.</p>
+<figure>
+    <img loading="lazy" src="/images/why-i-speak-at-conferences.png"
+         alt="Our documentation now includes the flow chart I conceived for the conference."/> <figcaption>
+            <p>Our documentation now includes the flow chart I conceived for the conference.</p>
+        </figcaption>
+</figure>
+
+<p>That presentation took a while to prepare, but the delivery was good. It took me to a new level of expertise, and part of that work landed in our product. It was all well worth the effort.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>I am presenting on OAuth2 at two conferences this month</title>
       <link>https://nicolaiarocci.com/i-am-presenting-on-oauth2-at-two-conferences-this-month/</link>
