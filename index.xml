@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Thu, 11 Apr 2024 11:46:48 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 15 Apr 2024 15:01:12 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccolo Libro di MongoDB</title>
@@ -727,6 +727,28 @@ far can possibly find out how far one can go (T.S. Eliot)&rdquo;</em></p>
 <em><a href="https://buttondown.email/nicolaiarocci">Ramblings of a Software Craftsman</a></em>,
 my newsletter.</p>
 <p>Find me on <a href="https://fosstodon.org/@nicola">Mastodon</a>, <a href="https://x.com/nicolaiarocci">Twitter/X</a>, <a href="https://github.com/nicolaiarocci">GitHub</a>, <a href="http://www.linkedin.com/in/nicolaiarocci">LinkedIn</a>, or get in touch via <a href="mailto:nicola@nicolaiarocci.com">email</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>I am speaking at ABP Dotnet Conf&#39;24</title>
+      <link>https://nicolaiarocci.com/i-am-speaking-at-abp-dotnet-conf24.md/</link>
+      <pubDate>Mon, 15 Apr 2024 15:01:12 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/i-am-speaking-at-abp-dotnet-conf24.md/</guid>
+      <description>I am thrilled to have the opportunity to present at an international conference once again. On May 9th, I will speak at the ABP Donet Conf&#39;24. My session, titled C #12: What&amp;rsquo;s New and Interesting, is on a topic I&amp;rsquo;m passionate about.
+With the alignment of C# and Dotnet Core release cycles, the C# release cadence has increased (we&amp;rsquo;re on a yearly cycle now), while feature quantity has reduced for individual releases, which is good.</description>
+      <content:encoded><![CDATA[<p><img loading="lazy" src="/images/abp-dotnet-conf24.png" alt=""  />
+</p>
+<p>I am thrilled to have the opportunity to present at an international conference once again. On May 9th, I will speak at the <a href="https://abp.io/conference/2024">ABP Donet Conf'24</a>. My session, titled C #12: What&rsquo;s New and Interesting, is on a topic I&rsquo;m passionate about.</p>
+<p>With the alignment of C# and Dotnet Core release cycles, the C# release cadence has increased (we&rsquo;re on a yearly cycle now), while feature quantity has reduced for individual releases, which is good. The faster, smaller iterations allow for quicker course corrections, and introducing fewer new features makes it easier to embrace the changes.</p>
+<p>The ABP Dotnet Conf'24<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> will be held online on 8-9th May; the <a href="https://abp.io/conference/2024#agenda">lineup and agenda</a> look great, so reserve a ticket before they are sold out, and see you there!</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I love what the conference organizers are doing with the subtle product name change. Did you catch that? #dropthedot&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>

@@ -7,20 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Thu, 11 Apr 2024 11:46:48 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 15 Apr 2024 15:01:12 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>obsidian</title>
-      <link>https://nicolaiarocci.com/tags/obsidian/</link>
-      <pubDate>Thu, 11 Apr 2024 11:46:48 +0200</pubDate>
-      <guid>https://nicolaiarocci.com/tags/obsidian/</guid>
+      <title>csharp</title>
+      <link>https://nicolaiarocci.com/tags/csharp/</link>
+      <pubDate>Mon, 15 Apr 2024 15:01:12 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/tags/csharp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>dotnet</title>
+      <link>https://nicolaiarocci.com/tags/dotnet/</link>
+      <pubDate>Mon, 15 Apr 2024 15:01:12 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/tags/dotnet/</guid>
       <description></description>
     </item>
     <item>
       <title>speaking</title>
       <link>https://nicolaiarocci.com/tags/speaking/</link>
-      <pubDate>Thu, 11 Apr 2024 11:46:48 +0200</pubDate>
+      <pubDate>Mon, 15 Apr 2024 15:01:12 +0200</pubDate>
       <guid>https://nicolaiarocci.com/tags/speaking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>obsidian</title>
+      <link>https://nicolaiarocci.com/tags/obsidian/</link>
+      <pubDate>Thu, 11 Apr 2024 11:46:48 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/tags/obsidian/</guid>
       <description></description>
     </item>
     <item>
@@ -154,13 +168,6 @@
       <link>https://nicolaiarocci.com/tags/aspnet-core/</link>
       <pubDate>Tue, 05 Mar 2024 10:36:21 +0100</pubDate>
       <guid>https://nicolaiarocci.com/tags/aspnet-core/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>dotnet</title>
-      <link>https://nicolaiarocci.com/tags/dotnet/</link>
-      <pubDate>Tue, 05 Mar 2024 10:36:21 +0100</pubDate>
-      <guid>https://nicolaiarocci.com/tags/dotnet/</guid>
       <description></description>
     </item>
     <item>
@@ -336,13 +343,6 @@
       <link>https://nicolaiarocci.com/tags/postgres/</link>
       <pubDate>Tue, 30 Jan 2024 15:56:15 +0100</pubDate>
       <guid>https://nicolaiarocci.com/tags/postgres/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>csharp</title>
-      <link>https://nicolaiarocci.com/tags/csharp/</link>
-      <pubDate>Fri, 26 Jan 2024 15:39:31 +0100</pubDate>
-      <guid>https://nicolaiarocci.com/tags/csharp/</guid>
       <description></description>
     </item>
     <item>
