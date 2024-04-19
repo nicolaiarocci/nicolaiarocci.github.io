@@ -20,7 +20,7 @@ I, like many developers who have worked on high-scale, low-latency web services 
 <blockquote>
 <p>I, like many developers who have worked on high-scale, low-latency web services over the last fifteen years, have an intimate relationship with Redis. At any new job, when you ask where the data is, and someone points you to a server address with port 6379, you know you will meet an good, reliable friend there.</p>
 </blockquote>
-<p>Redis is indeed an awe-inspiring project. I have met Salvatore (antirez), its author, several times. He&rsquo;s a down-to-earth and brilliant guy. I admit I feel nostalgic for Redis&rsquo; &ldquo;heroic&rdquo; period when Salvatore was at the helm, and Redis was for developers, not enterprises.</p>
+<p>Redis is indeed an awe-inspiring project. I have met Salvatore (antirez), its author, several times. He&rsquo;s a down-to-earth and brilliant guy. I admit I feel nostalgic for Redis&rsquo; &ldquo;heroic&rdquo; period when Salvatore was at the helm and Redis was for developers, not enterprises.</p>
 ]]></content:encoded>
     </item>
     <item>
