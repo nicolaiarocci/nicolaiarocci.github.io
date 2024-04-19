@@ -14,25 +14,31 @@
     <loc>https://nicolaiarocci.com/about/</loc>
     <lastmod>2010-11-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://nicolaiarocci.com/tags/links/</loc>
+    <lastmod>2024-04-19T11:15:41+02:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/</loc>
+    <lastmod>2024-04-19T11:15:41+02:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/post/</loc>
+    <lastmod>2024-04-19T11:15:41+02:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/redis/</loc>
+    <lastmod>2024-04-19T11:15:41+02:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/redis-is-forked/</loc>
+    <lastmod>2024-04-19T11:15:41+02:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/</loc>
+    <lastmod>2024-04-19T11:15:41+02:00</lastmod>
+  </url><url>
     <loc>https://nicolaiarocci.com/tags/ai/</loc>
     <lastmod>2024-04-18T15:19:20+02:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/ai-isnt-useless.-but-is-it-worth-it/</loc>
     <lastmod>2024-04-18T15:19:20+02:00</lastmod>
   </url><url>
-    <loc>https://nicolaiarocci.com/tags/links/</loc>
-    <lastmod>2024-04-18T15:19:20+02:00</lastmod>
-  </url><url>
     <loc>https://nicolaiarocci.com/tags/llm/</loc>
-    <lastmod>2024-04-18T15:19:20+02:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/</loc>
-    <lastmod>2024-04-18T15:19:20+02:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/post/</loc>
-    <lastmod>2024-04-18T15:19:20+02:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/</loc>
     <lastmod>2024-04-18T15:19:20+02:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/csharp/</loc>
@@ -567,9 +573,6 @@
     <lastmod>2023-05-14T07:05:25+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/antirez/</loc>
-    <lastmod>2023-05-11T07:05:25+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/redis/</loc>
     <lastmod>2023-05-11T07:05:25+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/story-of-redis-and-its-creator-antirez/</loc>
