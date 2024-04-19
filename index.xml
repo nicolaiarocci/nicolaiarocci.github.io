@@ -734,13 +734,13 @@ my newsletter.</p>
       <link>https://nicolaiarocci.com/redis-is-forked/</link>
       <pubDate>Fri, 19 Apr 2024 11:15:41 +0200</pubDate>
       <guid>https://nicolaiarocci.com/redis-is-forked/</guid>
-      <description>Vicki Boykis has a great piece on Redis&amp;rsquo;s recent vicissitudes. At the same time, she recaps where we stand and sings the praises of a project that many are fond of, and not just for its technical worth.
+      <description>Vicki Boykis has a good piece on Redis&amp;rsquo;s recent vicissitudes. At the same time, she recaps where we stand and sings the praises of a project that many are fond of, and not just for its technical worth.
 I, like many developers who have worked on high-scale, low-latency web services over the last fifteen years, have an intimate relationship with Redis. At any new job, when you ask where the data is, and someone points you to a server address with port 6379, you know you will meet an good, reliable friend there.</description>
-      <content:encoded><![CDATA[<p>Vicki Boykis has a <a href="https://vickiboykis.com/2024/04/16/redis-is-forked/">great piece</a> on Redis&rsquo;s recent vicissitudes. At the same time, she recaps where we stand and sings the praises of a project that many are fond of, and not just for its technical worth.</p>
+      <content:encoded><![CDATA[<p>Vicki Boykis has a <a href="https://vickiboykis.com/2024/04/16/redis-is-forked/">good piece</a> on Redis&rsquo;s recent vicissitudes. At the same time, she recaps where we stand and sings the praises of a project that many are fond of, and not just for its technical worth.</p>
 <blockquote>
 <p>I, like many developers who have worked on high-scale, low-latency web services over the last fifteen years, have an intimate relationship with Redis. At any new job, when you ask where the data is, and someone points you to a server address with port 6379, you know you will meet an good, reliable friend there.</p>
 </blockquote>
-<p>Redis is indeed an awe-inspiring project. I have met Salvatore (antirez), its author, several times. He&rsquo;s a down-to-earth and brilliant guy, and I must admit I feel nostalgic for the &ldquo;heroic&rdquo; period when Salvatore was firmly at the helm, and Redis was for developers, not enterprises.</p>
+<p>Redis is indeed an awe-inspiring project. I have met Salvatore (antirez), its author, several times. He&rsquo;s a down-to-earth and brilliant guy. I admit I feel nostalgic for Redis&rsquo; &ldquo;heroic&rdquo; period when Salvatore was at the helm, and Redis was for developers, not enterprises.</p>
 ]]></content:encoded>
     </item>
     <item>
