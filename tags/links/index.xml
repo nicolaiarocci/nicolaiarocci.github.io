@@ -7,8 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Fri, 19 Apr 2024 11:15:41 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 26 Apr 2024 09:39:22 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/links/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tor: from the Dark Web to the Future of Privacy</title>
+      <link>https://nicolaiarocci.com/tor-from-the-dark-web-to-the-future-of-privacy/</link>
+      <pubDate>Fri, 26 Apr 2024 09:39:22 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/tor-from-the-dark-web-to-the-future-of-privacy/</guid>
+      <description>This one looks like a promising read:
+Tor, one of the most important and misunderstood technologies of the digital age, is best known as the infrastructure underpinning the so-called Dark Web. But the real “dark web,” when it comes to Tor, is the hidden history brought to light in this book: where this complex and contested infrastructure came from, why it exists, and how it connects with global power in intricate and intimate ways.</description>
+      <content:encoded><![CDATA[<p>This one looks like a promising read:</p>
+<blockquote>
+<p>Tor, one of the most important and misunderstood technologies of the digital age, is best known as the infrastructure underpinning the so-called Dark Web. But the real “dark web,” when it comes to Tor, is the hidden history brought to light in this book: where this complex and contested infrastructure came from, why it exists, and how it connects with global power in intricate and intimate ways. In Tor: From the Dark Web to the Future of Privacy,Ben Collier has written, in essence, a biography of Tor—a cultural and technological history of power, privacy, politics, and empire in the deepest reaches of the internet.</p>
+</blockquote>
+<p>I&rsquo;ve always been cautiously curious about the Tor project. I remember listening to a Tor talk at a PyCon Italy (or EuroPython?) conference, where the speaker insisted that Tor wasn&rsquo;t meant for dark usages but as a means of liberation. <a href="https://direct.mit.edu/books/oa-monograph/5761/TorFrom-the-Dark-Web-to-the-Future-of-Privacy"><em>Tor: From the Dark Web to the Future of Privacy</em></a> might help frame the project from that perspective.</p>
+<p>It&rsquo;s packaged as a free PDF. It&rsquo;s too bad it&rsquo;s watermarked, so converting it to EPUB results in a mess.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Redis is forked</title>
       <link>https://nicolaiarocci.com/redis-is-forked/</link>
