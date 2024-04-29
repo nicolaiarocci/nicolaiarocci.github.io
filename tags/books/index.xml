@@ -7,8 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Fri, 26 Apr 2024 09:39:22 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 29 Apr 2024 09:27:57 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quoting Ralph Waldo Emerson</title>
+      <link>https://nicolaiarocci.com/quoting-ralph-waldo-emerson/</link>
+      <pubDate>Mon, 29 Apr 2024 09:27:57 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/quoting-ralph-waldo-emerson/</guid>
+      <description>I cannot remember the books I&amp;rsquo;ve read any more than the meals I have eaten; even so, they have made me.
+&amp;ndash; Ralph Waldo Emerson (debated, see here)</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>I cannot remember the books I&rsquo;ve read any more than the meals I have eaten; even so, they have made me.</p>
+</blockquote>
+<p>&ndash; <a href="https://www.goodreads.com/quotes/37953-i-cannot-remember-the-books-i-ve-read-any-more-than">Ralph Waldo Emerson</a> (debated, see <a href="https://quoteinvestigator.com/2016/06/20/books/">here</a>)</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Tor: from the Dark Web to the Future of Privacy</title>
       <link>https://nicolaiarocci.com/tor-from-the-dark-web-to-the-future-of-privacy/</link>
