@@ -7,8 +7,84 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Fri, 03 May 2024 15:56:46 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 09 May 2024 18:04:39 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C# 12 Primary Constructors</title>
+      <link>https://nicolaiarocci.com/csharp-primary-constructors/</link>
+      <pubDate>Thu, 09 May 2024 18:04:39 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/csharp-primary-constructors/</guid>
+      <description>I wrapped up my C# 12 session at the ABP Dotnet Conference 2024, and here I share the key points to take home about the two most essential features in this language version. These are my talk preparation notes; the slides were minimal, as all the content was in the live demo. I&amp;rsquo;m posting these as they may be helpful to some attendees or my future self.
+In a follow-up post, I plan to address Collection Expressions and maybe &amp;ldquo;type any aliases&amp;rdquo;; this one is devoted to Primary Constructors.</description>
+      <content:encoded><![CDATA[<p>I wrapped up my C# 12 session at the <a href="https://abp.io/conference/2024">ABP Dotnet Conference 2024</a>, and here I share the key points to take home about the two most essential features in this language version. These are my talk preparation notes; the slides were minimal, as all the content was in the live demo. I&rsquo;m posting these as they may be helpful to some attendees or my future self.</p>
+<p>In a follow-up post, I plan to address Collection Expressions and maybe &ldquo;type any aliases&rdquo;; this one is devoted to Primary Constructors.</p>
+<ul>
+<li>
+<p>We can now add a list of parameters to a struct or class declaration. This way, we avoid writing an explicit constructor method, sparing us some boilerplate code.</p>
+</li>
+<li>
+<p>What I refer to as &lsquo;Primary parameters&rsquo; are unique in that they are in scope throughout the type definition; this means they can be used anywhere within the type.</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cs" data-lang="cs"><span style="display:flex;"><span><span style="font-weight:bold">public</span> <span style="font-weight:bold">readonly</span> <span style="font-weight:bold">struct</span> <span style="font-weight:bold">Distance</span>(<span style="">double</span> dx, <span style="">double</span> dy)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">public</span> <span style="font-weight:bold">readonly</span> <span style="">double</span> Magnitude { <span style="font-weight:bold">get</span>; } = Math.Sqrt(dx * dx + dy * dy);
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">public</span> <span style="font-weight:bold">readonly</span> <span style="">double</span> Direction { <span style="font-weight:bold">get</span>; } = Math.Atan2(dy, dx);
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">public</span> <span style="font-weight:bold">override</span> <span style="">string</span> ToString() =&gt; <span style="font-style:italic">$&#34;{nameof(Magnitude)}: {Magnitude}, {nameof(Direction)}: {Direction}&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">public</span> <span style="">double</span> Dx { <span style="font-weight:bold">get</span>; } = dx;
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">public</span> <span style="">double</span> Dy { <span style="font-weight:bold">get</span>; } = dy;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>
+<p>It&rsquo;s important to note that primary constructor parameters are not class members; therefore, <code>this.</code> cannot be used on them. They can be considered static values, but unlike typical static values, they can also be used in non-static methods, offering a unique advantage (some black magic happens behind the scenes.)</p>
+</li>
+<li>
+<p>We no longer need to define and assign a type-level field; the compiler will do that behind the scenes when needed; if a behind-the-scenes backing field is unnecessary, it won&rsquo;t be created.</p>
+</li>
+<li>
+<p>Primary constructor parameters don&rsquo;t become properties and are inaccessible outside the instance. We can create properties to expose their values if needed. Record types are an exception. Constructor parameters become properties with records, and it makes sense because records are generally used as DTOs, whereas we want the option with class and structs.</p>
+</li>
+<li>
+<p>Secondary and parameterless constructors can be added to a primary constructor. They must invoke the primary, passing its values along.</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cs" data-lang="cs"><span style="display:flex;"><span><span style="font-weight:bold">public</span> Distance() : <span style="font-weight:bold">this</span>(0, 0) { }
+</span></span></code></pre></div><ul>
+<li>With primary constructors, we do not have a method body; how do we handle argument validation? One pattern is to perform validation at property assignation.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cs" data-lang="cs"><span style="display:flex;"><span><span style="font-weight:bold">public</span> <span style="">string</span> AccountID { <span style="font-weight:bold">get</span>; } = ValidAccountNumber(accountID)
+</span></span><span style="display:flex;"><span>    ? accountID
+</span></span><span style="display:flex;"><span>    : <span style="font-weight:bold">throw</span> <span style="font-weight:bold">new</span> ArgumentException(<span style="font-style:italic">&#34;Invalid account number&#34;</span>, nameof(accountID));
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">public</span> <span style="font-weight:bold">static</span> <span style="">bool</span> ValidAccountNumber(<span style="">string</span> accountID) =&gt; accountID?.Length == 10 &amp;&amp; accountID.All(c =&gt; <span style="">char</span>.IsDigit(c));
+</span></span></code></pre></div><ul>
+<li>
+<p>I like this pattern because it brings property declaration and validation close to each other, making it easier to process and reason about the domain logic. When we perform argument validation in an old-style constructor method, we tend to separate validation and declaration, making it difficult to reconcile the two aspects, especially when we have hundreds of lines between constructor code and property declaration.</p>
+</li>
+<li>
+<p>Derived types can have a primary constructor, too; it must invoke the base class&rsquo; primary constructor.</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cs" data-lang="cs"><span style="display:flex;"><span><span style="font-weight:bold">public</span> <span style="font-weight:bold">class</span> <span style="font-weight:bold">CheckingAccount</span>(<span style="">string</span> accountID, <span style="">string</span> owner, <span style="">decimal</span> overdraftLimit = 0) : BankAccount(accountID, owner)
+</span></span></code></pre></div><ul>
+<li>
+<p>Old-style derived types can still derive from a primary constructor type; a regular constructor will invoke the base primary, as we&rsquo;ve always been doing.</p>
+</li>
+<li>
+<p>Regarding inheritance, we can mix and match primary constructor types with old-style types, making it easy to refactor our libraries to use primary constructors. We know that adopters will have no problem deriving from our refactored types.</p>
+</li>
+<li>
+<p>Watch out for &ldquo;nested captures&rdquo; of primary parameter values in derived types. If both the derived and the base type capture them, and one (or both) change their captured values, we may end up with non-aligned instance values. Roslyn&rsquo;s analyzer will raise a warning so we can fix our code or mute the alert with a pragma.</p>
+</li>
+<li>
+<p>Visual Studio and Visual Studio code offer built-in support for primary constructors (refactorings, etc.) That&rsquo;s true for JetBrains Rider or any other IDEs leveraging Roslyn.</p>
+</li>
+<li>
+<p>The primary constructor&rsquo;s original implementation dates back to C# 6 in 2015. It was publicly available in one of those version previews for a short period. Then, it was taken back to the drawing board, only to resurface with record types in C# 9 (?) and custom types in C# 12.</p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
     <item>
       <title>In the pinewood</title>
       <link>https://nicolaiarocci.com/in-the-pinewood/</link>
