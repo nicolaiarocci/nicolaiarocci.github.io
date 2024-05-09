@@ -14,9 +14,9 @@
       <link>https://nicolaiarocci.com/csharp-primary-constructors/</link>
       <pubDate>Thu, 09 May 2024 18:04:39 +0200</pubDate>
       <guid>https://nicolaiarocci.com/csharp-primary-constructors/</guid>
-      <description>I wrapped up my C# 12 session at the ABP Dotnet Conference 2024, and here I share the key points to take home about the two most essential features in this language version. These are my talk preparation notes; the slides were minimal, as all the content was in the live demo. I&amp;rsquo;m posting these as they may be helpful to some attendees or my future self.
+      <description>I wrapped up my C# 12 session at the ABP Dotnet Conference 2024, and here I share the take-home points about the two most relevant features in this language version. These are my talk preparation notes; the slides were minimal, as all the content was in the live demo. I&amp;rsquo;m posting these as they may be helpful to some attendees or my future self.
 In a follow-up post, I plan to address Collection Expressions and maybe &amp;ldquo;type any aliases&amp;rdquo;; this one is devoted to Primary Constructors.</description>
-      <content:encoded><![CDATA[<p>I wrapped up my C# 12 session at the <a href="https://abp.io/conference/2024">ABP Dotnet Conference 2024</a>, and here I share the key points to take home about the two most essential features in this language version. These are my talk preparation notes; the slides were minimal, as all the content was in the live demo. I&rsquo;m posting these as they may be helpful to some attendees or my future self.</p>
+      <content:encoded><![CDATA[<p>I wrapped up my C# 12 session at the <a href="https://abp.io/conference/2024">ABP Dotnet Conference 2024</a>, and here I share the take-home points about the two most relevant features in this language version. These are my talk preparation notes; the slides were minimal, as all the content was in the live demo. I&rsquo;m posting these as they may be helpful to some attendees or my future self.</p>
 <p>In a follow-up post, I plan to address Collection Expressions and maybe &ldquo;type any aliases&rdquo;; this one is devoted to Primary Constructors.</p>
 <ul>
 <li>
