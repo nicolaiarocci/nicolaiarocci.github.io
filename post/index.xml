@@ -7,8 +7,174 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by [Nicola Iarocci](/) since 2010</copyright>
-    <lastBuildDate>Fri, 10 May 2024 10:35:23 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 10 May 2024 17:39:02 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C# 12 Collection Expressions</title>
+      <link>https://nicolaiarocci.com/csharp-collection-expressions/</link>
+      <pubDate>Fri, 10 May 2024 17:39:02 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/csharp-collection-expressions/</guid>
+      <description>This is a follow-up post to yesterday&amp;rsquo;s C# 12 Primary Constructors. Like that article, this one originates from my preparation notes for my presentation at the ABP Dotnet Conference 2024.
+I love collection expressions. Like primary constructors, collection expressions will see a significant adoption in the long run.
+Collection expressions introduce a new way to initialize common collection values in a terse, unified syntax.
+This is how we initialize collections today:</description>
+      <content:encoded><![CDATA[<p>This is a follow-up post to yesterday&rsquo;s <a href="/csharp-primary-constructors">C# 12 Primary
+Constructors</a>. Like that article, this one
+originates from my preparation notes for my presentation at the <a href="https://abp.io/conference/2024">ABP Dotnet
+Conference 2024</a>.</p>
+<ul>
+<li>
+<p>I love collection expressions. Like primary constructors, collection
+expressions will see a significant adoption in the long run.</p>
+</li>
+<li>
+<p>Collection expressions introduce a new way to initialize common collection
+values in a terse, unified syntax.</p>
+</li>
+<li>
+<p>This is how we initialize collections today:</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cs" data-lang="cs"><span style="display:flex;"><span><span style="">var</span> x1 = <span style="font-weight:bold">new</span> <span style="">int</span>[] { 1, 2, 3, 4 };
+</span></span><span style="display:flex;"><span><span style="">var</span> x2 = Array.Empty&lt;<span style="">int</span>&gt;();
+</span></span><span style="display:flex;"><span>WriteByteArray(<span style="font-weight:bold">new</span>[] { (<span style="">byte</span>)1, (<span style="">byte</span>)2, (<span style="">byte</span>)3 });
+</span></span><span style="display:flex;"><span>List&lt;<span style="">int</span>&gt; x3 = <span style="font-weight:bold">new</span>() { 1, 2, 3, 4 };
+</span></span><span style="display:flex;"><span>Span&lt;DateTime&gt; dates = <span style="font-weight:bold">stackalloc</span> DateTime[] { GetDate(0), GetDate(1) };
+</span></span><span style="display:flex;"><span>WriteByteSpan(<span style="font-weight:bold">stackalloc</span>[] { (<span style="">byte</span>)1, (<span style="">byte</span>)2, (<span style="">byte</span>)3 });
+</span></span></code></pre></div><p>Notice how the code is diverse depending on the type and the context. It is also
+verbose—look at how we initialize an empty array. In many situations, casting is
+needed; again, look at the <code>WriteByteArray</code> and <code>WriteByteSpan</code> calls.</p>
+<ul>
+<li>With collection expressions, it becomes like this:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cs" data-lang="cs"><span style="display:flex;"><span><span style="">int</span>[] x4 = [1, 2, 3, 4];
+</span></span><span style="display:flex;"><span><span style="">int</span>[] x5 = [];
+</span></span><span style="display:flex;"><span>WriteByteArray([1, 2, 3]);
+</span></span><span style="display:flex;"><span>List&lt;<span style="">int</span>&gt; x6 = [1, 2, 3, 4];
+</span></span><span style="display:flex;"><span>Span&lt;DateTime&gt; dates1 = [GetDate(0), GetDate(1)];
+</span></span><span style="display:flex;"><span>WriteByteSpan([1, 2, 3]);
+</span></span></code></pre></div><p>We enclose items within square brackets, and that&rsquo;s all. An empty collection is
+empty brackets. We can, of course, call functions or use variables.</p>
+<ul>
+<li>
+<p>In many scenarios, the compiler will perform several optimizations. It can
+allocate the correct capacity or avoid copying data when unnecessary. The
+compiler can do that because the supported collection types are well-known and
+have been for a long time. We get these performance boosts for free when we switch to
+collection expressions.</p>
+</li>
+<li>
+<p>Let&rsquo;s look at that <code>WriteByteArray</code> call. Let&rsquo;s say that at some
+point, maybe months or years after it&rsquo;s been used in many places, we decide to
+refactor the method and change the argument type from <code>byte[]</code> to <code>int[].</code> We&rsquo;d
+have to refactor the old-style caller to eliminate the casting, which is now an
+error. We don&rsquo;t need to do any fix with collection expressions as they come with
+enhanced inference that will resolve the casting for us.</p>
+</li>
+<li>
+<p>On the first line, we&rsquo;re initializing a new array (we aren&rsquo;t calling a method
+with a signature), so with collection expressions, if we try to use <code>var,</code> it
+won&rsquo;t work. In that case, we need to be explicit about the type.</p>
+</li>
+<li>
+<p>The spread operator allows us to insert variables and constants and to sort of
+&ldquo;unroll&rdquo; another collection within the new one, and it does so with optimal
+performance.</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cs" data-lang="cs"><span style="display:flex;"><span><span style="">int</span>[] numbers1 = [1, 2, 3];
+</span></span><span style="display:flex;"><span><span style="">int</span>[] numbers2 = [4, 5, 6];
+</span></span><span style="display:flex;"><span><span style="">int</span>[] moreNumbers = [.. numbers1, .. numbers2, 7, 8, 9];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">foreach</span>(<span style="">var</span> number <span style="font-weight:bold">in</span> moreNumbers)
+</span></span><span style="display:flex;"><span>    Console.WriteLine(number);
+</span></span></code></pre></div><p>It would be nice if lambdas were allowed in collection expressions,
+like in other languages (Python), but that&rsquo;s not yet an option.</p>
+<ul>
+<li>What about custom collections? But let&rsquo;s imagine I have built a <code>LineBuffer</code>
+class that inherits from <code>IEnumrable&lt;chrar&gt;</code>; it offers some custom features
+over its base class. I get an error if I try to use collection expression syntax
+on it. It is not a common .NET type, and the compiler doesn&rsquo;t know how to go
+around it.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cs" data-lang="cs"><span style="display:flex;"><span><span style="font-weight:bold">public</span> <span style="font-weight:bold">class</span> <span style="font-weight:bold">LineBuffer</span> : IEnumerable&lt;<span style="">char</span>&gt;
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">private</span> <span style="font-weight:bold">readonly</span> <span style="">char</span>[] _buffer = <span style="font-weight:bold">new</span> <span style="">char</span>[80];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">public</span> LineBuffer(ReadOnlySpan&lt;<span style="">char</span>&gt; buffer)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="">int</span> number = (_buffer.Length &lt; buffer.Length) ? _buffer.Length : buffer.Length;
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">for</span> (<span style="">int</span> i = 0; i &lt; number; i++)
+</span></span><span style="display:flex;"><span>            _buffer[i] = buffer[i];
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">public</span> IEnumerator&lt;<span style="">char</span>&gt; GetEnumerator() =&gt; _buffer.AsEnumerable&lt;<span style="">char</span>&gt;().GetEnumerator();
+</span></span><span style="display:flex;"><span>    IEnumerator IEnumerable.GetEnumerator() =&gt; _buffer.GetEnumerator();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="font-style:italic">// etc</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">// this causes a compile error</span>
+</span></span><span style="display:flex;"><span>LineBuffer line = [<span style="font-style:italic">&#39;H&#39;</span>, <span style="font-style:italic">&#39;e&#39;</span>, <span style="font-style:italic">&#39;l&#39;</span>, <span style="font-style:italic">&#39;l&#39;</span>, <span style="font-style:italic">&#39;o&#39;</span>, <span style="font-style:italic">&#39; &#39;</span>, <span style="font-style:italic">&#39;W&#39;</span>, <span style="font-style:italic">&#39;o&#39;</span>, <span style="font-style:italic">&#39;r&#39;</span>, <span style="font-style:italic">&#39;l&#39;</span>, <span style="font-style:italic">&#39;d&#39;</span>, <span style="font-style:italic">&#39;!&#39;</span>];
+</span></span></code></pre></div><ul>
+<li>We can support collection expressions in our custom types, though. It&rsquo;s a
+two-step process. First, we implement a builder method, then decorate the class
+(or struct) with a <code>CollectionBuilderAttribute.</code> The attribute maps our type to
+the builder method.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cs" data-lang="cs"><span style="display:flex;"><span>[CollectionBuilder(typeof(LineBuffer), nameof(Create))]
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">public</span> <span style="font-weight:bold">class</span> <span style="font-weight:bold">LineBuffer</span> : IEnumerable&lt;<span style="">char</span>&gt;
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">private</span> <span style="font-weight:bold">readonly</span> <span style="">char</span>[] _buffer = <span style="font-weight:bold">new</span> <span style="">char</span>[80];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">public</span> LineBuffer(ReadOnlySpan&lt;<span style="">char</span>&gt; buffer)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="">int</span> number = (_buffer.Length &lt; buffer.Length) ? _buffer.Length : buffer.Length;
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">for</span> (<span style="">int</span> i = 0; i &lt; number; i++)
+</span></span><span style="display:flex;"><span>            _buffer[i] = buffer[i];
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">public</span> IEnumerator&lt;<span style="">char</span>&gt; GetEnumerator() =&gt; _buffer.AsEnumerable&lt;<span style="">char</span>&gt;().GetEnumerator();
+</span></span><span style="display:flex;"><span>    IEnumerator IEnumerable.GetEnumerator() =&gt; _buffer.GetEnumerator();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">internal</span> <span style="font-weight:bold">static</span> LineBuffer Create(ReadOnlySpan&lt;<span style="">char</span>&gt; values) =&gt; <span style="font-weight:bold">new</span> LineBuffer(values);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>The official documentation says the builder must be named &ldquo;Create,&rdquo; but that&rsquo;s
+false. We can name it however we want as long as it matches the attribute (it&rsquo;s
+probably still worth adhering to the suggested practice.)</p>
+<ul>
+<li>
+<p>Adding collection expression support to custom types is helpful in your
+codebase, even more so if you&rsquo;re a library author.</p>
+</li>
+<li>
+<p>The syntax of collection expressions is symmetric with that of slicing and
+pattern matching, a nice touch that keeps the language tidy and coherent. Take a
+look at this pattern matching switch:</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cs" data-lang="cs"><span style="display:flex;"><span><span style="font-weight:bold">public</span> Grade GPA =&gt; Grades <span style="font-weight:bold">switch</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    [] =&gt; 4.0m,
+</span></span><span style="display:flex;"><span>    [var grade] =&gt; grade,
+</span></span><span style="display:flex;"><span>    [.. var all] =&gt; all.Average()
+</span></span><span style="display:flex;"><span>};
+</span></span></code></pre></div><ul>
+<li>
+<p>Visual Studio, VS Code, JetBrains Rider and most other IDEs offer full support
+for refactoring old-style collection initializations to collection expressions.</p>
+</li>
+<li>
+<p>What about dictionary expressions? They are common in other languages (again,
+Python). When asked, Kathrine Dollard of the C# design team answered that
+they&rsquo;re thinking about it, mostly trying to understand the best design, so
+there&rsquo;s a chance that we&rsquo;ll see dictionary expressions in the language in the
+future.</p>
+</li>
+</ul>
+<p>Also see: <a href="/csharp-primary-constructors/">C# 12 Primary Constructors</a>.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Quoting John Gruber</title>
       <link>https://nicolaiarocci.com/quoting-john-gruber/</link>
@@ -28,15 +194,15 @@
       <pubDate>Thu, 09 May 2024 18:04:39 +0200</pubDate>
       <guid>https://nicolaiarocci.com/csharp-primary-constructors/</guid>
       <description>I wrapped up my C# 12 session at the ABP Dotnet Conference 2024, and I wanted to share the take-home points, at least about the most relevant features in this language version. Posting the slides made no sense as they were minimal; all the content was packed in the live demo.
-In a follow-up post, I plan to address Collection Expressions and maybe &amp;ldquo;type any aliases&amp;rdquo;; this is about Primary Constructors.</description>
+In a follow-up post, I plan to address Collection Expressions (done) and maybe &amp;ldquo;type any aliases&amp;rdquo;; this is about Primary Constructors.</description>
       <content:encoded><![CDATA[<p>I wrapped up my C# 12 session at the <a href="https://abp.io/conference/2024">ABP Dotnet Conference 2024</a>, and I wanted to share the take-home points, at least about the most relevant features in this language version. Posting the slides made no sense as they were minimal; all the content was packed in the live demo.</p>
-<p>In a follow-up post, I plan to address Collection Expressions and maybe &ldquo;type any aliases&rdquo;; this is about Primary Constructors.</p>
+<p>In a follow-up post, I plan to address Collection Expressions (<a href="/csharp-collection-expressions">done</a>) and maybe &ldquo;type any aliases&rdquo;; this is about Primary Constructors.</p>
 <ul>
 <li>
 <p>We can now add a list of parameters to a struct or class declaration. This way, we avoid writing an explicit constructor method, sparing us some boilerplate code.</p>
 </li>
 <li>
-<p>What I refer to as &lsquo;Primary parameters&rsquo; are unique in that they are in scope throughout the type definition; this means they can be used anywhere within the type.</p>
+<p>What I refer to as &lsquo;primary parameters&rsquo; are unique in that they are in scope throughout the type definition; this means they can be used anywhere within the type.</p>
 </li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cs" data-lang="cs"><span style="display:flex;"><span><span style="font-weight:bold">public</span> <span style="font-weight:bold">readonly</span> <span style="font-weight:bold">struct</span> <span style="font-weight:bold">Distance</span>(<span style="">double</span> dx, <span style="">double</span> dy)
@@ -96,6 +262,7 @@ In a follow-up post, I plan to address Collection Expressions and maybe &amp;ldq
 <p>The primary constructor&rsquo;s original implementation dates back to C# 6 in 2015. It was publicly available in one of those version previews for a short period. Then, it was taken back to the drawing board, only to resurface with record types in C# 9 (?) and custom types in C# 12.</p>
 </li>
 </ul>
+<p>Also see: <a href="/csharp-collection-expressions/">C# 12 Collection Expressions</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
