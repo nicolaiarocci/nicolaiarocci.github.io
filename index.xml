@@ -739,11 +739,12 @@ my newsletter.</p>
       <link>https://nicolaiarocci.com/csharp-collection-expressions/</link>
       <pubDate>Fri, 10 May 2024 17:39:02 +0200</pubDate>
       <guid>https://nicolaiarocci.com/csharp-collection-expressions/</guid>
-      <description>This is a follow-up post to yesterday&amp;rsquo;s C# 12 Primary Constructors. Like that article, this one originates from my preparation notes for my presentation at the ABP Dotnet Conference 2024.
+      <description>This is a follow-up post toC# 12 Primary Constructors. Like that article, this one originates from my preparation notes for my presentation at the ABP Dotnet Conference 2024.
 I love collection expressions. Like primary constructors, collection expressions will see a significant adoption in the long run.
 Collection expressions introduce a new way to initialize common collection values in a terse, unified syntax.
-This is how we initialize collections today:</description>
-      <content:encoded><![CDATA[<p>This is a follow-up post to yesterday&rsquo;s <a href="/csharp-primary-constructors">C# 12 Primary
+This is how we initialize collections today:
+var x1 = new int[] { 1, 2, 3, 4 }; var x2 = Array.</description>
+      <content:encoded><![CDATA[<p>This is a follow-up post to<a href="/csharp-primary-constructors">C# 12 Primary
 Constructors</a>. Like that article, this one
 originates from my preparation notes for my presentation at the <a href="https://abp.io/conference/2024">ABP Dotnet
 Conference 2024</a>.</p>
