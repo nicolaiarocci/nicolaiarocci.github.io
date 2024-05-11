@@ -42,8 +42,10 @@ values in a terse, unified syntax.</p>
 </span></span><span style="display:flex;"><span>Span&lt;DateTime&gt; dates = <span style="font-weight:bold">stackalloc</span> DateTime[] { GetDate(0), GetDate(1) };
 </span></span><span style="display:flex;"><span>WriteByteSpan(<span style="font-weight:bold">stackalloc</span>[] { (<span style="">byte</span>)1, (<span style="">byte</span>)2, (<span style="">byte</span>)3 });
 </span></span></code></pre></div><p>Notice how the code is diverse depending on the type and the context. It is also
-verbose—look at how we initialize an empty array. In many situations, casting is
-needed; again, look at the <code>WriteByteArray</code> and <code>WriteByteSpan</code> calls.</p>
+verbose. Look at how we initialize an empty <code>int</code> array (second line); it&rsquo;s
+lengthy and starkly contrasts with the previous line, where we initialize the
+same type with some actual values.  In many situations, casting is needed;
+again, take a look at the <code>WriteByteArray</code> and <code>WriteByteSpan</code> calls.</p>
 <ul>
 <li>With collection expressions, it becomes like this:</li>
 </ul>
