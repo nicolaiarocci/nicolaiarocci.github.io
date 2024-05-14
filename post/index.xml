@@ -7,8 +7,23 @@
     <generator>Hugo -- 0.121.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Sun, 12 May 2024 15:25:27 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 14 May 2024 08:41:04 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Open AI just did</title>
+      <link>https://nicolaiarocci.com/what-open-ai-just-did/</link>
+      <pubDate>Tue, 14 May 2024 08:41:04 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/what-open-ai-just-did/</guid>
+      <description>Open AI just released ChatGPT 4o. The launch demo is available on YouTube, and yes, it is impressive. They did not launch v5, though, and 4o is only incremental, not exponential, as v4 has been compared to its predecessor. It may mean we&amp;rsquo;re at the end of the &amp;ldquo;exponential growth&amp;rdquo; phase of LLM models.
+However, the most critical aspect of this release is not technical, as Ethan Mollick correctly pinpoints in his timely What Open AI Did post:</description>
+      <content:encoded><![CDATA[<p>Open AI just released ChatGPT 4o. The launch demo is available on <a href="https://www.youtube.com/live/DQacCB9tDaw">YouTube</a>, and yes, it is impressive. They did not launch v5, though, and 4o is only incremental, not exponential, as v4 has been compared to its predecessor. It may mean we&rsquo;re at the end of the &ldquo;exponential growth&rdquo; phase of LLM models.</p>
+<p>However, the most critical aspect of this release is not technical, as Ethan Mollick correctly pinpoints in his timely <a href="https://www.oneusefulthing.org/p/what-openai-did">What Open AI Did</a> post:</p>
+<blockquote>
+<p>Likely the biggest impact of GPT-4o is not technical, but a business decision: soon everyone, whether they are paying or not, will get access to GPT-4o1. I think this is a big deal. When I talk with groups and ask people to raise their hands if they use ChatGPT, almost every hand goes up. When I ask if they used GPT-4, only 5% of hands remain up, at most. GPT-4 is so, so much better than free ChatGPT-3.5, it is like having a PhD student work with you instead of a high school sophomore. But that $20 a month barrier kept many people from understanding how impressive AI can be, and for gaining any benefit from AI. That is no longer true.</p>
+</blockquote>
+<p>He then speculates how this change will impact significant areas such as education, work, and global entrepreneurship.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>A walk on the beach [video]</title>
       <link>https://nicolaiarocci.com/a-walk-on-the-beach-video/</link>
