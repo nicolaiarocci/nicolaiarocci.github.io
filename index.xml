@@ -740,10 +740,10 @@ my newsletter.</p>
       <link>https://nicolaiarocci.com/llms-dont-remember-everything-you-say/</link>
       <pubDate>Wed, 29 May 2024 17:05:53 +0200</pubDate>
       <guid>https://nicolaiarocci.com/llms-dont-remember-everything-you-say/</guid>
-      <description>Simon Wilson has a new article explaining an important and often ununderstood aspect of LLMs. There&amp;rsquo;s a remarkable difference between chatting with an LLM, as we users do, and training it.
+      <description>Simon Willison has a new article explaining an important and often ununderstood aspect of LLMs. There&amp;rsquo;s a remarkable difference between chatting with an LLM, as we users do, and training it.
 Short version: ChatGPT and other similar tools do not directly learn from and memorize everything that you say to them.
 Every time you start a new chat conversation, you clear the slate. Each conversation is an entirely new sequence, carried out entirely independently of previous conversations from both yourself and other users.</description>
-      <content:encoded><![CDATA[<p>Simon Wilson has a new article explaining an important and often ununderstood
+      <content:encoded><![CDATA[<p>Simon Willison has a new article explaining an important and often ununderstood
 aspect of LLMs. There&rsquo;s a remarkable difference between chatting with an LLM, as
 we users do, and training it.</p>
 <blockquote>
