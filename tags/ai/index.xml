@@ -17,12 +17,20 @@
       <description>Simon Wilson has a new article explaining an important and often ununderstood aspect of LLMs. There&amp;rsquo;s a remarkable difference between chatting with an LLM, as we users do, and training it.
 Short version: ChatGPT and other similar tools do not directly learn from and memorize everything that you say to them.
 Every time you start a new chat conversation, you clear the slate. Each conversation is an entirely new sequence, carried out entirely independently of previous conversations from both yourself and other users.</description>
-      <content:encoded><![CDATA[<p>Simon Wilson has a new article explaining an important and often ununderstood aspect of LLMs. There&rsquo;s a remarkable difference between chatting with an LLM, as we users do, and training it.</p>
+      <content:encoded><![CDATA[<p>Simon Wilson has a new article explaining an important and often ununderstood
+aspect of LLMs. There&rsquo;s a remarkable difference between chatting with an LLM, as
+we users do, and training it.</p>
 <blockquote>
-<p>Short version: ChatGPT and other similar tools do not directly learn from and memorize everything that you say to them.</p>
+<p>Short version: ChatGPT and other similar tools do not directly learn from and
+memorize everything that you say to them.</p>
 </blockquote>
 <blockquote>
-<p>Every time you start a new chat conversation, you clear the slate. Each conversation is an entirely new sequence, carried out entirely independently of previous conversations from both yourself and other users. Understanding this is key to working effectively with these models. Every time you hit “new chat” you are effectively wiping the short-term memory of the model, starting again from scratch. This has a number of important consequences.</p>
+<p>Every time you start a new chat conversation, you clear the slate. Each
+conversation is an entirely new sequence, carried out entirely independently of
+previous conversations from both yourself and other users. Understanding this is
+key to working effectively with these models. Every time you hit “new chat” you
+are effectively wiping the short-term memory of the model, starting again from
+scratch. This has a number of important consequences.</p>
 </blockquote>
 <p>More <a href="https://simonwillison.net/2024/May/29/training-not-chatting/">here</a>.</p>
 ]]></content:encoded>
