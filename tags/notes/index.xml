@@ -7,8 +7,24 @@
     <generator>Hugo -- 0.121.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Mon, 29 Mar 2021 07:05:25 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 04 Jun 2024 14:54:44 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quoting Sean Voisen</title>
+      <link>https://nicolaiarocci.com/quoting-sean-voisen/</link>
+      <pubDate>Tue, 04 Jun 2024 14:54:44 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/quoting-sean-voisen/</guid>
+      <description>just writing down notes is all that really matters. Any tool that allows you to compose and save text will do. It is the act of writing, not the act of linking or reading or revisiting, that clarifies thought and leads to insight. The rest is all superfluous.
+&amp;ndash; Sean Voisen
+Just yesterday, I fixed a bug in our legacy application. Once I was done, I turned to my notes to log what I&amp;rsquo;d just done.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>just writing down notes is all that really matters. Any tool that allows you to compose and save text will do. It is the act of writing, not the act of linking or reading or revisiting, that clarifies thought and leads to insight. The rest is all superfluous.</p>
+</blockquote>
+<p>&ndash; <a href="https://sean.voisen.org/notes/2024-05-29-controversial-thoughts-on-networked-note-taking">Sean Voisen</a></p>
+<p>Just yesterday, I fixed a bug in our legacy application. Once I was done, I turned to my notes to log what I&rsquo;d just done. I was only partially happy with the fix, so I articulated what would have been ideal and why I didn&rsquo;t achieve my goal. Right in the middle of a sentence, the solution surfaced. It was so evident and straightforward! The simple act of writing down the problem led me to the solution. Relieved, I returned to the project and promptly improved my code.</p>
+<p>Sean Voisen is right. The act of writing clarifies thoughts and leads to insight.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Half-century of service</title>
       <link>https://nicolaiarocci.com/half-century-of-service/</link>
