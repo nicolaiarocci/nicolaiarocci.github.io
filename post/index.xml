@@ -7,15 +7,30 @@
     <generator>Hugo -- 0.121.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Thu, 13 Jun 2024 11:16:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 13 Jun 2024 15:55:58 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Experts vs. imitators</title>
+      <link>https://nicolaiarocci.com/experts-vs.-imitators/</link>
+      <pubDate>Thu, 13 Jun 2024 15:55:58 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/experts-vs.-imitators/</guid>
+      <description>I love this concise checklist on detecting fake experts, with which my experience wholeheartedly agrees. The first one:
+Imitators can&amp;rsquo;t answer questions at a deeper level. Specific knowledge is earned, not learned, so imitators don&amp;rsquo;t fully understand the ideas they&amp;rsquo;re talking about. Their knowledge is shallow. As a result, when you ask about details, first principles, or nonstandard cases, they don&amp;rsquo;t have good answers.
+For more advice, see the original post.</description>
+      <content:encoded><![CDATA[<p>I love <a href="https://fs.blog/experts-vs-imitators/">this</a> concise checklist on detecting fake experts, with which my experience wholeheartedly agrees. The first one:</p>
+<blockquote>
+<p>Imitators can&rsquo;t answer questions at a deeper level. Specific knowledge is earned, not learned, so imitators don&rsquo;t fully understand the ideas they&rsquo;re talking about. Their knowledge is shallow. As a result, when you ask about details, first principles, or nonstandard cases, they don&rsquo;t have good answers.</p>
+</blockquote>
+<p>For more advice, see the <a href="https://fs.blog/experts-vs-imitators/">original post</a>.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Container security meetup at DevRomagna</title>
       <link>https://nicolaiarocci.com/container-security-meetup-at-devromagna/</link>
       <pubDate>Thu, 13 Jun 2024 11:16:00 +0200</pubDate>
       <guid>https://nicolaiarocci.com/container-security-meetup-at-devromagna/</guid>
-      <description>We&amp;rsquo;re doing a DevRomagna meetup on container security. It will happen on June 26 at 19pm, it will be in Italian, and the speaker will be the one and the only Ugo Lattanzi. Details and signup here.</description>
-      <content:encoded><![CDATA[<p>We&rsquo;re doing a DevRomagna meetup on container security. It will happen on June 26 at 19pm, it will be in Italian, and the speaker will be the one and the only <a href="https://x.com/imperugo">Ugo Lattanzi</a>. Details and signup <a href="https://www.meetup.com/it-IT/devromagna/events/301598446/">here</a>.</p>
+      <description>We&amp;rsquo;re doing a DevRomagna meetup on container security. It will happen on June 26 at 7pm, it will be in Italian, and the speaker will be the one and the only Ugo Lattanzi. Details and signup here.</description>
+      <content:encoded><![CDATA[<p>We&rsquo;re doing a DevRomagna meetup on container security. It will happen on June 26 at 7pm, it will be in Italian, and the speaker will be the one and the only <a href="https://x.com/imperugo">Ugo Lattanzi</a>. Details and signup <a href="https://www.meetup.com/it-IT/devromagna/events/301598446/">here</a>.</p>
 ]]></content:encoded>
     </item>
     <item>

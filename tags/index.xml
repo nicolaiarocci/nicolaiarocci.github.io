@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.121.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Thu, 13 Jun 2024 11:16:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 13 Jun 2024 15:55:58 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>links</title>
+      <link>https://nicolaiarocci.com/tags/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/tags/links/</guid>
+      <description></description>
+    </item>
     <item>
       <title>devromagna</title>
       <link>https://nicolaiarocci.com/tags/devromagna/</link>
@@ -161,13 +168,6 @@
       <link>https://nicolaiarocci.com/tags/life/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/tags/life/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>links</title>
-      <link>https://nicolaiarocci.com/tags/links/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nicolaiarocci.com/tags/links/</guid>
       <description></description>
     </item>
     <item>
