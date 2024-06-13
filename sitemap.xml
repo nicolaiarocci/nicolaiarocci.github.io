@@ -14,22 +14,34 @@
     <loc>https://nicolaiarocci.com/about/</loc>
     <lastmod>2010-11-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://nicolaiarocci.com/container-security-meetup-at-devromagna/</loc>
+    <lastmod>2024-06-13T11:16:00+02:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/devromagna/</loc>
+    <lastmod>2024-06-13T11:16:00+02:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/docker/</loc>
+    <lastmod>2024-06-13T11:16:00+02:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/meetup/</loc>
+    <lastmod>2024-06-13T11:16:00+02:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/</loc>
+    <lastmod>2024-06-13T11:16:00+02:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/post/</loc>
+    <lastmod>2024-06-13T11:16:00+02:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/</loc>
+    <lastmod>2024-06-13T11:16:00+02:00</lastmod>
+  </url><url>
     <loc>https://nicolaiarocci.com/hidden-tracks-domodossola-weissmies/</loc>
     <lastmod>2024-06-11T16:01:15+02:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/music/</loc>
     <lastmod>2024-06-11T16:01:15+02:00</lastmod>
   </url><url>
-    <loc>https://nicolaiarocci.com/</loc>
-    <lastmod>2024-06-11T16:01:15+02:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/post/</loc>
-    <lastmod>2024-06-11T16:01:15+02:00</lastmod>
-  </url><url>
     <loc>https://nicolaiarocci.com/tags/reviews/</loc>
-    <lastmod>2024-06-11T16:01:15+02:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/</loc>
     <lastmod>2024-06-11T16:01:15+02:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/notes/</loc>
@@ -318,9 +330,6 @@
     <lastmod>2024-02-20T14:54:06+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/default-asp-net-core-8-port-changed-from-80-to-8080/</loc>
-    <lastmod>2024-02-20T11:48:42+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/docker/</loc>
     <lastmod>2024-02-20T11:48:42+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/monte-tiravento/</loc>
@@ -769,12 +778,6 @@
   </url><url>
     <loc>https://nicolaiarocci.com/tags/wasm/</loc>
     <lastmod>2023-03-23T07:05:25+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/devromagna/</loc>
-    <lastmod>2023-03-22T07:05:25+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/meetup/</loc>
-    <lastmod>2023-03-22T07:05:25+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/web-performance-meetup-at-devromagna/</loc>
     <lastmod>2023-03-22T07:05:25+01:00</lastmod>
