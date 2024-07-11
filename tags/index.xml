@@ -7,8 +7,36 @@
     <generator>Hugo -- 0.121.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Wed, 10 Jul 2024 15:39:47 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jul 2024 15:11:50 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dotnet</title>
+      <link>https://nicolaiarocci.com/tags/dotnet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/tags/dotnet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>mvpaward</title>
+      <link>https://nicolaiarocci.com/tags/mvpaward/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/tags/mvpaward/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>programming</title>
+      <link>https://nicolaiarocci.com/tags/programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>python</title>
+      <link>https://nicolaiarocci.com/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/tags/python/</guid>
+      <description></description>
+    </item>
     <item>
       <title>quotes</title>
       <link>https://nicolaiarocci.com/tags/quotes/</link>
@@ -133,13 +161,6 @@
       <link>https://nicolaiarocci.com/tags/csharp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/tags/csharp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>dotnet</title>
-      <link>https://nicolaiarocci.com/tags/dotnet/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nicolaiarocci.com/tags/dotnet/</guid>
       <description></description>
     </item>
     <item>
@@ -507,13 +528,6 @@
       <description></description>
     </item>
     <item>
-      <title>programming</title>
-      <link>https://nicolaiarocci.com/tags/programming/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nicolaiarocci.com/tags/programming/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>newsletter</title>
       <link>https://nicolaiarocci.com/tags/newsletter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -640,13 +654,6 @@
       <description></description>
     </item>
     <item>
-      <title>python</title>
-      <link>https://nicolaiarocci.com/tags/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nicolaiarocci.com/tags/python/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>medieval</title>
       <link>https://nicolaiarocci.com/tags/medieval/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -665,13 +672,6 @@
       <link>https://nicolaiarocci.com/tags/events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/tags/events/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>mvpaward</title>
-      <link>https://nicolaiarocci.com/tags/mvpaward/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nicolaiarocci.com/tags/mvpaward/</guid>
       <description></description>
     </item>
     <item>
