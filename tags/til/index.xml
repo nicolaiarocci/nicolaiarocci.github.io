@@ -14,8 +14,8 @@
       <link>https://nicolaiarocci.com/shellcheck/</link>
       <pubDate>Wed, 24 Jul 2024 14:59:21 +0200</pubDate>
       <guid>https://nicolaiarocci.com/shellcheck/</guid>
-      <description>Today I learned about ShellCheck, a static analysis tool for shell scripts that &amp;ldquo;finds bugs in your scripts&amp;rdquo;. It can and should be run on the command line, but an online version is also available. It catches most style and syntax errors and has plenty of options, like ignoring specific errors and warnings, which is helpful in CI scenarios.</description>
-      <content:encoded><![CDATA[<p>Today I <a href="https://www.simplermachines.com/how-to-write-better-bash-than-chatgpt/">learned</a> about <a href="https://github.com/koalaman/shellcheck">ShellCheck</a>, a static analysis tool for shell scripts that &ldquo;finds bugs in your scripts&rdquo;. It can and should be run on the command line, but an <a href="https://www.shellcheck.net">online version</a> is also available. It catches most style and syntax errors and has plenty of options, like ignoring specific errors and warnings, which is helpful in CI scenarios.</p>
+      <description>Today I learned about ShellCheck, a static analysis tool that &amp;ldquo;finds bugs in your scripts&amp;rdquo;. It can and should be run on the command line, but an online version is also available. It catches most style and syntax errors and has plenty of options, like ignoring specific errors and warnings, which is helpful in CI scenarios.</description>
+      <content:encoded><![CDATA[<p>Today I <a href="https://www.simplermachines.com/how-to-write-better-bash-than-chatgpt/">learned</a> about <a href="https://github.com/koalaman/shellcheck">ShellCheck</a>, a static analysis tool that &ldquo;finds bugs in your scripts&rdquo;. It can and should be run on the command line, but an <a href="https://www.shellcheck.net">online version</a> is also available. It catches most style and syntax errors and has plenty of options, like ignoring specific errors and warnings, which is helpful in CI scenarios.</p>
 ]]></content:encoded>
     </item>
     <item>
