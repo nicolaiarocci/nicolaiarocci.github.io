@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.121.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Thu, 29 Aug 2024 15:15:42 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 30 Aug 2024 09:52:11 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccolo Libro di MongoDB</title>
@@ -740,6 +740,30 @@ my newsletter.</p>
 <p>Find me on <a href="https://fosstodon.org/@nicola">Mastodon</a>, <a href="https://www.last.fm/user/nicolaiarocci">Last.fm</a>, <a href="https://github.com/nicolaiarocci">GitHub</a>, <a href="http://www.linkedin.com/in/nicolaiarocci">LinkedIn</a>, or get in touch via <a href="mailto:nicola@nicolaiarocci.com">email</a>. My <a href="https://x.com/nicolaiarocci">Twitter/X</a> account is currently <a href="/im-leaving-twitter/x/">on hiatus</a>.</p>
 <h2 id="no-guest-posts">No guest posts</h2>
 <p>This is my personal website. I will not accept any “guest posts” here, not for compensation and not for any “good cause”. You can stop asking.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>The secret inside One Million Checkboxes</title>
+      <link>https://nicolaiarocci.com/the-secret-inside-one-million-checkboxes/</link>
+      <pubDate>Fri, 30 Aug 2024 09:52:11 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/the-secret-inside-one-million-checkboxes/</guid>
+      <description>A few days into making One Million Checkboxes I thought I’d been hacked. What was that doing in my database? A few hours later I was tearing up, proud of some brilliant teens.
+Full story here.
+What a great story. Teenagers who are enthusiastic about hacking and coding and have lots of fun in creative ways. It reminds me so much of my teenage years, like when assembling a fake backdoor on Lorien, my first BBS, as a honeypot to attract local hackers so I could later reach out and get to know them1.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>A few days into making One Million Checkboxes I thought I’d been hacked. What was that doing in my database? A few hours later I was tearing up, proud of some brilliant teens.</p>
+</blockquote>
+<p>Full story <a href="https://eieio.games/essays/the-secret-in-one-million-checkboxes/">here</a>.</p>
+<p>What a great story. Teenagers who are enthusiastic about hacking and coding and have lots of fun in creative ways. It reminds me so much of my teenage years, like when assembling a fake backdoor on Lorien, my first BBS, as a honeypot to attract local hackers so I could later reach out and get to know them<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>Long gone are those days, and I wish I still had that kind of drive.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Which was a successful attempt. We formed a team that went on to crack <a href="https://artofhacking.com/tucops3/hack/networks/live/aoh_itapac.htm">ITAPAC</a> (we&rsquo;re talking pre-Internet era) and do other funny things.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
