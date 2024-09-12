@@ -11,9 +11,9 @@
     <atom:link href="https://nicolaiarocci.com/tags/til/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Under ASP.NET 8, NGINX returns 502 Bad Gateway after authentication by IdentityServer</title>
-      <link>https://nicolaiarocci.com/under-asp.net-8-nginx-returns-502-bad-gateway-after-authentication-by-identityserver/</link>
+      <link>https://nicolaiarocci.com/under-aspnet-8-nginx-returns-502-bad-gateway-after-authentication-by-identityserver/</link>
       <pubDate>Thu, 12 Sep 2024 16:17:58 +0200</pubDate>
-      <guid>https://nicolaiarocci.com/under-asp.net-8-nginx-returns-502-bad-gateway-after-authentication-by-identityserver/</guid>
+      <guid>https://nicolaiarocci.com/under-aspnet-8-nginx-returns-502-bad-gateway-after-authentication-by-identityserver/</guid>
       <description>Today, I learned the hard way that NGINX has default buffer sizes, which can cause trouble in specific scenarios like mine.</description>
       <content:encoded><![CDATA[<p>Today, I learned the hard way that NGINX has small buffer sizes, which can cause trouble in specific scenarios like mine.</p>
 <p>We have two ASP.NET 8 applications behind NGINX; one is a regular web app, and the other is an auth server built with Duende Identity Server. When the user attempts to log in to the web app, they are sent to the auth server; once logged in, they are sent back to the app, and that&rsquo;s when NGINX returns a weird 502 Bad Gateway. Upon inspecting the NGINX logs, I found the following error:</p>
