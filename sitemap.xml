@@ -14,16 +14,31 @@
     <loc>https://nicolaiarocci.com/about/</loc>
     <lastmod>2010-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nicolaiarocci.com/tags/links/</loc>
-    <lastmod>2024-09-12T10:35:10+02:00</lastmod>
+    <loc>https://nicolaiarocci.com/tags/dotnet/</loc>
+    <lastmod>2024-09-12T16:17:58+02:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/identityserver/</loc>
+    <lastmod>2024-09-12T16:17:58+02:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/nginx/</loc>
+    <lastmod>2024-09-12T16:17:58+02:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/</loc>
-    <lastmod>2024-09-12T10:35:10+02:00</lastmod>
+    <lastmod>2024-09-12T16:17:58+02:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/post/</loc>
-    <lastmod>2024-09-12T10:35:10+02:00</lastmod>
+    <lastmod>2024-09-12T16:17:58+02:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/</loc>
+    <lastmod>2024-09-12T16:17:58+02:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/til/</loc>
+    <lastmod>2024-09-12T16:17:58+02:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/under-asp.net-8-nginx-returns-502-bad-gateway-after-authentication-by-identityserver/</loc>
+    <lastmod>2024-09-12T16:17:58+02:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/links/</loc>
     <lastmod>2024-09-12T10:35:10+02:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/tennis/</loc>
@@ -119,9 +134,6 @@
     <loc>https://nicolaiarocci.com/shellcheck/</loc>
     <lastmod>2024-07-24T14:59:21+02:00</lastmod>
   </url><url>
-    <loc>https://nicolaiarocci.com/tags/til/</loc>
-    <lastmod>2024-07-24T14:59:21+02:00</lastmod>
-  </url><url>
     <loc>https://nicolaiarocci.com/bash-oneliner-a-collection-of-terminal-tricks-for-linux/</loc>
     <lastmod>2024-07-22T15:51:51+02:00</lastmod>
   </url><url>
@@ -139,9 +151,6 @@
   </url><url>
     <loc>https://nicolaiarocci.com/tags/miyazaki/</loc>
     <lastmod>2024-07-18T08:44:46+02:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/dotnet/</loc>
-    <lastmod>2024-07-11T15:11:50+02:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/microsoft-mvp-ninth-time/</loc>
     <lastmod>2024-07-11T15:11:50+02:00</lastmod>
@@ -1548,9 +1557,6 @@
     <lastmod>2021-09-30T07:05:25+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/an-nginx-playground/</loc>
-    <lastmod>2021-09-27T07:05:25+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/nginx/</loc>
     <lastmod>2021-09-27T07:05:25+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/ageing/</loc>
