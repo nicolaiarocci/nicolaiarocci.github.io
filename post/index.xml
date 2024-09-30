@@ -7,8 +7,17 @@
     <generator>Hugo -- 0.121.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Sat, 14 Sep 2024 10:22:27 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2024 09:39:20 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fattura Elettronica v3.5</title>
+      <link>https://nicolaiarocci.com/fattura-elettronica-v3.5/</link>
+      <pubDate>Mon, 30 Sep 2024 09:39:20 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/fattura-elettronica-v3.5/</guid>
+      <description>I just released FatturaElettronica .NET v3.5.0. This version adds multi-language support, all thanks to the excellent work done by Michael Mairegger. We currently support Italian and German and are ready to accept contributions for other languages. The Fattura Elettronica open-source project allows for the validation and de/serialization of electronic invoices that adhere to the standard defined by the Italian Revenue Agency.</description>
+      <content:encoded><![CDATA[<p>I just released <a href="https://www.nuget.org/packages/FatturaElettronica">FatturaElettronica .NET v3.5.0</a>. This version adds multi-language support, all thanks to the excellent work done by <a href="https://michaelmairegger.it">Michael Mairegger</a>. We currently support Italian and German and are ready to accept contributions for other languages. The Fattura Elettronica open-source project allows for the validation and de/serialization of electronic invoices that adhere to the standard defined by the Italian Revenue Agency.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>I am Herman Melville</title>
       <link>https://nicolaiarocci.com/i-am-herman-melville/</link>
