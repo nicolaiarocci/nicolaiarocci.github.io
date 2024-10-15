@@ -7,8 +7,29 @@
     <generator>Hugo -- 0.121.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Fri, 04 Oct 2024 11:46:13 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 15 Oct 2024 09:37:02 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>eve</title>
+      <link>https://nicolaiarocci.com/tags/eve/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/tags/eve/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>open source</title>
+      <link>https://nicolaiarocci.com/tags/open-source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/tags/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>python</title>
+      <link>https://nicolaiarocci.com/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/tags/python/</guid>
+      <description></description>
+    </item>
     <item>
       <title>links</title>
       <link>https://nicolaiarocci.com/tags/links/</link>
@@ -35,13 +56,6 @@
       <link>https://nicolaiarocci.com/tags/fattura-elettronica/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/tags/fattura-elettronica/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>open source</title>
-      <link>https://nicolaiarocci.com/tags/open-source/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nicolaiarocci.com/tags/open-source/</guid>
       <description></description>
     </item>
     <item>
@@ -231,13 +245,6 @@
       <link>https://nicolaiarocci.com/tags/programming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/tags/programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>python</title>
-      <link>https://nicolaiarocci.com/tags/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nicolaiarocci.com/tags/python/</guid>
       <description></description>
     </item>
     <item>
@@ -945,13 +952,6 @@
       <link>https://nicolaiarocci.com/tags/calvino/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/tags/calvino/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>eve</title>
-      <link>https://nicolaiarocci.com/tags/eve/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nicolaiarocci.com/tags/eve/</guid>
       <description></description>
     </item>
     <item>
