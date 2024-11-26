@@ -7,8 +7,43 @@
     <generator>Hugo -- 0.121.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Sat, 16 Nov 2024 09:06:23 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 26 Nov 2024 19:20:01 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ai</title>
+      <link>https://nicolaiarocci.com/tags/ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>books</title>
+      <link>https://nicolaiarocci.com/tags/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/tags/books/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>links</title>
+      <link>https://nicolaiarocci.com/tags/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/tags/links/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>llm</title>
+      <link>https://nicolaiarocci.com/tags/llm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>til</title>
+      <link>https://nicolaiarocci.com/tags/til/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolaiarocci.com/tags/til/</guid>
+      <description></description>
+    </item>
     <item>
       <title>apennine mountains</title>
       <link>https://nicolaiarocci.com/tags/apennine-mountains/</link>
@@ -38,24 +73,10 @@
       <description></description>
     </item>
     <item>
-      <title>ai</title>
-      <link>https://nicolaiarocci.com/tags/ai/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nicolaiarocci.com/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>journalism</title>
       <link>https://nicolaiarocci.com/tags/journalism/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/tags/journalism/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>links</title>
-      <link>https://nicolaiarocci.com/tags/links/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nicolaiarocci.com/tags/links/</guid>
       <description></description>
     </item>
     <item>
@@ -101,13 +122,6 @@
       <description></description>
     </item>
     <item>
-      <title>books</title>
-      <link>https://nicolaiarocci.com/tags/books/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nicolaiarocci.com/tags/books/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>bradbury</title>
       <link>https://nicolaiarocci.com/tags/bradbury/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -140,13 +154,6 @@
       <link>https://nicolaiarocci.com/tags/nginx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/tags/nginx/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>til</title>
-      <link>https://nicolaiarocci.com/tags/til/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nicolaiarocci.com/tags/til/</guid>
       <description></description>
     </item>
     <item>
@@ -287,13 +294,6 @@
       <link>https://nicolaiarocci.com/tags/libraries/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/tags/libraries/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>llm</title>
-      <link>https://nicolaiarocci.com/tags/llm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nicolaiarocci.com/tags/llm/</guid>
       <description></description>
     </item>
     <item>
