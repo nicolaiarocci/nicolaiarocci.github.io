@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.121.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Fri, 06 Dec 2024 16:52:41 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2024 08:36:26 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccolo Libro di MongoDB</title>
@@ -747,6 +747,15 @@ my newsletter.</p>
 <p>Find me on <a href="https://fosstodon.org/@nicola">Mastodon</a>, <a href="https://www.last.fm/user/nicolaiarocci">Last.fm</a>, <a href="https://github.com/nicolaiarocci">GitHub</a>, <a href="http://www.linkedin.com/in/nicolaiarocci">LinkedIn</a>, or get in touch via <a href="mailto:nicola@nicolaiarocci.com">email</a>. My <a href="https://x.com/nicolaiarocci">Twitter/X</a> account is currently <a href="/im-leaving-twitter/x/">on hiatus</a>.</p>
 <h2 id="no-guest-posts">No guest posts</h2>
 <p>This is my personal website. I will not accept any “guest posts” here, not for compensation and not for any “good cause”. You can stop asking.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Speaking at the .NET Conference Italia 2024</title>
+      <link>https://nicolaiarocci.com/speaking-at-the-dotnet-conference-italia-2024/</link>
+      <pubDate>Sat, 07 Dec 2024 08:36:26 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/speaking-at-the-dotnet-conference-italia-2024/</guid>
+      <description>I&amp;rsquo;m speaking at the .NET Conference Italia 2024 on Dec 16th in Milan at the Microsoft House. My session is titled C# 13 What&amp;rsquo;s New and Interesting (track 1, MTC, 1st floor) and will be on the latest iteration of the C# language that&amp;rsquo;s just been released. We&amp;rsquo;ll also briefly touch on .NET 9, which was also just released and if tightly integrated with the language. Hope to see you there (make sure to come to me to say Hi!</description>
+      <content:encoded><![CDATA[<p>I&rsquo;m speaking at the <a href="https://www.dotnetconference.it">.NET Conference Italia 2024</a> on Dec 16th in Milan at the Microsoft House. My session is titled <a href="https://www.dotnetconference.it/e/sessione/3589/C-13-e-NET-9-cosa-c%E2%80%99e-di-nuovo-e-interessante">C# 13 What&rsquo;s New and Interesting</a> (track 1, MTC, 1st floor) and will be on the latest iteration of the C# language that&rsquo;s just been released. We&rsquo;ll also briefly touch on .NET 9, which was also just released and if tightly integrated with the language. Hope to see you there (make sure to come to me to say Hi!)</p>
 ]]></content:encoded>
     </item>
     <item>
