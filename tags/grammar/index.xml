@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>grammar on Nicola Iarocci</title>
+    <title>Grammar on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/grammar/</link>
-    <description>Recent content in grammar on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Grammar on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 16 Sep 2021 07:05:25 +0100</lastBuildDate>
@@ -14,7 +14,12 @@
       <link>https://nicolaiarocci.com/the-american-style-of-quotation-mark-punctuation-makes-no-sense/</link>
       <pubDate>Thu, 16 Sep 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-american-style-of-quotation-mark-punctuation-makes-no-sense/</guid>
-      <description>Years ago, I translated an essay by Terry Windling, On Tolkien and Fairie-Stories, from American English to Italian. I remember arguing with the author about her use of periods in quotations. Each quotation would end with a period before the closing mark. I was puzzled. We don&amp;rsquo;t do that in Italy. More importantly, I read many English texts where the period was left outside the quotation itself. She insisted that her style was correct1.</description>
+      <description>&lt;p&gt;Years ago, I &lt;a href=&#34;http://www.endore.it/Arretrati/9/Articoli/SuTolkienELeFiabe.pdf&#34;&gt;translated&lt;/a&gt; an essay by Terry Windling, &lt;a href=&#34;https://accademia.tolkieniana.net/tesi/endicott/tlkefiabeng.html&#34;&gt;On Tolkien and
+Fairie-Stories&lt;/a&gt;, from American English to Italian. I remember arguing with
+the author about her use of periods in quotations. Each quotation would end
+with a period before the closing mark. I was puzzled. We don&amp;rsquo;t do that in
+Italy. More importantly, I read many English texts where the period was left
+outside the quotation itself. She insisted that her style was correct&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Years ago, I <a href="http://www.endore.it/Arretrati/9/Articoli/SuTolkienELeFiabe.pdf">translated</a> an essay by Terry Windling, <a href="https://accademia.tolkieniana.net/tesi/endicott/tlkefiabeng.html">On Tolkien and
 Fairie-Stories</a>, from American English to Italian. I remember arguing with
 the author about her use of periods in quotations. Each quotation would end
@@ -28,8 +33,7 @@ quotation mark punctuation styles: American and British.</p>
 American style, you almost always put periods and commas inside the quotation
 marks [&hellip;] In the British style, however, you put periods and commas outside
 the quotation marks, unless they are part of a complete sentence that is
-fully contained between the quotation marks:</p>
-</blockquote>
+fully contained between the quotation marks:</p></blockquote>
 <p>In <a href="https://www.erichgrunewald.com/posts/the-american-style-of-quotation-mark-punctuation-makes-no-sense">The American Style of Quotation Mark Punctuation Makes No Sense</a> the
 author illustrates the differences between the two styles, then argues that
 &ldquo;the British approach makes more sense, so use that one.&rdquo; Whoops.</p>

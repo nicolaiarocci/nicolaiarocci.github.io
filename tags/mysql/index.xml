@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>mysql on Nicola Iarocci</title>
+    <title>Mysql on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/mysql/</link>
-    <description>Recent content in mysql on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Mysql on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 09 Dec 2021 07:05:25 +0100</lastBuildDate>
@@ -14,8 +14,14 @@
       <link>https://nicolaiarocci.com/a-big-nail-in-the-coffin-of-mysql/</link>
       <pubDate>Thu, 09 Dec 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/a-big-nail-in-the-coffin-of-mysql/</guid>
-      <description>After five years in Oracle&amp;rsquo;s MySQL team, Steinar H. Gunderson resigned a few days ago. On the same day, he dropped the bomb on his blog:
-let me point out something that I&amp;rsquo;ve been saying both internally and externally for the last five years (although never on a stage—which explains why I&amp;rsquo;ve been staying away from stages talking about MySQL): MySQL is a pretty poor database, and you should strongly consider using Postgres instead1.</description>
+      <description>&lt;p&gt;After five years in Oracle&amp;rsquo;s MySQL team, Steinar H. Gunderson resigned a few
+days ago. On the same day, he dropped the bomb on his &lt;a href=&#34;https://blog.sesse.net/blog/tech/2021-12-05-16-41_leaving_mysql&#34;&gt;blog&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;let me point out something that I&amp;rsquo;ve been saying both internally and
+externally for the last five years (although never on a stage—which explains
+why I&amp;rsquo;ve been staying away from stages talking about MySQL): &lt;strong&gt;MySQL is
+a pretty poor database, and you should strongly consider using Postgres
+instead&lt;/strong&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>After five years in Oracle&rsquo;s MySQL team, Steinar H. Gunderson resigned a few
 days ago. On the same day, he dropped the bomb on his <a href="https://blog.sesse.net/blog/tech/2021-12-05-16-41_leaving_mysql">blog</a>:</p>
 <blockquote>
@@ -23,8 +29,7 @@ days ago. On the same day, he dropped the bomb on his <a href="https://blog.sess
 externally for the last five years (although never on a stage—which explains
 why I&rsquo;ve been staying away from stages talking about MySQL): <strong>MySQL is
 a pretty poor database, and you should strongly consider using Postgres
-instead</strong><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
-</blockquote>
+instead</strong><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p></blockquote>
 <p>As [@brandur][3] appropriately puts it, in the world of software engineering,
 it rarely gets more definitive than that. And authoritative, I might add, given
 both the role he covered at Oracle and his overall [track record][5]. The whole

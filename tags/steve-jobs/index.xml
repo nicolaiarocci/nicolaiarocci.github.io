@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>steve jobs on Nicola Iarocci</title>
+    <title>Steve Jobs on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/steve-jobs/</link>
-    <description>Recent content in steve jobs on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Steve Jobs on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 21 Oct 2011 00:00:00 +0000</lastBuildDate>
@@ -14,8 +14,10 @@
       <link>https://nicolaiarocci.com/perche-non-acquistero-la-biografia-ufficiale-di-steve-jobs/</link>
       <pubDate>Fri, 21 Oct 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/perche-non-acquistero-la-biografia-ufficiale-di-steve-jobs/</guid>
-      <description>Non acquisterò la biografia ufficiale di Steve Jobs. Non mi interessa il suo privato e quel che ha (o non ha) fatto nel corso della sua carriera è di pubblico dominio. I contenuti del libro li troverò comunque citati, acclamati e commentati ad nauseam sul web. Gratis.
-E poi, non fosse morto l’altro ieri, l’avrei comprata? Vedi sopra.</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Non acquisterò la biografia ufficiale di Steve Jobs. Non mi interessa il suo privato e quel che ha (o non ha) fatto nel corso della sua carriera è di pubblico dominio. I contenuti del libro li troverò comunque citati, acclamati e commentati &lt;em&gt;ad nauseam&lt;/em&gt; sul web. Gratis.&lt;/p&gt;
+&lt;p&gt;E poi, non fosse morto l’altro ieri, l’avrei comprata? Vedi sopra.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <p>Non acquisterò la biografia ufficiale di Steve Jobs. Non mi interessa il suo privato e quel che ha (o non ha) fatto nel corso della sua carriera è di pubblico dominio. I contenuti del libro li troverò comunque citati, acclamati e commentati <em>ad nauseam</em> sul web. Gratis.</p>
@@ -27,11 +29,12 @@ E poi, non fosse morto l’altro ieri, l’avrei comprata? Vedi sopra.</descript
       <link>https://nicolaiarocci.com/a-farewell-to-steve-jobs/</link>
       <pubDate>Thu, 06 Oct 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/a-farewell-to-steve-jobs/</guid>
-      <description> </description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;blockquote&gt;
+&lt;!-- raw HTML omitted --&gt;&lt;/blockquote&gt;</description>
       <content:encoded><![CDATA[<!-- raw HTML omitted -->
 <blockquote>
-<!-- raw HTML omitted -->
-</blockquote>
+<!-- raw HTML omitted --></blockquote>
 ]]></content:encoded>
     </item>
   </channel>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>languages on Nicola Iarocci</title>
+    <title>Languages on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/languages/</link>
-    <description>Recent content in languages on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Languages on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 30 Dec 2013 00:00:00 +0000</lastBuildDate>
@@ -14,15 +14,15 @@
       <link>https://nicolaiarocci.com/microsofts-new-systems-language/</link>
       <pubDate>Mon, 30 Dec 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/microsofts-new-systems-language/</guid>
-      <description>Number #3 on Praeclarum’s list hits home for me, but all his points are both valid and strong.
-As a programming language nerd I had mixed feelings when Jon Galloway tweeted about Microsoft’s new programming language.
-“Why are your feelings mixed?” I kept asking myself. I love new programming languages. I took an internship at Microsoft just so I could be closer to the people who made C#. I read language specs for fun.</description>
+      <description>&lt;p&gt;Number #3 on Praeclarum’s list hits home for me, but all his points are both valid and strong.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As a programming language nerd I had mixed feelings when Jon Galloway tweeted about Microsoft’s new programming language.&lt;/p&gt;
+&lt;p&gt;“Why are your feelings mixed?” I kept asking myself. I love new programming languages. I took an internship at Microsoft just so I could be closer to the people who made C#. I read language specs for fun. I write compilers for fun. I sell a programming language, interpreter, and IDE.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Number #3 on Praeclarum’s list hits home for me, but all his points are both valid and strong.</p>
 <blockquote>
 <p>As a programming language nerd I had mixed feelings when Jon Galloway tweeted about Microsoft’s new programming language.</p>
 <p>“Why are your feelings mixed?” I kept asking myself. I love new programming languages. I took an internship at Microsoft just so I could be closer to the people who made C#. I read language specs for fun. I write compilers for fun. I sell a programming language, interpreter, and IDE.</p>
-<p>So why am I not thrilled? Finally, after as much soul searching as 4 hours of sleep allowed me, I identified a few reasons for this pit in my stomach:</p>
-</blockquote>
+<p>So why am I not thrilled? Finally, after as much soul searching as 4 hours of sleep allowed me, I identified a few reasons for this pit in my stomach:</p></blockquote>
 <p>via <!-- raw HTML omitted -->præclarum – Microsoft’s New Systems Language<!-- raw HTML omitted -->.</p>
 ]]></content:encoded>
     </item>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>pirates on Nicola Iarocci</title>
+    <title>Pirates on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/pirates/</link>
-    <description>Recent content in pirates on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Pirates on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 26 Oct 2022 07:05:25 +0100</lastBuildDate>
@@ -14,7 +14,16 @@
       <link>https://nicolaiarocci.com/a-lot-of-what-is-known-about-pirates-is-not-true/</link>
       <pubDate>Wed, 26 Oct 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/a-lot-of-what-is-known-about-pirates-is-not-true/</guid>
-      <description>In 1701, in Middletown, New Jersey, Moses Butterworth languished in a jail, accused of piracy. Like many young men based in England or her colonies, he had joined a crew that sailed the Indian Ocean intent on plundering ships of the Muslim Mughal Empire. Throughout the 1690s, these pirates marauded vessels laden with gold, jewels, silk, and calico on pilgrimage toward Mecca. After achieving great success, many of these men sailed back into the Atlantic via Madagascar to the North American seaboard, where they quietly disembarked in Charleston, Philadelphia, New Jersey, New York City, Newport, and Boston, and made themselves at home.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;In 1701, in Middletown, New Jersey, Moses Butterworth languished in a jail,
+accused of piracy. Like many young men based in England or her colonies, he
+had joined a crew that sailed the Indian Ocean intent on plundering ships of
+the Muslim Mughal Empire. Throughout the 1690s, these pirates marauded
+vessels laden with gold, jewels, silk, and calico on pilgrimage toward Mecca.
+After achieving great success, many of these men sailed back into the
+Atlantic via Madagascar to the North American seaboard, where they quietly
+disembarked in Charleston, Philadelphia, New Jersey, New York City, Newport,
+and Boston, and made themselves at home.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
 <p>In 1701, in Middletown, New Jersey, Moses Butterworth languished in a jail,
 accused of piracy. Like many young men based in England or her colonies, he
@@ -24,8 +33,7 @@ vessels laden with gold, jewels, silk, and calico on pilgrimage toward Mecca.
 After achieving great success, many of these men sailed back into the
 Atlantic via Madagascar to the North American seaboard, where they quietly
 disembarked in Charleston, Philadelphia, New Jersey, New York City, Newport,
-and Boston, and made themselves at home.</p>
-</blockquote>
+and Boston, and made themselves at home.</p></blockquote>
 <p>More <a href="https://www.neh.gov/humanities/2017/winter/feature/lot-what-known-about-pirates-not-true-and-lot-what-true-not-known">here</a>.</p>
 ]]></content:encoded>
     </item>

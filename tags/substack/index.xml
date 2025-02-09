@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>substack on Nicola Iarocci</title>
+    <title>Substack on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/substack/</link>
-    <description>Recent content in substack on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Substack on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 19 Jan 2024 15:32:25 +0100</lastBuildDate>
@@ -14,8 +14,17 @@
       <link>https://nicolaiarocci.com/im-leaving-substack/</link>
       <pubDate>Fri, 19 Jan 2024 15:32:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/im-leaving-substack/</guid>
-      <description>If you are one of the few following me on Substack, I have news: I&amp;rsquo;m leaving Substack and moving to a different platform. I actually left a couple of weeks ago; my latest posts are not on Substack and you can find them on my website (the source of all my content), or you can subscribe to the new newsletter or the RSS feed like hackers do.
-If you&amp;rsquo;re an old-time Substack subscriber, you already know because I transferred all the active subscriptions to the new platform.</description>
+      <description>&lt;p&gt;If you are one of the few following me on Substack, I have news: I&amp;rsquo;m
+leaving Substack and moving to a &lt;a href=&#34;https://buttondown.email/refer/nicolaiarocci&#34;&gt;different
+platform&lt;/a&gt;. I actually left a
+couple of weeks ago; my latest posts are not on Substack and you can find them
+on &lt;a href=&#34;https://nicolaiarocci.com&#34;&gt;my website&lt;/a&gt; (the source of all my content), or
+you can subscribe to the &lt;a href=&#34;https://buttondown.email/nicolaiarocci&#34;&gt;new
+newsletter&lt;/a&gt; or the &lt;a href=&#34;https://nicolaiarocci.com/index.xml&#34;&gt;RSS
+feed&lt;/a&gt; like hackers do.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re an old-time Substack subscriber, you already know because I
+transferred all the active subscriptions to the new platform. I&amp;rsquo;m writing for
+the occasional passerby looking for fresh content.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>If you are one of the few following me on Substack, I have news: I&rsquo;m
 leaving Substack and moving to a <a href="https://buttondown.email/refer/nicolaiarocci">different
 platform</a>. I actually left a

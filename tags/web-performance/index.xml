@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>web-performance on Nicola Iarocci</title>
+    <title>Web-Performance on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/web-performance/</link>
-    <description>Recent content in web-performance on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Web-Performance on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 22 Mar 2023 07:05:25 +0100</lastBuildDate>
@@ -14,8 +14,10 @@
       <link>https://nicolaiarocci.com/web-performance-meetup-at-devromagna/</link>
       <pubDate>Wed, 22 Mar 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/web-performance-meetup-at-devromagna/</guid>
-      <description>I know this is coming in a bit late; apologies, but&amp;hellip; We&amp;rsquo;re doing a Web Performance meetup at DevRomagna today. Andrea &amp;lsquo;Verlok&amp;rsquo; Verlicchi, a Google Developer Expert specialing in web performance, will share his extensive experience in web performance and provide practical, high-impact, and easily applicable tips on improving performance in 2023.
-Info and signup here.</description>
+      <description>&lt;p&gt;I know this is coming in a bit late; apologies, but&amp;hellip; We&amp;rsquo;re doing a Web Performance meetup at &lt;a href=&#34;https://www.meetup.com/it-IT/devromagna/events/291862771/&#34;&gt;DevRomagna&lt;/a&gt; today. Andrea
+&amp;lsquo;Verlok&amp;rsquo; Verlicchi, a Google Developer Expert specialing in web performance, will share his extensive experience in web
+performance and provide practical, high-impact, and easily applicable tips on improving performance in 2023.&lt;/p&gt;
+&lt;p&gt;Info and signup &lt;a href=&#34;https://www.meetup.com/it-IT/devromagna/events/291862771/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I know this is coming in a bit late; apologies, but&hellip; We&rsquo;re doing a Web Performance meetup at <a href="https://www.meetup.com/it-IT/devromagna/events/291862771/">DevRomagna</a> today. Andrea
 &lsquo;Verlok&rsquo; Verlicchi, a Google Developer Expert specialing in web performance, will share his extensive experience in web
 performance and provide practical, high-impact, and easily applicable tips on improving performance in 2023.</p>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>mehldau on Nicola Iarocci</title>
+    <title>Mehldau on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/mehldau/</link>
-    <description>Recent content in mehldau on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Mehldau on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 06 Feb 2023 07:05:25 +0100</lastBuildDate>
@@ -14,13 +14,18 @@
       <link>https://nicolaiarocci.com/brad-mehldau-plays-i-am-the-walrus/</link>
       <pubDate>Mon, 06 Feb 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/brad-mehldau-plays-i-am-the-walrus/</guid>
-      <description>Brad Mehldau plays Lennon/McCartney&amp;rsquo;s I Am the Walrus, from his upcoming album, Your Mother Should Know: Brad Mehldau Plays the Beatles.</description>
+      <description>&lt;p&gt;Brad Mehldau plays Lennon/McCartney&amp;rsquo;&lt;em&gt;s I Am the Walrus&lt;/em&gt;, from his upcoming
+album, &lt;em&gt;Your Mother Should Know: Brad Mehldau Plays the Beatles&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/lGvl6IdBJiA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Brad Mehldau plays Lennon/McCartney&rsquo;<em>s I Am the Walrus</em>, from his upcoming
 album, <em>Your Mother Should Know: Brad Mehldau Plays the Beatles</em>.</p>
-<p>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/lGvl6IdBJiA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+<p><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/lGvl6IdBJiA?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
 <!-- raw HTML omitted --></p>
 ]]></content:encoded>

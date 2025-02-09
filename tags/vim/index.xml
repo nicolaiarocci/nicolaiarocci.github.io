@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>vim on Nicola Iarocci</title>
+    <title>Vim on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/vim/</link>
-    <description>Recent content in vim on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Vim on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 11 Aug 2023 08:55:35 +0200</lastBuildDate>
@@ -14,14 +14,16 @@
       <link>https://nicolaiarocci.com/the-legacy-of-bram-moolenaar/</link>
       <pubDate>Fri, 11 Aug 2023 08:55:35 +0200</pubDate>
       <guid>https://nicolaiarocci.com/the-legacy-of-bram-moolenaar/</guid>
-      <description>Quoting Jan van den Berg:
-This weekend we learned that Bram Moolenaar had passed away at the age of 62. And this news affected me more than I expected. Like so many: I did not know Bram personally. But I’ve been using a tool made by Bram for more than half my life — at least weekly, sometimes daily. That tool is a text editor. The best one there is: Vim.</description>
+      <description>&lt;p&gt;Quoting &lt;a href=&#34;https://j11g.com/2023/08/07/the-legacy-of-bram-moolenaar/&#34;&gt;Jan van den Berg&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This weekend we learned that Bram Moolenaar had passed away at the age of 62. And this news affected me more than I
+expected. Like so many: I did not know Bram personally. But I’ve been using a tool made by Bram for more than half my
+life — at least weekly, sometimes daily. That tool is a text editor. The best one there is: Vim.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Quoting <a href="https://j11g.com/2023/08/07/the-legacy-of-bram-moolenaar/">Jan van den Berg</a>:</p>
 <blockquote>
 <p>This weekend we learned that Bram Moolenaar had passed away at the age of 62. And this news affected me more than I
 expected. Like so many: I did not know Bram personally. But I’ve been using a tool made by Bram for more than half my
-life — at least weekly, sometimes daily. That tool is a text editor. The best one there is: Vim.</p>
-</blockquote>
+life — at least weekly, sometimes daily. That tool is a text editor. The best one there is: Vim.</p></blockquote>
 ]]></content:encoded>
     </item>
   </channel>

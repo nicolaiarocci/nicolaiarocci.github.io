@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>solar on Nicola Iarocci</title>
+    <title>Solar on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/solar/</link>
-    <description>Recent content in solar on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Solar on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 04 Sep 2024 10:09:29 +0200</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://nicolaiarocci.com/solar-will-get-unfathomably-cheap/</link>
       <pubDate>Wed, 04 Sep 2024 10:09:29 +0200</pubDate>
       <guid>https://nicolaiarocci.com/solar-will-get-unfathomably-cheap/</guid>
-      <description>At home, we haven’t done anything about it yet: we’re still 100% grid-dependant and old-fashioned, partly because it would be problematic for us as we live in an apartment building and partly because, frankly, it still seems expensive, especially with three kids studying away from home. Also, I want to avoid getting entangled in another project; my mental bandwidth is limited (and I suspect it will only worsen over time.)</description>
+      <description>&lt;p&gt;At home, we haven’t done anything about it yet: we’re still 100% grid-dependant and old-fashioned, partly because it would be problematic for us as we live in an apartment building and partly because, frankly, it still seems expensive, especially with three kids studying away from home. Also, I want to avoid getting entangled in another project; my mental bandwidth is limited (and I suspect it will only worsen over time.)&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>At home, we haven’t done anything about it yet: we’re still 100% grid-dependant and old-fashioned, partly because it would be problematic for us as we live in an apartment building and partly because, frankly, it still seems expensive, especially with three kids studying away from home. Also, I want to avoid getting entangled in another project; my mental bandwidth is limited (and I suspect it will only worsen over time.)</p>
 <p>But I follow the solar energy topic and stay up to speed, as I want to take action one day. Here are two articles I read just in the last couple of days. In many aspects, they are similar, and both draw very optimistic conclusions: solar will get unfathomably cheap.</p>
 <ul>
@@ -28,16 +28,15 @@
       <link>https://nicolaiarocci.com/the-exponential-growth-of-solar-power-will-change-the-world/</link>
       <pubDate>Fri, 21 Jun 2024 16:23:14 +0200</pubDate>
       <guid>https://nicolaiarocci.com/the-exponential-growth-of-solar-power-will-change-the-world/</guid>
-      <description>The latest issue of The Economist focuses on solar energy. The introductory article is short, compelling, and optimistic. On the economics, they make a good point:
-Consider solar economics. As the cumulative production of a manufactured good increases, costs go down. As costs go down, demand goes up. As demand goes up, production increases—and costs go down further. This cannot go on for ever; production, demand or both always become constrained.</description>
+      <description>&lt;p&gt;The latest issue of The Economist focuses on solar energy. The &lt;a href=&#34;https://archive.is/T48Iy&#34;&gt;introductory article&lt;/a&gt; is short, compelling, and optimistic. On the economics, they make a good point:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Consider solar economics. As the cumulative production of a manufactured good increases, costs go down. As costs go down, demand goes up. As demand goes up, production increases—and costs go down further. This cannot go on for ever; production, demand or both always become constrained. In earlier energy transitions—from wood to coal, coal to oil or oil to gas—the efficiency of extraction grew, but it was eventually offset by the cost of finding ever more fuel. Solar power faces no such constraint. The resources needed to produce solar cells and plant them on solar farms are silicon-rich sand, sunny places and human ingenuity, all three of which are abundant.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>The latest issue of The Economist focuses on solar energy. The <a href="https://archive.is/T48Iy">introductory article</a> is short, compelling, and optimistic. On the economics, they make a good point:</p>
 <blockquote>
-<p>Consider solar economics. As the cumulative production of a manufactured good increases, costs go down. As costs go down, demand goes up. As demand goes up, production increases—and costs go down further. This cannot go on for ever; production, demand or both always become constrained. In earlier energy transitions—from wood to coal, coal to oil or oil to gas—the efficiency of extraction grew, but it was eventually offset by the cost of finding ever more fuel. Solar power faces no such constraint. The resources needed to produce solar cells and plant them on solar farms are silicon-rich sand, sunny places and human ingenuity, all three of which are abundant.</p>
-</blockquote>
+<p>Consider solar economics. As the cumulative production of a manufactured good increases, costs go down. As costs go down, demand goes up. As demand goes up, production increases—and costs go down further. This cannot go on for ever; production, demand or both always become constrained. In earlier energy transitions—from wood to coal, coal to oil or oil to gas—the efficiency of extraction grew, but it was eventually offset by the cost of finding ever more fuel. Solar power faces no such constraint. The resources needed to produce solar cells and plant them on solar farms are silicon-rich sand, sunny places and human ingenuity, all three of which are abundant.</p></blockquote>
 <p>Even China&rsquo;s dominance in panel production, which remains a concern, does not prevent technology development and cost-cutting, at least not in the medium term.</p>
 <blockquote>
-<p>Another worry is that the vast majority of the world’s solar panels, and almost all the purified silicon from which they are made, come from China. Its solar industry is highly competitive, heavily subsidised and is outstripping current demand—quite an achievement given all the solar capacity China is installing within its own borders. This means that Chinese capacity is big enough to keep the expansion going for years to come, even if some of the companies involved go to the wall and some investment dries up.</p>
-</blockquote>
+<p>Another worry is that the vast majority of the world’s solar panels, and almost all the purified silicon from which they are made, come from China. Its solar industry is highly competitive, heavily subsidised and is outstripping current demand—quite an achievement given all the solar capacity China is installing within its own borders. This means that Chinese capacity is big enough to keep the expansion going for years to come, even if some of the companies involved go to the wall and some investment dries up.</p></blockquote>
 <p>They sustain that low-cost, clean solar energy is inevitable and will reshape society and the planet in ways we can&rsquo;t yet fathom. I sure hope things go in this direction.</p>
 ]]></content:encoded>
     </item>

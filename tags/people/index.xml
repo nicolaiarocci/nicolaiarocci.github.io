@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>people on Nicola Iarocci</title>
+    <title>People on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/people/</link>
-    <description>Recent content in people on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in People on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 22 Jan 2021 07:05:25 +0100</lastBuildDate>
@@ -14,8 +14,17 @@
       <link>https://nicolaiarocci.com/on-the-short-tormented-life-of-phil-katz/</link>
       <pubDate>Fri, 22 Jan 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-the-short-tormented-life-of-phil-katz/</guid>
-      <description>Bless the Internet Archive and its Wayback Machine. With it, we can go back in time and read The short, tormented life of computer genius Phil Katz, an unusually detailed and accurate article published in the April 14, 2000 issue of the Milwaukee Journal Sentinel.
-When he was found dead April 14, Phil Katz was slumped against a nightstand in a south side hotel, cradling an empty bottle of peppermint schnapps.</description>
+      <description>&lt;p&gt;Bless the Internet Archive and its Wayback Machine. With it, we can go back in
+time and read &lt;a href=&#34;https://web.archive.org/web/20000829071343/http://www2.jsonline.com/news/state/may00/katz21052000a.asp&#34;&gt;The short, tormented life of computer genius Phil
+Katz&lt;/a&gt;, an unusually detailed and accurate article published in the April 14,
+2000 issue of the Milwaukee Journal Sentinel.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When he was found dead April 14, Phil Katz was slumped against a nightstand
+in a south side hotel, cradling an empty bottle of peppermint schnapps. The
+genius who built a multimillion-dollar software company known worldwide for
+its pioneering &amp;ldquo;zip&amp;rdquo; files had died of acute pancreatic bleeding caused by
+chronic alcoholism. He was alone, estranged long ago from his family and
+a virtual stranger to employees of his own company, PKWare Inc. He was 37.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Bless the Internet Archive and its Wayback Machine. With it, we can go back in
 time and read <a href="https://web.archive.org/web/20000829071343/http://www2.jsonline.com/news/state/may00/katz21052000a.asp">The short, tormented life of computer genius Phil
 Katz</a>, an unusually detailed and accurate article published in the April 14,
@@ -26,8 +35,7 @@ in a south side hotel, cradling an empty bottle of peppermint schnapps. The
 genius who built a multimillion-dollar software company known worldwide for
 its pioneering &ldquo;zip&rdquo; files had died of acute pancreatic bleeding caused by
 chronic alcoholism. He was alone, estranged long ago from his family and
-a virtual stranger to employees of his own company, PKWare Inc. He was 37.</p>
-</blockquote>
+a virtual stranger to employees of his own company, PKWare Inc. He was 37.</p></blockquote>
 <p>In the late 80s, when the culmination of Katz&rsquo;s work on compression algorithms,
 PKZIP, emerged as the clear winner of the so-called &ldquo;compressors war,&rdquo; <a href="http://nicolaiarocci.com/a-trip-down-memory-lane-fidonet-and-usenet/">I was
 running my own little BBS</a>, Lorien, which later evolved into Phoenix BBS,

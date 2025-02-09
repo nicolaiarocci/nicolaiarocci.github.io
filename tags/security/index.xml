@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>security on Nicola Iarocci</title>
+    <title>Security on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/security/</link>
-    <description>Recent content in security on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Security on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Tue, 02 Apr 2024 15:30:03 +0200</lastBuildDate>
@@ -14,8 +14,18 @@
       <link>https://nicolaiarocci.com/timeline-of-the-xz-open-source-attack/</link>
       <pubDate>Tue, 02 Apr 2024 15:30:03 +0200</pubDate>
       <guid>https://nicolaiarocci.com/timeline-of-the-xz-open-source-attack/</guid>
-      <description>The so-called &amp;ldquo;XZ attack&amp;rdquo; is all over the internet these days, and for good reason.
-Over a period of over two years, an attacker using the name “Jia Tan” worked as a diligent, effective contributor to the xz compression library, eventually being granted commit access and maintainership. Using that access, they installed a very subtle, carefully hidden backdoor into liblzma, a part of xz that also happens to be a dependency of OpenSSH sshd on Debian, Ubuntu, Fedora, and other systemd-based Linux systems.</description>
+      <description>&lt;p&gt;The so-called &amp;ldquo;XZ attack&amp;rdquo; is all over the internet these days, and for good
+reason.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Over a period of over two years, an attacker using the name “Jia Tan” worked
+as a diligent, effective contributor to the xz compression library, eventually
+being granted commit access and maintainership. Using that access, they
+installed a very subtle, carefully hidden backdoor into liblzma, a part of xz
+that also happens to be a dependency of OpenSSH sshd on Debian, Ubuntu, Fedora,
+and other systemd-based Linux systems. That backdoor watches for the attacker
+sending hidden commands at the start of an SSH session, giving the attacker the
+ability to run an arbitrary command on the target system without logging in:
+unauthenticated, targeted remote code execution.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>The so-called &ldquo;XZ attack&rdquo; is all over the internet these days, and for good
 reason.</p>
 <blockquote>
@@ -27,8 +37,7 @@ that also happens to be a dependency of OpenSSH sshd on Debian, Ubuntu, Fedora,
 and other systemd-based Linux systems. That backdoor watches for the attacker
 sending hidden commands at the start of an SSH session, giving the attacker the
 ability to run an arbitrary command on the target system without logging in:
-unauthenticated, targeted remote code execution.</p>
-</blockquote>
+unauthenticated, targeted remote code execution.</p></blockquote>
 <p>As the excellent <a href="https://research.swtch.com/xz-timeline">timeline of the xz open-source
 attack</a> quoted above remarks,
 this will likely be remembered as the first known supply chain attack on widely

@@ -4,7 +4,7 @@
     <title>Dennis Ritchie on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/dennis-ritchie/</link>
     <description>Recent content in Dennis Ritchie on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 13 Oct 2011 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://nicolaiarocci.com/dennis-ritchie-se-ne-andato/</link>
       <pubDate>Thu, 13 Oct 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/dennis-ritchie-se-ne-andato/</guid>
-      <description>Decisamente questo non è un buon momento per le scienze dell’informazione. Dopo la recente scomparsa di Steve Jobs, ecco la notizia che lo scorso fine settimana anche Dennis Ritchie ci ha lasciato. Inventore e autore del Linguaggio C, Ritchie era anche uno dei padri fondatori del sistema operativo Unix. Poco conosciuto dal grande pubblico, non certo manager e tanto meno figura pubblica, Ritchie era uno scienziato di calibro assoluto la cui influenza nell’informatica tutta è semplicemente inestimabile.</description>
+      <description>&lt;p&gt;Decisamente questo non è un buon momento per le scienze dell’informazione. Dopo la recente scomparsa di Steve Jobs, ecco la notizia che lo scorso fine settimana anche &lt;!-- raw HTML omitted --&gt;Dennis Ritchie&lt;!-- raw HTML omitted --&gt; ci ha lasciato. Inventore e autore del Linguaggio C, Ritchie era anche uno dei padri fondatori del sistema operativo Unix. Poco conosciuto dal grande pubblico, non certo manager e tanto meno figura pubblica, Ritchie era uno scienziato di calibro assoluto la cui influenza nell’informatica tutta è semplicemente inestimabile.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Decisamente questo non è un buon momento per le scienze dell’informazione. Dopo la recente scomparsa di Steve Jobs, ecco la notizia che lo scorso fine settimana anche <!-- raw HTML omitted -->Dennis Ritchie<!-- raw HTML omitted --> ci ha lasciato. Inventore e autore del Linguaggio C, Ritchie era anche uno dei padri fondatori del sistema operativo Unix. Poco conosciuto dal grande pubblico, non certo manager e tanto meno figura pubblica, Ritchie era uno scienziato di calibro assoluto la cui influenza nell’informatica tutta è semplicemente inestimabile.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
@@ -23,8 +23,7 @@
 <!-- raw HTML omitted -->
 <p>Per me Dennis Ritchie è sempre stato, con pochissimi altri, un vero e proprio mito. Lo saluto con affetto e gratitudine prendendo a prestito le parole di <!-- raw HTML omitted -->James Grimmelmann<!-- raw HTML omitted -->:</p>
 <blockquote>
-<p>His pointer has been cast to void *; his process has terminated with exit code zero</p>
-</blockquote>
+<p>His pointer has been cast to void *; his process has terminated with exit code zero</p></blockquote>
 <p> </p>
 ]]></content:encoded>
     </item>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>rsync on Nicola Iarocci</title>
+    <title>Rsync on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/rsync/</link>
-    <description>Recent content in rsync on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Rsync on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 23 Aug 2023 07:05:25 +0100</lastBuildDate>
@@ -14,16 +14,17 @@
       <link>https://nicolaiarocci.com/rsync-with-a-different-user/</link>
       <pubDate>Wed, 23 Aug 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/rsync-with-a-different-user/</guid>
-      <description>Today I learned how to rsync with a user different than the one connected to the remote. Why would one want to do such a thing? The data I need to download from that server is owned by &amp;lsquo;backup,&amp;rsquo; a different, service-only user. I wanted to avoid going the change-permissions slippery route and allow my user direct access to the data.
-Looking at the rsync documentation, I learned about the nifty --rsync-path=PROGRAM option:</description>
+      <description>&lt;p&gt;Today I learned how to rsync with a user different than the one connected to the remote. Why would one want to do such a
+thing? The data I need to download from that server is owned by &amp;lsquo;backup,&amp;rsquo; a different, service-only user. I wanted to
+avoid going the change-permissions slippery route and allow my user direct access to the data.&lt;/p&gt;
+&lt;p&gt;Looking at the rsync documentation, I learned about the nifty &lt;code&gt;--rsync-path=PROGRAM&lt;/code&gt; &lt;a href=&#34;https://download.samba.org/pub/rsync/rsync.1#opt--rsync-path&#34;&gt;option&lt;/a&gt;:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I learned how to rsync with a user different than the one connected to the remote. Why would one want to do such a
 thing? The data I need to download from that server is owned by &lsquo;backup,&rsquo; a different, service-only user. I wanted to
 avoid going the change-permissions slippery route and allow my user direct access to the data.</p>
 <p>Looking at the rsync documentation, I learned about the nifty <code>--rsync-path=PROGRAM</code> <a href="https://download.samba.org/pub/rsync/rsync.1#opt--rsync-path">option</a>:</p>
 <blockquote>
 <p>Use this to specify what program is to be run on the remote machine to start-up rsync. Often used when rsync is not in
-the default remote-shell&rsquo;s path (e.g. &ndash;rsync-path=/usr/local/bin/rsync).</p>
-</blockquote>
+the default remote-shell&rsquo;s path (e.g. &ndash;rsync-path=/usr/local/bin/rsync).</p></blockquote>
 <p>The example caught my attention. I could perhaps leverage this option to perform a user switch before executing rsync
 (now performed on the remote machine). As further research confirmed, it <a href="https://unix.stackexchange.com/a/546296">can be done</a>:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>rsync --rsync-path &#39;sudo -u backup rsync&#39; -a --delete host:source destination

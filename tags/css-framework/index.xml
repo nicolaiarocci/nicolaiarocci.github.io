@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>css framework on Nicola Iarocci</title>
+    <title>Css Framework on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/css-framework/</link>
-    <description>Recent content in css framework on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Css Framework on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Sun, 21 Aug 2011 00:00:00 +0000</lastBuildDate>
@@ -14,13 +14,14 @@
       <link>https://nicolaiarocci.com/bootstrap-from-twitter-twitter-developers/</link>
       <pubDate>Sun, 21 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/bootstrap-from-twitter-twitter-developers/</guid>
-      <description>Twitter rilascia Bootstrap, il CSS Framework creato inizialmente per uso interno e ora disponibile al pubblico.
-It is a collection of CSS and HTML conventions. It uses some of the latest browser techniques to provide you with stylish typography, forms, buttons, tables, grids, navigation and everything else you need in a super tiny (only 6k with gzip) resource.
-A prima vista sembra molto ben fatto. Per tutte le informazioni e il download visitate la bella home page del progetto.</description>
+      <description>&lt;p&gt;Twitter rilascia Bootstrap, il CSS Framework creato inizialmente per uso interno e ora disponibile al pubblico.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It is a collection of CSS and HTML conventions. It uses some of the latest browser techniques to provide you with stylish typography, forms, buttons, tables, grids, navigation and everything else you need in a super tiny (only 6k with gzip) resource.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;A prima vista sembra molto ben fatto. Per tutte le informazioni e il download visitate la bella &lt;!-- raw HTML omitted --&gt;home page&lt;!-- raw HTML omitted --&gt; del progetto.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Twitter rilascia Bootstrap, il CSS Framework creato inizialmente per uso interno e ora disponibile al pubblico.</p>
 <blockquote>
-<p>It is a collection of CSS and HTML conventions. It uses some of the latest browser techniques to provide you with stylish typography, forms, buttons, tables, grids, navigation and everything else you need in a super tiny (only 6k with gzip) resource.</p>
-</blockquote>
+<p>It is a collection of CSS and HTML conventions. It uses some of the latest browser techniques to provide you with stylish typography, forms, buttons, tables, grids, navigation and everything else you need in a super tiny (only 6k with gzip) resource.</p></blockquote>
 <!-- raw HTML omitted -->
 <p>A prima vista sembra molto ben fatto. Per tutte le informazioni e il download visitate la bella <!-- raw HTML omitted -->home page<!-- raw HTML omitted --> del progetto.</p>
 <!-- raw HTML omitted -->
@@ -66,8 +67,7 @@ A prima vista sembra molto ben fatto. Per tutte le informazioni e il download vi
 <h2 id="il-grid-design-e-l8217era-dei-css-framework">Il Grid Design e l’era dei CSS Framework</h2>
 <p>L’avvento dei CSS Framework si deve (principalmente) alla necessità di soddisfare l’esigenza di fluidità. Il capostipite, se non in ordine cronologico senz’altro per l’influenza che ha avuto, è il <!-- raw HTML omitted -->960 Grid System<!-- raw HTML omitted -->. Altri prodotti famosi, per citarne solo un paio, sono <!-- raw HTML omitted -->Blueprint<!-- raw HTML omitted --> e <!-- raw HTML omitted -->Emastic<!-- raw HTML omitted -->. Questi framework hanno in comune l’obiettivo di velocizzare creazione, gestione e manutenzione dei fogli di stile ma se andiamo al nocciolo della questione ci accorgiamo che tutti si basano sul concetto chiave di <strong><!-- raw HTML omitted -->Grid Design<!-- raw HTML omitted --></strong>:</p>
 <blockquote>
-<p>Una griglia tipografica è una struttura bidimensionale composta da una serie di guide verticali e orizzontali intersecanti (matrice) usata per organizzare il contenuto della pagina. La griglia offre una traccia sulla quale il designer può organizzare testo e immagini in maniera ordinata e razionale (<!-- raw HTML omitted -->Wikipedia<!-- raw HTML omitted -->)</p>
-</blockquote>
+<p>Una griglia tipografica è una struttura bidimensionale composta da una serie di guide verticali e orizzontali intersecanti (matrice) usata per organizzare il contenuto della pagina. La griglia offre una traccia sulla quale il designer può organizzare testo e immagini in maniera ordinata e razionale (<!-- raw HTML omitted -->Wikipedia<!-- raw HTML omitted -->)</p></blockquote>
 <p>Niente di nuovo, i tipografi hanno usato questa tecnica per secoli. Il Grid Design in declinazione web è fluido: le colonne (e gli spazi tra le colonne) che compongono la matrice sono capaci di adattarsi alla risoluzione dell schermo.</p>
 <p>Gran parte dei CSS Framework non si limitano a implementare versioni più o meno sofisticate del Grid System ma offrono una serie di servizi aggiuntivi nel tentativo di risparmiare al designer i compiti più ripetitivi e tediosi. Non sempre ci riescono. Ogni sito ha esigenze specifiche e ogni designer abitudini consolidate. E’ difficile che una soluzione standard sia l’ideale per ogni esigenza. Spesso preferisco la via di mezzo: strumenti agili che consentono di portare a casa rapidamente il risultato senza aggiungere (molto) più del necessario.</p>
 <p>In questa mini-serie di tre articoli prenderò in esame tre diverse soluzioni che implementano il Grid Design e che ci permettono di implementare, con diversi gradi di complessità (e numero di funzionalità), pagine web fluide.</p>

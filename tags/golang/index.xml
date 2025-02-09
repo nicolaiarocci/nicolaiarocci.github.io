@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>golang on Nicola Iarocci</title>
+    <title>Golang on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/golang/</link>
-    <description>Recent content in golang on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Golang on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 08 Feb 2023 07:05:25 +0100</lastBuildDate>
@@ -14,8 +14,18 @@
       <link>https://nicolaiarocci.com/heading-to-go-a-look-at-building-a-video-encoder-meetup/</link>
       <pubDate>Wed, 08 Feb 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/heading-to-go-a-look-at-building-a-video-encoder-meetup/</guid>
-      <description>We&amp;rsquo;re doing a DevRomagna meetup this month, and I think it will be a super-interesting one. It&amp;rsquo;s titled Heading to Go: A Look at Building a Video Encoder and the presenter will be Daniel Enrico Botta, a C# software engineer who recently switched to Go for his video encoding projects. Here&amp;rsquo;s the abstract:
-This talk will discuss the experience of moving from C# to Go for a video coding project. The pros and cons of using Go, a modern and efficient programming language, and how it compares to other languages will be shown.</description>
+      <description>&lt;p&gt;We&amp;rsquo;re doing a &lt;a href=&#34;https://www.meetup.com/it-IT/devromagna/events/291027334/&#34;&gt;DevRomagna meetup&lt;/a&gt; this month, and I think it will be a
+super-interesting one. It&amp;rsquo;s titled &lt;em&gt;Heading to Go: A Look at Building a Video
+Encoder&lt;/em&gt; and the presenter will be Daniel Enrico Botta, a C# software engineer
+who recently switched to Go for his video encoding projects. Here&amp;rsquo;s the abstract:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This talk will discuss the experience of moving from C# to Go for a video
+coding project. The pros and cons of using Go, a modern and efficient
+programming language, and how it compares to other languages will be shown.
+In addition, the use of FFmpeg, an open-source tool for video encoding, and
+how it was used to create the video encoder will be discussed. Advice will be
+given on using Go and Ffmpeg for future projects. Together, the benefits of
+using these tools for video encoding will be understood.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>We&rsquo;re doing a <a href="https://www.meetup.com/it-IT/devromagna/events/291027334/">DevRomagna meetup</a> this month, and I think it will be a
 super-interesting one. It&rsquo;s titled <em>Heading to Go: A Look at Building a Video
 Encoder</em> and the presenter will be Daniel Enrico Botta, a C# software engineer
@@ -27,8 +37,7 @@ programming language, and how it compares to other languages will be shown.
 In addition, the use of FFmpeg, an open-source tool for video encoding, and
 how it was used to create the video encoder will be discussed. Advice will be
 given on using Go and Ffmpeg for future projects. Together, the benefits of
-using these tools for video encoding will be understood.</p>
-</blockquote>
+using these tools for video encoding will be understood.</p></blockquote>
 <p>Like me, Daniel has a C# background, so it will be interesting to see the whys
 and hows he picked Golang for his video encoding work. I&rsquo;m curious about his
 perspective on both languages and what he learned from adopting a new stack.

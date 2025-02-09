@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>jesuischarlie on Nicola Iarocci</title>
+    <title>Jesuischarlie on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/jesuischarlie/</link>
-    <description>Recent content in jesuischarlie on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Jesuischarlie on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 12 Jan 2015 00:00:00 +0000</lastBuildDate>
@@ -14,8 +14,22 @@
       <link>https://nicolaiarocci.com/how-to-add-a-je-suis-charlie-header-to-api-responses/</link>
       <pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/how-to-add-a-je-suis-charlie-header-to-api-responses/</guid>
-      <description>A lot of servers have been including a JeSuisCharlie header with their responses. If you haven’t already, try with Charlie Hebdo site itself:
-$ curl -I charliehebdo.fr Date: Mon, 12 Jan 2015 15:56:13 GMT Content-Type: text/html; charset=iso-8859-1 Content-Length: 221 Connection: keep-alive Location: http://www.charliehebdo.fr/index.html Vary: Accept-Encoding X-Charlie-fr: Je suis toujours Charlie. X-Charlie-en: I am still Charlie. X-Charlie-es: Todavia soy Charlie. X-Charlie-de: Ich bin immer Charlie. X-Charlie-ro: Inca sunt Charlie. X-Charlie-cz: Jsem stale Charlie.</description>
+      <description>&lt;p&gt;A lot of servers have been including a &lt;code&gt;JeSuisCharlie&lt;/code&gt; header with their responses. If you haven’t already, try with Charlie Hebdo site itself:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ curl -I charliehebdo.fr
+Date: Mon, 12 Jan 2015 15:56:13 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 221
+Connection: keep-alive
+Location: http://www.charliehebdo.fr/index.html
+Vary: Accept-Encoding
+X-Charlie-fr: Je suis toujours Charlie.
+X-Charlie-en: I am still Charlie.
+X-Charlie-es: Todavia soy Charlie.
+X-Charlie-de: Ich bin immer Charlie.
+X-Charlie-ro: Inca sunt Charlie.
+X-Charlie-cz: Jsem stale Charlie.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I find this to be a great way for us techies to somehow contribute and show support for the ongoing anti-terrorism campaign. So if you feel like doing it here is a quick rundown on how to serve custom headers with your Eve-powered REST API. It is actually a very easy task to accomplish.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>A lot of servers have been including a <code>JeSuisCharlie</code> header with their responses. If you haven’t already, try with Charlie Hebdo site itself:</p>
 <pre><code>$ curl -I charliehebdo.fr
 Date: Mon, 12 Jan 2015 15:56:13 GMT

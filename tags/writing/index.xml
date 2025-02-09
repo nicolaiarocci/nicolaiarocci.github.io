@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>writing on Nicola Iarocci</title>
+    <title>Writing on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/writing/</link>
-    <description>Recent content in writing on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Writing on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 10 Jul 2024 15:39:47 +0200</lastBuildDate>
@@ -14,11 +14,11 @@
       <link>https://nicolaiarocci.com/write-a-lot/</link>
       <pubDate>Wed, 10 Jul 2024 15:39:47 +0200</pubDate>
       <guid>https://nicolaiarocci.com/write-a-lot/</guid>
-      <description>Write a lot. This is alpha and omega of writing advice, the beginning and the end, and it&amp;rsquo;s that way for a reason– I don’t know anyone who’s good writing who hasn’t also put in serious hours.
-&amp;ndash; Nat Bennet</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Write a lot. This is alpha and omega of writing advice, the beginning and the end, and it&amp;rsquo;s that way for a reason– I don’t know anyone who’s good writing who hasn’t also put in serious hours.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&amp;ndash; &lt;a href=&#34;https://www.simplermachines.com/how-to-write/&#34;&gt;Nat Bennet&lt;/a&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>Write a lot. This is alpha and omega of writing advice, the beginning and the end, and it&rsquo;s that way for a reason– I don’t know anyone who’s good writing who hasn’t also put in serious hours.</p>
-</blockquote>
+<p>Write a lot. This is alpha and omega of writing advice, the beginning and the end, and it&rsquo;s that way for a reason– I don’t know anyone who’s good writing who hasn’t also put in serious hours.</p></blockquote>
 <p>&ndash; <a href="https://www.simplermachines.com/how-to-write/">Nat Bennet</a></p>
 ]]></content:encoded>
     </item>
@@ -27,15 +27,20 @@
       <link>https://nicolaiarocci.com/writing-is-magic/</link>
       <pubDate>Fri, 09 Dec 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/writing-is-magic/</guid>
-      <description>I find, more often than not, that I understand something much less well when I sit down to write about it than when I&amp;rsquo;m thinking about it in the shower. In fact, I find that I change my own mind on things a lot when I try write them down. It really is a powerful tool for finding clarity in your own mind. Once you have clarity in your own mind, you&amp;rsquo;re much more able to explain it to others.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;I find, more often than not, that I understand something much less well when
+I sit down to write about it than when I&amp;rsquo;m thinking about it in the shower.
+In fact, I find that I change my own mind on things a lot when I try write
+them down. It really is a powerful tool for finding clarity in your own mind.
+Once you have clarity in your own mind, you&amp;rsquo;re much more able to explain it
+to others.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
 <p>I find, more often than not, that I understand something much less well when
 I sit down to write about it than when I&rsquo;m thinking about it in the shower.
 In fact, I find that I change my own mind on things a lot when I try write
 them down. It really is a powerful tool for finding clarity in your own mind.
 Once you have clarity in your own mind, you&rsquo;re much more able to explain it
-to others.</p>
-</blockquote>
+to others.</p></blockquote>
 <p>More <a href="https://brooker.co.za/blog/2022/11/08/writing.html">here</a>.</p>
 ]]></content:encoded>
     </item>
@@ -44,8 +49,16 @@ to others.</p>
       <link>https://nicolaiarocci.com/on-programming-and-writing/</link>
       <pubDate>Tue, 25 May 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-programming-and-writing/</guid>
-      <description>My brilliant friend Salvatore Sanfilippo (otherwise known as antirez of Redis fame) has an interesting write-up on his website. How similar is programming to prose writing? After getting his own feet wet with novel writing, he is convinced that the two activities share many common traits.
-One year ago I paused my programming life and started writing a novel, with the illusion that my new activity was deeply different than the previous one.</description>
+      <description>&lt;p&gt;My brilliant friend Salvatore Sanfilippo (otherwise known as antirez of Redis
+fame) has an interesting write-up on &lt;a href=&#34;http://antirez.com/news/135&#34;&gt;his website&lt;/a&gt;. How similar is
+programming to prose writing? After getting his own feet wet with novel
+writing, he is convinced that the two activities share many common traits.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;One year ago I paused my programming life and started writing a novel, with
+the illusion that my new activity was deeply different than the previous one.
+A river of words later, written but more often rewritten, I’m pretty sure of
+the contrary: programming big systems and writing novels have many common
+traits and similar processes.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>My brilliant friend Salvatore Sanfilippo (otherwise known as antirez of Redis
 fame) has an interesting write-up on <a href="http://antirez.com/news/135">his website</a>. How similar is
 programming to prose writing? After getting his own feet wet with novel
@@ -55,8 +68,7 @@ writing, he is convinced that the two activities share many common traits.</p>
 the illusion that my new activity was deeply different than the previous one.
 A river of words later, written but more often rewritten, I’m pretty sure of
 the contrary: programming big systems and writing novels have many common
-traits and similar processes.</p>
-</blockquote>
+traits and similar processes.</p></blockquote>
 <p>It is a worthy read. I especially appreciate his conclusions on what
 programming can actually learn from writing:</p>
 <blockquote>
@@ -69,8 +81,7 @@ hypothesis is that this initial design will greatly inform what will happen
 later: growing organically something that has a good initial structure will
 result in a better system, even after years of distance from the original
 creation, and even if the original core was just a tiny faction of the future
-mass the system would eventually assume.</p>
-</blockquote>
+mass the system would eventually assume.</p></blockquote>
 <p>I suspect that his line of reasoning might be influenced by some sort
 of confirmation bias<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.  We are inclined to notice similarities between our
 own activities, especially so when we perform them passionately. While common

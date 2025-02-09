@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>netstandard on Nicola Iarocci</title>
+    <title>Netstandard on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/netstandard/</link>
-    <description>Recent content in netstandard on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Netstandard on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 10 May 2017 09:47:05 +0200</lastBuildDate>
@@ -14,7 +14,15 @@
       <link>https://nicolaiarocci.com/how-to-convert-a-pcl-portable-project-to-netstandard/</link>
       <pubDate>Wed, 10 May 2017 09:47:05 +0200</pubDate>
       <guid>https://nicolaiarocci.com/how-to-convert-a-pcl-portable-project-to-netstandard/</guid>
-      <description>I have been upgrading a few projects from their original PCL profiles (now deemed obsolete) to the Net Standard platform specification. It turned out to be a relatively straightforward process, but it does have its small hurdles, especially so if in the meantime you also want to transition to the new, streamlined, .csproj format as the migration will leave you with a now obsolete project.json project. In this article, I will cover upgrading a project from Portable Class Library to NetStandard.</description>
+      <description>&lt;p&gt;I have been upgrading a few projects from their original PCL profiles (now
+deemed obsolete) to the &lt;a href=&#34;https://docs.microsoft.com/it-it/dotnet/articles/standard/library&#34;&gt;Net Standard&lt;/a&gt; platform specification. It turned out
+to be a relatively straightforward process, but it does have its small hurdles,
+especially so if in the meantime you also want to transition to the new,
+streamlined, &lt;code&gt;.csproj&lt;/code&gt; format as the migration will leave you with a now
+obsolete &lt;code&gt;project.json&lt;/code&gt; project. In this article, I will cover upgrading
+a project from Portable Class Library to NetStandard. In a follow-up post,
+I plan to write about the switch from &lt;code&gt;project.json&lt;/code&gt; to the new &lt;code&gt;.csproj&lt;/code&gt;
+format.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I have been upgrading a few projects from their original PCL profiles (now
 deemed obsolete) to the <a href="https://docs.microsoft.com/it-it/dotnet/articles/standard/library">Net Standard</a> platform specification. It turned out
 to be a relatively straightforward process, but it does have its small hurdles,
@@ -32,8 +40,7 @@ NetStandard.</p>
 you are on an older VS version, you should upgrade. For many valid reasons
 indeed, among them the fact that Visual Studio 2017 comes with a built-in
 option to switch a project to NetStandard.</p>
-<p><img loading="lazy" src="/images/netstandard1.png" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/netstandard1.png"></p>
 <p>As you can see, before the upgrade Eve.NET was a Profile259 PCL project. As
 metioned, Visual Studio offers the option to switch to the .NET Platform
 Standard. By clicking the link, you get a fair warning that <em>you might not be
@@ -50,8 +57,7 @@ number. We already went from 1.0 to 1.6, with 2.0 currently being developed.
 <a href="https://raw.githubusercontent.com/dotnet/standard/master/docs/versions/netstandard2.0_diff.md">impressive diff</a> between 1.6 and 2.0. A <em>lot</em> of open source projects are
 eagerly waiting on NetStandard 2 release (Q3 2017).</p>
 <p>Upon confirming the switch, you might get the following show-stopper (I did):</p>
-<p><img loading="lazy" src="/images/netstandard2.png" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/netstandard2.png"></p>
 <p>This dialog will pop up if your project never has opted-in for NuGet 3.0. If
 this is the case, you have to go back, uninstall all NuGet packages, then
 attempt the switch again. When the migration is complete, you will have to

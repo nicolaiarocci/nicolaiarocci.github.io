@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>caching on Nicola Iarocci</title>
+    <title>Caching on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/caching/</link>
-    <description>Recent content in caching on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Caching on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 03 May 2013 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://nicolaiarocci.com/guida-introduttiva-agli-http-cache-header/</link>
       <pubDate>Fri, 03 May 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/guida-introduttiva-agli-http-cache-header/</guid>
-      <description>Cosa sono i gli HTTP Cache Header e come funzionano? Che uso ne fanno i browser e le CDN? Come è preferibile impostarli per ottimizzare le prestazioni di un sito o di un servizio web? Se volete saperne di più A Beginner’s Guide to HTTP Cache Headers fa senz’altro per voi.</description>
+      <description>&lt;p&gt;Cosa sono i gli HTTP Cache Header e come funzionano? Che uso ne fanno i browser e le CDN? Come è preferibile impostarli per ottimizzare le prestazioni di un sito o di un servizio web? Se volete saperne di più &lt;!-- raw HTML omitted --&gt;A Beginner’s Guide to HTTP Cache Headers&lt;!-- raw HTML omitted --&gt; fa senz’altro per voi.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Cosa sono i gli HTTP Cache Header e come funzionano? Che uso ne fanno i browser e le CDN? Come è preferibile impostarli per ottimizzare le prestazioni di un sito o di un servizio web? Se volete saperne di più <!-- raw HTML omitted -->A Beginner’s Guide to HTTP Cache Headers<!-- raw HTML omitted --> fa senz’altro per voi.</p>
 ]]></content:encoded>
     </item>

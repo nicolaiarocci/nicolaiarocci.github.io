@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>cloud on Nicola Iarocci</title>
+    <title>Cloud on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/cloud/</link>
-    <description>Recent content in cloud on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Cloud on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 19 Mar 2012 00:00:00 +0000</lastBuildDate>
@@ -14,11 +14,11 @@
       <link>https://nicolaiarocci.com/amazon-ec2-quanto-si-risparmia-con-le-reserved-instances-rispetto-alle-classiche-on-demand/</link>
       <pubDate>Mon, 19 Mar 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/amazon-ec2-quanto-si-risparmia-con-le-reserved-instances-rispetto-alle-classiche-on-demand/</guid>
-      <description>Amazon offre sconti significativi per chi sceglie le istanze riservate al posto di quelle on-demand. Dal punto di vista finanziario, e se avete intenzione di usare EC2 per almeno un anno, passare dalle istanze on-demand a quelle riservate potrebbe aver senso. Sborserete una cifra più alta inizialmente, ma il costo mensile si ridurrà sensibilmente.
-Per quanto io ne sappia il tool sviluppato da Mike Khristo è il primo che consente di confrontare direttamente, senza tanti giri di parole, il costo delle due soluzioni:</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Amazon offre sconti significativi per chi sceglie le istanze riservate al posto di quelle on-demand. Dal punto di vista finanziario, e se avete intenzione di usare EC2 per almeno un anno, passare dalle istanze on-demand a quelle riservate potrebbe aver senso. Sborserete una cifra più alta inizialmente, ma il costo mensile si ridurrà sensibilmente.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Per quanto io ne sappia il tool sviluppato da Mike Khristo è il primo che consente di confrontare direttamente, senza tanti giri di parole, il costo delle due soluzioni:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>Amazon offre sconti significativi per chi sceglie le istanze riservate al posto di quelle on-demand. Dal punto di vista finanziario, e se avete intenzione di usare EC2 per almeno un anno, passare dalle istanze on-demand a quelle riservate potrebbe aver senso. Sborserete una cifra più alta inizialmente, ma il costo mensile si ridurrà sensibilmente.</p>
-</blockquote>
+<p>Amazon offre sconti significativi per chi sceglie le istanze riservate al posto di quelle on-demand. Dal punto di vista finanziario, e se avete intenzione di usare EC2 per almeno un anno, passare dalle istanze on-demand a quelle riservate potrebbe aver senso. Sborserete una cifra più alta inizialmente, ma il costo mensile si ridurrà sensibilmente.</p></blockquote>
 <p>Per quanto io ne sappia il tool sviluppato da Mike Khristo è il primo che consente di confrontare direttamente, senza tanti giri di parole, il costo delle due soluzioni:</p>
 <!-- raw HTML omitted -->
 ]]></content:encoded>
@@ -28,12 +28,12 @@ Per quanto io ne sappia il tool sviluppato da Mike Khristo è il primo che conse
       <link>https://nicolaiarocci.com/sql-server-e-il-cloud-di-amazon-ec2-vantaggi-e-svantaggi/</link>
       <pubDate>Wed, 14 Sep 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/sql-server-e-il-cloud-di-amazon-ec2-vantaggi-e-svantaggi/</guid>
-      <description>Se state considerando l’opzione Cloud per il vostro SQL Server non lasciatevi sfuggire l’ultimo articolo di Jeremiah Peschka, Configuring SQL Server in Amazon EC2. A dispetto del titolo non si tratta di un tutorial, ma di una analisi accurata di vantaggi e svantaggi legati al deploy di un database SQL nel Cloud, a prescindere dalla piattaforma adottata.
-Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità. Nel cloud, anche la cacca profuma di rose.</description>
+      <description>&lt;p&gt;Se state considerando l’opzione Cloud per il vostro SQL Server non lasciatevi sfuggire l’ultimo articolo di Jeremiah Peschka, &lt;!-- raw HTML omitted --&gt;Configuring SQL Server in Amazon EC2&lt;!-- raw HTML omitted --&gt;. A dispetto del titolo non si tratta di un tutorial, ma di una analisi accurata di vantaggi e svantaggi legati al &lt;em&gt;deploy&lt;/em&gt; di un database SQL nel Cloud, a prescindere dalla piattaforma adottata.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità. Nel cloud, anche la cacca profuma di rose. In teoria queste affermazioni sono corrette, ma occorre darci dentro per trasformarle in realtà. Specialmente quando c’è un database nel mezzo.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Se state considerando l’opzione Cloud per il vostro SQL Server non lasciatevi sfuggire l’ultimo articolo di Jeremiah Peschka, <!-- raw HTML omitted -->Configuring SQL Server in Amazon EC2<!-- raw HTML omitted -->. A dispetto del titolo non si tratta di un tutorial, ma di una analisi accurata di vantaggi e svantaggi legati al <em>deploy</em> di un database SQL nel Cloud, a prescindere dalla piattaforma adottata.</p>
 <blockquote>
-<p>Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità. Nel cloud, anche la cacca profuma di rose. In teoria queste affermazioni sono corrette, ma occorre darci dentro per trasformarle in realtà. Specialmente quando c’è un database nel mezzo.</p>
-</blockquote>
+<p>Il cloud è robusto e affidabile. Il cloud risolve ogni problema di scalabilità. Nel cloud, anche la cacca profuma di rose. In teoria queste affermazioni sono corrette, ma occorre darci dentro per trasformarle in realtà. Specialmente quando c’è un database nel mezzo.</p></blockquote>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 ]]></content:encoded>

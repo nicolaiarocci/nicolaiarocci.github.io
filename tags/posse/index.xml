@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>posse on Nicola Iarocci</title>
+    <title>Posse on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/posse/</link>
-    <description>Recent content in posse on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Posse on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Tue, 02 Jan 2024 12:07:53 +0100</lastBuildDate>
@@ -14,11 +14,11 @@
       <link>https://nicolaiarocci.com/quoting-christine-lemmer-webber/</link>
       <pubDate>Tue, 02 Jan 2024 12:07:53 +0100</pubDate>
       <guid>https://nicolaiarocci.com/quoting-christine-lemmer-webber/</guid>
-      <description>Bring back self-hosted blogs, reinstall a feed reader, make your feed icon prominent on your blog. Blogs + Atom/RSS is the best decentralized social media system we&amp;rsquo;ve ever had! And yes I am saying that as co-author of ActivityPub: self hosted blogs is the best decentralized social networking we&amp;rsquo;ve had.
-&amp;ndash; Christine Lemmer-Webber</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Bring back self-hosted blogs, reinstall a feed reader, make your feed icon prominent on your blog.  Blogs + Atom/RSS is the best decentralized social media system we&amp;rsquo;ve ever had!  And yes I am saying that as co-author of ActivityPub: self hosted blogs is the best decentralized social networking we&amp;rsquo;ve had.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&amp;ndash; &lt;a href=&#34;https://octodon.social/@cwebber/111647596861000656&#34;&gt;Christine Lemmer-Webber&lt;/a&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>Bring back self-hosted blogs, reinstall a feed reader, make your feed icon prominent on your blog.  Blogs + Atom/RSS is the best decentralized social media system we&rsquo;ve ever had!  And yes I am saying that as co-author of ActivityPub: self hosted blogs is the best decentralized social networking we&rsquo;ve had.</p>
-</blockquote>
+<p>Bring back self-hosted blogs, reinstall a feed reader, make your feed icon prominent on your blog.  Blogs + Atom/RSS is the best decentralized social media system we&rsquo;ve ever had!  And yes I am saying that as co-author of ActivityPub: self hosted blogs is the best decentralized social networking we&rsquo;ve had.</p></blockquote>
 <p>&ndash; <a href="https://octodon.social/@cwebber/111647596861000656">Christine Lemmer-Webber</a></p>
 ]]></content:encoded>
     </item>

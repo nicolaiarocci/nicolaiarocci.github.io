@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>nginx on Nicola Iarocci</title>
+    <title>Nginx on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/nginx/</link>
-    <description>Recent content in nginx on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Nginx on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 12 Sep 2024 16:17:58 +0200</lastBuildDate>
@@ -36,8 +36,14 @@
       <link>https://nicolaiarocci.com/an-nginx-playground/</link>
       <pubDate>Mon, 27 Sep 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/an-nginx-playground/</guid>
-      <description>Every single time I need nginx, I end up spending way too much time fiddling around with its configuration. If you&amp;rsquo;re like me, rejoice! Julia Evans built a lovely, helpful little tool called nginx playground.
-Hello! On Wednesday I was talking to a friend about how it would be cool to have an nginx playground website where you can just paste in an nginx config and test it out. And then I realized it might actually be pretty easy to build, so got excited and started coding and I built it.</description>
+      <description>&lt;p&gt;Every single time I need nginx, I end up spending way too much time fiddling
+around with its configuration. If you&amp;rsquo;re like me, rejoice! Julia Evans built
+a lovely, helpful little tool called nginx playground.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hello! On Wednesday I was talking to a friend about how it would be cool to
+have an nginx playground website where you can just paste in an nginx config
+and test it out. And then I realized it might actually be pretty easy to
+build, so got excited and started coding and I built it.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Every single time I need nginx, I end up spending way too much time fiddling
 around with its configuration. If you&rsquo;re like me, rejoice! Julia Evans built
 a lovely, helpful little tool called nginx playground.</p>
@@ -45,8 +51,7 @@ a lovely, helpful little tool called nginx playground.</p>
 <p>Hello! On Wednesday I was talking to a friend about how it would be cool to
 have an nginx playground website where you can just paste in an nginx config
 and test it out. And then I realized it might actually be pretty easy to
-build, so got excited and started coding and I built it.</p>
-</blockquote>
+build, so got excited and started coding and I built it.</p></blockquote>
 <p>The playground is available <a href="https://nginx-playground.wizardzines.com/">here</a>. Make sure you also read <a href="https://jvns.ca/blog/2021/09/24/new-tool--an-nginx-playground/">Julia&rsquo;s
 introduction</a> to the tool. In there, she recounts why and, more importantly,
 how she built it.</p>

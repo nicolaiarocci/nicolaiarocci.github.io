@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>excuses on Nicola Iarocci</title>
+    <title>Excuses on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/excuses/</link>
-    <description>Recent content in excuses on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Excuses on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Tue, 30 Jul 2013 00:00:00 +0000</lastBuildDate>
@@ -14,23 +14,23 @@
       <link>https://nicolaiarocci.com/excuses-for-lazy-coders/</link>
       <pubDate>Tue, 30 Jul 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/excuses-for-lazy-coders/</guid>
-      <description>Did you check for a virus on your system?
-You must have the wrong version.
-It’s a third party application issue.
-That code was written by the last guy.
-Programming Excuses. We’ve all been there.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Did you check for a virus on your system?&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You must have the wrong version.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It’s a third party application issue.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;That code was written by the last guy.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Programming Excuses&lt;!-- raw HTML omitted --&gt;. We’ve all been there.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>Did you check for a virus on your system?</p>
-</blockquote>
+<p>Did you check for a virus on your system?</p></blockquote>
 <blockquote>
-<p>You must have the wrong version.</p>
-</blockquote>
+<p>You must have the wrong version.</p></blockquote>
 <blockquote>
-<p>It’s a third party application issue.</p>
-</blockquote>
+<p>It’s a third party application issue.</p></blockquote>
 <blockquote>
-<p>That code was written by the last guy.</p>
-</blockquote>
+<p>That code was written by the last guy.</p></blockquote>
 <p><!-- raw HTML omitted -->Programming Excuses<!-- raw HTML omitted -->. We’ve all been there.</p>
 ]]></content:encoded>
     </item>

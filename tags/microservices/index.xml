@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>microservices on Nicola Iarocci</title>
+    <title>Microservices on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/microservices/</link>
-    <description>Recent content in microservices on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Microservices on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 04 Jun 2015 00:00:00 +0000</lastBuildDate>
@@ -14,17 +14,15 @@
       <link>https://nicolaiarocci.com/monolith-vs-microservices/</link>
       <pubDate>Thu, 04 Jun 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/monolith-vs-microservices/</guid>
-      <description>I spent the last couple days in Paris with a bunch of smart architects and developers who are about to deal with a complex Monolithic-to-Microservices architecture transition.
-On my flight back to Italy I jotted down a few thoughts on the topic and then, this morning, the first thing that comes up on my newsfeed is Monolith First by Martin Fowler. Stunning, because the essay content totally resonates with my own notes, so much that it would perfectly serve as a recap for them.</description>
+      <description>&lt;p&gt;I spent the last couple days in Paris with a bunch of smart architects and developers who are about to deal with a complex Monolithic-to-Microservices architecture transition.&lt;/p&gt;
+&lt;p&gt;On my flight back to Italy I jotted down a few thoughts on the topic and then, this morning, the first thing that comes up on my newsfeed is &lt;a href=&#34;http://martinfowler.com/bliki/MonolithFirst.html&#34;&gt;Monolith First&lt;/a&gt; by Martin Fowler. Stunning, because the essay content totally resonates with my own notes, so much that it would perfectly serve as a recap for them.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I spent the last couple days in Paris with a bunch of smart architects and developers who are about to deal with a complex Monolithic-to-Microservices architecture transition.</p>
 <p>On my flight back to Italy I jotted down a few thoughts on the topic and then, this morning, the first thing that comes up on my newsfeed is <a href="http://martinfowler.com/bliki/MonolithFirst.html">Monolith First</a> by Martin Fowler. Stunning, because the essay content totally resonates with my own notes, so much that it would perfectly serve as a recap for them.</p>
 <blockquote>
-<p>Going directly to a microservices architecture is risky, so consider building a monolithic system first. Split to microservices when, and if, you need it.</p>
-</blockquote>
+<p>Going directly to a microservices architecture is risky, so consider building a monolithic system first. Split to microservices when, and if, you need it.</p></blockquote>
 <p>And also, perhaps more importantly:</p>
 <blockquote>
-<p>A more common approach is to start with a monolith and gradually peel off microservices at the edges. Such an approach can leave a substantial monolith at the heart of the microservices architecture, but with most new development occurring in the microservices while the monolith is relatively quiescent.</p>
-</blockquote>
+<p>A more common approach is to start with a monolith and gradually peel off microservices at the edges. Such an approach can leave a substantial monolith at the heart of the microservices architecture, but with most new development occurring in the microservices while the monolith is relatively quiescent.</p></blockquote>
 <p>I find it fascinating that there is a chance that my notes and the essay were written (by astral coincidence?) in the very same minutes.</p>
 ]]></content:encoded>
     </item>
@@ -33,12 +31,12 @@ On my flight back to Italy I jotted down a few thoughts on the topic and then, t
       <link>https://nicolaiarocci.com/microservices-matter/</link>
       <pubDate>Wed, 21 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/microservices-matter/</guid>
-      <description>In spite of being a marketing spin and link bait, Heroku article on microservices does a pretty good job at explaining why microservices matter and, at a very high level, what challenges they pose.
-However, microservices aren’t a silver bullet, and they won’t make a sluggish IT organization fast. While individual services become more robust and less complex, the overall system takes on the many challenges of distributed systems at the network level.</description>
+      <description>&lt;p&gt;In spite of being a marketing spin and link bait, Heroku &lt;a href=&#34;https://blog.heroku.com/archives/2015/1/20/why_microservices_matter&#34;&gt;article on microservices&lt;/a&gt; does a pretty good job at explaining why microservices matter and, at a very high level, what challenges they pose.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;However, microservices aren’t a silver bullet, and they won’t make a sluggish IT organization fast. While individual services become more robust and less complex, the overall system takes on the many challenges of distributed systems at the network level. Despite their challenges, they’re here to stay because they map better than anything else to the software landscape of the future: parallel development, platform-as-a-service deployment, and ubiquitous use.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>In spite of being a marketing spin and link bait, Heroku <a href="https://blog.heroku.com/archives/2015/1/20/why_microservices_matter">article on microservices</a> does a pretty good job at explaining why microservices matter and, at a very high level, what challenges they pose.</p>
 <blockquote>
-<p>However, microservices aren’t a silver bullet, and they won’t make a sluggish IT organization fast. While individual services become more robust and less complex, the overall system takes on the many challenges of distributed systems at the network level. Despite their challenges, they’re here to stay because they map better than anything else to the software landscape of the future: parallel development, platform-as-a-service deployment, and ubiquitous use.</p>
-</blockquote>
+<p>However, microservices aren’t a silver bullet, and they won’t make a sluggish IT organization fast. While individual services become more robust and less complex, the overall system takes on the many challenges of distributed systems at the network level. Despite their challenges, they’re here to stay because they map better than anything else to the software landscape of the future: parallel development, platform-as-a-service deployment, and ubiquitous use.</p></blockquote>
 ]]></content:encoded>
     </item>
   </channel>

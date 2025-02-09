@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>python tools per visual studio on Nicola Iarocci</title>
+    <title>Python Tools per Visual Studio on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/python-tools-per-visual-studio/</link>
-    <description>Recent content in python tools per visual studio on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Python Tools per Visual Studio on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 01 Nov 2012 00:00:00 +0000</lastBuildDate>
@@ -14,13 +14,13 @@
       <link>https://nicolaiarocci.com/python-tools-per-visual-studio-1-5/</link>
       <pubDate>Thu, 01 Nov 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/python-tools-per-visual-studio-1-5/</guid>
-      <description>Seguo il progetto Python Tools per Visual Studio da molto tempo.
-Python Tools per Visual Studio è un plugin gratuito e open source che trasforma Visual Studio in una IDE per Python. Supporta CPython, IronPython, Intellisense, Debugging, Profiling, Editing, Browsing, REPL Multipli, IPython, Django e Cloud Computing con librerie client per Windows, Linux e OS X (Azure).
-La versione 1.5, rilasciata oggi, aggiunge supporto per Django, Azure, REPL debugging, Visual Studio 2012 e altro.</description>
+      <description>&lt;p&gt;Seguo il progetto Python Tools per Visual Studio da &lt;a href=&#34;http://nicolaiarocci.com/?s=python+tools+visual+studio&amp;amp;submit=Search&#34; title=&#34;Python Tools per Visual Studio&#34;&gt;molto tempo&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Python Tools per Visual Studio è un plugin gratuito e open source che trasforma Visual Studio in una IDE per Python. Supporta CPython, IronPython, Intellisense, Debugging, Profiling, Editing, Browsing, REPL Multipli, IPython, Django e Cloud Computing con librerie client per Windows, Linux e OS X (Azure).&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;La &lt;!-- raw HTML omitted --&gt;versione 1.5&lt;!-- raw HTML omitted --&gt;, rilasciata oggi, aggiunge supporto per Django, Azure, REPL debugging, Visual Studio 2012 e altro.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Seguo il progetto Python Tools per Visual Studio da <a href="http://nicolaiarocci.com/?s=python+tools+visual+studio&amp;submit=Search" title="Python Tools per Visual Studio">molto tempo</a>.</p>
 <blockquote>
-<p>Python Tools per Visual Studio è un plugin gratuito e open source che trasforma Visual Studio in una IDE per Python. Supporta CPython, IronPython, Intellisense, Debugging, Profiling, Editing, Browsing, REPL Multipli, IPython, Django e Cloud Computing con librerie client per Windows, Linux e OS X (Azure).</p>
-</blockquote>
+<p>Python Tools per Visual Studio è un plugin gratuito e open source che trasforma Visual Studio in una IDE per Python. Supporta CPython, IronPython, Intellisense, Debugging, Profiling, Editing, Browsing, REPL Multipli, IPython, Django e Cloud Computing con librerie client per Windows, Linux e OS X (Azure).</p></blockquote>
 <p>La <!-- raw HTML omitted -->versione 1.5<!-- raw HTML omitted -->, rilasciata oggi, aggiunge supporto per Django, Azure, REPL debugging, Visual Studio 2012 e altro.</p>
 ]]></content:encoded>
     </item>
@@ -29,8 +29,7 @@ La versione 1.5, rilasciata oggi, aggiunge supporto per Django, Azure, REPL debu
       <link>https://nicolaiarocci.com/python-tools-per-visual-studio-per-accedere-a-kinect-sdk-ed-excel-via-python/</link>
       <pubDate>Fri, 04 Nov 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/python-tools-per-visual-studio-per-accedere-a-kinect-sdk-ed-excel-via-python/</guid>
-      <description>E’ uscita ieri la versione 1.1 Alpha dei Python Tools per Visual Studio, il plug-in open source per programmare in Python con Visual Studio 2010. Migliorie e molte nuove features per la IDE ma la novità più interessante sono senz’altro PyKinect e Pyvot, due librerie che consentono rispettivamente di lavorare col Kinect SDK e di interagire con Excel via Python.
-Per informazioni su Python Tools per Visual Studio date una occhiata a Programmare in Python con Visual Studio 2010 e Python Studio per Visual Studio 1.</description>
+      <description>&lt;p&gt;E’ uscita ieri la &lt;!-- raw HTML omitted --&gt;versione 1.1 Alpha&lt;!-- raw HTML omitted --&gt; dei Python Tools per Visual Studio, il plug-in open source per programmare in Python con Visual Studio 2010. Migliorie e molte nuove features per la IDE ma la novità più interessante sono senz’altro &lt;!-- raw HTML omitted --&gt;PyKinect&lt;!-- raw HTML omitted --&gt; e &lt;!-- raw HTML omitted --&gt;Pyvot&lt;!-- raw HTML omitted --&gt;, due librerie che consentono rispettivamente di lavorare col Kinect SDK e di interagire con Excel via Python.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>E’ uscita ieri la <!-- raw HTML omitted -->versione 1.1 Alpha<!-- raw HTML omitted --> dei Python Tools per Visual Studio, il plug-in open source per programmare in Python con Visual Studio 2010. Migliorie e molte nuove features per la IDE ma la novità più interessante sono senz’altro <!-- raw HTML omitted -->PyKinect<!-- raw HTML omitted --> e <!-- raw HTML omitted -->Pyvot<!-- raw HTML omitted -->, due librerie che consentono rispettivamente di lavorare col Kinect SDK e di interagire con Excel via Python.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->

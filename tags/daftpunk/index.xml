@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>daftpunk on Nicola Iarocci</title>
+    <title>Daftpunk on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/daftpunk/</link>
-    <description>Recent content in daftpunk on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Daftpunk on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 08 Sep 2021 07:05:25 +0100</lastBuildDate>
@@ -14,8 +14,16 @@
       <link>https://nicolaiarocci.com/daft-punks-legendary-alive-2007-concert-with-remastered-audio-and-4k-video/</link>
       <pubDate>Wed, 08 Sep 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/daft-punks-legendary-alive-2007-concert-with-remastered-audio-and-4k-video/</guid>
-      <description>Someone did it &amp;ndash;the perfect Daft Punk tribute after their break up. Also ideal for those hard-coding sessions.
-For the first time in 14 years, experience Daft Punk like never before! The first professionally recorded live show; revived meticulously by remastering and restoring the audio and video. The Alive 2007 show is considered a staple in live performances featuring the signature &amp;lsquo;Pyramid&amp;rsquo; and groundbreaking visuals, which is now complemented by a fully remastered audio track which aims to maximize the experience.</description>
+      <description>&lt;p&gt;Someone did it &amp;ndash;the perfect Daft Punk tribute after their break up. Also ideal
+for those hard-coding sessions.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For the first time in 14 years, experience Daft Punk like never before! The
+first professionally recorded live show; revived meticulously by remastering
+and restoring the audio and video. The Alive 2007 show is considered a staple
+in live performances featuring the signature &amp;lsquo;Pyramid&amp;rsquo; and groundbreaking
+visuals, which is now complemented by a fully remastered audio track which
+aims to maximize the experience. Presenting the ultimate authentic Daft Punk
+experience.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Someone did it &ndash;the perfect Daft Punk tribute after their break up. Also ideal
 for those hard-coding sessions.</p>
 <blockquote>
@@ -25,12 +33,10 @@ and restoring the audio and video. The Alive 2007 show is considered a staple
 in live performances featuring the signature &lsquo;Pyramid&rsquo; and groundbreaking
 visuals, which is now complemented by a fully remastered audio track which
 aims to maximize the experience. Presenting the ultimate authentic Daft Punk
-experience.</p>
-</blockquote>
-
+experience.</p></blockquote>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/QmR4zLcORNc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/QmR4zLcORNc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
 ]]></content:encoded>
     </item>

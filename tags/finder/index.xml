@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>finder on Nicola Iarocci</title>
+    <title>Finder on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/finder/</link>
-    <description>Recent content in finder on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Finder on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 04 Apr 2022 07:05:25 +0100</lastBuildDate>
@@ -14,16 +14,20 @@
       <link>https://nicolaiarocci.com/how-to-copy-a-files-path-in-macos-finder/</link>
       <pubDate>Mon, 04 Apr 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-copy-a-files-path-in-macos-finder/</guid>
-      <description>No matter how long I&amp;rsquo;ve possessed a Mac and how hard I try, there will always be a helpful keyboard shortcut hidden somewhere that I don&amp;rsquo;t know about.
-Today I learned about holding the Option key while clicking on the Copy command in Finder. It activates the super-useful (and super-secret) &amp;ldquo;copy as pathname&amp;rdquo; feature.
-I spotted this trick on Jamie Smith&amp;rsquo;s website, where other handy shortcuts (and the pretty gif above) reside.</description>
+      <description>&lt;p&gt;No matter how long I&amp;rsquo;ve possessed a Mac and how hard I try, there will always
+be a helpful keyboard shortcut hidden somewhere that I don&amp;rsquo;t know about.&lt;/p&gt;
+&lt;p&gt;Today I learned about holding the &lt;code&gt;Option&lt;/code&gt; key while clicking on the Copy
+command in Finder. It activates the super-useful (and super-secret) &amp;ldquo;copy as
+pathname&amp;rdquo; feature.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Credits: Jamie Smith&#34; loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/finder-menu-option.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I spotted this trick on &lt;a href=&#34;https://www.jamieonkeys.dev/posts/keyboard-shortcuts/&#34;&gt;Jamie Smith&amp;rsquo;s website&lt;/a&gt;, where other handy shortcuts
+(and the pretty gif above) reside.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>No matter how long I&rsquo;ve possessed a Mac and how hard I try, there will always
 be a helpful keyboard shortcut hidden somewhere that I don&rsquo;t know about.</p>
 <p>Today I learned about holding the <code>Option</code> key while clicking on the Copy
 command in Finder. It activates the super-useful (and super-secret) &ldquo;copy as
 pathname&rdquo; feature.</p>
-<p><img loading="lazy" src="/images/finder-menu-option.gif" alt="Credits: Jamie Smith"  />
-</p>
+<p><img alt="Credits: Jamie Smith" loading="lazy" src="/images/finder-menu-option.gif"></p>
 <p>I spotted this trick on <a href="https://www.jamieonkeys.dev/posts/keyboard-shortcuts/">Jamie Smith&rsquo;s website</a>, where other handy shortcuts
 (and the pretty gif above) reside.</p>
 ]]></content:encoded>

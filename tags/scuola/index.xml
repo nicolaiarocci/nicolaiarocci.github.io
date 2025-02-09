@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>scuola on Nicola Iarocci</title>
+    <title>Scuola on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/scuola/</link>
-    <description>Recent content in scuola on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Scuola on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Tue, 27 Dec 2011 00:00:00 +0000</lastBuildDate>
@@ -40,12 +40,10 @@
 <p>Il soggetto scelto dal team erano le onde del mare e ben presto si pose il problema di rappresentarle realisticamente. Un insegnate di Matematica suggerì di ricorrere alla teoria dei <!-- raw HTML omitted -->frattali<!-- raw HTML omitted -->. Idea brillante che offriva l’opportunità di un approfondimento didattico piuttosto insolito per un liceo artistico.</p>
 <p>Le competenze informatiche del nostro intraprendente professore risalivano credo ai tempi dell’università, e i ragazzi erano a digiuno di qualunque nozione tecnica. Nel corso della discussione mia moglie, più che altro per associazione d’idee, buttò lì una frase:</p>
 <blockquote>
-<p>mio marito è un gran sostenitore del linguaggio Python, dice sempre che è l’ideale per imparare e che dovrebbero insegnarlo nelle scuole</p>
-</blockquote>
+<p>mio marito è un gran sostenitore del linguaggio Python, dice sempre che è l’ideale per imparare e che dovrebbero insegnarlo nelle scuole</p></blockquote>
 <p>La cosa sembrava finita lì senonché dopo qualche giorno il professore irruppe in sala insegnanti, puntò dritto su mia moglie e l’apostrofò così:</p>
 <blockquote>
-<p>ho scritto questo programmino in Python, non è che tuo marito può darci una occhiata perché sai funziona, ma non disegna proprio il frattale che serve a noi – ci va vicino</p>
-</blockquote>
+<p>ho scritto questo programmino in Python, non è che tuo marito può darci una occhiata perché sai funziona, ma non disegna proprio il frattale che serve a noi – ci va vicino</p></blockquote>
 <p>Immaginate la mia sorpresa quando la sera, a casa, mia moglie mi raccontò tutta la faccenda. La mia prima reazione è stata quella di correre al computer per dare un’occhiata al codice:</p>
 <!-- raw HTML omitted -->
 <p>Mi sono subito reso conto che si trattava di una implementazione parziale della <!-- raw HTML omitted -->Curva (o fiocco) di Koch<!-- raw HTML omitted -->, una delle prime curve frattali documentate e anche una delle più famose. Una volta corretto il problema l’output restituito dal programma è stato questo:</p>

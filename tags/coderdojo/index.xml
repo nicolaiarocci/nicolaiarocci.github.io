@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>coderdojo on Nicola Iarocci</title>
+    <title>Coderdojo on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/coderdojo/</link>
-    <description>Recent content in coderdojo on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Coderdojo on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 04 Mar 2016 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://nicolaiarocci.com/my-coderdojo-interview-at-chennel-9-techeroes/</link>
       <pubDate>Fri, 04 Mar 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/my-coderdojo-interview-at-chennel-9-techeroes/</guid>
-      <description>I was recently interviewed at Channel 9 TecHeroes. Topic was CoderDojo, the network of free computer programming clubs for young people. The show is run by Microsoft Italy, so the interview is in Italian. Enjoy the show.</description>
+      <description>&lt;p&gt;I was recently interviewed at Channel 9 TecHeroes. Topic was CoderDojo, the network of free computer programming clubs for young people. The show is run by Microsoft Italy, so the interview is in Italian. &lt;a href=&#34;https://channel9.msdn.com/Shows/TecHeroes/TecHeroes-CoderDojo-Coding-Club-for-Kids&#34;&gt;Enjoy the show&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I was recently interviewed at Channel 9 TecHeroes. Topic was CoderDojo, the network of free computer programming clubs for young people. The show is run by Microsoft Italy, so the interview is in Italian. <a href="https://channel9.msdn.com/Shows/TecHeroes/TecHeroes-CoderDojo-Coding-Club-for-Kids">Enjoy the show</a>.</p>
 ]]></content:encoded>
     </item>
@@ -23,7 +23,7 @@
       <link>https://nicolaiarocci.com/coderdojo-launch/</link>
       <pubDate>Fri, 17 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/coderdojo-launch/</guid>
-      <description>Yesterday I attended the Digital Divide Workshop ran by Agenda Digitale Ravenna. With my friend Giulio Cesare we gave a quick introductory talk on the CoderDojo we are launching in our area. Want to help as a mentor? Get in touch!</description>
+      <description>&lt;p&gt;Yesterday I attended the &lt;a href=&#34;http://agendadigitaleravenna.it&#34;&gt;Digital Divide Workshop&lt;/a&gt; ran by Agenda Digitale Ravenna. With my friend &lt;a href=&#34;http://www.linkedin.com/in/gcsolaroli&#34;&gt;Giulio Cesare&lt;/a&gt; we gave a quick &lt;a href=&#34;https://speakerdeck.com/nicola/coderdojo-romagna&#34;&gt;introductory talk&lt;/a&gt; on the CoderDojo we are launching in our area. Want to help as a mentor? &lt;a href=&#34;http://coderdojoravenna.it/collabora/&#34;&gt;Get in touch&lt;/a&gt;!&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Yesterday I attended the <a href="http://agendadigitaleravenna.it">Digital Divide Workshop</a> ran by Agenda Digitale Ravenna. With my friend <a href="http://www.linkedin.com/in/gcsolaroli">Giulio Cesare</a> we gave a quick <a href="https://speakerdeck.com/nicola/coderdojo-romagna">introductory talk</a> on the CoderDojo we are launching in our area. Want to help as a mentor? <a href="http://coderdojoravenna.it/collabora/">Get in touch</a>!</p>
 ]]></content:encoded>
     </item>
@@ -32,9 +32,11 @@
       <link>https://nicolaiarocci.com/giving-back-to-my-community-with-coderdojo-ravenna/</link>
       <pubDate>Sat, 11 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/giving-back-to-my-community-with-coderdojo-ravenna/</guid>
-      <description>A few days ago I tweeted:
-Now the project is out in the wild and I’m very excited about it. It’s all italian yes, but do know that CoderDojo is a global movement, and starting a kids coding club in your own town would probably be great idea.
-Come meet me next week. I will be giving a short talk about CoderDojo Ravenna and, most importantly, we’ll have a good pizza afterwards.</description>
+      <description>&lt;p&gt;A few days ago I tweeted:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Now the project is &lt;a href=&#34;http://coderdojoravenna.it/&#34;&gt;out in the wild&lt;/a&gt; and I’m very excited about it. It’s all italian yes, but do know that CoderDojo is a &lt;a href=&#34;http://coderdojo.com&#34;&gt;global movement&lt;/a&gt;, and starting a kids coding club in your own town would probably be great idea.&lt;/p&gt;
+&lt;p&gt;Come meet me &lt;a href=&#34;http://coderdojoravenna.it/coderdojo-al-workshop-di-agenda-digitale-sul-digital-divide/&#34;&gt;next week&lt;/a&gt;. I will be giving a short talk about CoderDojo Ravenna and, most importantly, we’ll have a good pizza afterwards. Oh, and we’re &lt;a href=&#34;http://coderdojoravenna.it/collabora/&#34;&gt;looking for mentors&lt;/a&gt; to join us.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>A few days ago I tweeted:</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
@@ -47,12 +49,12 @@ Come meet me next week. I will be giving a short talk about CoderDojo Ravenna a
       <link>https://nicolaiarocci.com/we-need-coding-in-schools-but-where-are-the-teachers/</link>
       <pubDate>Tue, 31 Dec 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/we-need-coding-in-schools-but-where-are-the-teachers/</guid>
-      <description>Maybe instead of Coder Dojos for kids, we should run them for their teachers.
-We must build a team of dedicated teachers to support school coding programs. We do not rely on our students to absorb math from textbooks, online videos or math clubs; similarly, we cannot depend on every student to learn to code on their own, by using online tutorials and afterschool clubs. If coding becomes as fundamental as reading and writing, we need to create a system where everyone has an opportunity to learn, not just the few who probably would have learned it on their own anyway.</description>
+      <description>&lt;p&gt;Maybe instead of Coder Dojos for kids, we should run them for their teachers.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We must build a team of dedicated teachers to support school coding programs. We do not rely on our students to absorb math from textbooks, online videos or math clubs; similarly, we cannot depend on every student to learn to code on their own, by using online tutorials and afterschool clubs. If coding becomes as fundamental as reading and writing, we need to create a system where everyone has an opportunity to learn, not just the few who probably would have learned it on their own anyway.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Maybe instead of Coder Dojos for kids, we should run them for their teachers.</p>
 <blockquote>
-<p>We must build a team of dedicated teachers to support school coding programs. We do not rely on our students to absorb math from textbooks, online videos or math clubs; similarly, we cannot depend on every student to learn to code on their own, by using online tutorials and afterschool clubs. If coding becomes as fundamental as reading and writing, we need to create a system where everyone has an opportunity to learn, not just the few who probably would have learned it on their own anyway.</p>
-</blockquote>
+<p>We must build a team of dedicated teachers to support school coding programs. We do not rely on our students to absorb math from textbooks, online videos or math clubs; similarly, we cannot depend on every student to learn to code on their own, by using online tutorials and afterschool clubs. If coding becomes as fundamental as reading and writing, we need to create a system where everyone has an opportunity to learn, not just the few who probably would have learned it on their own anyway.</p></blockquote>
 <p>via <a href="https://www.edsurge.com/n/2013-12-09-opinion-we-need-coding-in-schools-but-where-are-the-teachers?utm_source=buffer&amp;utm_campaign=Buffer&amp;utm_content=buffer062d3&amp;utm_medium=twitter">OPINION: We Need Coding in Schools, but Where are the Teachers? | EdSurge News</a>.</p>
 ]]></content:encoded>
     </item>

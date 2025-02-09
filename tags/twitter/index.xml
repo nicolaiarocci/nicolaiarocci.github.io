@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>twitter on Nicola Iarocci</title>
+    <title>Twitter on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/twitter/</link>
-    <description>Recent content in twitter on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Twitter on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 14 Aug 2024 08:20:39 +0200</lastBuildDate>
@@ -14,8 +14,8 @@
       <link>https://nicolaiarocci.com/im-leaving-twitter/x/</link>
       <pubDate>Wed, 14 Aug 2024 08:20:39 +0200</pubDate>
       <guid>https://nicolaiarocci.com/im-leaving-twitter/x/</guid>
-      <description>I&amp;rsquo;m abandoning Twitter/X. I&amp;rsquo;ll freeze the account without deleting it; never say never, but I don&amp;rsquo;t plan on coming back. I no longer feel comfortable on that platform and haven&amp;rsquo;t been for a while.
-If you still want to follow me (I&amp;rsquo;d love for you to do so), the best option is my website where I always post first (RSS feed here), the mailing list, or Mastodon.</description>
+      <description>&lt;p&gt;I&amp;rsquo;m abandoning Twitter/X. I&amp;rsquo;ll freeze the account without deleting it; never say never, but I don&amp;rsquo;t plan on coming back. I no longer feel comfortable on that platform and haven&amp;rsquo;t been for a while.&lt;/p&gt;
+&lt;p&gt;If you still want to follow me (I&amp;rsquo;d love for you to do so), the best option is &lt;a href=&#34;https://nicolaiarocci.com&#34;&gt;my website&lt;/a&gt;  where I always post first (RSS feed &lt;a href=&#34;https://nicolaiarocci.com/index.xml&#34;&gt;here&lt;/a&gt;), the &lt;a href=&#34;https://buttondown.email/nicolaiarocci&#34;&gt;mailing list&lt;/a&gt;, or &lt;a href=&#34;https://fosstodon.org/@nicola&#34;&gt;Mastodon&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I&rsquo;m abandoning Twitter/X. I&rsquo;ll freeze the account without deleting it; never say never, but I don&rsquo;t plan on coming back. I no longer feel comfortable on that platform and haven&rsquo;t been for a while.</p>
 <p>If you still want to follow me (I&rsquo;d love for you to do so), the best option is <a href="https://nicolaiarocci.com">my website</a>  where I always post first (RSS feed <a href="https://nicolaiarocci.com/index.xml">here</a>), the <a href="https://buttondown.email/nicolaiarocci">mailing list</a>, or <a href="https://fosstodon.org/@nicola">Mastodon</a>.</p>
 ]]></content:encoded>
@@ -25,8 +25,13 @@ If you still want to follow me (I&amp;rsquo;d love for you to do so), the best o
       <link>https://nicolaiarocci.com/welcome-to-hell-elon/</link>
       <pubDate>Sat, 29 Oct 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/welcome-to-hell-elon/</guid>
-      <description>As someone who&amp;rsquo;s been on board with Twitter since 2009, I have to admit that I&amp;rsquo;m very concerned with recent developments. I admire and respect Elon Musk for his companies&amp;rsquo; achievements, especially in space and electric movement industries, but the man himself, holy cow, what a drag.
-On The Verge, Nilay Patel&amp;rsquo;s brutal piece on the recent Twitter acquisition is chock-full of brilliant insights on what it takes to run a modern commercial social service.</description>
+      <description>&lt;p&gt;As someone who&amp;rsquo;s been on board with Twitter since 2009, I have to admit that
+I&amp;rsquo;m &lt;em&gt;very&lt;/em&gt; concerned with recent developments. I admire and respect Elon Musk
+for his companies&amp;rsquo; achievements, especially in space and electric movement
+industries, but the man himself, holy cow, what a drag.&lt;/p&gt;
+&lt;p&gt;On The Verge, Nilay Patel&amp;rsquo;s brutal piece on the recent Twitter acquisition is
+chock-full of brilliant insights on what it takes to run a modern commercial
+social service.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>As someone who&rsquo;s been on board with Twitter since 2009, I have to admit that
 I&rsquo;m <em>very</em> concerned with recent developments. I admire and respect Elon Musk
 for his companies&rsquo; achievements, especially in space and electric movement
@@ -39,8 +44,7 @@ social service.</p>
 is successful despite itself, and there is no possible way to grow users and
 revenue without making a series of enormous compromises that will ultimately
 destroy your reputation and possibly cause grievous damage to your other
-companies.</p>
-</blockquote>
+companies.</p></blockquote>
 <blockquote>
 <p>I say this with utter confidence because the problems with Twitter are not
 engineering problems. They are political problems. Twitter, the company,
@@ -48,8 +52,7 @@ makes very little interesting technology; the tech stack is not the valuable
 asset. The asset is the user base: hopelessly addicted politicians,
 reporters, celebrities, and other people who should know better but keep
 posting anyway. You! You, Elon Musk, are addicted to Twitter. You’re the
-asset. You just bought yourself for $44 billion dollars.</p>
-</blockquote>
+asset. You just bought yourself for $44 billion dollars.</p></blockquote>
 <p>More <a href="https://www.theverge.com/2022/10/28/23428132/elon-musk-twitter-acquisition-problems-speech-moderation">here</a>.</p>
 ]]></content:encoded>
     </item>

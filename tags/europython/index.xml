@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>europython on Nicola Iarocci</title>
+    <title>Europython on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/europython/</link>
-    <description>Recent content in europython on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Europython on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 09 Jul 2012 00:00:00 +0000</lastBuildDate>
@@ -29,15 +29,15 @@
       <link>https://nicolaiarocci.com/guido-van-rossum-a-europython-2012/</link>
       <pubDate>Fri, 20 Apr 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/guido-van-rossum-a-europython-2012/</guid>
-      <description>Partenza col botto per EuroPython 2012. I keynote introduttivi saranno tenuti nientemeno che dal creatore stesso del linguaggio, Guido Van Rossum, e da Alex Martelli. Ieri è stato annunciato il programma ufficiale e a quanto pare mi spetta l’inaugurazione della italian track martedì 3 luglio. Il giorno successivo sarò impegnato, ancora di prima mattina, con la versione in lingua inglese del mio talk:
-Sviluppare una RESTful Web API con Python, Flask e MongoDB</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Partenza col botto per &lt;!-- raw HTML omitted --&gt;EuroPython 2012&lt;!-- raw HTML omitted --&gt;. I keynote introduttivi saranno tenuti nientemeno che dal creatore stesso del linguaggio, Guido Van Rossum, e da Alex Martelli. Ieri è stato annunciato il &lt;!-- raw HTML omitted --&gt;programma ufficiale&lt;!-- raw HTML omitted --&gt; e a quanto pare mi spetta l’inaugurazione della italian track martedì 3 luglio. Il giorno successivo sarò impegnato, ancora di prima mattina, con la versione in lingua inglese del mio talk:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <p>Partenza col botto per <!-- raw HTML omitted -->EuroPython 2012<!-- raw HTML omitted -->. I keynote introduttivi saranno tenuti nientemeno che dal creatore stesso del linguaggio, Guido Van Rossum, e da Alex Martelli. Ieri è stato annunciato il <!-- raw HTML omitted -->programma ufficiale<!-- raw HTML omitted --> e a quanto pare mi spetta l’inaugurazione della italian track martedì 3 luglio. Il giorno successivo sarò impegnato, ancora di prima mattina, con la versione in lingua inglese del mio talk:</p>
 <blockquote>
 <p><!-- raw HTML omitted -->Sviluppare una RESTful Web API con Python, Flask e MongoDB<!-- raw HTML omitted --></p>
-<p>Nel corso dell’ultimo anno abbiamo lavorato all’implementazione Python di una RESTful Web API completa. Abbiamo imparato un bel po’ di cose sui best pattern REST e, naturalmente, abbiamo messo alla prova le ben note capacità web di Python, rilasciando nel frattempo un paio di progetti Open Source. Nel corso del mio intervento condividerò quel che abbiamo imparato. Prenderemo in considerazione il problematico design di una REST API ‘pura’. Vedremo che cosa offre Python in questo campo e scenderemo infine nel dettaglio, dando una occhiata al codice che abbiamo scritto. Alcune tecnologie/stack che tratteremo sono (in nessun ordine particolare): Flask, PyMongo, MongoDB, REST, JSON, XML, Heroku. Lo sapevi? Che ti piaccia o no, c’è una REST API nel tuo futuro.</p>
-</blockquote>
+<p>Nel corso dell’ultimo anno abbiamo lavorato all’implementazione Python di una RESTful Web API completa. Abbiamo imparato un bel po’ di cose sui best pattern REST e, naturalmente, abbiamo messo alla prova le ben note capacità web di Python, rilasciando nel frattempo un paio di progetti Open Source. Nel corso del mio intervento condividerò quel che abbiamo imparato. Prenderemo in considerazione il problematico design di una REST API ‘pura’. Vedremo che cosa offre Python in questo campo e scenderemo infine nel dettaglio, dando una occhiata al codice che abbiamo scritto. Alcune tecnologie/stack che tratteremo sono (in nessun ordine particolare): Flask, PyMongo, MongoDB, REST, JSON, XML, Heroku. Lo sapevi? Che ti piaccia o no, c’è una REST API nel tuo futuro.</p></blockquote>
 <p>Scorrendo la lista degli speaker scopro che anche Amin Roacher, autore di Flask, e Ross Lawley di 10Gen (MongoDB) saranno della partita. Insomma ammetto che un po’ d’ansia da prestazione comincia ad affiorare. Sarà una bella sfida, e non vedo l’ora di affrontarla. Conto molto sul vostro supporto e incoraggiamento: ne avrò bisogno 😉</p>
 ]]></content:encoded>
     </item>
@@ -46,8 +46,11 @@ Sviluppare una RESTful Web API con Python, Flask e MongoDB</description>
       <link>https://nicolaiarocci.com/speaker-a-europython-2012/</link>
       <pubDate>Fri, 13 Apr 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/speaker-a-europython-2012/</guid>
-      <description>EuroPython è la conferenza europea di riferimento per il linguaggio Python. Si terrà anche quest’anno a Firenze, dal 2 al 8 luglio. Sono in programma molti interventi davvero interessanti, cosa che rende ancor più soprendente il fatto che i miei talk siano stati votati così tanto.
-Date un’occhiata al sito ufficiale per saperne di più sulla conferenza (in questo momento è ancora possibile approfittare dell’offerta early bird per l’acquisto dei biglietti); maggiori informazioni sui miei interventi tra qualche tempo, quando sarà ufficializzato il calendario dei talk.</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;EuroPython è la conferenza europea di riferimento per il linguaggio Python. Si terrà anche quest’anno a Firenze, dal 2 al 8 luglio. Sono in programma molti interventi davvero interessanti, cosa che rende ancor più soprendente il fatto che i miei talk siano stati votati così tanto.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Date un’occhiata al &lt;!-- raw HTML omitted --&gt;sito ufficiale&lt;!-- raw HTML omitted --&gt; per saperne di più sulla conferenza (in questo momento è ancora possibile approfittare dell’offerta &lt;em&gt;early bird&lt;/em&gt; per l’acquisto dei biglietti); maggiori informazioni sui miei interventi tra qualche tempo, quando sarà ufficializzato il calendario dei talk.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <p>EuroPython è la conferenza europea di riferimento per il linguaggio Python. Si terrà anche quest’anno a Firenze, dal 2 al 8 luglio. Sono in programma molti interventi davvero interessanti, cosa che rende ancor più soprendente il fatto che i miei talk siano stati votati così tanto.</p>

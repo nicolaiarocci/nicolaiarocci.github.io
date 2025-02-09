@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>syntax highlighting on Nicola Iarocci</title>
+    <title>Syntax Highlighting on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/syntax-highlighting/</link>
-    <description>Recent content in syntax highlighting on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Syntax Highlighting on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 02 Apr 2012 00:00:00 +0000</lastBuildDate>
@@ -14,10 +14,10 @@
       <link>https://nicolaiarocci.com/evidenziare-il-codice-sorgente-via-javascript-e-css-con-rainbow/</link>
       <pubDate>Mon, 02 Apr 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/evidenziare-il-codice-sorgente-via-javascript-e-css-con-rainbow/</guid>
-      <description>Rainbow è una libreria per l’evidenziazione del codice scritta in Javascript. E’ leggera (1.4kb), facile da usare, estensibile e completamente configurabile via CSS.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Rainbow&lt;!-- raw HTML omitted --&gt; è una libreria per l’evidenziazione del codice scritta in Javascript. E’ leggera (1.4kb), facile da usare, estensibile e completamente configurabile via CSS.&lt;/p&gt;&lt;/blockquote&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p><!-- raw HTML omitted -->Rainbow<!-- raw HTML omitted --> è una libreria per l’evidenziazione del codice scritta in Javascript. E’ leggera (1.4kb), facile da usare, estensibile e completamente configurabile via CSS.</p>
-</blockquote>
+<p><!-- raw HTML omitted -->Rainbow<!-- raw HTML omitted --> è una libreria per l’evidenziazione del codice scritta in Javascript. E’ leggera (1.4kb), facile da usare, estensibile e completamente configurabile via CSS.</p></blockquote>
 ]]></content:encoded>
     </item>
   </channel>

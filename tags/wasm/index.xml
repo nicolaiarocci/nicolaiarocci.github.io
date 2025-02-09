@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>wasm on Nicola Iarocci</title>
+    <title>Wasm on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/wasm/</link>
-    <description>Recent content in wasm on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Wasm on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 23 Mar 2023 07:05:25 +0100</lastBuildDate>
@@ -14,7 +14,11 @@
       <link>https://nicolaiarocci.com/running-dotnet-code-in-an-isolated-sandbox/</link>
       <pubDate>Thu, 23 Mar 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/running-dotnet-code-in-an-isolated-sandbox/</guid>
-      <description>Steve Sanderson is experimenting again, and when Steve plays with his toys, I pay attention. In a new video on his YouTube channel, Steve introduces an experimental new .NET package that allows the creation of isolated instances of the .NET runtime that will safely run code in a sandbox.</description>
+      <description>&lt;p&gt;Steve Sanderson is experimenting &lt;a href=&#34;https://nicolaiarocci.com/a-quick-preview-of-the-blazor-united-prototype-for-.net8/&#34;&gt;again&lt;/a&gt;, and when Steve plays with his toys, I pay attention. In a new video on his
+YouTube channel, Steve introduces an experimental new .NET package that allows the creation of isolated instances of the
+.NET runtime that will safely run code in a sandbox.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
       <content:encoded><![CDATA[<p>Steve Sanderson is experimenting <a href="/a-quick-preview-of-the-blazor-united-prototype-for-.net8/">again</a>, and when Steve plays with his toys, I pay attention. In a new video on his
 YouTube channel, Steve introduces an experimental new .NET package that allows the creation of isolated instances of the
 .NET runtime that will safely run code in a sandbox.</p>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>mvp on Nicola Iarocci</title>
+    <title>Mvp on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/mvp/</link>
-    <description>Recent content in mvp on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Mvp on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 09 May 2016 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://nicolaiarocci.com/crazy-speaking-month/</link>
       <pubDate>Mon, 09 May 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/crazy-speaking-month/</guid>
-      <description>April was definitely my crazy Speaking Month. After an almost one year long self-imposed conference hiatus, I was challenged to deliver four different talks, attend two discussion panels, give one live demo and release one interview. All in a three weeks period span. First I went to PyCon Sette in Florence. A few days later a plane took me to St. Petersburg, Russia, for PiterPy. Finally, the next weekend I was in Rome for the Western Europe Microsoft MVP Community Day.</description>
+      <description>&lt;p&gt;April was definitely my crazy Speaking Month. After an almost one year long self-imposed conference hiatus, I was challenged to deliver four different talks, attend two discussion panels, give one live demo and release one interview. All in a three weeks period span. First I went to &lt;a href=&#34;http://www.pycon.it&#34;&gt;PyCon Sette&lt;/a&gt; in Florence. A few days later a plane took me to St. Petersburg, Russia, for &lt;a href=&#34;http://www.it-sobytie.ru/en/events/5862&#34;&gt;PiterPy&lt;/a&gt;. Finally, the next weekend I was in Rome for the &lt;a href=&#34;https://mvp.microsoft.com&#34;&gt;Western Europe Microsoft MVP Community Day&lt;/a&gt;. In the meantime several Channel 9 TecHeroes episodes were due for release. This was of course super exciting. And challenging.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>April was definitely my crazy Speaking Month. After an almost one year long self-imposed conference hiatus, I was challenged to deliver four different talks, attend two discussion panels, give one live demo and release one interview. All in a three weeks period span. First I went to <a href="http://www.pycon.it">PyCon Sette</a> in Florence. A few days later a plane took me to St. Petersburg, Russia, for <a href="http://www.it-sobytie.ru/en/events/5862">PiterPy</a>. Finally, the next weekend I was in Rome for the <a href="https://mvp.microsoft.com">Western Europe Microsoft MVP Community Day</a>. In the meantime several Channel 9 TecHeroes episodes were due for release. This was of course super exciting. And challenging.</p>
 <p>This post is not much (or only) about my talks or performance, but hopefully more around the different communities I got a chance to interact with.</p>
 <h2 id="pycon-sette-florence">PyCon Sette, Florence</h2>
@@ -56,8 +56,8 @@
       <link>https://nicolaiarocci.com/look-mum-im-an-mvp/</link>
       <pubDate>Sat, 02 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/look-mum-im-an-mvp/</guid>
-      <description>A few hours ago I was notified that I have been awarded with the Microsoft MVP Award for Development Technologies.
-This came totally unexpected. Especially so considering that during the last few years I have been splitting my time between Microsoft and other open source technologies. My public work has mostly been on Python and MongoDB. Yes I also released .NET open source projects in the meantime (more are coming soon) and yes, I wrote a few articles here and on the MSDN Blog, attended Microsoft events and did interviews.</description>
+      <description>&lt;p&gt;A few hours ago I was notified that I have been awarded with the Microsoft MVP Award for Development Technologies.&lt;/p&gt;
+&lt;p&gt;This came totally unexpected. Especially so considering that during the last few years I have been splitting my time between Microsoft and other open source technologies. My public work has mostly been on Python and MongoDB. Yes I also released .NET open source projects in the meantime (more are coming soon) and yes, I wrote a few articles here and on the MSDN Blog, attended Microsoft events and did interviews. But really, I did not expect these activities to have an impact. This is probably why only a couple minutes from learning about the award I was suffering Impostor Syndrome symptoms.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>A few hours ago I was notified that I have been awarded with the Microsoft MVP Award for Development Technologies.</p>
 <p>This came totally unexpected. Especially so considering that during the last few years I have been splitting my time between Microsoft and other open source technologies. My public work has mostly been on Python and MongoDB. Yes I also released .NET open source projects in the meantime (more are coming soon) and yes, I wrote a few articles here and on the MSDN Blog, attended Microsoft events and did interviews. But really, I did not expect these activities to have an impact. This is probably why only a couple minutes from learning about the award I was suffering Impostor Syndrome symptoms.</p>
 <p>Now however, as I ponder on the whole issue a little bit, I start to realise how this could probably make (at least some sort of) sense. New Microsoft has been eager to catalyse attention and interest from the open source community and, in a broader sense, from people not yet accustomed to the brand. In light of this, people who have been active in communities other than Microsoft’s and have also been exposed to different technologies, mindsets and approaches to common IT problems could indeed offer some value. Or at least that’s how I am reading it right now.</p>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>.net framework on Nicola Iarocci</title>
+    <title>.Net Framework on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/.net-framework/</link>
-    <description>Recent content in .net framework on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in .Net Framework on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 02 Nov 2011 00:00:00 +0000</lastBuildDate>
@@ -30,9 +30,8 @@
       <link>https://nicolaiarocci.com/mono-2-10-3-gira-su-os-x-lion-ed-e-vivo-e-vegeto/</link>
       <pubDate>Fri, 05 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/mono-2-10-3-gira-su-os-x-lion-ed-e-vivo-e-vegeto/</guid>
-      <description>Xamarin, la compagnia che ha preso in mano il Progetto Mono dopo l’addio di Novell, ha appena rilasciato Mono 2.10.3. Ne da annuncio lo stesso Manuel de Icaza, storico deux-ex-machina del progetto e fondatore di Xamarin.
-Si tratta per lo più di una versione di manutenzione che risolve numerosi problemi, primo fra tutti l’instabilità di Mono sull’ultima versione di MacOS X Lion.
-L’importanza di questo aggiornamento va ben oltre le sue caratteristiche tecniche.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Xamarin, la compagnia che &lt;a href=&#34;http://nicolaiarocci.com/il-progetto-mono-salvato-in-extremis-dal-suo-fondatore/&#34; title=&#34;Progetto Mono salvato dal suo fondatore&#34;&gt;ha preso in mano il Progetto Mono&lt;/a&gt; dopo l’addio di Novell, ha appena rilasciato Mono 2.10.3. Ne da annuncio lo stesso Manuel de Icaza, storico deux-ex-machina del progetto e fondatore di Xamarin.&lt;/p&gt;
+&lt;p&gt;Si tratta per lo più di una versione di manutenzione che &lt;!-- raw HTML omitted --&gt;risolve numerosi problemi&lt;!-- raw HTML omitted --&gt;, primo fra tutti l’instabilità di Mono sull’ultima versione di MacOS X Lion.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Xamarin, la compagnia che <a href="http://nicolaiarocci.com/il-progetto-mono-salvato-in-extremis-dal-suo-fondatore/" title="Progetto Mono salvato dal suo fondatore">ha preso in mano il Progetto Mono</a> dopo l’addio di Novell, ha appena rilasciato Mono 2.10.3. Ne da annuncio lo stesso Manuel de Icaza, storico deux-ex-machina del progetto e fondatore di Xamarin.</p>
 <p>Si tratta per lo più di una versione di manutenzione che <!-- raw HTML omitted -->risolve numerosi problemi<!-- raw HTML omitted -->, primo fra tutti l’instabilità di Mono sull’ultima versione di MacOS X Lion.</p>
 <p>L’importanza di questo aggiornamento va ben oltre le sue caratteristiche tecniche. Il titolo stesso dell’<!-- raw HTML omitted -->annuncio<!-- raw HTML omitted --> (And We Are Back) parla chiaro: si tratta di un segnale di continuità importante che Xamarin lancia alla comunità mondiale di sviluppatori Mono. Per informazioni sul progetto e sulle sue vicissitudini recenti vi invito a leggere l’<a href="http://nicolaiarocci.com/il-progetto-mono-salvato-in-extremis-dal-suo-fondatore/" title="Il Progetto Mono salvato in extremis dal suo fondatore">articolo sul salvataggio di Mono</a> che ho scritto qualche tempo fa.</p>

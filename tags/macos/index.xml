@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>macos on Nicola Iarocci</title>
+    <title>MacOS on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/macos/</link>
-    <description>Recent content in macos on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in MacOS on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Sun, 10 Mar 2024 15:57:16 +0100</lastBuildDate>
@@ -14,8 +14,14 @@
       <link>https://nicolaiarocci.com/voice-dictation-on-ios-and-macos-is-underestimated/</link>
       <pubDate>Sun, 10 Mar 2024 15:57:16 +0100</pubDate>
       <guid>https://nicolaiarocci.com/voice-dictation-on-ios-and-macos-is-underestimated/</guid>
-      <description>Most people likely already know and use the voice dictation feature in iOS and macOS all day, but I&amp;rsquo;ve only now seen the light.
-Yesterday, I discovered I could dictate text notes to my iPhone, even offline. It works with Obsidian, WhatsApp, and any other app where I need to enter text, like the Safari search box. I suck at entering text on the phone. I also hate WhatsApp audio messages, but I often recur to them as, again, I suck at typing text on the phone.</description>
+      <description>&lt;p&gt;Most people likely already know and use the voice dictation feature in iOS and
+macOS all day, but I&amp;rsquo;ve only now seen the light.&lt;/p&gt;
+&lt;p&gt;Yesterday, I discovered I could dictate text notes to my iPhone, even offline.
+It works with Obsidian, WhatsApp, and any other app where I need to enter text,
+like the Safari search box. I suck at entering text on the phone. I also hate
+WhatsApp audio messages, but I often recur to them as, again, I suck at typing
+text on the phone. I can instead dictate those messages, and they will render as
+text as if I typed them; what a revelation!&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Most people likely already know and use the voice dictation feature in iOS and
 macOS all day, but I&rsquo;ve only now seen the light.</p>
 <p>Yesterday, I discovered I could dictate text notes to my iPhone, even offline.
@@ -42,16 +48,32 @@ from the keyboard.</p>
       <link>https://nicolaiarocci.com/macos-networkquality-tool/</link>
       <pubDate>Mon, 15 May 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/macos-networkquality-tool/</guid>
-      <description>Today I learned about a precious little macOS command line tool, networkQuality.
-The networkQuality tool is a built-in tool released in macOS Monterey that can help diagnose network issues and measure network performance.
-Usage:
-networkQuality -v Example output:
-==== SUMMARY ==== Uplink capacity: 44.448 Mbps (Accuracy: High) Downlink capacity: 162.135 Mbps (Accuracy: High) Responsiveness: Low (73 RPM) (Accuracy: High) Idle Latency: 50.125 milliseconds (Accuracy: High) Interface: en0 Uplink bytes transferred: 69.</description>
+      <description>&lt;p&gt;Today I learned about a precious little macOS command line tool, &lt;code&gt;networkQuality&lt;/code&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The networkQuality tool is a built-in tool released in macOS Monterey that can help diagnose network issues and
+measure network performance.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Usage:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;networkQuality -v
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Example output:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;==== SUMMARY ====
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Uplink capacity: 44.448 Mbps (Accuracy: High)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Downlink capacity: 162.135 Mbps (Accuracy: High)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Responsiveness: Low (73 RPM) (Accuracy: High)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Idle Latency: 50.125 milliseconds (Accuracy: High)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Interface: en0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Uplink bytes transferred: 69.921 MB
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Downlink bytes transferred: 278.340 MB
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Uplink Flow count: 16
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Downlink Flow count: 12
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Start: 13/05/2023, 15:04:13
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;End: 13/05/2023, 15:04:27
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;OS Version: Version 13.3.1 (a) (Build 22E772610a)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It supports Apple&amp;rsquo;s Private Relay, offers some configuration options and allows setting up your own server. More info
+&lt;a href=&#34;https://cyberhost.uk/the-hidden-macos-speedtest-tool-networkquality/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I learned about a precious little macOS command line tool, <code>networkQuality</code>.</p>
 <blockquote>
 <p>The networkQuality tool is a built-in tool released in macOS Monterey that can help diagnose network issues and
-measure network performance.</p>
-</blockquote>
+measure network performance.</p></blockquote>
 <p>Usage:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>networkQuality -v
 </span></span></code></pre></div><p>Example output:</p>
@@ -77,16 +99,20 @@ measure network performance.</p>
       <link>https://nicolaiarocci.com/how-to-copy-a-files-path-in-macos-finder/</link>
       <pubDate>Mon, 04 Apr 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-copy-a-files-path-in-macos-finder/</guid>
-      <description>No matter how long I&amp;rsquo;ve possessed a Mac and how hard I try, there will always be a helpful keyboard shortcut hidden somewhere that I don&amp;rsquo;t know about.
-Today I learned about holding the Option key while clicking on the Copy command in Finder. It activates the super-useful (and super-secret) &amp;ldquo;copy as pathname&amp;rdquo; feature.
-I spotted this trick on Jamie Smith&amp;rsquo;s website, where other handy shortcuts (and the pretty gif above) reside.</description>
+      <description>&lt;p&gt;No matter how long I&amp;rsquo;ve possessed a Mac and how hard I try, there will always
+be a helpful keyboard shortcut hidden somewhere that I don&amp;rsquo;t know about.&lt;/p&gt;
+&lt;p&gt;Today I learned about holding the &lt;code&gt;Option&lt;/code&gt; key while clicking on the Copy
+command in Finder. It activates the super-useful (and super-secret) &amp;ldquo;copy as
+pathname&amp;rdquo; feature.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Credits: Jamie Smith&#34; loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/finder-menu-option.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I spotted this trick on &lt;a href=&#34;https://www.jamieonkeys.dev/posts/keyboard-shortcuts/&#34;&gt;Jamie Smith&amp;rsquo;s website&lt;/a&gt;, where other handy shortcuts
+(and the pretty gif above) reside.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>No matter how long I&rsquo;ve possessed a Mac and how hard I try, there will always
 be a helpful keyboard shortcut hidden somewhere that I don&rsquo;t know about.</p>
 <p>Today I learned about holding the <code>Option</code> key while clicking on the Copy
 command in Finder. It activates the super-useful (and super-secret) &ldquo;copy as
 pathname&rdquo; feature.</p>
-<p><img loading="lazy" src="/images/finder-menu-option.gif" alt="Credits: Jamie Smith"  />
-</p>
+<p><img alt="Credits: Jamie Smith" loading="lazy" src="/images/finder-menu-option.gif"></p>
 <p>I spotted this trick on <a href="https://www.jamieonkeys.dev/posts/keyboard-shortcuts/">Jamie Smith&rsquo;s website</a>, where other handy shortcuts
 (and the pretty gif above) reside.</p>
 ]]></content:encoded>
@@ -96,8 +122,17 @@ pathname&rdquo; feature.</p>
       <link>https://nicolaiarocci.com/so-tired-of-homebrew-messing-up-with-my-stuff/</link>
       <pubDate>Tue, 25 May 2021 08:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/so-tired-of-homebrew-messing-up-with-my-stuff/</guid>
-      <description>Pardon me while I&amp;rsquo;m venting out my frustration. I am so tired of Homebrew messing up with my stuff. It used to be the perfect tool for the right job until they decided to auto-brew-update-and-cleanup at every new install. Another day another issue, today with vim not running anymore:
-dyld: Library not loaded: /usr/local/opt/lua/lib/liblua.5.3.dylib Referenced from: /user/local/bin/vi Reason: image not found Lua has suddenly gone missing. Ah, but of course. I installed something with Homebrew this morning.</description>
+      <description>&lt;p&gt;Pardon me while I&amp;rsquo;m venting out my frustration. I am so tired of Homebrew
+messing up with my stuff. It used to be the perfect tool for the right job
+until they decided to auto-brew-update-and-cleanup at every new install.
+Another day another issue, today with vim not running anymore:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;dyld: Library not loaded: /usr/local/opt/lua/lib/liblua.5.3.dylib
+Referenced from: /user/local/bin/vi
+Reason: image not found
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Lua has suddenly gone missing. Ah, but of course. I installed something with
+Homebrew this morning. The fix is to &lt;code&gt;brew reinstall vim&lt;/code&gt;, which then leads to
+the following error:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Pardon me while I&rsquo;m venting out my frustration. I am so tired of Homebrew
 messing up with my stuff. It used to be the perfect tool for the right job
 until they decided to auto-brew-update-and-cleanup at every new install.
@@ -133,8 +168,13 @@ like we have a valid alternative at hand, anyway.</p>
       <link>https://nicolaiarocci.com/quicker-window-snapping-on-macos/</link>
       <pubDate>Tue, 06 Apr 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/quicker-window-snapping-on-macos/</guid>
-      <description>I never see my macOS desktop. It&amp;rsquo;s always cluttered with way too many open windows. When I spot those fantastic, tidy and clean Desktops on the internet, I envy their owners. I wonder if and how they manage to keep those desktops tidy like that the whole workday. It must feel so good.
-I try to keep my windows well arranged. The typical setup might be two windows, from two different apps, tiled side by side.</description>
+      <description>&lt;p&gt;I never see my macOS desktop. It&amp;rsquo;s always cluttered with way too many open
+windows. When I spot those fantastic, tidy and clean Desktops on the internet,
+I envy their owners. I wonder if and how they manage to keep those desktops
+tidy like that the whole workday. It must feel so good.&lt;/p&gt;
+&lt;p&gt;I try to keep my windows well arranged. The typical setup might be two windows,
+from two different apps, tiled side by side. Maybe the browser, or Postman, on
+the right, and my favourite editor on the left. Stuff like that.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I never see my macOS desktop. It&rsquo;s always cluttered with way too many open
 windows. When I spot those fantastic, tidy and clean Desktops on the internet,
 I envy their owners. I wonder if and how they manage to keep those desktops
@@ -156,8 +196,15 @@ I purchased the license right away.</p>
       <link>https://nicolaiarocci.com/battling-with-ssh-cron-jobs-and-macos-keyring/</link>
       <pubDate>Wed, 17 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/battling-with-ssh-cron-jobs-and-macos-keyring/</guid>
-      <description>So today, I was setting up a cronjob on my trusty MacBook Pro. The goal was to backup some folders from a remote Linux server via rsync. The script is simple. It goes something like this:
-rsync -avz -e &amp;quot;ssh -i ~/.ssh/my_rsa_keyfile&amp;quot; myuser@myserver:remotedir/ ~/localdir/ Launched by hand, it works seamlessly. Call it from a cron job via crontab, and I get a permission denied error. I then enabled ssh -v option to gather a little intel on what was actually going on.</description>
+      <description>&lt;p&gt;So today, I was setting up a cronjob on my trusty MacBook Pro. The goal was to
+backup some folders from a remote Linux server via rsync. The script is simple.
+It goes something like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;rsync -avz -e &amp;quot;ssh -i ~/.ssh/my_rsa_keyfile&amp;quot; myuser@myserver:remotedir/ ~/localdir/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Launched by hand, it works seamlessly. Call it from a cron job via crontab, and
+I get a permission denied error. I then enabled ssh &lt;code&gt;-v&lt;/code&gt; option to gather
+a little intel on what was actually going on. As it turns out, the exact
+error was:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>So today, I was setting up a cronjob on my trusty MacBook Pro. The goal was to
 backup some folders from a remote Linux server via rsync. The script is simple.
 It goes something like this:</p>

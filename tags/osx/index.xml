@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>osx on Nicola Iarocci</title>
+    <title>Osx on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/osx/</link>
-    <description>Recent content in osx on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Osx on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 22 Jan 2014 00:00:00 +0000</lastBuildDate>
@@ -14,8 +14,8 @@
       <link>https://nicolaiarocci.com/got-tips-tricks-terminal-mac-os-x/</link>
       <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/got-tips-tricks-terminal-mac-os-x/</guid>
-      <description>Best collection of Terminal tricks ever:
-Got any tips or tricks for Terminal in Mac OS X? – Ask Different.</description>
+      <description>&lt;p&gt;Best collection of Terminal tricks ever:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://apple.stackexchange.com/questions/5435/got-any-tips-or-tricks-for-terminal-in-mac-os-x&#34;&gt;Got any tips or tricks for Terminal in Mac OS X? – Ask Different&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Best collection of Terminal tricks ever:</p>
 <p><a href="http://apple.stackexchange.com/questions/5435/got-any-tips-or-tricks-for-terminal-in-mac-os-x">Got any tips or tricks for Terminal in Mac OS X? – Ask Different</a>.</p>
 ]]></content:encoded>

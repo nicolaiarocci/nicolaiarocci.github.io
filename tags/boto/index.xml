@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>boto on Nicola Iarocci</title>
+    <title>Boto on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/boto/</link>
-    <description>Recent content in boto on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Boto on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 07 Feb 2014 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://nicolaiarocci.com/how-to-save-90-on-your-s3-bill/</link>
       <pubDate>Fri, 07 Feb 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/how-to-save-90-on-your-s3-bill/</guid>
-      <description>If you are using Python and the awesome Boto library to access Amazon S3, make sure you don’t miss How to Save 90% on Your S3 Bill.</description>
+      <description>&lt;p&gt;If you are using Python and the awesome Boto library to access Amazon S3, make sure you don’t miss &lt;a href=&#34;http://www.appneta.com/blog/s3-list-get-bucket-default/&#34;&gt;How to Save 90% on Your S3 Bill&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>If you are using Python and the awesome Boto library to access Amazon S3, make sure you don’t miss <a href="http://www.appneta.com/blog/s3-list-get-bucket-default/">How to Save 90% on Your S3 Bill</a>.</p>
 ]]></content:encoded>
     </item>

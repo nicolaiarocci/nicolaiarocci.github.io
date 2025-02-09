@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>bjj on Nicola Iarocci</title>
+    <title>Bjj on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/bjj/</link>
-    <description>Recent content in bjj on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Bjj on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 27 Oct 2022 07:05:25 +0100</lastBuildDate>
@@ -14,7 +14,12 @@
       <link>https://nicolaiarocci.com/brazilian-ju-jitsu-and-me/</link>
       <pubDate>Thu, 27 Oct 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/brazilian-ju-jitsu-and-me/</guid>
-      <description>I attended my first BJJ class a little more than a month ago. Going into it, I was hesitant. After many years doing what most people today call calisthenics, I wanted to try something new and challenging. But would it be appropriate for me to get into martial arts at the age of fifty-two? When I discovered that we have a branch of the renowned Roger Gracie Academy here in my hometown, I thought it was time to find out.</description>
+      <description>&lt;p&gt;I attended my first BJJ class a little more than a month ago. Going into it,
+I was hesitant. After many years doing what most people today call
+calisthenics, I wanted to try something new and challenging. But would it be
+appropriate for me to get into martial arts at the age of fifty-two? When
+I discovered that we have a branch of the renowned Roger Gracie Academy here in
+my hometown, I thought it was time to find out.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I attended my first BJJ class a little more than a month ago. Going into it,
 I was hesitant. After many years doing what most people today call
 calisthenics, I wanted to try something new and challenging. But would it be
@@ -48,8 +53,7 @@ no good. As soon as I&rsquo;m recovered, I go back to calisthenics. Am I giving 
 too soon? Maybe. I&rsquo;d love to progress in BJJ, and I&rsquo;m sure I would have a lot
 of fun with it, but today, for once, I choose the known path of safety over the
 unknown, exhilarating course of uncertainty.</p>
-<p><img loading="lazy" src="/images/ju-jitsu.jpeg" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/ju-jitsu.jpeg"></p>
 ]]></content:encoded>
     </item>
   </channel>

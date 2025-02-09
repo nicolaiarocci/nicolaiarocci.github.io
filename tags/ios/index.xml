@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>iOS on Nicola Iarocci</title>
+    <title>IOS on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/ios/</link>
-    <description>Recent content in iOS on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in IOS on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Sun, 10 Mar 2024 15:57:16 +0100</lastBuildDate>
@@ -14,8 +14,14 @@
       <link>https://nicolaiarocci.com/voice-dictation-on-ios-and-macos-is-underestimated/</link>
       <pubDate>Sun, 10 Mar 2024 15:57:16 +0100</pubDate>
       <guid>https://nicolaiarocci.com/voice-dictation-on-ios-and-macos-is-underestimated/</guid>
-      <description>Most people likely already know and use the voice dictation feature in iOS and macOS all day, but I&amp;rsquo;ve only now seen the light.
-Yesterday, I discovered I could dictate text notes to my iPhone, even offline. It works with Obsidian, WhatsApp, and any other app where I need to enter text, like the Safari search box. I suck at entering text on the phone. I also hate WhatsApp audio messages, but I often recur to them as, again, I suck at typing text on the phone.</description>
+      <description>&lt;p&gt;Most people likely already know and use the voice dictation feature in iOS and
+macOS all day, but I&amp;rsquo;ve only now seen the light.&lt;/p&gt;
+&lt;p&gt;Yesterday, I discovered I could dictate text notes to my iPhone, even offline.
+It works with Obsidian, WhatsApp, and any other app where I need to enter text,
+like the Safari search box. I suck at entering text on the phone. I also hate
+WhatsApp audio messages, but I often recur to them as, again, I suck at typing
+text on the phone. I can instead dictate those messages, and they will render as
+text as if I typed them; what a revelation!&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Most people likely already know and use the voice dictation feature in iOS and
 macOS all day, but I&rsquo;ve only now seen the light.</p>
 <p>Yesterday, I discovered I could dictate text notes to my iPhone, even offline.

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>web on Nicola Iarocci</title>
+    <title>Web on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/web/</link>
-    <description>Recent content in web on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Web on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 30 Sep 2021 07:05:25 +0100</lastBuildDate>
@@ -14,7 +14,12 @@
       <link>https://nicolaiarocci.com/the-word-for-web-is-forest/</link>
       <pubDate>Thu, 30 Sep 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-word-for-web-is-forest/</guid>
-      <description>When I read Entangled Life: How Fungi Make Our Worlds, Change Our Minds &amp;amp; Shape Our Futures by Merlin Sheldrake1, I was stunned by the scale and importance of the mycorrhizal network that lies beneath the surface of any given forest in the world. The &amp;ldquo;wood wide web&amp;rdquo;, as scientists started to call it, sounded like the perfect metaphor for such an incredibly efficient, symbiotic relation between fungi and trees.</description>
+      <description>&lt;p&gt;When I read &lt;em&gt;Entangled Life: How Fungi Make Our Worlds, Change Our Minds
+&amp;amp; Shape Our Futures&lt;/em&gt; by Merlin Sheldrake&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, I was stunned by the scale and
+importance of the mycorrhizal network that lies beneath the surface of any
+given forest in the world. The &amp;ldquo;wood wide web&amp;rdquo;, as scientists started to call
+it, sounded like the perfect metaphor for such an incredibly efficient,
+symbiotic relation between fungi and trees.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>When I read <em>Entangled Life: How Fungi Make Our Worlds, Change Our Minds
 &amp; Shape Our Futures</em> by Merlin Sheldrake<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, I was stunned by the scale and
 importance of the mycorrhizal network that lies beneath the surface of any
@@ -35,8 +40,7 @@ woodland—it’s rush-hour traffic alongside a freeway median of diseased trees
 littered with the detritus of late capitalism. If we want to repair this
 damage, we must look to the wisdom of the forest and listen to ecologists
 like Simard when they tell us just how sustainable, interdependent,
-life-giving systems work.</p>
-</blockquote>
+life-giving systems work.</p></blockquote>
 <p>Suzane Simard, the Canadian ecologist who revealed the cooperative nature of
 forests, explains that Mother Trees (the eldest trees) serve as &ldquo;central hubs
 of the wood wide web.  They are the strongest, the most resource-rich, with
@@ -52,16 +56,14 @@ homespun message-boards. Online advertising was in its infancy. But as the
 web has centralized, it has strayed further and further from the ideal
 presented by the wood wide web [..] By selecting for the most inflammatory
 and emotional content, Big Tech has algorithmically weeded the forest into
-a field of commercial timber.</p>
-</blockquote>
+a field of commercial timber.</p></blockquote>
 <p>Evans then proceeds to suggest that we should probably strive to imitate
 mycorrhizal networks and (re?)build decentralized networks, with &ldquo;Mother nodes
 &ndash; sites in the network bearing a responsibility of care.&rdquo; I&rsquo;ll stop here. Read
 the <a href="https://newpublic.org/article/1572/the-word-for-web-is-fores://newpublic.org/article/1572/the-word-for-web-is-forest">article</a> now, there is a lot to absorb. She doesn&rsquo;t go into the details
 of her proposed solution, but offers us an original, courageous and pregnant
 point of view to consider.</p>
-<p><img loading="lazy" src="/images/entangled_life.jpg#center" alt="Entangled life"  />
-</p>
+<p><img alt="Entangled life" loading="lazy" src="/images/entangled_life.jpg#center"></p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -83,12 +85,12 @@ point of view to consider.</p>
       <link>https://nicolaiarocci.com/primi-passi-con-ssh/</link>
       <pubDate>Wed, 23 May 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/primi-passi-con-ssh/</guid>
-      <description>Se siete ai primi passi nello sviluppo di applicazioni web vi consiglio la lettura di SSH: What and How. Senza troppi fronzoli l’articolo spiega le basi di SSH mettendo bene in luce le possibilità offerte da questo importante strumento di lavoro.
-Ogni giorno molti sviluppatori web usano SSH (“Secure Shell”) per gestire i loro server, fare backup, lavorare in remoto e una miriade di altre cosette. Oggi vi spiego cos’è e da dove viene SSH e, soprattutto, vi insegno come configurarlo sul vostro server remoto o sulla vostra rete locale.</description>
+      <description>&lt;p&gt;Se siete ai primi passi nello sviluppo di applicazioni web vi consiglio la lettura di &lt;!-- raw HTML omitted --&gt;SSH: What and How&lt;!-- raw HTML omitted --&gt;. Senza troppi fronzoli l’articolo spiega le basi di SSH mettendo bene in luce le possibilità offerte da questo importante strumento di lavoro.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ogni giorno molti sviluppatori web usano SSH (“Secure Shell”) per gestire i loro server, fare backup, lavorare in remoto e una miriade di altre cosette. Oggi vi spiego cos’è e da dove viene SSH e, soprattutto, vi insegno come configurarlo sul vostro server remoto o sulla vostra rete locale. Cominciamo!&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Se siete ai primi passi nello sviluppo di applicazioni web vi consiglio la lettura di <!-- raw HTML omitted -->SSH: What and How<!-- raw HTML omitted -->. Senza troppi fronzoli l’articolo spiega le basi di SSH mettendo bene in luce le possibilità offerte da questo importante strumento di lavoro.</p>
 <blockquote>
-<p>Ogni giorno molti sviluppatori web usano SSH (“Secure Shell”) per gestire i loro server, fare backup, lavorare in remoto e una miriade di altre cosette. Oggi vi spiego cos’è e da dove viene SSH e, soprattutto, vi insegno come configurarlo sul vostro server remoto o sulla vostra rete locale. Cominciamo!</p>
-</blockquote>
+<p>Ogni giorno molti sviluppatori web usano SSH (“Secure Shell”) per gestire i loro server, fare backup, lavorare in remoto e una miriade di altre cosette. Oggi vi spiego cos’è e da dove viene SSH e, soprattutto, vi insegno come configurarlo sul vostro server remoto o sulla vostra rete locale. Cominciamo!</p></blockquote>
 ]]></content:encoded>
     </item>
     <item>
@@ -96,7 +98,7 @@ Ogni giorno molti sviluppatori web usano SSH (“Secure Shell”) per gestire i 
       <link>https://nicolaiarocci.com/conosco-solo-php-come-scrivo-una-applicazione-web-in-python/</link>
       <pubDate>Mon, 07 May 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/conosco-solo-php-come-scrivo-una-applicazione-web-in-python/</guid>
-      <description>Venite da PHP e siete incuriositi da Python? Vi consiglio la lettura di Python FAQ Webdev: i web framework Python dal punto di vista di un ex sviluppatore PHP.</description>
+      <description>&lt;p&gt;Venite da PHP e siete incuriositi da Python? Vi consiglio la lettura di &lt;!-- raw HTML omitted --&gt;Python FAQ Webdev&lt;!-- raw HTML omitted --&gt;: i web framework Python dal punto di vista di un ex sviluppatore PHP.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Venite da PHP e siete incuriositi da Python? Vi consiglio la lettura di <!-- raw HTML omitted -->Python FAQ Webdev<!-- raw HTML omitted -->: i web framework Python dal punto di vista di un ex sviluppatore PHP.</p>
 ]]></content:encoded>
     </item>
@@ -105,7 +107,7 @@ Ogni giorno molti sviluppatori web usano SSH (“Secure Shell”) per gestire i 
       <link>https://nicolaiarocci.com/python-per-il-web/</link>
       <pubDate>Thu, 20 Oct 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/python-per-il-web/</guid>
-      <description>Python for the Web è una agile guida introduttiva per chi vuole accedere al Web via Python. Vengono presentate tre eccellenti librerie: Requests, simplejson e lxml. La prima consente di interagire facilmente coi siti Web da Python, la seconda serve a processare i flussi JSON e l’ultima è una fantastica risorsa per lo scraping (l’ho usata in un mio progetto, ve la consiglio senz’altro). L’ultimo argomento della guida è la creazione di siti web in Python attraverso il framework Django.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Python for the Web&lt;!-- raw HTML omitted --&gt; è una agile guida introduttiva per chi vuole accedere al Web via Python. Vengono presentate tre eccellenti librerie: &lt;!-- raw HTML omitted --&gt;Requests&lt;!-- raw HTML omitted --&gt;, &lt;!-- raw HTML omitted --&gt;simplejson&lt;!-- raw HTML omitted --&gt; e &lt;!-- raw HTML omitted --&gt;lxml&lt;!-- raw HTML omitted --&gt;. La prima consente di interagire facilmente coi siti Web da Python, la seconda serve a processare i flussi JSON e l’ultima è una fantastica risorsa per lo scraping (l’ho usata in un mio progetto, ve la consiglio senz’altro). L’ultimo argomento della guida è la creazione di siti web in Python attraverso il framework &lt;!-- raw HTML omitted --&gt;Django&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Python for the Web<!-- raw HTML omitted --> è una agile guida introduttiva per chi vuole accedere al Web via Python. Vengono presentate tre eccellenti librerie: <!-- raw HTML omitted -->Requests<!-- raw HTML omitted -->, <!-- raw HTML omitted -->simplejson<!-- raw HTML omitted --> e <!-- raw HTML omitted -->lxml<!-- raw HTML omitted -->. La prima consente di interagire facilmente coi siti Web da Python, la seconda serve a processare i flussi JSON e l’ultima è una fantastica risorsa per lo scraping (l’ho usata in un mio progetto, ve la consiglio senz’altro). L’ultimo argomento della guida è la creazione di siti web in Python attraverso il framework <!-- raw HTML omitted -->Django<!-- raw HTML omitted -->.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
@@ -117,8 +119,7 @@ Ogni giorno molti sviluppatori web usano SSH (“Secure Shell”) per gestire i 
       <link>https://nicolaiarocci.com/quattro-passi-tra-le-nuvole-al-romagna-camp-2011/</link>
       <pubDate>Mon, 22 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/quattro-passi-tra-le-nuvole-al-romagna-camp-2011/</guid>
-      <description>“Quattro passi tra le nuvole (e non scordate il paracadute)” è il titolo del mio intervento al Romagna Camp 2011. Racconterò la mia esperienza nella fornitura di servizi cloud alle small business italiane. In questi giorni di ferie ho cominciato buttare giù qualche appunto e abbozzare le prime slide. La sfida è condensare tutto quel che c’è da dire in quindici minuti.
-Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 settembre) sono in calendario una cena, 16 speech e 7 ignite.</description>
+      <description>&lt;p&gt;“Quattro passi tra le nuvole (e non scordate il paracadute)” è il titolo del mio intervento al &lt;!-- raw HTML omitted --&gt;Romagna Camp 2011&lt;!-- raw HTML omitted --&gt;. Racconterò la mia esperienza nella fornitura di servizi cloud alle small business italiane. In questi giorni di ferie ho cominciato buttare giù qualche appunto e abbozzare le prime slide. La sfida è condensare tutto quel che c’è da dire in quindici minuti.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>“Quattro passi tra le nuvole (e non scordate il paracadute)” è il titolo del mio intervento al <!-- raw HTML omitted -->Romagna Camp 2011<!-- raw HTML omitted -->. Racconterò la mia esperienza nella fornitura di servizi cloud alle small business italiane. In questi giorni di ferie ho cominciato buttare giù qualche appunto e abbozzare le prime slide. La sfida è condensare tutto quel che c’è da dire in quindici minuti.</p>
 <!-- raw HTML omitted -->
 <p>Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 settembre) sono in calendario <!-- raw HTML omitted -->una cena<!-- raw HTML omitted -->, <!-- raw HTML omitted -->16 speech<!-- raw HTML omitted --> e <!-- raw HTML omitted -->7 ignite<!-- raw HTML omitted -->. Gli iscritti sono già più di 200 tra imprenditori, web marketer, agenzie web, freelance e sviluppatori.</p>
@@ -428,7 +429,6 @@ Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 sett
 <ol start="3">
 <li>**[<!-- raw HTML omitted -->Settimana ricca di avvenimenti anche questa. SEO, Startup e applicazioni per Smartphone in primo piano ma non mancano altre chicche per buongustai. Al decimo posto una curiosità non ha nulla da spartire con gli argomenti trattati di solito, ma quelle foto dovevo segnalarvele. Ringrazio chi mi ha contattato via mail, Facebook e Twitter. A quanto pare la rubrica piace e farò il possibile per portarla avanti migliorando la qualità delle selezioni, come sempre assolutamente arbitrarie.</li>
 </ol>
-<!-- raw HTML omitted -->
 <ol>
 <li><strong><a href="http://cdixon.org/2011/03/05/seo-is-no-longer-a-viable-marketing-strategy-for-startups/">SEO non è più una strategia valida per le Startup</a></strong></li>
 </ol>
@@ -500,7 +500,8 @@ Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 sett
       <link>https://nicolaiarocci.com/il-processo-creativo-nellera-moderna/</link>
       <pubDate>Sat, 19 Feb 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/il-processo-creativo-nellera-moderna/</guid>
-      <description> </description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
       <content:encoded><![CDATA[<!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 ]]></content:encoded>

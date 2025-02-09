@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>windows on Nicola Iarocci</title>
+    <title>Windows on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/windows/</link>
-    <description>Recent content in windows on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Windows on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 12 Feb 2014 00:00:00 +0000</lastBuildDate>
@@ -14,12 +14,12 @@
       <link>https://nicolaiarocci.com/what-the-heck-is-happening-to-windows/</link>
       <pubDate>Wed, 12 Feb 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/what-the-heck-is-happening-to-windows/</guid>
-      <description>This oh so this.
-If you look back over the decades at the many high-level complaints that have been leveled at Windows, one in particular sticks out: Unlike Mac OS, in particular, Windows has always attempted to satisfy every possible customer need, and as such it often provides multiple ways to accomplish the same thing. The result is a messy product, if you will, one that lacks the singular vision that is typically associated with the Mac and Apple’s other products.</description>
+      <description>&lt;p&gt;This oh so this.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you look back over the decades at the many high-level complaints that have been leveled at Windows, one in particular sticks out: Unlike Mac OS, in particular, Windows has always attempted to satisfy every possible customer need, and as such it often provides multiple ways to accomplish the same thing. The result is a messy product, if you will, one that lacks the singular vision that is typically associated with the Mac and Apple’s other products.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>This oh so this.</p>
 <blockquote>
-<p>If you look back over the decades at the many high-level complaints that have been leveled at Windows, one in particular sticks out: Unlike Mac OS, in particular, Windows has always attempted to satisfy every possible customer need, and as such it often provides multiple ways to accomplish the same thing. The result is a messy product, if you will, one that lacks the singular vision that is typically associated with the Mac and Apple’s other products.</p>
-</blockquote>
+<p>If you look back over the decades at the many high-level complaints that have been leveled at Windows, one in particular sticks out: Unlike Mac OS, in particular, Windows has always attempted to satisfy every possible customer need, and as such it often provides multiple ways to accomplish the same thing. The result is a messy product, if you will, one that lacks the singular vision that is typically associated with the Mac and Apple’s other products.</p></blockquote>
 <p>via <a href="http://winsupersite.com/windows-8/what-heck-happening-windows">What the Heck is Happening to Windows?</a>ì</p>
 ]]></content:encoded>
     </item>
@@ -37,21 +37,18 @@ If you look back over the decades at the many high-level complaints that have be
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <blockquote>
-<p>You all saw a very small technology demo of Windows 8, and a brief press release. We’re all being quiet right now because we can’t comment on this. It’s not because we don’t care, aren’t listening, have given up, or are agreeing or disagreeing with you on something. All I can say for now is to please wait until September. If we say more before then, that will be great, but there are no promises (and I’m not aware of any plans) to say more right now. I’m very sorry that there’s nothing else to share at the moment. I know that answer is terrible, but it’s all that we can say right now. Seriously.</p>
-</blockquote>
+<p>You all saw a very small technology demo of Windows 8, and a brief press release. We’re all being quiet right now because we can’t comment on this. It’s not because we don’t care, aren’t listening, have given up, or are agreeing or disagreeing with you on something. All I can say for now is to please wait until September. If we say more before then, that will be great, but there are no promises (and I’m not aware of any plans) to say more right now. I’m very sorry that there’s nothing else to share at the moment. I know that answer is terrible, but it’s all that we can say right now. Seriously.</p></blockquote>
 <p>Quindi bocche cucite, almeno fino a Settembre. In seguito Brown interviene ancora, tirato per la giacchetta dai molti che hanno interpretato le sue parole nelle maniere più disparate:</p>
 <blockquote>
 <p>This whole thing has blown way out of proportion. Base your information on our primary sources (like our press release), not on third party speculation. That’s not to minimize how everyone feels, but keep in mind that Windows 8 itself is still a ways off from retail, and even much further away from internal IT adoption. The 8 weeks until //build/ is a pretty small amount of time to wait in comparison.</p>
-<p>Take some vacation time this summer, and look forward to the //build/ conference. Stop speculating based on just a small demo of some very cool new technology. Tell your management to do the same: if they’re basing your project work for the next X years on the results of a quick demo for an unreleased operating system, then they are doing you and your company a real disservice.</p>
-</blockquote>
+<p>Take some vacation time this summer, and look forward to the //build/ conference. Stop speculating based on just a small demo of some very cool new technology. Tell your management to do the same: if they’re basing your project work for the next X years on the results of a quick demo for an unreleased operating system, then they are doing you and your company a real disservice.</p></blockquote>
 <p>Windows 8 è ben lontano dall’essere pronto, e quel che si è visto nel filmato è solo la prima di una serie di anteprime. Inutile fare speculazioni basate su una demo di pochi minuti. Questa estate godetevi le vacanza, ne riparleremo al vostro ritorno. Dite ai vostri manager di fare lo stesso. <strong>Se stanno pianificando il lavoro dei prossimi anni basandosi solo su una breve anteprima di un sistema operativo non ancora pronto, allora stanno facendo un grave errore</strong>.</p>
 <h2 id="non-è-mica-la-prima-volta">Non è mica la prima volta</h2>
 <p>Niente da obiettare da parte mia. Mi limito a rilevare che non è la prima volta che il futuro delle piattaforme Microsoft viene messo in discussione anche dallo stesso personale Microsoft. Leggendaria la gaffe di <!-- raw HTML omitted -->Bob Muglia<!-- raw HTML omitted -->, Vice President for Server and Tools Businesses (mica cotica) riportata fedelmente da <!-- raw HTML omitted -->Mary Jo Foley<!-- raw HTML omitted -->:</p>
 <blockquote>
 <p>“Silverlight is our development platform for Windows Phone,” he said. Silverlight also has some “sweet spots” in media and line-of-business applications, he said.</p>
 <p>But when it comes to touting Silverlight as Microsoft’s vehicle for delivering a cross-platform runtime, “<strong>our strategy has shifted</strong>,” Muglia told me.</p>
-<p>Silverlight will continue to be a cross-platform solution, working on a variety of operating system/browser platforms, going forward, he said. “But <strong>HTML is the only true cross platform solution for everything</strong>, including (Apple’s) iOS platform,” Muglia said.</p>
-</blockquote>
+<p>Silverlight will continue to be a cross-platform solution, working on a variety of operating system/browser platforms, going forward, he said. “But <strong>HTML is the only true cross platform solution for everything</strong>, including (Apple’s) iOS platform,” Muglia said.</p></blockquote>
 <p>All’epoca fu necessario un comunicato congiunto di Steve Ballmer (CEO Microsoft) e del penitente Bob Muglia per acquietare la tempesta scatenata da queste parole. Sarà un caso che recentemente Muglia abbia annunciato il trasloco ad altri lidi?</p>
 <p>Il fatto è che le tante aziende che hanno investito molto e – ahimé – esclusivamente sulle piattaforme Microsoft ora guardano con terrore a uno scenario, per quanto improbabile, che non veda Silverlight, WPF e .NET in cima all’agenda della casa madre.</p>
 <h2 id="img-classalignright-titlehtml5-logo-srchttpi2wpcomnicolaiaroccicomwp-contentuploadshtml5-logopngresize1282c150-althtml5-logo-data-recalc-dims1-il-futuro-del-web-è-silverlight"><!-- raw HTML omitted -->Il futuro del Web è Silverlight?</h2>

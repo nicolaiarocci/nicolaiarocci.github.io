@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>cerberus on Nicola Iarocci</title>
+    <title>Cerberus on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/cerberus/</link>
-    <description>Recent content in cerberus on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Cerberus on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 10 Aug 2023 07:05:25 +0100</lastBuildDate>
@@ -14,7 +14,10 @@
       <link>https://nicolaiarocci.com/cerberus-v1.3.5-released/</link>
       <pubDate>Thu, 10 Aug 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/cerberus-v1.3.5-released/</guid>
-      <description>Thanks to funkyfuture&amp;rsquo;s tireless work, yesterday we released version 1.3.5 of Cerberus, the data validation package for Python. This release officially supports Python 3.10 and 3.11, fixes a few issues, and proudly displays a new documentation theme which I dig, and I hope you&amp;rsquo;ll do the same. As usual, see the changelog for details.</description>
+      <description>&lt;p&gt;Thanks to &lt;a href=&#34;https://github.com/funkyfuture&#34;&gt;funkyfuture&lt;/a&gt;&amp;rsquo;s tireless work, yesterday we released &lt;a href=&#34;https://pypi.org/project/Cerberus/1.3.5/&#34;&gt;version 1.3.5&lt;/a&gt; of &lt;a href=&#34;https://docs.python-cerberus.org&#34;&gt;Cerberus&lt;/a&gt;, the data
+validation package for Python. This release officially supports Python 3.10 and 3.11, fixes a few issues, and proudly
+displays a new documentation theme which I dig, and I hope you&amp;rsquo;ll do the same. As usual, see the &lt;a href=&#34;https://docs.python-cerberus.org/changelog.html#version-1-3-5&#34;&gt;changelog&lt;/a&gt; for
+details.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Thanks to <a href="https://github.com/funkyfuture">funkyfuture</a>&rsquo;s tireless work, yesterday we released <a href="https://pypi.org/project/Cerberus/1.3.5/">version 1.3.5</a> of <a href="https://docs.python-cerberus.org">Cerberus</a>, the data
 validation package for Python. This release officially supports Python 3.10 and 3.11, fixes a few issues, and proudly
 displays a new documentation theme which I dig, and I hope you&rsquo;ll do the same. As usual, see the <a href="https://docs.python-cerberus.org/changelog.html#version-1-3-5">changelog</a> for
@@ -26,8 +29,15 @@ details.</p>
       <link>https://nicolaiarocci.com/a-project-you-maintain-has-been-designated-as-critical/</link>
       <pubDate>Mon, 18 Jul 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/a-project-you-maintain-has-been-designated-as-critical/</guid>
-      <description>Last week, I got a mail from PyPI, the Python package index. They informed me that one of my open source projects had been designated as &amp;lsquo;critical,&amp;rsquo; and I was therefore required to enable two-factor authentication. If I didn&amp;rsquo;t oblige, I would soon lose the ability to add new releases or modify the project.
-The project in question was Cerberus. The &amp;lsquo;critical&amp;rsquo; designation happens when a project has been in the top 1% of downloads over the prior six months.</description>
+      <description>&lt;p&gt;Last week, I got a mail from PyPI, the Python package index. They informed me
+that one of my open source projects had been designated as &amp;lsquo;critical,&amp;rsquo; and
+I was therefore required to enable two-factor authentication. If I didn&amp;rsquo;t
+oblige, I would soon lose the ability to add new releases or modify the
+project.&lt;/p&gt;
+&lt;p&gt;The project in question was &lt;a href=&#34;https://python-cerberus.org/&#34;&gt;Cerberus&lt;/a&gt;. The &amp;lsquo;critical&amp;rsquo; designation happens
+when a project has been in the top 1% of downloads over the prior six months.
+Given that there are currently 388K packages on the Python Package Index,
+I must admit that having one of my projects in the top 1% does feel good.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Last week, I got a mail from PyPI, the Python package index. They informed me
 that one of my open source projects had been designated as &lsquo;critical,&rsquo; and
 I was therefore required to enable two-factor authentication. If I didn&rsquo;t
@@ -55,8 +65,7 @@ criticality, then the index wants to exercise a certain amount of control
 a “critical” package. It becomes that by adoption over time. Right now the
 consequence of being a critical package is quite mild: you only need to
 enable 2FA. But a line has been drawn  now and I&rsquo;m not sure why it
-wouldn&rsquo;t be in the index best interest to put further restrictions in place.</p>
-</blockquote>
+wouldn&rsquo;t be in the index best interest to put further restrictions in place.</p></blockquote>
 <p>I think Armin&rsquo;s post is worth reading. I share some of his concerns, although
 I don&rsquo;t consider &lsquo;users vetting,&rsquo; as he suggests, a suitable alternative for
 authentication (vetting solves a different problem).</p>
@@ -79,8 +88,15 @@ authentication (vetting solves a different problem).</p>
       <link>https://nicolaiarocci.com/eve-and-cerberus-funding-campaign/</link>
       <pubDate>Thu, 27 Apr 2017 11:23:05 +0200</pubDate>
       <guid>https://nicolaiarocci.com/eve-and-cerberus-funding-campaign/</guid>
-      <description>Last February I published The State of Eve REST Framework. Among other things in that post, I mentioned that I was looking for ways that would allow me to allocate more time to the project (and its satellites).
-I really feel like I should put more effort into Eve, Cerberus and satellite projects Eve-Swagger, Flask-Sentinel, Eve.NET, etc. I love working on these projects and I know a lot of people rely on them.</description>
+      <description>&lt;p&gt;Last February I published &lt;a href=&#34;https://nicolaiarocci.com/the-state-of-the-eve-rest-framework-project/&#34;&gt;The State of Eve REST Framework&lt;/a&gt;. Among other
+things in that post, I mentioned that I was looking for ways that would allow
+me to allocate more time to the project (and its satellites).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I really feel like I should put more effort into Eve, Cerberus and satellite
+projects Eve-Swagger, Flask-Sentinel, Eve.NET, etc. I love working on these
+projects and I know a lot of people rely on them. Also, I have big ideas that
+I would like to play with. At this point in time however, I cannot afford
+allocating more time to not-paying-the-bill activities.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Last February I published <a href="https://nicolaiarocci.com/the-state-of-the-eve-rest-framework-project/">The State of Eve REST Framework</a>. Among other
 things in that post, I mentioned that I was looking for ways that would allow
 me to allocate more time to the project (and its satellites).</p>
@@ -89,8 +105,7 @@ me to allocate more time to the project (and its satellites).</p>
 projects Eve-Swagger, Flask-Sentinel, Eve.NET, etc. I love working on these
 projects and I know a lot of people rely on them. Also, I have big ideas that
 I would like to play with. At this point in time however, I cannot afford
-allocating more time to not-paying-the-bill activities.</p>
-</blockquote>
+allocating more time to not-paying-the-bill activities.</p></blockquote>
 <p>Well, I went and looked at the possibilities, and finally settled down on
 a model which would probably be best defined as a blend between the Vue.js and
 the Django REST framework models.</p>
@@ -120,8 +135,8 @@ this site. If you want to get in touch, I am @<a href="http://twitter.com/nicola
       <link>https://nicolaiarocci.com/cerberus-1-0-released/</link>
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/cerberus-1-0-released/</guid>
-      <description>After a one year long development cycle I am proud to announce that version 1.0 of Cerberus, the data validation and transformation tool for Python, is finally out. A while ago I wrote an article on the new features and breaking changes that come with it, so please check it out carefully along with the changelog.
-I just wish to reiterate my gratitude towards all the contributors to the project. The ones who specifically worked on this awesome release, those who made it all possible, are: Matthew Ellison, Dominik Kellner, David Kirkendall, Damián Nohales, calve, Jonathan Huot, Roman Redkovich and of course the one and the only Frank Sachsenheim, whose role was pivotal to this release.</description>
+      <description>&lt;p&gt;After a one year long development cycle I am proud to announce that version 1.0 of &lt;a href=&#34;http://python-cerberus.org&#34;&gt;Cerberus&lt;/a&gt;, the data validation and transformation tool for Python, is finally out. A while ago I wrote an article on the &lt;a href=&#34;http://nicolaiarocci.com/cerberus-1-0-coming-going-awesome/&#34;&gt;new features and breaking changes&lt;/a&gt; that come with it, so please check it out carefully along with the &lt;a href=&#34;http://docs.python-cerberus.org/en/stable/changelog.html&#34;&gt;changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I just wish to reiterate my gratitude towards all the contributors to the project. The ones who specifically worked on this awesome release, those who made it all possible, are: Matthew Ellison, Dominik Kellner, David Kirkendall, Damián Nohales, calve, Jonathan Huot, Roman Redkovich and of course the one and the only Frank Sachsenheim, whose role was pivotal to this release.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>After a one year long development cycle I am proud to announce that version 1.0 of <a href="http://python-cerberus.org">Cerberus</a>, the data validation and transformation tool for Python, is finally out. A while ago I wrote an article on the <a href="http://nicolaiarocci.com/cerberus-1-0-coming-going-awesome/">new features and breaking changes</a> that come with it, so please check it out carefully along with the <a href="http://docs.python-cerberus.org/en/stable/changelog.html">changelog</a>.</p>
 <p>I just wish to reiterate my gratitude towards all the contributors to the project. The ones who specifically worked on this awesome release, those who made it all possible, are: Matthew Ellison, Dominik Kellner, David Kirkendall, Damián Nohales, calve, Jonathan Huot, Roman Redkovich and of course the one and the only Frank Sachsenheim, whose role was pivotal to this release.</p>
 <p>If you want to get in touch, I am <a href="https://twitter.com/nicolaiarocci">@nicolaiarocci</a> on Twitter.</p>
@@ -220,8 +235,9 @@ I just wish to reiterate my gratitude towards all the contributors to the projec
       <link>https://nicolaiarocci.com/cerberus-0-9-has-been-released/</link>
       <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/cerberus-0-9-has-been-released/</guid>
-      <description>A few days ago Cerberus 0.9 was released. It includes a bunch of new cool features, let’s browse through some of them.
-Collection rules First up is the new set of anyof, allof, noneof and oneof validation rules. anyof allows you to list multiple sets of rules to validate against. The field will be considered valid if it validates against one set in the list. For example, to verify that a property is a number between 0 and 10 or 100 and 110, you could do the following:</description>
+      <description>&lt;p&gt;A few days ago &lt;a href=&#34;https://github.com/nicolaiarocci/cerberus&#34;&gt;Cerberus 0.9&lt;/a&gt; was released. It includes a bunch of new cool features, let’s browse through some of them.&lt;/p&gt;
+&lt;h2 id=&#34;collection-rules&#34;&gt;Collection rules&lt;/h2&gt;
+&lt;p&gt;First up is the new set of &lt;code&gt;anyof&lt;/code&gt;, &lt;code&gt;allof&lt;/code&gt;, &lt;code&gt;noneof&lt;/code&gt; and &lt;code&gt;oneof&lt;/code&gt; validation rules. &lt;code&gt;anyof&lt;/code&gt; allows you to list multiple sets of rules to validate against. The field will be considered valid if it validates against one set in the list. For example, to verify that a property is a number between 0 and 10 or 100 and 110, you could do the following:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>A few days ago <a href="https://github.com/nicolaiarocci/cerberus">Cerberus 0.9</a> was released. It includes a bunch of new cool features, let’s browse through some of them.</p>
 <h2 id="collection-rules">Collection rules</h2>
 <p>First up is the new set of <code>anyof</code>, <code>allof</code>, <code>noneof</code> and <code>oneof</code> validation rules. <code>anyof</code> allows you to list multiple sets of rules to validate against. The field will be considered valid if it validates against one set in the list. For example, to verify that a property is a number between 0 and 10 or 100 and 110, you could do the following:</p>
@@ -339,9 +355,25 @@ False
       <link>https://nicolaiarocci.com/new-releases-for-cerberus-and-eve/</link>
       <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/new-releases-for-cerberus-and-eve/</guid>
-      <description>Yesterday Cerberus 0.8.1 was released with a few little fixes, one of them being more a new feature than a fix really: sub-document fields can now be set as field dependencies by using a ‘dotted’ notation.
-So, suppose we set the following validation schema:
-schema = { &#39;test_field&#39;: { &#39;dependencies&#39;: [ &#39;a_dict.foo&#39;, &#39;a_dict.bar&#39; ] }, &#39;a_dict&#39;: { &#39;type&#39;: &#39;dict&#39;, &#39;schema&#39;: { &#39;foo&#39;: {&#39;type&#39;: &#39;string&#39;}, &#39;bar&#39;: {&#39;type&#39;: &#39;string&#39;} } } } Then, we can validate a document like this:</description>
+      <description>&lt;p&gt;Yesterday &lt;a href=&#34;https://github.com/nicolaiarocci/cerberus&#34;&gt;Cerberus 0.8.1&lt;/a&gt; was released with a few little &lt;a href=&#34;https://github.com/nicolaiarocci/cerberus/blob/master/CHANGES&#34;&gt;fixes&lt;/a&gt;, one of them being more a new feature than a fix really: sub-document fields can now be set as field dependencies by using a ‘dotted’ notation.&lt;/p&gt;
+&lt;p&gt;So, suppose we set the following validation schema:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;schema = {
+  &#39;test_field&#39;: {
+    &#39;dependencies&#39;: [
+      &#39;a_dict.foo&#39;, 
+      &#39;a_dict.bar&#39;
+    ]
+  },
+  &#39;a_dict&#39;: {
+    &#39;type&#39;: &#39;dict&#39;,
+      &#39;schema&#39;: {
+        &#39;foo&#39;: {&#39;type&#39;: &#39;string&#39;},
+        &#39;bar&#39;: {&#39;type&#39;: &#39;string&#39;}
+      }
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then, we can validate a document like this:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Yesterday <a href="https://github.com/nicolaiarocci/cerberus">Cerberus 0.8.1</a> was released with a few little <a href="https://github.com/nicolaiarocci/cerberus/blob/master/CHANGES">fixes</a>, one of them being more a new feature than a fix really: sub-document fields can now be set as field dependencies by using a ‘dotted’ notation.</p>
 <p>So, suppose we set the following validation schema:</p>
 <pre><code>schema = {
@@ -382,7 +414,7 @@ False
       <link>https://nicolaiarocci.com/eve-0-5-released-today/</link>
       <pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/eve-0-5-released-today/</guid>
-      <description>Eve v0.5 was released today. Cerberus v0.8 only a few days ago. A whole lot of new features, changes and fixes are coming with these releases so make sure to check the official release post to gather all the news.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://python-eve.org&#34;&gt;Eve&lt;/a&gt; v0.5 was released today. &lt;a href=&#34;https://github.com/nicolaiarocci/cerberus&#34;&gt;Cerberus&lt;/a&gt; v0.8 only a few days ago. A whole lot of new features, changes and fixes are coming with these releases so make sure to check the &lt;a href=&#34;http://blog.python-eve.org/eve-05-released&#34;&gt;official release post&lt;/a&gt; to gather all the news.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="http://python-eve.org">Eve</a> v0.5 was released today. <a href="https://github.com/nicolaiarocci/cerberus">Cerberus</a> v0.8 only a few days ago. A whole lot of new features, changes and fixes are coming with these releases so make sure to check the <a href="http://blog.python-eve.org/eve-05-released">official release post</a> to gather all the news.</p>
 ]]></content:encoded>
     </item>
@@ -391,9 +423,13 @@ False
       <link>https://nicolaiarocci.com/validating-user-objects-cerberus/</link>
       <pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/validating-user-objects-cerberus/</guid>
-      <description>People keep telling me that they want to validate class and instance attributes (object properties) with Cerberus. While it certainly wasn’t conceived with that goal in mind, it is actually very possible to leverage both the Python data model and Cerberus extensibility to achieve object validation.
-Nuts &amp;amp; Bolts Let’s say that we have a simple class:
-&amp;gt;&amp;gt;&amp;gt; class Person(object): ... pass We create a Person instance and add a few properties and values:</description>
+      <description>&lt;p&gt;People keep telling me that they want to validate class and instance attributes (object properties) with &lt;a href=&#34;https://github.com/nicolaiarocci/cerberus&#34;&gt;Cerberus&lt;/a&gt;. While it certainly wasn’t conceived with that goal in mind, it is actually very possible to leverage both the Python &lt;a href=&#34;https://docs.python.org/2/reference/datamodel.html&#34;&gt;data model&lt;/a&gt; and Cerberus &lt;a href=&#34;http://cerberus.readthedocs.org/en/latest/#custom-validators&#34;&gt;extensibility&lt;/a&gt; to achieve object validation.&lt;/p&gt;
+&lt;h2 id=&#34;nuts--bolts&#34;&gt;Nuts &amp;amp; Bolts&lt;/h2&gt;
+&lt;p&gt;Let’s say that we have a simple class:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; class Person(object):
+...     pass
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We create a &lt;code&gt;Person&lt;/code&gt; instance and add a few properties and values:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>People keep telling me that they want to validate class and instance attributes (object properties) with <a href="https://github.com/nicolaiarocci/cerberus">Cerberus</a>. While it certainly wasn’t conceived with that goal in mind, it is actually very possible to leverage both the Python <a href="https://docs.python.org/2/reference/datamodel.html">data model</a> and Cerberus <a href="http://cerberus.readthedocs.org/en/latest/#custom-validators">extensibility</a> to achieve object validation.</p>
 <h2 id="nuts--bolts">Nuts &amp; Bolts</h2>
 <p>Let’s say that we have a simple class:</p>
@@ -514,7 +550,7 @@ False
       <link>https://nicolaiarocci.com/eve-0-4-cerberus-0-7-released/</link>
       <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/eve-0-4-cerberus-0-7-released/</guid>
-      <description>Eve 0.4 adds cool features like Document Versioning and Coherence Mode. Cerberus 0.7 allows regex validation amongst other niceties. Make sure to check the official v0.4 announcement for all the details.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Eve 0.4 adds cool features like Document Versioning and Coherence Mode. Cerberus 0.7 allows regex validation amongst other niceties. Make sure to check the &lt;a href=&#34;http://blog.python-eve.org/eve-04-released&#34;&gt;official v0.4 announcement&lt;/a&gt; for all the details.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Eve 0.4 adds cool features like Document Versioning and Coherence Mode. Cerberus 0.7 allows regex validation amongst other niceties. Make sure to check the <a href="http://blog.python-eve.org/eve-04-released">official v0.4 announcement</a> for all the details.</p>
 ]]></content:encoded>
     </item>
@@ -595,7 +631,13 @@ False
       <link>https://nicolaiarocci.com/cerberus-0-0-2-tipi-di-dato-personalizzati/</link>
       <pubDate>Thu, 22 Nov 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/cerberus-0-0-2-tipi-di-dato-personalizzati/</guid>
-      <description>Primo aggiornamento per Cerberus, lo strumento per la convalida dei dizionari Python che ho rilasciato qualche tempo fa. Ora è possibile estendere la lista dei tipi di dato da convalidare, aggiungendone di propri. Per esempio nella nostra REST API (che usa Cerberus per la validazione) uso questa tecnica per implementare e convalidare il tipo ObjectId, tipico di MongoDB. I dettagli li trovate nella documentazione.</description>
+      <description>&lt;p&gt;Primo aggiornamento per &lt;!-- raw HTML omitted --&gt;Cerberus&lt;!-- raw HTML omitted --&gt;,
+lo strumento per la convalida dei dizionari Python che ho rilasciato qualche
+tempo fa. Ora è possibile estendere la lista dei tipi di dato da convalidare,
+aggiungendone di propri. Per esempio nella nostra REST API (che usa Cerberus
+per la validazione) uso questa tecnica per implementare e convalidare il tipo
+&lt;code&gt;ObjectId&lt;/code&gt;, tipico di MongoDB. I dettagli
+li trovate nella &lt;!-- raw HTML omitted --&gt;documentazione&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Primo aggiornamento per <!-- raw HTML omitted -->Cerberus<!-- raw HTML omitted -->,
 lo strumento per la convalida dei dizionari Python che ho rilasciato qualche
 tempo fa. Ora è possibile estendere la lista dei tipi di dato da convalidare,
@@ -610,8 +652,10 @@ li trovate nella <!-- raw HTML omitted -->documentazione<!-- raw HTML omitted --
       <link>https://nicolaiarocci.com/convalidare-un-dizionario-python-con-cerberus/</link>
       <pubDate>Tue, 16 Oct 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/convalidare-un-dizionario-python-con-cerberus/</guid>
-      <description>Da qualche giorno ho rilasciato Cerberus, uno strumento per la convalida dei dizionari Python. Gli passate un dizionario, lui lo confronta con uno schema di convalida e, se c’è qualcosa che non va (per esempio una chiave sconosciuta, oppure un valore di tipo sbagliato), ve lo segnala.
-Sono due le caratteristiche che rendono Cerberus interessante: è facilmente estensibile (la documentazione include un esempio di estensione del sistema di convalida), e non si blocca sollevando un’eccezione al primo problema riscontrato: gli errori, quando presenti, sono tutti riportati in una lista a fine convalida.</description>
+      <description>&lt;p&gt;Da qualche giorno ho rilasciato &lt;!-- raw HTML omitted --&gt;Cerberus&lt;!-- raw HTML omitted --&gt;, uno strumento per la convalida dei dizionari Python. Gli passate un dizionario, lui lo confronta con uno schema di convalida e, se c’è qualcosa che non va (per esempio una chiave sconosciuta, oppure un valore di tipo sbagliato), ve lo segnala.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Sono due le caratteristiche che rendono Cerberus interessante: è facilmente estensibile (la &lt;!-- raw HTML omitted --&gt;documentazione&lt;!-- raw HTML omitted --&gt; include un esempio di estensione del sistema di convalida), e non si blocca sollevando un’eccezione al primo problema riscontrato: gli errori, quando presenti, sono tutti riportati in una lista a fine convalida.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Da qualche giorno ho rilasciato <!-- raw HTML omitted -->Cerberus<!-- raw HTML omitted -->, uno strumento per la convalida dei dizionari Python. Gli passate un dizionario, lui lo confronta con uno schema di convalida e, se c’è qualcosa che non va (per esempio una chiave sconosciuta, oppure un valore di tipo sbagliato), ve lo segnala.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->

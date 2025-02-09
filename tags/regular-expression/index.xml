@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>regular expression on Nicola Iarocci</title>
+    <title>Regular Expression on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/regular-expression/</link>
-    <description>Recent content in regular expression on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Regular Expression on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 03 Mar 2011 00:00:00 +0000</lastBuildDate>
@@ -14,8 +14,16 @@
       <link>https://nicolaiarocci.com/introduzione-alle-regular-expression-terza-parte/</link>
       <pubDate>Thu, 03 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/introduzione-alle-regular-expression-terza-parte/</guid>
-      <description>Benvenuto alla terza e ultima parte della nostra Introduzione alle Regular Expression. Concluso il capitolo sarai in grado di affrontare la maggior parte dei problemi di ricerca nel testo. Se ancora non l&amp;rsquo;hai fatto ti consiglio di leggere la Prima Parte e la Seconda Parte. Ricorda che puoi usare la pagina di prova per testare le query della guida.
-Avidità Il problema della avidità degli operatori regex diventa evidente quando si comincia a lavorare su ricerche avanzate.</description>
+      <description>&lt;p&gt;Benvenuto alla terza e ultima parte della nostra &lt;em&gt;Introduzione alle Regular
+Expression&lt;/em&gt;. Concluso il capitolo sarai  in grado di affrontare la maggior
+parte dei problemi di ricerca nel testo. Se ancora non l&amp;rsquo;hai fatto ti
+consiglio di leggere la &lt;a href=&#34;http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/&#34;&gt;Prima Parte&lt;/a&gt; e la &lt;a href=&#34;http://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/&#34;&gt;Seconda Parte&lt;/a&gt;. Ricorda che
+puoi usare la &lt;!-- raw HTML omitted --&gt;pagina di
+prova&lt;!-- raw HTML omitted --&gt; per testare le query della guida.&lt;/p&gt;
+&lt;h2 id=&#34;avidità&#34;&gt;Avidità&lt;/h2&gt;
+&lt;p&gt;Il problema della avidità degli operatori regex diventa evidente quando si
+comincia a lavorare su ricerche avanzate. Un caso tipico è il parsing di file
+XML o HTML.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Benvenuto alla terza e ultima parte della nostra <em>Introduzione alle Regular
 Expression</em>. Concluso il capitolo sarai  in grado di affrontare la maggior
 parte dei problemi di ricerca nel testo. Se ancora non l&rsquo;hai fatto ti
@@ -151,9 +159,14 @@ Ringrazio l&rsquo;autore per il permesso accordatomi.</p>
       <link>https://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/</link>
       <pubDate>Sat, 26 Feb 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/</guid>
-      <description>Questa è la seconda parte della serie Introduzione alle Regular Expression. Se non hai ancora letto la prima parte ti consiglio di farlo. Puoi usare la pagina demo per provare le query della guida.
-Negazione [^] Abbiamo già conosciuto la [cornice]. Una caratteristica importante di cui non abbiamo ancora parlato è la negazione. Supponiamo di voler cercare qualunque carattere eccetto la lettera a.
-[^a] # trova b,c,d,e,f,\n .... qualunque carattere eccetto &#39;a&#39; La negazione si applica a tutti i caratteri della cornice in cui compare l&amp;rsquo;operatore ˆ.</description>
+      <description>&lt;p&gt;Questa è la seconda parte della serie &lt;em&gt;Introduzione alle Regular Expression&lt;/em&gt;.
+Se non hai ancora letto la &lt;a href=&#34;http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/&#34;&gt;prima parte&lt;/a&gt; ti consiglio di farlo. Puoi usare
+la &lt;!-- raw HTML omitted --&gt;pagina demo&lt;!-- raw HTML omitted --&gt; per provare
+le query della guida.&lt;/p&gt;
+&lt;h2 id=&#34;negazione-&#34;&gt;Negazione [^]&lt;/h2&gt;
+&lt;p&gt;Abbiamo già conosciuto la &lt;code&gt;[cornice]&lt;/code&gt;. Una caratteristica importante di cui non
+abbiamo ancora parlato è la negazione. Supponiamo di voler cercare qualunque
+carattere &lt;em&gt;eccetto la lettera a&lt;/em&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Questa è la seconda parte della serie <em>Introduzione alle Regular Expression</em>.
 Se non hai ancora letto la <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/">prima parte</a> ti consiglio di farlo. Puoi usare
 la <!-- raw HTML omitted -->pagina demo<!-- raw HTML omitted --> per provare

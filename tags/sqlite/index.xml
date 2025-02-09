@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>sqlite on Nicola Iarocci</title>
+    <title>Sqlite on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/sqlite/</link>
-    <description>Recent content in sqlite on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Sqlite on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 22 Feb 2024 17:35:40 +0100</lastBuildDate>
@@ -14,8 +14,13 @@
       <link>https://nicolaiarocci.com/sqlite-foreign-key-constraints-are-disabled-by-default/</link>
       <pubDate>Thu, 22 Feb 2024 17:35:40 +0100</pubDate>
       <guid>https://nicolaiarocci.com/sqlite-foreign-key-constraints-are-disabled-by-default/</guid>
-      <description>Today, I learned that SQLite only enforces foreign-key constraints if explicitly instructed. I imagine this is well-known and trivial for the SQLite initiated, but we&amp;rsquo;re a Postgres shop; I have used SQLite sporadically, primarily for experiments like today&amp;rsquo;s, and this one amenity was certainly unexpected.
-Anyways. I had all my ON DELETE CASCADE constraints nicely configured, but related records in child tables were not being deleted when I deleted the parent.</description>
+      <description>&lt;p&gt;Today, I learned that SQLite only enforces foreign-key constraints if explicitly
+instructed. I imagine this is well-known and trivial for the SQLite initiated,
+but we&amp;rsquo;re a Postgres shop; I have used SQLite sporadically, primarily for
+experiments like today&amp;rsquo;s, and this one amenity was certainly unexpected.&lt;/p&gt;
+&lt;p&gt;Anyways. I had all my &lt;code&gt;ON DELETE CASCADE&lt;/code&gt; constraints nicely configured, but
+related records in child tables were not being deleted when I deleted the
+parent. Perplexed, I &lt;a href=&#34;https://www.sqlite.org/foreignkeys.html&#34;&gt;looked it up&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today, I learned that SQLite only enforces foreign-key constraints if explicitly
 instructed. I imagine this is well-known and trivial for the SQLite initiated,
 but we&rsquo;re a Postgres shop; I have used SQLite sporadically, primarily for
@@ -25,8 +30,7 @@ related records in child tables were not being deleted when I deleted the
 parent. Perplexed, I <a href="https://www.sqlite.org/foreignkeys.html">looked it up</a>.</p>
 <blockquote>
 <p>Foreign key constraints are disabled by default (for backwards compatibility),
-so must be enabled separately for each database connection.</p>
-</blockquote>
+so must be enabled separately for each database connection.</p></blockquote>
 <p>The quick fix was to add <code>&quot;foreign keys=true;&quot;</code> to our connection string.
 Alternatively, the application can also use a <code>PRAGMA foreign keys = ON;</code>
 statement to activate them once the connection is established, but it doesn&rsquo;t
@@ -38,14 +42,20 @@ make sense, as we need constraints active throughout the connection&rsquo;s life
       <link>https://nicolaiarocci.com/sqlite-is-the-only-database-you-will-ever-need-in-most-cases/</link>
       <pubDate>Sat, 17 Apr 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/sqlite-is-the-only-database-you-will-ever-need-in-most-cases/</guid>
-      <description>The name SQLite is a nice name, but the &amp;ldquo;lite&amp;rdquo; part is misleading, it sounds like it is only useful for tiny things - which is very wrong. SQLite should be named AwesomeSQL, because that is what it is. SQLite is probably the only database you will ever need in most cases
-Yeah. This article resonates with me. SQLite is the de-facto standard engine for embedded systems. But it should also be the go-to database for all those websites and services that don&amp;rsquo;t need to scale to multiple machines.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;The name SQLite is a nice name, but the &amp;ldquo;lite&amp;rdquo; part is misleading, it sounds
+like it is only useful for tiny things - which is very wrong. SQLite should
+be named AwesomeSQL, because that is what it is. SQLite is probably the only
+database you will ever need in most cases&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Yeah. &lt;a href=&#34;https://unixsheikh.com/articles/sqlite-the-only-database-you-will-ever-need-in-most-cases.html&#34;&gt;This article&lt;/a&gt; resonates with me. SQLite is the de-facto standard
+engine for embedded systems. But it should also be the go-to database for all
+those websites and services that don&amp;rsquo;t need to scale to multiple machines.
+Which, in the real world, happens way more frequently than we all imagine.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
 <p>The name SQLite is a nice name, but the &ldquo;lite&rdquo; part is misleading, it sounds
 like it is only useful for tiny things - which is very wrong. SQLite should
 be named AwesomeSQL, because that is what it is. SQLite is probably the only
-database you will ever need in most cases</p>
-</blockquote>
+database you will ever need in most cases</p></blockquote>
 <p>Yeah. <a href="https://unixsheikh.com/articles/sqlite-the-only-database-you-will-ever-need-in-most-cases.html">This article</a> resonates with me. SQLite is the de-facto standard
 engine for embedded systems. But it should also be the go-to database for all
 those websites and services that don&rsquo;t need to scale to multiple machines.

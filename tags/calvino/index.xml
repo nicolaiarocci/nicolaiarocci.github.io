@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>calvino on Nicola Iarocci</title>
+    <title>Calvino on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/calvino/</link>
-    <description>Recent content in calvino on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Calvino on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 17 Mar 2023 07:05:25 +0100</lastBuildDate>
@@ -14,12 +14,12 @@
       <link>https://nicolaiarocci.com/quoting-italo-calvino/</link>
       <pubDate>Fri, 17 Mar 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/quoting-italo-calvino/</guid>
-      <description>Quoting the last paragraph from Italo Calvino&amp;rsquo;s Invisible Cities:
-The inferno of the living is not something that will be; if there is one, it is what is already here, the inferno where we live every day, that we form by being together. There are two ways to escape suffering it. The first is easy for many: accept the inferno and become such a part of it that you can no longer see it.</description>
+      <description>&lt;p&gt;Quoting the last paragraph from Italo Calvino&amp;rsquo;s &lt;em&gt;Invisible Cities&lt;/em&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The inferno of the living is not something that will be; if there is one, it is what is already here, the inferno where we live every day, that we form by being together. There are two ways to escape suffering it. The first is easy for many: accept the inferno and become such a part of it that you can no longer see it. The second is risky and demands constant vigilance and apprehension: seek and learn to recognize who and what, in the midst of inferno, are not inferno, then make them endure, give them space.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Quoting the last paragraph from Italo Calvino&rsquo;s <em>Invisible Cities</em>:</p>
 <blockquote>
-<p>The inferno of the living is not something that will be; if there is one, it is what is already here, the inferno where we live every day, that we form by being together. There are two ways to escape suffering it. The first is easy for many: accept the inferno and become such a part of it that you can no longer see it. The second is risky and demands constant vigilance and apprehension: seek and learn to recognize who and what, in the midst of inferno, are not inferno, then make them endure, give them space.</p>
-</blockquote>
+<p>The inferno of the living is not something that will be; if there is one, it is what is already here, the inferno where we live every day, that we form by being together. There are two ways to escape suffering it. The first is easy for many: accept the inferno and become such a part of it that you can no longer see it. The second is risky and demands constant vigilance and apprehension: seek and learn to recognize who and what, in the midst of inferno, are not inferno, then make them endure, give them space.</p></blockquote>
 <p>My <em>Invisible Cities</em> review is available <a href="/book-review-invisible-cities/">here</a>.</p>
 ]]></content:encoded>
     </item>
@@ -28,7 +28,19 @@ The inferno of the living is not something that will be; if there is one, it is 
       <link>https://nicolaiarocci.com/book-review-invisible-cities/</link>
       <pubDate>Fri, 27 May 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/book-review-invisible-cities/</guid>
-      <description>&amp;ldquo;Kublai Khan does not necessarily believe everything Marco Polo says when he describes the cities visited on his expeditions, but the emperor of the Tartars does continue listening to the young Venetian with greater attention and curiosity than he shows any other messenger or explorer of his.&amp;rdquo; So begins Italo Calvino&amp;rsquo;s compilation of fragmentary urban images. As Marco tells the khan about Armilla, which &amp;ldquo;has nothing that makes it seem a city, except the water pipes that rise vertically where the houses should be and spread out horizontally where the floors should be,&amp;rdquo; the spider-web city of Octavia, and other marvelous burgs, it may be that he is creating them all out of his imagination, or perhaps he is recreating fine details of his native Venice over and over again, or perhaps he is simply recounting some of the myriad possible forms a city might take.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Kublai Khan does not necessarily believe everything Marco Polo says when he
+describes the cities visited on his expeditions, but the emperor of the
+Tartars does continue listening to the young Venetian with greater attention
+and curiosity than he shows any other messenger or explorer of his.&amp;rdquo; So
+begins Italo Calvino&amp;rsquo;s compilation of fragmentary urban images. As Marco
+tells the khan about Armilla, which &amp;ldquo;has nothing that makes it seem a city,
+except the water pipes that rise vertically where the houses should be and
+spread out horizontally where the floors should be,&amp;rdquo; the spider-web city of
+Octavia, and other marvelous burgs, it may be that he is creating them all
+out of his imagination, or perhaps he is recreating fine details of his
+native Venice over and over again, or perhaps he is simply recounting some of
+the myriad possible forms a city might take.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
 <p>&ldquo;Kublai Khan does not necessarily believe everything Marco Polo says when he
 describes the cities visited on his expeditions, but the emperor of the
@@ -41,8 +53,7 @@ spread out horizontally where the floors should be,&rdquo; the spider-web city o
 Octavia, and other marvelous burgs, it may be that he is creating them all
 out of his imagination, or perhaps he is recreating fine details of his
 native Venice over and over again, or perhaps he is simply recounting some of
-the myriad possible forms a city might take.</p>
-</blockquote>
+the myriad possible forms a city might take.</p></blockquote>
 <p>Invisible Cities is a collection of thoughts taking the form of cities or
 cities taking the form of thoughts. It is an aesthetic and allegorical
 description of some fictional, mostly surreal cities. Some of the portrayals
@@ -58,8 +69,7 @@ like Mervyn Peake&rsquo;s Gormenghast series or Hayao Miyazaki&rsquo;s animes. I
 Miyazaki, architecture plays a fundamental and often active role (think of
 Howl&rsquo;s Moving Castle). Likewise, Calvino&rsquo;s Cities are absolute protagonists,
 while Marco Polo and the khan are mere means to the narration.</p>
-<p><img loading="lazy" src="/images/citta-invisibili.jpg#right" alt="Le Città Invisibili"  />
-
+<p><img alt="Le Città Invisibili" loading="lazy" src="/images/citta-invisibili.jpg#right">
 Invisible Cities is one of Calvino&rsquo;s best works. Like others of his, it might
 even appear light to the superficial reader while it&rsquo;s chock full of precious
 insights and profound thoughts delivered by a master at the art.</p>
@@ -71,8 +81,7 @@ for many: accept the inferno and become such a part of it that you can no
 longer see it. The second is risky and demands constant vigilance and
 apprehension: seek and learn to recognize who and what, in the midst of
 inferno, are not inferno, then make them endure, give them space. ― Italo
-Calvino, Invisible Cities</p>
-</blockquote>
+Calvino, Invisible Cities</p></blockquote>
 ]]></content:encoded>
     </item>
   </channel>

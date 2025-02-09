@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>virtualbox on Nicola Iarocci</title>
+    <title>Virtualbox on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/virtualbox/</link>
-    <description>Recent content in virtualbox on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Virtualbox on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Sun, 14 Feb 2021 07:05:25 +0100</lastBuildDate>
@@ -14,9 +14,16 @@
       <link>https://nicolaiarocci.com/troubles-with-virtualbox-and-the-windows-subsystem-for-linux/</link>
       <pubDate>Sun, 14 Feb 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/troubles-with-virtualbox-and-the-windows-subsystem-for-linux/</guid>
-      <description>Today I learned the hard way: don&amp;rsquo;t you dare running a vanilla install of VirtualBox together with Windows Subsystem for Linux v2 (WSL2). It won&amp;rsquo;t work. That&amp;rsquo;s because WSL2 uses Hyper-V under the hood, which is incompatible with VirtualBox.
-According to the official documentation for VirtualBox v6.0:
-Oracle VM VirtualBox can be used on a Windows host where Hyper-V is running. This is an experimental feature. No configuration is required. Oracle VM VirtualBox detects Hyper-V automatically and uses Hyper-V as the virtualization engine for the host system.</description>
+      <description>&lt;p&gt;Today I learned the hard way: don&amp;rsquo;t you dare running a vanilla install of
+VirtualBox together with Windows Subsystem for Linux v2 (WSL2). It won&amp;rsquo;t work.
+That&amp;rsquo;s because WSL2 uses Hyper-V under the hood, which is incompatible with
+VirtualBox.&lt;/p&gt;
+&lt;p&gt;According to the &lt;a href=&#34;https://docs.oracle.com/en/virtualization/virtualbox/6.0/admin/hyperv-support.html&#34;&gt;official documentation&lt;/a&gt; for VirtualBox v6.0:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Oracle VM VirtualBox can be used on a Windows host where Hyper-V is running.
+&lt;strong&gt;This is an experimental feature&lt;/strong&gt;. No configuration is required. Oracle VM
+VirtualBox detects Hyper-V automatically and uses Hyper-V as the
+virtualization engine for the host system.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I learned the hard way: don&rsquo;t you dare running a vanilla install of
 VirtualBox together with Windows Subsystem for Linux v2 (WSL2). It won&rsquo;t work.
 That&rsquo;s because WSL2 uses Hyper-V under the hood, which is incompatible with
@@ -26,22 +33,19 @@ VirtualBox.</p>
 <p>Oracle VM VirtualBox can be used on a Windows host where Hyper-V is running.
 <strong>This is an experimental feature</strong>. No configuration is required. Oracle VM
 VirtualBox detects Hyper-V automatically and uses Hyper-V as the
-virtualization engine for the host system.</p>
-</blockquote>
+virtualization engine for the host system.</p></blockquote>
 <p>Well, that did not prove to be true in my case. Hence the experimental clause,
 I guess. A little googling revealed that, indeed, it did work for a while, then
 a new Windows 10 release broke it again:</p>
 <blockquote>
 <p>The Hyper-V API became a viable reality with 1803, practically with 1809. And
 it went fine with 1903. And it broke with 1909. Please use your favorite
-search engine for &ldquo;Immature API&rdquo;&hellip; (<a href="https://forums.virtualbox.org/viewtopic.php?f=6&amp;t=90853&amp;start=195#p465333">source</a>)</p>
-</blockquote>
+search engine for &ldquo;Immature API&rdquo;&hellip; (<a href="https://forums.virtualbox.org/viewtopic.php?f=6&amp;t=90853&amp;start=195#p465333">source</a>)</p></blockquote>
 <p>Even if it did work, however, you&rsquo;d run into some (possibly) severe
 performance degradation. Quoting from the same official documentation page:</p>
 <blockquote>
 <p>When using this feature, some host systems might experience significant
-Oracle VM VirtualBox performance degradation.</p>
-</blockquote>
+Oracle VM VirtualBox performance degradation.</p></blockquote>
 <p>If you don&rsquo;t need to run WSL2 and your VMs simultaneously, one workaround is to
 disable WSL2 in the Windows Features.  There, you have to disable Hyper-V,
 Virtual Machine Platform, and Windows Subsystem for Windows. Yes, I had to

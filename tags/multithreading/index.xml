@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>multithreading on Nicola Iarocci</title>
+    <title>Multithreading on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/multithreading/</link>
-    <description>Recent content in multithreading on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Multithreading on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Tue, 23 Apr 2013 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://nicolaiarocci.com/multi-threading-in-python/</link>
       <pubDate>Tue, 23 Apr 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/multi-threading-in-python/</guid>
-      <description>Multithreaded Python Tutorial with the “Threadworms” Demo è un’ottima guida introduttiva ai thread ed alla programmazione multithread in Python. Dalla teoria alla pratica, in pochi minuti si arriva a creare una variante multithread di Snake.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Multithreaded Python Tutorial with the “Threadworms” Demo&lt;!-- raw HTML omitted --&gt; è un’ottima guida introduttiva ai &lt;!-- raw HTML omitted --&gt;thread&lt;!-- raw HTML omitted --&gt; ed alla programmazione multithread in Python. Dalla teoria alla pratica, in pochi minuti si arriva a creare una variante multithread di &lt;!-- raw HTML omitted --&gt;Snake.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Multithreaded Python Tutorial with the “Threadworms” Demo<!-- raw HTML omitted --> è un’ottima guida introduttiva ai <!-- raw HTML omitted -->thread<!-- raw HTML omitted --> ed alla programmazione multithread in Python. Dalla teoria alla pratica, in pochi minuti si arriva a creare una variante multithread di <!-- raw HTML omitted -->Snake.<!-- raw HTML omitted --></p>
 ]]></content:encoded>
     </item>

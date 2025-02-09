@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>https on Nicola Iarocci</title>
+    <title>Https on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/https/</link>
-    <description>Recent content in https on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Https on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Sun, 29 Dec 2013 00:00:00 +0000</lastBuildDate>
@@ -14,11 +14,11 @@
       <link>https://nicolaiarocci.com/a-basic-guide-to-when-and-how-to-deploy-https/</link>
       <pubDate>Sun, 29 Dec 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/a-basic-guide-to-when-and-how-to-deploy-https/</guid>
-      <description>Many web developers know about SSL, but it is very common to see it only partially deployed, or not deployed where it should be. This basic guide on when and how to deploy SSL will help you avoid the most common mistakes.
-via A basic guide to when and how to deploy HTTPS — Erik Romijn.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Many web developers know about SSL, but it is very common to see it only partially deployed, or not deployed where it should be. This basic guide on when and how to deploy SSL will help you avoid the most common mistakes.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;via &lt;!-- raw HTML omitted --&gt;A basic guide to when and how to deploy HTTPS — Erik Romijn&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>Many web developers know about SSL, but it is very common to see it only partially deployed, or not deployed where it should be. This basic guide on when and how to deploy SSL will help you avoid the most common mistakes.</p>
-</blockquote>
+<p>Many web developers know about SSL, but it is very common to see it only partially deployed, or not deployed where it should be. This basic guide on when and how to deploy SSL will help you avoid the most common mistakes.</p></blockquote>
 <p>via <!-- raw HTML omitted -->A basic guide to when and how to deploy HTTPS — Erik Romijn<!-- raw HTML omitted -->.</p>
 ]]></content:encoded>
     </item>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>csharp on Nicola Iarocci</title>
+    <title>Csharp on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/csharp/</link>
-    <description>Recent content in csharp on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Csharp on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 09 Dec 2024 17:31:18 +0100</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://nicolaiarocci.com/on-csharp-and-dotnet-quick-release-cycle/</link>
       <pubDate>Mon, 09 Dec 2024 17:31:18 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-csharp-and-dotnet-quick-release-cycle/</guid>
-      <description>I sat to jot down a quick introduction to my C# 13 What&amp;rsquo;s New and Interesting session at the upcoming .NET Conference Italia 2024 next week, and what I ended up with instead is a long rant or, should I dare, stream of consciousness that is certainly inappropriate for a five-minute introduction. I&amp;rsquo;ll have to cut most of it down, especially on the personal story part, but my site might be a good place to host it in all its completeness.</description>
+      <description>&lt;p&gt;&lt;em&gt;I sat to jot down a quick introduction to my &lt;a href=&#34;https://nicolaiarocci.com/speaking-at-the-dotnet-conference-italia-2024/&#34;&gt;C# 13 What&amp;rsquo;s New and Interesting&lt;/a&gt; session at the upcoming .NET Conference Italia 2024 next week, and what I ended up with instead is a long rant or, should I dare, stream of consciousness that is certainly inappropriate for a five-minute introduction. I&amp;rsquo;ll have to cut most of it down, especially on the personal story part, but my site might be a good place to host it in all its completeness. I may reference this post at the start of the session on Monday for those few poor souls who might be interested.&lt;/em&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><em>I sat to jot down a quick introduction to my <a href="/speaking-at-the-dotnet-conference-italia-2024/">C# 13 What&rsquo;s New and Interesting</a> session at the upcoming .NET Conference Italia 2024 next week, and what I ended up with instead is a long rant or, should I dare, stream of consciousness that is certainly inappropriate for a five-minute introduction. I&rsquo;ll have to cut most of it down, especially on the personal story part, but my site might be a good place to host it in all its completeness. I may reference this post at the start of the session on Monday for those few poor souls who might be interested.</em></p>
 <p>Exactly one year ago, on December 4, 2023, to be precise, we were here, in this same room, at the same conference, presenting C# 12. Some of you in the audience were present back then. If so, please raise your hands. Twelve months later, here we are again, looking at a new version of C#. It&rsquo;s the new normal; this has been happening, give or take, since the advent of .NET Core and C# 8 in 2019. Previously, C# had a new release every 2–3 years, so the release rate has doubled or even tripled recently. Is this good news? If you&rsquo;ve followed forums or social media, you might have noticed some controversy about the topic. The main complaint is that the language is changing too quickly, &ldquo;chasing trends,&rdquo; with no valuable addition to its core.</p>
 <p>Most of these complaints come from old-timers around my age (maybe even ten years younger because I&rsquo;m seasoned) and have been in the .NET environment for many, perhaps too many years. There&rsquo;s always a certain inertia, a form of resistance to change, especially when it&rsquo;s rapid. But I&rsquo;m seasoned enough to remember when complaints went in the opposite direction: back then, the .NET Framework (the historical, monolithic, Windows-only version) moved like a dinosaur while the world was racing ahead. New languages were blooming. Old competitors were evolving at double or triple the speed, constantly innovating, and—this is key—attracting hordes of developers. There was a critical moment when this attraction became so intense that more and more developers set aside .NET and C# to explore new directions. I know because I was one of them.</p>
@@ -42,8 +42,8 @@
       <link>https://nicolaiarocci.com/how-to-handle-custom-claims-in-an-oidc-authenticated-aspnet-core-app/</link>
       <pubDate>Fri, 31 May 2024 15:53:30 +0200</pubDate>
       <guid>https://nicolaiarocci.com/how-to-handle-custom-claims-in-an-oidc-authenticated-aspnet-core-app/</guid>
-      <description>Today, I learned how to handle custom claims in an Open ID Connect authenticated ASP.NET Core app.
-The scenario goes like this. I have an ASP.NET Core app that authenticates with Open Id Connect. It receives a bearer token from the authentication server. Besides OIDC claims, this token has been forged with additional custom claims for use in the app. However, only ODIC claims exist when I parse HttpContext.User.Identity.Claims in my middleware.</description>
+      <description>&lt;p&gt;Today, I learned how to handle custom claims in an Open ID Connect authenticated ASP.NET Core app.&lt;/p&gt;
+&lt;p&gt;The scenario goes like this. I have an ASP.NET Core app that authenticates with Open Id Connect. It receives a bearer token from the authentication server. Besides OIDC claims, this token has been forged with additional custom claims for use in the app. However, only ODIC claims exist when I parse &lt;code&gt;HttpContext.User.Identity.Claims&lt;/code&gt; in my middleware. If I retrieve the token with &lt;code&gt;HttpContext.GetTokenAsync&lt;/code&gt; and decode it, I confirm it contains all the claims I need. Where have my custom claims gone? Or, how can I get &lt;code&gt;User.Identity&lt;/code&gt; to provide them along with the OIDC ones?&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today, I learned how to handle custom claims in an Open ID Connect authenticated ASP.NET Core app.</p>
 <p>The scenario goes like this. I have an ASP.NET Core app that authenticates with Open Id Connect. It receives a bearer token from the authentication server. Besides OIDC claims, this token has been forged with additional custom claims for use in the app. However, only ODIC claims exist when I parse <code>HttpContext.User.Identity.Claims</code> in my middleware. If I retrieve the token with <code>HttpContext.GetTokenAsync</code> and decode it, I confirm it contains all the claims I need. Where have my custom claims gone? Or, how can I get <code>User.Identity</code> to provide them along with the OIDC ones?</p>
 <p>As it turns out, one must hack them into the <code>User.Identity.Claims</code> collection by hand. That&rsquo;s done by leveraging the <code>OnTokenValidated</code> event handler like this:</p>
@@ -86,10 +86,34 @@ The scenario goes like this. I have an ASP.NET Core app that authenticates with 
       <link>https://nicolaiarocci.com/csharp-collection-expressions/</link>
       <pubDate>Fri, 10 May 2024 17:39:02 +0200</pubDate>
       <guid>https://nicolaiarocci.com/csharp-collection-expressions/</guid>
-      <description>This is a follow-up post to C# 12 Primary Constructors. Like that article, this one originates from the preparation notes for my presentation at the ABP Dotnet Conference 2024.
-I love collection expressions. Like primary constructors, collection expressions will see a significant adoption in the long run.
-Collection expressions introduce a new way to initialize common collection values in a terse, unified syntax.
-This is how we initialize collections today:</description>
+      <description>&lt;p&gt;This is a follow-up post to &lt;a href=&#34;https://nicolaiarocci.com/csharp-primary-constructors&#34;&gt;C# 12 Primary
+Constructors&lt;/a&gt;. Like that article, this one
+originates from the preparation notes for my presentation at the &lt;a href=&#34;https://abp.io/conference/2024&#34;&gt;ABP Dotnet
+Conference 2024&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;I love collection expressions. Like primary constructors, collection
+expressions will see a significant adoption in the long run.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Collection expressions introduce a new way to initialize common collection
+values in a terse, unified syntax.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This is how we initialize collections today:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;&#34;&gt;var&lt;/span&gt; x1 = &lt;span style=&#34;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;&#34;&gt;int&lt;/span&gt;[] { 1, 2, 3, 4 };
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;&#34;&gt;var&lt;/span&gt; x2 = Array.Empty&amp;lt;&lt;span style=&#34;&#34;&gt;int&lt;/span&gt;&amp;gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;WriteByteArray(&lt;span style=&#34;font-weight:bold&#34;&gt;new&lt;/span&gt;[] { (&lt;span style=&#34;&#34;&gt;byte&lt;/span&gt;)1, (&lt;span style=&#34;&#34;&gt;byte&lt;/span&gt;)2, (&lt;span style=&#34;&#34;&gt;byte&lt;/span&gt;)3 });
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;List&amp;lt;&lt;span style=&#34;&#34;&gt;int&lt;/span&gt;&amp;gt; x3 = &lt;span style=&#34;font-weight:bold&#34;&gt;new&lt;/span&gt;() { 1, 2, 3, 4 };
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Span&amp;lt;DateTime&amp;gt; dates = &lt;span style=&#34;font-weight:bold&#34;&gt;stackalloc&lt;/span&gt; DateTime[] { GetDate(0), GetDate(1) };
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;WriteByteSpan(&lt;span style=&#34;font-weight:bold&#34;&gt;stackalloc&lt;/span&gt;[] { (&lt;span style=&#34;&#34;&gt;byte&lt;/span&gt;)1, (&lt;span style=&#34;&#34;&gt;byte&lt;/span&gt;)2, (&lt;span style=&#34;&#34;&gt;byte&lt;/span&gt;)3 });
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Notice how the code is diverse depending on the type and the context. It is also
+verbose. Look at how we initialize an empty &lt;code&gt;int&lt;/code&gt; array (second line); it&amp;rsquo;s
+lengthy and starkly contrasts with the previous line, where we initialize the
+same type with some actual values.  In many situations, casting is needed;
+again, take a look at the &lt;code&gt;WriteByteArray&lt;/code&gt; and &lt;code&gt;WriteByteSpan&lt;/code&gt; calls.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>This is a follow-up post to <a href="/csharp-primary-constructors">C# 12 Primary
 Constructors</a>. Like that article, this one
 originates from the preparation notes for my presentation at the <a href="https://abp.io/conference/2024">ABP Dotnet
@@ -254,8 +278,8 @@ future.</p>
       <link>https://nicolaiarocci.com/csharp-primary-constructors/</link>
       <pubDate>Thu, 09 May 2024 18:04:39 +0200</pubDate>
       <guid>https://nicolaiarocci.com/csharp-primary-constructors/</guid>
-      <description>I wrapped up my C# 12 session at the ABP Dotnet Conference 2024, and I wanted to share the take-home points, at least about the most relevant features in this language version. Posting the slides made no sense as they were minimal; all the content was packed in the live demo.
-In a follow-up post, I plan to address Collection Expressions (done) and maybe &amp;ldquo;type any aliases&amp;rdquo;; this is about Primary Constructors.</description>
+      <description>&lt;p&gt;I wrapped up my C# 12 session at the &lt;a href=&#34;https://abp.io/conference/2024&#34;&gt;ABP Dotnet Conference 2024&lt;/a&gt;, and I wanted to share the take-home points, at least about the most relevant features in this language version. Posting the slides made no sense as they were minimal; all the content was packed in the live demo.&lt;/p&gt;
+&lt;p&gt;In a follow-up post, I plan to address Collection Expressions (&lt;a href=&#34;https://nicolaiarocci.com/csharp-collection-expressions&#34;&gt;done&lt;/a&gt;) and maybe &amp;ldquo;type any aliases&amp;rdquo;; this is about Primary Constructors.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I wrapped up my C# 12 session at the <a href="https://abp.io/conference/2024">ABP Dotnet Conference 2024</a>, and I wanted to share the take-home points, at least about the most relevant features in this language version. Posting the slides made no sense as they were minimal; all the content was packed in the live demo.</p>
 <p>In a follow-up post, I plan to address Collection Expressions (<a href="/csharp-collection-expressions">done</a>) and maybe &ldquo;type any aliases&rdquo;; this is about Primary Constructors.</p>
 <ul>
@@ -331,10 +355,10 @@ In a follow-up post, I plan to address Collection Expressions (done) and maybe &
       <link>https://nicolaiarocci.com/i-am-speaking-at-abp-dotnet-conf24.md/</link>
       <pubDate>Mon, 15 Apr 2024 15:01:12 +0200</pubDate>
       <guid>https://nicolaiarocci.com/i-am-speaking-at-abp-dotnet-conf24.md/</guid>
-      <description>I am thrilled to have the opportunity to present at an international conference once again. On May 9th, I will speak at the ABP Donet Conf&#39;24. My session, titled C #12: What&amp;rsquo;s New and Interesting, is on a topic I&amp;rsquo;m passionate about.
-With the alignment of C# and Dotnet Core release cycles, the C# release cadence has increased (we&amp;rsquo;re on a yearly cycle now), while feature quantity has reduced for individual releases, which is good.</description>
-      <content:encoded><![CDATA[<p><img loading="lazy" src="/images/abp-dotnet-conf24.png" alt="Nicola Iarocci: C#12 What&amp;rsquo;s new and Interesting session at ABP Dotnet Conf&#39;24"  />
-</p>
+      <description>&lt;p&gt;&lt;img alt=&#34;Nicola Iarocci: C#12 What&amp;rsquo;s new and Interesting session at ABP Dotnet Conf&#39;24&#34; loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/abp-dotnet-conf24.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I am thrilled to have the opportunity to present at an international conference once again. On May 9th, I will speak at the &lt;a href=&#34;https://abp.io/conference/2024&#34;&gt;ABP Donet Conf&#39;24&lt;/a&gt;. My session, titled C #12: What&amp;rsquo;s New and Interesting, is on a topic I&amp;rsquo;m passionate about.&lt;/p&gt;
+&lt;p&gt;With the alignment of C# and Dotnet Core release cycles, the C# release cadence has increased (we&amp;rsquo;re on a yearly cycle now), while feature quantity has reduced for individual releases, which is good. The faster, smaller iterations allow for quicker course corrections, and introducing fewer new features makes it easier to embrace the changes.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><img alt="Nicola Iarocci: C#12 What&rsquo;s new and Interesting session at ABP Dotnet Conf'24" loading="lazy" src="/images/abp-dotnet-conf24.png"></p>
 <p>I am thrilled to have the opportunity to present at an international conference once again. On May 9th, I will speak at the <a href="https://abp.io/conference/2024">ABP Donet Conf'24</a>. My session, titled C #12: What&rsquo;s New and Interesting, is on a topic I&rsquo;m passionate about.</p>
 <p>With the alignment of C# and Dotnet Core release cycles, the C# release cadence has increased (we&rsquo;re on a yearly cycle now), while feature quantity has reduced for individual releases, which is good. The faster, smaller iterations allow for quicker course corrections, and introducing fewer new features makes it easier to embrace the changes.</p>
 <p>The ABP Dotnet Conf'24<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> will be held online on 8-9th May; the <a href="https://abp.io/conference/2024#agenda">lineup and agenda</a> look great, so reserve a ticket before they are sold out, and see you there!</p>
@@ -353,9 +377,19 @@ With the alignment of C# and Dotnet Core release cycles, the C# release cadence 
       <link>https://nicolaiarocci.com/video-of-my-csharp-12-session-at-dotnet-conference-italia-2023/</link>
       <pubDate>Fri, 26 Jan 2024 15:39:31 +0100</pubDate>
       <guid>https://nicolaiarocci.com/video-of-my-csharp-12-session-at-dotnet-conference-italia-2023/</guid>
-      <description>The video and slides of my C# 12 session at .NET Conference Italia 2023 is finally available online. Unfortunately it&amp;rsquo;s just my voice and my laptop screen, and that&amp;rsquo;s too bad because the location was as cool as it can get, and the room was packed.
-It is in Italian1 and you need to login in order to see it (sorry, I don&amp;rsquo;t have control over it.)
-I also submitted to several international conferences; let&amp;rsquo;s see what happens.</description>
+      <description>&lt;p&gt;The video and slides of my C# 12 session at .NET Conference Italia 2023 is
+finally &lt;a href=&#34;https://www.ugidotnet.org/e/sessione/3295/C-12-Cosa-c-e-di-nuovo-e-interessante&#34;&gt;available
+online&lt;/a&gt;.
+Unfortunately it&amp;rsquo;s just my voice and my laptop screen, and that&amp;rsquo;s too bad
+because the location was as cool as it can get, and the room was packed.&lt;/p&gt;
+&lt;p&gt;It is in Italian&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; and you need to login in order to see it (sorry, I
+don&amp;rsquo;t have control over it.)&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;I also submitted to several international conferences; let&amp;rsquo;s see what
+happens. Since the COVID hiatus, I&amp;rsquo;ve had no luck with international events.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>The video and slides of my C# 12 session at .NET Conference Italia 2023 is
 finally <a href="https://www.ugidotnet.org/e/sessione/3295/C-12-Cosa-c-e-di-nuovo-e-interessante">available
 online</a>.
@@ -379,8 +413,17 @@ happens. Since the COVID hiatus, I&rsquo;ve had no luck with international event
       <link>https://nicolaiarocci.com/how-to-implement-pkce-code-challenge-in-csharp/</link>
       <pubDate>Wed, 17 Jan 2024 18:28:14 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-implement-pkce-code-challenge-in-csharp/</guid>
-      <description>Today&amp;rsquo;s fun was implementing OAuth2&amp;rsquo;s RFC 7636&amp;rsquo;s PKCE (Proof Key for Code Exchange) in C#. It&amp;rsquo;s relatively straightforward, but I decided to share my implementation should it be helpful to someone else out there.
-PKCE is an extension to the Authorization Code flow to prevent CSRF and authorization code injection attacks. [..] It was originally designed to protect the authorization code flow in mobile apps, but its ability to prevent authorization code injection makes it useful for every type of OAuth client, even web apps that use client authentication (source).</description>
+      <description>&lt;p&gt;Today&amp;rsquo;s fun was implementing OAuth2&amp;rsquo;s &lt;a href=&#34;http://tools.ietf.org/html/rfc7636&#34;&gt;RFC
+7636&lt;/a&gt;&amp;rsquo;s PKCE (Proof Key for Code Exchange)
+in C#. It&amp;rsquo;s relatively straightforward, but I decided to share my implementation
+should it be helpful to someone else out there.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;PKCE  is an extension to the Authorization Code flow to prevent CSRF and
+authorization code injection attacks. [..] It was originally designed to protect
+the authorization code flow in mobile apps, but its ability to prevent
+authorization code injection makes it useful for every type of OAuth client,
+even web apps that use client authentication
+(&lt;a href=&#34;https://oauth.net/2/pkce/&#34;&gt;source&lt;/a&gt;).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today&rsquo;s fun was implementing OAuth2&rsquo;s <a href="http://tools.ietf.org/html/rfc7636">RFC
 7636</a>&rsquo;s PKCE (Proof Key for Code Exchange)
 in C#. It&rsquo;s relatively straightforward, but I decided to share my implementation
@@ -391,8 +434,7 @@ authorization code injection attacks. [..] It was originally designed to protect
 the authorization code flow in mobile apps, but its ability to prevent
 authorization code injection makes it useful for every type of OAuth client,
 even web apps that use client authentication
-(<a href="https://oauth.net/2/pkce/">source</a>).</p>
-</blockquote>
+(<a href="https://oauth.net/2/pkce/">source</a>).</p></blockquote>
 <p>In a nutshell:</p>
 <ol>
 <li>The client requests a single-use authorization code to an authorization server. In doing that, it includes a <code>code_challenge</code> with the request.</li>
@@ -445,9 +487,18 @@ implementation. Fun stuff.</p>
       <link>https://nicolaiarocci.com/how-to-use-xmlwriter-along-with-stringwriter-to-properly-serialize-a-utf-8-string/</link>
       <pubDate>Thu, 09 Nov 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-use-xmlwriter-along-with-stringwriter-to-properly-serialize-a-utf-8-string/</guid>
-      <description>Today, I (re)learned how to serialize an XML to a UTF-8 string. Like all the other times I did this, I got backstabbed by StringWriter, which only supports UTF-16. A simple code snippet like this:
-await using var sw = new StringWriter(); await using var w = XmlWriter.Create(sw, new() { Async = true }); ... await w.FlushAsync(); return sw.ToString(); Will emit this output:
-&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-16&amp;#34;?&amp;gt;&amp;lt;... There&amp;rsquo;s nothing inherently wrong with UTF-16, but XML is usually UTF-8, so one must do something about it.</description>
+      <description>&lt;p&gt;Today, I (re)learned how to serialize an XML to a UTF-8 string. Like all the other times I did this, I got backstabbed
+by StringWriter, which only supports UTF-16. A simple code snippet like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    await using &lt;span style=&#34;font-weight:bold&#34;&gt;var&lt;/span&gt; sw = new StringWriter();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    await using &lt;span style=&#34;font-weight:bold&#34;&gt;var&lt;/span&gt; w = XmlWriter.Create(sw, new() { Async = true });
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    ...
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    await w.FlushAsync();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;return&lt;/span&gt; sw.ToString();
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Will emit this output:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-16&amp;#34;?&amp;gt;&amp;lt;...
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;There&amp;rsquo;s nothing inherently wrong with UTF-16, but XML is usually UTF-8, so one must do something about it. StringWriter
+exposes an &lt;code&gt;Encoding&lt;/code&gt; property, but it is read-only for unknown reasons. One might think that given that the XmlWriter
+allows setting its own &lt;code&gt;Encoding&lt;/code&gt; value, something like this would work:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today, I (re)learned how to serialize an XML to a UTF-8 string. Like all the other times I did this, I got backstabbed
 by StringWriter, which only supports UTF-16. A simple code snippet like this:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> sw = new StringWriter();
@@ -490,8 +541,11 @@ UTF-8 out-of-the-box is one of them.</p>
       <link>https://nicolaiarocci.com/linq-distinctby-on-a-property-for-dotnet-standard-and-old-dotnet-versions/</link>
       <pubDate>Wed, 25 Oct 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/linq-distinctby-on-a-property-for-dotnet-standard-and-old-dotnet-versions/</guid>
-      <description>Today I learned how to implement a custom Enumerable.DistinctBy extension method that returns distinct elements from a sequence according to a specified key selector function.
-.NET 6 and its successors have the method built in within LINQ, but I needed it in a .NET Standard 2.0 class library, so I was out of luck. My implementation is simple, not different from others I found online, and should also work fine with old .</description>
+      <description>&lt;p&gt;Today I learned how to implement a custom &lt;code&gt;Enumerable.DistinctBy&lt;/code&gt; extension method that returns distinct elements from a
+sequence according to a specified key selector function.&lt;/p&gt;
+&lt;p&gt;.NET 6 and its successors have the method &lt;a href=&#34;https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.distinctby?view=net-6.0&#34;&gt;built in&lt;/a&gt; within LINQ, but I needed it in a .NET Standard 2.0 class
+library, so I was out of luck. My implementation is simple, not different from &lt;a href=&#34;https://stackoverflow.com/a/489421/323269&#34;&gt;others&lt;/a&gt; I found online, and should
+also work fine with old .NET releases. Here it is:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I learned how to implement a custom <code>Enumerable.DistinctBy</code> extension method that returns distinct elements from a
 sequence according to a specified key selector function.</p>
 <p>.NET 6 and its successors have the method <a href="https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.distinctby?view=net-6.0">built in</a> within LINQ, but I needed it in a .NET Standard 2.0 class
@@ -521,7 +575,11 @@ to, the .NET source code.</p>
       <link>https://nicolaiarocci.com/homebrew-and-dotnet-8-preview-dont-like-each-other/</link>
       <pubDate>Tue, 13 Jun 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/homebrew-and-dotnet-8-preview-dont-like-each-other/</guid>
-      <description>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&amp;rsquo;m working on a C# 12 presentation for our local developer meetup, and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As version 7 was initially installed with Homebrew, I also wanted to install version 8 Preview with Homebrew, but that recipe was unavailable. Not perfectly happy with that, I fell back to the stand-alone installer, expecting problems.</description>
+      <description>&lt;p&gt;Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&amp;rsquo;m working on a &lt;a href=&#34;https://www.meetup.com/it-IT/devromagna/events/293340671/&#34;&gt;C# 12 presentation
+for our local developer meetup&lt;/a&gt;, and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As
+version 7 was initially installed with Homebrew, I also wanted to install version 8 Preview with Homebrew, but that
+recipe was unavailable. Not perfectly happy with that, I fell back to the stand-alone installer, expecting
+problems.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&rsquo;m working on a <a href="https://www.meetup.com/it-IT/devromagna/events/293340671/">C# 12 presentation
 for our local developer meetup</a>, and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As
 version 7 was initially installed with Homebrew, I also wanted to install version 8 Preview with Homebrew, but that
@@ -542,15 +600,17 @@ I had to forego the Homebrew installation, which did not uninstall the SDK itsel
       <link>https://nicolaiarocci.com/making-csharp-and-omnisharp-play-well-with-neovim/</link>
       <pubDate>Fri, 03 Mar 2023 08:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/making-csharp-and-omnisharp-play-well-with-neovim/</guid>
-      <description>I&amp;rsquo;ve recently moved away from my custom Neovim configuration to embrace LazyVim. LazyVim is a Neovim setup with sane default settings for options, autocmds, and keymaps. It boldly aims to transform Neovim into a full-fledged IDE that is easy to extend and customize. It comes with a wealth of plugins pre-configured and ready to use, and it is also blazing fast. Elijah Manor has a fantastic introductory video on YouTube; I suggest you take the time to look at it.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve recently moved away from my custom Neovim configuration to embrace &lt;a href=&#34;https://www.lazyvim.org/&#34;&gt;LazyVim&lt;/a&gt;. LazyVim is a Neovim setup with sane
+default settings for options, autocmds, and keymaps. It boldly aims to transform Neovim into a full-fledged IDE that is
+easy to extend and customize. It comes with a wealth of plugins pre-configured and ready to use, and it is also blazing
+fast. Elijah Manor has a fantastic introductory video on YouTube; I suggest you take the time to look at it.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I&rsquo;ve recently moved away from my custom Neovim configuration to embrace <a href="https://www.lazyvim.org/">LazyVim</a>. LazyVim is a Neovim setup with sane
 default settings for options, autocmds, and keymaps. It boldly aims to transform Neovim into a full-fledged IDE that is
 easy to extend and customize. It comes with a wealth of plugins pre-configured and ready to use, and it is also blazing
 fast. Elijah Manor has a fantastic introductory video on YouTube; I suggest you take the time to look at it.</p>
-<p>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/N93cTbtLCIM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+<p><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/N93cTbtLCIM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
 <!-- raw HTML omitted -->
 So far I&rsquo;m delighted with the result. In the process, I learned about several useful plugins I now use regularly.</p>
@@ -658,8 +718,20 @@ propose a patched semantic provider to the <em>omnisharp-roslyn</em> maintainers
       <link>https://nicolaiarocci.com/my-top-7-new-features-in-.net-7/</link>
       <pubDate>Sun, 04 Dec 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/my-top-7-new-features-in-.net-7/</guid>
-      <description>The other day we did a .NET 7 Spotlight event at this month&amp;rsquo;s DevRomagna meetup. The speakers were Ugo Lattanzi and me. In my session, I chose to talk about my top 7 new features in .NET 7 (pun intended.) What follows is a mix of my preparation notes and what I ended up really saying1.
-1. Performance Since the initial release of &amp;ldquo;new dotnet&amp;rdquo; (.NET Core), performance has always been a critical goal for the .</description>
+      <description>&lt;p&gt;The other day we did a &lt;a href=&#34;https://www.meetup.com/it-IT/devromagna/events/289709131/&#34;&gt;.NET 7 Spotlight&lt;/a&gt; event at this month&amp;rsquo;s
+&lt;a href=&#34;https://www.meetup.com/it-IT/devromagna/&#34;&gt;DevRomagna&lt;/a&gt; meetup. The speakers were &lt;a href=&#34;https://twitter.com/imperugo&#34;&gt;Ugo Lattanzi&lt;/a&gt; and me. In my
+session, I chose to talk about my top 7 new features in .NET 7 (pun intended.)
+What follows is a mix of my preparation notes and what I ended up really
+saying&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;1-performance&#34;&gt;1. Performance&lt;/h2&gt;
+&lt;p&gt;Since the initial release of &amp;ldquo;new dotnet&amp;rdquo; (.NET Core), performance has always
+been a critical goal for the .NET team. Starting with .NET 5, performance gains
+have been skyrocketing. .NET 6 was &lt;em&gt;a lot&lt;/em&gt; faster than 5, and now, well, I&amp;rsquo;m
+surprised by the remarkable performance improvements in .NET 7. Stephen Toub
+posted a remarkably long (255 printed pages!) &lt;a href=&#34;https://devblogs.microsoft.com/dotnet/performance_improvements_in_net_7&#34;&gt;in-depth analysis of the
+performance improvements in .NET 7&lt;/a&gt;. one That was followed by articles
+dedicated to &lt;a href=&#34;https://devblogs.microsoft.com/dotnet/performance-improvements-in-aspnet-core-7/&#34;&gt;ASP.NET Core 7&lt;/a&gt; and &lt;a href=&#34;https://devblogs.microsoft.com/dotnet/dotnet-7-performance-improvements-in-dotnet-maui/&#34;&gt;MAUI 7&lt;/a&gt; performance gains. At .NETConf
+2022, a particular slide caught everyone&amp;rsquo;s attention.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>The other day we did a <a href="https://www.meetup.com/it-IT/devromagna/events/289709131/">.NET 7 Spotlight</a> event at this month&rsquo;s
 <a href="https://www.meetup.com/it-IT/devromagna/">DevRomagna</a> meetup. The speakers were <a href="https://twitter.com/imperugo">Ugo Lattanzi</a> and me. In my
 session, I chose to talk about my top 7 new features in .NET 7 (pun intended.)
@@ -674,8 +746,7 @@ posted a remarkably long (255 printed pages!) <a href="https://devblogs.microsof
 performance improvements in .NET 7</a>. one That was followed by articles
 dedicated to <a href="https://devblogs.microsoft.com/dotnet/performance-improvements-in-aspnet-core-7/">ASP.NET Core 7</a> and <a href="https://devblogs.microsoft.com/dotnet/dotnet-7-performance-improvements-in-dotnet-maui/">MAUI 7</a> performance gains. At .NETConf
 2022, a particular slide caught everyone&rsquo;s attention.</p>
-<p><img loading="lazy" src="/images/dotnetconf22.png" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/dotnetconf22.png"></p>
 <p>I recall seeing the same slide at the .NET 5 release, so this one is must be
 updated version. I&rsquo;m more impressed with the gRPC graph than the big &ldquo;11x
 faster than Node&rdquo; one. Being faster than Node doesn&rsquo;t break the news these days,
@@ -706,8 +777,7 @@ coming with C# 11, a remarkable one is the <a href="https://learn.microsoft.com/
 <p>When you enable nullable checks in a project, non-nullable string properties
 are flagged with warning that they should be initialized with a non-null value
 when exiting the constructor:</p>
-<p><img loading="lazy" src="/images/required-keyword1.png" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/required-keyword1.png"></p>
 <p>A common workaround has been these properties them with a <code>null!</code> value. That
 is like telling the compiler that we know they should be initialized with a
 non-nullable, but well, let&rsquo;s initialize them with a null value first, just in
@@ -716,8 +786,7 @@ errors. Also, battling the compiler like that is a tedious task.</p>
 <p>Enter the <code>required</code> keyword. When you flag a property with <code>required,</code> the
 IntelliSense engine will report an error if the property value is not set <em>at
 initialization</em>, not at declaration.</p>
-<p><img loading="lazy" src="/images/required-keyword2.png" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/required-keyword2.png"></p>
 <p>When someone initializes our class instance, he/she&rsquo;s <em>required</em> to set an
 explicit value for our property. Notice how we went from a warning (which
 will compile) to an error (which won&rsquo;t compile). Once you start using this
@@ -825,8 +894,22 @@ rapidly and I&rsquo;m sure we&rsquo;ll soon see them in action in complex, real 
       <link>https://nicolaiarocci.com/paramter-null-checking-added-to-csharp-11-preview/</link>
       <pubDate>Sun, 27 Feb 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/paramter-null-checking-added-to-csharp-11-preview/</guid>
-      <description>The first preview of C# 11 is out, and well, I think I like what I see. I dig the new List patterns and am a fan of allowing newlines in the &amp;ldquo;holes&amp;rdquo; of interpolated strings. Parameter null-checking is a bit contentious, and it&amp;rsquo;s good that they are releasing it in preview one and asking for feedback.
-In a nutshell, they want to spare us a lot of boilerplate. Code like this:</description>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://devblogs.microsoft.com/dotnet/early-peek-at-csharp-11-features/&#34;&gt;first preview&lt;/a&gt; of C# 11 is out, and well, I think I like what I see.
+I dig the new &lt;a href=&#34;https://devblogs.microsoft.com/dotnet/early-peek-at-csharp-11-features/#c-11-preview-list-patterns&#34;&gt;List patterns&lt;/a&gt; and am a fan of &lt;a href=&#34;https://devblogs.microsoft.com/dotnet/early-peek-at-csharp-11-features/#c-11-preview-allow-newlines-in-the-holes-of-interpolated-strings&#34;&gt;allowing newlines in the
+&amp;ldquo;holes&amp;rdquo; of interpolated strings&lt;/a&gt;. &lt;a href=&#34;https://devblogs.microsoft.com/dotnet/early-peek-at-csharp-11-features/#c-11-preview-parameter-null-checking&#34;&gt;Parameter null-checking&lt;/a&gt; is a bit
+contentious, and it&amp;rsquo;s good that they are releasing it in preview one and asking
+for feedback.&lt;/p&gt;
+&lt;p&gt;In a nutshell, they want to spare us a lot of boilerplate. Code like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public static void M(string s)
+{
+    if (s is null)
+    {
+        throw new ArgumentNullException(nameof(s));
+    }
+    // Body of the method
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Would be abbreviated by adding &lt;code&gt;!!&lt;/code&gt; to the parameter name:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>The <a href="https://devblogs.microsoft.com/dotnet/early-peek-at-csharp-11-features/">first preview</a> of C# 11 is out, and well, I think I like what I see.
 I dig the new <a href="https://devblogs.microsoft.com/dotnet/early-peek-at-csharp-11-features/#c-11-preview-list-patterns">List patterns</a> and am a fan of <a href="https://devblogs.microsoft.com/dotnet/early-peek-at-csharp-11-features/#c-11-preview-allow-newlines-in-the-holes-of-interpolated-strings">allowing newlines in the
 &ldquo;holes&rdquo; of interpolated strings</a>. <a href="https://devblogs.microsoft.com/dotnet/early-peek-at-csharp-11-features/#c-11-preview-parameter-null-checking">Parameter null-checking</a> is a bit
@@ -852,8 +935,7 @@ for feedback.</p>
 <p>Code will be generated to perform the null check. The generated null check
 will execute before any of the code within the method. For constructors, the
 null check occurs before field initialization, calls to base constructors,
-and calls to this constructors.</p>
-</blockquote>
+and calls to this constructors.</p></blockquote>
 <p>My initial reaction was, we don&rsquo;t need this; we got Nullable Reference Types.
 NRTs however help at design time, to know whether a null is possible, while
 parameter null-checking is meant for runtime.</p>

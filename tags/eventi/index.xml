@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>eventi on Nicola Iarocci</title>
+    <title>Eventi on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/eventi/</link>
-    <description>Recent content in eventi on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Eventi on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 03 Jun 2013 00:00:00 +0000</lastBuildDate>
@@ -14,8 +14,8 @@
       <link>https://nicolaiarocci.com/mongodb-user-group/</link>
       <pubDate>Mon, 03 Jun 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/mongodb-user-group/</guid>
-      <description>Domani sarò al primo meeting romagnolo del #MUG MongoDB User Group organizzato da 10Gen (azienda dietro a MongoDB), Byte-Code e Ideato.
-Parlerò di MongoDB usato come backend per una REST WEB API. L’evento si svolgerà in serata a Cesena, è gratuito, e ci sono ancora posti disponibili. Se ci siete passate a salutarmi.</description>
+      <description>&lt;p&gt;Domani sarò al primo meeting romagnolo del #MUG MongoDB User Group organizzato da 10Gen (azienda dietro a MongoDB), Byte-Code e Ideato.&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Parlerò di MongoDB usato come backend per una REST WEB API. &lt;!-- raw HTML omitted --&gt;L’evento si svolgerà in serata a Cesena, è gratuito, e ci sono ancora &lt;a href=&#34;http://www.eventbrite.com/event/6297117849&#34;&gt;posti disponibili&lt;/a&gt;. Se ci siete passate a salutarmi.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Domani sarò al primo meeting romagnolo del #MUG MongoDB User Group organizzato da 10Gen (azienda dietro a MongoDB), Byte-Code e Ideato.</p>
 <p><!-- raw HTML omitted -->Parlerò di MongoDB usato come backend per una REST WEB API. <!-- raw HTML omitted -->L’evento si svolgerà in serata a Cesena, è gratuito, e ci sono ancora <a href="http://www.eventbrite.com/event/6297117849">posti disponibili</a>. Se ci siete passate a salutarmi.</p>
 ]]></content:encoded>
@@ -53,7 +53,7 @@ Parlerò di MongoDB usato come backend per una REST WEB API. L’evento si svol
       <link>https://nicolaiarocci.com/una-mattinata-con-mongodb/</link>
       <pubDate>Wed, 10 Oct 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/una-mattinata-con-mongodb/</guid>
-      <description>Il prossimo 24 ottobre sarò a Milano per A Morning with MongoDB, evento ufficiale 10gen nel corso del quale racconterò la mia esperienza nell’integrazione di MongoDB in una Web REST API. Partecipazione e registrazione sono gratuite: cosa aspettate?</description>
+      <description>&lt;p&gt;Il prossimo 24 ottobre sarò a Milano per &lt;!-- raw HTML omitted --&gt;A Morning with MongoDB&lt;!-- raw HTML omitted --&gt;, evento ufficiale 10gen nel corso del quale racconterò la mia esperienza nell’integrazione di MongoDB in una Web REST API. Partecipazione e &lt;!-- raw HTML omitted --&gt;registrazione&lt;!-- raw HTML omitted --&gt; sono gratuite: cosa aspettate?&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Il prossimo 24 ottobre sarò a Milano per <!-- raw HTML omitted -->A Morning with MongoDB<!-- raw HTML omitted -->, evento ufficiale 10gen nel corso del quale racconterò la mia esperienza nell’integrazione di MongoDB in una Web REST API. Partecipazione e <!-- raw HTML omitted -->registrazione<!-- raw HTML omitted --> sono gratuite: cosa aspettate?</p>
 ]]></content:encoded>
     </item>
@@ -62,7 +62,7 @@ Parlerò di MongoDB usato come backend per una REST WEB API. L’evento si svol
       <link>https://nicolaiarocci.com/il-mio-intervento-al-cna-barcamp-video/</link>
       <pubDate>Thu, 31 May 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/il-mio-intervento-al-cna-barcamp-video/</guid>
-      <description>Il filmato del mio recente intervento al Ravenna CNA BarCamp è online. L’articolo originale è stato aggiornato e ora include sia le slide che il video. In alternativa c’è sempre YouTube.</description>
+      <description>&lt;p&gt;Il filmato del mio recente intervento al Ravenna CNA BarCamp è online. L’&lt;a href=&#34;http://nicolaiarocci.com/offline-online-superare-la-crisi-anche-grazie-alla-rete/&#34; title=&#34;Offline / Online: superare la crisi anche grazie alla rete&#34;&gt;articolo originale&lt;/a&gt; è stato aggiornato e ora include sia le slide che il video. In alternativa c’è sempre &lt;!-- raw HTML omitted --&gt;YouTube&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Il filmato del mio recente intervento al Ravenna CNA BarCamp è online. L’<a href="http://nicolaiarocci.com/offline-online-superare-la-crisi-anche-grazie-alla-rete/" title="Offline / Online: superare la crisi anche grazie alla rete">articolo originale</a> è stato aggiornato e ora include sia le slide che il video. In alternativa c’è sempre <!-- raw HTML omitted -->YouTube<!-- raw HTML omitted -->.</p>
 ]]></content:encoded>
     </item>
@@ -71,7 +71,7 @@ Parlerò di MongoDB usato come backend per una REST WEB API. L’evento si svol
       <link>https://nicolaiarocci.com/whymca-mobile-developer-conference-2012/</link>
       <pubDate>Wed, 09 May 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/whymca-mobile-developer-conference-2012/</guid>
-      <description>Parteciperò alla WhyMCA Mobile Developer Conference a Bologna il 24 e 25 maggio. Il programma mi sembra piuttosto interessante. Se pensate di venire fatemelo sapere che vediamo di incotrarci.</description>
+      <description>&lt;p&gt;Parteciperò alla &lt;!-- raw HTML omitted --&gt;WhyMCA Mobile Developer Conference&lt;!-- raw HTML omitted --&gt; a Bologna il 24 e 25 maggio. Il programma mi sembra piuttosto interessante. Se pensate di venire &lt;a href=&#34;http://nicolaiarocci.com/contatti/&#34; title=&#34;Contatti&#34;&gt;fatemelo sapere&lt;/a&gt; che vediamo di incotrarci.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Parteciperò alla <!-- raw HTML omitted -->WhyMCA Mobile Developer Conference<!-- raw HTML omitted --> a Bologna il 24 e 25 maggio. Il programma mi sembra piuttosto interessante. Se pensate di venire <a href="http://nicolaiarocci.com/contatti/" title="Contatti">fatemelo sapere</a> che vediamo di incotrarci.</p>
 ]]></content:encoded>
     </item>
@@ -95,15 +95,15 @@ Parlerò di MongoDB usato come backend per una REST WEB API. L’evento si svol
       <link>https://nicolaiarocci.com/guido-van-rossum-a-europython-2012/</link>
       <pubDate>Fri, 20 Apr 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/guido-van-rossum-a-europython-2012/</guid>
-      <description>Partenza col botto per EuroPython 2012. I keynote introduttivi saranno tenuti nientemeno che dal creatore stesso del linguaggio, Guido Van Rossum, e da Alex Martelli. Ieri è stato annunciato il programma ufficiale e a quanto pare mi spetta l’inaugurazione della italian track martedì 3 luglio. Il giorno successivo sarò impegnato, ancora di prima mattina, con la versione in lingua inglese del mio talk:
-Sviluppare una RESTful Web API con Python, Flask e MongoDB</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Partenza col botto per &lt;!-- raw HTML omitted --&gt;EuroPython 2012&lt;!-- raw HTML omitted --&gt;. I keynote introduttivi saranno tenuti nientemeno che dal creatore stesso del linguaggio, Guido Van Rossum, e da Alex Martelli. Ieri è stato annunciato il &lt;!-- raw HTML omitted --&gt;programma ufficiale&lt;!-- raw HTML omitted --&gt; e a quanto pare mi spetta l’inaugurazione della italian track martedì 3 luglio. Il giorno successivo sarò impegnato, ancora di prima mattina, con la versione in lingua inglese del mio talk:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <p>Partenza col botto per <!-- raw HTML omitted -->EuroPython 2012<!-- raw HTML omitted -->. I keynote introduttivi saranno tenuti nientemeno che dal creatore stesso del linguaggio, Guido Van Rossum, e da Alex Martelli. Ieri è stato annunciato il <!-- raw HTML omitted -->programma ufficiale<!-- raw HTML omitted --> e a quanto pare mi spetta l’inaugurazione della italian track martedì 3 luglio. Il giorno successivo sarò impegnato, ancora di prima mattina, con la versione in lingua inglese del mio talk:</p>
 <blockquote>
 <p><!-- raw HTML omitted -->Sviluppare una RESTful Web API con Python, Flask e MongoDB<!-- raw HTML omitted --></p>
-<p>Nel corso dell’ultimo anno abbiamo lavorato all’implementazione Python di una RESTful Web API completa. Abbiamo imparato un bel po’ di cose sui best pattern REST e, naturalmente, abbiamo messo alla prova le ben note capacità web di Python, rilasciando nel frattempo un paio di progetti Open Source. Nel corso del mio intervento condividerò quel che abbiamo imparato. Prenderemo in considerazione il problematico design di una REST API ‘pura’. Vedremo che cosa offre Python in questo campo e scenderemo infine nel dettaglio, dando una occhiata al codice che abbiamo scritto. Alcune tecnologie/stack che tratteremo sono (in nessun ordine particolare): Flask, PyMongo, MongoDB, REST, JSON, XML, Heroku. Lo sapevi? Che ti piaccia o no, c’è una REST API nel tuo futuro.</p>
-</blockquote>
+<p>Nel corso dell’ultimo anno abbiamo lavorato all’implementazione Python di una RESTful Web API completa. Abbiamo imparato un bel po’ di cose sui best pattern REST e, naturalmente, abbiamo messo alla prova le ben note capacità web di Python, rilasciando nel frattempo un paio di progetti Open Source. Nel corso del mio intervento condividerò quel che abbiamo imparato. Prenderemo in considerazione il problematico design di una REST API ‘pura’. Vedremo che cosa offre Python in questo campo e scenderemo infine nel dettaglio, dando una occhiata al codice che abbiamo scritto. Alcune tecnologie/stack che tratteremo sono (in nessun ordine particolare): Flask, PyMongo, MongoDB, REST, JSON, XML, Heroku. Lo sapevi? Che ti piaccia o no, c’è una REST API nel tuo futuro.</p></blockquote>
 <p>Scorrendo la lista degli speaker scopro che anche Amin Roacher, autore di Flask, e Ross Lawley di 10Gen (MongoDB) saranno della partita. Insomma ammetto che un po’ d’ansia da prestazione comincia ad affiorare. Sarà una bella sfida, e non vedo l’ora di affrontarla. Conto molto sul vostro supporto e incoraggiamento: ne avrò bisogno 😉</p>
 ]]></content:encoded>
     </item>
@@ -130,7 +130,7 @@ Sviluppare una RESTful Web API con Python, Flask e MongoDB</description>
       <link>https://nicolaiarocci.com/web-designer-e-programmatori-front-end-si-incontrano-a-from-the-front-2011/</link>
       <pubDate>Fri, 23 Sep 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/web-designer-e-programmatori-front-end-si-incontrano-a-from-the-front-2011/</guid>
-      <description>Giovedì 29 Settembre sarò a Cesena per partecipare a From The Front 2011, conferenza-evento di una giornata dedicata a programmatori front end e web designer. Il programma dei talk pomeridiani è interessante, vi consiglio di dare una occhiata anche perché il costo di iscrizione è pari a zero irrisorio. Se venite battete un colpo: è una buona occasione per incontrarsi di persona (magari al party che seguirà l’evento).</description>
+      <description>&lt;p&gt;Giovedì 29 Settembre sarò a Cesena per partecipare a &lt;!-- raw HTML omitted --&gt;From The Front 2011&lt;!-- raw HTML omitted --&gt;, conferenza-evento di una giornata dedicata a programmatori front end e web designer. Il programma dei talk pomeridiani è interessante, vi consiglio di dare una occhiata anche perché il costo di iscrizione è &lt;!-- raw HTML omitted --&gt;pari a zero&lt;!-- raw HTML omitted --&gt; irrisorio. Se venite battete un colpo: è una buona occasione per incontrarsi di persona (magari al party che seguirà l’evento).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Giovedì 29 Settembre sarò a Cesena per partecipare a <!-- raw HTML omitted -->From The Front 2011<!-- raw HTML omitted -->, conferenza-evento di una giornata dedicata a programmatori front end e web designer. Il programma dei talk pomeridiani è interessante, vi consiglio di dare una occhiata anche perché il costo di iscrizione è <!-- raw HTML omitted -->pari a zero<!-- raw HTML omitted --> irrisorio. Se venite battete un colpo: è una buona occasione per incontrarsi di persona (magari al party che seguirà l’evento).</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
@@ -141,8 +141,7 @@ Sviluppare una RESTful Web API con Python, Flask e MongoDB</description>
       <link>https://nicolaiarocci.com/quattro-passi-tra-le-nuvole-al-romagna-camp-2011/</link>
       <pubDate>Mon, 22 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/quattro-passi-tra-le-nuvole-al-romagna-camp-2011/</guid>
-      <description>“Quattro passi tra le nuvole (e non scordate il paracadute)” è il titolo del mio intervento al Romagna Camp 2011. Racconterò la mia esperienza nella fornitura di servizi cloud alle small business italiane. In questi giorni di ferie ho cominciato buttare giù qualche appunto e abbozzare le prime slide. La sfida è condensare tutto quel che c’è da dire in quindici minuti.
-Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 settembre) sono in calendario una cena, 16 speech e 7 ignite.</description>
+      <description>&lt;p&gt;“Quattro passi tra le nuvole (e non scordate il paracadute)” è il titolo del mio intervento al &lt;!-- raw HTML omitted --&gt;Romagna Camp 2011&lt;!-- raw HTML omitted --&gt;. Racconterò la mia esperienza nella fornitura di servizi cloud alle small business italiane. In questi giorni di ferie ho cominciato buttare giù qualche appunto e abbozzare le prime slide. La sfida è condensare tutto quel che c’è da dire in quindici minuti.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>“Quattro passi tra le nuvole (e non scordate il paracadute)” è il titolo del mio intervento al <!-- raw HTML omitted -->Romagna Camp 2011<!-- raw HTML omitted -->. Racconterò la mia esperienza nella fornitura di servizi cloud alle small business italiane. In questi giorni di ferie ho cominciato buttare giù qualche appunto e abbozzare le prime slide. La sfida è condensare tutto quel che c’è da dire in quindici minuti.</p>
 <!-- raw HTML omitted -->
 <p>Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 settembre) sono in calendario <!-- raw HTML omitted -->una cena<!-- raw HTML omitted -->, <!-- raw HTML omitted -->16 speech<!-- raw HTML omitted --> e <!-- raw HTML omitted -->7 ignite<!-- raw HTML omitted -->. Gli iscritti sono già più di 200 tra imprenditori, web marketer, agenzie web, freelance e sviluppatori.</p>
@@ -157,13 +156,11 @@ Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 sett
       <guid>https://nicolaiarocci.com/qualche-riflessione-sullesperienza-del-co-working/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Faccio subito mie le riflessioni di &lt;!-- raw HTML omitted --&gt;Gianluca Diegoli&lt;!-- raw HTML omitted --&gt; sul primo esperimento di co-working in spiaggia, a cui ho partecipato pure io:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Mentre tornavo in auto, riflettevo di quanta tristezza in questi anni ho visto transitare in molti uffici in cui aleggia quel senso di prigione, in cui le persone si sentono agli arresti domiciliari, mangiano solo con colleghi che odiano, con cui parlano di un lavoro o di un capo che altrettanto odiano, in cui la produttività e la creatività, apparentemente garantite dallo svolgersi in ambiente controllato e da orari stringenti, in realtà siano minime. Anzi, proprio quel sistema che in passato era stato creato per controllare il lavoratore, come se fosse un animale d’allevamento, ora è la causa dell’inefficienza e del disinteresse.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Mentre tornavo in auto, riflettevo di quanta tristezza in questi anni ho visto transitare in molti uffici in cui aleggia quel senso di prigione, in cui le persone si sentono agli arresti domiciliari, mangiano solo con colleghi che odiano, con cui parlano di un lavoro o di un capo che altrettanto odiano, in cui la produttività e la creatività, apparentemente garantite dallo svolgersi in ambiente controllato e da orari stringenti, in realtà siano minime. Anzi, proprio quel sistema che in passato era stato creato per controllare il lavoratore, come se fosse un animale d’allevamento, ora è la causa dell’inefficienza e del disinteresse.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Nella intervista semi-seria che trovate qui sotto (mescolata a quelle degli amici) dichiaro che consiglierei senz’altro l’esperienza ai miei dipendenti. Confermo. I miei splendidi ragazzi lavorerebbero felicemente anche (forse soprattutto) sul cucuzzolo di una montagna, ma sulla efficacia del co-working ad ampio spettro qualche perplessità l’avrei.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Faccio subito mie le riflessioni di <!-- raw HTML omitted -->Gianluca Diegoli<!-- raw HTML omitted --> sul primo esperimento di co-working in spiaggia, a cui ho partecipato pure io:</p>
 <blockquote>
-<p>Mentre tornavo in auto, riflettevo di quanta tristezza in questi anni ho visto transitare in molti uffici in cui aleggia quel senso di prigione, in cui le persone si sentono agli arresti domiciliari, mangiano solo con colleghi che odiano, con cui parlano di un lavoro o di un capo che altrettanto odiano, in cui la produttività e la creatività, apparentemente garantite dallo svolgersi in ambiente controllato e da orari stringenti, in realtà siano minime. Anzi, proprio quel sistema che in passato era stato creato per controllare il lavoratore, come se fosse un animale d’allevamento, ora è la causa dell’inefficienza e del disinteresse.</p>
-</blockquote>
+<p>Mentre tornavo in auto, riflettevo di quanta tristezza in questi anni ho visto transitare in molti uffici in cui aleggia quel senso di prigione, in cui le persone si sentono agli arresti domiciliari, mangiano solo con colleghi che odiano, con cui parlano di un lavoro o di un capo che altrettanto odiano, in cui la produttività e la creatività, apparentemente garantite dallo svolgersi in ambiente controllato e da orari stringenti, in realtà siano minime. Anzi, proprio quel sistema che in passato era stato creato per controllare il lavoratore, come se fosse un animale d’allevamento, ora è la causa dell’inefficienza e del disinteresse.</p></blockquote>
 <p>Nella intervista semi-seria che trovate qui sotto (mescolata a quelle degli amici) dichiaro che consiglierei senz’altro l’esperienza ai miei dipendenti. Confermo. I miei splendidi ragazzi lavorerebbero felicemente anche (forse soprattutto) sul cucuzzolo di una montagna, ma sulla efficacia del co-working ad ampio spettro qualche perplessità l’avrei.</p>
 <h2 id="co-working-per-tutti">Co-Working per tutti?</h2>
 <p>Le persone che odiano il lavoro e/o i loro colleghi, quelle a cui allude Gianluca nel corso del suo ragionamento, come reagirebbero immerse in un ambiente più ludico e ricreativo di quello abituale? Le tensioni si smorzerebbero e la produttività ne guadagnerebbe oppure, al contrario, approfitterebbero della situazione per rilassarsi fin troppo, cedendo alle inevitabili distrazioni? In fin dei conti l’esperimento <strong><!-- raw HTML omitted -->Cowo on the Beach<!-- raw HTML omitted --></strong> ha avuto successo anche e soprattutto, credo, perché i partecipanti sono tutte persone fortemente motivate, innamorate del proprio lavoro (e credetemi, a parte le battute ognuno di noi ha <em>effettivamente</em> lavorato nel corso della giornata!).</p>
@@ -180,12 +177,12 @@ Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 sett
       <link>https://nicolaiarocci.com/domani-si-lavora-in-spiaggia-vieni-al-cowobeach/</link>
       <pubDate>Thu, 09 Jun 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/domani-si-lavora-in-spiaggia-vieni-al-cowobeach/</guid>
-      <description>Se siete in Romagna e dintorni forse potete ancora farci un pensierino: domani venite a lavorare in spiaggia! Cowo on the beach è una bella iniziativa organizzata da Alessandra Farabegoli su suggerimento di Gianluca Diegoli. Di cosa si tratta? Semplice:
-Giornata di temporary coworking on the beach: ci troviamo la mattina al Boca Barranca, il wifi c’è ed è gratuito, la mattina si lavora, poi bagno in mare, pranzo, di nuovo lavoro e.</description>
+      <description>&lt;p&gt;Se siete in Romagna e dintorni forse potete ancora farci un pensierino: domani venite a lavorare in spiaggia! &lt;strong&gt;&lt;!-- raw HTML omitted --&gt;Cowo on the beach&lt;!-- raw HTML omitted --&gt;&lt;/strong&gt; è una bella iniziativa organizzata da &lt;!-- raw HTML omitted --&gt;Alessandra Farabegoli&lt;!-- raw HTML omitted --&gt; su suggerimento di &lt;!-- raw HTML omitted --&gt;Gianluca Diegoli&lt;!-- raw HTML omitted --&gt;. Di cosa si tratta? Semplice:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Giornata di temporary coworking on the beach: ci troviamo la mattina al Boca Barranca, il wifi c’è ed è gratuito, la mattina si lavora, poi bagno in mare, pranzo, di nuovo lavoro e.. aperitivo! Un anticipo del RomagnaCamp che si terrà, sempre al Boca Barranca, dal 9 all’11 settembre&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Se siete in Romagna e dintorni forse potete ancora farci un pensierino: domani venite a lavorare in spiaggia! <strong><!-- raw HTML omitted -->Cowo on the beach<!-- raw HTML omitted --></strong> è una bella iniziativa organizzata da <!-- raw HTML omitted -->Alessandra Farabegoli<!-- raw HTML omitted --> su suggerimento di <!-- raw HTML omitted -->Gianluca Diegoli<!-- raw HTML omitted -->. Di cosa si tratta? Semplice:</p>
 <blockquote>
-<p>Giornata di temporary coworking on the beach: ci troviamo la mattina al Boca Barranca, il wifi c’è ed è gratuito, la mattina si lavora, poi bagno in mare, pranzo, di nuovo lavoro e.. aperitivo! Un anticipo del RomagnaCamp che si terrà, sempre al Boca Barranca, dal 9 all’11 settembre</p>
-</blockquote>
+<p>Giornata di temporary coworking on the beach: ci troviamo la mattina al Boca Barranca, il wifi c’è ed è gratuito, la mattina si lavora, poi bagno in mare, pranzo, di nuovo lavoro e.. aperitivo! Un anticipo del RomagnaCamp che si terrà, sempre al Boca Barranca, dal 9 all’11 settembre</p></blockquote>
 <p>Alessandra ha appena pubblicato un <!-- raw HTML omitted -->aggiornamento<!-- raw HTML omitted --> con tanto di previsioni del tempo (non male dai) e suo programma di lavoro. Il mio è semplice: scrivere (poco) codice all’aria aperta e fare conoscenza con <!-- raw HTML omitted -->tanta bella gente<!-- raw HTML omitted -->.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->

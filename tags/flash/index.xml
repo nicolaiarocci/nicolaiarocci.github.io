@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>flash on Nicola Iarocci</title>
+    <title>Flash on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/flash/</link>
-    <description>Recent content in flash on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Flash on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 11 Nov 2011 00:00:00 +0000</lastBuildDate>
@@ -16,21 +16,17 @@
       <guid>https://nicolaiarocci.com/microsoft-silverlight-e-adobe-flash-verso-la-resa-comincia-lera-di-re-html5/</guid>
       <description>&lt;p&gt;Silverlight 5 è in dirittura d’arrivo. L’ultimo aggiornamento del plug-in Microsoft sarà &lt;em&gt;ultimo&lt;/em&gt; in tutti i sensi dato che &lt;!-- raw HTML omitted --&gt;a quanto pare&lt;!-- raw HTML omitted --&gt; non ne seguiranno altri. A sostenerlo è ZD-Net per bocca di Mary-Jo Foley, di solito sempre ben informata su quel che succede nei corridoi del gigante di Seattle.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Diversi partner e clienti mi hanno detto di aver saputo da fonti Microsoft che Silverlight 5 è l’ultima versione di Silverlight che Microsoft rilascerà. Riferiscono di non sapere se verranno rilasciati Service Pack, né per quanto tempo Microsoft supporterà Silverlight 5&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Diversi partner e clienti mi hanno detto di aver saputo da fonti Microsoft che Silverlight 5 è l’ultima versione di Silverlight che Microsoft rilascerà. Riferiscono di non sapere se verranno rilasciati Service Pack, né per quanto tempo Microsoft supporterà Silverlight 5&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Si tratta solo di voci ma la fonte è autorevole. Proprio l’altro giorno Adobe ha &lt;!-- raw HTML omitted --&gt;annunciato&lt;!-- raw HTML omitted --&gt; lo stop allo sviluppo di Flash Player Mobile per concentrarsi su HTML5. Il vice presidente Adobe Danny Winokur ha dichiarato&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Questa novità ci permetterà di aumentare l’impegno su HTML5 continuando a innovare Flash nei settori in cui  può avere più impatto: advanced gaming e premium video.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Questa novità ci permetterà di aumentare l’impegno su HTML5 continuando a innovare Flash nei settori in cui  può avere più impatto: advanced gaming e premium video.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Non so voi ma io in queste righe io leggo qualcosa di più del semplice abbandono della versione mobile di Flash. Ci vedo la ricollocazione di Flash in settori di nicchia e la contestuale adozione di HTML5 come soluzione universale per il Web. Una onorevole resa delle armi, insomma.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Silverlight 5 è in dirittura d’arrivo. L’ultimo aggiornamento del plug-in Microsoft sarà <em>ultimo</em> in tutti i sensi dato che <!-- raw HTML omitted -->a quanto pare<!-- raw HTML omitted --> non ne seguiranno altri. A sostenerlo è ZD-Net per bocca di Mary-Jo Foley, di solito sempre ben informata su quel che succede nei corridoi del gigante di Seattle.</p>
 <blockquote>
-<p>Diversi partner e clienti mi hanno detto di aver saputo da fonti Microsoft che Silverlight 5 è l’ultima versione di Silverlight che Microsoft rilascerà. Riferiscono di non sapere se verranno rilasciati Service Pack, né per quanto tempo Microsoft supporterà Silverlight 5</p>
-</blockquote>
+<p>Diversi partner e clienti mi hanno detto di aver saputo da fonti Microsoft che Silverlight 5 è l’ultima versione di Silverlight che Microsoft rilascerà. Riferiscono di non sapere se verranno rilasciati Service Pack, né per quanto tempo Microsoft supporterà Silverlight 5</p></blockquote>
 <p>Si tratta solo di voci ma la fonte è autorevole. Proprio l’altro giorno Adobe ha <!-- raw HTML omitted -->annunciato<!-- raw HTML omitted --> lo stop allo sviluppo di Flash Player Mobile per concentrarsi su HTML5. Il vice presidente Adobe Danny Winokur ha dichiarato</p>
 <blockquote>
-<p>Questa novità ci permetterà di aumentare l’impegno su HTML5 continuando a innovare Flash nei settori in cui  può avere più impatto: advanced gaming e premium video.</p>
-</blockquote>
+<p>Questa novità ci permetterà di aumentare l’impegno su HTML5 continuando a innovare Flash nei settori in cui  può avere più impatto: advanced gaming e premium video.</p></blockquote>
 <p>Non so voi ma io in queste righe io leggo qualcosa di più del semplice abbandono della versione mobile di Flash. Ci vedo la ricollocazione di Flash in settori di nicchia e la contestuale adozione di HTML5 come soluzione universale per il Web. Una onorevole resa delle armi, insomma.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
@@ -69,7 +65,7 @@
 </ol>
 <p>E’ vero che ricorrendo a ottimizzazioni e tools dedicati alcune (poche) di queste limitazioni possono essere aggirate. Le prossime release di Flash promettono sviluppi interessanti, tra i quali ottimizzazioni per i dispositivi mobili e riduzione del peso dell’intera infrastruttura.</p>
 <h2 id="considera-le-alternative"><strong>Considera le alternative</strong></h2>
-<p>Non sono necessarie soluzioni esoteriche. Troppo spesso si ricorre a Flash per produrre effetti, transizioni e animazioni realizzabili anche con strumenti consolidati, leggeri e SEO-friendly quali <strong>JavaScript</strong>, <strong>HTML</strong> e <strong>CSS.</strong> In una parola, <strong><a href="http://it.wikipedia.org/wiki/AJAX">AJAX</a></strong>. Cose ormai scontate. O forse no, a giudicare da quel che ancora oggi si pubblica in rete. A ben guardare la battaglia tra Apple e Adobe, quella culminata con la [<!-- raw HTML omitted -->E’ incredibile la quantità di siti che ancora oggi vengono sviluppati con Flash. Il fenomeno colpisce soprattutto i siti-vetrina: negozi, attività commerciali, ristoranti, artigiani. Basta farsi un giro sui siti di venditori di mobili, per esempio, per godersi il trionfo della ‘<a href="http://en.wikipedia.org/wiki/Adobe_Flash">multimedia platform</a>‘ di Adobe. Bisogna prenderne atto: nel 2011 migliaia di aziende italiane di ogni dimensione affidano la loro identità web ad Adobe Flash. Consulenti e agenzie continuano a produrre siti con tecnologie assimilate anni fa. Reticenti all’aggiornamento delle proprie competenze, si accontentano del loro confortante orticello che, tutto sommato, assicura lo stipendio.<!-- raw HTML omitted --></p>
+<p>Non sono necessarie soluzioni esoteriche. Troppo spesso si ricorre a Flash per produrre effetti, transizioni e animazioni realizzabili anche con strumenti consolidati, leggeri e SEO-friendly quali <strong>JavaScript</strong>, <strong>HTML</strong> e <strong>CSS.</strong> In una parola, <strong><a href="http://it.wikipedia.org/wiki/AJAX">AJAX</a></strong>. Cose ormai scontate. O forse no, a giudicare da quel che ancora oggi si pubblica in rete. A ben guardare la battaglia tra Apple e Adobe, quella culminata con la [<!-- raw HTML omitted -->E’ incredibile la quantità di siti che ancora oggi vengono sviluppati con Flash. Il fenomeno colpisce soprattutto i siti-vetrina: negozi, attività commerciali, ristoranti, artigiani. Basta farsi un giro sui siti di venditori di mobili, per esempio, per godersi il trionfo della ‘<a href="http://en.wikipedia.org/wiki/Adobe_Flash">multimedia platform</a>‘ di Adobe. Bisogna prenderne atto: nel 2011 migliaia di aziende italiane di ogni dimensione affidano la loro identità web ad Adobe Flash. Consulenti e agenzie continuano a produrre siti con tecnologie assimilate anni fa. Reticenti all’aggiornamento delle proprie competenze, si accontentano del loro confortante orticello che, tutto sommato, assicura lo stipendio.</p>
 <p>Eppure ci sono tante buone ragioni per <strong>non</strong> ricorrere a Flash:</p>
 <ol>
 <li>Non è sicuro. Probabilmente Flash è l’unico prodotto che fa concorrenza a Microsoft Windows in quanto a numero di <em>security fixes</em>. Non per niente è stato definito <a href="http://www.zdnet.com/blog/bott/how-secure-is-flash-heres-what-adobe-wont-tell-you/2152">il nuovo Windows Vista</a></li>

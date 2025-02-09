@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>goodreads on Nicola Iarocci</title>
+    <title>Goodreads on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/goodreads/</link>
-    <description>Recent content in goodreads on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Goodreads on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Sat, 05 Mar 2022 07:05:25 +0100</lastBuildDate>
@@ -14,22 +14,26 @@
       <link>https://nicolaiarocci.com/trusting-third-party-services-with-your-data-a-cautionary-tale/</link>
       <pubDate>Sat, 05 Mar 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/trusting-third-party-services-with-your-data-a-cautionary-tale/</guid>
-      <description>Quoting [Nelson&amp;rsquo;s weblog][3]:
-Goodreads lost my entire account last week. Nine years as a user, some 600 books and 250 carefully written reviews all deleted and unrecoverable. Their support has not been helpful. In 35 years of being online I&amp;rsquo;ve never encountered a company with such callous disregard for their users&amp;rsquo; data.
-Ouch. A lesson learned the hard way:
-My plan now is to host my own blog-like collection of all my reading notes like [Tom does][2].</description>
+      <description>&lt;p&gt;Quoting [Nelson&amp;rsquo;s weblog][3]:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Goodreads lost my entire account last week. Nine years as a user, some 600
+books and 250 carefully written reviews all deleted and unrecoverable. Their
+support has not been helpful. In 35 years of being online I&amp;rsquo;ve never
+encountered a company with such callous disregard for their users&amp;rsquo; data.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Ouch. A lesson learned the hard way:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;My plan now is to host my own blog-like collection of all my reading notes
+like [Tom does][2].&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Quoting [Nelson&rsquo;s weblog][3]:</p>
 <blockquote>
 <p>Goodreads lost my entire account last week. Nine years as a user, some 600
 books and 250 carefully written reviews all deleted and unrecoverable. Their
 support has not been helpful. In 35 years of being online I&rsquo;ve never
-encountered a company with such callous disregard for their users&rsquo; data.</p>
-</blockquote>
+encountered a company with such callous disregard for their users&rsquo; data.</p></blockquote>
 <p>Ouch. A lesson learned the hard way:</p>
 <blockquote>
 <p>My plan now is to host my own blog-like collection of all my reading notes
-like [Tom does][2].</p>
-</blockquote>
+like [Tom does][2].</p></blockquote>
 <p>One of the many reasons I don&rsquo;t write my reviews on Goodreads and host them on
 my website instead is precisely the risk of losing them all one day<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. The same
 with Twitter. I have been on Twitter since 2009 and was very active there.

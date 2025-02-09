@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>llm on Nicola Iarocci</title>
+    <title>Llm on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/llm/</link>
-    <description>Recent content in llm on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Llm on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Tue, 26 Nov 2024 19:20:01 +0100</lastBuildDate>
@@ -14,12 +14,11 @@
       <link>https://nicolaiarocci.com/reading-books-and-commenting-on-them-with-chatgpt/</link>
       <pubDate>Tue, 26 Nov 2024 19:20:01 +0100</pubDate>
       <guid>https://nicolaiarocci.com/reading-books-and-commenting-on-them-with-chatgpt/</guid>
-      <description>I just finished reading Paul Auster&amp;rsquo;s The New York Trilogy1. On this occasion, I discovered a new use for ChatGPT and LLMs. ChatGPT and I chatted about the themes, especially the correlations and connections between the three short novels that comprise the volume. It was an alienating and revealing experience. For the first time, I am reasoning about a book with a machine, not a person. Because it knows everything about the text and draws on the shared global knowledge, it can give more satisfaction than most people do (also, it&amp;rsquo;s not easy to find someone around with whom I can talk about all the books I read!</description>
+      <description>&lt;p&gt;I just finished reading Paul Auster&amp;rsquo;s The New York Trilogy&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. On this occasion, I discovered a new use for ChatGPT and LLMs. ChatGPT and I chatted about the themes, especially the correlations and connections between the three short novels that comprise the volume. It was an alienating and revealing experience. For the first time, I am reasoning about a book with a machine, not a person. Because it knows everything about the text and draws on the shared global knowledge, it can give more satisfaction than most people do (also, it&amp;rsquo;s not easy to find someone around with whom I can talk about all the books I read!) Yes, it is wordy and repetitive, but it can stimulate and enrich my analysis&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I just finished reading Paul Auster&rsquo;s The New York Trilogy<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. On this occasion, I discovered a new use for ChatGPT and LLMs. ChatGPT and I chatted about the themes, especially the correlations and connections between the three short novels that comprise the volume. It was an alienating and revealing experience. For the first time, I am reasoning about a book with a machine, not a person. Because it knows everything about the text and draws on the shared global knowledge, it can give more satisfaction than most people do (also, it&rsquo;s not easy to find someone around with whom I can talk about all the books I read!) Yes, it is wordy and repetitive, but it can stimulate and enrich my analysis<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
 <p>I&rsquo;ve been using LLMs (ChatGPT and Claude) more and more lately, especially for work. The more I use them, the more I understand how to leverage their capabilities. I would have never thought about sharing my reading experiences with ChatGPT before. <a href="https://www.oneusefulthing.org/p/getting-started-with-ai-good-enough">Ethan Mollick</a> has it right; we should all put at least 10 hours into LLMs before judging them.</p>
 <blockquote>
-<p>Your goal is simple: spend 10 hours using AI on tasks that actually matter to you. After that, you&rsquo;ll have a natural sense of how AI fits into your work and life. You&rsquo;ll develop an intuition for effective prompting, and you&rsquo;ll better understand AI&rsquo;s potential. Don&rsquo;t aim for perfection - just start somewhere and learn as you go.</p>
-</blockquote>
+<p>Your goal is simple: spend 10 hours using AI on tasks that actually matter to you. After that, you&rsquo;ll have a natural sense of how AI fits into your work and life. You&rsquo;ll develop an intuition for effective prompting, and you&rsquo;ll better understand AI&rsquo;s potential. Don&rsquo;t aim for perfection - just start somewhere and learn as you go.</p></blockquote>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -38,18 +37,16 @@
       <link>https://nicolaiarocci.com/generative-ai-is-not-going-to-build-your-engineering-team-for-you/</link>
       <pubDate>Fri, 14 Jun 2024 16:08:08 +0200</pubDate>
       <guid>https://nicolaiarocci.com/generative-ai-is-not-going-to-build-your-engineering-team-for-you/</guid>
-      <description>Charity Majors1 has a good, long-form article on the Stack Overflow blog. The title is misleading as, while AI&amp;rsquo;s impact on software engineering and its hiring process (spoiler: you&amp;rsquo;ll still want to hire junior engineers) is at the heart of the article, there&amp;rsquo;s so much more in it. It gets exciting in the second part, where she dispenses much from-the-trenches advice on team management and building.
-Hiring engineers is about composing teams.</description>
+      <description>&lt;p&gt;Charity Majors&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; has a good, long-form article on the Stack Overflow &lt;a href=&#34;https://stackoverflow.blog/2024/06/10/generative-ai-is-not-going-to-build-your-engineering-team-for-you/&#34;&gt;blog&lt;/a&gt;. The title is misleading as, while AI&amp;rsquo;s impact on software engineering and its hiring process (spoiler: you&amp;rsquo;ll still want to hire junior engineers) is at the heart of the article, there&amp;rsquo;s so much more in it. It gets exciting in the second part, where she dispenses much from-the-trenches advice on team management and building.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hiring engineers is about composing teams. The smallest unit of software ownership is not the individual, it’s the team.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Charity Majors<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> has a good, long-form article on the Stack Overflow <a href="https://stackoverflow.blog/2024/06/10/generative-ai-is-not-going-to-build-your-engineering-team-for-you/">blog</a>. The title is misleading as, while AI&rsquo;s impact on software engineering and its hiring process (spoiler: you&rsquo;ll still want to hire junior engineers) is at the heart of the article, there&rsquo;s so much more in it. It gets exciting in the second part, where she dispenses much from-the-trenches advice on team management and building.</p>
 <blockquote>
-<p>Hiring engineers is about composing teams. The smallest unit of software ownership is not the individual, it’s the team.</p>
-</blockquote>
+<p>Hiring engineers is about composing teams. The smallest unit of software ownership is not the individual, it’s the team.</p></blockquote>
 <blockquote>
-<p>Have you ever been on a team packed exclusively with staff or principal engineers? It is not fun. That is not a high-functioning team. There is only so much high-level architecture and planning work to go around, there are only so many big decisions that need to be made. These engineers spend most of their time doing work that feels boring and repetitive, so they tend to over-engineer solutions and/or cut corners—sometimes at the same time. They compete for the “fun” stuff and find reasons to pick technical fights with each other. They chronically under-document and under-invest in the work that makes systems simple and tractable.</p>
-</blockquote>
+<p>Have you ever been on a team packed exclusively with staff or principal engineers? It is not fun. That is not a high-functioning team. There is only so much high-level architecture and planning work to go around, there are only so many big decisions that need to be made. These engineers spend most of their time doing work that feels boring and repetitive, so they tend to over-engineer solutions and/or cut corners—sometimes at the same time. They compete for the “fun” stuff and find reasons to pick technical fights with each other. They chronically under-document and under-invest in the work that makes systems simple and tractable.</p></blockquote>
 <blockquote>
-<p>The best teams are ones where no one is bored, because every single person is working on something that challenges them and pushes their boundaries. The only way you can get this is by having a range of skill levels on the team.</p>
-</blockquote>
+<p>The best teams are ones where no one is bored, because every single person is working on something that challenges them and pushes their boundaries. The only way you can get this is by having a range of skill levels on the team.</p></blockquote>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -65,24 +62,32 @@ Hiring engineers is about composing teams.</description>
       <link>https://nicolaiarocci.com/llms-dont-remember-everything-you-say/</link>
       <pubDate>Wed, 29 May 2024 17:05:53 +0200</pubDate>
       <guid>https://nicolaiarocci.com/llms-dont-remember-everything-you-say/</guid>
-      <description>Simon Willison has a new article explaining an important and often ununderstood aspect of LLMs. There&amp;rsquo;s a remarkable difference between chatting with an LLM, as we users do, and training it.
-Short version: ChatGPT and other similar tools do not directly learn from and memorize everything that you say to them.
-Every time you start a new chat conversation, you clear the slate. Each conversation is an entirely new sequence, carried out entirely independently of previous conversations from both yourself and other users.</description>
+      <description>&lt;p&gt;Simon Willison has a new article explaining an important and often ununderstood
+aspect of LLMs. There&amp;rsquo;s a remarkable difference between chatting with an LLM, as
+we users do, and training it.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Short version: ChatGPT and other similar tools do not directly learn from and
+memorize everything that you say to them.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Every time you start a new chat conversation, you clear the slate. Each
+conversation is an entirely new sequence, carried out entirely independently of
+previous conversations from both yourself and other users. Understanding this is
+key to working effectively with these models. Every time you hit “new chat” you
+are effectively wiping the short-term memory of the model, starting again from
+scratch. This has a number of important consequences.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Simon Willison has a new article explaining an important and often ununderstood
 aspect of LLMs. There&rsquo;s a remarkable difference between chatting with an LLM, as
 we users do, and training it.</p>
 <blockquote>
 <p>Short version: ChatGPT and other similar tools do not directly learn from and
-memorize everything that you say to them.</p>
-</blockquote>
+memorize everything that you say to them.</p></blockquote>
 <blockquote>
 <p>Every time you start a new chat conversation, you clear the slate. Each
 conversation is an entirely new sequence, carried out entirely independently of
 previous conversations from both yourself and other users. Understanding this is
 key to working effectively with these models. Every time you hit “new chat” you
 are effectively wiping the short-term memory of the model, starting again from
-scratch. This has a number of important consequences.</p>
-</blockquote>
+scratch. This has a number of important consequences.</p></blockquote>
 <p>More <a href="https://simonwillison.net/2024/May/29/training-not-chatting/">here</a>.</p>
 ]]></content:encoded>
     </item>
@@ -91,13 +96,12 @@ scratch. This has a number of important consequences.</p>
       <link>https://nicolaiarocci.com/what-open-ai-just-did/</link>
       <pubDate>Tue, 14 May 2024 08:41:04 +0200</pubDate>
       <guid>https://nicolaiarocci.com/what-open-ai-just-did/</guid>
-      <description>Open AI just released ChatGPT 4o. The launch demo is available on YouTube, and yes, it is impressive. They did not launch v5, though, and 4o is only incremental, not exponential, as v4 has been compared to its predecessor. It may mean we&amp;rsquo;re at the end of the &amp;ldquo;exponential growth&amp;rdquo; phase of LLM models.
-However, the most critical aspect of this release is not technical, as Ethan Mollick correctly pinpoints in his timely What Open AI Did post:</description>
+      <description>&lt;p&gt;Open AI just released ChatGPT 4o. The launch demo is available on &lt;a href=&#34;https://www.youtube.com/live/DQacCB9tDaw&#34;&gt;YouTube&lt;/a&gt;, and yes, it is impressive. They did not launch v5, though, and 4o is only incremental, not exponential, as v4 has been compared to its predecessor. It may mean we&amp;rsquo;re at the end of the &amp;ldquo;exponential growth&amp;rdquo; phase of LLM models.&lt;/p&gt;
+&lt;p&gt;However, the most critical aspect of this release is not technical, as Ethan Mollick correctly pinpoints in his timely &lt;a href=&#34;https://www.oneusefulthing.org/p/what-openai-did&#34;&gt;What Open AI Did&lt;/a&gt; post:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Open AI just released ChatGPT 4o. The launch demo is available on <a href="https://www.youtube.com/live/DQacCB9tDaw">YouTube</a>, and yes, it is impressive. They did not launch v5, though, and 4o is only incremental, not exponential, as v4 has been compared to its predecessor. It may mean we&rsquo;re at the end of the &ldquo;exponential growth&rdquo; phase of LLM models.</p>
 <p>However, the most critical aspect of this release is not technical, as Ethan Mollick correctly pinpoints in his timely <a href="https://www.oneusefulthing.org/p/what-openai-did">What Open AI Did</a> post:</p>
 <blockquote>
-<p>Likely the biggest impact of GPT-4o is not technical, but a business decision: soon everyone, whether they are paying or not, will get access to GPT-4o1. I think this is a big deal. When I talk with groups and ask people to raise their hands if they use ChatGPT, almost every hand goes up. When I ask if they used GPT-4, only 5% of hands remain up, at most. GPT-4 is so, so much better than free ChatGPT-3.5, it is like having a PhD student work with you instead of a high school sophomore. But that $20 a month barrier kept many people from understanding how impressive AI can be, and for gaining any benefit from AI. That is no longer true.</p>
-</blockquote>
+<p>Likely the biggest impact of GPT-4o is not technical, but a business decision: soon everyone, whether they are paying or not, will get access to GPT-4o1. I think this is a big deal. When I talk with groups and ask people to raise their hands if they use ChatGPT, almost every hand goes up. When I ask if they used GPT-4, only 5% of hands remain up, at most. GPT-4 is so, so much better than free ChatGPT-3.5, it is like having a PhD student work with you instead of a high school sophomore. But that $20 a month barrier kept many people from understanding how impressive AI can be, and for gaining any benefit from AI. That is no longer true.</p></blockquote>
 <p>He then speculates how this change will impact significant areas such as education, work, and global entrepreneurship.</p>
 ]]></content:encoded>
     </item>
@@ -106,10 +110,10 @@ However, the most critical aspect of this release is not technical, as Ethan Mol
       <link>https://nicolaiarocci.com/quoting-moxie-marlinspike/</link>
       <pubDate>Sat, 27 Apr 2024 11:37:19 +0200</pubDate>
       <guid>https://nicolaiarocci.com/quoting-moxie-marlinspike/</guid>
-      <description>It&amp;rsquo;s very fast to build something that&amp;rsquo;s 90% of a solution. The problem is that the last 10% of building something is usually the hard part which really matters, and with a black box at the center of the product, it feels much more difficult to me to nail that remaining 10%. Closing that gap with gen AI feels much more fickle to me than a normal engineering problem. It could be that I&amp;rsquo;m unfamiliar with it, but I also wonder if some classes of generative AI based products are just doomed to mediocrity as a result.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;It&amp;rsquo;s very fast to build something that&amp;rsquo;s 90% of a solution. The problem is that the last 10% of building something is usually the hard part which really matters, and with a black box at the center of the product, it feels much more difficult to me to nail that remaining 10%. Closing that gap with gen AI feels much more fickle to me than a normal engineering problem. It could be that I&amp;rsquo;m unfamiliar with it, but I also wonder if some classes of generative AI based products are just doomed to mediocrity as a result.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>It&rsquo;s very fast to build something that&rsquo;s 90% of a solution. The problem is that the last 10% of building something is usually the hard part which really matters, and with a black box at the center of the product, it feels much more difficult to me to nail that remaining 10%. Closing that gap with gen AI feels much more fickle to me than a normal engineering problem. It could be that I&rsquo;m unfamiliar with it, but I also wonder if some classes of generative AI based products are just doomed to mediocrity as a result.</p>
-</blockquote>
+<p>It&rsquo;s very fast to build something that&rsquo;s 90% of a solution. The problem is that the last 10% of building something is usually the hard part which really matters, and with a black box at the center of the product, it feels much more difficult to me to nail that remaining 10%. Closing that gap with gen AI feels much more fickle to me than a normal engineering problem. It could be that I&rsquo;m unfamiliar with it, but I also wonder if some classes of generative AI based products are just doomed to mediocrity as a result.</p></blockquote>
 <p>&ndash; <a href="https://twitter.com/moxie/status/1783932933717561486">Moxie Marlinspike</a></p>
 ]]></content:encoded>
     </item>
@@ -118,16 +122,15 @@ However, the most critical aspect of this release is not technical, as Ethan Mol
       <link>https://nicolaiarocci.com/ai-isnt-useless.-but-is-it-worth-it/</link>
       <pubDate>Thu, 18 Apr 2024 15:19:20 +0200</pubDate>
       <guid>https://nicolaiarocci.com/ai-isnt-useless.-but-is-it-worth-it/</guid>
-      <description>Molly White&amp;rsquo;s experience with LLMs corresponds more or less with my own, but she is much better at recounting, critiquing, and drawing conclusions than I am.
-I find my feelings about AI are actually pretty similar to my feelings about blockchains: they do a poor job of much of what people try to do with them, they can&amp;rsquo;t do the things their creators claim they one day might, and many of the things they are well suited to do may not be altogether that beneficial.</description>
+      <description>&lt;p&gt;Molly White&amp;rsquo;s experience with LLMs corresponds more or less with my own, but she is much better at recounting, critiquing, and drawing conclusions than I am.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I find my feelings about AI are actually pretty similar to my feelings about blockchains: &lt;strong&gt;they do a poor job of much of what people try to do with them, they can&amp;rsquo;t do the things their creators claim they one day might, and many of the things they are well suited to do may not be altogether that beneficial&lt;/strong&gt;. And while I do think that AI tools are more broadly useful than blockchains, they also come with similarly monstrous costs.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Molly White&rsquo;s experience with LLMs corresponds more or less with my own, but she is much better at recounting, critiquing, and drawing conclusions than I am.</p>
 <blockquote>
-<p>I find my feelings about AI are actually pretty similar to my feelings about blockchains: <strong>they do a poor job of much of what people try to do with them, they can&rsquo;t do the things their creators claim they one day might, and many of the things they are well suited to do may not be altogether that beneficial</strong>. And while I do think that AI tools are more broadly useful than blockchains, they also come with similarly monstrous costs.</p>
-</blockquote>
+<p>I find my feelings about AI are actually pretty similar to my feelings about blockchains: <strong>they do a poor job of much of what people try to do with them, they can&rsquo;t do the things their creators claim they one day might, and many of the things they are well suited to do may not be altogether that beneficial</strong>. And while I do think that AI tools are more broadly useful than blockchains, they also come with similarly monstrous costs.</p></blockquote>
 <p>Brilliant.</p>
 <blockquote>
-<p>But the reality is that you can&rsquo;t build a hundred-billion-dollar industry around a technology that&rsquo;s kind of useful, mostly in mundane ways, and that boasts perhaps small increases in productivity if and only if the people who use it fully understand its limitations. And you certainly can&rsquo;t justify the kind of exploitation, extraction, and environmental cost that the industry has been mostly getting away with, in part because people have believed their lofty promises of someday changing the world.</p>
-</blockquote>
+<p>But the reality is that you can&rsquo;t build a hundred-billion-dollar industry around a technology that&rsquo;s kind of useful, mostly in mundane ways, and that boasts perhaps small increases in productivity if and only if the people who use it fully understand its limitations. And you certainly can&rsquo;t justify the kind of exploitation, extraction, and environmental cost that the industry has been mostly getting away with, in part because people have believed their lofty promises of someday changing the world.</p></blockquote>
 <p>Full article <a href="https://www.citationneeded.news/ai-isnt-useless/">here</a>.</p>
 ]]></content:encoded>
     </item>
@@ -136,7 +139,12 @@ I find my feelings about AI are actually pretty similar to my feelings about blo
       <link>https://nicolaiarocci.com/chatgpt-is-the-perfect-linux-assistant/</link>
       <pubDate>Fri, 29 Mar 2024 18:01:58 +0100</pubDate>
       <guid>https://nicolaiarocci.com/chatgpt-is-the-perfect-linux-assistant/</guid>
-      <description>I spent the day doing remote maintenance on multiple Linux machines via ssh. The revelation is that ChatGPT is the bomb for these tasks: What does that command option do? I am trying to remember. What syntax is to install that peculiar and rarely used package on Debian? I am getting this locale configuration error; what was the fix again? All this stuff is answered much sooner than searching online, no matter the search engine.</description>
+      <description>&lt;p&gt;I spent the day doing remote maintenance on multiple Linux machines via ssh. The
+revelation is that ChatGPT is the bomb for these tasks: What does that command
+option do? I am trying to remember. What syntax is to install that peculiar and
+rarely used package on Debian? I am getting this locale configuration error;
+what was the fix again? All this stuff is answered much sooner than searching
+online, no matter the search engine.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I spent the day doing remote maintenance on multiple Linux machines via ssh. The
 revelation is that ChatGPT is the bomb for these tasks: What does that command
 option do? I am trying to remember. What syntax is to install that peculiar and
@@ -157,13 +165,16 @@ It is also free to use, which makes it all even more impressive.</p>
       <link>https://nicolaiarocci.com/ai-generated-videos-just-changed-forever/</link>
       <pubDate>Fri, 16 Feb 2024 18:16:15 +0100</pubDate>
       <guid>https://nicolaiarocci.com/ai-generated-videos-just-changed-forever/</guid>
-      <description>Yesterday&amp;rsquo;s OpenAI launch of Sora is, as is always the case with OpenAI, mind-boggling. Marquees Browniee&amp;rsquo;s comment is spot-on, so much so as he&amp;rsquo;s obviously involved in the video-making scene.
-I don&amp;rsquo;t think content creators are at risk with Sora, not anytime soon, but, as Marquees repeatedly notes in the video above, just one year ago we thought AI-generated video was a joke.</description>
-      <content:encoded><![CDATA[<p>Yesterday&rsquo;s OpenAI launch of Sora is, as is always the case with OpenAI, mind-boggling. Marquees Browniee&rsquo;s comment is spot-on, so much so as he&rsquo;s obviously involved in the video-making scene.</p>
+      <description>&lt;p&gt;Yesterday&amp;rsquo;s OpenAI launch of Sora is, as is always the case with OpenAI, mind-boggling. Marquees Browniee&amp;rsquo;s comment is spot-on, so much so as he&amp;rsquo;s obviously involved in the video-making scene.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/NXpdyAWLDas?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
+&lt;p&gt;I don&amp;rsquo;t think content creators are at risk with Sora, not anytime soon, but, as Marquees repeatedly notes in the video above, just one year ago we thought AI-generated video was a joke.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Yesterday&rsquo;s OpenAI launch of Sora is, as is always the case with OpenAI, mind-boggling. Marquees Browniee&rsquo;s comment is spot-on, so much so as he&rsquo;s obviously involved in the video-making scene.</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/NXpdyAWLDas" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/NXpdyAWLDas?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
 <p>I don&rsquo;t think content creators are at risk with Sora, not anytime soon, but, as Marquees repeatedly notes in the video above, just one year ago we thought AI-generated video was a joke.</p>
 ]]></content:encoded>
@@ -173,8 +184,18 @@ I don&amp;rsquo;t think content creators are at risk with Sora, not anytime soon
       <link>https://nicolaiarocci.com/ethan-mollicks-first-impressions-on-gemini-advanced/</link>
       <pubDate>Thu, 08 Feb 2024 17:40:23 +0100</pubDate>
       <guid>https://nicolaiarocci.com/ethan-mollicks-first-impressions-on-gemini-advanced/</guid>
-      <description>Ethan Mollick, one of my few LLM/AI sources, just dropped his first impressions on Gemini Advanced, released today, but which he&amp;rsquo;s been testing for a month in early access.
-Let me start with the headline: Gemini Advanced is clearly a GPT-4 class model. The statistics show this, but so does a month of our informal testing. And this is a big deal because OpenAI’s GPT-4 (the paid version of ChatGPT/Microsoft Copilot) has been the dominant AI for well over a year, and no other model has come particularly close.</description>
+      <description>&lt;p&gt;Ethan Mollick, one of my few &lt;a href=&#34;https://nicolaiarocci.com/some-hints-about-what-the-next-year-of-ai-looks-like/&#34;&gt;LLM/AI
+sources&lt;/a&gt;, just dropped
+his first impressions on Gemini Advanced, released today, but which he&amp;rsquo;s been
+testing for a month in early access.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Let me start with the headline: Gemini Advanced is clearly a GPT-4 class
+model. The statistics show this, but so does a month of our informal testing.
+And this is a big deal because OpenAI’s GPT-4 (the paid version of
+ChatGPT/Microsoft Copilot) has been the dominant AI for well over a year, and no
+other model has come particularly close. Prior to Gemini, we only had one
+advanced AI model to look at, and it is hard drawing conclusions with a dataset
+of one. Now there are two, and we can learn a few things.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Ethan Mollick, one of my few <a href="/some-hints-about-what-the-next-year-of-ai-looks-like/">LLM/AI
 sources</a>, just dropped
 his first impressions on Gemini Advanced, released today, but which he&rsquo;s been
@@ -186,8 +207,7 @@ And this is a big deal because OpenAI’s GPT-4 (the paid version of
 ChatGPT/Microsoft Copilot) has been the dominant AI for well over a year, and no
 other model has come particularly close. Prior to Gemini, we only had one
 advanced AI model to look at, and it is hard drawing conclusions with a dataset
-of one. Now there are two, and we can learn a few things.</p>
-</blockquote>
+of one. Now there are two, and we can learn a few things.</p></blockquote>
 <p>Things are getting hotter in the LLM space, and competition is always good.</p>
 <p>Full article
 <a href="https://www.oneusefulthing.org/p/google-gemini-advanced-tasting-notes">here</a>.</p>
@@ -198,8 +218,14 @@ of one. Now there are two, and we can learn a few things.</p>
       <link>https://nicolaiarocci.com/youtube-video-summaries-via-chatgpt/</link>
       <pubDate>Tue, 06 Feb 2024 09:45:04 +0100</pubDate>
       <guid>https://nicolaiarocci.com/youtube-video-summaries-via-chatgpt/</guid>
-      <description>Just Tell Me cleverly leverages ChatGPT to provide short, insightful summaries of YouTube videos.
-Have you ever wasted some time watching a youtube video, that got you kind of interested because of the click-baity topic, but in the end turned out to be nothing more BUT click-bait? Or have you ever wanted to just quickly recall what a video that you&amp;rsquo;ve watched some time ago was about? Just Tell Me has you covered!</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://just-tell-me.deno.dev&#34;&gt;Just Tell Me&lt;/a&gt; cleverly leverages ChatGPT to
+provide short, insightful summaries of YouTube videos.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Have you ever wasted some time watching a youtube video, that got you kind of
+interested because of the click-baity topic, but in the end turned out to be
+nothing more BUT click-bait? Or have you ever wanted to just quickly recall what
+a video that you&amp;rsquo;ve watched some time ago was about? Just Tell Me has you
+covered!&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="https://just-tell-me.deno.dev">Just Tell Me</a> cleverly leverages ChatGPT to
 provide short, insightful summaries of YouTube videos.</p>
 <blockquote>
@@ -207,8 +233,7 @@ provide short, insightful summaries of YouTube videos.</p>
 interested because of the click-baity topic, but in the end turned out to be
 nothing more BUT click-bait? Or have you ever wanted to just quickly recall what
 a video that you&rsquo;ve watched some time ago was about? Just Tell Me has you
-covered!</p>
-</blockquote>
+covered!</p></blockquote>
 <p>You can run it from the website or
 <a href="https://github.com/franekmagiera/just-tell-me">locally</a> on the command line,
 with your OpenAPI key and the LLM model of choice. I have not looked at the
@@ -230,12 +255,14 @@ been using it for a while, and it&rsquo;s been good.</p>
       <link>https://nicolaiarocci.com/linus-torvalds-on-the-impact-of-llms-and-ai-on-programming/</link>
       <pubDate>Sun, 21 Jan 2024 12:27:26 +0100</pubDate>
       <guid>https://nicolaiarocci.com/linus-torvalds-on-the-impact-of-llms-and-ai-on-programming/</guid>
-      <description>I think I like his take on the topic.</description>
+      <description>&lt;p&gt;I think I like &lt;a href=&#34;https://www.youtube.com/watch?v=VHHT6W-N0ak&#34;&gt;his take&lt;/a&gt; on the topic.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/VHHT6W-N0ak?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
       <content:encoded><![CDATA[<p>I think I like <a href="https://www.youtube.com/watch?v=VHHT6W-N0ak">his take</a> on the topic.</p>
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/VHHT6W-N0ak" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/VHHT6W-N0ak?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
 ]]></content:encoded>
     </item>
@@ -244,8 +271,18 @@ been using it for a while, and it&rsquo;s been good.</p>
       <link>https://nicolaiarocci.com/some-hints-about-what-the-next-year-of-ai-looks-like/</link>
       <pubDate>Sun, 07 Jan 2024 10:57:43 +0100</pubDate>
       <guid>https://nicolaiarocci.com/some-hints-about-what-the-next-year-of-ai-looks-like/</guid>
-      <description>Professor Ethan Mollick&amp;rsquo;s Signs and Portents analyzes what AI has achieved, what the effects have been so far, and what we might expect in 2024.
-To ground ourselves, we can start with two quotes that should inform any estimates about the future. The first is Amara&amp;rsquo;s Law: &amp;ldquo;We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.&amp;rdquo; Social change is slower than technological change.</description>
+      <description>&lt;p&gt;Professor Ethan Mollick&amp;rsquo;s &lt;a href=&#34;https://www.oneusefulthing.org/p/signs-and-portents&#34;&gt;Signs and
+Portents&lt;/a&gt; analyzes what AI
+has achieved, what the effects have been so far, and what we might expect in
+2024.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;To ground ourselves, we can start with two quotes that should inform any
+estimates about the future. The first is Amara&amp;rsquo;s Law: &amp;ldquo;We tend to overestimate
+the effect of a technology in the short run and underestimate the effect in the
+long run.&amp;rdquo; Social change is slower than technological change. We should not
+expect to see immediate global effects of AI in a major way, no matter how fast
+its adoption (and it is remarkably fast), yet we certainly will see it sooner
+than many people think.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Professor Ethan Mollick&rsquo;s <a href="https://www.oneusefulthing.org/p/signs-and-portents">Signs and
 Portents</a> analyzes what AI
 has achieved, what the effects have been so far, and what we might expect in
@@ -257,8 +294,7 @@ the effect of a technology in the short run and underestimate the effect in the
 long run.&rdquo; Social change is slower than technological change. We should not
 expect to see immediate global effects of AI in a major way, no matter how fast
 its adoption (and it is remarkably fast), yet we certainly will see it sooner
-than many people think.</p>
-</blockquote>
+than many people think.</p></blockquote>
 <p>It&rsquo;s an insightful read that pairs well with Simon Wilson&rsquo;s <a href="/stuff-we-figured-out-about-ai-in-2023/">2023
 round-up</a>. Also, his 30-second fake
 video of himself telling things he never told is impressive.</p>
@@ -269,8 +305,17 @@ video of himself telling things he never told is impressive.</p>
       <link>https://nicolaiarocci.com/stuff-we-figured-out-about-ai-in-2023/</link>
       <pubDate>Mon, 01 Jan 2024 11:46:22 +0100</pubDate>
       <guid>https://nicolaiarocci.com/stuff-we-figured-out-about-ai-in-2023/</guid>
-      <description>Simon Wilson, who&amp;rsquo;s recently been my go-to person for all AI-related stuff, has an excellent 2023 AI round-up on his website.
-2023 was the breakthrough year for Large Language Models (LLMs). I think it&amp;rsquo;s OK to call these AI—they&amp;rsquo;re the latest and (currently) most &amp;ldquo;interesting development in the academic field of Artificial Intelligence that dates back to the 1950s. Here&amp;rsquo;s my attempt to round up the highlights in one place!</description>
+      <description>&lt;p&gt;Simon Wilson, who&amp;rsquo;s recently been my go-to person for all AI-related stuff, has
+an excellent &lt;a href=&#34;https://simonwillison.net/2023/Dec/31/ai-in-2023/&#34;&gt;2023 AI
+round-up&lt;/a&gt; on his website.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2023 was the breakthrough year for Large Language Models (LLMs). I think it&amp;rsquo;s
+OK to call these AI—they&amp;rsquo;re the latest and (currently) most &amp;ldquo;interesting
+development in the academic field of Artificial Intelligence that dates back to
+the 1950s. Here&amp;rsquo;s my attempt to round up the highlights in one place!&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;The links contained within the post are also valuable. You may know Simon&amp;rsquo;s
+website if you are interested in LLMs and AI. If you don&amp;rsquo;t, I suggest you start
+following him, preferably via his RSS feed like real hackers do.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Simon Wilson, who&rsquo;s recently been my go-to person for all AI-related stuff, has
 an excellent <a href="https://simonwillison.net/2023/Dec/31/ai-in-2023/">2023 AI
 round-up</a> on his website.</p>
@@ -278,8 +323,7 @@ round-up</a> on his website.</p>
 <p>2023 was the breakthrough year for Large Language Models (LLMs). I think it&rsquo;s
 OK to call these AI—they&rsquo;re the latest and (currently) most &ldquo;interesting
 development in the academic field of Artificial Intelligence that dates back to
-the 1950s. Here&rsquo;s my attempt to round up the highlights in one place!</p>
-</blockquote>
+the 1950s. Here&rsquo;s my attempt to round up the highlights in one place!</p></blockquote>
 <p>The links contained within the post are also valuable. You may know Simon&rsquo;s
 website if you are interested in LLMs and AI. If you don&rsquo;t, I suggest you start
 following him, preferably via his RSS feed like real hackers do.</p>
@@ -290,18 +334,18 @@ following him, preferably via his RSS feed like real hackers do.</p>
       <link>https://nicolaiarocci.com/quoting-andrej-karpathy/</link>
       <pubDate>Sat, 09 Dec 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/quoting-andrej-karpathy/</guid>
-      <description>I always struggle a bit with I&amp;rsquo;m asked about the &amp;ldquo;hallucination problem&amp;rdquo; in LLMs. Because, in some sense, hallucination is all LLMs do. They are dream machines.
-We direct their dreams with prompts. The prompts start the dream, and based on the LLM&amp;rsquo;s hazy recollection of its training documents, most of the time the result goes someplace useful.
-It&amp;rsquo;s only when the dreams go into deemed factually incorrect territory that we label it a &amp;ldquo;hallucination&amp;rdquo;.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;I always struggle a bit with I&amp;rsquo;m asked about the &amp;ldquo;hallucination problem&amp;rdquo; in LLMs. Because, in some sense, hallucination is all LLMs do. They are dream machines.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We direct their dreams with prompts. The prompts start the dream, and based on the LLM&amp;rsquo;s hazy recollection of its training documents, most of the time the result goes someplace useful.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It&amp;rsquo;s only when the dreams go into deemed factually incorrect territory that we label it a &amp;ldquo;hallucination&amp;rdquo;. It looks like a bug, but it&amp;rsquo;s just the LLM doing what it always does.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>I always struggle a bit with I&rsquo;m asked about the &ldquo;hallucination problem&rdquo; in LLMs. Because, in some sense, hallucination is all LLMs do. They are dream machines.</p>
-</blockquote>
+<p>I always struggle a bit with I&rsquo;m asked about the &ldquo;hallucination problem&rdquo; in LLMs. Because, in some sense, hallucination is all LLMs do. They are dream machines.</p></blockquote>
 <blockquote>
-<p>We direct their dreams with prompts. The prompts start the dream, and based on the LLM&rsquo;s hazy recollection of its training documents, most of the time the result goes someplace useful.</p>
-</blockquote>
+<p>We direct their dreams with prompts. The prompts start the dream, and based on the LLM&rsquo;s hazy recollection of its training documents, most of the time the result goes someplace useful.</p></blockquote>
 <blockquote>
-<p>It&rsquo;s only when the dreams go into deemed factually incorrect territory that we label it a &ldquo;hallucination&rdquo;. It looks like a bug, but it&rsquo;s just the LLM doing what it always does.</p>
-</blockquote>
+<p>It&rsquo;s only when the dreams go into deemed factually incorrect territory that we label it a &ldquo;hallucination&rdquo;. It looks like a bug, but it&rsquo;s just the LLM doing what it always does.</p></blockquote>
 <p>&ndash; <a href="https://twitter.com/karpathy/status/1733299213503787018">Andrej Karpathy</a></p>
 ]]></content:encoded>
     </item>
@@ -310,8 +354,14 @@ It&amp;rsquo;s only when the dreams go into deemed factually incorrect territory
       <link>https://nicolaiarocci.com/intro-to-large-language-models-video/</link>
       <pubDate>Fri, 24 Nov 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/intro-to-large-language-models-video/</guid>
-      <description>Andrej Karpathy has a very well-done Intro to Large Language Models video on YouTube. As a founding member and research scientist at OpenAI and with a two-year hiatus working on Tesla Autopilot, Karpathy is an authority in the field. He is also good at explaining hard things.
-As a Kahneman reader, I appreciated the Thinking Fast and Slow analogy proposed at about half-length in the video: &amp;ldquo;System 1&amp;rdquo; (fast automatic thinking, rapid decisions) is where we&amp;rsquo;re now; &amp;ldquo;System 2&amp;rdquo; (rational, slow thinking, complex decisions) is LLMs next goal.</description>
+      <description>&lt;p&gt;Andrej Karpathy has a very well-done &lt;a href=&#34;https://youtu.be/zjkBMFhNj_g?si=5tJNFaDcK-FBWnWK&#34;&gt;Intro to Large Language Models&lt;/a&gt;
+video on YouTube. As a founding member and research scientist at OpenAI and with a two-year hiatus working on Tesla
+Autopilot, Karpathy is an authority in the field. He is also good at explaining hard things.&lt;/p&gt;
+&lt;p&gt;As a Kahneman reader, I appreciated the &lt;em&gt;Thinking Fast and Slow&lt;/em&gt; analogy proposed at about half-length in the video:
+&amp;ldquo;System 1&amp;rdquo; (fast automatic thinking, rapid decisions) is where we&amp;rsquo;re now; &amp;ldquo;System 2&amp;rdquo; (rational, slow thinking, complex
+decisions) is LLMs next goal. Also, I suspect Karpathy&amp;rsquo;s intriguing idea of LLMs as the center of a new &amp;ldquo;operating
+system style&amp;rdquo; is not too far off from what will emerge soon. The final segment on AI security and known attack vectors
+(jailbreaking, prompt injection, data poisoning) is also super interesting.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Andrej Karpathy has a very well-done <a href="https://youtu.be/zjkBMFhNj_g?si=5tJNFaDcK-FBWnWK">Intro to Large Language Models</a>
 video on YouTube. As a founding member and research scientist at OpenAI and with a two-year hiatus working on Tesla
 Autopilot, Karpathy is an authority in the field. He is also good at explaining hard things.</p>
@@ -329,16 +379,20 @@ course on building neural networks from scratch, in code.&rdquo;</p>
       <link>https://nicolaiarocci.com/ai-curated-minimalist-news/</link>
       <pubDate>Wed, 03 May 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/ai-curated-minimalist-news/</guid>
-      <description>Minimalist News is the first LLM project that excites me but in a nervous way. Quoting the About page:
-We only publish significant news. To find them we use AI (ChatGPT-4) to read and analyze 1000 top news every day. For each article it estimates magnitude, scale, potential and credibility. Then we combine these estimates to get the final Significance score from 0 to 10. And now the best part: We&amp;rsquo;ll only send you the news scored 6.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.newsminimalist.com&#34;&gt;Minimalist News&lt;/a&gt; is the first LLM project that excites me but in a nervous way. Quoting the About page:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We only publish significant news. To find them we use AI (ChatGPT-4) to read and analyze 1000 top news every day. For
+each article it estimates magnitude, scale, potential and credibility. Then we combine these estimates to get the
+final Significance score from 0 to 10. And now the best part: We&amp;rsquo;ll only send you the news scored 6.5 or higher.
+Sometimes it&amp;rsquo;s 5 articles, sometimes 2, sometimes 8. And sometimes — none at all. But one thing is constant — you can
+be sure that you haven&amp;rsquo;t missed anything important.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="https://www.newsminimalist.com">Minimalist News</a> is the first LLM project that excites me but in a nervous way. Quoting the About page:</p>
 <blockquote>
 <p>We only publish significant news. To find them we use AI (ChatGPT-4) to read and analyze 1000 top news every day. For
 each article it estimates magnitude, scale, potential and credibility. Then we combine these estimates to get the
 final Significance score from 0 to 10. And now the best part: We&rsquo;ll only send you the news scored 6.5 or higher.
 Sometimes it&rsquo;s 5 articles, sometimes 2, sometimes 8. And sometimes — none at all. But one thing is constant — you can
-be sure that you haven&rsquo;t missed anything important.</p>
-</blockquote>
+be sure that you haven&rsquo;t missed anything important.</p></blockquote>
 <p>The concept is brilliant and well executed, but I can&rsquo;t help but feel uncomfortable at the notion of an AI curating news
 for me. Yet, this is the best use case for LLM/AI I&rsquo;ve seen until now.</p>
 ]]></content:encoded>

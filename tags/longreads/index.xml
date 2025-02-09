@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>longreads on Nicola Iarocci</title>
+    <title>Longreads on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/longreads/</link>
-    <description>Recent content in longreads on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Longreads on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 08 Dec 2021 07:05:25 +0100</lastBuildDate>
@@ -14,8 +14,19 @@
       <link>https://nicolaiarocci.com/on-the-incredible-opportunities-offered-by-starship/</link>
       <pubDate>Wed, 08 Dec 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-the-incredible-opportunities-offered-by-starship/</guid>
-      <description>Space-junkie me is back, this time reading about the innumerable opportunities that SpaceX&amp;rsquo;s Starship will offer once it becomes operational, hopefully no later than this year or the next. In his Science Upside for Starship, the exceptionally knowledgeable Casey Handmer makes a case for Starship relevance in the future of space exploration by listing an astounding number of reasonable use-cases for the vessel.
-I think it is relatively straightforward to think of cool things to do with SpaceX Starships, so recent posts have focused on trying to understand the more mixed consequences for incumbent industrial organizations that are not ideally positioned to exploit the coming advances.</description>
+      <description>&lt;p&gt;Space-junkie me is back, this time reading about the innumerable opportunities
+that SpaceX&amp;rsquo;s Starship will offer once it becomes operational, hopefully no
+later than this year or the next. In his &lt;a href=&#34;https://caseyhandmer.wordpress.com/2021/11/17/science-upside-for-starship/&#34;&gt;Science Upside for Starship&lt;/a&gt;, the
+exceptionally knowledgeable Casey Handmer makes a case for Starship relevance
+in the future of space exploration by listing an astounding number of
+reasonable use-cases for the vessel.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I think it is relatively straightforward to think of cool things to do with
+SpaceX Starships, so recent posts have focused on trying to understand the
+more mixed consequences for incumbent industrial organizations that are not
+ideally positioned to exploit the coming advances. It is, however, a fun
+exercise to enumerate all the ways in which Starship and related technologies
+can help execute bold, ambitious missions of scientific discovery.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Space-junkie me is back, this time reading about the innumerable opportunities
 that SpaceX&rsquo;s Starship will offer once it becomes operational, hopefully no
 later than this year or the next. In his <a href="https://caseyhandmer.wordpress.com/2021/11/17/science-upside-for-starship/">Science Upside for Starship</a>, the
@@ -28,8 +39,7 @@ SpaceX Starships, so recent posts have focused on trying to understand the
 more mixed consequences for incumbent industrial organizations that are not
 ideally positioned to exploit the coming advances. It is, however, a fun
 exercise to enumerate all the ways in which Starship and related technologies
-can help execute bold, ambitious missions of scientific discovery.</p>
-</blockquote>
+can help execute bold, ambitious missions of scientific discovery.</p></blockquote>
 <p>It&rsquo;s long-form, yes, but well worth it. Oh, and while you&rsquo;re at it, you might
 as well read <a href="https://caseyhandmer.wordpress.com/2021/10/28/starship-is-still-not-understood/">Starship is Still Not Understood</a>, Casey&rsquo;s previous article on the
 topic.</p>
@@ -40,16 +50,20 @@ topic.</p>
       <link>https://nicolaiarocci.com/the-posthuman-dog/</link>
       <pubDate>Sat, 06 Nov 2021 08:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-posthuman-dog/</guid>
-      <description>Flo, our dog, spent her whole fifteen-years long life with us. Many, many times after she passed away, I wondered if she lived a happy dog life or not. In The posthuman dog (Aeon), Jessica Pierce poses a fascinating question that somehow helps find answers to my troubling question:
-If humans were to disappear from the face of the Earth, what might dogs become? And would they be better off without us?</description>
+      <description>&lt;p&gt;Flo, our dog, spent her whole fifteen-years long life with us. Many, many times
+after she passed away, I wondered if she lived a happy dog life or not. In &lt;a href=&#34;https://aeon.co/essays/who-could-dogs-become-without-humans-in-their-lives&#34;&gt;The
+posthuman dog&lt;/a&gt; (Aeon), Jessica Pierce poses a fascinating question that
+somehow helps find answers to my troubling question:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If humans were to disappear from the face of the Earth, what might dogs
+become? And would they be better off without us?&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Flo, our dog, spent her whole fifteen-years long life with us. Many, many times
 after she passed away, I wondered if she lived a happy dog life or not. In <a href="https://aeon.co/essays/who-could-dogs-become-without-humans-in-their-lives">The
 posthuman dog</a> (Aeon), Jessica Pierce poses a fascinating question that
 somehow helps find answers to my troubling question:</p>
 <blockquote>
 <p>If humans were to disappear from the face of the Earth, what might dogs
-become? And would they be better off without us?</p>
-</blockquote>
+become? And would they be better off without us?</p></blockquote>
 <p>Unfortunately, the answer I can infer from the article is not very pleasant to
 my guilt.</p>
 ]]></content:encoded>
@@ -59,17 +73,21 @@ my guilt.</p>
       <link>https://nicolaiarocci.com/the-internet-is-rotting/</link>
       <pubDate>Sat, 17 Jul 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-internet-is-rotting/</guid>
-      <description>Terrific piece by Jonathan Zittrain, on The Atlantic, on link rot and digital preservation. I love how well documented and informative it is. Yet, it remains perfectly approachable for both the non-knowledgeable reader and the technically savvy.
-Too much has been lost already. The glue that holds humanity’s knowledge together is coming undone.
-We need more content like this.</description>
+      <description>&lt;p&gt;Terrific piece by Jonathan Zittrain, on The Atlantic, on &lt;a href=&#34;https://www.theatlantic.com/technology/archive/2021/06/the-internet-is-a-collective-hallucination/619320/&#34;&gt;link rot and digital
+preservation&lt;/a&gt;. I love how well documented and informative it is. Yet, it
+remains perfectly approachable for both the non-knowledgeable reader and the
+technically savvy.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Too much has been lost already. The glue that holds humanity’s knowledge
+together is coming undone.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;We need more content like this.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Terrific piece by Jonathan Zittrain, on The Atlantic, on <a href="https://www.theatlantic.com/technology/archive/2021/06/the-internet-is-a-collective-hallucination/619320/">link rot and digital
 preservation</a>. I love how well documented and informative it is. Yet, it
 remains perfectly approachable for both the non-knowledgeable reader and the
 technically savvy.</p>
 <blockquote>
 <p>Too much has been lost already. The glue that holds humanity’s knowledge
-together is coming undone.</p>
-</blockquote>
+together is coming undone.</p></blockquote>
 <p>We need more content like this.</p>
 ]]></content:encoded>
     </item>
@@ -78,8 +96,18 @@ together is coming undone.</p>
       <link>https://nicolaiarocci.com/on-the-ceo-and-founder-of-signal/</link>
       <pubDate>Mon, 01 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-the-ceo-and-founder-of-signal/</guid>
-      <description>Last weekend&amp;rsquo;s reading list also included Taking Back Our Privacy, yet another1 New Yorker piece but this time signed by Anna Wiener. This article is a long-read on Moxie Marlinspike, co-founder and CEO of Signal. Moxie is a childhood nickname. That alone signals (pun intended) an original personality. I mean, how many times have you heard of a CEO going by his childhood nickname?
-Indeed the personal story of Marlinspike, along with that of the ascent of Signal, is fascinating.</description>
+      <description>&lt;p&gt;Last weekend&amp;rsquo;s reading list also included &lt;a href=&#34;https://www.newyorker.com/magazine/2020/10/26/taking-back-our-privacy&#34;&gt;Taking Back Our Privacy&lt;/a&gt;, yet
+another&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; New Yorker piece but this time signed by Anna Wiener. This article is
+a long-read on Moxie Marlinspike, co-founder and CEO of Signal. Moxie is
+a childhood nickname. That alone signals (pun intended) an original
+personality. I mean, how many times have you heard of a CEO going by his
+childhood nickname?&lt;/p&gt;
+&lt;p&gt;Indeed the personal story of Marlinspike, along with that of the ascent of
+Signal, is fascinating. I did not know, for example, that in 2013 he met Brian
+Acton, founder of WhatsApp. Brian expressed interest in adding end-to-end
+encryption into WhatsApp. Then came Facebook&amp;rsquo;s acquisition, and, for obvious
+reasons, Signal Protocol never landed into the messaging service. The story was
+not over, however:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Last weekend&rsquo;s reading list also included <a href="https://www.newyorker.com/magazine/2020/10/26/taking-back-our-privacy">Taking Back Our Privacy</a>, yet
 another<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> New Yorker piece but this time signed by Anna Wiener. This article is
 a long-read on Moxie Marlinspike, co-founder and CEO of Signal. Moxie is
@@ -101,8 +129,7 @@ End-to-end encryption precluded the collection of message content that would
 be valuable to advertisers. In early 2018, Acton and Marlinspike announced
 the formation of the Signal Foundation, a nonprofit. Acton, the foundation’s
 chairman and sole member, seeded it with a no-interest, fifty-million-dollar
-loan.</p>
-</blockquote>
+loan.</p></blockquote>
 <p>What a plot twist. What&rsquo;s even more remarkable is Moxie&rsquo;s personal biography.
 He is not your average startup co-founder, not by any mean. He kind stands at
 the interconnection between activism, ethical hacking, and anarchy, and yet
@@ -125,8 +152,18 @@ he&rsquo;s the CEO of a booming startup.</p>
       <link>https://nicolaiarocci.com/the-activists-who-embrace-nuclear-power/</link>
       <pubDate>Sun, 28 Feb 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-activists-who-embrace-nuclear-power/</guid>
-      <description>Today, my Sunday long-reading list included New Yorker&amp;rsquo;s The Activists Who Embrace Nuclear Power by Rebecca Tuhus-Dubrow. Can nuclear power possibly be a viable solution for climate change? Twenty or even ten years ago, my answer would have been a big fat No. Today? Not so sure anymore.
-Today, the looming disruptions of climate change have altered the risk calculus around nuclear energy. James Hansen, the NASA scientist credited with first bringing global warming to public attention, in 1988, has long advocated a vast expansion of nuclear power to replace fossil fuels.</description>
+      <description>&lt;p&gt;Today, my Sunday long-reading list included New Yorker&amp;rsquo;s &lt;a href=&#34;https://www.newyorker.com/tech/annals-of-technology/the-activists-who-embrace-nuclear-power&#34;&gt;The Activists Who
+Embrace Nuclear Power&lt;/a&gt; by Rebecca Tuhus-Dubrow. Can nuclear power possibly
+be a viable solution for climate change? Twenty or even ten years ago, my
+answer would have been a big fat No. Today? Not so sure anymore.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Today, the looming disruptions of climate change have altered the risk
+calculus around nuclear energy. James Hansen, the NASA scientist credited
+with first bringing global warming to public attention, in 1988, has long
+advocated a vast expansion of nuclear power to replace fossil fuels. Even
+some environmental groups that have reservations about nuclear energy [&amp;hellip;]
+have recognized that abruptly closing existing reactors would lead to a spike
+in emissions.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today, my Sunday long-reading list included New Yorker&rsquo;s <a href="https://www.newyorker.com/tech/annals-of-technology/the-activists-who-embrace-nuclear-power">The Activists Who
 Embrace Nuclear Power</a> by Rebecca Tuhus-Dubrow. Can nuclear power possibly
 be a viable solution for climate change? Twenty or even ten years ago, my
@@ -138,8 +175,7 @@ with first bringing global warming to public attention, in 1988, has long
 advocated a vast expansion of nuclear power to replace fossil fuels. Even
 some environmental groups that have reservations about nuclear energy [&hellip;]
 have recognized that abruptly closing existing reactors would lead to a spike
-in emissions.</p>
-</blockquote>
+in emissions.</p></blockquote>
 <p>I am surprised that the author, who clearly researched the topic well, did not
 mention Bill Gates&rsquo; <a href="https://www.forbes.com/sites/scottcarpenter/2020/08/31/bill-gates-nuclear-firm-says-new-reactor-can-backstop-grid-with-molten-salt-storage/">Mini-Reactors</a> approach to the problem. It might have
 been a deliberate choice, as at some point, she does note that &ldquo;scientists are

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>wikis on Nicola Iarocci</title>
+    <title>Wikis on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/wikis/</link>
-    <description>Recent content in wikis on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Wikis on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 09 Feb 2024 15:58:54 +0100</lastBuildDate>
@@ -14,8 +14,16 @@
       <link>https://nicolaiarocci.com/github-wikis-dont-allow-edits-or-pull-requests/</link>
       <pubDate>Fri, 09 Feb 2024 15:58:54 +0100</pubDate>
       <guid>https://nicolaiarocci.com/github-wikis-dont-allow-edits-or-pull-requests/</guid>
-      <description>Today I learned that GitHub wikis are not editable online and do not support pull requests. You can clone and edit a wiki locally but not return your change to the original repository.
-I don&amp;rsquo;t use wikis in my projects; I prefer documentation to stay with the project, usually in a dedicated directory, and publish it on a dedicated site through GitHub Pages. But today was different as I opened a pull request for PaperMod, the Hugo theme I use on this website.</description>
+      <description>&lt;p&gt;Today I learned that GitHub wikis are not editable online and &lt;a href=&#34;https://github.com/orgs/community/discussions/50163&#34;&gt;do not support
+pull requests&lt;/a&gt;. You can
+clone and edit a wiki locally but not return your change to the original
+repository.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t use wikis in &lt;a href=&#34;https://nicolaiarocci.com/opensource/&#34;&gt;my projects&lt;/a&gt;; I prefer documentation to stay with the
+project, usually in a dedicated directory, and publish it on a dedicated site
+through GitHub Pages. But today was different as I &lt;a href=&#34;https://github.com/adityatelange/hugo-PaperMod/pull/1419&#34;&gt;opened a pull
+request&lt;/a&gt; for PaperMod,
+the Hugo theme I use on this website. Someone asked if I could update the
+documentation too. Right, too bad it&amp;rsquo;s impossible to do that.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I learned that GitHub wikis are not editable online and <a href="https://github.com/orgs/community/discussions/50163">do not support
 pull requests</a>. You can
 clone and edit a wiki locally but not return your change to the original

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>print.css on Nicola Iarocci</title>
+    <title>Print.css on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/print.css/</link>
-    <description>Recent content in print.css on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Print.css on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 05 Sep 2011 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,9 @@
       <link>https://nicolaiarocci.com/print-css-e-il-foglio-di-stile-per-il-web-designer-attento-allambiente/</link>
       <pubDate>Mon, 05 Sep 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/print-css-e-il-foglio-di-stile-per-il-web-designer-attento-allambiente/</guid>
-      <description>Carta e inchiostro costano eppure ci sono (ancora) molte ragioni per mandare in stampa una pagina web. David Bushell ha creato Print.css, un mini sito che incoraggia i web designer alla creazione di fogli di stile eco-compatibili che inviino alla stampante solo il necessario. In effetti la direttiva CSS @media permette di farlo con facilità.</description>
+      <description>&lt;p&gt;Carta e inchiostro costano eppure ci sono (ancora) molte ragioni per mandare in stampa una pagina web. David Bushell ha creato &lt;a href=&#34;http://printstylesheet.com/&#34; title=&#34;Print.css&#34;&gt;Print.css&lt;/a&gt;, un mini sito che incoraggia i web designer alla creazione di fogli di stile eco-compatibili che inviino alla stampante solo il necessario. In effetti la direttiva CSS &lt;code&gt;@media&lt;/code&gt; permette di farlo con facilità.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
       <content:encoded><![CDATA[<p>Carta e inchiostro costano eppure ci sono (ancora) molte ragioni per mandare in stampa una pagina web. David Bushell ha creato <a href="http://printstylesheet.com/" title="Print.css">Print.css</a>, un mini sito che incoraggia i web designer alla creazione di fogli di stile eco-compatibili che inviino alla stampante solo il necessario. In effetti la direttiva CSS <code>@media</code> permette di farlo con facilità.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->

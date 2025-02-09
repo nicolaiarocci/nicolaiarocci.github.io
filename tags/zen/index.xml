@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>zen on Nicola Iarocci</title>
+    <title>Zen on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/zen/</link>
-    <description>Recent content in zen on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Zen on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 08 Jan 2014 00:00:00 +0000</lastBuildDate>
@@ -14,14 +14,13 @@
       <link>https://nicolaiarocci.com/stateless-mindset/</link>
       <pubDate>Wed, 08 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/stateless-mindset/</guid>
-      <description>Would it be possible (and advisable) for a person to deal with everyday matters as if he/she was a stateless machine?
-Imagine if you as a person dealt with millions of requests a day from a thousand or so clients: if you had to keep track all those clients and the multiple requests they were making, it would drive you crazy. The burden of remembering would crush you.
-This is what our lives are like.</description>
+      <description>&lt;p&gt;Would it be possible (and advisable) for a person to deal with everyday matters as if he/she was a stateless machine?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Imagine if you as a person dealt with millions of requests a day from a thousand or so clients: if you had to keep track all those clients and the multiple requests they were making, it would drive you crazy. The burden of remembering would crush you.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Would it be possible (and advisable) for a person to deal with everyday matters as if he/she was a stateless machine?</p>
 <blockquote>
 <p><!-- raw HTML omitted -->Imagine if you as a person dealt with millions of requests a day from a thousand or so clients: if you had to keep track all those clients and the multiple requests they were making, it would drive you crazy. The burden of remembering would crush you.<!-- raw HTML omitted --></p>
-<p>This is what our lives are like. We are constantly holding information, frustration, ideas, tension, requests, needs, of a thousand different requests each day. Every email, every call, every text message, every open browser tab, every interaction with another person, every task we do … it all builds up in us until we are overloaded.</p>
-</blockquote>
+<p>This is what our lives are like. We are constantly holding information, frustration, ideas, tension, requests, needs, of a thousand different requests each day. Every email, every call, every text message, every open browser tab, every interaction with another person, every task we do … it all builds up in us until we are overloaded.</p></blockquote>
 <p>via <a href="http://zenhabits.net/stateless/">Stateless Mindset : zenhabits</a>.</p>
 ]]></content:encoded>
     </item>

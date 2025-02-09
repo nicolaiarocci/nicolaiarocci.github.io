@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>talks on Nicola Iarocci</title>
+    <title>Talks on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/talks/</link>
-    <description>Recent content in talks on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Talks on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 03 Jun 2013 00:00:00 +0000</lastBuildDate>
@@ -14,8 +14,8 @@
       <link>https://nicolaiarocci.com/mongodb-user-group/</link>
       <pubDate>Mon, 03 Jun 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/mongodb-user-group/</guid>
-      <description>Domani sarò al primo meeting romagnolo del #MUG MongoDB User Group organizzato da 10Gen (azienda dietro a MongoDB), Byte-Code e Ideato.
-Parlerò di MongoDB usato come backend per una REST WEB API. L’evento si svolgerà in serata a Cesena, è gratuito, e ci sono ancora posti disponibili. Se ci siete passate a salutarmi.</description>
+      <description>&lt;p&gt;Domani sarò al primo meeting romagnolo del #MUG MongoDB User Group organizzato da 10Gen (azienda dietro a MongoDB), Byte-Code e Ideato.&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Parlerò di MongoDB usato come backend per una REST WEB API. &lt;!-- raw HTML omitted --&gt;L’evento si svolgerà in serata a Cesena, è gratuito, e ci sono ancora &lt;a href=&#34;http://www.eventbrite.com/event/6297117849&#34;&gt;posti disponibili&lt;/a&gt;. Se ci siete passate a salutarmi.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Domani sarò al primo meeting romagnolo del #MUG MongoDB User Group organizzato da 10Gen (azienda dietro a MongoDB), Byte-Code e Ideato.</p>
 <p><!-- raw HTML omitted -->Parlerò di MongoDB usato come backend per una REST WEB API. <!-- raw HTML omitted -->L’evento si svolgerà in serata a Cesena, è gratuito, e ci sono ancora <a href="http://www.eventbrite.com/event/6297117849">posti disponibili</a>. Se ci siete passate a salutarmi.</p>
 ]]></content:encoded>

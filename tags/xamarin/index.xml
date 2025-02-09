@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>xamarin on Nicola Iarocci</title>
+    <title>Xamarin on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/xamarin/</link>
-    <description>Recent content in xamarin on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Xamarin on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 30 May 2012 00:00:00 +0000</lastBuildDate>
@@ -14,13 +14,13 @@
       <link>https://nicolaiarocci.com/xamarin-abbandona-il-progetto-silverlight-per-linux/</link>
       <pubDate>Wed, 30 May 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/xamarin-abbandona-il-progetto-silverlight-per-linux/</guid>
-      <description>Moonlight, l’implementazione open-source di Silverlight per sistemi Linux, è stata abbandonata da Xamarin.
-Abbiamo abbandonato Moonlight (…) Il web non ha addotato Silverlight; non ha avuto il successo che mi aspettavo. Miguel de Icaza
-Un’altro chiodo sulla bara di Silverlight. Dei dubbi sul futuro della tecnologia Microsoft avevo già scritto in occasione della sua mancata adozione in Windows 8 e al momento dell’annuncio di Silverlight 5.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Moonlight, l’implementazione open-source di Silverlight per sistemi Linux, è stata &lt;!-- raw HTML omitted --&gt;abbandonata da Xamarin&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Abbiamo abbandonato Moonlight (…) Il web non ha addotato Silverlight; non ha avuto il successo che mi aspettavo. &lt;strong&gt;Miguel de Icaza&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Un’altro chiodo sulla bara di Silverlight. Dei dubbi sul futuro della tecnologia Microsoft avevo già scritto in occasione della sua &lt;a href=&#34;http://nicolaiarocci.com/windows-8-e-i-dubbi-sul-destino-di-silverlight/&#34; title=&#34;Windows 8 e i dubbi sul destino di Silverlight&#34;&gt;mancata adozione in Windows 8&lt;/a&gt; e al momento dell’annuncio di &lt;a href=&#34;http://nicolaiarocci.com/microsoft-silverlight-e-adobe-flash-verso-la-resa-comincia-lera-di-re-html5/&#34; title=&#34;Silverlight 5 vs HTML5&#34;&gt;Silverlight 5&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Moonlight, l’implementazione open-source di Silverlight per sistemi Linux, è stata <!-- raw HTML omitted -->abbandonata da Xamarin<!-- raw HTML omitted -->.</p>
 <blockquote>
-<p>Abbiamo abbandonato Moonlight (…) Il web non ha addotato Silverlight; non ha avuto il successo che mi aspettavo. <strong>Miguel de Icaza</strong></p>
-</blockquote>
+<p>Abbiamo abbandonato Moonlight (…) Il web non ha addotato Silverlight; non ha avuto il successo che mi aspettavo. <strong>Miguel de Icaza</strong></p></blockquote>
 <p>Un’altro chiodo sulla bara di Silverlight. Dei dubbi sul futuro della tecnologia Microsoft avevo già scritto in occasione della sua <a href="http://nicolaiarocci.com/windows-8-e-i-dubbi-sul-destino-di-silverlight/" title="Windows 8 e i dubbi sul destino di Silverlight">mancata adozione in Windows 8</a> e al momento dell’annuncio di <a href="http://nicolaiarocci.com/microsoft-silverlight-e-adobe-flash-verso-la-resa-comincia-lera-di-re-html5/" title="Silverlight 5 vs HTML5">Silverlight 5</a>.</p>
 ]]></content:encoded>
     </item>
@@ -29,9 +29,8 @@ Un’altro chiodo sulla bara di Silverlight. Dei dubbi sul futuro della tecnolog
       <link>https://nicolaiarocci.com/mono-2-10-3-gira-su-os-x-lion-ed-e-vivo-e-vegeto/</link>
       <pubDate>Fri, 05 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/mono-2-10-3-gira-su-os-x-lion-ed-e-vivo-e-vegeto/</guid>
-      <description>Xamarin, la compagnia che ha preso in mano il Progetto Mono dopo l’addio di Novell, ha appena rilasciato Mono 2.10.3. Ne da annuncio lo stesso Manuel de Icaza, storico deux-ex-machina del progetto e fondatore di Xamarin.
-Si tratta per lo più di una versione di manutenzione che risolve numerosi problemi, primo fra tutti l’instabilità di Mono sull’ultima versione di MacOS X Lion.
-L’importanza di questo aggiornamento va ben oltre le sue caratteristiche tecniche.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Xamarin, la compagnia che &lt;a href=&#34;http://nicolaiarocci.com/il-progetto-mono-salvato-in-extremis-dal-suo-fondatore/&#34; title=&#34;Progetto Mono salvato dal suo fondatore&#34;&gt;ha preso in mano il Progetto Mono&lt;/a&gt; dopo l’addio di Novell, ha appena rilasciato Mono 2.10.3. Ne da annuncio lo stesso Manuel de Icaza, storico deux-ex-machina del progetto e fondatore di Xamarin.&lt;/p&gt;
+&lt;p&gt;Si tratta per lo più di una versione di manutenzione che &lt;!-- raw HTML omitted --&gt;risolve numerosi problemi&lt;!-- raw HTML omitted --&gt;, primo fra tutti l’instabilità di Mono sull’ultima versione di MacOS X Lion.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Xamarin, la compagnia che <a href="http://nicolaiarocci.com/il-progetto-mono-salvato-in-extremis-dal-suo-fondatore/" title="Progetto Mono salvato dal suo fondatore">ha preso in mano il Progetto Mono</a> dopo l’addio di Novell, ha appena rilasciato Mono 2.10.3. Ne da annuncio lo stesso Manuel de Icaza, storico deux-ex-machina del progetto e fondatore di Xamarin.</p>
 <p>Si tratta per lo più di una versione di manutenzione che <!-- raw HTML omitted -->risolve numerosi problemi<!-- raw HTML omitted -->, primo fra tutti l’instabilità di Mono sull’ultima versione di MacOS X Lion.</p>
 <p>L’importanza di questo aggiornamento va ben oltre le sue caratteristiche tecniche. Il titolo stesso dell’<!-- raw HTML omitted -->annuncio<!-- raw HTML omitted --> (And We Are Back) parla chiaro: si tratta di un segnale di continuità importante che Xamarin lancia alla comunità mondiale di sviluppatori Mono. Per informazioni sul progetto e sulle sue vicissitudini recenti vi invito a leggere l’<a href="http://nicolaiarocci.com/il-progetto-mono-salvato-in-extremis-dal-suo-fondatore/" title="Il Progetto Mono salvato in extremis dal suo fondatore">articolo sul salvataggio di Mono</a> che ho scritto qualche tempo fa.</p>

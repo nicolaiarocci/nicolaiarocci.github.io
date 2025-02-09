@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>postgres on Nicola Iarocci</title>
+    <title>Postgres on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/postgres/</link>
-    <description>Recent content in postgres on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Postgres on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Tue, 30 Jan 2024 15:56:15 +0100</lastBuildDate>
@@ -14,10 +14,16 @@
       <link>https://nicolaiarocci.com/pg_dump-and-pg_restore-can-backup-and-restore-single-postgres-schemas/</link>
       <pubDate>Tue, 30 Jan 2024 15:56:15 +0100</pubDate>
       <guid>https://nicolaiarocci.com/pg_dump-and-pg_restore-can-backup-and-restore-single-postgres-schemas/</guid>
-      <description>Today I learned that pg_dump can make a copy of a Postgres schema instead of the whole database. Likewise, if needed, pg_restore can restore the schema in either the original database or a different one.
-Backup of a Postgres schema:
-pg_dump -h host -d source_database -U user -n schema_name -F c -f schema_dump_file.dump Restore of a Postgres schema:
-pg_restore -h host -d dest_database -U user -n schema_name schema_dump_file.dump All primary and shared knowledge, I am sure.</description>
+      <description>&lt;p&gt;Today I learned that &lt;code&gt;pg_dump&lt;/code&gt; can make a copy of a Postgres schema instead of
+the whole database. Likewise, if needed, &lt;code&gt;pg_restore&lt;/code&gt; can restore the schema in
+either the original database or a different one.&lt;/p&gt;
+&lt;p&gt;Backup of a Postgres schema:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pg_dump -h host -d source_database -U user -n schema_name -F c -f schema_dump_file.dump
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Restore of a Postgres schema:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pg_restore -h host -d dest_database -U user -n schema_name schema_dump_file.dump
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;All primary and shared knowledge, I am sure. Another item of note: the DB name
+is hard-coded in &lt;code&gt;pg_dumpall&lt;/code&gt; files, so if one wants to restore on a database
+named differently, one must go into the dump file and edit it by hand.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I learned that <code>pg_dump</code> can make a copy of a Postgres schema instead of
 the whole database. Likewise, if needed, <code>pg_restore</code> can restore the schema in
 either the original database or a different one.</p>
@@ -35,14 +41,20 @@ named differently, one must go into the dump file and edit it by hand.</p>
       <link>https://nicolaiarocci.com/pg_rman-a-backup-and-restore-management-tool-for-postgresql/</link>
       <pubDate>Tue, 09 Jan 2024 09:19:48 +0100</pubDate>
       <guid>https://nicolaiarocci.com/pg_rman-a-backup-and-restore-management-tool-for-postgresql/</guid>
-      <description>The goal of the pg_rman project is to provide a method for online backup and PITR that is as easy as pg_dump. Also, it maintains a backup catalog per database cluster. Users can maintain old backups including archive logs with one command.
-We&amp;rsquo;ve always been doing our Postgres backups the rudimentary way via pg_dumpall, which works and is purely logical (one can restore across different Postgres versions), but pg_rman maintains a catalog and has point-in-time recovery.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;The goal of the pg_rman project is to provide a method for online backup and
+PITR that is as easy as pg_dump. Also, it maintains a backup catalog per
+database cluster. Users can maintain old backups including archive logs with one
+command.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;We&amp;rsquo;ve always been doing our Postgres backups the rudimentary way via
+&lt;code&gt;pg_dumpall&lt;/code&gt;, which works and is purely logical (one can restore across different
+Postgres versions), but &lt;code&gt;pg_rman&lt;/code&gt; maintains a catalog and has point-in-time
+recovery.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
 <p>The goal of the pg_rman project is to provide a method for online backup and
 PITR that is as easy as pg_dump. Also, it maintains a backup catalog per
 database cluster. Users can maintain old backups including archive logs with one
-command.</p>
-</blockquote>
+command.</p></blockquote>
 <p>We&rsquo;ve always been doing our Postgres backups the rudimentary way via
 <code>pg_dumpall</code>, which works and is purely logical (one can restore across different
 Postgres versions), but <code>pg_rman</code> maintains a catalog and has point-in-time
@@ -55,7 +67,10 @@ recovery.</p>
       <link>https://nicolaiarocci.com/awesome-psql-tips/</link>
       <pubDate>Thu, 23 Feb 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/awesome-psql-tips/</guid>
-      <description>Today I learned about psql-tips.org by Lætitia Avrot, an excellent repository of psql (the CLI tool, not the database itself) tips. I like how one randomized tip is playfully served on the home page while the complete list is always at hand.</description>
+      <description>&lt;p&gt;Today I learned about &lt;a href=&#34;https://psql-tips.org&#34;&gt;psql-tips.org&lt;/a&gt; by Lætitia Avrot, an excellent
+repository of &lt;code&gt;psql&lt;/code&gt; (the CLI tool, not the database itself) tips. I like how
+one randomized tip is playfully served on the home page while the &lt;a href=&#34;https://psql-tips.org/psql_tips_all.html&#34;&gt;complete
+list&lt;/a&gt; is always at hand.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I learned about <a href="https://psql-tips.org">psql-tips.org</a> by Lætitia Avrot, an excellent
 repository of <code>psql</code> (the CLI tool, not the database itself) tips. I like how
 one randomized tip is playfully served on the home page while the <a href="https://psql-tips.org/psql_tips_all.html">complete
@@ -67,8 +82,14 @@ list</a> is always at hand.</p>
       <link>https://nicolaiarocci.com/automatic-deletion-of-older-records-in-postgres/</link>
       <pubDate>Sun, 16 Jan 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/automatic-deletion-of-older-records-in-postgres/</guid>
-      <description>We have a Postgres cluster with a database for each user. Each database has a table that records events, and we want this table to only record the last 15 days.
-If we were on MongoDB, we could use a capped collection, but we are in Postgres, which does not have equivalent functionality. In Postgres, you have to make do with something homemade. My first idea was to install a cron job in the system.</description>
+      <description>&lt;p&gt;We have a Postgres cluster with a database for each user. Each database has
+a table that records events, and we want this table to only record the last 15
+days.&lt;/p&gt;
+&lt;p&gt;If we were on MongoDB, we could use a &lt;a href=&#34;https://docs.mongodb.com/manual/core/capped-collections/&#34;&gt;capped collection&lt;/a&gt;, but we are in
+Postgres, which does not have equivalent functionality. In Postgres, you have
+to make do with something homemade. My first idea was to install a cron job in
+the system. It would execute daily, deleting older events in each user
+database.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>We have a Postgres cluster with a database for each user. Each database has
 a table that records events, and we want this table to only record the last 15
 days.</p>
@@ -119,7 +140,12 @@ the result.</p>
       <link>https://nicolaiarocci.com/how-to-restore-a-single-postgres-database-from-a-pg_dumpall-dump/</link>
       <pubDate>Wed, 25 Aug 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-restore-a-single-postgres-database-from-a-pg_dumpall-dump/</guid>
-      <description>Today I learned how to restore a single Postgres database from a global dump generated with pg_dumpall. Now, pg_dumpall is handy when you want to back up an entire Postgres cluster. It will dump all databases and global objects in a single text file. In contrast, pg_dump, the go-to tool for Postgres backups, offers more control but only works with a single database and doesn&amp;rsquo;t dump global objects, such as the roles/users linked to the database.</description>
+      <description>&lt;p&gt;Today I learned how to restore a single Postgres database from a global dump
+generated with &lt;a href=&#34;https://www.postgresql.org/docs/current/app-pg-dumpall.html&#34;&gt;&lt;code&gt;pg_dumpall&lt;/code&gt;&lt;/a&gt;. Now, &lt;code&gt;pg_dumpall&lt;/code&gt; is handy when you want to back
+up an entire Postgres cluster. It will dump all databases and global objects in
+a single text file. In contrast, &lt;a href=&#34;https://www.postgresql.org/docs/current/app-pgdump.html&#34;&gt;&lt;code&gt;pg_dump&lt;/code&gt;&lt;/a&gt;, the go-to tool for Postgres
+backups, offers more control but only works with a single database and doesn&amp;rsquo;t
+dump global objects, such as the roles/users linked to the database.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I learned how to restore a single Postgres database from a global dump
 generated with <a href="https://www.postgresql.org/docs/current/app-pg-dumpall.html"><code>pg_dumpall</code></a>. Now, <code>pg_dumpall</code> is handy when you want to back
 up an entire Postgres cluster. It will dump all databases and global objects in
@@ -163,8 +189,20 @@ alone. Merging the above passages in a script is an option.</p>
       <link>https://nicolaiarocci.com/cleaning-up-your-postgres-database/</link>
       <pubDate>Tue, 09 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/cleaning-up-your-postgres-database/</guid>
-      <description>I am an application/backend developer who has to quibble with databases more often than desired. I can get my way around Postgres pretty well, but I can always use a hint or two, especially when it comes to fine-tuning and performance.
-I stumbled upon Cleaning Up Your Postgres Databases. It offers useful advice on spotting performance bottlenecks in your Postgres database. Take the cache and index hit queries, for example.</description>
+      <description>&lt;p&gt;I am an application/backend developer who has to quibble with databases more
+often than desired. I can get my way around Postgres pretty well, but I can
+always use a hint or two, especially when it comes to fine-tuning and
+performance.&lt;/p&gt;
+&lt;p&gt;I stumbled upon &lt;a href=&#34;http://blog.crunchydata.com/blog/cleaning-up-your-postgres-database&#34;&gt;Cleaning Up Your Postgres Databases&lt;/a&gt;. It offers useful
+advice on spotting performance bottlenecks in your Postgres database. Take the
+cache and index hit queries, for example.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The first thing you&amp;rsquo;re going to want to look at is your cache hit ratio and
+index hit ratio. Your cache hit ratio is going to give the percentage of time
+your data is served from within memory vs. having to go to disk. Generally
+serving data from memory vs. disk is going to orders of magnitude faster,
+thus the more you can serve from memory the better. For a typical web
+application making a lot of short requests I&amp;rsquo;m going to target &amp;gt; 99% here.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I am an application/backend developer who has to quibble with databases more
 often than desired. I can get my way around Postgres pretty well, but I can
 always use a hint or two, especially when it comes to fine-tuning and
@@ -178,8 +216,7 @@ index hit ratio. Your cache hit ratio is going to give the percentage of time
 your data is served from within memory vs. having to go to disk. Generally
 serving data from memory vs. disk is going to orders of magnitude faster,
 thus the more you can serve from memory the better. For a typical web
-application making a lot of short requests I&rsquo;m going to target &gt; 99% here.</p>
-</blockquote>
+application making a lot of short requests I&rsquo;m going to target &gt; 99% here.</p></blockquote>
 <p>I will be trying them real soon. Like, today.</p>
 ]]></content:encoded>
     </item>

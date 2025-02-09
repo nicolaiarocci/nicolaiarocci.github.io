@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>eve-swagger on Nicola Iarocci</title>
+    <title>Eve-Swagger on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/eve-swagger/</link>
-    <description>Recent content in eve-swagger on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Eve-Swagger on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Sat, 24 Apr 2021 07:05:25 +0100</lastBuildDate>
@@ -14,9 +14,21 @@
       <link>https://nicolaiarocci.com/new-eve-swagger-and-flask-sentinel-releases/</link>
       <pubDate>Sat, 24 Apr 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/new-eve-swagger-and-flask-sentinel-releases/</guid>
-      <description>It&amp;rsquo;s maintenance day in my little Python world. I just released new versions of two small but apparently quite popular packages:
-eve-swagger, the OpenAPI/Swager extensions for Eve-powered APIs, hits v0.1.4. It&amp;rsquo;s just a single fix for API breakage introduced with the previous release; details available here. Thanks to Asger Gitz-Johansen for the help with this release.
-Flask-Sentinel, an Oauth2 Provider for Flask, hits v0.0.8. This also is a small release that fixes 500 errors if you were using unpinned versions of redis.</description>
+      <description>&lt;p&gt;It&amp;rsquo;s maintenance day in my little Python world. I just released new versions of
+two small but apparently quite popular packages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://pypi.org/project/Eve-Swagger/&#34;&gt;eve-swagger&lt;/a&gt;, the OpenAPI/Swager
+extensions for &lt;a href=&#34;https://python-eve.org&#34;&gt;Eve&lt;/a&gt;-powered APIs, hits v0.1.4. It&amp;rsquo;s
+just a single fix for API breakage introduced with the previous release;
+details available
+&lt;a href=&#34;https://github.com/pyeve/eve-swagger/blob/master/CHANGES.rst&#34;&gt;here&lt;/a&gt;. Thanks to
+Asger Gitz-Johansen for the help with this release.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://pypi.org/project/Flask-Sentinel/&#34;&gt;Flask-Sentinel&lt;/a&gt;, an Oauth2 Provider
+for Flask, hits v0.0.8. This also is a small release that fixes 500 errors if
+you were using unpinned versions of redis. This time, my gratitude goes to Adrian Cin.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>It&rsquo;s maintenance day in my little Python world. I just released new versions of
 two small but apparently quite popular packages:</p>
 <ul>

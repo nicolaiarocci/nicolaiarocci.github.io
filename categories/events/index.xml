@@ -4,7 +4,7 @@
     <title>Events on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/categories/events/</link>
     <description>Recent content in Events on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 11 Mar 2016 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://nicolaiarocci.com/real-life-net-cross-platform/</link>
       <pubDate>Fri, 11 Mar 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/real-life-net-cross-platform/</guid>
-      <description>There is a new episode up at Channel9 TecHeroes. It is called Real Life .NET Cross Platform and it is about developing production-ready, cross-platform applications with today’s .NET. In the interview we talk about SimpleCache, an asynchronous, permanent and cross-platform key-value object cache powered by SQLite3. The project is still a work in progress so there is no NuGet package available yet, but it is quite usable already. The talk slides are also available.</description>
+      <description>&lt;p&gt;There is a new episode up at Channel9 TecHeroes. It is called &lt;a href=&#34;https://channel9.msdn.com/Shows/TecHeroes/TecHeroes-Real-Life-Net-Cross-Platform&#34;&gt;Real Life .NET Cross Platform&lt;/a&gt; and it is about developing production-ready, cross-platform applications with today’s .NET. In the interview we talk about &lt;a href=&#34;https://github.com/CIR2000/Amica.vNext.SimpleCache&#34;&gt;SimpleCache&lt;/a&gt;, an asynchronous, permanent and cross-platform key-value object cache powered by SQLite3. The project is still a work in progress so there is no NuGet package available yet, but it is quite usable already. The &lt;a href=&#34;https://speakerdeck.com/nicola/real-life-net-cross-platform&#34;&gt;talk slides&lt;/a&gt; are also available.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>There is a new episode up at Channel9 TecHeroes. It is called <a href="https://channel9.msdn.com/Shows/TecHeroes/TecHeroes-Real-Life-Net-Cross-Platform">Real Life .NET Cross Platform</a> and it is about developing production-ready, cross-platform applications with today’s .NET. In the interview we talk about <a href="https://github.com/CIR2000/Amica.vNext.SimpleCache">SimpleCache</a>, an asynchronous, permanent and cross-platform key-value object cache powered by SQLite3. The project is still a work in progress so there is no NuGet package available yet, but it is quite usable already. The <a href="https://speakerdeck.com/nicola/real-life-net-cross-platform">talk slides</a> are also available.</p>
 ]]></content:encoded>
     </item>
@@ -23,7 +23,7 @@
       <link>https://nicolaiarocci.com/my-coderdojo-interview-at-chennel-9-techeroes/</link>
       <pubDate>Fri, 04 Mar 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/my-coderdojo-interview-at-chennel-9-techeroes/</guid>
-      <description>I was recently interviewed at Channel 9 TecHeroes. Topic was CoderDojo, the network of free computer programming clubs for young people. The show is run by Microsoft Italy, so the interview is in Italian. Enjoy the show.</description>
+      <description>&lt;p&gt;I was recently interviewed at Channel 9 TecHeroes. Topic was CoderDojo, the network of free computer programming clubs for young people. The show is run by Microsoft Italy, so the interview is in Italian. &lt;a href=&#34;https://channel9.msdn.com/Shows/TecHeroes/TecHeroes-CoderDojo-Coding-Club-for-Kids&#34;&gt;Enjoy the show&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I was recently interviewed at Channel 9 TecHeroes. Topic was CoderDojo, the network of free computer programming clubs for young people. The show is run by Microsoft Italy, so the interview is in Italian. <a href="https://channel9.msdn.com/Shows/TecHeroes/TecHeroes-CoderDojo-Coding-Club-for-Kids">Enjoy the show</a>.</p>
 ]]></content:encoded>
     </item>
@@ -32,8 +32,8 @@
       <link>https://nicolaiarocci.com/my-talk-at-percona-live-2015/</link>
       <pubDate>Fri, 16 Oct 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/my-talk-at-percona-live-2015/</guid>
-      <description>The slides of my talk at Percona Live 2015 (Amsterdam) are online. It was titled “MongoDB and REST APIs a Match Made in Heaven” and it was meant as an introduction to Mongo, REST principles and the Eve python framework.
-Overall it has been a pleasant experience, although I found that splitting 300 attendees through seven concurrent tracks ultimately led to too much fragmentation. People often found themselves with 2-3 interesting talks all happening simultaneously, and just had to pick one.</description>
+      <description>&lt;p&gt;The slides of my talk at Percona Live 2015 (Amsterdam) are &lt;a href=&#34;https://speakerdeck.com/nicola/mongodb-and-rest-apis-a-match-made-in-heaven&#34;&gt;online&lt;/a&gt;. It was titled “MongoDB and REST APIs a Match Made in Heaven” and it was meant as an introduction to Mongo, REST principles and the Eve python framework.&lt;/p&gt;
+&lt;p&gt;Overall it has been a pleasant experience, although I found that splitting 300 attendees through seven concurrent tracks ultimately led to too much fragmentation. People often found themselves with 2-3 interesting talks all happening simultaneously, and just had to pick one.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>The slides of my talk at Percona Live 2015 (Amsterdam) are <a href="https://speakerdeck.com/nicola/mongodb-and-rest-apis-a-match-made-in-heaven">online</a>. It was titled “MongoDB and REST APIs a Match Made in Heaven” and it was meant as an introduction to Mongo, REST principles and the Eve python framework.</p>
 <p>Overall it has been a pleasant experience, although I found that splitting 300 attendees through seven concurrent tracks ultimately led to too much fragmentation. People often found themselves with 2-3 interesting talks all happening simultaneously, and just had to pick one.</p>
 <p>I could only stay one day so I missed all side events, speakers dinner included, which was a bummer.</p>
@@ -44,7 +44,7 @@ Overall it has been a pleasant experience, although I found that splitting 300 a
       <link>https://nicolaiarocci.com/on-my-trip-to-microsoft-build-2015/</link>
       <pubDate>Fri, 08 May 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/on-my-trip-to-microsoft-build-2015/</guid>
-      <description>Last week I was in San Francisco for Build 2015, the annual conference event held by Microsoft and aimed toward software and web developers. Overall it has been a great experience. I especially enjoyed the opportunity to speak with Microsoft executives, Program Managers and developers about the new stuff they are cooking up and, in general, about that New Microsoft we all have been experiencing as of late (I have a guest post on MSDN Italy on that topic).</description>
+      <description>&lt;p&gt;Last week I was in San Francisco for Build 2015, the annual conference event held by Microsoft and aimed toward software and web developers. Overall it has been a great experience. I especially enjoyed the opportunity to speak with Microsoft executives, Program Managers and developers about the new stuff they are cooking up and, in general, about that New Microsoft we all have been experiencing as of late (I have a &lt;a href=&#34;http://nicolaiarocci.com/i-wrote-a-thing-about-new-microsoft/&#34;&gt;guest post&lt;/a&gt; on MSDN Italy on that topic).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Last week I was in San Francisco for Build 2015, the annual conference event held by Microsoft and aimed toward software and web developers. Overall it has been a great experience. I especially enjoyed the opportunity to speak with Microsoft executives, Program Managers and developers about the new stuff they are cooking up and, in general, about that New Microsoft we all have been experiencing as of late (I have a <a href="http://nicolaiarocci.com/i-wrote-a-thing-about-new-microsoft/">guest post</a> on MSDN Italy on that topic).</p>
 <p>In this week TecHeroes <a href="https://channel9.msdn.com/Shows/TecHeroes/TecHeroes-Build-2015-innovazione-e-cambiamento#0m05s">episode</a> I am interviewed along with my buddy <a href="http://www.matteocollina.com/#biography">Matteo Collina</a>. At about 1m 20s in the episode Matteo and I share a few considerations on Open Source projects and technologies that really caught our attention at the conference, and of course on Microsoft in general. It is all in Italian by the way.</p>
 ]]></content:encoded>
@@ -54,7 +54,7 @@ Overall it has been a pleasant experience, although I found that splitting 300 a
       <link>https://nicolaiarocci.com/i-wrote-a-thing-about-new-microsoft/</link>
       <pubDate>Wed, 04 Mar 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/i-wrote-a-thing-about-new-microsoft/</guid>
-      <description>I have a guest post up at the official Italian MSDN Team Blog. It’s about the new Microsoft I met last Wednesday at the Azure Open Day in Milan.</description>
+      <description>&lt;p&gt;I have a guest post up at the official Italian &lt;a href=&#34;http://blogs.msdn.com/b/italy/archive/2015/03/03/guest-post-una-giornata-all-azure-open-day-in-compagnia-di-una-nuova-microsoft.aspx&#34;&gt;MSDN Team Blog&lt;/a&gt;. It’s about the new Microsoft I met last Wednesday at the Azure Open Day in Milan.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I have a guest post up at the official Italian <a href="http://blogs.msdn.com/b/italy/archive/2015/03/03/guest-post-una-giornata-all-azure-open-day-in-compagnia-di-una-nuova-microsoft.aspx">MSDN Team Blog</a>. It’s about the new Microsoft I met last Wednesday at the Azure Open Day in Milan.</p>
 ]]></content:encoded>
     </item>
@@ -63,7 +63,7 @@ Overall it has been a pleasant experience, although I found that splitting 300 a
       <link>https://nicolaiarocci.com/rest-apis-humans-fosdem/</link>
       <pubDate>Mon, 03 Feb 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/rest-apis-humans-fosdem/</guid>
-      <description>Yesterday I gave a talk at FOSDEM 2014 in Brussels. The conference itself was amazing, with over 5000 attendees literally swarming and taking over the ULB Campus. I was stoked at how smoothly everything was going on despite the incredible number of simultaneous sessions and the number of attendees continuously flowing between buildings and conference rooms. Everybody involved, volunteers and attendees, has been very welcoming, charming and helpful. In short, I had a blast.</description>
+      <description>&lt;p&gt;Yesterday I gave a talk at FOSDEM 2014 in Brussels. The conference itself was amazing, with over 5000 attendees literally swarming and taking over the ULB Campus. I was stoked at how smoothly everything was going on despite the incredible number of simultaneous sessions and the number of attendees continuously flowing between buildings and conference rooms. Everybody involved, volunteers and attendees,  has been very welcoming, charming and helpful. In short, I had a blast.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Yesterday I gave a talk at FOSDEM 2014 in Brussels. The conference itself was amazing, with over 5000 attendees literally swarming and taking over the ULB Campus. I was stoked at how smoothly everything was going on despite the incredible number of simultaneous sessions and the number of attendees continuously flowing between buildings and conference rooms. Everybody involved, volunteers and attendees,  has been very welcoming, charming and helpful. In short, I had a blast.</p>
 <p>My <a href="https://speakerdeck.com/nicola/eve-rest-api-for-humans">REST APIs for Humans™</a> talk was given in a fully packed Python DevRoom, which granted a lot of smart questions both in the final QA session and later during the day. Thanks everybody for the great feedback!</p>
 ]]></content:encoded>
@@ -73,7 +73,7 @@ Overall it has been a pleasant experience, although I found that splitting 300 a
       <link>https://nicolaiarocci.com/coderdojo-launch/</link>
       <pubDate>Fri, 17 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/coderdojo-launch/</guid>
-      <description>Yesterday I attended the Digital Divide Workshop ran by Agenda Digitale Ravenna. With my friend Giulio Cesare we gave a quick introductory talk on the CoderDojo we are launching in our area. Want to help as a mentor? Get in touch!</description>
+      <description>&lt;p&gt;Yesterday I attended the &lt;a href=&#34;http://agendadigitaleravenna.it&#34;&gt;Digital Divide Workshop&lt;/a&gt; ran by Agenda Digitale Ravenna. With my friend &lt;a href=&#34;http://www.linkedin.com/in/gcsolaroli&#34;&gt;Giulio Cesare&lt;/a&gt; we gave a quick &lt;a href=&#34;https://speakerdeck.com/nicola/coderdojo-romagna&#34;&gt;introductory talk&lt;/a&gt; on the CoderDojo we are launching in our area. Want to help as a mentor? &lt;a href=&#34;http://coderdojoravenna.it/collabora/&#34;&gt;Get in touch&lt;/a&gt;!&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Yesterday I attended the <a href="http://agendadigitaleravenna.it">Digital Divide Workshop</a> ran by Agenda Digitale Ravenna. With my friend <a href="http://www.linkedin.com/in/gcsolaroli">Giulio Cesare</a> we gave a quick <a href="https://speakerdeck.com/nicola/coderdojo-romagna">introductory talk</a> on the CoderDojo we are launching in our area. Want to help as a mentor? <a href="http://coderdojoravenna.it/collabora/">Get in touch</a>!</p>
 ]]></content:encoded>
     </item>
@@ -82,7 +82,7 @@ Overall it has been a pleasant experience, although I found that splitting 300 a
       <link>https://nicolaiarocci.com/we-are-all-remote-workers/</link>
       <pubDate>Sat, 07 Sep 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/we-are-all-remote-workers/</guid>
-      <description>A little more than a year ago we closed our offices to become a fully distributed company. This story, which is still unfolding, has been the subject of my We Are All Remote Workers talk at RomagnaCamp 2013.</description>
+      <description>&lt;p&gt;A little more than a year ago we closed our offices to become a fully distributed company. This story, which is still unfolding, has been the subject of my &lt;a href=&#34;https://speakerdeck.com/nicola/we-are-all-remote-workers&#34;&gt;We Are All Remote Workers&lt;/a&gt; talk at RomagnaCamp 2013.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>A little more than a year ago we closed our offices to become a fully distributed company. This story, which is still unfolding, has been the subject of my <a href="https://speakerdeck.com/nicola/we-are-all-remote-workers">We Are All Remote Workers</a> talk at RomagnaCamp 2013.</p>
 ]]></content:encoded>
     </item>
@@ -91,8 +91,8 @@ Overall it has been a pleasant experience, although I found that splitting 300 a
       <link>https://nicolaiarocci.com/rest-api-con-mongodb/</link>
       <pubDate>Fri, 26 Oct 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/rest-api-con-mongodb/</guid>
-      <description>Le slide che ho presentato a ‘A Morning with MongoDB‘ (24 ottobre, Milano) sono disponibili online. Gran parte degli interventi erano di tipo divulgativo ed inizialmente ero preoccupato che i miei contenuti fossero troppo tecnici. In realtà in sala c’erano davvero tanti programmatori, quindi tutto è andato bene.
-A margine dell’evento molte le domande su Eve, la REST API open source a cui sto lavorando e che conto di rilasciare entro fine anno: bene!</description>
+      <description>&lt;p&gt;Le slide che ho presentato a ‘&lt;!-- raw HTML omitted --&gt;A Morning with MongoDB&lt;!-- raw HTML omitted --&gt;‘ (24 ottobre, Milano) sono disponibili online. Gran parte degli interventi erano di tipo divulgativo ed inizialmente ero preoccupato che i miei contenuti fossero troppo tecnici. In realtà in sala c’erano davvero tanti programmatori, quindi tutto è andato bene.&lt;/p&gt;
+&lt;p&gt;A margine dell’evento molte le domande su &lt;!-- raw HTML omitted --&gt;Eve&lt;!-- raw HTML omitted --&gt;, la REST API open source a cui sto lavorando e che conto di rilasciare entro fine anno: bene! Grazie a tutti i partecipanti ed a 10Gen per avermi invitato.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Le slide che ho presentato a ‘<!-- raw HTML omitted -->A Morning with MongoDB<!-- raw HTML omitted -->‘ (24 ottobre, Milano) sono disponibili online. Gran parte degli interventi erano di tipo divulgativo ed inizialmente ero preoccupato che i miei contenuti fossero troppo tecnici. In realtà in sala c’erano davvero tanti programmatori, quindi tutto è andato bene.</p>
 <p>A margine dell’evento molte le domande su <!-- raw HTML omitted -->Eve<!-- raw HTML omitted -->, la REST API open source a cui sto lavorando e che conto di rilasciare entro fine anno: bene! Grazie a tutti i partecipanti ed a 10Gen per avermi invitato.</p>
 ]]></content:encoded>
@@ -102,7 +102,7 @@ A margine dell’evento molte le domande su Eve, la REST API open source a cui s
       <link>https://nicolaiarocci.com/una-mattinata-con-mongodb/</link>
       <pubDate>Wed, 10 Oct 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/una-mattinata-con-mongodb/</guid>
-      <description>Il prossimo 24 ottobre sarò a Milano per A Morning with MongoDB, evento ufficiale 10gen nel corso del quale racconterò la mia esperienza nell’integrazione di MongoDB in una Web REST API. Partecipazione e registrazione sono gratuite: cosa aspettate?</description>
+      <description>&lt;p&gt;Il prossimo 24 ottobre sarò a Milano per &lt;!-- raw HTML omitted --&gt;A Morning with MongoDB&lt;!-- raw HTML omitted --&gt;, evento ufficiale 10gen nel corso del quale racconterò la mia esperienza nell’integrazione di MongoDB in una Web REST API. Partecipazione e &lt;!-- raw HTML omitted --&gt;registrazione&lt;!-- raw HTML omitted --&gt; sono gratuite: cosa aspettate?&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Il prossimo 24 ottobre sarò a Milano per <!-- raw HTML omitted -->A Morning with MongoDB<!-- raw HTML omitted -->, evento ufficiale 10gen nel corso del quale racconterò la mia esperienza nell’integrazione di MongoDB in una Web REST API. Partecipazione e <!-- raw HTML omitted -->registrazione<!-- raw HTML omitted --> sono gratuite: cosa aspettate?</p>
 ]]></content:encoded>
     </item>
@@ -126,7 +126,7 @@ A margine dell’evento molte le domande su Eve, la REST API open source a cui s
       <link>https://nicolaiarocci.com/il-mio-intervento-al-cna-barcamp-video/</link>
       <pubDate>Thu, 31 May 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/il-mio-intervento-al-cna-barcamp-video/</guid>
-      <description>Il filmato del mio recente intervento al Ravenna CNA BarCamp è online. L’articolo originale è stato aggiornato e ora include sia le slide che il video. In alternativa c’è sempre YouTube.</description>
+      <description>&lt;p&gt;Il filmato del mio recente intervento al Ravenna CNA BarCamp è online. L’&lt;a href=&#34;http://nicolaiarocci.com/offline-online-superare-la-crisi-anche-grazie-alla-rete/&#34; title=&#34;Offline / Online: superare la crisi anche grazie alla rete&#34;&gt;articolo originale&lt;/a&gt; è stato aggiornato e ora include sia le slide che il video. In alternativa c’è sempre &lt;!-- raw HTML omitted --&gt;YouTube&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Il filmato del mio recente intervento al Ravenna CNA BarCamp è online. L’<a href="http://nicolaiarocci.com/offline-online-superare-la-crisi-anche-grazie-alla-rete/" title="Offline / Online: superare la crisi anche grazie alla rete">articolo originale</a> è stato aggiornato e ora include sia le slide che il video. In alternativa c’è sempre <!-- raw HTML omitted -->YouTube<!-- raw HTML omitted -->.</p>
 ]]></content:encoded>
     </item>
@@ -135,7 +135,7 @@ A margine dell’evento molte le domande su Eve, la REST API open source a cui s
       <link>https://nicolaiarocci.com/whymca-mobile-developer-conference-2012/</link>
       <pubDate>Wed, 09 May 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/whymca-mobile-developer-conference-2012/</guid>
-      <description>Parteciperò alla WhyMCA Mobile Developer Conference a Bologna il 24 e 25 maggio. Il programma mi sembra piuttosto interessante. Se pensate di venire fatemelo sapere che vediamo di incotrarci.</description>
+      <description>&lt;p&gt;Parteciperò alla &lt;!-- raw HTML omitted --&gt;WhyMCA Mobile Developer Conference&lt;!-- raw HTML omitted --&gt; a Bologna il 24 e 25 maggio. Il programma mi sembra piuttosto interessante. Se pensate di venire &lt;a href=&#34;http://nicolaiarocci.com/contatti/&#34; title=&#34;Contatti&#34;&gt;fatemelo sapere&lt;/a&gt; che vediamo di incotrarci.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Parteciperò alla <!-- raw HTML omitted -->WhyMCA Mobile Developer Conference<!-- raw HTML omitted --> a Bologna il 24 e 25 maggio. Il programma mi sembra piuttosto interessante. Se pensate di venire <a href="http://nicolaiarocci.com/contatti/" title="Contatti">fatemelo sapere</a> che vediamo di incotrarci.</p>
 ]]></content:encoded>
     </item>
@@ -159,8 +159,11 @@ A margine dell’evento molte le domande su Eve, la REST API open source a cui s
       <link>https://nicolaiarocci.com/speaker-a-europython-2012/</link>
       <pubDate>Fri, 13 Apr 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/speaker-a-europython-2012/</guid>
-      <description>EuroPython è la conferenza europea di riferimento per il linguaggio Python. Si terrà anche quest’anno a Firenze, dal 2 al 8 luglio. Sono in programma molti interventi davvero interessanti, cosa che rende ancor più soprendente il fatto che i miei talk siano stati votati così tanto.
-Date un’occhiata al sito ufficiale per saperne di più sulla conferenza (in questo momento è ancora possibile approfittare dell’offerta early bird per l’acquisto dei biglietti); maggiori informazioni sui miei interventi tra qualche tempo, quando sarà ufficializzato il calendario dei talk.</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;EuroPython è la conferenza europea di riferimento per il linguaggio Python. Si terrà anche quest’anno a Firenze, dal 2 al 8 luglio. Sono in programma molti interventi davvero interessanti, cosa che rende ancor più soprendente il fatto che i miei talk siano stati votati così tanto.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Date un’occhiata al &lt;!-- raw HTML omitted --&gt;sito ufficiale&lt;!-- raw HTML omitted --&gt; per saperne di più sulla conferenza (in questo momento è ancora possibile approfittare dell’offerta &lt;em&gt;early bird&lt;/em&gt; per l’acquisto dei biglietti); maggiori informazioni sui miei interventi tra qualche tempo, quando sarà ufficializzato il calendario dei talk.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <p>EuroPython è la conferenza europea di riferimento per il linguaggio Python. Si terrà anche quest’anno a Firenze, dal 2 al 8 luglio. Sono in programma molti interventi davvero interessanti, cosa che rende ancor più soprendente il fatto che i miei talk siano stati votati così tanto.</p>
@@ -173,7 +176,9 @@ Date un’occhiata al sito ufficiale per saperne di più sulla conferenza (in 
       <link>https://nicolaiarocci.com/codemotion-roma-2012/</link>
       <pubDate>Tue, 13 Mar 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/codemotion-roma-2012/</guid>
-      <description>I prossimi 23 e 24 marzo sarò al Codemotion Roma, conferenza di due giorni dal programma ricco e piuttosto interessante. Se ci sarete mettetevi in contatto, è l’occasione giusta per incontrarci di persona!</description>
+      <description>&lt;p&gt;I prossimi 23 e 24 marzo sarò al Codemotion Roma, conferenza di due giorni dal &lt;!-- raw HTML omitted --&gt;programma&lt;!-- raw HTML omitted --&gt; ricco e piuttosto interessante. Se ci sarete &lt;!-- raw HTML omitted --&gt;mettetevi in contatto&lt;!-- raw HTML omitted --&gt;, è l’occasione giusta per incontrarci di persona!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://codemotion.it&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I prossimi 23 e 24 marzo sarò al Codemotion Roma, conferenza di due giorni dal <!-- raw HTML omitted -->programma<!-- raw HTML omitted --> ricco e piuttosto interessante. Se ci sarete <!-- raw HTML omitted -->mettetevi in contatto<!-- raw HTML omitted -->, è l’occasione giusta per incontrarci di persona!</p>
 <p><a href="http://codemotion.it"><!-- raw HTML omitted --></a></p>
 <p> </p>
@@ -202,8 +207,10 @@ Date un’occhiata al sito ufficiale per saperne di più sulla conferenza (in 
       <link>https://nicolaiarocci.com/la-mia-fuga-dalla-comfort-zone-al-knowcamp-2011/</link>
       <pubDate>Tue, 04 Oct 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/la-mia-fuga-dalla-comfort-zone-al-knowcamp-2011/</guid>
-      <description>Sabato 8 ottobre sarò a Modena per il KnowCamp 2011. Per la prima volta mi cimenterò in un Ignite, ovvero una forma di intervento-lampo-acrobatico della durata di cinque minuti durante i quali verranno passate venti slide a intervalli regolari (una ogni quindici secondi).
-Il titolo provvisiorio del mio intervento è Fuga dalla Comfort Zone. Ammetto di essere piuttosto nervoso. Il rischio di impappinarmi nel corso di quest’esibizione-rap è notevole, e tuttavia sono curioso di vedere come andrà a finire.</description>
+      <description>&lt;p&gt;Sabato 8 ottobre sarò a Modena per il &lt;!-- raw HTML omitted --&gt;KnowCamp 2011&lt;!-- raw HTML omitted --&gt;. Per la prima volta mi cimenterò in un &lt;!-- raw HTML omitted --&gt;Ignite&lt;!-- raw HTML omitted --&gt;, ovvero una forma di intervento-lampo-acrobatico della durata di cinque minuti durante i quali verranno passate venti slide a intervalli regolari (una ogni quindici secondi).&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Il titolo provvisiorio del mio intervento è &lt;em&gt;Fuga dalla Comfort Zone&lt;/em&gt;. Ammetto di essere piuttosto nervoso. Il rischio di impappinarmi nel corso di quest’esibizione-rap è notevole, e tuttavia sono curioso di vedere come andrà a finire.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Sabato 8 ottobre sarò a Modena per il <!-- raw HTML omitted -->KnowCamp 2011<!-- raw HTML omitted -->. Per la prima volta mi cimenterò in un <!-- raw HTML omitted -->Ignite<!-- raw HTML omitted -->, ovvero una forma di intervento-lampo-acrobatico della durata di cinque minuti durante i quali verranno passate venti slide a intervalli regolari (una ogni quindici secondi).</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
@@ -217,7 +224,7 @@ Il titolo provvisiorio del mio intervento è Fuga dalla Comfort Zone. Ammetto 
       <link>https://nicolaiarocci.com/web-designer-e-programmatori-front-end-si-incontrano-a-from-the-front-2011/</link>
       <pubDate>Fri, 23 Sep 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/web-designer-e-programmatori-front-end-si-incontrano-a-from-the-front-2011/</guid>
-      <description>Giovedì 29 Settembre sarò a Cesena per partecipare a From The Front 2011, conferenza-evento di una giornata dedicata a programmatori front end e web designer. Il programma dei talk pomeridiani è interessante, vi consiglio di dare una occhiata anche perché il costo di iscrizione è pari a zero irrisorio. Se venite battete un colpo: è una buona occasione per incontrarsi di persona (magari al party che seguirà l’evento).</description>
+      <description>&lt;p&gt;Giovedì 29 Settembre sarò a Cesena per partecipare a &lt;!-- raw HTML omitted --&gt;From The Front 2011&lt;!-- raw HTML omitted --&gt;, conferenza-evento di una giornata dedicata a programmatori front end e web designer. Il programma dei talk pomeridiani è interessante, vi consiglio di dare una occhiata anche perché il costo di iscrizione è &lt;!-- raw HTML omitted --&gt;pari a zero&lt;!-- raw HTML omitted --&gt; irrisorio. Se venite battete un colpo: è una buona occasione per incontrarsi di persona (magari al party che seguirà l’evento).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Giovedì 29 Settembre sarò a Cesena per partecipare a <!-- raw HTML omitted -->From The Front 2011<!-- raw HTML omitted -->, conferenza-evento di una giornata dedicata a programmatori front end e web designer. Il programma dei talk pomeridiani è interessante, vi consiglio di dare una occhiata anche perché il costo di iscrizione è <!-- raw HTML omitted -->pari a zero<!-- raw HTML omitted --> irrisorio. Se venite battete un colpo: è una buona occasione per incontrarsi di persona (magari al party che seguirà l’evento).</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
@@ -244,8 +251,7 @@ Il titolo provvisiorio del mio intervento è Fuga dalla Comfort Zone. Ammetto 
       <link>https://nicolaiarocci.com/quattro-passi-tra-le-nuvole-al-romagna-camp-2011/</link>
       <pubDate>Mon, 22 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/quattro-passi-tra-le-nuvole-al-romagna-camp-2011/</guid>
-      <description>“Quattro passi tra le nuvole (e non scordate il paracadute)” è il titolo del mio intervento al Romagna Camp 2011. Racconterò la mia esperienza nella fornitura di servizi cloud alle small business italiane. In questi giorni di ferie ho cominciato buttare giù qualche appunto e abbozzare le prime slide. La sfida è condensare tutto quel che c’è da dire in quindici minuti.
-Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 settembre) sono in calendario una cena, 16 speech e 7 ignite.</description>
+      <description>&lt;p&gt;“Quattro passi tra le nuvole (e non scordate il paracadute)” è il titolo del mio intervento al &lt;!-- raw HTML omitted --&gt;Romagna Camp 2011&lt;!-- raw HTML omitted --&gt;. Racconterò la mia esperienza nella fornitura di servizi cloud alle small business italiane. In questi giorni di ferie ho cominciato buttare giù qualche appunto e abbozzare le prime slide. La sfida è condensare tutto quel che c’è da dire in quindici minuti.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>“Quattro passi tra le nuvole (e non scordate il paracadute)” è il titolo del mio intervento al <!-- raw HTML omitted -->Romagna Camp 2011<!-- raw HTML omitted -->. Racconterò la mia esperienza nella fornitura di servizi cloud alle small business italiane. In questi giorni di ferie ho cominciato buttare giù qualche appunto e abbozzare le prime slide. La sfida è condensare tutto quel che c’è da dire in quindici minuti.</p>
 <!-- raw HTML omitted -->
 <p>Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 settembre) sono in calendario <!-- raw HTML omitted -->una cena<!-- raw HTML omitted -->, <!-- raw HTML omitted -->16 speech<!-- raw HTML omitted --> e <!-- raw HTML omitted -->7 ignite<!-- raw HTML omitted -->. Gli iscritti sono già più di 200 tra imprenditori, web marketer, agenzie web, freelance e sviluppatori.</p>
@@ -258,8 +264,9 @@ Il programma quest’anno è davvero ricco. Per la giornata clou (sabato 10 sett
       <link>https://nicolaiarocci.com/sono-altrimenti-impegnato/</link>
       <pubDate>Wed, 03 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/sono-altrimenti-impegnato/</guid>
-      <description>Per qualche giorno non si pensa al codice e si sta alla larga, per quanto possibile, dal computer. Buone vacanze a chi ci va, e buon lavoro a chi non va.
-Per i più curiosi. La foto è stata scattata la settimana scorsa durante la salita della classica via Maria al Sass Pordoi (2950mt, Gruppo del Sella, Dolomiti orientali). Se proprio volete annoiarvi date una occhiata alle altre.</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Per qualche giorno non si pensa al codice e si sta alla larga, per quanto possibile, dal computer. Buone vacanze a chi ci va, e buon lavoro a chi non va.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Per i più curiosi. La foto è stata scattata la settimana scorsa durante la salita della classica via Maria al &lt;!-- raw HTML omitted --&gt;Sass Pordoi&lt;!-- raw HTML omitted --&gt; (2950mt, Gruppo del Sella, Dolomiti orientali). Se proprio volete annoiarvi date una occhiata &lt;!-- raw HTML omitted --&gt;alle altre&lt;!-- raw HTML omitted --&gt;.&lt;/em&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<!-- raw HTML omitted -->
 <p>Per qualche giorno non si pensa al codice e si sta alla larga, per quanto possibile, dal computer. Buone vacanze a chi ci va, e buon lavoro a chi non va.</p>
 <p><em>Per i più curiosi. La foto è stata scattata la settimana scorsa durante la salita della classica via Maria al <!-- raw HTML omitted -->Sass Pordoi<!-- raw HTML omitted --> (2950mt, Gruppo del Sella, Dolomiti orientali). Se proprio volete annoiarvi date una occhiata <!-- raw HTML omitted -->alle altre<!-- raw HTML omitted -->.</em></p>
@@ -272,13 +279,11 @@ Per i più curiosi. La foto è stata scattata la settimana scorsa durante la sal
       <guid>https://nicolaiarocci.com/qualche-riflessione-sullesperienza-del-co-working/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Faccio subito mie le riflessioni di &lt;!-- raw HTML omitted --&gt;Gianluca Diegoli&lt;!-- raw HTML omitted --&gt; sul primo esperimento di co-working in spiaggia, a cui ho partecipato pure io:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Mentre tornavo in auto, riflettevo di quanta tristezza in questi anni ho visto transitare in molti uffici in cui aleggia quel senso di prigione, in cui le persone si sentono agli arresti domiciliari, mangiano solo con colleghi che odiano, con cui parlano di un lavoro o di un capo che altrettanto odiano, in cui la produttività e la creatività, apparentemente garantite dallo svolgersi in ambiente controllato e da orari stringenti, in realtà siano minime. Anzi, proprio quel sistema che in passato era stato creato per controllare il lavoratore, come se fosse un animale d’allevamento, ora è la causa dell’inefficienza e del disinteresse.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Mentre tornavo in auto, riflettevo di quanta tristezza in questi anni ho visto transitare in molti uffici in cui aleggia quel senso di prigione, in cui le persone si sentono agli arresti domiciliari, mangiano solo con colleghi che odiano, con cui parlano di un lavoro o di un capo che altrettanto odiano, in cui la produttività e la creatività, apparentemente garantite dallo svolgersi in ambiente controllato e da orari stringenti, in realtà siano minime. Anzi, proprio quel sistema che in passato era stato creato per controllare il lavoratore, come se fosse un animale d’allevamento, ora è la causa dell’inefficienza e del disinteresse.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Nella intervista semi-seria che trovate qui sotto (mescolata a quelle degli amici) dichiaro che consiglierei senz’altro l’esperienza ai miei dipendenti. Confermo. I miei splendidi ragazzi lavorerebbero felicemente anche (forse soprattutto) sul cucuzzolo di una montagna, ma sulla efficacia del co-working ad ampio spettro qualche perplessità l’avrei.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Faccio subito mie le riflessioni di <!-- raw HTML omitted -->Gianluca Diegoli<!-- raw HTML omitted --> sul primo esperimento di co-working in spiaggia, a cui ho partecipato pure io:</p>
 <blockquote>
-<p>Mentre tornavo in auto, riflettevo di quanta tristezza in questi anni ho visto transitare in molti uffici in cui aleggia quel senso di prigione, in cui le persone si sentono agli arresti domiciliari, mangiano solo con colleghi che odiano, con cui parlano di un lavoro o di un capo che altrettanto odiano, in cui la produttività e la creatività, apparentemente garantite dallo svolgersi in ambiente controllato e da orari stringenti, in realtà siano minime. Anzi, proprio quel sistema che in passato era stato creato per controllare il lavoratore, come se fosse un animale d’allevamento, ora è la causa dell’inefficienza e del disinteresse.</p>
-</blockquote>
+<p>Mentre tornavo in auto, riflettevo di quanta tristezza in questi anni ho visto transitare in molti uffici in cui aleggia quel senso di prigione, in cui le persone si sentono agli arresti domiciliari, mangiano solo con colleghi che odiano, con cui parlano di un lavoro o di un capo che altrettanto odiano, in cui la produttività e la creatività, apparentemente garantite dallo svolgersi in ambiente controllato e da orari stringenti, in realtà siano minime. Anzi, proprio quel sistema che in passato era stato creato per controllare il lavoratore, come se fosse un animale d’allevamento, ora è la causa dell’inefficienza e del disinteresse.</p></blockquote>
 <p>Nella intervista semi-seria che trovate qui sotto (mescolata a quelle degli amici) dichiaro che consiglierei senz’altro l’esperienza ai miei dipendenti. Confermo. I miei splendidi ragazzi lavorerebbero felicemente anche (forse soprattutto) sul cucuzzolo di una montagna, ma sulla efficacia del co-working ad ampio spettro qualche perplessità l’avrei.</p>
 <h2 id="co-working-per-tutti">Co-Working per tutti?</h2>
 <p>Le persone che odiano il lavoro e/o i loro colleghi, quelle a cui allude Gianluca nel corso del suo ragionamento, come reagirebbero immerse in un ambiente più ludico e ricreativo di quello abituale? Le tensioni si smorzerebbero e la produttività ne guadagnerebbe oppure, al contrario, approfitterebbero della situazione per rilassarsi fin troppo, cedendo alle inevitabili distrazioni? In fin dei conti l’esperimento <strong><!-- raw HTML omitted -->Cowo on the Beach<!-- raw HTML omitted --></strong> ha avuto successo anche e soprattutto, credo, perché i partecipanti sono tutte persone fortemente motivate, innamorate del proprio lavoro (e credetemi, a parte le battute ognuno di noi ha <em>effettivamente</em> lavorato nel corso della giornata!).</p>

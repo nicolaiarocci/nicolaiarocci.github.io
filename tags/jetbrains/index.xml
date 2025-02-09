@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>jetbrains on Nicola Iarocci</title>
+    <title>Jetbrains on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/jetbrains/</link>
-    <description>Recent content in jetbrains on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Jetbrains on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 12 Dec 2022 07:05:25 +0100</lastBuildDate>
@@ -14,19 +14,22 @@
       <link>https://nicolaiarocci.com/first-impressions-on-jetbrains-rider-2022.3-update/</link>
       <pubDate>Mon, 12 Dec 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/first-impressions-on-jetbrains-rider-2022.3-update/</guid>
-      <description>Today I upgraded to JetBrains&amp;rsquo; Rider 2022.3. Startup speed has been enhanced, and full .NET 7 and C# 11 support is included. So far, my favorite feature is the conversion of regular and verbatim strings into their raw counterparts (it&amp;rsquo;s often the small, simple things.)
-My second best is the fulls upport for WSL2 remote development. This one took a good while to come out of the trenches, but better late than never, I&amp;rsquo;d say.</description>
+      <description>&lt;p&gt;Today I upgraded to JetBrains&amp;rsquo; Rider 2022.3. Startup speed has been
+enhanced, and full .NET 7 and C# 11 support is included. So far,  my favorite
+feature is the conversion of regular and verbatim strings into their raw
+counterparts (it&amp;rsquo;s often the small, simple things.)&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/cs-to-raw-strings.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;My second best is the fulls upport for WSL2  remote development. This one took a
+good while to come out of the trenches, but better late than never, I&amp;rsquo;d say.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I upgraded to JetBrains&rsquo; Rider 2022.3. Startup speed has been
 enhanced, and full .NET 7 and C# 11 support is included. So far,  my favorite
 feature is the conversion of regular and verbatim strings into their raw
 counterparts (it&rsquo;s often the small, simple things.)</p>
-<p><img loading="lazy" src="/images/cs-to-raw-strings.gif" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/cs-to-raw-strings.gif"></p>
 <p>My second best is the fulls upport for WSL2  remote development. This one took a
 good while to come out of the trenches, but better late than never, I&rsquo;d say.</p>
 <p>And the new experimental UI? That&rsquo;s neat too.</p>
-<p><img loading="lazy" src="/images/uiux-newui-thumb.png" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/uiux-newui-thumb.png"></p>
 <p>The full list of updates is available on their <a href="https://www.jetbrains.com/rider/whatsnew/2022-3/">What&rsquo;s New</a> page.</p>
 ]]></content:encoded>
     </item>
@@ -35,15 +38,23 @@ good while to come out of the trenches, but better late than never, I&rsquo;d sa
       <link>https://nicolaiarocci.com/jetbrains-has-left-russia/</link>
       <pubDate>Wed, 07 Dec 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/jetbrains-has-left-russia/</guid>
-      <description>While it has been a very challenging and difficult time for the company, it cannot even remotely be compared with the horrendous situation that the people of Ukraine are facing on a daily basis, caused by the war. Once again, we condemn this aggression, and have and will continue to stand by the people of Ukraine, including our colleagues and their families. More here.
-I&amp;rsquo;m using JetBrains products when I&amp;rsquo;m not in (neo)vim.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;While it has been a very challenging and difficult time for the company, it
+cannot even remotely be compared with the horrendous situation that the
+people of Ukraine are facing on a daily basis, caused by the war. Once again,
+we condemn this aggression, and have and will continue to stand by the people
+of Ukraine, including our colleagues and their families. &lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;More &lt;a href=&#34;https://blog.jetbrains.com/blog/2022/12/06/update-on-jetbrains-statement-on-ukraine/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m using JetBrains products when I&amp;rsquo;m not in (neo)vim. For C#, Rider is
+fantastic, and so is PyCharm for Python. The company is incredible, too, as
+today&amp;rsquo;s bold move demonstrates. They moved 800 employees, got visas, new
+locations and apartments, everything. Huge respect.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
 <p>While it has been a very challenging and difficult time for the company, it
 cannot even remotely be compared with the horrendous situation that the
 people of Ukraine are facing on a daily basis, caused by the war. Once again,
 we condemn this aggression, and have and will continue to stand by the people
-of Ukraine, including our colleagues and their families. </p>
-</blockquote>
+of Ukraine, including our colleagues and their families. </p></blockquote>
 <p>More <a href="https://blog.jetbrains.com/blog/2022/12/06/update-on-jetbrains-statement-on-ukraine/">here</a>.</p>
 <p>I&rsquo;m using JetBrains products when I&rsquo;m not in (neo)vim. For C#, Rider is
 fantastic, and so is PyCharm for Python. The company is incredible, too, as

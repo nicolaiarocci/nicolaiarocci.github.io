@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>aspnet on Nicola Iarocci</title>
+    <title>Aspnet on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/aspnet/</link>
-    <description>Recent content in aspnet on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Aspnet on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Sun, 14 Nov 2021 07:05:25 +0100</lastBuildDate>
@@ -14,8 +14,18 @@
       <link>https://nicolaiarocci.com/my-asp.net-5-migration-to-.net-6/</link>
       <pubDate>Sun, 14 Nov 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/my-asp.net-5-migration-to-.net-6/</guid>
-      <description>I spent the last few days migrating our ASP.NET REST services, MVC web applications and Blazor server apps to .NET 6. Overall the process was pretty straightforward. The few issues I went through were easy to solve and well documented. Things got more involved with the EF Core 6 transition, especially with the Npgsql Entity Framework Core Provider.
-The official ASP.NET Core 5.0 to 6.0 migration guide was my first stop.</description>
+      <description>&lt;p&gt;I spent the last few days migrating our ASP.NET REST services, MVC web
+applications and Blazor server apps to .NET 6. Overall the process was pretty
+straightforward. The few issues I went through were easy to solve and well
+documented. Things got more involved with the EF Core 6 transition, especially
+with the Npgsql Entity Framework Core Provider.&lt;/p&gt;
+&lt;p&gt;The official &lt;a href=&#34;https://docs.microsoft.com/en-us/aspnet/core/migration/50-to-60&#34;&gt;ASP.NET Core 5.0 to 6.0 migration guide&lt;/a&gt; was my first stop. It
+offers the perfect entry point, rich with in-depth links. At this stage, I am
+not interested in switching to the new .NET 6 minimal hosting model (aka
+Minimal APIs). I think it&amp;rsquo;s a significant improvement, and we will likely adopt
+it for new projects, but our production projects aren&amp;rsquo;t going to be refactored
+right away. Should minimal APIs also prove to be remarkably performant, we&amp;rsquo;ll
+reconsider them&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I spent the last few days migrating our ASP.NET REST services, MVC web
 applications and Blazor server apps to .NET 6. Overall the process was pretty
 straightforward. The few issues I went through were easy to solve and well
@@ -59,8 +69,7 @@ warnings, either at compile or runtime. Let&rsquo;s go through them one by one.<
 <blockquote>
 <p>The call is ambiguous between the following methods or properties:
 &lsquo;JsonSerializer.Serialize(TValue, JsonSerializerOptions?)&rsquo; and
-&lsquo;JsonSerializer.Serialize(TValue, JsonTypeInfo)&rsquo;&quot;</p>
-</blockquote>
+&lsquo;JsonSerializer.Serialize(TValue, JsonTypeInfo)&rsquo;&quot;</p></blockquote>
 <p>In .NET 6, the <code>Sytem.Text.Json.JsonSerializer</code> <a href="https://docs.microsoft.com/en-us/dotnet/core/compatibility/serialization/6.0/jsonserializer-source-generator-overloads">acquired two new overloads</a> that
 support pre-generated type information via source-generators. Previously, you
 could write code that passed <code>null</code> (or <code>default</code>) as the value for the
@@ -80,8 +89,7 @@ target:</p>
 </code></pre>
 <h3 id="the-rngcryptoserviceprovider-is-now-obsolete">The <code>RNGCryptoServiceProvider</code> is now obsolete</h3>
 <blockquote>
-<p>SYSLIB0023: RNGCryptoServiceProvider is obsolete</p>
-</blockquote>
+<p>SYSLIB0023: RNGCryptoServiceProvider is obsolete</p></blockquote>
 <p>As it turns out, <code>RNGCryptoServiceProvider</code> is <a href="https://docs.microsoft.com/en-us/dotnet/fundamentals/syslib-diagnostics/syslib0023">marked as obsolete in .NET 6</a>. The
 new preferred way to generate a random number is using one of the
 <code>RandomNunmberGenerator</code> static methods.</p>
@@ -103,8 +111,7 @@ below.</p>
 <h3 id="new-imodelcachekeyfactorycreate-overload">New <code>IModelCacheKeyFactory.Create()</code> overload</h3>
 <blockquote>
 <p>The requested configuration is not stored in the read-optimized model, please
-use DbContext.GetService&lt;IDesignTimeModel&gt;().Model.</p>
-</blockquote>
+use DbContext.GetService&lt;IDesignTimeModel&gt;().Model.</p></blockquote>
 <p>If, like me, you happen to have a custom <code>IModelCacheKeyFactory</code>
 implementation, you will likely get this error at runtime. Starting with EF
 Core 6, <a href="https://github.com/dotnet/EntityFramework.Docs/pull/3305/files">you must implement</a> the new overload of the <code>Create</code> method that
@@ -139,8 +146,7 @@ identify whether the entity exists. If all nullable properties contain a null
 value in database then an object instance won&rsquo;t be created in the query
 causing nested dependent&rsquo;s values to be lost. Add a required property to
 create instances with null values for other properties or mark the incoming
-navigation as required to always create an instance.</p>
-</blockquote>
+navigation as required to always create an instance.</p></blockquote>
 <p>The message above is a consequence of a <a href="https://docs.microsoft.com/en-us/ef/core/what-is-new/ef-core-6.0/breaking-changes#high-impact-changes">high-impact breaking change</a> introduced
 in EF Core 6.0. In the past, you could have models with nested optional dependents
 sharing the same table, each with no required properties. In such
@@ -151,8 +157,7 @@ thing to do anyway)</p>
 <h3 id="the-efcorenamingconventions-package-is-missing-a-method">The <code>EFCore.NamingConventions</code> package is missing a method</h3>
 <blockquote>
 <p>Method &lsquo;GetServiceProviderHashCode&rsquo; in type &lsquo;ExtensionInfo&rsquo; from assembly
-&lsquo;EFCore.NamingConventions&quot;</p>
-</blockquote>
+&lsquo;EFCore.NamingConventions&quot;</p></blockquote>
 <p>The message says it all: there&rsquo;s currently a missing method in the latest
 stable version of the <code>EFCore.NamingConventions</code> package. At the time of this
 writing, <code>v6.0</code> of the package has not been released, but there is a pre-release
@@ -220,8 +225,13 @@ something we will be doing in the upcoming weeks.</p>
       <link>https://nicolaiarocci.com/asp.net-6-migration-cheatsheet-and-faq/</link>
       <pubDate>Thu, 23 Sep 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/asp.net-6-migration-cheatsheet-and-faq/</guid>
-      <description>David Fowler has a very informative gist up on GitHub. It&amp;rsquo;s titled [Migration to ASP.NET Core. NET6][3] and it&amp;rsquo;s filled with details, recipes and FAQs on migrating an ASP.NET Core 5 web app to ASP.NET Core 61. The focus is on the new, streamlined hosting model, also known as Minimal APIs2. To be clear, You don&amp;rsquo;t have to move to the new model. As the FAQ section emphasizes:
-Do I have to migrate to the new hosting model</description>
+      <description>&lt;p&gt;David Fowler has a very informative gist up on GitHub. It&amp;rsquo;s titled [Migration
+to ASP.NET Core. NET6][3] and it&amp;rsquo;s filled with details, recipes and FAQs on
+migrating an ASP.NET Core 5 web app to ASP.NET Core 6&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. The focus is on the
+new, streamlined hosting model, also known as Minimal APIs&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. To be clear,
+You don&amp;rsquo;t &lt;em&gt;have&lt;/em&gt; to move to the new model. As the FAQ section emphasizes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Do I have to migrate to the new hosting model&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>David Fowler has a very informative gist up on GitHub. It&rsquo;s titled [Migration
 to ASP.NET Core. NET6][3] and it&rsquo;s filled with details, recipes and FAQs on
 migrating an ASP.NET Core 5 web app to ASP.NET Core 6<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. The focus is on the
@@ -232,8 +242,7 @@ You don&rsquo;t <em>have</em> to move to the new model. As the FAQ section empha
 <p>No, you don&rsquo;t have to. It&rsquo;s the preferred way to host ASP.NET Core
 applications from .NET 6 and onwards but you aren&rsquo;t forced to change your
 project layout. This means you can upgrade from .NET 5 to .NET 6.0 by
-changing the target framework in your project file from net5.0 to net6.0.</p>
-</blockquote>
+changing the target framework in your project file from net5.0 to net6.0.</p></blockquote>
 <p>.NET6 Release Candidate is out, so the guide is unlikely to receive updates,
 but I&rsquo;m sure that David will be ready to do so if required.</p>
 <p>We are about to release several brand new web services in the coming weeks.

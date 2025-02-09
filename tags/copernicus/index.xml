@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>copernicus on Nicola Iarocci</title>
+    <title>Copernicus on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/copernicus/</link>
-    <description>Recent content in copernicus on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Copernicus on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 10 Jan 2024 18:16:18 +0100</lastBuildDate>
@@ -14,7 +14,14 @@
       <link>https://nicolaiarocci.com/the-strage-story-of-the-grave-of-copernicus/</link>
       <pubDate>Wed, 10 Jan 2024 18:16:18 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-strage-story-of-the-grave-of-copernicus/</guid>
-      <description>Upon his death in 1543 in Frombork, Poland, Copernicus was buried in the local cathedral. Over the subsequent centuries, the location of his grave was lost to history. There were several unsuccessful attempts to locate Copernicus’s remains, dating as far back as the 16th and 17th centuries. Another failed attempt was made by the French emperor Napoleon after the 1807 Battle of Eylau. Napoleon held Copernicus in high regard as a polymath, mathematician and astronomer.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Upon his death in 1543 in Frombork, Poland, Copernicus was buried in the local
+cathedral. Over the subsequent centuries, the location of his grave was lost to
+history. There were several unsuccessful attempts to locate Copernicus’s
+remains, dating as far back as the 16th and 17th centuries. Another failed
+attempt was made by the French emperor Napoleon after the 1807 Battle of Eylau.
+Napoleon held Copernicus in high regard as a polymath, mathematician and
+astronomer. In 2005, a group of Polish archaeologists took up the search.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
 <p>Upon his death in 1543 in Frombork, Poland, Copernicus was buried in the local
 cathedral. Over the subsequent centuries, the location of his grave was lost to
@@ -22,8 +29,7 @@ history. There were several unsuccessful attempts to locate Copernicus’s
 remains, dating as far back as the 16th and 17th centuries. Another failed
 attempt was made by the French emperor Napoleon after the 1807 Battle of Eylau.
 Napoleon held Copernicus in high regard as a polymath, mathematician and
-astronomer. In 2005, a group of Polish archaeologists took up the search.</p>
-</blockquote>
+astronomer. In 2005, a group of Polish archaeologists took up the search.</p></blockquote>
 <p>More <a href="https://theconversation.com/the-strange-story-of-the-grave-of-copernicus-213358">here</a>.</p>
 ]]></content:encoded>
     </item>

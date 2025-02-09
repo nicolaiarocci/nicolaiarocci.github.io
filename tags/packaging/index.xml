@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>packaging on Nicola Iarocci</title>
+    <title>Packaging on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/packaging/</link>
-    <description>Recent content in packaging on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Packaging on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 09 Jan 2017 00:00:00 +0000</lastBuildDate>
@@ -14,8 +14,15 @@
       <link>https://nicolaiarocci.com/how-to-build-and-deploy-a-private-nuget-server-on-iis-or-azure/</link>
       <pubDate>Mon, 09 Jan 2017 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/how-to-build-and-deploy-a-private-nuget-server-on-iis-or-azure/</guid>
-      <description>Recently I had to build and deploy a private NuGet server. The official documentation is quite good, but I did hit some (admittedly small) hitches along the way, so I thought I might as well share the whole process. Hopefully this post will be helpful to the next guy or gal adventuring down the same path.
-If I don&amp;rsquo;t need to convince you on the usefulness and importance of packages in modern software development, then you can safely jump to The case for private NuGet feeds, and spare yourself some of my ramblings.</description>
+      <description>&lt;p&gt;Recently I had to build and deploy a private NuGet server. The
+official &lt;a href=&#34;https://docs.nuget.org/ndocs/hosting-packages/overview&#34;&gt;documentation&lt;/a&gt; is quite good, but I did hit some
+(admittedly small) hitches along the way, so I thought I might as well share
+the whole process. Hopefully this post will be helpful to the next guy or gal
+adventuring down the same path.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;If I don&amp;rsquo;t need to convince you on the usefulness and importance of packages
+in modern software development, then you can safely jump to &lt;a href=&#34;#the-case-for-private-nuget-feeds&#34;&gt;The case for
+private NuGet feeds&lt;/a&gt;, and spare yourself
+some of my ramblings.&lt;/em&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Recently I had to build and deploy a private NuGet server. The
 official <a href="https://docs.nuget.org/ndocs/hosting-packages/overview">documentation</a> is quite good, but I did hit some
 (admittedly small) hitches along the way, so I thought I might as well share
@@ -60,8 +67,7 @@ Microsoft itself with the .NET Core distribution model).</p>
 According to the <a href="http://blog.nuget.org/20160622/NuGet-API-key-expiration.html">NuGet blog</a> itself:</p>
 <blockquote>
 <p>NuGet.org is growing blazingly fast. The past couple of years have seen
-a tremendous growth in the usage of packages from the NuGet gallery.</p>
-</blockquote>
+a tremendous growth in the usage of packages from the NuGet gallery.</p></blockquote>
 <p>But let&rsquo;s just dig into that giant haystack for a little while. Just a quick
 glance will suffice to determine that the feed is a big mess. Besides the top
 packages, the tip of the iceberg, you will easily spot a <em>whole lot</em> of
@@ -70,8 +76,7 @@ Descriptions are often very short, to the point of being unintelligible.
 Sometimes they are totally (purposely?) cryptic, or just speak some kind of
 internal lingo. Heck, even the package names are at times so obscure that
 I don&rsquo;t even get a hint at what they are supposed to do.</p>
-<p><img loading="lazy" src="/images/nuget-random-package.png" alt="Really?"  />
-</p>
+<p><img alt="Really?" loading="lazy" src="/images/nuget-random-package.png"></p>
 <p>Mind you, this is not limited to the NuGet ecosystem. If we look at the <a href="https://pypi.python.org/pypi">Python
 Package Index</a> for example, we find the same exact situation: 95K+ packages,
 many of which are totally unintelligible unless you know what you are looking
@@ -117,15 +122,13 @@ Format</a> and its performance has skyrocketed since then.</p>
 <p>In Visual Studio select File &gt; New &gt; Project to create a new project. In order
 to get the latest version of NuGet.Server, make sure you set the target
 framework to .NET Framework 4.6 or above.</p>
-<p><img loading="lazy" src="/images/nuget-server-1.png" alt="New VS project with .NET 4.6 or above"  />
-</p>
+<p><img alt="New VS project with .NET 4.6 or above" loading="lazy" src="/images/nuget-server-1.png"></p>
 <p>Give the application an appropriate name and click OK. In the following dialog
 pick the Empty ASP.NET Web Application template and click OK.</p>
 <p>Next you need to install the NuGet.Server package itself. Right-click the
 project name and select Manage NuGet Packages. In the NuGet Package Manager
 search and install the latest version of NuGet.Server.</p>
-<p><img loading="lazy" src="/images/nuget-server-2.png" alt="Install the NuGet.Server package"  />
-</p>
+<p><img alt="Install the NuGet.Server package" loading="lazy" src="/images/nuget-server-2.png"></p>
 <p>Alternatively, you can of course install from the Package Manager Console with
 <code>Install-Package NuGet.Server</code>.</p>
 <p>The installation process will install the needed dependencies and take care of
@@ -136,8 +139,7 @@ settings (to which we will get in a second), and by creating a deafult
 want to overwrite the current <code>web.config</code>, say YES.</p>
 <p>When the process is complete your server is ready to run. Just hit Ctrl+F5 (no
 debug) and Edge will fire up at the following page:</p>
-<p><img loading="lazy" src="/images/nuget-server-3.png" alt="NuGet server up and running"  />
-</p>
+<p><img alt="NuGet server up and running" loading="lazy" src="/images/nuget-server-3.png"></p>
 <h2 id="adding-packages-to-the-feed">Adding packages to the feed</h2>
 <p>Now, if you go back to the project and inspect the newly created <code>Packages</code>
 folder, you will find that it is empty except for a readme file, which
@@ -158,8 +160,7 @@ the way it is supposed to be: just push your packages to it via <code>nuget.exe<
 need to set an API key in <code>web.config</code>, then clients will need to use the key
 when pushing to the server. As you can see, the <code>apiKey</code> value is blank by
 default.</p>
-<p><img loading="lazy" src="/images/nuget-server-4.png" alt="NuGet API key setting in web.config"  />
-</p>
+<p><img alt="NuGet API key setting in web.config" loading="lazy" src="/images/nuget-server-4.png"></p>
 <p>The key will have to be shared by all clients, so make sure you hand it only to
 authorized personnel. While you are at it, also make sure that it as strong as
 it can get. And yes I agree. Along with being statless, the shared API key
@@ -199,11 +200,9 @@ Studio&rsquo;s Web Deploy feature to achieve our goal.</p>
 <p>In the Solution Explorer right click on the project name and hit Publish. In
 the Publish dialog, if you are publishing to Azure select Microsoft App
 Service. Sign-if if you need to, and then pick an appropriate service name.</p>
-<p><img loading="lazy" src="/images/nuget-server-5.png" alt="Ready to deploy on Azure"  />
-</p>
+<p><img alt="Ready to deploy on Azure" loading="lazy" src="/images/nuget-server-5.png"></p>
 <p>Hit Publish. At the end of the process Edge will open your remote welcome page.</p>
-<p><img loading="lazy" src="/images/nuget-server-6.png" alt="The NuGet server is up and running on Azure"  />
-</p>
+<p><img alt="The NuGet server is up and running on Azure" loading="lazy" src="/images/nuget-server-6.png"></p>
 <p>You can start to push packages right away.</p>
 <p>If publishing to IIS in the Publish dialog select the Custom option and fill in
 server name (IP address works too), site name, username and password. The
@@ -217,15 +216,13 @@ Studio. Go to Tools &gt; Options and browse to NuGet Package Manager &gt; Packag
 Sources. Alternatively, right click on the project in the Solution Explorer,
 hit Manage NuGet Packages and then hit the gear icon next to the Package Source
 combo.</p>
-<p><img loading="lazy" src="/images/nuget-server-7.png" alt="NuGet sources in Visual Studio"  />
-</p>
+<p><img alt="NuGet sources in Visual Studio" loading="lazy" src="/images/nuget-server-7.png"></p>
 <p>Add your server to the list of available sources. As you can see in my case
 I have nuget.org, a local folder and the test server for this article
 available. Hit OK once your server has been added. At this point when you go to
 the NuGet Package Manager window your Package source combo will also list your
 private server and you can install packages from there.</p>
-<p><img loading="lazy" src="/images/nuget-server-8.png" alt="NuGet server in VS for Mac"  />
-</p>
+<p><img alt="NuGet server in VS for Mac" loading="lazy" src="/images/nuget-server-8.png"></p>
 <p>The screenshot above is from Visual Studio for Mac. It shows the actual private
 feed we use for development. All our packages are nicely listed there, with no
 interference from the public feed. The public feed is only one click away and,

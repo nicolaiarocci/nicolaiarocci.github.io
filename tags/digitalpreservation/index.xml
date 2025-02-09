@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>digitalpreservation on Nicola Iarocci</title>
+    <title>Digitalpreservation on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/digitalpreservation/</link>
-    <description>Recent content in digitalpreservation on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Digitalpreservation on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Sat, 17 Jul 2021 07:05:25 +0100</lastBuildDate>
@@ -14,17 +14,21 @@
       <link>https://nicolaiarocci.com/the-internet-is-rotting/</link>
       <pubDate>Sat, 17 Jul 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-internet-is-rotting/</guid>
-      <description>Terrific piece by Jonathan Zittrain, on The Atlantic, on link rot and digital preservation. I love how well documented and informative it is. Yet, it remains perfectly approachable for both the non-knowledgeable reader and the technically savvy.
-Too much has been lost already. The glue that holds humanity’s knowledge together is coming undone.
-We need more content like this.</description>
+      <description>&lt;p&gt;Terrific piece by Jonathan Zittrain, on The Atlantic, on &lt;a href=&#34;https://www.theatlantic.com/technology/archive/2021/06/the-internet-is-a-collective-hallucination/619320/&#34;&gt;link rot and digital
+preservation&lt;/a&gt;. I love how well documented and informative it is. Yet, it
+remains perfectly approachable for both the non-knowledgeable reader and the
+technically savvy.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Too much has been lost already. The glue that holds humanity’s knowledge
+together is coming undone.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;We need more content like this.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Terrific piece by Jonathan Zittrain, on The Atlantic, on <a href="https://www.theatlantic.com/technology/archive/2021/06/the-internet-is-a-collective-hallucination/619320/">link rot and digital
 preservation</a>. I love how well documented and informative it is. Yet, it
 remains perfectly approachable for both the non-knowledgeable reader and the
 technically savvy.</p>
 <blockquote>
 <p>Too much has been lost already. The glue that holds humanity’s knowledge
-together is coming undone.</p>
-</blockquote>
+together is coming undone.</p></blockquote>
 <p>We need more content like this.</p>
 ]]></content:encoded>
     </item>

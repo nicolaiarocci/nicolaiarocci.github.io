@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>parallels on Nicola Iarocci</title>
+    <title>Parallels on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/parallels/</link>
-    <description>Recent content in parallels on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Parallels on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Sat, 11 Dec 2021 07:05:25 +0100</lastBuildDate>
@@ -14,7 +14,13 @@
       <link>https://nicolaiarocci.com/migrating-a-windows-10-vm-to-windows-11-in-parallels-desktop-a-story-of-tpm-chips-and-bios-upgrades/</link>
       <pubDate>Sat, 11 Dec 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/migrating-a-windows-10-vm-to-windows-11-in-parallels-desktop-a-story-of-tpm-chips-and-bios-upgrades/</guid>
-      <description>This weekend assignment was to upgrade a couple of old Windows 10 VMs to Windows 11 in Parallels Desktop 17. I couldn&amp;rsquo;t do that right away because Windows Update was complaining about the lack of the TPM chip. A little research revealed that TPM chips only work on UEFI BIOS. To check which BIOS version was being used in my VMs, I used the msinfo32 (System Information) application. It showed the BIOS to be of &amp;ldquo;Legacy&amp;rdquo; type.</description>
+      <description>&lt;p&gt;This weekend assignment was to upgrade a couple of old Windows 10 VMs to
+Windows 11 in Parallels Desktop 17. I couldn&amp;rsquo;t do that right away because
+Windows Update was complaining about the lack of the TPM chip. A little
+research revealed that TPM chips only work on UEFI BIOS.  To check which BIOS
+version was being used in my VMs, I used the msinfo32 (System Information)
+application. It showed the BIOS to be of &amp;ldquo;Legacy&amp;rdquo; type. So my task was now to
+switch it to UEFI.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>This weekend assignment was to upgrade a couple of old Windows 10 VMs to
 Windows 11 in Parallels Desktop 17. I couldn&rsquo;t do that right away because
 Windows Update was complaining about the lack of the TPM chip. A little
@@ -22,8 +28,7 @@ research revealed that TPM chips only work on UEFI BIOS.  To check which BIOS
 version was being used in my VMs, I used the msinfo32 (System Information)
 application. It showed the BIOS to be of &ldquo;Legacy&rdquo; type. So my task was now to
 switch it to UEFI.</p>
-<p><img loading="lazy" src="/images/windows10-bios-legacy-mode.png" alt="Windows 10 BIOS in Legacy  mode"  />
-</p>
+<p><img alt="Windows 10 BIOS in Legacy  mode" loading="lazy" src="/images/windows10-bios-legacy-mode.png"></p>
 <p>I looked high and low with little luck. Parallels the product is incredible.
 Not so much its documentation and online support.  At some point, I landed in
 the Parallels forums, a vast ocean of scarcely useful threads from which
@@ -56,8 +61,7 @@ grateful</a>):</p>
 right after the login, I got a critical error and a hard restart (the original
 poster reported the same experience.) After that, the VM is stable. A quick
 msinfo32 check confirms that the VM is now on UEFI BIOS.</p>
-<p><img loading="lazy" src="/images/windows10-bios-uefi-mode.png" alt="Windows 10 BIOS in UEFI mode"  />
-</p>
+<p><img alt="Windows 10 BIOS in UEFI mode" loading="lazy" src="/images/windows10-bios-uefi-mode.png"></p>
 <p>Should Windows Update still complain, that&rsquo;s probably because of the CPU
 limitation check. You can disable it:</p>
 <ol>

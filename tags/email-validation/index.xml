@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>email validation on Nicola Iarocci</title>
+    <title>Email Validation on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/email-validation/</link>
-    <description>Recent content in email validation on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Email Validation on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 29 Jul 2013 00:00:00 +0000</lastBuildDate>
@@ -14,13 +14,13 @@
       <link>https://nicolaiarocci.com/free-email-validation-api/</link>
       <pubDate>Mon, 29 Jul 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/free-email-validation-api/</guid>
-      <description>The guys at Mailgun are taking a very interesting approach at the ever-lasting problem of proper Email validation:
-Given an arbitrary address this service validates address based off syntax checks (RFC defined grammar), DNS validation, spell checks, and if available, Email ServiceProvider (ESP) specific local-part grammar.
-They’re relying on formal grammar and not on regex like the rest of us, which is perhaps the more intriguing aspect of the project. Being Email Service Providers themselves they have good knowledge of most ESPs local-part grammars (the left side of the @ symbol) so when there is a match, they’re validating local-parts too.</description>
+      <description>&lt;p&gt;The guys at Mailgun are taking a &lt;!-- raw HTML omitted --&gt;very interesting approach&lt;!-- raw HTML omitted --&gt; at the ever-lasting problem of proper Email validation:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Given an arbitrary address this service validates address based off syntax checks (RFC defined grammar), DNS validation, spell checks, and if available, Email ServiceProvider (ESP) specific local-part grammar.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;They’re relying on &lt;!-- raw HTML omitted --&gt;formal grammar&lt;!-- raw HTML omitted --&gt; and not on regex like the rest of us, which is perhaps the more intriguing aspect of the project. Being Email Service Providers themselves they have good knowledge of most ESPs local-part grammars (the left side of the @ symbol) so when there is a match, they’re validating local-parts too.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>The guys at Mailgun are taking a <!-- raw HTML omitted -->very interesting approach<!-- raw HTML omitted --> at the ever-lasting problem of proper Email validation:</p>
 <blockquote>
-<p>Given an arbitrary address this service validates address based off syntax checks (RFC defined grammar), DNS validation, spell checks, and if available, Email ServiceProvider (ESP) specific local-part grammar.</p>
-</blockquote>
+<p>Given an arbitrary address this service validates address based off syntax checks (RFC defined grammar), DNS validation, spell checks, and if available, Email ServiceProvider (ESP) specific local-part grammar.</p></blockquote>
 <p>They’re relying on <!-- raw HTML omitted -->formal grammar<!-- raw HTML omitted --> and not on regex like the rest of us, which is perhaps the more intriguing aspect of the project. Being Email Service Providers themselves they have good knowledge of most ESPs local-part grammars (the left side of the @ symbol) so when there is a match, they’re validating local-parts too.</p>
 <p>At the cost of a slight delay DNS, MX and A record validation adds robustness to the process (didn’t really perceive any slowness during my tests). What really shines however, at least in my eyes, is the included “correct address suggestion service”.</p>
 <p>At the moment they are providing a <!-- raw HTML omitted -->free API<!-- raw HTML omitted -->  and a <!-- raw HTML omitted -->mail address validation page<!-- raw HTML omitted -->. Here’s the catch: consuming the API requires a free Mailgun account. According to their own statement however they are also going to <a href="http://blog.mailgun.com/post/free-email-validation-api-for-web-forms/#comment-977817227">open source the tool</a> and yes, it’s going to be in Python.</p>

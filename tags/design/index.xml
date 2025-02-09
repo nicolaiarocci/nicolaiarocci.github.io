@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>design on Nicola Iarocci</title>
+    <title>Design on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/design/</link>
-    <description>Recent content in design on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Design on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Sat, 10 Jan 2015 00:00:00 +0000</lastBuildDate>
@@ -14,12 +14,12 @@
       <link>https://nicolaiarocci.com/interfaces-laziness/</link>
       <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/interfaces-laziness/</guid>
-      <description>Robert C. Martin is at it again this time targeting the (infamous?) Interface construct in a funny way. As both a C# and Python coder I couldn’t agree more. Also, let me quote my fellow polyglot developer Nicola Musatti who went all out on the topic:
-Some of us have known that for the best part of the last 20 years 😉</description>
+      <description>&lt;p&gt;Robert C. Martin is at it &lt;a href=&#34;http://blog.cleancoder.com/uncle-bob/2015/01/08/InterfaceConsideredHarmful.html&#34;&gt;again&lt;/a&gt; this time targeting the (infamous?) &lt;code&gt;Interface&lt;/code&gt; construct in a funny way. As both a C# and Python coder I couldn’t agree more. Also, let me quote my fellow polyglot developer &lt;a href=&#34;http://wthwdik.wordpress.com/&#34;&gt;Nicola Musatti&lt;/a&gt; who went all out on the topic:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Some of us have known that for the best part of the last 20 years 😉&lt;/p&gt;&lt;/blockquote&gt;</description>
       <content:encoded><![CDATA[<p>Robert C. Martin is at it <a href="http://blog.cleancoder.com/uncle-bob/2015/01/08/InterfaceConsideredHarmful.html">again</a> this time targeting the (infamous?) <code>Interface</code> construct in a funny way. As both a C# and Python coder I couldn’t agree more. Also, let me quote my fellow polyglot developer <a href="http://wthwdik.wordpress.com/">Nicola Musatti</a> who went all out on the topic:</p>
 <blockquote>
-<p>Some of us have known that for the best part of the last 20 years 😉</p>
-</blockquote>
+<p>Some of us have known that for the best part of the last 20 years 😉</p></blockquote>
 ]]></content:encoded>
     </item>
     <item>
@@ -27,7 +27,7 @@ Some of us have known that for the best part of the last 20 years 😉</descript
       <link>https://nicolaiarocci.com/on-reusable-software/</link>
       <pubDate>Thu, 08 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/on-reusable-software/</guid>
-      <description>Jos de Jong has a great concise write-up on pitfalls and excesses in building reusable software.</description>
+      <description>&lt;p&gt;Jos de Jong has a &lt;a href=&#34;http://josdejong.com/blog/2015/01/06/code-reuse/&#34;&gt;great concise write-up&lt;/a&gt; on pitfalls and excesses in building reusable software.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Jos de Jong has a <a href="http://josdejong.com/blog/2015/01/06/code-reuse/">great concise write-up</a> on pitfalls and excesses in building reusable software.</p>
 ]]></content:encoded>
     </item>
@@ -52,7 +52,6 @@ Some of us have known that for the best part of the last 20 years 😉</descript
 <ol start="3">
 <li>**[<!-- raw HTML omitted -->Settimana ricca di avvenimenti anche questa. SEO, Startup e applicazioni per Smartphone in primo piano ma non mancano altre chicche per buongustai. Al decimo posto una curiosità non ha nulla da spartire con gli argomenti trattati di solito, ma quelle foto dovevo segnalarvele. Ringrazio chi mi ha contattato via mail, Facebook e Twitter. A quanto pare la rubrica piace e farò il possibile per portarla avanti migliorando la qualità delle selezioni, come sempre assolutamente arbitrarie.</li>
 </ol>
-<!-- raw HTML omitted -->
 <ol>
 <li><strong><a href="http://cdixon.org/2011/03/05/seo-is-no-longer-a-viable-marketing-strategy-for-startups/">SEO non è più una strategia valida per le Startup</a></strong></li>
 </ol>

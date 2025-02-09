@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>antirez on Nicola Iarocci</title>
+    <title>Antirez on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/antirez/</link>
-    <description>Recent content in antirez on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Antirez on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 11 May 2023 07:05:25 +0100</lastBuildDate>
@@ -14,7 +14,10 @@
       <link>https://nicolaiarocci.com/story-of-redis-and-its-creator-antirez/</link>
       <pubDate>Thu, 11 May 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/story-of-redis-and-its-creator-antirez/</guid>
-      <description>I read a well-researched story about Redis and its creator Salvatore Sanfilippo, also known as antirez. I was already familiar with many details as I have been following him since OKNotizie and Segnalo, of which I was a user. At the time, as a user, I exchanged a few emails with Salvatore, whom years later I had the pleasure of meeting in person, as we were both speakers at several conferences.</description>
+      <description>&lt;p&gt;I read a well-researched story about Redis and its creator Salvatore Sanfilippo, also known as antirez. I was already
+familiar with many details as I have been following him since OKNotizie and Segnalo, of which I was a user. At the time,
+as a user, I exchanged a few emails with Salvatore, whom years later I had the pleasure of meeting in person, as we were
+both speakers at several conferences.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I read a well-researched story about Redis and its creator Salvatore Sanfilippo, also known as antirez. I was already
 familiar with many details as I have been following him since OKNotizie and Segnalo, of which I was a user. At the time,
 as a user, I exchanged a few emails with Salvatore, whom years later I had the pleasure of meeting in person, as we were

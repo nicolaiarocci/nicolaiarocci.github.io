@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>rate-limiting on Nicola Iarocci</title>
+    <title>Rate-Limiting on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/rate-limiting/</link>
-    <description>Recent content in rate-limiting on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Rate-Limiting on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 23 Dec 2022 07:05:25 +0100</lastBuildDate>
@@ -14,8 +14,17 @@
       <link>https://nicolaiarocci.com/on-implementing-the-asp.net-core-7-rate-limiting-middleware/</link>
       <pubDate>Fri, 23 Dec 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-implementing-the-asp.net-core-7-rate-limiting-middleware/</guid>
-      <description>Today, my last self-assigned duty before the Christmas break was to migrate our in-house rate-limiting implementation (based on the AspNetCoreRateLimiting third-party package) to the new, shiny rate-limiting middleware introduced by ASP.NET Core 7. While the process was relatively straightforward, I stumbled upon a few quirks I want to annotate here.
-Our use case is simple. We use what the ASP.NET Core 7 documentation defines as a &amp;ldquo;fixed window limiter.&amp;rdquo; It uses a specified time window to limit requests.</description>
+      <description>&lt;p&gt;Today, my last self-assigned duty before the Christmas break was to migrate
+our in-house rate-limiting implementation (based on the
+&lt;a href=&#34;https://github.com/stefanprodan/AspNetCoreRateLimit&#34;&gt;AspNetCoreRateLimiting&lt;/a&gt; third-party package) to the new, shiny
+&lt;a href=&#34;https://devblogs.microsoft.com/dotnet/announcing-rate-limiting-for-dotnet/&#34;&gt;rate-limiting middleware&lt;/a&gt; introduced by ASP.NET Core 7. While the process
+was relatively straightforward, I stumbled upon a few quirks I want to annotate
+here.&lt;/p&gt;
+&lt;p&gt;Our use case is simple. We use what the ASP.NET Core 7 documentation defines as
+a &amp;ldquo;fixed window limiter.&amp;rdquo; It uses a specified time window to limit requests.
+When the time window expires, a new time window starts, and the request limit
+is reset. Consider the following code (for convenience, I&amp;rsquo;m using an extension
+method):&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today, my last self-assigned duty before the Christmas break was to migrate
 our in-house rate-limiting implementation (based on the
 <a href="https://github.com/stefanprodan/AspNetCoreRateLimit">AspNetCoreRateLimiting</a> third-party package) to the new, shiny

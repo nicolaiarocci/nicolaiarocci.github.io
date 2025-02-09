@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>javascript on Nicola Iarocci</title>
+    <title>Javascript on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/javascript/</link>
-    <description>Recent content in javascript on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Javascript on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 01 Apr 2022 06:05:25 +0100</lastBuildDate>
@@ -14,8 +14,25 @@
       <link>https://nicolaiarocci.com/my-playwright-session-at-webday-2022/</link>
       <pubDate>Fri, 01 Apr 2022 06:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/my-playwright-session-at-webday-2022/</guid>
-      <description>If you understand Italian, the recording of my Playwright session at UGIdotNET&amp;rsquo;s WebDay 2022 is now available on YouTube1. Playwright is a phenomenal cross-browser, cross-platform, cross-language, single-API, mobile-friendly front-end testing tool.
-I&amp;rsquo;m looking forward to giving the same session in English sooner or later, but I should first win my laziness and start looking for exciting events with open CFPs. If you happen to know one, please let me know.</description>
+      <description>&lt;p&gt;If you understand Italian, the recording of my Playwright session at
+UGIdotNET&amp;rsquo;s &lt;a href=&#34;https://www.ugidotnet.org/e/2840/Web-Day-2022&#34;&gt;WebDay 2022&lt;/a&gt; is now available on YouTube&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Playwright is
+a phenomenal cross-browser, cross-platform, cross-language, single-API,
+mobile-friendly front-end testing tool.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m looking forward to giving the same session in English sooner or later, but
+I should first win my laziness and start looking for exciting events with open
+CFPs. If you happen to know one, please let me know.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/BaY9WIHUwFc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;A couple weeks later I also presented at &lt;a href=&#34;https://www.meetup.com/it-IT/DevRomagna/events/284626987/&#34;&gt;DevRomagna&lt;/a&gt;, the local meetup I run.
+[rss]: &lt;a href=&#34;https://nicolaiarocci.com/index.xml&#34;&gt;https://nicolaiarocci.com/index.xml&lt;/a&gt;
+[tw]: &lt;a href=&#34;http://twitter.com/nicolaiarocci&#34;&gt;http://twitter.com/nicolaiarocci&lt;/a&gt;
+[nl]: &lt;a href=&#34;https://buttondown.email/nicolaiarocci&#34;&gt;https://buttondown.email/nicolaiarocci&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>If you understand Italian, the recording of my Playwright session at
 UGIdotNET&rsquo;s <a href="https://www.ugidotnet.org/e/2840/Web-Day-2022">WebDay 2022</a> is now available on YouTube<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Playwright is
 a phenomenal cross-browser, cross-platform, cross-language, single-API,
@@ -23,10 +40,9 @@ mobile-friendly front-end testing tool.</p>
 <p>I&rsquo;m looking forward to giving the same session in English sooner or later, but
 I should first win my laziness and start looking for exciting events with open
 CFPs. If you happen to know one, please let me know.</p>
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/BaY9WIHUwFc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/BaY9WIHUwFc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
 <div class="footnotes" role="doc-endnotes">
 <hr>
@@ -46,13 +62,13 @@ CFPs. If you happen to know one, please let me know.</p>
       <link>https://nicolaiarocci.com/javascript-the-right-way/</link>
       <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/javascript-the-right-way/</guid>
-      <description>Hey, you!
-This is a JavaScript guide intended to introduce new developers and help experienced ones to the JavaScript’s best practices.
-via JS: The Right Way.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Hey, you!&lt;/p&gt;
+&lt;p&gt;This is a JavaScript guide intended to introduce new developers and help experienced ones to the JavaScript’s best practices.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;via &lt;a href=&#34;http://jstherightway.org/?utm_content=buffer7f09d&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer&#34;&gt;JS: The Right Way&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
 <p>Hey, you!</p>
-<p>This is a JavaScript guide intended to introduce new developers and help experienced ones to the JavaScript’s best practices.</p>
-</blockquote>
+<p>This is a JavaScript guide intended to introduce new developers and help experienced ones to the JavaScript’s best practices.</p></blockquote>
 <p>via <a href="http://jstherightway.org/?utm_content=buffer7f09d&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">JS: The Right Way</a>.</p>
 ]]></content:encoded>
     </item>
@@ -61,12 +77,12 @@ via JS: The Right Way.</description>
       <link>https://nicolaiarocci.com/backbone-js-vs-angular-js-dissacrare-il-mito/</link>
       <pubDate>Mon, 25 Feb 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/backbone-js-vs-angular-js-dissacrare-il-mito/</guid>
-      <description>Lettura interessante se state cercando quello giusto fra le decine di front-end framework disponibili.
-I love the way how each and every discussion turns into the war of the frameworks. I have worked with BackboneJS and AngularJS quite extensively and have come across most of their short comings in production. So, you dont really have to take this analysis with a grain of salt. I would be happy to take back anything that I have said if it turns out to be wrong.</description>
+      <description>&lt;p&gt;Lettura interessante se state cercando quello giusto fra le decine di front-end framework disponibili.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I love the way how each and every discussion turns into the war of the frameworks. I have worked with BackboneJS and AngularJS quite extensively and have come across most of their short comings in production. So, you dont really have to take this analysis with a grain of salt. I would be happy to take back anything that I have said if it turns out to be wrong. Lets get to the meat of it, then, shall we?&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Lettura interessante se state cercando quello giusto fra le decine di front-end framework disponibili.</p>
 <blockquote>
-<p>I love the way how each and every discussion turns into the war of the frameworks. I have worked with BackboneJS and AngularJS quite extensively and have come across most of their short comings in production. So, you dont really have to take this analysis with a grain of salt. I would be happy to take back anything that I have said if it turns out to be wrong. Lets get to the meat of it, then, shall we?</p>
-</blockquote>
+<p>I love the way how each and every discussion turns into the war of the frameworks. I have worked with BackboneJS and AngularJS quite extensively and have come across most of their short comings in production. So, you dont really have to take this analysis with a grain of salt. I would be happy to take back anything that I have said if it turns out to be wrong. Lets get to the meat of it, then, shall we?</p></blockquote>
 <p><!-- raw HTML omitted -->Backbone vs Angular: Demystifying the myths<!-- raw HTML omitted --></p>
 ]]></content:encoded>
     </item>
@@ -75,12 +91,12 @@ I love the way how each and every discussion turns into the war of the framewor
       <link>https://nicolaiarocci.com/ancora-su-typescript/</link>
       <pubDate>Fri, 05 Oct 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/ancora-su-typescript/</guid>
-      <description>A proposito di TypeScript vi segnalo Thoughts on TypeScript, il miglior articolo che ho letto finora sul nuovo nato in casa Microsoft.
-I’m happy that regular JavaScript can be written in TypeScript and still benefit from some of the type checking provided by the TypeScript compiler. That means writing TypeScript can actually help people learn JavaScript, which makes me happy.</description>
+      <description>&lt;p&gt;A proposito di TypeScript vi segnalo &lt;!-- raw HTML omitted --&gt;Thoughts on TypeScript&lt;!-- raw HTML omitted --&gt;, il miglior articolo che ho letto finora sul nuovo nato in casa Microsoft.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I’m happy that regular JavaScript can be written in TypeScript and still benefit from some of the type checking provided by the TypeScript compiler. That means writing TypeScript can actually help people learn JavaScript, which makes me happy.&lt;/p&gt;&lt;/blockquote&gt;</description>
       <content:encoded><![CDATA[<p>A proposito di TypeScript vi segnalo <!-- raw HTML omitted -->Thoughts on TypeScript<!-- raw HTML omitted -->, il miglior articolo che ho letto finora sul nuovo nato in casa Microsoft.</p>
 <blockquote>
-<p>I’m happy that regular JavaScript can be written in TypeScript and still benefit from some of the type checking provided by the TypeScript compiler. That means writing TypeScript can actually help people learn JavaScript, which makes me happy.</p>
-</blockquote>
+<p>I’m happy that regular JavaScript can be written in TypeScript and still benefit from some of the type checking provided by the TypeScript compiler. That means writing TypeScript can actually help people learn JavaScript, which makes me happy.</p></blockquote>
 ]]></content:encoded>
     </item>
     <item>
@@ -88,8 +104,8 @@ I’m happy that regular JavaScript can be written in TypeScript and still benef
       <link>https://nicolaiarocci.com/typescript-prime-impressioni/</link>
       <pubDate>Tue, 02 Oct 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/typescript-prime-impressioni/</guid>
-      <description>Ieri Microsoft ha annunciato TypeScript, nuovo linguaggio fortemente tipizzato il cui codice compilato è puro JavaScript. TypeScript aggiunge classi, controllo degli errori in compilazione, completamento del codice in fase di sviluppo, e tante altre cose interessanti.
-Miguel de Icaza, il cervello dietro Xamarin e la piattaforma Mono, ha sintentizzato le sue prime impressioni sul progetto. Interessanti anche i commenti di uno degli sviluppatori di Dart, progetto Google dal quale TypeScript ha senz’altro tratto ispirazione.</description>
+      <description>&lt;p&gt;Ieri Microsoft ha annunciato &lt;!-- raw HTML omitted --&gt;TypeScript&lt;!-- raw HTML omitted --&gt;,  nuovo linguaggio fortemente tipizzato il cui codice compilato è puro JavaScript. TypeScript aggiunge classi, controllo degli errori in compilazione, completamento del codice in fase di sviluppo, e tante altre cose interessanti.&lt;/p&gt;
+&lt;p&gt;Miguel de Icaza, il cervello dietro Xamarin e la piattaforma Mono, ha sintentizzato le sue &lt;!-- raw HTML omitted --&gt;prime impressioni sul progetto&lt;!-- raw HTML omitted --&gt;. Interessanti anche i &lt;!-- raw HTML omitted --&gt;commenti di uno degli sviluppatori di Dart&lt;!-- raw HTML omitted --&gt;, progetto Google dal quale TypeScript ha senz’altro tratto ispirazione.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Ieri Microsoft ha annunciato <!-- raw HTML omitted -->TypeScript<!-- raw HTML omitted -->,  nuovo linguaggio fortemente tipizzato il cui codice compilato è puro JavaScript. TypeScript aggiunge classi, controllo degli errori in compilazione, completamento del codice in fase di sviluppo, e tante altre cose interessanti.</p>
 <p>Miguel de Icaza, il cervello dietro Xamarin e la piattaforma Mono, ha sintentizzato le sue <!-- raw HTML omitted -->prime impressioni sul progetto<!-- raw HTML omitted -->. Interessanti anche i <!-- raw HTML omitted -->commenti di uno degli sviluppatori di Dart<!-- raw HTML omitted -->, progetto Google dal quale TypeScript ha senz’altro tratto ispirazione.</p>
 ]]></content:encoded>
@@ -99,7 +115,7 @@ Miguel de Icaza, il cervello dietro Xamarin e la piattaforma Mono, ha sintentizz
       <link>https://nicolaiarocci.com/jsbooks-libri-open-source-su-javascript/</link>
       <pubDate>Thu, 30 Aug 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/jsbooks-libri-open-source-su-javascript/</guid>
-      <description>JSBooks Free JavaScript Books è una valida selezione di risorse gratuite su JavaScript. Si tratta di libri e guide gratuite per programmatori di ogni livello, dal principiante al veterano. Il catalogo include titoli su jQuery, Backbone, design patterns, Node, CoffeeScript, qualcosa su HTML5 e addirittura un libro su MongoDB (si tratta una mia vecchia conoscenza). Alcuni suggerimenti sono davvero di ottima qualità. Il progetto è open source e chiunque può contribuire segnalando nuove interessanti risorse via GitHub.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;JSBooks Free JavaScript Books&lt;!-- raw HTML omitted --&gt; è una valida selezione di risorse gratuite su JavaScript. Si tratta di libri e guide gratuite per programmatori di ogni livello, dal principiante al veterano. Il catalogo include titoli su jQuery, Backbone, design patterns, Node, CoffeeScript, qualcosa su HTML5 e addirittura un libro su MongoDB (si tratta una mia &lt;a href=&#34;http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/&#34; title=&#34;Il Piccolo Libro su MongoDB&#34;&gt;vecchia conoscenza&lt;/a&gt;). Alcuni suggerimenti sono davvero di ottima qualità. Il progetto è open source e chiunque può contribuire segnalando nuove interessanti risorse via GitHub.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->JSBooks Free JavaScript Books<!-- raw HTML omitted --> è una valida selezione di risorse gratuite su JavaScript. Si tratta di libri e guide gratuite per programmatori di ogni livello, dal principiante al veterano. Il catalogo include titoli su jQuery, Backbone, design patterns, Node, CoffeeScript, qualcosa su HTML5 e addirittura un libro su MongoDB (si tratta una mia <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro su MongoDB">vecchia conoscenza</a>). Alcuni suggerimenti sono davvero di ottima qualità. Il progetto è open source e chiunque può contribuire segnalando nuove interessanti risorse via GitHub.</p>
 ]]></content:encoded>
     </item>
@@ -108,13 +124,12 @@ Miguel de Icaza, il cervello dietro Xamarin e la piattaforma Mono, ha sintentizz
       <link>https://nicolaiarocci.com/come-usare-al-meglio-webkit-inspector/</link>
       <pubDate>Fri, 15 Jun 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/come-usare-al-meglio-webkit-inspector/</guid>
-      <description>Se vi occupate di frontend non perdetevi lo spettacolare articolo in cui Majd Taby ci spiega come usare al meglio il WebKit Inspector.
-Il panorama mobile è monopolizzato da WebKit e di conseguenza gran parte degli strumenti e dell’infrastruttura per lo sviluppo di applicazioni frontend mobile (e non solo, ndr) risiedono nel WebKit Inspector. Per questo ne analizzerò con cura gli strumenti e spiegherò come e quando usarli.
-Ci sono anche le slide.</description>
+      <description>&lt;p&gt;Se vi occupate di frontend non perdetevi lo spettacolare articolo in cui Majd Taby ci spiega &lt;!-- raw HTML omitted --&gt;come usare al meglio il WebKit Inspector&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Il panorama mobile è monopolizzato da WebKit e di conseguenza gran parte degli strumenti e dell’infrastruttura per lo sviluppo di applicazioni frontend mobile (e non solo, ndr) risiedono nel WebKit Inspector. Per questo ne analizzerò con cura gli strumenti e spiegherò come e quando usarli.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Se vi occupate di frontend non perdetevi lo spettacolare articolo in cui Majd Taby ci spiega <!-- raw HTML omitted -->come usare al meglio il WebKit Inspector<!-- raw HTML omitted -->.</p>
 <blockquote>
-<p>Il panorama mobile è monopolizzato da WebKit e di conseguenza gran parte degli strumenti e dell’infrastruttura per lo sviluppo di applicazioni frontend mobile (e non solo, ndr) risiedono nel WebKit Inspector. Per questo ne analizzerò con cura gli strumenti e spiegherò come e quando usarli.</p>
-</blockquote>
+<p>Il panorama mobile è monopolizzato da WebKit e di conseguenza gran parte degli strumenti e dell’infrastruttura per lo sviluppo di applicazioni frontend mobile (e non solo, ndr) risiedono nel WebKit Inspector. Per questo ne analizzerò con cura gli strumenti e spiegherò come e quando usarli.</p></blockquote>
 <p>Ci sono anche le <!-- raw HTML omitted -->slide<!-- raw HTML omitted -->.</p>
 ]]></content:encoded>
     </item>
@@ -123,14 +138,14 @@ Ci sono anche le slide.</description>
       <link>https://nicolaiarocci.com/comprendere-il-mvvm-guida-per-sviluppatori-javascript/</link>
       <pubDate>Wed, 11 Apr 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/comprendere-il-mvvm-guida-per-sviluppatori-javascript/</guid>
-      <description>Addy Osmani ne ha combinata un’altra delle sue:
-MVVM (Model View ViewModel) è un pattern architetturale basato su MVC e MVP, che tenta di separare chiaramente lo sviluppo della interfaccia utente (UI) da quelle che sono business logic e comportamento dell’applicazione. A questo fine, molte implementazioni del pattern ricorrono a un uso dichiarativo dei data bindings, per consentire la separazione del lavoro sulle Viste (View) dagli altri strati (layer).
-MVVM consente creazione di UI e sviluppo del codice in parallelo, all’interno della stessa base di codice.</description>
+      <description>&lt;p&gt;Addy Osmani ne ha combinata un’altra delle sue:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;MVVM (Model View ViewModel) è un pattern architetturale basato su MVC e MVP, che tenta di separare chiaramente lo sviluppo della interfaccia utente (UI) da quelle che sono business logic e comportamento dell’applicazione. A questo fine, molte implementazioni del pattern ricorrono a un uso dichiarativo dei data bindings, per consentire la separazione del lavoro sulle Viste (View) dagli altri strati (layer).&lt;/p&gt;
+&lt;p&gt;MVVM consente creazione di UI  e sviluppo del codice in parallelo, all’interno della stessa base di codice. Gli esperti UI scrivono bindings per il ViewModel all’interno del loro markup (HTML), mentre il Model e il ViewModel sono gestiti dagli sviluppatori che lavorano alla logica dell’applicazione.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Addy Osmani ne ha combinata un’altra delle sue:</p>
 <blockquote>
 <p>MVVM (Model View ViewModel) è un pattern architetturale basato su MVC e MVP, che tenta di separare chiaramente lo sviluppo della interfaccia utente (UI) da quelle che sono business logic e comportamento dell’applicazione. A questo fine, molte implementazioni del pattern ricorrono a un uso dichiarativo dei data bindings, per consentire la separazione del lavoro sulle Viste (View) dagli altri strati (layer).</p>
-<p>MVVM consente creazione di UI  e sviluppo del codice in parallelo, all’interno della stessa base di codice. Gli esperti UI scrivono bindings per il ViewModel all’interno del loro markup (HTML), mentre il Model e il ViewModel sono gestiti dagli sviluppatori che lavorano alla logica dell’applicazione.</p>
-</blockquote>
+<p>MVVM consente creazione di UI  e sviluppo del codice in parallelo, all’interno della stessa base di codice. Gli esperti UI scrivono bindings per il ViewModel all’interno del loro markup (HTML), mentre il Model e il ViewModel sono gestiti dagli sviluppatori che lavorano alla logica dell’applicazione.</p></blockquote>
 <p><!-- raw HTML omitted -->Comprendere il MVVM – Guida per Sviluppatori JavaScript<!-- raw HTML omitted --></p>
 ]]></content:encoded>
     </item>
@@ -139,10 +154,10 @@ MVVM consente creazione di UI e sviluppo del codice in parallelo, all’interno 
       <link>https://nicolaiarocci.com/evidenziare-il-codice-sorgente-via-javascript-e-css-con-rainbow/</link>
       <pubDate>Mon, 02 Apr 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/evidenziare-il-codice-sorgente-via-javascript-e-css-con-rainbow/</guid>
-      <description>Rainbow è una libreria per l’evidenziazione del codice scritta in Javascript. E’ leggera (1.4kb), facile da usare, estensibile e completamente configurabile via CSS.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Rainbow&lt;!-- raw HTML omitted --&gt; è una libreria per l’evidenziazione del codice scritta in Javascript. E’ leggera (1.4kb), facile da usare, estensibile e completamente configurabile via CSS.&lt;/p&gt;&lt;/blockquote&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p><!-- raw HTML omitted -->Rainbow<!-- raw HTML omitted --> è una libreria per l’evidenziazione del codice scritta in Javascript. E’ leggera (1.4kb), facile da usare, estensibile e completamente configurabile via CSS.</p>
-</blockquote>
+<p><!-- raw HTML omitted -->Rainbow<!-- raw HTML omitted --> è una libreria per l’evidenziazione del codice scritta in Javascript. E’ leggera (1.4kb), facile da usare, estensibile e completamente configurabile via CSS.</p></blockquote>
 ]]></content:encoded>
     </item>
     <item>
@@ -150,10 +165,11 @@ MVVM consente creazione di UI e sviluppo del codice in parallelo, all’interno 
       <link>https://nicolaiarocci.com/7-risorse-per-sviluppatori-javascript/</link>
       <pubDate>Thu, 15 Mar 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/7-risorse-per-sviluppatori-javascript/</guid>
-      <description>Anni fa JavaScript era considerato più che altro una seccatura: produceva queste animazioni e trailer per il browser e poco altro. Ora tutto è cambiato. JavaScript è eletto a linguaggio funzionale di prima classe e in rete sono disponibili risorse innumerevoli . Condivido con voi alcune delle mie fonti migliori, che uso per tenermi aggiornato su librerie, progetti e JavaScript in generale. – Rob Bazinet</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Anni fa JavaScript era considerato più che altro una seccatura: produceva queste animazioni e trailer per il browser e poco altro. Ora tutto è cambiato. JavaScript è eletto a linguaggio funzionale di prima classe e in rete sono disponibili risorse innumerevoli . Condivido con voi alcune delle mie fonti migliori, che uso per tenermi aggiornato su librerie, progetti e JavaScript in generale. – Rob Bazinet&lt;/p&gt;&lt;/blockquote&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>Anni fa JavaScript era considerato più che altro una seccatura: produceva queste animazioni e trailer per il browser e poco altro. Ora tutto è cambiato. JavaScript è eletto a linguaggio funzionale di prima classe e in rete sono disponibili risorse innumerevoli . Condivido con voi alcune delle mie fonti migliori, che uso per tenermi aggiornato su librerie, progetti e JavaScript in generale. – Rob Bazinet</p>
-</blockquote>
+<p>Anni fa JavaScript era considerato più che altro una seccatura: produceva queste animazioni e trailer per il browser e poco altro. Ora tutto è cambiato. JavaScript è eletto a linguaggio funzionale di prima classe e in rete sono disponibili risorse innumerevoli . Condivido con voi alcune delle mie fonti migliori, che uso per tenermi aggiornato su librerie, progetti e JavaScript in generale. – Rob Bazinet</p></blockquote>
 <!-- raw HTML omitted -->
 ]]></content:encoded>
     </item>
@@ -211,8 +227,7 @@ MVVM consente creazione di UI e sviluppo del codice in parallelo, all’interno 
 <h2 id="john-resig-e-la-khan-academy">John Resig e la Khan Academy</h2>
 <p>John Resig è il creatore di jQuery. Vera star internazionale, autore di libri di successo, ora lavora per <!-- raw HTML omitted -->Khan Academy<!-- raw HTML omitted -->, la famosa accademia online. Ecco ciò che Resig ha <!-- raw HTML omitted -->annunciato<!-- raw HTML omitted --> poco prima di Natale:</p>
 <blockquote>
-<p>Alla Khan Academy stiamo considerando nuovi, originali, metodi di insegnamento della Computer Science. L’aspetto più interessante è che proporremo agli studenti JavaScript come loro primo linguaggio.</p>
-</blockquote>
+<p>Alla Khan Academy stiamo considerando nuovi, originali, metodi di insegnamento della Computer Science. L’aspetto più interessante è che proporremo agli studenti JavaScript come loro primo linguaggio.</p></blockquote>
 <p>La sua è una situazione particolarmente vantaggiosa: oltre a essere completamente digiuni di programmazione i suoi studenti hanno appena completato un corso di matematica e scienze.</p>
 <p>In effetti insegnare l’ereditarietà prototipale (<!-- raw HTML omitted -->prototypal inheritance<!-- raw HTML omitted -->) caratteristica di JavaScript a programmatori già abituati alla tradizionale ereditarietà degli oggetti richiede un certo impegno. E’ senz’altro più semplice spiegarla a chi non sa nemmeno cosa sia l’<!-- raw HTML omitted -->ereditarietà<!-- raw HTML omitted --> in informatica. JavaScript è anche un buon linguaggio per la <!-- raw HTML omitted -->programmazione funzionale<!-- raw HTML omitted -->, anche questa più facile da capire in assenza di condizionamenti precedenti. In questo filmato Resig parla del suo progetto sottolineando quello che probabilmente è il più grande vantaggio di JavaScript, la sua ubiquità:</p>
 <p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
@@ -244,12 +259,12 @@ MVVM consente creazione di UI e sviluppo del codice in parallelo, all’interno 
       <link>https://nicolaiarocci.com/imparare-a-programmare-online-con-codecademy/</link>
       <pubDate>Fri, 26 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/imparare-a-programmare-online-con-codecademy/</guid>
-      <description>Codecademy è una fantastica iniziativa che insegna a programmare online. Lanciata poco più di una settimana fa, ha già raccolto duecentomila utenti registrati. Brillante l’idea di integrare gli strumenti tipici del social network (badge, punteggi, seguire i progressi degli amici) con un interprete interattivo e un preciso feedback in tempo reale.
-Codecademy è il modo più semplice per imparare a programmare. E’ interattivo, divertente, e lo puoi fare con gli amici</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Codecademy&lt;!-- raw HTML omitted --&gt; è una fantastica iniziativa che insegna a programmare online. Lanciata poco più di una settimana fa, ha già raccolto duecentomila utenti registrati. Brillante l’idea di integrare gli strumenti tipici del social network (badge, punteggi, seguire i progressi degli amici) con un interprete interattivo e un preciso feedback in tempo reale.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Codecademy è il modo più semplice per imparare a programmare. E’ interattivo, divertente, e lo puoi fare con gli amici&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Codecademy<!-- raw HTML omitted --> è una fantastica iniziativa che insegna a programmare online. Lanciata poco più di una settimana fa, ha già raccolto duecentomila utenti registrati. Brillante l’idea di integrare gli strumenti tipici del social network (badge, punteggi, seguire i progressi degli amici) con un interprete interattivo e un preciso feedback in tempo reale.</p>
 <blockquote>
-<p>Codecademy è il modo più semplice per imparare a programmare. E’ interattivo, divertente, e lo puoi fare con gli amici</p>
-</blockquote>
+<p>Codecademy è il modo più semplice per imparare a programmare. E’ interattivo, divertente, e lo puoi fare con gli amici</p></blockquote>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 ]]></content:encoded>
@@ -282,21 +297,18 @@ Codecademy è il modo più semplice per imparare a programmare. E’ interattivo
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <blockquote>
-<p>You all saw a very small technology demo of Windows 8, and a brief press release. We’re all being quiet right now because we can’t comment on this. It’s not because we don’t care, aren’t listening, have given up, or are agreeing or disagreeing with you on something. All I can say for now is to please wait until September. If we say more before then, that will be great, but there are no promises (and I’m not aware of any plans) to say more right now. I’m very sorry that there’s nothing else to share at the moment. I know that answer is terrible, but it’s all that we can say right now. Seriously.</p>
-</blockquote>
+<p>You all saw a very small technology demo of Windows 8, and a brief press release. We’re all being quiet right now because we can’t comment on this. It’s not because we don’t care, aren’t listening, have given up, or are agreeing or disagreeing with you on something. All I can say for now is to please wait until September. If we say more before then, that will be great, but there are no promises (and I’m not aware of any plans) to say more right now. I’m very sorry that there’s nothing else to share at the moment. I know that answer is terrible, but it’s all that we can say right now. Seriously.</p></blockquote>
 <p>Quindi bocche cucite, almeno fino a Settembre. In seguito Brown interviene ancora, tirato per la giacchetta dai molti che hanno interpretato le sue parole nelle maniere più disparate:</p>
 <blockquote>
 <p>This whole thing has blown way out of proportion. Base your information on our primary sources (like our press release), not on third party speculation. That’s not to minimize how everyone feels, but keep in mind that Windows 8 itself is still a ways off from retail, and even much further away from internal IT adoption. The 8 weeks until //build/ is a pretty small amount of time to wait in comparison.</p>
-<p>Take some vacation time this summer, and look forward to the //build/ conference. Stop speculating based on just a small demo of some very cool new technology. Tell your management to do the same: if they’re basing your project work for the next X years on the results of a quick demo for an unreleased operating system, then they are doing you and your company a real disservice.</p>
-</blockquote>
+<p>Take some vacation time this summer, and look forward to the //build/ conference. Stop speculating based on just a small demo of some very cool new technology. Tell your management to do the same: if they’re basing your project work for the next X years on the results of a quick demo for an unreleased operating system, then they are doing you and your company a real disservice.</p></blockquote>
 <p>Windows 8 è ben lontano dall’essere pronto, e quel che si è visto nel filmato è solo la prima di una serie di anteprime. Inutile fare speculazioni basate su una demo di pochi minuti. Questa estate godetevi le vacanza, ne riparleremo al vostro ritorno. Dite ai vostri manager di fare lo stesso. <strong>Se stanno pianificando il lavoro dei prossimi anni basandosi solo su una breve anteprima di un sistema operativo non ancora pronto, allora stanno facendo un grave errore</strong>.</p>
 <h2 id="non-è-mica-la-prima-volta">Non è mica la prima volta</h2>
 <p>Niente da obiettare da parte mia. Mi limito a rilevare che non è la prima volta che il futuro delle piattaforme Microsoft viene messo in discussione anche dallo stesso personale Microsoft. Leggendaria la gaffe di <!-- raw HTML omitted -->Bob Muglia<!-- raw HTML omitted -->, Vice President for Server and Tools Businesses (mica cotica) riportata fedelmente da <!-- raw HTML omitted -->Mary Jo Foley<!-- raw HTML omitted -->:</p>
 <blockquote>
 <p>“Silverlight is our development platform for Windows Phone,” he said. Silverlight also has some “sweet spots” in media and line-of-business applications, he said.</p>
 <p>But when it comes to touting Silverlight as Microsoft’s vehicle for delivering a cross-platform runtime, “<strong>our strategy has shifted</strong>,” Muglia told me.</p>
-<p>Silverlight will continue to be a cross-platform solution, working on a variety of operating system/browser platforms, going forward, he said. “But <strong>HTML is the only true cross platform solution for everything</strong>, including (Apple’s) iOS platform,” Muglia said.</p>
-</blockquote>
+<p>Silverlight will continue to be a cross-platform solution, working on a variety of operating system/browser platforms, going forward, he said. “But <strong>HTML is the only true cross platform solution for everything</strong>, including (Apple’s) iOS platform,” Muglia said.</p></blockquote>
 <p>All’epoca fu necessario un comunicato congiunto di Steve Ballmer (CEO Microsoft) e del penitente Bob Muglia per acquietare la tempesta scatenata da queste parole. Sarà un caso che recentemente Muglia abbia annunciato il trasloco ad altri lidi?</p>
 <p>Il fatto è che le tante aziende che hanno investito molto e – ahimé – esclusivamente sulle piattaforme Microsoft ora guardano con terrore a uno scenario, per quanto improbabile, che non veda Silverlight, WPF e .NET in cima all’agenda della casa madre.</p>
 <h2 id="img-classalignright-titlehtml5-logo-srchttpi2wpcomnicolaiaroccicomwp-contentuploadshtml5-logopngresize1282c150-althtml5-logo-data-recalc-dims1-il-futuro-del-web-è-silverlight"><!-- raw HTML omitted -->Il futuro del Web è Silverlight?</h2>
@@ -336,8 +348,8 @@ Codecademy è il modo più semplice per imparare a programmare. E’ interattivo
       <link>https://nicolaiarocci.com/eclipse-foundation-lancia-la-beta-pubblica-di-orionhub/</link>
       <pubDate>Tue, 22 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/eclipse-foundation-lancia-la-beta-pubblica-di-orionhub/</guid>
-      <description>Eclipse Foundation ha avviato il beta testing di OrionHub, una implementazione hosted del suo Progetto Orion. Orion è una piattaforma di sviluppo aperta dedicata allo sviluppo per il web, dentro il web. La IDE Orion gira nel browser e fornisce un completo ambiente di produzione per progetti JavaScript, HTML e CSS. Il risultato è ottenuto grazie a un plugin lato client sviluppato in HTML5.
-Per un approfondimento dai una occhiata a Il futuro del codice sorgente è online?</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.eclipse.org/&#34;&gt;Eclipse Foundation&lt;/a&gt; ha avviato il beta testing di &lt;a href=&#34;http://www.eclipse.org/orion/&#34;&gt;&lt;strong&gt;OrionHub&lt;/strong&gt;&lt;/a&gt;, una implementazione hosted del suo Progetto Orion. Orion è una piattaforma di sviluppo aperta dedicata allo sviluppo per il web, dentro il web. La IDE Orion gira nel browser e fornisce un completo ambiente di produzione per progetti JavaScript, HTML e CSS. Il risultato è ottenuto grazie a un plugin lato client sviluppato in HTML5.&lt;/p&gt;
+&lt;p&gt;Per un approfondimento dai una occhiata a &lt;!-- raw HTML omitted --&gt;Il futuro del codice sorgente è online?&lt;!-- raw HTML omitted --&gt;, la panoramica sul Progetto Orion e sulle IDE Online che ho pubblicato qualche tempo fa.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="http://www.eclipse.org/">Eclipse Foundation</a> ha avviato il beta testing di <a href="http://www.eclipse.org/orion/"><strong>OrionHub</strong></a>, una implementazione hosted del suo Progetto Orion. Orion è una piattaforma di sviluppo aperta dedicata allo sviluppo per il web, dentro il web. La IDE Orion gira nel browser e fornisce un completo ambiente di produzione per progetti JavaScript, HTML e CSS. Il risultato è ottenuto grazie a un plugin lato client sviluppato in HTML5.</p>
 <p>Per un approfondimento dai una occhiata a <!-- raw HTML omitted -->Il futuro del codice sorgente è online?<!-- raw HTML omitted -->, la panoramica sul Progetto Orion e sulle IDE Online che ho pubblicato qualche tempo fa.</p>
 ]]></content:encoded>
@@ -519,7 +531,7 @@ Per un approfondimento dai una occhiata a Il futuro del codice sorgente è onlin
 <li>SILVERLIGHT (1.1M)</li>
 <li>FLASH (509K)</li>
 </ul>
-<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…<!-- raw HTML omitted --></p>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…</p>
 <h2 id="gli-ebooks-di-stack-overflow-1">Gli eBooks di Stack Overflow</h2>
 <h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1--1"><!-- raw HTML omitted --></h2>
 <p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
@@ -545,7 +557,7 @@ Per un approfondimento dai una occhiata a Il futuro del codice sorgente è onlin
 <li>SILVERLIGHT (1.1M)</li>
 <li>FLASH (509K)</li>
 </ul>
-<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con]<a href="http://www.amazon.com/dp/B002Y27P3M/?tag=gocous-20&amp;hvadid=5729120357&amp;ref=pd_sl_blgu0nkyl_b">7</a> e credo con altri lettori di eBook. Ricordo che è possibile leggere i libri per Kindle con l’applicazione <strong>gratuita</strong> disponibile per <a href="http://www.amazon.com/gp/feature.html/ref=kcp_pc_mkt_lnd?docId=1000426311">PC</a>, <a href="http://www.amazon.com/gp/feature.html/ref=kcp_mac_mkt_lnd?docId=1000464931">Mac</a>, [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…<!-- raw HTML omitted --></p>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con]<a href="http://www.amazon.com/dp/B002Y27P3M/?tag=gocous-20&amp;hvadid=5729120357&amp;ref=pd_sl_blgu0nkyl_b">7</a> e credo con altri lettori di eBook. Ricordo che è possibile leggere i libri per Kindle con l’applicazione <strong>gratuita</strong> disponibile per <a href="http://www.amazon.com/gp/feature.html/ref=kcp_pc_mkt_lnd?docId=1000426311">PC</a>, <a href="http://www.amazon.com/gp/feature.html/ref=kcp_mac_mkt_lnd?docId=1000464931">Mac</a>, [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…</p>
 <h2 id="gli-ebooks-di-stack-overflow-2">Gli eBooks di Stack Overflow</h2>
 <h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1--2"><!-- raw HTML omitted --></h2>
 <p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
@@ -571,7 +583,7 @@ Per un approfondimento dai una occhiata a Il futuro del codice sorgente è onlin
 <li>SILVERLIGHT (1.1M)</li>
 <li>FLASH (509K)</li>
 </ul>
-<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…<!-- raw HTML omitted --></p>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…</p>
 <h2 id="gli-ebooks-di-stack-overflow-3">Gli eBooks di Stack Overflow</h2>
 <h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1--3"><!-- raw HTML omitted --></h2>
 <p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
@@ -612,8 +624,7 @@ Per un approfondimento dai una occhiata a Il futuro del codice sorgente è onlin
 <h2 id="il-progetto-orion">Il Progetto Orion</h2>
 <p>Semplici editor di codice sorgente sono disponibili online già da tempo, ma progetti come <strong>Orion</strong> portano il concetto di programmazione online a un livello superiore. <a href="http://dev.eclipse.org/blogs/mike/2011/01/11/introducing-orion/">Annunciato pochi giorni fa</a> dal team di sviluppo di <strong>Eclipse</strong>, una IDE Open Source molto diffusa e apprezzata, il progetto Orion è qualcosa di nuovo:</p>
 <blockquote>
-<p>E’ una piattaforma di sviluppo aperta focalizzata totalmente allo sviluppo per il web, dentro il web. I tools sono scritti in JavaScript e girano nel browser. A differenza di altri tentativi di realizzare strumenti di sviluppo integrati nel browser, Orion non è una IDE che gira in una singola scheda del browser. I links funzionano e possono essere condivisi. Puoi aprire files in schede diverse e grande cura è stata messa nel fornire una ottima web experience durante lo sviluppo del codice</p>
-</blockquote>
+<p>E’ una piattaforma di sviluppo aperta focalizzata totalmente allo sviluppo per il web, dentro il web. I tools sono scritti in JavaScript e girano nel browser. A differenza di altri tentativi di realizzare strumenti di sviluppo integrati nel browser, Orion non è una IDE che gira in una singola scheda del browser. I links funzionano e possono essere condivisi. Puoi aprire files in schede diverse e grande cura è stata messa nel fornire una ottima web experience durante lo sviluppo del codice</p></blockquote>
 <!-- raw HTML omitted -->
 <pre><code>  &lt;p class=&quot;wp-caption-text&quot;&gt;
     Codice JavaScript sviluppato direttamente in Google Chrome - Progetto Orion/Eclipse
@@ -741,7 +752,7 @@ Per un approfondimento dai una occhiata a Il futuro del codice sorgente è onlin
 </ol>
 <p>E’ vero che ricorrendo a ottimizzazioni e tools dedicati alcune (poche) di queste limitazioni possono essere aggirate. Le prossime release di Flash promettono sviluppi interessanti, tra i quali ottimizzazioni per i dispositivi mobili e riduzione del peso dell’intera infrastruttura.</p>
 <h2 id="considera-le-alternative"><strong>Considera le alternative</strong></h2>
-<p>Non sono necessarie soluzioni esoteriche. Troppo spesso si ricorre a Flash per produrre effetti, transizioni e animazioni realizzabili anche con strumenti consolidati, leggeri e SEO-friendly quali <strong>JavaScript</strong>, <strong>HTML</strong> e <strong>CSS.</strong> In una parola, <strong><a href="http://it.wikipedia.org/wiki/AJAX">AJAX</a></strong>. Cose ormai scontate. O forse no, a giudicare da quel che ancora oggi si pubblica in rete. A ben guardare la battaglia tra Apple e Adobe, quella culminata con la [<!-- raw HTML omitted -->E’ incredibile la quantità di siti che ancora oggi vengono sviluppati con Flash. Il fenomeno colpisce soprattutto i siti-vetrina: negozi, attività commerciali, ristoranti, artigiani. Basta farsi un giro sui siti di venditori di mobili, per esempio, per godersi il trionfo della ‘<a href="http://en.wikipedia.org/wiki/Adobe_Flash">multimedia platform</a>‘ di Adobe. Bisogna prenderne atto: nel 2011 migliaia di aziende italiane di ogni dimensione affidano la loro identità web ad Adobe Flash. Consulenti e agenzie continuano a produrre siti con tecnologie assimilate anni fa. Reticenti all’aggiornamento delle proprie competenze, si accontentano del loro confortante orticello che, tutto sommato, assicura lo stipendio.<!-- raw HTML omitted --></p>
+<p>Non sono necessarie soluzioni esoteriche. Troppo spesso si ricorre a Flash per produrre effetti, transizioni e animazioni realizzabili anche con strumenti consolidati, leggeri e SEO-friendly quali <strong>JavaScript</strong>, <strong>HTML</strong> e <strong>CSS.</strong> In una parola, <strong><a href="http://it.wikipedia.org/wiki/AJAX">AJAX</a></strong>. Cose ormai scontate. O forse no, a giudicare da quel che ancora oggi si pubblica in rete. A ben guardare la battaglia tra Apple e Adobe, quella culminata con la [<!-- raw HTML omitted -->E’ incredibile la quantità di siti che ancora oggi vengono sviluppati con Flash. Il fenomeno colpisce soprattutto i siti-vetrina: negozi, attività commerciali, ristoranti, artigiani. Basta farsi un giro sui siti di venditori di mobili, per esempio, per godersi il trionfo della ‘<a href="http://en.wikipedia.org/wiki/Adobe_Flash">multimedia platform</a>‘ di Adobe. Bisogna prenderne atto: nel 2011 migliaia di aziende italiane di ogni dimensione affidano la loro identità web ad Adobe Flash. Consulenti e agenzie continuano a produrre siti con tecnologie assimilate anni fa. Reticenti all’aggiornamento delle proprie competenze, si accontentano del loro confortante orticello che, tutto sommato, assicura lo stipendio.</p>
 <p>Eppure ci sono tante buone ragioni per <strong>non</strong> ricorrere a Flash:</p>
 <ol>
 <li>Non è sicuro. Probabilmente Flash è l’unico prodotto che fa concorrenza a Microsoft Windows in quanto a numero di <em>security fixes</em>. Non per niente è stato definito <a href="http://www.zdnet.com/blog/bott/how-secure-is-flash-heres-what-adobe-wont-tell-you/2152">il nuovo Windows Vista</a></li>

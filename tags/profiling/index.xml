@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>profiling on Nicola Iarocci</title>
+    <title>Profiling on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/profiling/</link>
-    <description>Recent content in profiling on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Profiling on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 25 Jul 2012 00:00:00 +0000</lastBuildDate>
@@ -14,9 +14,16 @@
       <link>https://nicolaiarocci.com/analisi-delle-performance-python/</link>
       <pubDate>Wed, 25 Jul 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/analisi-delle-performance-python/</guid>
-      <description>E’ vero che non tutti i programmi Python richiedono un’analisi rigorosa delle prestazioni, ma è rassicurante sapere che l’ecosistema Python ci mette a disposizione una serie di strumenti a cui possiamo rivolgerci in caso di necessità.
-Analizzare la performance di un programma significa prima di tutto rispondere a queste quattro semplici domande:
-Quanto gira veloce? Dove sono i “collli di bottiglia”? Quanta memoria sta utilizzando? Dove occorrono gli spechi di memoria?</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;E’ vero che non tutti i programmi Python richiedono un’analisi rigorosa delle prestazioni, ma è rassicurante sapere che l’ecosistema Python ci mette a disposizione una serie di strumenti a cui possiamo rivolgerci in caso di necessità.&lt;/p&gt;
+&lt;p&gt;Analizzare la performance di un programma significa prima di tutto rispondere a queste quattro semplici domande:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Quanto gira veloce?&lt;/li&gt;
+&lt;li&gt;Dove sono i “collli di bottiglia”?&lt;/li&gt;
+&lt;li&gt;Quanta memoria sta utilizzando?&lt;/li&gt;
+&lt;li&gt;Dove occorrono gli spechi di memoria?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Scopriamo come rispondere a queste domande attraverso alcuni strumenti molto interessanti.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
 <p>E’ vero che non tutti i programmi Python richiedono un’analisi rigorosa delle prestazioni, ma è rassicurante sapere che l’ecosistema Python ci mette a disposizione una serie di strumenti a cui possiamo rivolgerci in caso di necessità.</p>
 <p>Analizzare la performance di un programma significa prima di tutto rispondere a queste quattro semplici domande:</p>
@@ -26,8 +33,7 @@ Quanto gira veloce? Dove sono i “collli di bottiglia”? Quanta memoria sta ut
 <li>Quanta memoria sta utilizzando?</li>
 <li>Dove occorrono gli spechi di memoria?</li>
 </ul>
-<p>Scopriamo come rispondere a queste domande attraverso alcuni strumenti molto interessanti.</p>
-</blockquote>
+<p>Scopriamo come rispondere a queste domande attraverso alcuni strumenti molto interessanti.</p></blockquote>
 <p><!-- raw HTML omitted -->A guide to analyzing Python performance<!-- raw HTML omitted --> è un’articolo non difficile che vale la pena leggere.</p>
 ]]></content:encoded>
     </item>

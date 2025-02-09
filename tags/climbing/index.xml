@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>climbing on Nicola Iarocci</title>
+    <title>Climbing on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/climbing/</link>
-    <description>Recent content in climbing on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Climbing on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 28 Jun 2021 07:05:25 +0100</lastBuildDate>
@@ -14,12 +14,14 @@
       <link>https://nicolaiarocci.com/an-unexpected-return-to-the-alps/</link>
       <pubDate>Mon, 28 Jun 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/an-unexpected-return-to-the-alps/</guid>
-      <description>I recently had the unexpected opportunity of spending a few days in the Alps, climbing and hiking with my daughters. After a few years of hiatus, it felt great to be back romping.</description>
+      <description>&lt;p&gt;I recently had the unexpected opportunity of spending a few days in the Alps,
+climbing and hiking with my daughters. After a few years of hiatus, it felt
+great to be back romping.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Monte Stevia&#34; loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/monte-stevia.jpg#center&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I recently had the unexpected opportunity of spending a few days in the Alps,
 climbing and hiking with my daughters. After a few years of hiatus, it felt
 great to be back romping.</p>
-<p><img loading="lazy" src="/images/monte-stevia.jpg#center" alt="Monte Stevia"  />
-</p>
+<p><img alt="Monte Stevia" loading="lazy" src="/images/monte-stevia.jpg#center"></p>
 ]]></content:encoded>
     </item>
   </channel>

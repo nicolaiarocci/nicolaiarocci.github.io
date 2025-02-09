@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>achievements on Nicola Iarocci</title>
+    <title>Achievements on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/achievements/</link>
-    <description>Recent content in achievements on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Achievements on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Tue, 20 Apr 2021 07:05:25 +0100</lastBuildDate>
@@ -14,9 +14,16 @@
       <link>https://nicolaiarocci.com/i-am-a-mars-helicopter-contributor/</link>
       <pubDate>Tue, 20 Apr 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/i-am-a-mars-helicopter-contributor/</guid>
-      <description>As I was browsing my RSS feed this morning, I came across a [new blog][1] from Nat Friedman over at GitHub. The piece was titled &amp;ldquo;Open source goes to Mars&amp;rdquo;, and, of course, it caught my interest. In the article, Nat announced a Mars 2020 Helicopter Mission badge added to GitHub profiles contributing to open-source projects and libraries used by Ingenuity. Some time ago, like many others, I was granted the Arctic Code Vault badge, so I am familiar with the concept.</description>
-      <content:encoded><![CDATA[<p><img loading="lazy" src="/images/mars-achievement.webp#right" alt="The Mars Helicopter Contributor badge"  />
-
+      <description>&lt;p&gt;&lt;img alt=&#34;The Mars Helicopter Contributor badge&#34; loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/mars-achievement.webp#right&#34;&gt;
+As I was browsing my RSS feed this morning, I came across a [new blog][1] from
+Nat Friedman over at GitHub. The piece was titled &amp;ldquo;Open source goes to Mars&amp;rdquo;,
+and, of course, it caught my interest. In the article, Nat announced a Mars
+2020 Helicopter Mission badge added to GitHub profiles contributing to
+open-source projects and libraries used by Ingenuity. Some time ago, like many
+others, I was granted the Arctic Code Vault badge, so I am familiar with the
+concept. I quickly dismissed the information as &amp;ldquo;nice, not gonna get it&amp;rdquo; and
+moved along.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><img alt="The Mars Helicopter Contributor badge" loading="lazy" src="/images/mars-achievement.webp#right">
 As I was browsing my RSS feed this morning, I came across a [new blog][1] from
 Nat Friedman over at GitHub. The piece was titled &ldquo;Open source goes to Mars&rdquo;,
 and, of course, it caught my interest. In the article, Nat announced a Mars
@@ -44,8 +51,7 @@ not wholly unprepared. And indeed, there it is, the new, shiny Mars Helicopter
 Contributor badge. A quick investigation revealed that I earned it as a Flask
 contributor. To be honest, I don&rsquo;t even remember contributing to it<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. I know
 I&rsquo;ve used it extensively, of course, as [Eve][4] inherits from and builds on it.</p>
-<p><img loading="lazy" src="/images/mars-profile-badge.png" alt="The Mars Helicopter Contributor badge"  />
-</p>
+<p><img alt="The Mars Helicopter Contributor badge" loading="lazy" src="/images/mars-profile-badge.png"></p>
 <p>So, what to make of all of this? I am happy, of course. I have a badge of
 honor to show off to my kids later this evening. I appreciate the intent:</p>
 <blockquote>
@@ -53,8 +59,7 @@ honor to show off to my kids later this evening. I appreciate the intent:</p>
 software is being used to fly a helicopter on another planet,” says GitHub
 Senior Director of Developer Relations Martin Woodward. “We wanted to make
 sure everyone was recognized for their contributions to this incredible human
-achievement.” (<a href="https://github.com/readme/nasa-ingenuity-helicopter">source</a>)</p>
-</blockquote>
+achievement.” (<a href="https://github.com/readme/nasa-ingenuity-helicopter">source</a>)</p></blockquote>
 <p>These badges surely help raise awareness of open-source relevance in the
 modern-day world. I am grateful for it. I have to say, however, that I am not
 a fan of the current gamification process going on at GitHub. I cringed when

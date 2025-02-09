@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>opinions on Nicola Iarocci</title>
+    <title>Opinions on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/opinions/</link>
-    <description>Recent content in opinions on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Opinions on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 03 Feb 2021 07:05:25 +0100</lastBuildDate>
@@ -14,8 +14,15 @@
       <link>https://nicolaiarocci.com/strong-opinions-on-software-development/</link>
       <pubDate>Wed, 03 Feb 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/strong-opinions-on-software-development/</guid>
-      <description>After six years in the field, Chris has shared his strong opinions on software development practices, languages, and methodologies. I like his attitude. Willingness to continuously put one&amp;rsquo;s personal views under scrutiny, eventually adapting or even changing them as needed, is not a common trait. Not in our field. While I generally agree with most of his opinions, I feel the urge to comment on a few of them.
-Typed languages are better when you&amp;rsquo;re working on a team of people with various experience levels</description>
+      <description>&lt;p&gt;After six years in the field, Chris has &lt;a href=&#34;https://chriskiehl.com/article/thoughts-after-6-years&#34;&gt;shared&lt;/a&gt; his strong opinions on
+software development practices, languages, and methodologies. I like his
+attitude. Willingness to continuously put one&amp;rsquo;s personal views under scrutiny,
+eventually adapting or even changing them as needed, is not a common trait. Not
+in our field. While I generally agree with most of his opinions, I feel the
+urge to comment on a few of them.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Typed languages are better when you&amp;rsquo;re working on a team of people with
+various experience levels&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>After six years in the field, Chris has <a href="https://chriskiehl.com/article/thoughts-after-6-years">shared</a> his strong opinions on
 software development practices, languages, and methodologies. I like his
 attitude. Willingness to continuously put one&rsquo;s personal views under scrutiny,
@@ -24,84 +31,67 @@ in our field. While I generally agree with most of his opinions, I feel the
 urge to comment on a few of them.</p>
 <blockquote>
 <p>Typed languages are better when you&rsquo;re working on a team of people with
-various experience levels</p>
-</blockquote>
+various experience levels</p></blockquote>
 <p>Typed languages are better, period.</p>
 <blockquote>
 <p>Software architecture probably matters more than anything else. A shitty
 implementation of a good abstraction causes no net harm to the code base.
-A bad abstraction or missing layer causes everything to rot.</p>
-</blockquote>
+A bad abstraction or missing layer causes everything to rot.</p></blockquote>
 <p>Perfect. I am stealing this line.</p>
 <blockquote>
-<p>Clever code isn&rsquo;t usually good code. Clarity trumps all other concerns.</p>
-</blockquote>
+<p>Clever code isn&rsquo;t usually good code. Clarity trumps all other concerns.</p></blockquote>
 <p>Good <em>and</em> clever code is very possible, though. Agree on the second part.</p>
 <blockquote>
-<p>Bad code can be written in any paradigm</p>
-</blockquote>
+<p>Bad code can be written in any paradigm</p></blockquote>
 <p>Ça va sans dire</p>
 <blockquote>
 <p>So called &ldquo;best practices&rdquo; are contextual and not broadly applicable. Blindly
-following them makes you an idiot</p>
-</blockquote>
+following them makes you an idiot</p></blockquote>
 <p>Not following them also makes you an idiot.</p>
 <blockquote>
-<p>Designing scalable systems when you don&rsquo;t need to makes you a bad engineer.</p>
-</blockquote>
+<p>Designing scalable systems when you don&rsquo;t need to makes you a bad engineer.</p></blockquote>
 <p>But how do I know in advance whether I need to be scalable or not? Not always
 an easy call. Also, scalability doesn&rsquo;t necessarily imply complexity.</p>
 <blockquote>
-<p>In general, RDBMS &gt; NoSql</p>
-</blockquote>
+<p>In general, RDBMS &gt; NoSql</p></blockquote>
 <p>In general, use the right tool for the right job.</p>
 <blockquote>
-<p>Functional programming is another tool, not a panacea.</p>
-</blockquote>
+<p>Functional programming is another tool, not a panacea.</p></blockquote>
 <p>The jury is out on this one. In my admittedly limited experience, functional
 programming tends to win over OOP. It&rsquo;s not a coincidence that most OOP
 languages keep adding functional features (looking at you, C#.).</p>
 <blockquote>
-<p>Pencil and paper are the best programming tools and vastly under used</p>
-</blockquote>
+<p>Pencil and paper are the best programming tools and vastly under used</p></blockquote>
 <p>Old fart me concurs.</p>
 <blockquote>
-<p>Trading purity in exchange for practicality is usually a good call</p>
-</blockquote>
+<p>Trading purity in exchange for practicality is usually a good call</p></blockquote>
 <p>Don&rsquo;t get carried away with that.</p>
 <blockquote>
 <p>Talking directly to the customer always reveals more about the problem, in
-less time, and with higher accuracy</p>
-</blockquote>
+less time, and with higher accuracy</p></blockquote>
 <p><em>:s/always/sometimes</em></p>
 <blockquote>
 <p>The word &ldquo;scalable&rdquo; has a mystical and stupefying power over the mind of the
 software engineer. Its mere utterance can whip them into a depraved frenzy.
-Grim actions have been justified using this word</p>
-</blockquote>
+Grim actions have been justified using this word</p></blockquote>
 <p>I plea guilty on this one.</p>
 <blockquote>
 <p>Despite being called &ldquo;engineers,&rdquo; most decision are pure cargo-cult with no
-backing analysis, data, or numbers</p>
-</blockquote>
+backing analysis, data, or numbers</p></blockquote>
 <p>I am a software craftsman.</p>
 <blockquote>
 <p>People who stress over code style, linting rules, or other minutia are insane
-weirdos</p>
-</blockquote>
+weirdos</p></blockquote>
 <p>I am an insane weirdo.</p>
 <blockquote>
-<p>Code coverage has absolutely nothing to do with code quality</p>
-</blockquote>
+<p>Code coverage has absolutely nothing to do with code quality</p></blockquote>
 <p>It also has nothing to do with <em>tests</em> quality.</p>
 <blockquote>
-<p>Monoliths are pretty good in most circumstances</p>
-</blockquote>
+<p>Monoliths are pretty good in most circumstances</p></blockquote>
 <p><em>:s/most/some</em></p>
 <blockquote>
 <p>TDD purists are just the worst. Their frail little minds can&rsquo;t process the
-existence of different workflows.</p>
-</blockquote>
+existence of different workflows.</p></blockquote>
 <p>Ouch. This hurts.</p>
 <p>I am not sure I would have had so many well-formed opinions only six years in.
 Read them all on <a href="https://chriskiehl.com/article/thoughts-after-6-years">Chris&rsquo; website</a>.</p>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>eve on Nicola Iarocci</title>
+    <title>Eve on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/eve/</link>
-    <description>Recent content in eve on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Eve on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Tue, 15 Oct 2024 09:37:02 +0200</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://nicolaiarocci.com/eve-2.2.0/</link>
       <pubDate>Tue, 15 Oct 2024 09:37:02 +0200</pubDate>
       <guid>https://nicolaiarocci.com/eve-2.2.0/</guid>
-      <description>Today I released Eve 2.2. It is a maintenance release that drops old Pythons and adds support for the latest versions of the language. Long overdue, it also gets rid of some annoying deprecation warnings. As always, see the changelog for details. Many thanks to Bret Curtis and Guillaume Le Pape for their contributions to this release.</description>
+      <description>&lt;p&gt;Today I released &lt;a href=&#34;https://pypi.org/project/Eve/2.2.0/&#34;&gt;Eve 2.2&lt;/a&gt;. It is a maintenance release that drops old Pythons and adds support for the latest versions of the language. Long overdue, it also gets rid of some annoying deprecation warnings. As always, see the &lt;a href=&#34;https://docs.python-eve.org/en/stable/changelog.html#version-v2-2&#34;&gt;changelog&lt;/a&gt; for details. Many thanks to Bret Curtis and Guillaume Le Pape for their contributions to this release.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I released <a href="https://pypi.org/project/Eve/2.2.0/">Eve 2.2</a>. It is a maintenance release that drops old Pythons and adds support for the latest versions of the language. Long overdue, it also gets rid of some annoying deprecation warnings. As always, see the <a href="https://docs.python-eve.org/en/stable/changelog.html#version-v2-2">changelog</a> for details. Many thanks to Bret Curtis and Guillaume Le Pape for their contributions to this release.</p>
 ]]></content:encoded>
     </item>
@@ -23,12 +23,14 @@
       <link>https://nicolaiarocci.com/eve-2.1.0-has-just-been-released/</link>
       <pubDate>Tue, 14 Mar 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/eve-2.1.0-has-just-been-released/</guid>
-      <description>Today I released Eve v2.1, which comes with official Flask 2.2+ support and the ability to modify the pagination limit on a per-resource basis thanks to the new pagination_limit setting. You can find the release on PyPI, while the changelog is available here—special thanks to Pieter De Clercq and smeng9 for the help with this release.</description>
+      <description>&lt;p&gt;Today I released Eve v2.1, which comes with official Flask 2.2+ support and the ability to modify the pagination limit
+on a per-resource basis thanks to the new &lt;code&gt;pagination_limit&lt;/code&gt; setting. You can find the release on &lt;a href=&#34;https://pypi.org/project/Eve/2.1.0/&#34;&gt;PyPI&lt;/a&gt;,
+while the changelog is available &lt;a href=&#34;https://docs.python-eve.org/en/stable/changelog.html#version-v2-1-0&#34;&gt;here&lt;/a&gt;—special thanks to &lt;a href=&#34;https://github.com/thepieterdc&#34;&gt;Pieter De Clercq&lt;/a&gt; and &lt;a href=&#34;https://github.com/smeng9&#34;&gt;smeng9&lt;/a&gt; for the help with this release.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Eve 2.1.0 on PyPI&#34; loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/eve-2.1.0.png&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I released Eve v2.1, which comes with official Flask 2.2+ support and the ability to modify the pagination limit
 on a per-resource basis thanks to the new <code>pagination_limit</code> setting. You can find the release on <a href="https://pypi.org/project/Eve/2.1.0/">PyPI</a>,
 while the changelog is available <a href="https://docs.python-eve.org/en/stable/changelog.html#version-v2-1-0">here</a>—special thanks to <a href="https://github.com/thepieterdc">Pieter De Clercq</a> and <a href="https://github.com/smeng9">smeng9</a> for the help with this release.</p>
-<p><img loading="lazy" src="/images/eve-2.1.0.png" alt="Eve 2.1.0 on PyPI"  />
-</p>
+<p><img alt="Eve 2.1.0 on PyPI" loading="lazy" src="/images/eve-2.1.0.png"></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -36,8 +38,12 @@ while the changelog is available <a href="https://docs.python-eve.org/en/stable/
       <link>https://nicolaiarocci.com/eve-2.0.4-released/</link>
       <pubDate>Thu, 10 Nov 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/eve-2.0.4-released/</guid>
-      <description>I just released Eve 2.0.4, the REST API framework for #python. It&amp;rsquo;s available on PyPI and includes a relevant security fix so you might want to update ASAP.
-Package info Docs </description>
+      <description>&lt;p&gt;I just released Eve 2.0.4, the REST API framework for #python. It&amp;rsquo;s available
+on PyPI and includes a relevant security fix so you might want to update ASAP.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pypi.org/project/Eve/2.0.4/&#34;&gt;Package info&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.python-eve.org/en/stable/&#34;&gt;Docs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<p>I just released Eve 2.0.4, the REST API framework for #python. It&rsquo;s available
 on PyPI and includes a relevant security fix so you might want to update ASAP.</p>
 <ul>
@@ -51,7 +57,10 @@ on PyPI and includes a relevant security fix so you might want to update ASAP.</
       <link>https://nicolaiarocci.com/eve-2.0.2-released/</link>
       <pubDate>Fri, 23 Sep 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/eve-2.0.2-released/</guid>
-      <description>Eve 2.0.2 was just released today. It fixes a problem introduced with v2.0 in which ETag generation failed if uuidRepresentation was not set in MONGO_OPTIONS. See issue #1486 for details. Many thanks @tgm for reporting and then contributing the fix.</description>
+      <description>&lt;p&gt;Eve 2.0.2 was &lt;a href=&#34;https://pypi.org/project/Eve/2.0.2/&#34;&gt;just released today&lt;/a&gt;. It fixes a problem introduced with v2.0
+in which ETag generation failed if &lt;code&gt;uuidRepresentation&lt;/code&gt; was not set in
+&lt;code&gt;MONGO_OPTIONS&lt;/code&gt;. See &lt;a href=&#34;https://github.com/pyeve/eve/issues/1486&#34;&gt;issue #1486&lt;/a&gt; for details. Many thanks
+&lt;a href=&#34;https://github.com/tgm-git&#34;&gt;@tgm&lt;/a&gt; for reporting and then contributing the fix.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Eve 2.0.2 was <a href="https://pypi.org/project/Eve/2.0.2/">just released today</a>. It fixes a problem introduced with v2.0
 in which ETag generation failed if <code>uuidRepresentation</code> was not set in
 <code>MONGO_OPTIONS</code>. See <a href="https://github.com/pyeve/eve/issues/1486">issue #1486</a> for details. Many thanks
@@ -63,15 +72,20 @@ in which ETag generation failed if <code>uuidRepresentation</code> was not set i
       <link>https://nicolaiarocci.com/eve-2.0.1-released/</link>
       <pubDate>Wed, 07 Sep 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/eve-2.0.1-released/</guid>
-      <description>Today I released Eve 2.0.1, which contains an essential fix if you&amp;rsquo;re using MONGO_URI to connect to your MongoDB instance. See the relevant ticket for details. I&amp;rsquo;ve also pinned Flask dependency to v2.1, as v2.2 brings some breaking changes that, you guessed it, break our CI runs. If you think you can help wiht that, please do so. The complete changelog is available here.</description>
+      <description>&lt;p&gt;Today I released &lt;a href=&#34;https://pypi.org/project/Eve/2.0.1/&#34;&gt;Eve 2.0.1&lt;/a&gt;, which contains an essential fix if you&amp;rsquo;re
+using &lt;code&gt;MONGO_URI&lt;/code&gt; to connect to your MongoDB instance. See the &lt;a href=&#34;https://github.com/pyeve/eve/issues/1478&#34;&gt;relevant
+ticket&lt;/a&gt; for details. I&amp;rsquo;ve also pinned Flask dependency to v2.1, as v2.2
+brings some breaking changes that, you guessed it, break our CI runs. If you
+think you can help wiht that, &lt;a href=&#34;https://github.com/pyeve/eve/issues/1485&#34;&gt;please do so&lt;/a&gt;. The complete changelog is
+available &lt;a href=&#34;https://docs.python-eve.org/en/stable/changelog.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/eve-2.0.1.png&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I released <a href="https://pypi.org/project/Eve/2.0.1/">Eve 2.0.1</a>, which contains an essential fix if you&rsquo;re
 using <code>MONGO_URI</code> to connect to your MongoDB instance. See the <a href="https://github.com/pyeve/eve/issues/1478">relevant
 ticket</a> for details. I&rsquo;ve also pinned Flask dependency to v2.1, as v2.2
 brings some breaking changes that, you guessed it, break our CI runs. If you
 think you can help wiht that, <a href="https://github.com/pyeve/eve/issues/1485">please do so</a>. The complete changelog is
 available <a href="https://docs.python-eve.org/en/stable/changelog.html">here</a>.</p>
-<p><img loading="lazy" src="/images/eve-2.0.1.png" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/eve-2.0.1.png"></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -79,8 +93,15 @@ available <a href="https://docs.python-eve.org/en/stable/changelog.html">here</a
       <link>https://nicolaiarocci.com/eve-2.0-released/</link>
       <pubDate>Wed, 08 Jun 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/eve-2.0-released/</guid>
-      <description>It&amp;rsquo;s been a long time coming, but I&amp;rsquo;m glad to announce that Eve 2 has finally been released today. This release drops support for Python 2, Python 3.5 and Python 3.6 hence the major version bump. Other than that, expect some fixes, a new uuidRepresentation setting for MONGO_OPTIONS, and an alignment to the latest Werkzeug/PyMongo idiosyncrasies. The full changelog is available on the project website.
-The Eve project has been out for ten years.</description>
+      <description>&lt;p&gt;It&amp;rsquo;s been a long time coming, but I&amp;rsquo;m glad to announce that Eve 2 has finally
+been released today. This release drops support for Python 2, Python 3.5 and
+Python 3.6 hence the major version bump. Other than that, expect some fixes,
+a new &lt;code&gt;uuidRepresentation&lt;/code&gt; setting for &lt;code&gt;MONGO_OPTIONS&lt;/code&gt;, and an alignment to the
+latest Werkzeug/PyMongo idiosyncrasies. The full changelog is available on the
+&lt;a href=&#34;https://docs.python-eve.org/en/stable/changelog.html#version-v2-0&#34;&gt;project website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The Eve project has been out for ten years. As said &lt;a href=&#34;https://nicolaiarocci.com/is-eve-still-maintained/&#34;&gt;elsewhere&lt;/a&gt;, I believe it&amp;rsquo;s
+mature and stable enough for most use cases. I consider it done in terms
+of features, and it is now in &amp;lsquo;maintenance mode&amp;rsquo;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>It&rsquo;s been a long time coming, but I&rsquo;m glad to announce that Eve 2 has finally
 been released today. This release drops support for Python 2, Python 3.5 and
 Python 3.6 hence the major version bump. Other than that, expect some fixes,
@@ -90,8 +111,7 @@ latest Werkzeug/PyMongo idiosyncrasies. The full changelog is available on the
 <p>The Eve project has been out for ten years. As said <a href="/is-eve-still-maintained/">elsewhere</a>, I believe it&rsquo;s
 mature and stable enough for most use cases. I consider it done in terms
 of features, and it is now in &lsquo;maintenance mode&rsquo;.</p>
-<p><img loading="lazy" src="/images/eve2.png" alt="Eve 2.0"  />
-</p>
+<p><img alt="Eve 2.0" loading="lazy" src="/images/eve2.png"></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -99,13 +119,16 @@ of features, and it is now in &lsquo;maintenance mode&rsquo;.</p>
       <link>https://nicolaiarocci.com/eve-swagger-v0.2-released/</link>
       <pubDate>Tue, 17 May 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/eve-swagger-v0.2-released/</guid>
-      <description>I just released Eve-Swagger v0.2 on PyPI. Eve-Swagger is a Swagger/OpenAPI extension for Eve powered RESTful APIs. This maintenance release addresses a few issues and adds support for eve-auth-jwt. Many thanks to Roberto Romero for his contributions to this release.</description>
+      <description>&lt;p&gt;I just released &lt;a href=&#34;https://pypi.org/project/Eve-Swagger/&#34;&gt;Eve-Swagger v0.2&lt;/a&gt; on PyPI. Eve-Swagger is a Swagger/OpenAPI
+extension for &lt;a href=&#34;https://python-eve.org&#34;&gt;Eve&lt;/a&gt; powered RESTful APIs. This maintenance release addresses
+a few issues and adds support for &lt;a href=&#34;https://github.com/rs/eve-auth-jwt&#34;&gt;eve-auth-jwt&lt;/a&gt;. Many thanks to &lt;a href=&#34;https://github.com/sildur&#34;&gt;Roberto
+Romero&lt;/a&gt; for his contributions to this release.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Eve-Swagger 0.2&#34; loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/eve-swagger-0.2.png&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I just released <a href="https://pypi.org/project/Eve-Swagger/">Eve-Swagger v0.2</a> on PyPI. Eve-Swagger is a Swagger/OpenAPI
 extension for <a href="https://python-eve.org">Eve</a> powered RESTful APIs. This maintenance release addresses
 a few issues and adds support for <a href="https://github.com/rs/eve-auth-jwt">eve-auth-jwt</a>. Many thanks to <a href="https://github.com/sildur">Roberto
 Romero</a> for his contributions to this release.</p>
-<p><img loading="lazy" src="/images/eve-swagger-0.2.png" alt="Eve-Swagger 0.2"  />
-</p>
+<p><img alt="Eve-Swagger 0.2" loading="lazy" src="/images/eve-swagger-0.2.png"></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -113,8 +136,13 @@ Romero</a> for his contributions to this release.</p>
       <link>https://nicolaiarocci.com/work-in-progress-on-eve-2.0/</link>
       <pubDate>Sun, 13 Feb 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/work-in-progress-on-eve-2.0/</guid>
-      <description>I&amp;rsquo;ve been back at the forge working on Eve 2.0. Version 2 will support Python 3.7+ and drop Python 2.7, 3.5 and 3.6. It will bring support for PyMongo 4+ as well, along with several other minor fixes and improvements (changelog). It would be nice if you guys and gals, users of Eve, would give it a spin before the release.
-I know. I recently stated that Eve was in maintenance mode.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve been back at the forge working on Eve 2.0. Version 2 will support Python
+3.7+ and drop Python 2.7, 3.5 and 3.6. It will bring support for PyMongo 4+ as
+well, along with several other minor fixes and improvements (&lt;a href=&#34;https://docs.python-eve.org/en/latest/changelog.html&#34;&gt;changelog&lt;/a&gt;).
+It would be nice if you guys and gals, users of Eve, would give it a spin
+before the release.&lt;/p&gt;
+&lt;p&gt;I know. I &lt;a href=&#34;https://nicolaiarocci.com/is-eve-still-maintained/&#34;&gt;recently&lt;/a&gt; stated that Eve was in maintenance mode. All of
+those considerations still apply, but what can I say? I want Eve 2 out.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I&rsquo;ve been back at the forge working on Eve 2.0. Version 2 will support Python
 3.7+ and drop Python 2.7, 3.5 and 3.6. It will bring support for PyMongo 4+ as
 well, along with several other minor fixes and improvements (<a href="https://docs.python-eve.org/en/latest/changelog.html">changelog</a>).
@@ -129,19 +157,25 @@ those considerations still apply, but what can I say? I want Eve 2 out.</p>
       <link>https://nicolaiarocci.com/is-eve-still-maintained/</link>
       <pubDate>Sat, 06 Nov 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/is-eve-still-maintained/</guid>
-      <description>Tonight someone opened a ticket on the Eve repository. I jotted down a quick reply and was about to hit the Comment button when I thought a more articulated reply was in order. I also want it published on my website.
-So the question is:
-Is Eve still maintained?
-My reply goes like this:
-Hello, yes, Eve is in &amp;lsquo;maintenance mode&amp;rsquo;, as I call it. I don&amp;rsquo;t actively develop new features anymore.</description>
+      <description>&lt;p&gt;Tonight someone opened &lt;a href=&#34;https://github.com/pyeve/eve/issues/1458&#34;&gt;a ticket&lt;/a&gt; on
+the Eve repository. I jotted down a quick reply and was about to hit the
+Comment button when I thought a more articulated reply was in order. I also
+want it published on my website.&lt;/p&gt;
+&lt;p&gt;So the question is:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Is Eve still maintained?&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;My reply goes like this:&lt;/p&gt;
+&lt;p&gt;Hello, yes, &lt;a href=&#34;https://python-eve.org&#34;&gt;Eve&lt;/a&gt; is in &amp;lsquo;maintenance mode&amp;rsquo;, as I call
+it. I don&amp;rsquo;t actively develop new features anymore. Still, I am more than
+willing to code-review and merge relevant pull requests, especially so if they
+are bug fixes or improvements over existing features.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Tonight someone opened <a href="https://github.com/pyeve/eve/issues/1458">a ticket</a> on
 the Eve repository. I jotted down a quick reply and was about to hit the
 Comment button when I thought a more articulated reply was in order. I also
 want it published on my website.</p>
 <p>So the question is:</p>
 <blockquote>
-<p>Is Eve still maintained?</p>
-</blockquote>
+<p>Is Eve still maintained?</p></blockquote>
 <p>My reply goes like this:</p>
 <p>Hello, yes, <a href="https://python-eve.org">Eve</a> is in &lsquo;maintenance mode&rsquo;, as I call
 it. I don&rsquo;t actively develop new features anymore. Still, I am more than
@@ -185,8 +219,15 @@ to the next level.</p>
       <link>https://nicolaiarocci.com/eve-and-cerberus-funding-campaign/</link>
       <pubDate>Thu, 27 Apr 2017 11:23:05 +0200</pubDate>
       <guid>https://nicolaiarocci.com/eve-and-cerberus-funding-campaign/</guid>
-      <description>Last February I published The State of Eve REST Framework. Among other things in that post, I mentioned that I was looking for ways that would allow me to allocate more time to the project (and its satellites).
-I really feel like I should put more effort into Eve, Cerberus and satellite projects Eve-Swagger, Flask-Sentinel, Eve.NET, etc. I love working on these projects and I know a lot of people rely on them.</description>
+      <description>&lt;p&gt;Last February I published &lt;a href=&#34;https://nicolaiarocci.com/the-state-of-the-eve-rest-framework-project/&#34;&gt;The State of Eve REST Framework&lt;/a&gt;. Among other
+things in that post, I mentioned that I was looking for ways that would allow
+me to allocate more time to the project (and its satellites).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I really feel like I should put more effort into Eve, Cerberus and satellite
+projects Eve-Swagger, Flask-Sentinel, Eve.NET, etc. I love working on these
+projects and I know a lot of people rely on them. Also, I have big ideas that
+I would like to play with. At this point in time however, I cannot afford
+allocating more time to not-paying-the-bill activities.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Last February I published <a href="https://nicolaiarocci.com/the-state-of-the-eve-rest-framework-project/">The State of Eve REST Framework</a>. Among other
 things in that post, I mentioned that I was looking for ways that would allow
 me to allocate more time to the project (and its satellites).</p>
@@ -195,8 +236,7 @@ me to allocate more time to the project (and its satellites).</p>
 projects Eve-Swagger, Flask-Sentinel, Eve.NET, etc. I love working on these
 projects and I know a lot of people rely on them. Also, I have big ideas that
 I would like to play with. At this point in time however, I cannot afford
-allocating more time to not-paying-the-bill activities.</p>
-</blockquote>
+allocating more time to not-paying-the-bill activities.</p></blockquote>
 <p>Well, I went and looked at the possibilities, and finally settled down on
 a model which would probably be best defined as a blend between the Vue.js and
 the Django REST framework models.</p>
@@ -226,8 +266,17 @@ this site. If you want to get in touch, I am @<a href="http://twitter.com/nicola
       <link>https://nicolaiarocci.com/the-state-of-the-eve-rest-framework-project/</link>
       <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/the-state-of-the-eve-rest-framework-project/</guid>
-      <description>A new major release of the Eve REST API Framework is finally out with a number of cool new features (MongoDB Aggregations!), few fixes, and a couple of minor breaking changes. On the Eve blog you can find a detailed article about this important release.
-I am glad to report that the Eve-SQLAlchemy community extension, which allows SQL databases to serve as Eve backends, has seen a surge of activity around it.</description>
+      <description>&lt;p&gt;A new major release of the &lt;a href=&#34;http://python-eve.org&#34;&gt;Eve REST API Framework&lt;/a&gt; is finally out with
+a number of cool new features (MongoDB Aggregations!), few fixes, and a couple
+of minor breaking changes. On the Eve blog you can find a &lt;a href=&#34;http://blog.python-eve.org/eve-07-released&#34;&gt;detailed article&lt;/a&gt;
+about this important release.&lt;/p&gt;
+&lt;p&gt;I am glad to report that the &lt;a href=&#34;https://github.com/RedTurtle/eve-sqlalchemy&#34;&gt;Eve-SQLAlchemy&lt;/a&gt; community extension, which
+allows SQL databases to serve as Eve backends, has seen a surge of activity
+around it. There is a new maintainer, Dominik Kellner, and a bunch of active
+contributors. Work is being done to align the extension with latest Eve
+release. If interested, please join the efforts there. Speaking of community
+extensions, only a few days ago &lt;a href=&#34;https://github.com/petrjasek/eve-elastic&#34;&gt;Eve-Elastic&lt;/a&gt; version 2 has been released
+too.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>A new major release of the <a href="http://python-eve.org">Eve REST API Framework</a> is finally out with
 a number of cool new features (MongoDB Aggregations!), few fixes, and a couple
 of minor breaking changes. On the Eve blog you can find a <a href="http://blog.python-eve.org/eve-07-released">detailed article</a>
@@ -287,8 +336,15 @@ English</a>, and March is a great season to visit Rome. See ya&rsquo;ll there.</
       <link>https://nicolaiarocci.com/eve-sdk-for-net-v0-2-is-out-in-the-wild/</link>
       <pubDate>Tue, 02 Aug 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/eve-sdk-for-net-v0-2-is-out-in-the-wild/</guid>
-      <description>I just released a long overdue update to Eve.NET. This release marks a significant improvement over the previous one, which was more a prototype than a real package. New features are as follows:
-PostAsync() supports bulk inserts DeleteAsync() supports bulk deletes GetAsync() has a softDelete option to include soft-deleted documents with query results GetAsync() has a rawQuery option to pass raw Eve queries to the server BearerAuthenticator class adds support for Bearer Token authentication Several fixes made it into this release and, most importantly, I switched to portable Profile259 which offers support for the following platforms: Xamarin.</description>
+      <description>&lt;p&gt;I just released a long overdue update to &lt;a href=&#34;https://github.com/nicolaiarocci/Eve.NET/&#34;&gt;Eve.NET&lt;/a&gt;. This release marks a significant improvement over the previous one, which was more a prototype than a real package. New features are as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;PostAsync()&lt;/code&gt; supports bulk inserts&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;DeleteAsync()&lt;/code&gt; supports bulk deletes&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;GetAsync()&lt;/code&gt; has a &lt;code&gt;softDelete&lt;/code&gt; option to include soft-deleted documents with query results&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;GetAsync()&lt;/code&gt; has a &lt;code&gt;rawQuery&lt;/code&gt; option to pass raw Eve queries to the server&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;BearerAuthenticator&lt;/code&gt; class adds support for Bearer Token authentication&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Several fixes made it into this release and, most importantly, I switched to portable Profile259 which offers support for the following platforms: Xamarin.iOS, Xamarin.Android, WinPhone 8.1, Windows 8, .NET 4.5+. Yes, that means no more support for .NET 4.0. See the &lt;a href=&#34;https://github.com/nicolaiarocci/Eve.NET/blob/master/CHANGES&#34;&gt;changelog&lt;/a&gt; for details.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I just released a long overdue update to <a href="https://github.com/nicolaiarocci/Eve.NET/">Eve.NET</a>. This release marks a significant improvement over the previous one, which was more a prototype than a real package. New features are as follows:</p>
 <ul>
 <li><code>PostAsync()</code> supports bulk inserts</li>
@@ -307,12 +363,12 @@ PostAsync() supports bulk inserts DeleteAsync() supports bulk deletes GetAsync()
       <link>https://nicolaiarocci.com/evegenie-makes-eve-schema-generation-breeze/</link>
       <pubDate>Wed, 15 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/evegenie-makes-eve-schema-generation-breeze/</guid>
-      <description>Released by the nice folks at Drud, EveGenie is a tool for making Eve schema generation easier.
-Eve’s schema definitions are full of features, but can take a good amount of time to create when dealing with lots of complex resources. From our experience, it’s often helpful to describe an endpoint in JSON before creating it as an Eve schema. This allows you to make quick decisions about the structure of your entities without spending time moving schema code around.</description>
+      <description>&lt;p&gt;Released by the nice folks at Drud, &lt;a href=&#34;https://github.com/drud/evegenie&#34;&gt;EveGenie&lt;/a&gt; is a tool for making &lt;a href=&#34;http://python-eve.org&#34;&gt;Eve&lt;/a&gt; schema generation easier.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Eve’s schema definitions are full of features, but can take a good amount of time to create when dealing with lots of complex resources. From our experience, it’s often helpful to describe an endpoint in JSON before creating it as an Eve schema. This allows you to make quick decisions about the structure of your entities without spending time moving schema code around. This is where EveGenie comes in.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Released by the nice folks at Drud, <a href="https://github.com/drud/evegenie">EveGenie</a> is a tool for making <a href="http://python-eve.org">Eve</a> schema generation easier.</p>
 <blockquote>
-<p>Eve’s schema definitions are full of features, but can take a good amount of time to create when dealing with lots of complex resources. From our experience, it’s often helpful to describe an endpoint in JSON before creating it as an Eve schema. This allows you to make quick decisions about the structure of your entities without spending time moving schema code around. This is where EveGenie comes in.</p>
-</blockquote>
+<p>Eve’s schema definitions are full of features, but can take a good amount of time to create when dealing with lots of complex resources. From our experience, it’s often helpful to describe an endpoint in JSON before creating it as an Eve schema. This allows you to make quick decisions about the structure of your entities without spending time moving schema code around. This is where EveGenie comes in.</p></blockquote>
 <p>EveGenie saves time by creating a ready to use Python Eve schema from a very simple JSON representation of a set of resources.</p>
 <p>Interested? Good! Matt Tucker (<a href="https://twitter.com/ultimateboy">@ultimateboy</a>) has a <a href="http://www.drud.com/evegenie-python-eve-schema-generation-done-fast/">getting started with EveGenie</a> article up for you, so make sure to check it out.</p>
 ]]></content:encoded>
@@ -322,8 +378,8 @@ Eve’s schema definitions are full of features, but can take a good amount of t
       <link>https://nicolaiarocci.com/eve-0-6-4-just-released/</link>
       <pubDate>Wed, 08 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/eve-0-6-4-just-released/</guid>
-      <description>Quick note to let you all know that Eve v0.6.4 is out with a few significant updates. Thanks to James Stewart for contributing to this release.
-Work on v0.7, which will include MongoDB Aggregation Framework support (docs) and many other new features, continues steadily.</description>
+      <description>&lt;p&gt;Quick note to let you all know that &lt;a href=&#34;https://pypi.python.org/pypi/Eve/0.6.4&#34;&gt;Eve v0.6.4&lt;/a&gt; is out with a few significant &lt;a href=&#34;http://python-eve.org/changelog#version-0-6-4&#34;&gt;updates&lt;/a&gt;. Thanks to James Stewart for contributing to this release.&lt;/p&gt;
+&lt;p&gt;Work on v0.7, which will include MongoDB Aggregation Framework support (&lt;a href=&#34;http://python-eve.org/features.html#mongodb-aggregation-framework&#34;&gt;docs&lt;/a&gt;) and many other &lt;a href=&#34;http://python-eve.org/changelog#version-0-7&#34;&gt;new features&lt;/a&gt;, continues steadily.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Quick note to let you all know that <a href="https://pypi.python.org/pypi/Eve/0.6.4">Eve v0.6.4</a> is out with a few significant <a href="http://python-eve.org/changelog#version-0-6-4">updates</a>. Thanks to James Stewart for contributing to this release.</p>
 <p>Work on v0.7, which will include MongoDB Aggregation Framework support (<a href="http://python-eve.org/features.html#mongodb-aggregation-framework">docs</a>) and many other <a href="http://python-eve.org/changelog#version-0-7">new features</a>, continues steadily.</p>
 ]]></content:encoded>
@@ -333,21 +389,20 @@ Work on v0.7, which will include MongoDB Aggregation Framework support (docs) an
       <link>https://nicolaiarocci.com/announcing-eve-swagger/</link>
       <pubDate>Mon, 06 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/announcing-eve-swagger/</guid>
-      <description>Eve-Swagger is a swagger.io extension for Eve powered RESTful APIs. It has been around for a while on GitHub but I never managed to officially release it. So rejoice! it is now available on PyPI.
-But what is Swagger, and why is it useful to your RESTful API? With a Swagger-enabled API you can get interactive documentation, client SDK generation and discoverability, all for free. From Swagger website:
-Swagger is a simple yet powerful representation of your RESTful API.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/nicolaiarocci/eve-swagger&#34;&gt;Eve-Swagger&lt;/a&gt; is a swagger.io extension for &lt;a href=&#34;http://python-eve.org&#34;&gt;Eve&lt;/a&gt; powered RESTful APIs. It has been around for a while on GitHub but I never managed to officially release it. So rejoice! it is now available on PyPI.&lt;/p&gt;
+&lt;p&gt;But what is Swagger, and why is it useful to your RESTful API? With a Swagger-enabled API you can get interactive documentation, client SDK generation and discoverability, all for free. From &lt;a href=&#34;http://swagger.io&#34;&gt;Swagger website&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Swagger is a simple yet powerful representation of your RESTful API. With the largest ecosystem of API tooling on the planet, thousands of developers are supporting Swagger in almost every modern programming language and deployment environment. With a Swagger-enabled API, you get interactive documentation, client SDK generation and discoverability.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="https://github.com/nicolaiarocci/eve-swagger">Eve-Swagger</a> is a swagger.io extension for <a href="http://python-eve.org">Eve</a> powered RESTful APIs. It has been around for a while on GitHub but I never managed to officially release it. So rejoice! it is now available on PyPI.</p>
 <p>But what is Swagger, and why is it useful to your RESTful API? With a Swagger-enabled API you can get interactive documentation, client SDK generation and discoverability, all for free. From <a href="http://swagger.io">Swagger website</a>:</p>
 <blockquote>
-<p>Swagger is a simple yet powerful representation of your RESTful API. With the largest ecosystem of API tooling on the planet, thousands of developers are supporting Swagger in almost every modern programming language and deployment environment. With a Swagger-enabled API, you get interactive documentation, client SDK generation and discoverability.</p>
-</blockquote>
+<p>Swagger is a simple yet powerful representation of your RESTful API. With the largest ecosystem of API tooling on the planet, thousands of developers are supporting Swagger in almost every modern programming language and deployment environment. With a Swagger-enabled API, you get interactive documentation, client SDK generation and discoverability.</p></blockquote>
 <p>When Eve-Swagger is installed and properly configured your Eve API exposes
 a special <code>/api-docs</code> endpoint which returns a 100% swagger-compliant JSON
 response. This JSON can then be processed by the swagger tools like <a href="https://github.com/swagger-api/swagger-ui">Swagger
 UI</a> and <a href="http://editor.swagger.io/#/">Swagger Editor</a>. Here we can appreciate Swagger UI providing API
 documentation out of the box (click to zoom):</p>
-<p><img loading="lazy" src="/images/Screen-Shot-2016-06-06-at-15.13.04.png" alt="Swagger UI"  />
-</p>
+<p><img alt="Swagger UI" loading="lazy" src="/images/Screen-Shot-2016-06-06-at-15.13.04.png"></p>
 <p>Like most Eve extensions Eve-Swagger comes as a standard Flask Blueprint and, as such, using it is very simple:</p>
 <script src="https://gist.github.com/nicolaiarocci/7720dd28f2e74e77c94edcb487aa5102.js"></script>
 
@@ -364,8 +419,9 @@ documentation out of the box (click to zoom):</p>
       <link>https://nicolaiarocci.com/eve-rest-api-framework-v0-6-2-is-out/</link>
       <pubDate>Mon, 14 Mar 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/eve-rest-api-framework-v0-6-2-is-out/</guid>
-      <description>Today I released Eve 0.6.2. It includes many fixes and improvements over the previous releases. Areas addressed are CORS management, soft deletes, token authentication, oplog, data validation, and others. Please see the changelog for details.
-Work on v0.7 is also ongoing. It will include new features such as support for the MongoDB Aggregation Framework (docs) and a few breaking changes, so you might want to check it out in advance.</description>
+      <description>&lt;p&gt;Today I released &lt;a href=&#34;http://python-eve.org&#34;&gt;Eve&lt;/a&gt; 0.6.2. It includes many fixes and improvements over the previous releases. Areas addressed are CORS management, soft deletes, token authentication, oplog, data validation, and others. Please see the &lt;a href=&#34;http://python-eve.org/changelog&#34;&gt;changelog&lt;/a&gt; for details.&lt;/p&gt;
+&lt;p&gt;Work on v0.7 is also ongoing. It will include new features such as support for the MongoDB Aggregation Framework (&lt;a href=&#34;http://python-eve.org/features.html#mongodb-aggregation-framework&#34;&gt;docs&lt;/a&gt;) and a few breaking changes, so you might want to check it out in advance.&lt;/p&gt;
+&lt;p&gt;Special thanks to Arnau Orriols, Cyril Bonnard, Hamdy, Luca Di Gaspero, Manquer, Nick Park, Patrick Decat, Prayag Verma, Ralph Smith, Stratos Gerakakis, Valerie Coffman and Wei Guan who contributed to this release.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I released <a href="http://python-eve.org">Eve</a> 0.6.2. It includes many fixes and improvements over the previous releases. Areas addressed are CORS management, soft deletes, token authentication, oplog, data validation, and others. Please see the <a href="http://python-eve.org/changelog">changelog</a> for details.</p>
 <p>Work on v0.7 is also ongoing. It will include new features such as support for the MongoDB Aggregation Framework (<a href="http://python-eve.org/features.html#mongodb-aggregation-framework">docs</a>) and a few breaking changes, so you might want to check it out in advance.</p>
 <p>Special thanks to Arnau Orriols, Cyril Bonnard, Hamdy, Luca Di Gaspero, Manquer, Nick Park, Patrick Decat, Prayag Verma, Ralph Smith, Stratos Gerakakis, Valerie Coffman and Wei Guan who contributed to this release.</p>
@@ -376,7 +432,7 @@ Work on v0.7 is also ongoing. It will include new features such as support for t
       <link>https://nicolaiarocci.com/eve-0-6-1-has-been-released/</link>
       <pubDate>Thu, 29 Oct 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/eve-0-6-1-has-been-released/</guid>
-      <description>A new version of Eve, the REST API framework for Humans, has been released today. Following the 0.6 milestone released one month ago, v0.6.1 introduces some fixes and few new important features. Upgrade is strongly encouraged. As always, a changelog with full list of updates is available.</description>
+      <description>&lt;p&gt;A new version of &lt;a href=&#34;http://python-eve.org&#34;&gt;Eve&lt;/a&gt;, the REST API framework for Humans, has been released today. Following the 0.6 milestone released one month ago, v0.6.1 introduces some fixes and few new important features. Upgrade is strongly encouraged. As always, a &lt;a href=&#34;http://python-eve.org/changelog#version-0-6-1&#34;&gt;changelog&lt;/a&gt; with full list of updates is available.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>A new version of <a href="http://python-eve.org">Eve</a>, the REST API framework for Humans, has been released today. Following the 0.6 milestone released one month ago, v0.6.1 introduces some fixes and few new important features. Upgrade is strongly encouraged. As always, a <a href="http://python-eve.org/changelog#version-0-6-1">changelog</a> with full list of updates is available.</p>
 ]]></content:encoded>
     </item>
@@ -385,20 +441,19 @@ Work on v0.7 is also ongoing. It will include new features such as support for t
       <link>https://nicolaiarocci.com/building-custom-endpoint-handlers-with-eve/</link>
       <pubDate>Mon, 24 Aug 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/building-custom-endpoint-handlers-with-eve/</guid>
-      <description>On Stack Overflow and the Eve mailing list, but also in my mailbox and even on Twitter, I get a lot of enquiries on how to build custom endpoints within a Eve-powered RESTful application. Now, since within Eve all endpoints are fully customizable, what they really mean is:
-How do I setup endpoints without any binding to a data entity, just connected to a custom method?
-They would like to call something like /mycustomendpoint and get the response from a method they have defined somewhere in the Python sources.</description>
+      <description>&lt;p&gt;On &lt;a href=&#34;https://stackoverflow.com/questions/24134383/servicing-html-requests-with-eve/&#34;&gt;Stack Overflow&lt;/a&gt; and the Eve &lt;a href=&#34;https://groups.google.com/forum/?hl=en#!topic/python-eve/LM9kZkgq3vA&#34;&gt;mailing list&lt;/a&gt;, but also in my mailbox and even on Twitter, I get a lot of enquiries on how to build custom endpoints within a Eve-powered RESTful application. Now, since within Eve all endpoints are fully customizable, what they really mean is:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;How do I setup endpoints without any binding to a data entity, just connected to a custom method?&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;They would like to call something like &lt;code&gt;/mycustomendpoint&lt;/code&gt; and get the response from a method they have defined somewhere in the Python sources. The standard endpoint-entity mapping provided by Eve covers 90% of their needs, but sometimes they just need endpoints that have nothing to do with data entities.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>On <a href="https://stackoverflow.com/questions/24134383/servicing-html-requests-with-eve/">Stack Overflow</a> and the Eve <a href="https://groups.google.com/forum/?hl=en#!topic/python-eve/LM9kZkgq3vA">mailing list</a>, but also in my mailbox and even on Twitter, I get a lot of enquiries on how to build custom endpoints within a Eve-powered RESTful application. Now, since within Eve all endpoints are fully customizable, what they really mean is:</p>
 <blockquote>
-<p>How do I setup endpoints without any binding to a data entity, just connected to a custom method?</p>
-</blockquote>
+<p>How do I setup endpoints without any binding to a data entity, just connected to a custom method?</p></blockquote>
 <p>They would like to call something like <code>/mycustomendpoint</code> and get the response from a method they have defined somewhere in the Python sources. The standard endpoint-entity mapping provided by Eve covers 90% of their needs, but sometimes they just need endpoints that have nothing to do with data entities.</p>
 <p>This is very easy to achieve. I’m writing it down so I can point people to this post in the future.</p>
 <h2 id="eve-_is_-flask">Eve <em>is</em> Flask</h2>
 <p><a href="http://python-eve.org">Eve</a> is a Flask application and I really mean it since it is, in fact, a Flask subclass. Eve adds out-of-the-box <a href="http://python-eve.org/features">RESTful capabilities</a> to the Flask micro-framework. Most of the time you will be happy with just Eve’s own features but remember, the full <a href="http://flask.pocoo.org">Flask</a> (and <a href="http://werkzeug.pocoo.org">Werkzeug</a> at a lower level) features set is also part of your arsenal.</p>
 <blockquote>
-<p>Whatever you can do with Flask, you can do with Eve</p>
-</blockquote>
+<p>Whatever you can do with Flask, you can do with Eve</p></blockquote>
 <p>So yes, of course you can easily set some functions to be invoked when a custom endpoint is hit with a request. The following snippet is a slightly modified version of Flask’s very own <a href="http://flask.pocoo.org/docs/0.10/quickstart/#a-minimal-application">Quickstart</a> tutorial:</p>
 <script src="https://gist.github.com/nicolaiarocci/01ea2cd1068afc99f9e38f0bb9afcabf.js"></script>
 
@@ -418,8 +473,9 @@ They would like to call something like /mycustomendpoint and get the response fr
       <link>https://nicolaiarocci.com/cerberus-0-9-has-been-released/</link>
       <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/cerberus-0-9-has-been-released/</guid>
-      <description>A few days ago Cerberus 0.9 was released. It includes a bunch of new cool features, let’s browse through some of them.
-Collection rules First up is the new set of anyof, allof, noneof and oneof validation rules. anyof allows you to list multiple sets of rules to validate against. The field will be considered valid if it validates against one set in the list. For example, to verify that a property is a number between 0 and 10 or 100 and 110, you could do the following:</description>
+      <description>&lt;p&gt;A few days ago &lt;a href=&#34;https://github.com/nicolaiarocci/cerberus&#34;&gt;Cerberus 0.9&lt;/a&gt; was released. It includes a bunch of new cool features, let’s browse through some of them.&lt;/p&gt;
+&lt;h2 id=&#34;collection-rules&#34;&gt;Collection rules&lt;/h2&gt;
+&lt;p&gt;First up is the new set of &lt;code&gt;anyof&lt;/code&gt;, &lt;code&gt;allof&lt;/code&gt;, &lt;code&gt;noneof&lt;/code&gt; and &lt;code&gt;oneof&lt;/code&gt; validation rules. &lt;code&gt;anyof&lt;/code&gt; allows you to list multiple sets of rules to validate against. The field will be considered valid if it validates against one set in the list. For example, to verify that a property is a number between 0 and 10 or 100 and 110, you could do the following:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>A few days ago <a href="https://github.com/nicolaiarocci/cerberus">Cerberus 0.9</a> was released. It includes a bunch of new cool features, let’s browse through some of them.</p>
 <h2 id="collection-rules">Collection rules</h2>
 <p>First up is the new set of <code>anyof</code>, <code>allof</code>, <code>noneof</code> and <code>oneof</code> validation rules. <code>anyof</code> allows you to list multiple sets of rules to validate against. The field will be considered valid if it validates against one set in the list. For example, to verify that a property is a number between 0 and 10 or 100 and 110, you could do the following:</p>
@@ -537,10 +593,9 @@ False
       <link>https://nicolaiarocci.com/talk-python-to-me-podcast-episode-1-eve-restful-apis-for-humans/</link>
       <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/talk-python-to-me-podcast-episode-1-eve-restful-apis-for-humans/</guid>
-      <description>I was lucky enough be the first guest for the shiny new Talk Python To Me Podcast hosted by Michael Kennedy. In this episode we talk about Eve an my other open source releases, which gives us an excuse to touch on a variety of topics such as Polyglot Programming, New Microsoft and the .NET evolution, MongoDB and the Open Source eco-system as seen from the point of view of an old fart who has been spending most of his career in closed systems.</description>
+      <description>&lt;p&gt;I was lucky enough be the first guest for the shiny new &lt;a href=&#34;http://www.talkpythontome.com&#34;&gt;Talk Python To Me Podcast&lt;/a&gt; hosted by Michael Kennedy. In this episode we talk about Eve an my other open source releases, which gives us an excuse to touch on a variety of topics such as Polyglot Programming, New Microsoft and the .NET evolution, MongoDB and the Open Source eco-system as seen from the point of view of an old fart who has been spending most of his career in closed systems.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I was lucky enough be the first guest for the shiny new <a href="http://www.talkpythontome.com">Talk Python To Me Podcast</a> hosted by Michael Kennedy. In this episode we talk about Eve an my other open source releases, which gives us an excuse to touch on a variety of topics such as Polyglot Programming, New Microsoft and the .NET evolution, MongoDB and the Open Source eco-system as seen from the point of view of an old fart who has been spending most of his career in closed systems.</p>
-<p><a href="http://www.talkpythontome.com/episodes/show/1/eve-restful-apis-for-humans"><img loading="lazy" src="/images/Screen-Shot-2015-04-01-at-10.16.08.png" alt="Talk Python To Me"  />
-</a></p>
+<p><a href="http://www.talkpythontome.com/episodes/show/1/eve-restful-apis-for-humans"><img alt="Talk Python To Me" loading="lazy" src="/images/Screen-Shot-2015-04-01-at-10.16.08.png"></a></p>
 <p>Michael has a great lineup ready for the next episodes, so make sure you subscribe to his show. It is also available on <a href="https://itunes.apple.com/us/podcast/talk-python-to-me-python-conversations/id979020229">iTunes</a>.</p>
 <p>If you want to get in touch, I am @<a href="http://twitter.com/nicolaiarocci">nicolaiarocci</a> on Twitter.</p>
 ]]></content:encoded>
@@ -550,9 +605,25 @@ False
       <link>https://nicolaiarocci.com/new-releases-for-cerberus-and-eve/</link>
       <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/new-releases-for-cerberus-and-eve/</guid>
-      <description>Yesterday Cerberus 0.8.1 was released with a few little fixes, one of them being more a new feature than a fix really: sub-document fields can now be set as field dependencies by using a ‘dotted’ notation.
-So, suppose we set the following validation schema:
-schema = { &#39;test_field&#39;: { &#39;dependencies&#39;: [ &#39;a_dict.foo&#39;, &#39;a_dict.bar&#39; ] }, &#39;a_dict&#39;: { &#39;type&#39;: &#39;dict&#39;, &#39;schema&#39;: { &#39;foo&#39;: {&#39;type&#39;: &#39;string&#39;}, &#39;bar&#39;: {&#39;type&#39;: &#39;string&#39;} } } } Then, we can validate a document like this:</description>
+      <description>&lt;p&gt;Yesterday &lt;a href=&#34;https://github.com/nicolaiarocci/cerberus&#34;&gt;Cerberus 0.8.1&lt;/a&gt; was released with a few little &lt;a href=&#34;https://github.com/nicolaiarocci/cerberus/blob/master/CHANGES&#34;&gt;fixes&lt;/a&gt;, one of them being more a new feature than a fix really: sub-document fields can now be set as field dependencies by using a ‘dotted’ notation.&lt;/p&gt;
+&lt;p&gt;So, suppose we set the following validation schema:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;schema = {
+  &#39;test_field&#39;: {
+    &#39;dependencies&#39;: [
+      &#39;a_dict.foo&#39;, 
+      &#39;a_dict.bar&#39;
+    ]
+  },
+  &#39;a_dict&#39;: {
+    &#39;type&#39;: &#39;dict&#39;,
+      &#39;schema&#39;: {
+        &#39;foo&#39;: {&#39;type&#39;: &#39;string&#39;},
+        &#39;bar&#39;: {&#39;type&#39;: &#39;string&#39;}
+      }
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then, we can validate a document like this:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Yesterday <a href="https://github.com/nicolaiarocci/cerberus">Cerberus 0.8.1</a> was released with a few little <a href="https://github.com/nicolaiarocci/cerberus/blob/master/CHANGES">fixes</a>, one of them being more a new feature than a fix really: sub-document fields can now be set as field dependencies by using a ‘dotted’ notation.</p>
 <p>So, suppose we set the following validation schema:</p>
 <pre><code>schema = {
@@ -593,7 +664,7 @@ False
       <link>https://nicolaiarocci.com/eve-0-5-2-giulia-is-out/</link>
       <pubDate>Mon, 23 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/eve-0-5-2-giulia-is-out/</guid>
-      <description>Eve 0.5.2 has just been released with a bunch of interesting fixes and documentation updates. See the changelog for details.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.python.org/pypi/Eve&#34;&gt;Eve 0.5.2&lt;/a&gt; has just been released with a bunch of interesting fixes and documentation updates. See the &lt;a href=&#34;http://python-eve.org/changelog#version-0-5-2&#34;&gt;changelog&lt;/a&gt; for details.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="https://pypi.python.org/pypi/Eve">Eve 0.5.2</a> has just been released with a bunch of interesting fixes and documentation updates. See the <a href="http://python-eve.org/changelog#version-0-5-2">changelog</a> for details.</p>
 ]]></content:encoded>
     </item>
@@ -602,18 +673,17 @@ False
       <link>https://nicolaiarocci.com/a-sentinel-for-your-flask-applications/</link>
       <pubDate>Wed, 04 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/a-sentinel-for-your-flask-applications/</guid>
-      <description>Flask-Sentinel is a OAuth2 Server implementation of the Resource Owner Password Credentials Grant pattern described in Section 1.3.3 of RFC 6749. It is powered by Flask-Oauthlib, Redis and MongoDB and is bundled as a Flask extension so it can be used to add OAuth2 capabilities to an existing application.
-So what is the Resource Owner Password Credentials Grant pattern? According to the official RFC:
-The resource owner password credentials (i.e., username and password) can be used directly as an authorization grant to obtain an access token.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/nicolaiarocci/flask-sentinel&#34;&gt;Flask-Sentinel&lt;/a&gt; is a OAuth2 Server implementation of the Resource Owner Password Credentials Grant pattern described in &lt;a href=&#34;http://tools.ietf.org/html/rfc6749#section-1.3.3&#34;&gt;Section 1.3.3 of RFC 6749&lt;/a&gt;. It is powered by Flask-Oauthlib, Redis and MongoDB and is bundled as a Flask extension so it can be used to add OAuth2 capabilities to an existing application.&lt;/p&gt;
+&lt;p&gt;So what is the Resource Owner Password Credentials Grant pattern? According to the official RFC:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The resource owner password credentials (i.e., username and password) can be used directly as an authorization grant to obtain an access token. The credentials should only be used when there is a high degree of trust between the resource owner and the client (e.g., the client is part of the device operating system or a highly privileged application).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="https://github.com/nicolaiarocci/flask-sentinel">Flask-Sentinel</a> is a OAuth2 Server implementation of the Resource Owner Password Credentials Grant pattern described in <a href="http://tools.ietf.org/html/rfc6749#section-1.3.3">Section 1.3.3 of RFC 6749</a>. It is powered by Flask-Oauthlib, Redis and MongoDB and is bundled as a Flask extension so it can be used to add OAuth2 capabilities to an existing application.</p>
 <p>So what is the Resource Owner Password Credentials Grant pattern? According to the official RFC:</p>
 <blockquote>
-<p>The resource owner password credentials (i.e., username and password) can be used directly as an authorization grant to obtain an access token. The credentials should only be used when there is a high degree of trust between the resource owner and the client (e.g., the client is part of the device operating system or a highly privileged application).</p>
-</blockquote>
+<p>The resource owner password credentials (i.e., username and password) can be used directly as an authorization grant to obtain an access token. The credentials should only be used when there is a high degree of trust between the resource owner and the client (e.g., the client is part of the device operating system or a highly privileged application).</p></blockquote>
 <p>A typical use case would be when the remote API maintainer controls the client application. Say that you have a REST API being consumed by your own iOS, Android, WinPhone, desktop or web applications. Users register to your service by creating their accounts. Then, they consume the service using your applications.</p>
 <blockquote>
-<p>Even though this grant type requires direct client access to the resource owner credentials, the resource owner credentials are used for a single request and are exchanged for an access token. This grant type can eliminate the need for the client to store the resource owner credentials for future use, by exchanging the credentials with a long-lived access token or refresh token.</p>
-</blockquote>
+<p>Even though this grant type requires direct client access to the resource owner credentials, the resource owner credentials are used for a single request and are exchanged for an access token. This grant type can eliminate the need for the client to store the resource owner credentials for future use, by exchanging the credentials with a long-lived access token or refresh token.</p></blockquote>
 <p>So let’s get back at the proprietary client scenario. The user has just installed the application on his/her device. On first run he/she is asked to provide his/her username and password. These are sent to the OAuth2 server through a SSL/TLS encrypted channel. If the user is registered for the service and the client id, which has also been sent along with the user credentials, is recognised, then the server sends back a valid access token. Otherwise responds with a <code>401 Unhautorized</code>.</p>
 <p>From now on the application will only be using the access token for all requests until, eventually, the token expires. If that happens, the cycle repeats. Please note that in this scenario the client does not need to (and probably should not) store the username and/or password on the local cache. The User Credentials pattern usually relies on long lived tokens so asking again for username and password is not a big deal (you could also opt for permanent, revokable tokens.)</p>
 <p>Flask-Sentinel provides two endpoints: one for token creation which defaults to <code>/oauth/token</code> and is consumed by clients, and another for users and clients management, accessible at <code>/oauth/management</code>:</p>
@@ -654,7 +724,7 @@ The resource owner password credentials (i.e., username and password) can be use
       <link>https://nicolaiarocci.com/eve-0-5-1-released/</link>
       <pubDate>Fri, 16 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/eve-0-5-1-released/</guid>
-      <description>Eve 0.5.1 was just released with a couple fixes to 0.5 (which was released earlier this week.) Don’t be surprised. Going forward I’m striving for a much faster release cycle, especially so when it comes to fixes.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.python.org/pypi/Eve&#34;&gt;Eve 0.5.1&lt;/a&gt; was just released with a &lt;a href=&#34;http://python-eve.org/changelog#version-0-5-1&#34;&gt;couple fixes&lt;/a&gt; to 0.5 (which was released earlier this week.) Don’t be surprised. Going forward I’m striving for a much faster release cycle, especially so when it comes to fixes.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="https://pypi.python.org/pypi/Eve">Eve 0.5.1</a> was just released with a <a href="http://python-eve.org/changelog#version-0-5-1">couple fixes</a> to 0.5 (which was released earlier this week.) Don’t be surprised. Going forward I’m striving for a much faster release cycle, especially so when it comes to fixes.</p>
 ]]></content:encoded>
     </item>
@@ -663,10 +733,18 @@ The resource owner password credentials (i.e., username and password) can be use
       <link>https://nicolaiarocci.com/announcing-eve-sqlalchemy-the-official-sql-extension-for-the-eve-rest-framework/</link>
       <pubDate>Tue, 13 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/announcing-eve-sqlalchemy-the-official-sql-extension-for-the-eve-rest-framework/</guid>
-      <description>Powered by SQLAlchemy and good intentions, Eve-SQLAlchemy is an official Eve extension which allows to effortlessly build and deploy highly customizable, fully featured RESTful Web Services with SQL backends.
-As with all Eve extensions, once installed with
-$ pip install eve-sqlalchemy using Eve-SQLAlchemy is very simple:
-from eve import Eve from eve_sqlalchemy import SQL app = Eve(data=SQL) app.run() On a fresh virtualenv (of course you are using virtualenvs, right?) the install will also setup Eve and all its dependencies for you.</description>
+      <description>&lt;p&gt;Powered by SQLAlchemy and good intentions, &lt;a href=&#34;https://github.com/RedTurtle/eve-sqlalchemy&#34;&gt;Eve-SQLAlchemy&lt;/a&gt; is an official &lt;a href=&#34;http://python-eve.org&#34;&gt;Eve&lt;/a&gt; extension which allows to effortlessly build and deploy highly customizable, fully featured RESTful Web Services with SQL backends.&lt;/p&gt;
+&lt;p&gt;As with all Eve extensions, once installed with&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ pip install eve-sqlalchemy
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;using Eve-SQLAlchemy is very simple:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;from eve import Eve
+from eve_sqlalchemy import SQL
+
+app = Eve(data=SQL)
+app.run()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;On a fresh virtualenv (of course you are using virtualenvs, right?) the install will also setup Eve and all its dependencies for you. For a complete tutorial you can visit the Eve-SQLAlchemy &lt;a href=&#34;http://eve-sqlalchemy.readthedocs.org/&#34;&gt;Support Website&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Powered by SQLAlchemy and good intentions, <a href="https://github.com/RedTurtle/eve-sqlalchemy">Eve-SQLAlchemy</a> is an official <a href="http://python-eve.org">Eve</a> extension which allows to effortlessly build and deploy highly customizable, fully featured RESTful Web Services with SQL backends.</p>
 <p>As with all Eve extensions, once installed with</p>
 <pre><code>$ pip install eve-sqlalchemy
@@ -693,7 +771,7 @@ app.run()
       <link>https://nicolaiarocci.com/eve-0-5-released-today/</link>
       <pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/eve-0-5-released-today/</guid>
-      <description>Eve v0.5 was released today. Cerberus v0.8 only a few days ago. A whole lot of new features, changes and fixes are coming with these releases so make sure to check the official release post to gather all the news.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://python-eve.org&#34;&gt;Eve&lt;/a&gt; v0.5 was released today. &lt;a href=&#34;https://github.com/nicolaiarocci/cerberus&#34;&gt;Cerberus&lt;/a&gt; v0.8 only a few days ago. A whole lot of new features, changes and fixes are coming with these releases so make sure to check the &lt;a href=&#34;http://blog.python-eve.org/eve-05-released&#34;&gt;official release post&lt;/a&gt; to gather all the news.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="http://python-eve.org">Eve</a> v0.5 was released today. <a href="https://github.com/nicolaiarocci/cerberus">Cerberus</a> v0.8 only a few days ago. A whole lot of new features, changes and fixes are coming with these releases so make sure to check the <a href="http://blog.python-eve.org/eve-05-released">official release post</a> to gather all the news.</p>
 ]]></content:encoded>
     </item>
@@ -702,8 +780,22 @@ app.run()
       <link>https://nicolaiarocci.com/how-to-add-a-je-suis-charlie-header-to-api-responses/</link>
       <pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/how-to-add-a-je-suis-charlie-header-to-api-responses/</guid>
-      <description>A lot of servers have been including a JeSuisCharlie header with their responses. If you haven’t already, try with Charlie Hebdo site itself:
-$ curl -I charliehebdo.fr Date: Mon, 12 Jan 2015 15:56:13 GMT Content-Type: text/html; charset=iso-8859-1 Content-Length: 221 Connection: keep-alive Location: http://www.charliehebdo.fr/index.html Vary: Accept-Encoding X-Charlie-fr: Je suis toujours Charlie. X-Charlie-en: I am still Charlie. X-Charlie-es: Todavia soy Charlie. X-Charlie-de: Ich bin immer Charlie. X-Charlie-ro: Inca sunt Charlie. X-Charlie-cz: Jsem stale Charlie.</description>
+      <description>&lt;p&gt;A lot of servers have been including a &lt;code&gt;JeSuisCharlie&lt;/code&gt; header with their responses. If you haven’t already, try with Charlie Hebdo site itself:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ curl -I charliehebdo.fr
+Date: Mon, 12 Jan 2015 15:56:13 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 221
+Connection: keep-alive
+Location: http://www.charliehebdo.fr/index.html
+Vary: Accept-Encoding
+X-Charlie-fr: Je suis toujours Charlie.
+X-Charlie-en: I am still Charlie.
+X-Charlie-es: Todavia soy Charlie.
+X-Charlie-de: Ich bin immer Charlie.
+X-Charlie-ro: Inca sunt Charlie.
+X-Charlie-cz: Jsem stale Charlie.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I find this to be a great way for us techies to somehow contribute and show support for the ongoing anti-terrorism campaign. So if you feel like doing it here is a quick rundown on how to serve custom headers with your Eve-powered REST API. It is actually a very easy task to accomplish.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>A lot of servers have been including a <code>JeSuisCharlie</code> header with their responses. If you haven’t already, try with Charlie Hebdo site itself:</p>
 <pre><code>$ curl -I charliehebdo.fr
 Date: Mon, 12 Jan 2015 15:56:13 GMT
@@ -954,8 +1046,7 @@ public class Company : BaseClass
 <p>From the client perspective and for most use cases logging inserted, edited and replaced documents is probably a waste of both space and time, and this is the main reason why only <code>DELETE</code> operations are logged by default. However, I believe there are scenarios where remote access to a full activity log can be useful.</p>
 <p>Imagine an API which is accessed by multiple apps (say phone, tablet, web and desktop applications) and all of them need to stay in sync with each other and the server. Instead of hitting every single endpoint with a <code>IMS</code> request they could just access the oplog. That’s a single request vs several, and since the oplog itself is a standard API endpoint, they could also perform <code>IMS</code> requests against it for optimal gains:</p>
 <blockquote>
-<p>Server, please send me all the changes occurred to the API since my last access. Sincerely, Your Client.</p>
-</blockquote>
+<p>Server, please send me all the changes occurred to the API since my last access. Sincerely, Your Client.</p></blockquote>
 <p>Again this is not always the best approach a client could take. Sometimes it is probably better to only query for changes when they are really needed, but it seems cool to have both approaches available (and remember, the oplog endpoint is disabled by default).</p>
 <h3 id="fixing-304s">Fixing 304s</h3>
 <p>And then there are deleted documents which are a completely different beast. With no oplog we would have no way to tell if and when any document has been deleted, let alone inform clients about that. Actually, there is an <a href="https://github.com/nicolaiarocci/eve/issues/334">open ticket</a> precisely about this, and it’s been sitting there for a while.</p>
@@ -991,7 +1082,7 @@ public class Company : BaseClass
       <link>https://nicolaiarocci.com/eve-0-4-cerberus-0-7-released/</link>
       <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/eve-0-4-cerberus-0-7-released/</guid>
-      <description>Eve 0.4 adds cool features like Document Versioning and Coherence Mode. Cerberus 0.7 allows regex validation amongst other niceties. Make sure to check the official v0.4 announcement for all the details.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Eve 0.4 adds cool features like Document Versioning and Coherence Mode. Cerberus 0.7 allows regex validation amongst other niceties. Make sure to check the &lt;a href=&#34;http://blog.python-eve.org/eve-04-released&#34;&gt;official v0.4 announcement&lt;/a&gt; for all the details.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Eve 0.4 adds cool features like Document Versioning and Coherence Mode. Cerberus 0.7 allows regex validation amongst other niceties. Make sure to check the <a href="http://blog.python-eve.org/eve-04-released">official v0.4 announcement</a> for all the details.</p>
 ]]></content:encoded>
     </item>
@@ -1000,7 +1091,7 @@ public class Company : BaseClass
       <link>https://nicolaiarocci.com/eve-0-3-released/</link>
       <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/eve-0-3-released/</guid>
-      <description>Today we released Eve v0.3. It includes customizable Files Storage support (on GridFS by default), a lot of fixes, several breaking changes and a lot of love. Head over to relevant blog post and/or to changelog to know more about it.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://python-eve.org&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;Today we released &lt;a href=&#34;https://pypi.python.org/pypi/Eve&#34;&gt;Eve v0.3&lt;/a&gt;. It includes customizable Files Storage support (on GridFS by default), a lot of fixes, several breaking changes and a lot of love. Head over to relevant &lt;a href=&#34;http://blog.python-eve.org/eve-03-released&#34;&gt;blog post&lt;/a&gt; and/or to &lt;a href=&#34;http://python-eve.org/changelog.html&#34;&gt;changelog&lt;/a&gt; to know more about it.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="http://python-eve.org"><!-- raw HTML omitted --></a>Today we released <a href="https://pypi.python.org/pypi/Eve">Eve v0.3</a>. It includes customizable Files Storage support (on GridFS by default), a lot of fixes, several breaking changes and a lot of love. Head over to relevant <a href="http://blog.python-eve.org/eve-03-released">blog post</a> and/or to <a href="http://python-eve.org/changelog.html">changelog</a> to know more about it.</p>
 ]]></content:encoded>
     </item>
@@ -1009,7 +1100,7 @@ public class Company : BaseClass
       <link>https://nicolaiarocci.com/rest-apis-humans-fosdem/</link>
       <pubDate>Mon, 03 Feb 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/rest-apis-humans-fosdem/</guid>
-      <description>Yesterday I gave a talk at FOSDEM 2014 in Brussels. The conference itself was amazing, with over 5000 attendees literally swarming and taking over the ULB Campus. I was stoked at how smoothly everything was going on despite the incredible number of simultaneous sessions and the number of attendees continuously flowing between buildings and conference rooms. Everybody involved, volunteers and attendees, has been very welcoming, charming and helpful. In short, I had a blast.</description>
+      <description>&lt;p&gt;Yesterday I gave a talk at FOSDEM 2014 in Brussels. The conference itself was amazing, with over 5000 attendees literally swarming and taking over the ULB Campus. I was stoked at how smoothly everything was going on despite the incredible number of simultaneous sessions and the number of attendees continuously flowing between buildings and conference rooms. Everybody involved, volunteers and attendees,  has been very welcoming, charming and helpful. In short, I had a blast.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Yesterday I gave a talk at FOSDEM 2014 in Brussels. The conference itself was amazing, with over 5000 attendees literally swarming and taking over the ULB Campus. I was stoked at how smoothly everything was going on despite the incredible number of simultaneous sessions and the number of attendees continuously flowing between buildings and conference rooms. Everybody involved, volunteers and attendees,  has been very welcoming, charming and helpful. In short, I had a blast.</p>
 <p>My <a href="https://speakerdeck.com/nicola/eve-rest-api-for-humans">REST APIs for Humans™</a> talk was given in a fully packed Python DevRoom, which granted a lot of smart questions both in the final QA session and later during the day. Thanks everybody for the great feedback!</p>
 ]]></content:encoded>
@@ -1091,8 +1182,8 @@ False
       <link>https://nicolaiarocci.com/mongodb-rest-api-go-picnic-video-slides/</link>
       <pubDate>Tue, 19 Nov 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/mongodb-rest-api-go-picnic-video-slides/</guid>
-      <description>I had the opportunity to give my RESTful WeB APIs and MongoDB Go For A Picnic talk at both MongoTorino and NoSQL Day. The folks at PUG Friuli where so nice to record all the NoSQL Day sessions, so here you have it: the full length video of yours truly speaking to a fully packed room crowded with 120 very attentive attendees.
-Unfortunately audio is horrible and while all MongoTorino talks were in english, NoSQL Day was an italian-only event.</description>
+      <description>&lt;p&gt;I had the opportunity to give my &lt;a href=&#34;https://speakerdeck.com/nicola/restful-web-api-and-mongodb-go-for-a-pic-nic&#34;&gt;RESTful WeB APIs and MongoDB Go For A Picnic&lt;/a&gt; talk at both &lt;a href=&#34;http://www.mongotorino.org/&#34;&gt;MongoTorino&lt;/a&gt; and &lt;a href=&#34;http://2013.nosqlday.it/&#34;&gt;NoSQL Day&lt;/a&gt;. The folks at PUG Friuli where so nice to record all the NoSQL Day sessions, so here you have it: the full length &lt;a href=&#34;http://vimeo.com/79662146&#34;&gt;video of yours truly speaking&lt;/a&gt; to a fully packed room crowded with 120 very attentive attendees.&lt;/p&gt;
+&lt;p&gt;Unfortunately audio is horrible and while all MongoTorino talks were in english, NoSQL Day was an italian-only event. The slide deck is in english however, and is available on both &lt;a href=&#34;https://speakerdeck.com/nicola/restful-web-api-and-mongodb-go-for-a-pic-nic&#34;&gt;SpeakerDeck&lt;/a&gt; and &lt;a href=&#34;http://www.slideshare.net/nicolaiarocci/rest-web-api-with-mongodb&#34;&gt;SlideShare&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I had the opportunity to give my <a href="https://speakerdeck.com/nicola/restful-web-api-and-mongodb-go-for-a-pic-nic">RESTful WeB APIs and MongoDB Go For A Picnic</a> talk at both <a href="http://www.mongotorino.org/">MongoTorino</a> and <a href="http://2013.nosqlday.it/">NoSQL Day</a>. The folks at PUG Friuli where so nice to record all the NoSQL Day sessions, so here you have it: the full length <a href="http://vimeo.com/79662146">video of yours truly speaking</a> to a fully packed room crowded with 120 very attentive attendees.</p>
 <p>Unfortunately audio is horrible and while all MongoTorino talks were in english, NoSQL Day was an italian-only event. The slide deck is in english however, and is available on both <a href="https://speakerdeck.com/nicola/restful-web-api-and-mongodb-go-for-a-pic-nic">SpeakerDeck</a> and <a href="http://www.slideshare.net/nicolaiarocci/rest-web-api-with-mongodb">SlideShare</a>.</p>
 ]]></content:encoded>
@@ -1102,7 +1193,7 @@ Unfortunately audio is horrible and while all MongoTorino talks were in english,
       <link>https://nicolaiarocci.com/eve-with-python-3-3-support/</link>
       <pubDate>Thu, 29 Aug 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/eve-with-python-3-3-support/</guid>
-      <description>Another Eve release is out and I’m particularly proud about it since it brings full Python 3.3 support (among other things). Check out the relevant blog post: Eve 0.0.9 is out!</description>
+      <description>&lt;p&gt;Another Eve release is out and I’m particularly proud about it since it brings full Python 3.3 support (among other things). Check out the relevant blog post: &lt;a href=&#34;http://blog.python-eve.org/v009-with-python-33-support&#34;&gt;Eve 0.0.9 is out!&lt;/a&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Another Eve release is out and I’m particularly proud about it since it brings full Python 3.3 support (among other things). Check out the relevant blog post: <a href="http://blog.python-eve.org/v009-with-python-33-support">Eve 0.0.9 is out!</a></p>
 ]]></content:encoded>
     </item>
@@ -1111,8 +1202,8 @@ Unfortunately audio is horrible and while all MongoTorino talks were in english,
       <link>https://nicolaiarocci.com/eve-v0-0-8-has-been-released/</link>
       <pubDate>Thu, 25 Jul 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/eve-v0-0-8-has-been-released/</guid>
-      <description>Most significant features are probably the native support for MongoDB write concern settings, new event hooks allowing for transformation of documents before they are sent to clients, increased handling of both pagination and CORS, and the native validation of float data types.
-Get it on PyPI, go straight to the source code or more likely, visit the project homepage.</description>
+      <description>&lt;p&gt;Most significant features are probably the native support for MongoDB write concern settings, new event hooks allowing for transformation of documents before they are sent to clients, increased handling of both pagination and CORS, and the native validation of float data types.&lt;/p&gt;
+&lt;p&gt;Get it on &lt;!-- raw HTML omitted --&gt;PyPI&lt;!-- raw HTML omitted --&gt;, go straight to the &lt;!-- raw HTML omitted --&gt;source code&lt;!-- raw HTML omitted --&gt; or more likely, visit the &lt;!-- raw HTML omitted --&gt;project homepage&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Most significant features are probably the native support for MongoDB write concern settings, new event hooks allowing for transformation of documents before they are sent to clients, increased handling of both pagination and CORS, and the native validation of float data types.</p>
 <p>Get it on <!-- raw HTML omitted -->PyPI<!-- raw HTML omitted -->, go straight to the <!-- raw HTML omitted -->source code<!-- raw HTML omitted --> or more likely, visit the <!-- raw HTML omitted -->project homepage<!-- raw HTML omitted -->.</p>
 ]]></content:encoded>
@@ -1122,7 +1213,7 @@ Get it on PyPI, go straight to the source code or more likely, visit the proj
       <link>https://nicolaiarocci.com/sito-ufficiale-e-blog-per-il-progetto-eve/</link>
       <pubDate>Tue, 14 May 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/sito-ufficiale-e-blog-per-il-progetto-eve/</guid>
-      <description>E’ passato qualche mese da quando ho annunciato Eve, il REST API framework open source. Nel frattempo il progetto è cresciuto bene: siamo appena giunti alla versione 0.0.6, abbiamo un sito ufficiale, un blog, e stiamo lavorando a nuove feature davvero interessanti.</description>
+      <description>&lt;p&gt;E’ passato qualche mese da quando ho &lt;a href=&#34;http://nicolaiarocci.com/vi-presento-eve-il-framework-per-lanciare-la-vostra-rest-api-web/&#34; title=&#34;Annuncio di Eve&#34;&gt;annunciato&lt;/a&gt; Eve, il REST API framework open source. Nel frattempo il progetto è cresciuto bene: siamo appena giunti alla &lt;a href=&#34;http://blog.python-eve.org/eve-006-released&#34; title=&#34;Eve 0.0.6&#34;&gt;versione 0.0.6&lt;/a&gt;, abbiamo un &lt;a href=&#34;http://python-eve.org&#34; title=&#34;Eve REST API homepage&#34;&gt;sito ufficiale&lt;/a&gt;, un &lt;a href=&#34;http://blog.python-eve.org&#34; title=&#34;Eve News&#34;&gt;blog&lt;/a&gt;, e stiamo lavorando a nuove feature &lt;a href=&#34;http://blog.python-eve.org/sqlalchemy-and-eve&#34; title=&#34;SqlAlchemy and Eve&#34;&gt;davvero interessanti&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>E’ passato qualche mese da quando ho <a href="http://nicolaiarocci.com/vi-presento-eve-il-framework-per-lanciare-la-vostra-rest-api-web/" title="Annuncio di Eve">annunciato</a> Eve, il REST API framework open source. Nel frattempo il progetto è cresciuto bene: siamo appena giunti alla <a href="http://blog.python-eve.org/eve-006-released" title="Eve 0.0.6">versione 0.0.6</a>, abbiamo un <a href="http://python-eve.org" title="Eve REST API homepage">sito ufficiale</a>, un <a href="http://blog.python-eve.org" title="Eve News">blog</a>, e stiamo lavorando a nuove feature <a href="http://blog.python-eve.org/sqlalchemy-and-eve" title="SqlAlchemy and Eve">davvero interessanti</a>.</p>
 ]]></content:encoded>
     </item>
@@ -1131,8 +1222,8 @@ Get it on PyPI, go straight to the source code or more likely, visit the proj
       <link>https://nicolaiarocci.com/vi-presento-eve-il-framework-per-lanciare-la-vostra-rest-api-web/</link>
       <pubDate>Tue, 08 Jan 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/vi-presento-eve-il-framework-per-lanciare-la-vostra-rest-api-web/</guid>
-      <description>Lo scorso anno abbiamo lavorato duro per costruirci una RESTful Web API su misura, flessibile e completa. In corso d’opera abbiamo imparato molto sulle migliori pratiche REST, mettendo anche alla frusta le rinomate capacità Web del linguaggio Python.
-Ad EuroPython 2012 ho poi raccontato la nostra esperienza e condiviso ciò che avevamo imparato. In quell’occasione mi sono reso conto di quanto l’argomento fosse d’attualità, tanto che da quel 4 luglio le slide che avevo preparato (le trovate su Speaker Deck o Slideshare) ed i video su YouTube (italiano; inglese) hanno totalizzato 30mila visite.</description>
+      <description>&lt;p&gt;Lo scorso anno abbiamo lavorato duro per costruirci una RESTful Web API su misura, flessibile e completa. In corso d’opera abbiamo imparato molto sulle migliori pratiche REST, mettendo anche alla frusta le rinomate capacità Web del linguaggio Python.&lt;/p&gt;
+&lt;p&gt;Ad EuroPython 2012 ho poi &lt;a href=&#34;http://nicolaiarocci.com/sviluppare-una-restful-web-api-con-python-flask-e-mongodb/&#34;&gt;raccontato la nostra esperienza&lt;/a&gt; e condiviso ciò che avevamo imparato. In quell’occasione mi sono reso conto di quanto l’argomento fosse d’attualità, tanto che da quel 4 luglio le slide che avevo preparato (le trovate su &lt;!-- raw HTML omitted --&gt;Speaker Deck&lt;!-- raw HTML omitted --&gt; o &lt;!-- raw HTML omitted --&gt;Slideshare&lt;!-- raw HTML omitted --&gt;) ed i video su YouTube (&lt;!-- raw HTML omitted --&gt;italiano&lt;!-- raw HTML omitted --&gt;; &lt;!-- raw HTML omitted --&gt;inglese&lt;!-- raw HTML omitted --&gt;) hanno totalizzato 30mila visite. Da allora ricevo continue richieste di chiarimenti, suggerimenti, approfondimenti, consigli. Soprattutto, mi si chiedono esempi di codice. In fin dei conti prima o poi qualunque sviluppatore web si trova, volente o nolente, a fare i conti con una REST API.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Lo scorso anno abbiamo lavorato duro per costruirci una RESTful Web API su misura, flessibile e completa. In corso d’opera abbiamo imparato molto sulle migliori pratiche REST, mettendo anche alla frusta le rinomate capacità Web del linguaggio Python.</p>
 <p>Ad EuroPython 2012 ho poi <a href="http://nicolaiarocci.com/sviluppare-una-restful-web-api-con-python-flask-e-mongodb/">raccontato la nostra esperienza</a> e condiviso ciò che avevamo imparato. In quell’occasione mi sono reso conto di quanto l’argomento fosse d’attualità, tanto che da quel 4 luglio le slide che avevo preparato (le trovate su <!-- raw HTML omitted -->Speaker Deck<!-- raw HTML omitted --> o <!-- raw HTML omitted -->Slideshare<!-- raw HTML omitted -->) ed i video su YouTube (<!-- raw HTML omitted -->italiano<!-- raw HTML omitted -->; <!-- raw HTML omitted -->inglese<!-- raw HTML omitted -->) hanno totalizzato 30mila visite. Da allora ricevo continue richieste di chiarimenti, suggerimenti, approfondimenti, consigli. Soprattutto, mi si chiedono esempi di codice. In fin dei conti prima o poi qualunque sviluppatore web si trova, volente o nolente, a fare i conti con una REST API.</p>
 <p>Così ho pensato che avrei potuto prendere il nostro codice proprietario (nome interno Adam), sistemarlo un po’ in modo che si adattasse ai casi d’uso più comuni, e rilasciarlo come progetto open source. Be’ c’è voluto un bel po’ di lavoro, ben più di quello inizialmente preventivato, ma ora ci siamo. Il progetto è finalmente disponibile, e naturalmente si chiama <!-- raw HTML omitted -->Eve<!-- raw HTML omitted -->.</p>

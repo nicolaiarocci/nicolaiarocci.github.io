@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>swagger on Nicola Iarocci</title>
+    <title>Swagger on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/swagger/</link>
-    <description>Recent content in swagger on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Swagger on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 06 Jun 2016 00:00:00 +0000</lastBuildDate>
@@ -14,21 +14,20 @@
       <link>https://nicolaiarocci.com/announcing-eve-swagger/</link>
       <pubDate>Mon, 06 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/announcing-eve-swagger/</guid>
-      <description>Eve-Swagger is a swagger.io extension for Eve powered RESTful APIs. It has been around for a while on GitHub but I never managed to officially release it. So rejoice! it is now available on PyPI.
-But what is Swagger, and why is it useful to your RESTful API? With a Swagger-enabled API you can get interactive documentation, client SDK generation and discoverability, all for free. From Swagger website:
-Swagger is a simple yet powerful representation of your RESTful API.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/nicolaiarocci/eve-swagger&#34;&gt;Eve-Swagger&lt;/a&gt; is a swagger.io extension for &lt;a href=&#34;http://python-eve.org&#34;&gt;Eve&lt;/a&gt; powered RESTful APIs. It has been around for a while on GitHub but I never managed to officially release it. So rejoice! it is now available on PyPI.&lt;/p&gt;
+&lt;p&gt;But what is Swagger, and why is it useful to your RESTful API? With a Swagger-enabled API you can get interactive documentation, client SDK generation and discoverability, all for free. From &lt;a href=&#34;http://swagger.io&#34;&gt;Swagger website&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Swagger is a simple yet powerful representation of your RESTful API. With the largest ecosystem of API tooling on the planet, thousands of developers are supporting Swagger in almost every modern programming language and deployment environment. With a Swagger-enabled API, you get interactive documentation, client SDK generation and discoverability.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="https://github.com/nicolaiarocci/eve-swagger">Eve-Swagger</a> is a swagger.io extension for <a href="http://python-eve.org">Eve</a> powered RESTful APIs. It has been around for a while on GitHub but I never managed to officially release it. So rejoice! it is now available on PyPI.</p>
 <p>But what is Swagger, and why is it useful to your RESTful API? With a Swagger-enabled API you can get interactive documentation, client SDK generation and discoverability, all for free. From <a href="http://swagger.io">Swagger website</a>:</p>
 <blockquote>
-<p>Swagger is a simple yet powerful representation of your RESTful API. With the largest ecosystem of API tooling on the planet, thousands of developers are supporting Swagger in almost every modern programming language and deployment environment. With a Swagger-enabled API, you get interactive documentation, client SDK generation and discoverability.</p>
-</blockquote>
+<p>Swagger is a simple yet powerful representation of your RESTful API. With the largest ecosystem of API tooling on the planet, thousands of developers are supporting Swagger in almost every modern programming language and deployment environment. With a Swagger-enabled API, you get interactive documentation, client SDK generation and discoverability.</p></blockquote>
 <p>When Eve-Swagger is installed and properly configured your Eve API exposes
 a special <code>/api-docs</code> endpoint which returns a 100% swagger-compliant JSON
 response. This JSON can then be processed by the swagger tools like <a href="https://github.com/swagger-api/swagger-ui">Swagger
 UI</a> and <a href="http://editor.swagger.io/#/">Swagger Editor</a>. Here we can appreciate Swagger UI providing API
 documentation out of the box (click to zoom):</p>
-<p><img loading="lazy" src="/images/Screen-Shot-2016-06-06-at-15.13.04.png" alt="Swagger UI"  />
-</p>
+<p><img alt="Swagger UI" loading="lazy" src="/images/Screen-Shot-2016-06-06-at-15.13.04.png"></p>
 <p>Like most Eve extensions Eve-Swagger comes as a standard Flask Blueprint and, as such, using it is very simple:</p>
 <script src="https://gist.github.com/nicolaiarocci/7720dd28f2e74e77c94edcb487aa5102.js"></script>
 

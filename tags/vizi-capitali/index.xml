@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>vizi capitali on Nicola Iarocci</title>
+    <title>Vizi Capitali on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/vizi-capitali/</link>
-    <description>Recent content in vizi capitali on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Vizi Capitali on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 29 Jun 2011 00:00:00 +0000</lastBuildDate>
@@ -22,8 +22,7 @@
 <p>Quasi tutti i programmatori con cui ho avuto a che fare, incluso il sottoscritto, condividono almeno un tratto caratteriale: un ego ingombrante. <!-- raw HTML omitted -->Mike Bernat<!-- raw HTML omitted --> ci ricorda che diventare bravi programmatori è un processo lungo e impegnativo, che ci induce ad affinare le nostre capacità analitiche sviluppando mentalità e attitudine al perfezionismo. Alla fine del percorso ci troviamo in dote una forte fiducia nelle nostre capacità professionali, una fiducia che in alcune occasioni rischia di scatenare quello che io chiamo l’<em>ego del programmatore</em>, ovvero il nostro possente orgoglio.</p>
 <p>Nel suo libro <!-- raw HTML omitted -->The Psychology of Computer Programming<!-- raw HTML omitted -->, <!-- raw HTML omitted -->Gerald M. Weinberg<!-- raw HTML omitted --> propone un’idea tanto semplice quanto difficile da mettere in pratica:</p>
 <blockquote>
-<p>L’idea è che i programmatori devono combattere la loro naturale tendenza a considerare i loro programmi come parte di se stessi, un atteggiamento che comporta il rifiuto preconcetto di ogni tipo di critica. Piuttosto, dovrebbero fare del loro meglio per considerare le loro creazioni come oggetti indipendenti da se stessi, distaccati dal proprio io, e ascoltare le critiche in modo spassionato, giudicandole nel merito. E’ una vera e propria disciplina spirituale della quale nessuno di noi [programmatori] è dotato, ma vale la pena provarci.</p>
-</blockquote>
+<p>L’idea è che i programmatori devono combattere la loro naturale tendenza a considerare i loro programmi come parte di se stessi, un atteggiamento che comporta il rifiuto preconcetto di ogni tipo di critica. Piuttosto, dovrebbero fare del loro meglio per considerare le loro creazioni come oggetti indipendenti da se stessi, distaccati dal proprio io, e ascoltare le critiche in modo spassionato, giudicandole nel merito. E’ una vera e propria disciplina spirituale della quale nessuno di noi [programmatori] è dotato, ma vale la pena provarci.</p></blockquote>
 <p>Personalmente ricordo diverse occasioni in cui mio malgrado mi sono lasciato trascinare in “combattimenti tra galli”. A volte ne sono uscito vincente, altre volte ho dovuto ripiegare (non senza aver perduto qualche piuma). Col tempo credo e spero di essere migliorato, i consigli di Weinberg ho cercato e cerco tutt’ora di seguirli, ma certo la strada è lunga e tortuosa. E’ pur vero che in alcune occasioni l’aver ceduto, ritirando le mie proposte in favore di quelle altrui, si è rivelato un grave errore. Le conseguenze di certe scelte fatte in base a chi fosse il gallo più forte del pollaio, le pago ancora oggi. Ho imparato a mie spese che non sempre l’orgoglio del programmatore è un tratto negativo, anzi!</p>
 <p>Se la vostra idea è quella giusta sostenetela a spada tratta fino in fondo, ma accertatevi che non sia esclusivamente il vostro orgoglio a condurre le trattative! In queste occasioni è molto importante concedere diritto di parola e giusta attenzione ai nostri interlocutori, soffermandoci a meditare sulle idee e le critiche ricevute prima di respingerle a priori. Se le riteniamo fondate facciamone tesoro apportando le dovute correzioni alla nostra stessa idea. Ciò che più conta, in realtà, è la qualità finale del progetto. Se alla fine si rivelerà un successo, il nostro orgoglio ne sarà ampiamente ripagato.</p>
 <p><em>PS: a proposito di Weinberg, il suo libro è del 1971 ma è ancora attualissimo e ve lo consiglio caldamente. E’ disponibile in formato <!-- raw HTML omitted -->eBook su Amazon<!-- raw HTML omitted --> e altrove a <!-- raw HTML omitted -->prezzi modici<!-- raw HTML omitted -->. Non lasciatevi ingannare dal fatto che nel testo si parli di linguaggi ormai superati. In quarant’anni la gente non è cambiata affatto.</em></p>]]></content:encoded>
@@ -40,8 +39,7 @@
 <p>Non criminalizzare il codice degli altri. Prima o poi sarà il tuo a  finire sotto esame. La critica oggettiva va bene, i consigli e le osservazioni professionali pure, ma non esprimere giudizi. Sii umile. C’è sempre da imparare dal lavoro dei colleghi.</p>
 <blockquote>
 <p>L’uom superbo si pone sopra gli altri, e crede che gli si debba ogni cosa; gli altri, per lo contrario, lo mettono nell’ultimo grado, né gli concedono nulla.</p>
-<p><em>Confucio</em></p>
-</blockquote>]]></content:encoded>
+<p><em>Confucio</em></p></blockquote>]]></content:encoded>
     </item>
   </channel>
 </rss>

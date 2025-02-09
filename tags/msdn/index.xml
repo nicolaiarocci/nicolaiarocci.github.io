@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>msdn on Nicola Iarocci</title>
+    <title>Msdn on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/msdn/</link>
-    <description>Recent content in msdn on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Msdn on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 20 Apr 2015 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://nicolaiarocci.com/f-vs-c/</link>
       <pubDate>Mon, 20 Apr 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/f-vs-c/</guid>
-      <description>I have another guest post up at the official MSDN Team Blog. Titled F# Versus C#, it is an attempt at a gentle introduction to F# for the Italian C# developer.</description>
+      <description>&lt;p&gt;I have another guest post up at the official MSDN Team Blog. Titled &lt;a href=&#34;http://blogs.msdn.com/b/italy/archive/2015/04/17/f-vs-c.aspx&#34;&gt;F# Versus C#&lt;/a&gt;, it is an attempt at a gentle introduction to F# for the Italian C# developer.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I have another guest post up at the official MSDN Team Blog. Titled <a href="http://blogs.msdn.com/b/italy/archive/2015/04/17/f-vs-c.aspx">F# Versus C#</a>, it is an attempt at a gentle introduction to F# for the Italian C# developer.</p>
 ]]></content:encoded>
     </item>
@@ -23,7 +23,7 @@
       <link>https://nicolaiarocci.com/i-wrote-a-thing-about-new-microsoft/</link>
       <pubDate>Wed, 04 Mar 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/i-wrote-a-thing-about-new-microsoft/</guid>
-      <description>I have a guest post up at the official Italian MSDN Team Blog. It’s about the new Microsoft I met last Wednesday at the Azure Open Day in Milan.</description>
+      <description>&lt;p&gt;I have a guest post up at the official Italian &lt;a href=&#34;http://blogs.msdn.com/b/italy/archive/2015/03/03/guest-post-una-giornata-all-azure-open-day-in-compagnia-di-una-nuova-microsoft.aspx&#34;&gt;MSDN Team Blog&lt;/a&gt;. It’s about the new Microsoft I met last Wednesday at the Azure Open Day in Milan.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I have a guest post up at the official Italian <a href="http://blogs.msdn.com/b/italy/archive/2015/03/03/guest-post-una-giornata-all-azure-open-day-in-compagnia-di-una-nuova-microsoft.aspx">MSDN Team Blog</a>. It’s about the new Microsoft I met last Wednesday at the Azure Open Day in Milan.</p>
 ]]></content:encoded>
     </item>

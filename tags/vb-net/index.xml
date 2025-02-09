@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>vb-net on Nicola Iarocci</title>
+    <title>Vb-Net on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/vb-net/</link>
-    <description>Recent content in vb-net on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Vb-Net on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 29 Oct 2010 00:00:00 +0000</lastBuildDate>
@@ -14,12 +14,12 @@
       <link>https://nicolaiarocci.com/programmazione-asincrona/</link>
       <pubDate>Fri, 29 Oct 2010 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/programmazione-asincrona/</guid>
-      <description>Un articolo sul Somasegar’s Weblog annuncia oggi il rilascio imminente di un nuovo modello di programmazione asincrona per C# and VB:
-Today, we are unveiling significant language and framework enhancements in C# and Visual Basic that enable developers to harness asynchrony, letting them retain the control flow from their synchronous code while developing responsive user interfaces and scalable web applications with greater ease. This CTP delivers a lightweight asynchronous development experience as close to the standard synchronous paradigms as possible, while providing an easy on-ramp to the world of concurrency</description>
+      <description>&lt;p&gt;Un articolo sul &lt;!-- raw HTML omitted --&gt;Somasegar’s Weblog&lt;!-- raw HTML omitted --&gt; annuncia oggi il rilascio imminente di un nuovo modello di programmazione asincrona per C# and VB:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Today, we are unveiling significant language and framework enhancements in C# and Visual Basic that enable developers to harness asynchrony, letting them retain the control flow from their synchronous code while developing responsive user interfaces and scalable web applications with greater ease.   This CTP delivers a lightweight asynchronous development experience as close to the standard synchronous paradigms as possible, while providing an easy on-ramp to the world of concurrency&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Un articolo sul <!-- raw HTML omitted -->Somasegar’s Weblog<!-- raw HTML omitted --> annuncia oggi il rilascio imminente di un nuovo modello di programmazione asincrona per C# and VB:</p>
 <blockquote>
-<p>Today, we are unveiling significant language and framework enhancements in C# and Visual Basic that enable developers to harness asynchrony, letting them retain the control flow from their synchronous code while developing responsive user interfaces and scalable web applications with greater ease.   This CTP delivers a lightweight asynchronous development experience as close to the standard synchronous paradigms as possible, while providing an easy on-ramp to the world of concurrency</p>
-</blockquote>
+<p>Today, we are unveiling significant language and framework enhancements in C# and Visual Basic that enable developers to harness asynchrony, letting them retain the control flow from their synchronous code while developing responsive user interfaces and scalable web applications with greater ease.   This CTP delivers a lightweight asynchronous development experience as close to the standard synchronous paradigms as possible, while providing an easy on-ramp to the world of concurrency</p></blockquote>
 <p>Lo stesso Somasegar riconosce che finora sviluppare applicazioni asincrone complesse con la piattaforma .NET non è stato facile. Tempo fa l’ho sperimentato in prima persona. Lavoravo su <a href="http://gestionaleamica.com/Backup/">Amica Prodigy Backup</a>, una applicazione di backup remoto.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->

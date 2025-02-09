@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>art on Nicola Iarocci</title>
+    <title>Art on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/art/</link>
-    <description>Recent content in art on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Art on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 18 May 2023 07:05:25 +0100</lastBuildDate>
@@ -14,14 +14,16 @@
       <link>https://nicolaiarocci.com/tiny-electronic-desktop-sculptures/</link>
       <pubDate>Thu, 18 May 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/tiny-electronic-desktop-sculptures/</guid>
-      <description>Adorable, functional, often internet-connected desktop bots like those below are hand-crafted by Mohit Bhoite in San Francisco, California.
-It pleasantly surprised me that they&amp;rsquo;re built as a purely artistic expression. All sculptures (as Mohit rightfully refers to them) are unique and not for sale. Check them all out on his website (via).</description>
+      <description>&lt;p&gt;Adorable, functional, often internet-connected desktop bots like those below are hand-crafted by Mohit Bhoite in San
+Francisco, California.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/bhoite-sculptures-01.jpg&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/bhoite-sculptures-02.jpg&#34;&gt;
+It pleasantly surprised me that they&amp;rsquo;re built as a purely artistic expression. All sculptures (as Mohit rightfully refers
+to them) are unique and not for sale. Check them all out on &lt;a href=&#34;https://www.bhoite.com&#34;&gt;his website&lt;/a&gt; &lt;em&gt;(&lt;a href=&#34;https://kottke.org/23/05/tiny-electronic-desktop-sculptures&#34;&gt;via&lt;/a&gt;)&lt;/em&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Adorable, functional, often internet-connected desktop bots like those below are hand-crafted by Mohit Bhoite in San
 Francisco, California.</p>
-<p><img loading="lazy" src="/images/bhoite-sculptures-01.jpg" alt=""  />
-
-<img loading="lazy" src="/images/bhoite-sculptures-02.jpg" alt=""  />
-
+<p><img loading="lazy" src="/images/bhoite-sculptures-01.jpg">
+<img loading="lazy" src="/images/bhoite-sculptures-02.jpg">
 It pleasantly surprised me that they&rsquo;re built as a purely artistic expression. All sculptures (as Mohit rightfully refers
 to them) are unique and not for sale. Check them all out on <a href="https://www.bhoite.com">his website</a> <em>(<a href="https://kottke.org/23/05/tiny-electronic-desktop-sculptures">via</a>)</em>.</p>
 ]]></content:encoded>
@@ -31,7 +33,16 @@ to them) are unique and not for sale. Check them all out on <a href="https://www
       <link>https://nicolaiarocci.com/book-review-proud-tobea-flyer/</link>
       <pubDate>Sat, 28 Aug 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/book-review-proud-tobea-flyer/</guid>
-      <description>I happened across this book by pure chance. After having ice cream in our favourite place in Milano Marittima, my wife and I visited a small street market with all kinds of booths. Of course, there was a used book stand toward which I immediately gravitated. A quick scan revealed nothing of interest, so I moved along. But Serena, who arrived at the booth moments after I left, knew more. A simple, no-frills, cardboard-covered book which carried a giant PROUD 2BEA FLYER title on the spine caught her attention.</description>
+      <description>&lt;p&gt;I happened across this book by pure chance. After having ice cream in our
+favourite place in Milano Marittima, my wife and I visited a small street
+market with all kinds of booths. Of course, there was a used book stand toward
+which I immediately gravitated. A quick scan revealed nothing of interest, so
+I moved along. But Serena, who arrived at the booth moments after I left, knew
+more. A simple, no-frills, cardboard-covered book which carried a giant PROUD
+2BEA FLYER title on the spine caught her attention. As she opened it and
+flipped through the pages, she immediately knew this was a unique item I would
+love to have, so she bought it (for cheap!) along with another one, then let it
+slip into a shopping bag, and then reached an unaware me.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I happened across this book by pure chance. After having ice cream in our
 favourite place in Milano Marittima, my wife and I visited a small street
 market with all kinds of booths. Of course, there was a used book stand toward
@@ -42,8 +53,7 @@ more. A simple, no-frills, cardboard-covered book which carried a giant PROUD
 flipped through the pages, she immediately knew this was a unique item I would
 love to have, so she bought it (for cheap!) along with another one, then let it
 slip into a shopping bag, and then reached an unaware me.</p>
-<p><img loading="lazy" src="/images/proudtobeaflyer1.jpg#right" alt="Proud 2bea flyer sample 1"  />
-
+<p><img alt="Proud 2bea flyer sample 1" loading="lazy" src="/images/proudtobeaflyer1.jpg#right">
 When I spotted the book lying in the bag, I inquired about it. Serena took it
 out of the bag and handed it over to me with a smile. Imagine my surprise,
 amazement and gratitude when I started browsing through hundreds of beautiful
@@ -60,10 +70,8 @@ techno scene employed flyers to great effect and diverse musical scenes
 caught on quickly. Proud 2BEA Flyer brilliantly documents the flyer stylings
 of the electronica scene and also includes special sections featuring Jazz,
 Hip Hop and Brazilian music. Other fascinating selections are found in
-chapters such as Drawing, Series, Unusual Shapes and Regular Nights. (<a href="https://www.hoepli.it/libro/proud-2bea-flyer/9788886416474.html">source</a>)</p>
-</blockquote>
-<p><img loading="lazy" src="/images/proudtobeaflyer2.jpg#right" alt="Proud 2bea flyer sample 2"  />
-
+chapters such as Drawing, Series, Unusual Shapes and Regular Nights. (<a href="https://www.hoepli.it/libro/proud-2bea-flyer/9788886416474.html">source</a>)</p></blockquote>
+<p><img alt="Proud 2bea flyer sample 2" loading="lazy" src="/images/proudtobeaflyer2.jpg#right">
 And indeed, this is an excellent collection of inspiring, mesmerizing works<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.
 No text, just flyers. I have never been much of a  clubbing person, but
 I always followed the music, of course, and was fascinated by the graphical

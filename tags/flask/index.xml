@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>flask on Nicola Iarocci</title>
+    <title>Flask on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/flask/</link>
-    <description>Recent content in flask on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Flask on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 14 May 2021 07:05:25 +0100</lastBuildDate>
@@ -14,8 +14,15 @@
       <link>https://nicolaiarocci.com/flask-2.0/</link>
       <pubDate>Fri, 14 May 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/flask-2.0/</guid>
-      <description>Flask 2.0 has just been released. Along with it come many other major satellite releases: Werkzeug 2.0, Jinja 3.0, Click 8.0, ItsDangerous 2.0, and MarkupSafe 2.0.
-Across all projects, Python 3.6+ is now required, and comprehensive type annotations are supported. At a glance, I&amp;rsquo;d say that the biggest news is async views in Flask 2. Work has also been done around Werkzeug Request and Response classes to allow for better sync and async in the future (it&amp;rsquo;s not a public API yet.</description>
+      <description>&lt;p&gt;Flask 2.0 has just been released. Along with it come many other major satellite
+releases: Werkzeug 2.0, Jinja 3.0, Click 8.0, ItsDangerous 2.0, and MarkupSafe
+2.0.&lt;/p&gt;
+&lt;p&gt;Across all projects, Python 3.6+ is now required, and comprehensive type
+annotations are supported. At a glance, I&amp;rsquo;d say that the biggest news is async
+views in Flask 2. Work has also been done around Werkzeug &lt;code&gt;Request&lt;/code&gt; and
+&lt;code&gt;Response&lt;/code&gt; classes to allow for better sync and async in the future (it&amp;rsquo;s not
+a public API yet.) Jinja, Click and ItsDangerous come with a lot of new
+niceties. Details are available on the &lt;a href=&#34;https://palletsprojects.com/blog/flask-2-0-released/&#34;&gt;Pallets website&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Flask 2.0 has just been released. Along with it come many other major satellite
 releases: Werkzeug 2.0, Jinja 3.0, Click 8.0, ItsDangerous 2.0, and MarkupSafe
 2.0.</p>
@@ -35,18 +42,17 @@ understatement—huge congrats to all of them.</p>
       <link>https://nicolaiarocci.com/a-sentinel-for-your-flask-applications/</link>
       <pubDate>Wed, 04 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/a-sentinel-for-your-flask-applications/</guid>
-      <description>Flask-Sentinel is a OAuth2 Server implementation of the Resource Owner Password Credentials Grant pattern described in Section 1.3.3 of RFC 6749. It is powered by Flask-Oauthlib, Redis and MongoDB and is bundled as a Flask extension so it can be used to add OAuth2 capabilities to an existing application.
-So what is the Resource Owner Password Credentials Grant pattern? According to the official RFC:
-The resource owner password credentials (i.e., username and password) can be used directly as an authorization grant to obtain an access token.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/nicolaiarocci/flask-sentinel&#34;&gt;Flask-Sentinel&lt;/a&gt; is a OAuth2 Server implementation of the Resource Owner Password Credentials Grant pattern described in &lt;a href=&#34;http://tools.ietf.org/html/rfc6749#section-1.3.3&#34;&gt;Section 1.3.3 of RFC 6749&lt;/a&gt;. It is powered by Flask-Oauthlib, Redis and MongoDB and is bundled as a Flask extension so it can be used to add OAuth2 capabilities to an existing application.&lt;/p&gt;
+&lt;p&gt;So what is the Resource Owner Password Credentials Grant pattern? According to the official RFC:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The resource owner password credentials (i.e., username and password) can be used directly as an authorization grant to obtain an access token. The credentials should only be used when there is a high degree of trust between the resource owner and the client (e.g., the client is part of the device operating system or a highly privileged application).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="https://github.com/nicolaiarocci/flask-sentinel">Flask-Sentinel</a> is a OAuth2 Server implementation of the Resource Owner Password Credentials Grant pattern described in <a href="http://tools.ietf.org/html/rfc6749#section-1.3.3">Section 1.3.3 of RFC 6749</a>. It is powered by Flask-Oauthlib, Redis and MongoDB and is bundled as a Flask extension so it can be used to add OAuth2 capabilities to an existing application.</p>
 <p>So what is the Resource Owner Password Credentials Grant pattern? According to the official RFC:</p>
 <blockquote>
-<p>The resource owner password credentials (i.e., username and password) can be used directly as an authorization grant to obtain an access token. The credentials should only be used when there is a high degree of trust between the resource owner and the client (e.g., the client is part of the device operating system or a highly privileged application).</p>
-</blockquote>
+<p>The resource owner password credentials (i.e., username and password) can be used directly as an authorization grant to obtain an access token. The credentials should only be used when there is a high degree of trust between the resource owner and the client (e.g., the client is part of the device operating system or a highly privileged application).</p></blockquote>
 <p>A typical use case would be when the remote API maintainer controls the client application. Say that you have a REST API being consumed by your own iOS, Android, WinPhone, desktop or web applications. Users register to your service by creating their accounts. Then, they consume the service using your applications.</p>
 <blockquote>
-<p>Even though this grant type requires direct client access to the resource owner credentials, the resource owner credentials are used for a single request and are exchanged for an access token. This grant type can eliminate the need for the client to store the resource owner credentials for future use, by exchanging the credentials with a long-lived access token or refresh token.</p>
-</blockquote>
+<p>Even though this grant type requires direct client access to the resource owner credentials, the resource owner credentials are used for a single request and are exchanged for an access token. This grant type can eliminate the need for the client to store the resource owner credentials for future use, by exchanging the credentials with a long-lived access token or refresh token.</p></blockquote>
 <p>So let’s get back at the proprietary client scenario. The user has just installed the application on his/her device. On first run he/she is asked to provide his/her username and password. These are sent to the OAuth2 server through a SSL/TLS encrypted channel. If the user is registered for the service and the client id, which has also been sent along with the user credentials, is recognised, then the server sends back a valid access token. Otherwise responds with a <code>401 Unhautorized</code>.</p>
 <p>From now on the application will only be using the access token for all requests until, eventually, the token expires. If that happens, the cycle repeats. Please note that in this scenario the client does not need to (and probably should not) store the username and/or password on the local cache. The User Credentials pattern usually relies on long lived tokens so asking again for username and password is not a big deal (you could also opt for permanent, revokable tokens.)</p>
 <p>Flask-Sentinel provides two endpoints: one for token creation which defaults to <code>/oauth/token</code> and is consumed by clients, and another for users and clients management, accessible at <code>/oauth/management</code>:</p>
@@ -87,11 +93,11 @@ The resource owner password credentials (i.e., username and password) can be use
       <link>https://nicolaiarocci.com/python-and-flask-are-ridiculously-powerful/</link>
       <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/python-and-flask-are-ridiculously-powerful/</guid>
-      <description>As a developer, I sometimes forget the power I yield. It’s easy to forget that, when something doesn’t work the way I’d like, I have the power to change it.
-via Python and Flask Are Ridiculously Powerful.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;As a developer, I sometimes forget the power I yield. It’s easy to forget that, when something doesn’t work the way I’d like, I have the power to change it.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;via &lt;a href=&#34;http://jeffknupp.com/blog/2014/01/18/python-and-flask-are-ridiculously-powerful/&#34;&gt;Python and Flask Are Ridiculously Powerful&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>As a developer, I sometimes forget the power I yield. It’s easy to forget that, when something doesn’t work the way I’d like, I have the power to change it.</p>
-</blockquote>
+<p>As a developer, I sometimes forget the power I yield. It’s easy to forget that, when something doesn’t work the way I’d like, I have the power to change it.</p></blockquote>
 <p>via <a href="http://jeffknupp.com/blog/2014/01/18/python-and-flask-are-ridiculously-powerful/">Python and Flask Are Ridiculously Powerful</a>.</p>
 ]]></content:encoded>
     </item>
@@ -100,7 +106,7 @@ via Python and Flask Are Ridiculously Powerful.</description>
       <link>https://nicolaiarocci.com/flask-mimerender-v0-1-2/</link>
       <pubDate>Thu, 19 Jul 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/flask-mimerender-v0-1-2/</guid>
-      <description>Grazie al contributo di Bruno Ripa, la versione 0.1.2 di Flask-MimeRender pubblicata oggi introduce il supporto per codici di stato HTTP arbitrari. Ho colto l’occasione per uniformare il codice sorgente alle direttive PEP8 e per sistemare alcuni dettagli del package PyPI. Vi ricordo che potete contribuire voi stessi al progetto, direttamente su GitHub.</description>
+      <description>&lt;p&gt;Grazie al contributo di &lt;a href=&#34;http://twitter.com/brunoripa&#34;&gt;Bruno Ripa&lt;/a&gt;, la versione 0.1.2 di &lt;a href=&#34;http://nicolaiarocci.com/come-implementare-un-web-service-rest-che-adatta-le-risposte-al-mime-media-type-delle-richieste-http/&#34; title=&#34;Flask-MimeRender&#34;&gt;Flask-MimeRender&lt;/a&gt; pubblicata oggi introduce il supporto per codici di stato HTTP arbitrari. Ho colto l’occasione per uniformare il codice sorgente alle direttive PEP8 e per sistemare alcuni dettagli del &lt;a href=&#34;http://nicolaiarocci.com/flask-mimerender-e-nel-python-package-index-pypi/&#34; title=&#34;Flask-MimeRender su PyPI&#34;&gt;package PyPI&lt;/a&gt;. Vi ricordo che potete contribuire voi stessi al progetto, direttamente su &lt;!-- raw HTML omitted --&gt;GitHub&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Grazie al contributo di <a href="http://twitter.com/brunoripa">Bruno Ripa</a>, la versione 0.1.2 di <a href="http://nicolaiarocci.com/come-implementare-un-web-service-rest-che-adatta-le-risposte-al-mime-media-type-delle-richieste-http/" title="Flask-MimeRender">Flask-MimeRender</a> pubblicata oggi introduce il supporto per codici di stato HTTP arbitrari. Ho colto l’occasione per uniformare il codice sorgente alle direttive PEP8 e per sistemare alcuni dettagli del <a href="http://nicolaiarocci.com/flask-mimerender-e-nel-python-package-index-pypi/" title="Flask-MimeRender su PyPI">package PyPI</a>. Vi ricordo che potete contribuire voi stessi al progetto, direttamente su <!-- raw HTML omitted -->GitHub<!-- raw HTML omitted -->.</p>
 ]]></content:encoded>
     </item>
@@ -124,9 +130,10 @@ via Python and Flask Are Ridiculously Powerful.</description>
       <link>https://nicolaiarocci.com/flask-mimerender-e-nel-python-package-index-pypi/</link>
       <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/flask-mimerender-e-nel-python-package-index-pypi/</guid>
-      <description>Un appunto veloce per segnalare che Flask MimeRender, il mio strumento RESTful per il rendering basato sul MIME Media-Type delle richieste HTTP (JSON, XML, HTML, ecc.), è ora presente su PyPI, il Python Package Index ufficiale.
-Tutto ciò significa che l’installazione di Flask MimeRender su Windows, OSX e Linux è diventato più semplice:
-Codice sorgente e istruzioni sono a vostra disposizione su GitHub, mentre per spiegazione approfondita ed esempio d’uso vi rimando al mio articolo precedente: Una REST API che adatta le sue risposte al MIME Media-Type delle richieste HTTP.</description>
+      <description>&lt;p&gt;Un appunto veloce per segnalare che &lt;!-- raw HTML omitted --&gt;Flask MimeRender&lt;!-- raw HTML omitted --&gt;, il mio strumento RESTful per il rendering basato sul MIME Media-Type delle richieste HTTP (JSON, XML, HTML, ecc.), è ora presente su &lt;!-- raw HTML omitted --&gt;PyPI&lt;!-- raw HTML omitted --&gt;, il Python Package Index ufficiale.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Tutto ciò significa che l’installazione di Flask MimeRender su Windows, OSX e Linux è diventato più semplice:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Un appunto veloce per segnalare che <!-- raw HTML omitted -->Flask MimeRender<!-- raw HTML omitted -->, il mio strumento RESTful per il rendering basato sul MIME Media-Type delle richieste HTTP (JSON, XML, HTML, ecc.), è ora presente su <!-- raw HTML omitted -->PyPI<!-- raw HTML omitted -->, il Python Package Index ufficiale.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->

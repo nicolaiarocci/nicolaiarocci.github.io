@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>blogging on Nicola Iarocci</title>
+    <title>Blogging on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/blogging/</link>
-    <description>Recent content in blogging on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Blogging on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 08 Feb 2024 09:25:30 +0100</lastBuildDate>
@@ -14,8 +14,15 @@
       <link>https://nicolaiarocci.com/a-new-golden-era-of-blogging/</link>
       <pubDate>Thu, 08 Feb 2024 09:25:30 +0100</pubDate>
       <guid>https://nicolaiarocci.com/a-new-golden-era-of-blogging/</guid>
-      <description>After yesterday&amp;rsquo;s, another article on the modern era of blogging surfaced on my RSS feed. In A Golden Era of Blogging, Jim Nielsen boldly proposes that we live in, you guessed it, a new golden era of blogging.
-He argues that the advent of the ads market tainted the original blogging scene in the mid-2000s, and something similar is now happening in the YouTube scene. Today&amp;rsquo;s independent blogger is not in it for the money (there&amp;rsquo;s none to be had) but for passion and an (unconscious?</description>
+      <description>&lt;p&gt;After &lt;a href=&#34;https://nicolaiarocci.com/the-20-year-indie-web-cycle-maybe/&#34;&gt;yesterday&lt;/a&gt;&amp;rsquo;s, another article on the
+modern era of blogging surfaced on my RSS feed. In &lt;a href=&#34;https://blog.jim-nielsen.com/2024/golden-era-blogging/&#34;&gt;A Golden Era of
+Blogging&lt;/a&gt;, Jim Nielsen
+boldly proposes that we live in, you guessed it, a new golden era of blogging.&lt;/p&gt;
+&lt;p&gt;He argues that the advent of the ads market tainted the original blogging scene
+in the mid-2000s, and something similar is now happening in the YouTube scene.
+Today&amp;rsquo;s independent blogger is not in it for the money (there&amp;rsquo;s none to be had)
+but for passion and an (unconscious?) belief in indie web ideals, and these are
+precisely the forces that drove the first wave of bloggers in the 2000s.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>After <a href="/the-20-year-indie-web-cycle-maybe/">yesterday</a>&rsquo;s, another article on the
 modern era of blogging surfaced on my RSS feed. In <a href="https://blog.jim-nielsen.com/2024/golden-era-blogging/">A Golden Era of
 Blogging</a>, Jim Nielsen

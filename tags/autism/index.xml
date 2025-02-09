@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>autism on Nicola Iarocci</title>
+    <title>Autism on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/autism/</link>
-    <description>Recent content in autism on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Autism on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 02 Feb 2024 08:54:30 +0100</lastBuildDate>
@@ -14,8 +14,16 @@
       <link>https://nicolaiarocci.com/being-autistic/</link>
       <pubDate>Fri, 02 Feb 2024 08:54:30 +0100</pubDate>
       <guid>https://nicolaiarocci.com/being-autistic/</guid>
-      <description>A lot of the things David describes in this post resonate with me.
-As far as I’ve been able to figure out so far, the things my mind is best at are details and systems. It‘s part of what makes me a good programmer: I can hold a lot of detail in my head about how a system fits together, I can mess around with it more easily than most people, and I can pick up on details other people might miss, such as potential bugs.</description>
+      <description>&lt;p&gt;A lot of the things David describes in &lt;a href=&#34;https://dhwthompson.com/2018/being-autistic&#34;&gt;this
+post&lt;/a&gt; resonate with me.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As far as I’ve been able to figure out so far, the things my mind is best at
+are details and systems. It‘s part of what makes me a good programmer: I can
+hold a lot of detail in my head about how a system fits together, I can mess
+around with it more easily than most people, and I can pick up on details other
+people might miss, such as potential bugs. A lot of the things I enjoy (and seem
+to be pretty good at) are those where there’s an underlying system to figure out
+and master – computer games, martial arts, even cooking.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>A lot of the things David describes in <a href="https://dhwthompson.com/2018/being-autistic">this
 post</a> resonate with me.</p>
 <blockquote>
@@ -25,12 +33,10 @@ hold a lot of detail in my head about how a system fits together, I can mess
 around with it more easily than most people, and I can pick up on details other
 people might miss, such as potential bugs. A lot of the things I enjoy (and seem
 to be pretty good at) are those where there’s an underlying system to figure out
-and master – computer games, martial arts, even cooking.</p>
-</blockquote>
+and master – computer games, martial arts, even cooking.</p></blockquote>
 <blockquote>
 <p>Then there’s a few things my mind struggles to handle. Most of them revolve
-around people.</p>
-</blockquote>
+around people.</p></blockquote>
 <blockquote>
 <p>I’m not always great at figuring out what someone else is thinking, or
 feeling, or even dropping hints about. I can take educated guesses, for sure,
@@ -41,8 +47,7 @@ can think of several times when someone has asked me how my weekend went, and
 it’s completely slipped my mind that the appropriate response is to ask them
 about theirs too. It’s not that I don’t care; it’s that I’m having to
 concentrate so much on the rest of the social cues that I take longer to catch
-up with how the conversation is supposed to go.</p>
-</blockquote>
+up with how the conversation is supposed to go.</p></blockquote>
 <p>It took some balls to write his next one: <a href="https://dhwthompson.com/2018/my-brain-and-how-to-help-it">My brain, and how you can help
 me</a>. Respect.</p>
 ]]></content:encoded>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>devlife on Nicola Iarocci</title>
+    <title>Devlife on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/devlife/</link>
-    <description>Recent content in devlife on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Devlife on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Sun, 23 Jan 2022 07:05:25 +0100</lastBuildDate>
@@ -14,7 +14,12 @@
       <link>https://nicolaiarocci.com/lay-back-and-keep-smiling/</link>
       <pubDate>Sun, 23 Jan 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/lay-back-and-keep-smiling/</guid>
-      <description>Tomorrow we&amp;rsquo;re releasing a major project on which we&amp;rsquo;ve been working non-stop for two and a half years. No matter how many years in the trenches, release day always makes me a bit nervous. Experience does help. I know there will be problems, and we will solve them. Some customers will complain, and those will be the most vocal. The vast majority of them will appreciate the effort, enjoy the features, and stay silent.</description>
+      <description>&lt;p&gt;Tomorrow we&amp;rsquo;re releasing a major project on which we&amp;rsquo;ve been working non-stop
+for two and a half years. No matter how many years in the trenches, release day
+always makes me a bit nervous. Experience does help. I know there will be
+problems, and we will solve them. Some customers will complain, and those will
+be the most vocal. The vast majority of them will appreciate the effort, enjoy
+the features, and stay silent. That&amp;rsquo;s how it works. We&amp;rsquo;ll do just fine.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Tomorrow we&rsquo;re releasing a major project on which we&rsquo;ve been working non-stop
 for two and a half years. No matter how many years in the trenches, release day
 always makes me a bit nervous. Experience does help. I know there will be
@@ -25,8 +30,7 @@ the features, and stay silent. That&rsquo;s how it works. We&rsquo;ll do just fi
 morning, I listened to <a href="https://open.spotify.com/playlist/1WjnPw3PbQJOsEpEgJsz5f?si=53a83f9c31484310">The Mildlife Very Fantastic Playlist</a> when a curious
 tune caught my attention<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. I glanced over to Spotify, and my eyes fell on
 the most appropriate CD cover for launch day ever.</p>
-<p><img loading="lazy" src="/images/laidback-keepsmiling.jpg" alt="Laid Back&amp;hellip;Keep Smiling"  />
-</p>
+<p><img alt="Laid Back&hellip;Keep Smiling" loading="lazy" src="/images/laidback-keepsmiling.jpg"></p>
 <p>Whatever happens tomorrow, lay back and keep smiling.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>

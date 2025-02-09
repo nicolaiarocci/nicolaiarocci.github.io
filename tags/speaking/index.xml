@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>speaking on Nicola Iarocci</title>
+    <title>Speaking on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/speaking/</link>
-    <description>Recent content in speaking on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Speaking on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 09 Dec 2024 17:31:18 +0100</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://nicolaiarocci.com/on-csharp-and-dotnet-quick-release-cycle/</link>
       <pubDate>Mon, 09 Dec 2024 17:31:18 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-csharp-and-dotnet-quick-release-cycle/</guid>
-      <description>I sat to jot down a quick introduction to my C# 13 What&amp;rsquo;s New and Interesting session at the upcoming .NET Conference Italia 2024 next week, and what I ended up with instead is a long rant or, should I dare, stream of consciousness that is certainly inappropriate for a five-minute introduction. I&amp;rsquo;ll have to cut most of it down, especially on the personal story part, but my site might be a good place to host it in all its completeness.</description>
+      <description>&lt;p&gt;&lt;em&gt;I sat to jot down a quick introduction to my &lt;a href=&#34;https://nicolaiarocci.com/speaking-at-the-dotnet-conference-italia-2024/&#34;&gt;C# 13 What&amp;rsquo;s New and Interesting&lt;/a&gt; session at the upcoming .NET Conference Italia 2024 next week, and what I ended up with instead is a long rant or, should I dare, stream of consciousness that is certainly inappropriate for a five-minute introduction. I&amp;rsquo;ll have to cut most of it down, especially on the personal story part, but my site might be a good place to host it in all its completeness. I may reference this post at the start of the session on Monday for those few poor souls who might be interested.&lt;/em&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><em>I sat to jot down a quick introduction to my <a href="/speaking-at-the-dotnet-conference-italia-2024/">C# 13 What&rsquo;s New and Interesting</a> session at the upcoming .NET Conference Italia 2024 next week, and what I ended up with instead is a long rant or, should I dare, stream of consciousness that is certainly inappropriate for a five-minute introduction. I&rsquo;ll have to cut most of it down, especially on the personal story part, but my site might be a good place to host it in all its completeness. I may reference this post at the start of the session on Monday for those few poor souls who might be interested.</em></p>
 <p>Exactly one year ago, on December 4, 2023, to be precise, we were here, in this same room, at the same conference, presenting C# 12. Some of you in the audience were present back then. If so, please raise your hands. Twelve months later, here we are again, looking at a new version of C#. It&rsquo;s the new normal; this has been happening, give or take, since the advent of .NET Core and C# 8 in 2019. Previously, C# had a new release every 2–3 years, so the release rate has doubled or even tripled recently. Is this good news? If you&rsquo;ve followed forums or social media, you might have noticed some controversy about the topic. The main complaint is that the language is changing too quickly, &ldquo;chasing trends,&rdquo; with no valuable addition to its core.</p>
 <p>Most of these complaints come from old-timers around my age (maybe even ten years younger because I&rsquo;m seasoned) and have been in the .NET environment for many, perhaps too many years. There&rsquo;s always a certain inertia, a form of resistance to change, especially when it&rsquo;s rapid. But I&rsquo;m seasoned enough to remember when complaints went in the opposite direction: back then, the .NET Framework (the historical, monolithic, Windows-only version) moved like a dinosaur while the world was racing ahead. New languages were blooming. Old competitors were evolving at double or triple the speed, constantly innovating, and—this is key—attracting hordes of developers. There was a critical moment when this attraction became so intense that more and more developers set aside .NET and C# to explore new directions. I know because I was one of them.</p>
@@ -42,7 +42,7 @@
       <link>https://nicolaiarocci.com/speaking-at-the-dotnet-conference-italia-2024/</link>
       <pubDate>Sat, 07 Dec 2024 08:36:26 +0100</pubDate>
       <guid>https://nicolaiarocci.com/speaking-at-the-dotnet-conference-italia-2024/</guid>
-      <description>I&amp;rsquo;m speaking at the .NET Conference Italia 2024 on Dec 16th in Milan at the Microsoft House. My session is titled C# 13 What&amp;rsquo;s New and Interesting and will be on the latest iteration of the C# language. We&amp;rsquo;ll also briefly touch on .NET 9, which was also just released. Hope to see you there (make sure to come to me to say Hi!)</description>
+      <description>&lt;p&gt;I&amp;rsquo;m speaking at the &lt;a href=&#34;https://www.dotnetconference.it&#34;&gt;.NET Conference Italia 2024&lt;/a&gt; on Dec 16th in Milan at the Microsoft House. My session is titled &lt;a href=&#34;https://www.dotnetconference.it/e/sessione/3589/C-13-e-NET-9-cosa-c%E2%80%99e-di-nuovo-e-interessante&#34;&gt;C# 13 What&amp;rsquo;s New and Interesting&lt;/a&gt; and will be on the latest iteration of the C# language. We&amp;rsquo;ll also briefly touch on .NET 9, which was also just released. Hope to see you there (make sure to come to me to say Hi!)&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I&rsquo;m speaking at the <a href="https://www.dotnetconference.it">.NET Conference Italia 2024</a> on Dec 16th in Milan at the Microsoft House. My session is titled <a href="https://www.dotnetconference.it/e/sessione/3589/C-13-e-NET-9-cosa-c%E2%80%99e-di-nuovo-e-interessante">C# 13 What&rsquo;s New and Interesting</a> and will be on the latest iteration of the C# language. We&rsquo;ll also briefly touch on .NET 9, which was also just released. Hope to see you there (make sure to come to me to say Hi!)</p>
 ]]></content:encoded>
     </item>
@@ -51,7 +51,11 @@
       <link>https://nicolaiarocci.com/the-video-of-my-oauth2-session-at-webday-2024-is-online/</link>
       <pubDate>Thu, 23 May 2024 09:30:54 +0200</pubDate>
       <guid>https://nicolaiarocci.com/the-video-of-my-oauth2-session-at-webday-2024-is-online/</guid>
-      <description>The video my OAuth2 and OpenID Connect session at WebDay 2024 Milan is available online. It is in Italian, and you need to login or register in order to see it (sorry, I don’t have control over it.)</description>
+      <description>&lt;p&gt;The video my OAuth2 and OpenID Connect session at WebDay 2024 Milan is
+&lt;a href=&#34;https://www.improove.tech/videos/3376/Oauth2-e-Open-ID-Connect-con-ASP-NET-Core-8&#34;&gt;available
+online&lt;/a&gt;.
+It is in Italian, and you need to login or register in order to see it (sorry, I
+don’t have control over it.)&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>The video my OAuth2 and OpenID Connect session at WebDay 2024 Milan is
 <a href="https://www.improove.tech/videos/3376/Oauth2-e-Open-ID-Connect-con-ASP-NET-Core-8">available
 online</a>.
@@ -64,10 +68,34 @@ don’t have control over it.)</p>
       <link>https://nicolaiarocci.com/csharp-collection-expressions/</link>
       <pubDate>Fri, 10 May 2024 17:39:02 +0200</pubDate>
       <guid>https://nicolaiarocci.com/csharp-collection-expressions/</guid>
-      <description>This is a follow-up post to C# 12 Primary Constructors. Like that article, this one originates from the preparation notes for my presentation at the ABP Dotnet Conference 2024.
-I love collection expressions. Like primary constructors, collection expressions will see a significant adoption in the long run.
-Collection expressions introduce a new way to initialize common collection values in a terse, unified syntax.
-This is how we initialize collections today:</description>
+      <description>&lt;p&gt;This is a follow-up post to &lt;a href=&#34;https://nicolaiarocci.com/csharp-primary-constructors&#34;&gt;C# 12 Primary
+Constructors&lt;/a&gt;. Like that article, this one
+originates from the preparation notes for my presentation at the &lt;a href=&#34;https://abp.io/conference/2024&#34;&gt;ABP Dotnet
+Conference 2024&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;I love collection expressions. Like primary constructors, collection
+expressions will see a significant adoption in the long run.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Collection expressions introduce a new way to initialize common collection
+values in a terse, unified syntax.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This is how we initialize collections today:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;&#34;&gt;var&lt;/span&gt; x1 = &lt;span style=&#34;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;&#34;&gt;int&lt;/span&gt;[] { 1, 2, 3, 4 };
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;&#34;&gt;var&lt;/span&gt; x2 = Array.Empty&amp;lt;&lt;span style=&#34;&#34;&gt;int&lt;/span&gt;&amp;gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;WriteByteArray(&lt;span style=&#34;font-weight:bold&#34;&gt;new&lt;/span&gt;[] { (&lt;span style=&#34;&#34;&gt;byte&lt;/span&gt;)1, (&lt;span style=&#34;&#34;&gt;byte&lt;/span&gt;)2, (&lt;span style=&#34;&#34;&gt;byte&lt;/span&gt;)3 });
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;List&amp;lt;&lt;span style=&#34;&#34;&gt;int&lt;/span&gt;&amp;gt; x3 = &lt;span style=&#34;font-weight:bold&#34;&gt;new&lt;/span&gt;() { 1, 2, 3, 4 };
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Span&amp;lt;DateTime&amp;gt; dates = &lt;span style=&#34;font-weight:bold&#34;&gt;stackalloc&lt;/span&gt; DateTime[] { GetDate(0), GetDate(1) };
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;WriteByteSpan(&lt;span style=&#34;font-weight:bold&#34;&gt;stackalloc&lt;/span&gt;[] { (&lt;span style=&#34;&#34;&gt;byte&lt;/span&gt;)1, (&lt;span style=&#34;&#34;&gt;byte&lt;/span&gt;)2, (&lt;span style=&#34;&#34;&gt;byte&lt;/span&gt;)3 });
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Notice how the code is diverse depending on the type and the context. It is also
+verbose. Look at how we initialize an empty &lt;code&gt;int&lt;/code&gt; array (second line); it&amp;rsquo;s
+lengthy and starkly contrasts with the previous line, where we initialize the
+same type with some actual values.  In many situations, casting is needed;
+again, take a look at the &lt;code&gt;WriteByteArray&lt;/code&gt; and &lt;code&gt;WriteByteSpan&lt;/code&gt; calls.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>This is a follow-up post to <a href="/csharp-primary-constructors">C# 12 Primary
 Constructors</a>. Like that article, this one
 originates from the preparation notes for my presentation at the <a href="https://abp.io/conference/2024">ABP Dotnet
@@ -232,8 +260,8 @@ future.</p>
       <link>https://nicolaiarocci.com/csharp-primary-constructors/</link>
       <pubDate>Thu, 09 May 2024 18:04:39 +0200</pubDate>
       <guid>https://nicolaiarocci.com/csharp-primary-constructors/</guid>
-      <description>I wrapped up my C# 12 session at the ABP Dotnet Conference 2024, and I wanted to share the take-home points, at least about the most relevant features in this language version. Posting the slides made no sense as they were minimal; all the content was packed in the live demo.
-In a follow-up post, I plan to address Collection Expressions (done) and maybe &amp;ldquo;type any aliases&amp;rdquo;; this is about Primary Constructors.</description>
+      <description>&lt;p&gt;I wrapped up my C# 12 session at the &lt;a href=&#34;https://abp.io/conference/2024&#34;&gt;ABP Dotnet Conference 2024&lt;/a&gt;, and I wanted to share the take-home points, at least about the most relevant features in this language version. Posting the slides made no sense as they were minimal; all the content was packed in the live demo.&lt;/p&gt;
+&lt;p&gt;In a follow-up post, I plan to address Collection Expressions (&lt;a href=&#34;https://nicolaiarocci.com/csharp-collection-expressions&#34;&gt;done&lt;/a&gt;) and maybe &amp;ldquo;type any aliases&amp;rdquo;; this is about Primary Constructors.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I wrapped up my C# 12 session at the <a href="https://abp.io/conference/2024">ABP Dotnet Conference 2024</a>, and I wanted to share the take-home points, at least about the most relevant features in this language version. Posting the slides made no sense as they were minimal; all the content was packed in the live demo.</p>
 <p>In a follow-up post, I plan to address Collection Expressions (<a href="/csharp-collection-expressions">done</a>) and maybe &ldquo;type any aliases&rdquo;; this is about Primary Constructors.</p>
 <ul>
@@ -309,10 +337,10 @@ In a follow-up post, I plan to address Collection Expressions (done) and maybe &
       <link>https://nicolaiarocci.com/i-am-speaking-at-abp-dotnet-conf24.md/</link>
       <pubDate>Mon, 15 Apr 2024 15:01:12 +0200</pubDate>
       <guid>https://nicolaiarocci.com/i-am-speaking-at-abp-dotnet-conf24.md/</guid>
-      <description>I am thrilled to have the opportunity to present at an international conference once again. On May 9th, I will speak at the ABP Donet Conf&#39;24. My session, titled C #12: What&amp;rsquo;s New and Interesting, is on a topic I&amp;rsquo;m passionate about.
-With the alignment of C# and Dotnet Core release cycles, the C# release cadence has increased (we&amp;rsquo;re on a yearly cycle now), while feature quantity has reduced for individual releases, which is good.</description>
-      <content:encoded><![CDATA[<p><img loading="lazy" src="/images/abp-dotnet-conf24.png" alt="Nicola Iarocci: C#12 What&amp;rsquo;s new and Interesting session at ABP Dotnet Conf&#39;24"  />
-</p>
+      <description>&lt;p&gt;&lt;img alt=&#34;Nicola Iarocci: C#12 What&amp;rsquo;s new and Interesting session at ABP Dotnet Conf&#39;24&#34; loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/abp-dotnet-conf24.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I am thrilled to have the opportunity to present at an international conference once again. On May 9th, I will speak at the &lt;a href=&#34;https://abp.io/conference/2024&#34;&gt;ABP Donet Conf&#39;24&lt;/a&gt;. My session, titled C #12: What&amp;rsquo;s New and Interesting, is on a topic I&amp;rsquo;m passionate about.&lt;/p&gt;
+&lt;p&gt;With the alignment of C# and Dotnet Core release cycles, the C# release cadence has increased (we&amp;rsquo;re on a yearly cycle now), while feature quantity has reduced for individual releases, which is good. The faster, smaller iterations allow for quicker course corrections, and introducing fewer new features makes it easier to embrace the changes.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><img alt="Nicola Iarocci: C#12 What&rsquo;s new and Interesting session at ABP Dotnet Conf'24" loading="lazy" src="/images/abp-dotnet-conf24.png"></p>
 <p>I am thrilled to have the opportunity to present at an international conference once again. On May 9th, I will speak at the <a href="https://abp.io/conference/2024">ABP Donet Conf'24</a>. My session, titled C #12: What&rsquo;s New and Interesting, is on a topic I&rsquo;m passionate about.</p>
 <p>With the alignment of C# and Dotnet Core release cycles, the C# release cadence has increased (we&rsquo;re on a yearly cycle now), while feature quantity has reduced for individual releases, which is good. The faster, smaller iterations allow for quicker course corrections, and introducing fewer new features makes it easier to embrace the changes.</p>
 <p>The ABP Dotnet Conf'24<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> will be held online on 8-9th May; the <a href="https://abp.io/conference/2024#agenda">lineup and agenda</a> look great, so reserve a ticket before they are sold out, and see you there!</p>
@@ -331,8 +359,8 @@ With the alignment of C# and Dotnet Core release cycles, the C# release cadence 
       <link>https://nicolaiarocci.com/why-i-speak-at-conferences/</link>
       <pubDate>Thu, 11 Apr 2024 11:46:48 +0200</pubDate>
       <guid>https://nicolaiarocci.com/why-i-speak-at-conferences/</guid>
-      <description>Among the essential reasons I continue to make presentations at various conferences is that the preparation required to deliver good content forces me to learn and comprehend a topic in greater depth. I always try to talk about the stuff I am working on: the commitment to explaining what I am learning in public forces me into a higher level of knowledge.
-In the past few weeks, I have spoken about OAuth2 at two different conferences, and OAuth2 has been precisely the subject of my work for the past few months, and it still is now.</description>
+      <description>&lt;p&gt;Among the essential reasons I continue to make presentations at various conferences is that the preparation required to deliver good content forces me to learn and comprehend a topic in greater depth. I always try to talk about the stuff I am working on: the commitment to explaining what I am learning in public forces me into a higher level of knowledge.&lt;/p&gt;
+&lt;p&gt;In the past few weeks, I have spoken about OAuth2 at &lt;a href=&#34;https://nicolaiarocci.com/i-am-presenting-on-oauth2-at-two-conferences-this-month/&#34;&gt;two different conferences&lt;/a&gt;, and OAuth2 has been precisely the subject of my work for the past few months, and it still is now. It goes like this: I study and implement things, and while doing that, I say to myself, hey, this could be an exciting topic for other devs, too. I let the idea cool down for a few days, and then, if it still seems good, I start looking for a fitting call for papers. Magic happens if the proposal is accepted: I am forced to turn from a superficial connoisseur to someone close to a field expert. That&amp;rsquo;s the level of competence to aim for if one wants to talk publicly, especially on a technical topic.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Among the essential reasons I continue to make presentations at various conferences is that the preparation required to deliver good content forces me to learn and comprehend a topic in greater depth. I always try to talk about the stuff I am working on: the commitment to explaining what I am learning in public forces me into a higher level of knowledge.</p>
 <p>In the past few weeks, I have spoken about OAuth2 at <a href="https://nicolaiarocci.com/i-am-presenting-on-oauth2-at-two-conferences-this-month/">two different conferences</a>, and OAuth2 has been precisely the subject of my work for the past few months, and it still is now. It goes like this: I study and implement things, and while doing that, I say to myself, hey, this could be an exciting topic for other devs, too. I let the idea cool down for a few days, and then, if it still seems good, I start looking for a fitting call for papers. Magic happens if the proposal is accepted: I am forced to turn from a superficial connoisseur to someone close to a field expert. That&rsquo;s the level of competence to aim for if one wants to talk publicly, especially on a technical topic.</p>
 <p>Something new happened yesterday. As I was writing the OAuth2 documentation for the next iteration of our APIs, I realized I could reuse some of the material from my live sessions. In the talk, it made sense to dedicate a few minutes to explain the <a href="https://datatracker.ietf.org/doc/html/rfc6749#section-4.1">OAuth2 Authorization Code Flow</a>, so I used <a href="https://obsidian.md/canvas">Obsidian Canvas</a> to draw two diagrams, one with a high-level view of the flow while the other would zoom into the details. I could now take the first one, streamline and simplify it, and then include it in our official documentation. And that&rsquo;s what I did.</p>
@@ -351,8 +379,13 @@ In the past few weeks, I have spoken about OAuth2 at two different conferences, 
       <link>https://nicolaiarocci.com/i-am-presenting-on-oauth2-at-two-conferences-this-month/</link>
       <pubDate>Tue, 05 Mar 2024 10:36:21 +0100</pubDate>
       <guid>https://nicolaiarocci.com/i-am-presenting-on-oauth2-at-two-conferences-this-month/</guid>
-      <description>I am speaking about OAuth2 and Open ID Connect with ASP.NET Core 8 at Rome .NET Conference 2024 on March 22 and then, less than a week later, at WebDay 2024 in Milan.
-I am always particularly excited when I can present the stuff I&amp;rsquo;m currently working on. Being forced to share as I learn encourages me to go deeper into the topic to reinforce my comprehension and better explain it to the audience—a win-win situation.</description>
+      <description>&lt;p&gt;I am speaking about OAuth2 and Open ID Connect with ASP.NET Core 8 at &lt;a href=&#34;https://www.dotnetconf.it&#34;&gt;Rome .NET
+Conference 2024&lt;/a&gt; on March 22 and then, less than a
+week later, at &lt;a href=&#34;https://www.webdayconf.it&#34;&gt;WebDay 2024&lt;/a&gt; in Milan.&lt;/p&gt;
+&lt;p&gt;I am always particularly excited when I can present the stuff I&amp;rsquo;m currently
+working on. Being forced to share as I learn encourages me to go deeper into the
+topic to reinforce my comprehension and better explain it to the audience—a
+win-win situation.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I am speaking about OAuth2 and Open ID Connect with ASP.NET Core 8 at <a href="https://www.dotnetconf.it">Rome .NET
 Conference 2024</a> on March 22 and then, less than a
 week later, at <a href="https://www.webdayconf.it">WebDay 2024</a> in Milan.</p>
@@ -364,8 +397,7 @@ win-win situation.</p>
 Milan</a> (you should), feel free to use my speaker
 coupon P-SPEAKER10 for a 20% discount.  If you come to any, don&rsquo;t be shy and
 come to say Hi!</p>
-<p><img loading="lazy" src="/images/dotnet-conference-rome-2024.jpeg" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/dotnet-conference-rome-2024.jpeg"></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -373,9 +405,19 @@ come to say Hi!</p>
       <link>https://nicolaiarocci.com/video-of-my-csharp-12-session-at-dotnet-conference-italia-2023/</link>
       <pubDate>Fri, 26 Jan 2024 15:39:31 +0100</pubDate>
       <guid>https://nicolaiarocci.com/video-of-my-csharp-12-session-at-dotnet-conference-italia-2023/</guid>
-      <description>The video and slides of my C# 12 session at .NET Conference Italia 2023 is finally available online. Unfortunately it&amp;rsquo;s just my voice and my laptop screen, and that&amp;rsquo;s too bad because the location was as cool as it can get, and the room was packed.
-It is in Italian1 and you need to login in order to see it (sorry, I don&amp;rsquo;t have control over it.)
-I also submitted to several international conferences; let&amp;rsquo;s see what happens.</description>
+      <description>&lt;p&gt;The video and slides of my C# 12 session at .NET Conference Italia 2023 is
+finally &lt;a href=&#34;https://www.ugidotnet.org/e/sessione/3295/C-12-Cosa-c-e-di-nuovo-e-interessante&#34;&gt;available
+online&lt;/a&gt;.
+Unfortunately it&amp;rsquo;s just my voice and my laptop screen, and that&amp;rsquo;s too bad
+because the location was as cool as it can get, and the room was packed.&lt;/p&gt;
+&lt;p&gt;It is in Italian&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; and you need to login in order to see it (sorry, I
+don&amp;rsquo;t have control over it.)&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;I also submitted to several international conferences; let&amp;rsquo;s see what
+happens. Since the COVID hiatus, I&amp;rsquo;ve had no luck with international events.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>The video and slides of my C# 12 session at .NET Conference Italia 2023 is
 finally <a href="https://www.ugidotnet.org/e/sessione/3295/C-12-Cosa-c-e-di-nuovo-e-interessante">available
 online</a>.
@@ -399,8 +441,13 @@ happens. Since the COVID hiatus, I&rsquo;ve had no luck with international event
       <link>https://nicolaiarocci.com/i-am-speaking-at-the-dotnet-conference-italia-2023/</link>
       <pubDate>Thu, 23 Nov 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/i-am-speaking-at-the-dotnet-conference-italia-2023/</guid>
-      <description>In a few days, on Monday, December 4, at 10 a.m., I will present at the .NET Conference Italia 2023, which will be held at the Microsoft House in Milan. My session is titled &amp;ldquo;C#12 What&amp;rsquo;s new and interesting&amp;rdquo; and is part of a rich agenda focused on the recent release of .NET 8.
-I presented on the same subject at a DevRomagna meetup a few months ago when C# 12 was in preview and still had several moving parts.</description>
+      <description>&lt;p&gt;In a few days, on Monday, December 4, at 10 a.m., I will present at the .NET Conference Italia 2023, which will be held
+at the Microsoft House in Milan. My session is titled &amp;ldquo;C#12 What&amp;rsquo;s new and interesting&amp;rdquo; and is part of a &lt;a href=&#34;https://dotnetconference.it/e/3281/dotNET-Conference-Italia-2023&#34;&gt;rich agenda&lt;/a&gt;
+focused on the recent release of .NET 8.&lt;/p&gt;
+&lt;p&gt;I presented on the same subject at a &lt;a href=&#34;https://www.meetup.com/it-IT/devromagna/&#34;&gt;DevRomagna&lt;/a&gt; meetup a few months ago when C# 12 was in preview and still had
+several moving parts. Now that the final release is out, it will be interesting to return to the topic to consolidate my
+knowledge. I suspect that of the many reasons I challenge myself to speak publicly, enriching my knowledge is prevalent.
+As the adage goes, for learning a subject, nothing beats explaining it in front of a knowledgeable audience.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>In a few days, on Monday, December 4, at 10 a.m., I will present at the .NET Conference Italia 2023, which will be held
 at the Microsoft House in Milan. My session is titled &ldquo;C#12 What&rsquo;s new and interesting&rdquo; and is part of a <a href="https://dotnetconference.it/e/3281/dotNET-Conference-Italia-2023">rich agenda</a>
 focused on the recent release of .NET 8.</p>
@@ -417,8 +464,13 @@ As the adage goes, for learning a subject, nothing beats explaining it in front 
       <link>https://nicolaiarocci.com/i-am-speaking-at-webday-2023/</link>
       <pubDate>Mon, 13 Mar 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/i-am-speaking-at-webday-2023/</guid>
-      <description>On Thursday, I will be speaking in Milan at WebDay 2023. Mine is a hands-on session on building a reliable and continuous end-to-end testing environment for web apps using Microsoft Playwright. If you attended my introductory Playwright session at WPC last year, Thursday&amp;rsquo;s session would be the ideal follow-up to that one, as I only briefly touched on CI deployments there.
-Drawing from my experience doing the whole thing in production, I&amp;rsquo;ll essentially be live testing a Blazor app, then take the entire thing to remote CI via GitHub Actions.</description>
+      <description>&lt;p&gt;On Thursday, I will be speaking in Milan at &lt;a href=&#34;https://www.webdayconf.it/&#34;&gt;WebDay 2023&lt;/a&gt;. Mine is a hands-on session on building a reliable and
+continuous end-to-end testing environment for web apps using Microsoft Playwright. If you attended my &lt;a href=&#34;https://nicolaiarocci.com/my-session-at-wpc-2022/&#34;&gt;introductory
+Playwright session at WPC&lt;/a&gt; last year, Thursday&amp;rsquo;s session would be the ideal follow-up to that one, as I
+only briefly touched on CI deployments there.&lt;/p&gt;
+&lt;p&gt;Drawing from my experience doing the whole thing in production, I&amp;rsquo;ll essentially be live testing a Blazor app, then take
+the entire thing to remote CI via GitHub Actions. In the process, I&amp;rsquo;ll show some of the issues we faced, share how we
+solved them, and offer some practices we adopted.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>On Thursday, I will be speaking in Milan at <a href="https://www.webdayconf.it/">WebDay 2023</a>. Mine is a hands-on session on building a reliable and
 continuous end-to-end testing environment for web apps using Microsoft Playwright. If you attended my <a href="https://nicolaiarocci.com/my-session-at-wpc-2022/">introductory
 Playwright session at WPC</a> last year, Thursday&rsquo;s session would be the ideal follow-up to that one, as I
@@ -436,8 +488,18 @@ again in front of a real crowd.</p>
       <link>https://nicolaiarocci.com/on-the-state-of-developer-conferences/</link>
       <pubDate>Thu, 23 Feb 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-the-state-of-developer-conferences/</guid>
-      <description>Brian Rinaldi has an insightful post on his blog about the current state of developer conferences, where &amp;lsquo;current state&amp;rsquo; means post-COVID pandemic. Brian is well-positioned to reason about this space as a long-time conference organizer. I appreciate that he also takes the time to explain how the developer conference business works. The core of his blog is about post-pandemic conference attendance, which has plunged.
-independent, in-person developer conferences are hurting. Based on my own observation as well as talks with organizers and sponsors that I have come to know over the years, the average independent in-person event is still down 30-40% from pre-pandemic attendance levels.</description>
+      <description>&lt;p&gt;Brian Rinaldi has an insightful post on &lt;a href=&#34;https://remotesynthesis.com/blog/developer-conferences/&#34;&gt;his blog&lt;/a&gt; about the current state of
+developer conferences, where &amp;lsquo;current state&amp;rsquo; means post-COVID pandemic. Brian
+is well-positioned to reason about this space as a long-time conference
+organizer. I appreciate that he also takes the time to explain how the
+developer conference business works. The core of his blog is about
+post-pandemic conference attendance, which has plunged.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;independent, in-person developer conferences are hurting. Based on my own
+observation as well as talks with organizers and sponsors that I have come to
+know over the years, the average independent in-person event is still down
+30-40% from pre-pandemic attendance levels. And often it seems to require
+massive discounts or even giveaways to get to this level.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Brian Rinaldi has an insightful post on <a href="https://remotesynthesis.com/blog/developer-conferences/">his blog</a> about the current state of
 developer conferences, where &lsquo;current state&rsquo; means post-COVID pandemic. Brian
 is well-positioned to reason about this space as a long-time conference
@@ -449,8 +511,7 @@ post-pandemic conference attendance, which has plunged.</p>
 observation as well as talks with organizers and sponsors that I have come to
 know over the years, the average independent in-person event is still down
 30-40% from pre-pandemic attendance levels. And often it seems to require
-massive discounts or even giveaways to get to this level.</p>
-</blockquote>
+massive discounts or even giveaways to get to this level.</p></blockquote>
 <p>And he offers an interesting theory on why that is:</p>
 <blockquote>
 <p>My hypothesis is that we’ve bifurcated the audience somewhat. The folks that
@@ -459,8 +520,7 @@ so more cheaply and efficiently online via virtual conferences or recordings.
 The folks that went for the networking as a primary driver, on the other
 hand, are largely eschewing online events as not fulfilling their needs.
 [&hellip;] So ultimately what we are left with is a lower in-person audience and a
-lower virtual audience.</p>
-</blockquote>
+lower virtual audience.</p></blockquote>
 <p>As a conference speaker and meetup organizer, I noticed that online events saw
 low attendance during the pandemic, and they still do today. When available,
 recordings partially compensate, but only in audience terms. The problem is
@@ -498,8 +558,14 @@ pandemic hiatus threw a ton of fresh new viewers at them.</p>
       <link>https://nicolaiarocci.com/my-session-at-wpc-2022/</link>
       <pubDate>Wed, 19 Oct 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/my-session-at-wpc-2022/</guid>
-      <description>Yesterday I was at WPC 2022, &amp;ldquo;the most important Italian conference on Microsoft technologies&amp;rdquo;, where I presented a one-hour session titled &amp;ldquo;Reliable end-to-end testing for modern web apps with Microsoft Playwright.&amp;rdquo;
-Attendance was great and there was a lot of excitement up in the air; it was evident that people were happy to meet and interact in person again. After the forced two years hiatus, it was great to be back at a big on-site conference, let alone speak at it.</description>
+      <description>&lt;p&gt;Yesterday I was at &lt;a href=&#34;https://www.wpc2022.it/&#34;&gt;WPC 2022&lt;/a&gt;, &amp;ldquo;the most important Italian conference on
+Microsoft technologies&amp;rdquo;, where I presented a one-hour session titled &amp;ldquo;Reliable
+end-to-end testing for modern web apps with Microsoft Playwright.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Attendance was great and there was a lot of excitement up in the air; it was
+evident that people were happy to meet and interact in person again. After the
+forced two years hiatus, it was great to be back at a big on-site conference,
+let alone speak at it. I delivered my talk to a packed-full room of nodding,
+smiling and questioning attendees, which felt fantastic.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Yesterday I was at <a href="https://www.wpc2022.it/">WPC 2022</a>, &ldquo;the most important Italian conference on
 Microsoft technologies&rdquo;, where I presented a one-hour session titled &ldquo;Reliable
 end-to-end testing for modern web apps with Microsoft Playwright.&rdquo;</p>
@@ -508,8 +574,7 @@ evident that people were happy to meet and interact in person again. After the
 forced two years hiatus, it was great to be back at a big on-site conference,
 let alone speak at it. I delivered my talk to a packed-full room of nodding,
 smiling and questioning attendees, which felt fantastic.</p>
-<p><img loading="lazy" src="/images/wpc2022-1.jpg" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/wpc2022-1.jpg"></p>
 <p>I think I&rsquo;m satisfied with my delivery, although I managed to screw up a few
 things, most notably showing my Twitter password live (that was a funny
 moment)<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. I also forgot to mention a couple of things.</p>
@@ -565,8 +630,25 @@ break, unexpected and undesirable for many reasons, did me good.</p>
       <link>https://nicolaiarocci.com/my-playwright-session-at-webday-2022/</link>
       <pubDate>Fri, 01 Apr 2022 06:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/my-playwright-session-at-webday-2022/</guid>
-      <description>If you understand Italian, the recording of my Playwright session at UGIdotNET&amp;rsquo;s WebDay 2022 is now available on YouTube1. Playwright is a phenomenal cross-browser, cross-platform, cross-language, single-API, mobile-friendly front-end testing tool.
-I&amp;rsquo;m looking forward to giving the same session in English sooner or later, but I should first win my laziness and start looking for exciting events with open CFPs. If you happen to know one, please let me know.</description>
+      <description>&lt;p&gt;If you understand Italian, the recording of my Playwright session at
+UGIdotNET&amp;rsquo;s &lt;a href=&#34;https://www.ugidotnet.org/e/2840/Web-Day-2022&#34;&gt;WebDay 2022&lt;/a&gt; is now available on YouTube&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Playwright is
+a phenomenal cross-browser, cross-platform, cross-language, single-API,
+mobile-friendly front-end testing tool.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m looking forward to giving the same session in English sooner or later, but
+I should first win my laziness and start looking for exciting events with open
+CFPs. If you happen to know one, please let me know.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/BaY9WIHUwFc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;A couple weeks later I also presented at &lt;a href=&#34;https://www.meetup.com/it-IT/DevRomagna/events/284626987/&#34;&gt;DevRomagna&lt;/a&gt;, the local meetup I run.
+[rss]: &lt;a href=&#34;https://nicolaiarocci.com/index.xml&#34;&gt;https://nicolaiarocci.com/index.xml&lt;/a&gt;
+[tw]: &lt;a href=&#34;http://twitter.com/nicolaiarocci&#34;&gt;http://twitter.com/nicolaiarocci&lt;/a&gt;
+[nl]: &lt;a href=&#34;https://buttondown.email/nicolaiarocci&#34;&gt;https://buttondown.email/nicolaiarocci&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>If you understand Italian, the recording of my Playwright session at
 UGIdotNET&rsquo;s <a href="https://www.ugidotnet.org/e/2840/Web-Day-2022">WebDay 2022</a> is now available on YouTube<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Playwright is
 a phenomenal cross-browser, cross-platform, cross-language, single-API,
@@ -574,10 +656,9 @@ mobile-friendly front-end testing tool.</p>
 <p>I&rsquo;m looking forward to giving the same session in English sooner or later, but
 I should first win my laziness and start looking for exciting events with open
 CFPs. If you happen to know one, please let me know.</p>
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/BaY9WIHUwFc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/BaY9WIHUwFc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
 <div class="footnotes" role="doc-endnotes">
 <hr>
@@ -597,7 +678,13 @@ CFPs. If you happen to know one, please let me know.</p>
       <link>https://nicolaiarocci.com/seven-years-ago-at-fosdem/</link>
       <pubDate>Mon, 15 Feb 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/seven-years-ago-at-fosdem/</guid>
-      <description>About seven years ago, I presented the Eve Framework in a very crowded Python room at FOSDEM 2014 in Brussels. If you don&amp;rsquo;t know about FOSDEM, well, you should check it out. Every year thousands of developers who recognize themselves with the free and open-source movement gather in Brussels from all over the world. And I mean thousands of them. According to Wikipedia, since 2011, the meeting hosts about 4,000 visitors every year.</description>
+      <description>&lt;p&gt;About seven years ago, I presented the Eve Framework in a very crowded Python
+room at FOSDEM 2014 in Brussels. If you don&amp;rsquo;t know about FOSDEM, well, you
+should check it out. Every year thousands of developers who recognize
+themselves with the free and open-source movement gather in Brussels from all
+over the world. And I mean thousands of them. According to Wikipedia, since
+2011, the meeting hosts about 4,000 visitors every year. It&amp;rsquo;s huge, and it&amp;rsquo;s
+a one of its kind.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>About seven years ago, I presented the Eve Framework in a very crowded Python
 room at FOSDEM 2014 in Brussels. If you don&rsquo;t know about FOSDEM, well, you
 should check it out. Every year thousands of developers who recognize
@@ -610,8 +697,7 @@ that post, I also wrote:</p>
 <blockquote>
 <p>Any conference junkie will tell you that she/he attends for the people first,
 and only then for the sessions themselves. At these events, the most exciting
-stuff happens in the corridors, usually during breaks.</p>
-</blockquote>
+stuff happens in the corridors, usually during breaks.</p></blockquote>
 <p>At that FOSDEM seven years ago, I experienced one of those corridor moments. It
 did not really happen in a corridor, however.</p>
 <p>I was at the Delirium Cafe one night, with my good friend (and exceptionally
@@ -656,8 +742,18 @@ the back of his hand. Someone wasn&rsquo;t so smart on that night.</p>
       <link>https://nicolaiarocci.com/upcoming-speaking-engagements-with-ramblings/</link>
       <pubDate>Fri, 29 Jan 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/upcoming-speaking-engagements-with-ramblings/</guid>
-      <description>I am presenting at two different events in February next month. Given the current COVID situation, that is entirely unexpected. In 2020 I only gave four talks, three of which were virtual. I am not holding my breath for 2021. Conferences are going virtual all year-long. Next year too, most likely.
-There are some clear advantages in going virtual, but the final result is a net negative. Any conference junkie will tell you that she/he attends for the people first, and only then for the sessions themselves.</description>
+      <description>&lt;p&gt;I am presenting at two different events in February next month. Given the
+current COVID situation, that is entirely unexpected. In 2020 I only gave &lt;a href=&#34;https://nicolaiarocci.com/speaking&#34;&gt;four
+talks&lt;/a&gt;, three of which were virtual. I am not holding my breath for 2021.
+Conferences are going virtual all year-long. Next year too, most likely.&lt;/p&gt;
+&lt;p&gt;There are some clear advantages in going virtual, but the final result is a net
+negative. Any conference junkie will tell you that she/he attends for the
+people first, and only then for the sessions themselves. At these events, the
+most exciting stuff happens in the corridors, usually during breaks. A little
+story here. You might know that I run a motorcycle club. Well, the very idea of
+founding it was actually ignited by a corridor chat, few minutes after
+I delivered a session. Replicating this kind of in-person interaction online
+is, well, next to impossible.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I am presenting at two different events in February next month. Given the
 current COVID situation, that is entirely unexpected. In 2020 I only gave <a href="/speaking">four
 talks</a>, three of which were virtual. I am not holding my breath for 2021.
@@ -704,7 +800,7 @@ no matter where she/he lives on the planet. So, maybe you will fancy join us?</p
       <link>https://nicolaiarocci.com/una-mattinata-con-mongodb/</link>
       <pubDate>Wed, 10 Oct 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/una-mattinata-con-mongodb/</guid>
-      <description>Il prossimo 24 ottobre sarò a Milano per A Morning with MongoDB, evento ufficiale 10gen nel corso del quale racconterò la mia esperienza nell’integrazione di MongoDB in una Web REST API. Partecipazione e registrazione sono gratuite: cosa aspettate?</description>
+      <description>&lt;p&gt;Il prossimo 24 ottobre sarò a Milano per &lt;!-- raw HTML omitted --&gt;A Morning with MongoDB&lt;!-- raw HTML omitted --&gt;, evento ufficiale 10gen nel corso del quale racconterò la mia esperienza nell’integrazione di MongoDB in una Web REST API. Partecipazione e &lt;!-- raw HTML omitted --&gt;registrazione&lt;!-- raw HTML omitted --&gt; sono gratuite: cosa aspettate?&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Il prossimo 24 ottobre sarò a Milano per <!-- raw HTML omitted -->A Morning with MongoDB<!-- raw HTML omitted -->, evento ufficiale 10gen nel corso del quale racconterò la mia esperienza nell’integrazione di MongoDB in una Web REST API. Partecipazione e <!-- raw HTML omitted -->registrazione<!-- raw HTML omitted --> sono gratuite: cosa aspettate?</p>
 ]]></content:encoded>
     </item>
@@ -743,8 +839,11 @@ no matter where she/he lives on the planet. So, maybe you will fancy join us?</p
       <link>https://nicolaiarocci.com/speaker-a-europython-2012/</link>
       <pubDate>Fri, 13 Apr 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/speaker-a-europython-2012/</guid>
-      <description>EuroPython è la conferenza europea di riferimento per il linguaggio Python. Si terrà anche quest’anno a Firenze, dal 2 al 8 luglio. Sono in programma molti interventi davvero interessanti, cosa che rende ancor più soprendente il fatto che i miei talk siano stati votati così tanto.
-Date un’occhiata al sito ufficiale per saperne di più sulla conferenza (in questo momento è ancora possibile approfittare dell’offerta early bird per l’acquisto dei biglietti); maggiori informazioni sui miei interventi tra qualche tempo, quando sarà ufficializzato il calendario dei talk.</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;EuroPython è la conferenza europea di riferimento per il linguaggio Python. Si terrà anche quest’anno a Firenze, dal 2 al 8 luglio. Sono in programma molti interventi davvero interessanti, cosa che rende ancor più soprendente il fatto che i miei talk siano stati votati così tanto.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Date un’occhiata al &lt;!-- raw HTML omitted --&gt;sito ufficiale&lt;!-- raw HTML omitted --&gt; per saperne di più sulla conferenza (in questo momento è ancora possibile approfittare dell’offerta &lt;em&gt;early bird&lt;/em&gt; per l’acquisto dei biglietti); maggiori informazioni sui miei interventi tra qualche tempo, quando sarà ufficializzato il calendario dei talk.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <p>EuroPython è la conferenza europea di riferimento per il linguaggio Python. Si terrà anche quest’anno a Firenze, dal 2 al 8 luglio. Sono in programma molti interventi davvero interessanti, cosa che rende ancor più soprendente il fatto che i miei talk siano stati votati così tanto.</p>

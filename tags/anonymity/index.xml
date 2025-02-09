@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>anonymity on Nicola Iarocci</title>
+    <title>Anonymity on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/anonymity/</link>
-    <description>Recent content in anonymity on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Anonymity on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 01 Apr 2021 07:05:25 +0100</lastBuildDate>
@@ -14,15 +14,23 @@
       <link>https://nicolaiarocci.com/the-hitchhikers-guide-to-online-anonymity/</link>
       <pubDate>Thu, 01 Apr 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-hitchhikers-guide-to-online-anonymity/</guid>
-      <description>This is a maintained technical guide that aims to provide introduction to various online tracking techniques, online id verification techniques and guidance to creating and maintaining (truly) anonymous online identities including social media accounts safely and legally. No pre-requisites besides English reading are required.
-At a glance, I suspect most people will be tempted to dismiss The Hitchhiker&amp;rsquo;s Guide to Online Anonymity as borderline paranoia. But make no mistake, it is a great resource.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This is a maintained technical guide that aims to provide introduction to
+various online tracking techniques, online id verification techniques and
+guidance to creating and maintaining (truly) anonymous online identities
+including social media accounts safely and legally. No pre-requisites besides
+English reading are required.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;At a glance, I suspect most people will be tempted to dismiss &lt;a href=&#34;https://anonymousplanet.org/index.html&#34;&gt;The Hitchhiker&amp;rsquo;s
+Guide to Online Anonymity&lt;/a&gt; as borderline paranoia. But make no mistake, it
+is a great resource. Granted, not everyone on the Internet is interested in
+anonymous identities (I am not) or concerned about NSA or the Mossad hunting
+them down. People have different threat levels.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
 <p>This is a maintained technical guide that aims to provide introduction to
 various online tracking techniques, online id verification techniques and
 guidance to creating and maintaining (truly) anonymous online identities
 including social media accounts safely and legally. No pre-requisites besides
-English reading are required.</p>
-</blockquote>
+English reading are required.</p></blockquote>
 <p>At a glance, I suspect most people will be tempted to dismiss <a href="https://anonymousplanet.org/index.html">The Hitchhiker&rsquo;s
 Guide to Online Anonymity</a> as borderline paranoia. But make no mistake, it
 is a great resource. Granted, not everyone on the Internet is interested in

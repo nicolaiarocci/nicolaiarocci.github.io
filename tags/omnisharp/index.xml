@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>omnisharp on Nicola Iarocci</title>
+    <title>Omnisharp on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/omnisharp/</link>
-    <description>Recent content in omnisharp on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Omnisharp on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 03 Mar 2023 08:05:25 +0100</lastBuildDate>
@@ -14,15 +14,17 @@
       <link>https://nicolaiarocci.com/making-csharp-and-omnisharp-play-well-with-neovim/</link>
       <pubDate>Fri, 03 Mar 2023 08:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/making-csharp-and-omnisharp-play-well-with-neovim/</guid>
-      <description>I&amp;rsquo;ve recently moved away from my custom Neovim configuration to embrace LazyVim. LazyVim is a Neovim setup with sane default settings for options, autocmds, and keymaps. It boldly aims to transform Neovim into a full-fledged IDE that is easy to extend and customize. It comes with a wealth of plugins pre-configured and ready to use, and it is also blazing fast. Elijah Manor has a fantastic introductory video on YouTube; I suggest you take the time to look at it.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve recently moved away from my custom Neovim configuration to embrace &lt;a href=&#34;https://www.lazyvim.org/&#34;&gt;LazyVim&lt;/a&gt;. LazyVim is a Neovim setup with sane
+default settings for options, autocmds, and keymaps. It boldly aims to transform Neovim into a full-fledged IDE that is
+easy to extend and customize. It comes with a wealth of plugins pre-configured and ready to use, and it is also blazing
+fast. Elijah Manor has a fantastic introductory video on YouTube; I suggest you take the time to look at it.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I&rsquo;ve recently moved away from my custom Neovim configuration to embrace <a href="https://www.lazyvim.org/">LazyVim</a>. LazyVim is a Neovim setup with sane
 default settings for options, autocmds, and keymaps. It boldly aims to transform Neovim into a full-fledged IDE that is
 easy to extend and customize. It comes with a wealth of plugins pre-configured and ready to use, and it is also blazing
 fast. Elijah Manor has a fantastic introductory video on YouTube; I suggest you take the time to look at it.</p>
-<p>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/N93cTbtLCIM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+<p><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/N93cTbtLCIM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
 <!-- raw HTML omitted -->
 So far I&rsquo;m delighted with the result. In the process, I learned about several useful plugins I now use regularly.</p>

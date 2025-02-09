@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>c on Nicola Iarocci</title>
+    <title>C on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/c/</link>
-    <description>Recent content in c on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in C on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 20 Apr 2015 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://nicolaiarocci.com/f-vs-c/</link>
       <pubDate>Mon, 20 Apr 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/f-vs-c/</guid>
-      <description>I have another guest post up at the official MSDN Team Blog. Titled F# Versus C#, it is an attempt at a gentle introduction to F# for the Italian C# developer.</description>
+      <description>&lt;p&gt;I have another guest post up at the official MSDN Team Blog. Titled &lt;a href=&#34;http://blogs.msdn.com/b/italy/archive/2015/04/17/f-vs-c.aspx&#34;&gt;F# Versus C#&lt;/a&gt;, it is an attempt at a gentle introduction to F# for the Italian C# developer.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I have another guest post up at the official MSDN Team Blog. Titled <a href="http://blogs.msdn.com/b/italy/archive/2015/04/17/f-vs-c.aspx">F# Versus C#</a>, it is an attempt at a gentle introduction to F# for the Italian C# developer.</p>
 ]]></content:encoded>
     </item>
@@ -123,10 +123,10 @@ public class Company : BaseClass
       <link>https://nicolaiarocci.com/learn-c-then-learn-computer-science/</link>
       <pubDate>Wed, 12 Feb 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/learn-c-then-learn-computer-science/</guid>
-      <description>This is the problem with emphasizing computer science over learning to code. Without an understanding of what’s happening at a low level, my peers ran into issues […] and had no idea what to do to debug them. This is a problem that stems from teaching people computer science but not teaching them how to code. Learning to code isn’t just teaching people how to spell – it’s teaching people the meaning behind the words.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This is the problem with emphasizing computer science over learning to code. Without an understanding of what’s happening at a low level, my peers ran into issues […] and had no idea what to do to debug them. This is a problem that stems from teaching people computer science but not teaching them how to code. Learning to code isn’t just teaching people how to spell – it’s teaching people the meaning behind the words.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>This is the problem with emphasizing computer science over learning to code. Without an understanding of what’s happening at a low level, my peers ran into issues […] and had no idea what to do to debug them. This is a problem that stems from teaching people computer science but not teaching them how to code. Learning to code isn’t just teaching people how to spell – it’s teaching people the meaning behind the words.</p>
-</blockquote>
+<p>This is the problem with emphasizing computer science over learning to code. Without an understanding of what’s happening at a low level, my peers ran into issues […] and had no idea what to do to debug them. This is a problem that stems from teaching people computer science but not teaching them how to code. Learning to code isn’t just teaching people how to spell – it’s teaching people the meaning behind the words.</p></blockquote>
 <p>via <a href="http://qrohlf.com/posts/learn-to-code-then-learn-cs/">Learn C, Then Learn Computer Science</a></p>
 ]]></content:encoded>
     </item>
@@ -135,13 +135,13 @@ public class Company : BaseClass
       <link>https://nicolaiarocci.com/the-descent-to-c/</link>
       <pubDate>Sat, 01 Feb 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/the-descent-to-c/</guid>
-      <description>This is really worth you time if you’re looking to learn C language (you should).
-This article attempts to give a sort of ‘orientation tour’ for people whose previous programming background is in high (ish) level languages such as Java or Python, and who now find that they need or want to learn C.
-via The Descent to C.</description>
+      <description>&lt;p&gt;This is really worth you time if you’re looking to learn C language (you should).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This article attempts to give a sort of ‘orientation tour’ for people whose previous programming background is in high (ish) level languages such as Java or Python, and who now find that they need or want to learn C.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;via &lt;a href=&#34;http://www.chiark.greenend.org.uk/~sgtatham/cdescent/&#34;&gt;The Descent to C&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>This is really worth you time if you’re looking to learn C language (you should).</p>
 <blockquote>
-<p>This article attempts to give a sort of ‘orientation tour’ for people whose previous programming background is in high (ish) level languages such as Java or Python, and who now find that they need or want to learn C.</p>
-</blockquote>
+<p>This article attempts to give a sort of ‘orientation tour’ for people whose previous programming background is in high (ish) level languages such as Java or Python, and who now find that they need or want to learn C.</p></blockquote>
 <p>via <a href="http://www.chiark.greenend.org.uk/~sgtatham/cdescent/">The Descent to C</a>.</p>
 ]]></content:encoded>
     </item>
@@ -150,12 +150,12 @@ via The Descent to C.</description>
       <link>https://nicolaiarocci.com/the-development-of-the-c-language/</link>
       <pubDate>Wed, 08 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/the-development-of-the-c-language/</guid>
-      <description>Dennis M. Ritchie ‘The Development of the C Language’ is one of those things any programmer should read soon or later, if nothing else for historic reasons.
-C came into being in the years 1969-1973, in parallel with the early development of the Unix operating system; the most creative period occurred during 1972. Another spate of changes peaked between 1977 and 1979, when portability of the Unix system was being demonstrated.</description>
+      <description>&lt;p&gt;Dennis M. Ritchie ‘The Development of the C Language’ is one of those things any programmer should read soon or later, if nothing else for historic reasons.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;C came into being in the years 1969-1973, in parallel with the early development of the Unix operating system; the most creative period occurred during 1972. Another spate of changes peaked between 1977 and 1979, when portability of the Unix system was being demonstrated. In the middle of this second period, the first widely available description of the language appeared: The C Programming Language, often called the `white book’ or `K&amp;amp;R’ [Kernighan 78].&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Dennis M. Ritchie ‘The Development of the C Language’ is one of those things any programmer should read soon or later, if nothing else for historic reasons.</p>
 <blockquote>
-<p>C came into being in the years 1969-1973, in parallel with the early development of the Unix operating system; the most creative period occurred during 1972. Another spate of changes peaked between 1977 and 1979, when portability of the Unix system was being demonstrated. In the middle of this second period, the first widely available description of the language appeared: The C Programming Language, often called the `white book’ or `K&amp;R’ [Kernighan 78].</p>
-</blockquote>
+<p>C came into being in the years 1969-1973, in parallel with the early development of the Unix operating system; the most creative period occurred during 1972. Another spate of changes peaked between 1977 and 1979, when portability of the Unix system was being demonstrated. In the middle of this second period, the first widely available description of the language appeared: The C Programming Language, often called the `white book’ or `K&amp;R’ [Kernighan 78].</p></blockquote>
 <p>via <a href="http://cm.bell-labs.com/who/dmr/chist.html">Chistory</a>.</p>
 ]]></content:encoded>
     </item>
@@ -192,7 +192,7 @@ C came into being in the years 1969-1973, in parallel with the early development
       <link>https://nicolaiarocci.com/libri-gratuiti-sul-linguaggio-c/</link>
       <pubDate>Sat, 09 Feb 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/libri-gratuiti-sul-linguaggio-c/</guid>
-      <description>9 of the Best Free C Books è un’ottima selezione di libri gratuiti sul linguaggio C. C’è n’è per tutti, dai testi per principianti a quelli per programmatori esperti provenienti da altri linguaggi. Lo sapete già, C dovrebbe far parte del bagaglio di ogni programmatore.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;9 of the Best Free C Books&lt;!-- raw HTML omitted --&gt; è un’ottima selezione di libri gratuiti sul linguaggio C. C’è n’è per tutti, dai testi per principianti a quelli per programmatori esperti provenienti da altri linguaggi. Lo sapete già, C dovrebbe far parte del bagaglio di ogni programmatore.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->9 of the Best Free C Books<!-- raw HTML omitted --> è un’ottima selezione di libri gratuiti sul linguaggio C. C’è n’è per tutti, dai testi per principianti a quelli per programmatori esperti provenienti da altri linguaggi. Lo sapete già, C dovrebbe far parte del bagaglio di ogni programmatore.</p>
 ]]></content:encoded>
     </item>
@@ -201,12 +201,12 @@ C came into being in the years 1969-1973, in parallel with the early development
       <link>https://nicolaiarocci.com/programmazione-asincrona/</link>
       <pubDate>Fri, 29 Oct 2010 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/programmazione-asincrona/</guid>
-      <description>Un articolo sul Somasegar’s Weblog annuncia oggi il rilascio imminente di un nuovo modello di programmazione asincrona per C# and VB:
-Today, we are unveiling significant language and framework enhancements in C# and Visual Basic that enable developers to harness asynchrony, letting them retain the control flow from their synchronous code while developing responsive user interfaces and scalable web applications with greater ease. This CTP delivers a lightweight asynchronous development experience as close to the standard synchronous paradigms as possible, while providing an easy on-ramp to the world of concurrency</description>
+      <description>&lt;p&gt;Un articolo sul &lt;!-- raw HTML omitted --&gt;Somasegar’s Weblog&lt;!-- raw HTML omitted --&gt; annuncia oggi il rilascio imminente di un nuovo modello di programmazione asincrona per C# and VB:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Today, we are unveiling significant language and framework enhancements in C# and Visual Basic that enable developers to harness asynchrony, letting them retain the control flow from their synchronous code while developing responsive user interfaces and scalable web applications with greater ease.   This CTP delivers a lightweight asynchronous development experience as close to the standard synchronous paradigms as possible, while providing an easy on-ramp to the world of concurrency&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Un articolo sul <!-- raw HTML omitted -->Somasegar’s Weblog<!-- raw HTML omitted --> annuncia oggi il rilascio imminente di un nuovo modello di programmazione asincrona per C# and VB:</p>
 <blockquote>
-<p>Today, we are unveiling significant language and framework enhancements in C# and Visual Basic that enable developers to harness asynchrony, letting them retain the control flow from their synchronous code while developing responsive user interfaces and scalable web applications with greater ease.   This CTP delivers a lightweight asynchronous development experience as close to the standard synchronous paradigms as possible, while providing an easy on-ramp to the world of concurrency</p>
-</blockquote>
+<p>Today, we are unveiling significant language and framework enhancements in C# and Visual Basic that enable developers to harness asynchrony, letting them retain the control flow from their synchronous code while developing responsive user interfaces and scalable web applications with greater ease.   This CTP delivers a lightweight asynchronous development experience as close to the standard synchronous paradigms as possible, while providing an easy on-ramp to the world of concurrency</p></blockquote>
 <p>Lo stesso Somasegar riconosce che finora sviluppare applicazioni asincrone complesse con la piattaforma .NET non è stato facile. Tempo fa l’ho sperimentato in prima persona. Lavoravo su <a href="http://gestionaleamica.com/Backup/">Amica Prodigy Backup</a>, una applicazione di backup remoto.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->

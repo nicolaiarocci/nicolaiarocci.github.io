@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>mobile on Nicola Iarocci</title>
+    <title>Mobile on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/mobile/</link>
-    <description>Recent content in mobile on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Mobile on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 09 May 2012 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://nicolaiarocci.com/whymca-mobile-developer-conference-2012/</link>
       <pubDate>Wed, 09 May 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/whymca-mobile-developer-conference-2012/</guid>
-      <description>Parteciperò alla WhyMCA Mobile Developer Conference a Bologna il 24 e 25 maggio. Il programma mi sembra piuttosto interessante. Se pensate di venire fatemelo sapere che vediamo di incotrarci.</description>
+      <description>&lt;p&gt;Parteciperò alla &lt;!-- raw HTML omitted --&gt;WhyMCA Mobile Developer Conference&lt;!-- raw HTML omitted --&gt; a Bologna il 24 e 25 maggio. Il programma mi sembra piuttosto interessante. Se pensate di venire &lt;a href=&#34;http://nicolaiarocci.com/contatti/&#34; title=&#34;Contatti&#34;&gt;fatemelo sapere&lt;/a&gt; che vediamo di incotrarci.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Parteciperò alla <!-- raw HTML omitted -->WhyMCA Mobile Developer Conference<!-- raw HTML omitted --> a Bologna il 24 e 25 maggio. Il programma mi sembra piuttosto interessante. Se pensate di venire <a href="http://nicolaiarocci.com/contatti/" title="Contatti">fatemelo sapere</a> che vediamo di incotrarci.</p>
 ]]></content:encoded>
     </item>
@@ -39,7 +39,6 @@
 <ol start="3">
 <li>**[<!-- raw HTML omitted -->Settimana ricca di avvenimenti anche questa. SEO, Startup e applicazioni per Smartphone in primo piano ma non mancano altre chicche per buongustai. Al decimo posto una curiosità non ha nulla da spartire con gli argomenti trattati di solito, ma quelle foto dovevo segnalarvele. Ringrazio chi mi ha contattato via mail, Facebook e Twitter. A quanto pare la rubrica piace e farò il possibile per portarla avanti migliorando la qualità delle selezioni, come sempre assolutamente arbitrarie.</li>
 </ol>
-<!-- raw HTML omitted -->
 <ol>
 <li><strong><a href="http://cdixon.org/2011/03/05/seo-is-no-longer-a-viable-marketing-strategy-for-startups/">SEO non è più una strategia valida per le Startup</a></strong></li>
 </ol>

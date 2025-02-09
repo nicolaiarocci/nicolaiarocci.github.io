@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>oauth2 on Nicola Iarocci</title>
+    <title>Oauth2 on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/oauth2/</link>
-    <description>Recent content in oauth2 on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Oauth2 on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 04 Feb 2015 00:00:00 +0000</lastBuildDate>
@@ -14,18 +14,17 @@
       <link>https://nicolaiarocci.com/a-sentinel-for-your-flask-applications/</link>
       <pubDate>Wed, 04 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/a-sentinel-for-your-flask-applications/</guid>
-      <description>Flask-Sentinel is a OAuth2 Server implementation of the Resource Owner Password Credentials Grant pattern described in Section 1.3.3 of RFC 6749. It is powered by Flask-Oauthlib, Redis and MongoDB and is bundled as a Flask extension so it can be used to add OAuth2 capabilities to an existing application.
-So what is the Resource Owner Password Credentials Grant pattern? According to the official RFC:
-The resource owner password credentials (i.e., username and password) can be used directly as an authorization grant to obtain an access token.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/nicolaiarocci/flask-sentinel&#34;&gt;Flask-Sentinel&lt;/a&gt; is a OAuth2 Server implementation of the Resource Owner Password Credentials Grant pattern described in &lt;a href=&#34;http://tools.ietf.org/html/rfc6749#section-1.3.3&#34;&gt;Section 1.3.3 of RFC 6749&lt;/a&gt;. It is powered by Flask-Oauthlib, Redis and MongoDB and is bundled as a Flask extension so it can be used to add OAuth2 capabilities to an existing application.&lt;/p&gt;
+&lt;p&gt;So what is the Resource Owner Password Credentials Grant pattern? According to the official RFC:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The resource owner password credentials (i.e., username and password) can be used directly as an authorization grant to obtain an access token. The credentials should only be used when there is a high degree of trust between the resource owner and the client (e.g., the client is part of the device operating system or a highly privileged application).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="https://github.com/nicolaiarocci/flask-sentinel">Flask-Sentinel</a> is a OAuth2 Server implementation of the Resource Owner Password Credentials Grant pattern described in <a href="http://tools.ietf.org/html/rfc6749#section-1.3.3">Section 1.3.3 of RFC 6749</a>. It is powered by Flask-Oauthlib, Redis and MongoDB and is bundled as a Flask extension so it can be used to add OAuth2 capabilities to an existing application.</p>
 <p>So what is the Resource Owner Password Credentials Grant pattern? According to the official RFC:</p>
 <blockquote>
-<p>The resource owner password credentials (i.e., username and password) can be used directly as an authorization grant to obtain an access token. The credentials should only be used when there is a high degree of trust between the resource owner and the client (e.g., the client is part of the device operating system or a highly privileged application).</p>
-</blockquote>
+<p>The resource owner password credentials (i.e., username and password) can be used directly as an authorization grant to obtain an access token. The credentials should only be used when there is a high degree of trust between the resource owner and the client (e.g., the client is part of the device operating system or a highly privileged application).</p></blockquote>
 <p>A typical use case would be when the remote API maintainer controls the client application. Say that you have a REST API being consumed by your own iOS, Android, WinPhone, desktop or web applications. Users register to your service by creating their accounts. Then, they consume the service using your applications.</p>
 <blockquote>
-<p>Even though this grant type requires direct client access to the resource owner credentials, the resource owner credentials are used for a single request and are exchanged for an access token. This grant type can eliminate the need for the client to store the resource owner credentials for future use, by exchanging the credentials with a long-lived access token or refresh token.</p>
-</blockquote>
+<p>Even though this grant type requires direct client access to the resource owner credentials, the resource owner credentials are used for a single request and are exchanged for an access token. This grant type can eliminate the need for the client to store the resource owner credentials for future use, by exchanging the credentials with a long-lived access token or refresh token.</p></blockquote>
 <p>So let’s get back at the proprietary client scenario. The user has just installed the application on his/her device. On first run he/she is asked to provide his/her username and password. These are sent to the OAuth2 server through a SSL/TLS encrypted channel. If the user is registered for the service and the client id, which has also been sent along with the user credentials, is recognised, then the server sends back a valid access token. Otherwise responds with a <code>401 Unhautorized</code>.</p>
 <p>From now on the application will only be using the access token for all requests until, eventually, the token expires. If that happens, the cycle repeats. Please note that in this scenario the client does not need to (and probably should not) store the username and/or password on the local cache. The User Credentials pattern usually relies on long lived tokens so asking again for username and password is not a big deal (you could also opt for permanent, revokable tokens.)</p>
 <p>Flask-Sentinel provides two endpoints: one for token creation which defaults to <code>/oauth/token</code> and is consumed by clients, and another for users and clients management, accessible at <code>/oauth/management</code>:</p>

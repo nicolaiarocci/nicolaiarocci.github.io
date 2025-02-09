@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>indieweb on Nicola Iarocci</title>
+    <title>Indieweb on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/indieweb/</link>
-    <description>Recent content in indieweb on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Indieweb on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 07 Feb 2024 09:07:10 +0100</lastBuildDate>
@@ -14,8 +14,15 @@
       <link>https://nicolaiarocci.com/the-20-year-indie-web-cycle-maybe/</link>
       <pubDate>Wed, 07 Feb 2024 09:07:10 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-20-year-indie-web-cycle-maybe/</guid>
-      <description>The History of the Web has an interesting take on the resurgence of blogging and the indie web that seems to be occurring these days.
-With roots in the world of fashion, there exists a cyclical principle suggesting that every two decades, previously popular trends “every 20 years or so the trends that were once popular will begin to be on the forefront again.” What’s old is new again. However, these recurring trends aren’t just rip-offs.</description>
+      <description>&lt;p&gt;The History of the Web has an interesting take on the resurgence of blogging and
+the indie web that seems to be occurring these days.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;With roots in the world of fashion, there exists a cyclical principle
+suggesting that every two decades, previously popular trends “every 20 years or
+so the trends that were once popular will begin to be on the forefront again.”
+What’s old is new again. However, these recurring trends aren’t just rip-offs.
+They are remixed and reinterpreted through the lens of a new generation. We are,
+perhaps, in a 20 year resurgence for the indie web and blogging.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>The History of the Web has an interesting take on the resurgence of blogging and
 the indie web that seems to be occurring these days.</p>
 <blockquote>
@@ -24,8 +31,7 @@ suggesting that every two decades, previously popular trends “every 20 years o
 so the trends that were once popular will begin to be on the forefront again.”
 What’s old is new again. However, these recurring trends aren’t just rip-offs.
 They are remixed and reinterpreted through the lens of a new generation. We are,
-perhaps, in a 20 year resurgence for the indie web and blogging.</p>
-</blockquote>
+perhaps, in a 20 year resurgence for the indie web and blogging.</p></blockquote>
 <p>More <a href="https://thehistoryoftheweb.com/weve-been-waiting-20-years-for-this/">here</a>.</p>
 ]]></content:encoded>
     </item>
@@ -34,11 +40,11 @@ perhaps, in a 20 year resurgence for the indie web and blogging.</p>
       <link>https://nicolaiarocci.com/quoting-christine-lemmer-webber/</link>
       <pubDate>Tue, 02 Jan 2024 12:07:53 +0100</pubDate>
       <guid>https://nicolaiarocci.com/quoting-christine-lemmer-webber/</guid>
-      <description>Bring back self-hosted blogs, reinstall a feed reader, make your feed icon prominent on your blog. Blogs + Atom/RSS is the best decentralized social media system we&amp;rsquo;ve ever had! And yes I am saying that as co-author of ActivityPub: self hosted blogs is the best decentralized social networking we&amp;rsquo;ve had.
-&amp;ndash; Christine Lemmer-Webber</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Bring back self-hosted blogs, reinstall a feed reader, make your feed icon prominent on your blog.  Blogs + Atom/RSS is the best decentralized social media system we&amp;rsquo;ve ever had!  And yes I am saying that as co-author of ActivityPub: self hosted blogs is the best decentralized social networking we&amp;rsquo;ve had.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&amp;ndash; &lt;a href=&#34;https://octodon.social/@cwebber/111647596861000656&#34;&gt;Christine Lemmer-Webber&lt;/a&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>Bring back self-hosted blogs, reinstall a feed reader, make your feed icon prominent on your blog.  Blogs + Atom/RSS is the best decentralized social media system we&rsquo;ve ever had!  And yes I am saying that as co-author of ActivityPub: self hosted blogs is the best decentralized social networking we&rsquo;ve had.</p>
-</blockquote>
+<p>Bring back self-hosted blogs, reinstall a feed reader, make your feed icon prominent on your blog.  Blogs + Atom/RSS is the best decentralized social media system we&rsquo;ve ever had!  And yes I am saying that as co-author of ActivityPub: self hosted blogs is the best decentralized social networking we&rsquo;ve had.</p></blockquote>
 <p>&ndash; <a href="https://octodon.social/@cwebber/111647596861000656">Christine Lemmer-Webber</a></p>
 ]]></content:encoded>
     </item>
@@ -47,8 +53,18 @@ perhaps, in a 20 year resurgence for the indie web and blogging.</p>
       <link>https://nicolaiarocci.com/indiepeople/</link>
       <pubDate>Fri, 30 Sep 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/indiepeople/</guid>
-      <description>Ben Werdmuller has a terrific post up on his website. His &amp;ldquo;tortured&amp;rdquo; analogy of the web and governments as platforms for people to build upon is fascinating.
-I believe strongly in the indieweb principles of distributed ownership, control, and independence. For me, the important thing is that this is how we get to a diverse web. A web where everyone can define not just what they write but how they present is by definition far more expressive, diverse, and interesting than one where most online content and identities must be squished into templates created by a handful of companies based on their financial needs.</description>
+      <description>&lt;p&gt;Ben Werdmuller has a terrific post up on his website. His &amp;ldquo;tortured&amp;rdquo; analogy of
+the web and governments as platforms for people to build upon is fascinating.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I believe strongly in the indieweb principles of distributed ownership,
+control, and independence. For me, the important thing is that this is how we
+get to a diverse web. A web where everyone can define not just what they
+write but how they present is by definition far more expressive, diverse, and
+interesting than one where most online content and identities must be
+squished into templates created by a handful of companies based on their
+financial needs. In other words, the open web is far superior to a medium
+controlled by corporations in order to sell ads. The former encourages
+expression; the latter encourages consumerist conformity.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Ben Werdmuller has a terrific post up on his website. His &ldquo;tortured&rdquo; analogy of
 the web and governments as platforms for people to build upon is fascinating.</p>
 <blockquote>
@@ -60,8 +76,7 @@ interesting than one where most online content and identities must be
 squished into templates created by a handful of companies based on their
 financial needs. In other words, the open web is far superior to a medium
 controlled by corporations in order to sell ads. The former encourages
-expression; the latter encourages consumerist conformity.</p>
-</blockquote>
+expression; the latter encourages consumerist conformity.</p></blockquote>
 <p>Read it all <a href="https://werd.io/2022/indiepeople">here</a> (<a href="https://adactio.com/links/19486">via</a>).</p>
 ]]></content:encoded>
     </item>

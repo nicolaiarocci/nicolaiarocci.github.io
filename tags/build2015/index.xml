@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>build2015 on Nicola Iarocci</title>
+    <title>Build2015 on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/build2015/</link>
-    <description>Recent content in build2015 on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Build2015 on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 08 May 2015 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://nicolaiarocci.com/on-my-trip-to-microsoft-build-2015/</link>
       <pubDate>Fri, 08 May 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/on-my-trip-to-microsoft-build-2015/</guid>
-      <description>Last week I was in San Francisco for Build 2015, the annual conference event held by Microsoft and aimed toward software and web developers. Overall it has been a great experience. I especially enjoyed the opportunity to speak with Microsoft executives, Program Managers and developers about the new stuff they are cooking up and, in general, about that New Microsoft we all have been experiencing as of late (I have a guest post on MSDN Italy on that topic).</description>
+      <description>&lt;p&gt;Last week I was in San Francisco for Build 2015, the annual conference event held by Microsoft and aimed toward software and web developers. Overall it has been a great experience. I especially enjoyed the opportunity to speak with Microsoft executives, Program Managers and developers about the new stuff they are cooking up and, in general, about that New Microsoft we all have been experiencing as of late (I have a &lt;a href=&#34;http://nicolaiarocci.com/i-wrote-a-thing-about-new-microsoft/&#34;&gt;guest post&lt;/a&gt; on MSDN Italy on that topic).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Last week I was in San Francisco for Build 2015, the annual conference event held by Microsoft and aimed toward software and web developers. Overall it has been a great experience. I especially enjoyed the opportunity to speak with Microsoft executives, Program Managers and developers about the new stuff they are cooking up and, in general, about that New Microsoft we all have been experiencing as of late (I have a <a href="http://nicolaiarocci.com/i-wrote-a-thing-about-new-microsoft/">guest post</a> on MSDN Italy on that topic).</p>
 <p>In this week TecHeroes <a href="https://channel9.msdn.com/Shows/TecHeroes/TecHeroes-Build-2015-innovazione-e-cambiamento#0m05s">episode</a> I am interviewed along with my buddy <a href="http://www.matteocollina.com/#biography">Matteo Collina</a>. At about 1m 20s in the episode Matteo and I share a few considerations on Open Source projects and technologies that really caught our attention at the conference, and of course on Microsoft in general. It is all in Italian by the way.</p>
 ]]></content:encoded>

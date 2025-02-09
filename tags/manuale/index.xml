@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>manuale on Nicola Iarocci</title>
+    <title>Manuale on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/manuale/</link>
-    <description>Recent content in manuale on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Manuale on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Sat, 29 Sep 2012 00:00:00 +0000</lastBuildDate>
@@ -14,11 +14,11 @@
       <link>https://nicolaiarocci.com/scrivete-il-dannato-manuale/</link>
       <pubDate>Sat, 29 Sep 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/scrivete-il-dannato-manuale/</guid>
-      <description>Sviluppatori: passate ore, giorni, mesi, forse anni interi a perfezionare il vostro capolavoro. In fin dei conti si tratta dell’espressione di un’intera vita professionale, anima e cuore. Perché dunque vi fate del male dotandolo di documentazione scarna, o addirittura inesistente?
-Write The Freaking Manual</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Sviluppatori: passate ore, giorni, mesi, forse anni interi a perfezionare il vostro capolavoro. In fin dei conti si tratta dell’espressione di un’intera vita professionale, anima e cuore. Perché dunque vi fate del male dotandolo di documentazione scarna, o addirittura inesistente?&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Write The Freaking Manual&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>Sviluppatori: passate ore, giorni, mesi, forse anni interi a perfezionare il vostro capolavoro. In fin dei conti si tratta dell’espressione di un’intera vita professionale, anima e cuore. Perché dunque vi fate del male dotandolo di documentazione scarna, o addirittura inesistente?</p>
-</blockquote>
+<p>Sviluppatori: passate ore, giorni, mesi, forse anni interi a perfezionare il vostro capolavoro. In fin dei conti si tratta dell’espressione di un’intera vita professionale, anima e cuore. Perché dunque vi fate del male dotandolo di documentazione scarna, o addirittura inesistente?</p></blockquote>
 <p><!-- raw HTML omitted -->Write The Freaking Manual<!-- raw HTML omitted --></p>
 ]]></content:encoded>
     </item>

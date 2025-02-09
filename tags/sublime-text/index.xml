@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>sublime text on Nicola Iarocci</title>
+    <title>Sublime Text on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/sublime-text/</link>
-    <description>Recent content in sublime text on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Sublime Text on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 27 Jun 2012 00:00:00 +0000</lastBuildDate>
@@ -14,8 +14,13 @@
       <link>https://nicolaiarocci.com/e-finalmente-esce-sublime-text-2/</link>
       <pubDate>Wed, 27 Jun 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/e-finalmente-esce-sublime-text-2/</guid>
-      <description>Da ieri Sublime Text 2 è ufficialmente fuori dalla lunghissima beta. Molte novità anche nell’ultima build, incluso il supporto per il Retina Display di OSX (tanto per dire quanto questi ragazzi stiano sul pezzo). Vi propongo un po’ di link di riferimento:
-Annuncio della versione 2.0 sul blog Sublime Come Kenneth Reitz ha configurato ST2 per Python Sublime Text 2 un anno dopo, il mio articolo più recente su ST2 PS: io nel frattempo sono tornato a vim, e per ora ci sto molto comodo.</description>
+      <description>&lt;p&gt;Da ieri Sublime Text 2 è ufficialmente fuori dalla lunghissima beta. Molte novità anche nell’ultima build, incluso il supporto per il Retina Display di OSX (tanto per dire quanto questi ragazzi stiano sul pezzo). Vi propongo un po’ di link di riferimento:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;Annuncio della versione 2.0&lt;!-- raw HTML omitted --&gt; sul blog Sublime&lt;/li&gt;
+&lt;li&gt;Come Kenneth Reitz ha configurato &lt;!-- raw HTML omitted --&gt;ST2 per Python&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://nicolaiarocci.com/sublime-text-2-un-anno-dopo/&#34; title=&#34;Sublime Text 2 un anno dopo&#34;&gt;Sublime Text 2 un anno dopo&lt;/a&gt;, il mio articolo più recente su ST2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PS: io nel frattempo sono tornato a vim, e per ora ci sto molto comodo. Sublime Text rimane l’editor che consiglio a chiunque non abbia già un background vi/vim e non voglia o non possa investire tempo nell’impararlo.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Da ieri Sublime Text 2 è ufficialmente fuori dalla lunghissima beta. Molte novità anche nell’ultima build, incluso il supporto per il Retina Display di OSX (tanto per dire quanto questi ragazzi stiano sul pezzo). Vi propongo un po’ di link di riferimento:</p>
 <ul>
 <li><!-- raw HTML omitted -->Annuncio della versione 2.0<!-- raw HTML omitted --> sul blog Sublime</li>

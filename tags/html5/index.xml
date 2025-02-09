@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>html5 on Nicola Iarocci</title>
+    <title>Html5 on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/html5/</link>
-    <description>Recent content in html5 on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Html5 on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 11 Nov 2011 00:00:00 +0000</lastBuildDate>
@@ -16,21 +16,17 @@
       <guid>https://nicolaiarocci.com/microsoft-silverlight-e-adobe-flash-verso-la-resa-comincia-lera-di-re-html5/</guid>
       <description>&lt;p&gt;Silverlight 5 è in dirittura d’arrivo. L’ultimo aggiornamento del plug-in Microsoft sarà &lt;em&gt;ultimo&lt;/em&gt; in tutti i sensi dato che &lt;!-- raw HTML omitted --&gt;a quanto pare&lt;!-- raw HTML omitted --&gt; non ne seguiranno altri. A sostenerlo è ZD-Net per bocca di Mary-Jo Foley, di solito sempre ben informata su quel che succede nei corridoi del gigante di Seattle.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Diversi partner e clienti mi hanno detto di aver saputo da fonti Microsoft che Silverlight 5 è l’ultima versione di Silverlight che Microsoft rilascerà. Riferiscono di non sapere se verranno rilasciati Service Pack, né per quanto tempo Microsoft supporterà Silverlight 5&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Diversi partner e clienti mi hanno detto di aver saputo da fonti Microsoft che Silverlight 5 è l’ultima versione di Silverlight che Microsoft rilascerà. Riferiscono di non sapere se verranno rilasciati Service Pack, né per quanto tempo Microsoft supporterà Silverlight 5&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Si tratta solo di voci ma la fonte è autorevole. Proprio l’altro giorno Adobe ha &lt;!-- raw HTML omitted --&gt;annunciato&lt;!-- raw HTML omitted --&gt; lo stop allo sviluppo di Flash Player Mobile per concentrarsi su HTML5. Il vice presidente Adobe Danny Winokur ha dichiarato&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Questa novità ci permetterà di aumentare l’impegno su HTML5 continuando a innovare Flash nei settori in cui  può avere più impatto: advanced gaming e premium video.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Questa novità ci permetterà di aumentare l’impegno su HTML5 continuando a innovare Flash nei settori in cui  può avere più impatto: advanced gaming e premium video.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Non so voi ma io in queste righe io leggo qualcosa di più del semplice abbandono della versione mobile di Flash. Ci vedo la ricollocazione di Flash in settori di nicchia e la contestuale adozione di HTML5 come soluzione universale per il Web. Una onorevole resa delle armi, insomma.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Silverlight 5 è in dirittura d’arrivo. L’ultimo aggiornamento del plug-in Microsoft sarà <em>ultimo</em> in tutti i sensi dato che <!-- raw HTML omitted -->a quanto pare<!-- raw HTML omitted --> non ne seguiranno altri. A sostenerlo è ZD-Net per bocca di Mary-Jo Foley, di solito sempre ben informata su quel che succede nei corridoi del gigante di Seattle.</p>
 <blockquote>
-<p>Diversi partner e clienti mi hanno detto di aver saputo da fonti Microsoft che Silverlight 5 è l’ultima versione di Silverlight che Microsoft rilascerà. Riferiscono di non sapere se verranno rilasciati Service Pack, né per quanto tempo Microsoft supporterà Silverlight 5</p>
-</blockquote>
+<p>Diversi partner e clienti mi hanno detto di aver saputo da fonti Microsoft che Silverlight 5 è l’ultima versione di Silverlight che Microsoft rilascerà. Riferiscono di non sapere se verranno rilasciati Service Pack, né per quanto tempo Microsoft supporterà Silverlight 5</p></blockquote>
 <p>Si tratta solo di voci ma la fonte è autorevole. Proprio l’altro giorno Adobe ha <!-- raw HTML omitted -->annunciato<!-- raw HTML omitted --> lo stop allo sviluppo di Flash Player Mobile per concentrarsi su HTML5. Il vice presidente Adobe Danny Winokur ha dichiarato</p>
 <blockquote>
-<p>Questa novità ci permetterà di aumentare l’impegno su HTML5 continuando a innovare Flash nei settori in cui  può avere più impatto: advanced gaming e premium video.</p>
-</blockquote>
+<p>Questa novità ci permetterà di aumentare l’impegno su HTML5 continuando a innovare Flash nei settori in cui  può avere più impatto: advanced gaming e premium video.</p></blockquote>
 <p>Non so voi ma io in queste righe io leggo qualcosa di più del semplice abbandono della versione mobile di Flash. Ci vedo la ricollocazione di Flash in settori di nicchia e la contestuale adozione di HTML5 come soluzione universale per il Web. Una onorevole resa delle armi, insomma.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
@@ -57,21 +53,18 @@
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <blockquote>
-<p>You all saw a very small technology demo of Windows 8, and a brief press release. We’re all being quiet right now because we can’t comment on this. It’s not because we don’t care, aren’t listening, have given up, or are agreeing or disagreeing with you on something. All I can say for now is to please wait until September. If we say more before then, that will be great, but there are no promises (and I’m not aware of any plans) to say more right now. I’m very sorry that there’s nothing else to share at the moment. I know that answer is terrible, but it’s all that we can say right now. Seriously.</p>
-</blockquote>
+<p>You all saw a very small technology demo of Windows 8, and a brief press release. We’re all being quiet right now because we can’t comment on this. It’s not because we don’t care, aren’t listening, have given up, or are agreeing or disagreeing with you on something. All I can say for now is to please wait until September. If we say more before then, that will be great, but there are no promises (and I’m not aware of any plans) to say more right now. I’m very sorry that there’s nothing else to share at the moment. I know that answer is terrible, but it’s all that we can say right now. Seriously.</p></blockquote>
 <p>Quindi bocche cucite, almeno fino a Settembre. In seguito Brown interviene ancora, tirato per la giacchetta dai molti che hanno interpretato le sue parole nelle maniere più disparate:</p>
 <blockquote>
 <p>This whole thing has blown way out of proportion. Base your information on our primary sources (like our press release), not on third party speculation. That’s not to minimize how everyone feels, but keep in mind that Windows 8 itself is still a ways off from retail, and even much further away from internal IT adoption. The 8 weeks until //build/ is a pretty small amount of time to wait in comparison.</p>
-<p>Take some vacation time this summer, and look forward to the //build/ conference. Stop speculating based on just a small demo of some very cool new technology. Tell your management to do the same: if they’re basing your project work for the next X years on the results of a quick demo for an unreleased operating system, then they are doing you and your company a real disservice.</p>
-</blockquote>
+<p>Take some vacation time this summer, and look forward to the //build/ conference. Stop speculating based on just a small demo of some very cool new technology. Tell your management to do the same: if they’re basing your project work for the next X years on the results of a quick demo for an unreleased operating system, then they are doing you and your company a real disservice.</p></blockquote>
 <p>Windows 8 è ben lontano dall’essere pronto, e quel che si è visto nel filmato è solo la prima di una serie di anteprime. Inutile fare speculazioni basate su una demo di pochi minuti. Questa estate godetevi le vacanza, ne riparleremo al vostro ritorno. Dite ai vostri manager di fare lo stesso. <strong>Se stanno pianificando il lavoro dei prossimi anni basandosi solo su una breve anteprima di un sistema operativo non ancora pronto, allora stanno facendo un grave errore</strong>.</p>
 <h2 id="non-è-mica-la-prima-volta">Non è mica la prima volta</h2>
 <p>Niente da obiettare da parte mia. Mi limito a rilevare che non è la prima volta che il futuro delle piattaforme Microsoft viene messo in discussione anche dallo stesso personale Microsoft. Leggendaria la gaffe di <!-- raw HTML omitted -->Bob Muglia<!-- raw HTML omitted -->, Vice President for Server and Tools Businesses (mica cotica) riportata fedelmente da <!-- raw HTML omitted -->Mary Jo Foley<!-- raw HTML omitted -->:</p>
 <blockquote>
 <p>“Silverlight is our development platform for Windows Phone,” he said. Silverlight also has some “sweet spots” in media and line-of-business applications, he said.</p>
 <p>But when it comes to touting Silverlight as Microsoft’s vehicle for delivering a cross-platform runtime, “<strong>our strategy has shifted</strong>,” Muglia told me.</p>
-<p>Silverlight will continue to be a cross-platform solution, working on a variety of operating system/browser platforms, going forward, he said. “But <strong>HTML is the only true cross platform solution for everything</strong>, including (Apple’s) iOS platform,” Muglia said.</p>
-</blockquote>
+<p>Silverlight will continue to be a cross-platform solution, working on a variety of operating system/browser platforms, going forward, he said. “But <strong>HTML is the only true cross platform solution for everything</strong>, including (Apple’s) iOS platform,” Muglia said.</p></blockquote>
 <p>All’epoca fu necessario un comunicato congiunto di Steve Ballmer (CEO Microsoft) e del penitente Bob Muglia per acquietare la tempesta scatenata da queste parole. Sarà un caso che recentemente Muglia abbia annunciato il trasloco ad altri lidi?</p>
 <p>Il fatto è che le tante aziende che hanno investito molto e – ahimé – esclusivamente sulle piattaforme Microsoft ora guardano con terrore a uno scenario, per quanto improbabile, che non veda Silverlight, WPF e .NET in cima all’agenda della casa madre.</p>
 <h2 id="img-classalignright-titlehtml5-logo-srchttpi2wpcomnicolaiaroccicomwp-contentuploadshtml5-logopngresize1282c150-althtml5-logo-data-recalc-dims1-il-futuro-del-web-è-silverlight"><!-- raw HTML omitted -->Il futuro del Web è Silverlight?</h2>
@@ -82,8 +75,8 @@
       <link>https://nicolaiarocci.com/eclipse-foundation-lancia-la-beta-pubblica-di-orionhub/</link>
       <pubDate>Tue, 22 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/eclipse-foundation-lancia-la-beta-pubblica-di-orionhub/</guid>
-      <description>Eclipse Foundation ha avviato il beta testing di OrionHub, una implementazione hosted del suo Progetto Orion. Orion è una piattaforma di sviluppo aperta dedicata allo sviluppo per il web, dentro il web. La IDE Orion gira nel browser e fornisce un completo ambiente di produzione per progetti JavaScript, HTML e CSS. Il risultato è ottenuto grazie a un plugin lato client sviluppato in HTML5.
-Per un approfondimento dai una occhiata a Il futuro del codice sorgente è online?</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.eclipse.org/&#34;&gt;Eclipse Foundation&lt;/a&gt; ha avviato il beta testing di &lt;a href=&#34;http://www.eclipse.org/orion/&#34;&gt;&lt;strong&gt;OrionHub&lt;/strong&gt;&lt;/a&gt;, una implementazione hosted del suo Progetto Orion. Orion è una piattaforma di sviluppo aperta dedicata allo sviluppo per il web, dentro il web. La IDE Orion gira nel browser e fornisce un completo ambiente di produzione per progetti JavaScript, HTML e CSS. Il risultato è ottenuto grazie a un plugin lato client sviluppato in HTML5.&lt;/p&gt;
+&lt;p&gt;Per un approfondimento dai una occhiata a &lt;!-- raw HTML omitted --&gt;Il futuro del codice sorgente è online?&lt;!-- raw HTML omitted --&gt;, la panoramica sul Progetto Orion e sulle IDE Online che ho pubblicato qualche tempo fa.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="http://www.eclipse.org/">Eclipse Foundation</a> ha avviato il beta testing di <a href="http://www.eclipse.org/orion/"><strong>OrionHub</strong></a>, una implementazione hosted del suo Progetto Orion. Orion è una piattaforma di sviluppo aperta dedicata allo sviluppo per il web, dentro il web. La IDE Orion gira nel browser e fornisce un completo ambiente di produzione per progetti JavaScript, HTML e CSS. Il risultato è ottenuto grazie a un plugin lato client sviluppato in HTML5.</p>
 <p>Per un approfondimento dai una occhiata a <!-- raw HTML omitted -->Il futuro del codice sorgente è online?<!-- raw HTML omitted -->, la panoramica sul Progetto Orion e sulle IDE Online che ho pubblicato qualche tempo fa.</p>
 ]]></content:encoded>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>dictionary on Nicola Iarocci</title>
+    <title>Dictionary on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/dictionary/</link>
-    <description>Recent content in dictionary on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Dictionary on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Tue, 01 Mar 2022 07:05:25 +0100</lastBuildDate>
@@ -14,8 +14,14 @@
       <link>https://nicolaiarocci.com/youre-probably-using-the-wrong-dictionary/</link>
       <pubDate>Tue, 01 Mar 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/youre-probably-using-the-wrong-dictionary/</guid>
-      <description>In 2014, James Somers sat down to write a beautiful, entertaining lament about the state of today’s dictionaries and an argument in favor of the adoption of Noah Webster’s 1913 edition.
-I don&amp;rsquo;t want you to conclude that it&amp;rsquo;s just a matter of aesthetics. Yes, Webster&amp;rsquo;s definitions are prettier. But they are also better. They&amp;rsquo;re so much better that to use another dictionary is to keep yourself forever at arm&amp;rsquo;s length from the actual language.</description>
+      <description>&lt;p&gt;In 2014, James Somers sat down to write a beautiful, entertaining lament about
+the state of today’s dictionaries and an argument in favor of the adoption of
+Noah Webster’s 1913 edition.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I don&amp;rsquo;t want you to conclude that it&amp;rsquo;s just a matter of aesthetics. Yes,
+Webster&amp;rsquo;s definitions are prettier. But they are also better. They&amp;rsquo;re so much
+better that to use another dictionary is to keep yourself forever at arm&amp;rsquo;s
+length from the actual language.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>In 2014, James Somers sat down to write a beautiful, entertaining lament about
 the state of today’s dictionaries and an argument in favor of the adoption of
 Noah Webster’s 1913 edition.</p>
@@ -23,8 +29,7 @@ Noah Webster’s 1913 edition.</p>
 <p>I don&rsquo;t want you to conclude that it&rsquo;s just a matter of aesthetics. Yes,
 Webster&rsquo;s definitions are prettier. But they are also better. They&rsquo;re so much
 better that to use another dictionary is to keep yourself forever at arm&rsquo;s
-length from the actual language.</p>
-</blockquote>
+length from the actual language.</p></blockquote>
 <blockquote>
 <p>Recall that the New Oxford, for the word &ldquo;fustian,&rdquo; gives &ldquo;pompous or
 pretentious speech or writing.&rdquo; I said earlier that that wasn&rsquo;t even really
@@ -37,8 +42,7 @@ language where fancy language isn&rsquo;t called for. It&rsquo;s a subtle differ
 that&rsquo;s the whole point: English is an awfully subtle instrument. A dictionary
 that ignores these little shades is dangerous; in fact in those cases it&rsquo;s
 worse than useless. It&rsquo;s misleading, deflating. It divests those words of their
-worth and purpose.</p>
-</blockquote>
+worth and purpose.</p></blockquote>
 <p>You can read it all <a href="http://jsomers.net/blog/dictionary">here</a>. It&rsquo;s worth your
 time..</p>
 <p>Not happy with the essay alone, he also added instructions on installing
@@ -50,8 +54,7 @@ I learned that DictUnifier has gone unmaintained. Thankfully, a couple of years
 ago a good soul released [DictConv][3], a &ldquo;Node.js version of DictUnifier&rdquo;.
 DictConv did the trick. Webster&rsquo;s 1913 is now happily residing in my macOS
 Dictionary.</p>
-<p><img loading="lazy" src="/images/webster1913.png" alt="Webster&amp;rsquo;s 1913"  />
-</p>
+<p><img alt="Webster&rsquo;s 1913" loading="lazy" src="/images/webster1913.png"></p>
 ]]></content:encoded>
     </item>
   </channel>

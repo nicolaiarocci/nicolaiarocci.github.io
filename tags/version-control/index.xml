@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>version control on Nicola Iarocci</title>
+    <title>Version Control on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/version-control/</link>
-    <description>Recent content in version control on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Version Control on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Tue, 08 May 2012 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://nicolaiarocci.com/git-si-e-rifatto-il-look-e-non-solo/</link>
       <pubDate>Tue, 08 May 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/git-si-e-rifatto-il-look-e-non-solo/</guid>
-      <description>Il sito del progetto Git è stato finalmente aggiornato. Nuova grafica, nuovo logo, ottimizzazione dei contenuti e soprattutto integrazione di importanti risorse prima ospitate altrove: la Git Reference, il libro ProGit, Why Git is Better Than X e il nuovo progetto Git Video Series, che include quattro bei filmati già pronti.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Il sito del &lt;!-- raw HTML omitted --&gt;progetto Git&lt;!-- raw HTML omitted --&gt; è stato finalmente aggiornato. Nuova grafica, nuovo logo, ottimizzazione dei contenuti e soprattutto integrazione di importanti risorse prima ospitate altrove: la &lt;!-- raw HTML omitted --&gt;Git Reference&lt;!-- raw HTML omitted --&gt;, il libro &lt;!-- raw HTML omitted --&gt;ProGit&lt;!-- raw HTML omitted --&gt;, &lt;!-- raw HTML omitted --&gt;Why Git is Better Than X&lt;!-- raw HTML omitted --&gt; e il nuovo progetto &lt;!-- raw HTML omitted --&gt;Git Video Series&lt;!-- raw HTML omitted --&gt;, che include quattro bei filmati già pronti.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Il sito del <!-- raw HTML omitted -->progetto Git<!-- raw HTML omitted --> è stato finalmente aggiornato. Nuova grafica, nuovo logo, ottimizzazione dei contenuti e soprattutto integrazione di importanti risorse prima ospitate altrove: la <!-- raw HTML omitted -->Git Reference<!-- raw HTML omitted -->, il libro <!-- raw HTML omitted -->ProGit<!-- raw HTML omitted -->, <!-- raw HTML omitted -->Why Git is Better Than X<!-- raw HTML omitted --> e il nuovo progetto <!-- raw HTML omitted -->Git Video Series<!-- raw HTML omitted -->, che include quattro bei filmati già pronti.</p>
 ]]></content:encoded>
     </item>

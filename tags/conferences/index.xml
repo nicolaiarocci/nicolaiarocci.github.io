@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>conferences on Nicola Iarocci</title>
+    <title>Conferences on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/conferences/</link>
-    <description>Recent content in conferences on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Conferences on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 23 Feb 2023 07:05:25 +0100</lastBuildDate>
@@ -14,8 +14,18 @@
       <link>https://nicolaiarocci.com/on-the-state-of-developer-conferences/</link>
       <pubDate>Thu, 23 Feb 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-the-state-of-developer-conferences/</guid>
-      <description>Brian Rinaldi has an insightful post on his blog about the current state of developer conferences, where &amp;lsquo;current state&amp;rsquo; means post-COVID pandemic. Brian is well-positioned to reason about this space as a long-time conference organizer. I appreciate that he also takes the time to explain how the developer conference business works. The core of his blog is about post-pandemic conference attendance, which has plunged.
-independent, in-person developer conferences are hurting. Based on my own observation as well as talks with organizers and sponsors that I have come to know over the years, the average independent in-person event is still down 30-40% from pre-pandemic attendance levels.</description>
+      <description>&lt;p&gt;Brian Rinaldi has an insightful post on &lt;a href=&#34;https://remotesynthesis.com/blog/developer-conferences/&#34;&gt;his blog&lt;/a&gt; about the current state of
+developer conferences, where &amp;lsquo;current state&amp;rsquo; means post-COVID pandemic. Brian
+is well-positioned to reason about this space as a long-time conference
+organizer. I appreciate that he also takes the time to explain how the
+developer conference business works. The core of his blog is about
+post-pandemic conference attendance, which has plunged.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;independent, in-person developer conferences are hurting. Based on my own
+observation as well as talks with organizers and sponsors that I have come to
+know over the years, the average independent in-person event is still down
+30-40% from pre-pandemic attendance levels. And often it seems to require
+massive discounts or even giveaways to get to this level.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Brian Rinaldi has an insightful post on <a href="https://remotesynthesis.com/blog/developer-conferences/">his blog</a> about the current state of
 developer conferences, where &lsquo;current state&rsquo; means post-COVID pandemic. Brian
 is well-positioned to reason about this space as a long-time conference
@@ -27,8 +37,7 @@ post-pandemic conference attendance, which has plunged.</p>
 observation as well as talks with organizers and sponsors that I have come to
 know over the years, the average independent in-person event is still down
 30-40% from pre-pandemic attendance levels. And often it seems to require
-massive discounts or even giveaways to get to this level.</p>
-</blockquote>
+massive discounts or even giveaways to get to this level.</p></blockquote>
 <p>And he offers an interesting theory on why that is:</p>
 <blockquote>
 <p>My hypothesis is that we’ve bifurcated the audience somewhat. The folks that
@@ -37,8 +46,7 @@ so more cheaply and efficiently online via virtual conferences or recordings.
 The folks that went for the networking as a primary driver, on the other
 hand, are largely eschewing online events as not fulfilling their needs.
 [&hellip;] So ultimately what we are left with is a lower in-person audience and a
-lower virtual audience.</p>
-</blockquote>
+lower virtual audience.</p></blockquote>
 <p>As a conference speaker and meetup organizer, I noticed that online events saw
 low attendance during the pandemic, and they still do today. When available,
 recordings partially compensate, but only in audience terms. The problem is
@@ -76,7 +84,13 @@ pandemic hiatus threw a ton of fresh new viewers at them.</p>
       <link>https://nicolaiarocci.com/seven-years-ago-at-fosdem/</link>
       <pubDate>Mon, 15 Feb 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/seven-years-ago-at-fosdem/</guid>
-      <description>About seven years ago, I presented the Eve Framework in a very crowded Python room at FOSDEM 2014 in Brussels. If you don&amp;rsquo;t know about FOSDEM, well, you should check it out. Every year thousands of developers who recognize themselves with the free and open-source movement gather in Brussels from all over the world. And I mean thousands of them. According to Wikipedia, since 2011, the meeting hosts about 4,000 visitors every year.</description>
+      <description>&lt;p&gt;About seven years ago, I presented the Eve Framework in a very crowded Python
+room at FOSDEM 2014 in Brussels. If you don&amp;rsquo;t know about FOSDEM, well, you
+should check it out. Every year thousands of developers who recognize
+themselves with the free and open-source movement gather in Brussels from all
+over the world. And I mean thousands of them. According to Wikipedia, since
+2011, the meeting hosts about 4,000 visitors every year. It&amp;rsquo;s huge, and it&amp;rsquo;s
+a one of its kind.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>About seven years ago, I presented the Eve Framework in a very crowded Python
 room at FOSDEM 2014 in Brussels. If you don&rsquo;t know about FOSDEM, well, you
 should check it out. Every year thousands of developers who recognize
@@ -89,8 +103,7 @@ that post, I also wrote:</p>
 <blockquote>
 <p>Any conference junkie will tell you that she/he attends for the people first,
 and only then for the sessions themselves. At these events, the most exciting
-stuff happens in the corridors, usually during breaks.</p>
-</blockquote>
+stuff happens in the corridors, usually during breaks.</p></blockquote>
 <p>At that FOSDEM seven years ago, I experienced one of those corridor moments. It
 did not really happen in a corridor, however.</p>
 <p>I was at the Delirium Cafe one night, with my good friend (and exceptionally
@@ -135,8 +148,18 @@ the back of his hand. Someone wasn&rsquo;t so smart on that night.</p>
       <link>https://nicolaiarocci.com/upcoming-speaking-engagements-with-ramblings/</link>
       <pubDate>Fri, 29 Jan 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/upcoming-speaking-engagements-with-ramblings/</guid>
-      <description>I am presenting at two different events in February next month. Given the current COVID situation, that is entirely unexpected. In 2020 I only gave four talks, three of which were virtual. I am not holding my breath for 2021. Conferences are going virtual all year-long. Next year too, most likely.
-There are some clear advantages in going virtual, but the final result is a net negative. Any conference junkie will tell you that she/he attends for the people first, and only then for the sessions themselves.</description>
+      <description>&lt;p&gt;I am presenting at two different events in February next month. Given the
+current COVID situation, that is entirely unexpected. In 2020 I only gave &lt;a href=&#34;https://nicolaiarocci.com/speaking&#34;&gt;four
+talks&lt;/a&gt;, three of which were virtual. I am not holding my breath for 2021.
+Conferences are going virtual all year-long. Next year too, most likely.&lt;/p&gt;
+&lt;p&gt;There are some clear advantages in going virtual, but the final result is a net
+negative. Any conference junkie will tell you that she/he attends for the
+people first, and only then for the sessions themselves. At these events, the
+most exciting stuff happens in the corridors, usually during breaks. A little
+story here. You might know that I run a motorcycle club. Well, the very idea of
+founding it was actually ignited by a corridor chat, few minutes after
+I delivered a session. Replicating this kind of in-person interaction online
+is, well, next to impossible.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I am presenting at two different events in February next month. Given the
 current COVID situation, that is entirely unexpected. In 2020 I only gave <a href="/speaking">four
 talks</a>, three of which were virtual. I am not holding my breath for 2021.

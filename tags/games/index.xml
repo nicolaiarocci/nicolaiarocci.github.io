@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>games on Nicola Iarocci</title>
+    <title>Games on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/games/</link>
-    <description>Recent content in games on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Games on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Sun, 21 Mar 2021 07:05:25 +0100</lastBuildDate>
@@ -14,7 +14,13 @@
       <link>https://nicolaiarocci.com/my-pusher-of-digital-memorabilia/</link>
       <pubDate>Sun, 21 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/my-pusher-of-digital-memorabilia/</guid>
-      <description>If you are a grumpy old geek like me, you are probably a sucker for vintage computer games too. I don&amp;rsquo;t play games. Not anymore. I still enjoy reading about them, though. I guess it&amp;rsquo;s mostly nostalgia. I also believe that the mid-80s up to the mid-90s really was the golden age of computer games. In my book, innovation started with Infocom&amp;rsquo;s text adventures and soft-ended with Origin&amp;rsquo;s Ultima Online. After that, it&amp;rsquo;s been a constant evolution.</description>
+      <description>&lt;p&gt;If you are a grumpy old geek like me, you are probably a sucker for vintage
+computer games too. I don&amp;rsquo;t play games. Not anymore. I still enjoy reading
+about them, though. I guess it&amp;rsquo;s mostly nostalgia. I also believe that the
+mid-80s up to the mid-90s really was the golden age of computer games. In my
+book, innovation started with Infocom&amp;rsquo;s text adventures and soft-ended with
+Origin&amp;rsquo;s Ultima Online. After that, it&amp;rsquo;s been a constant evolution. &amp;ldquo;Harder,
+better, faster, stronger&amp;rdquo;, yes, but hardly a revolution.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>If you are a grumpy old geek like me, you are probably a sucker for vintage
 computer games too. I don&rsquo;t play games. Not anymore. I still enjoy reading
 about them, though. I guess it&rsquo;s mostly nostalgia. I also believe that the
@@ -35,13 +41,11 @@ in which you never went to Britannia at all, but stayed instead on
 a miserable hellhole of a world called Pagan; in which you spent the whole
 game adventuring alone (after all, who would want to adventure with a jerk
 like you?); in which the core mechanics were jumping between pedestals like
-Super Mario and pounding your enemies over the head with your big old hammer.</p>
-</blockquote>
+Super Mario and pounding your enemies over the head with your big old hammer.</p></blockquote>
 <p>It hurts to admit it, but he&rsquo;s exactly right. Nonetheless, I enjoyed exploring
 Pagan&rsquo;s world. When I later joined the Ultima Online Beta, it was amazing to
 see that the same graphic engine and all of Pagan&rsquo;s art were recycled.</p>
-<p><img loading="lazy" src="/images/system-shock.jpg#right" alt="System Shock"  />
-
+<p><img alt="System Shock" loading="lazy" src="/images/system-shock.jpg#right">
 System Shock was a game I loved. I found it to be revolutionary. Games like
 this one were precisely the kind of entertainment I strived for: immersive
 simulations.</p>
@@ -53,8 +57,7 @@ sense of genuine, oppressive fear it creates in its player. Tellingly,
 Looking Glass liked to call System Shock a “simulation,” even though it
 simulates nothing that has ever existed in the real world. The word is rather
 shorthand for its absolute commitment to the truth — fictional truth, yes,
-but truth nevertheless — of the world it drops you into.</p>
-</blockquote>
+but truth nevertheless — of the world it drops you into.</p></blockquote>
 <p>I have always been a System Shock guy more than a DOOM person. I really like
 how Maher compares the two games and the software companies that produced them,
 more or less in the same time-span<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>

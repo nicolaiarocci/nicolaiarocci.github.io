@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>chomsky on Nicola Iarocci</title>
+    <title>Chomsky on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/chomsky/</link>
-    <description>Recent content in chomsky on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Chomsky on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Sun, 09 Apr 2023 07:05:25 +0100</lastBuildDate>
@@ -14,7 +14,10 @@
       <link>https://nicolaiarocci.com/noam-chomsky-on-chatgpt/</link>
       <pubDate>Sun, 09 Apr 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/noam-chomsky-on-chatgpt/</guid>
-      <description>Noam Chomsky&amp;rsquo;s essays are always worth reading, no matter the topic he decides to address, because, well, frankly, he&amp;rsquo;s one of the brightest and most well-informed minds of our time. His criticism of OpenAI&amp;rsquo;s ChatGPT makes no exception. It does an excellent job of explaining how LLMs work, the differences with human reasoning, and why, in his opinion, the advent of artificial general intelligence is a long way to go, if ever.</description>
+      <description>&lt;p&gt;Noam Chomsky&amp;rsquo;s essays are always worth reading, no matter the topic he decides to address, because, well, frankly, he&amp;rsquo;s
+one of the brightest and most well-informed minds of our time. His criticism of OpenAI&amp;rsquo;s ChatGPT makes no exception. It
+does an excellent job of explaining how LLMs work, the differences with human reasoning, and why, in his opinion, the
+advent of artificial general intelligence is a long way to go, if ever.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Noam Chomsky&rsquo;s essays are always worth reading, no matter the topic he decides to address, because, well, frankly, he&rsquo;s
 one of the brightest and most well-informed minds of our time. His criticism of OpenAI&rsquo;s ChatGPT makes no exception. It
 does an excellent job of explaining how LLMs work, the differences with human reasoning, and why, in his opinion, the
@@ -23,8 +26,7 @@ advent of artificial general intelligence is a long way to go, if ever.</p>
 <p>However useful these programs may be in some narrow domains (they can be helpful in computer programming, for
 example, or in suggesting rhymes for light verse), we know from the science of linguistics and the philosophy of
 knowledge that they differ profoundly from how humans reason and use language. These differences place significant
-limitations on what these programs can do, encoding them with ineradicable defects.</p>
-</blockquote>
+limitations on what these programs can do, encoding them with ineradicable defects.</p></blockquote>
 <p>More <a href="https://archive.is/AgWkn">here</a>.</p>
 ]]></content:encoded>
     </item>

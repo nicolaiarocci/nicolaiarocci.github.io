@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>legacy on Nicola Iarocci</title>
+    <title>Legacy on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/legacy/</link>
-    <description>Recent content in legacy on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Legacy on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 27 Jan 2014 00:00:00 +0000</lastBuildDate>
@@ -14,13 +14,13 @@
       <link>https://nicolaiarocci.com/a-programmers-legacy/</link>
       <pubDate>Mon, 27 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/a-programmers-legacy/</guid>
-      <description>This is a subject I’ve been pondering on for a while.
-I think we all have an urge to mark our stamp on this world, to graffiti ‘I was here–don’t forget me’. Yet, as a programmer, where is my legacy?
-via A programmer’s legacy.</description>
+      <description>&lt;p&gt;This is a subject I’ve been pondering on for a while.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I think we all have an urge to mark our stamp on this world, to graffiti ‘I was here–don’t forget me’. Yet, as a programmer, where is my legacy?&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;via &lt;a href=&#34;http://blog.alexmaccaw.com/a-programmers-legacy&#34;&gt;A programmer’s legacy&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>This is a subject I’ve been pondering on for a while.</p>
 <blockquote>
-<p>I think we all have an urge to mark our stamp on this world, to graffiti ‘I was here–don’t forget me’. Yet, as a programmer, where is my legacy?</p>
-</blockquote>
+<p>I think we all have an urge to mark our stamp on this world, to graffiti ‘I was here–don’t forget me’. Yet, as a programmer, where is my legacy?</p></blockquote>
 <p>via <a href="http://blog.alexmaccaw.com/a-programmers-legacy">A programmer’s legacy</a>.</p>
 ]]></content:encoded>
     </item>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>social-media on Nicola Iarocci</title>
+    <title>Social-Media on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/social-media/</link>
-    <description>Recent content in social-media on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Social-Media on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 05 Oct 2022 07:05:25 +0100</lastBuildDate>
@@ -14,15 +14,19 @@
       <link>https://nicolaiarocci.com/the-high-cost-of-living-your-life-online/</link>
       <pubDate>Wed, 05 Oct 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-high-cost-of-living-your-life-online/</guid>
-      <description>Studies have found that high levels of social media use are connected with an increased risk of symptoms of anxiety and depression. There appears to be substantial evidence connecting people’s mental health and their online habits. Furthermore, many psychologists believe people may be dealing with psychological effects that are pervasive but not always obvious.
-More here.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Studies have found that high levels of social media use are connected with an
+increased risk of symptoms of anxiety and depression. There appears to be
+substantial evidence connecting people’s mental health and their online
+habits. Furthermore, many psychologists believe people may be dealing with
+psychological effects that are pervasive but not always obvious.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;More &lt;a href=&#34;https://www.wired.com/story/privacy-psychology-social-media/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
 <p>Studies have found that high levels of social media use are connected with an
 increased risk of symptoms of anxiety and depression. There appears to be
 substantial evidence connecting people’s mental health and their online
 habits. Furthermore, many psychologists believe people may be dealing with
-psychological effects that are pervasive but not always obvious.</p>
-</blockquote>
+psychological effects that are pervasive but not always obvious.</p></blockquote>
 <p>More <a href="https://www.wired.com/story/privacy-psychology-social-media/">here</a>.</p>
 ]]></content:encoded>
     </item>

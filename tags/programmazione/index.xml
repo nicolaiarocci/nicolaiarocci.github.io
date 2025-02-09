@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>programmazione on Nicola Iarocci</title>
+    <title>Programmazione on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/programmazione/</link>
-    <description>Recent content in programmazione on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Programmazione on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Tue, 30 Apr 2013 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://nicolaiarocci.com/quali-sono-i-font-migliori-per-scrivere-codice/</link>
       <pubDate>Tue, 30 Apr 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/quali-sono-i-font-migliori-per-scrivere-codice/</guid>
-      <description>Malgrado la giovane età Source Code Pro di Adobe domina incontrastato, col più classico Consolas come sua regina. Inconsolata-g e Monaco seguono a distanza mentre il mio preferito, Menlo, è tristemente indietro: What Are the Best Programming Fonts?</description>
+      <description>&lt;p&gt;Malgrado la giovane età Source Code Pro di Adobe domina incontrastato, col più classico Consolas come sua regina. Inconsolata-g e Monaco seguono a distanza mentre il mio preferito, Menlo, è tristemente indietro: &lt;!-- raw HTML omitted --&gt;What Are the Best Programming Fonts?&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Malgrado la giovane età Source Code Pro di Adobe domina incontrastato, col più classico Consolas come sua regina. Inconsolata-g e Monaco seguono a distanza mentre il mio preferito, Menlo, è tristemente indietro: <!-- raw HTML omitted -->What Are the Best Programming Fonts?<!-- raw HTML omitted --></p>
 ]]></content:encoded>
     </item>
@@ -23,8 +23,8 @@
       <link>https://nicolaiarocci.com/vi-presento-eve-il-framework-per-lanciare-la-vostra-rest-api-web/</link>
       <pubDate>Tue, 08 Jan 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/vi-presento-eve-il-framework-per-lanciare-la-vostra-rest-api-web/</guid>
-      <description>Lo scorso anno abbiamo lavorato duro per costruirci una RESTful Web API su misura, flessibile e completa. In corso d’opera abbiamo imparato molto sulle migliori pratiche REST, mettendo anche alla frusta le rinomate capacità Web del linguaggio Python.
-Ad EuroPython 2012 ho poi raccontato la nostra esperienza e condiviso ciò che avevamo imparato. In quell’occasione mi sono reso conto di quanto l’argomento fosse d’attualità, tanto che da quel 4 luglio le slide che avevo preparato (le trovate su Speaker Deck o Slideshare) ed i video su YouTube (italiano; inglese) hanno totalizzato 30mila visite.</description>
+      <description>&lt;p&gt;Lo scorso anno abbiamo lavorato duro per costruirci una RESTful Web API su misura, flessibile e completa. In corso d’opera abbiamo imparato molto sulle migliori pratiche REST, mettendo anche alla frusta le rinomate capacità Web del linguaggio Python.&lt;/p&gt;
+&lt;p&gt;Ad EuroPython 2012 ho poi &lt;a href=&#34;http://nicolaiarocci.com/sviluppare-una-restful-web-api-con-python-flask-e-mongodb/&#34;&gt;raccontato la nostra esperienza&lt;/a&gt; e condiviso ciò che avevamo imparato. In quell’occasione mi sono reso conto di quanto l’argomento fosse d’attualità, tanto che da quel 4 luglio le slide che avevo preparato (le trovate su &lt;!-- raw HTML omitted --&gt;Speaker Deck&lt;!-- raw HTML omitted --&gt; o &lt;!-- raw HTML omitted --&gt;Slideshare&lt;!-- raw HTML omitted --&gt;) ed i video su YouTube (&lt;!-- raw HTML omitted --&gt;italiano&lt;!-- raw HTML omitted --&gt;; &lt;!-- raw HTML omitted --&gt;inglese&lt;!-- raw HTML omitted --&gt;) hanno totalizzato 30mila visite. Da allora ricevo continue richieste di chiarimenti, suggerimenti, approfondimenti, consigli. Soprattutto, mi si chiedono esempi di codice. In fin dei conti prima o poi qualunque sviluppatore web si trova, volente o nolente, a fare i conti con una REST API.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Lo scorso anno abbiamo lavorato duro per costruirci una RESTful Web API su misura, flessibile e completa. In corso d’opera abbiamo imparato molto sulle migliori pratiche REST, mettendo anche alla frusta le rinomate capacità Web del linguaggio Python.</p>
 <p>Ad EuroPython 2012 ho poi <a href="http://nicolaiarocci.com/sviluppare-una-restful-web-api-con-python-flask-e-mongodb/">raccontato la nostra esperienza</a> e condiviso ciò che avevamo imparato. In quell’occasione mi sono reso conto di quanto l’argomento fosse d’attualità, tanto che da quel 4 luglio le slide che avevo preparato (le trovate su <!-- raw HTML omitted -->Speaker Deck<!-- raw HTML omitted --> o <!-- raw HTML omitted -->Slideshare<!-- raw HTML omitted -->) ed i video su YouTube (<!-- raw HTML omitted -->italiano<!-- raw HTML omitted -->; <!-- raw HTML omitted -->inglese<!-- raw HTML omitted -->) hanno totalizzato 30mila visite. Da allora ricevo continue richieste di chiarimenti, suggerimenti, approfondimenti, consigli. Soprattutto, mi si chiedono esempi di codice. In fin dei conti prima o poi qualunque sviluppatore web si trova, volente o nolente, a fare i conti con una REST API.</p>
 <p>Così ho pensato che avrei potuto prendere il nostro codice proprietario (nome interno Adam), sistemarlo un po’ in modo che si adattasse ai casi d’uso più comuni, e rilasciarlo come progetto open source. Be’ c’è voluto un bel po’ di lavoro, ben più di quello inizialmente preventivato, ma ora ci siamo. Il progetto è finalmente disponibile, e naturalmente si chiama <!-- raw HTML omitted -->Eve<!-- raw HTML omitted -->.</p>
@@ -43,11 +43,11 @@ Ad EuroPython 2012 ho poi raccontato la nostra esperienza e condiviso ciò che a
       <link>https://nicolaiarocci.com/scrivete-il-dannato-manuale/</link>
       <pubDate>Sat, 29 Sep 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/scrivete-il-dannato-manuale/</guid>
-      <description>Sviluppatori: passate ore, giorni, mesi, forse anni interi a perfezionare il vostro capolavoro. In fin dei conti si tratta dell’espressione di un’intera vita professionale, anima e cuore. Perché dunque vi fate del male dotandolo di documentazione scarna, o addirittura inesistente?
-Write The Freaking Manual</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Sviluppatori: passate ore, giorni, mesi, forse anni interi a perfezionare il vostro capolavoro. In fin dei conti si tratta dell’espressione di un’intera vita professionale, anima e cuore. Perché dunque vi fate del male dotandolo di documentazione scarna, o addirittura inesistente?&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Write The Freaking Manual&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>Sviluppatori: passate ore, giorni, mesi, forse anni interi a perfezionare il vostro capolavoro. In fin dei conti si tratta dell’espressione di un’intera vita professionale, anima e cuore. Perché dunque vi fate del male dotandolo di documentazione scarna, o addirittura inesistente?</p>
-</blockquote>
+<p>Sviluppatori: passate ore, giorni, mesi, forse anni interi a perfezionare il vostro capolavoro. In fin dei conti si tratta dell’espressione di un’intera vita professionale, anima e cuore. Perché dunque vi fate del male dotandolo di documentazione scarna, o addirittura inesistente?</p></blockquote>
 <p><!-- raw HTML omitted -->Write The Freaking Manual<!-- raw HTML omitted --></p>
 ]]></content:encoded>
     </item>
@@ -56,7 +56,7 @@ Write The Freaking Manual</description>
       <link>https://nicolaiarocci.com/jsbooks-libri-open-source-su-javascript/</link>
       <pubDate>Thu, 30 Aug 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/jsbooks-libri-open-source-su-javascript/</guid>
-      <description>JSBooks Free JavaScript Books è una valida selezione di risorse gratuite su JavaScript. Si tratta di libri e guide gratuite per programmatori di ogni livello, dal principiante al veterano. Il catalogo include titoli su jQuery, Backbone, design patterns, Node, CoffeeScript, qualcosa su HTML5 e addirittura un libro su MongoDB (si tratta una mia vecchia conoscenza). Alcuni suggerimenti sono davvero di ottima qualità. Il progetto è open source e chiunque può contribuire segnalando nuove interessanti risorse via GitHub.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;JSBooks Free JavaScript Books&lt;!-- raw HTML omitted --&gt; è una valida selezione di risorse gratuite su JavaScript. Si tratta di libri e guide gratuite per programmatori di ogni livello, dal principiante al veterano. Il catalogo include titoli su jQuery, Backbone, design patterns, Node, CoffeeScript, qualcosa su HTML5 e addirittura un libro su MongoDB (si tratta una mia &lt;a href=&#34;http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/&#34; title=&#34;Il Piccolo Libro su MongoDB&#34;&gt;vecchia conoscenza&lt;/a&gt;). Alcuni suggerimenti sono davvero di ottima qualità. Il progetto è open source e chiunque può contribuire segnalando nuove interessanti risorse via GitHub.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->JSBooks Free JavaScript Books<!-- raw HTML omitted --> è una valida selezione di risorse gratuite su JavaScript. Si tratta di libri e guide gratuite per programmatori di ogni livello, dal principiante al veterano. Il catalogo include titoli su jQuery, Backbone, design patterns, Node, CoffeeScript, qualcosa su HTML5 e addirittura un libro su MongoDB (si tratta una mia <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro su MongoDB">vecchia conoscenza</a>). Alcuni suggerimenti sono davvero di ottima qualità. Il progetto è open source e chiunque può contribuire segnalando nuove interessanti risorse via GitHub.</p>
 ]]></content:encoded>
     </item>
@@ -65,7 +65,25 @@ Write The Freaking Manual</description>
       <link>https://nicolaiarocci.com/sullessere-un-programmatore/</link>
       <pubDate>Sat, 18 Aug 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/sullessere-un-programmatore/</guid>
-      <description>Non fare lo stronzo Codice semplice è difficile da scrivere Codice squisitamente semplice è davvero difficile da scrivere Se è semplice leggerlo non vuol dire che sia stato semplice scriverlo In effetti più è semplice più, probabilmente, è stato difficile scriverlo Ci sono molti modi di ottenere lo stesso risultato E’ davvero improbabile che il primo che ti viene in mente sia anche il migliore Probabilmente il migliore non esiste – ne esistono molti, ognuno migliore a modo suo Hai sempre modo di migliorare – nel codice, nelle capacità, in te stesso Se pensi che non sei mai stato così bravo prima d’ora, probabilmente hai ragione Non esistono correzioni di una sola riga Impara a desiderare il successo più di quanto temi il fallimento Diventi vecchio solo quando non sei più capace di imparare nuovi trucchetti Fai sempre un backup prima di “dare una sistemata” al codice Leggi il fottuto manuale A volte un po’ stronzo è ok.</description>
+      <description>&lt;ul&gt;
+&lt;li&gt;Non fare lo stronzo&lt;/li&gt;
+&lt;li&gt;Codice semplice è difficile da scrivere&lt;/li&gt;
+&lt;li&gt;Codice  squisitamente semplice è davvero difficile da scrivere&lt;/li&gt;
+&lt;li&gt;Se è semplice leggerlo non vuol dire che sia stato semplice scriverlo&lt;/li&gt;
+&lt;li&gt;In effetti più è semplice più, probabilmente, è stato difficile scriverlo&lt;/li&gt;
+&lt;li&gt;Ci sono molti modi di ottenere lo stesso risultato&lt;/li&gt;
+&lt;li&gt;E’ &lt;em&gt;davvero&lt;/em&gt; improbabile che il primo che ti viene in mente sia anche il migliore&lt;/li&gt;
+&lt;li&gt;Probabilmente &lt;em&gt;il&lt;/em&gt; &lt;em&gt;migliore&lt;/em&gt; non esiste – ne esistono molti, ognuno migliore a modo suo&lt;/li&gt;
+&lt;li&gt;Hai sempre modo di migliorare – nel codice, nelle capacità, in te stesso&lt;/li&gt;
+&lt;li&gt;Se pensi che non sei mai stato così bravo prima d’ora, probabilmente hai ragione&lt;/li&gt;
+&lt;li&gt;Non esistono correzioni di una sola riga&lt;/li&gt;
+&lt;li&gt;Impara a desiderare il successo più di quanto temi il fallimento&lt;/li&gt;
+&lt;li&gt;Diventi vecchio solo quando non sei più capace di imparare nuovi trucchetti&lt;/li&gt;
+&lt;li&gt;Fai sempre un backup prima di “dare una sistemata” al codice&lt;/li&gt;
+&lt;li&gt;Leggi il fottuto manuale&lt;/li&gt;
+&lt;li&gt;A volte un po’ stronzo è ok. Che non diventi un’abitudine.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Liberamente tradotto da &lt;!-- raw HTML omitted --&gt;Thoughts on being a programmer&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<ul>
 <li>Non fare lo stronzo</li>
 <li>Codice semplice è difficile da scrivere</li>
@@ -92,7 +110,7 @@ Write The Freaking Manual</description>
       <link>https://nicolaiarocci.com/imparare-python-con-codecademy/</link>
       <pubDate>Tue, 31 Jul 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/imparare-python-con-codecademy/</guid>
-      <description>Di Codecademy avevo già scritto tempo fa in occasione dei loro primi corsi giocoso-interattivi su HTML, CSS e JavaScript. E’ di ieri l’annuncio del nuovo corso Python per principianti. Se volete rompere il ghiaccio con questo bellissimo linguaggio l’approccio di Codecademy (imparare divertendosi, anche grazie a collaudati meccanismi incentivanti come i punteggi e i trofei) potrebbe fare per voi.</description>
+      <description>&lt;p&gt;Di Codecademy avevo già scritto &lt;a href=&#34;http://nicolaiarocci.com/imparare-html-e-css-online-con-codecademy/&#34; title=&#34;Imparare HTM e CSS online con Codecademy&#34;&gt;tempo fa&lt;/a&gt; in occasione dei loro primi corsi giocoso-interattivi su HTML, CSS  e JavaScript. E’ di ieri l’annuncio del &lt;!-- raw HTML omitted --&gt;nuovo corso Python per principianti&lt;!-- raw HTML omitted --&gt;. Se volete rompere il ghiaccio con questo bellissimo linguaggio l’approccio di Codecademy (imparare divertendosi, anche grazie a collaudati meccanismi incentivanti come i punteggi e i trofei) potrebbe fare per voi.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Di Codecademy avevo già scritto <a href="http://nicolaiarocci.com/imparare-html-e-css-online-con-codecademy/" title="Imparare HTM e CSS online con Codecademy">tempo fa</a> in occasione dei loro primi corsi giocoso-interattivi su HTML, CSS  e JavaScript. E’ di ieri l’annuncio del <!-- raw HTML omitted -->nuovo corso Python per principianti<!-- raw HTML omitted -->. Se volete rompere il ghiaccio con questo bellissimo linguaggio l’approccio di Codecademy (imparare divertendosi, anche grazie a collaudati meccanismi incentivanti come i punteggi e i trofei) potrebbe fare per voi.</p>
 ]]></content:encoded>
     </item>
@@ -101,7 +119,7 @@ Write The Freaking Manual</description>
       <link>https://nicolaiarocci.com/flask-mimerender-v0-1-2/</link>
       <pubDate>Thu, 19 Jul 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/flask-mimerender-v0-1-2/</guid>
-      <description>Grazie al contributo di Bruno Ripa, la versione 0.1.2 di Flask-MimeRender pubblicata oggi introduce il supporto per codici di stato HTTP arbitrari. Ho colto l’occasione per uniformare il codice sorgente alle direttive PEP8 e per sistemare alcuni dettagli del package PyPI. Vi ricordo che potete contribuire voi stessi al progetto, direttamente su GitHub.</description>
+      <description>&lt;p&gt;Grazie al contributo di &lt;a href=&#34;http://twitter.com/brunoripa&#34;&gt;Bruno Ripa&lt;/a&gt;, la versione 0.1.2 di &lt;a href=&#34;http://nicolaiarocci.com/come-implementare-un-web-service-rest-che-adatta-le-risposte-al-mime-media-type-delle-richieste-http/&#34; title=&#34;Flask-MimeRender&#34;&gt;Flask-MimeRender&lt;/a&gt; pubblicata oggi introduce il supporto per codici di stato HTTP arbitrari. Ho colto l’occasione per uniformare il codice sorgente alle direttive PEP8 e per sistemare alcuni dettagli del &lt;a href=&#34;http://nicolaiarocci.com/flask-mimerender-e-nel-python-package-index-pypi/&#34; title=&#34;Flask-MimeRender su PyPI&#34;&gt;package PyPI&lt;/a&gt;. Vi ricordo che potete contribuire voi stessi al progetto, direttamente su &lt;!-- raw HTML omitted --&gt;GitHub&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Grazie al contributo di <a href="http://twitter.com/brunoripa">Bruno Ripa</a>, la versione 0.1.2 di <a href="http://nicolaiarocci.com/come-implementare-un-web-service-rest-che-adatta-le-risposte-al-mime-media-type-delle-richieste-http/" title="Flask-MimeRender">Flask-MimeRender</a> pubblicata oggi introduce il supporto per codici di stato HTTP arbitrari. Ho colto l’occasione per uniformare il codice sorgente alle direttive PEP8 e per sistemare alcuni dettagli del <a href="http://nicolaiarocci.com/flask-mimerender-e-nel-python-package-index-pypi/" title="Flask-MimeRender su PyPI">package PyPI</a>. Vi ricordo che potete contribuire voi stessi al progetto, direttamente su <!-- raw HTML omitted -->GitHub<!-- raw HTML omitted -->.</p>
 ]]></content:encoded>
     </item>
@@ -110,8 +128,13 @@ Write The Freaking Manual</description>
       <link>https://nicolaiarocci.com/e-finalmente-esce-sublime-text-2/</link>
       <pubDate>Wed, 27 Jun 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/e-finalmente-esce-sublime-text-2/</guid>
-      <description>Da ieri Sublime Text 2 è ufficialmente fuori dalla lunghissima beta. Molte novità anche nell’ultima build, incluso il supporto per il Retina Display di OSX (tanto per dire quanto questi ragazzi stiano sul pezzo). Vi propongo un po’ di link di riferimento:
-Annuncio della versione 2.0 sul blog Sublime Come Kenneth Reitz ha configurato ST2 per Python Sublime Text 2 un anno dopo, il mio articolo più recente su ST2 PS: io nel frattempo sono tornato a vim, e per ora ci sto molto comodo.</description>
+      <description>&lt;p&gt;Da ieri Sublime Text 2 è ufficialmente fuori dalla lunghissima beta. Molte novità anche nell’ultima build, incluso il supporto per il Retina Display di OSX (tanto per dire quanto questi ragazzi stiano sul pezzo). Vi propongo un po’ di link di riferimento:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;Annuncio della versione 2.0&lt;!-- raw HTML omitted --&gt; sul blog Sublime&lt;/li&gt;
+&lt;li&gt;Come Kenneth Reitz ha configurato &lt;!-- raw HTML omitted --&gt;ST2 per Python&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://nicolaiarocci.com/sublime-text-2-un-anno-dopo/&#34; title=&#34;Sublime Text 2 un anno dopo&#34;&gt;Sublime Text 2 un anno dopo&lt;/a&gt;, il mio articolo più recente su ST2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PS: io nel frattempo sono tornato a vim, e per ora ci sto molto comodo. Sublime Text rimane l’editor che consiglio a chiunque non abbia già un background vi/vim e non voglia o non possa investire tempo nell’impararlo.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Da ieri Sublime Text 2 è ufficialmente fuori dalla lunghissima beta. Molte novità anche nell’ultima build, incluso il supporto per il Retina Display di OSX (tanto per dire quanto questi ragazzi stiano sul pezzo). Vi propongo un po’ di link di riferimento:</p>
 <ul>
 <li><!-- raw HTML omitted -->Annuncio della versione 2.0<!-- raw HTML omitted --> sul blog Sublime</li>
@@ -126,7 +149,9 @@ Annuncio della versione 2.0 sul blog Sublime Come Kenneth Reitz ha configurato S
       <link>https://nicolaiarocci.com/windows-azure-ora-supporta-ufficialmente-python/</link>
       <pubDate>Fri, 08 Jun 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/windows-azure-ora-supporta-ufficialmente-python/</guid>
-      <description>Windows Azure ora supporta ufficialmente Python. La pagina ufficiale consente di scaricare l’SDK e contiene alcuni tutorial per la creazione di applicazioni Django, Python e IPython direttamente da Visual Studio.</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Windows Azure ora supporta ufficialmente Python. La &lt;!-- raw HTML omitted --&gt;pagina ufficiale&lt;!-- raw HTML omitted --&gt; consente di scaricare l’SDK e contiene alcuni tutorial per la creazione di applicazioni Django, Python e IPython direttamente da Visual Studio.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <p>Windows Azure ora supporta ufficialmente Python. La <!-- raw HTML omitted -->pagina ufficiale<!-- raw HTML omitted --> consente di scaricare l’SDK e contiene alcuni tutorial per la creazione di applicazioni Django, Python e IPython direttamente da Visual Studio.</p>
@@ -137,9 +162,16 @@ Annuncio della versione 2.0 sul blog Sublime Come Kenneth Reitz ha configurato S
       <link>https://nicolaiarocci.com/convertire-una-data-json-in-un-oggetto-datetime-python/</link>
       <pubDate>Thu, 07 Jun 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/convertire-una-data-json-in-un-oggetto-datetime-python/</guid>
-      <description>Abbiamo una stringa JSON che contiene una data:
-fonte = &#39;{&amp;quot;ragione_sociale&amp;quot;: &amp;quot;CIR 2000&amp;quot;, &amp;quot;aggiornato_il&amp;quot;: &amp;quot;Wed, 06 Jun 2012 14:19:53 UTC&amp;quot;}&#39; Vediamo che succede se la convertiamo in un dizionario Python:
-import simplejson as json json.loads(fonte) {&#39;aggiornato_il&#39;: &#39;Wed, 06 Jun 2012 14:19:53 UTC &#39;, &#39;ragione_sociale&#39;: &#39;CIR 2000&#39;} Facile, vero? C’è però un piccolo problema: aggiornato_il è ancora una stringa mentre a noi, per poterlo elaborare comodamente, serve un campo datetime.datetime. Come mai il pur potente modulo simplejson non converte correttamente la nostra data?</description>
+      <description>&lt;p&gt;Abbiamo una stringa JSON che contiene una data:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;fonte = &#39;{&amp;quot;ragione_sociale&amp;quot;: &amp;quot;CIR 2000&amp;quot;, &amp;quot;aggiornato_il&amp;quot;: &amp;quot;Wed, 06 Jun 2012 14:19:53 UTC&amp;quot;}&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Vediamo che succede se la convertiamo in un dizionario Python:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import simplejson as json
+
+json.loads(fonte)
+{&#39;aggiornato_il&#39;: &#39;Wed, 06 Jun 2012 14:19:53 UTC &#39;, &#39;ragione_sociale&#39;: &#39;CIR 2000&#39;}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Facile, vero? C’è però un piccolo problema: &lt;code&gt;aggiornato_il&lt;/code&gt; è ancora una stringa mentre a noi, per poterlo elaborare comodamente, serve un campo &lt;code&gt;datetime.datetime&lt;/code&gt;. Come mai il pur potente modulo &lt;code&gt;simplejson&lt;/code&gt; non converte correttamente la nostra data?&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Abbiamo una stringa JSON che contiene una data:</p>
 <pre><code>fonte = '{&quot;ragione_sociale&quot;: &quot;CIR 2000&quot;, &quot;aggiornato_il&quot;: &quot;Wed, 06 Jun 2012 14:19:53 UTC&quot;}'
 </code></pre>
@@ -197,12 +229,12 @@ def datetime_parser(dct):
       <link>https://nicolaiarocci.com/primi-passi-con-ssh/</link>
       <pubDate>Wed, 23 May 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/primi-passi-con-ssh/</guid>
-      <description>Se siete ai primi passi nello sviluppo di applicazioni web vi consiglio la lettura di SSH: What and How. Senza troppi fronzoli l’articolo spiega le basi di SSH mettendo bene in luce le possibilità offerte da questo importante strumento di lavoro.
-Ogni giorno molti sviluppatori web usano SSH (“Secure Shell”) per gestire i loro server, fare backup, lavorare in remoto e una miriade di altre cosette. Oggi vi spiego cos’è e da dove viene SSH e, soprattutto, vi insegno come configurarlo sul vostro server remoto o sulla vostra rete locale.</description>
+      <description>&lt;p&gt;Se siete ai primi passi nello sviluppo di applicazioni web vi consiglio la lettura di &lt;!-- raw HTML omitted --&gt;SSH: What and How&lt;!-- raw HTML omitted --&gt;. Senza troppi fronzoli l’articolo spiega le basi di SSH mettendo bene in luce le possibilità offerte da questo importante strumento di lavoro.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ogni giorno molti sviluppatori web usano SSH (“Secure Shell”) per gestire i loro server, fare backup, lavorare in remoto e una miriade di altre cosette. Oggi vi spiego cos’è e da dove viene SSH e, soprattutto, vi insegno come configurarlo sul vostro server remoto o sulla vostra rete locale. Cominciamo!&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Se siete ai primi passi nello sviluppo di applicazioni web vi consiglio la lettura di <!-- raw HTML omitted -->SSH: What and How<!-- raw HTML omitted -->. Senza troppi fronzoli l’articolo spiega le basi di SSH mettendo bene in luce le possibilità offerte da questo importante strumento di lavoro.</p>
 <blockquote>
-<p>Ogni giorno molti sviluppatori web usano SSH (“Secure Shell”) per gestire i loro server, fare backup, lavorare in remoto e una miriade di altre cosette. Oggi vi spiego cos’è e da dove viene SSH e, soprattutto, vi insegno come configurarlo sul vostro server remoto o sulla vostra rete locale. Cominciamo!</p>
-</blockquote>
+<p>Ogni giorno molti sviluppatori web usano SSH (“Secure Shell”) per gestire i loro server, fare backup, lavorare in remoto e una miriade di altre cosette. Oggi vi spiego cos’è e da dove viene SSH e, soprattutto, vi insegno come configurarlo sul vostro server remoto o sulla vostra rete locale. Cominciamo!</p></blockquote>
 ]]></content:encoded>
     </item>
     <item>
@@ -236,15 +268,15 @@ Ogni giorno molti sviluppatori web usano SSH (“Secure Shell”) per gestire i 
       <link>https://nicolaiarocci.com/guido-van-rossum-a-europython-2012/</link>
       <pubDate>Fri, 20 Apr 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/guido-van-rossum-a-europython-2012/</guid>
-      <description>Partenza col botto per EuroPython 2012. I keynote introduttivi saranno tenuti nientemeno che dal creatore stesso del linguaggio, Guido Van Rossum, e da Alex Martelli. Ieri è stato annunciato il programma ufficiale e a quanto pare mi spetta l’inaugurazione della italian track martedì 3 luglio. Il giorno successivo sarò impegnato, ancora di prima mattina, con la versione in lingua inglese del mio talk:
-Sviluppare una RESTful Web API con Python, Flask e MongoDB</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Partenza col botto per &lt;!-- raw HTML omitted --&gt;EuroPython 2012&lt;!-- raw HTML omitted --&gt;. I keynote introduttivi saranno tenuti nientemeno che dal creatore stesso del linguaggio, Guido Van Rossum, e da Alex Martelli. Ieri è stato annunciato il &lt;!-- raw HTML omitted --&gt;programma ufficiale&lt;!-- raw HTML omitted --&gt; e a quanto pare mi spetta l’inaugurazione della italian track martedì 3 luglio. Il giorno successivo sarò impegnato, ancora di prima mattina, con la versione in lingua inglese del mio talk:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <p>Partenza col botto per <!-- raw HTML omitted -->EuroPython 2012<!-- raw HTML omitted -->. I keynote introduttivi saranno tenuti nientemeno che dal creatore stesso del linguaggio, Guido Van Rossum, e da Alex Martelli. Ieri è stato annunciato il <!-- raw HTML omitted -->programma ufficiale<!-- raw HTML omitted --> e a quanto pare mi spetta l’inaugurazione della italian track martedì 3 luglio. Il giorno successivo sarò impegnato, ancora di prima mattina, con la versione in lingua inglese del mio talk:</p>
 <blockquote>
 <p><!-- raw HTML omitted -->Sviluppare una RESTful Web API con Python, Flask e MongoDB<!-- raw HTML omitted --></p>
-<p>Nel corso dell’ultimo anno abbiamo lavorato all’implementazione Python di una RESTful Web API completa. Abbiamo imparato un bel po’ di cose sui best pattern REST e, naturalmente, abbiamo messo alla prova le ben note capacità web di Python, rilasciando nel frattempo un paio di progetti Open Source. Nel corso del mio intervento condividerò quel che abbiamo imparato. Prenderemo in considerazione il problematico design di una REST API ‘pura’. Vedremo che cosa offre Python in questo campo e scenderemo infine nel dettaglio, dando una occhiata al codice che abbiamo scritto. Alcune tecnologie/stack che tratteremo sono (in nessun ordine particolare): Flask, PyMongo, MongoDB, REST, JSON, XML, Heroku. Lo sapevi? Che ti piaccia o no, c’è una REST API nel tuo futuro.</p>
-</blockquote>
+<p>Nel corso dell’ultimo anno abbiamo lavorato all’implementazione Python di una RESTful Web API completa. Abbiamo imparato un bel po’ di cose sui best pattern REST e, naturalmente, abbiamo messo alla prova le ben note capacità web di Python, rilasciando nel frattempo un paio di progetti Open Source. Nel corso del mio intervento condividerò quel che abbiamo imparato. Prenderemo in considerazione il problematico design di una REST API ‘pura’. Vedremo che cosa offre Python in questo campo e scenderemo infine nel dettaglio, dando una occhiata al codice che abbiamo scritto. Alcune tecnologie/stack che tratteremo sono (in nessun ordine particolare): Flask, PyMongo, MongoDB, REST, JSON, XML, Heroku. Lo sapevi? Che ti piaccia o no, c’è una REST API nel tuo futuro.</p></blockquote>
 <p>Scorrendo la lista degli speaker scopro che anche Amin Roacher, autore di Flask, e Ross Lawley di 10Gen (MongoDB) saranno della partita. Insomma ammetto che un po’ d’ansia da prestazione comincia ad affiorare. Sarà una bella sfida, e non vedo l’ora di affrontarla. Conto molto sul vostro supporto e incoraggiamento: ne avrò bisogno 😉</p>
 ]]></content:encoded>
     </item>
@@ -253,13 +285,14 @@ Sviluppare una RESTful Web API con Python, Flask e MongoDB</description>
       <link>https://nicolaiarocci.com/imparare-git-un-passo-alla-volta-con-git-immersion/</link>
       <pubDate>Fri, 13 Apr 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/imparare-git-un-passo-alla-volta-con-git-immersion/</guid>
-      <description>Già sapete che Git è uno degli strumenti senza i quali non potrei più vivere, ne ho scritto anche recentemente in Branching di successo per Git e Usare Git con Dropbox. Oggi vi propongo Git Immersion, fantastico sito-laboratorio per “immergersi” in Git imparandolo passo dopo passo.
-Git Immersion è un tour guidato che ti accompagna in una passeggiata tra i fondamenti di Git, ispirato dalla premessa che conoscere una cosa significa usarla.</description>
+      <description>&lt;p&gt;Già sapete che Git è uno degli strumenti senza i quali non potrei più vivere, ne ho scritto anche recentemente in &lt;a href=&#34;http://nicolaiarocci.com/branching-di-successo-per-git/&#34; title=&#34;Branching di successo per Git&#34;&gt;Branching di successo per Git&lt;/a&gt; e &lt;a href=&#34;http://nicolaiarocci.com/usare-git-con-dropbox/&#34; title=&#34;Usare Git con Dropbox&#34;&gt;Usare Git con Dropbox&lt;/a&gt;. Oggi vi propongo &lt;!-- raw HTML omitted --&gt;Git Immersion&lt;!-- raw HTML omitted --&gt;, fantastico sito-laboratorio per “immergersi” in Git imparandolo passo dopo passo.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Git Immersion è un tour guidato che ti accompagna in una passeggiata tra i fondamenti di Git, ispirato dalla premessa che conoscere una cosa significa usarla. Git è un sistema potente e sofisticato per il controllo di versione distribuito. Per lo sviluppatore conoscere e comprenderne le caratteristiche significa aprirsi a un nuovo e liberatorio approccio alla gestione del codice sorgente. Il modo migliore per padroneggiare Git è immergesi nelle sue utility ed operazioni, sperimentarlo in prima persona.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Già sapete che Git è uno degli strumenti senza i quali non potrei più vivere, ne ho scritto anche recentemente in <a href="http://nicolaiarocci.com/branching-di-successo-per-git/" title="Branching di successo per Git">Branching di successo per Git</a> e <a href="http://nicolaiarocci.com/usare-git-con-dropbox/" title="Usare Git con Dropbox">Usare Git con Dropbox</a>. Oggi vi propongo <!-- raw HTML omitted -->Git Immersion<!-- raw HTML omitted -->, fantastico sito-laboratorio per “immergersi” in Git imparandolo passo dopo passo.</p>
 <!-- raw HTML omitted -->
 <blockquote>
-<p>Git Immersion è un tour guidato che ti accompagna in una passeggiata tra i fondamenti di Git, ispirato dalla premessa che conoscere una cosa significa usarla. Git è un sistema potente e sofisticato per il controllo di versione distribuito. Per lo sviluppatore conoscere e comprenderne le caratteristiche significa aprirsi a un nuovo e liberatorio approccio alla gestione del codice sorgente. Il modo migliore per padroneggiare Git è immergesi nelle sue utility ed operazioni, sperimentarlo in prima persona.</p>
-</blockquote>
+<p>Git Immersion è un tour guidato che ti accompagna in una passeggiata tra i fondamenti di Git, ispirato dalla premessa che conoscere una cosa significa usarla. Git è un sistema potente e sofisticato per il controllo di versione distribuito. Per lo sviluppatore conoscere e comprenderne le caratteristiche significa aprirsi a un nuovo e liberatorio approccio alla gestione del codice sorgente. Il modo migliore per padroneggiare Git è immergesi nelle sue utility ed operazioni, sperimentarlo in prima persona.</p></blockquote>
 ]]></content:encoded>
     </item>
     <item>
@@ -267,8 +300,11 @@ Git Immersion è un tour guidato che ti accompagna in una passeggiata tra i fond
       <link>https://nicolaiarocci.com/speaker-a-europython-2012/</link>
       <pubDate>Fri, 13 Apr 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/speaker-a-europython-2012/</guid>
-      <description>EuroPython è la conferenza europea di riferimento per il linguaggio Python. Si terrà anche quest’anno a Firenze, dal 2 al 8 luglio. Sono in programma molti interventi davvero interessanti, cosa che rende ancor più soprendente il fatto che i miei talk siano stati votati così tanto.
-Date un’occhiata al sito ufficiale per saperne di più sulla conferenza (in questo momento è ancora possibile approfittare dell’offerta early bird per l’acquisto dei biglietti); maggiori informazioni sui miei interventi tra qualche tempo, quando sarà ufficializzato il calendario dei talk.</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;EuroPython è la conferenza europea di riferimento per il linguaggio Python. Si terrà anche quest’anno a Firenze, dal 2 al 8 luglio. Sono in programma molti interventi davvero interessanti, cosa che rende ancor più soprendente il fatto che i miei talk siano stati votati così tanto.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Date un’occhiata al &lt;!-- raw HTML omitted --&gt;sito ufficiale&lt;!-- raw HTML omitted --&gt; per saperne di più sulla conferenza (in questo momento è ancora possibile approfittare dell’offerta &lt;em&gt;early bird&lt;/em&gt; per l’acquisto dei biglietti); maggiori informazioni sui miei interventi tra qualche tempo, quando sarà ufficializzato il calendario dei talk.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <p>EuroPython è la conferenza europea di riferimento per il linguaggio Python. Si terrà anche quest’anno a Firenze, dal 2 al 8 luglio. Sono in programma molti interventi davvero interessanti, cosa che rende ancor più soprendente il fatto che i miei talk siano stati votati così tanto.</p>
@@ -330,10 +366,11 @@ Date un’occhiata al sito ufficiale per saperne di più sulla conferenza (in 
       <link>https://nicolaiarocci.com/7-risorse-per-sviluppatori-javascript/</link>
       <pubDate>Thu, 15 Mar 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/7-risorse-per-sviluppatori-javascript/</guid>
-      <description>Anni fa JavaScript era considerato più che altro una seccatura: produceva queste animazioni e trailer per il browser e poco altro. Ora tutto è cambiato. JavaScript è eletto a linguaggio funzionale di prima classe e in rete sono disponibili risorse innumerevoli . Condivido con voi alcune delle mie fonti migliori, che uso per tenermi aggiornato su librerie, progetti e JavaScript in generale. – Rob Bazinet</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Anni fa JavaScript era considerato più che altro una seccatura: produceva queste animazioni e trailer per il browser e poco altro. Ora tutto è cambiato. JavaScript è eletto a linguaggio funzionale di prima classe e in rete sono disponibili risorse innumerevoli . Condivido con voi alcune delle mie fonti migliori, che uso per tenermi aggiornato su librerie, progetti e JavaScript in generale. – Rob Bazinet&lt;/p&gt;&lt;/blockquote&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>Anni fa JavaScript era considerato più che altro una seccatura: produceva queste animazioni e trailer per il browser e poco altro. Ora tutto è cambiato. JavaScript è eletto a linguaggio funzionale di prima classe e in rete sono disponibili risorse innumerevoli . Condivido con voi alcune delle mie fonti migliori, che uso per tenermi aggiornato su librerie, progetti e JavaScript in generale. – Rob Bazinet</p>
-</blockquote>
+<p>Anni fa JavaScript era considerato più che altro una seccatura: produceva queste animazioni e trailer per il browser e poco altro. Ora tutto è cambiato. JavaScript è eletto a linguaggio funzionale di prima classe e in rete sono disponibili risorse innumerevoli . Condivido con voi alcune delle mie fonti migliori, che uso per tenermi aggiornato su librerie, progetti e JavaScript in generale. – Rob Bazinet</p></blockquote>
 <!-- raw HTML omitted -->
 ]]></content:encoded>
     </item>
@@ -434,12 +471,10 @@ Date un’occhiata al sito ufficiale per saperne di più sulla conferenza (in 
 <p>Il soggetto scelto dal team erano le onde del mare e ben presto si pose il problema di rappresentarle realisticamente. Un insegnate di Matematica suggerì di ricorrere alla teoria dei <!-- raw HTML omitted -->frattali<!-- raw HTML omitted -->. Idea brillante che offriva l’opportunità di un approfondimento didattico piuttosto insolito per un liceo artistico.</p>
 <p>Le competenze informatiche del nostro intraprendente professore risalivano credo ai tempi dell’università, e i ragazzi erano a digiuno di qualunque nozione tecnica. Nel corso della discussione mia moglie, più che altro per associazione d’idee, buttò lì una frase:</p>
 <blockquote>
-<p>mio marito è un gran sostenitore del linguaggio Python, dice sempre che è l’ideale per imparare e che dovrebbero insegnarlo nelle scuole</p>
-</blockquote>
+<p>mio marito è un gran sostenitore del linguaggio Python, dice sempre che è l’ideale per imparare e che dovrebbero insegnarlo nelle scuole</p></blockquote>
 <p>La cosa sembrava finita lì senonché dopo qualche giorno il professore irruppe in sala insegnanti, puntò dritto su mia moglie e l’apostrofò così:</p>
 <blockquote>
-<p>ho scritto questo programmino in Python, non è che tuo marito può darci una occhiata perché sai funziona, ma non disegna proprio il frattale che serve a noi – ci va vicino</p>
-</blockquote>
+<p>ho scritto questo programmino in Python, non è che tuo marito può darci una occhiata perché sai funziona, ma non disegna proprio il frattale che serve a noi – ci va vicino</p></blockquote>
 <p>Immaginate la mia sorpresa quando la sera, a casa, mia moglie mi raccontò tutta la faccenda. La mia prima reazione è stata quella di correre al computer per dare un’occhiata al codice:</p>
 <!-- raw HTML omitted -->
 <p>Mi sono subito reso conto che si trattava di una implementazione parziale della <!-- raw HTML omitted -->Curva (o fiocco) di Koch<!-- raw HTML omitted -->, una delle prime curve frattali documentate e anche una delle più famose. Una volta corretto il problema l’output restituito dal programma è stato questo:</p>
@@ -475,7 +510,7 @@ Date un’occhiata al sito ufficiale per saperne di più sulla conferenza (in 
       <link>https://nicolaiarocci.com/python-per-il-web/</link>
       <pubDate>Thu, 20 Oct 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/python-per-il-web/</guid>
-      <description>Python for the Web è una agile guida introduttiva per chi vuole accedere al Web via Python. Vengono presentate tre eccellenti librerie: Requests, simplejson e lxml. La prima consente di interagire facilmente coi siti Web da Python, la seconda serve a processare i flussi JSON e l’ultima è una fantastica risorsa per lo scraping (l’ho usata in un mio progetto, ve la consiglio senz’altro). L’ultimo argomento della guida è la creazione di siti web in Python attraverso il framework Django.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Python for the Web&lt;!-- raw HTML omitted --&gt; è una agile guida introduttiva per chi vuole accedere al Web via Python. Vengono presentate tre eccellenti librerie: &lt;!-- raw HTML omitted --&gt;Requests&lt;!-- raw HTML omitted --&gt;, &lt;!-- raw HTML omitted --&gt;simplejson&lt;!-- raw HTML omitted --&gt; e &lt;!-- raw HTML omitted --&gt;lxml&lt;!-- raw HTML omitted --&gt;. La prima consente di interagire facilmente coi siti Web da Python, la seconda serve a processare i flussi JSON e l’ultima è una fantastica risorsa per lo scraping (l’ho usata in un mio progetto, ve la consiglio senz’altro). L’ultimo argomento della guida è la creazione di siti web in Python attraverso il framework &lt;!-- raw HTML omitted --&gt;Django&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Python for the Web<!-- raw HTML omitted --> è una agile guida introduttiva per chi vuole accedere al Web via Python. Vengono presentate tre eccellenti librerie: <!-- raw HTML omitted -->Requests<!-- raw HTML omitted -->, <!-- raw HTML omitted -->simplejson<!-- raw HTML omitted --> e <!-- raw HTML omitted -->lxml<!-- raw HTML omitted -->. La prima consente di interagire facilmente coi siti Web da Python, la seconda serve a processare i flussi JSON e l’ultima è una fantastica risorsa per lo scraping (l’ho usata in un mio progetto, ve la consiglio senz’altro). L’ultimo argomento della guida è la creazione di siti web in Python attraverso il framework <!-- raw HTML omitted -->Django<!-- raw HTML omitted -->.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
@@ -493,8 +528,7 @@ Date un’occhiata al sito ufficiale per saperne di più sulla conferenza (in 
 <p>Luogo comune vuole che i programmatori siano persone chiuse, a volte timide, oppure scontrose e irascibili; più interessate al codice che non alle relazioni interpersonali.  E’ pur vero che il nostro lavoro richiede concentrazione. Molti <!-- raw HTML omitted -->sostengono<!-- raw HTML omitted --> che programmare è una forma d’arte e la gran parte degli artisti (pittori, scultori, disegnatori) non lavora forse in silenzio?</p>
 <p>Tuttavia anche i più abili nell’eludere ogni forma di contatto prima o poi si vedranno costretti a comunicare con una persona importante: il cliente. Di tutte le forme di comunicazione professionale, quella col cliente è senz’altro la più delicata. Ne va del nostro lavoro e purtroppo in questo caso ci troviamo spesso ad affrontare un problema importante, quello che <!-- raw HTML omitted -->Chris Eidhof<!-- raw HTML omitted --> definisce la “perdita di segnale”.</p>
 <blockquote>
-<p>Ogni volta che comunichiamo c’è un rumore di fondo. Se le parti hanno competenze diverse, frammenti del messaggio andranno perduti. In linea generale, più le esperienze sono vicine (due programmatori che parlano tra di loro), minore è la perdita di segnale.</p>
-</blockquote>
+<p>Ogni volta che comunichiamo c’è un rumore di fondo. Se le parti hanno competenze diverse, frammenti del messaggio andranno perduti. In linea generale, più le esperienze sono vicine (due programmatori che parlano tra di loro), minore è la perdita di segnale.</p></blockquote>
 <p>Quando le aree di competenza sono divergenti (come capita tra programmatore e cliente) è necessario adottare, a volte forgiare, un linguaggio comprensibile per entrambi. Quasi sempre questo è più vicino al cliente che non al programmatore, per il quale l’impegno è notevole. Il rischio da evitare sono le incomprensioni e i conseguenti, inevitabili, ritardi nel lavoro.</p>
 <p>A differenza dei linguaggi di programmazione, che una volta acquisiti entrano definitivamente nel bagaglio del programmatore, i linguaggi da adottare coi clienti tendono a cambiare di volta in volta a causa delle variabili in gioco, prime tra tutte il grado di alfabetizzazione informatica e l’area di competenza (ambito professionale) della controparte.</p>
 <p>Qualche esempio può essere utile. Godetevi le mie tre <em>gaffes</em> più recenti, non tutte avvenute sul lavoro. D’altronde questa faccenda della scelta del linguaggio giusto non è certo confinata al solo ambito professionale. La prima riguarda la mia non proprio brillante comunicazione su Facebook:</p>
@@ -544,12 +578,12 @@ Date un’occhiata al sito ufficiale per saperne di più sulla conferenza (in 
       <link>https://nicolaiarocci.com/imparare-a-programmare-online-con-codecademy/</link>
       <pubDate>Fri, 26 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/imparare-a-programmare-online-con-codecademy/</guid>
-      <description>Codecademy è una fantastica iniziativa che insegna a programmare online. Lanciata poco più di una settimana fa, ha già raccolto duecentomila utenti registrati. Brillante l’idea di integrare gli strumenti tipici del social network (badge, punteggi, seguire i progressi degli amici) con un interprete interattivo e un preciso feedback in tempo reale.
-Codecademy è il modo più semplice per imparare a programmare. E’ interattivo, divertente, e lo puoi fare con gli amici</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Codecademy&lt;!-- raw HTML omitted --&gt; è una fantastica iniziativa che insegna a programmare online. Lanciata poco più di una settimana fa, ha già raccolto duecentomila utenti registrati. Brillante l’idea di integrare gli strumenti tipici del social network (badge, punteggi, seguire i progressi degli amici) con un interprete interattivo e un preciso feedback in tempo reale.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Codecademy è il modo più semplice per imparare a programmare. E’ interattivo, divertente, e lo puoi fare con gli amici&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Codecademy<!-- raw HTML omitted --> è una fantastica iniziativa che insegna a programmare online. Lanciata poco più di una settimana fa, ha già raccolto duecentomila utenti registrati. Brillante l’idea di integrare gli strumenti tipici del social network (badge, punteggi, seguire i progressi degli amici) con un interprete interattivo e un preciso feedback in tempo reale.</p>
 <blockquote>
-<p>Codecademy è il modo più semplice per imparare a programmare. E’ interattivo, divertente, e lo puoi fare con gli amici</p>
-</blockquote>
+<p>Codecademy è il modo più semplice per imparare a programmare. E’ interattivo, divertente, e lo puoi fare con gli amici</p></blockquote>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 ]]></content:encoded>
@@ -559,9 +593,8 @@ Codecademy è il modo più semplice per imparare a programmare. E’ interattivo
       <link>https://nicolaiarocci.com/mono-2-10-3-gira-su-os-x-lion-ed-e-vivo-e-vegeto/</link>
       <pubDate>Fri, 05 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/mono-2-10-3-gira-su-os-x-lion-ed-e-vivo-e-vegeto/</guid>
-      <description>Xamarin, la compagnia che ha preso in mano il Progetto Mono dopo l’addio di Novell, ha appena rilasciato Mono 2.10.3. Ne da annuncio lo stesso Manuel de Icaza, storico deux-ex-machina del progetto e fondatore di Xamarin.
-Si tratta per lo più di una versione di manutenzione che risolve numerosi problemi, primo fra tutti l’instabilità di Mono sull’ultima versione di MacOS X Lion.
-L’importanza di questo aggiornamento va ben oltre le sue caratteristiche tecniche.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Xamarin, la compagnia che &lt;a href=&#34;http://nicolaiarocci.com/il-progetto-mono-salvato-in-extremis-dal-suo-fondatore/&#34; title=&#34;Progetto Mono salvato dal suo fondatore&#34;&gt;ha preso in mano il Progetto Mono&lt;/a&gt; dopo l’addio di Novell, ha appena rilasciato Mono 2.10.3. Ne da annuncio lo stesso Manuel de Icaza, storico deux-ex-machina del progetto e fondatore di Xamarin.&lt;/p&gt;
+&lt;p&gt;Si tratta per lo più di una versione di manutenzione che &lt;!-- raw HTML omitted --&gt;risolve numerosi problemi&lt;!-- raw HTML omitted --&gt;, primo fra tutti l’instabilità di Mono sull’ultima versione di MacOS X Lion.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Xamarin, la compagnia che <a href="http://nicolaiarocci.com/il-progetto-mono-salvato-in-extremis-dal-suo-fondatore/" title="Progetto Mono salvato dal suo fondatore">ha preso in mano il Progetto Mono</a> dopo l’addio di Novell, ha appena rilasciato Mono 2.10.3. Ne da annuncio lo stesso Manuel de Icaza, storico deux-ex-machina del progetto e fondatore di Xamarin.</p>
 <p>Si tratta per lo più di una versione di manutenzione che <!-- raw HTML omitted -->risolve numerosi problemi<!-- raw HTML omitted -->, primo fra tutti l’instabilità di Mono sull’ultima versione di MacOS X Lion.</p>
 <p>L’importanza di questo aggiornamento va ben oltre le sue caratteristiche tecniche. Il titolo stesso dell’<!-- raw HTML omitted -->annuncio<!-- raw HTML omitted --> (And We Are Back) parla chiaro: si tratta di un segnale di continuità importante che Xamarin lancia alla comunità mondiale di sviluppatori Mono. Per informazioni sul progetto e sulle sue vicissitudini recenti vi invito a leggere l’<a href="http://nicolaiarocci.com/il-progetto-mono-salvato-in-extremis-dal-suo-fondatore/" title="Il Progetto Mono salvato in extremis dal suo fondatore">articolo sul salvataggio di Mono</a> che ho scritto qualche tempo fa.</p>
@@ -606,8 +639,7 @@ L’importanza di questo aggiornamento va ben oltre le sue caratteristiche tecni
 <p>Quasi tutti i programmatori con cui ho avuto a che fare, incluso il sottoscritto, condividono almeno un tratto caratteriale: un ego ingombrante. <!-- raw HTML omitted -->Mike Bernat<!-- raw HTML omitted --> ci ricorda che diventare bravi programmatori è un processo lungo e impegnativo, che ci induce ad affinare le nostre capacità analitiche sviluppando mentalità e attitudine al perfezionismo. Alla fine del percorso ci troviamo in dote una forte fiducia nelle nostre capacità professionali, una fiducia che in alcune occasioni rischia di scatenare quello che io chiamo l’<em>ego del programmatore</em>, ovvero il nostro possente orgoglio.</p>
 <p>Nel suo libro <!-- raw HTML omitted -->The Psychology of Computer Programming<!-- raw HTML omitted -->, <!-- raw HTML omitted -->Gerald M. Weinberg<!-- raw HTML omitted --> propone un’idea tanto semplice quanto difficile da mettere in pratica:</p>
 <blockquote>
-<p>L’idea è che i programmatori devono combattere la loro naturale tendenza a considerare i loro programmi come parte di se stessi, un atteggiamento che comporta il rifiuto preconcetto di ogni tipo di critica. Piuttosto, dovrebbero fare del loro meglio per considerare le loro creazioni come oggetti indipendenti da se stessi, distaccati dal proprio io, e ascoltare le critiche in modo spassionato, giudicandole nel merito. E’ una vera e propria disciplina spirituale della quale nessuno di noi [programmatori] è dotato, ma vale la pena provarci.</p>
-</blockquote>
+<p>L’idea è che i programmatori devono combattere la loro naturale tendenza a considerare i loro programmi come parte di se stessi, un atteggiamento che comporta il rifiuto preconcetto di ogni tipo di critica. Piuttosto, dovrebbero fare del loro meglio per considerare le loro creazioni come oggetti indipendenti da se stessi, distaccati dal proprio io, e ascoltare le critiche in modo spassionato, giudicandole nel merito. E’ una vera e propria disciplina spirituale della quale nessuno di noi [programmatori] è dotato, ma vale la pena provarci.</p></blockquote>
 <p>Personalmente ricordo diverse occasioni in cui mio malgrado mi sono lasciato trascinare in “combattimenti tra galli”. A volte ne sono uscito vincente, altre volte ho dovuto ripiegare (non senza aver perduto qualche piuma). Col tempo credo e spero di essere migliorato, i consigli di Weinberg ho cercato e cerco tutt’ora di seguirli, ma certo la strada è lunga e tortuosa. E’ pur vero che in alcune occasioni l’aver ceduto, ritirando le mie proposte in favore di quelle altrui, si è rivelato un grave errore. Le conseguenze di certe scelte fatte in base a chi fosse il gallo più forte del pollaio, le pago ancora oggi. Ho imparato a mie spese che non sempre l’orgoglio del programmatore è un tratto negativo, anzi!</p>
 <p>Se la vostra idea è quella giusta sostenetela a spada tratta fino in fondo, ma accertatevi che non sia esclusivamente il vostro orgoglio a condurre le trattative! In queste occasioni è molto importante concedere diritto di parola e giusta attenzione ai nostri interlocutori, soffermandoci a meditare sulle idee e le critiche ricevute prima di respingerle a priori. Se le riteniamo fondate facciamone tesoro apportando le dovute correzioni alla nostra stessa idea. Ciò che più conta, in realtà, è la qualità finale del progetto. Se alla fine si rivelerà un successo, il nostro orgoglio ne sarà ampiamente ripagato.</p>
 <p><em>PS: a proposito di Weinberg, il suo libro è del 1971 ma è ancora attualissimo e ve lo consiglio caldamente. E’ disponibile in formato <!-- raw HTML omitted -->eBook su Amazon<!-- raw HTML omitted --> e altrove a <!-- raw HTML omitted -->prezzi modici<!-- raw HTML omitted -->. Non lasciatevi ingannare dal fatto che nel testo si parli di linguaggi ormai superati. In quarant’anni la gente non è cambiata affatto.</em></p>]]></content:encoded>
@@ -661,21 +693,18 @@ L’importanza di questo aggiornamento va ben oltre le sue caratteristiche tecni
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <blockquote>
-<p>You all saw a very small technology demo of Windows 8, and a brief press release. We’re all being quiet right now because we can’t comment on this. It’s not because we don’t care, aren’t listening, have given up, or are agreeing or disagreeing with you on something. All I can say for now is to please wait until September. If we say more before then, that will be great, but there are no promises (and I’m not aware of any plans) to say more right now. I’m very sorry that there’s nothing else to share at the moment. I know that answer is terrible, but it’s all that we can say right now. Seriously.</p>
-</blockquote>
+<p>You all saw a very small technology demo of Windows 8, and a brief press release. We’re all being quiet right now because we can’t comment on this. It’s not because we don’t care, aren’t listening, have given up, or are agreeing or disagreeing with you on something. All I can say for now is to please wait until September. If we say more before then, that will be great, but there are no promises (and I’m not aware of any plans) to say more right now. I’m very sorry that there’s nothing else to share at the moment. I know that answer is terrible, but it’s all that we can say right now. Seriously.</p></blockquote>
 <p>Quindi bocche cucite, almeno fino a Settembre. In seguito Brown interviene ancora, tirato per la giacchetta dai molti che hanno interpretato le sue parole nelle maniere più disparate:</p>
 <blockquote>
 <p>This whole thing has blown way out of proportion. Base your information on our primary sources (like our press release), not on third party speculation. That’s not to minimize how everyone feels, but keep in mind that Windows 8 itself is still a ways off from retail, and even much further away from internal IT adoption. The 8 weeks until //build/ is a pretty small amount of time to wait in comparison.</p>
-<p>Take some vacation time this summer, and look forward to the //build/ conference. Stop speculating based on just a small demo of some very cool new technology. Tell your management to do the same: if they’re basing your project work for the next X years on the results of a quick demo for an unreleased operating system, then they are doing you and your company a real disservice.</p>
-</blockquote>
+<p>Take some vacation time this summer, and look forward to the //build/ conference. Stop speculating based on just a small demo of some very cool new technology. Tell your management to do the same: if they’re basing your project work for the next X years on the results of a quick demo for an unreleased operating system, then they are doing you and your company a real disservice.</p></blockquote>
 <p>Windows 8 è ben lontano dall’essere pronto, e quel che si è visto nel filmato è solo la prima di una serie di anteprime. Inutile fare speculazioni basate su una demo di pochi minuti. Questa estate godetevi le vacanza, ne riparleremo al vostro ritorno. Dite ai vostri manager di fare lo stesso. <strong>Se stanno pianificando il lavoro dei prossimi anni basandosi solo su una breve anteprima di un sistema operativo non ancora pronto, allora stanno facendo un grave errore</strong>.</p>
 <h2 id="non-è-mica-la-prima-volta">Non è mica la prima volta</h2>
 <p>Niente da obiettare da parte mia. Mi limito a rilevare che non è la prima volta che il futuro delle piattaforme Microsoft viene messo in discussione anche dallo stesso personale Microsoft. Leggendaria la gaffe di <!-- raw HTML omitted -->Bob Muglia<!-- raw HTML omitted -->, Vice President for Server and Tools Businesses (mica cotica) riportata fedelmente da <!-- raw HTML omitted -->Mary Jo Foley<!-- raw HTML omitted -->:</p>
 <blockquote>
 <p>“Silverlight is our development platform for Windows Phone,” he said. Silverlight also has some “sweet spots” in media and line-of-business applications, he said.</p>
 <p>But when it comes to touting Silverlight as Microsoft’s vehicle for delivering a cross-platform runtime, “<strong>our strategy has shifted</strong>,” Muglia told me.</p>
-<p>Silverlight will continue to be a cross-platform solution, working on a variety of operating system/browser platforms, going forward, he said. “But <strong>HTML is the only true cross platform solution for everything</strong>, including (Apple’s) iOS platform,” Muglia said.</p>
-</blockquote>
+<p>Silverlight will continue to be a cross-platform solution, working on a variety of operating system/browser platforms, going forward, he said. “But <strong>HTML is the only true cross platform solution for everything</strong>, including (Apple’s) iOS platform,” Muglia said.</p></blockquote>
 <p>All’epoca fu necessario un comunicato congiunto di Steve Ballmer (CEO Microsoft) e del penitente Bob Muglia per acquietare la tempesta scatenata da queste parole. Sarà un caso che recentemente Muglia abbia annunciato il trasloco ad altri lidi?</p>
 <p>Il fatto è che le tante aziende che hanno investito molto e – ahimé – esclusivamente sulle piattaforme Microsoft ora guardano con terrore a uno scenario, per quanto improbabile, che non veda Silverlight, WPF e .NET in cima all’agenda della casa madre.</p>
 <h2 id="img-classalignright-titlehtml5-logo-srchttpi2wpcomnicolaiaroccicomwp-contentuploadshtml5-logopngresize1282c150-althtml5-logo-data-recalc-dims1-il-futuro-del-web-è-silverlight"><!-- raw HTML omitted -->Il futuro del Web è Silverlight?</h2>
@@ -736,8 +765,7 @@ L’importanza di questo aggiornamento va ben oltre le sue caratteristiche tecni
 <p>Non criminalizzare il codice degli altri. Prima o poi sarà il tuo a  finire sotto esame. La critica oggettiva va bene, i consigli e le osservazioni professionali pure, ma non esprimere giudizi. Sii umile. C’è sempre da imparare dal lavoro dei colleghi.</p>
 <blockquote>
 <p>L’uom superbo si pone sopra gli altri, e crede che gli si debba ogni cosa; gli altri, per lo contrario, lo mettono nell’ultimo grado, né gli concedono nulla.</p>
-<p><em>Confucio</em></p>
-</blockquote>]]></content:encoded>
+<p><em>Confucio</em></p></blockquote>]]></content:encoded>
     </item>
     <item>
       <title>Python Tools per Visual Studio ecco la Beta 2</title>
@@ -812,8 +840,8 @@ L’importanza di questo aggiornamento va ben oltre le sue caratteristiche tecni
       <link>https://nicolaiarocci.com/eclipse-foundation-lancia-la-beta-pubblica-di-orionhub/</link>
       <pubDate>Tue, 22 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/eclipse-foundation-lancia-la-beta-pubblica-di-orionhub/</guid>
-      <description>Eclipse Foundation ha avviato il beta testing di OrionHub, una implementazione hosted del suo Progetto Orion. Orion è una piattaforma di sviluppo aperta dedicata allo sviluppo per il web, dentro il web. La IDE Orion gira nel browser e fornisce un completo ambiente di produzione per progetti JavaScript, HTML e CSS. Il risultato è ottenuto grazie a un plugin lato client sviluppato in HTML5.
-Per un approfondimento dai una occhiata a Il futuro del codice sorgente è online?</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.eclipse.org/&#34;&gt;Eclipse Foundation&lt;/a&gt; ha avviato il beta testing di &lt;a href=&#34;http://www.eclipse.org/orion/&#34;&gt;&lt;strong&gt;OrionHub&lt;/strong&gt;&lt;/a&gt;, una implementazione hosted del suo Progetto Orion. Orion è una piattaforma di sviluppo aperta dedicata allo sviluppo per il web, dentro il web. La IDE Orion gira nel browser e fornisce un completo ambiente di produzione per progetti JavaScript, HTML e CSS. Il risultato è ottenuto grazie a un plugin lato client sviluppato in HTML5.&lt;/p&gt;
+&lt;p&gt;Per un approfondimento dai una occhiata a &lt;!-- raw HTML omitted --&gt;Il futuro del codice sorgente è online?&lt;!-- raw HTML omitted --&gt;, la panoramica sul Progetto Orion e sulle IDE Online che ho pubblicato qualche tempo fa.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="http://www.eclipse.org/">Eclipse Foundation</a> ha avviato il beta testing di <a href="http://www.eclipse.org/orion/"><strong>OrionHub</strong></a>, una implementazione hosted del suo Progetto Orion. Orion è una piattaforma di sviluppo aperta dedicata allo sviluppo per il web, dentro il web. La IDE Orion gira nel browser e fornisce un completo ambiente di produzione per progetti JavaScript, HTML e CSS. Il risultato è ottenuto grazie a un plugin lato client sviluppato in HTML5.</p>
 <p>Per un approfondimento dai una occhiata a <!-- raw HTML omitted -->Il futuro del codice sorgente è online?<!-- raw HTML omitted -->, la panoramica sul Progetto Orion e sulle IDE Online che ho pubblicato qualche tempo fa.</p>
 ]]></content:encoded>
@@ -944,7 +972,6 @@ Per un approfondimento dai una occhiata a Il futuro del codice sorgente è onlin
 <ol start="3">
 <li>**[<!-- raw HTML omitted -->Settimana ricca di avvenimenti anche questa. SEO, Startup e applicazioni per Smartphone in primo piano ma non mancano altre chicche per buongustai. Al decimo posto una curiosità non ha nulla da spartire con gli argomenti trattati di solito, ma quelle foto dovevo segnalarvele. Ringrazio chi mi ha contattato via mail, Facebook e Twitter. A quanto pare la rubrica piace e farò il possibile per portarla avanti migliorando la qualità delle selezioni, come sempre assolutamente arbitrarie.</li>
 </ol>
-<!-- raw HTML omitted -->
 <ol>
 <li><strong><a href="http://cdixon.org/2011/03/05/seo-is-no-longer-a-viable-marketing-strategy-for-startups/">SEO non è più una strategia valida per le Startup</a></strong></li>
 </ol>
@@ -999,8 +1026,16 @@ Per un approfondimento dai una occhiata a Il futuro del codice sorgente è onlin
       <link>https://nicolaiarocci.com/introduzione-alle-regular-expression-terza-parte/</link>
       <pubDate>Thu, 03 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/introduzione-alle-regular-expression-terza-parte/</guid>
-      <description>Benvenuto alla terza e ultima parte della nostra Introduzione alle Regular Expression. Concluso il capitolo sarai in grado di affrontare la maggior parte dei problemi di ricerca nel testo. Se ancora non l&amp;rsquo;hai fatto ti consiglio di leggere la Prima Parte e la Seconda Parte. Ricorda che puoi usare la pagina di prova per testare le query della guida.
-Avidità Il problema della avidità degli operatori regex diventa evidente quando si comincia a lavorare su ricerche avanzate.</description>
+      <description>&lt;p&gt;Benvenuto alla terza e ultima parte della nostra &lt;em&gt;Introduzione alle Regular
+Expression&lt;/em&gt;. Concluso il capitolo sarai  in grado di affrontare la maggior
+parte dei problemi di ricerca nel testo. Se ancora non l&amp;rsquo;hai fatto ti
+consiglio di leggere la &lt;a href=&#34;http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/&#34;&gt;Prima Parte&lt;/a&gt; e la &lt;a href=&#34;http://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/&#34;&gt;Seconda Parte&lt;/a&gt;. Ricorda che
+puoi usare la &lt;!-- raw HTML omitted --&gt;pagina di
+prova&lt;!-- raw HTML omitted --&gt; per testare le query della guida.&lt;/p&gt;
+&lt;h2 id=&#34;avidità&#34;&gt;Avidità&lt;/h2&gt;
+&lt;p&gt;Il problema della avidità degli operatori regex diventa evidente quando si
+comincia a lavorare su ricerche avanzate. Un caso tipico è il parsing di file
+XML o HTML.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Benvenuto alla terza e ultima parte della nostra <em>Introduzione alle Regular
 Expression</em>. Concluso il capitolo sarai  in grado di affrontare la maggior
 parte dei problemi di ricerca nel testo. Se ancora non l&rsquo;hai fatto ti
@@ -1281,9 +1316,14 @@ Ringrazio l&rsquo;autore per il permesso accordatomi.</p>
       <link>https://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/</link>
       <pubDate>Sat, 26 Feb 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/</guid>
-      <description>Questa è la seconda parte della serie Introduzione alle Regular Expression. Se non hai ancora letto la prima parte ti consiglio di farlo. Puoi usare la pagina demo per provare le query della guida.
-Negazione [^] Abbiamo già conosciuto la [cornice]. Una caratteristica importante di cui non abbiamo ancora parlato è la negazione. Supponiamo di voler cercare qualunque carattere eccetto la lettera a.
-[^a] # trova b,c,d,e,f,\n .... qualunque carattere eccetto &#39;a&#39; La negazione si applica a tutti i caratteri della cornice in cui compare l&amp;rsquo;operatore ˆ.</description>
+      <description>&lt;p&gt;Questa è la seconda parte della serie &lt;em&gt;Introduzione alle Regular Expression&lt;/em&gt;.
+Se non hai ancora letto la &lt;a href=&#34;http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/&#34;&gt;prima parte&lt;/a&gt; ti consiglio di farlo. Puoi usare
+la &lt;!-- raw HTML omitted --&gt;pagina demo&lt;!-- raw HTML omitted --&gt; per provare
+le query della guida.&lt;/p&gt;
+&lt;h2 id=&#34;negazione-&#34;&gt;Negazione [^]&lt;/h2&gt;
+&lt;p&gt;Abbiamo già conosciuto la &lt;code&gt;[cornice]&lt;/code&gt;. Una caratteristica importante di cui non
+abbiamo ancora parlato è la negazione. Supponiamo di voler cercare qualunque
+carattere &lt;em&gt;eccetto la lettera a&lt;/em&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Questa è la seconda parte della serie <em>Introduzione alle Regular Expression</em>.
 Se non hai ancora letto la <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/">prima parte</a> ti consiglio di farlo. Puoi usare
 la <!-- raw HTML omitted -->pagina demo<!-- raw HTML omitted --> per provare
@@ -1730,7 +1770,7 @@ Ringrazio l’autore per il permesso accordatomi.</p>]]></content:encoded>
 <li>SILVERLIGHT (1.1M)</li>
 <li>FLASH (509K)</li>
 </ul>
-<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…<!-- raw HTML omitted --></p>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…</p>
 <h2 id="gli-ebooks-di-stack-overflow-1">Gli eBooks di Stack Overflow</h2>
 <h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1--1"><!-- raw HTML omitted --></h2>
 <p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
@@ -1756,7 +1796,7 @@ Ringrazio l’autore per il permesso accordatomi.</p>]]></content:encoded>
 <li>SILVERLIGHT (1.1M)</li>
 <li>FLASH (509K)</li>
 </ul>
-<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con]<a href="http://www.amazon.com/dp/B002Y27P3M/?tag=gocous-20&amp;hvadid=5729120357&amp;ref=pd_sl_blgu0nkyl_b">7</a> e credo con altri lettori di eBook. Ricordo che è possibile leggere i libri per Kindle con l’applicazione <strong>gratuita</strong> disponibile per <a href="http://www.amazon.com/gp/feature.html/ref=kcp_pc_mkt_lnd?docId=1000426311">PC</a>, <a href="http://www.amazon.com/gp/feature.html/ref=kcp_mac_mkt_lnd?docId=1000464931">Mac</a>, [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…<!-- raw HTML omitted --></p>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con]<a href="http://www.amazon.com/dp/B002Y27P3M/?tag=gocous-20&amp;hvadid=5729120357&amp;ref=pd_sl_blgu0nkyl_b">7</a> e credo con altri lettori di eBook. Ricordo che è possibile leggere i libri per Kindle con l’applicazione <strong>gratuita</strong> disponibile per <a href="http://www.amazon.com/gp/feature.html/ref=kcp_pc_mkt_lnd?docId=1000426311">PC</a>, <a href="http://www.amazon.com/gp/feature.html/ref=kcp_mac_mkt_lnd?docId=1000464931">Mac</a>, [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…</p>
 <h2 id="gli-ebooks-di-stack-overflow-2">Gli eBooks di Stack Overflow</h2>
 <h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1--2"><!-- raw HTML omitted --></h2>
 <p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
@@ -1782,7 +1822,7 @@ Ringrazio l’autore per il permesso accordatomi.</p>]]></content:encoded>
 <li>SILVERLIGHT (1.1M)</li>
 <li>FLASH (509K)</li>
 </ul>
-<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…<!-- raw HTML omitted --></p>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…</p>
 <h2 id="gli-ebooks-di-stack-overflow-3">Gli eBooks di Stack Overflow</h2>
 <h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1--3"><!-- raw HTML omitted --></h2>
 <p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>

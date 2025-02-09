@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>tools on Nicola Iarocci</title>
+    <title>Tools on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/tools/</link>
-    <description>Recent content in tools on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Tools on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 30 Jul 2021 07:05:25 +0100</lastBuildDate>
@@ -14,7 +14,12 @@
       <link>https://nicolaiarocci.com/how-to-remove-a-file-from-git-history/</link>
       <pubDate>Fri, 30 Jul 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-remove-a-file-from-git-history/</guid>
-      <description>Today I learned how to remove a file from a git repository while also cleaning it from the history. When you delete it with git rm or git rm --cached, tracks remain in the commit history (the reflog). That might not be a big deal, but if the file has sensitive contents that you want to disappear from version control entirely, then you also want it cleaned from the reflog. That&amp;rsquo;s when git filter-branch comes to the rescue.</description>
+      <description>&lt;p&gt;Today I learned how to remove a file from a git repository while also cleaning
+it from the history. When you delete it with &lt;code&gt;git rm&lt;/code&gt; or &lt;code&gt;git rm --cached&lt;/code&gt;,
+tracks remain in the commit history (the reflog). That might not be a big deal,
+but if the file has sensitive contents that you want to disappear from version
+control entirely, then you also want it cleaned from the reflog. That&amp;rsquo;s when
+&lt;a href=&#34;https://git-scm.com/docs/git-filter-branch&#34;&gt;&lt;code&gt;git filter-branch&lt;/code&gt;&lt;/a&gt; comes to the rescue.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I learned how to remove a file from a git repository while also cleaning
 it from the history. When you delete it with <code>git rm</code> or <code>git rm --cached</code>,
 tracks remain in the commit history (the reflog). That might not be a big deal,
@@ -75,8 +80,15 @@ all make mistakes every once in a while, don&rsquo;t we?</p>
       <link>https://nicolaiarocci.com/git-worktree-vs-git-savepoints/</link>
       <pubDate>Thu, 29 Apr 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/git-worktree-vs-git-savepoints/</guid>
-      <description>The official Git documentation presents the following example as a valid use-case for the worktree command:
-You are in the middle of a refactoring session and your boss comes in and demands that you fix something immediately. You might typically use git-stash1 to store your changes away temporarily. However, your working tree is in such a state of disarray (with new, moved, and removed files and other bits and pieces strewn around) that you don&amp;rsquo;t want to risk disturbing any of it.</description>
+      <description>&lt;p&gt;The official Git documentation presents the following example as a valid
+use-case for the &lt;code&gt;worktree&lt;/code&gt; command:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You are in the middle of a refactoring session and your boss comes in and
+demands that you fix something immediately. You might typically use
+git-stash&lt;a href=&#34;https://git-scm.com/docs/git-worktree&#34;&gt;1&lt;/a&gt; to store your changes away temporarily. However, your working
+tree is in such a state of disarray (with new, moved, and removed files and
+other bits and pieces strewn around) that you don&amp;rsquo;t want to risk disturbing
+any of it. (&lt;a href=&#34;https://git-scm.com/docs/git-worktree&#34;&gt;source&lt;/a&gt;)&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>The official Git documentation presents the following example as a valid
 use-case for the <code>worktree</code> command:</p>
 <blockquote>
@@ -85,8 +97,7 @@ demands that you fix something immediately. You might typically use
 git-stash<a href="https://git-scm.com/docs/git-worktree">1</a> to store your changes away temporarily. However, your working
 tree is in such a state of disarray (with new, moved, and removed files and
 other bits and pieces strewn around) that you don&rsquo;t want to risk disturbing
-any of it. (<a href="https://git-scm.com/docs/git-worktree">source</a>)</p>
-</blockquote>
+any of it. (<a href="https://git-scm.com/docs/git-worktree">source</a>)</p></blockquote>
 <p>If you don&rsquo;t know about <code>worktree</code>, you should check it out. It is a handy,
 powerful yet little known command. I don&rsquo;t use it, however. It will check out
 a new branch to a new directory, and I don&rsquo;t like that. I prefer to keep the

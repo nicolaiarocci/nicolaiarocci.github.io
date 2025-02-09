@@ -4,7 +4,7 @@
     <title>Formazione on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/categories/formazione/</link>
     <description>Recent content in Formazione on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 23 Apr 2012 00:00:00 +0000</lastBuildDate>
@@ -29,7 +29,7 @@
       <link>https://nicolaiarocci.com/primo-importante-aggiornamento-del-piccolo-libro-di-mongodb/</link>
       <pubDate>Thu, 08 Mar 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/primo-importante-aggiornamento-del-piccolo-libro-di-mongodb/</guid>
-      <description>Se avete già scaricato il Piccolo Libro di MongoDB vi consiglio di aggiornarlo con la versione odierna. E’ stato aggiunto un capitolo (MapReduce) misteriosamente assente nella prima edizione. Grazie a Walter Tommasi per la preziosa segnalazione, e a Git per averne consentito il recupero in extremis.</description>
+      <description>&lt;p&gt;Se avete già scaricato il &lt;a href=&#34;http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/&#34; title=&#34;Il Piccolo Libro di MongoDB&#34;&gt;Piccolo Libro di MongoDB&lt;/a&gt; vi consiglio di aggiornarlo con la versione odierna. E’ stato aggiunto un capitolo (MapReduce) misteriosamente assente nella prima edizione. Grazie a Walter Tommasi per la preziosa segnalazione, e a &lt;a href=&#34;http://nicolaiarocci.com/branching-di-successo-per-git/&#34; title=&#34;Branching di successo per Git&#34;&gt;Git&lt;/a&gt; per averne consentito il recupero in extremis.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Se avete già scaricato il <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB">Piccolo Libro di MongoDB</a> vi consiglio di aggiornarlo con la versione odierna. E’ stato aggiunto un capitolo (MapReduce) misteriosamente assente nella prima edizione. Grazie a Walter Tommasi per la preziosa segnalazione, e a <a href="http://nicolaiarocci.com/branching-di-successo-per-git/" title="Branching di successo per Git">Git</a> per averne consentito il recupero in extremis.</p>
 ]]></content:encoded>
     </item>
@@ -38,7 +38,7 @@
       <link>https://nicolaiarocci.com/e-uscito-il-piccolo-libro-di-mongodb/</link>
       <pubDate>Tue, 21 Feb 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/e-uscito-il-piccolo-libro-di-mongodb/</guid>
-      <description>Il Piccolo Libro di MongoDB, edizione italiana di The Little MongoDB Book, è finalmente disponibile online. C’è voluto un bel po’ di lavoro, e sono certo i primi lettori scoveranno una serie di errori raccapriccianti, ma vi invito comunque a leggerlo e farmi sapere cosa ne pensate.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/&#34; title=&#34;Il Piccolo Libro di MongoDB, Edizione Italiana&#34;&gt;Il Piccolo Libro di MongoDB&lt;/a&gt;, edizione italiana di The Little MongoDB Book, è finalmente &lt;a href=&#34;http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/&#34; title=&#34;Il Piccolo Libro di MongoDB&#34;&gt;disponibile online&lt;/a&gt;. C’è voluto un bel po’ di lavoro, e sono certo i primi lettori scoveranno una serie di errori raccapriccianti, ma vi invito comunque a leggerlo e farmi sapere cosa ne pensate.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB, Edizione Italiana">Il Piccolo Libro di MongoDB</a>, edizione italiana di The Little MongoDB Book, è finalmente <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB">disponibile online</a>. C’è voluto un bel po’ di lavoro, e sono certo i primi lettori scoveranno una serie di errori raccapriccianti, ma vi invito comunque a leggerlo e farmi sapere cosa ne pensate.</p>
 ]]></content:encoded>
     </item>
@@ -56,8 +56,7 @@
 <p>Se mi avete seguito fin qui grazie per la pazienza. Vi ricompenso con lo stesso consiglio che ho dato a Mirko l’altro giorno: Pensare da Informatico. Ma come direte, dopo tutte queste chiacchiere ci spiattelli un’altra astrattezza da quattro soldi? Al contrario! Sto parlando di un libro vero e proprio. <!-- raw HTML omitted -->Pensare da Informatico (Versione Python)<!-- raw HTML omitted --> è l’unico testo che mi sento di consigliare davvero ai principianti. E’ gratuito ed è ottimamente tradotto da Alessandro Pocaterra. L’edizione originale è giunta da poco alla <!-- raw HTML omitted -->terza edizione<!-- raw HTML omitted --> (novembre 2011), mentre credo che l’italiana sia ferma alla seconda, che va benissimo comunque.</p>
 <p>Nella Prefazione <!-- raw HTML omitted -->Jeff Elkner<!-- raw HTML omitted --> racconta che era alla ricerca di un testo adatto all’insegnamento della programmazione nelle scuole americane. Il grande <!-- raw HTML omitted -->Richard Stallman<!-- raw HTML omitted --> gli consigliò di dare una occhiata a <em>How to Think Like a Computer Scientist:</em></p>
 <blockquote>
-<p>Quando lessi quel libro seppi immediatamente che volevo usarlo nelle mie lezioni. Era il testo di informatica più chiaro ed utile che avessi visto: il libro enfatizzava il processo di pensiero coinvolto nella programmazione piuttosto che le caratteristiche di un particolare linguaggio. Il solo fatto di leggerlo mi rese un insegnante migliore.</p>
-</blockquote>
+<p>Quando lessi quel libro seppi immediatamente che volevo usarlo nelle mie lezioni. Era il testo di informatica più chiaro ed utile che avessi visto: il libro enfatizzava il processo di pensiero coinvolto nella programmazione piuttosto che le caratteristiche di un particolare linguaggio. Il solo fatto di leggerlo mi rese un insegnante migliore.</p></blockquote>
 <p>Mica male come premessa no? Python è il inguaggio scelto dagli autori (e in proposito vi consiglio di leggere <!-- raw HTML omitted -->introduzione <!-- raw HTML omitted -->e <!-- raw HTML omitted -->prefazione<!-- raw HTML omitted -->) ma davvero non è il linguaggio quel che conta. Leggete questo testo con attenzione e soprattutto senza fretta. Non passate al capitolo successivo se non siete sicuri di aver afferrato per bene ciò che avete appena letto. Si procede passo per passo affrontando tutti i principali temi della programmazione moderna. Vi assicuro che alla fine di questa esperienza saprete programmare a dovere, a prescindere dai linguaggi che in futuro vorrete studiare (e magari nel frattempo vi innamorerete pure di Python).</p>
 <p>Fatemi sapere come è andata. Ci tengo molto.</p>
 <p><em>Aggiornamento del 9.3.2012. Ho scovato per caso una <!-- raw HTML omitted -->versione PDF<!-- raw HTML omitted -->, ben fatta, di Pensare da Informatico.</em></p>]]></content:encoded>
@@ -80,8 +79,7 @@
 <h2 id="john-resig-e-la-khan-academy">John Resig e la Khan Academy</h2>
 <p>John Resig è il creatore di jQuery. Vera star internazionale, autore di libri di successo, ora lavora per <!-- raw HTML omitted -->Khan Academy<!-- raw HTML omitted -->, la famosa accademia online. Ecco ciò che Resig ha <!-- raw HTML omitted -->annunciato<!-- raw HTML omitted --> poco prima di Natale:</p>
 <blockquote>
-<p>Alla Khan Academy stiamo considerando nuovi, originali, metodi di insegnamento della Computer Science. L’aspetto più interessante è che proporremo agli studenti JavaScript come loro primo linguaggio.</p>
-</blockquote>
+<p>Alla Khan Academy stiamo considerando nuovi, originali, metodi di insegnamento della Computer Science. L’aspetto più interessante è che proporremo agli studenti JavaScript come loro primo linguaggio.</p></blockquote>
 <p>La sua è una situazione particolarmente vantaggiosa: oltre a essere completamente digiuni di programmazione i suoi studenti hanno appena completato un corso di matematica e scienze.</p>
 <p>In effetti insegnare l’ereditarietà prototipale (<!-- raw HTML omitted -->prototypal inheritance<!-- raw HTML omitted -->) caratteristica di JavaScript a programmatori già abituati alla tradizionale ereditarietà degli oggetti richiede un certo impegno. E’ senz’altro più semplice spiegarla a chi non sa nemmeno cosa sia l’<!-- raw HTML omitted -->ereditarietà<!-- raw HTML omitted --> in informatica. JavaScript è anche un buon linguaggio per la <!-- raw HTML omitted -->programmazione funzionale<!-- raw HTML omitted -->, anche questa più facile da capire in assenza di condizionamenti precedenti. In questo filmato Resig parla del suo progetto sottolineando quello che probabilmente è il più grande vantaggio di JavaScript, la sua ubiquità:</p>
 <p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>

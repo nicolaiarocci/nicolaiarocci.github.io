@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>formazione on Nicola Iarocci</title>
+    <title>Formazione on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/formazione/</link>
-    <description>Recent content in formazione on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Formazione on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 20 Jan 2012 00:00:00 +0000</lastBuildDate>
@@ -23,8 +23,7 @@
 <p>Se mi avete seguito fin qui grazie per la pazienza. Vi ricompenso con lo stesso consiglio che ho dato a Mirko l’altro giorno: Pensare da Informatico. Ma come direte, dopo tutte queste chiacchiere ci spiattelli un’altra astrattezza da quattro soldi? Al contrario! Sto parlando di un libro vero e proprio. <!-- raw HTML omitted -->Pensare da Informatico (Versione Python)<!-- raw HTML omitted --> è l’unico testo che mi sento di consigliare davvero ai principianti. E’ gratuito ed è ottimamente tradotto da Alessandro Pocaterra. L’edizione originale è giunta da poco alla <!-- raw HTML omitted -->terza edizione<!-- raw HTML omitted --> (novembre 2011), mentre credo che l’italiana sia ferma alla seconda, che va benissimo comunque.</p>
 <p>Nella Prefazione <!-- raw HTML omitted -->Jeff Elkner<!-- raw HTML omitted --> racconta che era alla ricerca di un testo adatto all’insegnamento della programmazione nelle scuole americane. Il grande <!-- raw HTML omitted -->Richard Stallman<!-- raw HTML omitted --> gli consigliò di dare una occhiata a <em>How to Think Like a Computer Scientist:</em></p>
 <blockquote>
-<p>Quando lessi quel libro seppi immediatamente che volevo usarlo nelle mie lezioni. Era il testo di informatica più chiaro ed utile che avessi visto: il libro enfatizzava il processo di pensiero coinvolto nella programmazione piuttosto che le caratteristiche di un particolare linguaggio. Il solo fatto di leggerlo mi rese un insegnante migliore.</p>
-</blockquote>
+<p>Quando lessi quel libro seppi immediatamente che volevo usarlo nelle mie lezioni. Era il testo di informatica più chiaro ed utile che avessi visto: il libro enfatizzava il processo di pensiero coinvolto nella programmazione piuttosto che le caratteristiche di un particolare linguaggio. Il solo fatto di leggerlo mi rese un insegnante migliore.</p></blockquote>
 <p>Mica male come premessa no? Python è il inguaggio scelto dagli autori (e in proposito vi consiglio di leggere <!-- raw HTML omitted -->introduzione <!-- raw HTML omitted -->e <!-- raw HTML omitted -->prefazione<!-- raw HTML omitted -->) ma davvero non è il linguaggio quel che conta. Leggete questo testo con attenzione e soprattutto senza fretta. Non passate al capitolo successivo se non siete sicuri di aver afferrato per bene ciò che avete appena letto. Si procede passo per passo affrontando tutti i principali temi della programmazione moderna. Vi assicuro che alla fine di questa esperienza saprete programmare a dovere, a prescindere dai linguaggi che in futuro vorrete studiare (e magari nel frattempo vi innamorerete pure di Python).</p>
 <p>Fatemi sapere come è andata. Ci tengo molto.</p>
 <p><em>Aggiornamento del 9.3.2012. Ho scovato per caso una <!-- raw HTML omitted -->versione PDF<!-- raw HTML omitted -->, ben fatta, di Pensare da Informatico.</em></p>]]></content:encoded>
@@ -47,8 +46,7 @@
 <h2 id="john-resig-e-la-khan-academy">John Resig e la Khan Academy</h2>
 <p>John Resig è il creatore di jQuery. Vera star internazionale, autore di libri di successo, ora lavora per <!-- raw HTML omitted -->Khan Academy<!-- raw HTML omitted -->, la famosa accademia online. Ecco ciò che Resig ha <!-- raw HTML omitted -->annunciato<!-- raw HTML omitted --> poco prima di Natale:</p>
 <blockquote>
-<p>Alla Khan Academy stiamo considerando nuovi, originali, metodi di insegnamento della Computer Science. L’aspetto più interessante è che proporremo agli studenti JavaScript come loro primo linguaggio.</p>
-</blockquote>
+<p>Alla Khan Academy stiamo considerando nuovi, originali, metodi di insegnamento della Computer Science. L’aspetto più interessante è che proporremo agli studenti JavaScript come loro primo linguaggio.</p></blockquote>
 <p>La sua è una situazione particolarmente vantaggiosa: oltre a essere completamente digiuni di programmazione i suoi studenti hanno appena completato un corso di matematica e scienze.</p>
 <p>In effetti insegnare l’ereditarietà prototipale (<!-- raw HTML omitted -->prototypal inheritance<!-- raw HTML omitted -->) caratteristica di JavaScript a programmatori già abituati alla tradizionale ereditarietà degli oggetti richiede un certo impegno. E’ senz’altro più semplice spiegarla a chi non sa nemmeno cosa sia l’<!-- raw HTML omitted -->ereditarietà<!-- raw HTML omitted --> in informatica. JavaScript è anche un buon linguaggio per la <!-- raw HTML omitted -->programmazione funzionale<!-- raw HTML omitted -->, anche questa più facile da capire in assenza di condizionamenti precedenti. In questo filmato Resig parla del suo progetto sottolineando quello che probabilmente è il più grande vantaggio di JavaScript, la sua ubiquità:</p>
 <p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>

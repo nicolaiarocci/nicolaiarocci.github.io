@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>http2 on Nicola Iarocci</title>
+    <title>Http2 on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/http2/</link>
-    <description>Recent content in http2 on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Http2 on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Tue, 24 Feb 2015 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://nicolaiarocci.com/so-why-exactly-is-http2-so-cool/</link>
       <pubDate>Tue, 24 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/so-why-exactly-is-http2-so-cool/</guid>
-      <description>Today must read is Nine Things to Expect from HTTP/2, brewed for us by one of the HTTP/2 core designers, Mark Nottingham. Ten well spent minutes of your time.</description>
+      <description>&lt;p&gt;Today must read is &lt;a href=&#34;https://www.mnot.net/blog/2014/01/30/http2_expectations&#34;&gt;Nine Things to Expect from HTTP/2&lt;/a&gt;, brewed for us by one of the HTTP/2 core designers, Mark Nottingham. Ten well spent minutes of your time.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today must read is <a href="https://www.mnot.net/blog/2014/01/30/http2_expectations">Nine Things to Expect from HTTP/2</a>, brewed for us by one of the HTTP/2 core designers, Mark Nottingham. Ten well spent minutes of your time.</p>
 ]]></content:encoded>
     </item>

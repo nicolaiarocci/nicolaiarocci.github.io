@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>founders on Nicola Iarocci</title>
+    <title>Founders on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/founders/</link>
-    <description>Recent content in founders on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Founders on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Sat, 02 Mar 2024 10:58:26 +0100</lastBuildDate>
@@ -14,16 +14,21 @@
       <link>https://nicolaiarocci.com/on-founders-doing-customer-support/</link>
       <pubDate>Sat, 02 Mar 2024 10:58:26 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-founders-doing-customer-support/</guid>
-      <description>I just came across this tweet by Aaron Levie:
-The best founders I know — no matter their company’s scale — thrive on doing customer support directly. There’s literally no better way to understand the pulse of your customer base, what features to build next, or where systems are breaking down. It’s always upside.
-It profoundly resonates with me. For context, we&amp;rsquo;ve been a small company in the market since 1991, making us quite the rare bird (we have seen so many software companies come and go that it is unbelievable).</description>
+      <description>&lt;p&gt;I just came across this tweet by &lt;a href=&#34;https://twitter.com/levie/status/1763356362858430501&#34;&gt;Aaron Levie&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The best founders I know — no matter their company’s scale — thrive on doing
+customer support directly. There’s literally no better way to understand the
+pulse of your customer base, what features to build next, or where systems are
+breaking down. It’s always upside.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;It profoundly resonates with me. For context, we&amp;rsquo;ve been a small company in the
+market since 1991, making us quite the rare bird (we have seen so many software
+companies come and go that it is unbelievable).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I just came across this tweet by <a href="https://twitter.com/levie/status/1763356362858430501">Aaron Levie</a>:</p>
 <blockquote>
 <p>The best founders I know — no matter their company’s scale — thrive on doing
 customer support directly. There’s literally no better way to understand the
 pulse of your customer base, what features to build next, or where systems are
-breaking down. It’s always upside.</p>
-</blockquote>
+breaking down. It’s always upside.</p></blockquote>
 <p>It profoundly resonates with me. For context, we&rsquo;ve been a small company in the
 market since 1991, making us quite the rare bird (we have seen so many software
 companies come and go that it is unbelievable).</p>

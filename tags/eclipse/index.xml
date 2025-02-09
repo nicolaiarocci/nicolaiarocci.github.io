@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>eclipse on Nicola Iarocci</title>
+    <title>Eclipse on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/eclipse/</link>
-    <description>Recent content in eclipse on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Eclipse on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Tue, 22 Mar 2011 00:00:00 +0000</lastBuildDate>
@@ -14,8 +14,8 @@
       <link>https://nicolaiarocci.com/eclipse-foundation-lancia-la-beta-pubblica-di-orionhub/</link>
       <pubDate>Tue, 22 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/eclipse-foundation-lancia-la-beta-pubblica-di-orionhub/</guid>
-      <description>Eclipse Foundation ha avviato il beta testing di OrionHub, una implementazione hosted del suo Progetto Orion. Orion è una piattaforma di sviluppo aperta dedicata allo sviluppo per il web, dentro il web. La IDE Orion gira nel browser e fornisce un completo ambiente di produzione per progetti JavaScript, HTML e CSS. Il risultato è ottenuto grazie a un plugin lato client sviluppato in HTML5.
-Per un approfondimento dai una occhiata a Il futuro del codice sorgente è online?</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.eclipse.org/&#34;&gt;Eclipse Foundation&lt;/a&gt; ha avviato il beta testing di &lt;a href=&#34;http://www.eclipse.org/orion/&#34;&gt;&lt;strong&gt;OrionHub&lt;/strong&gt;&lt;/a&gt;, una implementazione hosted del suo Progetto Orion. Orion è una piattaforma di sviluppo aperta dedicata allo sviluppo per il web, dentro il web. La IDE Orion gira nel browser e fornisce un completo ambiente di produzione per progetti JavaScript, HTML e CSS. Il risultato è ottenuto grazie a un plugin lato client sviluppato in HTML5.&lt;/p&gt;
+&lt;p&gt;Per un approfondimento dai una occhiata a &lt;!-- raw HTML omitted --&gt;Il futuro del codice sorgente è online?&lt;!-- raw HTML omitted --&gt;, la panoramica sul Progetto Orion e sulle IDE Online che ho pubblicato qualche tempo fa.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="http://www.eclipse.org/">Eclipse Foundation</a> ha avviato il beta testing di <a href="http://www.eclipse.org/orion/"><strong>OrionHub</strong></a>, una implementazione hosted del suo Progetto Orion. Orion è una piattaforma di sviluppo aperta dedicata allo sviluppo per il web, dentro il web. La IDE Orion gira nel browser e fornisce un completo ambiente di produzione per progetti JavaScript, HTML e CSS. Il risultato è ottenuto grazie a un plugin lato client sviluppato in HTML5.</p>
 <p>Per un approfondimento dai una occhiata a <!-- raw HTML omitted -->Il futuro del codice sorgente è online?<!-- raw HTML omitted -->, la panoramica sul Progetto Orion e sulle IDE Online che ho pubblicato qualche tempo fa.</p>
 ]]></content:encoded>

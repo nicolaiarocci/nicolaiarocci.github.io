@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>mimerender on Nicola Iarocci</title>
+    <title>Mimerender on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/mimerender/</link>
-    <description>Recent content in mimerender on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Mimerender on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 01 Mar 2012 00:00:00 +0000</lastBuildDate>
@@ -14,9 +14,10 @@
       <link>https://nicolaiarocci.com/flask-mimerender-e-nel-python-package-index-pypi/</link>
       <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/flask-mimerender-e-nel-python-package-index-pypi/</guid>
-      <description>Un appunto veloce per segnalare che Flask MimeRender, il mio strumento RESTful per il rendering basato sul MIME Media-Type delle richieste HTTP (JSON, XML, HTML, ecc.), è ora presente su PyPI, il Python Package Index ufficiale.
-Tutto ciò significa che l’installazione di Flask MimeRender su Windows, OSX e Linux è diventato più semplice:
-Codice sorgente e istruzioni sono a vostra disposizione su GitHub, mentre per spiegazione approfondita ed esempio d’uso vi rimando al mio articolo precedente: Una REST API che adatta le sue risposte al MIME Media-Type delle richieste HTTP.</description>
+      <description>&lt;p&gt;Un appunto veloce per segnalare che &lt;!-- raw HTML omitted --&gt;Flask MimeRender&lt;!-- raw HTML omitted --&gt;, il mio strumento RESTful per il rendering basato sul MIME Media-Type delle richieste HTTP (JSON, XML, HTML, ecc.), è ora presente su &lt;!-- raw HTML omitted --&gt;PyPI&lt;!-- raw HTML omitted --&gt;, il Python Package Index ufficiale.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Tutto ciò significa che l’installazione di Flask MimeRender su Windows, OSX e Linux è diventato più semplice:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Un appunto veloce per segnalare che <!-- raw HTML omitted -->Flask MimeRender<!-- raw HTML omitted -->, il mio strumento RESTful per il rendering basato sul MIME Media-Type delle richieste HTTP (JSON, XML, HTML, ecc.), è ora presente su <!-- raw HTML omitted -->PyPI<!-- raw HTML omitted -->, il Python Package Index ufficiale.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->

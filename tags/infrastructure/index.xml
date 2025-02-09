@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>infrastructure on Nicola Iarocci</title>
+    <title>Infrastructure on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/infrastructure/</link>
-    <description>Recent content in infrastructure on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Infrastructure on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 25 Mar 2021 07:05:25 +0100</lastBuildDate>
@@ -14,7 +14,12 @@
       <link>https://nicolaiarocci.com/write-libraries-not-services-not-so-fast/</link>
       <pubDate>Thu, 25 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/write-libraries-not-services-not-so-fast/</guid>
-      <description>Write libraries instead of services is an interesting article I read a while ago. I cannot get it off my head. In an attempt to clear up my mind, I decided to sit down and write about it. I have been writing libraries for a good part of my life. Most of my earlier dev-work resides on thousands of computers in the form of libraries. More recently, I have been writing and deploying remote services.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://catern.com/services.html&#34;&gt;Write libraries instead of services&lt;/a&gt; is an interesting article I read
+a while ago. I cannot get it off my head. In an attempt to clear up my mind,
+I decided to sit down and write about it. I have been writing libraries for
+a good part of my life. Most of my earlier dev-work resides on thousands of
+computers in the form of libraries. More recently, I have been writing and
+deploying remote services. Libraries versus Services is a topic I care about.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="http://catern.com/services.html">Write libraries instead of services</a> is an interesting article I read
 a while ago. I cannot get it off my head. In an attempt to clear up my mind,
 I decided to sit down and write about it. I have been writing libraries for
@@ -25,8 +30,7 @@ deploying remote services. Libraries versus Services is a topic I care about.</p
 <blockquote>
 <p>A service has constant administration costs which are paid by the service
 provider. A properly designed library instead moves these costs to the users
-of the library.</p>
-</blockquote>
+of the library.</p></blockquote>
 <p>This ignores the issue of support. You are going to have to support your users.
 Support comes at a cost. I would argue that, given the distributed nature of
 libraries, supporting them can become <em>very</em> costly. Your library is probably
@@ -38,8 +42,7 @@ surrounding environment.</p>
 can avoid slow-to-upgrade users making everyone&rsquo;s lives worse.&rdquo; But this
 assumes that slow-to-upgrade users can have negative effects on everyone
 else. If one user can&rsquo;t have a negative impact on other users, then you don&rsquo;t
-care if some users are slow to upgrade; they&rsquo;re only hurting themselves.</p>
-</blockquote>
+care if some users are slow to upgrade; they&rsquo;re only hurting themselves.</p></blockquote>
 <p>Again, support. Those slow-to-upgrade users are going to not just hurt but
 torture your support service with years-old obsolete issues.  If you think it&rsquo;s
 the user&rsquo;s responsibility to keep dependencies up to date, good luck with that.

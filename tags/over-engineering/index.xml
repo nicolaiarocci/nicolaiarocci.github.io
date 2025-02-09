@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>over-engineering on Nicola Iarocci</title>
+    <title>Over-Engineering on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/over-engineering/</link>
-    <description>Recent content in over-engineering on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Over-Engineering on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Sun, 18 Apr 2021 07:05:25 +0100</lastBuildDate>
@@ -14,14 +14,21 @@
       <link>https://nicolaiarocci.com/adding-is-favoured-over-subtracting-in-problem-solving-and-software-systems/</link>
       <pubDate>Sun, 18 Apr 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/adding-is-favoured-over-subtracting-in-problem-solving-and-software-systems/</guid>
-      <description>Consider the 10x10 grids of green and white boxes below. How would you make them symmetrical? Most people would add green boxes to the emptier half of the grid rather than remove them from the fuller half. Even when the latter would have been more efficient.
-The case, along with a similar problem revolving around the stability of a peculiar lego structure, is reported by an intriguing Nature article on the topic of psychology and human behaviour.</description>
+      <description>&lt;p&gt;Consider the 10x10 grids of green and white boxes below. How would you
+make them symmetrical? Most people would add green boxes to the emptier half of
+the grid rather than remove them from the fuller half. &lt;em&gt;Even when the latter
+would have been more efficient&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/asymmetrical-grid.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The case, along with a similar problem revolving around the stability of
+a peculiar lego structure, is reported by an &lt;a href=&#34;https://www.nature.com/articles/d41586-021-00592-0&#34;&gt;intriguing Nature article&lt;/a&gt; on
+the topic of psychology and human behaviour. The paper linked to the piece
+demonstrates that people consistently consider changes that add components over
+those that subtract them.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Consider the 10x10 grids of green and white boxes below. How would you
 make them symmetrical? Most people would add green boxes to the emptier half of
 the grid rather than remove them from the fuller half. <em>Even when the latter
 would have been more efficient</em>.</p>
-<p><img loading="lazy" src="/images/asymmetrical-grid.jpg" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/asymmetrical-grid.jpg"></p>
 <p>The case, along with a similar problem revolving around the stability of
 a peculiar lego structure, is reported by an <a href="https://www.nature.com/articles/d41586-021-00592-0">intriguing Nature article</a> on
 the topic of psychology and human behaviour. The paper linked to the piece
@@ -37,8 +44,7 @@ be equally effective to get rid of a cluttering coffee table.  [&hellip;] On
 a grander scale, the favouring of additive solutions by individual
 decision-makers might contribute to problematic societal phenomena, such as
 the increasing expansion of formal organizations4 and the near-universal but
-environmentally unsustainable quest for economic growth. (<a href="https://www.nature.com/articles/d41586-021-00592-0">source</a>)</p>
-</blockquote>
+environmentally unsustainable quest for economic growth. (<a href="https://www.nature.com/articles/d41586-021-00592-0">source</a>)</p></blockquote>
 <p>Is the innate tendency to favour additive solutions contributing to the entropy
 of the software systems we build? And if so, isn&rsquo;t over-engineering, the
 scarecrow of software systems,  its most apparent consequence? I&rsquo;m in no way an

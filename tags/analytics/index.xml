@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>analytics on Nicola Iarocci</title>
+    <title>Analytics on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/analytics/</link>
-    <description>Recent content in analytics on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Analytics on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 03 Jan 2024 14:27:38 +0100</lastBuildDate>
@@ -14,7 +14,19 @@
       <link>https://nicolaiarocci.com/new-website-finally-with-no-analytics/</link>
       <pubDate>Wed, 03 Jan 2024 14:27:38 +0100</pubDate>
       <guid>https://nicolaiarocci.com/new-website-finally-with-no-analytics/</guid>
-      <description>During the Christmas/New Year break, I achieved my goal of updating my website with a new theme. I loved Casper, the previous one I ran for a very long time, but it has not been updated in years and looks abandoned. I wanted new features like fuzzy search, archive and tags pages, cover images, table of contents, title anchors, and more. Also, the old theme kept me anchored to an ancient Hugo version, something I felt uncomfortable with.</description>
+      <description>&lt;p&gt;During the Christmas/New Year break, I achieved my goal of updating my website
+with a new theme. I loved
+&lt;a href=&#34;https://github.com/vjeantet/hugo-theme-casper&#34;&gt;Casper&lt;/a&gt;, the previous one I ran
+for a very long time, but it has not been updated in years and looks abandoned.
+I wanted new features like &lt;a href=&#34;https://nicolaiarocci.com/search/&#34;&gt;fuzzy search&lt;/a&gt;, &lt;a href=&#34;https://nicolaiarocci.com/archives/&#34;&gt;archive&lt;/a&gt; and
+&lt;a href=&#34;https://nicolaiarocci.com/tags/&#34;&gt;tags&lt;/a&gt; pages, &lt;a href=&#34;https://nicolaiarocci.com/the-wilderness-of-poggio-montironi/&#34;&gt;cover images&lt;/a&gt;,
+&lt;a href=&#34;https://nicolaiarocci.com/books-i-have-read/&#34;&gt;table of contents&lt;/a&gt;, title anchors, and more. Also, the
+old theme kept me anchored to an ancient Hugo version, something I felt
+uncomfortable with. There are still a few loose parts, but I&amp;rsquo;m confident I made
+the right call by switching to &lt;a href=&#34;https://github.com/adityatelange/hugo-PaperMod&#34;&gt;PaperMod&lt;/a&gt;; it offers all the
+needed features (and plenty more), and it&amp;rsquo;s frequently updated, which allows me
+to &lt;a href=&#34;https://github.com/adityatelange/hugo-PaperMod/issues/1367&#34;&gt;open tickets&lt;/a&gt;
+and offer improvements confidently.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>During the Christmas/New Year break, I achieved my goal of updating my website
 with a new theme. I loved
 <a href="https://github.com/vjeantet/hugo-theme-casper">Casper</a>, the previous one I ran
@@ -40,8 +52,7 @@ surfaced on my RSS reader:</p>
 coming out of the various analytics platforms and were noticing how they all
 spit out different data. Which to me makes no sense. Still, it&rsquo;s an interesting
 topic and I decided to run a little experiment to gather more info on the
-subject.</p>
-</blockquote>
+subject.</p></blockquote>
 <p>His article is worth reading. He ran four different GA-alternative analytics
 platforms on his website for a short period and obtained unpredictable and
 differentiated results. His conclusions corroborate my impression: trust web

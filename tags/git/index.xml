@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>git on Nicola Iarocci</title>
+    <title>Git on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/git/</link>
-    <description>Recent content in git on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Git on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Tue, 10 Sep 2024 11:15:01 +0200</lastBuildDate>
@@ -14,11 +14,11 @@
       <link>https://nicolaiarocci.com/why-github-actually-won/</link>
       <pubDate>Tue, 10 Sep 2024 11:15:01 +0200</pubDate>
       <guid>https://nicolaiarocci.com/why-github-actually-won/</guid>
-      <description>In the end we won because the open source community started to converge on distributed version control and we were the only ones in the hosting space that truly cared about how developers worked at all. The only ones who questioned it, approached it from first principles, tried to make it better holistically rather than just throwing more features onto something existing in order to sell it.
-Full story here.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;In the end we won because the open source community started to converge on distributed version control and we were the only ones in the hosting space that truly cared about how developers worked at all. The only ones who questioned it, approached it from first principles, tried to make it better holistically rather than just throwing more features onto something existing in order to sell it.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Full story &lt;a href=&#34;https://blog.gitbutler.com/why-github-actually-won/&#34;&gt;here&lt;/a&gt;. A great run-down by Scott Cahon himself on why Git and then GitHub won the version control system war.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>In the end we won because the open source community started to converge on distributed version control and we were the only ones in the hosting space that truly cared about how developers worked at all. The only ones who questioned it, approached it from first principles, tried to make it better holistically rather than just throwing more features onto something existing in order to sell it.</p>
-</blockquote>
+<p>In the end we won because the open source community started to converge on distributed version control and we were the only ones in the hosting space that truly cared about how developers worked at all. The only ones who questioned it, approached it from first principles, tried to make it better holistically rather than just throwing more features onto something existing in order to sell it.</p></blockquote>
 <p>Full story <a href="https://blog.gitbutler.com/why-github-actually-won/">here</a>. A great run-down by Scott Cahon himself on why Git and then GitHub won the version control system war.</p>
 ]]></content:encoded>
     </item>
@@ -27,7 +27,12 @@ Full story here.</description>
       <link>https://nicolaiarocci.com/how-to-remove-a-file-from-git-history/</link>
       <pubDate>Fri, 30 Jul 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-remove-a-file-from-git-history/</guid>
-      <description>Today I learned how to remove a file from a git repository while also cleaning it from the history. When you delete it with git rm or git rm --cached, tracks remain in the commit history (the reflog). That might not be a big deal, but if the file has sensitive contents that you want to disappear from version control entirely, then you also want it cleaned from the reflog. That&amp;rsquo;s when git filter-branch comes to the rescue.</description>
+      <description>&lt;p&gt;Today I learned how to remove a file from a git repository while also cleaning
+it from the history. When you delete it with &lt;code&gt;git rm&lt;/code&gt; or &lt;code&gt;git rm --cached&lt;/code&gt;,
+tracks remain in the commit history (the reflog). That might not be a big deal,
+but if the file has sensitive contents that you want to disappear from version
+control entirely, then you also want it cleaned from the reflog. That&amp;rsquo;s when
+&lt;a href=&#34;https://git-scm.com/docs/git-filter-branch&#34;&gt;&lt;code&gt;git filter-branch&lt;/code&gt;&lt;/a&gt; comes to the rescue.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I learned how to remove a file from a git repository while also cleaning
 it from the history. When you delete it with <code>git rm</code> or <code>git rm --cached</code>,
 tracks remain in the commit history (the reflog). That might not be a big deal,
@@ -88,8 +93,15 @@ all make mistakes every once in a while, don&rsquo;t we?</p>
       <link>https://nicolaiarocci.com/git-worktree-vs-git-savepoints/</link>
       <pubDate>Thu, 29 Apr 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/git-worktree-vs-git-savepoints/</guid>
-      <description>The official Git documentation presents the following example as a valid use-case for the worktree command:
-You are in the middle of a refactoring session and your boss comes in and demands that you fix something immediately. You might typically use git-stash1 to store your changes away temporarily. However, your working tree is in such a state of disarray (with new, moved, and removed files and other bits and pieces strewn around) that you don&amp;rsquo;t want to risk disturbing any of it.</description>
+      <description>&lt;p&gt;The official Git documentation presents the following example as a valid
+use-case for the &lt;code&gt;worktree&lt;/code&gt; command:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You are in the middle of a refactoring session and your boss comes in and
+demands that you fix something immediately. You might typically use
+git-stash&lt;a href=&#34;https://git-scm.com/docs/git-worktree&#34;&gt;1&lt;/a&gt; to store your changes away temporarily. However, your working
+tree is in such a state of disarray (with new, moved, and removed files and
+other bits and pieces strewn around) that you don&amp;rsquo;t want to risk disturbing
+any of it. (&lt;a href=&#34;https://git-scm.com/docs/git-worktree&#34;&gt;source&lt;/a&gt;)&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>The official Git documentation presents the following example as a valid
 use-case for the <code>worktree</code> command:</p>
 <blockquote>
@@ -98,8 +110,7 @@ demands that you fix something immediately. You might typically use
 git-stash<a href="https://git-scm.com/docs/git-worktree">1</a> to store your changes away temporarily. However, your working
 tree is in such a state of disarray (with new, moved, and removed files and
 other bits and pieces strewn around) that you don&rsquo;t want to risk disturbing
-any of it. (<a href="https://git-scm.com/docs/git-worktree">source</a>)</p>
-</blockquote>
+any of it. (<a href="https://git-scm.com/docs/git-worktree">source</a>)</p></blockquote>
 <p>If you don&rsquo;t know about <code>worktree</code>, you should check it out. It is a handy,
 powerful yet little known command. I don&rsquo;t use it, however. It will check out
 a new branch to a new directory, and I don&rsquo;t like that. I prefer to keep the
@@ -155,8 +166,20 @@ it for backup before starting the hotfix work.</p>
       <link>https://nicolaiarocci.com/how-to-add-an-empty-directory-to-a-git-repository/</link>
       <pubDate>Mon, 22 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-add-an-empty-directory-to-a-git-repository/</guid>
-      <description>How do you add an empty directory to a Git repository? It&amp;rsquo;s a classic, and yet, I have to look it up every single time. Git does not support this out of the box:
-Currently the design of the Git index (staging area) only permits files to be listed, and nobody competent enough to make the change to allow empty directories has cared enough about this situation to remedy it. Directories are added automatically when adding files inside them.</description>
+      <description>&lt;p&gt;How do you add an empty directory to a Git repository? It&amp;rsquo;s a classic, and yet,
+I have to look it up every single time. Git does not support this out of the
+box:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Currently the design of the Git index (staging area) only permits files to be
+listed, and nobody competent enough to make the change to allow empty
+directories has cared enough about this situation to remedy it. Directories
+are added automatically when adding files inside them. That is, directories
+never have to be added to the repository, and are not tracked on their own.
+You can say &lt;code&gt;git add &amp;lt;dir&amp;gt;&lt;/code&gt; and it will add the files in there. &lt;strong&gt;If you really
+need a directory to exist in checkouts you should create a file in it&lt;/strong&gt;.
+.gitignore works well for this purpose; you can leave it empty or fill in
+the names of files you do not expect to show up in the directory.
+(&lt;a href=&#34;https://git.wiki.kernel.org/index.php/GitFaq#Can_I_add_empty_directories.3F&#34;&gt;source&lt;/a&gt;)&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>How do you add an empty directory to a Git repository? It&rsquo;s a classic, and yet,
 I have to look it up every single time. Git does not support this out of the
 box:</p>
@@ -170,8 +193,7 @@ You can say <code>git add &lt;dir&gt;</code> and it will add the files in there.
 need a directory to exist in checkouts you should create a file in it</strong>.
 .gitignore works well for this purpose; you can leave it empty or fill in
 the names of files you do not expect to show up in the directory.
-(<a href="https://git.wiki.kernel.org/index.php/GitFaq#Can_I_add_empty_directories.3F">source</a>)</p>
-</blockquote>
+(<a href="https://git.wiki.kernel.org/index.php/GitFaq#Can_I_add_empty_directories.3F">source</a>)</p></blockquote>
 <p>The same answer offers a workaround: just save an empty .gitignore file into
 the directory. At that point, <code>git status</code> shows the file as untracked. We can
 add it to the repository, and <em>presto</em>, our folder ends up captured in version
@@ -202,11 +224,11 @@ Overflow, where else):</p>
       <link>https://nicolaiarocci.com/how-to-handle-big-repositories-with-git/</link>
       <pubDate>Wed, 11 Jun 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/how-to-handle-big-repositories-with-git/</guid>
-      <description>git is a fantastic choice for tracking the evolution of your code base and to collaborate efficiently with your peers. But what happens when the repository you want to track is really huge?
-via How to handle big repositories with git – Atlassian Blogs.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;git is a fantastic choice for tracking the evolution of your code base and to collaborate efficiently with your peers. But what happens when the repository you want to track is really huge?&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;via &lt;a href=&#34;https://blogs.atlassian.com/2014/05/handle-big-repositories-git/&#34;&gt;How to handle big repositories with git – Atlassian Blogs&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>git is a fantastic choice for tracking the evolution of your code base and to collaborate efficiently with your peers. But what happens when the repository you want to track is really huge?</p>
-</blockquote>
+<p>git is a fantastic choice for tracking the evolution of your code base and to collaborate efficiently with your peers. But what happens when the repository you want to track is really huge?</p></blockquote>
 <p>via <a href="https://blogs.atlassian.com/2014/05/handle-big-repositories-git/">How to handle big repositories with git – Atlassian Blogs</a>.</p>
 ]]></content:encoded>
     </item>
@@ -215,7 +237,7 @@ via How to handle big repositories with git – Atlassian Blogs.</description>
       <link>https://nicolaiarocci.com/pro-git-workflow/</link>
       <pubDate>Mon, 27 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/pro-git-workflow/</guid>
-      <description>Pro Git Workflow is an interesting collection of Git shortcuts, aliases and workflows. Nothing really new but give it a shot if you want to improve your git-fu beyond basics.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Pro Git Workflow&lt;!-- raw HTML omitted --&gt; is an interesting collection of Git shortcuts, aliases and workflows. Nothing really new but give it a shot if you want to improve your git-fu beyond basics.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Pro Git Workflow<!-- raw HTML omitted --> is an interesting collection of Git shortcuts, aliases and workflows. Nothing really new but give it a shot if you want to improve your git-fu beyond basics.</p>
 ]]></content:encoded>
     </item>
@@ -224,11 +246,11 @@ via How to handle big repositories with git – Atlassian Blogs.</description>
       <link>https://nicolaiarocci.com/on-undoing-fixing-or-removing-commits-in-git/</link>
       <pubDate>Thu, 16 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/on-undoing-fixing-or-removing-commits-in-git/</guid>
-      <description>This document is an attempt to be a fairly comprehensive guide to recovering from what you did not mean to do when using git.
-via On undoing, fixing, or removing commits in git.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This document is an attempt to be a fairly comprehensive guide to recovering from what you did not mean to do when using git.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;via &lt;a href=&#34;http://sethrobertson.github.io/GitFixUm/fixup.html&#34;&gt;On undoing, fixing, or removing commits in git&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>This document is an attempt to be a fairly comprehensive guide to recovering from what you did not mean to do when using git.</p>
-</blockquote>
+<p>This document is an attempt to be a fairly comprehensive guide to recovering from what you did not mean to do when using git.</p></blockquote>
 <p>via <a href="http://sethrobertson.github.io/GitFixUm/fixup.html">On undoing, fixing, or removing commits in git</a>.</p>
 ]]></content:encoded>
     </item>
@@ -263,7 +285,7 @@ via On undoing, fixing, or removing commits in git.</description>
       <link>https://nicolaiarocci.com/git-si-e-rifatto-il-look-e-non-solo/</link>
       <pubDate>Tue, 08 May 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/git-si-e-rifatto-il-look-e-non-solo/</guid>
-      <description>Il sito del progetto Git è stato finalmente aggiornato. Nuova grafica, nuovo logo, ottimizzazione dei contenuti e soprattutto integrazione di importanti risorse prima ospitate altrove: la Git Reference, il libro ProGit, Why Git is Better Than X e il nuovo progetto Git Video Series, che include quattro bei filmati già pronti.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Il sito del &lt;!-- raw HTML omitted --&gt;progetto Git&lt;!-- raw HTML omitted --&gt; è stato finalmente aggiornato. Nuova grafica, nuovo logo, ottimizzazione dei contenuti e soprattutto integrazione di importanti risorse prima ospitate altrove: la &lt;!-- raw HTML omitted --&gt;Git Reference&lt;!-- raw HTML omitted --&gt;, il libro &lt;!-- raw HTML omitted --&gt;ProGit&lt;!-- raw HTML omitted --&gt;, &lt;!-- raw HTML omitted --&gt;Why Git is Better Than X&lt;!-- raw HTML omitted --&gt; e il nuovo progetto &lt;!-- raw HTML omitted --&gt;Git Video Series&lt;!-- raw HTML omitted --&gt;, che include quattro bei filmati già pronti.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Il sito del <!-- raw HTML omitted -->progetto Git<!-- raw HTML omitted --> è stato finalmente aggiornato. Nuova grafica, nuovo logo, ottimizzazione dei contenuti e soprattutto integrazione di importanti risorse prima ospitate altrove: la <!-- raw HTML omitted -->Git Reference<!-- raw HTML omitted -->, il libro <!-- raw HTML omitted -->ProGit<!-- raw HTML omitted -->, <!-- raw HTML omitted -->Why Git is Better Than X<!-- raw HTML omitted --> e il nuovo progetto <!-- raw HTML omitted -->Git Video Series<!-- raw HTML omitted -->, che include quattro bei filmati già pronti.</p>
 ]]></content:encoded>
     </item>
@@ -272,13 +294,14 @@ via On undoing, fixing, or removing commits in git.</description>
       <link>https://nicolaiarocci.com/imparare-git-un-passo-alla-volta-con-git-immersion/</link>
       <pubDate>Fri, 13 Apr 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/imparare-git-un-passo-alla-volta-con-git-immersion/</guid>
-      <description>Già sapete che Git è uno degli strumenti senza i quali non potrei più vivere, ne ho scritto anche recentemente in Branching di successo per Git e Usare Git con Dropbox. Oggi vi propongo Git Immersion, fantastico sito-laboratorio per “immergersi” in Git imparandolo passo dopo passo.
-Git Immersion è un tour guidato che ti accompagna in una passeggiata tra i fondamenti di Git, ispirato dalla premessa che conoscere una cosa significa usarla.</description>
+      <description>&lt;p&gt;Già sapete che Git è uno degli strumenti senza i quali non potrei più vivere, ne ho scritto anche recentemente in &lt;a href=&#34;http://nicolaiarocci.com/branching-di-successo-per-git/&#34; title=&#34;Branching di successo per Git&#34;&gt;Branching di successo per Git&lt;/a&gt; e &lt;a href=&#34;http://nicolaiarocci.com/usare-git-con-dropbox/&#34; title=&#34;Usare Git con Dropbox&#34;&gt;Usare Git con Dropbox&lt;/a&gt;. Oggi vi propongo &lt;!-- raw HTML omitted --&gt;Git Immersion&lt;!-- raw HTML omitted --&gt;, fantastico sito-laboratorio per “immergersi” in Git imparandolo passo dopo passo.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Git Immersion è un tour guidato che ti accompagna in una passeggiata tra i fondamenti di Git, ispirato dalla premessa che conoscere una cosa significa usarla. Git è un sistema potente e sofisticato per il controllo di versione distribuito. Per lo sviluppatore conoscere e comprenderne le caratteristiche significa aprirsi a un nuovo e liberatorio approccio alla gestione del codice sorgente. Il modo migliore per padroneggiare Git è immergesi nelle sue utility ed operazioni, sperimentarlo in prima persona.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Già sapete che Git è uno degli strumenti senza i quali non potrei più vivere, ne ho scritto anche recentemente in <a href="http://nicolaiarocci.com/branching-di-successo-per-git/" title="Branching di successo per Git">Branching di successo per Git</a> e <a href="http://nicolaiarocci.com/usare-git-con-dropbox/" title="Usare Git con Dropbox">Usare Git con Dropbox</a>. Oggi vi propongo <!-- raw HTML omitted -->Git Immersion<!-- raw HTML omitted -->, fantastico sito-laboratorio per “immergersi” in Git imparandolo passo dopo passo.</p>
 <!-- raw HTML omitted -->
 <blockquote>
-<p>Git Immersion è un tour guidato che ti accompagna in una passeggiata tra i fondamenti di Git, ispirato dalla premessa che conoscere una cosa significa usarla. Git è un sistema potente e sofisticato per il controllo di versione distribuito. Per lo sviluppatore conoscere e comprenderne le caratteristiche significa aprirsi a un nuovo e liberatorio approccio alla gestione del codice sorgente. Il modo migliore per padroneggiare Git è immergesi nelle sue utility ed operazioni, sperimentarlo in prima persona.</p>
-</blockquote>
+<p>Git Immersion è un tour guidato che ti accompagna in una passeggiata tra i fondamenti di Git, ispirato dalla premessa che conoscere una cosa significa usarla. Git è un sistema potente e sofisticato per il controllo di versione distribuito. Per lo sviluppatore conoscere e comprenderne le caratteristiche significa aprirsi a un nuovo e liberatorio approccio alla gestione del codice sorgente. Il modo migliore per padroneggiare Git è immergesi nelle sue utility ed operazioni, sperimentarlo in prima persona.</p></blockquote>
 ]]></content:encoded>
     </item>
     <item>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>polysharp on Nicola Iarocci</title>
+    <title>Polysharp on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/polysharp/</link>
-    <description>Recent content in polysharp on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Polysharp on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Sat, 04 Feb 2023 07:05:25 +0100</lastBuildDate>
@@ -14,18 +14,26 @@
       <link>https://nicolaiarocci.com/making-the-latest-csharp-language-features-available-in-older-dotnet-versions/</link>
       <pubDate>Sat, 04 Feb 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/making-the-latest-csharp-language-features-available-in-older-dotnet-versions/</guid>
-      <description>In a C# library I&amp;rsquo;ve been working on, I wanted to use C# 9.0&amp;rsquo;s init keyword. Quoting the documentation:
-The init keyword defines an accessor method in a property or indexer. An init-only setter assigns a value to the property or the indexer element only during object construction. This enforces immutability so that once the object is initialized, it can&amp;rsquo;t be changed again.
-Consider the following class:
-public class Person { public string FirstName { get; init; } } You can initialize it like this:</description>
+      <description>&lt;p&gt;In a C# library I&amp;rsquo;ve been working on, I wanted to use C# 9.0&amp;rsquo;s &lt;code&gt;init&lt;/code&gt; keyword.
+Quoting the &lt;a href=&#34;https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/init&#34;&gt;documentation&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The init keyword defines an accessor method in a property or indexer. An
+init-only setter assigns a value to the property or the indexer element
+&lt;strong&gt;only&lt;/strong&gt; during object construction. This enforces immutability so that once
+the object is initialized, it can&amp;rsquo;t be changed again.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Consider the following class:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    public class Person
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        public string FirstName { get; init; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can initialize it like this:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>In a C# library I&rsquo;ve been working on, I wanted to use C# 9.0&rsquo;s <code>init</code> keyword.
 Quoting the <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/init">documentation</a>:</p>
 <blockquote>
 <p>The init keyword defines an accessor method in a property or indexer. An
 init-only setter assigns a value to the property or the indexer element
 <strong>only</strong> during object construction. This enforces immutability so that once
-the object is initialized, it can&rsquo;t be changed again.</p>
-</blockquote>
+the object is initialized, it can&rsquo;t be changed again.</p></blockquote>
 <p>Consider the following class:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    public class Person
 </span></span><span style="display:flex;"><span>    {
@@ -61,8 +69,7 @@ to easily use all runtime-agnostic features downlevel. The package is
 distributed as a source generator, so that it will automatically detect which
 polyfills are needed depending on the target framework and project in use:
 just add a reference to PolySharp, set your C# language version to latest,
-and have fun!</p>
-</blockquote>
+and have fun!</p></blockquote>
 <p>And it works! Just add a PolySharp reference, and almost all modern C# language
 features become automagically available to your project, with no tricks around
 polluting your code. What&rsquo;s also nice about PolySharp, is that it isn&rsquo;t a

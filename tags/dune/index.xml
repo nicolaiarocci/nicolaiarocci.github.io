@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>dune on Nicola Iarocci</title>
+    <title>Dune on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/dune/</link>
-    <description>Recent content in dune on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Dune on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Tue, 06 Dec 2022 07:05:25 +0100</lastBuildDate>
@@ -14,7 +14,14 @@
       <link>https://nicolaiarocci.com/the-making-of-dune-ii/</link>
       <pubDate>Tue, 06 Dec 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-making-of-dune-ii/</guid>
-      <description>Despite its name suggesting otherwise, Dune II was a first – a real-time strategy game that sprang out of the box with almost every gameplay attribute and control system seen in every RTS since. In direct lineage, it was the father of the globally successful Command &amp;amp; Conquer franchise, in that its code was used as a basis of the first game of the series. Yet in terms of wider influence, the battles first fought out on the vibrant sands of Arrakis continue to echo through modern videogaming.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Despite its name suggesting otherwise, Dune II was a first – a real-time
+strategy game that sprang out of the box with almost every gameplay attribute
+and control system seen in every RTS since. In direct lineage, it was the
+father of the globally successful Command &amp;amp; Conquer franchise, in that its
+code was used as a basis of the first game of the series. Yet in terms of
+wider influence, the battles first fought out on the vibrant sands of Arrakis
+continue to echo through modern videogaming.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
 <p>Despite its name suggesting otherwise, Dune II was a first – a real-time
 strategy game that sprang out of the box with almost every gameplay attribute
@@ -22,13 +29,11 @@ and control system seen in every RTS since. In direct lineage, it was the
 father of the globally successful Command &amp; Conquer franchise, in that its
 code was used as a basis of the first game of the series. Yet in terms of
 wider influence, the battles first fought out on the vibrant sands of Arrakis
-continue to echo through modern videogaming.</p>
-</blockquote>
+continue to echo through modern videogaming.</p></blockquote>
 <p>More <a href="https://readonlymemory.vg/the-making-of-dune-ii/">here</a>, with beautiful illustrations to boost</p>
 <p>Dune II is one of the few video game boxes I keep. It&rsquo;s comfortably resting in
 the library behind me, along with <a href="/system-shock-is-back-home/">other jewels</a> from the distant past.</p>
-<p><img loading="lazy" src="/images/dune2.jpg" alt="My Dune II box"  />
-</p>
+<p><img alt="My Dune II box" loading="lazy" src="/images/dune2.jpg"></p>
 <p>Reading the <em>Making of Dune II</em> took me down memory lane (<em><a href="https://news.ycombinator.com/item?id=33869118">via</a></em>).</p>
 ]]></content:encoded>
     </item>

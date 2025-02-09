@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>fonts on Nicola Iarocci</title>
+    <title>Fonts on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/fonts/</link>
-    <description>Recent content in fonts on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Fonts on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Tue, 30 Apr 2013 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://nicolaiarocci.com/quali-sono-i-font-migliori-per-scrivere-codice/</link>
       <pubDate>Tue, 30 Apr 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/quali-sono-i-font-migliori-per-scrivere-codice/</guid>
-      <description>Malgrado la giovane età Source Code Pro di Adobe domina incontrastato, col più classico Consolas come sua regina. Inconsolata-g e Monaco seguono a distanza mentre il mio preferito, Menlo, è tristemente indietro: What Are the Best Programming Fonts?</description>
+      <description>&lt;p&gt;Malgrado la giovane età Source Code Pro di Adobe domina incontrastato, col più classico Consolas come sua regina. Inconsolata-g e Monaco seguono a distanza mentre il mio preferito, Menlo, è tristemente indietro: &lt;!-- raw HTML omitted --&gt;What Are the Best Programming Fonts?&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Malgrado la giovane età Source Code Pro di Adobe domina incontrastato, col più classico Consolas come sua regina. Inconsolata-g e Monaco seguono a distanza mentre il mio preferito, Menlo, è tristemente indietro: <!-- raw HTML omitted -->What Are the Best Programming Fonts?<!-- raw HTML omitted --></p>
 ]]></content:encoded>
     </item>

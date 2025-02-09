@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>fosdem on Nicola Iarocci</title>
+    <title>Fosdem on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/fosdem/</link>
-    <description>Recent content in fosdem on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Fosdem on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 03 Feb 2014 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://nicolaiarocci.com/rest-apis-humans-fosdem/</link>
       <pubDate>Mon, 03 Feb 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/rest-apis-humans-fosdem/</guid>
-      <description>Yesterday I gave a talk at FOSDEM 2014 in Brussels. The conference itself was amazing, with over 5000 attendees literally swarming and taking over the ULB Campus. I was stoked at how smoothly everything was going on despite the incredible number of simultaneous sessions and the number of attendees continuously flowing between buildings and conference rooms. Everybody involved, volunteers and attendees, has been very welcoming, charming and helpful. In short, I had a blast.</description>
+      <description>&lt;p&gt;Yesterday I gave a talk at FOSDEM 2014 in Brussels. The conference itself was amazing, with over 5000 attendees literally swarming and taking over the ULB Campus. I was stoked at how smoothly everything was going on despite the incredible number of simultaneous sessions and the number of attendees continuously flowing between buildings and conference rooms. Everybody involved, volunteers and attendees,  has been very welcoming, charming and helpful. In short, I had a blast.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Yesterday I gave a talk at FOSDEM 2014 in Brussels. The conference itself was amazing, with over 5000 attendees literally swarming and taking over the ULB Campus. I was stoked at how smoothly everything was going on despite the incredible number of simultaneous sessions and the number of attendees continuously flowing between buildings and conference rooms. Everybody involved, volunteers and attendees,  has been very welcoming, charming and helpful. In short, I had a blast.</p>
 <p>My <a href="https://speakerdeck.com/nicola/eve-rest-api-for-humans">REST APIs for Humans™</a> talk was given in a fully packed Python DevRoom, which granted a lot of smart questions both in the final QA session and later during the day. Thanks everybody for the great feedback!</p>
 ]]></content:encoded>

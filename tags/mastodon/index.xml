@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>mastodon on Nicola Iarocci</title>
+    <title>Mastodon on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/mastodon/</link>
-    <description>Recent content in mastodon on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Mastodon on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 02 Dec 2022 07:05:25 +0100</lastBuildDate>
@@ -14,18 +14,28 @@
       <link>https://nicolaiarocci.com/i-am-on-mastodon-and-i-love-it/</link>
       <pubDate>Fri, 02 Dec 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/i-am-on-mastodon-and-i-love-it/</guid>
-      <description>Marcus Hutchins on Mastodon:
-What I missed about Mastodon was its very different culture. Ad-driven social media platforms are willing to tolerate monumental volumes of abusive users. They’ve discovered the same thing the Mainstream Media did: negative emotions grip people’s attention harder than positive ones. Hate and fear drives engagement, and engagement drives ad impressions.
-More here.
-I have been on Mastodon for a few weeks now, and wow, what a breath of fresh air.</description>
+      <description>&lt;p&gt;Marcus Hutchins on Mastodon:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;What I missed about Mastodon was its very different culture. Ad-driven social
+media platforms are willing to tolerate monumental volumes of abusive users.
+They’ve discovered the same thing the Mainstream Media did: negative emotions
+grip people’s attention harder than positive ones. Hate and fear drives
+engagement, and engagement drives ad impressions.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;More &lt;a href=&#34;https://escapingtech.com/tech/opinions/i-was-wrong-about-mastodon-moderation.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I have been on Mastodon for a few weeks now, and wow, what a breath of fresh
+air. I&amp;rsquo;m only syndicating to Twitter (and have been for a while, as you might
+have noticed) while I&amp;rsquo;m active and engaged on Masto. I know this is breaking my
+&lt;a href=&#34;https://indieweb.org/POSSE&#34;&gt;POSSE&lt;/a&gt; stance so much that I&amp;rsquo;ve set up my own Masto instance so I could own my
+content over there like I do with this website. I never switched from fosstodon
+(which is an instance I like a lot), though. I&amp;rsquo;ll wait a little bit and then
+decide on the move.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Marcus Hutchins on Mastodon:</p>
 <blockquote>
 <p>What I missed about Mastodon was its very different culture. Ad-driven social
 media platforms are willing to tolerate monumental volumes of abusive users.
 They’ve discovered the same thing the Mainstream Media did: negative emotions
 grip people’s attention harder than positive ones. Hate and fear drives
-engagement, and engagement drives ad impressions.</p>
-</blockquote>
+engagement, and engagement drives ad impressions.</p></blockquote>
 <p>More <a href="https://escapingtech.com/tech/opinions/i-was-wrong-about-mastodon-moderation.html">here</a>.</p>
 <p>I have been on Mastodon for a few weeks now, and wow, what a breath of fresh
 air. I&rsquo;m only syndicating to Twitter (and have been for a while, as you might

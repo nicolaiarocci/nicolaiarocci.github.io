@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>programming on Nicola Iarocci</title>
+    <title>Programming on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/programming/</link>
-    <description>Recent content in programming on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Programming on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 11 Jul 2024 15:11:50 +0200</lastBuildDate>
@@ -14,8 +14,8 @@
       <link>https://nicolaiarocci.com/microsoft-mvp-ninth-time/</link>
       <pubDate>Thu, 11 Jul 2024 15:11:50 +0200</pubDate>
       <guid>https://nicolaiarocci.com/microsoft-mvp-ninth-time/</guid>
-      <description>Last night, I was at an outdoor theatre with Serena, watching Anatomy of a Fall (an excellent film). Outdoor theatres are becoming rare, which is a pity, and Arena del Sole is lovely with its strong vintage, 80s vibe. There&amp;rsquo;s little as pleasant as watching a film under the stars with your loved one on a quiet summer evening.
-Anyway, in the pause, I glanced at my e-mails and discovered I had been again granted the Microsoft MVP Award.</description>
+      <description>&lt;p&gt;Last night, I was at an outdoor theatre with Serena, watching Anatomy of a Fall (an excellent film). Outdoor theatres are becoming rare, which is a pity, and &lt;a href=&#34;https://maps.app.goo.gl/j7t3SigtkPtKnB22A&#34;&gt;Arena del Sole&lt;/a&gt; is lovely with its strong vintage, 80s vibe. There&amp;rsquo;s little as pleasant as watching a film under the stars with your loved one on a quiet summer evening.&lt;/p&gt;
+&lt;p&gt;Anyway, in the pause, I glanced at my e-mails and discovered I had been again granted the &lt;a href=&#34;https://mvp.microsoft.com/en-US/mvp/profile/a6892d61-aea0-e511-8114-c4346bac0abc&#34;&gt;Microsoft MVP Award&lt;/a&gt;. It is the ninth consecutive year, and I&amp;rsquo;m grateful and happy the journey continues. At this point, I should put in some extra effort to reach the 10-year milestone next year.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Last night, I was at an outdoor theatre with Serena, watching Anatomy of a Fall (an excellent film). Outdoor theatres are becoming rare, which is a pity, and <a href="https://maps.app.goo.gl/j7t3SigtkPtKnB22A">Arena del Sole</a> is lovely with its strong vintage, 80s vibe. There&rsquo;s little as pleasant as watching a film under the stars with your loved one on a quiet summer evening.</p>
 <p>Anyway, in the pause, I glanced at my e-mails and discovered I had been again granted the <a href="https://mvp.microsoft.com/en-US/mvp/profile/a6892d61-aea0-e511-8114-c4346bac0abc">Microsoft MVP Award</a>. It is the ninth consecutive year, and I&rsquo;m grateful and happy the journey continues. At this point, I should put in some extra effort to reach the 10-year milestone next year.</p>
 ]]></content:encoded>
@@ -25,12 +25,14 @@ Anyway, in the pause, I glanced at my e-mails and discovered I had been again gr
       <link>https://nicolaiarocci.com/linus-torvalds-on-the-impact-of-llms-and-ai-on-programming/</link>
       <pubDate>Sun, 21 Jan 2024 12:27:26 +0100</pubDate>
       <guid>https://nicolaiarocci.com/linus-torvalds-on-the-impact-of-llms-and-ai-on-programming/</guid>
-      <description>I think I like his take on the topic.</description>
+      <description>&lt;p&gt;I think I like &lt;a href=&#34;https://www.youtube.com/watch?v=VHHT6W-N0ak&#34;&gt;his take&lt;/a&gt; on the topic.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/VHHT6W-N0ak?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
       <content:encoded><![CDATA[<p>I think I like <a href="https://www.youtube.com/watch?v=VHHT6W-N0ak">his take</a> on the topic.</p>
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/VHHT6W-N0ak" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/VHHT6W-N0ak?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
 ]]></content:encoded>
     </item>
@@ -39,8 +41,17 @@ Anyway, in the pause, I glanced at my e-mails and discovered I had been again gr
       <link>https://nicolaiarocci.com/how-to-implement-pkce-code-challenge-in-csharp/</link>
       <pubDate>Wed, 17 Jan 2024 18:28:14 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-implement-pkce-code-challenge-in-csharp/</guid>
-      <description>Today&amp;rsquo;s fun was implementing OAuth2&amp;rsquo;s RFC 7636&amp;rsquo;s PKCE (Proof Key for Code Exchange) in C#. It&amp;rsquo;s relatively straightforward, but I decided to share my implementation should it be helpful to someone else out there.
-PKCE is an extension to the Authorization Code flow to prevent CSRF and authorization code injection attacks. [..] It was originally designed to protect the authorization code flow in mobile apps, but its ability to prevent authorization code injection makes it useful for every type of OAuth client, even web apps that use client authentication (source).</description>
+      <description>&lt;p&gt;Today&amp;rsquo;s fun was implementing OAuth2&amp;rsquo;s &lt;a href=&#34;http://tools.ietf.org/html/rfc7636&#34;&gt;RFC
+7636&lt;/a&gt;&amp;rsquo;s PKCE (Proof Key for Code Exchange)
+in C#. It&amp;rsquo;s relatively straightforward, but I decided to share my implementation
+should it be helpful to someone else out there.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;PKCE  is an extension to the Authorization Code flow to prevent CSRF and
+authorization code injection attacks. [..] It was originally designed to protect
+the authorization code flow in mobile apps, but its ability to prevent
+authorization code injection makes it useful for every type of OAuth client,
+even web apps that use client authentication
+(&lt;a href=&#34;https://oauth.net/2/pkce/&#34;&gt;source&lt;/a&gt;).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today&rsquo;s fun was implementing OAuth2&rsquo;s <a href="http://tools.ietf.org/html/rfc7636">RFC
 7636</a>&rsquo;s PKCE (Proof Key for Code Exchange)
 in C#. It&rsquo;s relatively straightforward, but I decided to share my implementation
@@ -51,8 +62,7 @@ authorization code injection attacks. [..] It was originally designed to protect
 the authorization code flow in mobile apps, but its ability to prevent
 authorization code injection makes it useful for every type of OAuth client,
 even web apps that use client authentication
-(<a href="https://oauth.net/2/pkce/">source</a>).</p>
-</blockquote>
+(<a href="https://oauth.net/2/pkce/">source</a>).</p></blockquote>
 <p>In a nutshell:</p>
 <ol>
 <li>The client requests a single-use authorization code to an authorization server. In doing that, it includes a <code>code_challenge</code> with the request.</li>
@@ -105,9 +115,18 @@ implementation. Fun stuff.</p>
       <link>https://nicolaiarocci.com/how-to-use-xmlwriter-along-with-stringwriter-to-properly-serialize-a-utf-8-string/</link>
       <pubDate>Thu, 09 Nov 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-use-xmlwriter-along-with-stringwriter-to-properly-serialize-a-utf-8-string/</guid>
-      <description>Today, I (re)learned how to serialize an XML to a UTF-8 string. Like all the other times I did this, I got backstabbed by StringWriter, which only supports UTF-16. A simple code snippet like this:
-await using var sw = new StringWriter(); await using var w = XmlWriter.Create(sw, new() { Async = true }); ... await w.FlushAsync(); return sw.ToString(); Will emit this output:
-&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-16&amp;#34;?&amp;gt;&amp;lt;... There&amp;rsquo;s nothing inherently wrong with UTF-16, but XML is usually UTF-8, so one must do something about it.</description>
+      <description>&lt;p&gt;Today, I (re)learned how to serialize an XML to a UTF-8 string. Like all the other times I did this, I got backstabbed
+by StringWriter, which only supports UTF-16. A simple code snippet like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    await using &lt;span style=&#34;font-weight:bold&#34;&gt;var&lt;/span&gt; sw = new StringWriter();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    await using &lt;span style=&#34;font-weight:bold&#34;&gt;var&lt;/span&gt; w = XmlWriter.Create(sw, new() { Async = true });
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    ...
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    await w.FlushAsync();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;return&lt;/span&gt; sw.ToString();
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Will emit this output:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-16&amp;#34;?&amp;gt;&amp;lt;...
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;There&amp;rsquo;s nothing inherently wrong with UTF-16, but XML is usually UTF-8, so one must do something about it. StringWriter
+exposes an &lt;code&gt;Encoding&lt;/code&gt; property, but it is read-only for unknown reasons. One might think that given that the XmlWriter
+allows setting its own &lt;code&gt;Encoding&lt;/code&gt; value, something like this would work:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today, I (re)learned how to serialize an XML to a UTF-8 string. Like all the other times I did this, I got backstabbed
 by StringWriter, which only supports UTF-16. A simple code snippet like this:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>    await using <span style="font-weight:bold">var</span> sw = new StringWriter();
@@ -150,8 +169,11 @@ UTF-8 out-of-the-box is one of them.</p>
       <link>https://nicolaiarocci.com/linq-distinctby-on-a-property-for-dotnet-standard-and-old-dotnet-versions/</link>
       <pubDate>Wed, 25 Oct 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/linq-distinctby-on-a-property-for-dotnet-standard-and-old-dotnet-versions/</guid>
-      <description>Today I learned how to implement a custom Enumerable.DistinctBy extension method that returns distinct elements from a sequence according to a specified key selector function.
-.NET 6 and its successors have the method built in within LINQ, but I needed it in a .NET Standard 2.0 class library, so I was out of luck. My implementation is simple, not different from others I found online, and should also work fine with old .</description>
+      <description>&lt;p&gt;Today I learned how to implement a custom &lt;code&gt;Enumerable.DistinctBy&lt;/code&gt; extension method that returns distinct elements from a
+sequence according to a specified key selector function.&lt;/p&gt;
+&lt;p&gt;.NET 6 and its successors have the method &lt;a href=&#34;https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.distinctby?view=net-6.0&#34;&gt;built in&lt;/a&gt; within LINQ, but I needed it in a .NET Standard 2.0 class
+library, so I was out of luck. My implementation is simple, not different from &lt;a href=&#34;https://stackoverflow.com/a/489421/323269&#34;&gt;others&lt;/a&gt; I found online, and should
+also work fine with old .NET releases. Here it is:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I learned how to implement a custom <code>Enumerable.DistinctBy</code> extension method that returns distinct elements from a
 sequence according to a specified key selector function.</p>
 <p>.NET 6 and its successors have the method <a href="https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.distinctby?view=net-6.0">built in</a> within LINQ, but I needed it in a .NET Standard 2.0 class
@@ -181,7 +203,10 @@ to, the .NET source code.</p>
       <link>https://nicolaiarocci.com/i-won-the-microsoft-mvp-award/</link>
       <pubDate>Thu, 06 Jul 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/i-won-the-microsoft-mvp-award/</guid>
-      <description>I&amp;rsquo;ve just received news that I&amp;rsquo;ve been awarded the Microsoft Most Valuable Professional (MVP) Award in the Software Development category. It is an honor and a pleasure to be renewed for the eighth time. Being a Microsoft MVP means a lot to me; I remember how intimidated I felt when I met MVPs at various events and how totally out of reach the title seemed for someone like me. Besides my everyday work, I kept doing the things I loved:</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve just received news that I&amp;rsquo;ve been awarded the Microsoft Most Valuable Professional (MVP) Award in the Software
+Development category. It is an honor and a pleasure to be renewed for the eighth time. Being a Microsoft MVP means a lot
+to me; I remember how intimidated I felt when I met MVPs at various events and how totally out of reach the title seemed
+for someone like me. Besides my everyday work, I kept doing the things I loved:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I&rsquo;ve just received news that I&rsquo;ve been awarded the Microsoft Most Valuable Professional (MVP) Award in the Software
 Development category. It is an honor and a pleasure to be renewed for the eighth time. Being a Microsoft MVP means a lot
 to me; I remember how intimidated I felt when I met MVPs at various events and how totally out of reach the title seemed
@@ -202,7 +227,14 @@ happy and rewarding ride, and I&rsquo;m glad the journey continues for another y
       <link>https://nicolaiarocci.com/homebrew-and-docfx-dont-like-each-other-too/</link>
       <pubDate>Tue, 20 Jun 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/homebrew-and-docfx-dont-like-each-other-too/</guid>
-      <description>Another day another Homebrew incompatibility emerges, this time with docfx, the technical documentation building tool of reference in .NET space. I&amp;rsquo;ve been using docfx for years to build the FatturaElettronica.NET website, and it&amp;rsquo;s always been working without a glitch. Lately, however, my builds have been failing with strange errors I was too lazy to diagnose until today when I decided to grasp the nettle and sort the whole thing out.</description>
+      <description>&lt;p&gt;Another day another Homebrew incompatibility emerges, this time with &lt;a href=&#34;https://dotnet.github.io/docfx/index.html&#34;&gt;docfx&lt;/a&gt;, the technical documentation building
+tool of reference in .NET space. I&amp;rsquo;ve been using docfx for years to build the &lt;a href=&#34;https://fatturaelettronicaopensource.org&#34;&gt;FatturaElettronica.NET&lt;/a&gt; website, and it&amp;rsquo;s
+always been working without a glitch. Lately, however, my builds have been failing with strange errors I was too lazy to
+diagnose until today when I decided to grasp the nettle and sort the whole thing out.&lt;/p&gt;
+&lt;p&gt;It took me an embarrassing time to realize that, while successful, my docfx updates (&lt;code&gt;dotnet tool update -g docfx&lt;/code&gt;) were
+being ignored. An old, Homebrew-installed version of docfx was being executed at my launches —a simple &lt;code&gt;which docfx&lt;/code&gt;
+revealed the issue. &lt;code&gt;brew uninstall docfx&lt;/code&gt; finally set the updated, dotnet-installed version free of its chains, and it
+is now merrily churning websites.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Another day another Homebrew incompatibility emerges, this time with <a href="https://dotnet.github.io/docfx/index.html">docfx</a>, the technical documentation building
 tool of reference in .NET space. I&rsquo;ve been using docfx for years to build the <a href="https://fatturaelettronicaopensource.org">FatturaElettronica.NET</a> website, and it&rsquo;s
 always been working without a glitch. Lately, however, my builds have been failing with strange errors I was too lazy to
@@ -220,7 +252,11 @@ dotnet tools via Homebrew anymore. Or maybe, I might stay clear of Homebrew alto
       <link>https://nicolaiarocci.com/homebrew-and-dotnet-8-preview-dont-like-each-other/</link>
       <pubDate>Tue, 13 Jun 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/homebrew-and-dotnet-8-preview-dont-like-each-other/</guid>
-      <description>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&amp;rsquo;m working on a C# 12 presentation for our local developer meetup, and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As version 7 was initially installed with Homebrew, I also wanted to install version 8 Preview with Homebrew, but that recipe was unavailable. Not perfectly happy with that, I fell back to the stand-alone installer, expecting problems.</description>
+      <description>&lt;p&gt;Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&amp;rsquo;m working on a &lt;a href=&#34;https://www.meetup.com/it-IT/devromagna/events/293340671/&#34;&gt;C# 12 presentation
+for our local developer meetup&lt;/a&gt;, and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As
+version 7 was initially installed with Homebrew, I also wanted to install version 8 Preview with Homebrew, but that
+recipe was unavailable. Not perfectly happy with that, I fell back to the stand-alone installer, expecting
+problems.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I learned that .NET 8 Preview could play better with Homebrew (or vice-versa). I&rsquo;m working on a <a href="https://www.meetup.com/it-IT/devromagna/events/293340671/">C# 12 presentation
 for our local developer meetup</a>, and for that, I wanted .NET 8 Preview to run side by side with version 7 on my Mac. As
 version 7 was initially installed with Homebrew, I also wanted to install version 8 Preview with Homebrew, but that
@@ -241,8 +277,11 @@ I had to forego the Homebrew installation, which did not uninstall the SDK itsel
       <link>https://nicolaiarocci.com/python-decimal.getcontext-does-not-work-with-bpython/</link>
       <pubDate>Tue, 06 Jun 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/python-decimal.getcontext-does-not-work-with-bpython/</guid>
-      <description>I have been working on a side project for which I&amp;rsquo;m using bpython, a &amp;ldquo;fancy interface to the Python interpreter.&amp;rdquo; If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax highlighting, readline-like autocomplete, a &amp;ldquo;rewind&amp;rdquo; function to pop the last line of code from memory, auto-indentation and more.
-Anyway, today I found a bug in bpython, and that&amp;rsquo;s that Python&amp;rsquo;s decimal.getcontext() does not work with it.</description>
+      <description>&lt;p&gt;I have been working on a side project for which I&amp;rsquo;m using &lt;a href=&#34;https://bpython-interpreter.org&#34;&gt;bpython&lt;/a&gt;, a &amp;ldquo;fancy interface to the Python interpreter.&amp;rdquo;
+If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax
+highlighting, readline-like autocomplete, a &amp;ldquo;rewind&amp;rdquo; function to pop the last line of code from memory, auto-indentation
+and more.&lt;/p&gt;
+&lt;p&gt;Anyway, today I found a bug in bpython, and that&amp;rsquo;s that Python&amp;rsquo;s &lt;code&gt;decimal.getcontext()&lt;/code&gt; does not work with it.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I have been working on a side project for which I&rsquo;m using <a href="https://bpython-interpreter.org">bpython</a>, a &ldquo;fancy interface to the Python interpreter.&rdquo;
 If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax
 highlighting, readline-like autocomplete, a &ldquo;rewind&rdquo; function to pop the last line of code from memory, auto-indentation
@@ -274,20 +313,23 @@ and more.</p>
       <link>https://nicolaiarocci.com/a-new-modern-msbuild-terminal-logger-is-coming-with-dotnet-8/</link>
       <pubDate>Sat, 20 May 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/a-new-modern-msbuild-terminal-logger-is-coming-with-dotnet-8/</guid>
-      <description>The latest .NET 8 Preview is out, and I love that they&amp;rsquo;re finally changing how MSBuild logs are printed to the terminal. The new Terminal Logger ditches the infamous &amp;ldquo;wall of text&amp;rdquo; that is a nightmare to parse in favor of a cleaner, leaner, and more organized output.
-Once enabled, the new logger shows you the restore phase, followed by the build phase. During each phase, the currently-building projects are at the bottom of the terminal, and each building project tells you both the MSBuild Target currently being built, as well as the amount of time spent on that target.</description>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://devblogs.microsoft.com/dotnet/announcing-dotnet-8-preview-4/&#34;&gt;latest .NET 8 Preview&lt;/a&gt; is out, and I love that they&amp;rsquo;re finally changing how MSBuild logs are printed to the terminal.
+The new Terminal Logger ditches the infamous &amp;ldquo;wall of text&amp;rdquo; that is a nightmare to parse in favor of a cleaner, leaner,
+and more organized output.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Once enabled, the new logger shows you the restore phase, followed by the build phase. During each phase, the
+currently-building projects are at the bottom of the terminal, and each building project tells you both the MSBuild
+Target currently being built, as well as the amount of time spent on that target.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>The <a href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-8-preview-4/">latest .NET 8 Preview</a> is out, and I love that they&rsquo;re finally changing how MSBuild logs are printed to the terminal.
 The new Terminal Logger ditches the infamous &ldquo;wall of text&rdquo; that is a nightmare to parse in favor of a cleaner, leaner,
 and more organized output.</p>
 <blockquote>
 <p>Once enabled, the new logger shows you the restore phase, followed by the build phase. During each phase, the
 currently-building projects are at the bottom of the terminal, and each building project tells you both the MSBuild
-Target currently being built, as well as the amount of time spent on that target.</p>
-</blockquote>
+Target currently being built, as well as the amount of time spent on that target.</p></blockquote>
 <p>The new MSBuild terminal logger is not the default. It must be opted-in with the <code>tl</code> option of the <code>dotnet build</code>
 command. Here&rsquo;s what it looks like for a complex, multi-project and multi-target solution:</p>
-<p><img loading="lazy" src="/images/modernbuildoutput.gif" alt="MSBuild Terminal Logger output"  />
-</p>
+<p><img alt="MSBuild Terminal Logger output" loading="lazy" src="/images/modernbuildoutput.gif"></p>
 <p>Now, if you&rsquo;re doing .NET programming within an IDE like Rider of Visual Studio, this all might seem of little
 importance to you, but rest assured as soon as you have to look at CI logs or if you use the command line in your
 workflow a lot as I do, this is pure bliss.</p>
@@ -301,7 +343,10 @@ structured errors in the future.&rdquo;</em> Color me excited.</p>
       <link>https://nicolaiarocci.com/story-of-redis-and-its-creator-antirez/</link>
       <pubDate>Thu, 11 May 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/story-of-redis-and-its-creator-antirez/</guid>
-      <description>I read a well-researched story about Redis and its creator Salvatore Sanfilippo, also known as antirez. I was already familiar with many details as I have been following him since OKNotizie and Segnalo, of which I was a user. At the time, as a user, I exchanged a few emails with Salvatore, whom years later I had the pleasure of meeting in person, as we were both speakers at several conferences.</description>
+      <description>&lt;p&gt;I read a well-researched story about Redis and its creator Salvatore Sanfilippo, also known as antirez. I was already
+familiar with many details as I have been following him since OKNotizie and Segnalo, of which I was a user. At the time,
+as a user, I exchanged a few emails with Salvatore, whom years later I had the pleasure of meeting in person, as we were
+both speakers at several conferences.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I read a well-researched story about Redis and its creator Salvatore Sanfilippo, also known as antirez. I was already
 familiar with many details as I have been following him since OKNotizie and Segnalo, of which I was a user. At the time,
 as a user, I exchanged a few emails with Salvatore, whom years later I had the pleasure of meeting in person, as we were
@@ -321,8 +366,11 @@ to be endowed with the most diverse capabilities.</p>
       <link>https://nicolaiarocci.com/the-real-cost-of-interruption/</link>
       <pubDate>Fri, 07 Apr 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-real-cost-of-interruption/</guid>
-      <description>I&amp;rsquo;m just back from reading Programmer Interrupted: The Real Cost of Interruption and Context Switching, an interesting short piece in which I learned about at least two new things.
-First, The Parable of the Two Watchmakers, introduced by Nobel Prize winner Herbert Simon, describes the complex relationship between sub-systems and their larger wholes. In the context of the article, it helps explain, even for non-programmers, the cost of an interruption. It also hints at a possible mitigation technique:</description>
+      <description>&lt;p&gt;I&amp;rsquo;m just back from reading &lt;a href=&#34;https://contextkeeper.io/blog/the-real-cost-of-an-interruption-and-context-switching/&#34;&gt;Programmer Interrupted: The Real Cost of Interruption and Context Switching&lt;/a&gt;, an interesting
+short piece in which I learned about at least two new things.&lt;/p&gt;
+&lt;p&gt;First, &lt;em&gt;The Parable of the Two Watchmakers&lt;/em&gt;, introduced by Nobel Prize winner Herbert Simon, describes the complex
+relationship between sub-systems and their larger wholes. In the context of the article, it helps explain, even for
+non-programmers, the cost of an interruption. It also hints at a possible mitigation technique:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I&rsquo;m just back from reading <a href="https://contextkeeper.io/blog/the-real-cost-of-an-interruption-and-context-switching/">Programmer Interrupted: The Real Cost of Interruption and Context Switching</a>, an interesting
 short piece in which I learned about at least two new things.</p>
 <p>First, <em>The Parable of the Two Watchmakers</em>, introduced by Nobel Prize winner Herbert Simon, describes the complex
@@ -331,31 +379,26 @@ non-programmers, the cost of an interruption. It also hints at a possible mitiga
 <blockquote>
 <p>There once were two watchmakers, named Hora and Tempus, who made very fine watches. The phones in their workshops rang
 frequently and new customers were constantly calling them. However, Hora prospered while Tempus became poorer and
-poorer. In the end, Tempus lost his shop. What was the reason behind this?</p>
-</blockquote>
+poorer. In the end, Tempus lost his shop. What was the reason behind this?</p></blockquote>
 <blockquote>
 <p>The watches consisted of about 1000 parts each. The watches that Tempus made were designed such that, when he had to
 put down a partly assembled watch, it immediately fell into pieces and had to be reassembled from the basic elements.
 Hora had designed his watches so that he could put together sub-assemblies of about ten components each, and each
 sub-assembly could be put down without falling apart. Ten of these sub-assemblies could be put together to make a
-larger sub-assembly, and ten of the larger sub-assemblies constituted the whole watch.</p>
-</blockquote>
+larger sub-assembly, and ten of the larger sub-assemblies constituted the whole watch.</p></blockquote>
 <p>Second, larger computer screens help a programmer keep his mental model (and context) together. I&rsquo;m still deciding on
 this one. Focusing on a single window or not having a lot of cruft around the screen helps solve complex code for me.
 But toss anything John Carmack at me, and I will abide.</p>
 <blockquote>
 <p>The 640 x 480 resolution was the standard from 1990 to around 1996, but it was possible to get more screen real estate
-back then. There is a famous photo of John Carmack working on Quake using a 28-inch 1080p monitor in 1995.</p>
-</blockquote>
+back then. There is a famous photo of John Carmack working on Quake using a 28-inch 1080p monitor in 1995.</p></blockquote>
 <blockquote>
 <p>Why did he choose 45 kg monitor for about $10k in 1995? The higher screen real estate allowed for more code to be
 visible at once, resulting in a more dense context. Productivity greatly increases when you have the ability to store
 and access more detailed context. It&rsquo;s like having a larger desk to hold documents when studying for an exam or doing
-any task that requires the use of multiple sources of information from a common domain, such as solving puzzles.</p>
-</blockquote>
+any task that requires the use of multiple sources of information from a common domain, such as solving puzzles.</p></blockquote>
 <p>The brilliant comic that opens the article is the perfect TL;DR for the Watchmakers parable.</p>
-<p><img loading="lazy" src="/images/ProgrammerInterrupted.png" alt="This is why you shouldn&amp;rsquo;t interrupt a programmer"  />
-</p>
+<p><img alt="This is why you shouldn&rsquo;t interrupt a programmer" loading="lazy" src="/images/ProgrammerInterrupted.png"></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -363,7 +406,11 @@ any task that requires the use of multiple sources of information from a common 
       <link>https://nicolaiarocci.com/running-dotnet-code-in-an-isolated-sandbox/</link>
       <pubDate>Thu, 23 Mar 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/running-dotnet-code-in-an-isolated-sandbox/</guid>
-      <description>Steve Sanderson is experimenting again, and when Steve plays with his toys, I pay attention. In a new video on his YouTube channel, Steve introduces an experimental new .NET package that allows the creation of isolated instances of the .NET runtime that will safely run code in a sandbox.</description>
+      <description>&lt;p&gt;Steve Sanderson is experimenting &lt;a href=&#34;https://nicolaiarocci.com/a-quick-preview-of-the-blazor-united-prototype-for-.net8/&#34;&gt;again&lt;/a&gt;, and when Steve plays with his toys, I pay attention. In a new video on his
+YouTube channel, Steve introduces an experimental new .NET package that allows the creation of isolated instances of the
+.NET runtime that will safely run code in a sandbox.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
       <content:encoded><![CDATA[<p>Steve Sanderson is experimenting <a href="/a-quick-preview-of-the-blazor-united-prototype-for-.net8/">again</a>, and when Steve plays with his toys, I pay attention. In a new video on his
 YouTube channel, Steve introduces an experimental new .NET package that allows the creation of isolated instances of the
 .NET runtime that will safely run code in a sandbox.</p>
@@ -376,15 +423,17 @@ YouTube channel, Steve introduces an experimental new .NET package that allows t
       <link>https://nicolaiarocci.com/making-csharp-and-omnisharp-play-well-with-neovim/</link>
       <pubDate>Fri, 03 Mar 2023 08:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/making-csharp-and-omnisharp-play-well-with-neovim/</guid>
-      <description>I&amp;rsquo;ve recently moved away from my custom Neovim configuration to embrace LazyVim. LazyVim is a Neovim setup with sane default settings for options, autocmds, and keymaps. It boldly aims to transform Neovim into a full-fledged IDE that is easy to extend and customize. It comes with a wealth of plugins pre-configured and ready to use, and it is also blazing fast. Elijah Manor has a fantastic introductory video on YouTube; I suggest you take the time to look at it.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve recently moved away from my custom Neovim configuration to embrace &lt;a href=&#34;https://www.lazyvim.org/&#34;&gt;LazyVim&lt;/a&gt;. LazyVim is a Neovim setup with sane
+default settings for options, autocmds, and keymaps. It boldly aims to transform Neovim into a full-fledged IDE that is
+easy to extend and customize. It comes with a wealth of plugins pre-configured and ready to use, and it is also blazing
+fast. Elijah Manor has a fantastic introductory video on YouTube; I suggest you take the time to look at it.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I&rsquo;ve recently moved away from my custom Neovim configuration to embrace <a href="https://www.lazyvim.org/">LazyVim</a>. LazyVim is a Neovim setup with sane
 default settings for options, autocmds, and keymaps. It boldly aims to transform Neovim into a full-fledged IDE that is
 easy to extend and customize. It comes with a wealth of plugins pre-configured and ready to use, and it is also blazing
 fast. Elijah Manor has a fantastic introductory video on YouTube; I suggest you take the time to look at it.</p>
-<p>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/N93cTbtLCIM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+<p><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/N93cTbtLCIM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
 <!-- raw HTML omitted -->
 So far I&rsquo;m delighted with the result. In the process, I learned about several useful plugins I now use regularly.</p>
@@ -492,18 +541,26 @@ propose a patched semantic provider to the <em>omnisharp-roslyn</em> maintainers
       <link>https://nicolaiarocci.com/making-the-latest-csharp-language-features-available-in-older-dotnet-versions/</link>
       <pubDate>Sat, 04 Feb 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/making-the-latest-csharp-language-features-available-in-older-dotnet-versions/</guid>
-      <description>In a C# library I&amp;rsquo;ve been working on, I wanted to use C# 9.0&amp;rsquo;s init keyword. Quoting the documentation:
-The init keyword defines an accessor method in a property or indexer. An init-only setter assigns a value to the property or the indexer element only during object construction. This enforces immutability so that once the object is initialized, it can&amp;rsquo;t be changed again.
-Consider the following class:
-public class Person { public string FirstName { get; init; } } You can initialize it like this:</description>
+      <description>&lt;p&gt;In a C# library I&amp;rsquo;ve been working on, I wanted to use C# 9.0&amp;rsquo;s &lt;code&gt;init&lt;/code&gt; keyword.
+Quoting the &lt;a href=&#34;https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/init&#34;&gt;documentation&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The init keyword defines an accessor method in a property or indexer. An
+init-only setter assigns a value to the property or the indexer element
+&lt;strong&gt;only&lt;/strong&gt; during object construction. This enforces immutability so that once
+the object is initialized, it can&amp;rsquo;t be changed again.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Consider the following class:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    public class Person
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        public string FirstName { get; init; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can initialize it like this:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>In a C# library I&rsquo;ve been working on, I wanted to use C# 9.0&rsquo;s <code>init</code> keyword.
 Quoting the <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/init">documentation</a>:</p>
 <blockquote>
 <p>The init keyword defines an accessor method in a property or indexer. An
 init-only setter assigns a value to the property or the indexer element
 <strong>only</strong> during object construction. This enforces immutability so that once
-the object is initialized, it can&rsquo;t be changed again.</p>
-</blockquote>
+the object is initialized, it can&rsquo;t be changed again.</p></blockquote>
 <p>Consider the following class:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>    public class Person
 </span></span><span style="display:flex;"><span>    {
@@ -539,8 +596,7 @@ to easily use all runtime-agnostic features downlevel. The package is
 distributed as a source generator, so that it will automatically detect which
 polyfills are needed depending on the target framework and project in use:
 just add a reference to PolySharp, set your C# language version to latest,
-and have fun!</p>
-</blockquote>
+and have fun!</p></blockquote>
 <p>And it works! Just add a PolySharp reference, and almost all modern C# language
 features become automagically available to your project, with no tricks around
 polluting your code. What&rsquo;s also nice about PolySharp, is that it isn&rsquo;t a
@@ -554,14 +610,22 @@ keyword is used anymore in my library, but that&rsquo;s for another story.</p>
       <link>https://nicolaiarocci.com/a-quick-preview-of-the-blazor-united-prototype-for-.net8/</link>
       <pubDate>Sat, 28 Jan 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/a-quick-preview-of-the-blazor-united-prototype-for-.net8/</guid>
-      <description>Steve Sanderson, the original creator of Blazor, recently posted a quick peek at some of the new Blazor prototypes they are experimenting with for .NET 8.
-I think this looks great. Mixing client and server is a brilliant concept. Essentially one would be served with server-side Blazor on the first landing. While using the app, a background task would download the client-side stuff, ready to be consumed at any subsequent access.</description>
+      <description>&lt;p&gt;Steve Sanderson, the original creator of Blazor, recently posted a quick peek
+at some of the new Blazor prototypes they are experimenting with for .NET 8.&lt;/p&gt;
+&lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/48G_CEGXZZM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;!-- raw HTML omitted --&gt;
+I think this looks great. Mixing client and server is a brilliant concept.
+Essentially one would be served with server-side Blazor on the first landing.
+While using the app, a background task would download the client-side stuff,
+ready to be consumed at any subsequent access.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Steve Sanderson, the original creator of Blazor, recently posted a quick peek
 at some of the new Blazor prototypes they are experimenting with for .NET 8.</p>
-<p>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/48G_CEGXZZM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+<p><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/48G_CEGXZZM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
 <!-- raw HTML omitted -->
 I think this looks great. Mixing client and server is a brilliant concept.
@@ -583,8 +647,17 @@ Blazor United come with some solid tooling, it will be a huge hit.</p>
       <link>https://nicolaiarocci.com/on-implementing-the-asp.net-core-7-rate-limiting-middleware/</link>
       <pubDate>Fri, 23 Dec 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-implementing-the-asp.net-core-7-rate-limiting-middleware/</guid>
-      <description>Today, my last self-assigned duty before the Christmas break was to migrate our in-house rate-limiting implementation (based on the AspNetCoreRateLimiting third-party package) to the new, shiny rate-limiting middleware introduced by ASP.NET Core 7. While the process was relatively straightforward, I stumbled upon a few quirks I want to annotate here.
-Our use case is simple. We use what the ASP.NET Core 7 documentation defines as a &amp;ldquo;fixed window limiter.&amp;rdquo; It uses a specified time window to limit requests.</description>
+      <description>&lt;p&gt;Today, my last self-assigned duty before the Christmas break was to migrate
+our in-house rate-limiting implementation (based on the
+&lt;a href=&#34;https://github.com/stefanprodan/AspNetCoreRateLimit&#34;&gt;AspNetCoreRateLimiting&lt;/a&gt; third-party package) to the new, shiny
+&lt;a href=&#34;https://devblogs.microsoft.com/dotnet/announcing-rate-limiting-for-dotnet/&#34;&gt;rate-limiting middleware&lt;/a&gt; introduced by ASP.NET Core 7. While the process
+was relatively straightforward, I stumbled upon a few quirks I want to annotate
+here.&lt;/p&gt;
+&lt;p&gt;Our use case is simple. We use what the ASP.NET Core 7 documentation defines as
+a &amp;ldquo;fixed window limiter.&amp;rdquo; It uses a specified time window to limit requests.
+When the time window expires, a new time window starts, and the request limit
+is reset. Consider the following code (for convenience, I&amp;rsquo;m using an extension
+method):&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today, my last self-assigned duty before the Christmas break was to migrate
 our in-house rate-limiting implementation (based on the
 <a href="https://github.com/stefanprodan/AspNetCoreRateLimit">AspNetCoreRateLimiting</a> third-party package) to the new, shiny
@@ -730,19 +803,22 @@ rate-limiting backend. I might adopt it in the future.</p>
       <link>https://nicolaiarocci.com/first-impressions-on-jetbrains-rider-2022.3-update/</link>
       <pubDate>Mon, 12 Dec 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/first-impressions-on-jetbrains-rider-2022.3-update/</guid>
-      <description>Today I upgraded to JetBrains&amp;rsquo; Rider 2022.3. Startup speed has been enhanced, and full .NET 7 and C# 11 support is included. So far, my favorite feature is the conversion of regular and verbatim strings into their raw counterparts (it&amp;rsquo;s often the small, simple things.)
-My second best is the fulls upport for WSL2 remote development. This one took a good while to come out of the trenches, but better late than never, I&amp;rsquo;d say.</description>
+      <description>&lt;p&gt;Today I upgraded to JetBrains&amp;rsquo; Rider 2022.3. Startup speed has been
+enhanced, and full .NET 7 and C# 11 support is included. So far,  my favorite
+feature is the conversion of regular and verbatim strings into their raw
+counterparts (it&amp;rsquo;s often the small, simple things.)&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/cs-to-raw-strings.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;My second best is the fulls upport for WSL2  remote development. This one took a
+good while to come out of the trenches, but better late than never, I&amp;rsquo;d say.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I upgraded to JetBrains&rsquo; Rider 2022.3. Startup speed has been
 enhanced, and full .NET 7 and C# 11 support is included. So far,  my favorite
 feature is the conversion of regular and verbatim strings into their raw
 counterparts (it&rsquo;s often the small, simple things.)</p>
-<p><img loading="lazy" src="/images/cs-to-raw-strings.gif" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/cs-to-raw-strings.gif"></p>
 <p>My second best is the fulls upport for WSL2  remote development. This one took a
 good while to come out of the trenches, but better late than never, I&rsquo;d say.</p>
 <p>And the new experimental UI? That&rsquo;s neat too.</p>
-<p><img loading="lazy" src="/images/uiux-newui-thumb.png" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/uiux-newui-thumb.png"></p>
 <p>The full list of updates is available on their <a href="https://www.jetbrains.com/rider/whatsnew/2022-3/">What&rsquo;s New</a> page.</p>
 ]]></content:encoded>
     </item>
@@ -751,8 +827,20 @@ good while to come out of the trenches, but better late than never, I&rsquo;d sa
       <link>https://nicolaiarocci.com/my-top-7-new-features-in-.net-7/</link>
       <pubDate>Sun, 04 Dec 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/my-top-7-new-features-in-.net-7/</guid>
-      <description>The other day we did a .NET 7 Spotlight event at this month&amp;rsquo;s DevRomagna meetup. The speakers were Ugo Lattanzi and me. In my session, I chose to talk about my top 7 new features in .NET 7 (pun intended.) What follows is a mix of my preparation notes and what I ended up really saying1.
-1. Performance Since the initial release of &amp;ldquo;new dotnet&amp;rdquo; (.NET Core), performance has always been a critical goal for the .</description>
+      <description>&lt;p&gt;The other day we did a &lt;a href=&#34;https://www.meetup.com/it-IT/devromagna/events/289709131/&#34;&gt;.NET 7 Spotlight&lt;/a&gt; event at this month&amp;rsquo;s
+&lt;a href=&#34;https://www.meetup.com/it-IT/devromagna/&#34;&gt;DevRomagna&lt;/a&gt; meetup. The speakers were &lt;a href=&#34;https://twitter.com/imperugo&#34;&gt;Ugo Lattanzi&lt;/a&gt; and me. In my
+session, I chose to talk about my top 7 new features in .NET 7 (pun intended.)
+What follows is a mix of my preparation notes and what I ended up really
+saying&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;1-performance&#34;&gt;1. Performance&lt;/h2&gt;
+&lt;p&gt;Since the initial release of &amp;ldquo;new dotnet&amp;rdquo; (.NET Core), performance has always
+been a critical goal for the .NET team. Starting with .NET 5, performance gains
+have been skyrocketing. .NET 6 was &lt;em&gt;a lot&lt;/em&gt; faster than 5, and now, well, I&amp;rsquo;m
+surprised by the remarkable performance improvements in .NET 7. Stephen Toub
+posted a remarkably long (255 printed pages!) &lt;a href=&#34;https://devblogs.microsoft.com/dotnet/performance_improvements_in_net_7&#34;&gt;in-depth analysis of the
+performance improvements in .NET 7&lt;/a&gt;. one That was followed by articles
+dedicated to &lt;a href=&#34;https://devblogs.microsoft.com/dotnet/performance-improvements-in-aspnet-core-7/&#34;&gt;ASP.NET Core 7&lt;/a&gt; and &lt;a href=&#34;https://devblogs.microsoft.com/dotnet/dotnet-7-performance-improvements-in-dotnet-maui/&#34;&gt;MAUI 7&lt;/a&gt; performance gains. At .NETConf
+2022, a particular slide caught everyone&amp;rsquo;s attention.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>The other day we did a <a href="https://www.meetup.com/it-IT/devromagna/events/289709131/">.NET 7 Spotlight</a> event at this month&rsquo;s
 <a href="https://www.meetup.com/it-IT/devromagna/">DevRomagna</a> meetup. The speakers were <a href="https://twitter.com/imperugo">Ugo Lattanzi</a> and me. In my
 session, I chose to talk about my top 7 new features in .NET 7 (pun intended.)
@@ -767,8 +855,7 @@ posted a remarkably long (255 printed pages!) <a href="https://devblogs.microsof
 performance improvements in .NET 7</a>. one That was followed by articles
 dedicated to <a href="https://devblogs.microsoft.com/dotnet/performance-improvements-in-aspnet-core-7/">ASP.NET Core 7</a> and <a href="https://devblogs.microsoft.com/dotnet/dotnet-7-performance-improvements-in-dotnet-maui/">MAUI 7</a> performance gains. At .NETConf
 2022, a particular slide caught everyone&rsquo;s attention.</p>
-<p><img loading="lazy" src="/images/dotnetconf22.png" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/dotnetconf22.png"></p>
 <p>I recall seeing the same slide at the .NET 5 release, so this one is must be
 updated version. I&rsquo;m more impressed with the gRPC graph than the big &ldquo;11x
 faster than Node&rdquo; one. Being faster than Node doesn&rsquo;t break the news these days,
@@ -799,8 +886,7 @@ coming with C# 11, a remarkable one is the <a href="https://learn.microsoft.com/
 <p>When you enable nullable checks in a project, non-nullable string properties
 are flagged with warning that they should be initialized with a non-null value
 when exiting the constructor:</p>
-<p><img loading="lazy" src="/images/required-keyword1.png" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/required-keyword1.png"></p>
 <p>A common workaround has been these properties them with a <code>null!</code> value. That
 is like telling the compiler that we know they should be initialized with a
 non-nullable, but well, let&rsquo;s initialize them with a null value first, just in
@@ -809,8 +895,7 @@ errors. Also, battling the compiler like that is a tedious task.</p>
 <p>Enter the <code>required</code> keyword. When you flag a property with <code>required,</code> the
 IntelliSense engine will report an error if the property value is not set <em>at
 initialization</em>, not at declaration.</p>
-<p><img loading="lazy" src="/images/required-keyword2.png" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/required-keyword2.png"></p>
 <p>When someone initializes our class instance, he/she&rsquo;s <em>required</em> to set an
 explicit value for our property. Notice how we went from a warning (which
 will compile) to an error (which won&rsquo;t compile). Once you start using this
@@ -918,8 +1003,16 @@ rapidly and I&rsquo;m sure we&rsquo;ll soon see them in action in complex, real 
       <link>https://nicolaiarocci.com/the-origins-of-python/</link>
       <pubDate>Sat, 26 Nov 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-origins-of-python/</guid>
-      <description>Yesterday the creator of the Python language, Guido van Rossum, tweeted about The Origins of Python, an essay by his mentor, Lambert Meertens.
-&amp;ldquo;On Sunday, June 21, 1970, in an office building on Great Portland Street in London, a teletype sprang to life. Under the heading &amp;ldquo;HAPPY FAMILIES,&amp;rdquo; the machine rattled out a sequence of English sentences, such as &amp;ldquo;THE DOG SITS ON THE BABY&amp;rdquo; and &amp;ldquo;UNCLE TED PLAYS WITH SISTER.</description>
+      <description>&lt;p&gt;Yesterday the creator of the Python language, Guido van Rossum, &lt;a href=&#34;https://twitter.com/gvanrossum/status/1596268474518876160&#34;&gt;tweeted&lt;/a&gt;
+about &lt;a href=&#34;https://inference-review.com/article/the-origins-of-python&#34;&gt;The Origins of Python&lt;/a&gt;, an essay by his mentor, Lambert Meertens.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;On Sunday, June 21, 1970, in an office building on Great Portland Street in
+London, a teletype sprang to life. Under the heading &amp;ldquo;HAPPY FAMILIES,&amp;rdquo; the
+machine rattled out a sequence of English sentences, such as &amp;ldquo;THE DOG SITS ON
+THE BABY&amp;rdquo; and &amp;ldquo;UNCLE TED PLAYS WITH SISTER.&amp;rdquo; The &amp;ldquo;Happy Families&amp;rdquo; program
+that produced this output had been written that same weekend by someone with
+no prior programming experience, a participant in a workshop organized by the
+Computer Arts Society offering a course in &amp;ldquo;non-numerical programming.&amp;rdquo;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Yesterday the creator of the Python language, Guido van Rossum, <a href="https://twitter.com/gvanrossum/status/1596268474518876160">tweeted</a>
 about <a href="https://inference-review.com/article/the-origins-of-python">The Origins of Python</a>, an essay by his mentor, Lambert Meertens.</p>
 <blockquote>
@@ -929,15 +1022,13 @@ machine rattled out a sequence of English sentences, such as &ldquo;THE DOG SITS
 THE BABY&rdquo; and &ldquo;UNCLE TED PLAYS WITH SISTER.&rdquo; The &ldquo;Happy Families&rdquo; program
 that produced this output had been written that same weekend by someone with
 no prior programming experience, a participant in a workshop organized by the
-Computer Arts Society offering a course in &ldquo;non-numerical programming.&rdquo;</p>
-</blockquote>
+Computer Arts Society offering a course in &ldquo;non-numerical programming.&rdquo;</p></blockquote>
 <blockquote>
 <p>Almost fifty years later, on October 26, 2019, in Istanbul, the eyes of a
 young woman lit up as she managed to get her very first program to run. She
 was attending a workshop organized by Django Girls, an international
 non-profit organization aiming to empower women through free, one-day
-programming workshops.</p>
-</blockquote>
+programming workshops.</p></blockquote>
 <blockquote>
 <p>The programming language used at the London workshop in 1970 was TELCOMP, a
 simple unstructured language similar to BASIC—not BASIC as it is now, but
@@ -945,8 +1036,7 @@ unstructured BASIC as it was then. The programming language taught at the
 Istanbul workshop in 2019 was Python, a programming language designed by Guido
 van Rossum that has become wildly popular, steadily gaining in popularity
 since an inconspicuous public release in 1991. As far apart as these events
-are, both in time and geography, an arc of history connects them.&rdquo;</p>
-</blockquote>
+are, both in time and geography, an arc of history connects them.&rdquo;</p></blockquote>
 <p>It is a magnificent article. If you&rsquo;re passionate about Python, and programming
 languages in general, make sure to read it.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <div class="footnotes" role="doc-endnotes">
@@ -967,25 +1057,32 @@ languages in general, make sure to read it.<sup id="fnref:1"><a href="#fn:1" cla
       <link>https://nicolaiarocci.com/software-quality-is-systemic/</link>
       <pubDate>Thu, 15 Sep 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/software-quality-is-systemic/</guid>
-      <description>Jacob Kaplan-Moss&amp;rsquo;s hot take on software quality:
-Software quality is more the result of a system designed to produce quality, and not so much the result of individual performance. That is: a group of mediocre programmers working with a structure designed to produce quality will produce better software than a group of fantastic programmers working in a system designed with other goals.
-This leads to the insightful conclusion:
-Instead of spending tons of time and effort on hiring because you believe that you can “only hire the best”, direct some of that effort towards building a system that produces great results out of a wider spectrum of individual performance.</description>
+      <description>&lt;p&gt;Jacob Kaplan-Moss&amp;rsquo;s hot take on software quality:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Software quality is more the result of a system designed to produce
+quality, and not so much the result of individual performance&lt;/strong&gt;. That is:
+a group of mediocre programmers working with a structure designed to produce
+quality will produce better software than a group of fantastic programmers
+working in a system designed with other goals.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;This leads to the insightful conclusion:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Instead of spending tons of time and effort on hiring because you believe
+that you can “only hire the best”, direct some of that effort towards
+building a system that produces great results out of a wider spectrum of
+individual performance.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Jacob Kaplan-Moss&rsquo;s hot take on software quality:</p>
 <blockquote>
 <p><strong>Software quality is more the result of a system designed to produce
 quality, and not so much the result of individual performance</strong>. That is:
 a group of mediocre programmers working with a structure designed to produce
 quality will produce better software than a group of fantastic programmers
-working in a system designed with other goals.</p>
-</blockquote>
+working in a system designed with other goals.</p></blockquote>
 <p>This leads to the insightful conclusion:</p>
 <blockquote>
 <p>Instead of spending tons of time and effort on hiring because you believe
 that you can “only hire the best”, direct some of that effort towards
 building a system that produces great results out of a wider spectrum of
-individual performance.</p>
-</blockquote>
+individual performance.</p></blockquote>
 <p>But what does he mean by a <em>system designed for quality</em>? Read it all <a href="https://jacobian.org/2022/sep/9/quality-is-systemic/">here</a>.</p>
 ]]></content:encoded>
     </item>
@@ -994,8 +1091,25 @@ individual performance.</p>
       <link>https://nicolaiarocci.com/my-playwright-session-at-webday-2022/</link>
       <pubDate>Fri, 01 Apr 2022 06:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/my-playwright-session-at-webday-2022/</guid>
-      <description>If you understand Italian, the recording of my Playwright session at UGIdotNET&amp;rsquo;s WebDay 2022 is now available on YouTube1. Playwright is a phenomenal cross-browser, cross-platform, cross-language, single-API, mobile-friendly front-end testing tool.
-I&amp;rsquo;m looking forward to giving the same session in English sooner or later, but I should first win my laziness and start looking for exciting events with open CFPs. If you happen to know one, please let me know.</description>
+      <description>&lt;p&gt;If you understand Italian, the recording of my Playwright session at
+UGIdotNET&amp;rsquo;s &lt;a href=&#34;https://www.ugidotnet.org/e/2840/Web-Day-2022&#34;&gt;WebDay 2022&lt;/a&gt; is now available on YouTube&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Playwright is
+a phenomenal cross-browser, cross-platform, cross-language, single-API,
+mobile-friendly front-end testing tool.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m looking forward to giving the same session in English sooner or later, but
+I should first win my laziness and start looking for exciting events with open
+CFPs. If you happen to know one, please let me know.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/BaY9WIHUwFc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;A couple weeks later I also presented at &lt;a href=&#34;https://www.meetup.com/it-IT/DevRomagna/events/284626987/&#34;&gt;DevRomagna&lt;/a&gt;, the local meetup I run.
+[rss]: &lt;a href=&#34;https://nicolaiarocci.com/index.xml&#34;&gt;https://nicolaiarocci.com/index.xml&lt;/a&gt;
+[tw]: &lt;a href=&#34;http://twitter.com/nicolaiarocci&#34;&gt;http://twitter.com/nicolaiarocci&lt;/a&gt;
+[nl]: &lt;a href=&#34;https://buttondown.email/nicolaiarocci&#34;&gt;https://buttondown.email/nicolaiarocci&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>If you understand Italian, the recording of my Playwright session at
 UGIdotNET&rsquo;s <a href="https://www.ugidotnet.org/e/2840/Web-Day-2022">WebDay 2022</a> is now available on YouTube<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Playwright is
 a phenomenal cross-browser, cross-platform, cross-language, single-API,
@@ -1003,10 +1117,9 @@ mobile-friendly front-end testing tool.</p>
 <p>I&rsquo;m looking forward to giving the same session in English sooner or later, but
 I should first win my laziness and start looking for exciting events with open
 CFPs. If you happen to know one, please let me know.</p>
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/BaY9WIHUwFc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/BaY9WIHUwFc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
 <div class="footnotes" role="doc-endnotes">
 <hr>
@@ -1026,7 +1139,12 @@ CFPs. If you happen to know one, please let me know.</p>
       <link>https://nicolaiarocci.com/lay-back-and-keep-smiling/</link>
       <pubDate>Sun, 23 Jan 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/lay-back-and-keep-smiling/</guid>
-      <description>Tomorrow we&amp;rsquo;re releasing a major project on which we&amp;rsquo;ve been working non-stop for two and a half years. No matter how many years in the trenches, release day always makes me a bit nervous. Experience does help. I know there will be problems, and we will solve them. Some customers will complain, and those will be the most vocal. The vast majority of them will appreciate the effort, enjoy the features, and stay silent.</description>
+      <description>&lt;p&gt;Tomorrow we&amp;rsquo;re releasing a major project on which we&amp;rsquo;ve been working non-stop
+for two and a half years. No matter how many years in the trenches, release day
+always makes me a bit nervous. Experience does help. I know there will be
+problems, and we will solve them. Some customers will complain, and those will
+be the most vocal. The vast majority of them will appreciate the effort, enjoy
+the features, and stay silent. That&amp;rsquo;s how it works. We&amp;rsquo;ll do just fine.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Tomorrow we&rsquo;re releasing a major project on which we&rsquo;ve been working non-stop
 for two and a half years. No matter how many years in the trenches, release day
 always makes me a bit nervous. Experience does help. I know there will be
@@ -1037,8 +1155,7 @@ the features, and stay silent. That&rsquo;s how it works. We&rsquo;ll do just fi
 morning, I listened to <a href="https://open.spotify.com/playlist/1WjnPw3PbQJOsEpEgJsz5f?si=53a83f9c31484310">The Mildlife Very Fantastic Playlist</a> when a curious
 tune caught my attention<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. I glanced over to Spotify, and my eyes fell on
 the most appropriate CD cover for launch day ever.</p>
-<p><img loading="lazy" src="/images/laidback-keepsmiling.jpg" alt="Laid Back&amp;hellip;Keep Smiling"  />
-</p>
+<p><img alt="Laid Back&hellip;Keep Smiling" loading="lazy" src="/images/laidback-keepsmiling.jpg"></p>
 <p>Whatever happens tomorrow, lay back and keep smiling.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
@@ -1058,8 +1175,18 @@ the most appropriate CD cover for launch day ever.</p>
       <link>https://nicolaiarocci.com/my-asp.net-5-migration-to-.net-6/</link>
       <pubDate>Sun, 14 Nov 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/my-asp.net-5-migration-to-.net-6/</guid>
-      <description>I spent the last few days migrating our ASP.NET REST services, MVC web applications and Blazor server apps to .NET 6. Overall the process was pretty straightforward. The few issues I went through were easy to solve and well documented. Things got more involved with the EF Core 6 transition, especially with the Npgsql Entity Framework Core Provider.
-The official ASP.NET Core 5.0 to 6.0 migration guide was my first stop.</description>
+      <description>&lt;p&gt;I spent the last few days migrating our ASP.NET REST services, MVC web
+applications and Blazor server apps to .NET 6. Overall the process was pretty
+straightforward. The few issues I went through were easy to solve and well
+documented. Things got more involved with the EF Core 6 transition, especially
+with the Npgsql Entity Framework Core Provider.&lt;/p&gt;
+&lt;p&gt;The official &lt;a href=&#34;https://docs.microsoft.com/en-us/aspnet/core/migration/50-to-60&#34;&gt;ASP.NET Core 5.0 to 6.0 migration guide&lt;/a&gt; was my first stop. It
+offers the perfect entry point, rich with in-depth links. At this stage, I am
+not interested in switching to the new .NET 6 minimal hosting model (aka
+Minimal APIs). I think it&amp;rsquo;s a significant improvement, and we will likely adopt
+it for new projects, but our production projects aren&amp;rsquo;t going to be refactored
+right away. Should minimal APIs also prove to be remarkably performant, we&amp;rsquo;ll
+reconsider them&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I spent the last few days migrating our ASP.NET REST services, MVC web
 applications and Blazor server apps to .NET 6. Overall the process was pretty
 straightforward. The few issues I went through were easy to solve and well
@@ -1103,8 +1230,7 @@ warnings, either at compile or runtime. Let&rsquo;s go through them one by one.<
 <blockquote>
 <p>The call is ambiguous between the following methods or properties:
 &lsquo;JsonSerializer.Serialize(TValue, JsonSerializerOptions?)&rsquo; and
-&lsquo;JsonSerializer.Serialize(TValue, JsonTypeInfo)&rsquo;&quot;</p>
-</blockquote>
+&lsquo;JsonSerializer.Serialize(TValue, JsonTypeInfo)&rsquo;&quot;</p></blockquote>
 <p>In .NET 6, the <code>Sytem.Text.Json.JsonSerializer</code> <a href="https://docs.microsoft.com/en-us/dotnet/core/compatibility/serialization/6.0/jsonserializer-source-generator-overloads">acquired two new overloads</a> that
 support pre-generated type information via source-generators. Previously, you
 could write code that passed <code>null</code> (or <code>default</code>) as the value for the
@@ -1124,8 +1250,7 @@ target:</p>
 </code></pre>
 <h3 id="the-rngcryptoserviceprovider-is-now-obsolete">The <code>RNGCryptoServiceProvider</code> is now obsolete</h3>
 <blockquote>
-<p>SYSLIB0023: RNGCryptoServiceProvider is obsolete</p>
-</blockquote>
+<p>SYSLIB0023: RNGCryptoServiceProvider is obsolete</p></blockquote>
 <p>As it turns out, <code>RNGCryptoServiceProvider</code> is <a href="https://docs.microsoft.com/en-us/dotnet/fundamentals/syslib-diagnostics/syslib0023">marked as obsolete in .NET 6</a>. The
 new preferred way to generate a random number is using one of the
 <code>RandomNunmberGenerator</code> static methods.</p>
@@ -1147,8 +1272,7 @@ below.</p>
 <h3 id="new-imodelcachekeyfactorycreate-overload">New <code>IModelCacheKeyFactory.Create()</code> overload</h3>
 <blockquote>
 <p>The requested configuration is not stored in the read-optimized model, please
-use DbContext.GetService&lt;IDesignTimeModel&gt;().Model.</p>
-</blockquote>
+use DbContext.GetService&lt;IDesignTimeModel&gt;().Model.</p></blockquote>
 <p>If, like me, you happen to have a custom <code>IModelCacheKeyFactory</code>
 implementation, you will likely get this error at runtime. Starting with EF
 Core 6, <a href="https://github.com/dotnet/EntityFramework.Docs/pull/3305/files">you must implement</a> the new overload of the <code>Create</code> method that
@@ -1183,8 +1307,7 @@ identify whether the entity exists. If all nullable properties contain a null
 value in database then an object instance won&rsquo;t be created in the query
 causing nested dependent&rsquo;s values to be lost. Add a required property to
 create instances with null values for other properties or mark the incoming
-navigation as required to always create an instance.</p>
-</blockquote>
+navigation as required to always create an instance.</p></blockquote>
 <p>The message above is a consequence of a <a href="https://docs.microsoft.com/en-us/ef/core/what-is-new/ef-core-6.0/breaking-changes#high-impact-changes">high-impact breaking change</a> introduced
 in EF Core 6.0. In the past, you could have models with nested optional dependents
 sharing the same table, each with no required properties. In such
@@ -1195,8 +1318,7 @@ thing to do anyway)</p>
 <h3 id="the-efcorenamingconventions-package-is-missing-a-method">The <code>EFCore.NamingConventions</code> package is missing a method</h3>
 <blockquote>
 <p>Method &lsquo;GetServiceProviderHashCode&rsquo; in type &lsquo;ExtensionInfo&rsquo; from assembly
-&lsquo;EFCore.NamingConventions&quot;</p>
-</blockquote>
+&lsquo;EFCore.NamingConventions&quot;</p></blockquote>
 <p>The message says it all: there&rsquo;s currently a missing method in the latest
 stable version of the <code>EFCore.NamingConventions</code> package. At the time of this
 writing, <code>v6.0</code> of the package has not been released, but there is a pre-release
@@ -1264,8 +1386,13 @@ something we will be doing in the upcoming weeks.</p>
       <link>https://nicolaiarocci.com/asp.net-6-migration-cheatsheet-and-faq/</link>
       <pubDate>Thu, 23 Sep 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/asp.net-6-migration-cheatsheet-and-faq/</guid>
-      <description>David Fowler has a very informative gist up on GitHub. It&amp;rsquo;s titled [Migration to ASP.NET Core. NET6][3] and it&amp;rsquo;s filled with details, recipes and FAQs on migrating an ASP.NET Core 5 web app to ASP.NET Core 61. The focus is on the new, streamlined hosting model, also known as Minimal APIs2. To be clear, You don&amp;rsquo;t have to move to the new model. As the FAQ section emphasizes:
-Do I have to migrate to the new hosting model</description>
+      <description>&lt;p&gt;David Fowler has a very informative gist up on GitHub. It&amp;rsquo;s titled [Migration
+to ASP.NET Core. NET6][3] and it&amp;rsquo;s filled with details, recipes and FAQs on
+migrating an ASP.NET Core 5 web app to ASP.NET Core 6&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. The focus is on the
+new, streamlined hosting model, also known as Minimal APIs&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. To be clear,
+You don&amp;rsquo;t &lt;em&gt;have&lt;/em&gt; to move to the new model. As the FAQ section emphasizes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Do I have to migrate to the new hosting model&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>David Fowler has a very informative gist up on GitHub. It&rsquo;s titled [Migration
 to ASP.NET Core. NET6][3] and it&rsquo;s filled with details, recipes and FAQs on
 migrating an ASP.NET Core 5 web app to ASP.NET Core 6<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. The focus is on the
@@ -1276,8 +1403,7 @@ You don&rsquo;t <em>have</em> to move to the new model. As the FAQ section empha
 <p>No, you don&rsquo;t have to. It&rsquo;s the preferred way to host ASP.NET Core
 applications from .NET 6 and onwards but you aren&rsquo;t forced to change your
 project layout. This means you can upgrade from .NET 5 to .NET 6.0 by
-changing the target framework in your project file from net5.0 to net6.0.</p>
-</blockquote>
+changing the target framework in your project file from net5.0 to net6.0.</p></blockquote>
 <p>.NET6 Release Candidate is out, so the guide is unlikely to receive updates,
 but I&rsquo;m sure that David will be ready to do so if required.</p>
 <p>We are about to release several brand new web services in the coming weeks.
@@ -1307,8 +1433,17 @@ advantages, remarkable [performance gains][2] included.</p>
       <link>https://nicolaiarocci.com/performance-improvements-in-.net6/</link>
       <pubDate>Fri, 03 Sep 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/performance-improvements-in-.net6/</guid>
-      <description>I&amp;rsquo;m pretty psyched about the upcoming .NET6 release. I&amp;rsquo;ve already touched on ASP.NET 6 Minimal APIs. Continuing on the long-established tradition, the team has also worked hard on the performance side of things. File IO, for example, is seeing impressive gains:
-For .NET 6, we have made FileStream much faster and more reliable, thanks to an almost entire re-write. For same cases, the async implementation is now a few times faster!</description>
+      <description>&lt;p&gt;I&amp;rsquo;m pretty psyched about the upcoming .NET6 release. I&amp;rsquo;ve already &lt;a href=&#34;https://nicolaiarocci.com/will-.net-6-minimal-apis-turn-heads/&#34;&gt;touched&lt;/a&gt;
+on ASP.NET 6 Minimal APIs. Continuing on the long-established tradition, the
+team has also worked hard on the performance side of things. File IO, for
+example, is seeing &lt;a href=&#34;https://devblogs.microsoft.com/dotnet/file-io-improvements-in-dotnet-6/&#34;&gt;impressive gains&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For .NET 6, we have made FileStream much faster and more reliable, thanks to
+an almost entire re-write. For same cases, the async implementation is now
+a few times faster! We also recognized the need of having more
+high-performance file IO features: concurrent reads and writes,
+scatter/gather IO and introduced new APIs for them. TL;DR File I/O is better,
+stronger, faster!&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I&rsquo;m pretty psyched about the upcoming .NET6 release. I&rsquo;ve already <a href="https://nicolaiarocci.com/will-.net-6-minimal-apis-turn-heads/">touched</a>
 on ASP.NET 6 Minimal APIs. Continuing on the long-established tradition, the
 team has also worked hard on the performance side of things. File IO, for
@@ -1319,8 +1454,7 @@ an almost entire re-write. For same cases, the async implementation is now
 a few times faster! We also recognized the need of having more
 high-performance file IO features: concurrent reads and writes,
 scatter/gather IO and introduced new APIs for them. TL;DR File I/O is better,
-stronger, faster!</p>
-</blockquote>
+stronger, faster!</p></blockquote>
 <p>If you have the time, make sure you read the whole blog post. Learning about
 the low-level details on how they achieved such (pretty phenomenal) results is
 fascinating. They&rsquo;re not stopping at file IO either. In another <a href="https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-6/#is-that-all">lengthy blog
@@ -1330,8 +1464,7 @@ of improvements.</p>
 <p>Don’t worry, I don’t cover all of them here, but grab a large mug of your
 favorite hot beverage, and settle in: this post takes a rip-roarin’ tour
 through ~400 PRs that, all together, significantly improve .NET performance
-for .NET 6.</p>
-</blockquote>
+for .NET 6.</p></blockquote>
 <p>There are <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-7/">a</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-6/">ton</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-5/">of</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-4/">new</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-3/">things</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-2/">coming</a> <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-1/">up</a>,
 too, of course.</p>
 ]]></content:encoded>
@@ -1341,7 +1474,13 @@ too, of course.</p>
       <link>https://nicolaiarocci.com/how-to-read-windows-1252-encoded-files-with-.netcore-and-.net5-/</link>
       <pubDate>Fri, 27 Aug 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-read-windows-1252-encoded-files-with-.netcore-and-.net5-/</guid>
-      <description>Another day, another lesson learned: modern .NET does not support the Windows-1252 encoding out of the box. Today my colleague was happily porting a legacy NET4+ app to NET6. As usual, the port was super-easy; it would compile and run just fine, so he was surprised when the app crashed reading a few specific XML files. That&amp;rsquo;s when I was called in. A closer inspection revealed a pattern: all those crashing files were Windows 1252-encoded (the rest, a vast majority, were UTF-8.</description>
+      <description>&lt;p&gt;Another day, another lesson learned: modern .NET does not support the
+Windows-1252 encoding out of the box. Today my colleague was happily porting
+a legacy NET4+ app to NET6. As usual, the port was super-easy; it would compile
+and run just fine, so he was surprised when the app crashed reading a few
+specific XML files. That&amp;rsquo;s when I was called in. A closer inspection revealed
+a pattern: all those crashing files were Windows 1252-encoded (the rest, a vast
+majority, were UTF-8.)&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Another day, another lesson learned: modern .NET does not support the
 Windows-1252 encoding out of the box. Today my colleague was happily porting
 a legacy NET4+ app to NET6. As usual, the port was super-easy; it would compile
@@ -1381,8 +1520,15 @@ much as possible.</p>
       <link>https://nicolaiarocci.com/on-github-copilot/</link>
       <pubDate>Sat, 24 Jul 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-github-copilot/</guid>
-      <description>Like everyone else on the planet, I&amp;rsquo;ve been following GitHub Copilot since its launch. It is an impressive achievement and a remarkable milestone for the deep learning industry, that&amp;rsquo;s for sure. We are obviously at the early stages in deep learning applied to software development, and it is somewhat unsettling to ponder what the future might hold in this field.
-Like many others, however, I worry about code quality issues and the risk of license infringements1.</description>
+      <description>&lt;p&gt;Like everyone else on the planet, I&amp;rsquo;ve been following &lt;a href=&#34;https://copilot.github.com/&#34;&gt;GitHub Copilot&lt;/a&gt; since
+its launch. It is an impressive achievement and a remarkable milestone for the
+deep learning industry, that&amp;rsquo;s for sure. We are obviously at the early stages
+in deep learning applied to software development, and it is somewhat unsettling
+to ponder what the future might hold in this field.&lt;/p&gt;
+&lt;p&gt;Like many others, however, I worry about code quality issues and the risk of
+license infringements&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. I am also concerned that the advent of Copilot-like
+tools might fundamentally change the software developer experience, if not the
+software developer role as a whole, and for the worst.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Like everyone else on the planet, I&rsquo;ve been following <a href="https://copilot.github.com/">GitHub Copilot</a> since
 its launch. It is an impressive achievement and a remarkable milestone for the
 deep learning industry, that&rsquo;s for sure. We are obviously at the early stages
@@ -1405,8 +1551,7 @@ question your assumptions, identify hidden problems, and see the bigger
 picture. Copilot doesn’t do any of those things – quite the opposite, it
 blindly assumes that your assumptions are appropriate and focuses entirely on
 churning out code based on the immediate context of where your text cursor is
-right now.</p>
-</blockquote>
+right now.</p></blockquote>
 <p>He then mentions both <em>automation</em> and <em>anchoring</em> biases and explains how they
 might influence the developers using advanced AI-powered automation tools like
 Copilot.</p>
@@ -1433,8 +1578,7 @@ most valuable thing is to know how things work. Nothing in software
 development is more effective than the ability to see deeper. [&hellip;] I am
 utterly convinced that deep understanding is important. But increasingly,
 I feel like I&rsquo;m swimming upstream. It seems like most people in our industry
-care far more about &ldquo;how to do&rdquo; rather than &ldquo;how does it work&rdquo;.</p>
-</blockquote>
+care far more about &ldquo;how to do&rdquo; rather than &ldquo;how does it work&rdquo;.</p></blockquote>
 <p>Copilot is great and feels like magic<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. And precisely for that reason, at my
 company, we&rsquo;re not going to adopt it.</p>
 <div class="footnotes" role="doc-endnotes">
@@ -1460,8 +1604,19 @@ company, we&rsquo;re not going to adopt it.</p>
       <link>https://nicolaiarocci.com/will-.net-6-minimal-apis-turn-heads/</link>
       <pubDate>Wed, 14 Jul 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/will-.net-6-minimal-apis-turn-heads/</guid>
-      <description>I am pretty excited about the [Minimal APIs][3] feature that is coming with .NET 6. Three lines of code will be enough to build a fully functional REST microservice1:
-var app = WebApplication.Create(args); app.MapGet(&amp;quot;/&amp;quot;, () =&amp;gt; &amp;quot;Hello World!&amp;quot;); await app.RunAsync(); If you&amp;rsquo;re a seasoned ASP.NET MVC/WebApi developer, the snippet caught your attention because, pre-.NET 6, achieving the same result will have you messing with a lot of extra cruft2. I suspect, however, that this feature is not primarily targeted at existing .</description>
+      <description>&lt;p&gt;I am pretty excited about the [Minimal APIs][3] feature that is coming with
+.NET 6. Three lines of code will be enough to build a fully functional REST
+microservice&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;var app = WebApplication.Create(args);
+app.MapGet(&amp;quot;/&amp;quot;, () =&amp;gt; &amp;quot;Hello World!&amp;quot;);
+await app.RunAsync();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you&amp;rsquo;re a seasoned ASP.NET MVC/WebApi developer, the snippet caught your
+attention because, pre-.NET 6, achieving the same result will have you messing
+with a lot of extra cruft&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. I suspect, however, that this feature is not
+primarily targeted at existing .NET developers. Developers new and old looking
+at .NET for the first time, or those like me returning after a long break;
+these are, I think, the designated audience.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I am pretty excited about the [Minimal APIs][3] feature that is coming with
 .NET 6. Three lines of code will be enough to build a fully functional REST
 microservice<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>:</p>
@@ -1550,8 +1705,16 @@ no fear.</p>
       <link>https://nicolaiarocci.com/custom-default-values-for-not-existing-dictionary-items-and-a-lesson-learned/</link>
       <pubDate>Fri, 11 Jun 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/custom-default-values-for-not-existing-dictionary-items-and-a-lesson-learned/</guid>
-      <description>When dealing with dictionaries, a typical problem is when an operation attempts to retrieve an element using a key that does not exist in the dictionary. In .NET, a KeyNotFoundException is raised, and that&amp;rsquo;s the desired behaviour in most circumstances. Sometimes, however, you know that your program will frequently try to retrieve keys that do not exist. In such cases, it is more efficient to use the TryGetValue method:
-This method returns the value associated with the specified key, if the key is found; otherwise, the default value for the type of the value parameter is returned (source)</description>
+      <description>&lt;p&gt;When dealing with dictionaries, a typical problem is when an operation attempts
+to retrieve an element using a key that does not exist in the dictionary. In
+.NET, a &lt;code&gt;KeyNotFoundException&lt;/code&gt; is raised, and that&amp;rsquo;s the desired behaviour in
+most circumstances. Sometimes, however, you know that your program will
+frequently try to retrieve keys that do not exist. In such cases, it is more
+efficient to use the &lt;code&gt;TryGetValue&lt;/code&gt; method:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This method returns the value associated with the specified key, if the key
+is found; otherwise, the default value for the type of the value parameter is
+returned (&lt;a href=&#34;https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2.trygetvalue?view=net-5.0&#34;&gt;source&lt;/a&gt;)&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>When dealing with dictionaries, a typical problem is when an operation attempts
 to retrieve an element using a key that does not exist in the dictionary. In
 .NET, a <code>KeyNotFoundException</code> is raised, and that&rsquo;s the desired behaviour in
@@ -1561,8 +1724,7 @@ efficient to use the <code>TryGetValue</code> method:</p>
 <blockquote>
 <p>This method returns the value associated with the specified key, if the key
 is found; otherwise, the default value for the type of the value parameter is
-returned (<a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2.trygetvalue?view=net-5.0">source</a>)</p>
-</blockquote>
+returned (<a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2.trygetvalue?view=net-5.0">source</a>)</p></blockquote>
 <p>The devil hides in details. <code>TryGetValue</code> returns the default value for the
 type of the <code>value</code> parameter. So, if you use <code>TryGetValue</code> to look into
 a dictionary of strings, <code>null</code> is returned on a missing key. That is probably
@@ -1607,8 +1769,16 @@ the time to learn new things is good, but acquired ones need sharping too.</p>
       <link>https://nicolaiarocci.com/on-programming-and-writing/</link>
       <pubDate>Tue, 25 May 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-programming-and-writing/</guid>
-      <description>My brilliant friend Salvatore Sanfilippo (otherwise known as antirez of Redis fame) has an interesting write-up on his website. How similar is programming to prose writing? After getting his own feet wet with novel writing, he is convinced that the two activities share many common traits.
-One year ago I paused my programming life and started writing a novel, with the illusion that my new activity was deeply different than the previous one.</description>
+      <description>&lt;p&gt;My brilliant friend Salvatore Sanfilippo (otherwise known as antirez of Redis
+fame) has an interesting write-up on &lt;a href=&#34;http://antirez.com/news/135&#34;&gt;his website&lt;/a&gt;. How similar is
+programming to prose writing? After getting his own feet wet with novel
+writing, he is convinced that the two activities share many common traits.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;One year ago I paused my programming life and started writing a novel, with
+the illusion that my new activity was deeply different than the previous one.
+A river of words later, written but more often rewritten, I’m pretty sure of
+the contrary: programming big systems and writing novels have many common
+traits and similar processes.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>My brilliant friend Salvatore Sanfilippo (otherwise known as antirez of Redis
 fame) has an interesting write-up on <a href="http://antirez.com/news/135">his website</a>. How similar is
 programming to prose writing? After getting his own feet wet with novel
@@ -1618,8 +1788,7 @@ writing, he is convinced that the two activities share many common traits.</p>
 the illusion that my new activity was deeply different than the previous one.
 A river of words later, written but more often rewritten, I’m pretty sure of
 the contrary: programming big systems and writing novels have many common
-traits and similar processes.</p>
-</blockquote>
+traits and similar processes.</p></blockquote>
 <p>It is a worthy read. I especially appreciate his conclusions on what
 programming can actually learn from writing:</p>
 <blockquote>
@@ -1632,8 +1801,7 @@ hypothesis is that this initial design will greatly inform what will happen
 later: growing organically something that has a good initial structure will
 result in a better system, even after years of distance from the original
 creation, and even if the original core was just a tiny faction of the future
-mass the system would eventually assume.</p>
-</blockquote>
+mass the system would eventually assume.</p></blockquote>
 <p>I suspect that his line of reasoning might be influenced by some sort
 of confirmation bias<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.  We are inclined to notice similarities between our
 own activities, especially so when we perform them passionately. While common
@@ -1654,8 +1822,15 @@ unnoticed.</p>
       <link>https://nicolaiarocci.com/flask-2.0/</link>
       <pubDate>Fri, 14 May 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/flask-2.0/</guid>
-      <description>Flask 2.0 has just been released. Along with it come many other major satellite releases: Werkzeug 2.0, Jinja 3.0, Click 8.0, ItsDangerous 2.0, and MarkupSafe 2.0.
-Across all projects, Python 3.6+ is now required, and comprehensive type annotations are supported. At a glance, I&amp;rsquo;d say that the biggest news is async views in Flask 2. Work has also been done around Werkzeug Request and Response classes to allow for better sync and async in the future (it&amp;rsquo;s not a public API yet.</description>
+      <description>&lt;p&gt;Flask 2.0 has just been released. Along with it come many other major satellite
+releases: Werkzeug 2.0, Jinja 3.0, Click 8.0, ItsDangerous 2.0, and MarkupSafe
+2.0.&lt;/p&gt;
+&lt;p&gt;Across all projects, Python 3.6+ is now required, and comprehensive type
+annotations are supported. At a glance, I&amp;rsquo;d say that the biggest news is async
+views in Flask 2. Work has also been done around Werkzeug &lt;code&gt;Request&lt;/code&gt; and
+&lt;code&gt;Response&lt;/code&gt; classes to allow for better sync and async in the future (it&amp;rsquo;s not
+a public API yet.) Jinja, Click and ItsDangerous come with a lot of new
+niceties. Details are available on the &lt;a href=&#34;https://palletsprojects.com/blog/flask-2-0-released/&#34;&gt;Pallets website&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Flask 2.0 has just been released. Along with it come many other major satellite
 releases: Werkzeug 2.0, Jinja 3.0, Click 8.0, ItsDangerous 2.0, and MarkupSafe
 2.0.</p>
@@ -1675,17 +1850,22 @@ understatement—huge congrats to all of them.</p>
       <link>https://nicolaiarocci.com/dotnet-smtpclient-should-not-be-used/</link>
       <pubDate>Tue, 04 May 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/dotnet-smtpclient-should-not-be-used/</guid>
-      <description>I am very late to the party, but today I learned that the good old dotnet SmptClient is considered obsolete and should not be used. Quoting the documentation:
-We don&amp;rsquo;t recommend using the SmtpClient class for new development because SmtpClient doesn&amp;rsquo;t support many modern protocols. Use MailKit or other libraries instead. (source)
-Interestingly, Microsoft is recommending a third-party open-source library as an alternative. I hope we&amp;rsquo;ll see more of that in the future.</description>
+      <description>&lt;p&gt;I am very late to the party, but today I learned that the good old dotnet
+&lt;code&gt;SmptClient&lt;/code&gt; is considered obsolete and should not be used. Quoting the
+documentation:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We don&amp;rsquo;t recommend using the SmtpClient class for new development because
+SmtpClient doesn&amp;rsquo;t support many modern protocols. Use MailKit or other
+libraries instead. (&lt;a href=&#34;https://docs.microsoft.com/en-us/dotnet/api/system.net.mail.smtpclient?view=net-5.0&amp;amp;viewFallbackFrom=netcore-5.0#remarks&#34;&gt;source&lt;/a&gt;)&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Interestingly, Microsoft is recommending a third-party open-source library as an
+alternative. I hope we&amp;rsquo;ll see more of that in the future.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I am very late to the party, but today I learned that the good old dotnet
 <code>SmptClient</code> is considered obsolete and should not be used. Quoting the
 documentation:</p>
 <blockquote>
 <p>We don&rsquo;t recommend using the SmtpClient class for new development because
 SmtpClient doesn&rsquo;t support many modern protocols. Use MailKit or other
-libraries instead. (<a href="https://docs.microsoft.com/en-us/dotnet/api/system.net.mail.smtpclient?view=net-5.0&amp;viewFallbackFrom=netcore-5.0#remarks">source</a>)</p>
-</blockquote>
+libraries instead. (<a href="https://docs.microsoft.com/en-us/dotnet/api/system.net.mail.smtpclient?view=net-5.0&amp;viewFallbackFrom=netcore-5.0#remarks">source</a>)</p></blockquote>
 <p>Interestingly, Microsoft is recommending a third-party open-source library as an
 alternative. I hope we&rsquo;ll see more of that in the future.</p>
 <p>I just finished integrating <a href="https://github.com/jstedfast/MailKit">MailKit</a> in our backend. I must say that I&rsquo;m
@@ -1700,16 +1880,20 @@ Jeffrey Stedfast.</p>
       <link>https://nicolaiarocci.com/school-assignments-that-count-simulating-the-covid-outbreak-with-the-c-language/</link>
       <pubDate>Mon, 05 Apr 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/school-assignments-that-count-simulating-the-covid-outbreak-with-the-c-language/</guid>
-      <description>Giulia got an exciting assignment from her teacher:
-Write a C program that simulates (a simplified version of) COVID outbreak spreading across a population of 200 people. When a healthy person comes into contact with a sick person, the healthy person becomes ill, too. After some time, a sick person will recover. A recovered person cannot infect a healthy person nor become sick again after coming in contact with a sick person.</description>
+      <description>&lt;p&gt;Giulia got an exciting assignment from her teacher:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Write a C program that simulates (a simplified version of) COVID outbreak
+spreading across a population of 200 people. When a healthy person comes into
+contact with a sick person, the healthy person becomes ill, too. After some
+time, a sick person will recover. A recovered person cannot infect a healthy
+person nor become sick again after coming in contact with a sick person.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Giulia got an exciting assignment from her teacher:</p>
 <blockquote>
 <p>Write a C program that simulates (a simplified version of) COVID outbreak
 spreading across a population of 200 people. When a healthy person comes into
 contact with a sick person, the healthy person becomes ill, too. After some
 time, a sick person will recover. A recovered person cannot infect a healthy
-person nor become sick again after coming in contact with a sick person.</p>
-</blockquote>
+person nor become sick again after coming in contact with a sick person.</p></blockquote>
 <p>In more prosaic terms: the world comprises a 30*50 cell grid. Of these, 200
 cells are randomly selected to be alive. Throughout the simulation, each of
 these cells can be in one of the following three states: healthy, sick, or
@@ -1722,15 +1906,12 @@ help, nor do I ask her about her progress. If she reaches out to me, it&rsquo;s 
 for serious trouble, and when that happens, I enjoy working with her. Besides,
 while I do a lot C# these days, I don&rsquo;t do C since aeons ago, so it&rsquo;s great to
 get back to it every once in a while.</p>
-<p><img loading="lazy" src="/images/covid-sim-prima-esecuzione.png" alt="first cyckle"  />
-
+<p><img alt="first cyckle" loading="lazy" src="/images/covid-sim-prima-esecuzione.png">
 Above, the healthy population inhabiting its 1500-cells world, right before the outbreak.</p>
-<p><img loading="lazy" src="/images/covid-sim-esecuzione-intermedia.png" alt="intermediate"  />
-
+<p><img alt="intermediate" loading="lazy" src="/images/covid-sim-esecuzione-intermedia.png">
 Halfway through the simulation, 86 cells are healthy, 46 are sick, and 68 are
 healed.</p>
-<p><img loading="lazy" src="/images/covid-sim-ultima-esecuzione.png" alt="final cycle"  />
-
+<p><img alt="final cycle" loading="lazy" src="/images/covid-sim-ultima-esecuzione.png">
 End of the simulation. It doesn&rsquo;t matter how many times you run it; the number
 of people who were never infected is stunningly low by the end. Moreover,
 a simulation like this one, albeit simplified, reveals how dramatically an epidemic
@@ -1750,15 +1931,19 @@ Giulia&rsquo;s assignment being one of them.</p>
       <link>https://nicolaiarocci.com/get-better-at-programming-by-learning-how-things-work/</link>
       <pubDate>Sat, 27 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/get-better-at-programming-by-learning-how-things-work/</guid>
-      <description>When we talk about getting better at programming, we often talk about testing, writing reusable code, design patterns, and readability. All of those things are important. But in this blog post, I want to talk about a different way to get better at programming: learning how the systems you’re using work! This is the main way I approach getting better at programming.
-Once again, Julia Evans has great sensible advice up on her site.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;When we talk about getting better at programming, we often talk about
+testing, writing reusable code, design patterns, and readability. All of
+those things are important. But in this blog post, I want to talk about
+a different way to get better at programming: learning how the systems you’re
+using work! This is the main way I approach getting better at programming.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Once again, Julia Evans has great sensible advice up on &lt;a href=&#34;https://jvns.ca/blog/learn-how-things-work/&#34;&gt;her site&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
 <p>When we talk about getting better at programming, we often talk about
 testing, writing reusable code, design patterns, and readability. All of
 those things are important. But in this blog post, I want to talk about
 a different way to get better at programming: learning how the systems you’re
-using work! This is the main way I approach getting better at programming.</p>
-</blockquote>
+using work! This is the main way I approach getting better at programming.</p></blockquote>
 <p>Once again, Julia Evans has great sensible advice up on <a href="https://jvns.ca/blog/learn-how-things-work/">her site</a>.</p>
 <p>I appreciate her note on how today we work with so many complex systems that it
 is next to impossible to understand all of them.  The experienced developer
@@ -1767,8 +1952,7 @@ understands when it&rsquo;s worth digging deeper. In other words:</p>
 <blockquote>
 <p>Being a senior developer is less about knowing absolutely everything and more
 about quickly being able to recognize when you don’t know something and learn
-it.</p>
-</blockquote>
+it.</p></blockquote>
 ]]></content:encoded>
     </item>
     <item>
@@ -1776,7 +1960,12 @@ it.</p>
       <link>https://nicolaiarocci.com/write-libraries-not-services-not-so-fast/</link>
       <pubDate>Thu, 25 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/write-libraries-not-services-not-so-fast/</guid>
-      <description>Write libraries instead of services is an interesting article I read a while ago. I cannot get it off my head. In an attempt to clear up my mind, I decided to sit down and write about it. I have been writing libraries for a good part of my life. Most of my earlier dev-work resides on thousands of computers in the form of libraries. More recently, I have been writing and deploying remote services.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://catern.com/services.html&#34;&gt;Write libraries instead of services&lt;/a&gt; is an interesting article I read
+a while ago. I cannot get it off my head. In an attempt to clear up my mind,
+I decided to sit down and write about it. I have been writing libraries for
+a good part of my life. Most of my earlier dev-work resides on thousands of
+computers in the form of libraries. More recently, I have been writing and
+deploying remote services. Libraries versus Services is a topic I care about.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="http://catern.com/services.html">Write libraries instead of services</a> is an interesting article I read
 a while ago. I cannot get it off my head. In an attempt to clear up my mind,
 I decided to sit down and write about it. I have been writing libraries for
@@ -1787,8 +1976,7 @@ deploying remote services. Libraries versus Services is a topic I care about.</p
 <blockquote>
 <p>A service has constant administration costs which are paid by the service
 provider. A properly designed library instead moves these costs to the users
-of the library.</p>
-</blockquote>
+of the library.</p></blockquote>
 <p>This ignores the issue of support. You are going to have to support your users.
 Support comes at a cost. I would argue that, given the distributed nature of
 libraries, supporting them can become <em>very</em> costly. Your library is probably
@@ -1800,8 +1988,7 @@ surrounding environment.</p>
 can avoid slow-to-upgrade users making everyone&rsquo;s lives worse.&rdquo; But this
 assumes that slow-to-upgrade users can have negative effects on everyone
 else. If one user can&rsquo;t have a negative impact on other users, then you don&rsquo;t
-care if some users are slow to upgrade; they&rsquo;re only hurting themselves.</p>
-</blockquote>
+care if some users are slow to upgrade; they&rsquo;re only hurting themselves.</p></blockquote>
 <p>Again, support. Those slow-to-upgrade users are going to not just hurt but
 torture your support service with years-old obsolete issues.  If you think it&rsquo;s
 the user&rsquo;s responsibility to keep dependencies up to date, good luck with that.
@@ -1850,8 +2037,17 @@ comparable, as they tend to solve different problems.</p>
       <link>https://nicolaiarocci.com/semantic-versioning-will-not-save-you/</link>
       <pubDate>Thu, 04 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/semantic-versioning-will-not-save-you/</guid>
-      <description>The always brilliant Hynek recently posted Semantic Versioning Will Not Save You. Primarily targeted at consumers of SemVer-versioned packages, it is full of insightful advice.
-From my perspective as an open-source maintainer, I can tell you that versioning is hard. Judging when a new release is going to break backward compatibility is not as simple as it might seem on the surface, and Hynek does a great job explaining why. Sometimes it is also hard for me to tell if a change in a codebase classifies as a new feature, small improvement, or fix—subtle differences.</description>
+      <description>&lt;p&gt;The always brilliant Hynek recently posted &lt;a href=&#34;https://hynek.me/articles/semver-will-not-save-you/&#34;&gt;Semantic Versioning Will Not Save
+You&lt;/a&gt;. Primarily targeted at &lt;em&gt;consumers&lt;/em&gt; of SemVer-versioned packages, it is
+full of insightful advice.&lt;/p&gt;
+&lt;p&gt;From my perspective as an open-source maintainer, I can tell you that
+versioning is hard. Judging when a new release is going to break backward
+compatibility is not as simple as it might seem on the surface, and Hynek does
+a great job explaining why. Sometimes it is also hard for me to tell if
+a change in a codebase classifies as a new feature, small improvement, or
+fix—subtle differences. In the context of SemVer, it matters a lot because
+version numbers have a meaning. Consumers will likely decide whether to upgrade
+or not based on that meaning.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>The always brilliant Hynek recently posted <a href="https://hynek.me/articles/semver-will-not-save-you/">Semantic Versioning Will Not Save
 You</a>. Primarily targeted at <em>consumers</em> of SemVer-versioned packages, it is
 full of insightful advice.</p>
@@ -1880,8 +2076,7 @@ there are no guarantees.</p>
 a maintainer can be valuable – especially when things break. Because that’s
 all SemVer is: a TL;DR of the changelog. What it does mean though, is that
 you can’t rely on the semantic meaning of SemVer and <strong>you must treat every
-update as potentially breaking</strong>.</p>
-</blockquote>
+update as potentially breaking</strong>.</p></blockquote>
 <p>Make sure you read the Taking Responsibility section. It has sound advice on
 protecting your project from dependency hell.</p>
 ]]></content:encoded>
@@ -1891,8 +2086,13 @@ protecting your project from dependency hell.</p>
       <link>https://nicolaiarocci.com/reverse-engineering-an-obfuscated-codebase-and-fixing-it-in-the-process/</link>
       <pubDate>Tue, 02 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/reverse-engineering-an-obfuscated-codebase-and-fixing-it-in-the-process/</guid>
-      <description>Today&amp;rsquo;s mandatory reading is How I cut GTA Online loading times by 70%.
-As someone who&amp;rsquo;s been fighting the protection/obfuscation cat &amp;amp; mouse game for twenty+ years, let me tell you one thing. The way this guy reverse-engineered parts of the GTA5 codebase and then proceeded to single-handly triage and fix a long-standing (7+ years) performance issue is simply mindblowing. All he had to work with were heavily obfuscated dlls. This also shows how we, the protectors, are always playing a losing game.</description>
+      <description>&lt;p&gt;Today&amp;rsquo;s mandatory reading is &lt;a href=&#34;https://nee.lv/2021/02/28/How-I-cut-GTA-Online-loading-times-by-70/&#34;&gt;How I cut GTA Online loading times by 70%&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As someone who&amp;rsquo;s been fighting the protection/obfuscation cat &amp;amp; mouse game for
+twenty+ years, let me tell you one thing. The way this guy reverse-engineered
+parts of the GTA5 codebase and then proceeded to single-handly triage and fix
+a long-standing (7+ years) performance issue is simply mindblowing. All he had
+to work with were heavily obfuscated dlls.  This also shows how we, the
+protectors, are always playing a losing game.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today&rsquo;s mandatory reading is <a href="https://nee.lv/2021/02/28/How-I-cut-GTA-Online-loading-times-by-70/">How I cut GTA Online loading times by 70%</a>.</p>
 <p>As someone who&rsquo;s been fighting the protection/obfuscation cat &amp; mouse game for
 twenty+ years, let me tell you one thing. The way this guy reverse-engineered
@@ -1904,8 +2104,7 @@ protectors, are always playing a losing game.</p>
 <p>There seems to be some sort of an obfuscation/encryption at play here that
 has replaced most instructions with gibberish. Not to worry, we simply need
 to dump the game&rsquo;s memory while it&rsquo;s executing the part we want to look at.
-The instructions have to be de-obfuscated before running one way or another.</p>
-</blockquote>
+The instructions have to be de-obfuscated before running one way or another.</p></blockquote>
 <p>Make sure you read this <a href="https://nee.lv/2021/02/28/How-I-cut-GTA-Online-loading-times-by-70/">stuff</a>.</p>
 ]]></content:encoded>
     </item>
@@ -1914,8 +2113,16 @@ The instructions have to be de-obfuscated before running one way or another.</p>
       <link>https://nicolaiarocci.com/musings-on-pythons-pattern-matching/</link>
       <pubDate>Tue, 23 Feb 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/musings-on-pythons-pattern-matching/</guid>
-      <description>Pattern Matching is coming to Python, and I am not sure I like it. Don&amp;rsquo;t get me wrong, I love pattern matching. I use it all the time in F#. I am sure that once it lands in the language, it will be wildly adopted.
-So what&amp;rsquo;s the problem with Python&amp;rsquo;s pattern matching? The community, some core developers included, has expressed several concerns. The Python Steering Council has acknowledged them and is willing to look into improvements should they be proposed.</description>
+      <description>&lt;p&gt;Pattern Matching &lt;a href=&#34;https://lwn.net/Articles/845480/&#34;&gt;is coming&lt;/a&gt; to Python, and I am not sure I like it. Don&amp;rsquo;t get me
+wrong, I love pattern matching. I use it all the time in F#. I am sure that
+once it lands in the language, it will be wildly adopted.&lt;/p&gt;
+&lt;p&gt;So what&amp;rsquo;s the problem with Python&amp;rsquo;s pattern matching? The community, some core
+developers included, has expressed &lt;a href=&#34;https://discuss.python.org/t/gauging-sentiment-on-pattern-matching/5770&#34;&gt;several concerns&lt;/a&gt;. The Python Steering
+Council has acknowledged them and is willing to look into improvements should
+they be proposed. I am not going into the details here. You can look them up
+yourself. Let&amp;rsquo;s just say that there are a few gotchas, like the requirement to
+use dotted names as constants, to prevent them from being interpreted as
+capture variables instead (doh!) The lack of local scope bites hard here.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Pattern Matching <a href="https://lwn.net/Articles/845480/">is coming</a> to Python, and I am not sure I like it. Don&rsquo;t get me
 wrong, I love pattern matching. I use it all the time in F#. I am sure that
 once it lands in the language, it will be wildly adopted.</p>
@@ -1936,8 +2143,7 @@ someone <a href="https://news.ycombinator.com/item?id=26083779">noted</a>, core 
 statement as a DSL contrived to look like Python and to be used inside of
 Python, but with very different semantics. When you enter a PEP 634 match
 statement, the rules of the language change completely, and code that looks
-like existing Python code does something surprisingly very different (<a href="https://discuss.python.org/t/gauging-sentiment-on-pattern-matching/5770/21">source</a>)</p>
-</blockquote>
+like existing Python code does something surprisingly very different (<a href="https://discuss.python.org/t/gauging-sentiment-on-pattern-matching/5770/21">source</a>)</p></blockquote>
 <p>I especially agree with this sentiment, and I am still quoting Hastings:</p>
 <blockquote>
 <p><strong>I think the bar for adding new syntax to Python at this point in its life
@@ -1945,16 +2151,14 @@ should be set very high</strong>. The language is already conceptually pretty la
 and every new feature means new concepts one must learn if one is to read an
 arbitrary blob of someone else&rsquo;s Python code. The bigger the new syntax, the
 higher the bar should become, and so the bigger payoff the new syntax has to
-provide.</p>
-</blockquote>
+provide.</p></blockquote>
 <p>Unfortunately, I feel like this trend of getting away from pythonic-Python has
 been going on for a while. As my friend Alessandro Molina mentioned just today:</p>
 <blockquote>
 <p>I have been thinking about how Python has been moving away from its own Zen
 since the time of &ldquo;async&rdquo; keyword. Convenience rarely values added
 complexity. Never been a big fan of adding keywords that will be misused by
-the majority to deal with the vertical needs of a minority (<a href="https://twitter.com/__amol__/status/1364205630928617473">source</a>)</p>
-</blockquote>
+the majority to deal with the vertical needs of a minority (<a href="https://twitter.com/__amol__/status/1364205630928617473">source</a>)</p></blockquote>
 <p>He was referring to group exceptions, not pattern matching. Still, his tweet
 struck a nerve as I was busy writing down these thoughts.</p>
 <p>More generally, I am concerned with all the recent attempts to take features
@@ -1971,8 +2175,21 @@ oranges.</p>
       <link>https://nicolaiarocci.com/what-i-listen-to-while-programming/</link>
       <pubDate>Fri, 12 Feb 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/what-i-listen-to-while-programming/</guid>
-      <description>What music do you listen to while programming?1 For me, it&amp;rsquo;s usually jazz, classical, electronic, lots of it, or nothing. There are some specialized websites and podcasts I sometimes recur to, like [Music for Programming][1]. Several Spotify playlists I dig a lot, [Every Day I&amp;rsquo;m Nerdin&amp;rsquo;][2] being one of them. What can I say? I am musically omnivore.
-However, I recently discovered something different: the [Field Recordings podcast][3]. &amp;ldquo;A podcast where audio-makers stand silently in fields (or things that could be broadly interpreted as fields).</description>
+      <description>&lt;p&gt;What music do you listen to while programming?&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; For me, it&amp;rsquo;s usually jazz,
+classical, electronic, lots of it, or nothing. There are some specialized
+websites and podcasts I sometimes recur to, like [Music for Programming][1].
+Several Spotify playlists I dig a lot, [Every Day I&amp;rsquo;m Nerdin&amp;rsquo;][2] being one of
+them. What can I say? I am musically omnivore.&lt;/p&gt;
+&lt;p&gt;However, I recently discovered something different: the [Field Recordings
+podcast][3]. &amp;ldquo;A podcast where audio-makers stand silently in fields (or things
+that could be broadly interpreted as fields).&amp;rdquo; I am told it was launched last
+year, just about when the COVID lockdowns started, by acclaimed UK audio artist
+and producer Eleanor McDowall. It&amp;rsquo;s free, updated daily with submissions coming
+from all over the world, and holds many treasures. Most episodes are short, I&amp;rsquo;d
+say around the 5 minutes mark, with some notable exceptions like [The Sound of
+2020][4], &amp;ldquo;A slow weave of some of 2020&amp;rsquo;s Field Recordings in chronological
+order&amp;rdquo;. One of my favorites has got to be the &amp;ldquo;[Inside the log burner][5]&amp;rdquo;
+episode by Chris Attaway (Devoran, Cornwall, UK, January 2021):&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>What music do you listen to while programming?<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> For me, it&rsquo;s usually jazz,
 classical, electronic, lots of it, or nothing. There are some specialized
 websites and podcasts I sometimes recur to, like [Music for Programming][1].
@@ -1992,8 +2209,7 @@ episode by Chris Attaway (Devoran, Cornwall, UK, January 2021):</p>
 <p>&ldquo;I was prepping a fire in our log burner on a cold, blustery day here in
 Devoran, Cornwall and the wind whistling through the vents was really creepy!
 So I stuck my Zoom inside and recorded it for a bit. It was like it had its
-own little atmosphere and weather inside!&rdquo;</p>
-</blockquote>
+own little atmosphere and weather inside!&rdquo;</p></blockquote>
 <p>At my desk churning out code, I hit play, and that stove is instantly
 teleported here, right by my side. I can almost feel its warmth. Indeed,
 there&rsquo;s something cathartic about listening to these sound fragments from all
@@ -2021,8 +2237,15 @@ over the world.</p>
       <link>https://nicolaiarocci.com/when-homebrew-breaks-your-python-virtual-environment/</link>
       <pubDate>Mon, 08 Feb 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/when-homebrew-breaks-your-python-virtual-environment/</guid>
-      <description>Ever had your old, trusty Python virtual environment fail on you? I sure did. Sometimes, when I activate or switch between virtual environments, I get the following error:
-$ workon eve dyld: Library not loaded: @executable_path/../.Python I never really took the time to look into it. When this happens, because I am in a rush (and because I am a lazy old fart), I shrug it off, recreate the virtual environment on the spot, and get back to work.</description>
+      <description>&lt;p&gt;Ever had your old, trusty Python virtual environment fail on you? I sure did.
+Sometimes, when I activate or switch between virtual environments, I get the
+following error:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ workon eve
+dyld: Library not loaded: @executable_path/../.Python
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I never really took the time to look into it. When this happens, because I am
+in a rush (and because I am a lazy old fart), I shrug it off, recreate the
+virtual environment on the spot, and get back to work.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Ever had your old, trusty Python virtual environment fail on you? I sure did.
 Sometimes, when I activate or switch between virtual environments, I get the
 following error:</p>
@@ -2041,8 +2264,7 @@ interpreter to create a virtual environment. A month later, you activate that
 same environment, and when you try to use it, you see this inscrutable error:
 (&hellip;) What happened? The Python interpreter referenced by the virtual
 environment… no longer exists. But how can that be? You didn’t change
-anything! You didn’t change anything… but Homebrew did.</p>
-</blockquote>
+anything! You didn’t change anything… but Homebrew did.</p></blockquote>
 <p>Homebrew is the culprit. If you have been affected (and if you have done any
 length of serious Python work, you have), then go <a href="https://justinmayer.com/posts/homebrew-python-is-not-for-you/">read</a> Justin&rsquo;s piece. He
 explains the whys and then goes into the hows you solve the problem for good.</p>
@@ -2053,8 +2275,15 @@ explains the whys and then goes into the hows you solve the problem for good.</p
       <link>https://nicolaiarocci.com/strong-opinions-on-software-development/</link>
       <pubDate>Wed, 03 Feb 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/strong-opinions-on-software-development/</guid>
-      <description>After six years in the field, Chris has shared his strong opinions on software development practices, languages, and methodologies. I like his attitude. Willingness to continuously put one&amp;rsquo;s personal views under scrutiny, eventually adapting or even changing them as needed, is not a common trait. Not in our field. While I generally agree with most of his opinions, I feel the urge to comment on a few of them.
-Typed languages are better when you&amp;rsquo;re working on a team of people with various experience levels</description>
+      <description>&lt;p&gt;After six years in the field, Chris has &lt;a href=&#34;https://chriskiehl.com/article/thoughts-after-6-years&#34;&gt;shared&lt;/a&gt; his strong opinions on
+software development practices, languages, and methodologies. I like his
+attitude. Willingness to continuously put one&amp;rsquo;s personal views under scrutiny,
+eventually adapting or even changing them as needed, is not a common trait. Not
+in our field. While I generally agree with most of his opinions, I feel the
+urge to comment on a few of them.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Typed languages are better when you&amp;rsquo;re working on a team of people with
+various experience levels&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>After six years in the field, Chris has <a href="https://chriskiehl.com/article/thoughts-after-6-years">shared</a> his strong opinions on
 software development practices, languages, and methodologies. I like his
 attitude. Willingness to continuously put one&rsquo;s personal views under scrutiny,
@@ -2063,84 +2292,67 @@ in our field. While I generally agree with most of his opinions, I feel the
 urge to comment on a few of them.</p>
 <blockquote>
 <p>Typed languages are better when you&rsquo;re working on a team of people with
-various experience levels</p>
-</blockquote>
+various experience levels</p></blockquote>
 <p>Typed languages are better, period.</p>
 <blockquote>
 <p>Software architecture probably matters more than anything else. A shitty
 implementation of a good abstraction causes no net harm to the code base.
-A bad abstraction or missing layer causes everything to rot.</p>
-</blockquote>
+A bad abstraction or missing layer causes everything to rot.</p></blockquote>
 <p>Perfect. I am stealing this line.</p>
 <blockquote>
-<p>Clever code isn&rsquo;t usually good code. Clarity trumps all other concerns.</p>
-</blockquote>
+<p>Clever code isn&rsquo;t usually good code. Clarity trumps all other concerns.</p></blockquote>
 <p>Good <em>and</em> clever code is very possible, though. Agree on the second part.</p>
 <blockquote>
-<p>Bad code can be written in any paradigm</p>
-</blockquote>
+<p>Bad code can be written in any paradigm</p></blockquote>
 <p>Ça va sans dire</p>
 <blockquote>
 <p>So called &ldquo;best practices&rdquo; are contextual and not broadly applicable. Blindly
-following them makes you an idiot</p>
-</blockquote>
+following them makes you an idiot</p></blockquote>
 <p>Not following them also makes you an idiot.</p>
 <blockquote>
-<p>Designing scalable systems when you don&rsquo;t need to makes you a bad engineer.</p>
-</blockquote>
+<p>Designing scalable systems when you don&rsquo;t need to makes you a bad engineer.</p></blockquote>
 <p>But how do I know in advance whether I need to be scalable or not? Not always
 an easy call. Also, scalability doesn&rsquo;t necessarily imply complexity.</p>
 <blockquote>
-<p>In general, RDBMS &gt; NoSql</p>
-</blockquote>
+<p>In general, RDBMS &gt; NoSql</p></blockquote>
 <p>In general, use the right tool for the right job.</p>
 <blockquote>
-<p>Functional programming is another tool, not a panacea.</p>
-</blockquote>
+<p>Functional programming is another tool, not a panacea.</p></blockquote>
 <p>The jury is out on this one. In my admittedly limited experience, functional
 programming tends to win over OOP. It&rsquo;s not a coincidence that most OOP
 languages keep adding functional features (looking at you, C#.).</p>
 <blockquote>
-<p>Pencil and paper are the best programming tools and vastly under used</p>
-</blockquote>
+<p>Pencil and paper are the best programming tools and vastly under used</p></blockquote>
 <p>Old fart me concurs.</p>
 <blockquote>
-<p>Trading purity in exchange for practicality is usually a good call</p>
-</blockquote>
+<p>Trading purity in exchange for practicality is usually a good call</p></blockquote>
 <p>Don&rsquo;t get carried away with that.</p>
 <blockquote>
 <p>Talking directly to the customer always reveals more about the problem, in
-less time, and with higher accuracy</p>
-</blockquote>
+less time, and with higher accuracy</p></blockquote>
 <p><em>:s/always/sometimes</em></p>
 <blockquote>
 <p>The word &ldquo;scalable&rdquo; has a mystical and stupefying power over the mind of the
 software engineer. Its mere utterance can whip them into a depraved frenzy.
-Grim actions have been justified using this word</p>
-</blockquote>
+Grim actions have been justified using this word</p></blockquote>
 <p>I plea guilty on this one.</p>
 <blockquote>
 <p>Despite being called &ldquo;engineers,&rdquo; most decision are pure cargo-cult with no
-backing analysis, data, or numbers</p>
-</blockquote>
+backing analysis, data, or numbers</p></blockquote>
 <p>I am a software craftsman.</p>
 <blockquote>
 <p>People who stress over code style, linting rules, or other minutia are insane
-weirdos</p>
-</blockquote>
+weirdos</p></blockquote>
 <p>I am an insane weirdo.</p>
 <blockquote>
-<p>Code coverage has absolutely nothing to do with code quality</p>
-</blockquote>
+<p>Code coverage has absolutely nothing to do with code quality</p></blockquote>
 <p>It also has nothing to do with <em>tests</em> quality.</p>
 <blockquote>
-<p>Monoliths are pretty good in most circumstances</p>
-</blockquote>
+<p>Monoliths are pretty good in most circumstances</p></blockquote>
 <p><em>:s/most/some</em></p>
 <blockquote>
 <p>TDD purists are just the worst. Their frail little minds can&rsquo;t process the
-existence of different workflows.</p>
-</blockquote>
+existence of different workflows.</p></blockquote>
 <p>Ouch. This hurts.</p>
 <p>I am not sure I would have had so many well-formed opinions only six years in.
 Read them all on <a href="https://chriskiehl.com/article/thoughts-after-6-years">Chris&rsquo; website</a>.</p>
@@ -2151,8 +2363,13 @@ Read them all on <a href="https://chriskiehl.com/article/thoughts-after-6-years"
       <link>https://nicolaiarocci.com/the-unreasonable-effectiveness-of-simple-html/</link>
       <pubDate>Thu, 28 Jan 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-unreasonable-effectiveness-of-simple-html/</guid>
-      <description>We&amp;rsquo;ve seen other articles pointing the finger at unnecessarily bloated websites. Terence Eden&amp;rsquo;s On the unreasonable effectiveness of simple HTML deserves mention, I think, for two reasons. First, the delivery is incredibly effective. Second, it is effective because of the storytelling.
-By enveloping the message into an original short, touching story, he achieves two goals. First, he captures the reader&amp;rsquo;s attention; second, he makes the experience memorable. Please, go and read it; I&amp;rsquo;ll wait here.</description>
+      <description>&lt;p&gt;We&amp;rsquo;ve seen other articles pointing the finger at unnecessarily bloated
+websites. Terence Eden&amp;rsquo;s &lt;em&gt;&lt;a href=&#34;https://shkspr.mobi/blog/2021/01/the-unreasonable-effectiveness-of-simple-html/&#34;&gt;On the unreasonable effectiveness of simple
+HTML&lt;/a&gt;&lt;/em&gt; deserves mention, I think, for two reasons. First, the delivery is
+incredibly effective. Second, it is effective because of the storytelling.&lt;/p&gt;
+&lt;p&gt;By enveloping the message into an original short, touching story, he achieves
+two goals. First, he captures the reader&amp;rsquo;s attention; second, he makes the
+experience memorable. Please, go and read it; I&amp;rsquo;ll wait here.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>We&rsquo;ve seen other articles pointing the finger at unnecessarily bloated
 websites. Terence Eden&rsquo;s <em><a href="https://shkspr.mobi/blog/2021/01/the-unreasonable-effectiveness-of-simple-html/">On the unreasonable effectiveness of simple
 HTML</a></em> deserves mention, I think, for two reasons. First, the delivery is
@@ -2166,16 +2383,14 @@ experience memorable. Please, go and read it; I&rsquo;ll wait here.</p>
 by canvas-bags containing her worldly possessions. She doesn’t look like she
 is in a great emotional place right now. Clutched in her hands is a games
 console – a PlayStation Portable. She stares at it intensely; blocking out
-the world with Candy Crush. Or, at least, that’s what I thought.</p>
-</blockquote>
+the world with Candy Crush. Or, at least, that’s what I thought.</p></blockquote>
 <p>Then, in the second to last paragraph, when the story is long over, notice the
 expedient of echoing elements from the story (the woman&rsquo;s chair; the small
 obsolete device; both uncomfortable) to reinforce the message:</p>
 <blockquote>
 <p>Go sit in an uncomfortable chair, in an uncomfortable location, and stare at
 an uncomfortably small screen with an uncomfortably outdated web browser. How
-easy is it to use the websites you’ve created?</p>
-</blockquote>
+easy is it to use the websites you’ve created?</p></blockquote>
 <p>For added momentum, the last paragraph reconciliates the story and the
 message—worth a read. Style notes aside, of course, unless your website serves
 static content, some Javascript is probably going to be unavoidable. The point
@@ -2188,8 +2403,17 @@ a cannon to kill a mosquito.</p>
       <link>https://nicolaiarocci.com/on-the-short-tormented-life-of-phil-katz/</link>
       <pubDate>Fri, 22 Jan 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-the-short-tormented-life-of-phil-katz/</guid>
-      <description>Bless the Internet Archive and its Wayback Machine. With it, we can go back in time and read The short, tormented life of computer genius Phil Katz, an unusually detailed and accurate article published in the April 14, 2000 issue of the Milwaukee Journal Sentinel.
-When he was found dead April 14, Phil Katz was slumped against a nightstand in a south side hotel, cradling an empty bottle of peppermint schnapps.</description>
+      <description>&lt;p&gt;Bless the Internet Archive and its Wayback Machine. With it, we can go back in
+time and read &lt;a href=&#34;https://web.archive.org/web/20000829071343/http://www2.jsonline.com/news/state/may00/katz21052000a.asp&#34;&gt;The short, tormented life of computer genius Phil
+Katz&lt;/a&gt;, an unusually detailed and accurate article published in the April 14,
+2000 issue of the Milwaukee Journal Sentinel.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When he was found dead April 14, Phil Katz was slumped against a nightstand
+in a south side hotel, cradling an empty bottle of peppermint schnapps. The
+genius who built a multimillion-dollar software company known worldwide for
+its pioneering &amp;ldquo;zip&amp;rdquo; files had died of acute pancreatic bleeding caused by
+chronic alcoholism. He was alone, estranged long ago from his family and
+a virtual stranger to employees of his own company, PKWare Inc. He was 37.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Bless the Internet Archive and its Wayback Machine. With it, we can go back in
 time and read <a href="https://web.archive.org/web/20000829071343/http://www2.jsonline.com/news/state/may00/katz21052000a.asp">The short, tormented life of computer genius Phil
 Katz</a>, an unusually detailed and accurate article published in the April 14,
@@ -2200,8 +2424,7 @@ in a south side hotel, cradling an empty bottle of peppermint schnapps. The
 genius who built a multimillion-dollar software company known worldwide for
 its pioneering &ldquo;zip&rdquo; files had died of acute pancreatic bleeding caused by
 chronic alcoholism. He was alone, estranged long ago from his family and
-a virtual stranger to employees of his own company, PKWare Inc. He was 37.</p>
-</blockquote>
+a virtual stranger to employees of his own company, PKWare Inc. He was 37.</p></blockquote>
 <p>In the late 80s, when the culmination of Katz&rsquo;s work on compression algorithms,
 PKZIP, emerged as the clear winner of the so-called &ldquo;compressors war,&rdquo; <a href="http://nicolaiarocci.com/a-trip-down-memory-lane-fidonet-and-usenet/">I was
 running my own little BBS</a>, Lorien, which later evolved into Phoenix BBS,
@@ -2226,15 +2449,15 @@ me with one clear takeaway. Success does not grant happiness.</p>
       <link>https://nicolaiarocci.com/obligation-programmer/</link>
       <pubDate>Tue, 18 Nov 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/obligation-programmer/</guid>
-      <description>Robert C.Martin, of Clean Code fame, has something to say on the role of we programmers in today’s society.
-We rule the world.
-We don’t quite understand this yet. More importantly, the world doesn’t quite understand it yet. Our civilization doesn’t quite realize how dependent it has become on software — on us.
-He goes as far as suggesting a programmer’s code of conduct of sorts. Food for thought I guess, although I suspect we’re too much of a wild and scattered bunch for something like that to really stick.</description>
+      <description>&lt;p&gt;Robert C.Martin, of &lt;!-- raw HTML omitted --&gt;Clean Code&lt;!-- raw HTML omitted --&gt; fame, has something to say on the role of we programmers in today’s society.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We rule the world.&lt;/p&gt;
+&lt;p&gt;We don’t quite understand this yet. More importantly, the world doesn’t quite understand it yet. Our civilization doesn’t quite realize how dependent it has become on software — on us.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;He goes as far as suggesting a programmer’s code of conduct of sorts. Food for thought I guess, although I suspect we’re too much of a wild and scattered bunch for something like that to really stick.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Robert C.Martin, of <!-- raw HTML omitted -->Clean Code<!-- raw HTML omitted --> fame, has something to say on the role of we programmers in today’s society.</p>
 <blockquote>
 <p>We rule the world.</p>
-<p>We don’t quite understand this yet. More importantly, the world doesn’t quite understand it yet. Our civilization doesn’t quite realize how dependent it has become on software — on us.</p>
-</blockquote>
+<p>We don’t quite understand this yet. More importantly, the world doesn’t quite understand it yet. Our civilization doesn’t quite realize how dependent it has become on software — on us.</p></blockquote>
 <p>He goes as far as suggesting a programmer’s code of conduct of sorts. Food for thought I guess, although I suspect we’re too much of a wild and scattered bunch for something like that to really stick.</p>
 <p>Nonetheless, he raises a very good point about the predominance of software in our society and the risk that soon or later someone will wake up and attempt to impose some sort of regulation on the profession.</p>
 <p>Read it all at the <a href="http://blog.cleancoder.com/uncle-bob/2014/11/15/WeRuleTheWorld.html">Clean Coder Blog</a>.</p>
@@ -2245,13 +2468,13 @@ He goes as far as suggesting a programmer’s code of conduct of sorts. Food for
       <link>https://nicolaiarocci.com/dont-people-work-programmers/</link>
       <pubDate>Thu, 06 Nov 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/dont-people-work-programmers/</guid>
-      <description>This originally appeared on Quora and is well worth reading.
-Becoming a good programmer is incredibly difficult and it doesn’t happen quickly. We can’t expect to plant some trees and have 2000-year-old redwoods grow overnight, regardless of the demand for them.
-via Why Don&amp;rsquo;t More People Work As Programmers? – Forbes.</description>
+      <description>&lt;p&gt;This originally appeared on Quora and is well worth reading.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Becoming a good programmer is incredibly difficult and it doesn’t happen quickly. We can’t expect to plant some trees and have 2000-year-old redwoods grow overnight, regardless of the demand for them.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;via &lt;a href=&#34;http://www.forbes.com/sites/quora/2014/10/31/why-dont-more-people-work-as-programmers/&#34;&gt;Why Don&amp;rsquo;t More People Work As Programmers? – Forbes&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>This originally appeared on Quora and is well worth reading.</p>
 <blockquote>
-<p>Becoming a good programmer is incredibly difficult and it doesn’t happen quickly. We can’t expect to plant some trees and have 2000-year-old redwoods grow overnight, regardless of the demand for them.</p>
-</blockquote>
+<p>Becoming a good programmer is incredibly difficult and it doesn’t happen quickly. We can’t expect to plant some trees and have 2000-year-old redwoods grow overnight, regardless of the demand for them.</p></blockquote>
 <p>via <a href="http://www.forbes.com/sites/quora/2014/10/31/why-dont-more-people-work-as-programmers/">Why Don&rsquo;t More People Work As Programmers? – Forbes</a>.</p>
 ]]></content:encoded>
     </item>
@@ -2260,11 +2483,11 @@ via Why Don&amp;rsquo;t More People Work As Programmers? – Forbes.</descriptio
       <link>https://nicolaiarocci.com/how-to-be-a-sane-programmer/</link>
       <pubDate>Mon, 24 Mar 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/how-to-be-a-sane-programmer/</guid>
-      <description>But here’s the rub. Programming, like writing, painting, and music, is chiefly a creative endeavor not a technical one. Practice with any technology or language is useful as a means of learning tools and techniques, but it will not make you a substantially better programmer.
-via How to be a sane programmer</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;But here’s the rub. Programming, like writing, painting, and music, is chiefly a creative endeavor not a technical one. Practice with any technology or language is useful as a means of learning tools and techniques, but it will not make you a substantially better programmer.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;via &lt;a href=&#34;http://www.nicholascloud.com/2014/03/how-to-be-a-sane-programmer/&#34;&gt;How to be a sane programmer&lt;/a&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>But here’s the rub. Programming, like writing, painting, and music, is chiefly a creative endeavor not a technical one. Practice with any technology or language is useful as a means of learning tools and techniques, but it will not make you a substantially better programmer.</p>
-</blockquote>
+<p>But here’s the rub. Programming, like writing, painting, and music, is chiefly a creative endeavor not a technical one. Practice with any technology or language is useful as a means of learning tools and techniques, but it will not make you a substantially better programmer.</p></blockquote>
 <p>via <a href="http://www.nicholascloud.com/2014/03/how-to-be-a-sane-programmer/">How to be a sane programmer</a></p>
 ]]></content:encoded>
     </item>
@@ -2273,11 +2496,11 @@ via How to be a sane programmer</description>
       <link>https://nicolaiarocci.com/why-good-programming-projects-go-bad/</link>
       <pubDate>Sun, 29 Dec 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/why-good-programming-projects-go-bad/</guid>
-      <description>Fred Brooks wrote the software development classic The Mythical Man-Month almost 40 years ago. In this interview, Brooks explains why managers still make the same mistakes.
-via Why Good Programming Projects Go Bad.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Fred Brooks wrote the software development classic The Mythical Man-Month almost 40 years ago. In this interview, Brooks explains why managers still make the same mistakes.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;via &lt;!-- raw HTML omitted --&gt;Why Good Programming Projects Go Bad&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>Fred Brooks wrote the software development classic The Mythical Man-Month almost 40 years ago. In this interview, Brooks explains why managers still make the same mistakes.</p>
-</blockquote>
+<p>Fred Brooks wrote the software development classic The Mythical Man-Month almost 40 years ago. In this interview, Brooks explains why managers still make the same mistakes.</p></blockquote>
 <p>via <!-- raw HTML omitted -->Why Good Programming Projects Go Bad<!-- raw HTML omitted -->.</p>
 ]]></content:encoded>
     </item>
@@ -2286,7 +2509,7 @@ via Why Good Programming Projects Go Bad.</description>
       <link>https://nicolaiarocci.com/the-future-of-programming/</link>
       <pubDate>Wed, 31 Jul 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/the-future-of-programming/</guid>
-      <description>Bret Victor on Vimeo.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://vimeo.com/worrydream&#34;&gt;Bret Victor&lt;/a&gt; on &lt;a href=&#34;https://vimeo.com&#34;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="http://vimeo.com/worrydream">Bret Victor</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 ]]></content:encoded>
     </item>

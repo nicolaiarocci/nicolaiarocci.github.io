@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>tutorial on Nicola Iarocci</title>
+    <title>Tutorial on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/tutorial/</link>
-    <description>Recent content in tutorial on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Tutorial on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 11 Apr 2012 00:00:00 +0000</lastBuildDate>
@@ -14,14 +14,14 @@
       <link>https://nicolaiarocci.com/comprendere-il-mvvm-guida-per-sviluppatori-javascript/</link>
       <pubDate>Wed, 11 Apr 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/comprendere-il-mvvm-guida-per-sviluppatori-javascript/</guid>
-      <description>Addy Osmani ne ha combinata un’altra delle sue:
-MVVM (Model View ViewModel) è un pattern architetturale basato su MVC e MVP, che tenta di separare chiaramente lo sviluppo della interfaccia utente (UI) da quelle che sono business logic e comportamento dell’applicazione. A questo fine, molte implementazioni del pattern ricorrono a un uso dichiarativo dei data bindings, per consentire la separazione del lavoro sulle Viste (View) dagli altri strati (layer).
-MVVM consente creazione di UI e sviluppo del codice in parallelo, all’interno della stessa base di codice.</description>
+      <description>&lt;p&gt;Addy Osmani ne ha combinata un’altra delle sue:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;MVVM (Model View ViewModel) è un pattern architetturale basato su MVC e MVP, che tenta di separare chiaramente lo sviluppo della interfaccia utente (UI) da quelle che sono business logic e comportamento dell’applicazione. A questo fine, molte implementazioni del pattern ricorrono a un uso dichiarativo dei data bindings, per consentire la separazione del lavoro sulle Viste (View) dagli altri strati (layer).&lt;/p&gt;
+&lt;p&gt;MVVM consente creazione di UI  e sviluppo del codice in parallelo, all’interno della stessa base di codice. Gli esperti UI scrivono bindings per il ViewModel all’interno del loro markup (HTML), mentre il Model e il ViewModel sono gestiti dagli sviluppatori che lavorano alla logica dell’applicazione.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Addy Osmani ne ha combinata un’altra delle sue:</p>
 <blockquote>
 <p>MVVM (Model View ViewModel) è un pattern architetturale basato su MVC e MVP, che tenta di separare chiaramente lo sviluppo della interfaccia utente (UI) da quelle che sono business logic e comportamento dell’applicazione. A questo fine, molte implementazioni del pattern ricorrono a un uso dichiarativo dei data bindings, per consentire la separazione del lavoro sulle Viste (View) dagli altri strati (layer).</p>
-<p>MVVM consente creazione di UI  e sviluppo del codice in parallelo, all’interno della stessa base di codice. Gli esperti UI scrivono bindings per il ViewModel all’interno del loro markup (HTML), mentre il Model e il ViewModel sono gestiti dagli sviluppatori che lavorano alla logica dell’applicazione.</p>
-</blockquote>
+<p>MVVM consente creazione di UI  e sviluppo del codice in parallelo, all’interno della stessa base di codice. Gli esperti UI scrivono bindings per il ViewModel all’interno del loro markup (HTML), mentre il Model e il ViewModel sono gestiti dagli sviluppatori che lavorano alla logica dell’applicazione.</p></blockquote>
 <p><!-- raw HTML omitted -->Comprendere il MVVM – Guida per Sviluppatori JavaScript<!-- raw HTML omitted --></p>
 ]]></content:encoded>
     </item>
@@ -30,16 +30,16 @@ MVVM consente creazione di UI e sviluppo del codice in parallelo, all’interno 
       <link>https://nicolaiarocci.com/imparare-html-e-css-online-con-codecademy/</link>
       <pubDate>Tue, 03 Apr 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/imparare-html-e-css-online-con-codecademy/</guid>
-      <description>Codecademy propone da ieri un corso gratuito e interattivo su HTML e CSS. Il corso, per principianti, si affianca a quello ormai collaudato (e recentemente ampliato) su JavaScript.
-Il meccanismo è quello della gamification, con tanto di punteggi e badge da conquistare man mano che si raggiungono obiettivi prefissati . Presto dovrebbe uscire anche un corso su Python.
-Compi i tuoi primi passi con HTML e CSS. Non è necessaria alcuna esperienza precedente — cominceremo dalle basi e in poco tempo ti ritroverai a lavorare alla tua homepage personale!</description>
+      <description>&lt;p&gt;Codecademy propone da ieri un corso gratuito e interattivo su &lt;!-- raw HTML omitted --&gt;HTML e CSS&lt;!-- raw HTML omitted --&gt;. Il corso, per principianti, si affianca a quello ormai collaudato (e recentemente ampliato) su JavaScript.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Il meccanismo è quello della &lt;em&gt;gamification&lt;/em&gt;, con tanto di punteggi e badge da conquistare man mano che si raggiungono obiettivi prefissati . Presto dovrebbe uscire anche un corso su Python.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Codecademy propone da ieri un corso gratuito e interattivo su <!-- raw HTML omitted -->HTML e CSS<!-- raw HTML omitted -->. Il corso, per principianti, si affianca a quello ormai collaudato (e recentemente ampliato) su JavaScript.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <p>Il meccanismo è quello della <em>gamification</em>, con tanto di punteggi e badge da conquistare man mano che si raggiungono obiettivi prefissati . Presto dovrebbe uscire anche un corso su Python.</p>
 <blockquote>
-<p>Compi i tuoi primi passi con HTML e CSS. Non è necessaria alcuna esperienza precedente — cominceremo dalle basi e in poco tempo ti ritroverai a lavorare alla tua homepage personale!</p>
-</blockquote>
+<p>Compi i tuoi primi passi con HTML e CSS. Non è necessaria alcuna esperienza precedente — cominceremo dalle basi e in poco tempo ti ritroverai a lavorare alla tua homepage personale!</p></blockquote>
 ]]></content:encoded>
     </item>
     <item>
@@ -47,12 +47,12 @@ Compi i tuoi primi passi con HTML e CSS. Non è necessaria alcuna esperienza pre
       <link>https://nicolaiarocci.com/imparare-a-programmare-online-con-codecademy/</link>
       <pubDate>Fri, 26 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/imparare-a-programmare-online-con-codecademy/</guid>
-      <description>Codecademy è una fantastica iniziativa che insegna a programmare online. Lanciata poco più di una settimana fa, ha già raccolto duecentomila utenti registrati. Brillante l’idea di integrare gli strumenti tipici del social network (badge, punteggi, seguire i progressi degli amici) con un interprete interattivo e un preciso feedback in tempo reale.
-Codecademy è il modo più semplice per imparare a programmare. E’ interattivo, divertente, e lo puoi fare con gli amici</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Codecademy&lt;!-- raw HTML omitted --&gt; è una fantastica iniziativa che insegna a programmare online. Lanciata poco più di una settimana fa, ha già raccolto duecentomila utenti registrati. Brillante l’idea di integrare gli strumenti tipici del social network (badge, punteggi, seguire i progressi degli amici) con un interprete interattivo e un preciso feedback in tempo reale.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Codecademy è il modo più semplice per imparare a programmare. E’ interattivo, divertente, e lo puoi fare con gli amici&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Codecademy<!-- raw HTML omitted --> è una fantastica iniziativa che insegna a programmare online. Lanciata poco più di una settimana fa, ha già raccolto duecentomila utenti registrati. Brillante l’idea di integrare gli strumenti tipici del social network (badge, punteggi, seguire i progressi degli amici) con un interprete interattivo e un preciso feedback in tempo reale.</p>
 <blockquote>
-<p>Codecademy è il modo più semplice per imparare a programmare. E’ interattivo, divertente, e lo puoi fare con gli amici</p>
-</blockquote>
+<p>Codecademy è il modo più semplice per imparare a programmare. E’ interattivo, divertente, e lo puoi fare con gli amici</p></blockquote>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 ]]></content:encoded>
@@ -62,12 +62,12 @@ Codecademy è il modo più semplice per imparare a programmare. E’ interattivo
       <link>https://nicolaiarocci.com/html-e-css-di-base-per-i-web-designer-del-futuro/</link>
       <pubDate>Tue, 23 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/html-e-css-di-base-per-i-web-designer-del-futuro/</guid>
-      <description>Don’t Fear the Internet è una ottima risorsa per Web Designer principianti. Attenzione ai dettagli, grande cura e ottimi contenuti sono il marchio distintivo di questo progetto di Jessica Hische e Russ Maschmeyer:
-Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? Hai un sito che mai messo insieme con Dreamweaver grazie a quell’UNICA lezione scolastica di web design? Il sito non ce l’hai nemmeno, perché sono due anni che aspetti che tuo cugino lo faccia per te?</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Don’t Fear the Internet&lt;!-- raw HTML omitted --&gt; è una ottima risorsa per Web Designer principianti. Attenzione ai dettagli, grande cura e ottimi contenuti sono il marchio distintivo di questo progetto di &lt;!-- raw HTML omitted --&gt;Jessica Hische&lt;!-- raw HTML omitted --&gt; e &lt;!-- raw HTML omitted --&gt;Russ Maschmeyer&lt;!-- raw HTML omitted --&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? Hai un sito che mai messo insieme con Dreamweaver grazie a quell’UNICA lezione scolastica di web design? Il sito non ce l’hai nemmeno, perché sono due anni che aspetti che tuo cugino lo faccia per te? Bè, noi siamo qui per aiutarti.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Don’t Fear the Internet<!-- raw HTML omitted --> è una ottima risorsa per Web Designer principianti. Attenzione ai dettagli, grande cura e ottimi contenuti sono il marchio distintivo di questo progetto di <!-- raw HTML omitted -->Jessica Hische<!-- raw HTML omitted --> e <!-- raw HTML omitted -->Russ Maschmeyer<!-- raw HTML omitted -->:</p>
 <blockquote>
-<p>Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? Hai un sito che mai messo insieme con Dreamweaver grazie a quell’UNICA lezione scolastica di web design? Il sito non ce l’hai nemmeno, perché sono due anni che aspetti che tuo cugino lo faccia per te? Bè, noi siamo qui per aiutarti.</p>
-</blockquote>
+<p>Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? Hai un sito che mai messo insieme con Dreamweaver grazie a quell’UNICA lezione scolastica di web design? Il sito non ce l’hai nemmeno, perché sono due anni che aspetti che tuo cugino lo faccia per te? Bè, noi siamo qui per aiutarti.</p></blockquote>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
@@ -178,7 +178,16 @@ Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? H
       <link>https://nicolaiarocci.com/impara-python-in-10-minuti/</link>
       <pubDate>Thu, 10 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/impara-python-in-10-minuti/</guid>
-      <description>E così vorresti imparare il linguaggio di programmazione Python. Probabilmente sei alla ricerca di un tutorial completo e allo stesso tempo conciso. Questa guida è un tentativo di insegnarti Python in 10 minuti. In effetti più che con una guida vera e propria hai a che fare con degli appunti che userai per partire col piede giusto. Naturalmente se davvero vuoi imparare bene dovrai anche esercitarti molto. Do per scontato che tu sappia già programmare, questo mi permetterà di concentrarmi sulle caratteristiche intrinseche del linguaggio.</description>
+      <description>&lt;p&gt;E così vorresti imparare il linguaggio di programmazione Python. Probabilmente
+sei alla ricerca di un tutorial completo e allo stesso tempo conciso. Questa
+guida è un tentativo di insegnarti Python in 10 minuti. In effetti più che con
+una guida vera e propria hai a che fare con degli appunti che userai per
+partire col piede giusto. Naturalmente se davvero vuoi imparare bene dovrai
+anche esercitarti molto. Do per scontato che tu sappia già programmare, questo
+mi permetterà di concentrarmi sulle caratteristiche intrinseche del linguaggio.
+Troverai le parole chiave &lt;em&gt;evidenziate&lt;/em&gt; così potrai individuarle facilmente.
+&lt;em&gt;Fai attenzione&lt;/em&gt; perché per brevità alcune cose verranno introdotte
+e commentate direttamente nel codice di esempio.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>E così vorresti imparare il linguaggio di programmazione Python. Probabilmente
 sei alla ricerca di un tutorial completo e allo stesso tempo conciso. Questa
 guida è un tentativo di insegnarti Python in 10 minuti. In effetti più che con
@@ -593,8 +602,16 @@ che vorresti approfondire.</p>
       <link>https://nicolaiarocci.com/introduzione-alle-regular-expression-terza-parte/</link>
       <pubDate>Thu, 03 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/introduzione-alle-regular-expression-terza-parte/</guid>
-      <description>Benvenuto alla terza e ultima parte della nostra Introduzione alle Regular Expression. Concluso il capitolo sarai in grado di affrontare la maggior parte dei problemi di ricerca nel testo. Se ancora non l&amp;rsquo;hai fatto ti consiglio di leggere la Prima Parte e la Seconda Parte. Ricorda che puoi usare la pagina di prova per testare le query della guida.
-Avidità Il problema della avidità degli operatori regex diventa evidente quando si comincia a lavorare su ricerche avanzate.</description>
+      <description>&lt;p&gt;Benvenuto alla terza e ultima parte della nostra &lt;em&gt;Introduzione alle Regular
+Expression&lt;/em&gt;. Concluso il capitolo sarai  in grado di affrontare la maggior
+parte dei problemi di ricerca nel testo. Se ancora non l&amp;rsquo;hai fatto ti
+consiglio di leggere la &lt;a href=&#34;http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/&#34;&gt;Prima Parte&lt;/a&gt; e la &lt;a href=&#34;http://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/&#34;&gt;Seconda Parte&lt;/a&gt;. Ricorda che
+puoi usare la &lt;!-- raw HTML omitted --&gt;pagina di
+prova&lt;!-- raw HTML omitted --&gt; per testare le query della guida.&lt;/p&gt;
+&lt;h2 id=&#34;avidità&#34;&gt;Avidità&lt;/h2&gt;
+&lt;p&gt;Il problema della avidità degli operatori regex diventa evidente quando si
+comincia a lavorare su ricerche avanzate. Un caso tipico è il parsing di file
+XML o HTML.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Benvenuto alla terza e ultima parte della nostra <em>Introduzione alle Regular
 Expression</em>. Concluso il capitolo sarai  in grado di affrontare la maggior
 parte dei problemi di ricerca nel testo. Se ancora non l&rsquo;hai fatto ti
@@ -730,9 +747,14 @@ Ringrazio l&rsquo;autore per il permesso accordatomi.</p>
       <link>https://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/</link>
       <pubDate>Sat, 26 Feb 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/introduzione-alle-regular-expression-seconda-parte/</guid>
-      <description>Questa è la seconda parte della serie Introduzione alle Regular Expression. Se non hai ancora letto la prima parte ti consiglio di farlo. Puoi usare la pagina demo per provare le query della guida.
-Negazione [^] Abbiamo già conosciuto la [cornice]. Una caratteristica importante di cui non abbiamo ancora parlato è la negazione. Supponiamo di voler cercare qualunque carattere eccetto la lettera a.
-[^a] # trova b,c,d,e,f,\n .... qualunque carattere eccetto &#39;a&#39; La negazione si applica a tutti i caratteri della cornice in cui compare l&amp;rsquo;operatore ˆ.</description>
+      <description>&lt;p&gt;Questa è la seconda parte della serie &lt;em&gt;Introduzione alle Regular Expression&lt;/em&gt;.
+Se non hai ancora letto la &lt;a href=&#34;http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/&#34;&gt;prima parte&lt;/a&gt; ti consiglio di farlo. Puoi usare
+la &lt;!-- raw HTML omitted --&gt;pagina demo&lt;!-- raw HTML omitted --&gt; per provare
+le query della guida.&lt;/p&gt;
+&lt;h2 id=&#34;negazione-&#34;&gt;Negazione [^]&lt;/h2&gt;
+&lt;p&gt;Abbiamo già conosciuto la &lt;code&gt;[cornice]&lt;/code&gt;. Una caratteristica importante di cui non
+abbiamo ancora parlato è la negazione. Supponiamo di voler cercare qualunque
+carattere &lt;em&gt;eccetto la lettera a&lt;/em&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Questa è la seconda parte della serie <em>Introduzione alle Regular Expression</em>.
 Se non hai ancora letto la <a href="http://nicolaiarocci.com/introduzione-alle-regular-expression-prima-parte/">prima parte</a> ti consiglio di farlo. Puoi usare
 la <!-- raw HTML omitted -->pagina demo<!-- raw HTML omitted --> per provare

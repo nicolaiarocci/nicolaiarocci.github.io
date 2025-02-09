@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>html on Nicola Iarocci</title>
+    <title>Html on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/html/</link>
-    <description>Recent content in html on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Html on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 28 Jan 2021 07:05:25 +0100</lastBuildDate>
@@ -14,8 +14,13 @@
       <link>https://nicolaiarocci.com/the-unreasonable-effectiveness-of-simple-html/</link>
       <pubDate>Thu, 28 Jan 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-unreasonable-effectiveness-of-simple-html/</guid>
-      <description>We&amp;rsquo;ve seen other articles pointing the finger at unnecessarily bloated websites. Terence Eden&amp;rsquo;s On the unreasonable effectiveness of simple HTML deserves mention, I think, for two reasons. First, the delivery is incredibly effective. Second, it is effective because of the storytelling.
-By enveloping the message into an original short, touching story, he achieves two goals. First, he captures the reader&amp;rsquo;s attention; second, he makes the experience memorable. Please, go and read it; I&amp;rsquo;ll wait here.</description>
+      <description>&lt;p&gt;We&amp;rsquo;ve seen other articles pointing the finger at unnecessarily bloated
+websites. Terence Eden&amp;rsquo;s &lt;em&gt;&lt;a href=&#34;https://shkspr.mobi/blog/2021/01/the-unreasonable-effectiveness-of-simple-html/&#34;&gt;On the unreasonable effectiveness of simple
+HTML&lt;/a&gt;&lt;/em&gt; deserves mention, I think, for two reasons. First, the delivery is
+incredibly effective. Second, it is effective because of the storytelling.&lt;/p&gt;
+&lt;p&gt;By enveloping the message into an original short, touching story, he achieves
+two goals. First, he captures the reader&amp;rsquo;s attention; second, he makes the
+experience memorable. Please, go and read it; I&amp;rsquo;ll wait here.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>We&rsquo;ve seen other articles pointing the finger at unnecessarily bloated
 websites. Terence Eden&rsquo;s <em><a href="https://shkspr.mobi/blog/2021/01/the-unreasonable-effectiveness-of-simple-html/">On the unreasonable effectiveness of simple
 HTML</a></em> deserves mention, I think, for two reasons. First, the delivery is
@@ -29,16 +34,14 @@ experience memorable. Please, go and read it; I&rsquo;ll wait here.</p>
 by canvas-bags containing her worldly possessions. She doesn’t look like she
 is in a great emotional place right now. Clutched in her hands is a games
 console – a PlayStation Portable. She stares at it intensely; blocking out
-the world with Candy Crush. Or, at least, that’s what I thought.</p>
-</blockquote>
+the world with Candy Crush. Or, at least, that’s what I thought.</p></blockquote>
 <p>Then, in the second to last paragraph, when the story is long over, notice the
 expedient of echoing elements from the story (the woman&rsquo;s chair; the small
 obsolete device; both uncomfortable) to reinforce the message:</p>
 <blockquote>
 <p>Go sit in an uncomfortable chair, in an uncomfortable location, and stare at
 an uncomfortably small screen with an uncomfortably outdated web browser. How
-easy is it to use the websites you’ve created?</p>
-</blockquote>
+easy is it to use the websites you’ve created?</p></blockquote>
 <p>For added momentum, the last paragraph reconciliates the story and the
 message—worth a read. Style notes aside, of course, unless your website serves
 static content, some Javascript is probably going to be unavoidable. The point
@@ -51,12 +54,12 @@ a cannon to kill a mosquito.</p>
       <link>https://nicolaiarocci.com/web-standards-killed-the-html-star/</link>
       <pubDate>Sat, 04 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/web-standards-killed-the-html-star/</guid>
-      <description>What we may not have realized is that once the browsers don’t suck, being an HTML and CSS “guru” isn’t really a very marketable skillset. 80% of what made us useful was the way we knew all the quirks and intracries of the browsers. Guess what? Those are all gone. And if they’re not, they will be in the very near future. Then what?
-A lot of folks who came up from that time and headspace have diversified their skillsets since.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;What we may not have realized is that once the browsers don’t suck, being an HTML and CSS “guru” isn’t really a very marketable skillset. 80% of what made us useful was the way we knew all the quirks and intracries of the browsers. Guess what? Those are all gone. And if they’re not, they will be in the very near future. Then what?&lt;/p&gt;
+&lt;p&gt;A lot of folks who came up from that time and headspace have diversified their skillsets since. Many are now programmers, or project managers, or creative directors, or business owners. But a lot of others are still making a go of it as an HTML and CSS guru, often in a comfortable job they’ve had for years. What happens when that gig comes to an end?&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
 <p>What we may not have realized is that once the browsers don’t suck, being an HTML and CSS “guru” isn’t really a very marketable skillset. 80% of what made us useful was the way we knew all the quirks and intracries of the browsers. Guess what? Those are all gone. And if they’re not, they will be in the very near future. Then what?</p>
-<p>A lot of folks who came up from that time and headspace have diversified their skillsets since. Many are now programmers, or project managers, or creative directors, or business owners. But a lot of others are still making a go of it as an HTML and CSS guru, often in a comfortable job they’ve had for years. What happens when that gig comes to an end?</p>
-</blockquote>
+<p>A lot of folks who came up from that time and headspace have diversified their skillsets since. Many are now programmers, or project managers, or creative directors, or business owners. But a lot of others are still making a go of it as an HTML and CSS guru, often in a comfortable job they’ve had for years. What happens when that gig comes to an end?</p></blockquote>
 <p>via <a href="http://jeffcroft.com/blog/2014/jan/03/web-standards-killed-the-html-star/?utm_source=buffer&amp;utm_campaign=Buffer&amp;utm_content=buffer92680&amp;utm_medium=twitter">Web Standards Killed the HTML Star – JeffCroft.com</a>.</p>
 ]]></content:encoded>
     </item>
@@ -65,16 +68,16 @@ A lot of folks who came up from that time and headspace have diversified their s
       <link>https://nicolaiarocci.com/imparare-html-e-css-online-con-codecademy/</link>
       <pubDate>Tue, 03 Apr 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/imparare-html-e-css-online-con-codecademy/</guid>
-      <description>Codecademy propone da ieri un corso gratuito e interattivo su HTML e CSS. Il corso, per principianti, si affianca a quello ormai collaudato (e recentemente ampliato) su JavaScript.
-Il meccanismo è quello della gamification, con tanto di punteggi e badge da conquistare man mano che si raggiungono obiettivi prefissati . Presto dovrebbe uscire anche un corso su Python.
-Compi i tuoi primi passi con HTML e CSS. Non è necessaria alcuna esperienza precedente — cominceremo dalle basi e in poco tempo ti ritroverai a lavorare alla tua homepage personale!</description>
+      <description>&lt;p&gt;Codecademy propone da ieri un corso gratuito e interattivo su &lt;!-- raw HTML omitted --&gt;HTML e CSS&lt;!-- raw HTML omitted --&gt;. Il corso, per principianti, si affianca a quello ormai collaudato (e recentemente ampliato) su JavaScript.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Il meccanismo è quello della &lt;em&gt;gamification&lt;/em&gt;, con tanto di punteggi e badge da conquistare man mano che si raggiungono obiettivi prefissati . Presto dovrebbe uscire anche un corso su Python.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Codecademy propone da ieri un corso gratuito e interattivo su <!-- raw HTML omitted -->HTML e CSS<!-- raw HTML omitted -->. Il corso, per principianti, si affianca a quello ormai collaudato (e recentemente ampliato) su JavaScript.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <p>Il meccanismo è quello della <em>gamification</em>, con tanto di punteggi e badge da conquistare man mano che si raggiungono obiettivi prefissati . Presto dovrebbe uscire anche un corso su Python.</p>
 <blockquote>
-<p>Compi i tuoi primi passi con HTML e CSS. Non è necessaria alcuna esperienza precedente — cominceremo dalle basi e in poco tempo ti ritroverai a lavorare alla tua homepage personale!</p>
-</blockquote>
+<p>Compi i tuoi primi passi con HTML e CSS. Non è necessaria alcuna esperienza precedente — cominceremo dalle basi e in poco tempo ti ritroverai a lavorare alla tua homepage personale!</p></blockquote>
 ]]></content:encoded>
     </item>
     <item>
@@ -82,12 +85,12 @@ Compi i tuoi primi passi con HTML e CSS. Non è necessaria alcuna esperienza pre
       <link>https://nicolaiarocci.com/html-e-css-di-base-per-i-web-designer-del-futuro/</link>
       <pubDate>Tue, 23 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/html-e-css-di-base-per-i-web-designer-del-futuro/</guid>
-      <description>Don’t Fear the Internet è una ottima risorsa per Web Designer principianti. Attenzione ai dettagli, grande cura e ottimi contenuti sono il marchio distintivo di questo progetto di Jessica Hische e Russ Maschmeyer:
-Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? Hai un sito che mai messo insieme con Dreamweaver grazie a quell’UNICA lezione scolastica di web design? Il sito non ce l’hai nemmeno, perché sono due anni che aspetti che tuo cugino lo faccia per te?</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Don’t Fear the Internet&lt;!-- raw HTML omitted --&gt; è una ottima risorsa per Web Designer principianti. Attenzione ai dettagli, grande cura e ottimi contenuti sono il marchio distintivo di questo progetto di &lt;!-- raw HTML omitted --&gt;Jessica Hische&lt;!-- raw HTML omitted --&gt; e &lt;!-- raw HTML omitted --&gt;Russ Maschmeyer&lt;!-- raw HTML omitted --&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? Hai un sito che mai messo insieme con Dreamweaver grazie a quell’UNICA lezione scolastica di web design? Il sito non ce l’hai nemmeno, perché sono due anni che aspetti che tuo cugino lo faccia per te? Bè, noi siamo qui per aiutarti.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Don’t Fear the Internet<!-- raw HTML omitted --> è una ottima risorsa per Web Designer principianti. Attenzione ai dettagli, grande cura e ottimi contenuti sono il marchio distintivo di questo progetto di <!-- raw HTML omitted -->Jessica Hische<!-- raw HTML omitted --> e <!-- raw HTML omitted -->Russ Maschmeyer<!-- raw HTML omitted -->:</p>
 <blockquote>
-<p>Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? Hai un sito che mai messo insieme con Dreamweaver grazie a quell’UNICA lezione scolastica di web design? Il sito non ce l’hai nemmeno, perché sono due anni che aspetti che tuo cugino lo faccia per te? Bè, noi siamo qui per aiutarti.</p>
-</blockquote>
+<p>Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? Hai un sito che mai messo insieme con Dreamweaver grazie a quell’UNICA lezione scolastica di web design? Il sito non ce l’hai nemmeno, perché sono due anni che aspetti che tuo cugino lo faccia per te? Bè, noi siamo qui per aiutarti.</p></blockquote>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
@@ -202,7 +205,7 @@ Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? H
 <li>SILVERLIGHT (1.1M)</li>
 <li>FLASH (509K)</li>
 </ul>
-<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…<!-- raw HTML omitted --></p>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…</p>
 <h2 id="gli-ebooks-di-stack-overflow-1">Gli eBooks di Stack Overflow</h2>
 <h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1--1"><!-- raw HTML omitted --></h2>
 <p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
@@ -228,7 +231,7 @@ Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? H
 <li>SILVERLIGHT (1.1M)</li>
 <li>FLASH (509K)</li>
 </ul>
-<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con]<a href="http://www.amazon.com/dp/B002Y27P3M/?tag=gocous-20&amp;hvadid=5729120357&amp;ref=pd_sl_blgu0nkyl_b">7</a> e credo con altri lettori di eBook. Ricordo che è possibile leggere i libri per Kindle con l’applicazione <strong>gratuita</strong> disponibile per <a href="http://www.amazon.com/gp/feature.html/ref=kcp_pc_mkt_lnd?docId=1000426311">PC</a>, <a href="http://www.amazon.com/gp/feature.html/ref=kcp_mac_mkt_lnd?docId=1000464931">Mac</a>, [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…<!-- raw HTML omitted --></p>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con]<a href="http://www.amazon.com/dp/B002Y27P3M/?tag=gocous-20&amp;hvadid=5729120357&amp;ref=pd_sl_blgu0nkyl_b">7</a> e credo con altri lettori di eBook. Ricordo che è possibile leggere i libri per Kindle con l’applicazione <strong>gratuita</strong> disponibile per <a href="http://www.amazon.com/gp/feature.html/ref=kcp_pc_mkt_lnd?docId=1000426311">PC</a>, <a href="http://www.amazon.com/gp/feature.html/ref=kcp_mac_mkt_lnd?docId=1000464931">Mac</a>, [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…</p>
 <h2 id="gli-ebooks-di-stack-overflow-2">Gli eBooks di Stack Overflow</h2>
 <h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1--2"><!-- raw HTML omitted --></h2>
 <p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
@@ -254,7 +257,7 @@ Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? H
 <li>SILVERLIGHT (1.1M)</li>
 <li>FLASH (509K)</li>
 </ul>
-<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…<!-- raw HTML omitted --></p>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…</p>
 <h2 id="gli-ebooks-di-stack-overflow-3">Gli eBooks di Stack Overflow</h2>
 <h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1--3"><!-- raw HTML omitted --></h2>
 <p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
@@ -295,8 +298,7 @@ Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? H
 <h2 id="il-progetto-orion">Il Progetto Orion</h2>
 <p>Semplici editor di codice sorgente sono disponibili online già da tempo, ma progetti come <strong>Orion</strong> portano il concetto di programmazione online a un livello superiore. <a href="http://dev.eclipse.org/blogs/mike/2011/01/11/introducing-orion/">Annunciato pochi giorni fa</a> dal team di sviluppo di <strong>Eclipse</strong>, una IDE Open Source molto diffusa e apprezzata, il progetto Orion è qualcosa di nuovo:</p>
 <blockquote>
-<p>E’ una piattaforma di sviluppo aperta focalizzata totalmente allo sviluppo per il web, dentro il web. I tools sono scritti in JavaScript e girano nel browser. A differenza di altri tentativi di realizzare strumenti di sviluppo integrati nel browser, Orion non è una IDE che gira in una singola scheda del browser. I links funzionano e possono essere condivisi. Puoi aprire files in schede diverse e grande cura è stata messa nel fornire una ottima web experience durante lo sviluppo del codice</p>
-</blockquote>
+<p>E’ una piattaforma di sviluppo aperta focalizzata totalmente allo sviluppo per il web, dentro il web. I tools sono scritti in JavaScript e girano nel browser. A differenza di altri tentativi di realizzare strumenti di sviluppo integrati nel browser, Orion non è una IDE che gira in una singola scheda del browser. I links funzionano e possono essere condivisi. Puoi aprire files in schede diverse e grande cura è stata messa nel fornire una ottima web experience durante lo sviluppo del codice</p></blockquote>
 <!-- raw HTML omitted -->
 <pre><code>  &lt;p class=&quot;wp-caption-text&quot;&gt;
     Codice JavaScript sviluppato direttamente in Google Chrome - Progetto Orion/Eclipse
@@ -421,7 +423,14 @@ Sei un disegnatore, un fotografo, un artista o, più in generale, un creativo? H
       <link>https://nicolaiarocci.com/eric-meyer-aggiorna-il-suo-famoso-css-reset/</link>
       <pubDate>Thu, 13 Jan 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/eric-meyer-aggiorna-il-suo-famoso-css-reset/</guid>
-      <description>Quattro anni fa Eric Meyer pubblicò la prima versione del suo CSS Reset. Concepito come un prototipo da condividere con altri sviluppatori dediti alla creazione di uno standard, il modulo riscosse subito grande successo diffondendosi rapidamente. In poche settimane venne adottato, spesso inconsapevolmente, da decine di migliaia di programmatori e designer web. Oggi gran parte dei siti web nel mondo includono nel loro codice almeno una traccia di quello che è universalmente noto come Eric Meyer Reset.</description>
+      <description>&lt;p&gt;Quattro anni fa Eric Meyer pubblicò la prima versione del suo CSS
+Reset. Concepito come un prototipo da condividere con altri
+sviluppatori dediti alla creazione di uno standard, il modulo riscosse subito
+grande successo diffondendosi rapidamente. In poche settimane venne adottato,
+spesso inconsapevolmente, da decine di migliaia di programmatori e designer
+web. Oggi gran parte dei siti web nel mondo includono nel loro codice almeno
+una traccia di quello che è universalmente noto come Eric Meyer
+Reset.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Quattro anni fa Eric Meyer pubblicò la prima versione del suo CSS
 Reset. Concepito come un prototipo da condividere con altri
 sviluppatori dediti alla creazione di uno standard, il modulo riscosse subito
@@ -566,7 +575,7 @@ Reset Your CSS?</a> (Six Revisions) e leggendo le opinioni degli utenti di
 </ol>
 <p>E’ vero che ricorrendo a ottimizzazioni e tools dedicati alcune (poche) di queste limitazioni possono essere aggirate. Le prossime release di Flash promettono sviluppi interessanti, tra i quali ottimizzazioni per i dispositivi mobili e riduzione del peso dell’intera infrastruttura.</p>
 <h2 id="considera-le-alternative"><strong>Considera le alternative</strong></h2>
-<p>Non sono necessarie soluzioni esoteriche. Troppo spesso si ricorre a Flash per produrre effetti, transizioni e animazioni realizzabili anche con strumenti consolidati, leggeri e SEO-friendly quali <strong>JavaScript</strong>, <strong>HTML</strong> e <strong>CSS.</strong> In una parola, <strong><a href="http://it.wikipedia.org/wiki/AJAX">AJAX</a></strong>. Cose ormai scontate. O forse no, a giudicare da quel che ancora oggi si pubblica in rete. A ben guardare la battaglia tra Apple e Adobe, quella culminata con la [<!-- raw HTML omitted -->E’ incredibile la quantità di siti che ancora oggi vengono sviluppati con Flash. Il fenomeno colpisce soprattutto i siti-vetrina: negozi, attività commerciali, ristoranti, artigiani. Basta farsi un giro sui siti di venditori di mobili, per esempio, per godersi il trionfo della ‘<a href="http://en.wikipedia.org/wiki/Adobe_Flash">multimedia platform</a>‘ di Adobe. Bisogna prenderne atto: nel 2011 migliaia di aziende italiane di ogni dimensione affidano la loro identità web ad Adobe Flash. Consulenti e agenzie continuano a produrre siti con tecnologie assimilate anni fa. Reticenti all’aggiornamento delle proprie competenze, si accontentano del loro confortante orticello che, tutto sommato, assicura lo stipendio.<!-- raw HTML omitted --></p>
+<p>Non sono necessarie soluzioni esoteriche. Troppo spesso si ricorre a Flash per produrre effetti, transizioni e animazioni realizzabili anche con strumenti consolidati, leggeri e SEO-friendly quali <strong>JavaScript</strong>, <strong>HTML</strong> e <strong>CSS.</strong> In una parola, <strong><a href="http://it.wikipedia.org/wiki/AJAX">AJAX</a></strong>. Cose ormai scontate. O forse no, a giudicare da quel che ancora oggi si pubblica in rete. A ben guardare la battaglia tra Apple e Adobe, quella culminata con la [<!-- raw HTML omitted -->E’ incredibile la quantità di siti che ancora oggi vengono sviluppati con Flash. Il fenomeno colpisce soprattutto i siti-vetrina: negozi, attività commerciali, ristoranti, artigiani. Basta farsi un giro sui siti di venditori di mobili, per esempio, per godersi il trionfo della ‘<a href="http://en.wikipedia.org/wiki/Adobe_Flash">multimedia platform</a>‘ di Adobe. Bisogna prenderne atto: nel 2011 migliaia di aziende italiane di ogni dimensione affidano la loro identità web ad Adobe Flash. Consulenti e agenzie continuano a produrre siti con tecnologie assimilate anni fa. Reticenti all’aggiornamento delle proprie competenze, si accontentano del loro confortante orticello che, tutto sommato, assicura lo stipendio.</p>
 <p>Eppure ci sono tante buone ragioni per <strong>non</strong> ricorrere a Flash:</p>
 <ol>
 <li>Non è sicuro. Probabilmente Flash è l’unico prodotto che fa concorrenza a Microsoft Windows in quanto a numero di <em>security fixes</em>. Non per niente è stato definito <a href="http://www.zdnet.com/blog/bott/how-secure-is-flash-heres-what-adobe-wont-tell-you/2152">il nuovo Windows Vista</a></li>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>github on Nicola Iarocci</title>
+    <title>Github on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/github/</link>
-    <description>Recent content in github on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Github on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Tue, 10 Sep 2024 11:15:01 +0200</lastBuildDate>
@@ -14,11 +14,11 @@
       <link>https://nicolaiarocci.com/why-github-actually-won/</link>
       <pubDate>Tue, 10 Sep 2024 11:15:01 +0200</pubDate>
       <guid>https://nicolaiarocci.com/why-github-actually-won/</guid>
-      <description>In the end we won because the open source community started to converge on distributed version control and we were the only ones in the hosting space that truly cared about how developers worked at all. The only ones who questioned it, approached it from first principles, tried to make it better holistically rather than just throwing more features onto something existing in order to sell it.
-Full story here.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;In the end we won because the open source community started to converge on distributed version control and we were the only ones in the hosting space that truly cared about how developers worked at all. The only ones who questioned it, approached it from first principles, tried to make it better holistically rather than just throwing more features onto something existing in order to sell it.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Full story &lt;a href=&#34;https://blog.gitbutler.com/why-github-actually-won/&#34;&gt;here&lt;/a&gt;. A great run-down by Scott Cahon himself on why Git and then GitHub won the version control system war.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>In the end we won because the open source community started to converge on distributed version control and we were the only ones in the hosting space that truly cared about how developers worked at all. The only ones who questioned it, approached it from first principles, tried to make it better holistically rather than just throwing more features onto something existing in order to sell it.</p>
-</blockquote>
+<p>In the end we won because the open source community started to converge on distributed version control and we were the only ones in the hosting space that truly cared about how developers worked at all. The only ones who questioned it, approached it from first principles, tried to make it better holistically rather than just throwing more features onto something existing in order to sell it.</p></blockquote>
 <p>Full story <a href="https://blog.gitbutler.com/why-github-actually-won/">here</a>. A great run-down by Scott Cahon himself on why Git and then GitHub won the version control system war.</p>
 ]]></content:encoded>
     </item>
@@ -27,8 +27,16 @@ Full story here.</description>
       <link>https://nicolaiarocci.com/github-wikis-dont-allow-edits-or-pull-requests/</link>
       <pubDate>Fri, 09 Feb 2024 15:58:54 +0100</pubDate>
       <guid>https://nicolaiarocci.com/github-wikis-dont-allow-edits-or-pull-requests/</guid>
-      <description>Today I learned that GitHub wikis are not editable online and do not support pull requests. You can clone and edit a wiki locally but not return your change to the original repository.
-I don&amp;rsquo;t use wikis in my projects; I prefer documentation to stay with the project, usually in a dedicated directory, and publish it on a dedicated site through GitHub Pages. But today was different as I opened a pull request for PaperMod, the Hugo theme I use on this website.</description>
+      <description>&lt;p&gt;Today I learned that GitHub wikis are not editable online and &lt;a href=&#34;https://github.com/orgs/community/discussions/50163&#34;&gt;do not support
+pull requests&lt;/a&gt;. You can
+clone and edit a wiki locally but not return your change to the original
+repository.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t use wikis in &lt;a href=&#34;https://nicolaiarocci.com/opensource/&#34;&gt;my projects&lt;/a&gt;; I prefer documentation to stay with the
+project, usually in a dedicated directory, and publish it on a dedicated site
+through GitHub Pages. But today was different as I &lt;a href=&#34;https://github.com/adityatelange/hugo-PaperMod/pull/1419&#34;&gt;opened a pull
+request&lt;/a&gt; for PaperMod,
+the Hugo theme I use on this website. Someone asked if I could update the
+documentation too. Right, too bad it&amp;rsquo;s impossible to do that.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I learned that GitHub wikis are not editable online and <a href="https://github.com/orgs/community/discussions/50163">do not support
 pull requests</a>. You can
 clone and edit a wiki locally but not return your change to the original
@@ -53,8 +61,15 @@ compelling solution in Pages.</p>
       <link>https://nicolaiarocci.com/on-github-copilot/</link>
       <pubDate>Sat, 24 Jul 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/on-github-copilot/</guid>
-      <description>Like everyone else on the planet, I&amp;rsquo;ve been following GitHub Copilot since its launch. It is an impressive achievement and a remarkable milestone for the deep learning industry, that&amp;rsquo;s for sure. We are obviously at the early stages in deep learning applied to software development, and it is somewhat unsettling to ponder what the future might hold in this field.
-Like many others, however, I worry about code quality issues and the risk of license infringements1.</description>
+      <description>&lt;p&gt;Like everyone else on the planet, I&amp;rsquo;ve been following &lt;a href=&#34;https://copilot.github.com/&#34;&gt;GitHub Copilot&lt;/a&gt; since
+its launch. It is an impressive achievement and a remarkable milestone for the
+deep learning industry, that&amp;rsquo;s for sure. We are obviously at the early stages
+in deep learning applied to software development, and it is somewhat unsettling
+to ponder what the future might hold in this field.&lt;/p&gt;
+&lt;p&gt;Like many others, however, I worry about code quality issues and the risk of
+license infringements&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. I am also concerned that the advent of Copilot-like
+tools might fundamentally change the software developer experience, if not the
+software developer role as a whole, and for the worst.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Like everyone else on the planet, I&rsquo;ve been following <a href="https://copilot.github.com/">GitHub Copilot</a> since
 its launch. It is an impressive achievement and a remarkable milestone for the
 deep learning industry, that&rsquo;s for sure. We are obviously at the early stages
@@ -77,8 +92,7 @@ question your assumptions, identify hidden problems, and see the bigger
 picture. Copilot doesn’t do any of those things – quite the opposite, it
 blindly assumes that your assumptions are appropriate and focuses entirely on
 churning out code based on the immediate context of where your text cursor is
-right now.</p>
-</blockquote>
+right now.</p></blockquote>
 <p>He then mentions both <em>automation</em> and <em>anchoring</em> biases and explains how they
 might influence the developers using advanced AI-powered automation tools like
 Copilot.</p>
@@ -105,8 +119,7 @@ most valuable thing is to know how things work. Nothing in software
 development is more effective than the ability to see deeper. [&hellip;] I am
 utterly convinced that deep understanding is important. But increasingly,
 I feel like I&rsquo;m swimming upstream. It seems like most people in our industry
-care far more about &ldquo;how to do&rdquo; rather than &ldquo;how does it work&rdquo;.</p>
-</blockquote>
+care far more about &ldquo;how to do&rdquo; rather than &ldquo;how does it work&rdquo;.</p></blockquote>
 <p>Copilot is great and feels like magic<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. And precisely for that reason, at my
 company, we&rsquo;re not going to adopt it.</p>
 <div class="footnotes" role="doc-endnotes">
@@ -132,9 +145,16 @@ company, we&rsquo;re not going to adopt it.</p>
       <link>https://nicolaiarocci.com/i-am-a-mars-helicopter-contributor/</link>
       <pubDate>Tue, 20 Apr 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/i-am-a-mars-helicopter-contributor/</guid>
-      <description>As I was browsing my RSS feed this morning, I came across a [new blog][1] from Nat Friedman over at GitHub. The piece was titled &amp;ldquo;Open source goes to Mars&amp;rdquo;, and, of course, it caught my interest. In the article, Nat announced a Mars 2020 Helicopter Mission badge added to GitHub profiles contributing to open-source projects and libraries used by Ingenuity. Some time ago, like many others, I was granted the Arctic Code Vault badge, so I am familiar with the concept.</description>
-      <content:encoded><![CDATA[<p><img loading="lazy" src="/images/mars-achievement.webp#right" alt="The Mars Helicopter Contributor badge"  />
-
+      <description>&lt;p&gt;&lt;img alt=&#34;The Mars Helicopter Contributor badge&#34; loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/mars-achievement.webp#right&#34;&gt;
+As I was browsing my RSS feed this morning, I came across a [new blog][1] from
+Nat Friedman over at GitHub. The piece was titled &amp;ldquo;Open source goes to Mars&amp;rdquo;,
+and, of course, it caught my interest. In the article, Nat announced a Mars
+2020 Helicopter Mission badge added to GitHub profiles contributing to
+open-source projects and libraries used by Ingenuity. Some time ago, like many
+others, I was granted the Arctic Code Vault badge, so I am familiar with the
+concept. I quickly dismissed the information as &amp;ldquo;nice, not gonna get it&amp;rdquo; and
+moved along.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><img alt="The Mars Helicopter Contributor badge" loading="lazy" src="/images/mars-achievement.webp#right">
 As I was browsing my RSS feed this morning, I came across a [new blog][1] from
 Nat Friedman over at GitHub. The piece was titled &ldquo;Open source goes to Mars&rdquo;,
 and, of course, it caught my interest. In the article, Nat announced a Mars
@@ -162,8 +182,7 @@ not wholly unprepared. And indeed, there it is, the new, shiny Mars Helicopter
 Contributor badge. A quick investigation revealed that I earned it as a Flask
 contributor. To be honest, I don&rsquo;t even remember contributing to it<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. I know
 I&rsquo;ve used it extensively, of course, as [Eve][4] inherits from and builds on it.</p>
-<p><img loading="lazy" src="/images/mars-profile-badge.png" alt="The Mars Helicopter Contributor badge"  />
-</p>
+<p><img alt="The Mars Helicopter Contributor badge" loading="lazy" src="/images/mars-profile-badge.png"></p>
 <p>So, what to make of all of this? I am happy, of course. I have a badge of
 honor to show off to my kids later this evening. I appreciate the intent:</p>
 <blockquote>
@@ -171,8 +190,7 @@ honor to show off to my kids later this evening. I appreciate the intent:</p>
 software is being used to fly a helicopter on another planet,” says GitHub
 Senior Director of Developer Relations Martin Woodward. “We wanted to make
 sure everyone was recognized for their contributions to this incredible human
-achievement.” (<a href="https://github.com/readme/nasa-ingenuity-helicopter">source</a>)</p>
-</blockquote>
+achievement.” (<a href="https://github.com/readme/nasa-ingenuity-helicopter">source</a>)</p></blockquote>
 <p>These badges surely help raise awareness of open-source relevance in the
 modern-day world. I am grateful for it. I have to say, however, that I am not
 a fan of the current gamification process going on at GitHub. I cringed when
@@ -202,11 +220,11 @@ leveraged in many different, even subtle ways. Let&rsquo;s hope for the best.</p
       <link>https://nicolaiarocci.com/doesnt-github-talk-product-roadmap/</link>
       <pubDate>Mon, 26 May 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/doesnt-github-talk-product-roadmap/</guid>
-      <description>Software development is mostly horseshit. We’re busy trying to build things, trying to estimate when things are done, trying to work with other humans to make sure you don’t break anything when you launch. All of these things can go horribly, horribly wrong without much malice or without much intention. It’s still very difficult.
-via Why doesn’t GitHub talk about their product roadmap?</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Software development is mostly horseshit. We’re busy trying to build things, trying to estimate when things are done, trying to work with other humans to make sure you don’t break anything when you launch. All of these things can go horribly, horribly wrong without much malice or without much intention. It’s still very difficult.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;via &lt;a href=&#34;https://github.com/holman/feedback/issues/534&#34;&gt;Why doesn’t GitHub talk about their product roadmap?&lt;/a&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>Software development is mostly horseshit. We’re busy trying to build things, trying to estimate when things are done, trying to work with other humans to make sure you don’t break anything when you launch. All of these things can go horribly, horribly wrong without much malice or without much intention. It’s still very difficult.</p>
-</blockquote>
+<p>Software development is mostly horseshit. We’re busy trying to build things, trying to estimate when things are done, trying to work with other humans to make sure you don’t break anything when you launch. All of these things can go horribly, horribly wrong without much malice or without much intention. It’s still very difficult.</p></blockquote>
 <p>via <a href="https://github.com/holman/feedback/issues/534">Why doesn’t GitHub talk about their product roadmap?</a></p>
 ]]></content:encoded>
     </item>
@@ -215,12 +233,12 @@ via Why doesn’t GitHub talk about their product roadmap?</description>
       <link>https://nicolaiarocci.com/champion-pythonista/</link>
       <pubDate>Tue, 21 May 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/champion-pythonista/</guid>
-      <description>La Open Source Report Card è un’iniziativa divertente. E’ difficile resistere al richiamo dell’ego… soprattutto quand’è smisurato.
-Nicola is a champion Pythonista (one of the top 11% most active Python users) who loves pushing code. Nicola is a nine-to-fiver who seems to work best in the mid-afternoon.</description>
+      <description>&lt;p&gt;La &lt;!-- raw HTML omitted --&gt;Open Source Report Card&lt;!-- raw HTML omitted --&gt; è un’iniziativa divertente. E’ difficile resistere al richiamo dell’ego… soprattutto quand’è smisurato.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Nicola is a champion Pythonista (one of the top 11% most active Python users) who loves pushing code. Nicola is a nine-to-fiver who seems to work best in the mid-afternoon.&lt;/p&gt;&lt;/blockquote&gt;</description>
       <content:encoded><![CDATA[<p>La <!-- raw HTML omitted -->Open Source Report Card<!-- raw HTML omitted --> è un’iniziativa divertente. E’ difficile resistere al richiamo dell’ego… soprattutto quand’è smisurato.</p>
 <blockquote>
-<p>Nicola is a champion Pythonista (one of the top 11% most active Python users) who loves pushing code. Nicola is a nine-to-fiver who seems to work best in the mid-afternoon.</p>
-</blockquote>
+<p>Nicola is a champion Pythonista (one of the top 11% most active Python users) who loves pushing code. Nicola is a nine-to-fiver who seems to work best in the mid-afternoon.</p></blockquote>
 ]]></content:encoded>
     </item>
     <item>

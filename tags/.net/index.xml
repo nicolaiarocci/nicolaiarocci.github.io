@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>.net on Nicola Iarocci</title>
+    <title>.Net on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/.net/</link>
-    <description>Recent content in .net on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in .Net on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 26 Feb 2021 07:05:25 +0100</lastBuildDate>
@@ -14,8 +14,14 @@
       <link>https://nicolaiarocci.com/how-to-increase-upload-file-size-in-asp.net-core/</link>
       <pubDate>Fri, 26 Feb 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-to-increase-upload-file-size-in-asp.net-core/</guid>
-      <description>Today I learned the hard way that since ASP.NET Core 2.0, the request body has acquired a default size limit at 30MB (~28.6 MiB).
-If the request body size exceeds the configured max request body size limit, the call to Request.Body.ReadAsync will throw an IOException. If this exception is uncaught, Kestrel will respond with a 413 Payload Too Large response and HttpSys will respond with a generic 500 Internal Server Error response (source).</description>
+      <description>&lt;p&gt;Today I learned the hard way that since ASP.NET Core 2.0, the request body has
+acquired a default size limit at 30MB (~28.6 MiB).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If the request body size exceeds the configured max request body size limit,
+the call to Request.Body.ReadAsync will throw an IOException. If this
+exception is uncaught, Kestrel will respond with a 413 Payload Too Large
+response and HttpSys will respond with a generic 500 Internal Server Error
+response (&lt;a href=&#34;https://github.com/aspnet/Announcements/issues/267&#34;&gt;source&lt;/a&gt;).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I learned the hard way that since ASP.NET Core 2.0, the request body has
 acquired a default size limit at 30MB (~28.6 MiB).</p>
 <blockquote>
@@ -23,8 +29,7 @@ acquired a default size limit at 30MB (~28.6 MiB).</p>
 the call to Request.Body.ReadAsync will throw an IOException. If this
 exception is uncaught, Kestrel will respond with a 413 Payload Too Large
 response and HttpSys will respond with a generic 500 Internal Server Error
-response (<a href="https://github.com/aspnet/Announcements/issues/267">source</a>).</p>
-</blockquote>
+response (<a href="https://github.com/aspnet/Announcements/issues/267">source</a>).</p></blockquote>
 <p>This will be a breaking change if your endpoint is expected to handle large
 uploads. The solution is simple, just decorate your MVC action or controller
 with the <code>RequestSizeLimit</code> attribute, like so:</p>
@@ -57,7 +62,15 @@ limit applies.</p>
       <link>https://nicolaiarocci.com/how-to-convert-a-pcl-portable-project-to-netstandard/</link>
       <pubDate>Wed, 10 May 2017 09:47:05 +0200</pubDate>
       <guid>https://nicolaiarocci.com/how-to-convert-a-pcl-portable-project-to-netstandard/</guid>
-      <description>I have been upgrading a few projects from their original PCL profiles (now deemed obsolete) to the Net Standard platform specification. It turned out to be a relatively straightforward process, but it does have its small hurdles, especially so if in the meantime you also want to transition to the new, streamlined, .csproj format as the migration will leave you with a now obsolete project.json project. In this article, I will cover upgrading a project from Portable Class Library to NetStandard.</description>
+      <description>&lt;p&gt;I have been upgrading a few projects from their original PCL profiles (now
+deemed obsolete) to the &lt;a href=&#34;https://docs.microsoft.com/it-it/dotnet/articles/standard/library&#34;&gt;Net Standard&lt;/a&gt; platform specification. It turned out
+to be a relatively straightforward process, but it does have its small hurdles,
+especially so if in the meantime you also want to transition to the new,
+streamlined, &lt;code&gt;.csproj&lt;/code&gt; format as the migration will leave you with a now
+obsolete &lt;code&gt;project.json&lt;/code&gt; project. In this article, I will cover upgrading
+a project from Portable Class Library to NetStandard. In a follow-up post,
+I plan to write about the switch from &lt;code&gt;project.json&lt;/code&gt; to the new &lt;code&gt;.csproj&lt;/code&gt;
+format.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I have been upgrading a few projects from their original PCL profiles (now
 deemed obsolete) to the <a href="https://docs.microsoft.com/it-it/dotnet/articles/standard/library">Net Standard</a> platform specification. It turned out
 to be a relatively straightforward process, but it does have its small hurdles,
@@ -75,8 +88,7 @@ NetStandard.</p>
 you are on an older VS version, you should upgrade. For many valid reasons
 indeed, among them the fact that Visual Studio 2017 comes with a built-in
 option to switch a project to NetStandard.</p>
-<p><img loading="lazy" src="/images/netstandard1.png" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/netstandard1.png"></p>
 <p>As you can see, before the upgrade Eve.NET was a Profile259 PCL project. As
 metioned, Visual Studio offers the option to switch to the .NET Platform
 Standard. By clicking the link, you get a fair warning that <em>you might not be
@@ -93,8 +105,7 @@ number. We already went from 1.0 to 1.6, with 2.0 currently being developed.
 <a href="https://raw.githubusercontent.com/dotnet/standard/master/docs/versions/netstandard2.0_diff.md">impressive diff</a> between 1.6 and 2.0. A <em>lot</em> of open source projects are
 eagerly waiting on NetStandard 2 release (Q3 2017).</p>
 <p>Upon confirming the switch, you might get the following show-stopper (I did):</p>
-<p><img loading="lazy" src="/images/netstandard2.png" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/netstandard2.png"></p>
 <p>This dialog will pop up if your project never has opted-in for NuGet 3.0. If
 this is the case, you have to go back, uninstall all NuGet packages, then
 attempt the switch again. When the migration is complete, you will have to
@@ -125,8 +136,16 @@ this site. If you want to get in touch, I am @<a href="http://twitter.com/nicola
       <link>https://nicolaiarocci.com/python-support-in-visual-studio-2017-or-the-lack-thereof/</link>
       <pubDate>Wed, 08 Mar 2017 10:41:17 +0100</pubDate>
       <guid>https://nicolaiarocci.com/python-support-in-visual-studio-2017-or-the-lack-thereof/</guid>
-      <description>So yesterday Visual Studio 2017 was released. Big news. Lots of cool stuff. As I write this I am watching the live stream of the 2 days-long launch event. If you want to learn about Python support in VS2017 though, you have to dig deeper and head over to the Python Engineering blog at Microsoft.
-As expected, the official release is actually coming out with no support for Python. It will come in a few months.</description>
+      <description>&lt;p&gt;So yesterday Visual Studio 2017 was released. Big news. Lots of &lt;a href=&#34;https://www.visualstudio.com/vs/whatsnew/&#34;&gt;cool
+stuff&lt;/a&gt;. As I write this I am watching the &lt;a href=&#34;https://launch.visualstudio.com&#34;&gt;live stream&lt;/a&gt; of the
+2 days-long launch event. If you want to learn about Python support in VS2017
+though, you have to dig deeper and head over to the &lt;a href=&#34;https://blogs.msdn.microsoft.com/pythonengineering/2017/03/07/python-support-in-vs2017/&#34;&gt;Python Engineering&lt;/a&gt;
+blog at Microsoft.&lt;/p&gt;
+&lt;p&gt;As &lt;a href=&#34;https://nicolaiarocci.com/python-workload-pulled-off-visual-studio-2017-rc3/&#34;&gt;expected&lt;/a&gt;, the official release is actually coming out with no support for
+Python. It will come in a few months. Bummer. In the meanwhile however you can go and grab the
+(also newly released) &lt;a href=&#34;https://visualstudio.com/vs/preview?wt.mc_id=blogs_msdn_python&#34;&gt;Visual Studio Preview&lt;/a&gt;. This new kid on the block
+has the ability to be installed and used side-by-side with the official release
+and will be used - you guessed it - as an early preview of what’s coming next for Visual Studio.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>So yesterday Visual Studio 2017 was released. Big news. Lots of <a href="https://www.visualstudio.com/vs/whatsnew/">cool
 stuff</a>. As I write this I am watching the <a href="https://launch.visualstudio.com">live stream</a> of the
 2 days-long launch event. If you want to learn about Python support in VS2017
@@ -156,8 +175,7 @@ wait until Python Workload gets merged back with the official offering.</p>
 <p>I am still convinced that in the long run Visual Studio with its Python
 Workload will become the best option to do Python on Windows (Visual Studio
 Code being the second best candidate). I mean, look at this beauty:</p>
-<p><img loading="lazy" src="/images/PythonVsPreview.png" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/PythonVsPreview.png"></p>
 <p>Combined with the VsVim extension it makes Python coding on Windows almost as
 great as Vim+bash I&rsquo;ve been using so far, but within Visual Studio which I use
 for all my other coding (don&rsquo;t get me started on C# in Vim. That is material
@@ -180,16 +198,23 @@ this site. If you want to get in touch, I am @<a href="http://twitter.com/nicola
       <link>https://nicolaiarocci.com/setting-the-default-timezone-in-appveyor-and-c-sharp-7-support/</link>
       <pubDate>Sat, 25 Feb 2017 16:48:09 +0100</pubDate>
       <guid>https://nicolaiarocci.com/setting-the-default-timezone-in-appveyor-and-c-sharp-7-support/</guid>
-      <description>So yesterday I pushed some code over to GitHub, then went off to work on a different project. A few seconds later I got an email from AppVeyor telling me that my CI build worker was reporting a failure. I was surprised as just ahead of the push I had tests all green in local.
-Turned out failure was on an equality assertion between two date values:
-As you can see the mismatch was precisely two hours.</description>
+      <description>&lt;p&gt;So yesterday I pushed some code over to GitHub, then went off to work on
+a different project. A few seconds later I got an email from &lt;a href=&#34;https://www.appveyor.com&#34;&gt;AppVeyor&lt;/a&gt;
+telling me that my CI build worker was reporting a failure. I was surprised as
+just ahead of the push I had tests all green in local.&lt;/p&gt;
+&lt;p&gt;Turned out failure was on an equality assertion between two date values:&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/appveyor-failure-on-date-fields.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As you can see the mismatch was &lt;em&gt;precisely&lt;/em&gt; two hours. That always rings a Time
+Zone alarm bell in my head. I was under the assumption that since my time zone
+was correctly set in my account settings, the workers would pick it up. Well as
+it turns out, that is not the case as that setting is only used for
+notifications and NuGet feeds. The AppVeyor app worker runs on UTC by default.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>So yesterday I pushed some code over to GitHub, then went off to work on
 a different project. A few seconds later I got an email from <a href="https://www.appveyor.com">AppVeyor</a>
 telling me that my CI build worker was reporting a failure. I was surprised as
 just ahead of the push I had tests all green in local.</p>
 <p>Turned out failure was on an equality assertion between two date values:</p>
-<p><img loading="lazy" src="/images/appveyor-failure-on-date-fields.png" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/appveyor-failure-on-date-fields.png"></p>
 <p>As you can see the mismatch was <em>precisely</em> two hours. That always rings a Time
 Zone alarm bell in my head. I was under the assumption that since my time zone
 was correctly set in my account settings, the workers would pick it up. Well as
@@ -218,8 +243,15 @@ this site. If you want to get in touch, I am @<a href="http://twitter.com/nicola
       <link>https://nicolaiarocci.com/how-to-build-and-deploy-a-private-nuget-server-on-iis-or-azure/</link>
       <pubDate>Mon, 09 Jan 2017 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/how-to-build-and-deploy-a-private-nuget-server-on-iis-or-azure/</guid>
-      <description>Recently I had to build and deploy a private NuGet server. The official documentation is quite good, but I did hit some (admittedly small) hitches along the way, so I thought I might as well share the whole process. Hopefully this post will be helpful to the next guy or gal adventuring down the same path.
-If I don&amp;rsquo;t need to convince you on the usefulness and importance of packages in modern software development, then you can safely jump to The case for private NuGet feeds, and spare yourself some of my ramblings.</description>
+      <description>&lt;p&gt;Recently I had to build and deploy a private NuGet server. The
+official &lt;a href=&#34;https://docs.nuget.org/ndocs/hosting-packages/overview&#34;&gt;documentation&lt;/a&gt; is quite good, but I did hit some
+(admittedly small) hitches along the way, so I thought I might as well share
+the whole process. Hopefully this post will be helpful to the next guy or gal
+adventuring down the same path.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;If I don&amp;rsquo;t need to convince you on the usefulness and importance of packages
+in modern software development, then you can safely jump to &lt;a href=&#34;#the-case-for-private-nuget-feeds&#34;&gt;The case for
+private NuGet feeds&lt;/a&gt;, and spare yourself
+some of my ramblings.&lt;/em&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Recently I had to build and deploy a private NuGet server. The
 official <a href="https://docs.nuget.org/ndocs/hosting-packages/overview">documentation</a> is quite good, but I did hit some
 (admittedly small) hitches along the way, so I thought I might as well share
@@ -264,8 +296,7 @@ Microsoft itself with the .NET Core distribution model).</p>
 According to the <a href="http://blog.nuget.org/20160622/NuGet-API-key-expiration.html">NuGet blog</a> itself:</p>
 <blockquote>
 <p>NuGet.org is growing blazingly fast. The past couple of years have seen
-a tremendous growth in the usage of packages from the NuGet gallery.</p>
-</blockquote>
+a tremendous growth in the usage of packages from the NuGet gallery.</p></blockquote>
 <p>But let&rsquo;s just dig into that giant haystack for a little while. Just a quick
 glance will suffice to determine that the feed is a big mess. Besides the top
 packages, the tip of the iceberg, you will easily spot a <em>whole lot</em> of
@@ -274,8 +305,7 @@ Descriptions are often very short, to the point of being unintelligible.
 Sometimes they are totally (purposely?) cryptic, or just speak some kind of
 internal lingo. Heck, even the package names are at times so obscure that
 I don&rsquo;t even get a hint at what they are supposed to do.</p>
-<p><img loading="lazy" src="/images/nuget-random-package.png" alt="Really?"  />
-</p>
+<p><img alt="Really?" loading="lazy" src="/images/nuget-random-package.png"></p>
 <p>Mind you, this is not limited to the NuGet ecosystem. If we look at the <a href="https://pypi.python.org/pypi">Python
 Package Index</a> for example, we find the same exact situation: 95K+ packages,
 many of which are totally unintelligible unless you know what you are looking
@@ -321,15 +351,13 @@ Format</a> and its performance has skyrocketed since then.</p>
 <p>In Visual Studio select File &gt; New &gt; Project to create a new project. In order
 to get the latest version of NuGet.Server, make sure you set the target
 framework to .NET Framework 4.6 or above.</p>
-<p><img loading="lazy" src="/images/nuget-server-1.png" alt="New VS project with .NET 4.6 or above"  />
-</p>
+<p><img alt="New VS project with .NET 4.6 or above" loading="lazy" src="/images/nuget-server-1.png"></p>
 <p>Give the application an appropriate name and click OK. In the following dialog
 pick the Empty ASP.NET Web Application template and click OK.</p>
 <p>Next you need to install the NuGet.Server package itself. Right-click the
 project name and select Manage NuGet Packages. In the NuGet Package Manager
 search and install the latest version of NuGet.Server.</p>
-<p><img loading="lazy" src="/images/nuget-server-2.png" alt="Install the NuGet.Server package"  />
-</p>
+<p><img alt="Install the NuGet.Server package" loading="lazy" src="/images/nuget-server-2.png"></p>
 <p>Alternatively, you can of course install from the Package Manager Console with
 <code>Install-Package NuGet.Server</code>.</p>
 <p>The installation process will install the needed dependencies and take care of
@@ -340,8 +368,7 @@ settings (to which we will get in a second), and by creating a deafult
 want to overwrite the current <code>web.config</code>, say YES.</p>
 <p>When the process is complete your server is ready to run. Just hit Ctrl+F5 (no
 debug) and Edge will fire up at the following page:</p>
-<p><img loading="lazy" src="/images/nuget-server-3.png" alt="NuGet server up and running"  />
-</p>
+<p><img alt="NuGet server up and running" loading="lazy" src="/images/nuget-server-3.png"></p>
 <h2 id="adding-packages-to-the-feed">Adding packages to the feed</h2>
 <p>Now, if you go back to the project and inspect the newly created <code>Packages</code>
 folder, you will find that it is empty except for a readme file, which
@@ -362,8 +389,7 @@ the way it is supposed to be: just push your packages to it via <code>nuget.exe<
 need to set an API key in <code>web.config</code>, then clients will need to use the key
 when pushing to the server. As you can see, the <code>apiKey</code> value is blank by
 default.</p>
-<p><img loading="lazy" src="/images/nuget-server-4.png" alt="NuGet API key setting in web.config"  />
-</p>
+<p><img alt="NuGet API key setting in web.config" loading="lazy" src="/images/nuget-server-4.png"></p>
 <p>The key will have to be shared by all clients, so make sure you hand it only to
 authorized personnel. While you are at it, also make sure that it as strong as
 it can get. And yes I agree. Along with being statless, the shared API key
@@ -403,11 +429,9 @@ Studio&rsquo;s Web Deploy feature to achieve our goal.</p>
 <p>In the Solution Explorer right click on the project name and hit Publish. In
 the Publish dialog, if you are publishing to Azure select Microsoft App
 Service. Sign-if if you need to, and then pick an appropriate service name.</p>
-<p><img loading="lazy" src="/images/nuget-server-5.png" alt="Ready to deploy on Azure"  />
-</p>
+<p><img alt="Ready to deploy on Azure" loading="lazy" src="/images/nuget-server-5.png"></p>
 <p>Hit Publish. At the end of the process Edge will open your remote welcome page.</p>
-<p><img loading="lazy" src="/images/nuget-server-6.png" alt="The NuGet server is up and running on Azure"  />
-</p>
+<p><img alt="The NuGet server is up and running on Azure" loading="lazy" src="/images/nuget-server-6.png"></p>
 <p>You can start to push packages right away.</p>
 <p>If publishing to IIS in the Publish dialog select the Custom option and fill in
 server name (IP address works too), site name, username and password. The
@@ -421,15 +445,13 @@ Studio. Go to Tools &gt; Options and browse to NuGet Package Manager &gt; Packag
 Sources. Alternatively, right click on the project in the Solution Explorer,
 hit Manage NuGet Packages and then hit the gear icon next to the Package Source
 combo.</p>
-<p><img loading="lazy" src="/images/nuget-server-7.png" alt="NuGet sources in Visual Studio"  />
-</p>
+<p><img alt="NuGet sources in Visual Studio" loading="lazy" src="/images/nuget-server-7.png"></p>
 <p>Add your server to the list of available sources. As you can see in my case
 I have nuget.org, a local folder and the test server for this article
 available. Hit OK once your server has been added. At this point when you go to
 the NuGet Package Manager window your Package source combo will also list your
 private server and you can install packages from there.</p>
-<p><img loading="lazy" src="/images/nuget-server-8.png" alt="NuGet server in VS for Mac"  />
-</p>
+<p><img alt="NuGet server in VS for Mac" loading="lazy" src="/images/nuget-server-8.png"></p>
 <p>The screenshot above is from Visual Studio for Mac. It shows the actual private
 feed we use for development. All our packages are nicely listed there, with no
 interference from the public feed. The public feed is only one click away and,
@@ -450,8 +472,15 @@ Saltarello</a> for peer reviewing this article before publication.</em></p>
       <link>https://nicolaiarocci.com/eve-sdk-for-net-v0-2-is-out-in-the-wild/</link>
       <pubDate>Tue, 02 Aug 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/eve-sdk-for-net-v0-2-is-out-in-the-wild/</guid>
-      <description>I just released a long overdue update to Eve.NET. This release marks a significant improvement over the previous one, which was more a prototype than a real package. New features are as follows:
-PostAsync() supports bulk inserts DeleteAsync() supports bulk deletes GetAsync() has a softDelete option to include soft-deleted documents with query results GetAsync() has a rawQuery option to pass raw Eve queries to the server BearerAuthenticator class adds support for Bearer Token authentication Several fixes made it into this release and, most importantly, I switched to portable Profile259 which offers support for the following platforms: Xamarin.</description>
+      <description>&lt;p&gt;I just released a long overdue update to &lt;a href=&#34;https://github.com/nicolaiarocci/Eve.NET/&#34;&gt;Eve.NET&lt;/a&gt;. This release marks a significant improvement over the previous one, which was more a prototype than a real package. New features are as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;PostAsync()&lt;/code&gt; supports bulk inserts&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;DeleteAsync()&lt;/code&gt; supports bulk deletes&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;GetAsync()&lt;/code&gt; has a &lt;code&gt;softDelete&lt;/code&gt; option to include soft-deleted documents with query results&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;GetAsync()&lt;/code&gt; has a &lt;code&gt;rawQuery&lt;/code&gt; option to pass raw Eve queries to the server&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;BearerAuthenticator&lt;/code&gt; class adds support for Bearer Token authentication&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Several fixes made it into this release and, most importantly, I switched to portable Profile259 which offers support for the following platforms: Xamarin.iOS, Xamarin.Android, WinPhone 8.1, Windows 8, .NET 4.5+. Yes, that means no more support for .NET 4.0. See the &lt;a href=&#34;https://github.com/nicolaiarocci/Eve.NET/blob/master/CHANGES&#34;&gt;changelog&lt;/a&gt; for details.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I just released a long overdue update to <a href="https://github.com/nicolaiarocci/Eve.NET/">Eve.NET</a>. This release marks a significant improvement over the previous one, which was more a prototype than a real package. New features are as follows:</p>
 <ul>
 <li><code>PostAsync()</code> supports bulk inserts</li>
@@ -470,8 +499,9 @@ PostAsync() supports bulk inserts DeleteAsync() supports bulk deletes GetAsync()
       <link>https://nicolaiarocci.com/introducing-simpleobjectcache-a-simple-cross-platform-object-cache-for-net-systems/</link>
       <pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/introducing-simpleobjectcache-a-simple-cross-platform-object-cache-for-net-systems/</guid>
-      <description>SimpleObjectCache is a very simple permanent, cross-platform, asynchronous key-value object cache for .NET. It comes with built-in SQLite 3 support. Alternative backends can be added by implementing the IObjectCache or IBulkObjectCache interfaces.
-How it works First, you need to set the ApplicatioName. This is also going to be the folder where your cache will reside. Depending on the host OS the location of this folder might be different. On Windows it would be something like C:\ProgramData\&amp;lt;ApplicationName&amp;gt;\SimpleObjectCache.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/nicolaiarocci/SimpleObjectCache&#34;&gt;SimpleObjectCache&lt;/a&gt; is a very simple permanent, cross-platform, asynchronous key-value object cache for .NET. It comes with built-in &lt;a href=&#34;https://www.sqlite.org&#34;&gt;SQLite 3&lt;/a&gt; support. Alternative backends can be added by implementing the &lt;code&gt;IObjectCache&lt;/code&gt; or &lt;code&gt;IBulkObjectCache&lt;/code&gt; interfaces.&lt;/p&gt;
+&lt;h2 id=&#34;how-it-works&#34;&gt;How it works&lt;/h2&gt;
+&lt;p&gt;First, you need to set the &lt;code&gt;ApplicatioName&lt;/code&gt;. This is also going to be the folder where your cache will reside. Depending on the host OS the location of this folder might be different. On Windows it would be something like &lt;code&gt;C:\ProgramData\&amp;lt;ApplicationName&amp;gt;\SimpleObjectCache&lt;/code&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="https://github.com/nicolaiarocci/SimpleObjectCache">SimpleObjectCache</a> is a very simple permanent, cross-platform, asynchronous key-value object cache for .NET. It comes with built-in <a href="https://www.sqlite.org">SQLite 3</a> support. Alternative backends can be added by implementing the <code>IObjectCache</code> or <code>IBulkObjectCache</code> interfaces.</p>
 <h2 id="how-it-works">How it works</h2>
 <p>First, you need to set the <code>ApplicatioName</code>. This is also going to be the folder where your cache will reside. Depending on the host OS the location of this folder might be different. On Windows it would be something like <code>C:\ProgramData\&lt;ApplicationName&gt;\SimpleObjectCache</code>.</p>
@@ -519,12 +549,12 @@ How it works First, you need to set the ApplicatioName. This is also going to be
       <link>https://nicolaiarocci.com/fattura-elettronica-per-la-pa-v0-2-1/</link>
       <pubDate>Mon, 23 May 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/fattura-elettronica-per-la-pa-v0-2-1/</guid>
-      <description>Ho appena pubblicato su NuGet l’ultimo aggiornamento di FatturaElettronicaPA, il package .NET per la compilazione e convalida delle fatture elettroniche per la Pubblica Amministrazione. Si tratta della versione 0.2.1 che fa proprie le novità annunciate il 9 Maggio scorso:
-A partire dal 9 maggio 2016 sono introdotti nuovi controlli sui file trasmessi al Sistema di Interscambio. Per consentire il necessario adeguamento al nuovo regime di verifiche, fino al 31 luglio 2016 il mancato superamento di uno o più di questi nuovi controlli non comporterà lo scarto del file ma solo una segnalazione che verrà riportata all’interno della Ricevuta di consegna o della Notifica di mancata consegna.</description>
+      <description>&lt;p&gt;Ho appena pubblicato su NuGet l’ultimo aggiornamento di &lt;a href=&#34;https://github.com/FatturaElettronicaPA/FatturaElettronicaPA/&#34;&gt;FatturaElettronicaPA&lt;/a&gt;, il package .NET per la compilazione e convalida delle fatture elettroniche per la Pubblica Amministrazione. Si tratta della &lt;a href=&#34;https://www.nuget.org/packages/FatturaElettronicaPA/0.2.1&#34;&gt;versione 0.2.1&lt;/a&gt; che fa proprie le novità annunciate il 9 Maggio scorso:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A partire dal 9 maggio 2016 sono introdotti nuovi controlli sui file trasmessi al Sistema di Interscambio. Per consentire il necessario adeguamento al nuovo regime di verifiche, fino al 31 luglio 2016 il mancato superamento di uno o più di questi nuovi controlli non comporterà lo scarto del file ma solo una segnalazione che verrà riportata all’interno della Ricevuta di consegna o della Notifica di mancata consegna. Dal 1 agosto 2016 i file che non dovessero superare uno o più di questi controlli verranno scartati.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Ho appena pubblicato su NuGet l’ultimo aggiornamento di <a href="https://github.com/FatturaElettronicaPA/FatturaElettronicaPA/">FatturaElettronicaPA</a>, il package .NET per la compilazione e convalida delle fatture elettroniche per la Pubblica Amministrazione. Si tratta della <a href="https://www.nuget.org/packages/FatturaElettronicaPA/0.2.1">versione 0.2.1</a> che fa proprie le novità annunciate il 9 Maggio scorso:</p>
 <blockquote>
-<p>A partire dal 9 maggio 2016 sono introdotti nuovi controlli sui file trasmessi al Sistema di Interscambio. Per consentire il necessario adeguamento al nuovo regime di verifiche, fino al 31 luglio 2016 il mancato superamento di uno o più di questi nuovi controlli non comporterà lo scarto del file ma solo una segnalazione che verrà riportata all’interno della Ricevuta di consegna o della Notifica di mancata consegna. Dal 1 agosto 2016 i file che non dovessero superare uno o più di questi controlli verranno scartati.</p>
-</blockquote>
+<p>A partire dal 9 maggio 2016 sono introdotti nuovi controlli sui file trasmessi al Sistema di Interscambio. Per consentire il necessario adeguamento al nuovo regime di verifiche, fino al 31 luglio 2016 il mancato superamento di uno o più di questi nuovi controlli non comporterà lo scarto del file ma solo una segnalazione che verrà riportata all’interno della Ricevuta di consegna o della Notifica di mancata consegna. Dal 1 agosto 2016 i file che non dovessero superare uno o più di questi controlli verranno scartati.</p></blockquote>
 <p>Se per ora i nuovi controlli non sono vincolanti, lo saranno a partire dal 1 agosto. Poiché si tratta di una serie di convalide sui conteggi consiglio di passare alla versione 0.2.1 al più presto, così da verificare che in effetti le vostre fatture elettroniche siano in linea con le aspettative della PA: potreste avere qualche sorpresa.</p>
 <p>Nel nostro caso, per esempio, abbiamo dovuto prendere atto che gli importi imponibili relativi alle aliquote IVA, così come le corrispondenti imposte, devono essere indicati al lordo degli eventuali sconti generali del documento, pena il rifiuto dello stesso da parte del sistema di interscambio. Date una occhiata al <a href="https://github.com/FatturaElettronicaPA/FatturaElettronicaPA/blob/master/CHANGES">changelog</a> per l’elenco completo delle novità.</p>
 <p>Voglio aggiungere un commento sulle modalità di pubblicazione degli aggiornamenti tecnici da parte di Agenzia Entrate/Sogei. Sebbene siano dotati di data e numero di versione, questi sono da considerarsi, ad essere buoni, puramente indicativi. Per esempio l’attuale <a href="http://www.fatturapa.gov.it/export/fatturazione/sdi/Elenco_Controlli_V1.2.pdf">versione 1.2</a> dell’elenco controlli è stata aggiornata “silenziosamente” un paio di giorni dopo la pubblicazione (hanno aggiunto una tolleranza di 1 Euro al controllo 00422). Così lo sviluppatore incauto che si limiti a controllare la data e il numero di versione del documento rischia di vedersi respingere fatture per lui del tutto corrette, a meno che non di prenda la briga di verificare, riga per riga, la corrispondenza tra la documentazione in suo possesso e quella disponibile sul sito in quel momento. Chiaramente in PA non hanno idea di cosa sia il <a href="http://semver.org/">Semantic Versioning</a>.</p>
@@ -537,8 +567,8 @@ A partire dal 9 maggio 2016 sono introdotti nuovi controlli sui file trasmessi a
       <link>https://nicolaiarocci.com/fatturaelettronicapa-for-net-has-been-updated/</link>
       <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/fatturaelettronicapa-for-net-has-been-updated/</guid>
-      <description>FatturaElettronicaPA has just been updated to v0.1.4. With this release invoice bodies (FatturaElettronicaBody items) are also validated. As always, you can install the package directly from NuGet. See the original post for more info. Also don’t forget to check the related projects.
-Update: v0.1.6 has also been released.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/FatturaElettronicaPA/FatturaElettronicaPA&#34;&gt;FatturaElettronicaPA&lt;/a&gt; has just been updated to v0.1.4. With this release invoice bodies (&lt;code&gt;FatturaElettronicaBody&lt;/code&gt; items) are also validated. As always, you can install the package directly from &lt;a href=&#34;https://www.nuget.org/packages/FatturaElettronicaPA/&#34;&gt;NuGet&lt;/a&gt;. See the &lt;a href=&#34;http://nicolaiarocci.com/fattura-elettronica-open-source/&#34;&gt;original post&lt;/a&gt; for more info. Also don’t forget to check the &lt;a href=&#34;https://github.com/FatturaElettronicaPA&#34;&gt;related projects&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Update: v0.1.6 has also been released.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="https://github.com/FatturaElettronicaPA/FatturaElettronicaPA">FatturaElettronicaPA</a> has just been updated to v0.1.4. With this release invoice bodies (<code>FatturaElettronicaBody</code> items) are also validated. As always, you can install the package directly from <a href="https://www.nuget.org/packages/FatturaElettronicaPA/">NuGet</a>. See the <a href="http://nicolaiarocci.com/fattura-elettronica-open-source/">original post</a> for more info. Also don’t forget to check the <a href="https://github.com/FatturaElettronicaPA">related projects</a>.</p>
 <p>Update: v0.1.6 has also been released.</p>
 ]]></content:encoded>
@@ -548,9 +578,9 @@ Update: v0.1.6 has also been released.</description>
       <link>https://nicolaiarocci.com/fattura-elettronica-open-source-web-service-pa/</link>
       <pubDate>Thu, 21 May 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/fattura-elettronica-open-source-web-service-pa/</guid>
-      <description>this post is about an all-Italian open source release, so it’s going to be in Italian
-Il progetto Fattura Elettronica Open Source si è arricchito di un nuovo strumento: Web Services. Il namespace FatturaElettronicaPA.WebServices raccoglie una serie di client C# che consentono di consultare i Web Service per la Fattura Elettronica messi a disposizione dalla Pubblica Amministrazione.
-Sono disegnati in maniera da esporre tutti la stessa interfaccia ed essere al tempo stesso semplici e leggeri.</description>
+      <description>&lt;p&gt;&lt;em&gt;this post is about an all-Italian open source release, so it’s going to be in Italian&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Il progetto &lt;a href=&#34;http://nicolaiarocci.com/fattura-elettronica-open-source/&#34;&gt;Fattura Elettronica Open Source&lt;/a&gt; si è arricchito di un nuovo strumento: &lt;a href=&#34;https://github.com/FatturaElettronicaPA/FatturaElettronicaPA.WebServices&#34;&gt;Web Services&lt;/a&gt;. Il namespace &lt;code&gt;FatturaElettronicaPA.WebServices&lt;/code&gt; raccoglie una serie di client C# che consentono di consultare i Web Service per la Fattura Elettronica messi a disposizione dalla Pubblica Amministrazione.&lt;/p&gt;
+&lt;p&gt;Sono disegnati in maniera da esporre tutti la stessa interfaccia ed essere al tempo stesso semplici e leggeri. Al momento lavorano in modalità sincrona ma l’obiettivo è di renderli tutti asincroni.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><em>this post is about an all-Italian open source release, so it’s going to be in Italian</em></p>
 <p>Il progetto <a href="http://nicolaiarocci.com/fattura-elettronica-open-source/">Fattura Elettronica Open Source</a> si è arricchito di un nuovo strumento: <a href="https://github.com/FatturaElettronicaPA/FatturaElettronicaPA.WebServices">Web Services</a>. Il namespace <code>FatturaElettronicaPA.WebServices</code> raccoglie una serie di client C# che consentono di consultare i Web Service per la Fattura Elettronica messi a disposizione dalla Pubblica Amministrazione.</p>
 <p>Sono disegnati in maniera da esporre tutti la stessa interfaccia ed essere al tempo stesso semplici e leggeri. Al momento lavorano in modalità sincrona ma l’obiettivo è di renderli tutti asincroni.</p>
@@ -584,7 +614,7 @@ Console.WriteLine(ws.Ufficio.Comune);
       <link>https://nicolaiarocci.com/fattura-elettronica-open-source-update/</link>
       <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/fattura-elettronica-open-source-update/</guid>
-      <description>Fattura Elettronica Open Source has been updated to v0.1.3 a few days ago and is available on NuGet. Sources are on GitHub. It fixes a deserialization issue with the ReadXML method.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://fatturaelettronicaopensource.org/&#34;&gt;Fattura Elettronica Open Source&lt;/a&gt; has been updated to v0.1.3 a few days ago and is available on &lt;a href=&#34;https://www.nuget.org/packages/FatturaElettronicaPA/&#34;&gt;NuGet&lt;/a&gt;. Sources are on &lt;a href=&#34;https://github.com/FatturaElettronicaPA/FatturaElettronicaPA&#34;&gt;GitHub&lt;/a&gt;. It fixes a deserialization issue with the &lt;code&gt;ReadXML&lt;/code&gt; method.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="http://fatturaelettronicaopensource.org/">Fattura Elettronica Open Source</a> has been updated to v0.1.3 a few days ago and is available on <a href="https://www.nuget.org/packages/FatturaElettronicaPA/">NuGet</a>. Sources are on <a href="https://github.com/FatturaElettronicaPA/FatturaElettronicaPA">GitHub</a>. It fixes a deserialization issue with the <code>ReadXML</code> method.</p>
 ]]></content:encoded>
     </item>
@@ -668,21 +698,19 @@ using (w = XmlWriter.Create(fileName, s)) {
       <link>https://nicolaiarocci.com/some-thoughts-on-the-new-net-redux/</link>
       <pubDate>Thu, 04 Dec 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/some-thoughts-on-the-new-net-redux/</guid>
-      <description>Like all those involved with the .NET ecosystem I’ve been slowly digesting the recent news on the whole thing going open source and cross platform. I’ve been jogging down a few notes in light of a future blog post, but then Jeremy Miller came out with his own Some Thoughts on the New .NET which is almost exactly the post I wanted to write. So when he writes:
-I’ve started to associate .</description>
+      <description>&lt;p&gt;Like all those involved with the .NET ecosystem I’ve been slowly digesting the recent news on the whole thing going open source and cross platform. I’ve been jogging down a few notes in light of a future blog post, but then Jeremy Miller came out with his own &lt;a href=&#34;http://jeremydmiller.com/2014/12/02/some-thoughts-on-the-new-net/&#34;&gt;Some Thoughts on the New .NET&lt;/a&gt; which is almost exactly the post I wanted to write. So when he writes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I’ve started to associate .Net “classic” with seemingly constant aggravations like strong naming conflicts, csproj file merge hell, slow compilation, slow nuget restores, and how absurdly heavyweight and bloated that Visual Studio.Net has become over the years.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Like all those involved with the .NET ecosystem I’ve been slowly digesting the recent news on the whole thing going open source and cross platform. I’ve been jogging down a few notes in light of a future blog post, but then Jeremy Miller came out with his own <a href="http://jeremydmiller.com/2014/12/02/some-thoughts-on-the-new-net/">Some Thoughts on the New .NET</a> which is almost exactly the post I wanted to write. So when he writes:</p>
 <blockquote>
-<p>I’ve started to associate .Net “classic” with seemingly constant aggravations like strong naming conflicts, csproj file merge hell, slow compilation, slow nuget restores, and how absurdly heavyweight and bloated that Visual Studio.Net has become over the years.</p>
-</blockquote>
+<p>I’ve started to associate .Net “classic” with seemingly constant aggravations like strong naming conflicts, csproj file merge hell, slow compilation, slow nuget restores, and how absurdly heavyweight and bloated that Visual Studio.Net has become over the years.</p></blockquote>
 <p>It is me. No it’s actually Jeremy but really it’s me. I also share his concerns on the future OSS .NET community him:</p>
 <blockquote>
-<p>So much of .Net is open source now and they even take contributions. Awesome, great, but my very first reaction was that it doesn’t matter much because <strong>the .Net community as a whole isn’t as participatory as other communities</strong> and that would have to change before ASP.Net vNext being OSS matters. It’ll be interesting to me to see if that changes over time.</p>
-</blockquote>
+<p>So much of .Net is open source now and they even take contributions. Awesome, great, but my very first reaction was that it doesn’t matter much because <strong>the .Net community as a whole isn’t as participatory as other communities</strong> and that would have to change before ASP.Net vNext being OSS matters. It’ll be interesting to me to see if that changes over time.</p></blockquote>
 <p>I’m very involved with the Python language and its community. I released <a href="http://nicolaiarocci.com/opensource/">open source projects</a> for both platforms and frankly I’ve been shocked by the difference in culture between the two communities. I am really hoping that, in due time, .NET going open source will also cause its community to evolve as a whole.</p>
 <p>And what about coding on a Mac (or Linux for the matter)? He goes on with:</p>
 <blockquote>
-<p>After a couple years now of using a Mac, I’d really prefer to stay on that side of things and hopefully give my Windows VM much more time off. Mac OS being a first class citizen for the new .Net and the progress on the OmniSharp tools for Sublime or MacVim is going to make the new ASP.Net vNext runtime a much easier sell in my shop.</p>
-</blockquote>
+<p>After a couple years now of using a Mac, I’d really prefer to stay on that side of things and hopefully give my Windows VM much more time off. Mac OS being a first class citizen for the new .Net and the progress on the OmniSharp tools for Sublime or MacVim is going to make the new ASP.Net vNext runtime a much easier sell in my shop.</p></blockquote>
 <p>I’ve been working on a Mac for years, confining Windows on a VM, doing Python with Vim as much as possible. My God I love Vim. My Visual Studio runs VsVim (which is open source by the way). Even my Xamarin Studio on OSX runs in vi mode (which sucks unfortunately). I would never go back to a Windows machine but that does not mean that I don’ want to use C# or F#. Even these days most of my coding is C# in XS/OSX or Vim with OmniSharp, a project I’ve been experimenting with since when the plugin for Vim was released. So native .NET on OSX and Unix? Yes please.</p>
 <p>I am in the process of writing a C# iOS application. The data layer is SQLite encapsulated in a Portable Class so we can use it on both Windows and iOS. The HTTP/REST client is also portable, <a href="http://nicolaiarocci.com/introducing-eve-net-httprest-client-humans/">open source</a> and consumed on both platforms. And now even the mobile UI is C# and portable between Android, iOS and Windows Phone thanks to Xamarin.Forms. If you ask me, the future looks bright.</p>
 <p>You should read Jeremy post on <a href="http://jeremydmiller.com/2014/12/02/some-thoughts-on-the-new-net/">his site</a>.</p>
@@ -841,14 +869,14 @@ public class Company : BaseClass
       <link>https://nicolaiarocci.com/left-net-framework/</link>
       <pubDate>Mon, 03 Feb 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/left-net-framework/</guid>
-      <description>I can’t say I left the .NET Framework altogether as our main app was developed with .NET and we still maintain it on daily basis. Whenever applicable however, all the recent stuff is being done outside the walled garden.
-The following Jonathan Oliver totally resonates with my experience.
-The .NET Framework was good. Really good. Until it wasn’t. Why did I leave .NET? In short, it constrained our ability to choose (which is a huge deal for me) and turned our focus inward toward the perceived safety of the nest instead of the helping us experiencing all of the possibilities out there in the big, wide world.</description>
+      <description>&lt;p&gt;I can’t say I left the .NET Framework altogether as our main app was developed with .NET and we still maintain it on daily basis. Whenever applicable however, all the recent stuff is being done outside the walled garden.&lt;/p&gt;
+&lt;p&gt;The following Jonathan Oliver totally resonates with my experience.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The .NET Framework was good. Really good. Until it wasn’t. Why did I leave .NET? In short, it constrained our ability to choose (which is a huge deal for me) and turned our focus inward toward the perceived safety of the nest instead of the helping us experiencing all of the possibilities out there in the big, wide world.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I can’t say I left the .NET Framework altogether as our main app was developed with .NET and we still maintain it on daily basis. Whenever applicable however, all the recent stuff is being done outside the walled garden.</p>
 <p>The following Jonathan Oliver totally resonates with my experience.</p>
 <blockquote>
-<p>The .NET Framework was good. Really good. Until it wasn’t. Why did I leave .NET? In short, it constrained our ability to choose (which is a huge deal for me) and turned our focus inward toward the perceived safety of the nest instead of the helping us experiencing all of the possibilities out there in the big, wide world.</p>
-</blockquote>
+<p>The .NET Framework was good. Really good. Until it wasn’t. Why did I leave .NET? In short, it constrained our ability to choose (which is a huge deal for me) and turned our focus inward toward the perceived safety of the nest instead of the helping us experiencing all of the possibilities out there in the big, wide world.</p></blockquote>
 <p>via <a href="http://blog.jonathanoliver.com/why-i-left-dot-net/">Why I Left the .NET Framework</a>.</p>
 ]]></content:encoded>
     </item>
@@ -873,9 +901,8 @@ The .NET Framework was good. Really good. Until it wasn’t. Why did I leave .NE
       <link>https://nicolaiarocci.com/mono-2-10-3-gira-su-os-x-lion-ed-e-vivo-e-vegeto/</link>
       <pubDate>Fri, 05 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/mono-2-10-3-gira-su-os-x-lion-ed-e-vivo-e-vegeto/</guid>
-      <description>Xamarin, la compagnia che ha preso in mano il Progetto Mono dopo l’addio di Novell, ha appena rilasciato Mono 2.10.3. Ne da annuncio lo stesso Manuel de Icaza, storico deux-ex-machina del progetto e fondatore di Xamarin.
-Si tratta per lo più di una versione di manutenzione che risolve numerosi problemi, primo fra tutti l’instabilità di Mono sull’ultima versione di MacOS X Lion.
-L’importanza di questo aggiornamento va ben oltre le sue caratteristiche tecniche.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Xamarin, la compagnia che &lt;a href=&#34;http://nicolaiarocci.com/il-progetto-mono-salvato-in-extremis-dal-suo-fondatore/&#34; title=&#34;Progetto Mono salvato dal suo fondatore&#34;&gt;ha preso in mano il Progetto Mono&lt;/a&gt; dopo l’addio di Novell, ha appena rilasciato Mono 2.10.3. Ne da annuncio lo stesso Manuel de Icaza, storico deux-ex-machina del progetto e fondatore di Xamarin.&lt;/p&gt;
+&lt;p&gt;Si tratta per lo più di una versione di manutenzione che &lt;!-- raw HTML omitted --&gt;risolve numerosi problemi&lt;!-- raw HTML omitted --&gt;, primo fra tutti l’instabilità di Mono sull’ultima versione di MacOS X Lion.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->Xamarin, la compagnia che <a href="http://nicolaiarocci.com/il-progetto-mono-salvato-in-extremis-dal-suo-fondatore/" title="Progetto Mono salvato dal suo fondatore">ha preso in mano il Progetto Mono</a> dopo l’addio di Novell, ha appena rilasciato Mono 2.10.3. Ne da annuncio lo stesso Manuel de Icaza, storico deux-ex-machina del progetto e fondatore di Xamarin.</p>
 <p>Si tratta per lo più di una versione di manutenzione che <!-- raw HTML omitted -->risolve numerosi problemi<!-- raw HTML omitted -->, primo fra tutti l’instabilità di Mono sull’ultima versione di MacOS X Lion.</p>
 <p>L’importanza di questo aggiornamento va ben oltre le sue caratteristiche tecniche. Il titolo stesso dell’<!-- raw HTML omitted -->annuncio<!-- raw HTML omitted --> (And We Are Back) parla chiaro: si tratta di un segnale di continuità importante che Xamarin lancia alla comunità mondiale di sviluppatori Mono. Per informazioni sul progetto e sulle sue vicissitudini recenti vi invito a leggere l’<a href="http://nicolaiarocci.com/il-progetto-mono-salvato-in-extremis-dal-suo-fondatore/" title="Il Progetto Mono salvato in extremis dal suo fondatore">articolo sul salvataggio di Mono</a> che ho scritto qualche tempo fa.</p>
@@ -895,21 +922,18 @@ L’importanza di questo aggiornamento va ben oltre le sue caratteristiche tecni
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <blockquote>
-<p>You all saw a very small technology demo of Windows 8, and a brief press release. We’re all being quiet right now because we can’t comment on this. It’s not because we don’t care, aren’t listening, have given up, or are agreeing or disagreeing with you on something. All I can say for now is to please wait until September. If we say more before then, that will be great, but there are no promises (and I’m not aware of any plans) to say more right now. I’m very sorry that there’s nothing else to share at the moment. I know that answer is terrible, but it’s all that we can say right now. Seriously.</p>
-</blockquote>
+<p>You all saw a very small technology demo of Windows 8, and a brief press release. We’re all being quiet right now because we can’t comment on this. It’s not because we don’t care, aren’t listening, have given up, or are agreeing or disagreeing with you on something. All I can say for now is to please wait until September. If we say more before then, that will be great, but there are no promises (and I’m not aware of any plans) to say more right now. I’m very sorry that there’s nothing else to share at the moment. I know that answer is terrible, but it’s all that we can say right now. Seriously.</p></blockquote>
 <p>Quindi bocche cucite, almeno fino a Settembre. In seguito Brown interviene ancora, tirato per la giacchetta dai molti che hanno interpretato le sue parole nelle maniere più disparate:</p>
 <blockquote>
 <p>This whole thing has blown way out of proportion. Base your information on our primary sources (like our press release), not on third party speculation. That’s not to minimize how everyone feels, but keep in mind that Windows 8 itself is still a ways off from retail, and even much further away from internal IT adoption. The 8 weeks until //build/ is a pretty small amount of time to wait in comparison.</p>
-<p>Take some vacation time this summer, and look forward to the //build/ conference. Stop speculating based on just a small demo of some very cool new technology. Tell your management to do the same: if they’re basing your project work for the next X years on the results of a quick demo for an unreleased operating system, then they are doing you and your company a real disservice.</p>
-</blockquote>
+<p>Take some vacation time this summer, and look forward to the //build/ conference. Stop speculating based on just a small demo of some very cool new technology. Tell your management to do the same: if they’re basing your project work for the next X years on the results of a quick demo for an unreleased operating system, then they are doing you and your company a real disservice.</p></blockquote>
 <p>Windows 8 è ben lontano dall’essere pronto, e quel che si è visto nel filmato è solo la prima di una serie di anteprime. Inutile fare speculazioni basate su una demo di pochi minuti. Questa estate godetevi le vacanza, ne riparleremo al vostro ritorno. Dite ai vostri manager di fare lo stesso. <strong>Se stanno pianificando il lavoro dei prossimi anni basandosi solo su una breve anteprima di un sistema operativo non ancora pronto, allora stanno facendo un grave errore</strong>.</p>
 <h2 id="non-è-mica-la-prima-volta">Non è mica la prima volta</h2>
 <p>Niente da obiettare da parte mia. Mi limito a rilevare che non è la prima volta che il futuro delle piattaforme Microsoft viene messo in discussione anche dallo stesso personale Microsoft. Leggendaria la gaffe di <!-- raw HTML omitted -->Bob Muglia<!-- raw HTML omitted -->, Vice President for Server and Tools Businesses (mica cotica) riportata fedelmente da <!-- raw HTML omitted -->Mary Jo Foley<!-- raw HTML omitted -->:</p>
 <blockquote>
 <p>“Silverlight is our development platform for Windows Phone,” he said. Silverlight also has some “sweet spots” in media and line-of-business applications, he said.</p>
 <p>But when it comes to touting Silverlight as Microsoft’s vehicle for delivering a cross-platform runtime, “<strong>our strategy has shifted</strong>,” Muglia told me.</p>
-<p>Silverlight will continue to be a cross-platform solution, working on a variety of operating system/browser platforms, going forward, he said. “But <strong>HTML is the only true cross platform solution for everything</strong>, including (Apple’s) iOS platform,” Muglia said.</p>
-</blockquote>
+<p>Silverlight will continue to be a cross-platform solution, working on a variety of operating system/browser platforms, going forward, he said. “But <strong>HTML is the only true cross platform solution for everything</strong>, including (Apple’s) iOS platform,” Muglia said.</p></blockquote>
 <p>All’epoca fu necessario un comunicato congiunto di Steve Ballmer (CEO Microsoft) e del penitente Bob Muglia per acquietare la tempesta scatenata da queste parole. Sarà un caso che recentemente Muglia abbia annunciato il trasloco ad altri lidi?</p>
 <p>Il fatto è che le tante aziende che hanno investito molto e – ahimé – esclusivamente sulle piattaforme Microsoft ora guardano con terrore a uno scenario, per quanto improbabile, che non veda Silverlight, WPF e .NET in cima all’agenda della casa madre.</p>
 <h2 id="img-classalignright-titlehtml5-logo-srchttpi2wpcomnicolaiaroccicomwp-contentuploadshtml5-logopngresize1282c150-althtml5-logo-data-recalc-dims1-il-futuro-del-web-è-silverlight"><!-- raw HTML omitted -->Il futuro del Web è Silverlight?</h2>
@@ -995,7 +1019,7 @@ L’importanza di questo aggiornamento va ben oltre le sue caratteristiche tecni
 <li>SILVERLIGHT (1.1M)</li>
 <li>FLASH (509K)</li>
 </ul>
-<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…<!-- raw HTML omitted --></p>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…</p>
 <h2 id="gli-ebooks-di-stack-overflow-1">Gli eBooks di Stack Overflow</h2>
 <h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1--1"><!-- raw HTML omitted --></h2>
 <p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
@@ -1021,7 +1045,7 @@ L’importanza di questo aggiornamento va ben oltre le sue caratteristiche tecni
 <li>SILVERLIGHT (1.1M)</li>
 <li>FLASH (509K)</li>
 </ul>
-<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con]<a href="http://www.amazon.com/dp/B002Y27P3M/?tag=gocous-20&amp;hvadid=5729120357&amp;ref=pd_sl_blgu0nkyl_b">7</a> e credo con altri lettori di eBook. Ricordo che è possibile leggere i libri per Kindle con l’applicazione <strong>gratuita</strong> disponibile per <a href="http://www.amazon.com/gp/feature.html/ref=kcp_pc_mkt_lnd?docId=1000426311">PC</a>, <a href="http://www.amazon.com/gp/feature.html/ref=kcp_mac_mkt_lnd?docId=1000464931">Mac</a>, [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…<!-- raw HTML omitted --></p>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con]<a href="http://www.amazon.com/dp/B002Y27P3M/?tag=gocous-20&amp;hvadid=5729120357&amp;ref=pd_sl_blgu0nkyl_b">7</a> e credo con altri lettori di eBook. Ricordo che è possibile leggere i libri per Kindle con l’applicazione <strong>gratuita</strong> disponibile per <a href="http://www.amazon.com/gp/feature.html/ref=kcp_pc_mkt_lnd?docId=1000426311">PC</a>, <a href="http://www.amazon.com/gp/feature.html/ref=kcp_mac_mkt_lnd?docId=1000464931">Mac</a>, [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…</p>
 <h2 id="gli-ebooks-di-stack-overflow-2">Gli eBooks di Stack Overflow</h2>
 <h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1--2"><!-- raw HTML omitted --></h2>
 <p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
@@ -1047,7 +1071,7 @@ L’importanza di questo aggiornamento va ben oltre le sue caratteristiche tecni
 <li>SILVERLIGHT (1.1M)</li>
 <li>FLASH (509K)</li>
 </ul>
-<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…<!-- raw HTML omitted --></p>
+<p>Alcuni sono di dimensioni notevoli il che ne fa ideali letture da divano! Il formato usato per confezionare gli eBook è <a href="http://www.mobipocket.com/dev/article.asp?BaseFolder=prcgen&amp;File=mobiformat.htm">Mobipocket</a>, compatibile con [<!-- raw HTML omitted --><a href="http://stackoverflow.com/"><strong>Stack Overflow</strong></a> è la risorsa per programmatori più famosa e apprezzata della Rete. Purtroppo domande e risposte pubblicate sul sito si succedono a un ritmo tale che è impossibile seguire gli aggiornamenti in tempo reale. Per questo motivo la gran parte degli utenti (sottoscritto incluso!) ricorre a Stack Overflow solo al momento del bisogno, quando è necessario trovare in fretta la soluzione a un problema critico. E’ un peccato perchè Stack Overflow è una vera <strong>minera di informazioni</strong> <strong>preziose</strong> e  meriterebbe maggiore attenzione…</p>
 <h2 id="gli-ebooks-di-stack-overflow-3">Gli eBooks di Stack Overflow</h2>
 <h2 id="img-classsize-full-wp-image-794-alignright-titlestack-overflow-ebook-srchttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgfit2002c267-altstack-overflow-ebook-srcsethttpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgw200-200w-httpi2wpcomnicolaiaroccicomwp-contentuploads201102stack_overflow_ebookjpgresize1122c150-112w-sizesmax-width-200px-100vw-200px-data-recalc-dims1--3"><!-- raw HTML omitted --></h2>
 <p>Recentemente <a href="http://meta.stackoverflow.com/users/893/greg-hewgill">Greg Hewkill</a> ha <a href="http://meta.stackoverflow.com/questions/74399/stack-overflow-top-20-tags-in-ebook-format">annunciato</a> la creazione di <a href="https://github.com/ghewgill/so-static">uno script open source</a> che genera un eBook per ognuno dei <strong>20 tag più popolari</strong> di Stack Overflow. Ogni libro contiene le domande (e risposte) più votate nella sua categoria. Il risultato è una vera e propria <a href="http://hewgill.com/~greg/stackoverflow/ebooks/"><em>collana Stack Overflow</em></a> che propone il <strong>concentrato dei migliori contenuti del sito</strong>. Basta scorrere i <em>titoli</em> (tag) per rendersi conto che ce n’è davvero per tutti i gusti. Ecco una lista parziale:</p>
@@ -1081,12 +1105,12 @@ L’importanza di questo aggiornamento va ben oltre le sue caratteristiche tecni
       <link>https://nicolaiarocci.com/programmazione-asincrona/</link>
       <pubDate>Fri, 29 Oct 2010 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/programmazione-asincrona/</guid>
-      <description>Un articolo sul Somasegar’s Weblog annuncia oggi il rilascio imminente di un nuovo modello di programmazione asincrona per C# and VB:
-Today, we are unveiling significant language and framework enhancements in C# and Visual Basic that enable developers to harness asynchrony, letting them retain the control flow from their synchronous code while developing responsive user interfaces and scalable web applications with greater ease. This CTP delivers a lightweight asynchronous development experience as close to the standard synchronous paradigms as possible, while providing an easy on-ramp to the world of concurrency</description>
+      <description>&lt;p&gt;Un articolo sul &lt;!-- raw HTML omitted --&gt;Somasegar’s Weblog&lt;!-- raw HTML omitted --&gt; annuncia oggi il rilascio imminente di un nuovo modello di programmazione asincrona per C# and VB:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Today, we are unveiling significant language and framework enhancements in C# and Visual Basic that enable developers to harness asynchrony, letting them retain the control flow from their synchronous code while developing responsive user interfaces and scalable web applications with greater ease.   This CTP delivers a lightweight asynchronous development experience as close to the standard synchronous paradigms as possible, while providing an easy on-ramp to the world of concurrency&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Un articolo sul <!-- raw HTML omitted -->Somasegar’s Weblog<!-- raw HTML omitted --> annuncia oggi il rilascio imminente di un nuovo modello di programmazione asincrona per C# and VB:</p>
 <blockquote>
-<p>Today, we are unveiling significant language and framework enhancements in C# and Visual Basic that enable developers to harness asynchrony, letting them retain the control flow from their synchronous code while developing responsive user interfaces and scalable web applications with greater ease.   This CTP delivers a lightweight asynchronous development experience as close to the standard synchronous paradigms as possible, while providing an easy on-ramp to the world of concurrency</p>
-</blockquote>
+<p>Today, we are unveiling significant language and framework enhancements in C# and Visual Basic that enable developers to harness asynchrony, letting them retain the control flow from their synchronous code while developing responsive user interfaces and scalable web applications with greater ease.   This CTP delivers a lightweight asynchronous development experience as close to the standard synchronous paradigms as possible, while providing an easy on-ramp to the world of concurrency</p></blockquote>
 <p>Lo stesso Somasegar riconosce che finora sviluppare applicazioni asincrone complesse con la piattaforma .NET non è stato facile. Tempo fa l’ho sperimentato in prima persona. Lavoravo su <a href="http://gestionaleamica.com/Backup/">Amica Prodigy Backup</a>, una applicazione di backup remoto.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->

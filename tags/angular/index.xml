@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>angular on Nicola Iarocci</title>
+    <title>Angular on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/angular/</link>
-    <description>Recent content in angular on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Angular on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 07 Feb 2014 00:00:00 +0000</lastBuildDate>
@@ -14,11 +14,11 @@
       <link>https://nicolaiarocci.com/why-angularjs-will-be-huge/</link>
       <pubDate>Fri, 07 Feb 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/why-angularjs-will-be-huge/</guid>
-      <description>The reality is that AngularJS is winning the frontend framework war. It’s not to say there aren’t great, high quality alternatives out there, but few have gained so much developer mindshare that slow and conservative companies see it as a wonderful investment. And it’s all the better that normal developers actually love developing with it!
-via Why AngularJS Will Be Huge.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;The reality is that AngularJS is winning the frontend framework war. It’s not to say there aren’t great, high quality alternatives out there, but few have gained so much developer mindshare that slow and conservative companies see it as a wonderful investment. And it’s all the better that normal developers actually love developing with it!&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;via &lt;a href=&#34;http://ionicframework.com/blog/angularjs-will-be-huge/&#34;&gt;Why AngularJS Will Be Huge&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>The reality is that AngularJS is winning the frontend framework war. It’s not to say there aren’t great, high quality alternatives out there, but few have gained so much developer mindshare that slow and conservative companies see it as a wonderful investment. And it’s all the better that normal developers actually love developing with it!</p>
-</blockquote>
+<p>The reality is that AngularJS is winning the frontend framework war. It’s not to say there aren’t great, high quality alternatives out there, but few have gained so much developer mindshare that slow and conservative companies see it as a wonderful investment. And it’s all the better that normal developers actually love developing with it!</p></blockquote>
 <p>via <a href="http://ionicframework.com/blog/angularjs-will-be-huge/">Why AngularJS Will Be Huge</a>.</p>
 ]]></content:encoded>
     </item>
@@ -27,12 +27,12 @@ via Why AngularJS Will Be Huge.</description>
       <link>https://nicolaiarocci.com/backbone-js-vs-angular-js-dissacrare-il-mito/</link>
       <pubDate>Mon, 25 Feb 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/backbone-js-vs-angular-js-dissacrare-il-mito/</guid>
-      <description>Lettura interessante se state cercando quello giusto fra le decine di front-end framework disponibili.
-I love the way how each and every discussion turns into the war of the frameworks. I have worked with BackboneJS and AngularJS quite extensively and have come across most of their short comings in production. So, you dont really have to take this analysis with a grain of salt. I would be happy to take back anything that I have said if it turns out to be wrong.</description>
+      <description>&lt;p&gt;Lettura interessante se state cercando quello giusto fra le decine di front-end framework disponibili.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I love the way how each and every discussion turns into the war of the frameworks. I have worked with BackboneJS and AngularJS quite extensively and have come across most of their short comings in production. So, you dont really have to take this analysis with a grain of salt. I would be happy to take back anything that I have said if it turns out to be wrong. Lets get to the meat of it, then, shall we?&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Lettura interessante se state cercando quello giusto fra le decine di front-end framework disponibili.</p>
 <blockquote>
-<p>I love the way how each and every discussion turns into the war of the frameworks. I have worked with BackboneJS and AngularJS quite extensively and have come across most of their short comings in production. So, you dont really have to take this analysis with a grain of salt. I would be happy to take back anything that I have said if it turns out to be wrong. Lets get to the meat of it, then, shall we?</p>
-</blockquote>
+<p>I love the way how each and every discussion turns into the war of the frameworks. I have worked with BackboneJS and AngularJS quite extensively and have come across most of their short comings in production. So, you dont really have to take this analysis with a grain of salt. I would be happy to take back anything that I have said if it turns out to be wrong. Lets get to the meat of it, then, shall we?</p></blockquote>
 <p><!-- raw HTML omitted -->Backbone vs Angular: Demystifying the myths<!-- raw HTML omitted --></p>
 ]]></content:encoded>
     </item>

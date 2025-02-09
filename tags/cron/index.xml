@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>cron on Nicola Iarocci</title>
+    <title>Cron on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/cron/</link>
-    <description>Recent content in cron on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Cron on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 17 Mar 2021 07:05:25 +0100</lastBuildDate>
@@ -14,8 +14,15 @@
       <link>https://nicolaiarocci.com/battling-with-ssh-cron-jobs-and-macos-keyring/</link>
       <pubDate>Wed, 17 Mar 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/battling-with-ssh-cron-jobs-and-macos-keyring/</guid>
-      <description>So today, I was setting up a cronjob on my trusty MacBook Pro. The goal was to backup some folders from a remote Linux server via rsync. The script is simple. It goes something like this:
-rsync -avz -e &amp;quot;ssh -i ~/.ssh/my_rsa_keyfile&amp;quot; myuser@myserver:remotedir/ ~/localdir/ Launched by hand, it works seamlessly. Call it from a cron job via crontab, and I get a permission denied error. I then enabled ssh -v option to gather a little intel on what was actually going on.</description>
+      <description>&lt;p&gt;So today, I was setting up a cronjob on my trusty MacBook Pro. The goal was to
+backup some folders from a remote Linux server via rsync. The script is simple.
+It goes something like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;rsync -avz -e &amp;quot;ssh -i ~/.ssh/my_rsa_keyfile&amp;quot; myuser@myserver:remotedir/ ~/localdir/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Launched by hand, it works seamlessly. Call it from a cron job via crontab, and
+I get a permission denied error. I then enabled ssh &lt;code&gt;-v&lt;/code&gt; option to gather
+a little intel on what was actually going on. As it turns out, the exact
+error was:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>So today, I was setting up a cronjob on my trusty MacBook Pro. The goal was to
 backup some folders from a remote Linux server via rsync. The script is simple.
 It goes something like this:</p>

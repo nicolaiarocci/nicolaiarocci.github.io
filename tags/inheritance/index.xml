@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>inheritance on Nicola Iarocci</title>
+    <title>Inheritance on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/inheritance/</link>
-    <description>Recent content in inheritance on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Inheritance on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Tue, 26 May 2015 00:00:00 +0000</lastBuildDate>
@@ -14,12 +14,12 @@
       <link>https://nicolaiarocci.com/composition-vs-inheritance-how-to-choose/</link>
       <pubDate>Tue, 26 May 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/composition-vs-inheritance-how-to-choose/</guid>
-      <description>Steven Lowe piece on Composition vs. Inheritance is a must read. Just to wet your appetite, let me quote the opening paragraph:
-In the beginning, there was no inheritance and no composition, only code. And the code was unwieldy, repetitive, blocky, unhappy, verbose, and tired. Copy and Paste were the primary mechanisms of code reuse. Procedures and functions were rare, newfangled gadgets viewed with suspicion. Calling a procedure was expensive! Separating pieces of code from the main logic caused confusion!</description>
+      <description>&lt;p&gt;Steven Lowe piece on &lt;a href=&#34;http://www.thoughtworks.com/insights/blog/composition-vs-inheritance-how-choose&#34;&gt;Composition vs. Inheritance&lt;/a&gt; is a must read. Just to wet your appetite, let me quote the opening paragraph:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In the beginning, there was no inheritance and no composition, only code. And the code was unwieldy, repetitive, blocky, unhappy, verbose, and tired. Copy and Paste were the primary mechanisms of code reuse. Procedures and functions were rare, newfangled gadgets viewed with suspicion. Calling a procedure was expensive! Separating pieces of code from the main logic caused confusion! It was a Dark Time.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Steven Lowe piece on <a href="http://www.thoughtworks.com/insights/blog/composition-vs-inheritance-how-choose">Composition vs. Inheritance</a> is a must read. Just to wet your appetite, let me quote the opening paragraph:</p>
 <blockquote>
-<p>In the beginning, there was no inheritance and no composition, only code. And the code was unwieldy, repetitive, blocky, unhappy, verbose, and tired. Copy and Paste were the primary mechanisms of code reuse. Procedures and functions were rare, newfangled gadgets viewed with suspicion. Calling a procedure was expensive! Separating pieces of code from the main logic caused confusion! It was a Dark Time.</p>
-</blockquote>
+<p>In the beginning, there was no inheritance and no composition, only code. And the code was unwieldy, repetitive, blocky, unhappy, verbose, and tired. Copy and Paste were the primary mechanisms of code reuse. Procedures and functions were rare, newfangled gadgets viewed with suspicion. Calling a procedure was expensive! Separating pieces of code from the main logic caused confusion! It was a Dark Time.</p></blockquote>
 ]]></content:encoded>
     </item>
   </channel>

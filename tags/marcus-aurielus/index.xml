@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>marcus aurielus on Nicola Iarocci</title>
+    <title>Marcus Aurielus on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/marcus-aurielus/</link>
-    <description>Recent content in marcus aurielus on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Marcus Aurielus on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Sat, 03 Feb 2024 08:21:18 +0100</lastBuildDate>
@@ -14,16 +14,22 @@
       <link>https://nicolaiarocci.com/marcus-aurelius-the-man-who-solved-the-universe/</link>
       <pubDate>Sat, 03 Feb 2024 08:21:18 +0100</pubDate>
       <guid>https://nicolaiarocci.com/marcus-aurelius-the-man-who-solved-the-universe/</guid>
-      <description>I&amp;rsquo;ve been reading Marcus Aurielius&amp;rsquo; Meditations and, very appropriately and scaringly, YouTube algorithm thought I would be interested in Marcus Aurelius, the Man Who Solved The Universe. The title is bombastic and misplaced, but the video is well executed and correctly summarizes some of the Emperor-Philosopher&amp;rsquo;s thoughts.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve been reading Marcus Aurielius&amp;rsquo; &lt;em&gt;Meditations&lt;/em&gt; and, very appropriately and
+scaringly, YouTube algorithm thought I would be interested in &lt;a href=&#34;https://www.youtube.com/watch?v=tv6W0Nv5ev0&#34;&gt;Marcus Aurelius,
+the Man Who Solved The Universe&lt;/a&gt;.
+The title is bombastic and misplaced, but the video is well executed and
+correctly summarizes some of the Emperor-Philosopher&amp;rsquo;s thoughts.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/tv6W0Nv5ev0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
       <content:encoded><![CDATA[<p>I&rsquo;ve been reading Marcus Aurielius&rsquo; <em>Meditations</em> and, very appropriately and
 scaringly, YouTube algorithm thought I would be interested in <a href="https://www.youtube.com/watch?v=tv6W0Nv5ev0">Marcus Aurelius,
 the Man Who Solved The Universe</a>.
 The title is bombastic and misplaced, but the video is well executed and
 correctly summarizes some of the Emperor-Philosopher&rsquo;s thoughts.</p>
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/tv6W0Nv5ev0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/tv6W0Nv5ev0?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
 ]]></content:encoded>
     </item>

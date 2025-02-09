@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>flammarion on Nicola Iarocci</title>
+    <title>Flammarion on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/flammarion/</link>
-    <description>Recent content in flammarion on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Flammarion on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 02 Feb 2023 07:05:25 +0100</lastBuildDate>
@@ -14,13 +14,18 @@
       <link>https://nicolaiarocci.com/flammarion-engraving/</link>
       <pubDate>Thu, 02 Feb 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/flammarion-engraving/</guid>
-      <description>I was reading iA&amp;rsquo;s grumpy writing about GPT (with which I sympathize) when my attention was captured by the image they added to their post. It was so fascinating that I had to research it.
-As it turns out, this is the Flammarion engraving, a famous wood engraving by an unknown artist, so named because its first documented appearance is in Camille Flammarion&amp;rsquo;s 1888 book L&amp;rsquo;atmosphère: météorologie populaire (&amp;ldquo;The Atmosphere: Popular Meteorology&amp;rdquo;).</description>
+      <description>&lt;p&gt;I was reading &lt;a href=&#34;https://ia.net/topics/the-end-of-writing-ia-on-ai&#34;&gt;iA&amp;rsquo;s grumpy writing about GPT&lt;/a&gt; (with which I sympathize)
+when my attention was captured by the image they added to their post. It was so
+fascinating that I had to research it.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Flammarion engraving&#34; loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/Flammarion.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As it turns out, this is the &lt;a href=&#34;https://en.wikipedia.org/wiki/Flammarion_engraving&#34;&gt;Flammarion engraving&lt;/a&gt;, a famous wood engraving by
+an unknown artist, so named because its first documented appearance is in
+Camille Flammarion&amp;rsquo;s 1888 book &lt;em&gt;L&amp;rsquo;atmosphère: météorologie populaire&lt;/em&gt; (&amp;ldquo;The
+Atmosphere: Popular Meteorology&amp;rdquo;).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I was reading <a href="https://ia.net/topics/the-end-of-writing-ia-on-ai">iA&rsquo;s grumpy writing about GPT</a> (with which I sympathize)
 when my attention was captured by the image they added to their post. It was so
 fascinating that I had to research it.</p>
-<p><img loading="lazy" src="/images/Flammarion.jpg" alt="Flammarion engraving"  />
-</p>
+<p><img alt="Flammarion engraving" loading="lazy" src="/images/Flammarion.jpg"></p>
 <p>As it turns out, this is the <a href="https://en.wikipedia.org/wiki/Flammarion_engraving">Flammarion engraving</a>, a famous wood engraving by
 an unknown artist, so named because its first documented appearance is in
 Camille Flammarion&rsquo;s 1888 book <em>L&rsquo;atmosphère: météorologie populaire</em> (&ldquo;The
@@ -35,8 +40,7 @@ visions of the Hebrew prophet Ezekiel. The caption that accompanies the
 engraving in Flammarion&rsquo;s book reads:</p>
 <blockquote>
 <p>A missionary of the Middle Ages tells that he had found the point where the
-sky and the Earth touch&hellip;</p>
-</blockquote>
+sky and the Earth touch&hellip;</p></blockquote>
 <p>The Flammarion engraving has inspired and has been used by many writers,
 artists, researchers, and jack-of-all-trades. The whole story is available at
 the Wikipedia page linked above.</p>

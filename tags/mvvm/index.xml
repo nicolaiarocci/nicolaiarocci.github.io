@@ -4,7 +4,7 @@
     <title>MVVM on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/mvvm/</link>
     <description>Recent content in MVVM on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 11 Apr 2012 00:00:00 +0000</lastBuildDate>
@@ -14,14 +14,14 @@
       <link>https://nicolaiarocci.com/comprendere-il-mvvm-guida-per-sviluppatori-javascript/</link>
       <pubDate>Wed, 11 Apr 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/comprendere-il-mvvm-guida-per-sviluppatori-javascript/</guid>
-      <description>Addy Osmani ne ha combinata un’altra delle sue:
-MVVM (Model View ViewModel) è un pattern architetturale basato su MVC e MVP, che tenta di separare chiaramente lo sviluppo della interfaccia utente (UI) da quelle che sono business logic e comportamento dell’applicazione. A questo fine, molte implementazioni del pattern ricorrono a un uso dichiarativo dei data bindings, per consentire la separazione del lavoro sulle Viste (View) dagli altri strati (layer).
-MVVM consente creazione di UI e sviluppo del codice in parallelo, all’interno della stessa base di codice.</description>
+      <description>&lt;p&gt;Addy Osmani ne ha combinata un’altra delle sue:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;MVVM (Model View ViewModel) è un pattern architetturale basato su MVC e MVP, che tenta di separare chiaramente lo sviluppo della interfaccia utente (UI) da quelle che sono business logic e comportamento dell’applicazione. A questo fine, molte implementazioni del pattern ricorrono a un uso dichiarativo dei data bindings, per consentire la separazione del lavoro sulle Viste (View) dagli altri strati (layer).&lt;/p&gt;
+&lt;p&gt;MVVM consente creazione di UI  e sviluppo del codice in parallelo, all’interno della stessa base di codice. Gli esperti UI scrivono bindings per il ViewModel all’interno del loro markup (HTML), mentre il Model e il ViewModel sono gestiti dagli sviluppatori che lavorano alla logica dell’applicazione.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Addy Osmani ne ha combinata un’altra delle sue:</p>
 <blockquote>
 <p>MVVM (Model View ViewModel) è un pattern architetturale basato su MVC e MVP, che tenta di separare chiaramente lo sviluppo della interfaccia utente (UI) da quelle che sono business logic e comportamento dell’applicazione. A questo fine, molte implementazioni del pattern ricorrono a un uso dichiarativo dei data bindings, per consentire la separazione del lavoro sulle Viste (View) dagli altri strati (layer).</p>
-<p>MVVM consente creazione di UI  e sviluppo del codice in parallelo, all’interno della stessa base di codice. Gli esperti UI scrivono bindings per il ViewModel all’interno del loro markup (HTML), mentre il Model e il ViewModel sono gestiti dagli sviluppatori che lavorano alla logica dell’applicazione.</p>
-</blockquote>
+<p>MVVM consente creazione di UI  e sviluppo del codice in parallelo, all’interno della stessa base di codice. Gli esperti UI scrivono bindings per il ViewModel all’interno del loro markup (HTML), mentre il Model e il ViewModel sono gestiti dagli sviluppatori che lavorano alla logica dell’applicazione.</p></blockquote>
 <p><!-- raw HTML omitted -->Comprendere il MVVM – Guida per Sviluppatori JavaScript<!-- raw HTML omitted --></p>
 ]]></content:encoded>
     </item>

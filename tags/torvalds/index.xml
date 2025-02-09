@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>torvalds on Nicola Iarocci</title>
+    <title>Torvalds on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/torvalds/</link>
-    <description>Recent content in torvalds on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Torvalds on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 14 Jun 2021 07:05:25 +0100</lastBuildDate>
@@ -14,8 +14,12 @@
       <link>https://nicolaiarocci.com/linus-torvalds-addresses-an-anti-vaxxer/</link>
       <pubDate>Mon, 14 Jun 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/linus-torvalds-addresses-an-anti-vaxxer/</guid>
-      <description>Linus Torvalds&amp;rsquo; reply to an anti-vaxxer on the Linux kernel list is a must-read. Pre-2018, Linus would have destroyed the poor chump. He&amp;rsquo;s discouraging further discussion (Kernel list is not the place for that) while providing crystal clear and detailed mRNA vaccine information, all without renouncing to an opening salvo of his good-ole, grumpy style.
-As John Gruber affirms, this is one rant we can all get behind.</description>
+      <description>&lt;p&gt;Linus Torvalds&amp;rsquo; &lt;a href=&#34;https://lore.kernel.org/ksummit/CAHk-=wiB6FJknDC5PMfpkg4gZrbSuC3d391VyReM4Wb0+JYXXA@mail.gmail.com/&#34;&gt;reply to an anti-vaxxer&lt;/a&gt; on the Linux kernel list is
+a must-read. Pre-2018, Linus would have destroyed the poor chump. He&amp;rsquo;s
+discouraging further discussion (Kernel list is not the place for that) while
+providing crystal clear and detailed mRNA vaccine information, all without
+renouncing to an opening salvo of his good-ole, grumpy style.&lt;/p&gt;
+&lt;p&gt;As John Gruber &lt;a href=&#34;https://daringfireball.net/linked/2021/06/10/linus-torvalds&#34;&gt;affirms&lt;/a&gt;, this is one rant we can all get behind.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Linus Torvalds&rsquo; <a href="https://lore.kernel.org/ksummit/CAHk-=wiB6FJknDC5PMfpkg4gZrbSuC3d391VyReM4Wb0+JYXXA@mail.gmail.com/">reply to an anti-vaxxer</a> on the Linux kernel list is
 a must-read. Pre-2018, Linus would have destroyed the poor chump. He&rsquo;s
 discouraging further discussion (Kernel list is not the place for that) while

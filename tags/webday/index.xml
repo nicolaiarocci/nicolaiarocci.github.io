@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>webday on Nicola Iarocci</title>
+    <title>Webday on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/webday/</link>
-    <description>Recent content in webday on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Webday on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 13 Mar 2023 07:05:25 +0100</lastBuildDate>
@@ -14,8 +14,13 @@
       <link>https://nicolaiarocci.com/i-am-speaking-at-webday-2023/</link>
       <pubDate>Mon, 13 Mar 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/i-am-speaking-at-webday-2023/</guid>
-      <description>On Thursday, I will be speaking in Milan at WebDay 2023. Mine is a hands-on session on building a reliable and continuous end-to-end testing environment for web apps using Microsoft Playwright. If you attended my introductory Playwright session at WPC last year, Thursday&amp;rsquo;s session would be the ideal follow-up to that one, as I only briefly touched on CI deployments there.
-Drawing from my experience doing the whole thing in production, I&amp;rsquo;ll essentially be live testing a Blazor app, then take the entire thing to remote CI via GitHub Actions.</description>
+      <description>&lt;p&gt;On Thursday, I will be speaking in Milan at &lt;a href=&#34;https://www.webdayconf.it/&#34;&gt;WebDay 2023&lt;/a&gt;. Mine is a hands-on session on building a reliable and
+continuous end-to-end testing environment for web apps using Microsoft Playwright. If you attended my &lt;a href=&#34;https://nicolaiarocci.com/my-session-at-wpc-2022/&#34;&gt;introductory
+Playwright session at WPC&lt;/a&gt; last year, Thursday&amp;rsquo;s session would be the ideal follow-up to that one, as I
+only briefly touched on CI deployments there.&lt;/p&gt;
+&lt;p&gt;Drawing from my experience doing the whole thing in production, I&amp;rsquo;ll essentially be live testing a Blazor app, then take
+the entire thing to remote CI via GitHub Actions. In the process, I&amp;rsquo;ll show some of the issues we faced, share how we
+solved them, and offer some practices we adopted.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>On Thursday, I will be speaking in Milan at <a href="https://www.webdayconf.it/">WebDay 2023</a>. Mine is a hands-on session on building a reliable and
 continuous end-to-end testing environment for web apps using Microsoft Playwright. If you attended my <a href="https://nicolaiarocci.com/my-session-at-wpc-2022/">introductory
 Playwright session at WPC</a> last year, Thursday&rsquo;s session would be the ideal follow-up to that one, as I

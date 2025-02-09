@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>open source on Nicola Iarocci</title>
+    <title>Open Source on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/open-source/</link>
-    <description>Recent content in open source on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Open Source on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Tue, 07 Jan 2025 11:38:52 +0100</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://nicolaiarocci.com/fattura-elettronica-v3.5.2/</link>
       <pubDate>Tue, 07 Jan 2025 11:38:52 +0100</pubDate>
       <guid>https://nicolaiarocci.com/fattura-elettronica-v3.5.2/</guid>
-      <description>I just released FatturaElettronica .NET v3.5.2. It gets around a known CVE so you may want to update ASAP. The Fattura Elettronica open-source project allows for the validation and de/serialization of electronic invoices that adhere to the standard defined by the Italian Revenue Agency.</description>
+      <description>&lt;p&gt;I just released &lt;a href=&#34;https://www.nuget.org/packages/FatturaElettronica/3.5.2&#34;&gt;FatturaElettronica .NET v3.5.2&lt;/a&gt;. It gets around a &lt;a href=&#34;https://github.com/advisories/GHSA-hh2w-p6rv-4g7w&#34;&gt;known CVE&lt;/a&gt; so you may want to update ASAP. The Fattura Elettronica open-source project allows for the validation and de/serialization of electronic invoices that adhere to the standard defined by the Italian Revenue Agency.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I just released <a href="https://www.nuget.org/packages/FatturaElettronica/3.5.2">FatturaElettronica .NET v3.5.2</a>. It gets around a <a href="https://github.com/advisories/GHSA-hh2w-p6rv-4g7w">known CVE</a> so you may want to update ASAP. The Fattura Elettronica open-source project allows for the validation and de/serialization of electronic invoices that adhere to the standard defined by the Italian Revenue Agency.</p>
 ]]></content:encoded>
     </item>
@@ -23,7 +23,7 @@
       <link>https://nicolaiarocci.com/eve-2.2.0/</link>
       <pubDate>Tue, 15 Oct 2024 09:37:02 +0200</pubDate>
       <guid>https://nicolaiarocci.com/eve-2.2.0/</guid>
-      <description>Today I released Eve 2.2. It is a maintenance release that drops old Pythons and adds support for the latest versions of the language. Long overdue, it also gets rid of some annoying deprecation warnings. As always, see the changelog for details. Many thanks to Bret Curtis and Guillaume Le Pape for their contributions to this release.</description>
+      <description>&lt;p&gt;Today I released &lt;a href=&#34;https://pypi.org/project/Eve/2.2.0/&#34;&gt;Eve 2.2&lt;/a&gt;. It is a maintenance release that drops old Pythons and adds support for the latest versions of the language. Long overdue, it also gets rid of some annoying deprecation warnings. As always, see the &lt;a href=&#34;https://docs.python-eve.org/en/stable/changelog.html#version-v2-2&#34;&gt;changelog&lt;/a&gt; for details. Many thanks to Bret Curtis and Guillaume Le Pape for their contributions to this release.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I released <a href="https://pypi.org/project/Eve/2.2.0/">Eve 2.2</a>. It is a maintenance release that drops old Pythons and adds support for the latest versions of the language. Long overdue, it also gets rid of some annoying deprecation warnings. As always, see the <a href="https://docs.python-eve.org/en/stable/changelog.html#version-v2-2">changelog</a> for details. Many thanks to Bret Curtis and Guillaume Le Pape for their contributions to this release.</p>
 ]]></content:encoded>
     </item>
@@ -32,7 +32,7 @@
       <link>https://nicolaiarocci.com/fattura-elettronica-v3.5/</link>
       <pubDate>Mon, 30 Sep 2024 09:39:20 +0200</pubDate>
       <guid>https://nicolaiarocci.com/fattura-elettronica-v3.5/</guid>
-      <description>I just released FatturaElettronica .NET v3.5.0. This version adds multi-language support, all thanks to the excellent work done by Michael Mairegger. We currently support Italian and German and are ready to accept contributions for other languages. The Fattura Elettronica open-source project allows for the validation and de/serialization of electronic invoices that adhere to the standard defined by the Italian Revenue Agency.</description>
+      <description>&lt;p&gt;I just released &lt;a href=&#34;https://www.nuget.org/packages/FatturaElettronica&#34;&gt;FatturaElettronica .NET v3.5.0&lt;/a&gt;. This version adds multi-language support, all thanks to the excellent work done by &lt;a href=&#34;https://michaelmairegger.it&#34;&gt;Michael Mairegger&lt;/a&gt;. We currently support Italian and German and are ready to accept contributions for other languages. The Fattura Elettronica open-source project allows for the validation and de/serialization of electronic invoices that adhere to the standard defined by the Italian Revenue Agency.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I just released <a href="https://www.nuget.org/packages/FatturaElettronica">FatturaElettronica .NET v3.5.0</a>. This version adds multi-language support, all thanks to the excellent work done by <a href="https://michaelmairegger.it">Michael Mairegger</a>. We currently support Italian and German and are ready to accept contributions for other languages. The Fattura Elettronica open-source project allows for the validation and de/serialization of electronic invoices that adhere to the standard defined by the Italian Revenue Agency.</p>
 ]]></content:encoded>
     </item>
@@ -41,7 +41,10 @@
       <link>https://nicolaiarocci.com/fattura-elettronica-for-.net-v3.4.15/</link>
       <pubDate>Fri, 24 May 2024 11:02:31 +0200</pubDate>
       <guid>https://nicolaiarocci.com/fattura-elettronica-for-.net-v3.4.15/</guid>
-      <description>Today I released Fattura Elettronica for .NET v3.4.15. The Fattura Elettronica project allows for the validation and de/serialization of electronic invoices that adhere to the standard defined by Italian Revenue Agency (Agenzia Entrate). See the changelog for details (Italian).</description>
+      <description>&lt;p&gt;Today I released &lt;a href=&#34;https://fatturaelettronicaopensource.org/docs&#34;&gt;Fattura Elettronica for .NET&lt;/a&gt; v3.4.15. The Fattura
+Elettronica project allows for the validation and de/serialization of electronic
+invoices that adhere to the standard defined by Italian Revenue Agency
+(&lt;a href=&#34;https://www.agenziaentrate.gov.it/portale/web/guest/specifiche-tecniche-versione-1.8&#34;&gt;Agenzia Entrate&lt;/a&gt;). See the &lt;a href=&#34;https://fatturaelettronicaopensource.org/docs/changelog.html#v-3415&#34;&gt;changelog&lt;/a&gt; for details (Italian).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I released <a href="https://fatturaelettronicaopensource.org/docs">Fattura Elettronica for .NET</a> v3.4.15. The Fattura
 Elettronica project allows for the validation and de/serialization of electronic
 invoices that adhere to the standard defined by Italian Revenue Agency
@@ -53,8 +56,18 @@ invoices that adhere to the standard defined by Italian Revenue Agency
       <link>https://nicolaiarocci.com/timeline-of-the-xz-open-source-attack/</link>
       <pubDate>Tue, 02 Apr 2024 15:30:03 +0200</pubDate>
       <guid>https://nicolaiarocci.com/timeline-of-the-xz-open-source-attack/</guid>
-      <description>The so-called &amp;ldquo;XZ attack&amp;rdquo; is all over the internet these days, and for good reason.
-Over a period of over two years, an attacker using the name “Jia Tan” worked as a diligent, effective contributor to the xz compression library, eventually being granted commit access and maintainership. Using that access, they installed a very subtle, carefully hidden backdoor into liblzma, a part of xz that also happens to be a dependency of OpenSSH sshd on Debian, Ubuntu, Fedora, and other systemd-based Linux systems.</description>
+      <description>&lt;p&gt;The so-called &amp;ldquo;XZ attack&amp;rdquo; is all over the internet these days, and for good
+reason.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Over a period of over two years, an attacker using the name “Jia Tan” worked
+as a diligent, effective contributor to the xz compression library, eventually
+being granted commit access and maintainership. Using that access, they
+installed a very subtle, carefully hidden backdoor into liblzma, a part of xz
+that also happens to be a dependency of OpenSSH sshd on Debian, Ubuntu, Fedora,
+and other systemd-based Linux systems. That backdoor watches for the attacker
+sending hidden commands at the start of an SSH session, giving the attacker the
+ability to run an arbitrary command on the target system without logging in:
+unauthenticated, targeted remote code execution.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>The so-called &ldquo;XZ attack&rdquo; is all over the internet these days, and for good
 reason.</p>
 <blockquote>
@@ -66,8 +79,7 @@ that also happens to be a dependency of OpenSSH sshd on Debian, Ubuntu, Fedora,
 and other systemd-based Linux systems. That backdoor watches for the attacker
 sending hidden commands at the start of an SSH session, giving the attacker the
 ability to run an arbitrary command on the target system without logging in:
-unauthenticated, targeted remote code execution.</p>
-</blockquote>
+unauthenticated, targeted remote code execution.</p></blockquote>
 <p>As the excellent <a href="https://research.swtch.com/xz-timeline">timeline of the xz open-source
 attack</a> quoted above remarks,
 this will likely be remembered as the first known supply chain attack on widely
@@ -84,17 +96,20 @@ currently going on on <a href="https://news.ycombinator.com/item?id=39902241">HN
       <link>https://nicolaiarocci.com/paying-people-to-work-on-open-source-is-good-actually/</link>
       <pubDate>Sat, 17 Feb 2024 07:35:46 +0100</pubDate>
       <guid>https://nicolaiarocci.com/paying-people-to-work-on-open-source-is-good-actually/</guid>
-      <description>From my experience as a maintainer of midly successful open-source projects, I have come to the conclusion that people who criticize accepting payment to work on such projects are either acting in bad faith or are incredibly naive.
-Anyway, Jacob Kaplan-Moss&amp;rsquo;s recent Paying people to work on open source is good is a stellar post on the topic of open-source sustainability.
-My fundamental position is that paying people to work on open source is good, full stop, no exceptions.</description>
+      <description>&lt;p&gt;From my experience as a maintainer of midly successful open-source projects, I
+have come to the conclusion that people who criticize accepting payment to work
+on such projects are either acting in bad faith or are incredibly naive.&lt;/p&gt;
+&lt;p&gt;Anyway, Jacob Kaplan-Moss&amp;rsquo;s recent &lt;em&gt;Paying people to work on open source is
+good&lt;/em&gt; is a stellar post on the topic of open-source sustainability.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;My fundamental position is that paying people to work on open source is good, full stop, no exceptions. We need to stop criticizing maintainers getting paid, and start celebrating. Yes, all of the mechanisms are flawed in some way, but that’s because the world is flawed, and it’s not the fault of the people taking money. Yelling at maintainers who’ve found a way to make a living is wrong.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>From my experience as a maintainer of midly successful open-source projects, I
 have come to the conclusion that people who criticize accepting payment to work
 on such projects are either acting in bad faith or are incredibly naive.</p>
 <p>Anyway, Jacob Kaplan-Moss&rsquo;s recent <em>Paying people to work on open source is
 good</em> is a stellar post on the topic of open-source sustainability.</p>
 <blockquote>
-<p>My fundamental position is that paying people to work on open source is good, full stop, no exceptions. We need to stop criticizing maintainers getting paid, and start celebrating. Yes, all of the mechanisms are flawed in some way, but that’s because the world is flawed, and it’s not the fault of the people taking money. Yelling at maintainers who’ve found a way to make a living is wrong.</p>
-</blockquote>
+<p>My fundamental position is that paying people to work on open source is good, full stop, no exceptions. We need to stop criticizing maintainers getting paid, and start celebrating. Yes, all of the mechanisms are flawed in some way, but that’s because the world is flawed, and it’s not the fault of the people taking money. Yelling at maintainers who’ve found a way to make a living is wrong.</p></blockquote>
 <p>Full article <a href="https://jacobian.org/2024/feb/16/paying-maintainers-is-good/">here</a>.</p>
 ]]></content:encoded>
     </item>
@@ -103,7 +118,10 @@ good</em> is a stellar post on the topic of open-source sustainability.</p>
       <link>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.13/</link>
       <pubDate>Mon, 08 Jan 2024 14:57:59 +0100</pubDate>
       <guid>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.13/</guid>
-      <description>Today I released Fattura Elettronica for .NET v3.4.13. The Fattura Elettronica project allows for the validation and de/serialization of electronic invoices that adhere to the standard defined by Italian Revenue Agency (Agenzia Entrate). See the changelog for details (Italian).</description>
+      <description>&lt;p&gt;Today I released &lt;a href=&#34;https://fatturaelettronicaopensource.org/docs&#34;&gt;Fattura Elettronica for .NET&lt;/a&gt; v3.4.13. The Fattura
+Elettronica project allows for the validation and de/serialization of electronic
+invoices that adhere to the standard defined by Italian Revenue Agency
+(&lt;a href=&#34;https://www.agenziaentrate.gov.it/portale/web/guest/specifiche-tecniche-versione-1.8&#34;&gt;Agenzia Entrate&lt;/a&gt;). See the &lt;a href=&#34;https://fatturaelettronicaopensource.org/docs/changelog.html#v-3413&#34;&gt;changelog&lt;/a&gt; for details (Italian).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I released <a href="https://fatturaelettronicaopensource.org/docs">Fattura Elettronica for .NET</a> v3.4.13. The Fattura
 Elettronica project allows for the validation and de/serialization of electronic
 invoices that adhere to the standard defined by Italian Revenue Agency
@@ -115,7 +133,9 @@ invoices that adhere to the standard defined by Italian Revenue Agency
       <link>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.11/</link>
       <pubDate>Fri, 27 Oct 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.11/</guid>
-      <description>Fattura Elettronica for .NET v3.4.11 was released on NuGet today. The Fattura Elettronica project allows for the fixes a missing validation point. See the changelog for details (Italian). validation and de/serialization of electronic invoices following the Italian Revenue Agency standards.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://fatturaelettronicaopensource.org/docs&#34;&gt;Fattura Elettronica&lt;/a&gt; for .NET v3.4.11 was released on NuGet today. The Fattura Elettronica project allows for the
+fixes a missing validation point. See the &lt;a href=&#34;https://fatturaelettronicaopensource.org/docs/changelog.html#v-3411&#34;&gt;changelog&lt;/a&gt; for details (Italian). validation and de/serialization of
+electronic invoices following the Italian Revenue Agency standards.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="https://fatturaelettronicaopensource.org/docs">Fattura Elettronica</a> for .NET v3.4.11 was released on NuGet today. The Fattura Elettronica project allows for the
 fixes a missing validation point. See the <a href="https://fatturaelettronicaopensource.org/docs/changelog.html#v-3411">changelog</a> for details (Italian). validation and de/serialization of
 electronic invoices following the Italian Revenue Agency standards.</p>
@@ -126,14 +146,16 @@ electronic invoices following the Italian Revenue Agency standards.</p>
       <link>https://nicolaiarocci.com/the-legacy-of-bram-moolenaar/</link>
       <pubDate>Fri, 11 Aug 2023 08:55:35 +0200</pubDate>
       <guid>https://nicolaiarocci.com/the-legacy-of-bram-moolenaar/</guid>
-      <description>Quoting Jan van den Berg:
-This weekend we learned that Bram Moolenaar had passed away at the age of 62. And this news affected me more than I expected. Like so many: I did not know Bram personally. But I’ve been using a tool made by Bram for more than half my life — at least weekly, sometimes daily. That tool is a text editor. The best one there is: Vim.</description>
+      <description>&lt;p&gt;Quoting &lt;a href=&#34;https://j11g.com/2023/08/07/the-legacy-of-bram-moolenaar/&#34;&gt;Jan van den Berg&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This weekend we learned that Bram Moolenaar had passed away at the age of 62. And this news affected me more than I
+expected. Like so many: I did not know Bram personally. But I’ve been using a tool made by Bram for more than half my
+life — at least weekly, sometimes daily. That tool is a text editor. The best one there is: Vim.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Quoting <a href="https://j11g.com/2023/08/07/the-legacy-of-bram-moolenaar/">Jan van den Berg</a>:</p>
 <blockquote>
 <p>This weekend we learned that Bram Moolenaar had passed away at the age of 62. And this news affected me more than I
 expected. Like so many: I did not know Bram personally. But I’ve been using a tool made by Bram for more than half my
-life — at least weekly, sometimes daily. That tool is a text editor. The best one there is: Vim.</p>
-</blockquote>
+life — at least weekly, sometimes daily. That tool is a text editor. The best one there is: Vim.</p></blockquote>
 ]]></content:encoded>
     </item>
     <item>
@@ -141,7 +163,10 @@ life — at least weekly, sometimes daily. That tool is a text editor. The best 
       <link>https://nicolaiarocci.com/cerberus-v1.3.5-released/</link>
       <pubDate>Thu, 10 Aug 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/cerberus-v1.3.5-released/</guid>
-      <description>Thanks to funkyfuture&amp;rsquo;s tireless work, yesterday we released version 1.3.5 of Cerberus, the data validation package for Python. This release officially supports Python 3.10 and 3.11, fixes a few issues, and proudly displays a new documentation theme which I dig, and I hope you&amp;rsquo;ll do the same. As usual, see the changelog for details.</description>
+      <description>&lt;p&gt;Thanks to &lt;a href=&#34;https://github.com/funkyfuture&#34;&gt;funkyfuture&lt;/a&gt;&amp;rsquo;s tireless work, yesterday we released &lt;a href=&#34;https://pypi.org/project/Cerberus/1.3.5/&#34;&gt;version 1.3.5&lt;/a&gt; of &lt;a href=&#34;https://docs.python-cerberus.org&#34;&gt;Cerberus&lt;/a&gt;, the data
+validation package for Python. This release officially supports Python 3.10 and 3.11, fixes a few issues, and proudly
+displays a new documentation theme which I dig, and I hope you&amp;rsquo;ll do the same. As usual, see the &lt;a href=&#34;https://docs.python-cerberus.org/changelog.html#version-1-3-5&#34;&gt;changelog&lt;/a&gt; for
+details.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Thanks to <a href="https://github.com/funkyfuture">funkyfuture</a>&rsquo;s tireless work, yesterday we released <a href="https://pypi.org/project/Cerberus/1.3.5/">version 1.3.5</a> of <a href="https://docs.python-cerberus.org">Cerberus</a>, the data
 validation package for Python. This release officially supports Python 3.10 and 3.11, fixes a few issues, and proudly
 displays a new documentation theme which I dig, and I hope you&rsquo;ll do the same. As usual, see the <a href="https://docs.python-cerberus.org/changelog.html#version-1-3-5">changelog</a> for
@@ -153,7 +178,9 @@ details.</p>
       <link>https://nicolaiarocci.com/fattura-elettronica-for-dotnet-v3.4.10/</link>
       <pubDate>Thu, 03 Aug 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/fattura-elettronica-for-dotnet-v3.4.10/</guid>
-      <description>Fattura Elettronica for .NET v3.4.10 was released on NuGet today. The Fattura Elettronica project allows for the validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. This release adds a missing validation point. See the changelog for details (Italian).</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://fatturaelettronicaopensource.org/docs&#34;&gt;Fattura Elettronica&lt;/a&gt; for .NET v3.4.10 was released on NuGet today. The Fattura Elettronica project allows for the
+validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. This release
+adds a missing validation point. See the &lt;a href=&#34;https://fatturaelettronicaopensource.org/docs/changelog.html#v-3410&#34;&gt;changelog&lt;/a&gt; for details (Italian).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="https://fatturaelettronicaopensource.org/docs">Fattura Elettronica</a> for .NET v3.4.10 was released on NuGet today. The Fattura Elettronica project allows for the
 validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. This release
 adds a missing validation point. See the <a href="https://fatturaelettronicaopensource.org/docs/changelog.html#v-3410">changelog</a> for details (Italian).</p>
@@ -164,8 +191,18 @@ adds a missing validation point. See the <a href="https://fatturaelettronicaopen
       <link>https://nicolaiarocci.com/events-0.5-released/</link>
       <pubDate>Mon, 31 Jul 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/events-0.5-released/</guid>
-      <description>Today I released Events 0.5. Thanks to Cailean Parker&amp;rsquo;s contribution, we added support for the __getitem__ dunder (aka Python magic method.) This allows the calling of events from strings, thus enabling dynamic events. For instance:
-events = Events(tuple(f&amp;#34;on_{i}&amp;#34; for i in range(5))) for i in range(5): events[f&amp;#34;on_{i}&amp;#34;](i) The C# language provides a handy way to declare, subscribe to and fire events. In C#, an event is a &amp;ldquo;slot&amp;rdquo; to which callback functions (event handlers) can be attached - a process referred to as subscribing to an event.</description>
+      <description>&lt;p&gt;Today I released &lt;a href=&#34;https://pypi.org/project/Events/0.5/&#34;&gt;Events 0.5&lt;/a&gt;. Thanks to &lt;a href=&#34;https://github.com/CaileanMParker&#34;&gt;Cailean
+Parker&lt;/a&gt;&amp;rsquo;s contribution, we added support for the &lt;code&gt;__getitem__&lt;/code&gt; dunder (aka Python
+magic method.) This allows the calling of events from strings, thus enabling dynamic events. For instance:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;events = Events(tuple(f&amp;#34;on_{i}&amp;#34; for i in range(5)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;for i in range(5):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    events[f&amp;#34;on_{i}&amp;#34;](i)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The C# language provides a handy way to declare, subscribe to and fire events. In C#, an event is a &amp;ldquo;slot&amp;rdquo; to which
+callback functions (event handlers) can be attached - a process referred to as subscribing to an event. &lt;em&gt;Events&lt;/em&gt; adds
+this mechanism to Python. It originated as a side experiment (I was a C# transfugee then) that I later adopted as an
+&lt;a href=&#34;https://github.com/pyeve/eve&#34;&gt;Eve&lt;/a&gt; dependency. It slowly got some traction besides my projects. Read more on the project&amp;rsquo;s &lt;a href=&#34;https://github.com/pyeve/events&#34;&gt;GitHub
+page&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I released <a href="https://pypi.org/project/Events/0.5/">Events 0.5</a>. Thanks to <a href="https://github.com/CaileanMParker">Cailean
 Parker</a>&rsquo;s contribution, we added support for the <code>__getitem__</code> dunder (aka Python
 magic method.) This allows the calling of events from strings, thus enabling dynamic events. For instance:</p>
@@ -185,7 +222,10 @@ page</a>.</p>
       <link>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.8/</link>
       <pubDate>Tue, 02 May 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.8/</guid>
-      <description>Fattura Elettronica for .NET v3.4.8 was released on NuGet today. The Fattura Elettronica project allows for the validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. As with the previous one, this release also addresses a small undocumented behavior in validating the invoice. See the relevant ticket for the details.</description>
+      <description>&lt;p&gt;Fattura Elettronica for .NET v3.4.8 was &lt;a href=&#34;https://www.nuget.org/packages/FatturaElettronica/3.4.8&#34;&gt;released&lt;/a&gt; on NuGet today. The &lt;a href=&#34;https://fatturaelettronicaopensource.org/&#34;&gt;Fattura Elettronica&lt;/a&gt; project allows for the
+validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. As with the
+previous one, this release also addresses a small undocumented behavior in validating the invoice. See the &lt;a href=&#34;https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/396&#34;&gt;relevant
+ticket&lt;/a&gt; for the details.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Fattura Elettronica for .NET v3.4.8 was <a href="https://www.nuget.org/packages/FatturaElettronica/3.4.8">released</a> on NuGet today. The <a href="https://fatturaelettronicaopensource.org/">Fattura Elettronica</a> project allows for the
 validation and de/serialization of electronic invoices following the Italian Revenue Agency standards. As with the
 previous one, this release also addresses a small undocumented behavior in validating the invoice. See the <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/396">relevant
@@ -197,8 +237,12 @@ ticket</a> for the details.</p>
       <link>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.7/</link>
       <pubDate>Wed, 05 Apr 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/fatturaelettronica-for-.net-v3.4.7/</guid>
-      <description>Fattura Elettronica for .NET v3.4.7 was released on NuGet today. The Fattura Elettronica project allows for the validation and de/serialization of electronic invoices adhering to the canon defined by the Italian Revenue Agency.
-This release refines how the one-cent tolerance is accounted for in validation checks of types 00421 and 00423. As is often the case, there are subtle differences between the theoretical implementation defined in the official specs and the actual validation implemented by the same Agency that released said specs.</description>
+      <description>&lt;p&gt;Fattura Elettronica for .NET v3.4.7 was &lt;a href=&#34;https://www.nuget.org/packages/FatturaElettronica/3.4.7&#34;&gt;released&lt;/a&gt; on NuGet today. The &lt;a href=&#34;https://fatturaelettronicaopensource.org&#34;&gt;Fattura Elettronica project&lt;/a&gt; allows for
+the validation and de/serialization of electronic invoices adhering to the canon defined by the Italian Revenue Agency.&lt;/p&gt;
+&lt;p&gt;This release refines how the one-cent tolerance is accounted for in validation checks of types 00421 and 00423. As is
+often the case, there are subtle differences between the theoretical implementation defined in the official specs and
+the actual validation implemented by the same Agency that released said specs. See the &lt;a href=&#34;https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/394&#34;&gt;relevant ticket&lt;/a&gt; for the
+details.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Fattura Elettronica for .NET v3.4.7 was <a href="https://www.nuget.org/packages/FatturaElettronica/3.4.7">released</a> on NuGet today. The <a href="https://fatturaelettronicaopensource.org">Fattura Elettronica project</a> allows for
 the validation and de/serialization of electronic invoices adhering to the canon defined by the Italian Revenue Agency.</p>
 <p>This release refines how the one-cent tolerance is accounted for in validation checks of types 00421 and 00423. As is
@@ -212,12 +256,14 @@ details.</p>
       <link>https://nicolaiarocci.com/eve-2.1.0-has-just-been-released/</link>
       <pubDate>Tue, 14 Mar 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/eve-2.1.0-has-just-been-released/</guid>
-      <description>Today I released Eve v2.1, which comes with official Flask 2.2+ support and the ability to modify the pagination limit on a per-resource basis thanks to the new pagination_limit setting. You can find the release on PyPI, while the changelog is available here—special thanks to Pieter De Clercq and smeng9 for the help with this release.</description>
+      <description>&lt;p&gt;Today I released Eve v2.1, which comes with official Flask 2.2+ support and the ability to modify the pagination limit
+on a per-resource basis thanks to the new &lt;code&gt;pagination_limit&lt;/code&gt; setting. You can find the release on &lt;a href=&#34;https://pypi.org/project/Eve/2.1.0/&#34;&gt;PyPI&lt;/a&gt;,
+while the changelog is available &lt;a href=&#34;https://docs.python-eve.org/en/stable/changelog.html#version-v2-1-0&#34;&gt;here&lt;/a&gt;—special thanks to &lt;a href=&#34;https://github.com/thepieterdc&#34;&gt;Pieter De Clercq&lt;/a&gt; and &lt;a href=&#34;https://github.com/smeng9&#34;&gt;smeng9&lt;/a&gt; for the help with this release.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Eve 2.1.0 on PyPI&#34; loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/eve-2.1.0.png&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I released Eve v2.1, which comes with official Flask 2.2+ support and the ability to modify the pagination limit
 on a per-resource basis thanks to the new <code>pagination_limit</code> setting. You can find the release on <a href="https://pypi.org/project/Eve/2.1.0/">PyPI</a>,
 while the changelog is available <a href="https://docs.python-eve.org/en/stable/changelog.html#version-v2-1-0">here</a>—special thanks to <a href="https://github.com/thepieterdc">Pieter De Clercq</a> and <a href="https://github.com/smeng9">smeng9</a> for the help with this release.</p>
-<p><img loading="lazy" src="/images/eve-2.1.0.png" alt="Eve 2.1.0 on PyPI"  />
-</p>
+<p><img alt="Eve 2.1.0 on PyPI" loading="lazy" src="/images/eve-2.1.0.png"></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -225,8 +271,12 @@ while the changelog is available <a href="https://docs.python-eve.org/en/stable/
       <link>https://nicolaiarocci.com/eve-2.0.4-released/</link>
       <pubDate>Thu, 10 Nov 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/eve-2.0.4-released/</guid>
-      <description>I just released Eve 2.0.4, the REST API framework for #python. It&amp;rsquo;s available on PyPI and includes a relevant security fix so you might want to update ASAP.
-Package info Docs </description>
+      <description>&lt;p&gt;I just released Eve 2.0.4, the REST API framework for #python. It&amp;rsquo;s available
+on PyPI and includes a relevant security fix so you might want to update ASAP.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pypi.org/project/Eve/2.0.4/&#34;&gt;Package info&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.python-eve.org/en/stable/&#34;&gt;Docs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<p>I just released Eve 2.0.4, the REST API framework for #python. It&rsquo;s available
 on PyPI and includes a relevant security fix so you might want to update ASAP.</p>
 <ul>
@@ -240,7 +290,10 @@ on PyPI and includes a relevant security fix so you might want to update ASAP.</
       <link>https://nicolaiarocci.com/eve-2.0.2-released/</link>
       <pubDate>Fri, 23 Sep 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/eve-2.0.2-released/</guid>
-      <description>Eve 2.0.2 was just released today. It fixes a problem introduced with v2.0 in which ETag generation failed if uuidRepresentation was not set in MONGO_OPTIONS. See issue #1486 for details. Many thanks @tgm for reporting and then contributing the fix.</description>
+      <description>&lt;p&gt;Eve 2.0.2 was &lt;a href=&#34;https://pypi.org/project/Eve/2.0.2/&#34;&gt;just released today&lt;/a&gt;. It fixes a problem introduced with v2.0
+in which ETag generation failed if &lt;code&gt;uuidRepresentation&lt;/code&gt; was not set in
+&lt;code&gt;MONGO_OPTIONS&lt;/code&gt;. See &lt;a href=&#34;https://github.com/pyeve/eve/issues/1486&#34;&gt;issue #1486&lt;/a&gt; for details. Many thanks
+&lt;a href=&#34;https://github.com/tgm-git&#34;&gt;@tgm&lt;/a&gt; for reporting and then contributing the fix.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Eve 2.0.2 was <a href="https://pypi.org/project/Eve/2.0.2/">just released today</a>. It fixes a problem introduced with v2.0
 in which ETag generation failed if <code>uuidRepresentation</code> was not set in
 <code>MONGO_OPTIONS</code>. See <a href="https://github.com/pyeve/eve/issues/1486">issue #1486</a> for details. Many thanks
@@ -252,8 +305,14 @@ in which ETag generation failed if <code>uuidRepresentation</code> was not set i
       <link>https://nicolaiarocci.com/fatturaelettronica-v3.4-released/</link>
       <pubDate>Fri, 09 Sep 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/fatturaelettronica-v3.4-released/</guid>
-      <description>Today I released v3.4 of FatturaElettronica, a .NET open source project that allows validation and de/serialization of electronic invoices adhering to the standard defined by the Italian &amp;ldquo;Agenzia delle Entrate&amp;rdquo;. It&amp;rsquo;s doing very well for such a niche project, with downloads now well beyond the one hundred thousand mark.
-Be aware that this release anticipates support for v1.7.1 of the specification going into effect on October 1, 2022. For more information, see the appropriate ticket and the changelog.</description>
+      <description>&lt;p&gt;Today I released v3.4 of &lt;a href=&#34;https://fatturaelettronicaopensource.org/&#34;&gt;FatturaElettronica&lt;/a&gt;, a .NET open source project
+that allows validation and de/serialization of electronic invoices adhering to
+the standard defined by the Italian &amp;ldquo;Agenzia delle Entrate&amp;rdquo;. It&amp;rsquo;s doing very
+well for such a niche project, with downloads now well beyond the one hundred
+thousand mark.&lt;/p&gt;
+&lt;p&gt;Be aware that this release anticipates support for &lt;a href=&#34;https://www.agenziaentrate.gov.it/portale/web/guest/specifiche-tecniche-versione-1.7.1&#34;&gt;v1.7.1&lt;/a&gt; of the
+specification going into effect on October 1, 2022. For more information, see
+the appropriate &lt;a href=&#34;https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/376&#34;&gt;ticket&lt;/a&gt; and the &lt;a href=&#34;https://fatturaelettronicaopensource.org/docs/changelog.html#v-34&#34;&gt;changelog&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I released v3.4 of <a href="https://fatturaelettronicaopensource.org/">FatturaElettronica</a>, a .NET open source project
 that allows validation and de/serialization of electronic invoices adhering to
 the standard defined by the Italian &ldquo;Agenzia delle Entrate&rdquo;. It&rsquo;s doing very
@@ -292,15 +351,20 @@ you&rsquo;re not employing heavy weaponry, like k8s.</p>
       <link>https://nicolaiarocci.com/eve-2.0.1-released/</link>
       <pubDate>Wed, 07 Sep 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/eve-2.0.1-released/</guid>
-      <description>Today I released Eve 2.0.1, which contains an essential fix if you&amp;rsquo;re using MONGO_URI to connect to your MongoDB instance. See the relevant ticket for details. I&amp;rsquo;ve also pinned Flask dependency to v2.1, as v2.2 brings some breaking changes that, you guessed it, break our CI runs. If you think you can help wiht that, please do so. The complete changelog is available here.</description>
+      <description>&lt;p&gt;Today I released &lt;a href=&#34;https://pypi.org/project/Eve/2.0.1/&#34;&gt;Eve 2.0.1&lt;/a&gt;, which contains an essential fix if you&amp;rsquo;re
+using &lt;code&gt;MONGO_URI&lt;/code&gt; to connect to your MongoDB instance. See the &lt;a href=&#34;https://github.com/pyeve/eve/issues/1478&#34;&gt;relevant
+ticket&lt;/a&gt; for details. I&amp;rsquo;ve also pinned Flask dependency to v2.1, as v2.2
+brings some breaking changes that, you guessed it, break our CI runs. If you
+think you can help wiht that, &lt;a href=&#34;https://github.com/pyeve/eve/issues/1485&#34;&gt;please do so&lt;/a&gt;. The complete changelog is
+available &lt;a href=&#34;https://docs.python-eve.org/en/stable/changelog.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/eve-2.0.1.png&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I released <a href="https://pypi.org/project/Eve/2.0.1/">Eve 2.0.1</a>, which contains an essential fix if you&rsquo;re
 using <code>MONGO_URI</code> to connect to your MongoDB instance. See the <a href="https://github.com/pyeve/eve/issues/1478">relevant
 ticket</a> for details. I&rsquo;ve also pinned Flask dependency to v2.1, as v2.2
 brings some breaking changes that, you guessed it, break our CI runs. If you
 think you can help wiht that, <a href="https://github.com/pyeve/eve/issues/1485">please do so</a>. The complete changelog is
 available <a href="https://docs.python-eve.org/en/stable/changelog.html">here</a>.</p>
-<p><img loading="lazy" src="/images/eve-2.0.1.png" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/eve-2.0.1.png"></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -308,27 +372,30 @@ available <a href="https://docs.python-eve.org/en/stable/changelog.html">here</a
       <link>https://nicolaiarocci.com/how-i-stopped-spotify-from-draining-both-my-ram-and-cpu/</link>
       <pubDate>Mon, 05 Sep 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/how-i-stopped-spotify-from-draining-both-my-ram-and-cpu/</guid>
-      <description>A few days ago, I was browsing my Twitter feed when a suggestion from my friend @flaper87 caught my attention:
-On my &amp;ldquo;comfortably old&amp;rdquo; MacBook Pro1, Spotify has been an absolute hog. The simple act of opening it will require three hundred MBs. That&amp;rsquo;s a remarkable amount of memory for staying idle and doing nothing useful. Let it play for a few hours, and have fun glancing at CPU and RAM usage ramping up like there&amp;rsquo;s no tomorrow.</description>
+      <description>&lt;p&gt;A few days ago, I was browsing my Twitter feed when a &lt;a href=&#34;https://twitter.com/flaper87/status/1564899493572710400&#34;&gt;suggestion&lt;/a&gt; from my
+friend &lt;a href=&#34;https://twitter.com/flaper87&#34;&gt;@flaper87&lt;/a&gt; caught my attention:&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/flaper87-on-spotifyd.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;On my &amp;ldquo;comfortably old&amp;rdquo; MacBook Pro&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, Spotify has been an absolute hog. The
+simple act of opening it will require three hundred MBs. That&amp;rsquo;s a remarkable
+amount of memory for staying idle and doing nothing useful. Let it play for
+a few hours, and have fun glancing at CPU and RAM usage ramping up like there&amp;rsquo;s
+no tomorrow. Just for the record, here&amp;rsquo;s Spotify memory usage at launch:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>A few days ago, I was browsing my Twitter feed when a <a href="https://twitter.com/flaper87/status/1564899493572710400">suggestion</a> from my
 friend <a href="https://twitter.com/flaper87">@flaper87</a> caught my attention:</p>
-<p><img loading="lazy" src="/images/flaper87-on-spotifyd.png" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/flaper87-on-spotifyd.png"></p>
 <p>On my &ldquo;comfortably old&rdquo; MacBook Pro<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, Spotify has been an absolute hog. The
 simple act of opening it will require three hundred MBs. That&rsquo;s a remarkable
 amount of memory for staying idle and doing nothing useful. Let it play for
 a few hours, and have fun glancing at CPU and RAM usage ramping up like there&rsquo;s
 no tomorrow. Just for the record, here&rsquo;s Spotify memory usage at launch:</p>
-<p><img loading="lazy" src="/images/spotify-memory-usage.png" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/spotify-memory-usage.png"></p>
 <p>So what exactly is <a href="https://github.com/Spotifyd/spotifyd">spotifyd</a>? An open source Spotify client
 running as a UNIX daemon.</p>
 <blockquote>
 <p>Spotifyd streams music just like the official client, but is more lightweight
 and supports more platforms. Spotifyd also supports the Spotify Connect
 protocol, which makes it show up as a device that can be controlled from the
-official clients<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
-</blockquote>
+official clients<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p></blockquote>
 <p>Slow Saturday morning, I decided to give the spotifyd/spotify-tui combo a try.
 Setting up spotifyd on a Mac with homebrew is as simple as typing <code>brew install spotifyd</code> and then <code>brew services start spotifyd</code> to let it run as a service,
 or one can opt to launch it as a stand-alone with <code>spotifyd --no-daemon</code>.</p>
@@ -358,8 +425,7 @@ and is only noticeable when I run spotifyd as a stand-alone app is a recurring
 and rather obscure &ldquo;No route to host&rdquo; warning message. There&rsquo;s an <a href="https://github.com/Spotifyd/spotifyd/issues/1026">open
 ticket</a> about it. Other than that, spotifyd has been bliss. Most remarkably,
 this is the memory usage after a few hours of non-stop streaming:</p>
-<p><img loading="lazy" src="/images/spotifyd-memory-usage.png" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/spotifyd-memory-usage.png"></p>
 <p>Quite an achievement, considering that we started at 300+ MBs.</p>
 <p>I also installed <a href="https://github.com/Rigellute/spotify-tui">spotify-tui</a> in an attempt to use it as a replacement for
 the official client. As much as I&rsquo;d love to use it (I love its UI/UX), I can&rsquo;t
@@ -391,8 +457,15 @@ windows when I want to interact with Spotify.</p>
       <link>https://nicolaiarocci.com/a-project-you-maintain-has-been-designated-as-critical/</link>
       <pubDate>Mon, 18 Jul 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/a-project-you-maintain-has-been-designated-as-critical/</guid>
-      <description>Last week, I got a mail from PyPI, the Python package index. They informed me that one of my open source projects had been designated as &amp;lsquo;critical,&amp;rsquo; and I was therefore required to enable two-factor authentication. If I didn&amp;rsquo;t oblige, I would soon lose the ability to add new releases or modify the project.
-The project in question was Cerberus. The &amp;lsquo;critical&amp;rsquo; designation happens when a project has been in the top 1% of downloads over the prior six months.</description>
+      <description>&lt;p&gt;Last week, I got a mail from PyPI, the Python package index. They informed me
+that one of my open source projects had been designated as &amp;lsquo;critical,&amp;rsquo; and
+I was therefore required to enable two-factor authentication. If I didn&amp;rsquo;t
+oblige, I would soon lose the ability to add new releases or modify the
+project.&lt;/p&gt;
+&lt;p&gt;The project in question was &lt;a href=&#34;https://python-cerberus.org/&#34;&gt;Cerberus&lt;/a&gt;. The &amp;lsquo;critical&amp;rsquo; designation happens
+when a project has been in the top 1% of downloads over the prior six months.
+Given that there are currently 388K packages on the Python Package Index,
+I must admit that having one of my projects in the top 1% does feel good.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Last week, I got a mail from PyPI, the Python package index. They informed me
 that one of my open source projects had been designated as &lsquo;critical,&rsquo; and
 I was therefore required to enable two-factor authentication. If I didn&rsquo;t
@@ -420,8 +493,7 @@ criticality, then the index wants to exercise a certain amount of control
 a “critical” package. It becomes that by adoption over time. Right now the
 consequence of being a critical package is quite mild: you only need to
 enable 2FA. But a line has been drawn  now and I&rsquo;m not sure why it
-wouldn&rsquo;t be in the index best interest to put further restrictions in place.</p>
-</blockquote>
+wouldn&rsquo;t be in the index best interest to put further restrictions in place.</p></blockquote>
 <p>I think Armin&rsquo;s post is worth reading. I share some of his concerns, although
 I don&rsquo;t consider &lsquo;users vetting,&rsquo; as he suggests, a suitable alternative for
 authentication (vetting solves a different problem).</p>
@@ -444,8 +516,15 @@ authentication (vetting solves a different problem).</p>
       <link>https://nicolaiarocci.com/eve-2.0-released/</link>
       <pubDate>Wed, 08 Jun 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/eve-2.0-released/</guid>
-      <description>It&amp;rsquo;s been a long time coming, but I&amp;rsquo;m glad to announce that Eve 2 has finally been released today. This release drops support for Python 2, Python 3.5 and Python 3.6 hence the major version bump. Other than that, expect some fixes, a new uuidRepresentation setting for MONGO_OPTIONS, and an alignment to the latest Werkzeug/PyMongo idiosyncrasies. The full changelog is available on the project website.
-The Eve project has been out for ten years.</description>
+      <description>&lt;p&gt;It&amp;rsquo;s been a long time coming, but I&amp;rsquo;m glad to announce that Eve 2 has finally
+been released today. This release drops support for Python 2, Python 3.5 and
+Python 3.6 hence the major version bump. Other than that, expect some fixes,
+a new &lt;code&gt;uuidRepresentation&lt;/code&gt; setting for &lt;code&gt;MONGO_OPTIONS&lt;/code&gt;, and an alignment to the
+latest Werkzeug/PyMongo idiosyncrasies. The full changelog is available on the
+&lt;a href=&#34;https://docs.python-eve.org/en/stable/changelog.html#version-v2-0&#34;&gt;project website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The Eve project has been out for ten years. As said &lt;a href=&#34;https://nicolaiarocci.com/is-eve-still-maintained/&#34;&gt;elsewhere&lt;/a&gt;, I believe it&amp;rsquo;s
+mature and stable enough for most use cases. I consider it done in terms
+of features, and it is now in &amp;lsquo;maintenance mode&amp;rsquo;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>It&rsquo;s been a long time coming, but I&rsquo;m glad to announce that Eve 2 has finally
 been released today. This release drops support for Python 2, Python 3.5 and
 Python 3.6 hence the major version bump. Other than that, expect some fixes,
@@ -455,8 +534,7 @@ latest Werkzeug/PyMongo idiosyncrasies. The full changelog is available on the
 <p>The Eve project has been out for ten years. As said <a href="/is-eve-still-maintained/">elsewhere</a>, I believe it&rsquo;s
 mature and stable enough for most use cases. I consider it done in terms
 of features, and it is now in &lsquo;maintenance mode&rsquo;.</p>
-<p><img loading="lazy" src="/images/eve2.png" alt="Eve 2.0"  />
-</p>
+<p><img alt="Eve 2.0" loading="lazy" src="/images/eve2.png"></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -464,13 +542,16 @@ of features, and it is now in &lsquo;maintenance mode&rsquo;.</p>
       <link>https://nicolaiarocci.com/eve-swagger-v0.2-released/</link>
       <pubDate>Tue, 17 May 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/eve-swagger-v0.2-released/</guid>
-      <description>I just released Eve-Swagger v0.2 on PyPI. Eve-Swagger is a Swagger/OpenAPI extension for Eve powered RESTful APIs. This maintenance release addresses a few issues and adds support for eve-auth-jwt. Many thanks to Roberto Romero for his contributions to this release.</description>
+      <description>&lt;p&gt;I just released &lt;a href=&#34;https://pypi.org/project/Eve-Swagger/&#34;&gt;Eve-Swagger v0.2&lt;/a&gt; on PyPI. Eve-Swagger is a Swagger/OpenAPI
+extension for &lt;a href=&#34;https://python-eve.org&#34;&gt;Eve&lt;/a&gt; powered RESTful APIs. This maintenance release addresses
+a few issues and adds support for &lt;a href=&#34;https://github.com/rs/eve-auth-jwt&#34;&gt;eve-auth-jwt&lt;/a&gt;. Many thanks to &lt;a href=&#34;https://github.com/sildur&#34;&gt;Roberto
+Romero&lt;/a&gt; for his contributions to this release.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Eve-Swagger 0.2&#34; loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/eve-swagger-0.2.png&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I just released <a href="https://pypi.org/project/Eve-Swagger/">Eve-Swagger v0.2</a> on PyPI. Eve-Swagger is a Swagger/OpenAPI
 extension for <a href="https://python-eve.org">Eve</a> powered RESTful APIs. This maintenance release addresses
 a few issues and adds support for <a href="https://github.com/rs/eve-auth-jwt">eve-auth-jwt</a>. Many thanks to <a href="https://github.com/sildur">Roberto
 Romero</a> for his contributions to this release.</p>
-<p><img loading="lazy" src="/images/eve-swagger-0.2.png" alt="Eve-Swagger 0.2"  />
-</p>
+<p><img alt="Eve-Swagger 0.2" loading="lazy" src="/images/eve-swagger-0.2.png"></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -478,8 +559,13 @@ Romero</a> for his contributions to this release.</p>
       <link>https://nicolaiarocci.com/work-in-progress-on-eve-2.0/</link>
       <pubDate>Sun, 13 Feb 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/work-in-progress-on-eve-2.0/</guid>
-      <description>I&amp;rsquo;ve been back at the forge working on Eve 2.0. Version 2 will support Python 3.7+ and drop Python 2.7, 3.5 and 3.6. It will bring support for PyMongo 4+ as well, along with several other minor fixes and improvements (changelog). It would be nice if you guys and gals, users of Eve, would give it a spin before the release.
-I know. I recently stated that Eve was in maintenance mode.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve been back at the forge working on Eve 2.0. Version 2 will support Python
+3.7+ and drop Python 2.7, 3.5 and 3.6. It will bring support for PyMongo 4+ as
+well, along with several other minor fixes and improvements (&lt;a href=&#34;https://docs.python-eve.org/en/latest/changelog.html&#34;&gt;changelog&lt;/a&gt;).
+It would be nice if you guys and gals, users of Eve, would give it a spin
+before the release.&lt;/p&gt;
+&lt;p&gt;I know. I &lt;a href=&#34;https://nicolaiarocci.com/is-eve-still-maintained/&#34;&gt;recently&lt;/a&gt; stated that Eve was in maintenance mode. All of
+those considerations still apply, but what can I say? I want Eve 2 out.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I&rsquo;ve been back at the forge working on Eve 2.0. Version 2 will support Python
 3.7+ and drop Python 2.7, 3.5 and 3.6. It will bring support for PyMongo 4+ as
 well, along with several other minor fixes and improvements (<a href="https://docs.python-eve.org/en/latest/changelog.html">changelog</a>).
@@ -494,19 +580,25 @@ those considerations still apply, but what can I say? I want Eve 2 out.</p>
       <link>https://nicolaiarocci.com/is-eve-still-maintained/</link>
       <pubDate>Sat, 06 Nov 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/is-eve-still-maintained/</guid>
-      <description>Tonight someone opened a ticket on the Eve repository. I jotted down a quick reply and was about to hit the Comment button when I thought a more articulated reply was in order. I also want it published on my website.
-So the question is:
-Is Eve still maintained?
-My reply goes like this:
-Hello, yes, Eve is in &amp;lsquo;maintenance mode&amp;rsquo;, as I call it. I don&amp;rsquo;t actively develop new features anymore.</description>
+      <description>&lt;p&gt;Tonight someone opened &lt;a href=&#34;https://github.com/pyeve/eve/issues/1458&#34;&gt;a ticket&lt;/a&gt; on
+the Eve repository. I jotted down a quick reply and was about to hit the
+Comment button when I thought a more articulated reply was in order. I also
+want it published on my website.&lt;/p&gt;
+&lt;p&gt;So the question is:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Is Eve still maintained?&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;My reply goes like this:&lt;/p&gt;
+&lt;p&gt;Hello, yes, &lt;a href=&#34;https://python-eve.org&#34;&gt;Eve&lt;/a&gt; is in &amp;lsquo;maintenance mode&amp;rsquo;, as I call
+it. I don&amp;rsquo;t actively develop new features anymore. Still, I am more than
+willing to code-review and merge relevant pull requests, especially so if they
+are bug fixes or improvements over existing features.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Tonight someone opened <a href="https://github.com/pyeve/eve/issues/1458">a ticket</a> on
 the Eve repository. I jotted down a quick reply and was about to hit the
 Comment button when I thought a more articulated reply was in order. I also
 want it published on my website.</p>
 <p>So the question is:</p>
 <blockquote>
-<p>Is Eve still maintained?</p>
-</blockquote>
+<p>Is Eve still maintained?</p></blockquote>
 <p>My reply goes like this:</p>
 <p>Hello, yes, <a href="https://python-eve.org">Eve</a> is in &lsquo;maintenance mode&rsquo;, as I call
 it. I don&rsquo;t actively develop new features anymore. Still, I am more than
@@ -550,7 +642,22 @@ to the next level.</p>
       <link>https://nicolaiarocci.com/drama-going-on-at-the-.net-foundation/</link>
       <pubDate>Thu, 07 Oct 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/drama-going-on-at-the-.net-foundation/</guid>
-      <description>A few months after I released my first .NET open source project (a niche one targeting the Italian fintech world), I was contacted by a representative of Team Digitale, the digital innovation branch of the Italian Public Administration. He suggested joining the Developers Italia initiative and moving my project to the their organization on GitHub &amp;ldquo;to enjoy enhanced visibility and broaden the audience&amp;rdquo;. I politely refused. I did not doubt my counterpart&amp;rsquo;s good faith.</description>
+      <description>&lt;p&gt;A few months after I released my first &lt;a href=&#34;https://fatturaelettronicaopensource.org/&#34;&gt;.NET open source project&lt;/a&gt; (a niche
+one targeting the Italian fintech world), I was contacted by a representative
+of Team Digitale, the digital innovation branch of the Italian Public
+Administration. He suggested joining the Developers Italia initiative and
+moving my project to the their organization on GitHub &amp;ldquo;to enjoy
+enhanced visibility and broaden the audience&amp;rdquo;. I politely refused. I did not
+doubt my counterpart&amp;rsquo;s good faith. At the same time, I was concerned about the
+possible long-term consequences of a seemingly easy move. Moving a GitHub
+project away from your profile or an organization you control means ceding
+control over it. I was assured I would keep control of the project. But what
+happens if sometime in the future, when people in charge might even have
+changed, they revoke my access rights? As long as I am involved with my
+project, I should be in control. Also, I was not convinced that the move would
+help promote the project. We live in the search-engine age; people search for
+solutions to their problems. I was, and still am, confident that if I did my
+due diligence and my project is any good, people will find it&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>A few months after I released my first <a href="https://fatturaelettronicaopensource.org/">.NET open source project</a> (a niche
 one targeting the Italian fintech world), I was contacted by a representative
 of Team Digitale, the digital innovation branch of the Italian Public
@@ -614,9 +721,13 @@ earsly as next week.</p>
       <link>https://nicolaiarocci.com/my-dotnetpodcast-interview/</link>
       <pubDate>Tue, 06 Jul 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/my-dotnetpodcast-interview/</guid>
-      <description>Today I was interviewed by Mauro Servienti on the DotNetPodcast. The theme was my experience as an open-source maintainer on both the Python and C# stacks. We also discussed the ongoing evolution of the dotNET ecosystem, touching on a few tangent topics.
-The recording is in Italian and is available below here.
-Listen to &amp;ldquo;Python, Eve, open source e fattura elettronica. Con Nicola Iarocci&amp;rdquo; on Spreaker.</description>
+      <description>&lt;p&gt;Today I was interviewed by &lt;a href=&#34;https://twitter.com/mauroservienti&#34;&gt;Mauro Servienti&lt;/a&gt; on the &lt;a href=&#34;https://www.spreaker.com/show/dotnetpodcast&#34;&gt;DotNetPodcast&lt;/a&gt;. The
+theme was my experience as an open-source maintainer on both the Python and C#
+stacks. We also discussed the ongoing evolution of the dotNET ecosystem,
+touching on a few tangent topics.&lt;/p&gt;
+&lt;p&gt;The recording is in Italian and is available below here.&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Listen to &amp;ldquo;Python, Eve, open source
+e fattura elettronica. Con Nicola Iarocci&amp;rdquo; on Spreaker.&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I was interviewed by <a href="https://twitter.com/mauroservienti">Mauro Servienti</a> on the <a href="https://www.spreaker.com/show/dotnetpodcast">DotNetPodcast</a>. The
 theme was my experience as an open-source maintainer on both the Python and C#
 stacks. We also discussed the ongoing evolution of the dotNET ecosystem,
@@ -631,8 +742,16 @@ e fattura elettronica. Con Nicola Iarocci&rdquo; on Spreaker.<!-- raw HTML omitt
       <link>https://nicolaiarocci.com/open-source-what-happens-when-the-free-lunch-ends/</link>
       <pubDate>Fri, 04 Jun 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/open-source-what-happens-when-the-free-lunch-ends/</guid>
-      <description>The article I&amp;rsquo;m linking today is authored by Aaron Stannard and focuses on the drama currently going on in the .NET Open Source ecosystem. We&amp;rsquo;ve all been there. A dependency we took aeons ago goes unmaintained or changes its licensing model. Why does this happen? Because at some point, projects need to become sustainable or else they fail.
-[&amp;hellip;] it&amp;rsquo;s inexpensive for maintainers to support a small number of users with relatively similar demands - but once a project achieves critical mass and the demand on the maintainers exceeds their desire to supply, something will have to give.</description>
+      <description>&lt;p&gt;The article I&amp;rsquo;m linking today is authored by Aaron Stannard and focuses on &lt;a href=&#34;https://aaronstannard.com/dotnetoss-free-lunch-ends/&#34;&gt;the
+drama currently going on in the .NET Open Source ecosystem&lt;/a&gt;. We&amp;rsquo;ve all been
+there. A dependency we took aeons ago goes unmaintained or changes its
+licensing model. Why does this happen? Because at some point, projects need to
+become sustainable or else they fail.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[&amp;hellip;] it&amp;rsquo;s inexpensive for maintainers to support a small number of users
+with relatively similar demands - but once a project achieves critical mass
+and the demand on the maintainers exceeds their desire to supply, something
+will have to give.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>The article I&rsquo;m linking today is authored by Aaron Stannard and focuses on <a href="https://aaronstannard.com/dotnetoss-free-lunch-ends/">the
 drama currently going on in the .NET Open Source ecosystem</a>. We&rsquo;ve all been
 there. A dependency we took aeons ago goes unmaintained or changes its
@@ -642,8 +761,7 @@ become sustainable or else they fail.</p>
 <p>[&hellip;] it&rsquo;s inexpensive for maintainers to support a small number of users
 with relatively similar demands - but once a project achieves critical mass
 and the demand on the maintainers exceeds their desire to supply, something
-will have to give.</p>
-</blockquote>
+will have to give.</p></blockquote>
 <p>Case in point, IdentityServer. The license change was, in my opinion, long
 overdue. The new agreement is very reasonable; the package remains free for
 most users. I understand the so-called &ldquo;Procurement Rage.&rdquo;</p>
@@ -652,8 +770,7 @@ most users. I understand the so-called &ldquo;Procurement Rage.&rdquo;</p>
 all of their institutionalized knowledge and expertise developers now have no
 choice other than violating the license terms (legal won&rsquo;t stand for that) or
 dealing with the procurement bureaucracy to allocate company money for the
-purchase.</p>
-</blockquote>
+purchase.</p></blockquote>
 <p>Procurement is undoubtedly an obstacle to open-source adoption within the
 Enterprise. Yet, it is true that there is no such a thing as a free lunch.
 Either be prepared to pay or send some value back to your dependencies, in one
@@ -664,8 +781,7 @@ just perfect:</p>
 producers is the inevitable conclusion to the “Open Source Sustainability
 Crisis” - and everyone will be better off for it. So you should start the
 conversation with your team and find some projects to support - because it’s
-in your own self-interest to see them sustained.</p>
-</blockquote>
+in your own self-interest to see them sustained.</p></blockquote>
 <p>I subscribe to every single word. I find this case even more disheartening
 because most protesters are asking Microsoft to roll their own alternative. No
 gratitude or sympathy, nothing, really, for the people who worked hard for
@@ -686,8 +802,15 @@ certainly not less.</p>
       <link>https://nicolaiarocci.com/eve-sdk-for-net-v0-2-is-out-in-the-wild/</link>
       <pubDate>Tue, 02 Aug 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/eve-sdk-for-net-v0-2-is-out-in-the-wild/</guid>
-      <description>I just released a long overdue update to Eve.NET. This release marks a significant improvement over the previous one, which was more a prototype than a real package. New features are as follows:
-PostAsync() supports bulk inserts DeleteAsync() supports bulk deletes GetAsync() has a softDelete option to include soft-deleted documents with query results GetAsync() has a rawQuery option to pass raw Eve queries to the server BearerAuthenticator class adds support for Bearer Token authentication Several fixes made it into this release and, most importantly, I switched to portable Profile259 which offers support for the following platforms: Xamarin.</description>
+      <description>&lt;p&gt;I just released a long overdue update to &lt;a href=&#34;https://github.com/nicolaiarocci/Eve.NET/&#34;&gt;Eve.NET&lt;/a&gt;. This release marks a significant improvement over the previous one, which was more a prototype than a real package. New features are as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;PostAsync()&lt;/code&gt; supports bulk inserts&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;DeleteAsync()&lt;/code&gt; supports bulk deletes&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;GetAsync()&lt;/code&gt; has a &lt;code&gt;softDelete&lt;/code&gt; option to include soft-deleted documents with query results&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;GetAsync()&lt;/code&gt; has a &lt;code&gt;rawQuery&lt;/code&gt; option to pass raw Eve queries to the server&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;BearerAuthenticator&lt;/code&gt; class adds support for Bearer Token authentication&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Several fixes made it into this release and, most importantly, I switched to portable Profile259 which offers support for the following platforms: Xamarin.iOS, Xamarin.Android, WinPhone 8.1, Windows 8, .NET 4.5+. Yes, that means no more support for .NET 4.0. See the &lt;a href=&#34;https://github.com/nicolaiarocci/Eve.NET/blob/master/CHANGES&#34;&gt;changelog&lt;/a&gt; for details.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I just released a long overdue update to <a href="https://github.com/nicolaiarocci/Eve.NET/">Eve.NET</a>. This release marks a significant improvement over the previous one, which was more a prototype than a real package. New features are as follows:</p>
 <ul>
 <li><code>PostAsync()</code> supports bulk inserts</li>
@@ -706,8 +829,9 @@ PostAsync() supports bulk inserts DeleteAsync() supports bulk deletes GetAsync()
       <link>https://nicolaiarocci.com/introducing-simpleobjectcache-a-simple-cross-platform-object-cache-for-net-systems/</link>
       <pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/introducing-simpleobjectcache-a-simple-cross-platform-object-cache-for-net-systems/</guid>
-      <description>SimpleObjectCache is a very simple permanent, cross-platform, asynchronous key-value object cache for .NET. It comes with built-in SQLite 3 support. Alternative backends can be added by implementing the IObjectCache or IBulkObjectCache interfaces.
-How it works First, you need to set the ApplicatioName. This is also going to be the folder where your cache will reside. Depending on the host OS the location of this folder might be different. On Windows it would be something like C:\ProgramData\&amp;lt;ApplicationName&amp;gt;\SimpleObjectCache.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/nicolaiarocci/SimpleObjectCache&#34;&gt;SimpleObjectCache&lt;/a&gt; is a very simple permanent, cross-platform, asynchronous key-value object cache for .NET. It comes with built-in &lt;a href=&#34;https://www.sqlite.org&#34;&gt;SQLite 3&lt;/a&gt; support. Alternative backends can be added by implementing the &lt;code&gt;IObjectCache&lt;/code&gt; or &lt;code&gt;IBulkObjectCache&lt;/code&gt; interfaces.&lt;/p&gt;
+&lt;h2 id=&#34;how-it-works&#34;&gt;How it works&lt;/h2&gt;
+&lt;p&gt;First, you need to set the &lt;code&gt;ApplicatioName&lt;/code&gt;. This is also going to be the folder where your cache will reside. Depending on the host OS the location of this folder might be different. On Windows it would be something like &lt;code&gt;C:\ProgramData\&amp;lt;ApplicationName&amp;gt;\SimpleObjectCache&lt;/code&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="https://github.com/nicolaiarocci/SimpleObjectCache">SimpleObjectCache</a> is a very simple permanent, cross-platform, asynchronous key-value object cache for .NET. It comes with built-in <a href="https://www.sqlite.org">SQLite 3</a> support. Alternative backends can be added by implementing the <code>IObjectCache</code> or <code>IBulkObjectCache</code> interfaces.</p>
 <h2 id="how-it-works">How it works</h2>
 <p>First, you need to set the <code>ApplicatioName</code>. This is also going to be the folder where your cache will reside. Depending on the host OS the location of this folder might be different. On Windows it would be something like <code>C:\ProgramData\&lt;ApplicationName&gt;\SimpleObjectCache</code>.</p>
@@ -755,12 +879,12 @@ How it works First, you need to set the ApplicatioName. This is also going to be
       <link>https://nicolaiarocci.com/evegenie-makes-eve-schema-generation-breeze/</link>
       <pubDate>Wed, 15 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/evegenie-makes-eve-schema-generation-breeze/</guid>
-      <description>Released by the nice folks at Drud, EveGenie is a tool for making Eve schema generation easier.
-Eve’s schema definitions are full of features, but can take a good amount of time to create when dealing with lots of complex resources. From our experience, it’s often helpful to describe an endpoint in JSON before creating it as an Eve schema. This allows you to make quick decisions about the structure of your entities without spending time moving schema code around.</description>
+      <description>&lt;p&gt;Released by the nice folks at Drud, &lt;a href=&#34;https://github.com/drud/evegenie&#34;&gt;EveGenie&lt;/a&gt; is a tool for making &lt;a href=&#34;http://python-eve.org&#34;&gt;Eve&lt;/a&gt; schema generation easier.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Eve’s schema definitions are full of features, but can take a good amount of time to create when dealing with lots of complex resources. From our experience, it’s often helpful to describe an endpoint in JSON before creating it as an Eve schema. This allows you to make quick decisions about the structure of your entities without spending time moving schema code around. This is where EveGenie comes in.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Released by the nice folks at Drud, <a href="https://github.com/drud/evegenie">EveGenie</a> is a tool for making <a href="http://python-eve.org">Eve</a> schema generation easier.</p>
 <blockquote>
-<p>Eve’s schema definitions are full of features, but can take a good amount of time to create when dealing with lots of complex resources. From our experience, it’s often helpful to describe an endpoint in JSON before creating it as an Eve schema. This allows you to make quick decisions about the structure of your entities without spending time moving schema code around. This is where EveGenie comes in.</p>
-</blockquote>
+<p>Eve’s schema definitions are full of features, but can take a good amount of time to create when dealing with lots of complex resources. From our experience, it’s often helpful to describe an endpoint in JSON before creating it as an Eve schema. This allows you to make quick decisions about the structure of your entities without spending time moving schema code around. This is where EveGenie comes in.</p></blockquote>
 <p>EveGenie saves time by creating a ready to use Python Eve schema from a very simple JSON representation of a set of resources.</p>
 <p>Interested? Good! Matt Tucker (<a href="https://twitter.com/ultimateboy">@ultimateboy</a>) has a <a href="http://www.drud.com/evegenie-python-eve-schema-generation-done-fast/">getting started with EveGenie</a> article up for you, so make sure to check it out.</p>
 ]]></content:encoded>
@@ -770,8 +894,8 @@ Eve’s schema definitions are full of features, but can take a good amount of t
       <link>https://nicolaiarocci.com/eve-0-6-4-just-released/</link>
       <pubDate>Wed, 08 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/eve-0-6-4-just-released/</guid>
-      <description>Quick note to let you all know that Eve v0.6.4 is out with a few significant updates. Thanks to James Stewart for contributing to this release.
-Work on v0.7, which will include MongoDB Aggregation Framework support (docs) and many other new features, continues steadily.</description>
+      <description>&lt;p&gt;Quick note to let you all know that &lt;a href=&#34;https://pypi.python.org/pypi/Eve/0.6.4&#34;&gt;Eve v0.6.4&lt;/a&gt; is out with a few significant &lt;a href=&#34;http://python-eve.org/changelog#version-0-6-4&#34;&gt;updates&lt;/a&gt;. Thanks to James Stewart for contributing to this release.&lt;/p&gt;
+&lt;p&gt;Work on v0.7, which will include MongoDB Aggregation Framework support (&lt;a href=&#34;http://python-eve.org/features.html#mongodb-aggregation-framework&#34;&gt;docs&lt;/a&gt;) and many other &lt;a href=&#34;http://python-eve.org/changelog#version-0-7&#34;&gt;new features&lt;/a&gt;, continues steadily.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Quick note to let you all know that <a href="https://pypi.python.org/pypi/Eve/0.6.4">Eve v0.6.4</a> is out with a few significant <a href="http://python-eve.org/changelog#version-0-6-4">updates</a>. Thanks to James Stewart for contributing to this release.</p>
 <p>Work on v0.7, which will include MongoDB Aggregation Framework support (<a href="http://python-eve.org/features.html#mongodb-aggregation-framework">docs</a>) and many other <a href="http://python-eve.org/changelog#version-0-7">new features</a>, continues steadily.</p>
 ]]></content:encoded>
@@ -869,12 +993,12 @@ Work on v0.7, which will include MongoDB Aggregation Framework support (docs) an
       <link>https://nicolaiarocci.com/fattura-elettronica-per-la-pa-v0-2-1/</link>
       <pubDate>Mon, 23 May 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/fattura-elettronica-per-la-pa-v0-2-1/</guid>
-      <description>Ho appena pubblicato su NuGet l’ultimo aggiornamento di FatturaElettronicaPA, il package .NET per la compilazione e convalida delle fatture elettroniche per la Pubblica Amministrazione. Si tratta della versione 0.2.1 che fa proprie le novità annunciate il 9 Maggio scorso:
-A partire dal 9 maggio 2016 sono introdotti nuovi controlli sui file trasmessi al Sistema di Interscambio. Per consentire il necessario adeguamento al nuovo regime di verifiche, fino al 31 luglio 2016 il mancato superamento di uno o più di questi nuovi controlli non comporterà lo scarto del file ma solo una segnalazione che verrà riportata all’interno della Ricevuta di consegna o della Notifica di mancata consegna.</description>
+      <description>&lt;p&gt;Ho appena pubblicato su NuGet l’ultimo aggiornamento di &lt;a href=&#34;https://github.com/FatturaElettronicaPA/FatturaElettronicaPA/&#34;&gt;FatturaElettronicaPA&lt;/a&gt;, il package .NET per la compilazione e convalida delle fatture elettroniche per la Pubblica Amministrazione. Si tratta della &lt;a href=&#34;https://www.nuget.org/packages/FatturaElettronicaPA/0.2.1&#34;&gt;versione 0.2.1&lt;/a&gt; che fa proprie le novità annunciate il 9 Maggio scorso:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A partire dal 9 maggio 2016 sono introdotti nuovi controlli sui file trasmessi al Sistema di Interscambio. Per consentire il necessario adeguamento al nuovo regime di verifiche, fino al 31 luglio 2016 il mancato superamento di uno o più di questi nuovi controlli non comporterà lo scarto del file ma solo una segnalazione che verrà riportata all’interno della Ricevuta di consegna o della Notifica di mancata consegna. Dal 1 agosto 2016 i file che non dovessero superare uno o più di questi controlli verranno scartati.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Ho appena pubblicato su NuGet l’ultimo aggiornamento di <a href="https://github.com/FatturaElettronicaPA/FatturaElettronicaPA/">FatturaElettronicaPA</a>, il package .NET per la compilazione e convalida delle fatture elettroniche per la Pubblica Amministrazione. Si tratta della <a href="https://www.nuget.org/packages/FatturaElettronicaPA/0.2.1">versione 0.2.1</a> che fa proprie le novità annunciate il 9 Maggio scorso:</p>
 <blockquote>
-<p>A partire dal 9 maggio 2016 sono introdotti nuovi controlli sui file trasmessi al Sistema di Interscambio. Per consentire il necessario adeguamento al nuovo regime di verifiche, fino al 31 luglio 2016 il mancato superamento di uno o più di questi nuovi controlli non comporterà lo scarto del file ma solo una segnalazione che verrà riportata all’interno della Ricevuta di consegna o della Notifica di mancata consegna. Dal 1 agosto 2016 i file che non dovessero superare uno o più di questi controlli verranno scartati.</p>
-</blockquote>
+<p>A partire dal 9 maggio 2016 sono introdotti nuovi controlli sui file trasmessi al Sistema di Interscambio. Per consentire il necessario adeguamento al nuovo regime di verifiche, fino al 31 luglio 2016 il mancato superamento di uno o più di questi nuovi controlli non comporterà lo scarto del file ma solo una segnalazione che verrà riportata all’interno della Ricevuta di consegna o della Notifica di mancata consegna. Dal 1 agosto 2016 i file che non dovessero superare uno o più di questi controlli verranno scartati.</p></blockquote>
 <p>Se per ora i nuovi controlli non sono vincolanti, lo saranno a partire dal 1 agosto. Poiché si tratta di una serie di convalide sui conteggi consiglio di passare alla versione 0.2.1 al più presto, così da verificare che in effetti le vostre fatture elettroniche siano in linea con le aspettative della PA: potreste avere qualche sorpresa.</p>
 <p>Nel nostro caso, per esempio, abbiamo dovuto prendere atto che gli importi imponibili relativi alle aliquote IVA, così come le corrispondenti imposte, devono essere indicati al lordo degli eventuali sconti generali del documento, pena il rifiuto dello stesso da parte del sistema di interscambio. Date una occhiata al <a href="https://github.com/FatturaElettronicaPA/FatturaElettronicaPA/blob/master/CHANGES">changelog</a> per l’elenco completo delle novità.</p>
 <p>Voglio aggiungere un commento sulle modalità di pubblicazione degli aggiornamenti tecnici da parte di Agenzia Entrate/Sogei. Sebbene siano dotati di data e numero di versione, questi sono da considerarsi, ad essere buoni, puramente indicativi. Per esempio l’attuale <a href="http://www.fatturapa.gov.it/export/fatturazione/sdi/Elenco_Controlli_V1.2.pdf">versione 1.2</a> dell’elenco controlli è stata aggiornata “silenziosamente” un paio di giorni dopo la pubblicazione (hanno aggiunto una tolleranza di 1 Euro al controllo 00422). Così lo sviluppatore incauto che si limiti a controllare la data e il numero di versione del documento rischia di vedersi respingere fatture per lui del tutto corrette, a meno che non di prenda la briga di verificare, riga per riga, la corrispondenza tra la documentazione in suo possesso e quella disponibile sul sito in quel momento. Chiaramente in PA non hanno idea di cosa sia il <a href="http://semver.org/">Semantic Versioning</a>.</p>
@@ -887,7 +1011,7 @@ A partire dal 9 maggio 2016 sono introdotti nuovi controlli sui file trasmessi a
       <link>https://nicolaiarocci.com/crazy-speaking-month/</link>
       <pubDate>Mon, 09 May 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/crazy-speaking-month/</guid>
-      <description>April was definitely my crazy Speaking Month. After an almost one year long self-imposed conference hiatus, I was challenged to deliver four different talks, attend two discussion panels, give one live demo and release one interview. All in a three weeks period span. First I went to PyCon Sette in Florence. A few days later a plane took me to St. Petersburg, Russia, for PiterPy. Finally, the next weekend I was in Rome for the Western Europe Microsoft MVP Community Day.</description>
+      <description>&lt;p&gt;April was definitely my crazy Speaking Month. After an almost one year long self-imposed conference hiatus, I was challenged to deliver four different talks, attend two discussion panels, give one live demo and release one interview. All in a three weeks period span. First I went to &lt;a href=&#34;http://www.pycon.it&#34;&gt;PyCon Sette&lt;/a&gt; in Florence. A few days later a plane took me to St. Petersburg, Russia, for &lt;a href=&#34;http://www.it-sobytie.ru/en/events/5862&#34;&gt;PiterPy&lt;/a&gt;. Finally, the next weekend I was in Rome for the &lt;a href=&#34;https://mvp.microsoft.com&#34;&gt;Western Europe Microsoft MVP Community Day&lt;/a&gt;. In the meantime several Channel 9 TecHeroes episodes were due for release. This was of course super exciting. And challenging.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>April was definitely my crazy Speaking Month. After an almost one year long self-imposed conference hiatus, I was challenged to deliver four different talks, attend two discussion panels, give one live demo and release one interview. All in a three weeks period span. First I went to <a href="http://www.pycon.it">PyCon Sette</a> in Florence. A few days later a plane took me to St. Petersburg, Russia, for <a href="http://www.it-sobytie.ru/en/events/5862">PiterPy</a>. Finally, the next weekend I was in Rome for the <a href="https://mvp.microsoft.com">Western Europe Microsoft MVP Community Day</a>. In the meantime several Channel 9 TecHeroes episodes were due for release. This was of course super exciting. And challenging.</p>
 <p>This post is not much (or only) about my talks or performance, but hopefully more around the different communities I got a chance to interact with.</p>
 <h2 id="pycon-sette-florence">PyCon Sette, Florence</h2>
@@ -929,8 +1053,8 @@ A partire dal 9 maggio 2016 sono introdotti nuovi controlli sui file trasmessi a
       <link>https://nicolaiarocci.com/fatturaelettronicapa-for-net-has-been-updated/</link>
       <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/fatturaelettronicapa-for-net-has-been-updated/</guid>
-      <description>FatturaElettronicaPA has just been updated to v0.1.4. With this release invoice bodies (FatturaElettronicaBody items) are also validated. As always, you can install the package directly from NuGet. See the original post for more info. Also don’t forget to check the related projects.
-Update: v0.1.6 has also been released.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/FatturaElettronicaPA/FatturaElettronicaPA&#34;&gt;FatturaElettronicaPA&lt;/a&gt; has just been updated to v0.1.4. With this release invoice bodies (&lt;code&gt;FatturaElettronicaBody&lt;/code&gt; items) are also validated. As always, you can install the package directly from &lt;a href=&#34;https://www.nuget.org/packages/FatturaElettronicaPA/&#34;&gt;NuGet&lt;/a&gt;. See the &lt;a href=&#34;http://nicolaiarocci.com/fattura-elettronica-open-source/&#34;&gt;original post&lt;/a&gt; for more info. Also don’t forget to check the &lt;a href=&#34;https://github.com/FatturaElettronicaPA&#34;&gt;related projects&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Update: v0.1.6 has also been released.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="https://github.com/FatturaElettronicaPA/FatturaElettronicaPA">FatturaElettronicaPA</a> has just been updated to v0.1.4. With this release invoice bodies (<code>FatturaElettronicaBody</code> items) are also validated. As always, you can install the package directly from <a href="https://www.nuget.org/packages/FatturaElettronicaPA/">NuGet</a>. See the <a href="http://nicolaiarocci.com/fattura-elettronica-open-source/">original post</a> for more info. Also don’t forget to check the <a href="https://github.com/FatturaElettronicaPA">related projects</a>.</p>
 <p>Update: v0.1.6 has also been released.</p>
 ]]></content:encoded>
@@ -940,8 +1064,9 @@ Update: v0.1.6 has also been released.</description>
       <link>https://nicolaiarocci.com/cerberus-0-9-has-been-released/</link>
       <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/cerberus-0-9-has-been-released/</guid>
-      <description>A few days ago Cerberus 0.9 was released. It includes a bunch of new cool features, let’s browse through some of them.
-Collection rules First up is the new set of anyof, allof, noneof and oneof validation rules. anyof allows you to list multiple sets of rules to validate against. The field will be considered valid if it validates against one set in the list. For example, to verify that a property is a number between 0 and 10 or 100 and 110, you could do the following:</description>
+      <description>&lt;p&gt;A few days ago &lt;a href=&#34;https://github.com/nicolaiarocci/cerberus&#34;&gt;Cerberus 0.9&lt;/a&gt; was released. It includes a bunch of new cool features, let’s browse through some of them.&lt;/p&gt;
+&lt;h2 id=&#34;collection-rules&#34;&gt;Collection rules&lt;/h2&gt;
+&lt;p&gt;First up is the new set of &lt;code&gt;anyof&lt;/code&gt;, &lt;code&gt;allof&lt;/code&gt;, &lt;code&gt;noneof&lt;/code&gt; and &lt;code&gt;oneof&lt;/code&gt; validation rules. &lt;code&gt;anyof&lt;/code&gt; allows you to list multiple sets of rules to validate against. The field will be considered valid if it validates against one set in the list. For example, to verify that a property is a number between 0 and 10 or 100 and 110, you could do the following:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>A few days ago <a href="https://github.com/nicolaiarocci/cerberus">Cerberus 0.9</a> was released. It includes a bunch of new cool features, let’s browse through some of them.</p>
 <h2 id="collection-rules">Collection rules</h2>
 <p>First up is the new set of <code>anyof</code>, <code>allof</code>, <code>noneof</code> and <code>oneof</code> validation rules. <code>anyof</code> allows you to list multiple sets of rules to validate against. The field will be considered valid if it validates against one set in the list. For example, to verify that a property is a number between 0 and 10 or 100 and 110, you could do the following:</p>
@@ -1059,9 +1184,9 @@ False
       <link>https://nicolaiarocci.com/fattura-elettronica-open-source-web-service-pa/</link>
       <pubDate>Thu, 21 May 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/fattura-elettronica-open-source-web-service-pa/</guid>
-      <description>this post is about an all-Italian open source release, so it’s going to be in Italian
-Il progetto Fattura Elettronica Open Source si è arricchito di un nuovo strumento: Web Services. Il namespace FatturaElettronicaPA.WebServices raccoglie una serie di client C# che consentono di consultare i Web Service per la Fattura Elettronica messi a disposizione dalla Pubblica Amministrazione.
-Sono disegnati in maniera da esporre tutti la stessa interfaccia ed essere al tempo stesso semplici e leggeri.</description>
+      <description>&lt;p&gt;&lt;em&gt;this post is about an all-Italian open source release, so it’s going to be in Italian&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Il progetto &lt;a href=&#34;http://nicolaiarocci.com/fattura-elettronica-open-source/&#34;&gt;Fattura Elettronica Open Source&lt;/a&gt; si è arricchito di un nuovo strumento: &lt;a href=&#34;https://github.com/FatturaElettronicaPA/FatturaElettronicaPA.WebServices&#34;&gt;Web Services&lt;/a&gt;. Il namespace &lt;code&gt;FatturaElettronicaPA.WebServices&lt;/code&gt; raccoglie una serie di client C# che consentono di consultare i Web Service per la Fattura Elettronica messi a disposizione dalla Pubblica Amministrazione.&lt;/p&gt;
+&lt;p&gt;Sono disegnati in maniera da esporre tutti la stessa interfaccia ed essere al tempo stesso semplici e leggeri. Al momento lavorano in modalità sincrona ma l’obiettivo è di renderli tutti asincroni.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><em>this post is about an all-Italian open source release, so it’s going to be in Italian</em></p>
 <p>Il progetto <a href="http://nicolaiarocci.com/fattura-elettronica-open-source/">Fattura Elettronica Open Source</a> si è arricchito di un nuovo strumento: <a href="https://github.com/FatturaElettronicaPA/FatturaElettronicaPA.WebServices">Web Services</a>. Il namespace <code>FatturaElettronicaPA.WebServices</code> raccoglie una serie di client C# che consentono di consultare i Web Service per la Fattura Elettronica messi a disposizione dalla Pubblica Amministrazione.</p>
 <p>Sono disegnati in maniera da esporre tutti la stessa interfaccia ed essere al tempo stesso semplici e leggeri. Al momento lavorano in modalità sincrona ma l’obiettivo è di renderli tutti asincroni.</p>
@@ -1095,7 +1220,7 @@ Console.WriteLine(ws.Ufficio.Comune);
       <link>https://nicolaiarocci.com/fattura-elettronica-open-source-update/</link>
       <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/fattura-elettronica-open-source-update/</guid>
-      <description>Fattura Elettronica Open Source has been updated to v0.1.3 a few days ago and is available on NuGet. Sources are on GitHub. It fixes a deserialization issue with the ReadXML method.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://fatturaelettronicaopensource.org/&#34;&gt;Fattura Elettronica Open Source&lt;/a&gt; has been updated to v0.1.3 a few days ago and is available on &lt;a href=&#34;https://www.nuget.org/packages/FatturaElettronicaPA/&#34;&gt;NuGet&lt;/a&gt;. Sources are on &lt;a href=&#34;https://github.com/FatturaElettronicaPA/FatturaElettronicaPA&#34;&gt;GitHub&lt;/a&gt;. It fixes a deserialization issue with the &lt;code&gt;ReadXML&lt;/code&gt; method.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="http://fatturaelettronicaopensource.org/">Fattura Elettronica Open Source</a> has been updated to v0.1.3 a few days ago and is available on <a href="https://www.nuget.org/packages/FatturaElettronicaPA/">NuGet</a>. Sources are on <a href="https://github.com/FatturaElettronicaPA/FatturaElettronicaPA">GitHub</a>. It fixes a deserialization issue with the <code>ReadXML</code> method.</p>
 ]]></content:encoded>
     </item>
@@ -1104,7 +1229,7 @@ Console.WriteLine(ws.Ufficio.Comune);
       <link>https://nicolaiarocci.com/i-wrote-a-thing-about-new-microsoft/</link>
       <pubDate>Wed, 04 Mar 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/i-wrote-a-thing-about-new-microsoft/</guid>
-      <description>I have a guest post up at the official Italian MSDN Team Blog. It’s about the new Microsoft I met last Wednesday at the Azure Open Day in Milan.</description>
+      <description>&lt;p&gt;I have a guest post up at the official Italian &lt;a href=&#34;http://blogs.msdn.com/b/italy/archive/2015/03/03/guest-post-una-giornata-all-azure-open-day-in-compagnia-di-una-nuova-microsoft.aspx&#34;&gt;MSDN Team Blog&lt;/a&gt;. It’s about the new Microsoft I met last Wednesday at the Azure Open Day in Milan.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I have a guest post up at the official Italian <a href="http://blogs.msdn.com/b/italy/archive/2015/03/03/guest-post-una-giornata-all-azure-open-day-in-compagnia-di-una-nuova-microsoft.aspx">MSDN Team Blog</a>. It’s about the new Microsoft I met last Wednesday at the Azure Open Day in Milan.</p>
 ]]></content:encoded>
     </item>
@@ -1188,13 +1313,13 @@ using (w = XmlWriter.Create(fileName, s)) {
       <link>https://nicolaiarocci.com/sustainable-open-source-management/</link>
       <pubDate>Fri, 06 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/sustainable-open-source-management/</guid>
-      <description>Tom Christie has some very good things to say on how to successfully maintain an open source project without losing sanity.
-Truth one: There are, and will always be, a non-finite number of possible valid issues to address. Your code can always be better polished, your APIs better defined, and your project more fully featured. Your documentation can always be better. The ecosystem within which your project lives is constantly evolving.</description>
+      <description>&lt;p&gt;Tom Christie has some very good things to say on how to successfully maintain an open source project without losing sanity.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Truth one: There are, and will always be, a non-finite number of possible valid issues to address. Your code can always be better polished, your APIs better defined, and your project more fully featured. Your documentation can always be better. The ecosystem within which your project lives is constantly evolving. You will never run out of things you could work on. Ever.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Tom Christie has some very good things to say on how to successfully maintain an open source project without losing sanity.</p>
 <blockquote>
 <p>Truth one: There are, and will always be, a non-finite number of possible valid issues to address. Your code can always be better polished, your APIs better defined, and your project more fully featured. Your documentation can always be better. The ecosystem within which your project lives is constantly evolving. You will never run out of things you could work on. Ever.</p>
-<p>Truth two: You have finite resources. Damn.</p>
-</blockquote>
+<p>Truth two: You have finite resources. Damn.</p></blockquote>
 <p>If you are an open source maintainer, contributor or even a user do yourself a favour and <a href="http://www.dabapps.com/blog/sustainable-open-source-management/">read what Tom has to say</a> on the subject. Tom is the creator and maintainer of the Django REST Framework, a hugely successful open source project so he really knows what he’s talking about. And for what is worth, his conclusions mirror mines.</p>
 <p>On a completely unrelated note, I met Tom at EuroPython 2014. He was so nice to come and meet me minutes after I was done delivering my <a href="https://speakerdeck.com/nicola/eve-rest-api-for-humans">REST API for Humans</a> talk. Good vibes.</p>
 ]]></content:encoded>
@@ -1204,21 +1329,19 @@ Truth one: There are, and will always be, a non-finite number of possible valid 
       <link>https://nicolaiarocci.com/some-thoughts-on-the-new-net-redux/</link>
       <pubDate>Thu, 04 Dec 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/some-thoughts-on-the-new-net-redux/</guid>
-      <description>Like all those involved with the .NET ecosystem I’ve been slowly digesting the recent news on the whole thing going open source and cross platform. I’ve been jogging down a few notes in light of a future blog post, but then Jeremy Miller came out with his own Some Thoughts on the New .NET which is almost exactly the post I wanted to write. So when he writes:
-I’ve started to associate .</description>
+      <description>&lt;p&gt;Like all those involved with the .NET ecosystem I’ve been slowly digesting the recent news on the whole thing going open source and cross platform. I’ve been jogging down a few notes in light of a future blog post, but then Jeremy Miller came out with his own &lt;a href=&#34;http://jeremydmiller.com/2014/12/02/some-thoughts-on-the-new-net/&#34;&gt;Some Thoughts on the New .NET&lt;/a&gt; which is almost exactly the post I wanted to write. So when he writes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I’ve started to associate .Net “classic” with seemingly constant aggravations like strong naming conflicts, csproj file merge hell, slow compilation, slow nuget restores, and how absurdly heavyweight and bloated that Visual Studio.Net has become over the years.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Like all those involved with the .NET ecosystem I’ve been slowly digesting the recent news on the whole thing going open source and cross platform. I’ve been jogging down a few notes in light of a future blog post, but then Jeremy Miller came out with his own <a href="http://jeremydmiller.com/2014/12/02/some-thoughts-on-the-new-net/">Some Thoughts on the New .NET</a> which is almost exactly the post I wanted to write. So when he writes:</p>
 <blockquote>
-<p>I’ve started to associate .Net “classic” with seemingly constant aggravations like strong naming conflicts, csproj file merge hell, slow compilation, slow nuget restores, and how absurdly heavyweight and bloated that Visual Studio.Net has become over the years.</p>
-</blockquote>
+<p>I’ve started to associate .Net “classic” with seemingly constant aggravations like strong naming conflicts, csproj file merge hell, slow compilation, slow nuget restores, and how absurdly heavyweight and bloated that Visual Studio.Net has become over the years.</p></blockquote>
 <p>It is me. No it’s actually Jeremy but really it’s me. I also share his concerns on the future OSS .NET community him:</p>
 <blockquote>
-<p>So much of .Net is open source now and they even take contributions. Awesome, great, but my very first reaction was that it doesn’t matter much because <strong>the .Net community as a whole isn’t as participatory as other communities</strong> and that would have to change before ASP.Net vNext being OSS matters. It’ll be interesting to me to see if that changes over time.</p>
-</blockquote>
+<p>So much of .Net is open source now and they even take contributions. Awesome, great, but my very first reaction was that it doesn’t matter much because <strong>the .Net community as a whole isn’t as participatory as other communities</strong> and that would have to change before ASP.Net vNext being OSS matters. It’ll be interesting to me to see if that changes over time.</p></blockquote>
 <p>I’m very involved with the Python language and its community. I released <a href="http://nicolaiarocci.com/opensource/">open source projects</a> for both platforms and frankly I’ve been shocked by the difference in culture between the two communities. I am really hoping that, in due time, .NET going open source will also cause its community to evolve as a whole.</p>
 <p>And what about coding on a Mac (or Linux for the matter)? He goes on with:</p>
 <blockquote>
-<p>After a couple years now of using a Mac, I’d really prefer to stay on that side of things and hopefully give my Windows VM much more time off. Mac OS being a first class citizen for the new .Net and the progress on the OmniSharp tools for Sublime or MacVim is going to make the new ASP.Net vNext runtime a much easier sell in my shop.</p>
-</blockquote>
+<p>After a couple years now of using a Mac, I’d really prefer to stay on that side of things and hopefully give my Windows VM much more time off. Mac OS being a first class citizen for the new .Net and the progress on the OmniSharp tools for Sublime or MacVim is going to make the new ASP.Net vNext runtime a much easier sell in my shop.</p></blockquote>
 <p>I’ve been working on a Mac for years, confining Windows on a VM, doing Python with Vim as much as possible. My God I love Vim. My Visual Studio runs VsVim (which is open source by the way). Even my Xamarin Studio on OSX runs in vi mode (which sucks unfortunately). I would never go back to a Windows machine but that does not mean that I don’ want to use C# or F#. Even these days most of my coding is C# in XS/OSX or Vim with OmniSharp, a project I’ve been experimenting with since when the plugin for Vim was released. So native .NET on OSX and Unix? Yes please.</p>
 <p>I am in the process of writing a C# iOS application. The data layer is SQLite encapsulated in a Portable Class so we can use it on both Windows and iOS. The HTTP/REST client is also portable, <a href="http://nicolaiarocci.com/introducing-eve-net-httprest-client-humans/">open source</a> and consumed on both platforms. And now even the mobile UI is C# and portable between Android, iOS and Windows Phone thanks to Xamarin.Forms. If you ask me, the future looks bright.</p>
 <p>You should read Jeremy post on <a href="http://jeremydmiller.com/2014/12/02/some-thoughts-on-the-new-net/">his site</a>.</p>
@@ -1353,8 +1476,8 @@ public class Company : BaseClass
       <link>https://nicolaiarocci.com/eve-v0-0-8-has-been-released/</link>
       <pubDate>Thu, 25 Jul 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/eve-v0-0-8-has-been-released/</guid>
-      <description>Most significant features are probably the native support for MongoDB write concern settings, new event hooks allowing for transformation of documents before they are sent to clients, increased handling of both pagination and CORS, and the native validation of float data types.
-Get it on PyPI, go straight to the source code or more likely, visit the project homepage.</description>
+      <description>&lt;p&gt;Most significant features are probably the native support for MongoDB write concern settings, new event hooks allowing for transformation of documents before they are sent to clients, increased handling of both pagination and CORS, and the native validation of float data types.&lt;/p&gt;
+&lt;p&gt;Get it on &lt;!-- raw HTML omitted --&gt;PyPI&lt;!-- raw HTML omitted --&gt;, go straight to the &lt;!-- raw HTML omitted --&gt;source code&lt;!-- raw HTML omitted --&gt; or more likely, visit the &lt;!-- raw HTML omitted --&gt;project homepage&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Most significant features are probably the native support for MongoDB write concern settings, new event hooks allowing for transformation of documents before they are sent to clients, increased handling of both pagination and CORS, and the native validation of float data types.</p>
 <p>Get it on <!-- raw HTML omitted -->PyPI<!-- raw HTML omitted -->, go straight to the <!-- raw HTML omitted -->source code<!-- raw HTML omitted --> or more likely, visit the <!-- raw HTML omitted -->project homepage<!-- raw HTML omitted -->.</p>
 ]]></content:encoded>
@@ -1392,8 +1515,10 @@ Get it on PyPI, go straight to the source code or more likely, visit the proj
       <link>https://nicolaiarocci.com/convalidare-un-dizionario-python-con-cerberus/</link>
       <pubDate>Tue, 16 Oct 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/convalidare-un-dizionario-python-con-cerberus/</guid>
-      <description>Da qualche giorno ho rilasciato Cerberus, uno strumento per la convalida dei dizionari Python. Gli passate un dizionario, lui lo confronta con uno schema di convalida e, se c’è qualcosa che non va (per esempio una chiave sconosciuta, oppure un valore di tipo sbagliato), ve lo segnala.
-Sono due le caratteristiche che rendono Cerberus interessante: è facilmente estensibile (la documentazione include un esempio di estensione del sistema di convalida), e non si blocca sollevando un’eccezione al primo problema riscontrato: gli errori, quando presenti, sono tutti riportati in una lista a fine convalida.</description>
+      <description>&lt;p&gt;Da qualche giorno ho rilasciato &lt;!-- raw HTML omitted --&gt;Cerberus&lt;!-- raw HTML omitted --&gt;, uno strumento per la convalida dei dizionari Python. Gli passate un dizionario, lui lo confronta con uno schema di convalida e, se c’è qualcosa che non va (per esempio una chiave sconosciuta, oppure un valore di tipo sbagliato), ve lo segnala.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Sono due le caratteristiche che rendono Cerberus interessante: è facilmente estensibile (la &lt;!-- raw HTML omitted --&gt;documentazione&lt;!-- raw HTML omitted --&gt; include un esempio di estensione del sistema di convalida), e non si blocca sollevando un’eccezione al primo problema riscontrato: gli errori, quando presenti, sono tutti riportati in una lista a fine convalida.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Da qualche giorno ho rilasciato <!-- raw HTML omitted -->Cerberus<!-- raw HTML omitted -->, uno strumento per la convalida dei dizionari Python. Gli passate un dizionario, lui lo confronta con uno schema di convalida e, se c’è qualcosa che non va (per esempio una chiave sconosciuta, oppure un valore di tipo sbagliato), ve lo segnala.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
@@ -1406,7 +1531,7 @@ Sono due le caratteristiche che rendono Cerberus interessante: è facilmente est
       <link>https://nicolaiarocci.com/pybooks-le-migliori-risorse-gratuite-su-python/</link>
       <pubDate>Tue, 04 Sep 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/pybooks-le-migliori-risorse-gratuite-su-python/</guid>
-      <description>PyBooks è un’ottima selezione di risorse gratuite su Python e dintorni. I migliori libri gratuiti su Python sono inclusi, così come alcuni validi tutorial sulle librerie e i framework più diffusi. Il progetto è curato dalle stesse persone che stanno dietro JSBooks, la raccolta di libri JavaScript di cui ho scritto qualche giorno fa. Anche in questo caso è possibile contribuire attivamente segnalando nuove interessanti risorse.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;PyBooks&lt;!-- raw HTML omitted --&gt; è un’ottima selezione di risorse gratuite su Python e dintorni. I migliori libri gratuiti su Python sono inclusi, così come alcuni validi tutorial sulle librerie e i framework più diffusi. Il progetto è curato dalle stesse persone che stanno dietro JSBooks, la raccolta di libri JavaScript di cui ho scritto &lt;a href=&#34;http://nicolaiarocci.com/jsbooks-libri-open-source-su-javascript/&#34; title=&#34;JSBooks&#34;&gt;qualche giorno fa&lt;/a&gt;. Anche in questo caso è possibile contribuire attivamente segnalando nuove interessanti risorse.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->PyBooks<!-- raw HTML omitted --> è un’ottima selezione di risorse gratuite su Python e dintorni. I migliori libri gratuiti su Python sono inclusi, così come alcuni validi tutorial sulle librerie e i framework più diffusi. Il progetto è curato dalle stesse persone che stanno dietro JSBooks, la raccolta di libri JavaScript di cui ho scritto <a href="http://nicolaiarocci.com/jsbooks-libri-open-source-su-javascript/" title="JSBooks">qualche giorno fa</a>. Anche in questo caso è possibile contribuire attivamente segnalando nuove interessanti risorse.</p>
 ]]></content:encoded>
     </item>
@@ -1415,7 +1540,7 @@ Sono due le caratteristiche che rendono Cerberus interessante: è facilmente est
       <link>https://nicolaiarocci.com/jsbooks-libri-open-source-su-javascript/</link>
       <pubDate>Thu, 30 Aug 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/jsbooks-libri-open-source-su-javascript/</guid>
-      <description>JSBooks Free JavaScript Books è una valida selezione di risorse gratuite su JavaScript. Si tratta di libri e guide gratuite per programmatori di ogni livello, dal principiante al veterano. Il catalogo include titoli su jQuery, Backbone, design patterns, Node, CoffeeScript, qualcosa su HTML5 e addirittura un libro su MongoDB (si tratta una mia vecchia conoscenza). Alcuni suggerimenti sono davvero di ottima qualità. Il progetto è open source e chiunque può contribuire segnalando nuove interessanti risorse via GitHub.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;JSBooks Free JavaScript Books&lt;!-- raw HTML omitted --&gt; è una valida selezione di risorse gratuite su JavaScript. Si tratta di libri e guide gratuite per programmatori di ogni livello, dal principiante al veterano. Il catalogo include titoli su jQuery, Backbone, design patterns, Node, CoffeeScript, qualcosa su HTML5 e addirittura un libro su MongoDB (si tratta una mia &lt;a href=&#34;http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/&#34; title=&#34;Il Piccolo Libro su MongoDB&#34;&gt;vecchia conoscenza&lt;/a&gt;). Alcuni suggerimenti sono davvero di ottima qualità. Il progetto è open source e chiunque può contribuire segnalando nuove interessanti risorse via GitHub.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->JSBooks Free JavaScript Books<!-- raw HTML omitted --> è una valida selezione di risorse gratuite su JavaScript. Si tratta di libri e guide gratuite per programmatori di ogni livello, dal principiante al veterano. Il catalogo include titoli su jQuery, Backbone, design patterns, Node, CoffeeScript, qualcosa su HTML5 e addirittura un libro su MongoDB (si tratta una mia <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro su MongoDB">vecchia conoscenza</a>). Alcuni suggerimenti sono davvero di ottima qualità. Il progetto è open source e chiunque può contribuire segnalando nuove interessanti risorse via GitHub.</p>
 ]]></content:encoded>
     </item>
@@ -1424,17 +1549,16 @@ Sono due le caratteristiche che rendono Cerberus interessante: è facilmente est
       <link>https://nicolaiarocci.com/asp-net-mvc-web-api-asp-net-web-pages-razor-sono-open-source/</link>
       <pubDate>Wed, 28 Mar 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/asp-net-mvc-web-api-asp-net-web-pages-razor-sono-open-source/</guid>
-      <description>Oggi Microsoft annuncia una svolta che ha del clamoroso:
-Sono felice di annunciare che oggi rilasciamo il codice sorgente di ASP.NET Web API e ASP.NET Web Pages (Razor) sotto una licenza open source (Apache 2.0), e che continueremo a migliorare la trasparenza di tutti i tre progetti ospitando il loro codice sorgente su CodePlex (usando il nuovo supporto per Git annunciato la settimana scorsa).
-Ma quel che più conta, e che per un’azienda corporate ‘vecchia maniera’ come Microsoft denota davvero un’evoluzione (rivoluzione) culturale:</description>
+      <description>&lt;p&gt;Oggi Microsoft annuncia una svolta che ha del clamoroso:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Sono felice di annunciare che oggi rilasciamo il codice sorgente di ASP.NET Web API e ASP.NET Web Pages (Razor) sotto una licenza open source (Apache 2.0), e che continueremo a migliorare la trasparenza di tutti i tre progetti ospitando il loro codice sorgente su CodePlex (usando il nuovo supporto per Git annunciato la settimana scorsa).&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Ma quel che più conta, e che per un’azienda corporate ‘vecchia maniera’ come Microsoft denota davvero un’evoluzione (rivoluzione) culturale:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Oggi Microsoft annuncia una svolta che ha del clamoroso:</p>
 <blockquote>
-<p>Sono felice di annunciare che oggi rilasciamo il codice sorgente di ASP.NET Web API e ASP.NET Web Pages (Razor) sotto una licenza open source (Apache 2.0), e che continueremo a migliorare la trasparenza di tutti i tre progetti ospitando il loro codice sorgente su CodePlex (usando il nuovo supporto per Git annunciato la settimana scorsa).</p>
-</blockquote>
+<p>Sono felice di annunciare che oggi rilasciamo il codice sorgente di ASP.NET Web API e ASP.NET Web Pages (Razor) sotto una licenza open source (Apache 2.0), e che continueremo a migliorare la trasparenza di tutti i tre progetti ospitando il loro codice sorgente su CodePlex (usando il nuovo supporto per Git annunciato la settimana scorsa).</p></blockquote>
 <p>Ma quel che più conta, e che per un’azienda corporate ‘vecchia maniera’ come Microsoft denota davvero un’evoluzione (rivoluzione) culturale:</p>
 <blockquote>
-<p>Per la prima volta consentiremo agli sviluppatori esterni a Microsoft di proporre patches e contributi di codice, che il nostro team di sviluppo valuterà per la potenziale inclusione diretta nei prodotti.</p>
-</blockquote>
+<p>Per la prima volta consentiremo agli sviluppatori esterni a Microsoft di proporre patches e contributi di codice, che il nostro team di sviluppo valuterà per la potenziale inclusione diretta nei prodotti.</p></blockquote>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 ]]></content:encoded>

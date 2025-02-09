@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>rpg on Nicola Iarocci</title>
+    <title>Rpg on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/rpg/</link>
-    <description>Recent content in rpg on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Rpg on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 03 Apr 2023 07:05:25 +0100</lastBuildDate>
@@ -14,7 +14,10 @@
       <link>https://nicolaiarocci.com/playing-dnd-with-chatgpt-as-the-dm/</link>
       <pubDate>Mon, 03 Apr 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/playing-dnd-with-chatgpt-as-the-dm/</guid>
-      <description>A dad reunites with his three kids, ages 26, 23 and 15, and they decide to do a D&amp;amp;D campaign together. Now, this alone would be enough to catch my attention: I&amp;rsquo;ve been an avid D&amp;amp;D player as a boy, my older son has been playing too, and I always dreamed of playing one day with my three kids and maybe my wife. But there&amp;rsquo;s more to this story. Tenzin, the youngest son and long-time tabletop RPG gamer and DM, proposes to let OpenAI&amp;rsquo;s ChatGPT 4 be their DM.</description>
+      <description>&lt;p&gt;A dad reunites with his three kids, ages 26, 23 and 15, and they decide to do a D&amp;amp;D campaign together. Now, this alone
+would be enough to catch my attention: I&amp;rsquo;ve been an avid D&amp;amp;D player as a boy, my older son has been playing too, and I
+always dreamed of playing one day with my three kids and maybe my wife. But there&amp;rsquo;s more to this story. Tenzin, the
+youngest son and long-time tabletop RPG gamer and DM, proposes to let OpenAI&amp;rsquo;s ChatGPT 4 be their DM.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>A dad reunites with his three kids, ages 26, 23 and 15, and they decide to do a D&amp;D campaign together. Now, this alone
 would be enough to catch my attention: I&rsquo;ve been an avid D&amp;D player as a boy, my older son has been playing too, and I
 always dreamed of playing one day with my three kids and maybe my wife. But there&rsquo;s more to this story. Tenzin, the
@@ -23,8 +26,7 @@ youngest son and long-time tabletop RPG gamer and DM, proposes to let OpenAI&rsq
 <p>I feel like the transcript speaks for itself, but before reproducing it I will state for the historical record that my
 mind is still exploding from from all the inevitable innovation and legal controversies this kind of usage of LLM
 (Large Language Model) technologies will provoke in the coming months and years. Software development for this kind of
-use case will never be the same again.</p>
-</blockquote>
+use case will never be the same again.</p></blockquote>
 <p>The whole gaming session&rsquo;s transcript is available <a href="https://obie.medium.com/my-kids-and-i-just-played-d-d-with-chatgpt4-as-the-dm-43258e72b2c6">here</a>.</p>
 ]]></content:encoded>
     </item>

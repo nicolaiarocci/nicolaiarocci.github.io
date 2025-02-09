@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>mars on Nicola Iarocci</title>
+    <title>Mars on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/mars/</link>
-    <description>Recent content in mars on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Mars on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 31 Jan 2024 15:21:11 +0100</lastBuildDate>
@@ -14,19 +14,18 @@
       <link>https://nicolaiarocci.com/mars-in-4k/</link>
       <pubDate>Wed, 31 Jan 2024 15:21:11 +0100</pubDate>
       <guid>https://nicolaiarocci.com/mars-in-4k/</guid>
-      <description>The footage, captured directly by NASA&amp;rsquo;s Mars rovers - Spirit, Opportunity, Curiosity, and Perseverance - unveils the red planet&amp;rsquo;s intricate details. These rovers, acting as robotic geologists, have traversed varied terrains, from ancient lake beds to towering mountains, uncovering Mars&amp;rsquo; complex geological history.
-As viewers enjoy these images, they will notice informal place names assigned by NASA&amp;rsquo;s team, providing context to the Martian features observed. Each rover&amp;rsquo;s unique journey is highlighted, showcasing their contributions to Martian exploration.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;The footage, captured directly by NASA&amp;rsquo;s Mars rovers - Spirit, Opportunity, Curiosity, and Perseverance - unveils the red planet&amp;rsquo;s intricate details. These rovers, acting as robotic geologists, have traversed varied terrains, from ancient lake beds to towering mountains, uncovering Mars&amp;rsquo; complex geological history.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As viewers enjoy these images, they will notice informal place names assigned by NASA&amp;rsquo;s team, providing context to the Martian features observed. Each rover&amp;rsquo;s unique journey is highlighted, showcasing their contributions to Martian exploration.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>The footage, captured directly by NASA&rsquo;s Mars rovers - Spirit, Opportunity, Curiosity, and Perseverance - unveils the red planet&rsquo;s intricate details. These rovers, acting as robotic geologists, have traversed varied terrains, from ancient lake beds to towering mountains, uncovering Mars&rsquo; complex geological history.</p>
-</blockquote>
+<p>The footage, captured directly by NASA&rsquo;s Mars rovers - Spirit, Opportunity, Curiosity, and Perseverance - unveils the red planet&rsquo;s intricate details. These rovers, acting as robotic geologists, have traversed varied terrains, from ancient lake beds to towering mountains, uncovering Mars&rsquo; complex geological history.</p></blockquote>
 <blockquote>
-<p>As viewers enjoy these images, they will notice informal place names assigned by NASA&rsquo;s team, providing context to the Martian features observed. Each rover&rsquo;s unique journey is highlighted, showcasing their contributions to Martian exploration.</p>
-</blockquote>
+<p>As viewers enjoy these images, they will notice informal place names assigned by NASA&rsquo;s team, providing context to the Martian features observed. Each rover&rsquo;s unique journey is highlighted, showcasing their contributions to Martian exploration.</p></blockquote>
 <p>Stunning, and mesmerizing.</p>
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/Vy_RPd0rblI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Vy_RPd0rblI?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
 <p>In case you can&rsquo;t see the embedded video (hi mailing list folks), here&rsquo;s the <a href="https://www.youtube.com/watch?v=Vy_RPd0rblI">link</a>.</p>
 ]]></content:encoded>

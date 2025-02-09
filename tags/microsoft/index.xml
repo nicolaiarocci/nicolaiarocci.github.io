@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>microsoft on Nicola Iarocci</title>
+    <title>Microsoft on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/microsoft/</link>
-    <description>Recent content in microsoft on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Microsoft on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 27 Jul 2022 07:05:25 +0100</lastBuildDate>
@@ -14,8 +14,16 @@
       <link>https://nicolaiarocci.com/im-a-microsoft-mvp-once-again/</link>
       <pubDate>Wed, 27 Jul 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/im-a-microsoft-mvp-once-again/</guid>
-      <description>I am happy and humbled to have been awarded the Microsoft MVP Award for the seventh consecutive year. July 1, the award assignation day, always comes with curiosity and a bit of trepidation.
-Being a member of the MVP community has been a very positive experience for me, especially in the years before COVID, when the MVP Summit, the main MVP event, was held in person in Seattle at the Microsoft HQ.</description>
+      <description>&lt;p&gt;I am happy and humbled to have been awarded the Microsoft MVP Award for the
+seventh consecutive year. July 1, the award assignation day, always comes with
+curiosity and a bit of trepidation.&lt;/p&gt;
+&lt;p&gt;Being a member of the MVP community has been a very positive experience for me,
+especially in the years before COVID, when the MVP Summit, the main MVP event,
+was held in person in Seattle at the Microsoft HQ. That assembly of experienced
+developers from all over the world is an exhilarating experience. Smart guys
+and gals from different cultures gather to meet the people responsible for
+their daily drivers&amp;rsquo; tools and technologies. There are countless networking
+possibilities, both with fellow MVPs and Microsoft personnel.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I am happy and humbled to have been awarded the Microsoft MVP Award for the
 seventh consecutive year. July 1, the award assignation day, always comes with
 curiosity and a bit of trepidation.</p>
@@ -39,8 +47,8 @@ doubtful.</p>
       <link>https://nicolaiarocci.com/look-mum-im-an-mvp/</link>
       <pubDate>Sat, 02 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/look-mum-im-an-mvp/</guid>
-      <description>A few hours ago I was notified that I have been awarded with the Microsoft MVP Award for Development Technologies.
-This came totally unexpected. Especially so considering that during the last few years I have been splitting my time between Microsoft and other open source technologies. My public work has mostly been on Python and MongoDB. Yes I also released .NET open source projects in the meantime (more are coming soon) and yes, I wrote a few articles here and on the MSDN Blog, attended Microsoft events and did interviews.</description>
+      <description>&lt;p&gt;A few hours ago I was notified that I have been awarded with the Microsoft MVP Award for Development Technologies.&lt;/p&gt;
+&lt;p&gt;This came totally unexpected. Especially so considering that during the last few years I have been splitting my time between Microsoft and other open source technologies. My public work has mostly been on Python and MongoDB. Yes I also released .NET open source projects in the meantime (more are coming soon) and yes, I wrote a few articles here and on the MSDN Blog, attended Microsoft events and did interviews. But really, I did not expect these activities to have an impact. This is probably why only a couple minutes from learning about the award I was suffering Impostor Syndrome symptoms.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>A few hours ago I was notified that I have been awarded with the Microsoft MVP Award for Development Technologies.</p>
 <p>This came totally unexpected. Especially so considering that during the last few years I have been splitting my time between Microsoft and other open source technologies. My public work has mostly been on Python and MongoDB. Yes I also released .NET open source projects in the meantime (more are coming soon) and yes, I wrote a few articles here and on the MSDN Blog, attended Microsoft events and did interviews. But really, I did not expect these activities to have an impact. This is probably why only a couple minutes from learning about the award I was suffering Impostor Syndrome symptoms.</p>
 <p>Now however, as I ponder on the whole issue a little bit, I start to realise how this could probably make (at least some sort of) sense. New Microsoft has been eager to catalyse attention and interest from the open source community and, in a broader sense, from people not yet accustomed to the brand. In light of this, people who have been active in communities other than Microsoft’s and have also been exposed to different technologies, mindsets and approaches to common IT problems could indeed offer some value. Or at least that’s how I am reading it right now.</p>
@@ -52,7 +60,7 @@ This came totally unexpected. Especially so considering that during the last few
       <link>https://nicolaiarocci.com/on-my-trip-to-microsoft-build-2015/</link>
       <pubDate>Fri, 08 May 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/on-my-trip-to-microsoft-build-2015/</guid>
-      <description>Last week I was in San Francisco for Build 2015, the annual conference event held by Microsoft and aimed toward software and web developers. Overall it has been a great experience. I especially enjoyed the opportunity to speak with Microsoft executives, Program Managers and developers about the new stuff they are cooking up and, in general, about that New Microsoft we all have been experiencing as of late (I have a guest post on MSDN Italy on that topic).</description>
+      <description>&lt;p&gt;Last week I was in San Francisco for Build 2015, the annual conference event held by Microsoft and aimed toward software and web developers. Overall it has been a great experience. I especially enjoyed the opportunity to speak with Microsoft executives, Program Managers and developers about the new stuff they are cooking up and, in general, about that New Microsoft we all have been experiencing as of late (I have a &lt;a href=&#34;http://nicolaiarocci.com/i-wrote-a-thing-about-new-microsoft/&#34;&gt;guest post&lt;/a&gt; on MSDN Italy on that topic).&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Last week I was in San Francisco for Build 2015, the annual conference event held by Microsoft and aimed toward software and web developers. Overall it has been a great experience. I especially enjoyed the opportunity to speak with Microsoft executives, Program Managers and developers about the new stuff they are cooking up and, in general, about that New Microsoft we all have been experiencing as of late (I have a <a href="http://nicolaiarocci.com/i-wrote-a-thing-about-new-microsoft/">guest post</a> on MSDN Italy on that topic).</p>
 <p>In this week TecHeroes <a href="https://channel9.msdn.com/Shows/TecHeroes/TecHeroes-Build-2015-innovazione-e-cambiamento#0m05s">episode</a> I am interviewed along with my buddy <a href="http://www.matteocollina.com/#biography">Matteo Collina</a>. At about 1m 20s in the episode Matteo and I share a few considerations on Open Source projects and technologies that really caught our attention at the conference, and of course on Microsoft in general. It is all in Italian by the way.</p>
 ]]></content:encoded>
@@ -62,7 +70,7 @@ This came totally unexpected. Especially so considering that during the last few
       <link>https://nicolaiarocci.com/f-vs-c/</link>
       <pubDate>Mon, 20 Apr 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/f-vs-c/</guid>
-      <description>I have another guest post up at the official MSDN Team Blog. Titled F# Versus C#, it is an attempt at a gentle introduction to F# for the Italian C# developer.</description>
+      <description>&lt;p&gt;I have another guest post up at the official MSDN Team Blog. Titled &lt;a href=&#34;http://blogs.msdn.com/b/italy/archive/2015/04/17/f-vs-c.aspx&#34;&gt;F# Versus C#&lt;/a&gt;, it is an attempt at a gentle introduction to F# for the Italian C# developer.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I have another guest post up at the official MSDN Team Blog. Titled <a href="http://blogs.msdn.com/b/italy/archive/2015/04/17/f-vs-c.aspx">F# Versus C#</a>, it is an attempt at a gentle introduction to F# for the Italian C# developer.</p>
 ]]></content:encoded>
     </item>
@@ -71,7 +79,7 @@ This came totally unexpected. Especially so considering that during the last few
       <link>https://nicolaiarocci.com/i-wrote-a-thing-about-new-microsoft/</link>
       <pubDate>Wed, 04 Mar 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/i-wrote-a-thing-about-new-microsoft/</guid>
-      <description>I have a guest post up at the official Italian MSDN Team Blog. It’s about the new Microsoft I met last Wednesday at the Azure Open Day in Milan.</description>
+      <description>&lt;p&gt;I have a guest post up at the official Italian &lt;a href=&#34;http://blogs.msdn.com/b/italy/archive/2015/03/03/guest-post-una-giornata-all-azure-open-day-in-compagnia-di-una-nuova-microsoft.aspx&#34;&gt;MSDN Team Blog&lt;/a&gt;. It’s about the new Microsoft I met last Wednesday at the Azure Open Day in Milan.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I have a guest post up at the official Italian <a href="http://blogs.msdn.com/b/italy/archive/2015/03/03/guest-post-una-giornata-all-azure-open-day-in-compagnia-di-una-nuova-microsoft.aspx">MSDN Team Blog</a>. It’s about the new Microsoft I met last Wednesday at the Azure Open Day in Milan.</p>
 ]]></content:encoded>
     </item>
@@ -80,11 +88,11 @@ This came totally unexpected. Especially so considering that during the last few
       <link>https://nicolaiarocci.com/microsofts-new-running-shoes/</link>
       <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/microsofts-new-running-shoes/</guid>
-      <description>When Ballmer famously said, “Linux is a cancer that attaches itself in an intellectual property sense to everything it touches,” it was fair to characterize Microsoft’s approach to open source as hostile. But over time, forces within Microsoft pushed to change this attitude. Many groups inside of Microsoft continue to see the customer and business value in fostering, rather than fighting, OSS.
-via Microsoft’s New Running Shoes.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;When Ballmer famously said, “Linux is a cancer that attaches itself in an intellectual property sense to everything it touches,” it was fair to characterize Microsoft’s approach to open source as hostile. But over time, forces within Microsoft pushed to change this attitude. Many groups inside of Microsoft continue to see the customer and business value in fostering, rather than fighting, OSS.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;via &lt;a href=&#34;http://haacked.com/archive/2014/05/17/microsofts-new-running-shoes/&#34;&gt;Microsoft’s New Running Shoes&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
-<p>When Ballmer famously said, “Linux is a cancer that attaches itself in an intellectual property sense to everything it touches,” it was fair to characterize Microsoft’s approach to open source as hostile. But over time, forces within Microsoft pushed to change this attitude. Many groups inside of Microsoft continue to see the customer and business value in fostering, rather than fighting, OSS.</p>
-</blockquote>
+<p>When Ballmer famously said, “Linux is a cancer that attaches itself in an intellectual property sense to everything it touches,” it was fair to characterize Microsoft’s approach to open source as hostile. But over time, forces within Microsoft pushed to change this attitude. Many groups inside of Microsoft continue to see the customer and business value in fostering, rather than fighting, OSS.</p></blockquote>
 <p>via <a href="http://haacked.com/archive/2014/05/17/microsofts-new-running-shoes/">Microsoft’s New Running Shoes</a>.</p>
 ]]></content:encoded>
     </item>
@@ -93,17 +101,16 @@ via Microsoft’s New Running Shoes.</description>
       <link>https://nicolaiarocci.com/asp-net-mvc-web-api-asp-net-web-pages-razor-sono-open-source/</link>
       <pubDate>Wed, 28 Mar 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/asp-net-mvc-web-api-asp-net-web-pages-razor-sono-open-source/</guid>
-      <description>Oggi Microsoft annuncia una svolta che ha del clamoroso:
-Sono felice di annunciare che oggi rilasciamo il codice sorgente di ASP.NET Web API e ASP.NET Web Pages (Razor) sotto una licenza open source (Apache 2.0), e che continueremo a migliorare la trasparenza di tutti i tre progetti ospitando il loro codice sorgente su CodePlex (usando il nuovo supporto per Git annunciato la settimana scorsa).
-Ma quel che più conta, e che per un’azienda corporate ‘vecchia maniera’ come Microsoft denota davvero un’evoluzione (rivoluzione) culturale:</description>
+      <description>&lt;p&gt;Oggi Microsoft annuncia una svolta che ha del clamoroso:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Sono felice di annunciare che oggi rilasciamo il codice sorgente di ASP.NET Web API e ASP.NET Web Pages (Razor) sotto una licenza open source (Apache 2.0), e che continueremo a migliorare la trasparenza di tutti i tre progetti ospitando il loro codice sorgente su CodePlex (usando il nuovo supporto per Git annunciato la settimana scorsa).&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Ma quel che più conta, e che per un’azienda corporate ‘vecchia maniera’ come Microsoft denota davvero un’evoluzione (rivoluzione) culturale:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Oggi Microsoft annuncia una svolta che ha del clamoroso:</p>
 <blockquote>
-<p>Sono felice di annunciare che oggi rilasciamo il codice sorgente di ASP.NET Web API e ASP.NET Web Pages (Razor) sotto una licenza open source (Apache 2.0), e che continueremo a migliorare la trasparenza di tutti i tre progetti ospitando il loro codice sorgente su CodePlex (usando il nuovo supporto per Git annunciato la settimana scorsa).</p>
-</blockquote>
+<p>Sono felice di annunciare che oggi rilasciamo il codice sorgente di ASP.NET Web API e ASP.NET Web Pages (Razor) sotto una licenza open source (Apache 2.0), e che continueremo a migliorare la trasparenza di tutti i tre progetti ospitando il loro codice sorgente su CodePlex (usando il nuovo supporto per Git annunciato la settimana scorsa).</p></blockquote>
 <p>Ma quel che più conta, e che per un’azienda corporate ‘vecchia maniera’ come Microsoft denota davvero un’evoluzione (rivoluzione) culturale:</p>
 <blockquote>
-<p>Per la prima volta consentiremo agli sviluppatori esterni a Microsoft di proporre patches e contributi di codice, che il nostro team di sviluppo valuterà per la potenziale inclusione diretta nei prodotti.</p>
-</blockquote>
+<p>Per la prima volta consentiremo agli sviluppatori esterni a Microsoft di proporre patches e contributi di codice, che il nostro team di sviluppo valuterà per la potenziale inclusione diretta nei prodotti.</p></blockquote>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 ]]></content:encoded>
@@ -115,21 +122,17 @@ Ma quel che più conta, e che per un’azienda corporate ‘vecchia maniera’ c
       <guid>https://nicolaiarocci.com/microsoft-silverlight-e-adobe-flash-verso-la-resa-comincia-lera-di-re-html5/</guid>
       <description>&lt;p&gt;Silverlight 5 è in dirittura d’arrivo. L’ultimo aggiornamento del plug-in Microsoft sarà &lt;em&gt;ultimo&lt;/em&gt; in tutti i sensi dato che &lt;!-- raw HTML omitted --&gt;a quanto pare&lt;!-- raw HTML omitted --&gt; non ne seguiranno altri. A sostenerlo è ZD-Net per bocca di Mary-Jo Foley, di solito sempre ben informata su quel che succede nei corridoi del gigante di Seattle.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Diversi partner e clienti mi hanno detto di aver saputo da fonti Microsoft che Silverlight 5 è l’ultima versione di Silverlight che Microsoft rilascerà. Riferiscono di non sapere se verranno rilasciati Service Pack, né per quanto tempo Microsoft supporterà Silverlight 5&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Diversi partner e clienti mi hanno detto di aver saputo da fonti Microsoft che Silverlight 5 è l’ultima versione di Silverlight che Microsoft rilascerà. Riferiscono di non sapere se verranno rilasciati Service Pack, né per quanto tempo Microsoft supporterà Silverlight 5&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Si tratta solo di voci ma la fonte è autorevole. Proprio l’altro giorno Adobe ha &lt;!-- raw HTML omitted --&gt;annunciato&lt;!-- raw HTML omitted --&gt; lo stop allo sviluppo di Flash Player Mobile per concentrarsi su HTML5. Il vice presidente Adobe Danny Winokur ha dichiarato&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Questa novità ci permetterà di aumentare l’impegno su HTML5 continuando a innovare Flash nei settori in cui  può avere più impatto: advanced gaming e premium video.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Questa novità ci permetterà di aumentare l’impegno su HTML5 continuando a innovare Flash nei settori in cui  può avere più impatto: advanced gaming e premium video.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Non so voi ma io in queste righe io leggo qualcosa di più del semplice abbandono della versione mobile di Flash. Ci vedo la ricollocazione di Flash in settori di nicchia e la contestuale adozione di HTML5 come soluzione universale per il Web. Una onorevole resa delle armi, insomma.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Silverlight 5 è in dirittura d’arrivo. L’ultimo aggiornamento del plug-in Microsoft sarà <em>ultimo</em> in tutti i sensi dato che <!-- raw HTML omitted -->a quanto pare<!-- raw HTML omitted --> non ne seguiranno altri. A sostenerlo è ZD-Net per bocca di Mary-Jo Foley, di solito sempre ben informata su quel che succede nei corridoi del gigante di Seattle.</p>
 <blockquote>
-<p>Diversi partner e clienti mi hanno detto di aver saputo da fonti Microsoft che Silverlight 5 è l’ultima versione di Silverlight che Microsoft rilascerà. Riferiscono di non sapere se verranno rilasciati Service Pack, né per quanto tempo Microsoft supporterà Silverlight 5</p>
-</blockquote>
+<p>Diversi partner e clienti mi hanno detto di aver saputo da fonti Microsoft che Silverlight 5 è l’ultima versione di Silverlight che Microsoft rilascerà. Riferiscono di non sapere se verranno rilasciati Service Pack, né per quanto tempo Microsoft supporterà Silverlight 5</p></blockquote>
 <p>Si tratta solo di voci ma la fonte è autorevole. Proprio l’altro giorno Adobe ha <!-- raw HTML omitted -->annunciato<!-- raw HTML omitted --> lo stop allo sviluppo di Flash Player Mobile per concentrarsi su HTML5. Il vice presidente Adobe Danny Winokur ha dichiarato</p>
 <blockquote>
-<p>Questa novità ci permetterà di aumentare l’impegno su HTML5 continuando a innovare Flash nei settori in cui  può avere più impatto: advanced gaming e premium video.</p>
-</blockquote>
+<p>Questa novità ci permetterà di aumentare l’impegno su HTML5 continuando a innovare Flash nei settori in cui  può avere più impatto: advanced gaming e premium video.</p></blockquote>
 <p>Non so voi ma io in queste righe io leggo qualcosa di più del semplice abbandono della versione mobile di Flash. Ci vedo la ricollocazione di Flash in settori di nicchia e la contestuale adozione di HTML5 come soluzione universale per il Web. Una onorevole resa delle armi, insomma.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->

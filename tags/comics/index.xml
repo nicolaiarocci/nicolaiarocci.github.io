@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>comics on Nicola Iarocci</title>
+    <title>Comics on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/comics/</link>
-    <description>Recent content in comics on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Comics on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Tue, 27 Feb 2024 14:46:43 +0100</lastBuildDate>
@@ -14,7 +14,10 @@
       <link>https://nicolaiarocci.com/replay-by-jordan-mechner/</link>
       <pubDate>Tue, 27 Feb 2024 14:46:43 +0100</pubDate>
       <guid>https://nicolaiarocci.com/replay-by-jordan-mechner/</guid>
-      <description>Jordan Mechner (@jmechner, creator of Prince of Persia) has written and drawn a graphic novel memoir, REPLAY. It&amp;rsquo;s out in French and will be released in English on March 19. I pre-ordered a signed English copy. More info here.</description>
+      <description>&lt;p&gt;Jordan Mechner (&lt;a href=&#34;https://twitter.com/jmechner&#34;&gt;@jmechner&lt;/a&gt;, creator of Prince of
+Persia) has written and drawn a graphic novel memoir, REPLAY. It&amp;rsquo;s out in French
+and will be released in English on March 19.  I pre-ordered a signed English
+copy. More info &lt;a href=&#34;https://www.jordanmechner.com/en/books/replay/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Jordan Mechner (<a href="https://twitter.com/jmechner">@jmechner</a>, creator of Prince of
 Persia) has written and drawn a graphic novel memoir, REPLAY. It&rsquo;s out in French
 and will be released in English on March 19.  I pre-ordered a signed English
@@ -26,7 +29,8 @@ copy. More info <a href="https://www.jordanmechner.com/en/books/replay/">here</a
       <link>https://nicolaiarocci.com/python-ti-mette-le-ali/</link>
       <pubDate>Sat, 15 Dec 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/python-ti-mette-le-ali/</guid>
-      <description> </description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
       <content:encoded><![CDATA[<!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 ]]></content:encoded>

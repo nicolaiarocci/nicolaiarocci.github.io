@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>appveyor on Nicola Iarocci</title>
+    <title>Appveyor on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/appveyor/</link>
-    <description>Recent content in appveyor on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Appveyor on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Sat, 25 Feb 2017 16:48:09 +0100</lastBuildDate>
@@ -14,16 +14,23 @@
       <link>https://nicolaiarocci.com/setting-the-default-timezone-in-appveyor-and-c-sharp-7-support/</link>
       <pubDate>Sat, 25 Feb 2017 16:48:09 +0100</pubDate>
       <guid>https://nicolaiarocci.com/setting-the-default-timezone-in-appveyor-and-c-sharp-7-support/</guid>
-      <description>So yesterday I pushed some code over to GitHub, then went off to work on a different project. A few seconds later I got an email from AppVeyor telling me that my CI build worker was reporting a failure. I was surprised as just ahead of the push I had tests all green in local.
-Turned out failure was on an equality assertion between two date values:
-As you can see the mismatch was precisely two hours.</description>
+      <description>&lt;p&gt;So yesterday I pushed some code over to GitHub, then went off to work on
+a different project. A few seconds later I got an email from &lt;a href=&#34;https://www.appveyor.com&#34;&gt;AppVeyor&lt;/a&gt;
+telling me that my CI build worker was reporting a failure. I was surprised as
+just ahead of the push I had tests all green in local.&lt;/p&gt;
+&lt;p&gt;Turned out failure was on an equality assertion between two date values:&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/appveyor-failure-on-date-fields.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As you can see the mismatch was &lt;em&gt;precisely&lt;/em&gt; two hours. That always rings a Time
+Zone alarm bell in my head. I was under the assumption that since my time zone
+was correctly set in my account settings, the workers would pick it up. Well as
+it turns out, that is not the case as that setting is only used for
+notifications and NuGet feeds. The AppVeyor app worker runs on UTC by default.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>So yesterday I pushed some code over to GitHub, then went off to work on
 a different project. A few seconds later I got an email from <a href="https://www.appveyor.com">AppVeyor</a>
 telling me that my CI build worker was reporting a failure. I was surprised as
 just ahead of the push I had tests all green in local.</p>
 <p>Turned out failure was on an equality assertion between two date values:</p>
-<p><img loading="lazy" src="/images/appveyor-failure-on-date-fields.png" alt=""  />
-</p>
+<p><img loading="lazy" src="/images/appveyor-failure-on-date-fields.png"></p>
 <p>As you can see the mismatch was <em>precisely</em> two hours. That always rings a Time
 Zone alarm bell in my head. I was under the assumption that since my time zone
 was correctly set in my account settings, the workers would pick it up. Well as

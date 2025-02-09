@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>posix on Nicola Iarocci</title>
+    <title>Posix on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/posix/</link>
-    <description>Recent content in posix on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Posix on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Wed, 13 Apr 2022 07:05:25 +0100</lastBuildDate>
@@ -14,8 +14,14 @@
       <link>https://nicolaiarocci.com/if-you-know-your-user-is-asking-for-help-show-them-the-damn-help/</link>
       <pubDate>Wed, 13 Apr 2022 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/if-you-know-your-user-is-asking-for-help-show-them-the-damn-help/</guid>
-      <description>One of my pet peeves has always been the many different, sometimes very original ways in which CLI tools handle help requests. POSIX sets the canon: -h or --help is how we ask for help. But no, some tools1 want to be original at the worst moment: when their users are struggling, looking for guidance.
-It&amp;rsquo;s somewhat consolatory to learn that I&amp;rsquo;m not alone in this fight. The other day I landed on Clayton Craft&amp;rsquo;s blog.</description>
+      <description>&lt;p&gt;One of my pet peeves has always been the many different, sometimes very
+original ways in which CLI tools handle help requests. POSIX sets the canon:
+&lt;code&gt;-h&lt;/code&gt; or &lt;code&gt;--help&lt;/code&gt; is how we ask for help. But no, some tools&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; want to be
+original at the worst moment: when their users are struggling, looking for
+guidance.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s somewhat consolatory to learn that I&amp;rsquo;m not alone in this fight. The other
+day I landed on Clayton Craft&amp;rsquo;s blog. His [rant on the topic][2] splendidly
+concludes with the following assessment:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>One of my pet peeves has always been the many different, sometimes very
 original ways in which CLI tools handle help requests. POSIX sets the canon:
 <code>-h</code> or <code>--help</code> is how we ask for help. But no, some tools<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> want to be
@@ -28,8 +34,7 @@ concludes with the following assessment:</p>
 <p>If you know your user is asking for help, show them the damn help. It serves
 no one to chide them for not guessing the specific way your app wants them to
 ask for help. Better yet, support a more &ldquo;common&rdquo; way to allow users to ask
-for help if your app doesn&rsquo;t already.</p>
-</blockquote>
+for help if your app doesn&rsquo;t already.</p></blockquote>
 <p>I agree wholeheartedly.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>

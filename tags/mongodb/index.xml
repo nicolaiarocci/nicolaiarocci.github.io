@@ -4,7 +4,7 @@
     <title>MongoDB on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/mongodb/</link>
     <description>Recent content in MongoDB on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 16 Oct 2015 00:00:00 +0000</lastBuildDate>
@@ -14,8 +14,8 @@
       <link>https://nicolaiarocci.com/my-talk-at-percona-live-2015/</link>
       <pubDate>Fri, 16 Oct 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/my-talk-at-percona-live-2015/</guid>
-      <description>The slides of my talk at Percona Live 2015 (Amsterdam) are online. It was titled “MongoDB and REST APIs a Match Made in Heaven” and it was meant as an introduction to Mongo, REST principles and the Eve python framework.
-Overall it has been a pleasant experience, although I found that splitting 300 attendees through seven concurrent tracks ultimately led to too much fragmentation. People often found themselves with 2-3 interesting talks all happening simultaneously, and just had to pick one.</description>
+      <description>&lt;p&gt;The slides of my talk at Percona Live 2015 (Amsterdam) are &lt;a href=&#34;https://speakerdeck.com/nicola/mongodb-and-rest-apis-a-match-made-in-heaven&#34;&gt;online&lt;/a&gt;. It was titled “MongoDB and REST APIs a Match Made in Heaven” and it was meant as an introduction to Mongo, REST principles and the Eve python framework.&lt;/p&gt;
+&lt;p&gt;Overall it has been a pleasant experience, although I found that splitting 300 attendees through seven concurrent tracks ultimately led to too much fragmentation. People often found themselves with 2-3 interesting talks all happening simultaneously, and just had to pick one.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>The slides of my talk at Percona Live 2015 (Amsterdam) are <a href="https://speakerdeck.com/nicola/mongodb-and-rest-apis-a-match-made-in-heaven">online</a>. It was titled “MongoDB and REST APIs a Match Made in Heaven” and it was meant as an introduction to Mongo, REST principles and the Eve python framework.</p>
 <p>Overall it has been a pleasant experience, although I found that splitting 300 attendees through seven concurrent tracks ultimately led to too much fragmentation. People often found themselves with 2-3 interesting talks all happening simultaneously, and just had to pick one.</p>
 <p>I could only stay one day so I missed all side events, speakers dinner included, which was a bummer.</p>
@@ -26,7 +26,7 @@ Overall it has been a pleasant experience, although I found that splitting 300 a
       <link>https://nicolaiarocci.com/the-little-mongodb-book-2nd-italian-edition/</link>
       <pubDate>Mon, 04 May 2015 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/the-little-mongodb-book-2nd-italian-edition/</guid>
-      <description>The second edition of the Little MongoDB Book Italian Edition is finally up. It is aligned to MongoDB 2.6 and includes a much needed introduction to the Aggregation Frameworks. Enjoy.</description>
+      <description>&lt;p&gt;The second edition of the &lt;a href=&#34;http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/&#34;&gt;Little MongoDB Book Italian Edition&lt;/a&gt; is finally up. It is aligned to MongoDB 2.6 and includes a much needed introduction to the Aggregation Frameworks. Enjoy.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>The second edition of the <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/">Little MongoDB Book Italian Edition</a> is finally up. It is aligned to MongoDB 2.6 and includes a much needed introduction to the Aggregation Frameworks. Enjoy.</p>
 ]]></content:encoded>
     </item>
@@ -35,8 +35,8 @@ Overall it has been a pleasant experience, although I found that splitting 300 a
       <link>https://nicolaiarocci.com/mongodb-rest-api-go-picnic-video-slides/</link>
       <pubDate>Tue, 19 Nov 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/mongodb-rest-api-go-picnic-video-slides/</guid>
-      <description>I had the opportunity to give my RESTful WeB APIs and MongoDB Go For A Picnic talk at both MongoTorino and NoSQL Day. The folks at PUG Friuli where so nice to record all the NoSQL Day sessions, so here you have it: the full length video of yours truly speaking to a fully packed room crowded with 120 very attentive attendees.
-Unfortunately audio is horrible and while all MongoTorino talks were in english, NoSQL Day was an italian-only event.</description>
+      <description>&lt;p&gt;I had the opportunity to give my &lt;a href=&#34;https://speakerdeck.com/nicola/restful-web-api-and-mongodb-go-for-a-pic-nic&#34;&gt;RESTful WeB APIs and MongoDB Go For A Picnic&lt;/a&gt; talk at both &lt;a href=&#34;http://www.mongotorino.org/&#34;&gt;MongoTorino&lt;/a&gt; and &lt;a href=&#34;http://2013.nosqlday.it/&#34;&gt;NoSQL Day&lt;/a&gt;. The folks at PUG Friuli where so nice to record all the NoSQL Day sessions, so here you have it: the full length &lt;a href=&#34;http://vimeo.com/79662146&#34;&gt;video of yours truly speaking&lt;/a&gt; to a fully packed room crowded with 120 very attentive attendees.&lt;/p&gt;
+&lt;p&gt;Unfortunately audio is horrible and while all MongoTorino talks were in english, NoSQL Day was an italian-only event. The slide deck is in english however, and is available on both &lt;a href=&#34;https://speakerdeck.com/nicola/restful-web-api-and-mongodb-go-for-a-pic-nic&#34;&gt;SpeakerDeck&lt;/a&gt; and &lt;a href=&#34;http://www.slideshare.net/nicolaiarocci/rest-web-api-with-mongodb&#34;&gt;SlideShare&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I had the opportunity to give my <a href="https://speakerdeck.com/nicola/restful-web-api-and-mongodb-go-for-a-pic-nic">RESTful WeB APIs and MongoDB Go For A Picnic</a> talk at both <a href="http://www.mongotorino.org/">MongoTorino</a> and <a href="http://2013.nosqlday.it/">NoSQL Day</a>. The folks at PUG Friuli where so nice to record all the NoSQL Day sessions, so here you have it: the full length <a href="http://vimeo.com/79662146">video of yours truly speaking</a> to a fully packed room crowded with 120 very attentive attendees.</p>
 <p>Unfortunately audio is horrible and while all MongoTorino talks were in english, NoSQL Day was an italian-only event. The slide deck is in english however, and is available on both <a href="https://speakerdeck.com/nicola/restful-web-api-and-mongodb-go-for-a-pic-nic">SpeakerDeck</a> and <a href="http://www.slideshare.net/nicolaiarocci/rest-web-api-with-mongodb">SlideShare</a>.</p>
 ]]></content:encoded>
@@ -46,17 +46,17 @@ Unfortunately audio is horrible and while all MongoTorino talks were in english,
       <link>https://nicolaiarocci.com/my-interview-on-being-a-mongodb-master/</link>
       <pubDate>Wed, 04 Sep 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/my-interview-on-being-a-mongodb-master/</guid>
-      <description>So I’ve been interviewed by Laura Czajkowski on my experience and role as a MongoDB Master. The interview actually covers more angles than that and I guess that, if you really don’t have anything better to do, you might even want to check it out.
-How did you get involved in open source?
-I’ve been an avid developer delivering desktop applications in the .NET/MSSQL closed source ecosystem for so many years that open source wasn’t even on my radar.</description>
+      <description>&lt;p&gt;So I’ve been interviewed by Laura Czajkowski on my experience and role as a MongoDB Master. The interview actually covers more angles than that and I guess that, if you &lt;em&gt;really&lt;/em&gt; don’t have anything better to do, you might even want to check it out.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;How did you get involved in open source?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I’ve been an avid developer delivering desktop applications in the .NET/MSSQL closed source ecosystem for so many years that open source wasn’t even on my radar.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>So I’ve been interviewed by Laura Czajkowski on my experience and role as a MongoDB Master. The interview actually covers more angles than that and I guess that, if you <em>really</em> don’t have anything better to do, you might even want to check it out.</p>
 <blockquote>
 <p><strong>How did you get involved in open source?</strong></p>
 <p>I’ve been an avid developer delivering desktop applications in the .NET/MSSQL closed source ecosystem for so many years that open source wasn’t even on my radar.</p>
 <p>Then a few years ago, like everybody else, we found that we needed to get involved with the mobile world. That’s when I thought that it was time to finally to get out of my comfort zone and start looking out of my walled garden. In fact, while historically there always have been little alternative to the Microsoft/.NET/SQL ecosystem for building business Windows applications, now we were about to address a completely different beast.</p>
 <p>First step in any mobile strategy is building a proper web infrastructure, like one or more web APIs, remote servers, etc. While .NET was well suited for the task, I knew that there were other valid, robust and mature alternatives out there and that I had to learn more about them before picking any choice.</p>
-<p>My involvement with open source, the whole Python language, MongoDB and the NoSQL movement is the direct consequence of that learning process.</p>
-</blockquote>
+<p>My involvement with open source, the whole Python language, MongoDB and the NoSQL movement is the direct consequence of that learning process.</p></blockquote>
 <p><!-- raw HTML omitted -->Meeting the EMEA MongoDB Masters – Nicola Iarocci<!-- raw HTML omitted --></p>
 ]]></content:encoded>
     </item>
@@ -65,7 +65,7 @@ I’ve been an avid developer delivering desktop applications in the .NET/MSSQL 
       <link>https://nicolaiarocci.com/mongodb-masters-summit-2013/</link>
       <pubDate>Tue, 25 Jun 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/mongodb-masters-summit-2013/</guid>
-      <description>I’m just back from the MongoDB Masters Summit hosted by 10Gen in New York City. In just a couple days I was given the opportunity to meet and share knowledge (and fun!) with amazingly talented minds coming from all over the world. I’m back with literally dozen new ideas opportunities and concepts, on which I’ll need to elaborate a little bit. While I cannot comment on the many things the smart minds at 10Gen are working on, rest assured that the future of MongoDB is looking great and brighter than ever.</description>
+      <description>&lt;p&gt;I’m just back from the &lt;!-- raw HTML omitted --&gt;MongoDB Masters&lt;!-- raw HTML omitted --&gt; Summit hosted by 10Gen in New York City. In just a couple days I was given the opportunity to meet and share knowledge (and fun!) with amazingly talented minds coming from all over the world. I’m back with literally dozen new ideas opportunities and concepts, on which I’ll need to elaborate a little bit. While I cannot comment on the many things the smart minds at 10Gen are working on, rest assured that the future of MongoDB is looking great and brighter than ever.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I’m just back from the <!-- raw HTML omitted -->MongoDB Masters<!-- raw HTML omitted --> Summit hosted by 10Gen in New York City. In just a couple days I was given the opportunity to meet and share knowledge (and fun!) with amazingly talented minds coming from all over the world. I’m back with literally dozen new ideas opportunities and concepts, on which I’ll need to elaborate a little bit. While I cannot comment on the many things the smart minds at 10Gen are working on, rest assured that the future of MongoDB is looking great and brighter than ever.</p>
 ]]></content:encoded>
     </item>
@@ -74,8 +74,8 @@ I’ve been an avid developer delivering desktop applications in the .NET/MSSQL 
       <link>https://nicolaiarocci.com/mongodb-user-group/</link>
       <pubDate>Mon, 03 Jun 2013 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/mongodb-user-group/</guid>
-      <description>Domani sarò al primo meeting romagnolo del #MUG MongoDB User Group organizzato da 10Gen (azienda dietro a MongoDB), Byte-Code e Ideato.
-Parlerò di MongoDB usato come backend per una REST WEB API. L’evento si svolgerà in serata a Cesena, è gratuito, e ci sono ancora posti disponibili. Se ci siete passate a salutarmi.</description>
+      <description>&lt;p&gt;Domani sarò al primo meeting romagnolo del #MUG MongoDB User Group organizzato da 10Gen (azienda dietro a MongoDB), Byte-Code e Ideato.&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Parlerò di MongoDB usato come backend per una REST WEB API. &lt;!-- raw HTML omitted --&gt;L’evento si svolgerà in serata a Cesena, è gratuito, e ci sono ancora &lt;a href=&#34;http://www.eventbrite.com/event/6297117849&#34;&gt;posti disponibili&lt;/a&gt;. Se ci siete passate a salutarmi.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Domani sarò al primo meeting romagnolo del #MUG MongoDB User Group organizzato da 10Gen (azienda dietro a MongoDB), Byte-Code e Ideato.</p>
 <p><!-- raw HTML omitted -->Parlerò di MongoDB usato come backend per una REST WEB API. <!-- raw HTML omitted -->L’evento si svolgerà in serata a Cesena, è gratuito, e ci sono ancora <a href="http://www.eventbrite.com/event/6297117849">posti disponibili</a>. Se ci siete passate a salutarmi.</p>
 ]]></content:encoded>
@@ -85,7 +85,7 @@ Parlerò di MongoDB usato come backend per una REST WEB API. L’evento si svol
       <link>https://nicolaiarocci.com/aggiornato-il-piccolo-libro-di-mongodb/</link>
       <pubDate>Sat, 24 Nov 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/aggiornato-il-piccolo-libro-di-mongodb/</guid>
-      <description>Finalmente ho trovato il tempo per aggiornare Il Piccolo Libro di MongoDB. Grazie ai contributi di Andrea Rabbaglietti e Michele Zonca sono stati corretti molti errori sparsi qui e là nel testo. Ho approfittato dell’occasione per ritoccare il formato grafico allineandolo alla versione più recente dell’edizione inglese. Se avete già scaricato il libro vi consiglio di rifarlo: la nuova edizione è decisamente più leggibile.</description>
+      <description>&lt;p&gt;Finalmente ho trovato il tempo per aggiornare &lt;a href=&#34;http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/&#34; title=&#34;Il Piccolo Libro di MongoDB&#34;&gt;Il Piccolo Libro di MongoDB&lt;/a&gt;. Grazie ai contributi di Andrea Rabbaglietti e Michele Zonca sono stati corretti molti errori sparsi qui e là nel testo. Ho approfittato dell’occasione per ritoccare il formato grafico allineandolo alla versione più recente dell’edizione inglese. Se avete già scaricato il libro vi consiglio di rifarlo: la nuova edizione è decisamente più leggibile.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Finalmente ho trovato il tempo per aggiornare <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB">Il Piccolo Libro di MongoDB</a>. Grazie ai contributi di Andrea Rabbaglietti e Michele Zonca sono stati corretti molti errori sparsi qui e là nel testo. Ho approfittato dell’occasione per ritoccare il formato grafico allineandolo alla versione più recente dell’edizione inglese. Se avete già scaricato il libro vi consiglio di rifarlo: la nuova edizione è decisamente più leggibile.</p>
 ]]></content:encoded>
     </item>
@@ -94,7 +94,7 @@ Parlerò di MongoDB usato come backend per una REST WEB API. L’evento si svol
       <link>https://nicolaiarocci.com/come-evitare-i-trabocchetti-di-mongodb/</link>
       <pubDate>Sat, 17 Nov 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/come-evitare-i-trabocchetti-di-mongodb/</guid>
-      <description>E niente, è un articolo così importante che mi sono procurato dall’autore il permesso di curarne la traduzione. Solo che non trovo il tempo per farla la traduzione, quindi vi passo direttamente l’originale. In MongoDB Gotchas &amp;amp; How To Avoid Them Russel Smith raccoglie una decina di preziosi consigli che non potete assolutamente perdervi se state pensando di usare MongoDB in produzione.</description>
+      <description>&lt;p&gt;E niente, è un articolo così importante che mi sono procurato dall’autore il permesso di curarne la traduzione. Solo che non trovo il tempo per farla la traduzione, quindi vi passo direttamente l’originale. In &lt;!-- raw HTML omitted --&gt;MongoDB Gotchas &amp;amp; How To Avoid Them&lt;!-- raw HTML omitted --&gt; Russel Smith raccoglie una decina di preziosi consigli che non potete assolutamente perdervi se state pensando di usare MongoDB in produzione.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>E niente, è un articolo così importante che mi sono procurato dall’autore il permesso di curarne la traduzione. Solo che non trovo il tempo per farla la traduzione, quindi vi passo direttamente l’originale. In <!-- raw HTML omitted -->MongoDB Gotchas &amp; How To Avoid Them<!-- raw HTML omitted --> Russel Smith raccoglie una decina di preziosi consigli che non potete assolutamente perdervi se state pensando di usare MongoDB in produzione.</p>
 ]]></content:encoded>
     </item>
@@ -103,8 +103,8 @@ Parlerò di MongoDB usato come backend per una REST WEB API. L’evento si svol
       <link>https://nicolaiarocci.com/rest-api-con-mongodb/</link>
       <pubDate>Fri, 26 Oct 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/rest-api-con-mongodb/</guid>
-      <description>Le slide che ho presentato a ‘A Morning with MongoDB‘ (24 ottobre, Milano) sono disponibili online. Gran parte degli interventi erano di tipo divulgativo ed inizialmente ero preoccupato che i miei contenuti fossero troppo tecnici. In realtà in sala c’erano davvero tanti programmatori, quindi tutto è andato bene.
-A margine dell’evento molte le domande su Eve, la REST API open source a cui sto lavorando e che conto di rilasciare entro fine anno: bene!</description>
+      <description>&lt;p&gt;Le slide che ho presentato a ‘&lt;!-- raw HTML omitted --&gt;A Morning with MongoDB&lt;!-- raw HTML omitted --&gt;‘ (24 ottobre, Milano) sono disponibili online. Gran parte degli interventi erano di tipo divulgativo ed inizialmente ero preoccupato che i miei contenuti fossero troppo tecnici. In realtà in sala c’erano davvero tanti programmatori, quindi tutto è andato bene.&lt;/p&gt;
+&lt;p&gt;A margine dell’evento molte le domande su &lt;!-- raw HTML omitted --&gt;Eve&lt;!-- raw HTML omitted --&gt;, la REST API open source a cui sto lavorando e che conto di rilasciare entro fine anno: bene! Grazie a tutti i partecipanti ed a 10Gen per avermi invitato.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Le slide che ho presentato a ‘<!-- raw HTML omitted -->A Morning with MongoDB<!-- raw HTML omitted -->‘ (24 ottobre, Milano) sono disponibili online. Gran parte degli interventi erano di tipo divulgativo ed inizialmente ero preoccupato che i miei contenuti fossero troppo tecnici. In realtà in sala c’erano davvero tanti programmatori, quindi tutto è andato bene.</p>
 <p>A margine dell’evento molte le domande su <!-- raw HTML omitted -->Eve<!-- raw HTML omitted -->, la REST API open source a cui sto lavorando e che conto di rilasciare entro fine anno: bene! Grazie a tutti i partecipanti ed a 10Gen per avermi invitato.</p>
 ]]></content:encoded>
@@ -114,7 +114,7 @@ A margine dell’evento molte le domande su Eve, la REST API open source a cui s
       <link>https://nicolaiarocci.com/una-mattinata-con-mongodb/</link>
       <pubDate>Wed, 10 Oct 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/una-mattinata-con-mongodb/</guid>
-      <description>Il prossimo 24 ottobre sarò a Milano per A Morning with MongoDB, evento ufficiale 10gen nel corso del quale racconterò la mia esperienza nell’integrazione di MongoDB in una Web REST API. Partecipazione e registrazione sono gratuite: cosa aspettate?</description>
+      <description>&lt;p&gt;Il prossimo 24 ottobre sarò a Milano per &lt;!-- raw HTML omitted --&gt;A Morning with MongoDB&lt;!-- raw HTML omitted --&gt;, evento ufficiale 10gen nel corso del quale racconterò la mia esperienza nell’integrazione di MongoDB in una Web REST API. Partecipazione e &lt;!-- raw HTML omitted --&gt;registrazione&lt;!-- raw HTML omitted --&gt; sono gratuite: cosa aspettate?&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Il prossimo 24 ottobre sarò a Milano per <!-- raw HTML omitted -->A Morning with MongoDB<!-- raw HTML omitted -->, evento ufficiale 10gen nel corso del quale racconterò la mia esperienza nell’integrazione di MongoDB in una Web REST API. Partecipazione e <!-- raw HTML omitted -->registrazione<!-- raw HTML omitted --> sono gratuite: cosa aspettate?</p>
 ]]></content:encoded>
     </item>
@@ -123,7 +123,7 @@ A margine dell’evento molte le domande su Eve, la REST API open source a cui s
       <link>https://nicolaiarocci.com/ottimizzare-le-prestazioni-di-mongodb/</link>
       <pubDate>Thu, 27 Sep 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/ottimizzare-le-prestazioni-di-mongodb/</guid>
-      <description>MongoDB Schema Design at Scale è un’eccellente articolo cu come ottimizzare database MongoDB sottoposti a pesanti carichi di lavoro, soprattutto in scrittura. Il messaggio, forte e chiaro, è sempre lo stesso: prima di agire studia per bene il tuo database engine; comprendine i vantaggi e soprattutto i punti deboli.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;MongoDB Schema Design at Scale&lt;!-- raw HTML omitted --&gt; è un’eccellente articolo cu come ottimizzare database MongoDB sottoposti a pesanti carichi di lavoro, soprattutto in scrittura. Il messaggio, forte e chiaro, è sempre lo stesso: prima di agire studia per bene il tuo database engine; comprendine i vantaggi e soprattutto i punti deboli.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->MongoDB Schema Design at Scale<!-- raw HTML omitted --> è un’eccellente articolo cu come ottimizzare database MongoDB sottoposti a pesanti carichi di lavoro, soprattutto in scrittura. Il messaggio, forte e chiaro, è sempre lo stesso: prima di agire studia per bene il tuo database engine; comprendine i vantaggi e soprattutto i punti deboli.</p>
 ]]></content:encoded>
     </item>
@@ -147,7 +147,7 @@ A margine dell’evento molte le domande su Eve, la REST API open source a cui s
       <link>https://nicolaiarocci.com/primo-importante-aggiornamento-del-piccolo-libro-di-mongodb/</link>
       <pubDate>Thu, 08 Mar 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/primo-importante-aggiornamento-del-piccolo-libro-di-mongodb/</guid>
-      <description>Se avete già scaricato il Piccolo Libro di MongoDB vi consiglio di aggiornarlo con la versione odierna. E’ stato aggiunto un capitolo (MapReduce) misteriosamente assente nella prima edizione. Grazie a Walter Tommasi per la preziosa segnalazione, e a Git per averne consentito il recupero in extremis.</description>
+      <description>&lt;p&gt;Se avete già scaricato il &lt;a href=&#34;http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/&#34; title=&#34;Il Piccolo Libro di MongoDB&#34;&gt;Piccolo Libro di MongoDB&lt;/a&gt; vi consiglio di aggiornarlo con la versione odierna. E’ stato aggiunto un capitolo (MapReduce) misteriosamente assente nella prima edizione. Grazie a Walter Tommasi per la preziosa segnalazione, e a &lt;a href=&#34;http://nicolaiarocci.com/branching-di-successo-per-git/&#34; title=&#34;Branching di successo per Git&#34;&gt;Git&lt;/a&gt; per averne consentito il recupero in extremis.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Se avete già scaricato il <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB">Piccolo Libro di MongoDB</a> vi consiglio di aggiornarlo con la versione odierna. E’ stato aggiunto un capitolo (MapReduce) misteriosamente assente nella prima edizione. Grazie a Walter Tommasi per la preziosa segnalazione, e a <a href="http://nicolaiarocci.com/branching-di-successo-per-git/" title="Branching di successo per Git">Git</a> per averne consentito il recupero in extremis.</p>
 ]]></content:encoded>
     </item>
@@ -156,7 +156,7 @@ A margine dell’evento molte le domande su Eve, la REST API open source a cui s
       <link>https://nicolaiarocci.com/e-uscito-il-piccolo-libro-di-mongodb/</link>
       <pubDate>Tue, 21 Feb 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/e-uscito-il-piccolo-libro-di-mongodb/</guid>
-      <description>Il Piccolo Libro di MongoDB, edizione italiana di The Little MongoDB Book, è finalmente disponibile online. C’è voluto un bel po’ di lavoro, e sono certo i primi lettori scoveranno una serie di errori raccapriccianti, ma vi invito comunque a leggerlo e farmi sapere cosa ne pensate.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/&#34; title=&#34;Il Piccolo Libro di MongoDB, Edizione Italiana&#34;&gt;Il Piccolo Libro di MongoDB&lt;/a&gt;, edizione italiana di The Little MongoDB Book, è finalmente &lt;a href=&#34;http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/&#34; title=&#34;Il Piccolo Libro di MongoDB&#34;&gt;disponibile online&lt;/a&gt;. C’è voluto un bel po’ di lavoro, e sono certo i primi lettori scoveranno una serie di errori raccapriccianti, ma vi invito comunque a leggerlo e farmi sapere cosa ne pensate.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB, Edizione Italiana">Il Piccolo Libro di MongoDB</a>, edizione italiana di The Little MongoDB Book, è finalmente <a href="http://nicolaiarocci.com/il-piccolo-libro-di-mongodb-edizione-italiana/" title="Il Piccolo Libro di MongoDB">disponibile online</a>. C’è voluto un bel po’ di lavoro, e sono certo i primi lettori scoveranno una serie di errori raccapriccianti, ma vi invito comunque a leggerlo e farmi sapere cosa ne pensate.</p>
 ]]></content:encoded>
     </item>

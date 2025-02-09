@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>json on Nicola Iarocci</title>
+    <title>Json on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/json/</link>
-    <description>Recent content in json on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Json on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 10 Sep 2012 00:00:00 +0000</lastBuildDate>
@@ -14,8 +14,8 @@
       <link>https://nicolaiarocci.com/decodificare-le-date-in-un-flusso-json-python/</link>
       <pubDate>Mon, 10 Sep 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/decodificare-le-date-in-un-flusso-json-python/</guid>
-      <description>JSON-Datetime permette di decodificare i valori [cci lang=”python” theme=”default”]datetime[/cci] normalmente espressi come stringhe in un flusso JSON. E’ davvero molto semplice, e fa parte della suite strumenti open source che sto sviluppando nel contesto del più ampio progetto RESTful Web API.
-Del problema della decodifica delle stringhe JSON in valori datetime ho già scritto in passato. Allora proponevo una soluzione algoritmica; ora vi presento un prodotto finito che potete usare nei vostri progetti.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;JSON-Datetime&lt;!-- raw HTML omitted --&gt; permette di decodificare i valori [cci lang=”python” theme=”default”]datetime[/cci] normalmente espressi come stringhe in un flusso JSON. E’ davvero molto semplice, e fa parte della suite strumenti open source che sto sviluppando nel contesto del più ampio progetto &lt;a href=&#34;http://nicolaiarocci.com/sviluppare-una-restful-web-api-con-python-flask-e-mongodb/&#34; title=&#34;Sviluppare una RESTful Web API&#34;&gt;RESTful Web API&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Del problema della decodifica delle stringhe JSON in valori datetime ho &lt;a href=&#34;http://nicolaiarocci.com/convertire-una-data-json-in-un-oggetto-datetime-python/&#34; title=&#34;Convertire una data JSON in un oggetto Python datetime&#34;&gt;già scritto in passato&lt;/a&gt;. Allora proponevo una soluzione algoritmica; ora vi presento un prodotto finito che potete usare nei vostri progetti.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><!-- raw HTML omitted -->JSON-Datetime<!-- raw HTML omitted --> permette di decodificare i valori [cci lang=”python” theme=”default”]datetime[/cci] normalmente espressi come stringhe in un flusso JSON. E’ davvero molto semplice, e fa parte della suite strumenti open source che sto sviluppando nel contesto del più ampio progetto <a href="http://nicolaiarocci.com/sviluppare-una-restful-web-api-con-python-flask-e-mongodb/" title="Sviluppare una RESTful Web API">RESTful Web API</a>.</p>
 <p>Del problema della decodifica delle stringhe JSON in valori datetime ho <a href="http://nicolaiarocci.com/convertire-una-data-json-in-un-oggetto-datetime-python/" title="Convertire una data JSON in un oggetto Python datetime">già scritto in passato</a>. Allora proponevo una soluzione algoritmica; ora vi presento un prodotto finito che potete usare nei vostri progetti.</p>
 <h2 id="il-problema">Il problema</h2>
@@ -52,9 +52,16 @@ Del problema della decodifica delle stringhe JSON in valori datetime ho già scr
       <link>https://nicolaiarocci.com/convertire-una-data-json-in-un-oggetto-datetime-python/</link>
       <pubDate>Thu, 07 Jun 2012 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/convertire-una-data-json-in-un-oggetto-datetime-python/</guid>
-      <description>Abbiamo una stringa JSON che contiene una data:
-fonte = &#39;{&amp;quot;ragione_sociale&amp;quot;: &amp;quot;CIR 2000&amp;quot;, &amp;quot;aggiornato_il&amp;quot;: &amp;quot;Wed, 06 Jun 2012 14:19:53 UTC&amp;quot;}&#39; Vediamo che succede se la convertiamo in un dizionario Python:
-import simplejson as json json.loads(fonte) {&#39;aggiornato_il&#39;: &#39;Wed, 06 Jun 2012 14:19:53 UTC &#39;, &#39;ragione_sociale&#39;: &#39;CIR 2000&#39;} Facile, vero? C’è però un piccolo problema: aggiornato_il è ancora una stringa mentre a noi, per poterlo elaborare comodamente, serve un campo datetime.datetime. Come mai il pur potente modulo simplejson non converte correttamente la nostra data?</description>
+      <description>&lt;p&gt;Abbiamo una stringa JSON che contiene una data:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;fonte = &#39;{&amp;quot;ragione_sociale&amp;quot;: &amp;quot;CIR 2000&amp;quot;, &amp;quot;aggiornato_il&amp;quot;: &amp;quot;Wed, 06 Jun 2012 14:19:53 UTC&amp;quot;}&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Vediamo che succede se la convertiamo in un dizionario Python:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import simplejson as json
+
+json.loads(fonte)
+{&#39;aggiornato_il&#39;: &#39;Wed, 06 Jun 2012 14:19:53 UTC &#39;, &#39;ragione_sociale&#39;: &#39;CIR 2000&#39;}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Facile, vero? C’è però un piccolo problema: &lt;code&gt;aggiornato_il&lt;/code&gt; è ancora una stringa mentre a noi, per poterlo elaborare comodamente, serve un campo &lt;code&gt;datetime.datetime&lt;/code&gt;. Come mai il pur potente modulo &lt;code&gt;simplejson&lt;/code&gt; non converte correttamente la nostra data?&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Abbiamo una stringa JSON che contiene una data:</p>
 <pre><code>fonte = '{&quot;ragione_sociale&quot;: &quot;CIR 2000&quot;, &quot;aggiornato_il&quot;: &quot;Wed, 06 Jun 2012 14:19:53 UTC&quot;}'
 </code></pre>

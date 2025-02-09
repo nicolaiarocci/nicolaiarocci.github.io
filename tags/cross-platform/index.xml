@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>cross-platform on Nicola Iarocci</title>
+    <title>Cross-Platform on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/cross-platform/</link>
-    <description>Recent content in cross-platform on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Cross-Platform on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Fri, 11 Mar 2016 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://nicolaiarocci.com/real-life-net-cross-platform/</link>
       <pubDate>Fri, 11 Mar 2016 00:00:00 +0000</pubDate>
       <guid>https://nicolaiarocci.com/real-life-net-cross-platform/</guid>
-      <description>There is a new episode up at Channel9 TecHeroes. It is called Real Life .NET Cross Platform and it is about developing production-ready, cross-platform applications with today’s .NET. In the interview we talk about SimpleCache, an asynchronous, permanent and cross-platform key-value object cache powered by SQLite3. The project is still a work in progress so there is no NuGet package available yet, but it is quite usable already. The talk slides are also available.</description>
+      <description>&lt;p&gt;There is a new episode up at Channel9 TecHeroes. It is called &lt;a href=&#34;https://channel9.msdn.com/Shows/TecHeroes/TecHeroes-Real-Life-Net-Cross-Platform&#34;&gt;Real Life .NET Cross Platform&lt;/a&gt; and it is about developing production-ready, cross-platform applications with today’s .NET. In the interview we talk about &lt;a href=&#34;https://github.com/CIR2000/Amica.vNext.SimpleCache&#34;&gt;SimpleCache&lt;/a&gt;, an asynchronous, permanent and cross-platform key-value object cache powered by SQLite3. The project is still a work in progress so there is no NuGet package available yet, but it is quite usable already. The &lt;a href=&#34;https://speakerdeck.com/nicola/real-life-net-cross-platform&#34;&gt;talk slides&lt;/a&gt; are also available.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>There is a new episode up at Channel9 TecHeroes. It is called <a href="https://channel9.msdn.com/Shows/TecHeroes/TecHeroes-Real-Life-Net-Cross-Platform">Real Life .NET Cross Platform</a> and it is about developing production-ready, cross-platform applications with today’s .NET. In the interview we talk about <a href="https://github.com/CIR2000/Amica.vNext.SimpleCache">SimpleCache</a>, an asynchronous, permanent and cross-platform key-value object cache powered by SQLite3. The project is still a work in progress so there is no NuGet package available yet, but it is quite usable already. The <a href="https://speakerdeck.com/nicola/real-life-net-cross-platform">talk slides</a> are also available.</p>
 ]]></content:encoded>
     </item>

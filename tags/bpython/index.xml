@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>bpython on Nicola Iarocci</title>
+    <title>Bpython on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/bpython/</link>
-    <description>Recent content in bpython on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Bpython on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Tue, 06 Jun 2023 07:05:25 +0100</lastBuildDate>
@@ -14,8 +14,11 @@
       <link>https://nicolaiarocci.com/python-decimal.getcontext-does-not-work-with-bpython/</link>
       <pubDate>Tue, 06 Jun 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/python-decimal.getcontext-does-not-work-with-bpython/</guid>
-      <description>I have been working on a side project for which I&amp;rsquo;m using bpython, a &amp;ldquo;fancy interface to the Python interpreter.&amp;rdquo; If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax highlighting, readline-like autocomplete, a &amp;ldquo;rewind&amp;rdquo; function to pop the last line of code from memory, auto-indentation and more.
-Anyway, today I found a bug in bpython, and that&amp;rsquo;s that Python&amp;rsquo;s decimal.getcontext() does not work with it.</description>
+      <description>&lt;p&gt;I have been working on a side project for which I&amp;rsquo;m using &lt;a href=&#34;https://bpython-interpreter.org&#34;&gt;bpython&lt;/a&gt;, a &amp;ldquo;fancy interface to the Python interpreter.&amp;rdquo;
+If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax
+highlighting, readline-like autocomplete, a &amp;ldquo;rewind&amp;rdquo; function to pop the last line of code from memory, auto-indentation
+and more.&lt;/p&gt;
+&lt;p&gt;Anyway, today I found a bug in bpython, and that&amp;rsquo;s that Python&amp;rsquo;s &lt;code&gt;decimal.getcontext()&lt;/code&gt; does not work with it.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I have been working on a side project for which I&rsquo;m using <a href="https://bpython-interpreter.org">bpython</a>, a &ldquo;fancy interface to the Python interpreter.&rdquo;
 If you use the Python REPL often, you should check it out. It offers unique features like in-line syntax
 highlighting, readline-like autocomplete, a &ldquo;rewind&rdquo; function to pop the last line of code from memory, auto-indentation

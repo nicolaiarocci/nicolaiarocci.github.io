@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>teaching on Nicola Iarocci</title>
+    <title>Teaching on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/teaching/</link>
-    <description>Recent content in teaching on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Teaching on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Mon, 05 Apr 2021 07:05:25 +0100</lastBuildDate>
@@ -14,16 +14,20 @@
       <link>https://nicolaiarocci.com/school-assignments-that-count-simulating-the-covid-outbreak-with-the-c-language/</link>
       <pubDate>Mon, 05 Apr 2021 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/school-assignments-that-count-simulating-the-covid-outbreak-with-the-c-language/</guid>
-      <description>Giulia got an exciting assignment from her teacher:
-Write a C program that simulates (a simplified version of) COVID outbreak spreading across a population of 200 people. When a healthy person comes into contact with a sick person, the healthy person becomes ill, too. After some time, a sick person will recover. A recovered person cannot infect a healthy person nor become sick again after coming in contact with a sick person.</description>
+      <description>&lt;p&gt;Giulia got an exciting assignment from her teacher:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Write a C program that simulates (a simplified version of) COVID outbreak
+spreading across a population of 200 people. When a healthy person comes into
+contact with a sick person, the healthy person becomes ill, too. After some
+time, a sick person will recover. A recovered person cannot infect a healthy
+person nor become sick again after coming in contact with a sick person.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Giulia got an exciting assignment from her teacher:</p>
 <blockquote>
 <p>Write a C program that simulates (a simplified version of) COVID outbreak
 spreading across a population of 200 people. When a healthy person comes into
 contact with a sick person, the healthy person becomes ill, too. After some
 time, a sick person will recover. A recovered person cannot infect a healthy
-person nor become sick again after coming in contact with a sick person.</p>
-</blockquote>
+person nor become sick again after coming in contact with a sick person.</p></blockquote>
 <p>In more prosaic terms: the world comprises a 30*50 cell grid. Of these, 200
 cells are randomly selected to be alive. Throughout the simulation, each of
 these cells can be in one of the following three states: healthy, sick, or
@@ -36,15 +40,12 @@ help, nor do I ask her about her progress. If she reaches out to me, it&rsquo;s 
 for serious trouble, and when that happens, I enjoy working with her. Besides,
 while I do a lot C# these days, I don&rsquo;t do C since aeons ago, so it&rsquo;s great to
 get back to it every once in a while.</p>
-<p><img loading="lazy" src="/images/covid-sim-prima-esecuzione.png" alt="first cyckle"  />
-
+<p><img alt="first cyckle" loading="lazy" src="/images/covid-sim-prima-esecuzione.png">
 Above, the healthy population inhabiting its 1500-cells world, right before the outbreak.</p>
-<p><img loading="lazy" src="/images/covid-sim-esecuzione-intermedia.png" alt="intermediate"  />
-
+<p><img alt="intermediate" loading="lazy" src="/images/covid-sim-esecuzione-intermedia.png">
 Halfway through the simulation, 86 cells are healthy, 46 are sick, and 68 are
 healed.</p>
-<p><img loading="lazy" src="/images/covid-sim-ultima-esecuzione.png" alt="final cycle"  />
-
+<p><img alt="final cycle" loading="lazy" src="/images/covid-sim-ultima-esecuzione.png">
 End of the simulation. It doesn&rsquo;t matter how many times you run it; the number
 of people who were never infected is stunningly low by the end. Moreover,
 a simulation like this one, albeit simplified, reveals how dramatically an epidemic

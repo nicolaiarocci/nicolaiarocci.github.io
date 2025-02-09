@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>psql on Nicola Iarocci</title>
+    <title>Psql on Nicola Iarocci</title>
     <link>https://nicolaiarocci.com/tags/psql/</link>
-    <description>Recent content in psql on Nicola Iarocci</description>
-    <generator>Hugo -- 0.121.1</generator>
+    <description>Recent content in Psql on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
     <lastBuildDate>Thu, 23 Feb 2023 07:05:25 +0100</lastBuildDate>
@@ -14,7 +14,10 @@
       <link>https://nicolaiarocci.com/awesome-psql-tips/</link>
       <pubDate>Thu, 23 Feb 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/awesome-psql-tips/</guid>
-      <description>Today I learned about psql-tips.org by Lætitia Avrot, an excellent repository of psql (the CLI tool, not the database itself) tips. I like how one randomized tip is playfully served on the home page while the complete list is always at hand.</description>
+      <description>&lt;p&gt;Today I learned about &lt;a href=&#34;https://psql-tips.org&#34;&gt;psql-tips.org&lt;/a&gt; by Lætitia Avrot, an excellent
+repository of &lt;code&gt;psql&lt;/code&gt; (the CLI tool, not the database itself) tips. I like how
+one randomized tip is playfully served on the home page while the &lt;a href=&#34;https://psql-tips.org/psql_tips_all.html&#34;&gt;complete
+list&lt;/a&gt; is always at hand.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today I learned about <a href="https://psql-tips.org">psql-tips.org</a> by Lætitia Avrot, an excellent
 repository of <code>psql</code> (the CLI tool, not the database itself) tips. I like how
 one randomized tip is playfully served on the home page while the <a href="https://psql-tips.org/psql_tips_all.html">complete
