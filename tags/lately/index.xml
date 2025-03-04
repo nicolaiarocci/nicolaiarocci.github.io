@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Lately on Nicola Iarocci</title>
+    <link>http://localhost:1313/tags/lately/</link>
+    <description>Recent content in Lately on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
+    <language>en</language>
+    <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
+    <lastBuildDate>Tue, 04 Mar 2025 17:21:32 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/lately/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lately</title>
+      <link>http://localhost:1313/lately/</link>
+      <pubDate>Tue, 04 Mar 2025 17:21:32 +0100</pubDate>
+      <guid>http://localhost:1313/lately/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been slacking a little bit as of late, mostly in shock by what is happening in the world, but also because I&amp;rsquo;ve been busy at work and, unfortunately, taking my old man to way to many medical checkups. Anyways, I thought I short recap of notable facts might be in order.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;FatturaElettronica 2.6 released.&lt;/li&gt;
+&lt;li&gt;Eve pull-requests merged.&lt;/li&gt;
+&lt;li&gt;Hiking&lt;/li&gt;
+&lt;li&gt;Twitter account disabled&lt;/li&gt;
+&lt;li&gt;DevRomagna meetups&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <content:encoded><![CDATA[<p>I&rsquo;ve been slacking a little bit as of late, mostly in shock by what is happening in the world, but also because I&rsquo;ve been busy at work and, unfortunately, taking my old man to way to many medical checkups. Anyways, I thought I short recap of notable facts might be in order.</p>
+<ul>
+<li>FatturaElettronica 2.6 released.</li>
+<li>Eve pull-requests merged.</li>
+<li>Hiking</li>
+<li>Twitter account disabled</li>
+<li>DevRomagna meetups</li>
+</ul>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
