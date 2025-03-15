@@ -7,8 +7,24 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Wed, 27 Jul 2022 07:05:25 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 15 Mar 2025 07:47:30 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A 10x faster TypeScript, but that&#39;s not the point</title>
+      <link>https://nicolaiarocci.com/a-10x-faster-typescript-but-thats-not-the-point/</link>
+      <pubDate>Sat, 15 Mar 2025 07:47:30 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/a-10x-faster-typescript-but-thats-not-the-point/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Anders_Hejlsberg&#34;&gt;Anders Hejlsberg&lt;/a&gt; is a legend in my field, with Turbo Pascal, Delphi, C#, and TypeScript in his palmares. This week, he &lt;a href=&#34;https://devblogs.microsoft.com/typescript/typescript-native-port/&#34;&gt;announced&lt;/a&gt; a rewrite of the TypeScript compiler, leading to a stunning 10x performance boost. This remarkable achievement is due to two main factors: the adoption of Go for the compiler and the Language Server Protocol and the high parallelism that Go enables. Previously, the compiler itself was in TypeScript, which severely hindered performance.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Anders_Hejlsberg">Anders Hejlsberg</a> is a legend in my field, with Turbo Pascal, Delphi, C#, and TypeScript in his palmares. This week, he <a href="https://devblogs.microsoft.com/typescript/typescript-native-port/">announced</a> a rewrite of the TypeScript compiler, leading to a stunning 10x performance boost. This remarkable achievement is due to two main factors: the adoption of Go for the compiler and the Language Server Protocol and the high parallelism that Go enables. Previously, the compiler itself was in TypeScript, which severely hindered performance.</p>
+<p>Two things strike me about this story.</p>
+<p>The <a href="https://youtu.be/pNlq-EVld70?si=BOlGs8g1pwBpCEqz">video</a> is worth watching. Not so much for the content itself but for the delivery. No emphasis, special effects, marketing crap, visual tricks, or star tricks whatsoever. The strength is in the message; any addition would be a distraction. I was fortunate enough to attend a few meetings with Hejlsberg at the Microsoft Campus in Redwood, and, well, emphasis and hyperbole are certainly not his style. He&rsquo;s genuinely a down-to-heart type of guy. On the other hand, he is Danish, not American.</p>
+<p>For purely business reasons, Microsoft could have forced the choice of one of its languages for the rewrite. Of course, none of those would have been ideal, least of all C# (itself a Hejlsberg creature), but corporate reasons could easily have prevailed. Hejlsberg and his team could pick the best tool for the job. Go is the lowest-level language with a GC; it compiles natively on all platforms, has great parallelism support, and you can write excellent functional code with it. It says a lot about Microsoft, the cultural shift it has managed since the late 1990s and early 2000s, and how it stays relevant today, unlike many of its competitors of those times.</p>
+<p>I am concerned that by switching to Go, they will no longer dogfood the language. By their admission, maintaining that massive compiler codebase in TypeScript was instrumental in adequately developing the language. We&rsquo;ll see how that pans out now that they&rsquo;re not working TypeScript daily.</p>
+<p>I&rsquo;ll end by quoting a YouTube commenter who nailed it in one sentence:</p>
+<blockquote>
+<p>Imagine creating several languages but still choosing a different one for your compiler rewrite because it&rsquo;s just the best tool for the job - absolute ego-less GOAT move.</p></blockquote>
+]]></content:encoded>
+    </item>
     <item>
       <title>I&#39;m a Microsoft MVP once again</title>
       <link>https://nicolaiarocci.com/im-a-microsoft-mvp-once-again/</link>

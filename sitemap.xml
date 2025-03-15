@@ -20,6 +20,24 @@
     <loc>https://nicolaiarocci.com/post/</loc>
     <lastmod>2025-12-31T07:36:24+01:00</lastmod>
   </url><url>
+    <loc>https://nicolaiarocci.com/a-10x-faster-typescript-but-thats-not-the-point/</loc>
+    <lastmod>2025-03-15T07:47:30+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/hejlsberg/</loc>
+    <lastmod>2025-03-15T07:47:30+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/microsoft/</loc>
+    <lastmod>2025-03-15T07:47:30+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/programming/</loc>
+    <lastmod>2025-03-15T07:47:30+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/</loc>
+    <lastmod>2025-03-15T07:47:30+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/typescript/</loc>
+    <lastmod>2025-03-15T07:47:30+01:00</lastmod>
+  </url><url>
     <loc>https://nicolaiarocci.com/tags/claude/</loc>
     <lastmod>2025-03-14T08:52:37+01:00</lastmod>
   </url><url>
@@ -29,14 +47,8 @@
     <loc>https://nicolaiarocci.com/tags/llm/</loc>
     <lastmod>2025-03-14T08:52:37+01:00</lastmod>
   </url><url>
-    <loc>https://nicolaiarocci.com/tags/</loc>
-    <lastmod>2025-03-14T08:52:37+01:00</lastmod>
-  </url><url>
     <loc>https://nicolaiarocci.com/why-do-earthworms-appear-on-wet-roads/</loc>
     <lastmod>2025-03-14T08:52:37+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/programming/</loc>
-    <lastmod>2025-03-14T08:21:18+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/quoting-evan-miller/</loc>
     <lastmod>2025-03-14T08:21:18+01:00</lastmod>
@@ -1329,9 +1341,6 @@
     <lastmod>2022-07-29T07:05:25+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/im-a-microsoft-mvp-once-again/</loc>
-    <lastmod>2022-07-27T07:05:25+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/microsoft/</loc>
     <lastmod>2022-07-27T07:05:25+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/a-project-you-maintain-has-been-designated-as-critical/</loc>
@@ -2736,9 +2745,6 @@
     <lastmod>2012-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/ancora-su-typescript/</loc>
-    <lastmod>2012-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/typescript/</loc>
     <lastmod>2012-10-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/typescript-prime-impressioni/</loc>
