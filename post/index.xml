@@ -7,8 +7,22 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Sat, 15 Mar 2025 07:47:30 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 07 Apr 2025 15:40:00 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Literary Power of Hobbits</title>
+      <link>https://nicolaiarocci.com/the-literary-power-of-hobbits/</link>
+      <pubDate>Mon, 07 Apr 2025 15:40:00 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/the-literary-power-of-hobbits/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Verlyn_Flieger&#34;&gt;Verlyn Flieger&lt;/a&gt; on the late addition of Tolkien&amp;rsquo;s most iconic characters:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hobbits were no part of Tolkien’s original plan. They entered rather late and through a side door, as the unexpected central characters in a children’s story, The Hobbit which Tolkien invented for his own children but which found an immediate and lasting worldwide audience. And of which The Lord of the Rings was the commissioned, longed-awaited and trebly successful sequel.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Verlyn_Flieger">Verlyn Flieger</a> on the late addition of Tolkien&rsquo;s most iconic characters:</p>
+<blockquote>
+<p>Hobbits were no part of Tolkien’s original plan. They entered rather late and through a side door, as the unexpected central characters in a children’s story, The Hobbit which Tolkien invented for his own children but which found an immediate and lasting worldwide audience. And of which The Lord of the Rings was the commissioned, longed-awaited and trebly successful sequel.</p></blockquote>
+<p><em><a href="https://lithub.com/the-literary-power-of-hobbits-how-jrr-tolkien-shaped-modern-fantasy/">The Literary Power of Hobbits: How JRR Tolkien Shaped Modern Fantasy</a></em> is a good short read (<em><a href="https://www.jrrtolkien.it/2025/04/07/la-potenza-letteraria-degli-hobbit-come-j-r-r-tolkien-ha-dato-forma-al-fantasy-moderno/">via</a></em>)</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>A 10x faster TypeScript, but that&#39;s not the point</title>
       <link>https://nicolaiarocci.com/a-10x-faster-typescript-but-thats-not-the-point/</link>
