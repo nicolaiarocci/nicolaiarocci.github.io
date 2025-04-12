@@ -10,10 +10,10 @@
     <lastBuildDate>Sat, 12 Apr 2025 07:54:25 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/speaking/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Its moment like this</title>
-      <link>https://nicolaiarocci.com/its-moment-like-this/</link>
+      <title>It is moments like this</title>
+      <link>https://nicolaiarocci.com/it-is-moments-like-this/</link>
       <pubDate>Sat, 12 Apr 2025 07:54:25 +0200</pubDate>
-      <guid>https://nicolaiarocci.com/its-moment-like-this/</guid>
+      <guid>https://nicolaiarocci.com/it-is-moments-like-this/</guid>
       <description>&lt;p&gt;I presented at &lt;a href=&#34;https://www.dotnetconf.it&#34;&gt;.NET Conf Rome 2025&lt;/a&gt; yesterday, and it went very well, or at least that was my impression. I enjoyed myself, and the reception seemed great, from the organizers, the other speakers (most of whom are fellow MVPs), and the audience.&lt;/p&gt;
 &lt;p&gt;But the true highlight was just before the session when, at the coffee break, an attendant approached me to shake hands and tell me he had known me for a long time because he discovered and used &lt;a href=&#34;https://python-eve.org&#34;&gt;Eve&lt;/a&gt; in a research project he was working on years ago. As I recall, he had attended one of my Eve sessions at EuroPython, maybe in Berlin in 2014. As is often the case, he had no immediate need for my project and shelved it as &amp;ldquo;interesting, and cool that it&amp;rsquo;s by an Italian author, but I don&amp;rsquo;t need really it&amp;rdquo;. Then, a couple of years later, in a time of need, he recalled that little presentation of mine, and, long story short, Eve ended up being adopted by a big, unnamed corp or research institute. I thanked him from the bottom of my heart and told him it was worth preparing for the talk, waking up at 4 am and travelling to Rome to meet him and hear his story. It&amp;rsquo;s moments like this that make it all worth it. Also, hearing such a Python story at a .NET event was unexpected.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I presented at <a href="https://www.dotnetconf.it">.NET Conf Rome 2025</a> yesterday, and it went very well, or at least that was my impression. I enjoyed myself, and the reception seemed great, from the organizers, the other speakers (most of whom are fellow MVPs), and the audience.</p>
