@@ -7,20 +7,34 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Sat, 12 Apr 2025 07:54:25 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 06 May 2025 09:49:13 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Eve</title>
-      <link>https://nicolaiarocci.com/tags/eve/</link>
-      <pubDate>Sat, 12 Apr 2025 07:54:25 +0200</pubDate>
-      <guid>https://nicolaiarocci.com/tags/eve/</guid>
+      <title>Dotnet</title>
+      <link>https://nicolaiarocci.com/tags/dotnet/</link>
+      <pubDate>Tue, 06 May 2025 09:49:13 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/tags/dotnet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fattura-Elettronica</title>
+      <link>https://nicolaiarocci.com/tags/fattura-elettronica/</link>
+      <pubDate>Tue, 06 May 2025 09:49:13 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/tags/fattura-elettronica/</guid>
       <description></description>
     </item>
     <item>
       <title>Open Source</title>
       <link>https://nicolaiarocci.com/tags/open-source/</link>
-      <pubDate>Sat, 12 Apr 2025 07:54:25 +0200</pubDate>
+      <pubDate>Tue, 06 May 2025 09:49:13 +0200</pubDate>
       <guid>https://nicolaiarocci.com/tags/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eve</title>
+      <link>https://nicolaiarocci.com/tags/eve/</link>
+      <pubDate>Sat, 12 Apr 2025 07:54:25 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/tags/eve/</guid>
       <description></description>
     </item>
     <item>
@@ -150,13 +164,6 @@
       <description></description>
     </item>
     <item>
-      <title>Fattura-Elettronica</title>
-      <link>https://nicolaiarocci.com/tags/fattura-elettronica/</link>
-      <pubDate>Tue, 04 Mar 2025 17:21:32 +0100</pubDate>
-      <guid>https://nicolaiarocci.com/tags/fattura-elettronica/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Hiking</title>
       <link>https://nicolaiarocci.com/tags/hiking/</link>
       <pubDate>Tue, 04 Mar 2025 17:21:32 +0100</pubDate>
@@ -168,13 +175,6 @@
       <link>https://nicolaiarocci.com/tags/twitter/</link>
       <pubDate>Tue, 04 Mar 2025 17:21:32 +0100</pubDate>
       <guid>https://nicolaiarocci.com/tags/twitter/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dotnet</title>
-      <link>https://nicolaiarocci.com/tags/dotnet/</link>
-      <pubDate>Tue, 07 Jan 2025 11:38:52 +0100</pubDate>
-      <guid>https://nicolaiarocci.com/tags/dotnet/</guid>
       <description></description>
     </item>
     <item>
