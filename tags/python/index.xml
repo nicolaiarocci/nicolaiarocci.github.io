@@ -7,8 +7,17 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Tue, 15 Oct 2024 09:37:02 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 03 Jun 2025 15:16:43 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eve 2.2.1</title>
+      <link>https://nicolaiarocci.com/eve-2.2.1/</link>
+      <pubDate>Tue, 03 Jun 2025 15:16:43 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/eve-2.2.1/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.org/project/Eve/2.2.1/&#34;&gt;Eve v2.2.1&lt;/a&gt; was just released on PyPI. It is a minor upgrade, but it includes a remarkable performance increase contributed by &lt;a href=&#34;https://github.com/pyeve/eve/pull/1553&#34;&gt;Alexander Urieles&lt;/a&gt;. Also, thanks to &lt;a href=&#34;https://github.com/pyeve/eve/pull/1547&#34;&gt;Svante Bengtson&lt;/a&gt; and &lt;a href=&#34;https://github.com/pyeve/eve/pull/1541&#34;&gt;Pablo Parada&lt;/a&gt; for their help with this release.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><a href="https://pypi.org/project/Eve/2.2.1/">Eve v2.2.1</a> was just released on PyPI. It is a minor upgrade, but it includes a remarkable performance increase contributed by <a href="https://github.com/pyeve/eve/pull/1553">Alexander Urieles</a>. Also, thanks to <a href="https://github.com/pyeve/eve/pull/1547">Svante Bengtson</a> and <a href="https://github.com/pyeve/eve/pull/1541">Pablo Parada</a> for their help with this release.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Eve 2.2.0</title>
       <link>https://nicolaiarocci.com/eve-2.2.0/</link>
