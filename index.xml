@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Thu, 05 Jun 2025 14:47:06 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jun 2025 18:02:55 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccolo Libro di MongoDB</title>
@@ -934,6 +934,23 @@ my newsletter.</p>
 ]]></content:encoded>
     </item>
     <item>
+      <title>Claude Code first impressions</title>
+      <link>https://nicolaiarocci.com/claude-code-first-impressions/</link>
+      <pubDate>Thu, 05 Jun 2025 18:02:55 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/claude-code-first-impressions/</guid>
+      <description>&lt;p&gt;Since yesterday, Claude Code has been included in the Pro subscription we&amp;rsquo;re signed up for. I&amp;rsquo;d been wanting to try it for a while, and now nothing was stopping me. Only yesterday (a curious coincidence), I read &lt;a href=&#34;https://nicolaiarocci.com/ai-changes-everything/&#34;&gt;AI Changes Everything&lt;/a&gt; by Armin Ronacher, which gave me a glimpse of the potential and made my hands itch to try it.&lt;/p&gt;
+&lt;p&gt;The initialization of Claude on the repository surprised me; the analysis (reported in CLAUDE.md) is thorough and reveals a good understanding of the project, including both the code and the general functioning, strategies, techniques, technologies and libraries employed.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Since yesterday, Claude Code has been included in the Pro subscription we&rsquo;re signed up for. I&rsquo;d been wanting to try it for a while, and now nothing was stopping me. Only yesterday (a curious coincidence), I read <a href="/ai-changes-everything/">AI Changes Everything</a> by Armin Ronacher, which gave me a glimpse of the potential and made my hands itch to try it.</p>
+<p>The initialization of Claude on the repository surprised me; the analysis (reported in CLAUDE.md) is thorough and reveals a good understanding of the project, including both the code and the general functioning, strategies, techniques, technologies and libraries employed.</p>
+<p>I asked Claude to generate a test suite from scratch, and it did so rather effortlessly (it went back and forth a few times, and it is fascinating following its reasoning and attempts from a distance). Claude added the tests to the existing project, a big no-no for me. I asked it to go back and create a dedicated test project, and it complied, adding the new project to the solution. It took several iterations to achieve a good result. We now have 134 tests that cover 98% of the project&rsquo;s business logic. Upon request, Claude also added code coverage by installing the missing tools.</p>
+<p>Once satisfied with the test suite and having committed and pushed (via Claude) the work done, I asked Claude to set up a GitHub Action to run the tests on every push, then to update the existing workflows (container build; deployment to test or production; etc.) so they all run tests first.</p>
+<p>In half a day of work, during which I mostly did other things, such as helping a colleague while Claude was chugging away, I achieved what would have taken me a week or even just a few days.</p>
+<p>I have very little to complain about in terms of code quality, and where I wasn&rsquo;t satisfied, I informed Claude and the unsatisfying code was quickly and pleasantly refactored. However, some refactoring is better done with Rider because it&rsquo;s faster, doesn&rsquo;t miss anything (like Claude tends to do if there are multiple similar refactorings to be done and they are scattered across various files) and doesn&rsquo;t waste tokens that count toward usage limits (with the Pro subscription, we have access to a lighter tier of Claude Code. You want the Max subscription for unlimited - or higher anyway- ceiling).</p>
+<p>One valuable feature is memory. You can have Claude memorize directives. This memory can be local to the repo or global. I instructed Claude to prefer collection expressions and utilize C#&rsquo;s new targeted-type initialization feature, among other things, which were duly noted. I then asked Claude to refactor in light of the new directives, and it did. New code is now produced according to my preferences, and it will be on all my projects.</p>
+<p>A thorough code review is always necessary, of course, but wouldn&rsquo;t you do that for any code coming into your project? Color me impressed so far.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>When to leave</title>
       <link>https://nicolaiarocci.com/when-to-leave/</link>
       <pubDate>Thu, 05 Jun 2025 14:47:06 +0200</pubDate>
@@ -951,14 +968,14 @@ my newsletter.</p>
       <link>https://nicolaiarocci.com/ai-changes-everything/</link>
       <pubDate>Wed, 04 Jun 2025 15:21:21 +0200</pubDate>
       <guid>https://nicolaiarocci.com/ai-changes-everything/</guid>
-      <description>&lt;p&gt;Today&amp;rsquo;s Armin Ronacher&amp;rsquo;s &lt;a href=&#34;https://lucumr.pocoo.org/2025/6/4/changes/&#34;&gt;&lt;strong&gt;AI Changes Everything&lt;/strong&gt;&lt;/a&gt; strongly resonates with me&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. I may not be using Claude Code as a daily driver as he now does, but I&amp;rsquo;ve slowly and steadily introduced large language models (LLMs) into my routine, and I&amp;rsquo;m reaping the benefits.&lt;/p&gt;
+      <description>&lt;p&gt;Today&amp;rsquo;s Armin Ronacher&amp;rsquo;s &lt;a href=&#34;https://lucumr.pocoo.org/2025/6/4/changes/&#34;&gt;AI Changes Everything&lt;/a&gt; strongly resonates with me&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. I may not be using Claude Code as a daily driver as he now does, but I&amp;rsquo;ve slowly and steadily introduced large language models (LLMs) into my routine, and I&amp;rsquo;m reaping the benefits.&lt;/p&gt;
 &lt;p&gt;It wasn&amp;rsquo;t the purpose of his article, but I wish Armin had gone into the details of how, why, and when he delegates tasks to Claude Code.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;https://fly.io/blog/youre-all-nuts/&#34;&gt;My AI Skeptic Friends All Nuts&lt;/a&gt;, linked in Armin&amp;rsquo;s piece, is also worth reading.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Today&rsquo;s Armin Ronacher&rsquo;s <a href="https://lucumr.pocoo.org/2025/6/4/changes/"><strong>AI Changes Everything</strong></a> strongly resonates with me<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. I may not be using Claude Code as a daily driver as he now does, but I&rsquo;ve slowly and steadily introduced large language models (LLMs) into my routine, and I&rsquo;m reaping the benefits.</p>
+      <content:encoded><![CDATA[<p>Today&rsquo;s Armin Ronacher&rsquo;s <a href="https://lucumr.pocoo.org/2025/6/4/changes/">AI Changes Everything</a> strongly resonates with me<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. I may not be using Claude Code as a daily driver as he now does, but I&rsquo;ve slowly and steadily introduced large language models (LLMs) into my routine, and I&rsquo;m reaping the benefits.</p>
 <p>It wasn&rsquo;t the purpose of his article, but I wish Armin had gone into the details of how, why, and when he delegates tasks to Claude Code.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
@@ -975,9 +992,9 @@ my newsletter.</p>
       <link>https://nicolaiarocci.com/moving-on/</link>
       <pubDate>Wed, 04 Jun 2025 09:00:17 +0200</pubDate>
       <guid>https://nicolaiarocci.com/moving-on/</guid>
-      <description>&lt;p&gt;In &lt;strong&gt;&lt;a href=&#34;https://minutestomidnight.co.uk/blog/moving-on/&#34;&gt;Moving On&lt;/a&gt;&lt;/strong&gt;, Simone Silvestroni recounts how he moved away from the Apple ecosystem.&lt;/p&gt;
+      <description>&lt;p&gt;In &lt;a href=&#34;https://minutestomidnight.co.uk/blog/moving-on/&#34;&gt;Moving On&lt;/a&gt;, Simone Silvestroni recounts how he moved away from the Apple ecosystem.&lt;/p&gt;
 &lt;p&gt;It&amp;rsquo;s a move I&amp;rsquo;ve been contemplating for some time. Like Simone, I use Linux at work daily so that the task wouldn&amp;rsquo;t be too much of a stretch, but I&amp;rsquo;m probably too lazy (or too old) to execute it.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>In <strong><a href="https://minutestomidnight.co.uk/blog/moving-on/">Moving On</a></strong>, Simone Silvestroni recounts how he moved away from the Apple ecosystem.</p>
+      <content:encoded><![CDATA[<p>In <a href="https://minutestomidnight.co.uk/blog/moving-on/">Moving On</a>, Simone Silvestroni recounts how he moved away from the Apple ecosystem.</p>
 <p>It&rsquo;s a move I&rsquo;ve been contemplating for some time. Like Simone, I use Linux at work daily so that the task wouldn&rsquo;t be too much of a stretch, but I&rsquo;m probably too lazy (or too old) to execute it.</p>
 ]]></content:encoded>
     </item>
