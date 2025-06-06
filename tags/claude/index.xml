@@ -10,10 +10,10 @@
     <lastBuildDate>Thu, 05 Jun 2025 18:02:55 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/claude/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Claude Code first impressions</title>
-      <link>https://nicolaiarocci.com/claude-code-first-impressions/</link>
+      <title>Claude Code&#39;s first impressions</title>
+      <link>https://nicolaiarocci.com/claude-codes-first-impressions/</link>
       <pubDate>Thu, 05 Jun 2025 18:02:55 +0200</pubDate>
-      <guid>https://nicolaiarocci.com/claude-code-first-impressions/</guid>
+      <guid>https://nicolaiarocci.com/claude-codes-first-impressions/</guid>
       <description>&lt;p&gt;Since yesterday, Claude Code has been included in the Pro subscription we&amp;rsquo;re signed up for. I&amp;rsquo;d been wanting to try it for a while, and now nothing was stopping me. Only yesterday (a curious coincidence), I read &lt;a href=&#34;https://nicolaiarocci.com/ai-changes-everything/&#34;&gt;AI Changes Everything&lt;/a&gt; by Armin Ronacher, which gave me a glimpse of the potential and made my hands itch to try it.&lt;/p&gt;
 &lt;p&gt;The initialization of Claude on the repository surprised me; the analysis (reported in CLAUDE.md) is thorough and reveals a good understanding of the project, including both the code and the general functioning, strategies, techniques, technologies and libraries employed.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Since yesterday, Claude Code has been included in the Pro subscription we&rsquo;re signed up for. I&rsquo;d been wanting to try it for a while, and now nothing was stopping me. Only yesterday (a curious coincidence), I read <a href="/ai-changes-everything/">AI Changes Everything</a> by Armin Ronacher, which gave me a glimpse of the potential and made my hands itch to try it.</p>
@@ -23,7 +23,8 @@
 <p>In half a day of work, during which I mostly did other things, such as helping a colleague while Claude was chugging away, I achieved what would have taken me a week or even just a few days.</p>
 <p>I have very little to complain about in terms of code quality, and where I wasn&rsquo;t satisfied, I informed Claude and the unsatisfying code was quickly and pleasantly refactored. However, some refactoring is better done with Rider because it&rsquo;s faster, doesn&rsquo;t miss anything (like Claude tends to do if there are multiple similar refactorings to be done and they are scattered across various files) and doesn&rsquo;t waste tokens that count toward usage limits (with the Pro subscription, we have access to a lighter tier of Claude Code. You want the Max subscription for unlimited - or higher anyway- ceiling).</p>
 <p>One valuable feature is memory. You can have Claude memorize directives. This memory can be local to the repo or global. I instructed Claude to prefer collection expressions and utilize C#&rsquo;s new targeted-type initialization feature, among other things, which were duly noted. I then asked Claude to refactor in light of the new directives, and it did. New code is now produced according to my preferences, and it will be on all my projects.</p>
-<p>A thorough code review is always necessary, of course, but wouldn&rsquo;t you do that for any code coming into your project? Color me impressed so far.</p>
+<p>A thorough code review is always necessary, of course, but wouldn&rsquo;t you do that for any code coming into your project?</p>
+<p>Color me impressed so far. Copying and pasting from LLM&rsquo;s web UIs is already a thing of the past. The present is all about agents, and they&rsquo;re just getting started.</p>
 ]]></content:encoded>
     </item>
     <item>
