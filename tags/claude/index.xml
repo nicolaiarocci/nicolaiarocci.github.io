@@ -10,10 +10,10 @@
     <lastBuildDate>Thu, 05 Jun 2025 18:02:55 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/claude/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Claude Code&#39;s first impressions</title>
-      <link>https://nicolaiarocci.com/claude-codes-first-impressions/</link>
+      <title>Claude Code first impressions</title>
+      <link>https://nicolaiarocci.com/claude-code-first-impressions/</link>
       <pubDate>Thu, 05 Jun 2025 18:02:55 +0200</pubDate>
-      <guid>https://nicolaiarocci.com/claude-codes-first-impressions/</guid>
+      <guid>https://nicolaiarocci.com/claude-code-first-impressions/</guid>
       <description>&lt;p&gt;Since yesterday, Claude Code has been included in the Pro subscription we&amp;rsquo;re signed up for. I&amp;rsquo;d been wanting to try it for a while, and now nothing was stopping me. Only yesterday (a curious coincidence), I read &lt;a href=&#34;https://nicolaiarocci.com/ai-changes-everything/&#34;&gt;AI Changes Everything&lt;/a&gt; by Armin Ronacher, which gave me a glimpse of the potential and made my hands itch to try it.&lt;/p&gt;
 &lt;p&gt;The initialization of Claude on the repository surprised me; the analysis (reported in CLAUDE.md) is thorough and reveals a good understanding of the project, including both the code and the general functioning, strategies, techniques, technologies and libraries employed.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Since yesterday, Claude Code has been included in the Pro subscription we&rsquo;re signed up for. I&rsquo;d been wanting to try it for a while, and now nothing was stopping me. Only yesterday (a curious coincidence), I read <a href="/ai-changes-everything/">AI Changes Everything</a> by Armin Ronacher, which gave me a glimpse of the potential and made my hands itch to try it.</p>
