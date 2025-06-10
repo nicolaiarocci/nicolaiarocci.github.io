@@ -43,13 +43,10 @@
       <guid>https://nicolaiarocci.com/ai-changes-everything/</guid>
       <description>&lt;p&gt;Today&amp;rsquo;s Armin Ronacher&amp;rsquo;s &lt;a href=&#34;https://lucumr.pocoo.org/2025/6/4/changes/&#34;&gt;AI Changes Everything&lt;/a&gt; strongly resonates with me&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. I may not be using Claude Code as a daily driver as he now does, but I&amp;rsquo;ve slowly and steadily introduced large language models (LLMs) into my routine, and I&amp;rsquo;m reaping the benefits.&lt;/p&gt;
 &lt;p&gt;It wasn&amp;rsquo;t the purpose of his article, but I wish Armin had gone into the details of how, why, and when he delegates tasks to Claude Code.&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://fly.io/blog/youre-all-nuts/&#34;&gt;My AI Skeptic Friends All Nuts&lt;/a&gt;, linked in Armin&amp;rsquo;s piece, is also worth reading.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;em&gt;Update:&lt;/em&gt; Armin later a &lt;a href=&#34;https://lucumr.pocoo.org/2025/6/10/genai-criticism/&#34;&gt;follow-up&lt;/a&gt;.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Today&rsquo;s Armin Ronacher&rsquo;s <a href="https://lucumr.pocoo.org/2025/6/4/changes/">AI Changes Everything</a> strongly resonates with me<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. I may not be using Claude Code as a daily driver as he now does, but I&rsquo;ve slowly and steadily introduced large language models (LLMs) into my routine, and I&rsquo;m reaping the benefits.</p>
 <p>It wasn&rsquo;t the purpose of his article, but I wish Armin had gone into the details of how, why, and when he delegates tasks to Claude Code.</p>
+<p><em>Update:</em> Armin later a <a href="https://lucumr.pocoo.org/2025/6/10/genai-criticism/">follow-up</a>.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
