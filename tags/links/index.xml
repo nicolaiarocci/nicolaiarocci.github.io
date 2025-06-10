@@ -22,7 +22,7 @@
 <p><em>Hey, why did you build a CLI tool instead of an IDE?</em></p>
 <blockquote>
 <p>Yeah, it&rsquo;s a good question. There are two reasons. We started this at Anthropic, where people use a broad range of IDEs. Some people use VS code. Other people use Zed, Xcode, Vim, or Emacs. And it was just hard to build something that works for everyone. And so the terminal is just the common denominator. The second thing is that at Anthropic, we see firsthand how quickly the model is improving. <strong>I think there&rsquo;s a good chance that by the end of the year, people won&rsquo;t use IDEs</strong>. And so, we want to prepare for this future and avoid over-investing in UI and other layers on top. Given the way the models are progressing, it may not be practical to work on them soon.</p></blockquote>
-<p>Well, that&rsquo;s one fascinating bold statement right there. It aligns with a vision I&rsquo;ve had for a while: in a not-too-distant future, people will use LLM UIs (think Claude.ai with plug-and-play MCP support and voice recognition<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> both built in) as their primary interface for most use cases.</p>
+<p>Well, that&rsquo;s one fascinating bold statement right there. It aligns with a vision I&rsquo;ve had for a while. In the not-too-distant future, people will use LLM UIs (think Claude.ai with plug-and-play MCP support and voice dictation<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> built-in) as their primary interface, replacing many different specialised applications.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
