@@ -7,8 +7,32 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Thu, 05 Jun 2025 18:02:55 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 10 Jun 2025 18:11:36 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/claude/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>People won&#39;t use IDEs anymore</title>
+      <link>https://nicolaiarocci.com/people-wont-use-ides-anymore/</link>
+      <pubDate>Tue, 10 Jun 2025 18:11:36 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/people-wont-use-ides-anymore/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m just back from watching &lt;a href=&#34;https://www.youtube.com/live/6eBSHbLKuN0&#34;&gt;Mastering Claude Code in 30 Minutes&lt;/a&gt;, a talk by Boris Cherny, who, I learned, created Claude Code. I was struck by Boris&amp;rsquo;s reply to one question from the crowd:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Hey, why did you build a CLI tool instead of an IDE?&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Yeah, it&amp;rsquo;s a good question. There are two reasons. We started this at Anthropic, where people use a broad range of IDEs. Some people use VS code. Other people use Zed, Xcode, Vim, or Emacs. And it was just hard to build something that works for everyone. And so the terminal is just the common denominator. The second thing is that at Anthropic, we see firsthand how quickly the model is improving. &lt;strong&gt;I think there&amp;rsquo;s a good chance that by the end of the year, people won&amp;rsquo;t use IDEs&lt;/strong&gt;. And so, we want to prepare for this future and avoid over-investing in UI and other layers on top. Given the way the models are progressing, it may not be practical to work on them soon.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I&rsquo;m just back from watching <a href="https://www.youtube.com/live/6eBSHbLKuN0">Mastering Claude Code in 30 Minutes</a>, a talk by Boris Cherny, who, I learned, created Claude Code. I was struck by Boris&rsquo;s reply to one question from the crowd:</p>
+<p><em>Hey, why did you build a CLI tool instead of an IDE?</em></p>
+<blockquote>
+<p>Yeah, it&rsquo;s a good question. There are two reasons. We started this at Anthropic, where people use a broad range of IDEs. Some people use VS code. Other people use Zed, Xcode, Vim, or Emacs. And it was just hard to build something that works for everyone. And so the terminal is just the common denominator. The second thing is that at Anthropic, we see firsthand how quickly the model is improving. <strong>I think there&rsquo;s a good chance that by the end of the year, people won&rsquo;t use IDEs</strong>. And so, we want to prepare for this future and avoid over-investing in UI and other layers on top. Given the way the models are progressing, it may not be practical to work on them soon.</p></blockquote>
+<p>Well, that&rsquo;s one fascinating bold statement right there. It aligns with a vision I&rsquo;ve had for a while: in a not-too-distant future, people will use LLM UIs (think Claude.ai with plug-and-play MCP support and voice recognition<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> both built in) as their primary interface for most use cases.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>One remarkable suggestion from the talk is to use MacOS voice dictation instead of typing prompts to Claude Code.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+    </item>
     <item>
       <title>Claude Code first impressions</title>
       <link>https://nicolaiarocci.com/claude-code-first-impressions/</link>
