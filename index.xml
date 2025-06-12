@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Thu, 12 Jun 2025 09:23:46 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 12 Jun 2025 18:15:42 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccolo Libro di MongoDB</title>
@@ -935,6 +935,27 @@ my newsletter.</p>
 <p>Find me on <a href="https://fosstodon.org/@nicola">Mastodon</a>, <a href="https://www.last.fm/user/nicolaiarocci">Last.fm</a>, <a href="https://github.com/nicolaiarocci">GitHub</a>, <a href="http://www.linkedin.com/in/nicolaiarocci">LinkedIn</a>, or get in touch via <a href="mailto:nicola@nicolaiarocci.com">email</a>. My <a href="https://x.com/nicolaiarocci">Twitter/X</a> account is currently <a href="/im-leaving-twitter/x/">on hiatus</a>.</p>
 <h2 id="no-guest-posts">No guest posts</h2>
 <p>This is my personal website. I will not accept any “guest posts” here, not for compensation and not for any “good cause”. You can stop asking.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Agentic coding recommendations</title>
+      <link>https://nicolaiarocci.com/agentic-coding-recommendations/</link>
+      <pubDate>Thu, 12 Jun 2025 18:15:42 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/agentic-coding-recommendations/</guid>
+      <description>&lt;p&gt;Armin Ronacher is on a roll. He just published his &lt;a href=&#34;https://lucumr.pocoo.org/2025/6/12/agentic-coding/&#34;&gt;Agentic Coding Reccomendations&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;On the topic of Agenting Coding he recently published:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://lucumr.pocoo.org/2025/6/4/changes/&#34;&gt;AI Changes Everything&lt;/a&gt; (you should read it)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lucumr.pocoo.org/2025/6/10/genai-criticism/&#34;&gt;GenAI Criticism and Moral Quandaries&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Both already &lt;a href=&#34;http://localhost:1313/ai-changes-everything/&#34;&gt;reported&lt;/a&gt;.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Armin Ronacher is on a roll. He just published his <a href="https://lucumr.pocoo.org/2025/6/12/agentic-coding/">Agentic Coding Reccomendations</a>.</p>
+<p>On the topic of Agenting Coding he recently published:</p>
+<ul>
+<li><a href="https://lucumr.pocoo.org/2025/6/4/changes/">AI Changes Everything</a> (you should read it)</li>
+<li><a href="https://lucumr.pocoo.org/2025/6/10/genai-criticism/">GenAI Criticism and Moral Quandaries</a></li>
+</ul>
+<p>Both already <a href="http://localhost:1313/ai-changes-everything/">reported</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
