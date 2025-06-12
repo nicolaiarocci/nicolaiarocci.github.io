@@ -949,6 +949,7 @@ my newsletter.</p>
 <p>I had intended to record the audio with the idea of transcribing it with MacWhisper and then publishing it here on my site, but I forgot to do so, which is a pity.</p>
 <p>The session lasted almost two hours (I had thought it would take less time), during which I deviated somewhat from the script, using slides as a guide that were essentially an adaptation of the notes I had taken during my experiments. I showed the code for the MCP servers I created (stdio and streamable HTTP transports), demonstrated the various ways to link them with LLMs (Claude Desktop, Claude Code, and VS Code), and then shared my thoughts on the entire matter.</p>
 <p>I received quite a bit of feedback, both in the room and afterward, when we moved to a pub where we stayed quite late by my standards, discussing AI, LLMs, and their impact on our daily work, which we can certainly define as significant, if not massive. Everyone uses LLMs&rsquo; UIs at their job to some extent, but very few are currently into agentic coding (the idea of a future session on that topic is tempting).</p>
+<p>One remarkable tool that surfaced during the pub chat is <a href="https://github.com/Cinnamon/kotaemon">Kotaemon</a>, <em>&ldquo;an open-source RAG-based tool for chatting with your documents.&rdquo;</em>.</p>
 ]]></content:encoded>
     </item>
     <item>
