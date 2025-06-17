@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Mon, 16 Jun 2025 15:51:28 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 17 Jun 2025 09:59:26 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccolo Libro di MongoDB</title>
@@ -937,6 +937,20 @@ my newsletter.</p>
 <p>Find me on <a href="https://fosstodon.org/@nicola">Mastodon</a>, <a href="https://www.last.fm/user/nicolaiarocci">Last.fm</a>, <a href="https://github.com/nicolaiarocci">GitHub</a>, <a href="http://www.linkedin.com/in/nicolaiarocci">LinkedIn</a>, or get in touch via <a href="mailto:nicola@nicolaiarocci.com">email</a>. My <a href="https://x.com/nicolaiarocci">Twitter/X</a> account is currently <a href="/im-leaving-twitter/x/">on hiatus</a>.</p>
 <h2 id="no-guest-posts">No guest posts</h2>
 <p>This is my personal website. I will not accept any “guest posts” here, not for compensation and not for any “good cause”. You can stop asking.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Marp, the markdown presentation ecosystem</title>
+      <link>https://nicolaiarocci.com/marp-the-markdown-presentation-ecosystem/</link>
+      <pubDate>Tue, 17 Jun 2025 09:59:26 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/marp-the-markdown-presentation-ecosystem/</guid>
+      <description>&lt;p&gt;Today, I learned about &lt;a href=&#34;https://marp.app&#34;&gt;Marp&lt;/a&gt;, the &amp;ldquo;Markdown Presentation Ecosystem,&amp;rdquo; which comes with an enticing promise: &lt;em&gt;to create beautiful slide decks using an intuitive Markdown experience.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;For my &lt;a href=&#34;https://nicolaiarocci.com/mcp-or-connecting-our-apps-to-llms/&#34;&gt;latest presentation&lt;/a&gt;, I utilized the Slides Extended Obsidian plugin, which is based on reveal.js—an excellent option for keeping slide decks within one&amp;rsquo;s Obsidian vault  (I keep all notes, work and personal journals, and knowledge in Obsidian.)&lt;/p&gt;
+&lt;p&gt;Marp could be a viable alternative to the plugin, as Obsidian notes are just markdown files. The advantage here is that I can further elaborate or iterate on my slides, for example, from the command line, as Marp comes with a dedicated &lt;a href=&#34;https://github.com/marp-team/marp-cli/&#34;&gt;CLI tool&lt;/a&gt; that lets you export to PDF, HTML, and more. Additionally, Marp is not based on reveal.js, a tool that has given me headaches in the past.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Today, I learned about <a href="https://marp.app">Marp</a>, the &ldquo;Markdown Presentation Ecosystem,&rdquo; which comes with an enticing promise: <em>to create beautiful slide decks using an intuitive Markdown experience.</em></p>
+<p>For my <a href="/mcp-or-connecting-our-apps-to-llms/">latest presentation</a>, I utilized the Slides Extended Obsidian plugin, which is based on reveal.js—an excellent option for keeping slide decks within one&rsquo;s Obsidian vault  (I keep all notes, work and personal journals, and knowledge in Obsidian.)</p>
+<p>Marp could be a viable alternative to the plugin, as Obsidian notes are just markdown files. The advantage here is that I can further elaborate or iterate on my slides, for example, from the command line, as Marp comes with a dedicated <a href="https://github.com/marp-team/marp-cli/">CLI tool</a> that lets you export to PDF, HTML, and more. Additionally, Marp is not based on reveal.js, a tool that has given me headaches in the past.</p>
+<p>My understanding is that Marp is more geared toward producing &ldquo;static&rdquo; slides intended for PDF or other outputs (HTML included, though). In contrast, reveal-based solutions allow for more advanced features, such as animated slides, which I don&rsquo;t like and use anyway.</p>
 ]]></content:encoded>
     </item>
     <item>
