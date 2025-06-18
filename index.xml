@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Wed, 18 Jun 2025 10:36:39 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jun 2025 14:25:11 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccolo Libro di MongoDB</title>
@@ -937,6 +937,21 @@ my newsletter.</p>
 <p>Find me on <a href="https://fosstodon.org/@nicola">Mastodon</a>, <a href="https://www.last.fm/user/nicolaiarocci">Last.fm</a>, <a href="https://github.com/nicolaiarocci">GitHub</a>, <a href="http://www.linkedin.com/in/nicolaiarocci">LinkedIn</a>, or get in touch via <a href="mailto:nicola@nicolaiarocci.com">email</a>. My <a href="https://x.com/nicolaiarocci">Twitter/X</a> account is currently <a href="/im-leaving-twitter/x/">on hiatus</a>.</p>
 <h2 id="no-guest-posts">No guest posts</h2>
 <p>This is my personal website. I will not accept any “guest posts” here, not for compensation and not for any “good cause”. You can stop asking.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>If a note can be public, it should be</title>
+      <link>https://nicolaiarocci.com/if-a-note-can-be-public-it-should-be/</link>
+      <pubDate>Wed, 18 Jun 2025 14:25:11 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/if-a-note-can-be-public-it-should-be/</guid>
+      <description>&lt;p&gt;Quoting &lt;a href=&#34;https://dri.es/if-a-note-can-be-public-it-should-be&#34;&gt;Dries Buytaert&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A few years ago, I quietly adopted a small principle that has changed how I think about publishing on my website. [&amp;hellip;] The principle is: If a note can be public, it should be.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Unconsciously, I am trying to do the same, as you might have noticed by the increased frequency of activity on this website. Maintaining consistency can be challenging, but it&amp;rsquo;s worth the effort.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Quoting <a href="https://dri.es/if-a-note-can-be-public-it-should-be">Dries Buytaert</a>:</p>
+<blockquote>
+<p>A few years ago, I quietly adopted a small principle that has changed how I think about publishing on my website. [&hellip;] The principle is: If a note can be public, it should be.</p></blockquote>
+<p>Unconsciously, I am trying to do the same, as you might have noticed by the increased frequency of activity on this website. Maintaining consistency can be challenging, but it&rsquo;s worth the effort.</p>
 ]]></content:encoded>
     </item>
     <item>
