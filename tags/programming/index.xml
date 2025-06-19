@@ -7,8 +7,23 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Sat, 15 Mar 2025 07:47:30 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 19 Jun 2025 10:30:51 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI coding is less fun</title>
+      <link>https://nicolaiarocci.com/ai-coding-is-less-fun/</link>
+      <pubDate>Thu, 19 Jun 2025 10:30:51 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/ai-coding-is-less-fun/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been doing &amp;ldquo;agentic coding&amp;rdquo; for some time, and well, it&amp;rsquo;s weird. On stable, mature technology (in my case, the C#/.NET stack), it is beneficial, as it significantly boosts productivity.&lt;/p&gt;
+&lt;p&gt;But, there&amp;rsquo;s a bit, and that&amp;rsquo;s that I&amp;rsquo;m not programming anymore, or very little now, and I love coding. I love entering &amp;ldquo;the zone&amp;rdquo; and solving complex problems, one at a time. It&amp;rsquo;s always been my superpower. Will I still have fun in the future now that I can delegate most tasks to Claude Code?&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I&rsquo;ve been doing &ldquo;agentic coding&rdquo; for some time, and well, it&rsquo;s weird. On stable, mature technology (in my case, the C#/.NET stack), it is beneficial, as it significantly boosts productivity.</p>
+<p>But, there&rsquo;s a bit, and that&rsquo;s that I&rsquo;m not programming anymore, or very little now, and I love coding. I love entering &ldquo;the zone&rdquo; and solving complex problems, one at a time. It&rsquo;s always been my superpower. Will I still have fun in the future now that I can delegate most tasks to Claude Code?</p>
+<p>In his <a href="https://terriblesoftware.org/2025/04/23/the-hidden-cost-of-ai-coding/">The Hidden Cost of AI Coding</a>, Matheus Lima expresses the same concern:</p>
+<blockquote>
+<p>Instead of that deep immersion where I&rsquo;d craft each function, I&rsquo;m now more like a <em>curator</em>? I describe what I want, evaluate what the AI gives me, tweak the prompts, and iterate. It&rsquo;s efficient, yes. Revolutionary, even. But something essential feels missing — that state of flow where time vanishes and you&rsquo;re completely absorbed in creation. If this becomes the dominant workflow across teams, do we risk an industry full of highly productive yet strangely detached developers?</p></blockquote>
+<p>I&rsquo;m afraid there&rsquo;s no going back; agentic coding is so helpful that it&rsquo;s tough to let go, especially in tiny teams like mine. Matheus suggests we preserve some space in our work where the flow can still happen, and that&rsquo;s probably what I&rsquo;m going to do: on some projects, maybe the open-source ones I maintain, resist the temptation of a <code>claude /init</code> and keep going like the good old times. One can at least try.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>A 10x faster TypeScript, but that&#39;s not the point</title>
       <link>https://nicolaiarocci.com/a-10x-faster-typescript-but-thats-not-the-point/</link>

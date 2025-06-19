@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Wed, 18 Jun 2025 14:25:11 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 19 Jun 2025 10:30:51 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccolo Libro di MongoDB</title>
@@ -937,6 +937,34 @@ my newsletter.</p>
 <p>Find me on <a href="https://fosstodon.org/@nicola">Mastodon</a>, <a href="https://www.last.fm/user/nicolaiarocci">Last.fm</a>, <a href="https://github.com/nicolaiarocci">GitHub</a>, <a href="http://www.linkedin.com/in/nicolaiarocci">LinkedIn</a>, or get in touch via <a href="mailto:nicola@nicolaiarocci.com">email</a>. My <a href="https://x.com/nicolaiarocci">Twitter/X</a> account is currently <a href="/im-leaving-twitter/x/">on hiatus</a>.</p>
 <h2 id="no-guest-posts">No guest posts</h2>
 <p>This is my personal website. I will not accept any “guest posts” here, not for compensation and not for any “good cause”. You can stop asking.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI coding is less fun</title>
+      <link>https://nicolaiarocci.com/ai-coding-is-less-fun/</link>
+      <pubDate>Thu, 19 Jun 2025 10:30:51 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/ai-coding-is-less-fun/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been doing &amp;ldquo;agentic coding&amp;rdquo; for some time, and well, it&amp;rsquo;s weird. On stable, mature technology (in my case, the C#/.NET stack), it is beneficial, as it significantly boosts productivity.&lt;/p&gt;
+&lt;p&gt;But, there&amp;rsquo;s a bit, and that&amp;rsquo;s that I&amp;rsquo;m not programming anymore, or very little now, and I love coding. I love entering &amp;ldquo;the zone&amp;rdquo; and solving complex problems, one at a time. It&amp;rsquo;s always been my superpower. Will I still have fun in the future now that I can delegate most tasks to Claude Code?&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I&rsquo;ve been doing &ldquo;agentic coding&rdquo; for some time, and well, it&rsquo;s weird. On stable, mature technology (in my case, the C#/.NET stack), it is beneficial, as it significantly boosts productivity.</p>
+<p>But, there&rsquo;s a bit, and that&rsquo;s that I&rsquo;m not programming anymore, or very little now, and I love coding. I love entering &ldquo;the zone&rdquo; and solving complex problems, one at a time. It&rsquo;s always been my superpower. Will I still have fun in the future now that I can delegate most tasks to Claude Code?</p>
+<p>In his <a href="https://terriblesoftware.org/2025/04/23/the-hidden-cost-of-ai-coding/">The Hidden Cost of AI Coding</a>, Matheus Lima expresses the same concern:</p>
+<blockquote>
+<p>Instead of that deep immersion where I&rsquo;d craft each function, I&rsquo;m now more like a <em>curator</em>? I describe what I want, evaluate what the AI gives me, tweak the prompts, and iterate. It&rsquo;s efficient, yes. Revolutionary, even. But something essential feels missing — that state of flow where time vanishes and you&rsquo;re completely absorbed in creation. If this becomes the dominant workflow across teams, do we risk an industry full of highly productive yet strangely detached developers?</p></blockquote>
+<p>I&rsquo;m afraid there&rsquo;s no going back; agentic coding is so helpful that it&rsquo;s tough to let go, especially in tiny teams like mine. Matheus suggests we preserve some space in our work where the flow can still happen, and that&rsquo;s probably what I&rsquo;m going to do: on some projects, maybe the open-source ones I maintain, resist the temptation of a <code>claude /init</code> and keep going like the good old times. One can at least try.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Quoting Mihaly Csikszentmihalyi</title>
+      <link>https://nicolaiarocci.com/quoting-mihaly-csikszentmihalyi/</link>
+      <pubDate>Thu, 19 Jun 2025 09:45:55 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/quoting-mihaly-csikszentmihalyi/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;The best moments in our lives are not the passive, receptive, relaxing times… The best moments usually occur if a person’s body or mind is stretched to its limits in a voluntary effort to accomplish something difficult and worthwhile.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&amp;ndash; Mihaly Csikszentmihalyi (&lt;a href=&#34;https://terriblesoftware.org/2025/04/23/the-hidden-cost-of-ai-coding/&#34;&gt;via&lt;/a&gt;)&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>The best moments in our lives are not the passive, receptive, relaxing times… The best moments usually occur if a person’s body or mind is stretched to its limits in a voluntary effort to accomplish something difficult and worthwhile.</p></blockquote>
+<p>&ndash; Mihaly Csikszentmihalyi (<a href="https://terriblesoftware.org/2025/04/23/the-hidden-cost-of-ai-coding/">via</a>)</p>
 ]]></content:encoded>
     </item>
     <item>
