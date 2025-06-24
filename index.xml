@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Mon, 23 Jun 2025 17:40:36 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 24 Jun 2025 11:26:52 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccolo Libro di MongoDB</title>
@@ -939,6 +939,27 @@ my newsletter.</p>
 <p>Find me on <a href="https://fosstodon.org/@nicola">Mastodon</a>, <a href="https://www.last.fm/user/nicolaiarocci">Last.fm</a>, <a href="https://github.com/nicolaiarocci">GitHub</a>, <a href="http://www.linkedin.com/in/nicolaiarocci">LinkedIn</a>, or get in touch via <a href="mailto:nicola@nicolaiarocci.com">email</a>. My <a href="https://x.com/nicolaiarocci">Twitter/X</a> account is currently <a href="/im-leaving-twitter/x/">on hiatus</a>.</p>
 <h2 id="no-guest-posts">No guest posts</h2>
 <p>This is my personal website. I will not accept any “guest posts” here, not for compensation and not for any “good cause”. You can stop asking.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>How software became a lifestyle brand</title>
+      <link>https://nicolaiarocci.com/how-software-became-a-lifestyle-brand/</link>
+      <pubDate>Tue, 24 Jun 2025 11:26:52 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/how-software-became-a-lifestyle-brand/</guid>
+      <description>&lt;p&gt;Omer has an &lt;a href=&#34;https://omeru.bearblog.dev/lifestyle/&#34;&gt;intriguing essay&lt;/a&gt; up on his blog:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;choosing software used to be straightforward. does the app do what you need, or not? but now, opening notion or obsidian feels less like launching software and more like putting on your favorite jacket. it says something about you. aligns you with a tribe, becomes part of your identity. software isn’t just functional anymore. it’s quietly turned into a lifestyle brand, a digital prosthetic we use to signal who we are, or who we wish we were.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Omer has an <a href="https://omeru.bearblog.dev/lifestyle/">intriguing essay</a> up on his blog:</p>
+<blockquote>
+<p>choosing software used to be straightforward. does the app do what you need, or not? but now, opening notion or obsidian feels less like launching software and more like putting on your favorite jacket. it says something about you. aligns you with a tribe, becomes part of your identity. software isn’t just functional anymore. it’s quietly turned into a lifestyle brand, a digital prosthetic we use to signal who we are, or who we wish we were.</p></blockquote>
+<p>I don&rsquo;t necessarily agree with the premise. In the late 1980s and early 1990s, we chose which BBS to operate as Sysops not only based on features but also culture, style, and aesthetics. Given the option, humans make a choice based on both function and form. Why behave differently with software?</p>
+<p>The notion versus Obsidian face-off is brilliant. As a Team Obsidian, I find Omer&rsquo;s take amusing and spot on:</p>
+<blockquote>
+<p>if notion is a sleek apartment in seoul, obsidian is a cluttered home lab. markdown files. local folders. keyboard shortcuts. graph views. it doesn’t care how it looks, it cares that it works. it’s functional first, aesthetic maybe never. there’s no onboarding flow, no emoji illustrations, no soft gradients telling you everything’s going to be okay. just an empty vault and the quiet suggestion: you figure it out.</p></blockquote>
+<p>Style is more relevant these days, that&rsquo;s for sure, but that&rsquo;s also a consequence of proliferation. There are numerous viable alternatives today, so products also need to differentiate themselves in terms of form.</p>
+<blockquote>
+<p>[..] these apps aren’t solving new problems. they’re solving old ones with better fonts. tighter animations, cleaner onboarding. they’re selling taste. they’re selling time. and people buy in, not just because the tools are better (some of them aren’t), but because they feel like tools made for people who care.</p></blockquote>
+<p><a href="https://omeru.bearblog.dev/lifestyle/">You are what you launch</a> is a good read.</p>
 ]]></content:encoded>
     </item>
     <item>
