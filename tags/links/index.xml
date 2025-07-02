@@ -7,8 +7,23 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Tue, 01 Jul 2025 08:50:43 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 02 Jul 2025 09:57:57 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/links/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloudflare to introduce pay-per-crawl for AI bots</title>
+      <link>https://nicolaiarocci.com/cloudflare-to-introduce-pay-per-crawl-for-ai-bots/</link>
+      <pubDate>Wed, 02 Jul 2025 09:57:57 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/cloudflare-to-introduce-pay-per-crawl-for-ai-bots/</guid>
+      <description>&lt;p&gt;The biggest news in tech this week (which isn&amp;rsquo;t over yet) is, without a doubt, that &lt;a href=&#34;https://blog.cloudflare.com/introducing-pay-per-crawl/&#34;&gt;Cloudflare is about to introduce a pay-per-crawl model for AI bots&lt;/a&gt;—huge in many ways, as let&amp;rsquo;s not forget that approximately 20% of internet traffic is routed through Cloudflare.&lt;/p&gt;
+&lt;p&gt;I have many thoughts right now, and it will take some time for them to settle. A good analysis and explanation of why this move is needed and is a good first step can be found in yesterday&amp;rsquo;s article by Dries Buytaert&amp;rsquo;s, &lt;a href=&#34;https://dri.es/the-webs-broken-deal-with-ai-companies&#34;&gt;The Web&amp;rsquo;s Broken Deal with AI Companies&lt;/a&gt;, which I recommend everyone read.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>The biggest news in tech this week (which isn&rsquo;t over yet) is, without a doubt, that <a href="https://blog.cloudflare.com/introducing-pay-per-crawl/">Cloudflare is about to introduce a pay-per-crawl model for AI bots</a>—huge in many ways, as let&rsquo;s not forget that approximately 20% of internet traffic is routed through Cloudflare.</p>
+<p>I have many thoughts right now, and it will take some time for them to settle. A good analysis and explanation of why this move is needed and is a good first step can be found in yesterday&rsquo;s article by Dries Buytaert&rsquo;s, <a href="https://dri.es/the-webs-broken-deal-with-ai-companies">The Web&rsquo;s Broken Deal with AI Companies</a>, which I recommend everyone read.</p>
+<blockquote>
+<p>For 25 years, we built the Open Web on an implicit agreement: search engines could index our content because they sent users back to our websites. That model helped sustain blogs, news sites, and even open source projects. AI companies broke that model. They train on our work and answer questions directly in their own interfaces, cutting creators out entirely. Anthropic&rsquo;s crawler reportedly makes 70,000 website requests for every single visitor it sends back. That is extraction, not exchange.</p></blockquote>
+<p>The ongoing discussion on <a href="https://news.ycombinator.com/item?id=44432385">Hacker News</a> is also worth reading</p>
+<p>Side note, I am fascinated by the <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/402">technical details</a> surrounding the 402 Payment Required response (and <a href="https://blog.cloudflare.com/introducing-pay-per-crawl/#publisher-controls-and-pricing">Cloudflare&rsquo;s implementation</a>), which was designed explicitly for micro-payment handling but never gained traction, until now.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Sometimes bad weather can feel like a gift</title>
       <link>https://nicolaiarocci.com/sometimes-bad-weather-can-feel-like-a-gift/</link>
