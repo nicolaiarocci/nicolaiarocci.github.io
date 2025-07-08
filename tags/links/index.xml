@@ -7,8 +7,21 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Wed, 02 Jul 2025 09:57:57 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jul 2025 14:53:36 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/links/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maintaining curiosity</title>
+      <link>https://nicolaiarocci.com/maintaining-curiosity/</link>
+      <pubDate>Tue, 08 Jul 2025 14:53:36 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/maintaining-curiosity/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;I believe what&amp;rsquo;s important isn&amp;rsquo;t the specific technology itself, but rather maintaining curiosity that always looks toward new alternatives and making technical decisions based on your own judgment rather than simply delegating your choices to popular opinion.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://hackers.pub/@hongminhee/2025/contrarian-stack/en&#34;&gt;In Praise of the Contrarian Stack&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>I believe what&rsquo;s important isn&rsquo;t the specific technology itself, but rather maintaining curiosity that always looks toward new alternatives and making technical decisions based on your own judgment rather than simply delegating your choices to popular opinion.</p></blockquote>
+<p><a href="https://hackers.pub/@hongminhee/2025/contrarian-stack/en">In Praise of the Contrarian Stack</a></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Cloudflare to introduce pay-per-crawl for AI bots</title>
       <link>https://nicolaiarocci.com/cloudflare-to-introduce-pay-per-crawl-for-ai-bots/</link>
