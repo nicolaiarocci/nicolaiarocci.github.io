@@ -7,8 +7,24 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Tue, 08 Jul 2025 14:53:36 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 14 Jul 2025 16:28:26 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What doesn&#39;t change</title>
+      <link>https://nicolaiarocci.com/what-doesnt-change/</link>
+      <pubDate>Mon, 14 Jul 2025 16:28:26 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/what-doesnt-change/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Everyone’s either panicking that AI will replace them or assuming they don’t need to learn anything anymore. Both miss the point entirely. AI amplifies what you already know. If you understand distributed systems, you’ll use AI to build better ones. If you don’t, you’ll use AI to create distributed disasters.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The difference? When that AI-generated code breaks in production — and it will — you need to know why. When it doesn’t scale — and it won’t — you need to understand the bottlenecks. When it creates race conditions, memory leaks, or architectural nightmares, GitHub Copilot won’t save you. &lt;strong&gt;Your fundamentals will&lt;/strong&gt;.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Everyone’s either panicking that AI will replace them or assuming they don’t need to learn anything anymore. Both miss the point entirely. AI amplifies what you already know. If you understand distributed systems, you’ll use AI to build better ones. If you don’t, you’ll use AI to create distributed disasters.</p></blockquote>
+<blockquote>
+<p>The difference? When that AI-generated code breaks in production — and it will — you need to know why. When it doesn’t scale — and it won’t — you need to understand the bottlenecks. When it creates race conditions, memory leaks, or architectural nightmares, GitHub Copilot won’t save you. <strong>Your fundamentals will</strong>.</p></blockquote>
+<p><a href="https://terriblesoftware.org/2025/07/14/what-doesnt-change/">What Doesn&rsquo;t Change</a></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Maintaining curiosity</title>
       <link>https://nicolaiarocci.com/maintaining-curiosity/</link>
