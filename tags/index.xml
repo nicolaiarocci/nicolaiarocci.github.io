@@ -7,8 +7,29 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Tue, 29 Jul 2025 17:18:45 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 01 Aug 2025 08:19:05 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai</title>
+      <link>https://nicolaiarocci.com/tags/ai/</link>
+      <pubDate>Fri, 01 Aug 2025 08:19:05 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Llm</title>
+      <link>https://nicolaiarocci.com/tags/llm/</link>
+      <pubDate>Fri, 01 Aug 2025 08:19:05 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quotes</title>
+      <link>https://nicolaiarocci.com/tags/quotes/</link>
+      <pubDate>Fri, 01 Aug 2025 08:19:05 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/tags/quotes/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Hiking</title>
       <link>https://nicolaiarocci.com/tags/hiking/</link>
@@ -35,13 +56,6 @@
       <link>https://nicolaiarocci.com/tags/books/</link>
       <pubDate>Mon, 28 Jul 2025 14:43:03 +0200</pubDate>
       <guid>https://nicolaiarocci.com/tags/books/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Quotes</title>
-      <link>https://nicolaiarocci.com/tags/quotes/</link>
-      <pubDate>Mon, 28 Jul 2025 14:43:03 +0200</pubDate>
-      <guid>https://nicolaiarocci.com/tags/quotes/</guid>
       <description></description>
     </item>
     <item>
@@ -91,20 +105,6 @@
       <link>https://nicolaiarocci.com/tags/neuromancer/</link>
       <pubDate>Mon, 14 Jul 2025 16:49:18 +0200</pubDate>
       <guid>https://nicolaiarocci.com/tags/neuromancer/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ai</title>
-      <link>https://nicolaiarocci.com/tags/ai/</link>
-      <pubDate>Mon, 14 Jul 2025 16:28:26 +0200</pubDate>
-      <guid>https://nicolaiarocci.com/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Llm</title>
-      <link>https://nicolaiarocci.com/tags/llm/</link>
-      <pubDate>Mon, 14 Jul 2025 16:28:26 +0200</pubDate>
-      <guid>https://nicolaiarocci.com/tags/llm/</guid>
       <description></description>
     </item>
     <item>
