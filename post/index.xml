@@ -14,9 +14,17 @@
       <link>https://nicolaiarocci.com/a-zoomable-searchable-archive-of-byte-magazine/</link>
       <pubDate>Wed, 27 Aug 2025 10:12:33 +0200</pubDate>
       <guid>https://nicolaiarocci.com/a-zoomable-searchable-archive-of-byte-magazine/</guid>
-      <description>&lt;p&gt;From roughly the late 80s until the mid-90s, every month I would visit the newsstand at my city&amp;rsquo;s train station, hoping to snag the single copy of BYTE Magazine that arrived in town (at least one other hunter was competing with me: I often won, but not always, which frustrated me tremendously). I understood little to nothing with my rudimentary school English, but I was too stubborn to give up. I credit BYTE Magazine as one of my significant English teachers. Flipping those pages was exciting, and, as unbelievable as it may seem today, back then the advertisements were just as captivating as the articles themselves. Granted, I was also reading Italian computing magazines, but most were copycats of the one authoritative source.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>From roughly the late 80s until the mid-90s, every month I would visit the newsstand at my city&rsquo;s train station, hoping to snag the single copy of BYTE Magazine that arrived in town (at least one other hunter was competing with me: I often won, but not always, which frustrated me tremendously). I understood little to nothing with my rudimentary school English, but I was too stubborn to give up. I credit BYTE Magazine as one of my significant English teachers. Flipping those pages was exciting, and, as unbelievable as it may seem today, back then the advertisements were just as captivating as the articles themselves. Granted, I was also reading Italian computing magazines, but most were copycats of the one authoritative source.</p>
+      <description>&lt;p&gt;From roughly the late 80s until the mid-90s, every month I would visit the newsstand at my city&amp;rsquo;s train station, hoping to snag the single copy of BYTE Magazine that arrived in town (at least one other hunter was competing with me: I often won, but not always, which frustrated me tremendously). I understood little to nothing with my rudimentary school English, but I was too stubborn to give up. I credit BYTE Magazine as one of my significant English teachers. Flipping those pages was exciting, and, as unbelievable as it may seem today, back then the advertisements were just as captivating as the articles themselves. Granted, I was also reading Italian computing magazines, but most were copycats of the one authoritative source &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>From roughly the late 80s until the mid-90s, every month I would visit the newsstand at my city&rsquo;s train station, hoping to snag the single copy of BYTE Magazine that arrived in town (at least one other hunter was competing with me: I often won, but not always, which frustrated me tremendously). I understood little to nothing with my rudimentary school English, but I was too stubborn to give up. I credit BYTE Magazine as one of my significant English teachers. Flipping those pages was exciting, and, as unbelievable as it may seem today, back then the advertisements were just as captivating as the articles themselves. Granted, I was also reading Italian computing magazines, but most were copycats of the one authoritative source <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
 <p>Thank you, whoever you are, for the extraordinary work done on <a href="https://byte.tsundoku.io/">this website</a> (<a href="https://news.ycombinator.com/item?id=45028002">via</a>).</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>This is a story I already <a href="/the-end-of-computer-magazines-in-america-and-elsewhere/">mentioned</a> in the past.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -6154,7 +6162,7 @@ the status quo—musically, stylistically, politically, ideologically.</p></bloc
       <pubDate>Wed, 19 Apr 2023 07:05:25 +0100</pubDate>
       <guid>https://nicolaiarocci.com/the-end-of-computer-magazines-in-america-and-elsewhere/</guid>
       <description>&lt;p&gt;In the mid-to-late 80s, my excitement used to culminate by the end of the month when BYTE&amp;rsquo;s new issue would hit the
-newsstands&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. In my small Italian hometown, only one, sometimes two, newsstands would sometime get a copy (BYTE was
+newsstands[^2]. In my small Italian hometown, only one, sometimes two, newsstands would sometime get a copy (BYTE was
 published in the US and copies sent abroad were scarce; only major, close-to-the-train-station stands had a chance to
 receive it). I wasn&amp;rsquo;t the only kid in town interested in that elusive one issue; I had an anonymous competitor. The race
 was on every third week of the month, give or take. You see, the thing is, back then, computer magazines were the only
@@ -6162,7 +6170,7 @@ source of reliable, precious information on everything hardware and software. I 
 Yet, I spent whole afternoons stubbornly reading the magazine cover to cover, probably understanding only fifty percent
 of its content. Rather than at school, I learned most of my English by reading computer magazines.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>In the mid-to-late 80s, my excitement used to culminate by the end of the month when BYTE&rsquo;s new issue would hit the
-newsstands<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. In my small Italian hometown, only one, sometimes two, newsstands would sometime get a copy (BYTE was
+newsstands[^2]. In my small Italian hometown, only one, sometimes two, newsstands would sometime get a copy (BYTE was
 published in the US and copies sent abroad were scarce; only major, close-to-the-train-station stands had a chance to
 receive it). I wasn&rsquo;t the only kid in town interested in that elusive one issue; I had an anonymous competitor. The race
 was on every third week of the month, give or take. You see, the thing is, back then, computer magazines were the only
@@ -6175,17 +6183,6 @@ I also appreciated the several former colleagues and competitors who commented, 
 magazines are dead indeed, and it&rsquo;s a bittersweet sensation. Quoting McCracken&rsquo;s closing words:</p>
 <blockquote>
 <p>I do remain grateful that computer magazines existed. Their time has passed—but what a time it was.</p></blockquote>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>This is a story I probably already mentioned on this site, but hey, it&rsquo;s my site; I can afford to repeat myself.
-[rss]: <a href="https://nicolaiarocci.com/index.xml">https://nicolaiarocci.com/index.xml</a>
-[m]: <a href="https://fosstodon.org/@nicola">https://fosstodon.org/@nicola</a>
-[nl]: <a href="https://buttondown.email/nicolaiarocci">https://buttondown.email/nicolaiarocci</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
 ]]></content:encoded>
     </item>
     <item>
