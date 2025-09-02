@@ -7,8 +7,21 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Mon, 01 Sep 2025 14:49:21 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 02 Sep 2025 16:52:21 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/links/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python: The Documentary</title>
+      <link>https://nicolaiarocci.com/python-the-documentary/</link>
+      <pubDate>Tue, 02 Sep 2025 16:52:21 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/python-the-documentary/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This is the story of the world&amp;rsquo;s most beloved programming language: Python. What began as a side project in Amsterdam during the 1990s became the software powering artificial intelligence, data science and some of the world’s biggest companies. But Python&amp;rsquo;s future wasn&amp;rsquo;t certain; at one point it almost disappeared.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://youtu.be/GfH4QL4VqJ0&#34;&gt;Python: The Documentary&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>This is the story of the world&rsquo;s most beloved programming language: Python. What began as a side project in Amsterdam during the 1990s became the software powering artificial intelligence, data science and some of the world’s biggest companies. But Python&rsquo;s future wasn&rsquo;t certain; at one point it almost disappeared.</p></blockquote>
+<p><a href="https://youtu.be/GfH4QL4VqJ0">Python: The Documentary</a></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>The first-line treatment for ADHD</title>
       <link>https://nicolaiarocci.com/the-first-line-treatment-for-adhd/</link>
