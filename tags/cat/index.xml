@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cat on Nicola Iarocci</title>
+    <link>http://localhost:1313/tags/cat/</link>
+    <description>Recent content in Cat on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
+    <language>en</language>
+    <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
+    <lastBuildDate>Wed, 10 Sep 2025 17:04:22 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hard at work with my assistant, Gigi the Cat</title>
+      <link>http://localhost:1313/hard-at-work-with-my-assistant-gigi-the-cat/</link>
+      <pubDate>Wed, 10 Sep 2025 17:04:22 +0200</pubDate>
+      <guid>http://localhost:1313/hard-at-work-with-my-assistant-gigi-the-cat/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
