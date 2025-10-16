@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Tue, 07 Oct 2025 10:12:04 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 16 Oct 2025 15:41:28 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccolo Libro di MongoDB</title>
@@ -969,6 +969,29 @@ my newsletter.</p>
 <p>Find me on <a href="https://fosstodon.org/@nicola">Mastodon</a>, <a href="https://www.last.fm/user/nicolaiarocci">Last.fm</a>, <a href="https://github.com/nicolaiarocci">GitHub</a>, <a href="http://www.linkedin.com/in/nicolaiarocci">LinkedIn</a>, or get in touch via <a href="mailto:nicola@nicolaiarocci.com">email</a>. My <a href="https://x.com/nicolaiarocci">Twitter/X</a> account is currently <a href="/im-leaving-twitter/x/">on hiatus</a>.</p>
 <h2 id="no-guest-posts">No guest posts</h2>
 <p>This is my personal website. I will not accept any “guest posts” here, not for compensation and not for any “good cause”. You can stop asking.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Are we Trek yet?</title>
+      <link>https://nicolaiarocci.com/are-we-trek-yet/</link>
+      <pubDate>Thu, 16 Oct 2025 15:41:28 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/are-we-trek-yet/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This guide is intended to be a comprehensive look at the tech that Star Trek suggested to drive humanity forward &lt;em&gt;ad astra per aspera&lt;/em&gt;. The emphasis is on innovations that don&amp;rsquo;t violate physics according to present consensus understanding. Go ahead and explore boldly.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://arewetrekyet.com&#34;&gt;Are We Trek Yet?&lt;/a&gt;  is a funny, revealing, and well-executed idea. It is somewhat comforting that at the time of this writing, eight of all the Star Trek technologies are readily available, and thirty-one are in progress. It only tracks Star Trek technology, though.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>This guide is intended to be a comprehensive look at the tech that Star Trek suggested to drive humanity forward <em>ad astra per aspera</em>. The emphasis is on innovations that don&rsquo;t violate physics according to present consensus understanding. Go ahead and explore boldly.</p></blockquote>
+<p><a href="https://arewetrekyet.com">Are We Trek Yet?</a>  is a funny, revealing, and well-executed idea. It is somewhat comforting that at the time of this writing, eight of all the Star Trek technologies are readily available, and thirty-one are in progress. It only tracks Star Trek technology, though.</p>
+<p>The most innovative and intriguing aspect of Star Trek is its society, depicted as a post-scarcity utopia where material needs are met without the use of money, allowing individuals to work for personal fulfillment and the betterment of humanity. The United Federation of Planets exemplifies this ideal, promoting equality, cooperation, and exploration among diverse species.</p>
+<p>Many years ago, I read a writing on a wall that struck my young, fervent imagination so profoundly that I still remember it vividly: <em>&ldquo;To live in utopia, we must first dream it.&rdquo;</em><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> We&rsquo;re not a Star Trek society today, and we certainly aren&rsquo;t heading in that direction, but I&rsquo;ll keep dreaming.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>On that wall, the sentence was attributed to the anarchist Émile Henry, but a quick research with today&rsquo;s modern means reveals that it was probably apocryphal. It could be a free paraphrase or a collective creation born out of the movements of the 1970s and 1980s, when political graffiti was widespread.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     <item>
