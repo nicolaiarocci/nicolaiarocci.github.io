@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Wed, 26 Nov 2025 08:31:56 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 26 Nov 2025 16:24:38 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccolo Libro di MongoDB</title>
@@ -975,6 +975,20 @@ my newsletter.</p>
 <p>Find me on <a href="https://fosstodon.org/@nicola">Mastodon</a>, <a href="https://www.last.fm/user/nicolaiarocci">Last.fm</a>, <a href="https://github.com/nicolaiarocci">GitHub</a>, <a href="http://www.linkedin.com/in/nicolaiarocci">LinkedIn</a>, or get in touch via <a href="mailto:nicola@nicolaiarocci.com">email</a>. My <a href="https://x.com/nicolaiarocci">Twitter/X</a> account is currently <a href="/im-leaving-twitter/x/">on hiatus</a>.</p>
 <h2 id="no-guest-posts">No guest posts</h2>
 <p>This is my personal website. I will not accept any “guest posts” here, not for compensation and not for any “good cause”. You can stop asking.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>My session on MCP servers at .NET Conference Italia 2025</title>
+      <link>https://nicolaiarocci.com/my-session-on-mcp-servers-at-dotnet-conference-italia-2025/</link>
+      <pubDate>Wed, 26 Nov 2025 16:24:38 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/my-session-on-mcp-servers-at-dotnet-conference-italia-2025/</guid>
+      <description>&lt;p&gt;I presented a session at the &lt;a href=&#34;https://www.aspitalia.com/eventi/97/.NET-Conference-Italia-2025-Milano.aspx&#34;&gt;.NET Conference Italia 2025&lt;/a&gt; in Milan a couple of weeks ago. The title was &amp;ldquo;Integrating our applications with LLMs and AI via MCP Servers&amp;rdquo;. It was well received; there were good questions throughout the talk and in the hall afterward. Surprisingly, live coding and demos went relatively smoothly.&lt;/p&gt;
+&lt;p&gt;The fine guys at ASP Italia just published the &lt;a href=&#34;https://media.aspitalia.com/events/netconf25-LLM-dotNET-AI-MCP.media&#34;&gt;video&lt;/a&gt; in case someone is interested.&lt;/p&gt;
+&lt;p&gt;Yeah, it is in Italian. I got a transcript from MacWhisper and then asked Claude to translate and clean it up. It did a pretty good job, so let me know if there&amp;rsquo;s any interest in an English transcript; I might post it here.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I presented a session at the <a href="https://www.aspitalia.com/eventi/97/.NET-Conference-Italia-2025-Milano.aspx">.NET Conference Italia 2025</a> in Milan a couple of weeks ago. The title was &ldquo;Integrating our applications with LLMs and AI via MCP Servers&rdquo;. It was well received; there were good questions throughout the talk and in the hall afterward. Surprisingly, live coding and demos went relatively smoothly.</p>
+<p>The fine guys at ASP Italia just published the <a href="https://media.aspitalia.com/events/netconf25-LLM-dotNET-AI-MCP.media">video</a> in case someone is interested.</p>
+<p>Yeah, it is in Italian. I got a transcript from MacWhisper and then asked Claude to translate and clean it up. It did a pretty good job, so let me know if there&rsquo;s any interest in an English transcript; I might post it here.</p>
+<p>Speaking of English, I&rsquo;ve started submitting to international events again, without any luck so far. The conference landscape has changed quite a bit, especially since the COVID break. I still get invited to local ones, while internationals have been elusive. I suspect my change in technology stack plays a role. It was relatively easy to speak abroad when I was into Python. With .NET, not so much. But again, I was into Python in the pre-COVID era, so it is hard to tell which factors are at play and what their weight is.</p>
 ]]></content:encoded>
     </item>
     <item>
