@@ -684,6 +684,7 @@ Emmanuel Carrère</li>
 engagements. Want me to talk at your event? &lt;a href=&#34;mailto:info@nicolaiarocci.com&#34;&gt;Get in touch&lt;/a&gt;!&lt;/p&gt;
 &lt;h3 id=&#34;2025&#34;&gt;2025&lt;/h3&gt;
 &lt;ul&gt;
+&lt;li&gt;WPC 2025, Milan: &lt;a href=&#34;https://www.wpc.education/agenda-wpc&#34;&gt;Feature Flags e configurazioni dinamiche in C# e .NET&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;.NET Conference 2025, Milan: &lt;a href=&#34;https://media.aspitalia.com/events/netconf25-LLM-dotNET-AI-MCP.media&#34;&gt;Integrare LLM alle nostre applicazioni in .NET con MCP&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;DevMarche Summer AI Afternoon: &lt;a href=&#34;https://www.eventbrite.it/e/summer-ai-afternoon-tickets-1428458029419&#34;&gt;MCP or how to connect our apps to LLMs&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;DevRomagna Meetup: &lt;a href=&#34;https://www.meetup.com/devromagna/events/308179204/&#34;&gt;MCP or how to connect our apps to LLMs&lt;/a&gt;&lt;/li&gt;
@@ -787,6 +788,7 @@ engagements. Want me to talk at your event? &lt;a href=&#34;mailto:info@nicolaia
 engagements. Want me to talk at your event? <a href="mailto:info@nicolaiarocci.com">Get in touch</a>!</p>
 <h3 id="2025">2025</h3>
 <ul>
+<li>WPC 2025, Milan: <a href="https://www.wpc.education/agenda-wpc">Feature Flags e configurazioni dinamiche in C# e .NET</a></li>
 <li>.NET Conference 2025, Milan: <a href="https://media.aspitalia.com/events/netconf25-LLM-dotNET-AI-MCP.media">Integrare LLM alle nostre applicazioni in .NET con MCP</a></li>
 <li>DevMarche Summer AI Afternoon: <a href="https://www.eventbrite.it/e/summer-ai-afternoon-tickets-1428458029419">MCP or how to connect our apps to LLMs</a></li>
 <li>DevRomagna Meetup: <a href="https://www.meetup.com/devromagna/events/308179204/">MCP or how to connect our apps to LLMs</a></li>
@@ -982,8 +984,8 @@ my newsletter.</p>
       <link>https://nicolaiarocci.com/eve-2.2.4/</link>
       <pubDate>Tue, 02 Dec 2025 16:06:46 +0100</pubDate>
       <guid>https://nicolaiarocci.com/eve-2.2.4/</guid>
-      <description>&lt;p&gt;Eve v2.2.4 was just released on &lt;a href=&#34;https://pypi.org/project/Eve/2.2.4/&#34;&gt;PyPI&lt;/a&gt;. It is a minor update, with a validation fix contributed by &lt;a href=&#34;https://github.com/smeng9&#34;&gt;smeng9&lt;/a&gt;. See the &lt;a href=&#34;https://docs.python-eve.org/en/stable/changelog.html#version-v2-2-4&#34;&gt;changelog&lt;/a&gt; for details.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Eve v2.2.4 was just released on <a href="https://pypi.org/project/Eve/2.2.4/">PyPI</a>. It is a minor update, with a validation fix contributed by <a href="https://github.com/smeng9">smeng9</a>. See the <a href="https://docs.python-eve.org/en/stable/changelog.html#version-v2-2-4">changelog</a> for details.</p>
+      <description>&lt;p&gt;Eve v2.2.4 was just released on &lt;a href=&#34;https://pypi.rg/project/Eve/2.2.4/&#34;&gt;PyPI&lt;/a&gt;. It is a minor update, with a validation fix contributed by &lt;a href=&#34;https://github.com/smeng9&#34;&gt;smeng9&lt;/a&gt;. See the &lt;a href=&#34;https://docs.python-eve.org/en/stable/changelog.html#version-v2-2-4&#34;&gt;changelog&lt;/a&gt; for details.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Eve v2.2.4 was just released on <a href="https://pypi.rg/project/Eve/2.2.4/">PyPI</a>. It is a minor update, with a validation fix contributed by <a href="https://github.com/smeng9">smeng9</a>. See the <a href="https://docs.python-eve.org/en/stable/changelog.html#version-v2-2-4">changelog</a> for details.</p>
 ]]></content:encoded>
     </item>
     <item>
