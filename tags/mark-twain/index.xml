@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mark Twain on Nicola Iarocci</title>
+    <link>http://localhost:1313/tags/mark-twain/</link>
+    <description>Recent content in Mark Twain on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
+    <language>en</language>
+    <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
+    <lastBuildDate>Sat, 13 Dec 2025 07:40:59 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mark-twain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Don&#39;t argue with an idiot</title>
+      <link>http://localhost:1313/dont-argue-with-an-idiot/</link>
+      <pubDate>Sat, 13 Dec 2025 07:40:59 +0100</pubDate>
+      <guid>http://localhost:1313/dont-argue-with-an-idiot/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Don&amp;rsquo;t argue with an idiot, he will drag you down to his level and beat you with experience.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&amp;ndash; Mark Twain (allegedly)&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Don&rsquo;t argue with an idiot, he will drag you down to his level and beat you with experience.</p></blockquote>
+<p>&ndash; Mark Twain (allegedly)</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
