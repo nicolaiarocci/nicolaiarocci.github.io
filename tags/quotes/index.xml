@@ -7,8 +7,21 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Fri, 12 Dec 2025 08:22:18 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 18 Dec 2025 08:50:22 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/quotes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Less</title>
+      <link>https://nicolaiarocci.com/less/</link>
+      <pubDate>Thu, 18 Dec 2025 08:50:22 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/less/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;When I&amp;rsquo;m writing, I write. When I&amp;rsquo;m cooking, I cook. When I&amp;rsquo;m talking to someone, I put my phone away. The constant mental juggling that felt necessary before now feels exhausting. There&amp;rsquo;s something meditative about giving your full attention to a single task.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&amp;ndash; &lt;a href=&#34;https://47nil.com/less&#34;&gt;47nil&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>When I&rsquo;m writing, I write. When I&rsquo;m cooking, I cook. When I&rsquo;m talking to someone, I put my phone away. The constant mental juggling that felt necessary before now feels exhausting. There&rsquo;s something meditative about giving your full attention to a single task.</p></blockquote>
+<p>&ndash; <a href="https://47nil.com/less">47nil</a></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Programming isn&#39;t the job</title>
       <link>https://nicolaiarocci.com/programming-isnt-the-job/</link>
