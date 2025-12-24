@@ -7,27 +7,48 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Wed, 24 Dec 2025 11:09:47 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 24 Dec 2025 11:14:44 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai</title>
+      <link>https://nicolaiarocci.com/tags/ai/</link>
+      <pubDate>Wed, 24 Dec 2025 11:14:44 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/tags/ai/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Armeet Singh Jatyani</title>
       <link>https://nicolaiarocci.com/tags/armeet-singh-jatyani/</link>
-      <pubDate>Wed, 24 Dec 2025 11:09:47 +0100</pubDate>
+      <pubDate>Wed, 24 Dec 2025 11:14:44 +0100</pubDate>
       <guid>https://nicolaiarocci.com/tags/armeet-singh-jatyani/</guid>
       <description></description>
     </item>
     <item>
       <title>Links</title>
       <link>https://nicolaiarocci.com/tags/links/</link>
-      <pubDate>Wed, 24 Dec 2025 11:09:47 +0100</pubDate>
+      <pubDate>Wed, 24 Dec 2025 11:14:44 +0100</pubDate>
       <guid>https://nicolaiarocci.com/tags/links/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Llm</title>
+      <link>https://nicolaiarocci.com/tags/llm/</link>
+      <pubDate>Wed, 24 Dec 2025 11:14:44 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/tags/llm/</guid>
       <description></description>
     </item>
     <item>
       <title>Quotes</title>
       <link>https://nicolaiarocci.com/tags/quotes/</link>
-      <pubDate>Wed, 24 Dec 2025 11:09:47 +0100</pubDate>
+      <pubDate>Wed, 24 Dec 2025 11:14:44 +0100</pubDate>
       <guid>https://nicolaiarocci.com/tags/quotes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Writing</title>
+      <link>https://nicolaiarocci.com/tags/writing/</link>
+      <pubDate>Wed, 24 Dec 2025 11:14:44 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/tags/writing/</guid>
       <description></description>
     </item>
     <item>
@@ -136,20 +157,6 @@
       <description></description>
     </item>
     <item>
-      <title>Ai</title>
-      <link>https://nicolaiarocci.com/tags/ai/</link>
-      <pubDate>Fri, 12 Dec 2025 08:22:18 +0100</pubDate>
-      <guid>https://nicolaiarocci.com/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Llm</title>
-      <link>https://nicolaiarocci.com/tags/llm/</link>
-      <pubDate>Fri, 12 Dec 2025 08:22:18 +0100</pubDate>
-      <guid>https://nicolaiarocci.com/tags/llm/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Programming</title>
       <link>https://nicolaiarocci.com/tags/programming/</link>
       <pubDate>Fri, 12 Dec 2025 08:22:18 +0100</pubDate>
@@ -224,13 +231,6 @@
       <link>https://nicolaiarocci.com/tags/blogging/</link>
       <pubDate>Tue, 02 Dec 2025 09:55:03 +0100</pubDate>
       <guid>https://nicolaiarocci.com/tags/blogging/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Writing</title>
-      <link>https://nicolaiarocci.com/tags/writing/</link>
-      <pubDate>Tue, 02 Dec 2025 09:55:03 +0100</pubDate>
-      <guid>https://nicolaiarocci.com/tags/writing/</guid>
       <description></description>
     </item>
     <item>
