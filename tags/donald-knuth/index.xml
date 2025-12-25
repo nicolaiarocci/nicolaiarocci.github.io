@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Donald Knuth on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/donald-knuth/</link>
+    <description>Recent content in Donald Knuth on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
+    <language>en</language>
+    <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
+    <lastBuildDate>Fri, 26 May 2023 07:05:25 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/donald-knuth/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quoting Donald Knuth</title>
+      <link>https://nicolaiarocci.com/quoting-donald-knuth/</link>
+      <pubDate>Fri, 26 May 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/quoting-donald-knuth/</guid>
+      <description>&lt;p&gt;Donald Knuth challenged ChatGPT-4 with 20 questions and then submitted the results and his comments to Stephen Wolfram. The
+&lt;a href=&#34;https://cs.stanford.edu/~knuth/chatGPT20.txt&#34;&gt;whole thing&lt;/a&gt; is fascinating in many ways and worth reading.&lt;/p&gt;
+&lt;p&gt;Some remarkable quotes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Of course these are extremely impressive responses, sometimes astonishingly so; thus I totally understand why you and
+others have been paying attention to it.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The most immediate impression is the quality of the wordsmithing. It&amp;rsquo;s way better than 99% of copy that people
+actually write. It&amp;rsquo;s definitely not like a Markov model that uses the most predictable way to continue what&amp;rsquo;s already
+been said. On the other hand there are surprising lapses there too, as typical of any large system.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Donald Knuth challenged ChatGPT-4 with 20 questions and then submitted the results and his comments to Stephen Wolfram. The
+<a href="https://cs.stanford.edu/~knuth/chatGPT20.txt">whole thing</a> is fascinating in many ways and worth reading.</p>
+<p>Some remarkable quotes:</p>
+<blockquote>
+<p>Of course these are extremely impressive responses, sometimes astonishingly so; thus I totally understand why you and
+others have been paying attention to it.</p></blockquote>
+<blockquote>
+<p>The most immediate impression is the quality of the wordsmithing. It&rsquo;s way better than 99% of copy that people
+actually write. It&rsquo;s definitely not like a Markov model that uses the most predictable way to continue what&rsquo;s already
+been said. On the other hand there are surprising lapses there too, as typical of any large system.</p></blockquote>
+<blockquote>
+<p>Answer #10 reads as though it&rsquo;s the best answer yet. But it&rsquo;s almost totally wrong!</p></blockquote>
+<blockquote>
+<p>It&rsquo;s amazing how the confident tone lends credibility to all of that made-up nonsense. Almost impossible for anybody
+without knowledge of the book to believe that those &ldquo;facts&rdquo; aren&rsquo;t authorititative and well researched.</p></blockquote>
+<blockquote>
+<p>I find it fascinating that novelists galore have written for decades about scenarios that might occur after a
+&ldquo;singularity&rdquo; in which superintelligent machines exist. But as far as I know, not a single novelist has realized that
+such a singularity would almost surely be preceded by a world in which machines are 0.01% intelligent (say), and in
+which millions of real people would be able to interact with them freely at essentially no cost.</p></blockquote>
+<blockquote>
+<p>I myself shall certainly continue to leave such research to others, and to devote my time to developing concepts that
+are authentic and trustworthy. And I hope you do the same.</p></blockquote>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

@@ -306,6 +306,19 @@ those can kill us!</p></blockquote>
 ]]></content:encoded>
     </item>
     <item>
+      <title>Quoting Evan Miller</title>
+      <link>https://nicolaiarocci.com/quoting-evan-miller/</link>
+      <pubDate>Fri, 14 Mar 2025 08:21:18 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/quoting-evan-miller/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;One of the most essential practices for maintaining the long-term quality of computer code is to write automated tests that ensure the program continues to act as expected, even when other people (including your future self) muck with it.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&amp;ndash; &lt;a href=&#34;https://www.evanmiller.org/functional-tests-as-a-tree-of-continuations.html&#34;&gt;Evan Miller&lt;/a&gt; (&lt;em&gt;&lt;a href=&#34;https://simonwillison.net/2025/Mar/13/evan-miller/#atom-everything&#34;&gt;via&lt;/a&gt;&lt;/em&gt;)&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>One of the most essential practices for maintaining the long-term quality of computer code is to write automated tests that ensure the program continues to act as expected, even when other people (including your future self) muck with it.</p></blockquote>
+<p>&ndash; <a href="https://www.evanmiller.org/functional-tests-as-a-tree-of-continuations.html">Evan Miller</a> (<em><a href="https://simonwillison.net/2025/Mar/13/evan-miller/#atom-everything">via</a></em>)</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Quoting Jannick Sinner</title>
       <link>https://nicolaiarocci.com/quoting-jannick-sinner/</link>
       <pubDate>Sat, 08 Mar 2025 10:52:23 +0100</pubDate>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ethan Mollick on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/ethan-mollick/</link>
+    <description>Recent content in Ethan Mollick on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
+    <language>en</language>
+    <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
+    <lastBuildDate>Tue, 20 Feb 2024 14:54:06 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/ethan-mollick/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quoting Ethan Mollick</title>
+      <link>https://nicolaiarocci.com/quoting-ethan-mollick/</link>
+      <pubDate>Tue, 20 Feb 2024 14:54:06 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/quoting-ethan-mollick/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Many skeptics about the impact of AI are focused on the flaws that LLMs have today: hallucinations, short context windows, slow answers, and so on. These are legitimate concerns, and, if AI advancement were to stop, they might prove to be huge issues in the utility of AI. But AI is advancing rapidly, and some of these concerns may soon vanish, even if others (like hallucinations) are not completely solved.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Many skeptics about the impact of AI are focused on the flaws that LLMs have today: hallucinations, short context windows, slow answers, and so on. These are legitimate concerns, and, if AI advancement were to stop, they might prove to be huge issues in the utility of AI. But AI is advancing rapidly, and some of these concerns may soon vanish, even if others (like hallucinations) are not completely solved.</p></blockquote>
+<blockquote>
+<p>What that means is that it is fine to be focused on today, building working AI applications and prompts that take into account the limits of present AIs… but there is also a lot of value in building ambitious applications that go past what LLMs can do now. You want to build some applications that almost, but not quite, work. I suspect better LLM “brains” are coming soon, in the form of GPT-5 and Gemini 2.0 and many others. When they do, you can swap them into the almost-but-not-quite-working applications for a fast start. This is similar to the philosophy of the big AI labs, which build ambitious solutions (OpenAI&rsquo;s GPT agents, Google&rsquo;s connections to Gmail) which will benefit when the next version of their core LLMs are released.</p></blockquote>
+<blockquote>
+<p>So don’t just build for what is possible today, but what is possible in six months, if this pace of change continues. At this point, I think things are unlikely to slow down in the near future, and focusing on where things are heading, rather than where they are, prepares you for a world of continuing change.</p></blockquote>
+<p>&ndash; <a href="https://www.oneusefulthing.org/p/strategies-for-an-accelerating-future">Ethan Mollick</a></p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

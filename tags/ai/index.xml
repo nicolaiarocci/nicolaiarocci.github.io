@@ -39,6 +39,20 @@
 ]]></content:encoded>
     </item>
     <item>
+      <title>My session on MCP servers at .NET Conference Italia 2025</title>
+      <link>https://nicolaiarocci.com/my-session-on-mcp-servers-at-dotnet-conference-italia-2025/</link>
+      <pubDate>Wed, 26 Nov 2025 16:24:38 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/my-session-on-mcp-servers-at-dotnet-conference-italia-2025/</guid>
+      <description>&lt;p&gt;I presented a session at the &lt;a href=&#34;https://www.aspitalia.com/eventi/97/.NET-Conference-Italia-2025-Milano.aspx&#34;&gt;.NET Conference Italia 2025&lt;/a&gt; in Milan a couple of weeks ago. The title was &amp;ldquo;Integrating our applications with LLMs and AI via MCP Servers&amp;rdquo;. It was well received; there were good questions throughout the talk and in the hall afterward. Surprisingly, live coding and demos went relatively smoothly.&lt;/p&gt;
+&lt;p&gt;The fine guys at ASP Italia just published the &lt;a href=&#34;https://media.aspitalia.com/events/netconf25-LLM-dotNET-AI-MCP.media&#34;&gt;video&lt;/a&gt; in case someone is interested.&lt;/p&gt;
+&lt;p&gt;Yeah, it is in Italian. I got a transcript from MacWhisper and then asked Claude to translate and clean it up. It did a pretty good job, so let me know if there&amp;rsquo;s any interest in an English transcript; I might post it here.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I presented a session at the <a href="https://www.aspitalia.com/eventi/97/.NET-Conference-Italia-2025-Milano.aspx">.NET Conference Italia 2025</a> in Milan a couple of weeks ago. The title was &ldquo;Integrating our applications with LLMs and AI via MCP Servers&rdquo;. It was well received; there were good questions throughout the talk and in the hall afterward. Surprisingly, live coding and demos went relatively smoothly.</p>
+<p>The fine guys at ASP Italia just published the <a href="https://media.aspitalia.com/events/netconf25-LLM-dotNET-AI-MCP.media">video</a> in case someone is interested.</p>
+<p>Yeah, it is in Italian. I got a transcript from MacWhisper and then asked Claude to translate and clean it up. It did a pretty good job, so let me know if there&rsquo;s any interest in an English transcript; I might post it here.</p>
+<p>Speaking of English, I&rsquo;ve started submitting to international events again, without any luck so far. The conference landscape has changed quite a bit, especially since the COVID break. I still get invited to local ones, while internationals have been elusive. I suspect my change in technology stack plays a role. It was relatively easy to speak abroad when I was into Python. With .NET, not so much. But again, I was into Python in the pre-COVID era, so it is hard to tell which factors are at play and what their weight is.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Beyond the machine</title>
       <link>https://nicolaiarocci.com/beyond-the-machine/</link>
       <pubDate>Tue, 21 Oct 2025 17:42:17 +0200</pubDate>
@@ -52,6 +66,35 @@ Today, I’d like to try to open things up a bit.&lt;/p&gt;</description>
 <p>I’m trying to figure out how to use generative AI as a designer without feeling like shit. I am fascinated with what it can do, impressed and repulsed by what it makes, and distrustful of its owners. I am deeply ambivalent about it all. The believers demand devotion, the critics demand abstinence, and to see AI as just another technology is to be a heretic twice over.
 Today, I’d like to try to open things up a bit.</p></blockquote>
 <p>I&rsquo;m surprised by how brilliantly Rick Rubin, Brian Eno, Hayao Miyazaki, and Miyazaki&rsquo;s <em>Spirited Away</em> are packed into this talk.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Invoicetronic, or what I&#39;ve been working on recently</title>
+      <link>https://nicolaiarocci.com/invoicetronic-or-what-ive-been-working-on-recently/</link>
+      <pubDate>Thu, 28 Aug 2025 10:07:05 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/invoicetronic-or-what-ive-been-working-on-recently/</guid>
+      <description>&lt;p&gt;The most recent project I worked on is &lt;a href=&#34;https://invoicetronic.com/en/&#34;&gt;Invoicetronic&lt;/a&gt;, a modern API for complete management of the electronic invoicing cycle in Italy (FatturaPA/SDI).&lt;/p&gt;
+&lt;p&gt;We had long used an internal API by our accounting software, which was also utilized by thousands of our end users. We decided to make our experience and expertise available to external developers, allowing them to integrate electronic invoicing into their applications quickly via a public API. Thus, the Invoicetronic project was born.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>The most recent project I worked on is <a href="https://invoicetronic.com/en/">Invoicetronic</a>, a modern API for complete management of the electronic invoicing cycle in Italy (FatturaPA/SDI).</p>
+<p>We had long used an internal API by our accounting software, which was also utilized by thousands of our end users. We decided to make our experience and expertise available to external developers, allowing them to integrate electronic invoicing into their applications quickly via a public API. Thus, the Invoicetronic project was born.</p>
+<p>We had made a similar choice in the past with the open-source release of <a href="https://github.com/FatturaElettronica/FatturaElettronica.NET">FatturaElettronica.NET</a>, also a library initially created for internal use. <a href="https://python-eve.org">Eve</a> and <a href="https://python-cerberus.org">Cerberus</a> for Python started as an internal projects too.</p>
+<p>We didn&rsquo;t limit ourselves to just opening our API to the public. That alone would have been challenging (as any veteran well knows, opening a private product to a broader and more diverse audience is already a real challenge in itself). We seized the opportunity, years after its creation and with millions of invoices having passed through the system in the meantime, to refresh the design, improve performance, and add <a href="https://invoicetronic.com/en/features/">important features</a> that proved stimulating to implement.</p>
+<p>I certainly wasn&rsquo;t lacking experience with REST APIs, but I still learned a lot, especially while working on the tools accessory to the actual API. An example is the client <a href="https://invoicetronic.com/en/docs/sdk/">SDKs</a>. We support all the most common programming languages: JavaScript/TypeScript, Python, PHP, Java, C#, Ruby, and Go. They&rsquo;re built using OpenAPI Generator, a tool I initially underestimated but which turned out to be excellent, thanks also to the remarkable ecosystem built by the community. Working on the SDKs also provided me with the opportunity to improve my Continuous Integration skills. Beyond the usual test-containerization-staging-deploy cycle, every API update is followed by an automatic release of all SDKs, each with deployment on both GitHub and the reference package manager for the language: PyPI, NuGet, npm, etc. Seemingly obvious tasks (such as inferring the new API version number from CI and then reusing it in the package version of individual SDKs) required considerable brainstorming.</p>
+<p>The Invoicetronic project, which gave me the most satisfaction and taught me the most, is <a href="https://invoicetronic.com/en/docs/cli/#invoice"><code>invoice-cli</code></a>. This <a href="https://github.com/invoicetronic/invoice-cli">open source</a> command-line tool enables sending and receiving electronic invoices from the terminal, and is available for Linux, Mac, and Windows. You don&rsquo;t need to be a developer or study the API in depth to use it, and, not secondarily, it can be conveniently inserted into a script. A trivial usage example would be:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># send a single invoice.
+</span></span><span style="display:flex;"><span>$ invoice send file1.xml
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span># send multiple invoices, then delete the local copies.
+</span></span><span style="display:flex;"><span>$ invoice send *.xml --delete
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span># individually send multiple files.
+</span></span><span style="display:flex;"><span>$ invoice send file1.xml file2.xml file3.xml
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span># receive all unread invoices.
+</span></span><span style="display:flex;"><span>$ invoice receive --unread
+</span></span></code></pre></div><p>From my point of view, though, the interesting thing about <code>invoice</code> is that it&rsquo;s written in Go, a language I hadn&rsquo;t yet had the chance to use professionally. A veteran would likely find fault with the implementation details and the chosen approach, but I hope they&rsquo;ll be merciful, considering I&rsquo;m a beginner in this space. We could have used C#, which is now our reference language. Still, in the case of the command-line, Go seemed like a better choice, first of all, for the exceptional support in creating native multi-platform binaries, then for performance both cold and hot, and for deployment simplicity. If I had to make another command-line tool, I would return to Go rather than orient myself toward languages I know better and with which I&rsquo;m more comfortable, like Python and C# (speaking of C#, the recent improvements in AOT and cross-platform support are remarkable - we&rsquo;re on the right track, come on guys!)</p>
+<p>A second stimulating project was the <a href="https://invoicetronic.com/en/features/#llm-and-ai-integration">Invoicetronic MCP Server.</a> We were interested in having developers interact with the Invoicetronic API via LLM, and an MCP server serves precisely that purpose. Fortunately, C# has an excellent official library (still in preview but sufficiently mature) that simplifies the work, and implementing and deploying a first experimental version was relatively simple. There is enormous potential in this area, and I want to stay on top of it: objective achieved (I also gave a <a href="https://nicolaiarocci.com/im-speaking-at-devmarche-summer-ai-afternoon/">couple</a> of <a href="https://nicolaiarocci.com/mcp-or-connecting-our-apps-to-llms/">presentations</a> on the topic).</p>
+<p>We released Invoicetronic for our own use, but I hope other developers will adopt it. Throughout many years of activity, our primary client has consistently been the end-user, the company that utilizes our accounting applications. In recent years, we also engaged with developers, but only in the context of our open-source projects. I&rsquo;d love to serve them professionally as well.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -87,6 +130,15 @@ Today, I’d like to try to open things up a bit.</p></blockquote>
 ]]></content:encoded>
     </item>
     <item>
+      <title>I&#39;m speaking at DevMarche Summer AI Afternoon</title>
+      <link>https://nicolaiarocci.com/im-speaking-at-devmarche-summer-ai-afternoon/</link>
+      <pubDate>Tue, 08 Jul 2025 10:59:39 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/im-speaking-at-devmarche-summer-ai-afternoon/</guid>
+      <description>&lt;p&gt;On Thursday, I will be conducting an MCP Server session at the &lt;a href=&#34;https://www.eventbrite.it/e/summer-ai-afternoon-tickets-1428458029419&#34;&gt;Summer AI Afternoon&lt;/a&gt; event organized by &lt;a href=&#34;https://dev.marche.it&#34;&gt;DevMarche&lt;/a&gt; in collaboration with &lt;a href=&#34;https://devromagna.org&#34;&gt;DevRomagna&lt;/a&gt;, the neighbouring development communities. There are more than 50 people signed up already, and I&amp;rsquo;m so looking forward to meeting old and new friends down South.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>On Thursday, I will be conducting an MCP Server session at the <a href="https://www.eventbrite.it/e/summer-ai-afternoon-tickets-1428458029419">Summer AI Afternoon</a> event organized by <a href="https://dev.marche.it">DevMarche</a> in collaboration with <a href="https://devromagna.org">DevRomagna</a>, the neighbouring development communities. There are more than 50 people signed up already, and I&rsquo;m so looking forward to meeting old and new friends down South.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Cloudflare to introduce pay-per-crawl for AI bots</title>
       <link>https://nicolaiarocci.com/cloudflare-to-introduce-pay-per-crawl-for-ai-bots/</link>
       <pubDate>Wed, 02 Jul 2025 09:57:57 +0200</pubDate>
@@ -117,6 +169,27 @@ Today, I’d like to try to open things up a bit.</p></blockquote>
 ]]></content:encoded>
     </item>
     <item>
+      <title>MCP Remote</title>
+      <link>https://nicolaiarocci.com/mcp-remote/</link>
+      <pubDate>Wed, 18 Jun 2025 10:36:39 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/mcp-remote/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been implementing a remote &lt;a href=&#34;https://modelcontextprotocol.io&#34;&gt;MCP Server&lt;/a&gt;. It comes with a hybrid authentication system that supports the OAuth2 flow and, as a fallback, a custom header for those simple clients that cannot handle OAuth. One such client is Claude Desktop, which, at this time, is even worse; it only supports STDIO (local) servers, let alone OAuth2.&lt;/p&gt;
+&lt;p&gt;Today I learned about a nice NPM package called &lt;a href=&#34;https://www.npmjs.com/package/mcp-remote&#34;&gt;MCP Remote&lt;/a&gt;, which bridges the gap by allowing MCP clients that only support local servers to connect to remote MCP Servers, even with authentication support. Thanks to this tool, Claude Desktop is now talking to my remote server&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I&rsquo;ve been implementing a remote <a href="https://modelcontextprotocol.io">MCP Server</a>. It comes with a hybrid authentication system that supports the OAuth2 flow and, as a fallback, a custom header for those simple clients that cannot handle OAuth. One such client is Claude Desktop, which, at this time, is even worse; it only supports STDIO (local) servers, let alone OAuth2.</p>
+<p>Today I learned about a nice NPM package called <a href="https://www.npmjs.com/package/mcp-remote">MCP Remote</a>, which bridges the gap by allowing MCP clients that only support local servers to connect to remote MCP Servers, even with authentication support. Thanks to this tool, Claude Desktop is now talking to my remote server<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>The only problem is that the OAuth2 handshake is not initiated at Claude startup or the first 401 response, as I expected, so I had to fall back to my secondary authentication method, the custom header.</p>
+<p>I could, of course, retrieve my OAuth2 token out of band and then pass it to MCP Remote, but that&rsquo;s cumbersome and boring. For now, I&rsquo;m satisfied with the custom header approach. It&rsquo;s only a matter of time before Claude Desktop matures enough to fully support Remote MCP servers. Right?</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>For testing purposes, I primarily resort to <a href="https://modelcontextprotocol.io/docs/tools/inspector">MCP Inspector</a>, the reference tool; however, it&rsquo;s also nice to experiment with a reference large language model (LLM), mainly to assess the potential once the server is connected to it.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
       <title>The empire strikes back</title>
       <link>https://nicolaiarocci.com/the-empire-strikes-back/</link>
       <pubDate>Sat, 14 Jun 2025 10:57:48 +0200</pubDate>
@@ -134,6 +207,42 @@ Today, I’d like to try to open things up a bit.</p></blockquote>
 <li>2025: Corporations use digital tools to steal intellectual property from individuals.</li>
 </ul>
 <p>The empire strikes back.</p></blockquote>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Agentic coding recommendations</title>
+      <link>https://nicolaiarocci.com/agentic-coding-recommendations/</link>
+      <pubDate>Thu, 12 Jun 2025 18:15:42 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/agentic-coding-recommendations/</guid>
+      <description>&lt;p&gt;Armin Ronacher is on a roll. He just published his &lt;a href=&#34;https://lucumr.pocoo.org/2025/6/12/agentic-coding/&#34;&gt;Agentic Coding Reccomendations&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;On the topic of Agenting Coding he recently published:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://lucumr.pocoo.org/2025/6/4/changes/&#34;&gt;AI Changes Everything&lt;/a&gt; (you should read it)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lucumr.pocoo.org/2025/6/10/genai-criticism/&#34;&gt;GenAI Criticism and Moral Quandaries&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Both already &lt;a href=&#34;http://localhost:1313/ai-changes-everything/&#34;&gt;reported&lt;/a&gt;.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Armin Ronacher is on a roll. He just published his <a href="https://lucumr.pocoo.org/2025/6/12/agentic-coding/">Agentic Coding Reccomendations</a>.</p>
+<p>On the topic of Agenting Coding he recently published:</p>
+<ul>
+<li><a href="https://lucumr.pocoo.org/2025/6/4/changes/">AI Changes Everything</a> (you should read it)</li>
+<li><a href="https://lucumr.pocoo.org/2025/6/10/genai-criticism/">GenAI Criticism and Moral Quandaries</a></li>
+</ul>
+<p>Both already <a href="http://localhost:1313/ai-changes-everything/">reported</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>MCP or connecting our apps to LLMs</title>
+      <link>https://nicolaiarocci.com/mcp-or-connecting-our-apps-to-llms/</link>
+      <pubDate>Thu, 12 Jun 2025 09:23:46 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/mcp-or-connecting-our-apps-to-llms/</guid>
+      <description>&lt;p&gt;Last night, I presented a session titled &lt;a href=&#34;https://www.meetup.com/devromagna/events/308179204/&#34;&gt;MCP or Connecting our Apps to LLMs&lt;/a&gt; at DevRomagna, our local developer&amp;rsquo;s community, and I think it went well.&lt;/p&gt;
+&lt;p&gt;I had intended to record the audio with the idea of transcribing it with MacWhisper and then publishing it here on my site, but I forgot to do so, which is a pity.&lt;/p&gt;
+&lt;p&gt;The session lasted almost two hours (I had thought it would take less time), during which I deviated somewhat from the script, using slides as a guide that were essentially an adaptation of the notes I had taken during my experiments. I showed the code for the MCP servers I created (stdio and streamable HTTP transports), demonstrated the various ways to link them with LLMs (Claude Desktop, Claude Code, and VS Code), and then shared my thoughts on the entire matter.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Last night, I presented a session titled <a href="https://www.meetup.com/devromagna/events/308179204/">MCP or Connecting our Apps to LLMs</a> at DevRomagna, our local developer&rsquo;s community, and I think it went well.</p>
+<p>I had intended to record the audio with the idea of transcribing it with MacWhisper and then publishing it here on my site, but I forgot to do so, which is a pity.</p>
+<p>The session lasted almost two hours (I had thought it would take less time), during which I deviated somewhat from the script, using slides as a guide that were essentially an adaptation of the notes I had taken during my experiments. I showed the code for the MCP servers I created (stdio and streamable HTTP transports), demonstrated the various ways to link them with LLMs (Claude Desktop, Claude Code, and VS Code), and then shared my thoughts on the entire matter.</p>
+<p>I received quite a bit of feedback, both in the room and afterward, when we moved to a pub where we stayed quite late by my standards, discussing AI, LLMs, and their impact on our daily work, which we can certainly define as significant, if not massive. Everyone uses LLMs&rsquo; UIs at their job to some extent, but very few are currently into agentic coding (the idea of a future session on that topic is tempting).</p>
+<p>One remarkable tool that surfaced during the pub chat is <a href="https://github.com/Cinnamon/kotaemon">Kotaemon</a>, <em>&ldquo;an open-source RAG-based tool for chatting with your documents.&rdquo;</em>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -228,6 +337,35 @@ Today, I’d like to try to open things up a bit.</p></blockquote>
       <guid>https://nicolaiarocci.com/run-your-own-ai/</guid>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://anthonylewis.com/2025/06/01/run-your-own-ai/&#34;&gt;Run Your Own AI&lt;/a&gt;&lt;/strong&gt; by Anthony Lewis is a concise tutorial on how to run large language models on your laptop from the command line via &lt;a href=&#34;https://simonwillison.net/2025/Feb/15/llm-mlx/&#34;&gt;llm-mlx&lt;/a&gt;. It focuses on Macs M-series, but it&amp;rsquo;s also suitable for other hardware. Saving it here for a friend.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><strong><a href="https://anthonylewis.com/2025/06/01/run-your-own-ai/">Run Your Own AI</a></strong> by Anthony Lewis is a concise tutorial on how to run large language models on your laptop from the command line via <a href="https://simonwillison.net/2025/Feb/15/llm-mlx/">llm-mlx</a>. It focuses on Macs M-series, but it&rsquo;s also suitable for other hardware. Saving it here for a friend.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Why do earthworms appear on wet roads?</title>
+      <link>https://nicolaiarocci.com/why-do-earthworms-appear-on-wet-roads/</link>
+      <pubDate>Fri, 14 Mar 2025 08:52:37 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/why-do-earthworms-appear-on-wet-roads/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s raining a lot these days, and during my early morning walk, I see many earthworms popping out of the ground and filling the sidewalks and the streets. I observed this behaviour many times in similarly wet conditions. So I asked Claude: &lt;em&gt;Why do earthworms appear on wet roads?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;When it rains heavily, streets fill with earthworms for several reasons:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Earthworms breathe through their skin, which must remain moist. During heavy rainfall, their underground tunnels flood, forcing them to surface to avoid drowning.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>It&rsquo;s raining a lot these days, and during my early morning walk, I see many earthworms popping out of the ground and filling the sidewalks and the streets. I observed this behaviour many times in similarly wet conditions. So I asked Claude: <em>Why do earthworms appear on wet roads?</em></p>
+<p>When it rains heavily, streets fill with earthworms for several reasons:</p>
+<ol>
+<li>
+<p>Earthworms breathe through their skin, which must remain moist. During heavy rainfall, their underground tunnels flood, forcing them to surface to avoid drowning.</p>
+</li>
+<li>
+<p>The vibrations of raindrops on the soil can be mistaken by earthworms for those produced by predators like moles, causing them to flee to the surface.</p>
+</li>
+<li>
+<p>Rainy periods are ideal for earthworms to move and find new habitats or mates, as they can travel on the moist surface without risking dehydration.</p>
+</li>
+<li>
+<p>On paved surfaces like roads and sidewalks, water tends to accumulate more than in soil, creating conditions that attract earthworms.</p>
+</li>
+</ol>
+<p>Unfortunately, once earthworms reach the asphalt, they often become trapped and unable to return to the soil, becoming easy prey or risking dehydration when the sun returns.</p>
 ]]></content:encoded>
     </item>
     <item>

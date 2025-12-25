@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>John Carmack on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/john-carmack/</link>
+    <description>Recent content in John Carmack on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
+    <language>en</language>
+    <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
+    <lastBuildDate>Mon, 26 Feb 2024 15:34:07 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/john-carmack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quoting John Carmack on AI</title>
+      <link>https://nicolaiarocci.com/quoting-john-carmack-on-ai/</link>
+      <pubDate>Mon, 26 Feb 2024 15:34:07 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/quoting-john-carmack-on-ai/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;“Coding” was never the source of value, and people shouldn’t get overly
+attached to it. Problem solving is the core skill. The discipline and precision
+demanded by traditional programming will remain valuable transferable
+attributes, but they won’t be a barrier to entry.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&amp;ndash; &lt;a href=&#34;https://twitter.com/ID_AA_Carmack/status/1762110222321975442&#34;&gt;John Carmack&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;d be tempted to call bullshit on this one, but it&amp;rsquo;s coming from Carmack, so
+hey, let me think about it for a minute (it&amp;rsquo;s not the first time I&amp;rsquo;ve
+&lt;a href=&#34;https://nicolaiarocci.com/quoting-john-carmack/&#34;&gt;caught him&lt;/a&gt; endorsing AI).&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>“Coding” was never the source of value, and people shouldn’t get overly
+attached to it. Problem solving is the core skill. The discipline and precision
+demanded by traditional programming will remain valuable transferable
+attributes, but they won’t be a barrier to entry.</p></blockquote>
+<p>&ndash; <a href="https://twitter.com/ID_AA_Carmack/status/1762110222321975442">John Carmack</a></p>
+<p>I&rsquo;d be tempted to call bullshit on this one, but it&rsquo;s coming from Carmack, so
+hey, let me think about it for a minute (it&rsquo;s not the first time I&rsquo;ve
+<a href="/quoting-john-carmack/">caught him</a> endorsing AI).</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Quoting John Carmack</title>
+      <link>https://nicolaiarocci.com/quoting-john-carmack/</link>
+      <pubDate>Mon, 20 Mar 2023 07:05:25 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/quoting-john-carmack/</guid>
+      <description>&lt;p&gt;John Carmack, while advising on the advent of AI and its influence on the Software Engineering profession:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Software is just a tool to help accomplish something for people &amp;ndash; many programmers never understood that. Keep your
+eyes on the delivered value, and don&amp;rsquo;t over-focus on the specifics of the tools.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;I have often fallen into the over-focusing trap in my career. The whole thread is well worth reading:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Quoting John Carmack&#34; loading=&#34;lazy&#34; src=&#34;https://nicolaiarocci.com/images/quoting-john-carmack.jpg&#34;&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>John Carmack, while advising on the advent of AI and its influence on the Software Engineering profession:</p>
+<blockquote>
+<p>Software is just a tool to help accomplish something for people &ndash; many programmers never understood that. Keep your
+eyes on the delivered value, and don&rsquo;t over-focus on the specifics of the tools.</p></blockquote>
+<p>I have often fallen into the over-focusing trap in my career. The whole thread is well worth reading:</p>
+<p><img alt="Quoting John Carmack" loading="lazy" src="/images/quoting-john-carmack.jpg"></p>
+<p>(<a href="https://twitter.com/ID_AA_Carmack/status/1637087219591659520"><em>via</em></a>)</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
