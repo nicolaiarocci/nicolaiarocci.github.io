@@ -699,9 +699,12 @@ Emmanuel Carrère</li>
       <description>&lt;p&gt;I speak at conferences and meetups. Here is a list of my most recent
 engagements. You may also want to check my &lt;a href=&#34;https://sessionize.com/nicolaiarocci/&#34;&gt;Sessionize&lt;/a&gt; profile. i&lt;/p&gt;
 &lt;p&gt;Want me to talk at your event? &lt;a href=&#34;mailto:info@nicolaiarocci.com&#34;&gt;Get in touch&lt;/a&gt;!&lt;/p&gt;
-&lt;h3 id=&#34;2025&#34;&gt;2025&lt;/h3&gt;
+&lt;h3 id=&#34;2026&#34;&gt;2026&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;.NET Saturday 2026, Pordenone: &lt;a href=&#34;https://dotnetsat2026pn.1nn0va.it/#schedule&#34;&gt;Feature Flags e configurazioni dinamiche in C# e .NET&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2025&#34;&gt;2025&lt;/h3&gt;
+&lt;ul&gt;
 &lt;li&gt;WPC 2025, Milan: &lt;a href=&#34;https://nicolaiarocci.com/code-from-my-session-at-wpc-2025/&#34;&gt;Feature Flags e configurazioni dinamiche in C# e .NET&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;.NET Conference 2025, Milan: &lt;a href=&#34;https://nicolaiarocci.com/my-session-on-mcp-servers-at-dotnet-conference-italia-2025/&#34;&gt;Integrare LLM alle nostre applicazioni in .NET con MCP&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;DevMarche Summer AI Afternoon: &lt;a href=&#34;https://www.eventbrite.it/e/summer-ai-afternoon-tickets-1428458029419&#34;&gt;MCP or how to connect our apps to LLMs&lt;/a&gt;&lt;/li&gt;
@@ -805,9 +808,12 @@ engagements. You may also want to check my &lt;a href=&#34;https://sessionize.co
       <content:encoded><![CDATA[<p>I speak at conferences and meetups. Here is a list of my most recent
 engagements. You may also want to check my <a href="https://sessionize.com/nicolaiarocci/">Sessionize</a> profile. i</p>
 <p>Want me to talk at your event? <a href="mailto:info@nicolaiarocci.com">Get in touch</a>!</p>
-<h3 id="2025">2025</h3>
+<h3 id="2026">2026</h3>
 <ul>
 <li>.NET Saturday 2026, Pordenone: <a href="https://dotnetsat2026pn.1nn0va.it/#schedule">Feature Flags e configurazioni dinamiche in C# e .NET</a></li>
+</ul>
+<h3 id="2025">2025</h3>
+<ul>
 <li>WPC 2025, Milan: <a href="/code-from-my-session-at-wpc-2025/">Feature Flags e configurazioni dinamiche in C# e .NET</a></li>
 <li>.NET Conference 2025, Milan: <a href="/my-session-on-mcp-servers-at-dotnet-conference-italia-2025/">Integrare LLM alle nostre applicazioni in .NET con MCP</a></li>
 <li>DevMarche Summer AI Afternoon: <a href="https://www.eventbrite.it/e/summer-ai-afternoon-tickets-1428458029419">MCP or how to connect our apps to LLMs</a></li>
