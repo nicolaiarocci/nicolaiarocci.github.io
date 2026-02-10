@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nolan Lawson on Nicola Iarocci</title>
+    <link>https://nicolaiarocci.com/tags/nolan-lawson/</link>
+    <description>Recent content in Nolan Lawson on Nicola Iarocci</description>
+    <generator>Hugo -- 0.143.1</generator>
+    <language>en</language>
+    <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
+    <lastBuildDate>Tue, 10 Feb 2026 11:06:04 +0100</lastBuildDate>
+    <atom:link href="https://nicolaiarocci.com/tags/nolan-lawson/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We mourn our craft</title>
+      <link>https://nicolaiarocci.com/we-mourn-our-craft/</link>
+      <pubDate>Tue, 10 Feb 2026 11:06:04 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/we-mourn-our-craft/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Someday years from now we will look back on the era when we were the last generation to code by hand. We’ll laugh and explain to our grandkids how silly it was that we typed out JavaScript syntax with our fingers. But secretly we’ll miss it.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We’ll miss the feeling of holding code in our hands and molding it like clay in the caress of a master sculptor. We’ll miss the sleepless wrangling of some odd bug that eventually relents to the debugger at 2 AM. We’ll miss creating something we feel proud of, something true and right and good. We’ll miss the satisfaction of the artist’s signature at the bottom of the oil painting, the GitHub repo saying “I made this.”&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Someday years from now we will look back on the era when we were the last generation to code by hand. We’ll laugh and explain to our grandkids how silly it was that we typed out JavaScript syntax with our fingers. But secretly we’ll miss it.</p></blockquote>
+<blockquote>
+<p>We’ll miss the feeling of holding code in our hands and molding it like clay in the caress of a master sculptor. We’ll miss the sleepless wrangling of some odd bug that eventually relents to the debugger at 2 AM. We’ll miss creating something we feel proud of, something true and right and good. We’ll miss the satisfaction of the artist’s signature at the bottom of the oil painting, the GitHub repo saying “I made this.”</p></blockquote>
+<p>&ndash; Nolan Lawson, <a href="https://nolanlawson.com/2026/02/07/we-mourn-our-craft/"><em>We mourn our craft</em></a></p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
