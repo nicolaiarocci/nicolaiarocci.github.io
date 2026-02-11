@@ -7,8 +7,17 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Mon, 22 Dec 2025 10:49:22 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 11 Feb 2026 10:44:54 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eve 2.2.5</title>
+      <link>https://nicolaiarocci.com/eve-2.2.5/</link>
+      <pubDate>Wed, 11 Feb 2026 10:44:54 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/eve-2.2.5/</guid>
+      <description>&lt;p&gt;Eve v2.2.5 was &lt;a href=&#34;https://pypi.org/project/Eve/2.2.5/&#34;&gt;just released&lt;/a&gt; on PyPI. It brings the pagination fix discussed in a &lt;a href=&#34;https://nicolaiarocci.com/an-ai-generated-pull-request-that-actually-makes-sense/&#34;&gt;previous post&lt;/a&gt;. Many thanks to Calvin Smith per contributing to the project.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Eve v2.2.5 was <a href="https://pypi.org/project/Eve/2.2.5/">just released</a> on PyPI. It brings the pagination fix discussed in a <a href="/an-ai-generated-pull-request-that-actually-makes-sense/">previous post</a>. Many thanks to Calvin Smith per contributing to the project.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Rediscovering a 2021 podcast on Python, .NET, and open source</title>
       <link>https://nicolaiarocci.com/rediscovering-a-2021-podcast-on-python-.net-and-open-source/</link>

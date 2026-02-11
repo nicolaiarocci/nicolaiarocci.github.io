@@ -20,19 +20,25 @@
     <loc>https://nicolaiarocci.com/post/</loc>
     <lastmod>2026-12-31T07:36:24+01:00</lastmod>
   </url><url>
+    <loc>https://nicolaiarocci.com/tags/eve/</loc>
+    <lastmod>2026-02-11T10:44:54+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/eve-2.2.5/</loc>
+    <lastmod>2026-02-11T10:44:54+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/open-source/</loc>
+    <lastmod>2026-02-11T10:44:54+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/python/</loc>
+    <lastmod>2026-02-11T10:44:54+01:00</lastmod>
+  </url><url>
+    <loc>https://nicolaiarocci.com/tags/</loc>
+    <lastmod>2026-02-11T10:44:54+01:00</lastmod>
+  </url><url>
     <loc>https://nicolaiarocci.com/tags/ai/</loc>
     <lastmod>2026-02-11T09:57:15+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/an-ai-generated-pull-request-that-actually-makes-sense/</loc>
-    <lastmod>2026-02-11T09:57:15+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/eve/</loc>
-    <lastmod>2026-02-11T09:57:15+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/open-source/</loc>
-    <lastmod>2026-02-11T09:57:15+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/</loc>
     <lastmod>2026-02-11T09:57:15+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/links/</loc>
@@ -108,9 +114,6 @@
     <lastmod>2025-12-22T10:49:22+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/tags/podcast/</loc>
-    <lastmod>2025-12-22T10:49:22+01:00</lastmod>
-  </url><url>
-    <loc>https://nicolaiarocci.com/tags/python/</loc>
     <lastmod>2025-12-22T10:49:22+01:00</lastmod>
   </url><url>
     <loc>https://nicolaiarocci.com/rediscovering-a-2021-podcast-on-python-.net-and-open-source/</loc>
