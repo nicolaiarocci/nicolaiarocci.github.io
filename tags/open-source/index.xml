@@ -7,8 +7,17 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Wed, 11 Feb 2026 10:44:54 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 10:38:20 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eve 2.3.0</title>
+      <link>https://nicolaiarocci.com/eve-2.3.0/</link>
+      <pubDate>Thu, 19 Mar 2026 10:38:20 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/eve-2.3.0/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://pypi.org/project/Eve/2.3.0/&#34;&gt;Eve v2.3&lt;/a&gt; was just released on PyPI. It adds &lt;code&gt;optimize_pagination_for_speed&lt;/code&gt;, a resource-level setting that allows granular control, overriding the equivalent global option that goes by the same name. Many thanks to Emanuele Di Giacomo for &lt;a href=&#34;https://github.com/pyeve/eve/pull/1569&#34;&gt;contributing&lt;/a&gt; to the project.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><a href="https://pypi.org/project/Eve/2.3.0/">Eve v2.3</a> was just released on PyPI. It adds <code>optimize_pagination_for_speed</code>, a resource-level setting that allows granular control, overriding the equivalent global option that goes by the same name. Many thanks to Emanuele Di Giacomo for <a href="https://github.com/pyeve/eve/pull/1569">contributing</a> to the project.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Eve 2.2.5</title>
       <link>https://nicolaiarocci.com/eve-2.2.5/</link>
