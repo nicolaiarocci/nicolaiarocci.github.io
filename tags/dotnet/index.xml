@@ -7,8 +7,19 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Fri, 05 Dec 2025 10:07:42 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2026 09:05:32 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/dotnet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fattura Elettronica 4.0.6</title>
+      <link>https://nicolaiarocci.com/fattura-elettronica-4.0.6/</link>
+      <pubDate>Sun, 22 Mar 2026 09:05:32 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/fattura-elettronica-4.0.6/</guid>
+      <description>&lt;p&gt;A couple of days ago I released &lt;a href=&#34;https://www.nuget.org/packages/FatturaElettronica/4.0.6&#34;&gt;FatturaElettronica 4.0.6&lt;/a&gt;. It adds support for legacy &lt;code&gt;windows-1252&lt;/code&gt; encoding to both XML and P7M invoices, a long-standing annoyance that could previously be circumvented via external code.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;windows-1252&lt;/code&gt; encoding in Italian e-invoices has been a persistent headache — it&amp;rsquo;s technically outside the FatturaPA spec (which mandates UTF-8), but it crops up often enough in real-world invoices from older or misconfigured billing systems that users kept running into it. The &lt;a href=&#34;https://invoicetronic.com&#34;&gt;Invoicetronic&lt;/a&gt; stack has been updated accordingly.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>A couple of days ago I released <a href="https://www.nuget.org/packages/FatturaElettronica/4.0.6">FatturaElettronica 4.0.6</a>. It adds support for legacy <code>windows-1252</code> encoding to both XML and P7M invoices, a long-standing annoyance that could previously be circumvented via external code.</p>
+<p><code>windows-1252</code> encoding in Italian e-invoices has been a persistent headache — it&rsquo;s technically outside the FatturaPA spec (which mandates UTF-8), but it crops up often enough in real-world invoices from older or misconfigured billing systems that users kept running into it. The <a href="https://invoicetronic.com">Invoicetronic</a> stack has been updated accordingly.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Code from my session at WPC 2025</title>
       <link>https://nicolaiarocci.com/code-from-my-session-at-wpc-2025/</link>
