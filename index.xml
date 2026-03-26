@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Tue, 24 Mar 2026 09:15:50 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 10:35:55 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccolo Libro di MongoDB</title>
@@ -1044,6 +1044,22 @@ far can possibly find out how far one can go (T.S. Eliot)&rdquo;</em></p>
 <p>Via <a href="mailto:nicola@nicolaiarocci.com">email</a>.</p>
 <h2 id="no-guest-posts">No guest posts</h2>
 <p>This is my personal website. I will not accept any “guest posts” here, not for compensation and not for any “good cause”. You can stop asking.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Markdown ate the world</title>
+      <link>https://nicolaiarocci.com/markdown-ate-the-world/</link>
+      <pubDate>Thu, 26 Mar 2026 10:35:55 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/markdown-ate-the-world/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Markdown doesn&amp;rsquo;t do most of what those formats do. You can&amp;rsquo;t set margins. You can&amp;rsquo;t do columns. You can&amp;rsquo;t embed a pivot table or track changes or add a watermark that says DRAFT across every page in 45-degree gray Calibri. Markdown doesn&amp;rsquo;t even have a native way to change the font color.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;And none of that mattered, because it turns out most writing isn&amp;rsquo;t about any of those things. Most writing is about getting words down in a structure that makes sense, and then getting those words in front of other people. Markdown does that with less friction than anything else ever created. You can learn it in ten minutes, write it in any text editor on any device, read the source file without rendering it, diff it in version control, and convert it to virtually any output format.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Markdown doesn&rsquo;t do most of what those formats do. You can&rsquo;t set margins. You can&rsquo;t do columns. You can&rsquo;t embed a pivot table or track changes or add a watermark that says DRAFT across every page in 45-degree gray Calibri. Markdown doesn&rsquo;t even have a native way to change the font color.</p></blockquote>
+<blockquote>
+<p>And none of that mattered, because it turns out most writing isn&rsquo;t about any of those things. Most writing is about getting words down in a structure that makes sense, and then getting those words in front of other people. Markdown does that with less friction than anything else ever created. You can learn it in ten minutes, write it in any text editor on any device, read the source file without rendering it, diff it in version control, and convert it to virtually any output format.</p></blockquote>
+<p><a href="https://matduggan.com/markdown-ate-the-world/">Markdown Ate The World</a> is a nice and well-informed article. I appreciated the early brief history of word-processing file formats. I didn&rsquo;t know, for example, that <code>.docx</code> is just a zipped XML file. Oh, and I vividly remember the old times, when <code>.doc</code> files were as fragile as candles in the wind.</p>
 ]]></content:encoded>
     </item>
     <item>
