@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Sun, 07 Jun 2026 10:11:11 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 08:38:22 +0200</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccolo Libro di MongoDB</title>
@@ -1062,6 +1062,19 @@ far can possibly find out how far one can go (T.S. Eliot)&rdquo;</em></p>
 <p>Via <a href="mailto:nicola@nicolaiarocci.com">email</a>.</p>
 <h2 id="no-guest-posts">No guest posts</h2>
 <p>This is my personal website. I will not accept any “guest posts” here, not for compensation and not for any “good cause”. You can stop asking.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Armin Ronacher on the Mythos/Fable 5 shutdown</title>
+      <link>https://nicolaiarocci.com/armin-ronacher-on-the-mythos/fable-5-shutdown/</link>
+      <pubDate>Sun, 14 Jun 2026 08:38:22 +0200</pubDate>
+      <guid>https://nicolaiarocci.com/armin-ronacher-on-the-mythos/fable-5-shutdown/</guid>
+      <description>&lt;p&gt;Armin Ronacher has a &lt;a href=&#34;https://lucumr.pocoo.org/2026/6/13/americans-only/&#34;&gt;good piece&lt;/a&gt; on the recent &lt;a href=&#34;https://www.anthropic.com/news/fable-mythos-access&#34;&gt;Mythos/Fable 5 shutdown&lt;/a&gt; as seen from a European perspective.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We are on a clear path towards a world of division. One should think that if a [LLM] model is too dangerous for everyone, then it is too dangerous for Americans too. Instead the US is treating these models like weapons that need to be controlled. It is not just about capabilities, it is about racism and nationalism. If you have the wrong passport, you are not to be trusted. This is a very different thing from safety, and Europeans should pay close attention to it.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Armin Ronacher has a <a href="https://lucumr.pocoo.org/2026/6/13/americans-only/">good piece</a> on the recent <a href="https://www.anthropic.com/news/fable-mythos-access">Mythos/Fable 5 shutdown</a> as seen from a European perspective.</p>
+<blockquote>
+<p>We are on a clear path towards a world of division. One should think that if a [LLM] model is too dangerous for everyone, then it is too dangerous for Americans too. Instead the US is treating these models like weapons that need to be controlled. It is not just about capabilities, it is about racism and nationalism. If you have the wrong passport, you are not to be trusted. This is a very different thing from safety, and Europeans should pay close attention to it.</p></blockquote>
 ]]></content:encoded>
     </item>
     <item>
