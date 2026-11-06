@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Tue, 28 Jul 2026 17:06:11 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 08:48:10 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccolo Libro di MongoDB</title>
@@ -751,6 +751,7 @@ engagements. You may also want to check my &lt;a href=&#34;https://sessionize.co
 &lt;p&gt;Want me to talk at your event? &lt;a href=&#34;mailto:info@nicolaiarocci.com&#34;&gt;Get in touch&lt;/a&gt;!&lt;/p&gt;
 &lt;h3 id=&#34;2026&#34;&gt;2026&lt;/h3&gt;
 &lt;ul&gt;
+&lt;li&gt;.NET Conference Italia 2026, Milan: &lt;a href=&#34;https://nicolaiarocci.com/speaking-at-the-dotnet-conference-italia-2026/&#34;&gt;.NET 11: non chiamatelo un semplice upgrade&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;.NET Saturday 2026, Pordenone: &lt;a href=&#34;https://dotnetsat2026pn.1nn0va.it/#schedule&#34;&gt;Feature Flags e configurazioni dinamiche in C# e .NET&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;2025&#34;&gt;2025&lt;/h3&gt;
@@ -860,6 +861,7 @@ engagements. You may also want to check my <a href="https://sessionize.com/nicol
 <p>Want me to talk at your event? <a href="mailto:info@nicolaiarocci.com">Get in touch</a>!</p>
 <h3 id="2026">2026</h3>
 <ul>
+<li>.NET Conference Italia 2026, Milan: <a href="/speaking-at-the-dotnet-conference-italia-2026/">.NET 11: non chiamatelo un semplice upgrade</a></li>
 <li>.NET Saturday 2026, Pordenone: <a href="https://dotnetsat2026pn.1nn0va.it/#schedule">Feature Flags e configurazioni dinamiche in C# e .NET</a></li>
 </ul>
 <h3 id="2025">2025</h3>
@@ -1068,6 +1070,19 @@ far can possibly find out how far one can go (T.S. Eliot)&rdquo;</em></p>
 <p>Via <a href="mailto:nicola@nicolaiarocci.com">email</a>.</p>
 <h2 id="no-guest-posts">No guest posts</h2>
 <p>This is my personal website. I will not accept any “guest posts” here, not for compensation and not for any “good cause”. You can stop asking.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Speaking at the .NET Conference Italia 2026</title>
+      <link>https://nicolaiarocci.com/speaking-at-the-dotnet-conference-italia-2026/</link>
+      <pubDate>Fri, 06 Nov 2026 08:48:10 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/speaking-at-the-dotnet-conference-italia-2026/</guid>
+      <description>&lt;p&gt;Every new .NET release comes with the same practical question: which of the many new features are actually worth digging into for our day-to-day work? It&amp;rsquo;s a question I ask myself every November, and once again I&amp;rsquo;ll be trying to answer it out loud, in front of an audience.&lt;/p&gt;
+&lt;p&gt;On November 18th I&amp;rsquo;ll be speaking at the &lt;a href=&#34;https://www.aspitalia.com/eventi/101/.NET-Conference-Italia-2026-Milano.aspx&#34;&gt;.NET Conference Italia 2026&lt;/a&gt; in Milan. My session, titled &amp;ldquo;.NET 11: don&amp;rsquo;t call it just an upgrade&amp;rdquo; (the original Italian title is &amp;ldquo;non chiamatelo un semplice upgrade&amp;rdquo;), opens the day right after the welcome. We&amp;rsquo;ll go through the main new features of .NET 11, from the runtime to the language and the platform, and look at how they affect the way we build modern applications.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Every new .NET release comes with the same practical question: which of the many new features are actually worth digging into for our day-to-day work? It&rsquo;s a question I ask myself every November, and once again I&rsquo;ll be trying to answer it out loud, in front of an audience.</p>
+<p>On November 18th I&rsquo;ll be speaking at the <a href="https://www.aspitalia.com/eventi/101/.NET-Conference-Italia-2026-Milano.aspx">.NET Conference Italia 2026</a> in Milan. My session, titled &ldquo;.NET 11: don&rsquo;t call it just an upgrade&rdquo; (the original Italian title is &ldquo;non chiamatelo un semplice upgrade&rdquo;), opens the day right after the welcome. We&rsquo;ll go through the main new features of .NET 11, from the runtime to the language and the platform, and look at how they affect the way we build modern applications.</p>
+<p>This is becoming something of a tradition. In past years, I covered <a href="/i-am-speaking-at-the-dotnet-conference-italia-2023/">C# 12</a> and <a href="/speaking-at-the-dotnet-conference-italia-2024/">C# 13</a> at this same conference, and last year I <a href="/my-session-on-mcp-servers-at-dotnet-conference-italia-2025/">talked about MCP servers</a>. Preparing a &ldquo;what&rsquo;s new&rdquo; session is a great excuse to go through the release notes properly rather than skimming them, and there&rsquo;s no better way to consolidate what you&rsquo;ve learned than explaining it to a room full of people who do this for a living.</p>
+<p>The conference takes place at Lodestar, in Via Fabio Filzi. Attendance is free; you just need to register. If you work with .NET, it&rsquo;s a good chance to catch up on where the platform is going and to compare notes with fellow developers. If you&rsquo;re there, come and say hi!</p>
 ]]></content:encoded>
     </item>
     <item>

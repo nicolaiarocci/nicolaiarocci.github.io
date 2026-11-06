@@ -7,8 +7,21 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>Produced / Written / Maintained by Nicola Iarocci since 2010</copyright>
-    <lastBuildDate>Fri, 05 Dec 2025 10:07:42 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 08:48:10 +0100</lastBuildDate>
     <atom:link href="https://nicolaiarocci.com/tags/speaking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Speaking at the .NET Conference Italia 2026</title>
+      <link>https://nicolaiarocci.com/speaking-at-the-dotnet-conference-italia-2026/</link>
+      <pubDate>Fri, 06 Nov 2026 08:48:10 +0100</pubDate>
+      <guid>https://nicolaiarocci.com/speaking-at-the-dotnet-conference-italia-2026/</guid>
+      <description>&lt;p&gt;Every new .NET release comes with the same practical question: which of the many new features are actually worth digging into for our day-to-day work? It&amp;rsquo;s a question I ask myself every November, and once again I&amp;rsquo;ll be trying to answer it out loud, in front of an audience.&lt;/p&gt;
+&lt;p&gt;On November 18th I&amp;rsquo;ll be speaking at the &lt;a href=&#34;https://www.aspitalia.com/eventi/101/.NET-Conference-Italia-2026-Milano.aspx&#34;&gt;.NET Conference Italia 2026&lt;/a&gt; in Milan. My session, titled &amp;ldquo;.NET 11: don&amp;rsquo;t call it just an upgrade&amp;rdquo; (the original Italian title is &amp;ldquo;non chiamatelo un semplice upgrade&amp;rdquo;), opens the day right after the welcome. We&amp;rsquo;ll go through the main new features of .NET 11, from the runtime to the language and the platform, and look at how they affect the way we build modern applications.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Every new .NET release comes with the same practical question: which of the many new features are actually worth digging into for our day-to-day work? It&rsquo;s a question I ask myself every November, and once again I&rsquo;ll be trying to answer it out loud, in front of an audience.</p>
+<p>On November 18th I&rsquo;ll be speaking at the <a href="https://www.aspitalia.com/eventi/101/.NET-Conference-Italia-2026-Milano.aspx">.NET Conference Italia 2026</a> in Milan. My session, titled &ldquo;.NET 11: don&rsquo;t call it just an upgrade&rdquo; (the original Italian title is &ldquo;non chiamatelo un semplice upgrade&rdquo;), opens the day right after the welcome. We&rsquo;ll go through the main new features of .NET 11, from the runtime to the language and the platform, and look at how they affect the way we build modern applications.</p>
+<p>This is becoming something of a tradition. In past years, I covered <a href="/i-am-speaking-at-the-dotnet-conference-italia-2023/">C# 12</a> and <a href="/speaking-at-the-dotnet-conference-italia-2024/">C# 13</a> at this same conference, and last year I <a href="/my-session-on-mcp-servers-at-dotnet-conference-italia-2025/">talked about MCP servers</a>. Preparing a &ldquo;what&rsquo;s new&rdquo; session is a great excuse to go through the release notes properly rather than skimming them, and there&rsquo;s no better way to consolidate what you&rsquo;ve learned than explaining it to a room full of people who do this for a living.</p>
+<p>The conference takes place at Lodestar, in Via Fabio Filzi. Attendance is free; you just need to register. If you work with .NET, it&rsquo;s a good chance to catch up on where the platform is going and to compare notes with fellow developers. If you&rsquo;re there, come and say hi!</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Code from my session at WPC 2025</title>
       <link>https://nicolaiarocci.com/code-from-my-session-at-wpc-2025/</link>
