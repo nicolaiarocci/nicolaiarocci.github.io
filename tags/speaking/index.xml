@@ -19,6 +19,7 @@
       <content:encoded><![CDATA[<p>I&rsquo;m speaking at the <a href="https://www.aspitalia.com/eventi/101/.NET-Conference-Italia-2026-Milano.aspx">.NET Conference Italia 2026</a> in Milan on November 18th. My session is titled &ldquo;.NET 11: non chiamatelo un semplice upgrade&rdquo; (roughly, &ldquo;don&rsquo;t call it just an upgrade&rdquo;), and it opens the day right after the welcome. I&rsquo;ll go through what&rsquo;s new in .NET 11 (runtime, language, platform) and try to figure out which features are actually worth your time.</p>
 <p>It&rsquo;s becoming a habit. I did <a href="/i-am-speaking-at-the-dotnet-conference-italia-2023/">C# 12</a> and <a href="/speaking-at-the-dotnet-conference-italia-2024/">C# 13</a> here, and last year it was <a href="/my-session-on-mcp-servers-at-dotnet-conference-italia-2025/">MCP servers</a>. I like doing these &ldquo;what&rsquo;s new&rdquo; talks, mostly because they force me to actually read the release notes instead of skimming them. And nothing makes you learn stuff like having to explain it to a room full of people who know it as well as you do (some better, probably).</p>
 <p>The venue is Lodestar, in Via Fabio Filzi. It&rsquo;s free, but you need to register. If you&rsquo;re coming, find me and say hi!</p>
+<p><em>Edit</em>: <a href="https://github.com/nicolaiarocci/dotnet11">Demos and slides</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
